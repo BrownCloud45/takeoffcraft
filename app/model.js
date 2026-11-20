@@ -9,6 +9,7 @@
  *           elevation, to stack sheets in 3D) } }
  *   items   [{ id, name, type: linear|area|count, color, unit, heightFt, waste (bp), mat, lab (1/10000 $),
  *              components: [{ id, name, unit, formula, waste, mat, lab }],
+ *              line ('dashed' | 'dotted'; absent: solid) and lineW (screen pixels; absent: 2.5 linear, 2 area): how its marks are drawn,
  *              backout (area items: its marks are back-outs, T14), backoutOf [area item ids it deducts from],
  *              pitch (rise per 12: area items' surface, linear items' rakes and hips — T15), slope (linear: 'rake' | 'hip'),
  *              csi (a CSI MasterFormat number, "09 21 16": groups the estimate by division — 0.5 TK.4),
@@ -333,7 +334,7 @@ export class Takeoff {
       if (next.type !== it.type && s.marks.some((m) => m.item === id && m.kind === it.type)) throw new Error(t('err.item.type'));
       if (s.marks.some((m) => m.item === id && !kinds.has(m.kind))) throw new Error(t('err.item.cond'));
       if (next.type === 'fixed' && next.area && !(s.areas || []).some((a) => a.id === next.area)) delete next.area;
-      for (const k of ['tempK', 'backout', 'backoutOf', 'pitch', 'slope', 'thickFt', 'baseFt', 'headFt', 'conds', 'crew', 'xd', 'csi', 'qty', 'area', 'origin']) if (!(k in next)) delete it[k];     // turned off: the fields go
+      for (const k of ['tempK', 'backout', 'backoutOf', 'pitch', 'slope', 'thickFt', 'baseFt', 'headFt', 'conds', 'crew', 'xd', 'csi', 'qty', 'area', 'origin', 'line', 'lineW']) if (!(k in next)) delete it[k];     // turned off: the fields go
       Object.assign(it, next);
     });
   }
@@ -765,6 +766,11 @@ const int = (v, lo, hi, d = 0) => (Number.isInteger(v) && v >= lo && v <= hi ? v
 export const CSI_RE = /^\d{2}(?: \d{2}(?: \d{2}(?:\.\d{2})?)?)?$/;
 export const csiOk = (v) => typeof v === 'string' && CSI_RE.test(v);
 
+/** An item's line on the sheet: solid (the default), dashed or dotted; and its width, screen pixels at any zoom. */
+export const LINE_STYLES = ['solid', 'dashed', 'dotted'];
+export const LINE_W = { min: 0.5, max: 12, linear: 2.5, area: 2 };
+const lineWOk = (v) => typeof v === 'number' && Number.isFinite(v) && v >= LINE_W.min && v <= LINE_W.max;
+
 export function normalItem(f) {
   const type = TYPES.includes(f.type) ? f.type : 'linear';
   const unit = UNITS_FOR[type].includes(f.unit) ? f.unit : DEFAULT_UNIT[type];
@@ -789,6 +795,8 @@ export function normalItem(f) {
     ...(type === 'linear' && (f.slope === 'rake' || f.slope === 'hip') ? { slope: f.slope } : {}),
     ...(cleanAddonData(f.xd) ? { xd: cleanAddonData(f.xd) } : {}),   // add-ons' own data on the item (0.5 AO.6); kept without the add-on
     ...(csiOk(f.csi) ? { csi: f.csi } : {}),                          // a CSI MasterFormat number (0.5 TK.4: the estimate by division)
+    ...(type !== 'count' && type !== 'fixed' && LINE_STYLES.includes(f.line) && f.line !== 'solid' ? { line: f.line } : {}),   // how its marks' lines are drawn (absent: solid)
+    ...(type !== 'count' && type !== 'fixed' && lineWOk(f.lineW) ? { lineW: f.lineW } : {}),   // their line width in screen pixels (absent: the type's default)
     ...(type === 'area' && f.backout === true ? { backout: true, backoutOf: [...new Set((Array.isArray(f.backoutOf) ? f.backoutOf : []).filter((x) => typeof x === 'string' && x !== String(f.id)).slice(0, LIMITS.items))] } : {}),
     ...(type === 'fixed' ? fixedFields(f) : {}),
   };

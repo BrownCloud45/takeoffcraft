@@ -43,7 +43,9 @@ If you pick a measuring tool first, TakeoffCraft uses the last item of the right
 
 ## Pick the item you draw with
 
-Click an item in the list. It becomes the item new marks go to, and its marks are highlighted on every sheet while the others fade. If the open sheet has none of its marks, TakeoffCraft jumps to a sheet that has. Click the item again to stop highlighting; it stays the item you draw with.
+Click an item in the list. It becomes the item new marks go to, its measuring tool turns on (Linear, Area or Count; a tool already on that fits the item is kept), and the sheets list shows which sheets have its marks. Every item's marks stay in view. The open sheet stays where it is. Click the item again to stop highlighting; it stays the item you draw with.
+
+{{key:Shift}}-click an item to do the same and also jump to a sheet that has its marks, when the open sheet has none.
 
 Clicking a mark with the {{ui:Select}} tool also makes its item the current one.
 
@@ -56,6 +58,8 @@ The item editor (**Item: (name)**) has these fields. Each one is saved when you 
 | {{ui:Name}} | Shown in the list, the tables and the exports. |
 | {{ui:Type}} | Linear, Area or Count. It is locked once the item has marks ("An item with marks keeps its type"). |
 | {{ui:Color}} | The color of its marks on screen and in the marked PDF. |
+| {{ui:Line}} | Linear and area items: whether their lines are drawn {{ui:Solid}}, {{ui:Dashed}} or {{ui:Dotted}}, on screen and in the marked PDF. |
+| {{ui:Line width (px)}} | Linear and area items: how thick their lines are, from 0.5 to 12 pixels (2.5 for linear, 2 for area unless changed). Leave it empty to go back to the default. In the marked PDF the line keeps the same proportion. |
 | {{ui:Unit}} | What the quantity is reported in: LF or m for linear; SF, SY, SQ, ac, ha or m² for area; EA for count. |
 | {{ui:Also measure}} | The other kinds of marks the item takes, each with its own unit. See below. |
 | {{ui:Height}} (linear) | A wall height. The item then also reports wall area (length × height). Runs that came from a BimCraft model carry their doors and windows: those are taken out once, and the item says the gross area, the openings and the net. A takeoff from a BimCraft project that chose a measurement method is measured by that method here too (the note names it, with its source, and says it is unchecked by a quantity surveyor); the method cannot be changed in TakeoffCraft. Bricks or blocks and mortar from a wall type arrive as two components: the units to order and the mortar volume. |

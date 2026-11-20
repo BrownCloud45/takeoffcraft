@@ -12,7 +12,7 @@
  * The original file is never changed: this returns new bytes.
  */
 
-import { quantities, itemQty, condQty } from './model.js';
+import { quantities, itemQty, condQty, LINE_W } from './model.js';
 import { UNITS, fixed } from './units.js';
 import { pathOps, spans } from './geom.js';
 import { t } from './i18n.js';
@@ -72,12 +72,18 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
       }
     };
     for (const m of marks) {
-      const color = hexRgb(PDFLib, items.get(m.item).color);
+      const it = items.get(m.item);
+      const color = hexRgb(PDFLib, it.color);
       ops.push(setStrokingColor(color), setFillingColor(color));
+      // the item's line (solid, dashed or dotted) and width, in proportion to the screen's: w on paper is the type's default width
+      const lw = m.kind === 'count' ? w : w * (it.lineW || LINE_W[m.kind] || 2.5) / (LINE_W[m.kind] || 2.5);
+      const dash = it.line === 'dashed' ? [lw * 3.5, lw * 2.5] : it.line === 'dotted' ? [0, lw * 2.2] : null;
+      const styled = m.kind !== 'count' && (dash || lw !== w);
+      if (styled) ops.push(pushGraphicsState(), setLineWidth(lw), ...(dash ? [setDashPattern(dash, 0)] : []));
       if (m.kind === 'linear') {
         // deduct segments (T2) dashed and thin: drawn, not counted
         for (const sp of spans(m.pts, new Set(m.deducts || []))) {
-          if (sp.deduct) ops.push(pushGraphicsState(), setLineWidth(w * 0.6), setDashPattern([w * 4, w * 3], 0));
+          if (sp.deduct) ops.push(pushGraphicsState(), setLineWidth(lw * 0.6), setDashPattern([w * 4, w * 3], 0));
           path(sp.pts, false); ops.push(stroke());
           if (sp.deduct) ops.push(popGraphicsState());
         }
@@ -97,6 +103,7 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
           appendBezierCurve(x - r, y - k, x - k, y - r, x, y - r), appendBezierCurve(x + k, y - r, x + r, y - k, x + r, y), closePath(),
           PDFOperator.of(Ops.FillNonZeroAndStroke), popGraphicsState());
       }
+      if (styled) ops.push(popGraphicsState());
       drawn++;
     }
     ops.push(popGraphicsState());
