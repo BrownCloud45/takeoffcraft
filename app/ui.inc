@@ -83,7 +83,6 @@ $__tools = [   // group key => [kind, key, icon, label key, title key]; group na
     <?php foreach ($__tools as $__group => $__items): ?>
       <?php $__gname = Lang::t('group.' . strtolower($__group)); /* the English name stays the group's key (data-tb-key): saved toolbar arrangements survive a language change */ ?>
       <div class="tc-tool-group" role="group" data-tb-key="<?= e($__group) ?>" aria-label="<?= e($__gname) ?>">
-        <span class="tc-tool-label" aria-hidden="true"><?= e($__gname) ?></span>
         <div class="tc-tool-row">
           <?php if ($__group === 'Export'): // i18n-ignore: the group's key; one menu button keeps the toolbar one row at 1280 px ?>
             <details class="tc-menu" data-export-menu>
