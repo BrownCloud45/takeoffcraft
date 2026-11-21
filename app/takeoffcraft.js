@@ -1928,23 +1928,28 @@ function init(root) {
     renderItems(); renderItemProps(); renderSheets(); renderQty();
     view.overlayOnly();
   }
-  /** Click an item: highlight its marks everywhere (again: stop) and jump to a sheet that has them. */
+  /** Click an item: highlight its marks everywhere (again: stop). The view stays where it is (TakeoffDesk): when none of the
+   * marks are on the sheet shown, the status bar says so and the sheet list shows which sheets have them. */
   function focusItem(id) {
     if (app.hl === id && app.active === id) { app.hl = null; pickRow = null; announcePick(); renderItems(); renderSheets(); renderQty(); view.overlayOnly(); return; }
     setActive(id);
     const marks = model.state.marks.filter((m) => m.item === id);
     if (marks.length && !marks.some((m) => m.sheet === cur?.key)) {
-      const target = sheets.find((s) => marks.some((m) => m.sheet === s.key));
-      if (target) showSheet(target.key);
-      else status(t('item.marks.closed'));
+      status(sheets.some((s) => marks.some((m) => m.sheet === s.key)) ? t('item.marks.elsewhere') : t('item.marks.closed'));
     }
   }
 
-  /** 0.10 BK.142: select the marks an item's figures came from (its marks on the sheet shown, else on the first sheet that has some). → how many */
-  async function selectMarks(id) {
+  /** 0.10 BK.142: select the marks an item's figures came from, on the sheet shown. → how many, or -1 when they are all on
+   * other sheets. Only `open` (the assistant's marks_select) changes the sheet; a click in the window never moves the view (TakeoffDesk). */
+  async function selectMarks(id, { open = false } = {}) {
     const marks = model.state.marks.filter((m) => m.item === id);
     if (!marks.length) return 0;
-    if (!marks.some((m) => m.sheet === cur?.key)) { const target = sheets.find((s) => marks.some((m) => m.sheet === s.key)); if (!target) { status(t('item.marks.closed')); return 0; } await showSheet(target.key); }
+    if (!marks.some((m) => m.sheet === cur?.key)) {
+      const target = sheets.find((s) => marks.some((m) => m.sheet === s.key));
+      if (!target) { status(t('item.marks.closed')); return -1; }
+      if (!open) { setActive(id); status(t('item.marks.elsewhere')); return -1; }
+      await showSheet(target.key);
+    }
     const here = marks.filter((m) => m.sheet === cur?.key).map((m) => m.id);
     if (app.active !== id) setActive(id);
     if (app.tool !== 'select') setTool('select');

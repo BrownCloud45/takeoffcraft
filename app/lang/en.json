@@ -1866,6 +1866,7 @@
   "item.ready.area": "\"{item}\" is ready: choose Area in the toolbar (or press A) and click on the sheet.",
   "item.ready.count": "\"{item}\" is ready: choose Count in the toolbar (or press C) and click on the sheet.",
   "item.marks.closed": "This item's marks are on PDFs that are not open.",
+  "item.marks.elsewhere": "This item's marks are on other sheets: the sheet list shows where.",
   "item.button.title": "Draw with this item; highlight its marks",
   "item.h.name": "Item: {item}",
   "item.err.name": "An item needs a name.",

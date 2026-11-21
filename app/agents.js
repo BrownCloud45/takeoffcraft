@@ -267,7 +267,7 @@ export function installAgents(app) {
     run: async (a) => {
       const it = st().items.find((x) => x.id === a.item) || st().items.find((x) => x.name.toLowerCase() === String(a.item).toLowerCase());
       if (!it) throw new ToolError('not_found', 'No item "' + a.item + '".', { next: ['Call items_list for the items.'] });
-      const n = await app.selectMarks(it.id);
+      const n = Math.max(0, await app.selectMarks(it.id, { open: true }));   // asked for: opens the sheet that holds them
       return { item: it.name, selected: n, total: st().marks.filter((m) => m.item === it.id).length, ...(n ? {} : { note: 'This item has no marks on an open sheet (a typed quantity has none).' }) };
     } });
   // ---- 0.7 AS.5 (session assistants)

@@ -27,7 +27,7 @@ The last row, **Job total**, adds the material, labor and total columns. The sam
 
 Type into a waste or rate cell and press {{key:Enter}} or click away to apply it. A value TakeoffDesk cannot read is outlined in red and the status bar says why, for example "Type an amount like 12.50."
 
-Click an item's row to highlight its marks on every sheet and jump to a sheet that has them (the same as clicking it under {{ui:Items}}).
+Click an item's row to highlight its marks on every sheet without moving the view (the same as clicking it under {{ui:Items}}).
 
 ## By sheet
 

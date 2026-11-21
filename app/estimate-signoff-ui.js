@@ -105,7 +105,7 @@ export function mountSignoff({ root, model, status, estimate, selectMarks, selec
         if (j === 0 || td.querySelector('input') || !td.textContent.trim() || td.dataset.fig) return;
         td.dataset.fig = itemId;
         td.title = t('signoff.fig.title');
-        td.addEventListener('click', async (e) => { e.stopPropagation(); const n = await selectMarks(itemId); status(n ? t('signoff.fig.selected', { n }) : t('signoff.fig.none')); });
+        td.addEventListener('click', async (e) => { e.stopPropagation(); const n = await selectMarks(itemId); if (n >= 0) status(n ? t('signoff.fig.selected', { n }) : t('signoff.fig.none')); });   // -1: selectMarks said where they are
       });
     }
     const foot = table.querySelector('tfoot tr');
