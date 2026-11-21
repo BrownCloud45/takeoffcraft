@@ -4,6 +4,7 @@
     "description": "TakeoffCraft — Quantity takeoff & estimating (the CadCraft family)",
     "scripts": {
         "start": "node devshell/serve.mjs",
+        "mcp": "node devshell/serve.mjs --mcp",
         "test": "node devshell/test.mjs",
         "fetch-vendor": "node devshell/fetch-vendor.mjs"
     },

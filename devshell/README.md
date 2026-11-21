@@ -11,6 +11,7 @@ node devshell/serve.mjs            # Node 20.19 or newer; no packages to install
 - `?lang=es-MX` — another language (when the app has `app/lang/es-MX.json`); `?lang=en-XA` shows every translated
   string accented and 40% longer, so text that skipped the language files stands out.
 - `--port 8080`, `--host 0.0.0.0`, `--offline` (never download libraries).
+- `--mcp` (or `npm run mcp`): let an AI assistant such as Claude Code or Claude Desktop use the open tab — see `MCP.md`.
 
 ## Tests
 

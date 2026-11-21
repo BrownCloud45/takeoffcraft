@@ -3,7 +3,9 @@
 /**
  * serve.mjs — run this app from a clone, without getcadcraft.com (docs/DEVSHELL.md). Node 20.19+, no packages.
  *
- *   node devshell/serve.mjs [--port 8000] [--host 127.0.0.1] [--offline]
+ *   node devshell/serve.mjs [--port 8000] [--host 127.0.0.1] [--offline] [--mcp]
+ *   --mcp: an AI assistant (Claude Code, Claude Desktop, …) can use the open tab at http://127.0.0.1:<port>/mcp with the
+ *          token in devshell/.mcp-token, as CadCraft Studio's "Connect an assistant" allows (mcp-bridge.mjs)
  *   → open http://127.0.0.1:8000/   (?lang=es-MX or ?lang=en-XA for the pseudo-locale; ?space=model for dark)
  *
  * The page: `php devshell/render.php` on every load when PHP is installed (edits to ui.inc show at once), else the
@@ -20,6 +22,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { createBridge, loadToken } from './mcp-bridge.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
@@ -40,11 +43,12 @@ const MIME = {
 };
 
 export function parseArgs(argv) {
-  const o = { port: 8000, host: '127.0.0.1', offline: false };
+  const o = { port: 8000, host: '127.0.0.1', offline: false, mcp: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--port') o.port = Number(argv[++i]);
     else if (argv[i] === '--host') o.host = argv[++i];
     else if (argv[i] === '--offline') o.offline = true;
+    else if (argv[i] === '--mcp') o.mcp = true;
   }
   return o;
 }
@@ -99,8 +103,11 @@ export function start(opts = {}) {
   const isolate = (() => {
     try { return JSON.parse(fs.readFileSync(path.join(APP_DIR, 'manifest.json'), 'utf8')).isolate || ''; } catch { return ''; }
   })();
+  if (o.mcp && !['127.0.0.1', 'localhost', '::1'].includes(o.host)) throw new Error('--mcp works only on this computer: leave --host at 127.0.0.1.');
+  const bridge = o.mcp ? createBridge({ token: o.mcpToken || loadToken(path.join(HERE, '.mcp-token')), port: o.port, log: o.log || ((m) => console.log('[mcp] ' + m)) }) : null;
   const server = http.createServer(async (req, res) => {
     const u = new URL(req.url, 'http://x');
+    if (bridge && await bridge.handle(req, res, u)) return;
     const head = { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' };
     if (['require-corp', 'credentialless'].includes(isolate)) {
       head['Cross-Origin-Opener-Policy'] = 'same-origin';
@@ -113,7 +120,8 @@ export function start(opts = {}) {
         res.writeHead(500, { ...head, 'Content-Type': 'text/plain; charset=utf-8' });
         return res.end('render.php failed:\n' + r.error);
       }
-      const html = r ? r.html : fs.readFileSync(path.join(HERE, 'index.html'), 'utf8');
+      let html = r ? r.html : fs.readFileSync(path.join(HERE, 'index.html'), 'utf8');
+      if (bridge) html = bridge.inject(html);
       res.writeHead(200, { ...head, 'Content-Type': MIME['.html'] });
       return res.end(req.method === 'HEAD' ? undefined : html);
     }
@@ -137,4 +145,8 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const o = parseArgs(process.argv.slice(2));
   await start(o);
   console.log(`${META.app.name} dev shell: http://${o.host}:${o.port}/  (Ctrl+C to stop)`);
+  if (o.mcp) {
+    console.log(`AI assistants: http://127.0.0.1:${o.port}/mcp  token in devshell/.mcp-token (devshell/MCP.md)`);
+    console.log('  Then in the app: Settings › TakeoffCraft › Assistants › tick "Let AI assistants and scripts use TakeoffCraft".');
+  }
 }
