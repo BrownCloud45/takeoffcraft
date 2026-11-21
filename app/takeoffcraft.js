@@ -77,6 +77,7 @@ import { mountClipboard } from './clipboard-ui.js';
 import { mountCompare } from './compare-ui.js';
 import { mountNotes } from './notes-ui.js';
 import { mountAreas } from './areas-ui.js';
+import { LINE_STYLES, lineStyleOf, strokeStyled, ICON_PX, ICON_MAX, iconOk } from './itemlook.js';   // TakeoffDesk: line styles and item icons
 
 const TYPE_ICONS = { linear: 'bezier2', area: 'pentagon', count: 'plus-circle', fixed: '123' };
 const HIT = 7;          // screen px for picking marks and handles
@@ -1723,6 +1724,22 @@ function init(root) {
   // =========================================================================
   // Overlay
 
+  /** Item icons as images, decoded once; the overlay is redrawn when one finishes loading. null until it is ready. */
+  const iconImages = new Map();
+  function iconImage(src) {
+    let img = iconImages.get(src);
+    if (!img) {
+      img = new Image();
+      img.onload = () => view.overlayOnly();
+      img.src = src;
+      iconImages.set(src, img);
+      if (iconImages.size > 200) iconImages.delete(iconImages.keys().next().value);
+    }
+    return img.complete && img.naturalWidth ? img : null;
+  }
+  /** An item's swatch in the lists: its icon when it has one, else the colour chip. */
+  const itemChip = (it) => (it.icon ? el('img', { className: 'tc-chip tc-chip-icon', src: it.icon, alt: '', style: { borderColor: it.color } }) : el('span', { className: 'tc-chip', style: { background: it.color } }));
+
   function drawOverlay(ctx) {
     renderTouchBar();
     if (!cur) return;
@@ -1756,25 +1773,33 @@ function init(root) {
       }
       ctx.strokeStyle = it.color; ctx.fillStyle = it.color;
       const selected = isSel(m.id);
+      const lineStyle = lineStyleOf(it);                  // TakeoffDesk: solid, dashed, dotted or double (itemlook.js)
       if (m.kind === 'linear') {
         for (const sp of G.spans(m.pts, new Set(m.deducts || []))) {
-          ctx.lineWidth = (selected ? 4 : 2.5) * (sp.deduct ? 0.6 : 1);
-          if (sp.deduct) ctx.setLineDash([7, 5]);
-          line(sp.pts, false); ctx.stroke();
-          ctx.setLineDash([]);
+          if (sp.deduct) {                                // a deducted segment: thin and dashed, whatever the item's style
+            ctx.lineWidth = (selected ? 4 : 2.5) * 0.6; ctx.setLineDash([7, 5]);
+            line(sp.pts, false); ctx.stroke(); ctx.setLineDash([]);
+          } else { line(sp.pts, false); strokeStyled(ctx, lineStyle, selected ? 4 : 2.5); }
         }
       } else if (m.kind === 'area') {
         ctx.beginPath();
         for (const ring of [m.pts, ...m.holes]) trace(ring, true);
         ctx.globalAlpha = dim ? 0.06 : it.backout ? 0.1 : 0.2; ctx.fill('evenodd');
         ctx.globalAlpha = dim ? 0.22 : 1;
-        if (it.backout) ctx.setLineDash([4, 4]);          // a back-out (T14): dashed, lighter
-        ctx.lineWidth = selected ? 3.5 : 2; ctx.stroke();
-        ctx.setLineDash([]);
+        if (it.backout) {                                 // a back-out (T14): dashed, lighter
+          ctx.setLineDash([4, 4]); ctx.lineWidth = selected ? 3.5 : 2; ctx.stroke(); ctx.setLineDash([]);
+        } else strokeStyled(ctx, lineStyle, selected ? 3.5 : 2);
       } else {
         const s = S(m.pts[0]);
-        ctx.beginPath(); ctx.arc(s.x, s.y, selected ? dotPx * CMK.SELECTED : dotPx, 0, Math.PI * 2); ctx.fill();
-        ctx.lineWidth = dotPx * CMK.OUTLINE; ctx.strokeStyle = '#ffffff'; ctx.stroke();
+        const img = it.icon ? iconImage(it.icon) : null;
+        if (img) {                                        // TakeoffDesk: the item's own icon instead of the dot
+          const r = (selected ? dotPx * CMK.SELECTED : dotPx) * 1.6;
+          ctx.drawImage(img, s.x - r, s.y - r, 2 * r, 2 * r);
+          if (selected) { ctx.lineWidth = 2; ctx.strokeRect(s.x - r - 2, s.y - r - 2, 2 * r + 4, 2 * r + 4); }
+        } else {
+          ctx.beginPath(); ctx.arc(s.x, s.y, selected ? dotPx * CMK.SELECTED : dotPx, 0, Math.PI * 2); ctx.fill();
+          ctx.lineWidth = dotPx * CMK.OUTLINE; ctx.strokeStyle = '#ffffff'; ctx.stroke();
+        }
       }
     }
     ctx.globalAlpha = 1;
@@ -1971,7 +1996,7 @@ function init(root) {
     ui.itemsEmpty.hidden = model.state.items.length > 0;
     ui.items.replaceChildren(...model.state.items.map((it) => el('li', {},
       el('button', { type: 'button', className: 'tc-item' + (app.hl === it.id ? ' is-hl' : ''), 'aria-pressed': String(app.active === it.id), dataset: { item: it.id }, title: t('item.button.title'), onclick: () => focusItem(it.id) },
-        el('span', { className: 'tc-chip', style: { background: it.color } }),
+        itemChip(it),
         icon(TYPE_ICONS[it.type]),
         el('span', { className: 'tc-item-name' }, it.name),
         el('span', { className: 'tc-item-qty' }, qtyLabel(it))))));
@@ -2071,6 +2096,7 @@ function init(root) {
       rows = [...fieldRow(t('item.f.name'), name), ...fieldRow(t('item.f.type'), type), ...fieldRow(t('item.f.color'), color), ...fieldRow(t('item.f.unit'), unit)];
     }
     const typed = it.type === 'fixed';
+    if (!typed) rows.push(...lookFields(it, commit));                        // TakeoffDesk: line style and icon
     if (typed) rows.push(...fixedFields(it, commit, fail));                 // TK.5+: typed, not drawn
     else rows.push(el('span', { className: 'k', id: 'tc-i-also-l' }, t('item.f.also')), condFields(it));
     if (it.type !== 'count' && !typed) {
@@ -2159,6 +2185,44 @@ function init(root) {
       gridHost.querySelectorAll('[data-pg-row]').forEach((n) => { n.dataset.field = n.dataset.pgRow; });   // keepFocus finds the box again by it
     }
     ui.itemProps.replaceChildren(...(gridHost ? [gridHost] : []), el('div', { className: 'tc-props' }, rows), ...(shape ? [shape] : []), el('div', { className: 'tc-props' }, out), comps, actions);
+  }
+
+  /** TakeoffDesk: how the item's marks look — the line style of its runs and outlines, and an icon for the lists and its counts. */
+  function lookFields(it, commit) {
+    const out = [];
+    if (it.type !== 'count' || (it.conds || []).length) {
+      const sel = el('select', { className: 'tc-select', id: 'tc-i-line', dataset: { field: 'line' } },
+        LINE_STYLES.map((v) => el('option', { value: v, selected: v === lineStyleOf(it) }, t('line.' + v))));
+      sel.addEventListener('change', () => commit({ line: sel.value === 'solid' ? undefined : sel.value }, t('undo.item.line')));
+      out.push(...fieldRow(t('item.f.line'), sel));
+    }
+    const file = el('input', { type: 'file', accept: 'image/*', hidden: true, dataset: { iconFile: it.id } });
+    file.addEventListener('change', async () => {
+      const f = file.files && file.files[0];
+      file.value = '';
+      if (!f) return;
+      try { commit({ icon: await iconFromFile(f) }, t('undo.item.icon')); } catch { status(t('item.icon.err'), 8000); }
+    });
+    const pick = el('button', { type: 'button', className: 'tc-linkbtn', dataset: { iconPick: it.id }, onclick: () => file.click() }, t(it.icon ? 'item.icon.change' : 'item.icon.choose'));
+    const rm = it.icon ? el('button', { type: 'button', className: 'tc-linkbtn is-danger', dataset: { iconRemove: it.id }, onclick: () => commit({ icon: undefined }, t('undo.item.icon')) }, t('item.icon.remove')) : null;
+    out.push(...fieldRow(t('item.f.icon'), el('span', { className: 'tc-icon-field', id: 'tc-i-icon' }, it.icon ? itemChip(it) : null, pick, rm ? ' ' : null, rm, file)));
+    return out;
+  }
+  /** Any image the browser can open → a PNG of at most ICON_PX × ICON_PX (aspect kept, transparent around it) as a data URL. */
+  async function iconFromFile(f) {
+    if (f.size > 20 * 1024 * 1024) throw new Error('too big');
+    const bmp = await createImageBitmap(f);
+    const k = Math.min(1, ICON_PX / Math.max(bmp.width, bmp.height));
+    const w = Math.max(1, Math.round(bmp.width * k)), h = Math.max(1, Math.round(bmp.height * k));
+    const c = document.createElement('canvas');
+    c.width = ICON_PX; c.height = ICON_PX;
+    const g = c.getContext('2d');
+    g.imageSmoothingQuality = 'high';
+    g.drawImage(bmp, (ICON_PX - w) / 2, (ICON_PX - h) / 2, w, h);
+    bmp.close?.();
+    const url = c.toDataURL('image/png');
+    if (!iconOk(url) || url.length > ICON_MAX) throw new Error('not usable');
+    return url;
   }
 
   /** TK.5+: a typed quantity's own fields — the quantity, its bid area, and where it came from when it was imported. */
@@ -2566,7 +2630,7 @@ function init(root) {
       }
       const it = items.get(r.itemId);
       const isItem = r.kind === 'item', isCond = r.kind === 'condition';
-      const first = el('td', {}, isItem || isCond ? el('span', { className: 'tc-chip', style: { background: it.color } }) : null, isCond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name,
+      const first = el('td', {}, isItem || isCond ? itemChip(it) : null, isCond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name,
         isItem && r.unscaled ? el('span', { className: 'tc-flag', title: t('qty.unscaled.title') }, t('qty.unscaled', { n: r.unscaled })) : null,
         isItem && r.awarded ? el('span', { className: 'tc-flag', dataset: { qtyAwarded: r.itemId }, title: t('qty.awarded.title', { own: U.formatCents(r.ownTotal) }) }, t('qty.awarded', { bidder: r.awarded })) : null);
       const dec = (isItem && it.type === 'count') || (isCond && r.cond === 'count') ? 0 : 2;
@@ -2594,7 +2658,7 @@ function init(root) {
     const body = rows.map((r) => {
       const it = items.get(r.itemId);
       const tr = el('tr', { className: 'is-item' + (app.hl === r.itemId ? ' is-hl' : ''), dataset: { qtyRow: r.itemId } },
-        el('td', {}, sheetLabel(r.sheet)), el('td', { className: 'tl' }, el('span', { className: 'tc-chip', style: { background: it.color } }), r.cond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name),
+        el('td', {}, sheetLabel(r.sheet)), el('td', { className: 'tl' }, itemChip(it), r.cond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name),
         el('td', {}, U.fixed(r.qty, (r.cond || it.type) === 'count' ? 0 : 2)), el('td', { className: 'tl' }, r.unit), el('td', {}, String(r.marks)));
       tr.addEventListener('click', () => { setActive(r.itemId); if (r.sheet !== cur?.key) showSheet(r.sheet); });
       return tr;

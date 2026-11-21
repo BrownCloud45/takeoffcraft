@@ -2564,6 +2564,36 @@ section('3D');
 }
 
 // ---------------------------------------------------------------------------
+section('Line styles and item icons (TakeoffDesk)');
+{
+  const L = await load('itemlook.js'), Pm = await load('pdfmarks.js');
+  // a real 2 × 2 PNG (pdf-lib must be able to embed it)
+  const tiny = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFklEQVR42mP8z8DwnwEJMDKgCRATAAA9mAP9qLdb9wAAAABJRU5ErkJggg==';
+  ok(L.iconOk(tiny) && !L.iconOk('data:image/svg+xml;base64,PHN2Zz4=') && !L.iconOk('javascript:alert(1)') && !L.iconOk('data:image/png;base64,' + 'A'.repeat(L.ICON_MAX)), 'icons: only a small PNG data URL is kept');
+  eq(L.lineStyleOf({ line: 'double' }) + L.lineStyleOf({}) + L.lineStyleOf({ line: 'wavy' }), 'doublesolidsolid', 'line styles: unknown or missing reads as solid');
+  ok(L.strokeOf('double', 2).gap > 0 && L.strokeOf('dashed', 2).dash.length === 2 && L.strokeOf('dotted', 2).round && !L.strokeOf('solid', 2).dash.length, 'each style has its own stroke');
+  const m = new M.Takeoff();
+  const [a, c] = m.addItems([{ name: 'Curb', type: 'linear', line: 'double' }, { name: 'Outlets', type: 'count', icon: tiny, line: 'dashed' }], 'add');
+  ok(m.item(a).line === 'double' && m.item(c).icon === tiny && m.item(c).line === 'dashed', 'items keep a line style and an icon');
+  m.updateItem(a, { line: undefined }, 'line'); m.updateItem(c, { icon: undefined }, 'icon');
+  ok(!('line' in m.item(a)) && !('icon' in m.item(c)), 'solid and "Remove" take the fields away (files stay as they were)');
+  m.undo(); m.undo();
+  ok(m.item(a).line === 'double' && m.item(c).icon === tiny, '…and undo brings them back');
+  const back = M.readProject(JSON.parse(JSON.stringify(m.toJSON()))).state.items;
+  ok(back[0].line === 'double' && back[1].icon === tiny, 'saved with the takeoff and read back');
+  const bad = M.readProject({ ...JSON.parse(JSON.stringify(m.toJSON())), items: [{ id: 'x', name: 'X', type: 'linear', line: 'zigzag', icon: '<svg onload=alert(1)>' }] }).state.items[0];
+  ok(!('line' in bad) && !('icon' in bad), 'a tampered file: a bad style or icon is dropped');
+  // the marked PDF: a double run and an icon count both draw
+  const src = await PDFLib.PDFDocument.create(); src.addPage([612, 792]); const srcBytes = await src.save();
+  const st = { items: [{ id: 'i1', name: 'Curb', type: 'linear', color: '#2E8B57', unit: 'LF', line: 'double', components: [] }, { id: 'i2', name: 'Outlets', type: 'count', color: '#F28C28', unit: 'EA', icon: tiny, components: [] }],
+    marks: [{ id: 'm1', item: 'i1', sheet: 'h:0', kind: 'linear', pts: [{ x: 100, y: 100 }, { x: 300, y: 100 }], holes: [] }, { id: 'm2', item: 'i2', sheet: 'h:0', kind: 'count', pts: [{ x: 200, y: 300 }], holes: [] }],
+    sheets: { 'h:0': { scale: { method: 'preset', ftPerUnit: 1 / 18, preset: 'x', label: 'x' } } }, files: [], areas: [], groups: [], notes: [] };
+  const out = await Pm.pdfWithMarks(PDFLib, srcBytes, 'h', st, { legend: false });
+  const doc = await PDFLib.PDFDocument.load(out.bytes);
+  const xo = doc.getPages()[0].node.Resources().lookup(PDFLib.PDFName.of('XObject'));
+  ok(out.marks === 2 && xo && xo.keys().length >= 1, 'marked PDF: the double run is drawn and the icon is embedded as an image', JSON.stringify({ marks: out.marks, xo: xo ? xo.keys().map(String) : null }));
+}
+
 section('The kitchen plan sheet (public fixture PDF)');
 if (!fs.existsSync(PLAN)) ok(false, 'plan PDF present at ' + PLAN);
 else {

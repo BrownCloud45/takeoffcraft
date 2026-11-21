@@ -12,6 +12,7 @@
  *              backout (area items: its marks are back-outs, T14), backoutOf [area item ids it deducts from],
  *              pitch (rise per 12: area items' surface, linear items' rakes and hips — T15), slope (linear: 'rake' | 'hip'),
  *              csi (a CSI MasterFormat number, "09 21 16": groups the estimate by division — 0.5 TK.4),
+ *              line ('dashed' | 'dotted' | 'double'; absent = solid) and icon (a small PNG data URL) — how its marks look (itemlook.js),
  *              type 'fixed' only (0.6 TK.5+): qty (typed, in its unit), area (a bid area id), origin { app, project, key, at }
  *              (where an imported quantity came from: a later import of the same key updates it instead of adding another),
  *              3D only (T5): thickFt (linear: wall thickness), baseFt (linear, area: height above the floor), headFt (linear: an
@@ -57,6 +58,7 @@ import { readSupply, writeSupply } from './supply.js';
 import { makeSignoff, cleanSignoff, holds } from './tables/signoff.js';   // 0.10 BK.62 (bk-r3-schedules-10): the estimate's sign-off, recorded in the file
 import { readCarbon, writeCarbon } from './carbon.js';   // 0.8 EG.14 (takeoff_PART_3): embodied carbon choices, kept in the project file   // 0.8 EG.51 (takeoff_PART_2): supplier stock and lead-time files, kept in the project file
 import { readLearn, writeLearn } from './learn.js';   // 0.8 SU.811 (sx-learn): what it learned, kept in the project file
+import { lineField, iconOk } from './itemlook.js';
 
 export const FORMAT = 'takeoffcraft-project';
 export const FORMAT_VERSION = 1;
@@ -333,7 +335,7 @@ export class Takeoff {
       if (next.type !== it.type && s.marks.some((m) => m.item === id && m.kind === it.type)) throw new Error(t('err.item.type'));
       if (s.marks.some((m) => m.item === id && !kinds.has(m.kind))) throw new Error(t('err.item.cond'));
       if (next.type === 'fixed' && next.area && !(s.areas || []).some((a) => a.id === next.area)) delete next.area;
-      for (const k of ['tempK', 'backout', 'backoutOf', 'pitch', 'slope', 'thickFt', 'baseFt', 'headFt', 'conds', 'crew', 'xd', 'csi', 'qty', 'area', 'origin']) if (!(k in next)) delete it[k];     // turned off: the fields go
+      for (const k of ['tempK', 'backout', 'backoutOf', 'pitch', 'slope', 'thickFt', 'baseFt', 'headFt', 'conds', 'crew', 'xd', 'csi', 'qty', 'area', 'origin', 'line', 'icon']) if (!(k in next)) delete it[k];     // turned off: the fields go
       Object.assign(it, next);
     });
   }
@@ -789,6 +791,8 @@ export function normalItem(f) {
     ...(type === 'linear' && (f.slope === 'rake' || f.slope === 'hip') ? { slope: f.slope } : {}),
     ...(cleanAddonData(f.xd) ? { xd: cleanAddonData(f.xd) } : {}),   // add-ons' own data on the item (0.5 AO.6); kept without the add-on
     ...(csiOk(f.csi) ? { csi: f.csi } : {}),                          // a CSI MasterFormat number (0.5 TK.4: the estimate by division)
+    ...(type !== 'fixed' && lineField(f.line) ? { line: lineField(f.line) } : {}),   // TakeoffDesk: dashed | dotted | double (itemlook.js)
+    ...(iconOk(f.icon) ? { icon: f.icon } : {}),                      // TakeoffDesk: a small PNG for the lists and count marks
     ...(type === 'area' && f.backout === true ? { backout: true, backoutOf: [...new Set((Array.isArray(f.backoutOf) ? f.backoutOf : []).filter((x) => typeof x === 'string' && x !== String(f.id)).slice(0, LIMITS.items))] } : {}),
     ...(type === 'fixed' ? fixedFields(f) : {}),
   };

@@ -563,3 +563,8 @@ html.cc-compact .tc-sheetbar-name, html.cc-compact .tc-sheetbar-scale { font-siz
 .tc-sec-head[data-af="closed"] .tc-linkbtn { font-size: 0; text-decoration: none; padding: .15rem .3rem; border-radius: var(--radius); line-height: 1; }
 .tc-sec-head[data-af="closed"] .tc-linkbtn .bi { font-size: 1rem; }
 .tc-sec-head[data-af="closed"] .tc-linkbtn:hover { background: var(--sheet); }
+
+/* TakeoffDesk: item icons (itemlook.js) in the lists, and the icon field */
+.tc-chip.tc-chip-icon { width: 1.15rem; height: 1.15rem; object-fit: contain; background: #fff; border-width: var(--pen-1); }
+.tc-table .tc-chip.tc-chip-icon { vertical-align: -.25rem; }
+.tc-icon-field { display: inline-flex; align-items: center; gap: .4rem; flex-wrap: wrap; }

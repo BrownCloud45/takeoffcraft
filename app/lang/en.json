@@ -4079,5 +4079,17 @@
   "issues.act.marks": "Record the selected markups",
   "issues.act.marks.none": "Select the markups first, and record an issue to put them against.",
   "issues.act.marks.done": "{n} markups recorded against issue {code}.",
-  "issues.own.note": "Sheets are issued from Drawings. Those issues are listed here with everything recorded against them."
+  "issues.own.note": "Sheets are issued from Drawings. Those issues are listed here with everything recorded against them.",
+  "item.f.line": "Line",
+  "line.solid": "Solid",
+  "line.dashed": "Dashed",
+  "line.dotted": "Dotted",
+  "line.double": "Double",
+  "item.f.icon": "Icon",
+  "item.icon.choose": "Choose an image…",
+  "item.icon.change": "Change…",
+  "item.icon.remove": "Remove",
+  "item.icon.err": "That image could not be used as an icon. Try a PNG, JPEG or SVG file.",
+  "undo.item.line": "Line style",
+  "undo.item.icon": "Item icon"
 }

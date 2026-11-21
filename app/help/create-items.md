@@ -56,6 +56,8 @@ The item editor (**Item: (name)**) has these fields. Each one is saved when you 
 | {{ui:Name}} | Shown in the list, the tables and the exports. |
 | {{ui:Type}} | Linear, Area or Count. It is locked once the item has marks ("An item with marks keeps its type"). |
 | {{ui:Color}} | The color of its marks on screen and in the marked PDF. |
+| {{ui:Line}} | How its runs and area outlines are drawn: Solid, Dashed, Dotted or Double. Deducted segments stay thin and dashed. Shown on screen and in the marked PDF. |
+| {{ui:Icon}} | {{ui:Choose an image…}} picks any PNG, JPEG or SVG; it is shrunk to a small square and saved inside the takeoff. The icon replaces the color square in the lists and the dot of each count mark, on screen and in the marked PDF. {{ui:Remove}} goes back to the dot. |
 | {{ui:Unit}} | What the quantity is reported in: LF or m for linear; SF, SY, SQ, ac, ha or m² for area; EA for count. |
 | {{ui:Also measure}} | The other kinds of marks the item takes, each with its own unit. See below. |
 | {{ui:Height}} (linear) | A wall height. The item then also reports wall area (length × height). Runs that came from a BimCraft model carry their doors and windows: those are taken out once, and the item says the gross area, the openings and the net. A takeoff from a BimCraft project that chose a measurement method is measured by that method here too (the note names it, with its source, and says it is unchecked by a quantity surveyor); the method cannot be changed in TakeoffDesk. Bricks or blocks and mortar from a wall type arrive as two components: the units to order and the mortar volume. |
