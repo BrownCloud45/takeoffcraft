@@ -4091,5 +4091,8 @@
   "item.icon.remove": "Remove",
   "item.icon.err": "That image could not be used as an icon. Try a PNG, JPEG or SVG file.",
   "undo.item.line": "Line style",
-  "undo.item.icon": "Item icon"
+  "undo.item.icon": "Item icon",
+  "set.labels": "Measurement labels",
+  "set.labels.on": "Show measurement labels on marks",
+  "set.labels.hint": "The length of each segment and the area of a selected mark, written on the sheet. Off: the figures show in the item panel, the status bar and Quantities."
 }

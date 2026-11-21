@@ -161,7 +161,7 @@ function init(root) {
   const SET_KEY = 'takeoffcraft.settings';
   const LEN_SHOWS = ['follow', 'ftin', 'm', 'cm', 'mm'];
   const TEMP_SHOWS = ['follow', 'degc', 'degf'];   // 0.9: how temperatures read and what a bare number means
-  const SET_DEFAULTS = { currency: '$', lenShow: 'follow', tempShow: 'follow', denom: 16, waste: 0, threshold: 0.75, snap45: false, corner: 'cube', snap: true, roomGap: 4, pickGap: PP.GAP_DEFAULT, marker: CMK.MARKER_DEFAULT };
+  const SET_DEFAULTS = { currency: '$', lenShow: 'follow', tempShow: 'follow', denom: 16, waste: 0, threshold: 0.75, snap45: false, corner: 'cube', snap: true, roomGap: 4, pickGap: PP.GAP_DEFAULT, marker: CMK.MARKER_DEFAULT, labels: false };
   const ROOM_GAPS = [3, 3.5, 4, 5, 6, 8];
   const WASTE_CHOICES = [0, 200, 300, 500, 750, 1000, 1500, 2000];
   const settings = { ...SET_DEFAULTS };
@@ -180,6 +180,7 @@ function init(root) {
       if (['cube', 'axes', 'none'].includes(v.corner)) settings.corner = v.corner;
       if (ROOM_GAPS.includes(v.roomGap)) settings.roomGap = v.roomGap;
       if (typeof v.marker === 'string') settings.marker = CMK.markerKey(v.marker);   // 0.9.1: count marker size, screen and PDF alike (countmarker.js)
+      if (typeof v.labels === 'boolean') settings.labels = v.labels;   // TakeoffDesk: measurement labels on marks (off unless turned on)
       if (typeof v.pickGap === 'number' && v.pickGap >= PP.GAP_MIN && v.pickGap <= PP.GAP_MAX) settings.pickGap = v.pickGap;
     } catch { /* private window or damaged: the defaults */ }
   }
@@ -216,6 +217,7 @@ function init(root) {
     const out = q('[data-tc-th-out]'); if (out) out.textContent = Math.round(settings.threshold * 100) + '%';
     const sn = q('input[name="tcSnap45"]'); if (sn) sn.checked = settings.snap45;
     const so = q('input[name="tcSnap"]'); if (so) so.checked = settings.snap;
+    const lb = q('input[name="tcLabels"]'); if (lb) lb.checked = settings.labels;
     settingsDlg.querySelectorAll('input[name="tcCorner"]').forEach((r) => { r.checked = r.value === settings.corner; });
   }
   function applySettings() {
@@ -243,6 +245,7 @@ function init(root) {
       else if (t.name === 'tcPickGap') { const v = Number(t.value); settings.pickGap = Number.isFinite(v) ? Math.min(PP.GAP_MAX, Math.max(PP.GAP_MIN, v)) : PP.GAP_DEFAULT; t.value = String(Math.round(settings.pickGap * 100) / 100); }   // 0.8 takeoff_PART_3: the Path tool's gap, also on [ and ]
       else if (t.name === 'tcSnap45') settings.snap45 = t.checked;
       else if (t.name === 'tcSnap') settings.snap = t.checked;
+      else if (t.name === 'tcLabels') { settings.labels = t.checked; view.overlayOnly(); }
       else if (t.name === 'tcCorner') settings.corner = ['cube', 'axes', 'none'].includes(t.value) ? t.value : 'cube';
       else return;
       saveSettings();
@@ -1763,8 +1766,15 @@ function init(root) {
       const it = items.get(m0.item);
       if (!it) continue;
       const m = drag && drag.id === m0.id ? { ...m0, pts: drag.pts, holes: drag.holes } : m0;
-      const dim = (app.hl && app.hl !== m.item) || (app.curArea && m.area !== app.curArea);
-      ctx.globalAlpha = dim ? 0.22 : 1;
+      const dim = false;   // TakeoffDesk: every mark stays fully visible; the highlighted item gets a glow instead of fading the rest
+      ctx.globalAlpha = 1;
+      if (app.hl === m.item && m.kind !== 'count') {
+        ctx.save(); ctx.globalAlpha = 0.28; ctx.strokeStyle = it.color; ctx.lineWidth = 10; ctx.setLineDash([]);
+        ctx.beginPath(); for (const ring of [m.pts, ...(m.kind === 'area' ? m.holes : [])]) trace(ring, m.kind === 'area'); ctx.stroke();
+        ctx.restore();
+      } else if (app.hl === m.item) {
+        const s = S(m.pts[0]); ctx.save(); ctx.globalAlpha = 0.3; ctx.fillStyle = it.color; ctx.beginPath(); ctx.arc(s.x, s.y, dotPx * 2.2, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+      }
       if (m.flag) {                       // T13: the drawing changed under it in the revision — an orange halo until checked
         ctx.save(); ctx.globalAlpha = 0.9; ctx.strokeStyle = FLAG_COLOR; ctx.lineWidth = 9; ctx.setLineDash([8, 6]);
         if (m.kind === 'count') { const s = S(m.pts[0]); ctx.beginPath(); ctx.arc(s.x, s.y, dotPx * 2, 0, Math.PI * 2); ctx.stroke(); }
@@ -1838,7 +1848,7 @@ function init(root) {
       const hs = coarse ? 7 : 4;                       // corner handles: bigger for fingers (S.8)
       for (const ring of [m.pts, ...m.holes]) for (const p of ring) { const s = S(p); ctx.fillRect(s.x - hs, s.y - hs, 2 * hs, 2 * hs); ctx.strokeRect(s.x - hs, s.y - hs, 2 * hs, 2 * hs); }
       const sc = model.scaleOf(cur.key);
-      if (sc && m.kind === 'linear') {
+      if (sc && m.kind === 'linear' && settings.labels) {   // TakeoffDesk: only when Settings › Show measurement labels is on
         const r = measureMark(m, sc.ftPerUnit, model.item(m.item));          // rakes and hips read along their slope (T15)
         for (let i = 1; i < m.pts.length; i++) {
           let at = S(segMid(m.pts[i - 1], m.pts[i]));
@@ -1849,7 +1859,7 @@ function init(root) {
           label(ctx, S(m.pts[i - 1]), S(m.pts[i]), ftIn(r.slopedFt[i - 1]), at);
         }
       }
-      if (sc && m.kind === 'area') { const r = measureMark(m, sc.ftPerUnit, model.item(m.item)); tag(ctx, S(G.centroid(m.pts)), areaShow(r.areaSqft, model.item(m.item))); }
+      if (sc && m.kind === 'area' && settings.labels) { const r = measureMark(m, sc.ftPerUnit, model.item(m.item)); tag(ctx, S(G.centroid(m.pts)), areaShow(r.areaSqft, model.item(m.item))); }
       // T11: a round handle in the middle of each arc (drag to bend), over the labels
       ctx.lineWidth = 1.5; ctx.strokeStyle = colors.action; ctx.fillStyle = colors.sheet;
       for (const h of arcHandles(m)) { const s = S(h.at); ctx.beginPath(); ctx.arc(s.x, s.y, hs + 1, 0, Math.PI * 2); ctx.fill(); ctx.stroke(); }
@@ -1958,6 +1968,9 @@ function init(root) {
   function focusItem(id) {
     if (app.hl === id && app.active === id) { app.hl = null; pickRow = null; announcePick(); renderItems(); renderSheets(); renderQty(); view.overlayOnly(); return; }
     setActive(id);
+    // TakeoffDesk: the item's own measuring tool comes on (a tool of the same kind that is already on stays)
+    const it = model.item(id), SAME = { linear: ['linear', 'path', 'cadgeom'], area: ['area', 'circle', 'room', 'cadgeom'], count: ['count', 'autocount'] };
+    if (it && SAME[it.type] && !SAME[it.type].includes(app.tool) && cur) setTool(it.type);
     const marks = model.state.marks.filter((m) => m.item === id);
     if (marks.length && !marks.some((m) => m.sheet === cur?.key)) {
       status(sheets.some((s) => marks.some((m) => m.sheet === s.key)) ? t('item.marks.elsewhere') : t('item.marks.closed'));

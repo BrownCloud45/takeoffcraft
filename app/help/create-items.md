@@ -43,7 +43,7 @@ If you pick a measuring tool first, TakeoffDesk uses the last item of the right 
 
 ## Pick the item you draw with
 
-Click an item in the list. It becomes the item new marks go to, and its marks are highlighted on every sheet while the others fade. The view stays where it is: if the open sheet has none of its marks, the status bar says so and the sheet list shows how many each sheet has. Click the item again to stop highlighting; it stays the item you draw with.
+Click an item in the list. It becomes the item new marks go to, its measuring tool comes on (Linear, Area or Count, as the item is; Circle or Room stay on for an area item, Path for a linear one), and its marks glow on every sheet. Every other mark stays fully visible. The view stays where it is: if the open sheet has none of its marks, the status bar says so and the sheet list shows how many each sheet has. Click the item again to stop highlighting; it stays the item you draw with.
 
 Clicking a mark with the {{ui:Select}} tool also makes its item the current one.
 

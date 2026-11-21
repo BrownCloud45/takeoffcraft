@@ -27,7 +27,7 @@ The last row, **Job total**, adds the material, labor and total columns. The sam
 
 Type into a waste or rate cell and press {{key:Enter}} or click away to apply it. A value TakeoffDesk cannot read is outlined in red and the status bar says why, for example "Type an amount like 12.50."
 
-Click an item's row to highlight its marks on every sheet without moving the view (the same as clicking it under {{ui:Items}}).
+Click an item's name in its row to make it the current item, turn on its measuring tool and highlight its marks, without moving the view (the same as clicking it under {{ui:Items}}). Clicking one of the row's figures selects the marks behind it.
 
 ## By sheet
 
@@ -50,7 +50,7 @@ The same notes go into the exported spreadsheet, so an incomplete estimate never
 
 ## Highlight an item
 
-Click an item under {{ui:Items}} or in the table. Its marks stay at full strength on every sheet and the rest fade. The sheets list shows "(n) highlighted" on each sheet with its marks. Click the item again to stop highlighting.
+Click an item under {{ui:Items}} or in the table. Its marks glow on every sheet; every other mark stays fully visible. The sheets list shows "(n) highlighted" on each sheet with its marks. Click the item again to stop highlighting.
 
 ## Item totals in the side panel
 

@@ -45,3 +45,7 @@ For the [3D check view](topic:check-in-3d) only: {{ui:View cube}} (the start: a 
 ## Path tool: the largest gap it joins
 
 {{ui:Path tool: largest gap to join}} is how far apart two line ends can be and still count as one path, in PDF points (0.05 to 60; 1.5 at the start). A drawing's lines often stop a hair short of each other. Larger joins more; smaller keeps lines apart. {{key:[}} and {{key:]}} change it while you pick, and this field follows. See [Pick the lines](topic:pick-the-lines).
+
+## Measurement labels
+
+**Show measurement labels on marks** writes the length of each segment and the size of a selected area on the sheet. It is off at the start; the figures are always in the item panel, the status bar and {{ui:Quantities}}.

@@ -125,6 +125,11 @@
   </div>
   <p class="shell-hint-text"><?= Lang::e('set.marker.hint') ?></p>
 </fieldset>
+<fieldset class="shell-set" data-tc-labels>
+  <legend><?= Lang::e('set.labels') ?></legend>
+  <label class="shell-check"><input type="checkbox" name="tcLabels"> <?= Lang::e('set.labels.on') ?></label>
+  <p class="shell-hint-text"><?= Lang::e('set.labels.hint') ?></p>
+</fieldset>
 <fieldset class="shell-set">
   <legend><?= Lang::e('set.corner') ?></legend>
   <div class="shell-seg" role="radiogroup" aria-label="<?= Lang::e('set.corner') ?>">
