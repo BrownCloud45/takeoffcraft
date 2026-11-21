@@ -16,7 +16,7 @@
  *
  *   mountTakeoffcraftWorkspace(host) → { engine, changed(), sheetShown(key) } or null (no registry)
  *   host (takeoffcraft.js): root, stage, panels, status, sheets(), current(), show(key), tool(), selection(), name(), dirty(), busy(),
- *     hasFiles(), is3d(), endTool(), conditions(), estimate(), focusItem(id), openQty(), reason(cmd, button), presetLabel, placePreset(),
+ *     hasFiles(), is3d(), endTool(), conditions(), estimate(), focusItem(id, jump), openQty(), reason(cmd, button), presetLabel, placePreset(),
  *     propSections [Node], areaRow, sheetbar, snap, zoom
  */
 import { mountWorkspaces } from 'cc-workspace';
@@ -96,8 +96,8 @@ export async function mountTakeoffcraftWorkspace(host) {
   browserEl.addEventListener('click', (e) => {
     const b = e.target.closest?.('button'); if (!b) return;
     if (b.dataset.pbSheet) { if (ctx) ctx.open(b.dataset.pbSheet); else host.show(b.dataset.pbSheet); return; }
-    if (b.dataset.pbItem) { host.focusItem(b.dataset.pbItem); return; }
-    if (b.dataset.pbEst) { host.focusItem(b.dataset.pbEst); host.openQty(); return; }
+    if (b.dataset.pbItem) { host.focusItem(b.dataset.pbItem, e.shiftKey); return; }
+    if (b.dataset.pbEst) { host.focusItem(b.dataset.pbEst, e.shiftKey); host.openQty(); return; }
     if (b.hasAttribute('data-pb-qty')) host.openQty();
   });
 

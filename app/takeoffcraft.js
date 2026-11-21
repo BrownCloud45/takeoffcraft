@@ -24,7 +24,7 @@
 
 import { el, icon, bytes, frame, safeName, ask } from './ui-util.js';
 import { PageView, renderThumb } from './viewer.js';
-import { Takeoff, FORMAT, TYPES, TYPE_LABELS, VARS, VAR_HELP, sheetKey, quantities, estimate, itemVars, itemQty, wallArea, wallRule, methodNote, measureMark, sheetBreakdown, areaEstimates, baseEstimate, alternates, backouts, segSlope, kindsOf, unitOf, condQty, csiOk } from './model.js';
+import { Takeoff, FORMAT, TYPES, TYPE_LABELS, VARS, VAR_HELP, sheetKey, quantities, estimate, itemVars, itemQty, wallArea, wallRule, methodNote, measureMark, sheetBreakdown, areaEstimates, baseEstimate, alternates, backouts, segSlope, kindsOf, unitOf, condQty, csiOk, LINE_STYLES, LINE_W } from './model.js';
 import * as U from './units.js';
 import { onUnitsChange, starOf } from './unit-prefs.js';   // 0.7 UNITS: Settings › General › Units
 import * as G from './geom.js';
@@ -1724,6 +1724,9 @@ function init(root) {
   // =========================================================================
   // Overlay
 
+  /** An item's line style as a canvas dash for a line `w` pixels wide: dots are zero-length dashes with the round caps. */
+  const lineDash = (style, w) => style === 'dashed' ? [w * 3.5, w * 2.5] : style === 'dotted' ? [0, w * 2.2] : [];
+
   function drawOverlay(ctx) {
     renderTouchBar();
     if (!cur) return;
@@ -1747,7 +1750,7 @@ function init(root) {
       const it = items.get(m0.item);
       if (!it) continue;
       const m = drag && drag.id === m0.id ? { ...m0, pts: drag.pts, holes: drag.holes } : m0;
-      const dim = (app.hl && app.hl !== m.item) || (app.curArea && m.area !== app.curArea);
+      const dim = app.curArea && m.area !== app.curArea;   // a picked item no longer fades the others' marks: every item stays in view
       ctx.globalAlpha = dim ? 0.22 : 1;
       if (m.flag) {                       // T13: the drawing changed under it in the revision — an orange halo until checked
         ctx.save(); ctx.globalAlpha = 0.9; ctx.strokeStyle = FLAG_COLOR; ctx.lineWidth = 9; ctx.setLineDash([8, 6]);
@@ -1757,10 +1760,11 @@ function init(root) {
       }
       ctx.strokeStyle = it.color; ctx.fillStyle = it.color;
       const selected = isSel(m.id);
+      const lw = it.lineW || (m.kind === 'area' ? 2 : 2.5);   // the item's own width, else the type's
       if (m.kind === 'linear') {
         for (const sp of G.spans(m.pts, new Set(m.deducts || []))) {
-          ctx.lineWidth = (selected ? 4 : 2.5) * (sp.deduct ? 0.6 : 1);
-          if (sp.deduct) ctx.setLineDash([7, 5]);
+          ctx.lineWidth = (selected ? lw + 1.5 : lw) * (sp.deduct ? 0.6 : 1);
+          ctx.setLineDash(sp.deduct ? [7, 5] : lineDash(it.line, ctx.lineWidth));
           line(sp.pts, false); ctx.stroke();
           ctx.setLineDash([]);
         }
@@ -1769,8 +1773,9 @@ function init(root) {
         for (const ring of [m.pts, ...m.holes]) trace(ring, true);
         ctx.globalAlpha = dim ? 0.06 : it.backout ? 0.1 : 0.2; ctx.fill('evenodd');
         ctx.globalAlpha = dim ? 0.22 : 1;
-        if (it.backout) ctx.setLineDash([4, 4]);          // a back-out (T14): dashed, lighter
-        ctx.lineWidth = selected ? 3.5 : 2; ctx.stroke();
+        ctx.lineWidth = selected ? lw + 1.5 : lw;
+        ctx.setLineDash(it.line ? lineDash(it.line, ctx.lineWidth) : it.backout ? [4, 4] : []);   // a back-out (T14): dashed, lighter, unless its item says how
+        ctx.stroke();
         ctx.setLineDash([]);
       } else {
         const s = S(m.pts[0]);
@@ -1929,16 +1934,23 @@ function init(root) {
     renderItems(); renderItemProps(); renderSheets(); renderQty();
     view.overlayOnly();
   }
-  /** Click an item: highlight its marks everywhere (again: stop) and jump to a sheet that has them. */
-  function focusItem(id) {
-    if (app.hl === id && app.active === id) { app.hl = null; pickRow = null; announcePick(); renderItems(); renderSheets(); renderQty(); view.overlayOnly(); return; }
+  /** The drawing tools that take off each type of item (a tool already on that fits the item is kept). */
+  const TOOLS_FOR = { linear: ['linear', 'path', 'cadgeom'], area: ['area', 'circle', 'room', 'path', 'cadgeom'], count: ['count', 'autocount'] };
+  /** Click an item: it is the one drawn with, its tool is on, and its marks are highlighted (again: stop highlighting).
+   *  Shift-click: the same, and jump to a sheet that has its marks when the one shown has none. */
+  function focusItem(id, jump = false) {
+    if (!jump && app.hl === id && app.active === id) { app.hl = null; pickRow = null; announcePick(); renderItems(); renderSheets(); renderQty(); view.overlayOnly(); return; }
     setActive(id);
+    const type = model.item(id)?.type;
+    const useTool = () => { if (cur && TOOLS_FOR[type] && !TOOLS_FOR[type].includes(app.tool)) setTool(type); };
+    if (!jump) { useTool(); return; }
     const marks = model.state.marks.filter((m) => m.item === id);
     if (marks.length && !marks.some((m) => m.sheet === cur?.key)) {
       const target = sheets.find((s) => marks.some((m) => m.sheet === s.key));
-      if (target) showSheet(target.key);
-      else status(t('item.marks.closed'));
+      if (target) { Promise.resolve(showSheet(target.key)).then(useTool); return; }
+      status(t('item.marks.closed'));
     }
+    useTool();
   }
 
   /** 0.10 BK.142: select the marks an item's figures came from (its marks on the sheet shown, else on the first sheet that has some). → how many */
@@ -1966,7 +1978,7 @@ function init(root) {
   function renderItems() {
     ui.itemsEmpty.hidden = model.state.items.length > 0;
     ui.items.replaceChildren(...model.state.items.map((it) => el('li', {},
-      el('button', { type: 'button', className: 'tc-item' + (app.hl === it.id ? ' is-hl' : ''), 'aria-pressed': String(app.active === it.id), dataset: { item: it.id }, title: t('item.button.title'), onclick: () => focusItem(it.id) },
+      el('button', { type: 'button', className: 'tc-item' + (app.hl === it.id ? ' is-hl' : ''), 'aria-pressed': String(app.active === it.id), dataset: { item: it.id }, title: t('item.button.title'), onclick: (e) => focusItem(it.id, e.shiftKey) },
         el('span', { className: 'tc-chip', style: { background: it.color } }),
         icon(TYPE_ICONS[it.type]),
         el('span', { className: 'tc-item-name' }, it.name),
@@ -2067,6 +2079,28 @@ function init(root) {
       rows = [...fieldRow(t('item.f.name'), name), ...fieldRow(t('item.f.type'), type), ...fieldRow(t('item.f.color'), color), ...fieldRow(t('item.f.unit'), unit)];
     }
     const typed = it.type === 'fixed';
+    // how its marks' lines are drawn: solid, dashed or dotted, and how wide (linear and area items)
+    if (it.type === 'linear' || it.type === 'area') {
+      const defW = LINE_W[it.type];
+      const lineOpts = LINE_STYLES.map((v) => ({ value: v, label: t('item.line.' + v) }));
+      const applyLineW = (v, n) => {
+        const x = String(v).trim().replace(',', '.');
+        if (!x) return commit({ lineW: undefined }, t('undo.item.lineW'));
+        const w = /^\d*\.?\d+$/.test(x) ? Number(x) : NaN;
+        if (!(w >= LINE_W.min && w <= LINE_W.max)) return fail(n, t('item.lineW.err', { min: LINE_W.min, max: LINE_W.max }));
+        commit({ lineW: w === defW ? undefined : w }, t('undo.item.lineW'));
+      };
+      const wv = String(it.lineW || defW);
+      if (GP) {
+        GP.push({ id: 'line', category: t('item.grid.item'), label: t('item.f.line'), type: 'select', value: it.line || 'solid', options: lineOpts },
+          { id: 'lineW', category: t('item.grid.item'), label: t('item.f.lineW'), type: 'text', value: wv, hint: t('item.lineW.hint', { n: defW }) });
+        gridApply.lineW = applyLineW;
+      } else {
+        const ls = el('select', { className: 'tc-select', id: 'tc-i-line', dataset: { field: 'line' } }, lineOpts.map((o) => el('option', { value: o.value, selected: o.value === (it.line || 'solid') }, o.label)));
+        ls.addEventListener('change', () => commit({ line: ls.value === 'solid' ? undefined : ls.value }, t('undo.item.line')));
+        rows.push(...fieldRow(t('item.f.line'), ls), ...fieldRow(t('item.f.lineW'), textInput('tc-i-linew', 'lineW', wv, applyLineW, { inputmode: 'decimal', placeholder: t('item.lineW.hint', { n: defW }) })));
+      }
+    }
     if (typed) rows.push(...fixedFields(it, commit, fail));                 // TK.5+: typed, not drawn
     else rows.push(el('span', { className: 'k', id: 'tc-i-also-l' }, t('item.f.also')), condFields(it));
     if (it.type !== 'count' && !typed) {
@@ -2150,6 +2184,7 @@ function init(root) {
         if (rid === 'type') return commit({ type: val, unit: U.defaultUnitFor(val) }, t('undo.item.type'));
         if (rid === 'color') return commit({ color: val }, t('undo.item.color'));
         if (rid === 'unit') return commit({ unit: val }, t('undo.item.unit'));
+        if (rid === 'line') return commit({ line: val === 'solid' ? undefined : val }, t('undo.item.line'));
         const fn = gridApply[rid]; if (fn) fn(String(val), node || { classList: { add() {} } });
       } });
       gridHost.querySelectorAll('[data-pg-row]').forEach((n) => { n.dataset.field = n.dataset.pgRow; });   // keepFocus finds the box again by it
@@ -2573,7 +2608,7 @@ function init(root) {
         cell(r, 'mat', U.rateInput(r.mat), U.parseRate, 'rate4'),
         r.crew ? el('td', { title: t('crew.lab.locked') }, U.rateInput(r.lab)) : cell(r, 'lab', U.rateInput(r.lab), U.parseRate, 'rate4'),
         el('td', {}, r.error ? '' : U.formatCents(r.matExt)), el('td', {}, r.error ? '' : U.formatCents(r.labExt)), el('td', {}, r.error ? '' : U.formatCents(r.total)));
-      if (isItem || isCond) tr.addEventListener('click', () => focusItem(r.itemId));
+      if (isItem || isCond) tr.addEventListener('click', (e) => focusItem(r.itemId, e.shiftKey));
       // TK.1 feedback: a linear item with a height also measures wall area (length × height); show it, so tiling a bathroom's walls needs no formula
       const tq = isItem && !r.error && it.type === 'linear' && it.heightFt > 0 ? qmap.get(r.itemId) : null;
       if (tq && tq.lengthFt > 0) return [tr, el('tr', { className: 'is-note', dataset: { qtyWall: r.itemId } }, el('td', { colSpan: 10, className: 'tl' }, (tq.openSqft > 0 ? t('qty.wall.notenet', { item: r.name, area: areaShow(wallArea(it, tq).net, it), gross: areaShow(wallArea(it, tq).gross, it), ded: areaShow(wallArea(it, tq).deductions, it), h: ftIn(it.heightFt) }) : t('qty.wall.note', { item: r.name, area: areaShow(wallArea(it, tq).net, it), h: ftIn(it.heightFt) })) + (tq.juncSqft > 0 ? ' ' + t('qty.wall.junc', { area: areaShow(tq.juncSqft, it) }) : '') + (methodNote(model.state) ? ' ' + methodNote(model.state) : '')))];
@@ -3613,7 +3648,7 @@ function init(root) {
     conditions: () => model.state.items.map((it) => ({ id: it.id, name: it.name, color: it.color, qty: qtyLabel(it), active: app.active === it.id })),
     estimate: () => ({ rows: est.rows.filter((r) => r.kind === 'item').map((r) => ({ id: r.itemId, name: r.name, total: Number.isFinite(r.total) ? U.formatCents(r.total) : '' })),
       total: model.state.items.length ? ui.jobTotal.textContent : '' }),
-    focusItem: (id) => focusItem(id),
+    focusItem: (id, jump) => focusItem(id, !!jump),   // jump: also go to a sheet with its marks (Shift-click)
     openQty: () => { if (root.classList.contains('is-qty-closed')) ui.qtyToggle.click(); },
     reason: whyOff, presetLabel, placePreset: () => placePreset(),
     propSections: [ui.itemSec, ui.noteSec, ui.markSec],
