@@ -574,3 +574,5 @@ html.cc-compact .tc-sheetbar-name, html.cc-compact .tc-sheetbar-scale { font-siz
   .tc-tool-group { padding-left: .08rem; padding-right: .08rem; }
   .tc-preset .tc-select { width: 6.5rem; }
 }
+/* TakeoffDesk: a short explanation under an item field (the quantity factor) */
+.tc-props-hint { grid-column: 1 / -1; margin: -.15rem 0 .1rem; font-size: .75rem; color: var(--ink-2); }

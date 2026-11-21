@@ -4094,5 +4094,11 @@
   "undo.item.icon": "Item icon",
   "set.labels": "Measurement labels",
   "set.labels.on": "Show measurement labels on marks",
-  "set.labels.hint": "The length of each segment and the area of a selected mark, written on the sheet. Off: the figures show in the item panel, the status bar and Quantities."
+  "set.labels.hint": "The length of each segment and the area of a selected mark, written on the sheet. Off: the figures show in the item panel, the status bar and Quantities.",
+  "item.f.factor": "Quantity factor",
+  "item.factor.hint": "× the measured quantity, everywhere it is used: 0.5 counts half of what you draw (a continental crosswalk), 1.1 adds 10%. Empty = 1. Also 50% or 1/2.",
+  "item.factor.err": "A factor is a number above 0, up to 1000 (0.5, 50% or 1/2).",
+  "undo.item.factor": "Quantity factor",
+  "item.m.factor": "Factor",
+  "item.m.factor.v": "× {k} (measured {raw})"
 }

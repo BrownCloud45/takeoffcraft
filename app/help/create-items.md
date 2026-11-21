@@ -56,6 +56,7 @@ The item editor (**Item: (name)**) has these fields. Each one is saved when you 
 | {{ui:Name}} | Shown in the list, the tables and the exports. |
 | {{ui:Type}} | Linear, Area or Count. It is locked once the item has marks ("An item with marks keeps its type"). |
 | {{ui:Color}} | The color of its marks on screen and in the marked PDF. |
+| {{ui:Quantity factor}} | Multiplies the measured quantity everywhere it is used: the item list, {{ui:Quantities}}, the exports, the marked PDF's legend and the formulas of its assembly. `0.5` counts half of what you draw, for example a continental crosswalk whose bars cover about half its outline; `1.1` adds 10%. You can also type `50%` or `1/2`. Empty means 1. The list shows it after the quantity ("(×0.5)") and **Measured** shows what was drawn. Linear items multiply their length (and the wall area made from it), area items their area, count items their count. |
 | {{ui:Line}} | How its runs and area outlines are drawn: Solid, Dashed, Dotted or Double. Deducted segments stay thin and dashed. Shown on screen and in the marked PDF. |
 | {{ui:Icon}} | {{ui:Choose an image…}} picks any PNG, JPEG or SVG; it is shrunk to a small square and saved inside the takeoff. The icon replaces the color square in the lists and the dot of each count mark, on screen and in the marked PDF. {{ui:Remove}} goes back to the dot. |
 | {{ui:Unit}} | What the quantity is reported in: LF or m for linear; SF, SY, SQ, ac, ha or m² for area; EA for count. |

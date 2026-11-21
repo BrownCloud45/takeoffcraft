@@ -2594,6 +2594,24 @@ section('Line styles and item icons (TakeoffDesk)');
   ok(out.marks === 2 && xo && xo.keys().length >= 1, 'marked PDF: the double run is drawn and the icon is embedded as an image', JSON.stringify({ marks: out.marks, xo: xo ? xo.keys().map(String) : null }));
 }
 
+section('Quantity factor (TakeoffDesk)');
+{
+  const st = { items: [M.normalItem({ id: 'x', name: 'Crosswalk', type: 'area', unit: 'SF', factor: 0.5, components: [{ id: 'c1', name: 'Paint', unit: 'SF', formula: 'A' }] }),
+    M.normalItem({ id: 'y', name: 'Striping', type: 'linear', unit: 'LF', factor: 2 }), M.normalItem({ id: 'z', name: 'Signs', type: 'count', unit: 'EA', factor: 3 }),
+    M.normalItem({ id: 'w', name: 'Allowance', type: 'fixed', unit: 'EA', qty: 4, factor: 0.5 })] };
+  const t1 = { areaSqft: 200, perimeterFt: 60, count: 2 }, t2 = { lengthFt: 50, count: 1 }, t3 = { count: 4 };
+  eq(M.itemQty(st.items[0], t1), 100, 'area × 0.5: 200 SF drawn → 100 SF');
+  eq(M.itemVars(st.items[0], t1).P, 60, '…the perimeter is not multiplied');
+  eq(M.itemQty(st.items[1], t2), 100, 'linear × 2: 50 LF drawn → 100 LF');
+  eq(M.itemQty(st.items[2], t3), 12, 'count × 3: 4 drawn → 12 EA');
+  ok(!('factor' in st.items[3]) && M.itemQty(st.items[3], { fixed: 4 }) === 4, 'a typed quantity takes no factor');
+  ok(!('factor' in M.normalItem({ id: 'q', type: 'area', factor: 1 })) && !('factor' in M.normalItem({ id: 'q', type: 'area', factor: 0 })) && !('factor' in M.normalItem({ id: 'q', type: 'area', factor: 5000 })), 'factor 1, 0 or above 1000 is not kept');
+  const m = new M.Takeoff();
+  const [a] = m.addItems([{ name: 'Crosswalk', type: 'area', factor: 0.5 }], 'add');
+  m.updateItem(a, { factor: undefined }, 'f'); ok(!('factor' in m.item(a)), 'clearing the factor removes it'); m.undo();
+  eq(M.readProject(JSON.parse(JSON.stringify(m.toJSON()))).state.items[0].factor, 0.5, 'saved with the takeoff and read back');
+}
+
 section('The kitchen plan sheet (public fixture PDF)');
 if (!fs.existsSync(PLAN)) ok(false, 'plan PDF present at ' + PLAN);
 else {

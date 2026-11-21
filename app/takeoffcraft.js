@@ -24,7 +24,7 @@
 
 import { el, icon, bytes, frame, safeName, ask } from './ui-util.js';
 import { PageView, renderThumb } from './viewer.js';
-import { Takeoff, FORMAT, TYPES, TYPE_LABELS, VARS, VAR_HELP, sheetKey, quantities, estimate, itemVars, itemQty, wallArea, wallRule, methodNote, measureMark, sheetBreakdown, areaEstimates, baseEstimate, alternates, backouts, segSlope, kindsOf, unitOf, condQty, csiOk } from './model.js';
+import { Takeoff, FORMAT, TYPES, TYPE_LABELS, VARS, VAR_HELP, sheetKey, quantities, estimate, itemVars, itemQty, factorOf, wallArea, wallRule, methodNote, measureMark, sheetBreakdown, areaEstimates, baseEstimate, alternates, backouts, segSlope, kindsOf, unitOf, condQty, csiOk } from './model.js';
 import * as U from './units.js';
 import { onUnitsChange, starOf } from './unit-prefs.js';   // 0.7 UNITS: Settings › General › Units
 import * as G from './geom.js';
@@ -1999,7 +1999,7 @@ function init(root) {
   const qtyLabel = (it) => {
     const tq0 = qmap.get(it.id);
     if (!tq0) return '';
-    const main = U.fixed(itemQty(it, tq0), it.type === 'count' ? 0 : 2) + ' ' + U.UNITS[it.unit].label;
+    const main = U.fixed(itemQty(it, tq0), it.type === 'count' ? 0 : 2) + ' ' + U.UNITS[it.unit].label + (factorOf(it) !== 1 ? ' (×' + +factorOf(it).toFixed(4) + ')' : '');
     // T8: a second condition's quantity follows the main one ("120.00 SF + 4 EA")
     const wall = it.type === 'linear' && it.heightFt > 0 && tq0.lengthFt > 0 ? ' · ' + t('qty.wall.short', { area: areaShow(wallArea(it, tq0).net, it) }) : '';
     return [main + wall, ...(it.conds || []).map((c) => U.fixed(condQty(c, tq0.conds?.[c.kind]), c.kind === 'count' ? 0 : 2) + ' ' + U.UNITS[c.unit].label)].join(' + ');
@@ -2109,7 +2109,7 @@ function init(root) {
       rows = [...fieldRow(t('item.f.name'), name), ...fieldRow(t('item.f.type'), type), ...fieldRow(t('item.f.color'), color), ...fieldRow(t('item.f.unit'), unit)];
     }
     const typed = it.type === 'fixed';
-    if (!typed) rows.push(...lookFields(it, commit));                        // TakeoffDesk: line style and icon
+    if (!typed) rows.push(...factorField(it, commit, fail), ...lookFields(it, commit));   // TakeoffDesk: quantity factor, line style and icon
     if (typed) rows.push(...fixedFields(it, commit, fail));                 // TK.5+: typed, not drawn
     else rows.push(el('span', { className: 'k', id: 'tc-i-also-l' }, t('item.f.also')), condFields(it));
     if (it.type !== 'count' && !typed) {
@@ -2168,6 +2168,10 @@ function init(root) {
       out.push(...kv(t('item.m.area'), U.fixed(v.A, 2) + ' ' + U.UNITS[it.unit].label), ...kv(t('item.m.perimeter'), U.fixed(v.P, 2) + ' ' + lunit), ...kv(t('item.m.areas'), String(v.N)));
     } else if (typed) out[0].textContent = t('item.typed.sub');            // nothing measured: the quantity is the one typed above
     else out.push(...kv(t('item.m.count'), String(v.N)));
+    if (factorOf(it) !== 1 && !typed) {                  // TakeoffDesk: what was drawn, before the factor
+      const raw = itemQty({ ...it, factor: 1 }, tq), dec = it.type === 'count' ? 0 : 2;
+      out.push(...kv(t('item.m.factor'), t('item.m.factor.v', { k: +factorOf(it).toFixed(6), raw: U.fixed(raw, dec) + ' ' + U.UNITS[it.unit].label })));
+    }
     if (tq.unscaled) out.push(el('p', { className: 'tc-field-err' }, t('item.unscaled', { n: tq.unscaled })));
 
     // assembly
@@ -2198,6 +2202,25 @@ function init(root) {
       gridHost.querySelectorAll('[data-pg-row]').forEach((n) => { n.dataset.field = n.dataset.pgRow; });   // keepFocus finds the box again by it
     }
     ui.itemProps.replaceChildren(...(gridHost ? [gridHost] : []), el('div', { className: 'tc-props' }, rows), ...(shape ? [shape] : []), el('div', { className: 'tc-props' }, out), comps, actions);
+  }
+
+  /** TakeoffDesk: the quantity factor — × the measured quantity everywhere (0.5 for a continental crosswalk painted about half). */
+  function factorField(it, commit, fail) {
+    const parse = (v) => {
+      const s2 = String(v).trim().replace(/^[×x*]\s*/i, '').replace(',', '.');
+      if (!s2) return 1;
+      let m;
+      if ((m = s2.match(/^(\d*\.?\d+)\s*%$/))) return Number(m[1]) / 100;
+      if ((m = s2.match(/^(\d*\.?\d+)\s*\/\s*(\d*\.?\d+)$/))) return Number(m[2]) ? Number(m[1]) / Number(m[2]) : NaN;
+      return /^\d*\.?\d+$/.test(s2) ? Number(s2) : NaN;
+    };
+    const k = factorOf(it);
+    const input = textInput('tc-i-factor', 'factor', k === 1 ? '' : String(+k.toFixed(6)), (v, n) => {
+      const x = parse(v);
+      if (!(x > 0 && x <= 1000)) return fail(n, t('item.factor.err'));
+      commit({ factor: x === 1 ? undefined : x }, t('undo.item.factor'));
+    }, { placeholder: '1', inputmode: 'decimal' });
+    return [...fieldRow(t('item.f.factor'), input), el('p', { className: 'tc-props-hint' }, t('item.factor.hint'))];
   }
 
   /** TakeoffDesk: how the item's marks look — the line style of its runs and outlines, and an icon for the lists and its counts. */

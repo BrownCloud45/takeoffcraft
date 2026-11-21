@@ -20,6 +20,8 @@ Values are in the item's own units: feet and square feet for LF and SF items, me
 
 Formulas use `+ - * /` (or × ÷), parentheses, numbers, and the functions `ceil`, `floor`, `round`, `min`, `max` and `abs`. The full rules are in [Formula language](topic:formulas).
 
+When the item has a {{ui:Quantity factor}} (see [Create items](topic:create-items)), `L`, `A` and `N` are already multiplied by it.
+
 ## Worked example: an interior wall
 
 Say you have taken off **Interior wall type A** as a linear item: 4 runs totaling 120 LF, with {{ui:Height}} set to `9'-0"`. Its **Measured** values read L = 120, N = 4, A = 1,080 (SF of wall, one face).
