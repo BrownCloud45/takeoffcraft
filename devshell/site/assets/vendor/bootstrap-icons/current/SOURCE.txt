@@ -1,0 +1,2 @@
+Bootstrap Icons 1.13.2 — https://github.com/twbs/icons
+font/bootstrap-icons.min.css and font/fonts/ from the npm package bootstrap-icons@1.13.2 (its sha512 checked), unchanged.
