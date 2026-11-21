@@ -18,7 +18,7 @@ import { quantities, estimate, itemQty, sheetBreakdown, TYPES, sheetKey, missing
 import { UNITS, UNITS_FOR, formatRate, parseRate, parsePercent, scaleRecord, matchPreset, presetFtPerUnit, describeScale } from './units.js';
 import { t } from './i18n.js';
 import { outlineProblem } from './geom.js';
-import { getHost, stackRollback, ToolError } from "./host.js";
+import { getHost, stackRollback, ToolError, toolResult } from "./host.js";
 import { estimateLayout, sheetLayout, layoutAnswer } from './estimate-layout.js';   // 0.10 BK.149: the office standard on what the tools answer
 
 const r4 = (n) => (typeof n === 'number' && Number.isFinite(n) ? Math.round(n * 1e4) / 1e4 : n);
@@ -283,6 +283,30 @@ export function installAgents(app) {
   C.tool({ name: 'items_add', group: 'edit', rollbackPreview: true, title: 'Add items', description: 'Add takeoff items as one undo step: name, type (linear, area, count, fixed), unit (LF, m · SF, SY, m² · EA · …), material and labor rates in dollars per unit, waste in percent, heightFt (walls: wall area = length × height). → their ids for marks_add.',
     inputSchema: ITEMS_ADD_SCHEMA,
     run: async (a) => addItemsTo(app.model, a.items) });
+  // Look at a sheet (session devshell-mcp): what the assistant needs to measure on a PDF with marks_add — the page as an image, a grid in the
+  // fractions marks_add takes (units "fraction"), and the marks already there in their items' colours.
+  if (app.sheetImage) C.tool({ name: 'sheet_image', group: 'read', untrusted: true, title: 'Look at a sheet',
+    description: 'The sheet as an image (JPEG), or a region of it zoomed in, to read the drawing before measuring. A blue grid is labelled in fractions of the page from its lower-left corner '
+      + '(x across, y up), the same numbers marks_add takes with units "fraction"; marks already on the sheet are drawn in their items\' colours. Zoom in (region) to place points accurately: '
+      + 'a whole sheet at 1568 px is too coarse for exact corners. Read the scale and dimensions printed on the drawing to check your lengths.',
+    inputSchema: obj({
+      sheet: { description: 'Sheet number from 1, or part of its title; default the sheet shown.', anyOf: [{ type: 'integer', minimum: 1 }, { type: 'string', maxLength: 255 }] },
+      region: { description: 'Part of the page to show, as fractions of the page from its lower-left corner; default the whole page.', ...obj({ left: { type: 'number', minimum: 0, maximum: 1 }, bottom: { type: 'number', minimum: 0, maximum: 1 }, right: { type: 'number', minimum: 0, maximum: 1 }, top: { type: 'number', minimum: 0, maximum: 1 } }, ['left', 'bottom', 'right', 'top']) },
+      maxPixels: { description: 'Longest side of the image in pixels (default 1568).', type: 'integer', minimum: 256, maximum: 4096 },
+      grid: { description: 'Grid lines across each side (default 10; 0 for none).', type: 'integer', minimum: 0, maximum: 40 },
+      marks: { description: 'false hides the marks already on the sheet.', type: 'boolean' },
+    }),
+    run: async (a) => {
+      const s = findSheet(a.sheet), r = a.region || { left: 0, bottom: 0, right: 1, top: 1 };
+      if (r.right <= r.left || r.top <= r.bottom) throw new ToolError('invalid_argument', 'The region is empty: right must be larger than left and top larger than bottom.', { next: ['Give fractions of the page, e.g. left 0.2, bottom 0.3, right 0.5, top 0.6.'] });
+      let img;
+      try { img = await app.sheetImage(s.key, { region: [r.left, r.bottom, r.right, r.top], maxPx: a.maxPixels || 1568, grid: a.grid ?? 10, marks: a.marks !== false }); }
+      catch (e) { throw new ToolError('unsupported', 'This sheet cannot be shown as an image: ' + e.message, { next: ['On a DWG or DXF use cad_catalog, cad_count and cad_measure.'] }); }
+      const sc = st().sheets?.[s.key]?.scale;
+      const info = { sheet: s.title, region: r, width: img.width, height: img.height, scale: (sc && (sc.label || sc.preset)) || null, ...(img.rotate ? { rotate: img.rotate } : {}),
+        howToMark: 'Use marks_add with units "fraction" and the grid\'s numbers: [x, y] from the page\'s lower-left corner, whatever region is shown.' };
+      return toolResult([{ type: 'image', data: img.data, mimeType: img.mimeType }, { type: 'text', text: JSON.stringify(info) }], info);
+    } });
   C.tool({ name: 'marks_add', group: 'edit', rollbackPreview: true, title: 'Add marks', description: 'Measure on a sheet for an item, as one undo step: each mark is pts (a run for a linear item, an outline for an area item with optional holes, points for a count item: one mark each). Points in PDF points (units "pt", the page\'s own coordinates) or as fractions of the page from its lower-left corner (units "fraction"). Lengths and areas only on a sheet with a scale; counts on any sheet.',
     inputSchema: obj({ item: { description: 'Name of the takeoff item the marks belong to.', type: 'string', minLength: 1, maxLength: 200 }, sheet: { description: 'Sheet number from 1 or part of its title.', description: 'Sheet number from 1 or part of its title.', anyOf: [{ type: 'integer', minimum: 1 }, { type: 'string', maxLength: 255 }] }, units: { description: 'pt (PDF points, default) or fraction (0 to 1 across the sheet).', type: 'string', enum: ['pt', 'fraction'], default: 'pt' },
       marks: { description: 'The marks: each with pts (a run of points, an outline, or one point per count).', type: 'array', minItems: 1, maxItems: 5000, items: obj({ pts: { type: 'array', minItems: 1, maxItems: 5000, items: { type: 'array', items: { type: 'number' }, minItems: 2, maxItems: 2 } }, holes: { type: 'array', maxItems: 200, items: { type: 'array', minItems: 3, maxItems: 5000, items: { type: 'array', items: { type: 'number' }, minItems: 2, maxItems: 2 } } } }, ['pts']) } }, ['item', 'marks']),

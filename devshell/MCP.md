@@ -41,6 +41,18 @@ clone's path), then restart Claude Desktop:
 
 `mcp-stdio.mjs` reads the token itself. If you start the server with `--port`, pass the same `--port` to it as well.
 
+## Measuring on PDFs: `sheet_image`
+
+The assistant can't measure on a plan it can't see, so `sheet_image` sends it a picture of a sheet, or of a zoomed-in
+region. On the picture:
+
+- **A blue grid** is labelled in fractions of the page from its lower-left corner. These are the same numbers
+  `marks_add` takes with `units: "fraction"`, so a point read off the picture can be marked directly.
+- **Existing marks** are drawn in their items' colours, so the assistant can check its own work.
+
+Zoom in for accuracy: a whole sheet at about 1600 px is too coarse for exact corners. Set the sheet's scale first. After
+the assistant marks a sheet, check its marks against the dimensions printed on the drawing.
+
 ## How it works and what it allows
 
 - The assistant connects to `/mcp`, which uses Streamable HTTP with JSON answers. The server passes each request to the

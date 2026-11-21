@@ -3005,6 +3005,58 @@ function init(root) {
     } finally { roomBusy = false; }
   }
 
+  /** sheet_image (agents.js): the sheet, or a region of it, as a JPEG for an assistant to look at, with a grid in page fractions (marks_add units "fraction",
+   * from the page's lower-left corner) and the marks already on it in their items' colours. region = [left, bottom, right, top] in fractions. */
+  async function sheetImage(key, { region = [0, 0, 1, 1], maxPx = 1568, grid = 10, marks = true } = {}) {
+    const s = sheets.find((x) => x.key === key);
+    if (!s) throw new Error('No such sheet.');   // i18n-ignore: read by the assistant
+    const page = await s.file.doc.getPage(s.info.index + 1);
+    const vb = s.info.view, F = (fx, fy) => [vb[0] + fx * (vb[2] - vb[0]), vb[1] + fy * (vb[3] - vb[1])];
+    const base = page.getViewport({ scale: 1, rotation: s.info.rotate });
+    const box = (vp) => { const c = [[region[0], region[1]], [region[2], region[1]], [region[0], region[3]], [region[2], region[3]]].map(([a, b]) => vp.convertToViewportPoint(...F(a, b)));
+      const xs = c.map((q) => q[0]), ys = c.map((q) => q[1]); return [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)]; };
+    const b1 = box(base), scale = Math.min(6, maxPx / Math.max(b1[2] - b1[0], b1[3] - b1[1]));
+    const vp = page.getViewport({ scale, rotation: s.info.rotate }), [x0, y0, x1, y1] = box(vp);
+    const c = document.createElement('canvas');
+    c.width = Math.max(1, Math.round(x1 - x0)); c.height = Math.max(1, Math.round(y1 - y0));
+    const g = c.getContext('2d');
+    g.fillStyle = '#ffffff'; g.fillRect(0, 0, c.width, c.height);
+    await page.render({ canvasContext: g, viewport: vp, transform: [1, 0, 0, 1, -x0, -y0], background: '#ffffff' }).promise;
+    const V = (x, y) => { const q = vp.convertToViewportPoint(x, y); return [q[0] - x0, q[1] - y0]; };
+    if (marks) {
+      g.save(); g.lineWidth = Math.max(2, c.width / 500); g.globalAlpha = 0.75;
+      for (const m of model.state.marks) {
+        if (m.sheet !== key || !m.pts?.length) continue;
+        const it = model.item(m.item); if (!it) continue;
+        g.strokeStyle = g.fillStyle = it.color || '#e5484d';
+        const ps = m.pts.map((p) => V(p.x, p.y));
+        if (it.type === 'count' || ps.length === 1) { g.beginPath(); g.arc(ps[0][0], ps[0][1], g.lineWidth * 3, 0, Math.PI * 2); g.fill(); continue; }
+        g.beginPath(); ps.forEach((q, i) => (i ? g.lineTo(q[0], q[1]) : g.moveTo(q[0], q[1])));
+        if (it.type === 'area') { g.closePath(); g.globalAlpha = 0.25; g.fill(); g.globalAlpha = 0.75; }
+        g.stroke();
+      }
+      g.restore();
+    }
+    if (grid > 0) {
+      const step = (region[2] - region[0]) / grid, stepY = (region[3] - region[1]) / grid, fs = Math.max(11, Math.round(Math.min(c.width, c.height) / 70));
+      g.save(); g.font = `${fs}px sans-serif`; g.lineWidth = 1;
+      const label = (txt, x, y) => { const w = g.measureText(txt).width + 4; g.fillStyle = 'rgba(255,255,255,0.85)'; g.fillRect(x, y - fs, w, fs + 3); g.fillStyle = '#0050d0'; g.fillText(txt, x + 2, y); };
+      const r3 = (n) => String(Math.round(n * 1000) / 1000);
+      for (let i = 0; i <= grid; i++) {
+        const fx = region[0] + i * step, fy = region[1] + i * stepY;
+        const a = V(...F(fx, region[1])), b = V(...F(fx, region[3])), cc = V(...F(region[0], fy)), d = V(...F(region[2], fy));
+        g.strokeStyle = 'rgba(0,80,208,0.35)';
+        g.beginPath(); g.moveTo(a[0], a[1]); g.lineTo(b[0], b[1]); g.moveTo(cc[0], cc[1]); g.lineTo(d[0], d[1]); g.stroke();
+        if (i === 0 || i === grid) continue;   // the edges are the region itself (in the text result); labels there would collide in the corners
+        label('x' + r3(fx), Math.min(Math.max(0, Math.min(a[0], b[0]) + 2), c.width - fs * 4), fs + 2);
+        label('y' + r3(fy), 2, Math.min(Math.max(fs + 2, Math.min(cc[1], d[1]) - 2), c.height - 2));
+      }
+      g.restore();
+    }
+    const url = c.toDataURL('image/jpeg', 0.85);
+    return { data: url.slice(url.indexOf(',') + 1), mimeType: 'image/jpeg', width: c.width, height: c.height, rotate: s.info.rotate || 0 };
+  }
+
   async function rasterize(sheet, w) {
     const page = await sheet.file.doc.getPage(sheet.info.index + 1);
     const vp = page.getViewport({ scale: w, rotation: sheet.info.rotate });
@@ -3747,7 +3799,7 @@ function init(root) {
     refresh: () => { renderItems(); renderItemProps(); renderQty(); } })
     .then((a) => { addonsApi = a; }).catch((err) => console.warn('add-ons did not start:', err));   // i18n-ignore (developer message)
 
-  installAgents({ model, sheetLabel, countAll: () => countAllUi?.drive, prices: () => pricesUi?.drive, supply: () => supplyUi?.drive, carbon: () => carbonUi?.drive, sheetByKey: (key) => sheets.find((s) => s.key === key), sheets: () => sheets.map((s) => ({ key: s.key, title: s.title, view: s.info.view })), current: () => (cur ? cur.key : null), exportCsv, exportXlsx, selectMarks, estimateTsv: () => estimateTsv(model.state, est, columnsNow()),
+  installAgents({ model, sheetLabel, countAll: () => countAllUi?.drive, prices: () => pricesUi?.drive, supply: () => supplyUi?.drive, carbon: () => carbonUi?.drive, sheetByKey: (key) => sheets.find((s) => s.key === key), sheets: () => sheets.map((s) => ({ key: s.key, title: s.title, view: s.info.view })), current: () => (cur ? cur.key : null), sheetImage, exportCsv, exportXlsx, selectMarks, estimateTsv: () => estimateTsv(model.state, est, columnsNow()),
     cadSets: () => files.filter(isCad),   // 0.7 AS.6 (assistants-gaps): the open DWG / DXF drawings for cad_count, cad_measure
     usd: async (key, format) => {   // 0.7 AS.6: the sheet's 3D check view as OpenUSD, as exportUsd makes it (needs a scaled sheet; the 3D view need not be open)
       const s = sheets.find((x) => x.key === key);

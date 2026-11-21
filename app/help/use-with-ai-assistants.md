@@ -39,6 +39,7 @@ A browser tab can't open a connection for an assistant: in the browser apps the 
 | Tool | Permission | What it does |
 |---|---|---|
 | `app_info`, `sheets_list` | Read | The takeoff open, its PDFs and sheets, each sheet's scale and marks |
+| `sheet_image` | Read | A picture of a sheet, or a zoomed-in part of it, with a grid in the numbers `marks_add` takes and the marks already there, so the assistant can see where to measure on a PDF |
 | `items_list` | Read | The items with their units, rates and assembly formulas |
 | `takeoff_quantities` | Read | Quantities per item or per sheet; marks on sheets with no scale are listed, never counted as zero |
 | `takeoff_estimate` | Read | The priced estimate as TakeoffCraft computes it, with its totals |
