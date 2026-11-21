@@ -24,8 +24,13 @@ The first time a library is needed (pdf.js, three.js, …) it is downloaded once
 and checked against `devshell/vendor.json`. `npm run fetch-vendor` downloads them all up front. Behind a company proxy or
 a registry mirror, set `NPM_REGISTRY=https://your-mirror/` first.
 
-To put it on a web server for your team, build the browser edition (a folder of static files, see
-[BUILDING.md](BUILDING.md#the-browser-edition)).
+To put it on a web server for your team, build the browser edition: a folder of static files that any web server can
+host (IIS, Apache, nginx, a shared folder behind one), with nothing to run on the server. It needs PHP 8.1+ besides Node
+to build ([BUILDING.md](BUILDING.md#the-browser-edition)):
+
+```sh
+npm run edition -- --version 1.0     # → dist/takeoffdesk-browser-edition-v1.0.0/, its .zip and SHA256SUMS
+```
 
 ## Use it with an AI assistant
 

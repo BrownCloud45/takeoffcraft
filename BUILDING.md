@@ -45,8 +45,8 @@ The browser edition is the whole app as a folder of static files: put it on any 
 in a browser. The server needs no PHP and no Node, and the app contacts no server of its own.
 
 ```sh
-node devshell/edition.mjs                       # → dist/takeoffcraft-browser-edition-vdev/
-node devshell/edition.mjs --version 0.7 --zip   # → dist/takeoffcraft-browser-edition-v0.7.0/, its .zip and SHA256SUMS
+node devshell/edition.mjs                       # → dist/takeoffdesk-browser-edition-vdev/
+node devshell/edition.mjs --version 0.7 --zip   # → dist/takeoffdesk-browser-edition-v0.7.0/, its .zip and SHA256SUMS
 ```
 
 - It needs Node.js and PHP (above). Libraries it does not have yet are downloaded by exact version and checked against

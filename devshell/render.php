@@ -177,11 +177,11 @@ ob_start();
   </div>
   <nav class="app-bar-links" aria-label="<?= e($app['name']) ?>">
   </nav>
-  <button type="button" class="app-bar-btn app-bar-help" data-help-open aria-expanded="false" title="Help (F1)" hidden><i class="bi bi-question-circle" aria-hidden="true"></i><span class="app-bar-btn-label">Help</span></button>
+  <button type="button" class="app-bar-btn app-bar-help" data-help-open aria-expanded="false" title="<?= Lang::e('shell.help.title') ?> (F1)" hidden><i class="bi bi-question-circle" aria-hidden="true"></i><span class="app-bar-btn-label"><?= Lang::e('shell.help.title') ?></span></button>
 <?php if ($__offlineData !== null): ?>
   <button type="button" class="app-bar-btn app-bar-offline" data-offline aria-live="polite" hidden><i class="bi bi-cloud-arrow-down" aria-hidden="true"></i><span class="app-bar-btn-label" data-offline-label><?= Lang::e('shell.offline.save') ?></span></button>
 <?php endif; ?>
-  <button type="button" class="app-bar-btn app-bar-settings" data-settings-open aria-haspopup="dialog" aria-expanded="false" title="Settings (Ctrl+,)" hidden><i class="bi bi-gear" aria-hidden="true"></i><span class="app-bar-btn-label">Settings</span></button>
+  <button type="button" class="app-bar-btn app-bar-settings" data-settings-open aria-haspopup="dialog" aria-expanded="false" title="<?= Lang::e('shell.bar.settings') ?> (Ctrl+,)" hidden><i class="bi bi-gear" aria-hidden="true"></i><span class="app-bar-btn-label"><?= Lang::e('shell.bar.settings') ?></span></button>
   <button type="button" class="app-bar-fs" data-fs-cycle aria-pressed="false" hidden><i class="bi bi-fullscreen" aria-hidden="true"></i><span class="app-bar-fs-label">Full screen</span></button>
   <form class="space-toggle" method="get" action="<?= $edition === null ? '/' : '' ?>" role="group" aria-label="<?= Lang::e('shell.bar.space') ?>">
     <button type="submit" name="space" value="paper" aria-pressed="false" title="<?= Lang::e('shell.bar.paper.title') ?>"><?= Lang::e('shell.bar.paper') ?></button>
