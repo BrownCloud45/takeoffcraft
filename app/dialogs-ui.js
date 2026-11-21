@@ -9,7 +9,6 @@ import { el, ask, safeName, icon } from './ui-util.js';
 import * as U from './units.js';
 import { bidSummary, proposalPdf } from './bid.js';
 import { alternates, baseEstimate } from './model.js';
-import { createBidsUi } from './bids-ui.js';
 import { divisionTitle } from './export.js';
 import { pdfWithMarks } from './pdfmarks.js';
 import { bidPackages, leveling, packageCsv, updateBid, setAward, removeBid, addBid } from './level.js';
@@ -74,10 +73,6 @@ export function mountDialogs(ctx) {
   }
 
   // ---- bid packages and leveling (0.6 LC.13, level.js): scope by trade out, subcontractors' bids side by side ----
-  // 0.7 B4: bids-ui.js sends a package to the website (email invitations, the bidder's page) and pulls the prices back into the bids.
-  const bidsUi = createBidsUi({ root, model, status, files: () => files, sheetLabel, divisionTitle, loadPdfLib: () => import('pdf-lib'),
-    loadCad: async () => { const m = await import('./cadpdf.js'); return { cadSheetsPdf: m.cadSheetsPdf, remapState: m.remapState,
-      pdfWithMarks: (L, bytes, hash, st, o) => pdfWithMarks(L, bytes, hash, st, { ...o, marker: settings.marker }) }; } });   // 0.9.1: a bid package's sheets draw counts at the size set in Settings too
   async function levelDialog() {
     if (!model.state.items.length) { status(t('bid.empty')); return; }
     const title = (k) => (k ? divisionTitle(k) : t('csi.div.none'));
@@ -89,14 +84,7 @@ export function mountDialogs(ctx) {
       const e = baseEstimate(model.state, { awards: false }), pkgs = bidPackages(model.state, e, { title });
       const lv = new Map(leveling(model.state, e, { title }).map((p) => [p.pkg.key, p]));
       box.replaceChildren(...pkgs.map((p) => {
-        const key = p.key || 'none', L = lv.get(p.key), reqs = bidsUi.requests(p.key);
-        const sendBtn = el('button', { type: 'button', className: 'tc-linkbtn', dataset: { lvlSend: key }, onclick: async () => { await bidsUi.sendDialog(p); draw(); } }, icon('send'), ' ' + t('lvl.send'));
-        const getBtn = el('button', { type: 'button', className: 'tc-linkbtn', dataset: { lvlGet: key }, onclick: async () => {
-          say(t('lvl.get.busy'));
-          const r = await bidsUi.getPrices(p.key);
-          say(r.needConnect ? t('bids.err.connect') : r.failed ? t('lvl.get.failed') : (r.added + r.updated) ? t('lvl.get.done', { added: r.added, updated: r.updated }) + (r.late ? ' ' + t('lvl.get.late', { n: r.late }) : '') : r.sealed ? t('lvl.get.sealed') : t('lvl.get.none', { waiting: r.waiting }));
-          draw();
-        } }, icon('arrow-repeat'), ' ' + t('lvl.get'));
+        const key = p.key || 'none', L = lv.get(p.key);
         const csvBtn = el('button', { type: 'button', className: 'tc-linkbtn', dataset: { lvlCsv: key }, onclick: () => {
           const file = t('pkg.csv.file', { name: safeName(model.state.name || 'Takeoff'), pkg: safeName((p.key ? p.key + ' ' : '') + p.title) }) + '.csv';
           host.download(new Blob(['﻿' + packageCsv(p, sheetLabel)], { type: 'text/csv' }), file, 'text/csv');
@@ -134,22 +122,16 @@ export function mountDialogs(ctx) {
         } }, t('lvl.add'));
         return el('section', { className: 'tc-lvl-pkg', dataset: { lvlPkg: key } },
           el('h3', { className: 'tc-h' }, (p.key ? p.key + ' ' : '') + p.title),
-          el('p', { className: 'tc-note' }, t('lvl.pkg.facts', { items: t('n.items', { n: p.items.length }), sheets: t('n.sheets', { n: p.sheets.length }), cost: U.formatCents(p.cost) }), ' ', csvBtn, ' ', sendBtn, reqs.length ? [' ', getBtn] : null),
-          ...reqs.map((r) => el('p', { className: 'tc-note', dataset: { lvlReq: r.req.uuid } }, icon('envelope'), ' ' + r.text,
-            r.info ? ' ' + (r.info.sealed ? t('lvl.req.sealed', { until: r.info.sealedUntil ? new Date(r.info.sealedUntil).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) : '', answered: r.info.answered, invited: r.info.invited })
-              : t('lvl.req.opened', { answered: r.info.answered, invited: r.info.invited })) + (r.info.status !== 'open' ? ' ' + t('lvl.req.' + r.info.status) : '') : null)),
+          el('p', { className: 'tc-note' }, t('lvl.pkg.facts', { items: t('n.items', { n: p.items.length }), sheets: t('n.sheets', { n: p.sheets.length }), cost: U.formatCents(p.cost) }), ' ', csvBtn),
           el('table', { className: 'tc-qty-table tc-lvl-table' },
             el('thead', {}, el('tr', {}, ...['bidder', 'bid', 'left', 'plug', 'leveled', 'diff', 'low', 'award'].map((k) => el('th', { scope: 'col' }, t('lvl.head.' + k))), el('th', {}))),
             el('tbody', {}, ...rows, el('tr', {}, el('td', {}, nb), el('td', {}, na), el('td', { colSpan: 7 }, add)))));
       }));
     };
     draw();
-    if ((model.state.bidreqs || []).length && bidsUi.connected()) bidsUi.getPrices(undefined, { quiet: true }).then((r) => { if (r.added || r.updated) say(t('lvl.get.done', { added: r.added, updated: r.updated })); draw(); });    // quietly, when this tab is already signed in
-    const stopWatching = bidsUi.onConnectionChange(() => draw());
     const asked = ask(root, { title: t('lvl.h'), text: t('lvl.text'), body: el('div', {}, box, msg), buttons: [['cancel', t('btn.close'), 'btn-line']] });
     root.querySelector('dialog.tc-dialog[open]')?.classList.add('is-wide');
     await asked;
-    stopWatching();
   }
 
   // ---- the assembly and price library (T9): per viewer, kept in this browser for every takeoff ----

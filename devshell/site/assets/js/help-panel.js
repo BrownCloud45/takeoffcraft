@@ -213,8 +213,7 @@ function render() {
   ui.body.replaceChildren();
   if (loadError || !help) {
     ui.body.append(el('div', { class: 'help-empty' },
-      el('p', { text: T('shell.help.none') }),
-      el('p', {}, T('shell.help.none.tutorials') + ' ', el('a', { href: siteHref('/tutorials'), target: '_blank', rel: 'noopener' }, 'getcadcraft.com/tutorials'))));
+      el('p', { text: T('shell.help.none') })));
     return;
   }
   if (st.view === 'topic') renderTopic(st);
@@ -280,9 +279,6 @@ function renderTopic(st) {
     el('nav', { class: 'help-pager', 'aria-label': T('shell.help.pager') },
       prev ? el('button', { type: 'button', class: 'help-link', onclick: () => openTopic(prev.scope, prev.slug) }, el('i', { class: 'bi bi-chevron-left', 'aria-hidden': 'true' }), ' ' + prev.title) : el('span'),
       next ? el('button', { type: 'button', class: 'help-link', onclick: () => openTopic(next.scope, next.slug) }, next.title + ' ', el('i', { class: 'bi bi-chevron-right', 'aria-hidden': 'true' })) : el('span')),
-    isAddon(t.scope) ? null : el('p', { class: 'help-web' },
-      el('a', { href: siteHref('/tutorials/' + t.scope + '/' + t.slug), target: '_blank', rel: 'noopener' }, T('shell.help.web')),
-      el('span', { class: 'help-web-off', text: T('shell.help.web.offline') })),
   ].filter(Boolean));
 }
 

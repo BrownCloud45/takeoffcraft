@@ -1,14 +1,14 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * mcp-bridge.mjs — let an MCP assistant (Claude Code, Claude Desktop, …) use the app running in the dev shell, as
- * CadCraft Studio's "Connect an assistant" does for the installed app. Opt-in: `node devshell/serve.mjs --mcp`.
+ * mcp-bridge.mjs — let an MCP assistant (Claude Code, Claude Desktop, …) use the app running in the dev shell.
+ * Opt-in: `node devshell/serve.mjs --mcp`.
  *
  *   assistant ──POST /mcp (Streamable HTTP, JSON answers, Bearer token)──▶ serve.mjs
  *   serve.mjs ◀──long poll /__bridge/poll · answers /__bridge/reply──▶ the app's browser tab
  *
- * The tab gets a stand-in for Studio's window channel (window.cadcraftStudio, mcp-shim.js), so host.js's control
- * dispatcher answers every request exactly as in Studio: the same tools, Settings › Assistants permissions, undo steps
- * and activity log. Nothing here knows the tools.
+ * The tab gets a channel (window.takeoffdeskBridge, mcp-shim.js) that host.js's control dispatcher listens on, so every
+ * request gets the app's own tools, Settings › Assistants permissions, undo steps and activity log. Nothing here knows the
+ * tools.
  *
  * Safety: loopback only (the server refuses --mcp on another --host); the assistant needs the token in
  * devshell/.mcp-token (made once, git-ignored); the tab's endpoints need a per-start page token sent in a custom

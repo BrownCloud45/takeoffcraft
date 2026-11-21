@@ -59,16 +59,6 @@
   window.ccShellT.has = function (key) { var c = catalog(); return Object.prototype.hasOwnProperty.call(c.strings, key); };
 })();
 
-/* The desktop app (window.cadcraftDesktop, set by the desktop shell before the page loads) runs the browser edition
- * unchanged: its area chip says "Desktop", not "Browser edition" (desktop.md W.4 request). */
-(function () {
-  'use strict';
-  if (!window.cadcraftDesktop) return;
-  document.documentElement.classList.add('is-desktop');
-  var chip = document.querySelector('.app-bar-area');
-  if (chip && window.ccShellT && window.ccShellT.has('shell.bar.desktop')) chip.textContent = window.ccShellT('shell.bar.desktop');
-})();
-
 (function () {
   'use strict';
   var T = window.ccShellT;
@@ -389,7 +379,7 @@
       remember(d, c);
       say(T('shell.dialogs.moved'));
     });
-    if (d.hasAttribute('data-popout') && window.cadcraftDesktop && typeof window.open === 'function') {
+    if (false && d.hasAttribute('data-popout')) {   // TakeoffDesk: Studio's pop-out windows are gone
       var b = document.createElement('button');
       b.type = 'button';
       b.className = 'shell-dlg-pop';

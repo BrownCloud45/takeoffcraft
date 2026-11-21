@@ -1269,10 +1269,6 @@ export function mountWorkspaces(A0) {
   window.addEventListener('storage', (e) => { if (e.key === FILES_KEY) decide(); });
   if (window.matchMedia) matchMedia(PHONE).addEventListener?.('change', () => decide());
   decide();
-  // UI.3 (studio-10): in Studio, each block that was out when this app window last closed goes back to its own window, on the screen the shell remembers (once each)
-  if (!guest) setTimeout(async () => {
-    try { const titles = await window.cadcraftDesktop?.popups?.restore?.(); if (Array.isArray(titles)) for (const t of titles) windows.openByTitle(String(t)); } catch (e) { /* not Studio, or nothing to restore */ }
-  }, 1200);
   if (editOn() && !guest && new URLSearchParams(location.search).get('arrange') === '1') setTimeout(() => { if (cur) editor.arrange(true); }, 900);   // /developers/layouts › Design it in the app
   return api;
 }

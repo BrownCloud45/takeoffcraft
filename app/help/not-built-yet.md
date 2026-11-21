@@ -81,7 +81,7 @@ TakeoffCraft is in development. This list is what the current build does not do,
 
 | Not built yet | Instead, today |
 |---|---|
-| Addenda to a package that was already sent, award letters, a scope sheet each bidder signs off | Send a new package, and write the award yourself. [Send a package for bids](topic:bid-invitations) covers what is built. |
+| Sending a package to subcontractors from the app, addenda, award letters | Export the package's CSV (or the bid PDF), send it yourself, and type the bids that come back into the leveling table. |
 | Sending bid invitations from any account: while it is tested, mail to outside bidders is switched off except for accounts the CadCraft team has enabled | Download the {{ui:Scope CSV}}, email it yourself and type the bids in. |
 | Sending bid packages from a Studio window | Send from TakeoffCraft in the browser. |
 | Repricing an alternate's bid area with a chosen bid | Alternates and bid-area subtotals use your own prices; adjust the alternate by hand. |

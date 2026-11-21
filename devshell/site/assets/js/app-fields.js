@@ -101,13 +101,6 @@ function boot() {
   };
   window.ccFields = api;
   F.restore().then(() => render());
-  // D-FL2: the account list follows into this app. The one mount of app-addons-account.js's sync until the add-on host owns it: a page that already made
-  // window.ccAddonsAccount only gets our hook; signed out or offline, nothing changes. Edition: the browser build (Studio's shell sets window.ccEdition).
-  import('./app-addons-account.js?v=1794197714').then((m) => {
-    const acc = window.ccAddonsAccount || (window.ccAddonsAccount = new m.AddonsAccount({ app: cfg.app, edition: window.ccEdition || 'web', fields: () => window.ccFields }));
-    if (!acc.fields) acc.fields = () => window.ccFields;
-    if (acc.due()) acc.sync().then(() => render());
-  }).catch(() => {});
   palette({ id: 'cc-fields-open', label: T('shell.fields.palette'), group: T('shell.fields.title'), keywords: 'field pack industry kit template calc lesson', run: () => P.toggle() });
   document.dispatchEvent(new CustomEvent('cc-fields-ready'));
 }

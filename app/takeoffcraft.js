@@ -34,7 +34,6 @@ import { pageSize, sizeText, groupBySize } from './pagesize.js';
 import { SheetWindow } from './sheetlist.js';
 import { estimateCsv, estimateXlsx, materialList, materialCsv, spotElevationsCsv, divisionTitle } from './export.js';
 import { bidPackages, leveling, packageCsv, addBid, updateBid, removeBid, setAward } from './level.js';
-import { createBidsUi } from './bids-ui.js';
 import { pdfWithMarks, cloudPath, NOTE_COLORS } from './pdfmarks.js';
 import * as CMK from './countmarker.js';
 import { toInk, crop, trim, templateProblem, suppress, workScale, ANY_ANGLES } from './match.js';
@@ -3861,8 +3860,6 @@ function init(root) {
       packsDialog({ offer: packParam });
     }
     if (pdfjs) { const launched = await host.launchFiles(); if (launched.length) await openHostFiles(launched); }   // desktop: files it was started with
-    // Studio Live from a link (#live=<code> on a host's LAN page, ?live=<ROOM>#<secret> from an invite): join; the takeoff and its PDFs come from the host
-    if (pdfjs && /[#&]live=|[?&]live=/.test(location.hash + location.search)) import('./live.js').then((m) => m.joinFromPage(window.takeoffcraft, host), (err) => status(err.message, 12000));
     // "Recover your work?" when a page that stopped left a takeoff behind (`recovery` tells tests: none | asking | done)
     autosave.orphans().then((list) => {
       window.takeoffcraft.recovery = list.length ? 'asking' : 'none';

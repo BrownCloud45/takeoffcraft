@@ -28,14 +28,12 @@
  * Words: shell.dev.* in assets/lang/shell.
  */
 import * as D from './app-devices.js';
-import { installStudioDevices } from './app-devices-studio.js';   // 0.8 ID.8: WebHID / Web MIDI doors in Studio's own window
 
 const cfg = (() => { try { return JSON.parse(document.getElementById('cc-devices')?.textContent || 'null'); } catch (e) { return null; } })();
 const T = (k, v) => (window.ccShellT ? window.ccShellT(k, v) : k);
 const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* this tab keeps it */ } } };
 const root = document.documentElement;
 
-try { installStudioDevices(window); } catch (e) { /* nothing installed: the doors say "not available here" as before */ }   // no-op without Studio's devices bridge
 const penOn = () => { try { return JSON.parse(document.getElementById('cc-pen')?.textContent || 'null')?.on === true; } catch (e) { return false; } };
 if (cfg && cfg.app) boot();
 

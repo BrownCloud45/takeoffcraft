@@ -1,13 +1,13 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — messages here are read by the assistant program, not shown to the person. */
 /**
- * mcp-shim.js — the dev shell's stand-in for CadCraft Studio's window channel (window.cadcraftStudio), loaded only by
+ * mcp-shim.js — the dev shell's channel to the app's assistant dispatcher (window.takeoffdeskBridge), loaded only by
  * `serve.mjs --mcp` (mcp-bridge.mjs). host.js wires its control dispatcher to this channel when Settings › Assistants
  * is on; requests arrive by long poll from the dev server and answers go back to it.
  */
 (function () {
   var cfg = window.__ccBridge;
-  if (!cfg || window.cadcraftStudio) return;
+  if (!cfg || window.takeoffdeskBridge) return;
   var handlers = {};
   var H = { 'X-CC-Bridge': cfg.token, 'Content-Type': 'application/json' };
   function send(url, data) {
@@ -15,7 +15,7 @@
   }
   function wait(ms) { return new Promise(function (r) { setTimeout(r, ms); }); }
 
-  window.cadcraftStudio = {
+  window.takeoffdeskBridge = {
     on: function (type, fn) {
       (handlers[type] = handlers[type] || []).push(fn);
       return function () { handlers[type] = (handlers[type] || []).filter(function (f) { return f !== fn; }); };

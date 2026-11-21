@@ -1110,7 +1110,7 @@ export function sharedApi(base, addon, registry) {
     if (!r.ok) throw new Error('renderEngines: ' + path);
     return new Uint8Array(await r.arrayBuffer());
   };
-  const placeNow = () => (typeof window !== 'undefined' && window.cadcraftDesktop ? 'studio' : 'web');
+  const placeNow = () => 'web';
   const renderEngines = {
     async register(def) {
       if (!(addon.manifest.permissions || []).includes('engine.run')) throw new Error('renderEngines.register: needs the engine.run permission');

@@ -38,8 +38,7 @@
     "window"
   ],
   "accepts": [
-    "handoff",
-    "live"
+    "handoff"
   ],
   "addons": "own",
   "input": "input-takeoffcraft.js",
@@ -51,7 +50,7 @@
     ],
     "adapter": "workspace-takeoffcraft.js"
   },
-  "hardware": true,
+  "hardware": false,
   "problems": true,
   "engines": true
 }
