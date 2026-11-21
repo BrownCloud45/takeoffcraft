@@ -32,11 +32,11 @@ A beillesztett jelölések a {{ui:Tételek}} panel tetején kiválasztott ajánl
 
 {{key:Mod+Shift+V}} ({{ui:Beillesztés helyben}}) a másolatot pontosan ugyanarra a helyre teszi a megnyitott lapon, az oldalon elfoglalt helye szerint. Tipikus emeletnél használja: mérje fel a 2. szintet, másoljon, nyissa meg a 3. szintet, és illessze be helyben.
 
-A helyben beillesztéshez a másolt lappal **azonos méretű** lap kell. Más méretű lapon a TakeoffCraft jelzi, és nem illeszt be semmit; helyette használja a {{ui:Beillesztés}} parancsot, és kattintson. Azon a lapon, ahonnan másolt, a másolat az eredeti jelölések tetejére kerül.
+A helyben beillesztéshez a másolt lappal **azonos méretű** lap kell. Más méretű lapon a TakeoffDesk jelzi, és nem illeszt be semmit; helyette használja a {{ui:Beillesztés}} parancsot, és kattintson. Azon a lapon, ahonnan másolt, a másolat az eredeti jelölések tetejére kerül.
 
 ## A méretaránynak egyeznie kell
 
-A hosszak és területek a lap méretarányától függnek. Egy 10' hosszúságú szakasz 1/4" = 1'-0" méretarány mellett 20'-nek mérődne egy 1/8" = 1'-0" méretarányú lapon. Ezért a TakeoffCraft csak olyan lapra illeszti be a szakaszokat és területeket, amelynek **ugyanaz a méretaránya**, mint annak a lapnak, ahonnan származnak, és ezt egyértelműen közli, ha nem:
+A hosszak és területek a lap méretarányától függnek. Egy 10' hosszúságú szakasz 1/4" = 1'-0" méretarány mellett 20'-nek mérődne egy 1/8" = 1'-0" méretarányú lapon. Ezért a TakeoffDesk csak olyan lapra illeszti be a szakaszokat és területeket, amelynek **ugyanaz a méretaránya**, mint annak a lapnak, ahonnan származnak, és ezt egyértelműen közli, ha nem:
 
 - A megnyitott lapnak még nincs méretaránya: előbb adjon neki egyet ([Méretarány beállítása](topic:set-the-scale)), aztán illessze be.
 - A megnyitott lap másik méretarányú: az üzenet mindkét méretarányt megnevezi. Illessze be olyan lapra, amelynek azonos a méretaránya.
@@ -59,7 +59,7 @@ A tételszerkesztő (a **Tételek** alatt) ezekkel végződik:
 - {{ui:Tétel kettőzése}}: azonnal ad hozzá egy másolatot „(név) (másolat)” névvel.
 
 :::tip
-A másolat ezen a számítógépen marad: ebben a lapban és a böngésző tárolójában őrződik meg, így egy másik TakeoffCraft-lap is beillesztheti. Semmi nem töltődik fel, és a rendszer vágólapja nincs használatban, így jelöléseket nem tud más programokba beilleszteni.
+A másolat ezen a számítógépen marad: ebben a lapban és a böngésző tárolójában őrződik meg, így egy másik TakeoffDesk-lap is beillesztheti. Semmi nem töltődik fel, és a rendszer vágólapja nincs használatban, így jelöléseket nem tud más programokba beilleszteni.
 :::
 
 :::note

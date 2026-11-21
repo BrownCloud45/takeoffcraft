@@ -19,9 +19,9 @@ Kohdassa **Määrät › Nimikkeittäin** rivi, jolla on määrä mutta ei mater
 2. Valintaikkuna kertoo hyväksymäsi summan ja listaa rivit ilman hintaa. Kirjoita nimesi ja halutessasi roolisi.
 3. Napsauta **Hyväksy**. Palkissa lukee "Hyväksynyt … … …" ja summa. Tallenna määrälaskenta, jotta hyväksyntä säilyy tiedostossa.
 
-Hyväksyntä koskee lukuja, jotka hyväksyit. Jokainen myöhempi muutos määrään, hintaan tai riviin poistaa sen, ja TakeoffCraft kertoo siitä. Kumoa palauttaa hyväksytyn kustannusarvion ja sen hyväksynnän mukana. Rivin nimeäminen uudelleen ei ole luvun muutos. **Poista hyväksyntä** vie sen pois.
+Hyväksyntä koskee lukuja, jotka hyväksyit. Jokainen myöhempi muutos määrään, hintaan tai riviin poistaa sen, ja TakeoffDesk kertoo siitä. Kumoa palauttaa hyväksytyn kustannusarvion ja sen hyväksynnän mukana. Rivin nimeäminen uudelleen ei ole luvun muutos. **Poista hyväksyntä** vie sen pois.
 
-Määrälaskentatiedosto, jota on muokattu TakeoffCraftin ulkopuolella hyväksynnän jälkeen, avautuu ilman hyväksyntää, ja siinä on huomautus siitä. Viety kustannusarvio (CSV ja XLSX) mainitsee hyväksynnän summien alla.
+Määrälaskentatiedosto, jota on muokattu TakeoffDeskin ulkopuolella hyväksynnän jälkeen, avautuu ilman hyväksyntää, ja siinä on huomautus siitä. Viety kustannusarvio (CSV ja XLSX) mainitsee hyväksynnän summien alla.
 
 Vain ihminen voi hyväksyä. Tekoälyavustaja voi lukea, onko kustannusarvio hyväksytty ja mistä hinnat puuttuvat; sillä ei ole keinoa hyväksyä.
 

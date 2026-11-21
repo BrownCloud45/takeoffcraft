@@ -5,7 +5,7 @@ keywords: smella, osnap, hlutasmellun, endapunktur, miðpunktur, skurðpunktur, 
 from: 41d29e9b
 ---
 
-Flest teikningasett eru vigur-PDF-skjöl: veggir þeirra og brúnir eru raunverulegar línur, ekki mynddílar. Á meðan þú mælir smellir TakeoffCraft punktunum þínum á þessar línur, þannig að byrjun á runu er nákvæmlega á horni veggs og kvörðun les víddina sem teiknarinn teiknaði, en ekki mynddílinn sem þú smellir á.
+Flest teikningasett eru vigur-PDF-skjöl: veggir þeirra og brúnir eru raunverulegar línur, ekki mynddílar. Á meðan þú mælir smellir TakeoffDesk punktunum þínum á þessar línur, þannig að byrjun á runu er nákvæmlega á horni veggs og kvörðun les víddina sem teiknarinn teiknaði, en ekki mynddílinn sem þú smellir á.
 
 Smellun er á þegar þú byrjar. Kveiktu og slökktu á henni með {{ui:Smella}} í stöðustikunni eða {{key:F3}}; stillingin geymist í þessum vafra (hún er einnig undir [Stillingar](topic:settings)).
 

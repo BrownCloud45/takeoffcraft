@@ -14,7 +14,7 @@ Un poste de comptage compte des éléments : portes, luminaires, prises, apparei
 3. Cliquez sur chacun sur la feuille.
    Chaque clic place un point de la couleur du poste, et le comptage du poste augmente d'une unité.
 4. Passez à la feuille suivante ({{key:PageDown}}) et poursuivez le comptage. L'outil reste sur {{ui:Compter}}.
-5. Appuyez sur {{key:Esc}} une fois terminé. TakeoffCraft revient à {{ui:Sélectionner}}.
+5. Appuyez sur {{key:Esc}} une fois terminé. TakeoffDesk revient à {{ui:Sélectionner}}.
 
 Glisser déplace toujours la vue, et la molette fait toujours un zoom pendant le comptage : vous pouvez donc vous déplacer sur la feuille sans ajouter de points.
 
@@ -30,7 +30,7 @@ Cliquez sur le poste de comptage pour mettre ses points en évidence sur toutes 
 
 ## Taille des points, à l'écran et dans le PDF
 
-Les points gardent la même taille à l'écran, quel que soit le zoom. Pour la modifier, ouvrez {{ui:Paramètres}}, l'onglet TakeoffCraft, et choisissez **Taille du marqueur de comptage** : Très petite, Petite, Moyenne (par défaut) ou Grande.
+Les points gardent la même taille à l'écran, quel que soit le zoom. Pour la modifier, ouvrez {{ui:Paramètres}}, l'onglet TakeoffDesk, et choisissez **Taille du marqueur de comptage** : Très petite, Petite, Moyenne (par défaut) ou Grande.
 
 L'export PDF ({{ui:Exporter}} › le PDF annoté) dessine chaque point à la même taille sur papier, quelle que soit la taille de la feuille : une visionneuse affichant le PDF à 100 % montre les points aussi grands qu'à l'écran. Lorsque les points d'une feuille se toucheraient encore, l'export réduit les points de cette feuille pour que chacun reste lisible.
 

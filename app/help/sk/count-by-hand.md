@@ -14,7 +14,7 @@ Položka počtu počíta veci: dvere, svietidlá, zásuvky, vodovodné zariadeni
 3. Kliknite na každý na liste.
    Každé kliknutie dá bodku vo farbe položky a počet položky sa zvýši o jeden.
 4. Prejdite na ďalší list ({{key:PageDown}}) a pokračujte v počítaní. Nástroj zostane na {{ui:Počet}}.
-5. Keď skončíte, stlačte {{key:Esc}}. TakeoffCraft sa vráti na {{ui:Vybrať}}.
+5. Keď skončíte, stlačte {{key:Esc}}. TakeoffDesk sa vráti na {{ui:Vybrať}}.
 
 Ťahanie stále posúva a koliesko stále zväčšuje, takže sa môžete pohybovať po liste bez pridávania bodiek.
 
@@ -30,7 +30,7 @@ Kliknite na položku počtu, aby sa jej bodky zvýraznili na každom liste. Zozn
 
 ## Veľkosť bodiek na obrazovke a v PDF
 
-Bodky si na obrazovke zachovajú jednu veľkosť bez ohľadu na to, ako veľmi priblížite. Na zmenu otvorte {{ui:Nastavenia}}, kartu TakeoffCraft, a vyberte **Veľkosť značky počtu**: Extra malá, Malá, Stredná (predvolená) alebo Veľká.
+Bodky si na obrazovke zachovajú jednu veľkosť bez ohľadu na to, ako veľmi priblížite. Na zmenu otvorte {{ui:Nastavenia}}, kartu TakeoffDesk, a vyberte **Veľkosť značky počtu**: Extra malá, Malá, Stredná (predvolená) alebo Veľká.
 
 Export do PDF ({{ui:Export}} › označené PDF) kreslí každú bodku na papieri v rovnakej veľkosti, bez ohľadu na veľkosť listu: prehliadač zobrazujúci PDF na 100 % ukazuje bodky rovnako veľké, ako sú na obrazovke. Ak by sa bodky na liste ešte dotýkali, export zmenší bodky na tomto liste, aby sa dala čítať každá z nich.
 

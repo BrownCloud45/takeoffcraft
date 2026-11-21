@@ -55,4 +55,4 @@ Skala sebuah lembar menyatakan seberapa besar gambarnya; satuan sebuah item meny
 
 ## Presisi
 
-TakeoffCraft mengukur tepat dari titik yang Anda klik, termasuk panjang dan luas busur yang sebenarnya, dan tidak membulatkan kuantitas. Tampilan membulatkan panjang ke 1/16 in dan desimal ke dua tempat. Uang hanya dibulatkan pada jumlah akhir, sampai sen.
+TakeoffDesk mengukur tepat dari titik yang Anda klik, termasuk panjang dan luas busur yang sebenarnya, dan tidak membulatkan kuantitas. Tampilan membulatkan panjang ke 1/16 in dan desimal ke dua tempat. Uang hanya dibulatkan pada jumlah akhir, sampai sen.

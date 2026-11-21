@@ -5,22 +5,22 @@ keywords: estilo de menus, menus, barra de menus, friso, separadores do friso, b
 from: f01f0d6d
 ---
 
-Os comandos do TakeoffCraft são os mesmos, seja qual for a forma como lhes chega. Um **estilo de menus** só decide onde ficam no ecrã, como se chamam lá e quais as teclas que os executam. Escolha um em {{ui:Definições}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menus, teclas e rato}}; a alteração é imediata, e este navegador a recorda.
+Os comandos do TakeoffDesk são os mesmos, seja qual for a forma como lhes chega. Um **estilo de menus** só decide onde ficam no ecrã, como se chamam lá e quais as teclas que os executam. Escolha um em {{ui:Definições}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menus, teclas e rato}}; a alteração é imediata, e este navegador a recorda.
 
 ## Os três estilos
 
 | Estilo | O que obtém |
 |---|---|
-| {{ui:TakeoffCraft}} | A barra de ferramentas própria do TakeoffCraft: Ficheiro, Exportar, Escala, Medição, Editar e Ver, com as teclas de ferramentas de uma letra. O ponto de partida. |
+| {{ui:TakeoffDesk}} | A barra de ferramentas própria do TakeoffDesk: Ficheiro, Exportar, Escala, Medição, Editar e Ver, com as teclas de ferramentas de uma letra. O ponto de partida. |
 | {{ui:Mesa de medição}} | Uma barra de menus (Ficheiro, Editar, Ver, Escala, Medição, Artigos, Anotações, Exportar) sobre uma linha das ferramentas de medição, à maneira como os programas de medição no ecrã as dispõem. Na linha, os artigos chamam-se condições. As mesmas teclas, mais {{key:N}} para um artigo novo. As predefinições de escala passam para a barra da folha, ao lado da escala da folha. |
 | {{ui:Friso de medição}} | Separadores do friso com nomes conforme o trabalho: {{ui:Medição}} (medir, forma, escala, a partir do desenho, condições), {{ui:Editar}}, {{ui:Ver}}, {{ui:Anotações}} e {{ui:Orçamento}} (a folha de cálculo, os PDF marcados, a proposta), com um menu {{ui:Ficheiro}} e uma linha rápida para abrir, guardar, anular e refazer. As ferramentas que usa todos os dias são grandes, e as vizinhas são pequenas e empilhadas. As mesmas teclas; as predefinições de escala passam para a barra da folha. |
 
-Os três estilos mantêm as teclas do TakeoffCraft: {{key:V}} selecionar, {{key:L}} linear, {{key:A}} área, {{key:O}} círculo, {{key:B}} compartimento, {{key:P}} caminho (escolher as linhas do PDF), {{key:X}} recorte, {{key:C}} contagem, {{key:S}} contagem automática, {{key:K}} calibrar, {{key:D}} verificar, {{key:R}} modo de arco, {{key:E}} modo de dedução, {{key:F}} e {{key:W}} para ajustar, {{key:3}} a vista de verificação 3D, {{key:F3}} snap, e {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Os três estilos mantêm as teclas do TakeoffDesk: {{key:V}} selecionar, {{key:L}} linear, {{key:A}} área, {{key:O}} círculo, {{key:B}} compartimento, {{key:P}} caminho (escolher as linhas do PDF), {{key:X}} recorte, {{key:C}} contagem, {{key:S}} contagem automática, {{key:K}} calibrar, {{key:D}} verificar, {{key:R}} modo de arco, {{key:E}} modo de dedução, {{key:F}} e {{key:W}} para ajustar, {{key:3}} a vista de verificação 3D, {{key:F3}} snap, e {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 As ferramentas da barra da folha (notas, nuvens, realces, Comparar, 3D) esperam até um PDF estar aberto; se forem escolhidas antes, a linha de estado indica-o.
 
 :::tip
-Uma tecla que pertence ao esquema próprio do TakeoffCraft, mas que o seu estilo atribuiu a outro comando, não faz nada, e a linha de estado indica para onde foi o comando («Em As minhas teclas, Contagem é Ctrl+Alt+C»). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} e as setas mantêm sempre o seu significado. Enquanto desenha um percurso ou um contorno, cola ou revê uma contagem automática, as letras e os algarismos de um comprimento escrito ficam com o desenho.
+Uma tecla que pertence ao esquema próprio do TakeoffDesk, mas que o seu estilo atribuiu a outro comando, não faz nada, e a linha de estado indica para onde foi o comando («Em As minhas teclas, Contagem é Ctrl+Alt+C»). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} e as setas mantêm sempre o seu significado. Enquanto desenha um percurso ou um contorno, cola ou revê uma contagem automática, as letras e os algarismos de um comprimento escrito ficam com o desenho.
 :::
 
 ## Personalize
@@ -41,12 +41,12 @@ Guardar um estilo incorporado cria uma cópia sua («A minha mesa de medição»
 
 ## Levar consigo
 
-{{ui:Exportar}} guarda o estilo em uso como um pequeno ficheiro `.ccinput.json`; {{ui:Importar…}} acrescenta um, a partir de outro computador ou de um colega. Um ficheiro importado só pode apontar para os comandos do próprio TakeoffCraft: tudo o resto é deixado de fora e contado na linha de estado. {{ui:Eliminar este estilo}} remove um dos seus.
+{{ui:Exportar}} guarda o estilo em uso como um pequeno ficheiro `.ccinput.json`; {{ui:Importar…}} acrescenta um, a partir de outro computador ou de um colega. Um ficheiro importado só pode apontar para os comandos do próprio TakeoffDesk: tudo o resto é deixado de fora e contado na linha de estado. {{ui:Eliminar este estilo}} remove um dos seus.
 
 :::note
-Estas definições ficam neste navegador. {{ui:Utilizar este estilo em todas as aplicações}} nos cartões de estilo faz com que todas as aplicações abram no estilo correspondente (a própria barra de ferramentas, uma barra de menus ou um friso), com as alterações que fez em cada uma. O TakeoffCraft não tem nenhum estilo com linha de comandos: quando um é escolhido para todas as aplicações, o TakeoffCraft mantém a sua própria barra de ferramentas.
+Estas definições ficam neste navegador. {{ui:Utilizar este estilo em todas as aplicações}} nos cartões de estilo faz com que todas as aplicações abram no estilo correspondente (a própria barra de ferramentas, uma barra de menus ou um friso), com as alterações que fez em cada uma. O TakeoffDesk não tem nenhum estilo com linha de comandos: quando um é escolhido para todas as aplicações, o TakeoffDesk mantém a sua própria barra de ferramentas.
 
-O {{ui:Friso de medição}} é também o friso do esquema {{ui:Friso e navegador de projeto}} ({{ui:Definições}} › {{ui:Global}} › {{ui:Esquema}}): ver [O ecrã do TakeoffCraft](topic:workspace).
+O {{ui:Friso de medição}} é também o friso do esquema {{ui:Friso e navegador de projeto}} ({{ui:Definições}} › {{ui:Global}} › {{ui:Esquema}}): ver [O ecrã do TakeoffDesk](topic:workspace).
 :::
 
-Relacionados: [Teclado e rato](topic:keyboard) · [Definições do TakeoffCraft](topic:settings) · [Vindo de outro software de medição](topic:coming-from)
+Relacionados: [Teclado e rato](topic:keyboard) · [Definições do TakeoffDesk](topic:settings) · [Vindo de outro software de medição](topic:coming-from)

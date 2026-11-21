@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Mida sa teed
 
-Muuda seda, kuidas TakeoffCraft pikkusi kuvab, nii et meetrilise töö pikkused loetakse lehel, olekuribal ja paneelides meetrites, sentimeetrites või millimeetrites.
+Muuda seda, kuidas TakeoffDesk pikkusi kuvab, nii et meetrilise töö pikkused loetakse lehel, olekuribal ja paneelides meetrites, sentimeetrites või millimeetrites.
 
 ## Sammud
 
-1. Ava {{ui:Sätted}} rakendusriba hammasratta või klahviga {{key:Mod+,}} ja jää vahekaardile {{ui:TakeoffCraft}}.
+1. Ava {{ui:Sätted}} rakendusriba hammasratta või klahviga {{key:Mod+,}} ja jää vahekaardile {{ui:TakeoffDesk}}.
 2. Leia {{ui:Näita pikkusi kujul}} ja vali {{ui:Jalad ja tollid}}, m, cm või mm. {{ui:Järgi üldsätet}} kasutab meetrilist pikkusühikut, mis on märgitud tärniga jaotises {{ui:Sätted}} › {{ui:Globaalne}} › {{ui:Ühikud}}, ning jalad-tollid, kui ühtegi tärniga märgitud ei ole.
 3. Vaata lehte: pikkused olekuribal, kirjete loendis ja paneelides loetakse nüüd valitud ühikus. Kõrgused, sügavus, paksused ja tasemed muutuvad samuti.
 4. Et lugeda kirjete temperatuure kraadides C või F, vali samas vahekaardis {{ui:Näita temperatuure}}.

@@ -13,7 +13,7 @@ Avaa se {{ui:Kirjasto}}-painikkeella {{ui:Nimikkeet}}-paneelin yläreunassa.
 
 - {{ui:Tuo CSV…}} lukee CSV-muodossa tallennetun taulukon (katso alla olevat sarakkeet). Nimikkeet, joiden nimi ja tyyppi ovat jo kirjastossa, korvataan; loput lisätään. Rivit, joita se ei voi lukea, ohitetaan, ja se kertoo, mitkä ja miksi.
 - {{ui:Lisää tämän määrälaskennan nimikkeet}} kopioi jokaisen avoimen määrälaskennan nimikkeen kirjastoon hintoineen ja yhdistelmineen (ei sen merkkejä).
-- TakeoffCraftin viemä arvion CSV ([Vie arvio](topic:export-estimate)) tuodaan sellaisenaan: viimeisen työn hinnat ovat lähtökohtana seuraavalle.
+- TakeoffDeskin viemä arvion CSV ([Vie arvio](topic:export-estimate)) tuodaan sellaisenaan: viimeisen työn hinnat ovat lähtökohtana seuraavalle.
 
 - {{ui:Ammattipaketit…}} lisää ilmaisia yhdistelmiä ammatille, kuten kipsilevytykselle, sähkötöille tai betonityölle, ilman hintoja. Katso [Ammattipaketit](topic:trade-packs).
 

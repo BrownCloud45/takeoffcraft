@@ -77,7 +77,7 @@ Një rresht për çdo fletë që ka shkallë ose shenja.
 | Fleta | Emri i fletës |
 | Shkalla | Emri i paracaktimit, shkalla e kalibruar, ose "Pa shkallë" |
 | Si | "Paracaktuar", ose "Kalibruar mbi (distanca që shkrove)" |
-| Këmbë për njësi PDF | Faktori i saktë i shkallës që përdor TakeoffCraft |
+| Këmbë për njësi PDF | Faktori i saktë i shkallës që përdor TakeoffDesk |
 
 ## Emrat e skedarëve
 

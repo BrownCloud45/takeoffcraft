@@ -5,7 +5,7 @@ keywords: aç, plan dəsti, bir neçə pdf, çoxlu fayl, vərəqlər, çertyojla
 from: ed434468
 ---
 
-Plan dəsti çox vaxt bir neçə PDF-dir: memarlıq, konstruksiya, mexaniki. TakeoffCraft onları yan-yana, vərəqlərin bir siyahısı kimi açır və bir hesablama bunların hamısını əhatə edə bilər.
+Plan dəsti çox vaxt bir neçə PDF-dir: memarlıq, konstruksiya, mexaniki. TakeoffDesk onları yan-yana, vərəqlərin bir siyahısı kimi açır və bir hesablama bunların hamısını əhatə edə bilər.
 
 ## PDF-ləri açın
 
@@ -14,14 +14,14 @@ Plan dəsti çox vaxt bir neçə PDF-dir: memarlıq, konstruksiya, mexaniki. Tak
 3. **Aç** seçin.
    Hər fayl oxunarkən "(ad) açılır…" mesajı görünür. Sonra hər səhifə **Vərəqlər** altında görünür və ilk yeni PDF-in birinci səhifəsi açılır.
 
-PDF-ləri {{pick:mac=Finder|windows=File Explorer|linux=fayl meneceriniz}}dən sürükləyib TakeoffCraft-ın istənilən yerinə buraxa bilərsiniz. Sürüklədiyiniz zaman "PDF, DWG və ya DXF çertyojlarını və ya .takeoff.json faylını buraxın" çərçivəsi görünür.
+PDF-ləri {{pick:mac=Finder|windows=File Explorer|linux=fayl meneceriniz}}dən sürükləyib TakeoffDesk-ın istənilən yerinə buraxa bilərsiniz. Sürüklədiyiniz zaman "PDF, DWG və ya DXF çertyojlarını və ya .takeoff.json faylını buraxın" çərçivəsi görünür.
 
 Sonra əlavə PDF-lər əlavə etmək üçün eyni addımları təkrarlayın. Artıq açıq olan PDF-lər atlanır.
 
 Başlanğıc ekranında son açdığınız PDF-lər və hesablamalar da siyahılanır; bu, səhifənin faylı yenidən aça bildiyi brauzerlərdə (Chrome və Edge) işləyir. Birini klik edin; brauzer əvvəlcə icazə istəyə bilər. Bax: [Fayllarınız](common:your-files).
 
 :::note
-Heç nə yüklənmir. Brauzer PDF-ləri kompüterinizdə oxuyur, onlar sekmə bağlandıqda və ya {{ui:Yeni}} seçildikdə TakeoffCraft-dan silinir.
+Heç nə yüklənmir. Brauzer PDF-ləri kompüterinizdə oxuyur, onlar sekmə bağlandıqda və ya {{ui:Yeni}} seçildikdə TakeoffDesk-dan silinir.
 :::
 
 ## Çertyojlar PDF-lərin yanında
@@ -30,7 +30,7 @@ Heç nə yüklənmir. Brauzer PDF-ləri kompüterinizdə oxuyur, onlar sekmə ba
 
 ## Başqa tətbiqdən təhvil verilmiş PDF
 
-CadCraft ailəsindəki başqa bir tətbiq açıq olan PDF-i sizə verə bilər: yeni sekmədə TakeoffCraft-ı açır və PDF orada sanki buraxmısınız kimi açılır. Status zolağı "Açıldı (ad), təhvil verildi (tətbiq). Orijinal fayl dəyişməyib." deyir. Heç nə yüklənmir; fayl bu brauzerin öz yaddaşından keçir və açıldıqdan sonra oradan silinir.
+CadCraft ailəsindəki başqa bir tətbiq açıq olan PDF-i sizə verə bilər: yeni sekmədə TakeoffDesk-ı açır və PDF orada sanki buraxmısınız kimi açılır. Status zolağı "Açıldı (ad), təhvil verildi (tətbiq). Orijinal fayl dəyişməyib." deyir. Heç nə yüklənmir; fayl bu brauzerin öz yaddaşından keçir və açıldıqdan sonra oradan silinir.
 
 Əgər status zolağı PDF-in "gəlmədiyini" deyirsə, sekmə çox gözləyib ya da PDF artıq başqa sekmədə açılıb: onu {{ui:Planları aç}} ilə açın.
 

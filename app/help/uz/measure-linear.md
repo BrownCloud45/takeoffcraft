@@ -28,7 +28,7 @@ Chizish paytida:
 - Sudrash varaqni suradi, gʻildirak kattalashtiradi, nuqta qoʻshmasdan.
 
 :::mac
-Mac sensorli panelida oʻng tugma — ikki barmoq bosish (Tizim sozlamalari, Trackpad boʻlimida ikkilamchi bosishni yoqing). TakeoffCraft faqat ikkilamchi tugmani oʻqiydi, shuning uchun Control-bosish oddiy bosish sifatida qabul qilinib, nuqta qoʻshishi mumkin. Ikki marta bosish yoki {{key:Enter}} har doim tugatadi.
+Mac sensorli panelida oʻng tugma — ikki barmoq bosish (Tizim sozlamalari, Trackpad boʻlimida ikkilamchi bosishni yoqing). TakeoffDesk faqat ikkilamchi tugmani oʻqiydi, shuning uchun Control-bosish oddiy bosish sifatida qabul qilinib, nuqta qoʻshishi mumkin. Ikki marta bosish yoki {{key:Enter}} har doim tugatadi.
 :::
 
 :::touch
@@ -62,7 +62,7 @@ Birinchi nuqtadan keyin bosish oʻrniga keyingi nuqta qayerga borishini yozishin
 | `@6',-4'` | oxirgi nuqtadan 6' oʻngga va 4' pastga |
 | `6',4'` (yoki `#6',4'`) | shu yoʻlning birinchi nuqtasidan 6' oʻngga va 4' yuqoriga |
 
-Uzunliklar TakeoffCraft da hamma joyda boʻlgani kabi yoziladi ([Kiritish formatlari](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fut), `30"`, `3.2 m`. "Oʻng" va "yuqori" varaqni qanday koʻrsangiz shunday, PDF sahifasi aylantirilgan boʻlsa ham.
+Uzunliklar TakeoffDesk da hamma joyda boʻlgani kabi yoziladi ([Kiritish formatlari](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fut), `30"`, `3.2 m`. "Oʻng" va "yuqori" varaqni qanday koʻrsangiz shunday, PDF sahifasi aylantirilgan boʻlsa ham.
 
 Boʻsh maydonda {{key:Enter}} varaqdagidek yoʻlni tugatadi; {{key:Esc}} maydonni yopadi, lekin yoʻl davom etadi. Yozilgan nuqtalar bosishlar bilan bir xil qoidalardan oʻtadi: ayirmalar, yoylar va maydonni yopish ishlaydi. Xuddi shu maydon {{ui:Area}} va {{ui:Cut-out}} da ishlaydi; aylana markazidan keyin u radiusni oladi.
 

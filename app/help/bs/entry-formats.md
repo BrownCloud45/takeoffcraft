@@ -1,6 +1,6 @@
 ---
 title: Unos dužina, cijena i postotaka
-summary: Šta možeš upisati za udaljenosti, visine, novčane cijene i postotke otpada, s primjerima i porukama za unos koji TakeoffCraft ne može pročitati.
+summary: Šta možeš upisati za udaljenosti, visine, novčane cijene i postotke otpada, s primjerima i porukama za unos koji TakeoffDesk ne može pročitati.
 keywords: unos, format, stope inči, razlomci, decimalne stope, metrički, metri, milimetri, cijena, novac, dolari, postotak, otpad, kucanje
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Do dvije decimale, od 0% do 1000%. Poruke: "Upiši postotak, na primjer 10 ili 7
 ## Nazivi i jedinice
 
 - Nazivi stavki i komponenti: do 200 znakova.
-- {{ui:Unit}} komponente: bilo koji tekst do 20 znakova, na primjer `EA`, `listovi`, `CY`, `gal`. To je samo oznaka; TakeoffCraft je ne pretvara.
+- {{ui:Unit}} komponente: bilo koji tekst do 20 znakova, na primjer `EA`, `listovi`, `CY`, `gal`. To je samo oznaka; TakeoffDesk je ne pretvara.
 
 ## Formule
 

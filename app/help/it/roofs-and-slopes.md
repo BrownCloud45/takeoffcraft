@@ -5,7 +5,7 @@ keywords: tetto, pendenza, inclinazione, fattore di pendenza, altezza, proiezion
 from: 38225b60
 ---
 
-Una pianta del tetto mostra ogni falda piana, vista dall'alto. Il tetto vero è più grande: una falda al 6:12 ha circa il 12% di superficie in più rispetto alla sua pianta, e i suoi bordi inclinati sono più lunghi di quanto appaiano. Assegnare alla voce la sua pendenza e TakeoffCraft misura lungo l'inclinazione.
+Una pianta del tetto mostra ogni falda piana, vista dall'alto. Il tetto vero è più grande: una falda al 6:12 ha circa il 12% di superficie in più rispetto alla sua pianta, e i suoi bordi inclinati sono più lunghi di quanto appaiano. Assegnare alla voce la sua pendenza e TakeoffDesk misura lungo l'inclinazione.
 
 ## Digitare una pendenza
 

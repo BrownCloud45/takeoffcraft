@@ -1,6 +1,6 @@
 ---
 title: 鍵盤與滑鼠
-summary: TakeoffCraft 中所有按鍵、滑鼠、觸控板與觸控操作，依類別分組，並說明各平台的差異。
+summary: TakeoffDesk 中所有按鍵、滑鼠、觸控板與觸控操作，依類別分組，並說明各平台的差異。
 keywords: 按鍵, 快速鍵, 熱鍵, 鍵盤, 滑鼠, 觸控板, 觸控, 平移, 縮放, 滾輪, 右鍵, 連按兩下, Space, Shift, 複製, 貼上, 剪下, 建立副本, 全選
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ from: 6f2c441d
 | 按鍵 | 作用 |
 |---|---|
 | {{key:F1}} | 開啟或關閉說明面板（也可使用應用程式列上的{{ui:Help}}按鈕）。在任何工具中皆可使用，即使在欄位中輸入也一樣。 |
-| {{key:Esc}} | 關閉說明面板。在其搜尋方塊中，第一次按Esc會清除搜尋。面板開啟時，若在點擊圖紙後按Esc，會先關閉面板；再按一次即可在 TakeoffCraft 中取消操作。 |
+| {{key:Esc}} | 關閉說明面板。在其搜尋方塊中，第一次按Esc會清除搜尋。面板開啟時，若在點擊圖紙後按Esc，會先關閉面板；再按一次即可在 TakeoffDesk 中取消操作。 |
 
 :::mac
 在許多 Mac 鍵盤上，頂列按鍵控制亮度與音量。可按住fn並按F1，或在「系統設定」的「鍵盤」下開啟「將 F1、F2 等鍵用作標準功能鍵」。
@@ -139,7 +139,7 @@ from: 6f2c441d
 
 :::mac
 - {{key:Mod}}為 Command 鍵：{{key:Mod+Z}}、{{key:Mod+S}}、{{key:Mod+O}}。全螢幕為例外：Control+Shift+F。
-- 在觸控板上以雙指點擊即為右鍵，前提是已在「系統設定」的「觸控板」下開啟次要點按。TakeoffCraft 只讀取次要按鈕；Control 點擊可能被視為一般點擊，並新增一個點。
+- 在觸控板上以雙指點擊即為右鍵，前提是已在「系統設定」的「觸控板」下開啟次要點按。TakeoffDesk 只讀取次要按鈕；Control 點擊可能被視為一般點擊，並新增一個點。
 - 在觸控板上以雙指捲動會縮放圖紙（而非捲動）。若要平移，可按住並拖曳，或按住Space並拖曳。
 - 在沒有這兩鍵的鍵盤上，Page Up與Page Down為fn加上上、下方向鍵。
 - Backspace即標示為delete的按鍵。
@@ -151,12 +151,12 @@ from: 6f2c441d
 :::
 
 :::linux
-- {{key:Mod}}為Ctrl。部分桌面環境有自己的 Ctrl+Alt 或 Super 快速鍵；TakeoffCraft 都不使用這些快速鍵。
+- {{key:Mod}}為Ctrl。部分桌面環境有自己的 Ctrl+Alt 或 Super 快速鍵；TakeoffDesk 都不使用這些快速鍵。
 - 在觸控板上，雙指捲動會縮放圖紙。若要平移，可按住並拖曳。
 :::
 
 :::touch
-TakeoffCraft 將觸控視為單一指標：
+TakeoffDesk 將觸控視為單一指標：
 
 - 輕觸可放置點、選取標記或新增計數點。
 - 以一根手指拖曳可平移圖紙（在{{ui:Auto count}}中則繪製搜尋方塊）。
@@ -169,7 +169,7 @@ TakeoffCraft 將觸控視為單一指標：
 
 ## 瀏覽器保留的按鍵
 
-瀏覽器會自行保留部分快速鍵，頁面無法使用這些快速鍵：關閉分頁（{{key:Mod+W}}）、新增分頁或視窗（{{key:Mod+T}}、{{key:Mod+N}}）以及瀏覽器縮放（{{key:Mod+Plus}}、{{key:Mod+Minus}}）。因此 TakeoffCraft 以滾輪及單獨的{{key:Plus}}與{{key:Minus}}按鍵縮放圖紙。若誤按{{key:Mod+Plus}}，整個頁面會放大；{{key:Mod+0}}可將其還原。參見[按鍵、滑鼠與觸控板](common:keys)。
+瀏覽器會自行保留部分快速鍵，頁面無法使用這些快速鍵：關閉分頁（{{key:Mod+W}}）、新增分頁或視窗（{{key:Mod+T}}、{{key:Mod+N}}）以及瀏覽器縮放（{{key:Mod+Plus}}、{{key:Mod+Minus}}）。因此 TakeoffDesk 以滾輪及單獨的{{key:Plus}}與{{key:Minus}}按鍵縮放圖紙。若誤按{{key:Mod+Plus}}，整個頁面會放大；{{key:Mod+0}}可將其還原。參見[按鍵、滑鼠與觸控板](common:keys)。
 
 ## 移動指令的位置
 

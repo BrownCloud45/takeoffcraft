@@ -1,6 +1,6 @@
 ---
 title: Billentyűzet és egér
-summary: TakeoffCraft minden billentyűje, egérművelete, érintőpados és érintőképernyős művelete csoportosítva, a platformok közötti különbségekkel.
+summary: TakeoffDesk minden billentyűje, egérművelete, érintőpados és érintőképernyős művelete csoportosítva, a platformok közötti különbségekkel.
 keywords: billentyűk, billentyűparancsok, gyorsbillentyűk, billentyűzet, egér, érintőpad, érintés, eltolás, nagyítás, görgő, jobb klikk, dupla kattintás, szóköz, Shift, másolás, kivágás, beillesztés, kettőzés, összes kijelölése
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Lásd: [A mennyiségkimutatás ellenőrzése 3D-ben](topic:check-in-3d).
 | Billentyű | Mit csinál |
 |---|---|
 | {{key:F1}} | A súgópanel megnyitása vagy bezárása (ugyanaz, mint az alkalmazássávon lévő {{ui:Súgó}} gomb). Minden eszközben működik, még szövegmezőbe íráskor is. |
-| {{key:Esc}} | A súgópanel bezárása. A keresőmezőjében az első Esc törli a keresést. Ha a panel nyitva van, és a lapra kattintás után nyomja meg az Esc-et, előbb a panel záródik be; újabb megnyomásra a TakeoffCraftban megszakítja a műveletet. |
+| {{key:Esc}} | A súgópanel bezárása. A keresőmezőjében az első Esc törli a keresést. Ha a panel nyitva van, és a lapra kattintás után nyomja meg az Esc-et, előbb a panel záródik be; újabb megnyomásra a TakeoffDeskban megszakítja a műveletet. |
 
 :::mac
 A Mac billentyűzetek többségén a felső sor a fényerőt és a hangerőt szabályozza. Az F1-hez nyomja meg az fn billentyűt, vagy kapcsolja be a Rendszerbeállításokban, a Billentyűzet alatt, az „F1, F2 stb. billentyűk használata szabványos funkcióbillentyűként” beállítást.
@@ -139,7 +139,7 @@ A Mac billentyűzetek többségén a felső sor a fényerőt és a hangerőt sza
 
 :::mac
 - A {{key:Mod}} a Command billentyű: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Kivétel a teljes képernyő: Control+Shift+F.
-- A jobb klikk érintőpadon kétujjas kattintás, ha a másodlagos kattintás be van kapcsolva a Rendszerbeállításokban, az Érintőpad alatt. A TakeoffCraft csak a másodlagos gombot olvassa; a Control-kattintás egyszerű kattintásnak számíthat, és pontot ad hozzá.
+- A jobb klikk érintőpadon kétujjas kattintás, ha a másodlagos kattintás be van kapcsolva a Rendszerbeállításokban, az Érintőpad alatt. A TakeoffDesk csak a másodlagos gombot olvassa; a Control-kattintás egyszerű kattintásnak számíthat, és pontot ad hozzá.
 - Érintőpadon két ujjal görgetve a lap nagyít (nem görgetődik). Eltoláshoz nyomja meg és húzza, vagy tartsa nyomva a szóközt, és húzzon.
 - A Page Up és a Page Down az fn billentyűvel és a fel- és le-nyilakkal érhető el azokon a billentyűzeteken, amelyeken nincs külön.
 - A Backspace az a billentyű, amelyen a delete felirat van.
@@ -151,12 +151,12 @@ A Mac billentyűzetek többségén a felső sor a fényerőt és a hangerőt sza
 :::
 
 :::linux
-- A {{key:Mod}} a Ctrl. Néhány asztali környezet saját Ctrl+Alt vagy Super billentyűparancsokat használ; a TakeoffCraft egyiket sem használja.
+- A {{key:Mod}} a Ctrl. Néhány asztali környezet saját Ctrl+Alt vagy Super billentyűparancsokat használ; a TakeoffDesk egyiket sem használja.
 - Érintőpadon a kétujjas görgetés nagyítja a lapot. Eltoláshoz nyomja meg és húzza.
 :::
 
 :::touch
-A TakeoffCraft az érintést egyetlen mutatóként kezeli:
+A TakeoffDesk az érintést egyetlen mutatóként kezeli:
 
 - A koppintás pontot helyez el, jelölést választ ki, vagy darabszám-pontot ad hozzá.
 - Egyujjas húzás eltolja a lapot ({{ui:Automatikus darabszám}} alatt a keresőmezőt rajzolja).
@@ -169,7 +169,7 @@ Ma a billentyűzet és egér vagy érintőpad a jobb mód a mennyiségkimutatás
 
 ## A böngésző által fenntartott billentyűk
 
-A böngészők néhány billentyűparancsot megtartanak maguknak, és az oldal ezeket nem használhatja: a fül bezárása ({{key:Mod+W}}), új fül vagy ablak ({{key:Mod+T}}, {{key:Mod+N}}) és a böngésző nagyítása ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Ezért nagyítja a TakeoffCraft a lapot a görgővel és a sima {{key:Plus}} és {{key:Minus}} billentyűkkel. Ha véletlenül megnyomja a {{key:Mod+Plus}} billentyűt, az egész oldal nagyobb lesz; a {{key:Mod+0}} visszaállítja. Lásd: [Billentyűk, egerek és érintőpadok](common:keys).
+A böngészők néhány billentyűparancsot megtartanak maguknak, és az oldal ezeket nem használhatja: a fül bezárása ({{key:Mod+W}}), új fül vagy ablak ({{key:Mod+T}}, {{key:Mod+N}}) és a böngésző nagyítása ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Ezért nagyítja a TakeoffDesk a lapot a görgővel és a sima {{key:Plus}} és {{key:Minus}} billentyűkkel. Ha véletlenül megnyomja a {{key:Mod+Plus}} billentyűt, az egész oldal nagyobb lesz; a {{key:Mod+0}} visszaállítja. Lásd: [Billentyűk, egerek és érintőpadok](common:keys).
 
 ## A mozgatás helye
 

@@ -1,6 +1,6 @@
 ---
 title: Unos dužina, jediničnih cena i procenata
-summary: Šta možete da upišete za rastojanja, visine, jedinične cene i procente škarta, sa primerima i porukama za unos koji TakeoffCraft ne može da pročita.
+summary: Šta možete da upišete za rastojanja, visine, jedinične cene i procente škarta, sa primerima i porukama za unos koji TakeoffDesk ne može da pročita.
 keywords: unos, format, stope i inči, razlomci, decimalne stope, metrički, metri, milimetri, cena, novac, dolari, procenat, škart, kucanje
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Do dve decimale, od 0% do 1000%. Poruke: „Upišite procenat, na primer 10 ili 
 ## Nazivi i jedinice
 
 - Nazivi stavki i komponenti: do 200 znakova.
-- {{ui:Jedinica}} komponente: bilo koji tekst do 20 znakova, na primer `EA`, `listova`, `CY`, `gal`. To je samo oznaka; TakeoffCraft je ne pretvara.
+- {{ui:Jedinica}} komponente: bilo koji tekst do 20 znakova, na primer `EA`, `listova`, `CY`, `gal`. To je samo oznaka; TakeoffDesk je ne pretvara.
 
 ## Formule
 

@@ -1,6 +1,6 @@
 ---
 title: Numëro automatikisht një simbol
-summary: Kutizo një simbol, lëre TakeoffCraft t'i gjejë të tjerët në këtë fletë ose në çdo fletë të hapur, shqyrto përputhjet me rrëshqitësin dhe shtoji të gjitha në një hap.
+summary: Kutizo një simbol, lëre TakeoffDesk t'i gjejë të tjerët në këtë fletë ose në çdo fletë të hapur, shqyrto përputhjet me rrëshqitësin dhe shtoji të gjitha në një hap.
 keywords: çdo kënd, i rrotulluar, i kthyer, shkallë tjetër, shkallë e ndryshme, numërim automatik, kërkim simbolesh, gjej simbole, model, shabllon, përputhje, zbulo, mjet numërimi
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Për ta hequr shqyrtimin pa shtuar asgjë, zgjidh {{ui:Hidh}} ose shtyp {{key:Es
 
 ## Çfarë gjen, dhe çfarë humbet
 
-TakeoffCraft krahason vizatimin, si piksel, me simbolin që ke kutizuar.
+TakeoffDesk krahason vizatimin, si piksel, me simbolin që ke kutizuar.
 
 - Gjen simbolin të rrotulluar 0°, 90°, 180° dhe 270°. Shëno {{ui:Çdo kënd (më ngadalë)}} në shiritin e numërimit automatik përpara se të vizatosh kutinë, për ta gjetur edhe në çdo kënd: provon çdo 15°, pastaj rregullon çdo gjetje deri në gradën dhe gjysmën. Kjo zgjat rreth gjashtë herë më shumë. Nuk gjen një simbol të pasqyruar (përveç nëse simboli duket i njëjtë edhe i pasqyruar).
 - Me {{ui:Kërko në të gjitha fletët e hapura}} të shënuar, një fletë në shkallë tjetër kërkohet në madhësinë që ka simboli aty: një element i vizatuar në shkallë në një plan 1/8" është gjysma e madhësisë së tij në një plan 1/4", dhe prapëseprapë gjendet. Një fletë e tillë kërkohet gjithashtu në madhësinë e vetë kutisë, për etiketa dhe simbole të printuara në një madhësi në çdo fletë. Kjo kërkon një shkallë në të dy fletët; një fletë pa shkallë kërkohet vetëm në madhësinë e kutisë.

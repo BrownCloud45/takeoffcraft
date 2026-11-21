@@ -37,12 +37,12 @@ Une quantité saisie ne prend aucun repère et ne rend jamais le métré incompl
 Appuyez sur {{key:Esc}} dans le formulaire pour le fermer sans ajouter de poste.
 
 :::tip
-Si vous choisissez d'abord un outil de mesure, TakeoffCraft utilise le dernier poste du bon type, ou ouvre le formulaire {{ui:Nouveau poste}} avec ce type déjà choisi.
+Si vous choisissez d'abord un outil de mesure, TakeoffDesk utilise le dernier poste du bon type, ou ouvre le formulaire {{ui:Nouveau poste}} avec ce type déjà choisi.
 :::
 
 ## Choisir le poste avec lequel vous tracez
 
-Cliquez sur un poste dans la liste. Il devient le poste auquel vont les nouveaux repères, et ses repères sont mis en évidence sur toutes les feuilles pendant que les autres s'estompent. Si la feuille ouverte n'en contient aucun, TakeoffCraft passe à une feuille qui en contient. Cliquez à nouveau sur le poste pour arrêter la mise en évidence ; il reste le poste avec lequel vous tracez.
+Cliquez sur un poste dans la liste. Il devient le poste auquel vont les nouveaux repères, et ses repères sont mis en évidence sur toutes les feuilles pendant que les autres s'estompent. Si la feuille ouverte n'en contient aucun, TakeoffDesk passe à une feuille qui en contient. Cliquez à nouveau sur le poste pour arrêter la mise en évidence ; il reste le poste avec lequel vous tracez.
 
 Cliquer sur un repère avec l'outil {{ui:Sélectionner}} fait aussi de son poste le poste courant.
 
@@ -57,7 +57,7 @@ L'éditeur de poste (**Poste : (nom)**) comporte les champs suivants. Chacun est
 | {{ui:Couleur}} | La couleur de ses repères à l'écran et dans le PDF annoté. |
 | {{ui:Unité}} | Unité de la quantité : LF ou m pour le linéaire ; SF, SY, SQ, ac, ha ou m² pour la surface ; EA pour le comptage. |
 | {{ui:Mesurer aussi}} | Les autres sortes de repères que le poste accepte, chacune avec sa propre unité. Voir plus bas. |
-| {{ui:Hauteur}} (linéaire) | Une hauteur de mur. Le poste indique alors aussi la surface du mur (longueur × hauteur). Les tronçons issus d'un modèle BimCraft conservent leurs portes et fenêtres : elles sont retirées une seule fois, et le poste indique la surface brute, les ouvertures et la surface nette. Un métré issu d'un projet BimCraft ayant choisi une méthode de mesure est mesuré selon cette méthode ici aussi (la remarque la nomme, avec sa source, et précise qu'elle n'a pas été vérifiée par un économiste de la construction) ; la méthode ne peut pas être modifiée dans TakeoffCraft. Les briques ou blocs et le mortier d'un type de mur arrivent en deux composants : les quantités à commander et le volume de mortier. |
+| {{ui:Hauteur}} (linéaire) | Une hauteur de mur. Le poste indique alors aussi la surface du mur (longueur × hauteur). Les tronçons issus d'un modèle BimCraft conservent leurs portes et fenêtres : elles sont retirées une seule fois, et le poste indique la surface brute, les ouvertures et la surface nette. Un métré issu d'un projet BimCraft ayant choisi une méthode de mesure est mesuré selon cette méthode ici aussi (la remarque la nomme, avec sa source, et précise qu'elle n'a pas été vérifiée par un économiste de la construction) ; la méthode ne peut pas être modifiée dans TakeoffDesk. Les briques ou blocs et le mortier d'un type de mur arrivent en deux composants : les quantités à commander et le volume de mortier. |
 | {{ui:Profondeur}} (surface) | Une profondeur ou épaisseur, utilisée dans les formules d'ouvrage (par exemple le volume de béton). |
 | {{ui:Chute %}} | Ajoutée à la quantité avant le chiffrage : 10 signifie quantité × 1.10. |
 | {{ui:Matériau $/LF}} | Coût matériau par unité. L'intitulé suit l'unité : $/SF, $/EA, etc. |
@@ -74,7 +74,7 @@ Certains éléments se mesurent de plusieurs façons : une pièce a un sol (une 
 
 1. Créez le poste avec son type principal, par exemple un poste de surface `Pièce 101`.
 2. Sous {{ui:Mesurer aussi}} dans son éditeur, cochez {{ui:Linéaire}}, {{ui:Compter}} ou les deux. Chacun reçoit une unité à côté.
-3. Tracez avec n'importe quel outil dont la sorte est acceptée par le poste : avec `Pièce 101` courant, {{ui:Surface}} trace son sol, {{ui:Linéaire}} sa plinthe et {{ui:Compter}} ses portes. TakeoffCraft ne demande pas un autre poste.
+3. Tracez avec n'importe quel outil dont la sorte est acceptée par le poste : avec `Pièce 101` courant, {{ui:Surface}} trace son sol, {{ui:Linéaire}} sa plinthe et {{ui:Compter}} ses portes. TakeoffDesk ne demande pas un autre poste.
 
 La liste des postes affiche chaque quantité (`50.00 SF + 2 EA`). Dans le tableau des quantités, la ligne du poste porte la quantité principale, et chaque autre sorte a sa propre ligne dessous, comme **Pièce 101 (comptage)**, avec sa propre chute et ses tarifs de matériau et de main-d'œuvre. Les exports, le tableau par feuille et la légende du PDF annoté les listent de la même façon.
 
@@ -113,7 +113,7 @@ Au lieu d'un tarif de main-d'œuvre par unité, la main-d'œuvre d'un poste peut
 | {{ui:Taille de l'équipe}} | `2` personnes |
 | {{ui:Salaire $/heure chacun}} | `45` |
 
-TakeoffCraft calcule, à partir de la quantité avec chute :
+TakeoffDesk calcule, à partir de la quantité avec chute :
 
 - **heures d'équipe** = quantité ÷ production (110 LF ÷ 20 = 5.5),
 - **heures-ouvrier** = heures d'équipe × taille de l'équipe (11),

@@ -1,6 +1,6 @@
 ---
 title: Verificarea stocului furnizorului și a termenelor de livrare
-summary: Adăugați lista de stoc a unui furnizor (CSV sau tabel) și TakeoffCraft verifică față de ea ce are nevoie antemăsurătoarea, cu pierderi: suficient în stoc și cât durează așteptarea. Lipsurile și așteptările lungi apar în panoul Probleme.
+summary: Adăugați lista de stoc a unui furnizor (CSV sau tabel) și TakeoffDesk verifică față de ea ce are nevoie antemăsurătoarea, cu pierderi: suficient în stoc și cât durează așteptarea. Lipsurile și așteptările lungi apar în panoul Probleme.
 keywords: furnizor, stoc, în stoc, termen de livrare, disponibilitate, lipsă, comandă restantă, listă de comandă, csv, sku, vânzător, materiale, aprovizionare, probleme
 from: f11160fb
 ---

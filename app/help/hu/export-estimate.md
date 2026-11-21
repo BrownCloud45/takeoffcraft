@@ -28,7 +28,7 @@ A munkafüzet négy munkalapot tartalmaz, és az alábbi jelentéseket, ha alkal
 
 Ha van [ajánlati összesítő](topic:bid-summary), a Költségvetés munkalap is az ajánlati felárakkal ér véget (munkadíj-terhelés, forgalmi adó, rezsi, nyereség, kötvény és az ajánlat), élő képletekként.
 
-A Költségvetés munkalap megtartja az **élő képleteket**: a mennyiséget hulladékkal, az anyag- és munkadíjösszegek kerekítését, soronként az összeget és az összesen sort. A táblázatkezelő újraszámolja őket, így ha a táblázatban módosít egy egységárat vagy hulladékot, az összegek követik a változást. A TakeoffCraft által számolt értékek is el vannak mentve a cellákban, és cent pontossággal egyeznek.
+A Költségvetés munkalap megtartja az **élő képleteket**: a mennyiséget hulladékkal, az anyag- és munkadíjösszegek kerekítését, soronként az összeget és az összesen sort. A táblázatkezelő újraszámolja őket, így ha a táblázatban módosít egy egységárat vagy hulladékot, az összegek követik a változást. A TakeoffDesk által számolt értékek is el vannak mentve a cellákban, és cent pontossággal egyeznek.
 
 A megjegyzések oszlop felsorolja az összetevők képleteit, a képlethibákat, a méretarány nélküli lapokon lévő jelöléseket, a falfelületet és a kerületet. Ha valami kimaradt, az összesen sor azt írja: „Hiányos: lásd a fenti megjegyzéseket”.
 
@@ -42,7 +42,7 @@ A CSV csak a költségvetést tartalmazza; a lapok szerinti mennyiségekhez és 
 
 ## A költségvetés Google Táblázatokban
 
-A mennyiségek táblázat fölött a **Másolás Google Táblázatokhoz** gomb a költségvetést tabulátorral elválasztott szövegként másolja a vágólapra, ugyanazokkal a sorokkal, mint a CSV. Egy Google Táblázatban kattintson az A1 cellára, és illessze be. A TakeoffCraft nem jelentkezik be a Google-be, és oda semmit sem küld.
+A mennyiségek táblázat fölött a **Másolás Google Táblázatokhoz** gomb a költségvetést tabulátorral elválasztott szövegként másolja a vágólapra, ugyanazokkal a sorokkal, mint a CSV. Egy Google Táblázatban kattintson az A1 cellára, és illessze be. A TakeoffDesk nem jelentkezik be a Google-be, és oda semmit sem küld.
 
 ## Hiányzó egységárak és a jóváhagyás
 

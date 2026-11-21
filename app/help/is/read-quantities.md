@@ -24,7 +24,7 @@ Veldu {{ui:By item}} (sjálfgefið). Hver liður hefur línu og hver samsetninga
 
 Síðasta línan, **Heildarsumma verks**, leggur saman dálkana efni, vinnu og samtals. Sama heildarsumma birtist hægra megin í haus töflunnar.
 
-Skrifaðu í reit fyrir úrgang eða einingarverð og ýttu á {{key:Enter}} eða smelltu annars staðar til að beita því. Gildi sem TakeoffCraft getur ekki lesið er umlínað rauðu og stöðustikan segir hvers vegna, til dæmis „Skrifaðu upphæð eins og 12.50.“
+Skrifaðu í reit fyrir úrgang eða einingarverð og ýttu á {{key:Enter}} eða smelltu annars staðar til að beita því. Gildi sem TakeoffDesk getur ekki lesið er umlínað rauðu og stöðustikan segir hvers vegna, til dæmis „Skrifaðu upphæð eins og 12.50.“
 
 Smelltu á línu liðar til að auðkenna merki hans á öllum blöðum og fara á blað sem hefur þau (eins og þegar smellt er á liðinn undir {{ui:Items}}).
 

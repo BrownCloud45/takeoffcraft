@@ -13,7 +13,7 @@ Hap me {{ui:Bibliotekë}} në krye të panelit {{ui:Artikujt}}.
 
 - {{ui:Importo CSV…}} lexon një fletëllogaritëse të ruajtur si CSV (shih kolonat më poshtë). Artikujt, emri dhe lloji i të cilëve janë tashmë në bibliotekë zëvendësohen; të tjerët shtohen. Rreshtat që nuk mund t'i lexojë kapërcehen, dhe thotë cilët dhe pse.
 - {{ui:Shto artikujt e kësaj llogaritjeje}} kopjon çdo artikull të llogaritjes së hapur në bibliotekë, me normat dhe montimin e tij (jo shenjat).
-- CSV e vlerësimit që TakeoffCraft eksporton ([Eksporto vlerësimin](topic:export-estimate)) importohet ashtu si është: çmimet e punës së fundit mbjellin atë të radhës.
+- CSV e vlerësimit që TakeoffDesk eksporton ([Eksporto vlerësimin](topic:export-estimate)) importohet ashtu si është: çmimet e punës së fundit mbjellin atë të radhës.
 
 - {{ui:Paketat tregtare…}} shton montime falas për një tregti, si gips-karton, elektrike ose beton, pa çmime. Shih [Paketat tregtare](topic:trade-packs).
 

@@ -30,7 +30,7 @@ Gjatë vizatimit:
 - Tërheqja lëviz fletën dhe rrota zmadhon, pa shtuar pika.
 
 :::mac
-Në trackpad-in e Mac, klikimi i djathtë është një klikim me dy gishta (ndize klikimin dytësor te Cilësimet e sistemit, nën Trackpad). TakeoffCraft lexon vetëm butonin dytësor, kështu një klikim me Control mund të merret si klikim i thjeshtë dhe të shtojë një pikë. Klikimi i dyfishtë ose {{key:Enter}} përfundojnë gjithmonë.
+Në trackpad-in e Mac, klikimi i djathtë është një klikim me dy gishta (ndize klikimin dytësor te Cilësimet e sistemit, nën Trackpad). TakeoffDesk lexon vetëm butonin dytësor, kështu një klikim me Control mund të merret si klikim i thjeshtë dhe të shtojë një pikë. Klikimi i dyfishtë ose {{key:Enter}} përfundojnë gjithmonë.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Pas pikës së parë, mund të shkruash ku shkon pika tjetër në vend që ta kl
 | `@6',-4'` | 6' djathtas dhe 4' poshtë nga pika e fundit |
 | `6',4'` (ose `#6',4'`) | 6' djathtas dhe 4' lart nga pika e parë e kësaj vije |
 
-Gjatësitë shkruhen si kudo në TakeoffCraft ([Formatet e hyrjes](topic:entry-formats)): `12'-6 1/2"`, `12.5` (këmbë), `30"`, `3.2 m`. "Djathtas" dhe "lart" janë siç i sheh fletën, edhe kur faqja PDF është e rrotulluar.
+Gjatësitë shkruhen si kudo në TakeoffDesk ([Formatet e hyrjes](topic:entry-formats)): `12'-6 1/2"`, `12.5` (këmbë), `30"`, `3.2 m`. "Djathtas" dhe "lart" janë siç i sheh fletën, edhe kur faqja PDF është e rrotulluar.
 
 {{key:Enter}} në një kuti bosh përfundon vijën, si {{key:Enter}} në fletë; {{key:Esc}} e mbyll kutinë dhe e mban vijën të vazhdojë. Pikat e shkruara kalojnë nëpër të njëjtat rregulla si klikimet: zbritjet, harqet dhe mbyllja e një sipërfaqeje funksionojnë të gjitha. E njëjta kuti punon në {{ui:Sipërfaqe}} dhe {{ui:Prerje}}; pas qendrës së një rrethi merr rrezen.
 

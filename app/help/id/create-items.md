@@ -37,12 +37,12 @@ Kuantitas diketik tidak menerima tanda dan tidak pernah membuat estimasi menjadi
 Tekan {{key:Esc}} di formulir untuk menutupnya tanpa menambahkan item.
 
 :::tip
-Jika Anda memilih alat ukur terlebih dahulu, TakeoffCraft menggunakan item terakhir dengan jenis yang sesuai, atau membuka formulir {{ui:Item baru}} dengan jenis itu sudah dipilih.
+Jika Anda memilih alat ukur terlebih dahulu, TakeoffDesk menggunakan item terakhir dengan jenis yang sesuai, atau membuka formulir {{ui:Item baru}} dengan jenis itu sudah dipilih.
 :::
 
 ## Pilih item yang Anda gambar
 
-Klik item di daftar. Item itu menjadi item tempat tanda baru masuk, dan tandanya disorot di setiap lembar sementara yang lain memudar. Jika lembar yang terbuka tidak memiliki tandanya, TakeoffCraft melompat ke lembar yang memilikinya. Klik item lagi untuk berhenti menyorot; item itu tetap menjadi item yang Anda gambar.
+Klik item di daftar. Item itu menjadi item tempat tanda baru masuk, dan tandanya disorot di setiap lembar sementara yang lain memudar. Jika lembar yang terbuka tidak memiliki tandanya, TakeoffDesk melompat ke lembar yang memilikinya. Klik item lagi untuk berhenti menyorot; item itu tetap menjadi item yang Anda gambar.
 
 Mengklik tanda dengan alat {{ui:Pilih}} juga menjadikan item tandanya sebagai item saat ini.
 
@@ -57,7 +57,7 @@ Editor item (**Item: (nama)**) memiliki kolom-kolom berikut. Setiap kolom disimp
 | {{ui:Warna}} | Warna tandanya di layar dan di PDF yang diberi tanda. |
 | {{ui:Satuan}} | Satuan kuantitas yang dilaporkan: LF atau m untuk linear; SF, SY, SQ, ac, ha, atau m² untuk luas; EA untuk hitung. |
 | {{ui:Ukur juga}} | Jenis tanda lain yang diterima item, masing-masing dengan satuannya sendiri. Lihat di bawah. |
-| {{ui:Tinggi}} (linear) | Tinggi dinding. Item kemudian juga melaporkan luas dinding (panjang × tinggi). Rangkaian yang berasal dari model BimCraft membawa pintu dan jendelanya: bukaan tersebut dikurangkan sekali, dan item menyebutkan luas kotor, bukaan, dan luas bersih. Perhitungan volume dari proyek BimCraft yang memilih metode pengukuran juga diukur dengan metode itu di sini (catatan menyebut metodenya beserta sumbernya, dan menyatakan bahwa belum diperiksa oleh surveyor kuantitas); metode itu tidak dapat diubah di TakeoffCraft. Bata atau blok dan mortar dari tipe dinding masuk sebagai dua komponen: satuan yang dipesan dan volume mortar. |
+| {{ui:Tinggi}} (linear) | Tinggi dinding. Item kemudian juga melaporkan luas dinding (panjang × tinggi). Rangkaian yang berasal dari model BimCraft membawa pintu dan jendelanya: bukaan tersebut dikurangkan sekali, dan item menyebutkan luas kotor, bukaan, dan luas bersih. Perhitungan volume dari proyek BimCraft yang memilih metode pengukuran juga diukur dengan metode itu di sini (catatan menyebut metodenya beserta sumbernya, dan menyatakan bahwa belum diperiksa oleh surveyor kuantitas); metode itu tidak dapat diubah di TakeoffDesk. Bata atau blok dan mortar dari tipe dinding masuk sebagai dua komponen: satuan yang dipesan dan volume mortar. |
 | {{ui:Kedalaman}} (luas) | Kedalaman atau ketebalan, digunakan dalam rumus rakitan (misalnya volume beton). |
 | {{ui:Susut %}} | Ditambahkan ke kuantitas sebelum penetapan harga: 10 berarti kuantitas × 1.10. |
 | Material $/LF | Biaya material per satuan. Label mengikuti satuan: $/SF, $/EA, dan seterusnya. |
@@ -74,7 +74,7 @@ Beberapa hal diukur dengan lebih dari satu cara: sebuah ruangan memiliki lantai 
 
 1. Buat item dengan jenis utamanya, seperti item luas `Ruang 101`.
 2. Di bawah {{ui:Ukur juga}} pada editornya, centang {{ui:Linear}}, {{ui:Hitung}}, atau keduanya. Setiap jenis mendapat satuan di sebelahnya.
-3. Gambar dengan alat apa pun yang jenisnya diterima item: dengan `Ruang 101` aktif, {{ui:Luas}} menggambar lantainya, {{ui:Linear}} menggambar dasarnya, dan {{ui:Hitung}} menghitung pintunya. TakeoffCraft tidak meminta item lain.
+3. Gambar dengan alat apa pun yang jenisnya diterima item: dengan `Ruang 101` aktif, {{ui:Luas}} menggambar lantainya, {{ui:Linear}} menggambar dasarnya, dan {{ui:Hitung}} menghitung pintunya. TakeoffDesk tidak meminta item lain.
 
 Daftar item menampilkan setiap kuantitas (`50.00 SF + 2 EA`). Di tabel kuantitas, baris item memiliki kuantitas utamanya, dan setiap jenis lain mendapat barisnya sendiri di bawahnya, seperti **Ruang 101 (hitung)**, dengan susut serta tarif material dan upahnya sendiri. Ekspor, tabel per lembar, dan legenda PDF yang diberi tanda mencantumkannya dengan cara yang sama.
 
@@ -113,7 +113,7 @@ Alih-alih tarif upah per satuan, upah item dapat berasal dari regu: berapa yang 
 | {{ui:Jumlah anggota regu}} | `2` orang |
 | {{ui:Upah $/jam per orang}} | `45` |
 
-TakeoffCraft menghitung, dari kuantitas dengan susut:
+TakeoffDesk menghitung, dari kuantitas dengan susut:
 
 - **jam regu** = kuantitas ÷ produksi (110 LF ÷ 20 = 5.5),
 - **jam pekerja** = jam regu × jumlah anggota regu (11),

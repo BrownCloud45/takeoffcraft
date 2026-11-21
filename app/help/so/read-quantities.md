@@ -24,7 +24,7 @@ Dooro {{ui:Sida shayba}} (kan caadiga ah). Shay kasta wuxuu leeyahay safar, safa
 
 Safka ugu dambeeya, **Wadarta mashruuca**, wuxuu ku daraa tiirarka alaabta, shaqada iyo wadarta. Isla wadarta ayaa ka muuqata midig madasha miiska.
 
-Ku qor unug qashin ama qiimo, kadibna taabo {{key:Enter}} ama guji meel kale si aad u dabaqdo. Qiime TakeoffCraft aan akhriyi karin wuxuu lagu hareeeyay casaan, jaanqaadka xaaladdana wuxuu sharxaa sababta, tusaale ahaan "Ku qor qadar sida 12.50."
+Ku qor unug qashin ama qiimo, kadibna taabo {{key:Enter}} ama guji meel kale si aad u dabaqdo. Qiime TakeoffDesk aan akhriyi karin wuxuu lagu hareeeyay casaan, jaanqaadka xaaladdana wuxuu sharxaa sababta, tusaale ahaan "Ku qor qadar sida 12.50."
 
 Guji safka shay si calaamadaha ka muuqda xaashiyo kasta loo iftiimiyo, oo loo gudbo xaashi leh calaamadahaas (waa isla sida marka aad ku guujiso hoos {{ui:Walxaha}}).
 

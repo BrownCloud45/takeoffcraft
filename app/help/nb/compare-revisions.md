@@ -5,14 +5,14 @@ keywords: revisjon, revidert, sammenlign, overlegg, gammel, ny, endringer, tille
 from: 3a1d9fe0
 ---
 
-Når et ark utgis på nytt, trenger du ikke ta det av igjen. Åpne den gamle PDF-en og den nye, sammenlign de to arkene, og flytt mengdeuttaket over. TakeoffCraft markerer hvert merke der tegningen er endret, så du kontrollerer dem og beholder resten.
+Når et ark utgis på nytt, trenger du ikke ta det av igjen. Åpne den gamle PDF-en og den nye, sammenlign de to arkene, og flytt mengdeuttaket over. TakeoffDesk markerer hvert merke der tegningen er endret, så du kontrollerer dem og beholder resten.
 
 ## Sammenlign
 
 1. Åpne begge PDF-ene: det gamle settet og det reviderte ({{ui:Åpne tegninger}}; de kan være i én fil eller flere).
 2. Vis det **nye** arket.
 3. Velg {{ui:Sammenlign}} på arkelinjen under tegningen.
-4. Velg det gamle arket i listen. TakeoffCraft foreslår arket med samme nummer i den andre PDF-en, eller samme side. Velg **Sammenlign**.
+4. Velg det gamle arket i listen. TakeoffDesk foreslår arket med samme nummer i den andre PDF-en, eller samme side. Velg **Sammenlign**.
 
 Den gamle tegningen ligger nå over den nye i rødt. Der de to stemmer overens, ligger de røde linjene over de svarte; der de er ulike, ser du røde linjer alene (fjernet) og svarte linjer alene (lagt til). En linje nederst på arket holder trinnene nedenfor; {{key:Esc}} eller {{ui:Lukk}} avslutter sammenligningen.
 
@@ -29,7 +29,7 @@ Den røde tegningen flyttes, vris og skaleres over på den svarte. Statuslinjen 
 
 ## Finn endringene
 
-Velg **Finn endringer**. TakeoffCraft sammenligner de to tegningenes blekk: blekk bare på det gamle arket blir rødt, blekk bare på det nye arket blir blått, og statuslinjen teller dem. Linjer som er flyttet et hårstrå (en ny plotting) telles ikke som endringer.
+Velg **Finn endringer**. TakeoffDesk sammenligner de to tegningenes blekk: blekk bare på det gamle arket blir rødt, blekk bare på det nye arket blir blått, og statuslinjen teller dem. Linjer som er flyttet et hårstrå (en ny plotting) telles ikke som endringer.
 
 Den ser også på hvert merke på det gamle arket og teller dem som ligger der tegningen er endret:
 
@@ -40,7 +40,7 @@ Den ser også på hvert merke på det gamle arket og teller dem som ligger der t
 
 Velg **Flytt mengdeuttak hit**. Hvert merke på det gamle arket flyttes til det nye, via innrettingen, i ett Angre-trinn. De som ligger ved en endring markeres: de tegnes med en oransje glorie, og arkelinjen viser «(n) å kontrollere».
 
-Hvis det nye arket ikke hadde målestokk, får det det gamle arkets målestokk (justert når tegningene måtte skaleres for å rettes opp). Hadde det allerede en annen målestokk, spør TakeoffCraft først: flyttede merker måles med det nye arkets målestokk.
+Hvis det nye arket ikke hadde målestokk, får det det gamle arkets målestokk (justert når tegningene måtte skaleres for å rettes opp). Hadde det allerede en annen målestokk, spør TakeoffDesk først: flyttede merker måles med det nye arkets målestokk.
 
 ## Kontroller de markerte merkene
 

@@ -1,6 +1,6 @@
 ---
 title: Entrada de longitudes, tarifas y porcentajes
-summary: Lo que puede escribir para distancias, alturas, tarifas de dinero y porcentajes de desperdicio, con ejemplos y los mensajes para entradas que TakeoffCraft no puede leer.
+summary: Lo que puede escribir para distancias, alturas, tarifas de dinero y porcentajes de desperdicio, con ejemplos y los mensajes para entradas que TakeoffDesk no puede leer.
 keywords: entrada, formato, pies y pulgadas, fracciones, pies decimales, métrico, metros, milímetros, tarifa, dinero, dólares, porcentaje, desperdicio, escritura
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Hasta dos decimales, de 0% a 1000%. Mensajes: "Escriba un porcentaje como 10 o 7
 ## Nombres y unidades
 
 - Nombres de partidas y componentes: hasta 200 caracteres.
-- La {{ui:Unidad}} de un componente: cualquier texto de hasta 20 caracteres, como `EA`, `hojas`, `CY`, `gal`. Es solo una etiqueta; TakeoffCraft no la convierte.
+- La {{ui:Unidad}} de un componente: cualquier texto de hasta 20 caracteres, como `EA`, `hojas`, `CY`, `gal`. Es solo una etiqueta; TakeoffDesk no la convierte.
 
 ## Fórmulas
 

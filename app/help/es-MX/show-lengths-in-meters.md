@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Lo que hará
 
-Cambie la forma en que TakeoffCraft muestra las longitudes, para que una obra métrica se lea en metros, centímetros o milímetros en la hoja, en la barra de estado y en los paneles.
+Cambie la forma en que TakeoffDesk muestra las longitudes, para que una obra métrica se lea en metros, centímetros o milímetros en la hoja, en la barra de estado y en los paneles.
 
 ## Pasos
 
-1. Abra {{ui:Settings}} con el engrane de la barra de aplicaciones o con {{key:Mod+,}}, y quédese en la pestaña {{ui:TakeoffCraft}}.
+1. Abra {{ui:Settings}} con el engrane de la barra de aplicaciones o con {{key:Mod+,}}, y quédese en la pestaña {{ui:TakeoffDesk}}.
 2. Busque {{ui:Show lengths as}} y elija {{ui:Pies y pulgadas}}, m, cm o mm. {{ui:Follow Global}} usa la unidad de longitud métrica marcada con estrella en {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, y pies y pulgadas cuando ninguna está marcada.
 3. Revise la hoja: las longitudes en la barra de estado, en la lista de partidas y en los paneles ahora se leen en la unidad que eligió. Las alturas, la profundidad, el grosor y los niveles también.
 4. Para leer las temperaturas de las partidas en grados C o F, elija {{ui:Show temperatures as}} en la misma pestaña.

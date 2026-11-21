@@ -1,6 +1,6 @@
 ---
 title: Hesabu kila kitu kwenye seti
-summary: Chora orodha ya alama mara moja na TakeoffCraft inahesabu kila alama iliyomo kwenye kila karatasi iliyo wazi kwa mara moja. Kila hesabu ni kiungo cha karatasi yake, na unakagua kabla ya chochote kuongezwa.
+summary: Chora orodha ya alama mara moja na TakeoffDesk inahesabu kila alama iliyomo kwenye kila karatasi iliyo wazi kwa mara moja. Kila hesabu ni kiungo cha karatasi yake, na unakagua kabla ya chochote kuongezwa.
 keywords: hesabu kila kitu, orodha ya alama, orodha ya alama za mchoro, seti nzima, kila karatasi, karatasi zote, kila mlango, kila kifaa, vifaa vya umeme, ratiba, alama, hesabu otomatiki, hesabu zote, seti ya mipango, karatasi 200, kiwango cha ulinganifu, zinazofanana
 from: adc99744
 ---

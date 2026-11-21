@@ -14,7 +14,7 @@ A darabszámú tétel dolgokat számol: ajtókat, lámpatesteket, csatlakozókat
 3. Kattintson minden egyes elemre a lapon.
    Minden kattintás a tétel színével pontot tesz, a tétel darabszáma pedig eggyel nő.
 4. Lépjen a következő lapra ({{key:PageDown}}), és folytassa a számolást. Az eszköz a {{ui:Darabszám}} maradt.
-5. Nyomja meg az {{key:Esc}} billentyűt, ha végzett. A TakeoffCraft visszalép a {{ui:Kijelölés}} eszközre.
+5. Nyomja meg az {{key:Esc}} billentyűt, ha végzett. A TakeoffDesk visszalép a {{ui:Kijelölés}} eszközre.
 
 A húzás továbbra is mozgatja a lapot, és a görgő is nagyít számolás közben, így körbe tud járni a lapon anélkül, hogy pontokat adna hozzá.
 
@@ -30,7 +30,7 @@ Kattintson a darabszámú tételre, hogy kiemelje a pontjait minden lapon. A lap
 
 ## Pontméret a képernyőn és a PDF-ben
 
-A pontok a képernyőn mindig egyforma méretűek, bármennyire nagyít. A méret módosításához nyissa meg a {{ui:Beállítások}} menüt, a TakeoffCraft lapot, és válassza a **Darabszámjelölő mérete** lehetőséget: Extra kicsi, Kicsi, Közepes (az alapértelmezett) vagy Nagy.
+A pontok a képernyőn mindig egyforma méretűek, bármennyire nagyít. A méret módosításához nyissa meg a {{ui:Beállítások}} menüt, a TakeoffDesk lapot, és válassza a **Darabszámjelölő mérete** lehetőséget: Extra kicsi, Kicsi, Közepes (az alapértelmezett) vagy Nagy.
 
 A PDF-export ({{ui:Exportálás}} › a jelölt PDF) minden pontot ugyanakkora méretben rajzol papíron, bármekkora is a lap: a 100%-ban megjelenített PDF ugyanolyan nagynak mutatja a pontokat, mint a képernyőn. Ahol a pontok egy lapon összeérnének, az export arra a lapra kisebbre méretezi a pontokat, hogy mindegyik olvasható maradjon.
 

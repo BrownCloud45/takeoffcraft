@@ -2,7 +2,7 @@
 /**
  * viewcube-camera.js — connects the view cube (viewcube.js) to ModelCraft's own Camera (camera.js). DOM-free and
  * three-free (Node runs it). Canonical copy: modelcraft/dev/; apps that use camera.js (CadCraft's m3d, CivilCraft,
- * TakeoffCraft) keep BYTE-IDENTICAL copies next to their viewcube.js and camera.js.
+ * TakeoffDesk) keep BYTE-IDENTICAL copies next to their viewcube.js and camera.js.
  *
  *   import { mountViewCube } from './viewcube.js';
  *   import { cameraCubeOptions } from './viewcube-camera.js';

@@ -5,7 +5,7 @@ keywords: ochish, reja toʻplami, bir nechta pdf, bir nechta fayl, varaqlar, chi
 from: ed434468
 ---
 
-Reja toʻplami koʻpincha bir nechta PDF boʻladi: arxitektura, konstruksiya, mexanika. TakeoffCraft ularni varaqlarning yagona roʻyxati sifatida yonma-yon ochadi va bitta hajm butun toʻplamni qamrab oladi.
+Reja toʻplami koʻpincha bir nechta PDF boʻladi: arxitektura, konstruksiya, mexanika. TakeoffDesk ularni varaqlarning yagona roʻyxati sifatida yonma-yon ochadi va bitta hajm butun toʻplamni qamrab oladi.
 
 ## PDF larni ochish
 
@@ -14,14 +14,14 @@ Reja toʻplami koʻpincha bir nechta PDF boʻladi: arxitektura, konstruksiya, me
 3. Ochish ni tanlang.
    Har bir fayl oʻqilayotganda “(name) ochilmoqda…” xabari koʻrinadi. Keyin har bir sahifa {{ui:Varaqlar}} ostida paydo boʻladi va yangi birinchi PDF ning birinchi sahifasi ochiladi.
 
-PDF larni {{pick:mac=Finder|windows=File Explorer|linux=fayl menejeringiz}} dan sudrab, TakeoffCraft ustiga istalgan joyga tashlashingiz ham mumkin. Sudrash paytida “PDF, DWG yoki DXF chizmalarini yoki .takeoff.json faylini tashlang” ramkasi paydo boʻladi.
+PDF larni {{pick:mac=Finder|windows=File Explorer|linux=fayl menejeringiz}} dan sudrab, TakeoffDesk ustiga istalgan joyga tashlashingiz ham mumkin. Sudrash paytida “PDF, DWG yoki DXF chizmalarini yoki .takeoff.json faylini tashlang” ramkasi paydo boʻladi.
 
 Keyinroq yana PDF qoʻshish uchun xuddi shuni qayta bajaring. Allaqachon ochiq PDF lar oʻtkazib yuboriladi.
 
 Boshlash ekrani yaqinda ochgan PDF va hajmlaringizni ham koʻrsatadi — sahifaga faylni qayta ochishga ruxsat beradigan brauzerlarda (Chrome va Edge). Birini bosib oching; brauzer avval ruxsat soʻrashi mumkin. Qarang: [Fayllaringiz](common:your-files).
 
 :::note
-Hech narsa yuklanmaydi. Brauzer PDF larni kompyuteringizdan oʻqiydi va siz yorliqni yopganingizda yoki {{ui:Yangi}} ni tanlaganingizda ular TakeoffCraft dan yoʻqoladi.
+Hech narsa yuklanmaydi. Brauzer PDF larni kompyuteringizdan oʻqiydi va siz yorliqni yopganingizda yoki {{ui:Yangi}} ni tanlaganingizda ular TakeoffDesk dan yoʻqoladi.
 :::
 
 ## Chizmalar PDF yonida
@@ -30,7 +30,7 @@ Hech narsa yuklanmaydi. Brauzer PDF larni kompyuteringizdan oʻqiydi va siz yorl
 
 ## Boshqa ilovadan uzatilgan PDF
 
-Toʻplamdagi boshqa ilova ochiq turgan PDF ni uzatishi mumkin: u TakeoffCraft ni yangi yorliqda ochadi va PDF u yerda xuddi siz uni tashlaganingizdek ochiladi. Holat satri “Ochildi: (name). Uzatuvchi ilova: (app). Asl fayl oʻzgarmagan.” deb yozadi. Hech narsa yuklanmaydi: fayl shu brauzerning oʻz xotirasi orqali oʻtadi va ochilgach undan yoʻqoladi.
+Toʻplamdagi boshqa ilova ochiq turgan PDF ni uzatishi mumkin: u TakeoffDesk ni yangi yorliqda ochadi va PDF u yerda xuddi siz uni tashlaganingizdek ochiladi. Holat satri “Ochildi: (name). Uzatuvchi ilova: (app). Asl fayl oʻzgarmagan.” deb yozadi. Hech narsa yuklanmaydi: fayl shu brauzerning oʻz xotirasi orqali oʻtadi va ochilgach undan yoʻqoladi.
 
 Agar holat satri PDF “yetib kelmadi” deb yozsa, yorliq juda uzoq kutgan yoki PDF boshqa yorliqda allaqachon ochilgan boʻlgan: uni {{ui:Rejalarni ochish}} bilan oching.
 

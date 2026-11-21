@@ -37,12 +37,12 @@ O cantitate introdusă nu primește marcaje și nu face niciodată devizul incom
 Apăsați {{key:Esc}} în formular pentru a-l închide fără a adăuga un articol.
 
 :::tip
-Dacă alegeți întâi un instrument de măsurare, TakeoffCraft folosește ultimul articol de tipul potrivit sau deschide formularul {{ui:Articol nou}} cu tipul deja ales.
+Dacă alegeți întâi un instrument de măsurare, TakeoffDesk folosește ultimul articol de tipul potrivit sau deschide formularul {{ui:Articol nou}} cu tipul deja ales.
 :::
 
 ## Alegerea articolului cu care desenați
 
-Faceți clic pe un articol din listă. Acesta devine articolul la care se trec marcajele noi, iar marcajele lui sunt evidențiate pe fiecare foaie, în timp ce celelalte se estompează. Dacă foaia deschisă nu are niciunul dintre marcajele lui, TakeoffCraft sare la o foaie care are. Faceți din nou clic pe articol pentru a opri evidențierea; rămâne articolul cu care desenați.
+Faceți clic pe un articol din listă. Acesta devine articolul la care se trec marcajele noi, iar marcajele lui sunt evidențiate pe fiecare foaie, în timp ce celelalte se estompează. Dacă foaia deschisă nu are niciunul dintre marcajele lui, TakeoffDesk sare la o foaie care are. Faceți din nou clic pe articol pentru a opri evidențierea; rămâne articolul cu care desenați.
 
 Faceți clic pe un marcaj cu instrumentul {{ui:Selectare}} face și articolul lui cel curent.
 
@@ -57,7 +57,7 @@ Editorul articolului (**Articol: (nume)**) are aceste câmpuri. Fiecare se salve
 | {{ui:Culoare}} | Culoarea marcajelor lui pe ecran și în PDF-ul marcat. |
 | {{ui:UM}} | În ce unitate se raportează cantitatea: LF sau m pentru liniar; SF, SY, SQ, ac, ha sau m² pentru arie; EA pentru numărare. |
 | {{ui:Măsoară și}} | Celelalte tipuri de marcaje pe care le primește articolul, fiecare cu propria unitate. Vezi mai jos. |
-| {{ui:Înălțime}} (liniar) | O înălțime de perete. Articolul raportează atunci și aria peretelui (lungime × înălțime). Traseele care provin dintr-un model BimCraft își păstrează ușile și ferestrele: acestea sunt scoase o singură dată, iar articolul indică aria brută, golurile și aria netă. Un extras de cantități dintr-un proiect BimCraft care a ales o metodă de măsurare este măsurat și aici prin aceeași metodă (nota o numește, cu sursa ei, și spune că nu a fost verificată de un specialist în devize); metoda nu poate fi schimbată în TakeoffCraft. Cărămizile sau blocurile și mortarul dintr-un tip de perete sosesc ca două componente: unitățile de comandat și volumul de mortar. |
+| {{ui:Înălțime}} (liniar) | O înălțime de perete. Articolul raportează atunci și aria peretelui (lungime × înălțime). Traseele care provin dintr-un model BimCraft își păstrează ușile și ferestrele: acestea sunt scoase o singură dată, iar articolul indică aria brută, golurile și aria netă. Un extras de cantități dintr-un proiect BimCraft care a ales o metodă de măsurare este măsurat și aici prin aceeași metodă (nota o numește, cu sursa ei, și spune că nu a fost verificată de un specialist în devize); metoda nu poate fi schimbată în TakeoffDesk. Cărămizile sau blocurile și mortarul dintr-un tip de perete sosesc ca două componente: unitățile de comandat și volumul de mortar. |
 | {{ui:Adâncime}} (arie) | O adâncime sau grosime, folosită în formulele articolelor compuse (de exemplu volumul de beton). |
 | {{ui:Pierderi %}} | Se adaugă la cantitate înainte de evaluare: 10 înseamnă cantitate × 1.10. |
 | {{ui:Material $/LF}} | Costul materialului pe unitate. Eticheta urmează unitatea: $/SF, $/EA și așa mai departe. |
@@ -74,7 +74,7 @@ Unele lucruri se măsoară în mai multe moduri: o cameră are o podea (o arie),
 
 1. Creați articolul cu tipul său principal, de exemplu un articol de arie `Room 101`.
 2. Sub {{ui:Măsoară și}} din editorul lui, bifați {{ui:Liniar}}, {{ui:Numărare}} sau ambele. Fiecare primește o unitate alături.
-3. Desenați cu orice instrument al cărui tip îl primește articolul: cu `Room 101` curent, {{ui:Arie}} desenează podeaua lui, {{ui:Liniar}} plinta lui și {{ui:Numărare}} ușile lui. TakeoffCraft nu cere alt articol.
+3. Desenați cu orice instrument al cărui tip îl primește articolul: cu `Room 101` curent, {{ui:Arie}} desenează podeaua lui, {{ui:Liniar}} plinta lui și {{ui:Numărare}} ușile lui. TakeoffDesk nu cere alt articol.
 
 Lista articolelor arată fiecare cantitate (`50.00 SF + 2 EA`). În tabelul cantităților, rândul articolului are cantitatea principală, iar fiecare alt tip primește un rând propriu dedesubt, de exemplu **Room 101 (numărare)**, cu propriile pierderi și tarife de materiale și de manoperă. Exporturile, tabelul pe foaie și legenda PDF-ului marcat le listează în același mod.
 
@@ -113,7 +113,7 @@ Pentru fiecare articol și fiecare componentă a unui articol compus:
 | {{ui:Mărimea echipei}} | `2` persoane |
 | {{ui:Salariu $/oră fiecare}} | `45` |
 
-TakeoffCraft calculează, din cantitatea cu pierderi:
+TakeoffDesk calculează, din cantitatea cu pierderi:
 
 - **ore-echipă** = cantitate ÷ producție (110 LF ÷ 20 = 5.5),
 - **ore-om** = ore-echipă × mărimea echipei (11),

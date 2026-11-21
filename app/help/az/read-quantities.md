@@ -24,7 +24,7 @@ Seçin {{ui:Elementə görə}} (standart). Hər elementin bir sətri var, onun h
 
 Son sətir, **Layihənin ümumi cəmi**, material, əmək və cəm sütunlarını toplayır. Eyni cəm cədvəl başlığının sağında da göstərilir.
 
-İsraf və ya tarif xanasına yazın və tətbiq etmək üçün {{key:Enter}} basın və ya kənara klikləyin. TakeoffCraft-ın oxuya bilmədiyi dəyər qırmızı ilə konturlanır və status paneli səbəbi göstərir, məsələn "Məbləği 12.50 kimi yazın."
+İsraf və ya tarif xanasına yazın və tətbiq etmək üçün {{key:Enter}} basın və ya kənara klikləyin. TakeoffDesk-ın oxuya bilmədiyi dəyər qırmızı ilə konturlanır və status paneli səbəbi göstərir, məsələn "Məbləği 12.50 kimi yazın."
 
 Elementin sətrinə klikləyin: onun işarələri bütün vərəqlərdə vurğulanır və onları olan vərəqə keçid edilir (eyni ilə {{ui:Elementlər}} altında klikləmək kimi).
 

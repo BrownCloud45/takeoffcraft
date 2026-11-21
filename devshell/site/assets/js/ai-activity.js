@@ -38,7 +38,7 @@ const VERBS = [
   [/(^|_)(undo|redo)$/, 'undid', 'change'],
 ];
 const PAST = { add: 'added', create: 'created', insert: 'inserted', place: 'placed', draw: 'drew', make: 'made', new: 'made', start: 'started', apply: 'applied', run: 'ran', set: 'changed', move: 'moved', rotate: 'rotated', scale: 'scaled', update: 'updated', rename: 'renamed', change: 'changed', edit: 'edited', mirror: 'mirrored', copy: 'copied', offset: 'offset', trim: 'trimmed', extend: 'extended', fillet: 'filleted', accept: 'accepted' };
-const APP_NAMES = { cad: 'CadCraft', bim: 'BimCraft', model: 'ModelCraft', markup: 'MarkupCraft', takeoff: 'TakeoffCraft', civil: 'CivilCraft', detail: 'DetailCraft', part: 'PartCraft', studio: 'Studio' };
+const APP_NAMES = { cad: 'CadCraft', bim: 'BimCraft', model: 'ModelCraft', markup: 'MarkupCraft', takeoff: 'TakeoffDesk', civil: 'CivilCraft', detail: 'DetailCraft', part: 'PartCraft', studio: 'Studio' };
 
 const SENT_WHY = { person: "a person's name", contact: 'contact details', account: 'account or company details', licence: 'a licence, key or password', computer: "the computer's identity", email: 'an email address', folder: "a folder with a user's name", deep: 'nested too deep to check' };
 /** The dispatcher's `sent` record (ai-model-only.js sentRecord), bounded: it came over a channel in Studio. */

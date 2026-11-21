@@ -24,7 +24,7 @@ Khetha {{ui:By item}} (okuzenzakalelayo). Into ngayinye inomugqa wayo, nezingxen
 
 Umugqa wokugcina, **Isamba sembangi**, wengeza amakholomu empahla, okusebenza nesamba. Leli samba libonakala futhi ngakwesokudla kwesihloko sethebula.
 
-Thayipha kuseli lokulahleka noma lerethi bese ucindezela {{key:Enter}} noma uchofoze endaweni ukuze usebenzise. Inani ingxenye ye-TakeoffCraft engayifunda liyogxilwa ngomugqa obomvu, futhi ibha yesimo ichaza isizathu, isibonelo "Thayipha inani njengo-12.50."
+Thayipha kuseli lokulahleka noma lerethi bese ucindezela {{key:Enter}} noma uchofoze endaweni ukuze usebenzise. Inani ingxenye ye-TakeoffDesk engayifunda liyogxilwa ngomugqa obomvu, futhi ibha yesimo ichaza isizathu, isibonelo "Thayipha inani njengo-12.50."
 
 Chofoza umugqa wento ukuze ugqamise izimaki zayo kuwo wonke amashidi bese uya kushidi elinazo. Lokhu kufana nokuchofoza kuyo ngaphansi kuka-{{ui:Items}}.
 

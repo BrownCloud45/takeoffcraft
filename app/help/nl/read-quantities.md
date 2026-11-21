@@ -24,7 +24,7 @@ Kies {{ui:Per post}} (de standaard). Elke post heeft een rij, en elk van de same
 
 De laatste rij, **Totaal van de opdracht**, telt de kolommen materiaal, arbeid en totaal op. Hetzelfde totaal staat rechts in de koptekst van de tabel.
 
-Typ in een verlies- of tariefcel en druk op {{key:Enter}} of klik ergens anders om het toe te passen. Een waarde die TakeoffCraft niet kan lezen, wordt rood omlijnd en de statusbalk zegt waarom, bijvoorbeeld "Typ een bedrag zoals 12.50."
+Typ in een verlies- of tariefcel en druk op {{key:Enter}} of klik ergens anders om het toe te passen. Een waarde die TakeoffDesk niet kan lezen, wordt rood omlijnd en de statusbalk zegt waarom, bijvoorbeeld "Typ een bedrag zoals 12.50."
 
 Klik op de rij van een post om de markeringen op elk blad te accentueren en naar een blad te springen dat ze heeft (hetzelfde als klikken onder {{ui:Posten}}).
 

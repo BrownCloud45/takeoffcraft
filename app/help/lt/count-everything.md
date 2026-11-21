@@ -1,6 +1,6 @@
 ---
 title: Skaičiuoti visą rinkinį
-summary: Apibrėžkite simbolių legendą vieną kartą, ir TakeoffCraft suskaičiuos kiekvieną jos simbolį kiekviename atvertame lape vienu paleidimu. Kiekvienas skaičius yra nuoroda į jo lapą, o prieš pridedant galima peržiūrėti.
+summary: Apibrėžkite simbolių legendą vieną kartą, ir TakeoffDesk suskaičiuos kiekvieną jos simbolį kiekviename atvertame lape vienu paleidimu. Kiekvienas skaičius yra nuoroda į jo lapą, o prieš pridedant galima peržiūrėti.
 keywords: skaičiuoti viską, legenda, simbolių legenda, visas rinkinys, kiekvienas lapas, visi lapai, visos durys, visi įrenginiai, prietaisai, žiniaraštis, simboliai, automatinis skaičiavimas, skaičiuoti visus, planų rinkinys, 200 lapų, atitikties lygis, panašūs
 from: adc99744
 ---

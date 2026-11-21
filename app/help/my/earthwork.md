@@ -5,7 +5,7 @@ keywords: မြေလုပ်ငန်း, တူးဖော်ခြင်�
 from: a898e508
 ---
 
-TakeoffCraft သည် စာရွက်ပေါ်တွင် ဆွဲထားသည်များကို တိုင်းတာသည်။ မြေလုပ်ငန်းသည် မြေပြင် surface လိုအပ်သောကြောင့် CivilCraft နှင့် မျှဝေသည်။ CivilCraft သည် အမှတ်များမှ surface တည်ဆောက်ပြီး ညှိကာ cut and fill နှင့် haul ကို တွက်ချက်သည်။
+TakeoffDesk သည် စာရွက်ပေါ်တွင် ဆွဲထားသည်များကို တိုင်းတာသည်။ မြေလုပ်ငန်းသည် မြေပြင် surface လိုအပ်သောကြောင့် CivilCraft နှင့် မျှဝေသည်။ CivilCraft သည် အမှတ်များမှ surface တည်ဆောက်ပြီး ညှိကာ cut and fill နှင့် haul ကို တွက်ချက်သည်။
 
 ## ဤနေရာတွင် ရိုးရှင်းသော တူးဖော်ခြင်း
 
@@ -29,8 +29,8 @@ Northing နှင့် easting တို့သည် စာရွက်၏ က
 
 CivilCraft ၏ earthwork သည် ဈေးနှုန်းသတ်မှတ်နိုင်သော item နှစ်ခုအဖြစ် ပြန်လာသည်:
 
-1. CivilCraft တွင် pad နှင့် corridor များကို grade လုပ်ပြီး **Earthwork** အောက်ရှိ {{ui:TakeoffCraft သို့ ပို့ရန်}} ကို ရွေးပါ ([Earthwork volumes](app:civilcraft/volumes))။ ၎င်းသည် quantities file (`.quantities.json`) တစ်ခု သိမ်းသည်။
-2. TakeoffCraft တွင် {{ui:takeoff ဖွင့်ရန်}} ဖြင့် ဖွင့်ပါ၊ သို့မဟုတ် app ပေါ် ချပေးပါ။ သင့် takeoff ဖွင့်နေဆဲ ဖြစ်သည်- file သည် **Earthwork: cut** နှင့် **Earthwork: fill** ကို [typed quantities](topic:create-items#typed-quantities-no-drawing) အဖြစ် ထည့်သည်၊ feet project အတွက် cubic yards (CY)၊ metre project အတွက် cubic metres (m³)။ ၎င်းသည် အဆင့်တစ်ခုတည်း ဖြစ်သည်- {{key:Mod+Z}} ဖြင့် ပြန်ဖျက်နိုင်သည်။
+1. CivilCraft တွင် pad နှင့် corridor များကို grade လုပ်ပြီး **Earthwork** အောက်ရှိ {{ui:TakeoffDesk သို့ ပို့ရန်}} ကို ရွေးပါ ([Earthwork volumes](app:civilcraft/volumes))။ ၎င်းသည် quantities file (`.quantities.json`) တစ်ခု သိမ်းသည်။
+2. TakeoffDesk တွင် {{ui:takeoff ဖွင့်ရန်}} ဖြင့် ဖွင့်ပါ၊ သို့မဟုတ် app ပေါ် ချပေးပါ။ သင့် takeoff ဖွင့်နေဆဲ ဖြစ်သည်- file သည် **Earthwork: cut** နှင့် **Earthwork: fill** ကို [typed quantities](topic:create-items#typed-quantities-no-drawing) အဖြစ် ထည့်သည်၊ feet project အတွက် cubic yards (CY)၊ metre project အတွက် cubic metres (m³)။ ၎င်းသည် အဆင့်တစ်ခုတည်း ဖြစ်သည်- {{key:Mod+Z}} ဖြင့် ပြန်ဖျက်နိုင်သည်။
 3. အမည်ပြောင်းပါ၊ ဆုံးရှုံးမှု၊ နှုန်းများနှင့် assemblies များကို လိုသလို သတ်မှတ်ပါ။
 
 Design ပြောင်းသောအခါ CivilCraft မှ ထပ်ပို့ပြီး အသစ်ဖွင့်ပါ- item နှစ်ခုတည်းသည် ပမာဏအသစ်ကို ရရှိသည်။ ၎င်းတို့၏ အမည်များ၊ နှုန်းများ၊ ဆုံးရှုံးမှုနှင့် assemblies များသည် သင်သတ်မှတ်ထားသည့်အတိုင်း ကျန်ရှိသည်။ Project ၏ unit ပြောင်းခဲ့လျှင် status bar က ပြောပြမည်- နှုန်းများကို စစ်ပါ။ အခြား CivilCraft project ၏ file သည် ကိုယ်ပိုင် item နှစ်ခု ထည့်သည်။

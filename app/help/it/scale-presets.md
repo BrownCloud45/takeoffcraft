@@ -49,4 +49,4 @@ Una scala calibrata compare come "Calibrata 1" = 4.002' su 24'-6"" nella barra s
 
 ## PDF particolari
 
-Alcuni PDF dichiarano un'unità di pagina più grande (una "user unit"); TakeoffCraft la considera per le predefinite e per la scala mostrata. Le pagine ruotate nel PDF vengono misurate allo stesso modo di quelle dritte.
+Alcuni PDF dichiarano un'unità di pagina più grande (una "user unit"); TakeoffDesk la considera per le predefinite e per la scala mostrata. Le pagine ruotate nel PDF vengono misurate allo stesso modo di quelle dritte.

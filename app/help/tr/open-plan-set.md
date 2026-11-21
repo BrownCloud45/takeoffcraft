@@ -5,7 +5,7 @@ keywords: aç, plan takımı, birden fazla pdf, çoklu dosya, sayfalar, çizimle
 from: ed434468
 ---
 
-Bir plan takımı genellikle birden fazla PDF'dir: mimari, statik, mekanik. TakeoffCraft bunları yan yana tek bir sayfa listesi olarak açar ve tek bir metraj hepsini kapsayabilir.
+Bir plan takımı genellikle birden fazla PDF'dir: mimari, statik, mekanik. TakeoffDesk bunları yan yana tek bir sayfa listesi olarak açar ve tek bir metraj hepsini kapsayabilir.
 
 ## PDF'leri açın
 
@@ -14,14 +14,14 @@ Bir plan takımı genellikle birden fazla PDF'dir: mimari, statik, mekanik. Take
 3. Aç'ı seçin.
    Her dosya okunurken "(ad) açılıyor…" iletisi görünür. Ardından her sayfa {{ui:Sayfalar}} altında belirir ve ilk yeni PDF'in ilk sayfası açılır.
 
-PDF'leri {{pick:mac=Finder|windows=Dosya Gezgini|linux=dosya yöneticiniz}} içinden sürükleyip TakeoffCraft'ın herhangi bir yerine bırakabilirsiniz. Sürüklerken "PDF, DWG ya da DXF çizimlerini veya bir .takeoff.json dosyasını bırakın" çerçevesi görünür.
+PDF'leri {{pick:mac=Finder|windows=Dosya Gezgini|linux=dosya yöneticiniz}} içinden sürükleyip TakeoffDesk'ın herhangi bir yerine bırakabilirsiniz. Sürüklerken "PDF, DWG ya da DXF çizimlerini veya bir .takeoff.json dosyasını bırakın" çerçevesi görünür.
 
 Daha sonra PDF eklemek için aynısını yeniden yapın. Zaten açık olan PDF'ler atlanır.
 
 Başlangıç ekranı, bir sayfanın bir dosyayı yeniden açmasına izin veren tarayıcılarda (Chrome ve Edge), son açtığınız PDF'leri ve metrajları da listeler. Açmak için birine tıklayın; tarayıcı önce izin isteyebilir. Bkz. [Dosyalarınız](common:your-files).
 
 :::note
-Hiçbir şey yüklenmez. Tarayıcı PDF'leri bilgisayarınızda okur ve sekmeyi kapattığınızda ya da {{ui:Yeni}} seçtiğinizde TakeoffCraft'tan kalkarlar.
+Hiçbir şey yüklenmez. Tarayıcı PDF'leri bilgisayarınızda okur ve sekmeyi kapattığınızda ya da {{ui:Yeni}} seçtiğinizde TakeoffDesk'tan kalkarlar.
 :::
 
 ## Çizimler PDF'lerin yanında
@@ -30,7 +30,7 @@ Hiçbir şey yüklenmez. Tarayıcı PDF'leri bilgisayarınızda okur ve sekmeyi 
 
 ## Başka uygulamadan devredilen bir PDF
 
-Takımdaki başka bir uygulama açık tuttuğu PDF'i size devredebilir: TakeoffCraft'ı yeni bir sekmede açar ve PDF, oraya bırakılmış gibi açılır. Durum çubuğu şunu söyler: "(ad) açıldı, (uygulama) tarafından devredildi. Özgün dosya değişmedi." Hiçbir şey yüklenmez; dosya bu tarayıcının kendi depolama alanından geçer ve açıldığında oradan silinir.
+Takımdaki başka bir uygulama açık tuttuğu PDF'i size devredebilir: TakeoffDesk'ı yeni bir sekmede açar ve PDF, oraya bırakılmış gibi açılır. Durum çubuğu şunu söyler: "(ad) açıldı, (uygulama) tarafından devredildi. Özgün dosya değişmedi." Hiçbir şey yüklenmez; dosya bu tarayıcının kendi depolama alanından geçer ve açıldığında oradan silinir.
 
 Durum çubuğu PDF için "ulaşmadı" diyorsa, sekme çok uzun bekledi ya da PDF zaten başka bir sekmede açıktı: {{ui:Planları aç}} ile açın.
 

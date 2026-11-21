@@ -1,11 +1,11 @@
 ---
 title: Què ha après dels vostres amidaments
-summary: TakeoffCraft guarda els símbols que vau confirmar amb el Recompte automàtic, els vostres conjunts de condicions, els muntatges que més useu i els patrons que repetiu a totes les pàgines, tot dins del propi fitxer de l'amidament. Veure-ho, utilitzar-ho, esborrar-ho.
+summary: TakeoffDesk guarda els símbols que vau confirmar amb el Recompte automàtic, els vostres conjunts de condicions, els muntatges que més useu i els patrons que repetiu a totes les pàgines, tot dins del propi fitxer de l'amidament. Veure-ho, utilitzar-ho, esborrar-ho.
 keywords: aprendre, après, aprenentatge, assistent, recordar, símbols, plantilles, igual que l'última feina, última feina, conjunt de condicions, condicions, reutilitzar, muntatges, més usats, suggeriments, repeteix a totes les pàgines, cada pàgina, caixetí, patró, esborra-ho tot, oblidar, privacitat
 from: 54d99e99
 ---
 
-TakeoffCraft va sent més ràpid com més amidaments hi feu. Aprèn **només del que accepteu**:
+TakeoffDesk va sent més ràpid com més amidaments hi feu. Aprèn **només del que accepteu**:
 
 - els símbols que heu marcat amb [Recompte automàtic](topic:auto-count) i després heu afegit,
 - els conjunts de condicions que deseu,
@@ -64,6 +64,6 @@ Per deixar d'aprendre en un amidament, desmarqueu {{ui:Aprèn d'aquest amidament
 
 ## Bon de saber
 
-- Les versions anteriors de TakeoffCraft obren un fitxer amb coses apreses amb normalitat. Ignoren aquesta part, i l'eliminen si tornen a desar el fitxer.
+- Les versions anteriors de TakeoffDesk obren un fitxer amb coses apreses amb normalitat. Ignoren aquesta part, i l'eliminen si tornen a desar el fitxer.
 - Un símbol après és una petita imatge del que vau marcar, guardada al fitxer (uns quants kilobytes cadascuna).
 - Els símbols apresos es cerquen com les cerques del Recompte automàtic, així que s'apliquen els mateixos límits: [Recompte automàtic d'un símbol](topic:auto-count).

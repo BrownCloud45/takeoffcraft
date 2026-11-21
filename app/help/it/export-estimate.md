@@ -28,7 +28,7 @@ La cartella di lavoro contiene quattro fogli, più i rapporti seguenti quando si
 
 Con un [riepilogo dell'offerta](topic:bid-summary), il foglio Preventivo termina anche con i suoi ricarichi (onere della manodopera, IVA, spese generali, utile, cauzione e offerta), come formule attive.
 
-Il foglio Preventivo mantiene **formule attive**: quantità con sfrido, importi arrotondati di materiale e manodopera, totale di ogni riga e totale del lavoro. I programmi di fogli di calcolo le ricalcolano, quindi si può modificare un prezzo o lo sfrido nel foglio e i totali seguono. I numeri calcolati da TakeoffCraft sono memorizzati anche nelle celle, e coincidono al centesimo.
+Il foglio Preventivo mantiene **formule attive**: quantità con sfrido, importi arrotondati di materiale e manodopera, totale di ogni riga e totale del lavoro. I programmi di fogli di calcolo le ricalcolano, quindi si può modificare un prezzo o lo sfrido nel foglio e i totali seguono. I numeri calcolati da TakeoffDesk sono memorizzati anche nelle celle, e coincidono al centesimo.
 
 La colonna Note elenca la formula di ogni componente, gli errori di formula, i segni su tavole senza scala, la superficie di parete e il perimetro. Quando qualcosa è stato escluso, la riga del totale del lavoro indica "Incompleto: vedere le note sopra".
 
@@ -42,7 +42,7 @@ Il CSV contiene solo il preventivo; per quantità per tavola ed elenco dei segni
 
 ## Il preventivo in Google Sheets
 
-Sopra la tabella delle quantità, **Copia per Google Sheets** mette il preventivo negli Appunti come testo separato da tabulazioni, con le stesse righe del CSV. In un foglio Google, fare clic sulla cella A1 e incollare. TakeoffCraft non accede a Google e non invia nulla.
+Sopra la tabella delle quantità, **Copia per Google Sheets** mette il preventivo negli Appunti come testo separato da tabulazioni, con le stesse righe del CSV. In un foglio Google, fare clic sulla cella A1 e incollare. TakeoffDesk non accede a Google e non invia nulla.
 
 ## Prezzi mancanti e approvazione
 

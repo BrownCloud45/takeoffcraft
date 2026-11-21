@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, route, voie ferrée, pont, chaussée, bordure, c
 from: 6b08c2c4
 ---
 
-Un fichier IFC 4.3 peut contenir des routes, des voies ferrées, des ponts, des ouvrages maritimes et les éléments qui les composent : chaussées, couches, bordures, rails, terrassements, appuis, pieux, etc. TakeoffCraft les lit et les transforme en quantités typées que vous pouvez chiffrer.
+Un fichier IFC 4.3 peut contenir des routes, des voies ferrées, des ponts, des ouvrages maritimes et les éléments qui les composent : chaussées, couches, bordures, rails, terrassements, appuis, pieux, etc. TakeoffDesk les lit et les transforme en quantités typées que vous pouvez chiffrer.
 
 ## Ouvrir le fichier
 
 1. Choisissez {{ui:Ouvrir des PDF}} dans le groupe {{ui:Fichier}}, ou appuyez sur {{key:Mod+O}}.
-2. Sélectionnez le fichier IFC (vous pouvez le sélectionner avec des PDF), ou déposez-le sur TakeoffCraft.
+2. Sélectionnez le fichier IFC (vous pouvez le sélectionner avec des PDF), ou déposez-le sur TakeoffDesk.
 
 Une quantité typée est créée pour chaque classe et type prédéfini, par exemple « Chaussée (souple) : comptage », et, lorsque le fichier les indique, « longueur » en m, « surface » en m² et « volume » en m³. La note de chaque poste indique combien d'éléments ont été comptés et combien n'indiquaient aucune quantité. Ouvrir un fichier plus récent du même nom met à jour ces quantités au lieu d'en ajouter.
 

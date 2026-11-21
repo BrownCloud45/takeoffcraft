@@ -5,7 +5,7 @@ keywords: tukuyin ang scale, basahin ang scale, scale mula sa text, lahat ng she
 from: 8f0148e6
 ---
 
-Bawat sheet ay may sariling scale. Itatakda mo ito, o hahayaang basahin ito ng TakeoffCraft mula sa text ng mga sheet (sa ibaba), at susuriin mo ito. Hangga't walang scale ang sheet, hindi ito masusukat ng {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} at {{ui:Cut-out}}. Gumagana nang walang scale ang {{ui:Count}} at {{ui:Auto count}}.
+Bawat sheet ay may sariling scale. Itatakda mo ito, o hahayaang basahin ito ng TakeoffDesk mula sa text ng mga sheet (sa ibaba), at susuriin mo ito. Hangga't walang scale ang sheet, hindi ito masusukat ng {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} at {{ui:Cut-out}}. Gumagana nang walang scale ang {{ui:Count}} at {{ui:Auto count}}.
 
 Ipinapakita ng listahan ng sheets ang scale ng bawat sheet, o **Walang scale**. Ganoon din ang sinasabi ng bar sa ilalim ng bukas na sheet.
 
@@ -23,7 +23,7 @@ Ang buong listahan ay nasa [Mga scale preset](topic:scale-presets).
 
 ## Basahin ang mga scale mula sa text ng mga sheet
 
-Karamihan sa mga drawing ay nagsasabi ng scale nila: `SCALE: 1/4" = 1'-0"` sa title block, `1:100` sa ilalim ng isang view. Mababasa ito ng TakeoffCraft at maitatakda nito ang bawat sheet nang sabay-sabay.
+Karamihan sa mga drawing ay nagsasabi ng scale nila: `SCALE: 1/4" = 1'-0"` sa title block, `1:100` sa ilalim ng isang view. Mababasa ito ng TakeoffDesk at maitatakda nito ang bawat sheet nang sabay-sabay.
 
 1. Buksan ang listahan ng {{ui:Preset}} at piliin ang {{ui:Mula sa text ng mga sheet…}} (nasa itaas).
 2. Ipinapakita ng listahan ang bawat sheet: ang scale nito ngayon, at kung ano ang sinasabi ng text nito — **Nagsasabing 1/4" = 1'-0"**, **Walang scale sa text nito**, o **Nagsasabing hindi naka-scale** (NTS).
@@ -44,7 +44,7 @@ Gamitin ito kapag walang naka-print na scale na mapagkakatiwalaan mo, na-resize 
 5. I-type ang totoong distansya sa **Real distance**, halimbawa `24'-6 1/2"`, `24.5` (decimal feet), `30"` o `7.5 m`. Tingnan ang [Pagpasok ng haba, rate at porsyento](topic:entry-formats).
 6. Piliin ang {{ui:Itakda ang scale}}.
    Ipinapakita ng status bar ang scale bilang "1" = (n)'", at kapag nasa loob ito ng 0.5% ng isang preset, sinasabi nito kung alin, halimbawa "na tumutugma sa 1/4" = 1'-0" (piliin ang preset na iyon para sa eksaktong scale)".
-   Bumabalik ang TakeoffCraft sa tool na {{ui:Piliin}}.
+   Bumabalik ang TakeoffDesk sa tool na {{ui:Piliin}}.
 
 Kapag tumugma ang calibration sa isang preset, ang pagpili sa preset na iyon ay nagbibigay ng eksaktong scale sa halip na isa na nakadepende sa kung saan ka nag-click.
 
@@ -61,11 +61,11 @@ Pindutin ang {{key:Esc}} para burahin ang check line.
 
 ## Baguhin ang scale
 
-Pumili ng ibang preset o mag-calibrate ulit. Kung may mga sukat na ang sheet, magtatanong ang TakeoffCraft: **Baguhin ang scale ng sheet na ito?** at sasabihin kung ilang sukat ang susukatin ulit. Piliin ang {{ui:Palitan ang scale}}. Muling susukatin ang bawat run at area sa sheet sa bagong scale. Maaari mo itong i-undo gamit ang {{key:Mod+Z}}.
+Pumili ng ibang preset o mag-calibrate ulit. Kung may mga sukat na ang sheet, magtatanong ang TakeoffDesk: **Baguhin ang scale ng sheet na ito?** at sasabihin kung ilang sukat ang susukatin ulit. Piliin ang {{ui:Palitan ang scale}}. Muling susukatin ang bawat run at area sa sheet sa bagong scale. Maaari mo itong i-undo gamit ang {{key:Mod+Z}}.
 
 ## Bakit hindi binibilang na zero ang mga sheet na walang scale
 
-Ang marka sa sheet na walang scale ay walang totoong haba o lawak. Hindi ito kailanman binibilang ng TakeoffCraft bilang zero, dahil tahimik nitong gagawing masyadong mababa ang estimate mo. Sa halip, ginagawa nito ang mga sumusunod:
+Ang marka sa sheet na walang scale ay walang totoong haba o lawak. Hindi ito kailanman binibilang ng TakeoffDesk bilang zero, dahil tahimik nitong gagawing masyadong mababa ang estimate mo. Sa halip, ginagawa nito ang mga sumusunod:
 
 - inilalabas ang mga marka sa mga total,
 - ipinapakita ang "+(n) hindi naka-scale" sa tabi ng item sa {{ui:Dami}},
@@ -77,5 +77,5 @@ Maaari itong mangyari kapag nagbukas ka ng project na hindi kailanman naitakda a
 ## Mga tip
 
 - Itakda ang scale ng bawat sheet na susukatin mo bago ka magsimula. Hanapin sa listahan ng sheets ang **Walang scale** para makita ang mga natitira. (Ang search box ay tumitingin sa pangalan ng sheet, hindi sa scale.)
-- Ang mga detalye at pinalaking plano sa parehong sheet ay kadalasang may ibang scale. Isang scale lang ang kayang hawakan ng TakeoffCraft bawat sheet; tingnan ang [Ano ang hindi pa nagagawa](topic:not-built-yet).
+- Ang mga detalye at pinalaking plano sa parehong sheet ay kadalasang may ibang scale. Isang scale lang ang kayang hawakan ng TakeoffDesk bawat sheet; tingnan ang [Ano ang hindi pa nagagawa](topic:not-built-yet).
 - Mga metric na drawing: pumili ng metric na preset gaya ng `1:100`, o mag-calibrate gamit ang metric na distansya gaya ng `6000 mm`.

@@ -28,7 +28,7 @@ El libro tiene cuatro hojas de cálculo, y los informes siguientes cuando aplica
 
 Con un [resumen de licitación](topic:bid-summary), la hoja Presupuesto también termina con sus recargos (cargas laborales, impuesto sobre ventas, gastos generales, utilidad, fianza y la licitación), como fórmulas activas.
 
-La hoja Presupuesto conserva **fórmulas activas**: cantidad con desperdicio, los importes de material y mano de obra redondeados, el total de cada fila y el total de la obra. Los programas de hojas de cálculo las recalculan, así que puede cambiar una tarifa o el desperdicio en la hoja y los totales se actualizan. Los números que calculó TakeoffCraft también se guardan en las celdas, y coinciden al centavo.
+La hoja Presupuesto conserva **fórmulas activas**: cantidad con desperdicio, los importes de material y mano de obra redondeados, el total de cada fila y el total de la obra. Los programas de hojas de cálculo las recalculan, así que puede cambiar una tarifa o el desperdicio en la hoja y los totales se actualizan. Los números que calculó TakeoffDesk también se guardan en las celdas, y coinciden al centavo.
 
 La columna de notas indica la fórmula de cada componente, los errores de fórmula, las marcas en hojas sin escala, el área de muros y el perímetro. Cuando algo se omite, la fila de total de la obra dice "Incompleto: vea las notas de arriba".
 
@@ -42,7 +42,7 @@ El CSV solo tiene el presupuesto; para cantidades por hoja y la lista de marcas,
 
 ## El presupuesto en Google Sheets
 
-Encima de la tabla de Cantidades, **Copiar para Google Sheets** pone el presupuesto en su portapapeles como texto separado por tabulaciones, con las mismas líneas que el CSV. En una hoja de Google, haga clic en la celda A1 y pegue. TakeoffCraft no inicia sesión en Google y no envía nada ahí.
+Encima de la tabla de Cantidades, **Copiar para Google Sheets** pone el presupuesto en su portapapeles como texto separado por tabulaciones, con las mismas líneas que el CSV. En una hoja de Google, haga clic en la celda A1 y pegue. TakeoffDesk no inicia sesión en Google y no envía nada ahí.
 
 ## Tarifas faltantes y la aprobación
 

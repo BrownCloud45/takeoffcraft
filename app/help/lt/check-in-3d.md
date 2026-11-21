@@ -46,7 +46,7 @@ Skaičiai 3D nesikeičia: sienos plotas yra tikslus jos ilgis, padaugintas iš a
 | {{ui:Sheet}} | Rodyti arba slėpti brėžinį ant žemės. |
 | Vaizdo kubas viršuje dešinėje | Spustelėkite veidą, kraštinę ar kampą, kad žiūrėtumėte iš ten; vilkite jį, kad suktumėte; vilkite jo kompaso žiedą, kad pasuktumėte; namelio mygtukas grįžta į {{ui:Iso}}. |
 
-Kampe rodomas vaizdo kubas, mažas X, Y, Z ašių ženklas arba nieko: pasirinkite {{ui:Settings}} skirtuke TakeoffCraft, skiltyje **Corner indicator** ([TakeoffCraft parametrai](topic:settings)). Plokščias lapas kampo indikatoriaus neturi.
+Kampe rodomas vaizdo kubas, mažas X, Y, Z ašių ženklas arba nieko: pasirinkite {{ui:Settings}} skirtuke TakeoffDesk, skiltyje **Corner indicator** ([TakeoffDesk parametrai](topic:settings)). Plokščias lapas kampo indikatoriaus neturi.
 
 :::touch
 Vienas pirštas sukasi; du pirštai spaudžia, kad priartintų, ir perstumia, kad slinktų. Bakstelėjimas pažymi.

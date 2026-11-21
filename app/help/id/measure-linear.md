@@ -30,7 +30,7 @@ Saat menggambar:
 - Menyeret menggeser lembar dan roda men-zoom, tanpa menambah titik.
 
 :::mac
-Pada trackpad Mac, klik kanan adalah klik dua jari (aktifkan klik sekunder di Pengaturan Sistem, di bawah Trackpad). TakeoffCraft hanya membaca tombol sekunder, sehingga Control-klik mungkin dianggap klik biasa dan menambahkan titik. Klik dua kali atau {{key:Enter}} selalu menyelesaikan.
+Pada trackpad Mac, klik kanan adalah klik dua jari (aktifkan klik sekunder di Pengaturan Sistem, di bawah Trackpad). TakeoffDesk hanya membaca tombol sekunder, sehingga Control-klik mungkin dianggap klik biasa dan menambahkan titik. Klik dua kali atau {{key:Enter}} selalu menyelesaikan.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Setelah titik pertama, Anda dapat mengetik ke mana titik berikutnya pergi, alih-
 | `@6',-4'` | 6' ke kanan dan 4' ke bawah dari titik terakhir |
 | `6',4'` (atau `#6',4'`) | 6' ke kanan dan 4' ke atas dari titik pertama rangkaian ini |
 
-Panjang diketik seperti di mana pun di TakeoffCraft ([Format entri](topic:entry-formats)): `12'-6 1/2"`, `12.5` (kaki), `30"`, `3.2 m`. "Kanan" dan "atas" sesuai dengan yang Anda lihat pada lembar, juga saat halaman PDF diputar.
+Panjang diketik seperti di mana pun di TakeoffDesk ([Format entri](topic:entry-formats)): `12'-6 1/2"`, `12.5` (kaki), `30"`, `3.2 m`. "Kanan" dan "atas" sesuai dengan yang Anda lihat pada lembar, juga saat halaman PDF diputar.
 
 {{key:Enter}} pada kotak kosong menyelesaikan rangkaian, seperti {{key:Enter}} pada lembar; {{key:Esc}} menutup kotak dan membiarkan rangkaian berjalan. Titik yang diketik mengikuti aturan yang sama dengan klik: pengurangan, busur, dan penutupan area semuanya berfungsi. Kotak yang sama berfungsi di {{ui:Luas}} dan {{ui:Lubang potong}}; setelah pusat lingkaran, kotak ini mengambil radius.
 

@@ -5,7 +5,7 @@ keywords: snap, osnap, snap objek, titik ujung, titik tengah, perpotongan, terde
 from: 41d29e9b
 ---
 
-Sebagian besar kumpulan denah adalah PDF vektor: dinding dan tepinya adalah garis nyata, bukan piksel. Saat Anda mengukur, TakeoffCraft menempelkan klik Anda ke garis-garis itu, sehingga sebuah run dimulai tepat di sudut dinding dan kalibrasi membaca dimensi yang digambar oleh drafter, bukan piksel yang Anda klik.
+Sebagian besar kumpulan denah adalah PDF vektor: dinding dan tepinya adalah garis nyata, bukan piksel. Saat Anda mengukur, TakeoffDesk menempelkan klik Anda ke garis-garis itu, sehingga sebuah run dimulai tepat di sudut dinding dan kalibrasi membaca dimensi yang digambar oleh drafter, bukan piksel yang Anda klik.
 
 Snap aktif saat Anda mulai. Nyalakan dan matikan dengan {{ui:Snap}} di bilah status atau {{key:F3}}; pengaturannya disimpan di peramban ini (juga ada di [Pengaturan](topic:settings)).
 

@@ -77,7 +77,7 @@ Jedan red po listu koji ima razmeru ili oznake.
 | List | Naziv lista |
 | Razmera | Naziv predloška, kalibrisana razmera ili „Nema razmere“ |
 | Kako | „Predložak“ ili „Kalibrisano na (rastojanje koje ste upisali)“ |
-| Stope po jedinici PDF-a | Tačan faktor razmere koji TakeoffCraft koristi |
+| Stope po jedinici PDF-a | Tačan faktor razmere koji TakeoffDesk koristi |
 
 ## Nazivi fajlova
 

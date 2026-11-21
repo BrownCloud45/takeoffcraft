@@ -5,7 +5,7 @@ keywords: grondwerk, ontgraving, ophoging, ontgraving en ophoging, grading, hoog
 from: a898e508
 ---
 
-TakeoffCraft meet wat op een blad is getekend. Grondwerk heeft een maaiveld nodig, daarom wordt het gedeeld met CivilCraft. CivilCraft bouwt oppervlakken uit punten, geeft ze een helling en berekent ontgraving, ophoging en transport.
+TakeoffDesk meet wat op een blad is getekend. Grondwerk heeft een maaiveld nodig, daarom wordt het gedeeld met CivilCraft. CivilCraft bouwt oppervlakken uit punten, geeft ze een helling en berekent ontgraving, ophoging en transport.
 
 ## Eenvoudige ontgraving hier
 
@@ -29,8 +29,8 @@ Punten van verschillende bladen delen geen coördinaten, daarom neemt de export 
 
 Het grondwerk van CivilCraft komt terug als twee items die u kunt prijzen:
 
-1. Geef in CivilCraft de plateaus en corridors een helling en kies daarna {{ui:Naar TakeoffCraft sturen}} onder **Grondwerk** ([Grondwerkvolumes](app:civilcraft/volumes)). Het slaat een hoeveelhedenbestand op (`.quantities.json`).
-2. Open het in TakeoffCraft met {{ui:Opmeting openen}}, of zet het op de app. Uw opmeting blijft open: het bestand voegt **Grondwerk: ontgraving** en **Grondwerk: ophoging** toe als [getypte hoeveelheden](topic:create-items#typed-quantities-no-drawing) in kubieke yards (CY) voor een project in voet, of in kubieke meter (m³) voor een project in meter. Het is één stap: {{key:Mod+Z}} maakt het ongedaan.
+1. Geef in CivilCraft de plateaus en corridors een helling en kies daarna {{ui:Naar TakeoffDesk sturen}} onder **Grondwerk** ([Grondwerkvolumes](app:civilcraft/volumes)). Het slaat een hoeveelhedenbestand op (`.quantities.json`).
+2. Open het in TakeoffDesk met {{ui:Opmeting openen}}, of zet het op de app. Uw opmeting blijft open: het bestand voegt **Grondwerk: ontgraving** en **Grondwerk: ophoging** toe als [getypte hoeveelheden](topic:create-items#typed-quantities-no-drawing) in kubieke yards (CY) voor een project in voet, of in kubieke meter (m³) voor een project in meter. Het is één stap: {{key:Mod+Z}} maakt het ongedaan.
 3. Hernoem ze, en stel verlies, tarieven en samenstellingen in zoals u wilt.
 
 Wanneer het ontwerp verandert, stuurt u opnieuw vanuit CivilCraft en opent u het nieuwe bestand: dezelfde twee items krijgen de nieuwe hoeveelheden. Hun namen, tarieven, verlies en samenstellingen blijven zoals u ze heeft ingesteld. Als de eenheid van het project is veranderd, meldt de statusbalk dat: controleer de tarieven. Een bestand uit een ander CivilCraft-project voegt zijn eigen twee items toe.

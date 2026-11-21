@@ -5,14 +5,14 @@ keywords: revízia, revidovaný, porovnanie, prekrytie, starý, nový, zmeny, do
 from: 3a1d9fe0
 ---
 
-Keď je list znovu vydaný, nemusíte ho znova odmerať. Otvorte starý PDF a nový, porovnajte oba listy a presuňte výkaz výmer. TakeoffCraft označí každú značku, kde sa výkres zmenil, takže tieto skontrolujete a ostatné ponecháte.
+Keď je list znovu vydaný, nemusíte ho znova odmerať. Otvorte starý PDF a nový, porovnajte oba listy a presuňte výkaz výmer. TakeoffDesk označí každú značku, kde sa výkres zmenil, takže tieto skontrolujete a ostatné ponecháte.
 
 ## Porovnanie
 
 1. Otvorte oba PDF: starú sadu a revidovanú ({{ui:Otvoriť plány}}; môžu byť v jednom súbore alebo vo viacerých).
 2. Zobrazte **nový** list.
 3. Vyberte {{ui:Porovnať}} na paneli listu pod výkresom.
-4. Vyberte starý list v zozname. TakeoffCraft navrhne list s rovnakým číslom v druhom PDF, alebo rovnakú stranu. Vyberte **Porovnať**.
+4. Vyberte starý list v zozname. TakeoffDesk navrhne list s rovnakým číslom v druhom PDF, alebo rovnakú stranu. Vyberte **Porovnať**.
 
 Starý výkres teraz leží nad novým v červenej farbe. Tam, kde sa oba zhodujú, červené čiary sedia na čiernych; kde sa líšia, vidíte len červené čiary (odstránené) a len čierne čiary (pridané). Pás dole na liste obsahuje kroky nižšie; {{key:Esc}} alebo {{ui:Zavrieť}} ukončí porovnávanie.
 
@@ -29,7 +29,7 @@ Revidované listy sú často vykreslené mierne mimo: posunuté na strane alebo 
 
 ## Zistite, čo sa zmenilo
 
-Vyberte **Nájsť zmeny**. TakeoffCraft porovná čiary oboch výkresov: čiary len na starom liste sa zobrazia červeno, čiary len na novom liste sa zobrazia modro a stavový riadok ich spočíta. Čiary posunuté o vlások (nové vykreslenie) sa nepočítajú ako zmeny.
+Vyberte **Nájsť zmeny**. TakeoffDesk porovná čiary oboch výkresov: čiary len na starom liste sa zobrazia červeno, čiary len na novom liste sa zobrazia modro a stavový riadok ich spočíta. Čiary posunuté o vlások (nové vykreslenie) sa nepočítajú ako zmeny.
 
 Prechádza aj každú značku na starom liste a počíta tie, ktoré sa nachádzajú tam, kde sa výkres zmenil:
 
@@ -40,7 +40,7 @@ Prechádza aj každú značku na starom liste a počíta tie, ktoré sa nachádz
 
 Vyberte **Presunúť výkaz sem**. Každá značka na starom liste sa presunie na nový cez zarovnanie, v jednom kroku späť. Tie vedľa zmeny sa označia: sú nakreslené s oranžovou aureolou a panel listu ukáže „(n) na kontrolu“.
 
-Ak nový list nemal mierku, prevezme mierku starého listu (upravenú, keď sa výkresy museli zmeniť kvôli zarovnaniu). Ak už mal inú mierku, TakeoffCraft sa najprv opýta: presunuté značky sa merajú v mierke nového listu.
+Ak nový list nemal mierku, prevezme mierku starého listu (upravenú, keď sa výkresy museli zmeniť kvôli zarovnaniu). Ak už mal inú mierku, TakeoffDesk sa najprv opýta: presunuté značky sa merajú v mierke nového listu.
 
 ## Kontrola označených značiek
 

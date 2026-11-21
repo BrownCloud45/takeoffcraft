@@ -1,6 +1,6 @@
 ---
 title: Szimbólum automatikus darabszámlálása
-summary: Jelöljön be egy szimbólumot, a TakeoffCraft megkeresi a többit ezen a lapon vagy az összes megnyitott lapon, a csúszkával átnézheti az egyezéseket, majd egy lépésben hozzáadhatja őket.
+summary: Jelöljön be egy szimbólumot, a TakeoffDesk megkeresi a többit ezen a lapon vagy az összes megnyitott lapon, a csúszkával átnézheti az egyezéseket, majd egy lépésben hozzáadhatja őket.
 keywords: bármilyen szög, elforgatott, elfordított, más méretarány, eltérő méretarány, automatikus darabszám, automatikus számlálás, szimbólumkeresés, szimbólumok keresése, minta, sablon, egyezés, észlelés, darabszámláló eszköz
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Az áttekintés hozzáadás nélküli elvetéséhez válassza a {{ui:Elvetés}} 
 
 ## Mit talál meg és mit nem
 
-A TakeoffCraft a rajzot pixelenként hasonlítja össze a kijelölt szimbólummal.
+A TakeoffDesk a rajzot pixelenként hasonlítja össze a kijelölt szimbólummal.
 
 - A szimbólumot 0°, 90°, 180° és 270°-os elforgatásban találja meg. Ha bármilyen szögben is meg akarja találni, jelölje be az automatikus darabszám sávban a {{ui:Bármilyen szög (lassabb)}} négyzetet még a keret megrajzolása előtt: 15°-onként próbálkozik, majd minden találatot másfél fokos pontosságra finomít. Ez körülbelül hatszor annyi ideig tart. A tükrözött szimbólumot nem találja meg (kivéve, ha a szimbólum tükrözve is ugyanúgy néz ki).
 - Ha az {{ui:Keresés az összes megnyitott lapon}} be van jelölve, a más méretarányú lapon a szimbólum ott érvényes méretében keres: az 1/8"-es alaprajzon léptékhelyesen rajzolt berendezés fele akkora, mint az 1/4"-es alaprajzon, és így is megtalálja. Az ilyen lapon a keret saját méretében is keres, a címkékhez és minden lapon azonos méretben nyomtatott szimbólumokhoz. Ehhez mindkét lapon kell méretarány; méretarány nélküli lapon csak a keret méretében keres.

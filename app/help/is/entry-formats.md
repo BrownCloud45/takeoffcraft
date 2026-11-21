@@ -1,6 +1,6 @@
 ---
 title: Innsláttur lengda, verðs og prósentu
-summary: Það sem þú getur slegið inn fyrir vegalengdir, hæðir, einingarverð og úrgangsprósentur, með dæmum og skilaboðum fyrir inntak sem TakeoffCraft getur ekki lesið.
+summary: Það sem þú getur slegið inn fyrir vegalengdir, hæðir, einingarverð og úrgangsprósentur, með dæmum og skilaboðum fyrir inntak sem TakeoffDesk getur ekki lesið.
 keywords: innsláttur, snið, fet og tommur, brot, aukafet, metrakerfi, metrar, millimetrar, verð, peningar, dollarar, prósenta, úrgangur, innslag
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Allt að tveimur aukastöfum, frá 0% til 1000%. Skilaboð: „Skrifaðu prósen
 ## Heiti og einingar
 
 - Heiti liða og íhluta: allt að 200 stafir.
-- {{ui:Eining}} íhlutar: hvaða texti sem er allt að 20 stafir, til dæmis `EA`, `sheets`, `CY`, `gal`. Hún er aðeins merki; TakeoffCraft breytir ekki einingunni.
+- {{ui:Eining}} íhlutar: hvaða texti sem er allt að 20 stafir, til dæmis `EA`, `sheets`, `CY`, `gal`. Hún er aðeins merki; TakeoffDesk breytir ekki einingunni.
 
 ## Formúlur
 

@@ -28,7 +28,7 @@ El llibre té quatre fulls de càlcul, i els informes següents quan correspongu
 
 Amb un [resum de l'oferta](topic:bid-summary), el full Estimate també acaba amb els seus recàrrecs (càrrega de mà d'obra, impost de vendes, despeses generals, benefici, fiança i l'oferta), com a fórmules vives.
 
-El full Estimate conserva les **fórmules vives**: la quantitat amb pèrdua, els imports arrodonits de material i de mà d'obra, el total de cada fila i el total de l'obra. Els programes de fulls de càlcul les recalculen, de manera que podeu canviar un preu unitari o la pèrdua al full i els totals se n'adapten. Els nombres que ha calculat TakeoffCraft també es guarden a les cel·les, i coincideixen fins al cèntim.
+El full Estimate conserva les **fórmules vives**: la quantitat amb pèrdua, els imports arrodonits de material i de mà d'obra, el total de cada fila i el total de l'obra. Els programes de fulls de càlcul les recalculen, de manera que podeu canviar un preu unitari o la pèrdua al full i els totals se n'adapten. Els nombres que ha calculat TakeoffDesk també es guarden a les cel·les, i coincideixen fins al cèntim.
 
 La columna de notes indica la fórmula de cada component, els errors de fórmula, les marques en fulls sense escala, l'àrea del mur i el perímetre. Quan es deixa alguna cosa fora, la fila del total de l'obra diu "Incomplet: vegeu les notes de dalt".
 
@@ -42,7 +42,7 @@ El CSV només conté el pressupost; per a les quantitats per full i la llista de
 
 ## El pressupost a Google Sheets
 
-Sobre la taula de Quantitats, **Copia per a Google Sheets** posa el pressupost al porta-retalls com a text separat per tabulacions, amb les mateixes línies que el CSV. A Google Sheets, feu clic a la cel·la A1 i enganxeu. TakeoffCraft no inicia la sessió a Google i no n'envia res.
+Sobre la taula de Quantitats, **Copia per a Google Sheets** posa el pressupost al porta-retalls com a text separat per tabulacions, amb les mateixes línies que el CSV. A Google Sheets, feu clic a la cel·la A1 i enganxeu. TakeoffDesk no inicia la sessió a Google i no n'envia res.
 
 ## Preus unitaris que falten i aprovació
 

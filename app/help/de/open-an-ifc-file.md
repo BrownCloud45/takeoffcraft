@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, Straße, Bahn, Brücke, Befestigung, Bordstein, 
 from: 6b08c2c4
 ---
 
-Eine IFC-4.3-Datei kann Straßen, Bahnen, Brücken, Wasserbauwerke und deren Teile enthalten: Befestigungen, Schichten, Bordsteine, Schienen, Erdarbeiten, Lager, Pfähle und mehr. TakeoffCraft liest sie und macht daraus typisierte Mengen, die Sie bepreisen können.
+Eine IFC-4.3-Datei kann Straßen, Bahnen, Brücken, Wasserbauwerke und deren Teile enthalten: Befestigungen, Schichten, Bordsteine, Schienen, Erdarbeiten, Lager, Pfähle und mehr. TakeoffDesk liest sie und macht daraus typisierte Mengen, die Sie bepreisen können.
 
 ## Die Datei öffnen
 
 1. Wählen Sie {{ui:PDFs öffnen}} in der Gruppe {{ui:Datei}} oder drücken Sie {{key:Mod+O}}.
-2. Wählen Sie die IFC-Datei (Sie können sie zusammen mit PDFs wählen) oder ziehen Sie sie auf TakeoffCraft.
+2. Wählen Sie die IFC-Datei (Sie können sie zusammen mit PDFs wählen) oder ziehen Sie sie auf TakeoffDesk.
 
 Für jede Klasse und jeden vordefinierten Typ wird eine typisierte Menge erstellt, zum Beispiel „Befestigung (flexibel): Zählen“, und, wenn die Datei sie angibt, „Länge“ in m, „Fläche“ in m² und „Volumen“ in m³. Die Notiz an jeder Position sagt, wie viele Elemente gezählt wurden und wie viele keine Menge angaben. Das Öffnen einer neueren Datei mit demselben Namen aktualisiert diese Mengen, statt weitere hinzuzufügen.
 

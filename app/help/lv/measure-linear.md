@@ -30,7 +30,7 @@ Zīmējot:
 - Vilkšana panorē lapu, un ritenis tālina, nepievienojot punktus.
 
 :::mac
-Uz Mac skārienpaliktņa labais klikšķis ir divu pirkstu klikšķis (ieslēdziet sekundāro klikšķi sistēmas iestatījumos sadaļā Trackpad). TakeoffCraft nolasa tikai sekundāro pogu, tāpēc Control-klikšķis var tikt uzskatīts par parastu klikšķi un pievienot punktu. Dubultklikšķis vai {{key:Enter}} vienmēr pabeidz.
+Uz Mac skārienpaliktņa labais klikšķis ir divu pirkstu klikšķis (ieslēdziet sekundāro klikšķi sistēmas iestatījumos sadaļā Trackpad). TakeoffDesk nolasa tikai sekundāro pogu, tāpēc Control-klikšķis var tikt uzskatīts par parastu klikšķi un pievienot punktu. Dubultklikšķis vai {{key:Enter}} vienmēr pabeidz.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Pēc pirmā punkta varat ierakstīt, kur atrodas nākamais, nevis noklikšķinā
 | `@6',-4'` | 6' pa labi un 4' lejup no pēdējā punkta |
 | `6',4'` (vai `#6',4'`) | 6' pa labi un 4' augšup no šīs ķēdes pirmā punkta |
 
-Garumi tiek ievadīti kā visur TakeoffCraft ([Ievades formāti](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pēdas), `30"`, `3.2 m`. "Pa labi" un "augšup" ir tā, kā redzat lapu, arī tad, kad PDF lapa ir pagriezta.
+Garumi tiek ievadīti kā visur TakeoffDesk ([Ievades formāti](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pēdas), `30"`, `3.2 m`. "Pa labi" un "augšup" ir tā, kā redzat lapu, arī tad, kad PDF lapa ir pagriezta.
 
 {{key:Enter}} uz tukša lodziņa pabeidz ķēdi, tāpat kā {{key:Enter}} uz lapas; {{key:Esc}} aizver lodziņu un ļauj ķēdei turpināties. Ievadītie punkti iet pa tiem pašiem noteikumiem kā klikšķi: atskaitījumi, loki un laukuma aizvēršana darbojas visi. Tas pats lodziņš darbojas {{ui:Laukums}} un {{ui:Izgriezums}}; pēc riņķa centra tas ņem rādiusu.
 

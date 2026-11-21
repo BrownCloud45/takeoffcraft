@@ -7,7 +7,7 @@
  *   onRun(id, input, result)   a host hook after every run (the P&ID add-on keeps the last inputs for PIDRELIEF)
  *   drawingItems()             → { items, toMetres } | null — the host's drawing, for "Sources from the drawing" (CH.17)
  *   actions                    host buttons: [{ id, label, show(calcId, last) → bool, run(last, parsedInput, calcId) }] (Plant adds "Add to the equipment table", "Put the zones in the model")
- * Buttons that only make sense for a result (site plan, TakeoffCraft pack) show only when the last result has the thing.
+ * Buttons that only make sense for a result (site plan, TakeoffDesk pack) show only when the last result has the thing.
  */
 import * as CALC from './calc.js';
 
@@ -93,7 +93,7 @@ export function mountCalc(el, { t, publish = () => {}, download = null, calc = C
   btn('calc.csv', () => { if (!last || !last.lines.length) return; dl(sel.value + '.csv', '\uFEFF' + calc.toCsv(last.lines), 'text/csv'); });
   const bSite = btn('calc.site', () => { if (last && last.geojson) dl(sel.value + '-site-plan.geojson', last.geojson, 'application/geo+json'); });                 // CH.16: zones for CivilCraft's site plan (Import)
   const bDxf = btn('calc.sitedxf', () => { if (last && last.dxf) dl(sel.value + '-site-plan.dxf', last.dxf, 'application/dxf'); });
-  const bTk = btn('calc.takeoff', () => { if (last && last.text && sel.value === 'cost') dl('process-estimate.ccpack.json', last.text, 'application/json'); });        // CH.23: TakeoffCraft pack
+  const bTk = btn('calc.takeoff', () => { if (last && last.text && sel.value === 'cost') dl('process-estimate.ccpack.json', last.text, 'application/json'); });        // CH.23: TakeoffDesk pack
   const bDraw = btn('calc.drawing', () => {                                                                                                                              // CH.17: sources from the drawing
     const got = drawingItems && drawingItems(); if (!got) return;
     let o = {}; try { o = JSON.parse(ta.value); } catch { /* start from the sample */ }

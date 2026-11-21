@@ -5,7 +5,7 @@ keywords: detectar escala, llegir escala, escala del text, tots els fulls, escal
 from: 8f0148e6
 ---
 
-Cada full té la seva pròpia escala. La definiu vosaltres, o deixeu que TakeoffCraft la llegeixi del text dels fulls (a continuació), i la comproveu. Mentre un full no en tingui, {{ui:Lineal}}, {{ui:Àrea}}, {{ui:Cercle}} i {{ui:Tall}} es neguen a mesurar-hi. {{ui:Recompte}} i {{ui:Recompte automàtic}} funcionen sense escala.
+Cada full té la seva pròpia escala. La definiu vosaltres, o deixeu que TakeoffDesk la llegeixi del text dels fulls (a continuació), i la comproveu. Mentre un full no en tingui, {{ui:Lineal}}, {{ui:Àrea}}, {{ui:Cercle}} i {{ui:Tall}} es neguen a mesurar-hi. {{ui:Recompte}} i {{ui:Recompte automàtic}} funcionen sense escala.
 
 La llista de fulls mostra l'escala de cada full, o **Sense escala**. La barra sota el full obert diu el mateix.
 
@@ -23,7 +23,7 @@ La llista completa és a [Predefinides d'escala](topic:scale-presets).
 
 ## Llegir les escales del text dels fulls
 
-La majoria de dibuixos diuen la seva escala: `SCALE: 1/4" = 1'-0"` al caixetí, `1:100` sota una vista. TakeoffCraft la pot llegir i definir tots els fulls alhora.
+La majoria de dibuixos diuen la seva escala: `SCALE: 1/4" = 1'-0"` al caixetí, `1:100` sota una vista. TakeoffDesk la pot llegir i definir tots els fulls alhora.
 
 1. Obriu la llista {{ui:Predefinida}} i trieu {{ui:Des del text dels fulls…}} (a dalt).
 2. La llista mostra cada full: la seva escala actual, i què diu el seu text — **Diu 1/4" = 1'-0"**, **Sense escala al text** o **Diu que no és a escala** (NTS).
@@ -44,7 +44,7 @@ Useu-ho quan no hi ha una escala impresa de confiança, el joc s'ha redimensiona
 5. Escriviu la distància real a **Distància real**, per exemple `24'-6 1/2"`, `24.5` (peus decimals), `30"` o `7.5 m`. Consulteu [Introducció de longituds, preus i percentatges](topic:entry-formats).
 6. Trieu {{ui:Estableix l'escala}}.
    La barra d'estat mostra l'escala com "1" = (n)'", i quan és a menys del 0.5% d'una predefinició diu quina, per exemple "que coincideix amb 1/4" = 1'-0" (trieu aquesta predefinició per a una escala exacta)".
-   TakeoffCraft torna a l'eina {{ui:Selecciona}}.
+   TakeoffDesk torna a l'eina {{ui:Selecciona}}.
 
 Quan la calibració coincideix amb una predefinició, triar-la dóna una escala exacta en lloc d'una que depengui d'on heu fet clic.
 
@@ -61,11 +61,11 @@ Premeu {{key:Esc}} per esborrar la línia de comprovació.
 
 ## Canviar una escala
 
-Trieu una altra predefinició o torneu a calibrar. Si el full ja té mesures, TakeoffCraft pregunta **Canviar l'escala d'aquest full?** i diu quantes mesures es tornaran a mesurar. Trieu {{ui:Canvia l'escala}}. Cada recorregut i àrea del full es torna a mesurar a la nova escala. Ho podeu desfer amb {{key:Mod+Z}}.
+Trieu una altra predefinició o torneu a calibrar. Si el full ja té mesures, TakeoffDesk pregunta **Canviar l'escala d'aquest full?** i diu quantes mesures es tornaran a mesurar. Trieu {{ui:Canvia l'escala}}. Cada recorregut i àrea del full es torna a mesurar a la nova escala. Ho podeu desfer amb {{key:Mod+Z}}.
 
 ## Per què els fulls sense escala no es compten com a zero
 
-Una marca en un full sense escala no té longitud ni àrea reals. TakeoffCraft mai no la compta com a zero, perquè això faria que el pressupost sortís baix sense avisar. En lloc d'això:
+Una marca en un full sense escala no té longitud ni àrea reals. TakeoffDesk mai no la compta com a zero, perquè això faria que el pressupost sortís baix sense avisar. En lloc d'això:
 
 - deixa aquestes marques fora dels totals,
 - mostra "+(n) sense escala" al costat de la partida a {{ui:Quantitats}},
@@ -77,5 +77,5 @@ Això pot passar quan obriu un projecte les escales del qual mai no s'han defini
 ## Consells
 
 - Definiu l'escala de cada full que vulgueu mesurar abans de començar. Cerqueu **Sense escala** a la llista de fulls per trobar els que falten (la caixa de cerca mira els noms dels fulls, no les escales).
-- Els detalls i les plantes ampliades del mateix full sovint fan servir una altra escala. TakeoffCraft té una sola escala per full; consulteu [Què encara no està implementat](topic:not-built-yet).
+- Els detalls i les plantes ampliades del mateix full sovint fan servir una altra escala. TakeoffDesk té una sola escala per full; consulteu [Què encara no està implementat](topic:not-built-yet).
 - Dibuixos mètrics: trieu una predefinició mètrica com `1:100`, o calibreu amb una distància mètrica com `6000 mm`.

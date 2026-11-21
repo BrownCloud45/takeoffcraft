@@ -20,9 +20,9 @@ In **Quantities › By item**, a line that has a quantity and no material or lab
 2. The dialog states the total you are signing and lists the lines with no rate. Type your name and, if you like, your role.
 3. Click **Sign off**. The bar now reads "Signed off by … on …" with the total. Save the takeoff to keep it in the file.
 
-The sign-off belongs to the figures you signed. Any later change to a quantity, a rate or a line clears it, and TakeoffCraft tells you. Undo brings back the estimate you signed, and its sign-off with it. Renaming a line is not a change of a figure. **Remove the sign-off** takes it away.
+The sign-off belongs to the figures you signed. Any later change to a quantity, a rate or a line clears it, and TakeoffDesk tells you. Undo brings back the estimate you signed, and its sign-off with it. Renaming a line is not a change of a figure. **Remove the sign-off** takes it away.
 
-A takeoff file that was edited outside TakeoffCraft after it was signed opens without the sign-off, with a note saying so. The exported estimate (CSV and XLSX) names the sign-off under the totals.
+A takeoff file that was edited outside TakeoffDesk after it was signed opens without the sign-off, with a note saying so. The exported estimate (CSV and XLSX) names the sign-off under the totals.
 
 Only a person signs. An AI assistant can read whether the estimate is signed off and which rates are missing; it has no way to sign.
 

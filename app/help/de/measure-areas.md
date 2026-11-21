@@ -41,7 +41,7 @@ Sind die Räume als geschlossene Wände gezeichnet, nimmt {{ui:Raum}} ({{key:B}}
 2. Wählen Sie {{ui:Raum}} in der Gruppe {{ui:Ermittlung}} oder drücken Sie {{key:B}}.
 3. Klicken Sie in einen Raum, auf die freie Bodenfläche (nicht auf eine Linie oder Beschriftung).
 
-TakeoffCraft liest die Linien des Blatts, findet den Bereich um den Klick herum und umreißt ihn entlang der inneren Wandflächen, als Fläche der aktuellen Position. Türöffnungen bis **4'-0"** gelten als geschlossen, sodass der Umriss gerade über die Tür läuft; **Einstellungen › TakeoffCraft › Raumfüllung schließt Öffnungen bis** ändert diese Breite (3'-0" bis 8'-0"). Raumnamen, Möbel und Einbauten im Raum erzeugen keine Löcher.
+TakeoffDesk liest die Linien des Blatts, findet den Bereich um den Klick herum und umreißt ihn entlang der inneren Wandflächen, als Fläche der aktuellen Position. Türöffnungen bis **4'-0"** gelten als geschlossen, sodass der Umriss gerade über die Tür läuft; **Einstellungen › TakeoffDesk › Raumfüllung schließt Öffnungen bis** ändert diese Breite (3'-0" bis 8'-0"). Raumnamen, Möbel und Einbauten im Raum erzeugen keine Löcher.
 
 Die Füllung lehnt ab und nennt den Grund, wenn:
 
@@ -62,7 +62,7 @@ Ist eine Tür breiter als die Einstellung, läuft die Füllung in den nächsten 
 
 Für ein rundes Loch wählen Sie unter **Ausgewählte Markierung** {{ui:Runde Aussparung hinzufügen}}, klicken auf seinen Mittelpunkt und dann auf einen Punkt an seinem Rand.
 
-Eine Aussparung muss ganz innerhalb der Fläche liegen und darf keine andere Aussparung überlappen. Sonst lehnt TakeoffCraft sie ab: „Eine Aussparung muss ganz innerhalb der Fläche liegen.“ oder „Aussparungen dürfen sich nicht überlappen.“
+Eine Aussparung muss ganz innerhalb der Fläche liegen und darf keine andere Aussparung überlappen. Sonst lehnt TakeoffDesk sie ab: „Eine Aussparung muss ganz innerhalb der Fläche liegen.“ oder „Aussparungen dürfen sich nicht überlappen.“
 
 Um das letzte Loch wieder zu entfernen, wählen Sie {{ui:Letzte Aussparung entfernen}}.
 
@@ -76,7 +76,7 @@ Eine Aussparung gehört zu einer Flächenmarkierung. Eine **Abzugsfläche** wird
 
 Jede Flächenmarkierung einer angehakten Position auf demselben Blatt verliert den Teil, den eine Abzugsfläche abdeckt: die ganze Abzugsfläche, wenn sie innen liegt, nur der überlappende Teil, wenn sie die Kante kreuzt, und nichts innerhalb einer Aussparung. Das Bedienfeld der gewählten Fläche zeigt **Abzugsflächen** und die verbleibende Fläche. Menge, Berechnungsformeln der Kalkulationsbausteine, Kosten, 3D-Prüfansicht und Export nutzen alle die verbleibende Fläche; die Notizen der Kalkulation sagen, wie viel die Abzugsflächen abgezogen haben. Die Abzugsflächen-Position selbst zählt ihre eigene Fläche (lassen Sie ihre Kosten auf null, wenn Sie sie nicht bepreisen).
 
-Eine Abzugsfläche muss **konvex** sein: ein Rechteck, ein Kreis oder ein Umriss ohne einwärts gerichtete Ecke. TakeoffCraft lehnt eine nicht konvexe Abzugsfläche ab; zeichnen Sie einen L-förmigen Schacht als zwei Abzugsflächen. Abzugsflächen können keine Aussparungen haben, und zwei sich überlappende Abzugsflächen zählen beide.
+Eine Abzugsfläche muss **konvex** sein: ein Rechteck, ein Kreis oder ein Umriss ohne einwärts gerichtete Ecke. TakeoffDesk lehnt eine nicht konvexe Abzugsfläche ab; zeichnen Sie einen L-förmigen Schacht als zwei Abzugsflächen. Abzugsflächen können keine Aussparungen haben, und zwei sich überlappende Abzugsflächen zählen beide.
 
 Der Umfang (`P`) ändert sich nicht: Abzugsflächen nehmen nur Fläche weg.
 

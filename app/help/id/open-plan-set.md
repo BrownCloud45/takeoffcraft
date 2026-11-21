@@ -5,7 +5,7 @@ keywords: buka, set gambar, beberapa pdf, banyak file, lembar, gambar, label hal
 from: ed434468
 ---
 
-Set gambar sering terdiri dari beberapa PDF: arsitektur, struktur, mekanikal. TakeoffCraft membukanya berdampingan sebagai satu daftar lembar, dan satu takeoff bisa mencakup semuanya.
+Set gambar sering terdiri dari beberapa PDF: arsitektur, struktur, mekanikal. TakeoffDesk membukanya berdampingan sebagai satu daftar lembar, dan satu takeoff bisa mencakup semuanya.
 
 ## Buka PDF
 
@@ -14,14 +14,14 @@ Set gambar sering terdiri dari beberapa PDF: arsitektur, struktur, mekanikal. Ta
 3. Pilih Buka.
    Pesan "Membuka (nama)…" muncul selama setiap file dibaca. Lalu setiap halaman muncul di bawah {{ui:Sheets}} dan halaman pertama dari PDF baru pertama dibuka.
 
-Anda juga bisa menyeret PDF dari {{pick:mac=Finder|windows=File Explorer|linux=pengelola file Anda}} dan melepaskannya di mana saja di TakeoffCraft. Bingkai "Lepaskan PDF, gambar DWG atau DXF, atau .takeoff.json" muncul saat Anda menyeret.
+Anda juga bisa menyeret PDF dari {{pick:mac=Finder|windows=File Explorer|linux=pengelola file Anda}} dan melepaskannya di mana saja di TakeoffDesk. Bingkai "Lepaskan PDF, gambar DWG atau DXF, atau .takeoff.json" muncul saat Anda menyeret.
 
 Untuk menambahkan PDF nanti, lakukan lagi hal yang sama. PDF yang sudah terbuka akan dilewati.
 
 Layar awal juga mencantumkan PDF dan takeoff yang baru Anda buka, di peramban yang mengizinkan halaman membuka file lagi (Chrome dan Edge). Klik salah satunya untuk membukanya; peramban mungkin meminta izin terlebih dahulu. Lihat [File Anda](common:your-files).
 
 :::note
-Tidak ada yang diunggah. Peramban membaca PDF di komputer Anda, dan PDF itu hilang dari TakeoffCraft saat Anda menutup tab atau memilih {{ui:New}}.
+Tidak ada yang diunggah. Peramban membaca PDF di komputer Anda, dan PDF itu hilang dari TakeoffDesk saat Anda menutup tab atau memilih {{ui:New}}.
 :::
 
 ## Gambar di samping PDF
@@ -30,7 +30,7 @@ Tidak ada yang diunggah. Peramban membaca PDF di komputer Anda, dan PDF itu hila
 
 ## PDF yang diserahkan dari aplikasi lain
 
-Aplikasi lain dalam rangkaian ini dapat menyerahkan PDF yang sedang dibukanya: ia membuka TakeoffCraft di tab baru, dan PDF terbuka di sana seolah-olah Anda telah menyeretnya. Bilah status menulis "Dibuka (nama), diserahkan dari (aplikasi). File asli tidak berubah." Tidak ada yang diunggah; file melewati penyimpanan peramban ini dan hilang darinya begitu terbuka.
+Aplikasi lain dalam rangkaian ini dapat menyerahkan PDF yang sedang dibukanya: ia membuka TakeoffDesk di tab baru, dan PDF terbuka di sana seolah-olah Anda telah menyeretnya. Bilah status menulis "Dibuka (nama), diserahkan dari (aplikasi). File asli tidak berubah." Tidak ada yang diunggah; file melewati penyimpanan peramban ini dan hilang darinya begitu terbuka.
 
 Jika bilah status menyatakan PDF "tidak sampai", tab terlalu lama menunggu atau PDF sudah dibuka di tab lain: bukalah dengan {{ui:Open plans}}.
 

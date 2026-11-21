@@ -14,7 +14,7 @@ Sanash elementi narsalarni sanaydi: eshiklar, yorituvchi asboblar, rozetkalar, s
 3. Varaqdagi har birini bosing.
    Har bir bosish elementning rangida nuqta qoʻyadi va elementning soni bittaga oshadi.
 4. Keyingi varaqqa oʻting ({{key:PageDown}}) va sanashda davom eting. Vosita {{ui:Count}} da qoladi.
-5. Tugatganingizda {{key:Esc}} ni bosing. TakeoffCraft {{ui:Select}} ga qaytadi.
+5. Tugatganingizda {{key:Esc}} ni bosing. TakeoffDesk {{ui:Select}} ga qaytadi.
 
 Sanash vaqtida sudrash hali ham koʻrinishni siljitadi va gʻildirak hali ham kattalashtiradi, shuning uchun nuqta qoʻymasdan varaq atrofida harakatlanishingiz mumkin.
 
@@ -30,7 +30,7 @@ Sanash elementini bosing, shunda uning nuqtalari har bir varaqda ajratib koʻrsa
 
 ## Nuqta oʻlchami, ekranda va PDF da
 
-Nuqtalar qanchalik kattalashtirilmasin, ekranda bir xil oʻlchamda qoladi. Oʻzgartirish uchun {{ui:Settings}} ni oching, TakeoffCraft yorligʻini tanlang va **Sanash belgisi oʻlchami** ni tanlang: Juda kichik, Kichik, Oʻrta (standart) yoki Katta.
+Nuqtalar qanchalik kattalashtirilmasin, ekranda bir xil oʻlchamda qoladi. Oʻzgartirish uchun {{ui:Settings}} ni oching, TakeoffDesk yorligʻini tanlang va **Sanash belgisi oʻlchami** ni tanlang: Juda kichik, Kichik, Oʻrta (standart) yoki Katta.
 
 PDF eksporti ({{ui:Export}} › belgilangan PDF) har bir nuqtani qogʻozda varaq oʻlchamidan qatʼi nazar bir xil oʻlchamda chizadi: 100% da koʻrsatilgan PDF ni koʻruvchi nuqtalarni ekrandagidek katta koʻradi. Agar varaqdagi nuqtalar hali ham bir-biriga tegsa, eksport oʻsha varaqning nuqtalarini kichikroq qiladi, shunda ularning har biri oʻqilishi mumkin boʻladi.
 

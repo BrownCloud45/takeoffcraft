@@ -1,11 +1,11 @@
 ---
 title: Probleemoplossing
-summary: Symptomen, oorzaken en oplossingen voor de meldingen en verrassingen die u in TakeoffCraft kunt tegenkomen, geciteerd zoals de app ze toont.
+summary: Symptomen, oorzaken en oplossingen voor de meldingen en verrassingen die u in TakeoffDesk kunt tegenkomen, geciteerd zoals de app ze toont.
 keywords: problemen, fouten, werkt niet, oplossen, help, geweigerd, meet niet, geen schaal, ontbrekende markeringen, export mislukt, offline, aanraken
 from: cd319c9b
 ---
 
-TakeoffCraft legt de meeste weigeringen uit in de statusbalk onder aan het venster. Zoek het bericht hieronder.
+TakeoffDesk legt de meeste weigeringen uit in de statusbalk onder aan het venster. Zoek het bericht hieronder.
 
 ## Bestanden openen
 
@@ -15,8 +15,8 @@ TakeoffCraft legt de meeste weigeringen uit in de statusbalk onder aan het venst
 | (naam) is met een wachtwoord beveiligd. Open een onbeveiligde kopie. | Voor de pdf is een wachtwoord nodig om te openen. | Vraag om een onbeveiligde kopie, of verwijder het wachtwoord in een pdf-programma dat u vertrouwt. |
 | (naam) kon niet als pdf worden gelezen (…) | Het bestand is beschadigd of is niet echt een pdf. | Download het opnieuw, of sla het opnieuw op vanuit het programma dat het heeft gemaakt. |
 | (naam) is al geopend. | Dezelfde pdf (zelfde inhoud) is geopend. | Niets te doen. |
-| TakeoffCraft opent pdf's en .takeoff.json-projecten. Overgeslagen: … | Andere bestandstypen zijn weggelaten. | Zet tekeningen eerst om naar pdf. |
-| Er gebeurt niets wanneer ik bestanden loslaat | De bestanden zijn buiten het browservenster losgelaten, of de browser heeft de pdf in een nieuw tabblad geopend. | Laat ze los op de TakeoffCraft-pagina zelf; het kader "Sleep pdf's of een .takeoff.json hierheen" laat zien wanneer het werkt. |
+| TakeoffDesk opent pdf's en .takeoff.json-projecten. Overgeslagen: … | Andere bestandstypen zijn weggelaten. | Zet tekeningen eerst om naar pdf. |
+| Er gebeurt niets wanneer ik bestanden loslaat | De bestanden zijn buiten het browservenster losgelaten, of de browser heeft de pdf in een nieuw tabblad geopend. | Laat ze los op de TakeoffDesk-pagina zelf; het kader "Sleep pdf's of een .takeoff.json hierheen" laat zien wanneer het werkt. |
 | Een grote set openen duurt even | Elke pdf wordt volledig gelezen om er een vingerafdruk van te maken. | Wacht tot het bericht "Openen (naam)…" verdwijnt. Miniaturen vullen zich als u scrollt. |
 
 ## Meten
@@ -47,7 +47,7 @@ TakeoffCraft legt de meeste weigeringen uit in de statusbalk onder aan het venst
 | Bericht of symptoom | Oorzaak | Oplossing |
 |---|---|---|
 | Kies twee punten die verder uit elkaar liggen. | De ijkpunten liggen bijna op elkaar. | Ijk op een langere maat. |
-| Een melding in het ijkdialoogvenster, zoals "Die afstand kon niet worden gelezen" | De afstand staat in een vorm die TakeoffCraft niet kan lezen. | Zie [Invoer van lengte, tarief en percentage](topic:entry-formats). |
+| Een melding in het ijkdialoogvenster, zoals "Die afstand kon niet worden gelezen" | De afstand staat in een vorm die TakeoffDesk niet kan lezen. | Zie [Invoer van lengte, tarief en percentage](topic:entry-formats). |
 | Dit blad heeft nog geen schaal, dus er valt niets te controleren. Ijk het, of kies een voorinstelling. | {{ui:Controleren}} op een blad zonder schaal. | Stel eerst een schaal in. |
 | De lijst {{ui:Voorinstelling}} is grijs | Er is geen blad geopend. | Open een pdf. |
 
@@ -86,8 +86,8 @@ TakeoffCraft legt de meeste weigeringen uit in de statusbalk onder aan het venst
 | Deze pdf is met een wachtwoord beveiligd of versleuteld, dus er kan geen gemarkeerde kopie worden geschreven. … | De pdf is versleuteld. | Exporteer in plaats daarvan {{ui:XLSX}}, of gebruik een niet-versleutelde kopie van de pdf (die heeft dan een eigen opmeting nodig, omdat het een ander bestand is). |
 | De gemarkeerde pdf kon niet worden geschreven: … | Vaak: offline, en de app is niet voor offline gebruik opgeslagen, dus de pdf-schrijver ontbreekt. | Ga online en kies opnieuw {{ui:Gemarkeerde pdf}}. Om dat te voorkomen, kiest u {{ui:Opslaan voor offline gebruik}} en wacht u op {{ui:Klaar voor offline gebruik}}. |
 | Slechts één gemarkeerde pdf is gedownload | De browser blokkeerde meerdere downloads tegelijk. | Sta meerdere downloads voor deze site toe, en exporteer opnieuw. |
-| (bestand) is geen TakeoffCraft-project (het is geen geldige JSON). / Dit is geen TakeoffCraft-projectbestand. | Verkeerd bestand, of een beschadigd bestand. | Kies het `.takeoff.json`-bestand. |
-| Dit project is opgeslagen met een nieuwere TakeoffCraft. Open het daar. | Het bestand komt van een nieuwere versie. | Open het in de nieuwere versie. |
+| (bestand) is geen TakeoffDesk-project (het is geen geldige JSON). / Dit is geen TakeoffDesk-projectbestand. | Verkeerd bestand, of een beschadigd bestand. | Kies het `.takeoff.json`-bestand. |
+| Dit project is opgeslagen met een nieuwere TakeoffDesk. Open het daar. | Het bestand komt van een nieuwere versie. | Open het in de nieuwere versie. |
 | (n) markeringen waren beschadigd en zijn weggelaten. | Een deel van het bestand was beschadigd of met de hand bewerkt. | De rest is geopend. Teken de ontbrekende markeringen opnieuw, of open een oudere kopie. |
 | Markeringen ontbreken na opnieuw openen | De pdf's zijn niet geopend, of een ervan is gewijzigd. | Zie [Een opmeting opslaan en opnieuw openen](topic:save-and-reopen#when-a-pdf-has-changed). |
 | De browser vraagt "Site verlaten?" | Er zijn niet-opgeslagen wijzigingen. | Blijf op de pagina en sla op met {{key:Mod+S}}. |

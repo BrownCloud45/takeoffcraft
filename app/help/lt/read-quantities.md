@@ -24,7 +24,7 @@ Pasirinkite {{ui:By item}} (numatytasis). Kiekviena pozicija turi eilutę, o kie
 
 Paskutinėje eilutėje **Bendra suma** sudedami medžiagos, darbo ir iš viso stulpeliai. Ta pati suma rodoma dešinėje lentelės antraštės pusėje.
 
-Įveskite į atliekų ar įkainio langelį ir paspauskite {{key:Enter}} arba spustelėkite šalia, kad pritaikytumėte. Reikšmė, kurios TakeoffCraft nepavyksta perskaityti, apibrėžiama raudonai, o būsenos juostoje paaiškinama priežastis, pavyzdžiui: „Įveskite sumą, pavyzdžiui, 12.50.“
+Įveskite į atliekų ar įkainio langelį ir paspauskite {{key:Enter}} arba spustelėkite šalia, kad pritaikytumėte. Reikšmė, kurios TakeoffDesk nepavyksta perskaityti, apibrėžiama raudonai, o būsenos juostoje paaiškinama priežastis, pavyzdžiui: „Įveskite sumą, pavyzdžiui, 12.50.“
 
 Spustelėkite pozicijos eilutę, kad paryškintumėte jos žymes visuose lapuose ir pereitumėte į lapą, kuriame jų yra (tas pats, kas spustelėjus ją po {{ui:Items}}).
 

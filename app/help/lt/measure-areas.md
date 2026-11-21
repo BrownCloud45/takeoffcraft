@@ -41,7 +41,7 @@ Kai patalpos nubrėžtos kaip uždarytos sienos, {{ui:Kambarys}} ({{key:B}}) vie
 2. Grupėje {{ui:Kiekiai}} pasirinkite {{ui:Kambarys}}, arba paspauskite {{key:B}}.
 3. Spustelėkite patalpos viduje, atvirose grindyse (ne ant linijos ar žymės).
 
-TakeoffCraft nuskaito lapo linijas, randa erdvę aplink spustelėjimą ir nubraižo kontūrą išilgai sienų vidinių paviršių kaip dabartinės pozicijos plotą. Durų angos iki **4'-0"** traktuojamos kaip uždaros, todėl kontūras eina tiesiai per angą; **Parametrai › TakeoffCraft › Patalpos užpildymas uždaro angas iki** keičia šį plotį (nuo 3'-0" iki 8'-0"). Patalpos pavadinimai, baldai ir įranga patalpoje skylių nedaro.
+TakeoffDesk nuskaito lapo linijas, randa erdvę aplink spustelėjimą ir nubraižo kontūrą išilgai sienų vidinių paviršių kaip dabartinės pozicijos plotą. Durų angos iki **4'-0"** traktuojamos kaip uždaros, todėl kontūras eina tiesiai per angą; **Parametrai › TakeoffDesk › Patalpos užpildymas uždaro angas iki** keičia šį plotį (nuo 3'-0" iki 8'-0"). Patalpos pavadinimai, baldai ir įranga patalpoje skylių nedaro.
 
 Ji atsisako ir pasako priežastį, kai:
 
@@ -62,7 +62,7 @@ Kai durys platesnės už nustatymą, užpildymas persiduoda į kitą patalpą ir
 
 Apvaliai skylei pasirinkite {{ui:Pridėti apvalią išpjovą}} skiltyje **Pasirinkta žymė**, spustelėkite jos centrą, tada tašką ant krašto.
 
-Išpjova turi būti visiškai plote ir neturi persidengti su kita išpjova. Priešingu atveju TakeoffCraft jos nepriima: „Išpjova turi būti visiškai plote.“ arba „Išpjovos negali persidengti tarpusavyje.“
+Išpjova turi būti visiškai plote ir neturi persidengti su kita išpjova. Priešingu atveju TakeoffDesk jos nepriima: „Išpjova turi būti visiškai plote.“ arba „Išpjovos negali persidengti tarpusavyje.“
 
 Norėdami pašalinti paskutinę skylę, pasirinkite {{ui:Pašalinti paskutinę išpjovą}}.
 
@@ -76,7 +76,7 @@ Išpjova priklauso vienai plotų žymei. **Išskaita** nubraižoma vieną kartą
 
 Kiekviena pažymėtos pozicijos plotų žymė tame pačiame lape praranda dalį, kurią dengia išskaita: visą išskaitą, kai ji yra viduje, tik persidengiančią dalį, kai ji kerta kraštą, ir nieko, kas yra išpjovos viduje. Pasirinkto ploto skydelyje rodoma **Išskaitos** ir likęs plotas. Pozicijos kiekis, jos surinkimo formulės, kainos, 3D tikrinimo vaizdas ir eksportas visi naudoja likusį plotą; sąmatos pastabose nurodoma, kiek išskaitos atėmė. Pati išskaitos pozicija skaičiuoja savo plotą (jei jos nekainuojate, kainas palikite nulines).
 
-Išskaita turi būti **iškila**: stačiakampis, apskritimas ar bet koks kontūras be vidinio kampo. TakeoffCraft neleidžia nubrėžti ne iškilos; L formos šachtą nubrėžkite kaip dvi išskaitas. Išskaitos negali turėti išpjovų, o dvi tarpusavyje persidengiančios išskaitos skaičiuojamos abi.
+Išskaita turi būti **iškila**: stačiakampis, apskritimas ar bet koks kontūras be vidinio kampo. TakeoffDesk neleidžia nubrėžti ne iškilos; L formos šachtą nubrėžkite kaip dvi išskaitas. Išskaitos negali turėti išpjovų, o dvi tarpusavyje persidengiančios išskaitos skaičiuojamos abi.
 
 Perimetras (`P`) nesikeičia: išskaitos atima tik plotą.
 

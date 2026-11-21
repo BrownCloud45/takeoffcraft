@@ -5,22 +5,22 @@ keywords: 功能表樣式, 功能表, 功能表列, 功能區, 功能區索引�
 from: f01f0d6d
 ---
 
-TakeoffCraft 的指令無論從哪裡叫出，功能皆相同。**功能表樣式**只決定它們在螢幕上的位置、名稱，以及由哪些快速鍵執行。請在{{ui:Settings}}（{{key:Mod+,}}）› {{ui:TakeoffCraft}} › {{ui:Menus, keys and mouse}} 中選擇；變更會立即生效，且此瀏覽器會記住該設定。
+TakeoffDesk 的指令無論從哪裡叫出，功能皆相同。**功能表樣式**只決定它們在螢幕上的位置、名稱，以及由哪些快速鍵執行。請在{{ui:Settings}}（{{key:Mod+,}}）› {{ui:TakeoffDesk}} › {{ui:Menus, keys and mouse}} 中選擇；變更會立即生效，且此瀏覽器會記住該設定。
 
 ## 三種樣式
 
 | 樣式 | 內容 |
 |---|---|
-| {{ui:TakeoffCraft}} | TakeoffCraft 自有的工具列：檔案、匯出、比例、數量計算、編輯與檢視，並提供單字母工具鍵。此為起始樣式。 |
+| {{ui:TakeoffDesk}} | TakeoffDesk 自有的工具列：檔案、匯出、比例、數量計算、編輯與檢視，並提供單字母工具鍵。此為起始樣式。 |
 | {{ui:Takeoff desk}} | 功能表列（檔案、編輯、檢視、比例、數量計算、項目、標記、匯出），下方為一列數量計算工具，與一般螢幕量測程式的配置方式相同。在此列中，項目稱為條件。快速鍵相同，另加{{key:N}}用於新增項目。比例預設值會移至圖紙列，位於圖紙比例旁。 |
 | {{ui:Takeoff ribbon}} | 以工作命名的功能區索引標籤：{{ui:Takeoff}}（量測、形狀、比例、從圖紙、條件）、{{ui:Edit}}、{{ui:View}}、{{ui:Markup}}與{{ui:Estimate}}（活頁簿、已標記 PDF、投標）。另有{{ui:File}}功能表，以及用於開啟、儲存、復原與取消復原的快速列。日常使用的工具會以大圖示顯示，其相鄰工具則以小圖示堆疊排列。快速鍵相同；比例預設值會移至圖紙列。 |
 
-三種樣式都保留 TakeoffCraft 的快速鍵：{{key:V}}選取、{{key:L}}線性、{{key:A}}面積、{{key:O}}圓形、{{key:B}}房間、{{key:P}}路徑（選取PDF線條）、{{key:X}}切除區、{{key:C}}計數、{{key:S}}自動計數、{{key:K}}校正、{{key:D}}檢查、{{key:R}}圓弧模式、{{key:E}}扣除模式、{{key:F}}與{{key:W}}符合視窗、{{key:3}}為3D檢查檢視、{{key:F3}}鎖點，以及{{key:Mod+Z}}、{{key:Mod+Y}}、{{key:Mod+S}}、{{key:Mod+O}}、{{key:Mod+C}}、{{key:Mod+X}}、{{key:Mod+V}}、{{key:Mod+D}}、{{key:Mod+A}}。
+三種樣式都保留 TakeoffDesk 的快速鍵：{{key:V}}選取、{{key:L}}線性、{{key:A}}面積、{{key:O}}圓形、{{key:B}}房間、{{key:P}}路徑（選取PDF線條）、{{key:X}}切除區、{{key:C}}計數、{{key:S}}自動計數、{{key:K}}校正、{{key:D}}檢查、{{key:R}}圓弧模式、{{key:E}}扣除模式、{{key:F}}與{{key:W}}符合視窗、{{key:3}}為3D檢查檢視、{{key:F3}}鎖點，以及{{key:Mod+Z}}、{{key:Mod+Y}}、{{key:Mod+S}}、{{key:Mod+O}}、{{key:Mod+C}}、{{key:Mod+X}}、{{key:Mod+V}}、{{key:Mod+D}}、{{key:Mod+A}}。
 
 圖紙列的工具（便利貼、雲形、螢光筆、比較、3D）會等到開啟 PDF 後才可使用；若在此之前選取，狀態列會說明此點。
 
 :::tip
-屬於 TakeoffCraft 原生配置的快速鍵，若在你的樣式中被指定給其他指令，則不會有任何作用，狀態列會說明其指令已移至何處（「在我的快速鍵中，計數為Ctrl+Alt+C」）。{{key:Delete}}、{{key:Esc}}、{{key:Enter}}、{{key:Tab}}、{{key:Space}}與方向鍵一律保留其原本功能。在繪製線段或輪廓、貼上或檢視自動計數時，字母與已輸入長度的數字仍歸屬於圖紙。
+屬於 TakeoffDesk 原生配置的快速鍵，若在你的樣式中被指定給其他指令，則不會有任何作用，狀態列會說明其指令已移至何處（「在我的快速鍵中，計數為Ctrl+Alt+C」）。{{key:Delete}}、{{key:Esc}}、{{key:Enter}}、{{key:Tab}}、{{key:Space}}與方向鍵一律保留其原本功能。在繪製線段或輪廓、貼上或檢視自動計數時，字母與已輸入長度的數字仍歸屬於圖紙。
 :::
 
 ## 自訂
@@ -41,12 +41,12 @@ TakeoffCraft 的指令無論從哪裡叫出，功能皆相同。**功能表樣�
 
 ## 攜帶設定
 
-{{ui:Export}}會將正在使用的樣式儲存為小型 `.ccinput.json` 檔案；{{ui:Import…}}可從其他電腦或同事處加入一個樣式檔。匯入的檔案只能指向 TakeoffCraft 自有的指令：其中任何其他內容都會被略過，並計入狀態列。{{ui:Delete this style}}可移除自行建立的樣式。
+{{ui:Export}}會將正在使用的樣式儲存為小型 `.ccinput.json` 檔案；{{ui:Import…}}可從其他電腦或同事處加入一個樣式檔。匯入的檔案只能指向 TakeoffDesk 自有的指令：其中任何其他內容都會被略過，並計入狀態列。{{ui:Delete this style}}可移除自行建立的樣式。
 
 :::note
-這些設定會保留在此瀏覽器中。樣式卡片下方的{{ui:Use this style in every app}}會讓每個應用程式都以對應的樣式開啟（其自有工具列、功能表列或功能區），並保留你在每個應用程式中所做的變更。TakeoffCraft 沒有含指令列的樣式：若為每個應用程式都選擇此樣式，TakeoffCraft 仍會保留其自有工具列。
+這些設定會保留在此瀏覽器中。樣式卡片下方的{{ui:Use this style in every app}}會讓每個應用程式都以對應的樣式開啟（其自有工具列、功能表列或功能區），並保留你在每個應用程式中所做的變更。TakeoffDesk 沒有含指令列的樣式：若為每個應用程式都選擇此樣式，TakeoffDesk 仍會保留其自有工具列。
 :::
 
-{{ui:Takeoff ribbon}}也是{{ui:Ribbon and project browser}}版面的功能區（{{ui:Settings}} › {{ui:Global}} › {{ui:Layout}}）：參見[TakeoffCraft 畫面](topic:workspace)。
+{{ui:Takeoff ribbon}}也是{{ui:Ribbon and project browser}}版面的功能區（{{ui:Settings}} › {{ui:Global}} › {{ui:Layout}}）：參見[TakeoffDesk 畫面](topic:workspace)。
 
-相關：[鍵盤與滑鼠](topic:keyboard) · [TakeoffCraft 設定](topic:settings) · [從其他數量計算軟體轉換](topic:coming-from)
+相關：[鍵盤與滑鼠](topic:keyboard) · [TakeoffDesk 設定](topic:settings) · [從其他數量計算軟體轉換](topic:coming-from)

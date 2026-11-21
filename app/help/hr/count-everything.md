@@ -1,6 +1,6 @@
 ---
 title: Brojanje svega u skupu nacrta
-summary: Označite jednom legendu simbola i TakeoffCraft broji svaki simbol iz nje na svakom otvorenom listu u jednom prolazu. Svako brojanje je poveznica na svoj list, a pregledavate prije dodavanja.
+summary: Označite jednom legendu simbola i TakeoffDesk broji svaki simbol iz nje na svakom otvorenom listu u jednom prolazu. Svako brojanje je poveznica na svoj list, a pregledavate prije dodavanja.
 keywords: broji sve, legenda, legenda simbola, cijeli skup, svaki list, svi listovi, svaka vrata, svaka instalacija, uređaji, popis, simboli, autobrojanje, skup nacrta, 200 listova, razina podudaranja, sličan izgled
 from: adc99744
 ---

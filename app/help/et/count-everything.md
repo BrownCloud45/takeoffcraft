@@ -1,6 +1,6 @@
 ---
 title: Loenda kogu komplekt
-summary: Märgi sümbolite legend üks kord ära ja TakeoffCraft loeb selles olevad sümbolid igal avatud lehel ühe käiguga. Iga loendus on link oma lehele ning enne lisamist vaatad selle üle.
+summary: Märgi sümbolite legend üks kord ära ja TakeoffDesk loeb selles olevad sümbolid igal avatud lehel ühe käiguga. Iga loendus on link oma lehele ning enne lisamist vaatad selle üle.
 keywords: loenda kõik, legend, sümbolite legend, terve komplekt, iga leht, kõik lehed, iga uks, iga armatuur, seadmed, sümbolid, automaatne loendus, plaanikomplekt, 200 lehte, sobivustase, sarnane
 from: adc99744
 ---

@@ -5,7 +5,7 @@ keywords: accrochage, accrochage aux objets, extrémité, milieu, intersection, 
 from: 41d29e9b
 ---
 
-La plupart des jeux de plans sont des PDF vectoriels : leurs murs et leurs contours sont de vraies lignes, pas des pixels. Pendant que vous mesurez, TakeoffCraft cale vos clics sur ces lignes : un tronçon commence exactement au coin d'un mur, et un étalonnage lit la cote que le dessinateur a tracée, et non le pixel sur lequel vous cliquez.
+La plupart des jeux de plans sont des PDF vectoriels : leurs murs et leurs contours sont de vraies lignes, pas des pixels. Pendant que vous mesurez, TakeoffDesk cale vos clics sur ces lignes : un tronçon commence exactement au coin d'un mur, et un étalonnage lit la cote que le dessinateur a tracée, et non le pixel sur lequel vous cliquez.
 
 L'{{ui:Accrochage}} est activé au démarrage. Activez-le ou désactivez-le avec {{ui:Accrochage}} dans la barre d'état ou avec {{key:F3}} ; ce réglage est conservé dans ce navigateur (il se trouve aussi dans [Paramètres](topic:settings)).
 

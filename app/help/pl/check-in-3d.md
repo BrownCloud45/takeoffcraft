@@ -46,7 +46,7 @@ Liczby w 3D się nie zmieniają: pole ściany to jej dokładna długość razy w
 | {{ui:Arkusz}} | Pokazuje lub ukrywa rysunek na podłożu. |
 | Kostka widoku w prawym górnym rogu | Kliknij ścianę, krawędź lub narożnik, aby spojrzeć stamtąd; przeciągnij, aby obracać; przeciągnij jej pierścień kompasu, aby obrócić widok; przycisk z domkiem wraca do {{ui:Izometria}}. |
 
-W rogu pokazuje się kostka widoku, mała ikona osi X, Y, Z albo nic: wybierz w {{ui:Ustawienia}}, na karcie TakeoffCraft, w sekcji **Wskaźnik narożnika** ([Ustawienia TakeoffCraft](topic:settings)). Płaski arkusz nie ma wskaźnika narożnika.
+W rogu pokazuje się kostka widoku, mała ikona osi X, Y, Z albo nic: wybierz w {{ui:Ustawienia}}, na karcie TakeoffDesk, w sekcji **Wskaźnik narożnika** ([Ustawienia TakeoffDesk](topic:settings)). Płaski arkusz nie ma wskaźnika narożnika.
 
 :::touch
 Jeden palec obraca; dwa palce szczypią, aby przybliżyć, i przesuwają, aby przesunąć widok. Stuknięcie zaznacza.

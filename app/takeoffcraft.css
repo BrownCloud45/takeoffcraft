@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0 */
-/* TakeoffCraft — toolbar | sheets · page · items | quantities | status bar.
+/* TakeoffDesk — toolbar | sheets · page · items | quantities | status bar.
  * Tokens only (paper/model aware); the app's layer colour (ochre) is var(--layer). rem sizes,
  * px only for hairlines. No shadows, no gradients. */
 
@@ -450,7 +450,7 @@ tr.is-alt td { font-style: italic; }
 .tc-note-st { color: var(--ink-2); font-size: .75rem; }
 .tc-note-st.is-open { color: #D9480F; font-weight: 600; }
 
-/* ---- A phone (0.5 Track PH; the layout is the shell's assets/js/app-phone.js + app-shell.css § Phones). TakeoffCraft's
+/* ---- A phone (0.5 Track PH; the layout is the shell's assets/js/app-phone.js + app-shell.css § Phones). TakeoffDesk's
    own: the Preset select keeps the toolbar one row (its label goes to screen readers only); the sheet bar is the second
    toolbar line (manifest "phone" options). ---- */
 html.cc-compact .tc-preset { flex-direction: row; align-items: center; }

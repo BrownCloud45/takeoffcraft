@@ -39,4 +39,4 @@ Cada elemento tamén leva o seu número CSI MasterFormat, como `09 21 16`.
 
 {{ui:Exportar como paquete…}} na biblioteca gárdaa como ficheiro de paquete (`.ccpack.json`) que calquera pode engadir con {{ui:Abrir un ficheiro de paquete…}}. Por defecto deixa fóra os elementos que viñan de paquetes que engadiches, e non leva tarifas. Marca {{ui:Incluír as miñas tarifas como tarifas de mostra}} para enviar tamén as túas: van etiquetadas coa rexión e a data que indiques, e quen engade o paquete decide se as usa.
 
-Os ficheiros de paquete son datos simples, nunca programas. TakeoffCraft comproba cada parte antes de usala e deixa fóra o que non pode ler.
+Os ficheiros de paquete son datos simples, nunca programas. TakeoffDesk comproba cada parte antes de usala e deixa fóra o que non pode ler.

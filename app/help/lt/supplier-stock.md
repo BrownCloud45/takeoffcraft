@@ -1,6 +1,6 @@
 ---
 title: Tikrinti tiekėjo atsargas ir pristatymo terminus
-summary: Pridėkite tiekėjo atsargų sąrašą (CSV ar skaičiuoklės failą), o TakeoffCraft patikrina, ko reikia kiekių skaičiavimui, įskaitant atliekas: ar pakanka sandėlyje ir kiek tenka laukti. Trūkumai ir ilgi laukimai rodomi Problemų skydelyje.
+summary: Pridėkite tiekėjo atsargų sąrašą (CSV ar skaičiuoklės failą), o TakeoffDesk patikrina, ko reikia kiekių skaičiavimui, įskaitant atliekas: ar pakanka sandėlyje ir kiek tenka laukti. Trūkumai ir ilgi laukimai rodomi Problemų skydelyje.
 keywords: tiekėjas, atsargos, yra sandėlyje, pristatymo laikas, prieinamumas, trūkumas, užsakyta iš naujo, užsakymų sąrašas, csv, sku, pardavėjas, medžiagos, tiekimas, problemos
 from: f11160fb
 ---

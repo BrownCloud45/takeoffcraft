@@ -32,11 +32,11 @@ Geplakte merke gaan in die tenderarea wat bo-aan die {{ui:Items}}-paneel gekies 
 
 {{key:Mod+Shift+V}} ({{ui:Plak op dieselfde plek}}) plaas die kopie presies op dieselfde plek op die oop blad, volgens sy posisie op die bladsy. Gebruik dit vir 'n tipiese vloer: meet vlak 2 op, kopieer, open vlak 3, plak op dieselfde plek.
 
-Plak op dieselfde plek benodig 'n blad van **dieselfde grootte** as dié waarvan jy gekopieer het. Op 'n blad van 'n ander grootte sê TakeoffCraft dit en plak niks; gebruik {{ui:Plak}} en klik eerder. Op die blad waarvan jy gekopieer het, val die kopie bo-op die oorspronklikes.
+Plak op dieselfde plek benodig 'n blad van **dieselfde grootte** as dié waarvan jy gekopieer het. Op 'n blad van 'n ander grootte sê TakeoffDesk dit en plak niks; gebruik {{ui:Plak}} en klik eerder. Op die blad waarvan jy gekopieer het, val die kopie bo-op die oorspronklikes.
 
 ## Die skaal moet ooreenstem
 
-Lengtes en oppervlaktes hang af van die blad se skaal. 'n Lope wat 10' gemeet word by 1/4" = 1'-0" sou 20' meet op 'n blad by 1/8" = 1'-0". Daarom plak TakeoffCraft lope en oppervlaktes net op 'n blad met **dieselfde skaal** as die blad waarvandaan hulle kom, en sê duidelik wanneer dit nie so is nie:
+Lengtes en oppervlaktes hang af van die blad se skaal. 'n Lope wat 10' gemeet word by 1/4" = 1'-0" sou 20' meet op 'n blad by 1/8" = 1'-0". Daarom plak TakeoffDesk lope en oppervlaktes net op 'n blad met **dieselfde skaal** as die blad waarvandaan hulle kom, en sê duidelik wanneer dit nie so is nie:
 
 - Die oop blad het nog geen skaal nie: gee dit eers een ([Stel die skaal](topic:set-the-scale)), en plak dan.
 - Die oop blad het 'n ander skaal: die boodskap noem albei skale. Plak op 'n blad met dieselfde skaal.
@@ -59,7 +59,7 @@ Die itemredigeerder (onder **Items**) eindig met:
 - {{ui:Dupliseer item}}: voeg dadelik 'n kopie by, genoem "(naam) (kopie)".
 
 :::tip
-Die kopie bly op hierdie rekenaar: dit word in hierdie oortjie en in die blaaier se berging gehou, sodat 'n ander TakeoffCraft-oortjie dit kan plak. Niks word opgelaai nie, en die stelselklembord word nie gebruik nie, so jy kan nie merke in ander programme plak nie.
+Die kopie bly op hierdie rekenaar: dit word in hierdie oortjie en in die blaaier se berging gehou, sodat 'n ander TakeoffDesk-oortjie dit kan plak. Niks word opgelaai nie, en die stelselklembord word nie gebruik nie, so jy kan nie merke in ander programme plak nie.
 :::
 
 :::note

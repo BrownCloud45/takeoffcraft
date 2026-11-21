@@ -39,4 +39,4 @@ from: d3c036be
 
 程式庫中的{{ui:Export as pack…}}會將其儲存為套件檔（`.ccpack.json`），任何人都可以用{{ui:Open a pack file…}}加入。預設會排除來自你所加入套件的項目，且不包含單價。勾選{{ui:Include my rates as sample rates}}即可一併傳送你的單價：單價會標示你所填寫的地區與日期，由加入套件者決定是否採用。
 
-套件檔是純資料，不是程式。TakeoffCraft 在使用前會檢查每一部分，並略過無法讀取的內容。
+套件檔是純資料，不是程式。TakeoffDesk 在使用前會檢查每一部分，並略過無法讀取的內容。

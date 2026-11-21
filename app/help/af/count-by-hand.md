@@ -14,7 +14,7 @@ from: 594f2980
 3. Klik op elkeen op die blad.
    Elke klik plaas 'n stip in die item se kleur, en die item se telling styg met een.
 4. Beweeg na die volgende blad ({{key:PageDown}}) en hou aan tel. Die instrument bly op {{ui:Tel}}.
-5. Druk {{key:Esc}} wanneer jy klaar is. TakeoffCraft gaan terug na {{ui:Kies}}.
+5. Druk {{key:Esc}} wanneer jy klaar is. TakeoffDesk gaan terug na {{ui:Kies}}.
 
 Sleep beweeg steeds die blad en die wiel zoem steeds terwyl jy tel, so jy kan om die blad beweeg sonder om stippe by te voeg.
 
@@ -30,7 +30,7 @@ Klik op die telitem om sy stippe op elke blad te belig. Die bladlys wys dan hoev
 
 ## Stipgrootte, op die skerm en in die PDF
 
-Die stippe behou een grootte op die skerm, hoe ver jy ook zoem. Om dit te verander, maak {{ui:Instellings}} oop, die TakeoffCraft-oortjie, en kies **Telmerkgrootte**: Baie klein, Klein, Medium (die verstek) of Groot.
+Die stippe behou een grootte op die skerm, hoe ver jy ook zoem. Om dit te verander, maak {{ui:Instellings}} oop, die TakeoffDesk-oortjie, en kies **Telmerkgrootte**: Baie klein, Klein, Medium (die verstek) of Groot.
 
 Die PDF-uitvoer ({{ui:Uitvoer}} › die gemerkte PDF) teken elke stip op dieselfde grootte op papier, ongeag die bladgrootte: 'n kyker wat die PDF op 100% wys, wys die stippe so groot as wat hulle op die skerm is. Waar die stippe op 'n blad steeds sou raak, maak die uitvoer daardie blad se stippe kleiner sodat elkeen leesbaar is.
 

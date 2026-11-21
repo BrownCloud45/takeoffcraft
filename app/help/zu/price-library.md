@@ -13,7 +13,7 @@ Vula ngo-{{ui:Umtapo}} phezulu kwephaneli {{ui:Izinto}}.
 
 - {{ui:Ngenisa i-CSV…}} ifunda ishidi lezibalo elilondolozwe njenge-CSV (bona amakholomu angezansi). Izinto ezinegama nohlobo olufanayo esele emtapweni ziyashintshwa; ezinye ziyengezwa. Imigqa engafundeki iyadlulwa, futhi ithi yiyiphi nokuthi kungani.
 - {{ui:Engeza izinto zalo kubalo}} ikopisha yonke into yokubala okuvulekile emtapweni, namazinga nenhlanganisela yayo (hhayi amamaki ayo).
-- Isilinganiso se-CSV ethunyelwe yi-TakeoffCraft (bona [Thumela isilinganiso](topic:export-estimate)) siyangeniswa njengoba sinjalo: intengo yokubala kwakamuva iba yisisekelo sokubala okulandelayo.
+- Isilinganiso se-CSV ethunyelwe yi-TakeoffDesk (bona [Thumela isilinganiso](topic:export-estimate)) siyangeniswa njengoba sinjalo: intengo yokubala kwakamuva iba yisisekelo sokubala okulandelayo.
 - {{ui:Amaphakhi wokuhweba…}} engeza izinhlanganisela mahhala zomsebenzi wokuhweba, njengodonga lwe-drywall, ugesi noma ukhonkolo, ngaphandle kwentengo. Bona [Amaphakhi wokuhweba](topic:trade-packs).
 
 {{ui:Thumela i-CSV}} ilondoloza umtapo njenge-CSV, ukuze ugcine ikhophi, uwuhlele ku-spreadsheet noma uwunikeze umngani. {{ui:Sula}} uwusula (chofoza kabili).

@@ -19,9 +19,9 @@ Athugaðu að sérhver lína kostnaðaráætlunarinnar sé verðlögð, og settu
 2. Glugginn segir hvaða heildarsumma þú ert að staðfesta og listar línurnar án einingarverðs. Sláðu inn nafnið þitt og, ef þú vilt, hlutverk þitt.
 3. Smelltu á **Staðfesta**. Stikan segir nú „Staðfest af … þann …“ ásamt heildarsummunni. Vistaðu magntökuna til að geyma hana í skránni.
 
-Staðfestingin tilheyrir tölunum sem þú staðfestir. Sérhver síðari breyting á magni, einingarverði eða línu hreinsar hana, og TakeoffCraft segir þér frá því. Afturkalla skilar kostnaðaráætluninni sem þú staðfestir, og staðfestingunni með henni. Að endurnefna línu er ekki breyting á tölu. **Fjarlægja staðfestinguna** tekur hana burt.
+Staðfestingin tilheyrir tölunum sem þú staðfestir. Sérhver síðari breyting á magni, einingarverði eða línu hreinsar hana, og TakeoffDesk segir þér frá því. Afturkalla skilar kostnaðaráætluninni sem þú staðfestir, og staðfestingunni með henni. Að endurnefna línu er ekki breyting á tölu. **Fjarlægja staðfestinguna** tekur hana burt.
 
-Skrá magntöku sem var breytt utan TakeoffCraft eftir að hún var staðfest opnast án staðfestingarinnar, með athugasemd þess efnis. Útflutt kostnaðaráætlun (CSV og XLSX) nefnir staðfestinguna undir samtölunum.
+Skrá magntöku sem var breytt utan TakeoffDesk eftir að hún var staðfest opnast án staðfestingarinnar, með athugasemd þess efnis. Útflutt kostnaðaráætlun (CSV og XLSX) nefnir staðfestinguna undir samtölunum.
 
 Aðeins manneskja staðfestir. Gervigreindaraðstoðarmaður getur lesið hvort kostnaðaráætlunin sé staðfest og hvaða einingarverð vanti; hann hefur enga leið til að staðfesta.
 

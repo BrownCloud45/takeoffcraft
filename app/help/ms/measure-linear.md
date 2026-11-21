@@ -30,7 +30,7 @@ Semasa melukis:
 - Menyeret untuk pan lembaran dan roda mengezum, tanpa menambah titik.
 
 :::mac
-Pada pad sentuh Mac, klik kanan ialah klik dua jari (hidupkan klik sekunder dalam Tetapan Sistem, di bawah Pad sentuh). TakeoffCraft hanya membaca butang sekunder, jadi klik Control mungkin diambil sebagai klik biasa dan menambah titik. Klik dua kali atau {{key:Enter}} sentiasa menamatkan.
+Pada pad sentuh Mac, klik kanan ialah klik dua jari (hidupkan klik sekunder dalam Tetapan Sistem, di bawah Pad sentuh). TakeoffDesk hanya membaca butang sekunder, jadi klik Control mungkin diambil sebagai klik biasa dan menambah titik. Klik dua kali atau {{key:Enter}} sentiasa menamatkan.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Selepas titik pertama, anda boleh menaip di mana titik seterusnya pergi dan buka
 | `@6',-4'` | 6' ke kanan dan 4' ke bawah dari titik terakhir |
 | `6',4'` (atau `#6',4'`) | 6' ke kanan dan 4' ke atas dari titik pertama larian ini |
 
-Panjang ditaip seperti di mana-mana dalam TakeoffCraft ([Format input](topic:entry-formats)): `12'-6 1/2"`, `12.5` (kaki), `30"`, `3.2 m`. "Kanan" dan "atas" mengikut apa yang anda lihat pada lembaran, juga apabila halaman PDF diputar.
+Panjang ditaip seperti di mana-mana dalam TakeoffDesk ([Format input](topic:entry-formats)): `12'-6 1/2"`, `12.5` (kaki), `30"`, `3.2 m`. "Kanan" dan "atas" mengikut apa yang anda lihat pada lembaran, juga apabila halaman PDF diputar.
 
 {{key:Enter}} pada kotak kosong menamatkan larian, sama seperti {{key:Enter}} pada lembaran; {{key:Esc}} menutup kotak dan membiarkan larian diteruskan. Titik yang ditaip melalui peraturan yang sama seperti klik: tolakan, lengkok dan penutupan kawasan semuanya berfungsi. Kotak yang sama berfungsi dalam {{ui:Luas}} dan {{ui:Potongan}}; selepas pusat bulatan ia mengambil jejari.
 

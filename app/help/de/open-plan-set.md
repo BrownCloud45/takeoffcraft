@@ -5,7 +5,7 @@ keywords: öffnen, Planmappe, mehrere PDFs, mehrere Dateien, Blätter, Zeichnung
 from: ed434468
 ---
 
-Eine Planmappe besteht oft aus mehreren PDFs: Architektur, Tragwerk, Haustechnik. TakeoffCraft öffnet sie nebeneinander als eine Liste von Blättern, und eine Mengenermittlung kann alle abdecken.
+Eine Planmappe besteht oft aus mehreren PDFs: Architektur, Tragwerk, Haustechnik. TakeoffDesk öffnet sie nebeneinander als eine Liste von Blättern, und eine Mengenermittlung kann alle abdecken.
 
 ## Die PDFs öffnen
 
@@ -14,14 +14,14 @@ Eine Planmappe besteht oft aus mehreren PDFs: Architektur, Tragwerk, Haustechnik
 3. Öffnen wählen.
    Während jede Datei gelesen wird, erscheint die Meldung „(Name) wird geöffnet…“. Danach erscheint jede Seite unter {{ui:Blätter}}, und die erste Seite der ersten neuen PDF wird geöffnet.
 
-Sie können auch PDFs aus {{pick:mac=Finder|windows=Explorer|linux=Ihrem Dateimanager}} ziehen und irgendwo auf TakeoffCraft ablegen. Während Sie ziehen, erscheint der Rahmen „PDFs, DWG- oder DXF-Zeichnungen oder eine .takeoff.json hier ablegen“.
+Sie können auch PDFs aus {{pick:mac=Finder|windows=Explorer|linux=Ihrem Dateimanager}} ziehen und irgendwo auf TakeoffDesk ablegen. Während Sie ziehen, erscheint der Rahmen „PDFs, DWG- oder DXF-Zeichnungen oder eine .takeoff.json hier ablegen“.
 
 Um später weitere PDFs hinzuzufügen, gehen Sie genauso vor. PDFs, die bereits geöffnet sind, werden übersprungen.
 
 Der Startbildschirm listet außerdem die PDFs und Mengenermittlungen auf, die Sie zuletzt geöffnet haben, in Browsern, die einer Seite erlauben, eine Datei erneut zu öffnen (Chrome und Edge). Klicken Sie auf eine, um sie zu öffnen; der Browser fragt möglicherweise zuerst nach der Erlaubnis. Siehe [Ihre Dateien](common:your-files).
 
 :::note
-Nichts wird hochgeladen. Der Browser liest die PDFs auf Ihrem Computer, und sie sind aus TakeoffCraft entfernt, sobald Sie den Tab schließen oder {{ui:Neu}} wählen.
+Nichts wird hochgeladen. Der Browser liest die PDFs auf Ihrem Computer, und sie sind aus TakeoffDesk entfernt, sobald Sie den Tab schließen oder {{ui:Neu}} wählen.
 :::
 
 ## Zeichnungen neben PDFs
@@ -30,7 +30,7 @@ Nichts wird hochgeladen. Der Browser liest die PDFs auf Ihrem Computer, und sie 
 
 ## Eine PDF, die aus einer anderen App übergeben wird
 
-Eine andere App der Reihe kann Ihnen die PDF übergeben, die sie geöffnet hat: Sie öffnet TakeoffCraft in einem neuen Tab, und die PDF öffnet sich dort, als hätten Sie sie abgelegt. Die Statusleiste sagt „(Name) geöffnet, übergeben von (App). Die Originaldatei ist unverändert.“ Nichts wird hochgeladen; die Datei läuft durch den eigenen Speicher dieses Browsers und ist daraus entfernt, sobald sie sich geöffnet hat.
+Eine andere App der Reihe kann Ihnen die PDF übergeben, die sie geöffnet hat: Sie öffnet TakeoffDesk in einem neuen Tab, und die PDF öffnet sich dort, als hätten Sie sie abgelegt. Die Statusleiste sagt „(Name) geöffnet, übergeben von (App). Die Originaldatei ist unverändert.“ Nichts wird hochgeladen; die Datei läuft durch den eigenen Speicher dieses Browsers und ist daraus entfernt, sobald sie sich geöffnet hat.
 
 Sagt die Statusleiste, die PDF sei „nicht angekommen“, hat der Tab zu lange gewartet oder die PDF war bereits in einem anderen Tab geöffnet: Öffnen Sie sie mit {{ui:PDFs öffnen}}.
 

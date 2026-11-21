@@ -30,7 +30,7 @@ Habang nagdo-drawing:
 - Ang pag-drag ay nagpa-pan sa sheet at ang wheel ay nag-zoom, nang hindi nagdadagdag ng point.
 
 :::mac
-Sa Mac trackpad, ang right-click ay two-finger click (i-on ang secondary click sa System Settings, sa ilalim ng Trackpad). Binabasa ng TakeoffCraft ang secondary button lamang, kaya maaaring tanggapin ang Control-click bilang simpleng click at magdagdag ng point. Laging tinatapos ng double-click o {{key:Enter}}.
+Sa Mac trackpad, ang right-click ay two-finger click (i-on ang secondary click sa System Settings, sa ilalim ng Trackpad). Binabasa ng TakeoffDesk ang secondary button lamang, kaya maaaring tanggapin ang Control-click bilang simpleng click at magdagdag ng point. Laging tinatapos ng double-click o {{key:Enter}}.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Pagkatapos ng unang point, maaari mong i-type kung saan pupunta ang susunod sa h
 | `@6',-4'` | 6' pakanan at 4' pababa mula sa huling point |
 | `6',4'` (o `#6',4'`) | 6' pakanan at 4' pataas mula sa unang point ng run na ito |
 
-Ang haba ay tina-type gaya ng saanman sa TakeoffCraft ([Mga format ng entry](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. Ang "pakanan" at "pataas" ay ayon sa nakikita mo sa sheet, kahit naka-rotate ang PDF page.
+Ang haba ay tina-type gaya ng saanman sa TakeoffDesk ([Mga format ng entry](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. Ang "pakanan" at "pataas" ay ayon sa nakikita mo sa sheet, kahit naka-rotate ang PDF page.
 
 Ang {{key:Enter}} sa walang lamang kahon ay tinatapos ang run, gaya ng {{key:Enter}} sa sheet; isinasara ng {{key:Esc}} ang kahon at itinutuloy ang run. Ang mga na-type na point ay sumusunod sa parehong patakaran ng click: deduct, arc at pagsasara ng area, lahat ay gumagana. Pareho ang kahon sa {{ui:Area}} at {{ui:Cut-out}}; pagkatapos ng center ng bilog, radius ang kinukuha nito.
 

@@ -1,6 +1,6 @@
 ---
 title: Klaviatuur ja hiir
-summary: Iga klahv, hiire-, puuteplaadi- ja puuteekraani toiming TakeoffCraftis, rühmitatult, platvormide erinevustega.
+summary: Iga klahv, hiire-, puuteplaadi- ja puuteekraani toiming TakeoffDeskis, rühmitatult, platvormide erinevustega.
 keywords: klahvid, otseteed, kiirklahvid, klaviatuur, hiir, puuteplaat, puuteekraan, nihuta, suumi, ratas, parem-klõps, topeltklõps, tühik, shift, kopeeri, lõika, kleebi, dubleeri, vali kõik
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Vaata [Kontrolli koguste arvestust 3D-s](topic:check-in-3d).
 | Klahv | Mida see teeb |
 |---|---|
 | {{key:F1}} | Ava või sulge abipaneel (ja rakenduse ribal {{ui:Abi}} nupp). See töötab igas tööriistas, isegi kui sisestad väljale. |
-| {{key:Esc}} | Sulge abipaneel. Selle otsingukastis tühjendab esimene Esc otsingu. Kui paneel on avatud, sulgeb Esc pärast lehe klõpsamist kõigepealt paneeli; vajuta uuesti, et TakeoffCraftis tühistada. |
+| {{key:Esc}} | Sulge abipaneel. Selle otsingukastis tühjendab esimene Esc otsingu. Kui paneel on avatud, sulgeb Esc pärast lehe klõpsamist kõigepealt paneeli; vajuta uuesti, et TakeoffDeskis tühistada. |
 
 :::mac
 Paljudel Maci klaviatuuridel juhivad ülemine rida heledust ja heli. Vajuta fn-klahvi koos F1-ga või lülita sisse valik „Kasuta F1, F2 jt klahve standardsete funktsiooniklahvidena“ jaotises Süsteemiseaded › Klaviatuur.
@@ -139,7 +139,7 @@ Paljudel Maci klaviatuuridel juhivad ülemine rida heledust ja heli. Vajuta fn-k
 
 :::mac
 - {{key:Mod}} on Command-klahv: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Täisekraan on erand: Control+Shift+F.
-- Parem-klõps on puuteplaadil kahe sõrmega klõps, kui sekundaarne klõps on sisse lülitatud jaotises Süsteemiseaded › Puuteplaat. TakeoffCraft loeb ainult sekundaarnuppu; Control-klõps võib loeda tavaliseks klõpsuks ja lisada punkti.
+- Parem-klõps on puuteplaadil kahe sõrmega klõps, kui sekundaarne klõps on sisse lülitatud jaotises Süsteemiseaded › Puuteplaat. TakeoffDesk loeb ainult sekundaarnuppu; Control-klõps võib loeda tavaliseks klõpsuks ja lisada punkti.
 - Kahe sõrmega kerimine puuteplaadil suumib lehte (ei keri seda). Nihutamiseks vajuta ja lohista või hoia {{key:Space}} all ja lohista.
 - Page Up ja Page Down on fn koos üles- ja allanooltega klaviatuuridel, millel neid pole.
 - Backspace on klahv, millel on silt delete.
@@ -151,12 +151,12 @@ Paljudel Maci klaviatuuridel juhivad ülemine rida heledust ja heli. Vajuta fn-k
 :::
 
 :::linux
-- {{key:Mod}} on Ctrl. Mõned töölauad kasutavad oma Ctrl+Alt- või Super-otseteid; TakeoffCraft ei kasuta neist ühtegi.
+- {{key:Mod}} on Ctrl. Mõned töölauad kasutavad oma Ctrl+Alt- või Super-otseteid; TakeoffDesk ei kasuta neist ühtegi.
 - Puuteplaadil suumib kahe sõrmega kerimine lehte. Nihutamiseks vajuta ja lohista.
 :::
 
 :::touch
-TakeoffCraft loeb puudutust ühe osutajana:
+TakeoffDesk loeb puudutust ühe osutajana:
 
 - Puudutus paigutab punkti, valib märgise või lisab loenduspunkti.
 - Ühe sõrmega lohistamine nihutab lehte ({{ui:Automaatne loendus}} režiimis joonistab see otsingukasti).
@@ -169,7 +169,7 @@ Koguste arvestuseks on praegu parem klaviatuur ja hiir või puuteplaat.
 
 ## Klahvid, mida brauser hoiab enda jaoks
 
-Brauserid hoiavad mõned otseteed enda jaoks ega lase lehel neid kasutada: vahelehe sulgemine ({{key:Mod+W}}), uus vaheleht või aken ({{key:Mod+T}}, {{key:Mod+N}}) ja brauseri suumimine ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Seepärast suumib TakeoffCraft lehte ratta ning paljaste {{key:Plus}}- ja {{key:Minus}}-klahvidega. Kui vajutad {{key:Mod+Plus}} kogemata, kasvab kogu leht; {{key:Mod+0}} paneb selle tagasi. Vaata [Klahvid, hiired ja puuteplaadid](common:keys).
+Brauserid hoiavad mõned otseteed enda jaoks ega lase lehel neid kasutada: vahelehe sulgemine ({{key:Mod+W}}), uus vaheleht või aken ({{key:Mod+T}}, {{key:Mod+N}}) ja brauseri suumimine ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Seepärast suumib TakeoffDesk lehte ratta ning paljaste {{key:Plus}}- ja {{key:Minus}}-klahvidega. Kui vajutad {{key:Mod+Plus}} kogemata, kasvab kogu leht; {{key:Mod+0}} paneb selle tagasi. Vaata [Klahvid, hiired ja puuteplaadid](common:keys).
 
 ## Kus asub Teisalda
 

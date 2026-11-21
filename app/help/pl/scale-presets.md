@@ -49,4 +49,4 @@ Skala skalibrowana pojawia się w pasku pod arkuszem jako „Skalibrowana 1" = 4
 
 ## Nietypowe PDF-y
 
-Niektóre PDF-y deklarują większą jednostkę strony (jednostkę użytkownika, „user unit”); TakeoffCraft uwzględnia ją przy gotowych skalach i pokazywanej skali. Strony obrócone w PDF-ie są mierzone tak samo jak strony ustawione pionowo.
+Niektóre PDF-y deklarują większą jednostkę strony (jednostkę użytkownika, „user unit”); TakeoffDesk uwzględnia ją przy gotowych skalach i pokazywanej skali. Strony obrócone w PDF-ie są mierzone tak samo jak strony ustawione pionowo.

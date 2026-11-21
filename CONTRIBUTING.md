@@ -1,7 +1,6 @@
-# Contributing to TakeoffCraft
+# Contributing to TakeoffDesk
 
-Thanks for helping. TakeoffCraft is the quantity takeoff & estimating app in the [CadCraft](https://getcadcraft.com) family: eight
-open-source apps for CAD and BIM work, each in its own repository. It is early: expect rough edges.
+Thanks for helping. TakeoffDesk is a quantity takeoff & estimating app, based on the open-source TakeoffCraft (see `NOTICE`).
 
 ## Good first contributions
 
@@ -26,15 +25,14 @@ open-source apps for CAD and BIM work, each in its own repository. It is early: 
 
 1. Fork the repository, make a branch, and open a pull request against `main`. The pull request template has a short
    checklist.
-2. **Tests** run on every pull request (`npm test -- --oracles`, the same as on your machine). A red check means something to fix;
+2. **Tests** run on every pull request (`npm test`, the same as on your machine). A red check means something to fix;
    the log shows which test failed.
 3. A maintainer reviews it. Once it is approved and the tests pass, it is merged.
-4. `main` is the code in development: a merged change goes into the next build in the lab at getcadcraft.com, then into
-   the next release. Releases are the tags (`takeoffcraft-v0.4.0`, …) and their files are on the Releases page.
+4. `main` is the code in development; releases are tags.
 
 ## Rules that are not negotiable
 
-- **License.** TakeoffCraft is licensed under the Apache License 2.0 (`LICENSE`). By contributing you agree that your
+- **License.** TakeoffDesk is licensed under the Apache License 2.0 (`LICENSE`). By contributing you agree that your
   contribution is licensed under it too, and that you have the right to give it.
 - **Clean room.** Do not submit code, data or assets copied from proprietary CAD software, its SDKs or its file-format
   libraries, and do not port code from copyleft (GPL, LGPL, MPL) projects. Our file readers are written from published
@@ -53,4 +51,4 @@ prints it). Try your work with `?lang=<locale>`; `?lang=en-XA` shows text that s
 
 ## Questions
 
-Open a discussion or an issue, or write through https://getcadcraft.com/support.
+Open an issue.

@@ -1,11 +1,11 @@
 ---
-title: Ko TakeoffCraft iemācījies no jūsu apjomu aprēķiniem
-summary: TakeoffCraft glabā simbolus, ko apstiprinājāt ar Automātiski skaitīt, jūsu nosacījumu kopas, visbiežāk izmantotos mezglus un atkārtotus atzīmju modeļus, visu pašā apjomu aprēķina failā. Skatiet, izmantojiet, dzēsiet.
+title: Ko TakeoffDesk iemācījies no jūsu apjomu aprēķiniem
+summary: TakeoffDesk glabā simbolus, ko apstiprinājāt ar Automātiski skaitīt, jūsu nosacījumu kopas, visbiežāk izmantotos mezglus un atkārtotus atzīmju modeļus, visu pašā apjomu aprēķina failā. Skatiet, izmantojiet, dzēsiet.
 keywords: mācīties, iemācījies, mācīšanās, asistents, atcerēties, simboli, veidnes, tāpat kā pēdējā darbā, pēdējais darbs, nosacījumu kopa, nosacījumi, atkārtot, mezgli, visbiežāk izmantotie, ieteikumi, atkārtot katrā lapā, katra lapa, titula bloks, modelis, notīrīt visu, aizmirst, privātums
 from: 54d99e99
 ---
 
-TakeoffCraft kļūst ātrāks, jo vairāk apjomu aprēķinu veicat ar to. Tas mācās **tikai no tā, ko jūs apstiprināt**:
+TakeoffDesk kļūst ātrāks, jo vairāk apjomu aprēķinu veicat ar to. Tas mācās **tikai no tā, ko jūs apstiprināt**:
 
 - simboli, ko esat iezīmējis ar [Automātiski skaitīt](topic:auto-count) un pēc tam pievienojis,
 - nosacījumu kopas, ko saglabājat,
@@ -64,6 +64,6 @@ Lai pārtrauktu mācīšanos vienā apjomu aprēķinā, noņemiet atzīmi no {{u
 
 ## Labi zināt
 
-- Vecākas TakeoffCraft versijas atver failu ar iemācītajām lietām parasti. Tās ignorē šo daļu un to izmet, ja fails tiek saglabāts vēlreiz.
+- Vecākas TakeoffDesk versijas atver failu ar iemācītajām lietām parasti. Tās ignorē šo daļu un to izmet, ja fails tiek saglabāts vēlreiz.
 - Iemācīts simbols ir neliela tā iezīmētā attēla bilde, kas glabājas failā (dažus kilobaitus katrs).
 - Iemācītie simboli tiek meklēti tāpat kā Automātiski skaitīt, tāpēc attiecas tie paši ierobežojumi: [Automātiski skaitīt simbolu](topic:auto-count).

@@ -28,7 +28,7 @@ Fletorja ka katër fleta pune, dhe raportet e mëposhtme kur zbatohen:
 
 Me një [përmbledhje oferte](topic:bid-summary), fleta Preventivi mbaron edhe me shtesat e saj (kostoja e punës, taksa e shitjes, shpenzimet e përgjithshme, fitimi, garancia dhe oferta), si formula aktive.
 
-Fleta Preventivi mban **formula aktive**: sasia me humbje, shumat e rrumbullakosura të materialit dhe të punës, totali i çdo rreshti dhe totali i punës. Programet e fletëllogaritjes i rillogaritin, kështu që mund të ndryshosh një tarifë ose humbje në fletëllogaritëse dhe totalet ndjekin. Numrat që llogariti TakeoffCraft ruhen edhe në qeliza, dhe përputhen deri në cent.
+Fleta Preventivi mban **formula aktive**: sasia me humbje, shumat e rrumbullakosura të materialit dhe të punës, totali i çdo rreshti dhe totali i punës. Programet e fletëllogaritjes i rillogaritin, kështu që mund të ndryshosh një tarifë ose humbje në fletëllogaritëse dhe totalet ndjekin. Numrat që llogariti TakeoffDesk ruhen edhe në qeliza, dhe përputhen deri në cent.
 
 Kolona e shënimeve liston formulën e çdo përbërësi, gabimet e formulave, shenjat në fletët pa shkallë, sipërfaqen e murit dhe perimetrin. Kur diçka është lënë jashtë, rreshti i totalit të punës thotë "Jo e plotë: shih shënimet më sipër".
 
@@ -42,7 +42,7 @@ CSV ka vetëm preventivin; për sasitë sipas fletës dhe listën e shenjave, p�
 
 ## Preventivi në Google Sheets
 
-Mbi tabelën {{ui:Sasitë}}, **Kopjo për Google Sheets** vendos preventivin në clipboard si tekst të ndarë me tab, me të njëjtat rreshta si CSV. Në një Google Sheet, kliko qelizën A1 dhe ngjit. TakeoffCraft nuk hyn në Google dhe nuk dërgon asgjë atje.
+Mbi tabelën {{ui:Sasitë}}, **Kopjo për Google Sheets** vendos preventivin në clipboard si tekst të ndarë me tab, me të njëjtat rreshta si CSV. Në një Google Sheet, kliko qelizën A1 dhe ngjit. TakeoffDesk nuk hyn në Google dhe nuk dërgon asgjë atje.
 
 ## Tarifat që mungojnë dhe nënshkrimi
 

@@ -42,7 +42,7 @@ When the rooms are drawn as closed walls, {{ui:Room}} ({{key:B}}) takes a floor 
 2. Choose {{ui:Room}} in the {{ui:Takeoff}} group, or press {{key:B}}.
 3. Click inside a room, in the open floor (not on a line or a label).
 
-TakeoffCraft reads the sheet's lines, finds the space around the click and outlines it along the walls' inner faces, as an area of the current item. Door openings up to **4'-0"** are treated as closed, so the outline runs straight across the doorway; **Settings › TakeoffCraft › Room fill closes openings up to** changes that width (3'-0" to 8'-0"). Room names, furniture and fixtures inside the room do not make holes.
+TakeoffDesk reads the sheet's lines, finds the space around the click and outlines it along the walls' inner faces, as an area of the current item. Door openings up to **4'-0"** are treated as closed, so the outline runs straight across the doorway; **Settings › TakeoffDesk › Room fill closes openings up to** changes that width (3'-0" to 8'-0"). Room names, furniture and fixtures inside the room do not make holes.
 
 It refuses, saying why, when:
 
@@ -63,7 +63,7 @@ When a door is wider than the setting, the fill runs into the next room and outl
 
 For a round hole, choose {{ui:Add a round cut-out}} under **Selected mark**, click its center, then a point on its edge.
 
-A cut-out must sit fully inside the area and must not overlap another cut-out. Otherwise TakeoffCraft refuses it: "A cut-out has to sit fully inside the area." or "Cut-outs cannot overlap each other."
+A cut-out must sit fully inside the area and must not overlap another cut-out. Otherwise TakeoffDesk refuses it: "A cut-out has to sit fully inside the area." or "Cut-outs cannot overlap each other."
 
 To take the last hole out again, choose {{ui:Remove last cut-out}}.
 
@@ -77,7 +77,7 @@ A cut-out belongs to one area mark. A **back-out** is drawn once and comes out o
 
 Every area mark of a ticked item on the same sheet loses the part a back-out covers: the whole back-out when it sits inside, only the overlapping part when it crosses the edge, and nothing inside a cut-out. The selected area's panel shows **Back-outs** and the area left. The item's quantity, its assembly formulas, the costs, the 3D check view and the export all use the area left; the estimate's notes say how much back-outs took out. The back-out item itself counts its own area (leave its costs at zero if you do not price it).
 
-A back-out has to be **convex**: a rectangle, a circle or any outline without an inward corner. TakeoffCraft refuses to draw one that is not; draw an L-shaped shaft as two back-outs. Back-outs cannot have cut-outs, and two back-outs that overlap each other both count.
+A back-out has to be **convex**: a rectangle, a circle or any outline without an inward corner. TakeoffDesk refuses to draw one that is not; draw an L-shaped shaft as two back-outs. Back-outs cannot have cut-outs, and two back-outs that overlap each other both count.
 
 The perimeter (`P`) does not change: back-outs take out area only.
 

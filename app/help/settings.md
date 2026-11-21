@@ -1,12 +1,12 @@
 ---
-title: TakeoffCraft settings
+title: TakeoffDesk settings
 summary: Show inches to 1/16, 1/8 or 1/4, start new items with a waste percentage, choose where the Auto count slider starts, snap to the drawing's lines or to 45° without holding Shift, set how wide a door Room fill closes, and pick the 3D view's corner indicator.
 section: reference
 order: 5
 keywords: settings, preferences, options, precision, fractions, inches, rounding, waste, default waste, auto count, threshold, match, slider, snap, 45, angle, shift, view cube, axis icon, corner indicator, 3d
 ---
 
-Open {{ui:Settings}} with the gear in the app bar or {{key:Mod+,}}. The first tab, {{ui:TakeoffCraft}}, holds the settings that belong to this app; {{ui:General}} holds the ones every CadCraft app shares (theme, panels, toolbar). TakeoffCraft's settings exist only in the app: you change them here, and this browser remembers them. {{ui:Reset TakeoffCraft settings}} puts them back to the start.
+Open {{ui:Settings}} with the gear in the app bar or {{key:Mod+,}}. The first tab, {{ui:TakeoffDesk}}, holds the settings that belong to this app; {{ui:General}} holds the general ones (theme, panels, toolbar). TakeoffDesk's settings exist only in the app: you change them here, and this browser remembers them. {{ui:Reset TakeoffDesk settings}} puts them back to the start.
 
 ## Feet and inches
 

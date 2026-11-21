@@ -77,7 +77,7 @@ Viena rinda katrai lapai, kurai ir mērogs vai atzīmes.
 | Lapa | Lapas nosaukums |
 | Mērogs | Priekšiestatījuma nosaukums, kalibrētais mērogs vai "Nav mēroga" |
 | Kā | "Priekšiestatījums" vai "Kalibrēts pēc attāluma, ko ievadījāt" |
-| Pēdas uz PDF vienību | Precīzais mēroga koeficients, ko izmanto TakeoffCraft |
+| Pēdas uz PDF vienību | Precīzais mēroga koeficients, ko izmanto TakeoffDesk |
 
 ## Failu nosaukumi
 

@@ -1,6 +1,6 @@
 ---
 title: Comptage automatique d'un symbole
-summary: Encadrez un symbole, laissez TakeoffCraft trouver les autres sur cette feuille ou sur toutes les feuilles ouvertes, vérifiez les correspondances avec le curseur et ajoutez-les en une seule étape.
+summary: Encadrez un symbole, laissez TakeoffDesk trouver les autres sur cette feuille ou sur toutes les feuilles ouvertes, vérifiez les correspondances avec le curseur et ajoutez-les en une seule étape.
 keywords: tout angle, pivoté, tourné, autre échelle, échelle différente, comptage auto, comptage automatique, recherche de symboles, trouver des symboles, motif, gabarit, correspondance, détecter, outil de comptage
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Pour abandonner la révision sans rien ajouter, choisissez {{ui:Abandonner}} ou 
 
 ## Ce qu'il trouve et ce qu'il manque
 
-TakeoffCraft compare le dessin, en pixels, avec le symbole que vous avez encadré.
+TakeoffDesk compare le dessin, en pixels, avec le symbole que vous avez encadré.
 
 - Il trouve le symbole tourné de 0°, 90°, 180° et 270°. Cochez {{ui:Tout angle (plus lent)}} sur la barre de comptage automatique avant de tracer le cadre pour le trouver aussi à n'importe quel angle : il essaie tous les 15°, puis affine chaque résultat au demi-degré près. Cela prend environ six fois plus de temps. Il ne trouve pas un symbole en miroir (sauf si le symbole est identique en miroir).
 - Avec {{ui:Chercher dans toutes les feuilles ouvertes}} coché, une feuille à une autre échelle est recherchée à la taille que le symbole y a : un appareil dessiné à l'échelle sur un plan au 1/8" a la moitié de la taille qu'il a sur un plan au 1/4", et il est quand même trouvé. Une telle feuille est aussi recherchée à la taille propre du cadre, pour les étiquettes et symboles imprimés à une taille unique sur toutes les feuilles. Cela suppose une échelle sur les deux feuilles ; une feuille sans échelle n'est recherchée qu'à la taille du cadre.

@@ -39,4 +39,4 @@ Hər elementdə də CSI MasterFormat nömrəsi var, məsələn `09 21 16`.
 
 Kitabxanadakı {{ui:Paket kimi ixrac et…}} onu paket faylı (`.ccpack.json`) kimi saxlayır, bunu hər kəs {{ui:Paket faylını aç…}} ilə əlavə edə bilər. Standart olaraq, əlavə etdiyiniz paketlərdən gələn elementlər çıxarılır və dərəcə daşımır. Dərəcələrinizi də göndərmək üçün {{ui:Dərəcələrimi nümunə dərəcə kimi əlavə et}} işarələyin: onlar verdiyiniz region və tarix ilə etiketlənərək gedir və paketi əlavə edən şəxs onlardan istifadə edib-etməməyi seçir.
 
-Paket faylları yalnız məlumatdır, heç vaxt proqram deyil. TakeoffCraft istifadə etməzdən əvvəl onun hər hissəsini yoxlayır və oxuya bilmədiyi hər şeyi kənarda qoyur.
+Paket faylları yalnız məlumatdır, heç vaxt proqram deyil. TakeoffDesk istifadə etməzdən əvvəl onun hər hissəsini yoxlayır və oxuya bilmədiyi hər şeyi kənarda qoyur.

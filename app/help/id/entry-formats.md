@@ -1,6 +1,6 @@
 ---
 title: Entri panjang, tarif, dan persen
-summary: Apa yang bisa Anda ketik untuk jarak, tinggi, tarif uang, dan persentase susut, dengan contoh serta pesan untuk input yang tidak dapat dibaca TakeoffCraft.
+summary: Apa yang bisa Anda ketik untuk jarak, tinggi, tarif uang, dan persentase susut, dengan contoh serta pesan untuk input yang tidak dapat dibaca TakeoffDesk.
 keywords: input, format, kaki inci, pecahan, kaki desimal, metrik, meter, milimeter, tarif, uang, dolar, persen, susut, mengetik
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Hingga dua desimal, dari 0% hingga 1000%. Pesan: "Ketik persentase seperti 10 at
 ## Nama dan satuan
 
 - Nama item dan komponen: hingga 200 karakter.
-- {{ui:Satuan}} komponen: teks apa pun hingga 20 karakter, seperti `EA`, `sheets`, `CY`, `gal`. Ini hanya label; TakeoffCraft tidak mengonversinya.
+- {{ui:Satuan}} komponen: teks apa pun hingga 20 karakter, seperti `EA`, `sheets`, `CY`, `gal`. Ini hanya label; TakeoffDesk tidak mengonversinya.
 
 ## Rumus
 

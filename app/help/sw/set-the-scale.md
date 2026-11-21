@@ -5,7 +5,7 @@ keywords: tambua skeli, soma skeli, skeli kutoka kwenye maandishi, karatasi zote
 from: 8f0148e6
 ---
 
-Kila karatasi ina skeli yake. Wewe unaiweka, au unaruhusu TakeoffCraft iisome kutoka kwenye maandishi ya karatasi (hapa chini), kisha uikague. Hadi karatasi iwe na skeli, {{ui:Mstari}}, {{ui:Eneo}}, {{ui:Duara}} na {{ui:Shimo}} vinakataa kupima juu yake. {{ui:Hesabu}} na {{ui:Hesabu otomatiki}} vinafanya kazi bila skeli.
+Kila karatasi ina skeli yake. Wewe unaiweka, au unaruhusu TakeoffDesk iisome kutoka kwenye maandishi ya karatasi (hapa chini), kisha uikague. Hadi karatasi iwe na skeli, {{ui:Mstari}}, {{ui:Eneo}}, {{ui:Duara}} na {{ui:Shimo}} vinakataa kupima juu yake. {{ui:Hesabu}} na {{ui:Hesabu otomatiki}} vinafanya kazi bila skeli.
 
 Orodha ya karatasi inaonyesha skeli ya kila karatasi, au **Hakuna skeli**. Upau chini ya karatasi iliyo wazi unasema vivyo hivyo.
 
@@ -23,7 +23,7 @@ Orodha kamili iko kwenye [Vipimo vilivyowekwa vya skeli](topic:scale-presets).
 
 ## Soma skeli kutoka kwenye maandishi ya karatasi
 
-Michoro mingi inasema skeli yake: `SCALE: 1/4" = 1'-0"` kwenye kizuizi cha kichwa, au `1:100` chini ya mwonekano. TakeoffCraft inaweza kuisoma na kuweka kila karatasi kwa mara moja.
+Michoro mingi inasema skeli yake: `SCALE: 1/4" = 1'-0"` kwenye kizuizi cha kichwa, au `1:100` chini ya mwonekano. TakeoffDesk inaweza kuisoma na kuweka kila karatasi kwa mara moja.
 
 1. Fungua orodha ya {{ui:Kipimo kilichowekwa}} kisha chagua {{ui:Kutoka kwenye maandishi ya karatasi…}} (juu kabisa).
 2. Orodha inaonyesha kila karatasi: skeli yake sasa, na inachosema maandishi yake — **Inasema 1/4" = 1'-0"**, **Hakuna skeli kwenye maandishi yake**, au **Inasema isipimwe kwa skeli** (NTS).
@@ -44,7 +44,7 @@ Tumia hili pale ambapo hakuna skeli iliyochapishwa unayoiamini, seti ilibadilish
 5. Andika umbali halisi kwenye **Umbali halisi**, kwa mfano `24'-6 1/2"`, `24.5` (futi za desimali), `30"` au `7.5 m`. Angalia [Uingizaji wa urefu, kiwango na asilimia](topic:entry-formats).
 6. Chagua {{ui:Weka skeli}}.
    Upau wa hali unaonyesha skeli kama "1" = (n)'", na ikiwa iko ndani ya 0.5% ya kipimo kilichowekwa unasema ni kipi, kwa mfano "ambacho kinalingana na 1/4" = 1'-0" (chagua kipimo hicho kwa skeli sahihi)".
-   TakeoffCraft inarudi kwenye zana ya {{ui:Chagua}}.
+   TakeoffDesk inarudi kwenye zana ya {{ui:Chagua}}.
 
 Urekebishaji unapolingana na kipimo kilichowekwa, kuchagua kipimo hicho kunatoa skeli sahihi badala ya ile inayotegemea mahali ulipobofya.
 
@@ -61,11 +61,11 @@ Bonyeza {{key:Esc}} ili kufuta mstari wa ukaguzi.
 
 ## Badilisha skeli
 
-Chagua kipimo kingine kilichowekwa au rekebisha tena. Karatasi ikiwa tayari ina vipimo, TakeoffCraft inauliza **Badilisha skeli ya karatasi hii?** na kusema vipimo vingapi vitapimwa upya. Chagua {{ui:Badilisha skeli}}. Kila mstari na eneo kwenye karatasi hupimwa upya kwa skeli mpya. Unaweza kuirudisha kwa {{key:Mod+Z}}.
+Chagua kipimo kingine kilichowekwa au rekebisha tena. Karatasi ikiwa tayari ina vipimo, TakeoffDesk inauliza **Badilisha skeli ya karatasi hii?** na kusema vipimo vingapi vitapimwa upya. Chagua {{ui:Badilisha skeli}}. Kila mstari na eneo kwenye karatasi hupimwa upya kwa skeli mpya. Unaweza kuirudisha kwa {{key:Mod+Z}}.
 
 ## Kwa nini karatasi zisizo na skeli hazihesabiwi kama sifuri
 
-Alama kwenye karatasi isiyo na skeli haina urefu wala eneo halisi. TakeoffCraft haihesabu kamwe kama sifuri, kwa sababu hilo lingefanya makadirio yako kuwa ya chini bila wewe kujua. Badala yake:
+Alama kwenye karatasi isiyo na skeli haina urefu wala eneo halisi. TakeoffDesk haihesabu kamwe kama sifuri, kwa sababu hilo lingefanya makadirio yako kuwa ya chini bila wewe kujua. Badala yake:
 
 - inaacha alama hizo nje ya jumla,
 - inaonyesha "+(n) bila skeli" karibu na kipengee katika {{ui:Viasi}},
@@ -77,5 +77,5 @@ Hili linaweza kutokea unapofungua mradi ambao skeli zake hazikuwahi kuwekwa. Mpe
 ## Vidokezo
 
 - Weka skeli kwenye kila karatasi utakayopima kabla hujaanza. Tafuta **Hakuna skeli** kwenye orodha ya karatasi ili kupata zilizobaki (kisanduku cha kutafuta kinatazama majina ya karatasi, si skeli).
-- Maelezo na michoro iliyokuzwa kwenye karatasi moja mara nyingi hutumia skeli nyingine. TakeoffCraft ina skeli moja kwa kila karatasi; angalia [Kisichojengwa bado](topic:not-built-yet).
+- Maelezo na michoro iliyokuzwa kwenye karatasi moja mara nyingi hutumia skeli nyingine. TakeoffDesk ina skeli moja kwa kila karatasi; angalia [Kisichojengwa bado](topic:not-built-yet).
 - Michoro ya metriki: chagua kipimo cha metriki kama `1:100`, au rekebisha kwa umbali wa metriki kama `6000 mm`.

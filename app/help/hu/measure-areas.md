@@ -40,7 +40,7 @@ Ha a helyiségek zárt falakként vannak megrajzolva, a {{ui:Helyiség}} ({{key:
 2. Válassza a **Mennyiségkimutatás** csoport {{ui:Helyiség}} lehetőségét, vagy nyomja meg a {{key:B}} billentyűt.
 3. Kattintson egy helyiségen belül, a nyitott padlón (ne vonalra vagy feliratra).
 
-A TakeoffCraft beolvassa a lap vonalait, megtalálja a kattintás körüli teret, és a falak belső oldala mentén körvonalazza, a jelenlegi tétel területeként. A legfeljebb **4'-0"** széles ajtónyílásokat zártnak tekinti, így a körvonal egyenesen átfut az ajtónyíláson. A **Beállítások › TakeoffCraft › A helyiségkitöltés zárja a nyílásokat, legfeljebb** ezt a szélességet módosítja (3'-0" és 8'-0" között). A helyiségen belüli nevek, bútorok és berendezések nem hoznak létre lyukat.
+A TakeoffDesk beolvassa a lap vonalait, megtalálja a kattintás körüli teret, és a falak belső oldala mentén körvonalazza, a jelenlegi tétel területeként. A legfeljebb **4'-0"** széles ajtónyílásokat zártnak tekinti, így a körvonal egyenesen átfut az ajtónyíláson. A **Beállítások › TakeoffDesk › A helyiségkitöltés zárja a nyílásokat, legfeljebb** ezt a szélességet módosítja (3'-0" és 8'-0" között). A helyiségen belüli nevek, bútorok és berendezések nem hoznak létre lyukat.
 
 Az alábbi esetekben elutasítja, és megmondja, miért:
 
@@ -61,7 +61,7 @@ Ha az ajtó szélesebb a beállításnál, a kitöltés átfut a következő hel
 
 Kerek lyuk esetén válassza a **Kijelölt jelölés** alatt a {{ui:Kerek kivágás hozzáadása}} lehetőséget, kattintson a középpontjára, majd a szélén egy pontra.
 
-Egy kivágásnak teljesen a területen belül kell lennie, és nem szabad átfednie másik kivágással. Ellenkező esetben a TakeoffCraft elutasítja: „A kivágásnak teljesen a területen belül kell lennie.” vagy „A kivágások nem fedhetik egymást.”
+Egy kivágásnak teljesen a területen belül kell lennie, és nem szabad átfednie másik kivágással. Ellenkező esetben a TakeoffDesk elutasítja: „A kivágásnak teljesen a területen belül kell lennie.” vagy „A kivágások nem fedhetik egymást.”
 
 Az utolsó lyuk eltávolításához válassza az {{ui:Utolsó kivágás eltávolítása}} lehetőséget.
 
@@ -75,7 +75,7 @@ Egy kivágás egy területjelöléshez tartozik. A **visszalevonás** egyszer ra
 
 A lap minden olyan területjelölése, amelynek tétele be van jelölve, elveszíti azt a részt, amelyet egy visszalevonás lefed: teljesen, ha a visszalevonás belül van, csak az átfedő rész, ha átlép a szélen, és semmit sem a kivágáson belül. A kijelölt terület panelje a **Visszalevonások** és a megmaradt terület sorát mutatja. A tétel mennyisége, az összetevőinek képletei, a költségek, a 3D-s ellenőrző nézet és az exportálás mind a megmaradt területet használják; a költségvetés megjegyzései megmondják, mennyit vontak le a visszalevonások. A visszalevonás tétel maga a saját területét számolja (ha nem árazza, hagyja nullán a költségeit).
 
-A visszalevonásnak **konvexnek** kell lennie: téglalapnak, körnek vagy bármilyen körvonalnak, amelynek nincs befelé mutató sarka. A TakeoffCraft elutasítja a nem konvexet; egy L alakú aknát két visszalevonásként rajzoljon. A visszalevonásoknak nem lehet kivágásuk, és két egymást átfedő visszalevonás mindkettő beleszámít.
+A visszalevonásnak **konvexnek** kell lennie: téglalapnak, körnek vagy bármilyen körvonalnak, amelynek nincs befelé mutató sarka. A TakeoffDesk elutasítja a nem konvexet; egy L alakú aknát két visszalevonásként rajzoljon. A visszalevonásoknak nem lehet kivágásuk, és két egymást átfedő visszalevonás mindkettő beleszámít.
 
 A kerület (`P`) nem változik: a visszalevonások csak területet vonnak le.
 

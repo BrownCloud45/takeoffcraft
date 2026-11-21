@@ -5,7 +5,7 @@ keywords: atidaryti, planų rinkinys, keli pdf, keli failai, lapai, brėžiniai,
 from: ed434468
 ---
 
-Planų rinkinys dažnai susideda iš kelių PDF: architektūrinių, konstrukcinių, mechaninių. TakeoffCraft atveria juos greta kaip vieną lapų sąrašą, o vienas kiekių skaičiavimas gali apimti visus.
+Planų rinkinys dažnai susideda iš kelių PDF: architektūrinių, konstrukcinių, mechaninių. TakeoffDesk atveria juos greta kaip vieną lapų sąrašą, o vienas kiekių skaičiavimas gali apimti visus.
 
 ## Atidaryti PDF
 
@@ -14,14 +14,14 @@ Planų rinkinys dažnai susideda iš kelių PDF: architektūrinių, konstrukcini
 3. Pasirinkite Atidaryti.
    Kol skaitomas kiekvienas failas, rodomas pranešimas „Atidaroma (name)…“. Tada kiekvienas puslapis atsiranda po {{ui:Lapai}}, ir atsidaro pirmasis naujo PDF puslapis.
 
-PDF galite ir nutempti iš {{pick:mac=Finder|windows=File Explorer|linux=jūsų failų tvarkyklė}} ir įmesti bet kur į TakeoffCraft. Tempiant rodomas rėmelis „Įmeskite PDF, DWG ar DXF brėžinius arba .takeoff.json“.
+PDF galite ir nutempti iš {{pick:mac=Finder|windows=File Explorer|linux=jūsų failų tvarkyklė}} ir įmesti bet kur į TakeoffDesk. Tempiant rodomas rėmelis „Įmeskite PDF, DWG ar DXF brėžinius arba .takeoff.json“.
 
 Vėliau pridėti daugiau PDF galite tiesiog pakartoję tai. PDF, kurie jau atverti, praleidžiami.
 
 Pradžios ekrane taip pat rodomi neseniai atverti PDF ir kiekių skaičiavimai naršyklėse, kurios leidžia puslapiui vėl atverti failą (Chrome ir Edge). Spustelėkite vieną, kad jį atvertumėte; naršyklė gali prieš tai paprašyti leidimo. Žr. [Jūsų failai](common:your-files).
 
 :::note
-Nieko neįkeliama. Naršyklė skaito PDF jūsų kompiuteryje, ir jie dingsta iš TakeoffCraft, kai uždarote skirtuką arba pasirenkate {{ui:Naujas}}.
+Nieko neįkeliama. Naršyklė skaito PDF jūsų kompiuteryje, ir jie dingsta iš TakeoffDesk, kai uždarote skirtuką arba pasirenkate {{ui:Naujas}}.
 :::
 
 ## Brėžiniai šalia PDF
@@ -30,7 +30,7 @@ Nieko neįkeliama. Naršyklė skaito PDF jūsų kompiuteryje, ir jie dingsta iš
 
 ## PDF, perduotas iš kitos programos
 
-Kita šios programų linijos programa gali perduoti jums PDF, kurį ji turi atvėręs: ji atidaro TakeoffCraft naujame skirtuke, ir PDF atsidaro ten tarsi būtumėte jį įmetę. Būsenos juostoje rašoma „Atidaryta (name), perduota iš (app). Pradinis failas nepakito.“ Nieko neįkeliama; failas praeina per šios naršyklės saugyklą ir iš jos pasišalina, kai atsidaro.
+Kita šios programų linijos programa gali perduoti jums PDF, kurį ji turi atvėręs: ji atidaro TakeoffDesk naujame skirtuke, ir PDF atsidaro ten tarsi būtumėte jį įmetę. Būsenos juostoje rašoma „Atidaryta (name), perduota iš (app). Pradinis failas nepakito.“ Nieko neįkeliama; failas praeina per šios naršyklės saugyklą ir iš jos pasišalina, kai atsidaro.
 
 Jei būsenos juostoje rašoma, kad PDF „neatkeliavo“, skirtukas per ilgai laukė arba PDF jau atidarytas kitame skirtuke: atidarykite jį su {{ui:Atidaryti planus}}.
 

@@ -39,4 +39,4 @@ Kiekviena pozicija taip pat turi savo CSI MasterFormat numerį, pvz., `09 21 16`
 
 Bibliotekoje {{ui:Eksportuoti kaip paketą…}} įrašo ją kaip paketo failą (`.ccpack.json`), kurį bet kas gali pridėti su {{ui:Atidaryti paketo failą…}}. Pagal numatymą praleidžiamos pozicijos, kilusios iš jūsų pridėtų paketų, ir įkainiai neįtraukiami. Pažymėkite {{ui:Įtraukti mano įkainius kaip pavyzdinius}}, kad išsiųstumėte ir savo įkainius: jie išsiunčiami pažymėti regionu ir jūsų nurodyta data, o tas, kas pridės paketą, pasirenka, ar juos naudoti.
 
-Paketo failai yra paprasti duomenys, o ne programos. TakeoffCraft prieš naudodamas patikrina kiekvieną jo dalį ir praleidžia tai, ko neperskaito.
+Paketo failai yra paprasti duomenys, o ne programos. TakeoffDesk prieš naudodamas patikrina kiekvieną jo dalį ir praleidžia tai, ko neperskaito.

@@ -24,7 +24,7 @@ Trieu {{ui:Per element}} (l'opció per defecte). Cada partida té una fila, i ca
 
 L'última fila, **Total de l'obra**, suma les columnes de material, mà d'obra i total. El mateix total es mostra a la dreta de la capçalera de la taula.
 
-Escriviu en una cel·la de pèrdua o de preu i premeu {{key:Enter}} o feu clic fora per aplicar-ho. Un valor que TakeoffCraft no pot llegir es marca amb un contorn vermell, i la barra d'estat n'explica el motiu, per exemple "Escriviu una quantitat com ara 12.50."
+Escriviu en una cel·la de pèrdua o de preu i premeu {{key:Enter}} o feu clic fora per aplicar-ho. Un valor que TakeoffDesk no pot llegir es marca amb un contorn vermell, i la barra d'estat n'explica el motiu, per exemple "Escriviu una quantitat com ara 12.50."
 
 Feu clic a la fila d'una partida per ressaltar les seves marques a tots els fulls i anar a un full que en tingui (igual que si hi feu clic sota {{ui:Elements}}).
 

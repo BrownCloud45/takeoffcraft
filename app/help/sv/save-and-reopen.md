@@ -18,32 +18,32 @@ Varje sparning laddar ner en ny fil. Webbläsaren kan kalla den andra `(name) (1
 Namnet kommer från den första PDF-filen du öppnade i den här avtagningen.
 
 :::note
-Spara avtagning är fortfarande det enda sättet att behålla en avtagning som fil. Medan du arbetar sparar TakeoffCraft också en återställningskopia i den här webbläsaren (se nedan), och molnsparning finns inte ännu. Om du försöker stänga fliken med osparade ändringar frågar webbläsaren om du vill lämna.
+Spara avtagning är fortfarande det enda sättet att behålla en avtagning som fil. Medan du arbetar sparar TakeoffDesk också en återställningskopia i den här webbläsaren (se nedan), och molnsparning finns inte ännu. Om du försöker stänga fliken med osparade ändringar frågar webbläsaren om du vill lämna.
 :::
 
 ## Behåll avtagningen i PDF-filen
 
 {{ui:Exportera}} › {{ui:PDF med mängdavtagningen inuti}} laddar ner en kopia av varje öppen PDF, namngiven som `Plans (with takeoff).pdf`, som bär hela avtagningen som en bilaga: poster, markeringar, skalor, anbudsområden, allt som `.takeoff.json` innehåller. Sidorna är orörda, så den ser ut och skrivs ut som originalet, och andra PDF-läsare listar avtagningen bland sina bilagor.
 
-Öppna den PDF-filen i TakeoffCraft (på vilket sätt du än öppnar PDF-filer) så frågar den **Den här PDF-filen har en avtagning inuti**: välj {{ui:Öppna mängdavtagningen}} för att få tillbaka den, eller {{ui:Bara PDF-filen}} för att bara öppna ritningen. Kopian står för PDF-filen den gjordes av, så en `.takeoff.json` som sparats från endera öppnas på båda.
+Öppna den PDF-filen i TakeoffDesk (på vilket sätt du än öppnar PDF-filer) så frågar den **Den här PDF-filen har en avtagning inuti**: välj {{ui:Öppna mängdavtagningen}} för att få tillbaka den, eller {{ui:Bara PDF-filen}} för att bara öppna ritningen. Kopian står för PDF-filen den gjordes av, så en `.takeoff.json` som sparats från endera öppnas på båda.
 
 Med flera PDF-filer bär varje kopia hela avtagningen; öppna dem tillsammans. Om du sparar igen från en kopia ersätts avtagningen inuti den, den läggs inte till en andra. `.takeoff.json` är fortfarande filen att behålla: den är liten, och det är den som funktionen Spara automatiskt och skrivbordsappen skriver.
 
 ## Om fliken eller webbläsaren stannar
 
-Några sekunder efter varje ändring sparar TakeoffCraft en kopia av avtagningen i den här webbläsarens egna lagring, tillsammans med dess PDF-filer när de är 64 MB eller mindre tillsammans. Inget laddas upp. När du sparar avtagningen, startar en ny eller öppnar ett annat projekt, tas kopian bort.
+Några sekunder efter varje ändring sparar TakeoffDesk en kopia av avtagningen i den här webbläsarens egna lagring, tillsammans med dess PDF-filer när de är 64 MB eller mindre tillsammans. Inget laddas upp. När du sparar avtagningen, startar en ny eller öppnar ett annat projekt, tas kopian bort.
 
-Om fliken kraschar, webbläsaren eller datorn stannar, eller du lämnar med osparade ändringar, frågar TakeoffCraft nästa gång du öppnar det **Återställ ditt arbete?** och listar avtagningen med namn. Välj **Återställ** för att få tillbaka den: poster, markeringar och skalor kommer tillbaka, och dess PDF-filer öppnas igen om de sparades. Statusfältet säger "Återställde (name). Den är ännu inte sparad till en fil: Spara avtagning sparar den." När PDF-filerna var för stora för att behållas, öppna dem igen; markeringarna dyker upp på sina blad. Mer: [Återställ ditt arbete](common:recover).
+Om fliken kraschar, webbläsaren eller datorn stannar, eller du lämnar med osparade ändringar, frågar TakeoffDesk nästa gång du öppnar det **Återställ ditt arbete?** och listar avtagningen med namn. Välj **Återställ** för att få tillbaka den: poster, markeringar och skalor kommer tillbaka, och dess PDF-filer öppnas igen om de sparades. Statusfältet säger "Återställde (name). Den är ännu inte sparad till en fil: Spara avtagning sparar den." När PDF-filerna var för stora för att behållas, öppna dem igen; markeringarna dyker upp på sina blad. Mer: [Återställ ditt arbete](common:recover).
 
 ## Öppna igen
 
-1. Öppna TakeoffCraft.
+1. Öppna TakeoffDesk.
 2. Släpp `.takeoff.json`-filen och dess PDF-filer på sidan samtidigt. Eller välj {{ui:Öppna ritningar}} för PDF-filerna och {{ui:Öppna avtagning}} för projektet, i valfri ordning.
    Statusfältet säger "Öppnade (name): 12 poster, 340 markeringar." Varje blad får tillbaka sin skala, och markeringarna dyker upp på sina blad.
 
-Ordningen på PDF-filerna spelar ingen roll, och inte heller deras filnamn eller mappar. TakeoffCraft känner igen varje PDF-fil via ett fingeravtryck av dess innehåll.
+Ordningen på PDF-filerna spelar ingen roll, och inte heller deras filnamn eller mappar. TakeoffDesk känner igen varje PDF-fil via ett fingeravtryck av dess innehåll.
 
-Om du öppnar ett projekt medan den aktuella avtagningen har osparade ändringar frågar TakeoffCraft först: **Avbryt**, **Kasta ändringarna** eller **Spara avtagningen först**. Att öppna ett projekt ersätter de aktuella posterna och markeringarna; PDF-filer som redan är öppna förblir öppna.
+Om du öppnar ett projekt medan den aktuella avtagningen har osparade ändringar frågar TakeoffDesk först: **Avbryt**, **Kasta ändringarna** eller **Spara avtagningen först**. Att öppna ett projekt ersätter de aktuella posterna och markeringarna; PDF-filer som redan är öppna förblir öppna.
 
 ## När en PDF saknas
 
@@ -55,7 +55,7 @@ följt av filnamnen och storlekarna. Deras markeringar räknas fortfarande i all
 
 ## När en PDF har ändrats
 
-En PDF som reviderats, eller bara sparats igen av ett annat program, har ett annat innehåll, så den är en **annan fil** för TakeoffCraft, även med samma namn. I anteckningen under bladlistan säger en sådan fil "en fil med det här namnet är öppen, men innehållet skiljer sig".
+En PDF som reviderats, eller bara sparats igen av ett annat program, har ett annat innehåll, så den är en **annan fil** för TakeoffDesk, även med samma namn. I anteckningen under bladlistan säger en sådan fil "en fil med det här namnet är öppen, men innehållet skiljer sig".
 
 - Markeringarna är kvar på den gamla versionen. De fortsätter att räknas, på sina gamla positioner och skalor.
 - Den reviderade PDF-filen öppnas som nya blad utan skala och utan markeringar.
@@ -64,11 +64,11 @@ För att flytta avtagningen till revisionen, öppna båda PDF-filerna och använ
 
 ## En skadad eller främmande fil
 
-TakeoffCraft kontrollerar varje projektfil innan den används. Meddelanden du kan se:
+TakeoffDesk kontrollerar varje projektfil innan den används. Meddelanden du kan se:
 
-- "(file) är inte ett TakeoffCraft-projekt (det är inte giltig JSON)."
-- "Det här är inte en TakeoffCraft-projektfil."
-- "Projektet sparades av en nyare TakeoffCraft. Öppna det där."
+- "(file) är inte ett TakeoffDesk-projekt (det är inte giltig JSON)."
+- "Det här är inte en TakeoffDesk-projektfil."
+- "Projektet sparades av en nyare TakeoffDesk. Öppna det där."
 - "3 markeringar var skadade och lämnades utanför." (resten öppnas)
 
 ## Ångrahistorik

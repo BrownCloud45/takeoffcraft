@@ -5,7 +5,7 @@ keywords: abrir, juego de planos, varios pdf, varios archivos, hojas, dibujos, e
 from: ed434468
 ---
 
-Un juego de planos suele ser varios PDF: arquitectónicos, estructurales, mecánicos. TakeoffCraft los abre uno junto a otro como una sola lista de hojas, y una misma medición puede cubrirlos todos.
+Un juego de planos suele ser varios PDF: arquitectónicos, estructurales, mecánicos. TakeoffDesk los abre uno junto a otro como una sola lista de hojas, y una misma medición puede cubrirlos todos.
 
 ## Abrir los PDF
 
@@ -14,14 +14,14 @@ Un juego de planos suele ser varios PDF: arquitectónicos, estructurales, mecán
 3. Elija Abrir.
    Se muestra un mensaje "Abriendo (nombre)…" mientras se lee cada archivo. Después aparece cada página bajo {{ui:Hojas}}, y se abre la primera página del primer PDF nuevo.
 
-También puede arrastrar los PDF desde {{pick:mac=Finder|windows=File Explorer|linux=su gestor de archivos}} y soltarlos en cualquier parte de TakeoffCraft. Mientras arrastra, aparece un marco "Suelte PDF, dibujos DWG o DXF, o un .takeoff.json".
+También puede arrastrar los PDF desde {{pick:mac=Finder|windows=File Explorer|linux=su gestor de archivos}} y soltarlos en cualquier parte de TakeoffDesk. Mientras arrastra, aparece un marco "Suelte PDF, dibujos DWG o DXF, o un .takeoff.json".
 
 Para añadir más PDF después, repita lo mismo. Los PDF que ya están abiertos se omiten.
 
 La pantalla de inicio también muestra los PDF y las mediciones que abrió recientemente, en los navegadores que permiten a una página volver a abrir un archivo (Chrome y Edge). Haga clic en uno para abrirlo; el navegador puede pedir permiso antes. Consulte [Sus archivos](common:your-files).
 
 :::note
-No se sube nada. El navegador lee los PDF en su ordenador, y dejan de estar en TakeoffCraft al cerrar la pestaña o al elegir {{ui:Nueva}}.
+No se sube nada. El navegador lee los PDF en su ordenador, y dejan de estar en TakeoffDesk al cerrar la pestaña o al elegir {{ui:Nueva}}.
 :::
 
 ## Dibujos junto a PDF
@@ -30,7 +30,7 @@ No se sube nada. El navegador lee los PDF en su ordenador, y dejan de estar en T
 
 ## Un PDF entregado desde otra aplicación
 
-Otra aplicación de la gama puede entregarle el PDF que tiene abierto: abre TakeoffCraft en una pestaña nueva, y el PDF se abre allí como si lo hubiera soltado. La barra de estado dice "Abierto (nombre), entregado desde (aplicación). El archivo original no ha cambiado." No se sube nada; el archivo pasa por el almacenamiento propio de este navegador, y deja de estar en él una vez abierto.
+Otra aplicación de la gama puede entregarle el PDF que tiene abierto: abre TakeoffDesk en una pestaña nueva, y el PDF se abre allí como si lo hubiera soltado. La barra de estado dice "Abierto (nombre), entregado desde (aplicación). El archivo original no ha cambiado." No se sube nada; el archivo pasa por el almacenamiento propio de este navegador, y deja de estar en él una vez abierto.
 
 Si la barra de estado dice que el PDF "no llegó", la pestaña esperó demasiado o el PDF ya estaba abierto en otra pestaña: ábralo con {{ui:Abrir PDF}}.
 

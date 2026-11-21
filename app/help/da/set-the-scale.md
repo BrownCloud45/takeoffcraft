@@ -5,7 +5,7 @@ keywords: find målestok, læs målestok, målestok fra tekst, alle ark, målest
 from: 8f0148e6
 ---
 
-Hvert ark har sin egen målestok. Du angiver den, eller lader TakeoffCraft læse den fra arkenes tekst (nedenfor), og kontrollerer den. Indtil et ark har en, nægter {{ui:Lineær}}, {{ui:Areal}}, {{ui:Cirkel}} og {{ui:Udsparing}} at måle på det. {{ui:Tæl}} og {{ui:Auto-tælling}} virker uden målestok.
+Hvert ark har sin egen målestok. Du angiver den, eller lader TakeoffDesk læse den fra arkenes tekst (nedenfor), og kontrollerer den. Indtil et ark har en, nægter {{ui:Lineær}}, {{ui:Areal}}, {{ui:Cirkel}} og {{ui:Udsparing}} at måle på det. {{ui:Tæl}} og {{ui:Auto-tælling}} virker uden målestok.
 
 Arkelisten viser hvert arks målestok eller **Ingen målestok**. Linjen under det åbne ark siger det samme.
 
@@ -23,7 +23,7 @@ Den fulde liste findes i [Målestok-forudindstillinger](topic:scale-presets).
 
 ## Læs målestokkene fra arkenes tekst
 
-De fleste tegninger angiver deres målestok: `SCALE: 1/4" = 1'-0"` i tegningshovedet, `1:100` under en visning. TakeoffCraft kan læse den og angive alle ark på én gang.
+De fleste tegninger angiver deres målestok: `SCALE: 1/4" = 1'-0"` i tegningshovedet, `1:100` under en visning. TakeoffDesk kan læse den og angive alle ark på én gang.
 
 1. Åbn listen {{ui:Forudindstilling}} og vælg {{ui:Fra arkenes tekst…}} (øverst).
 2. Listen viser hvert ark: dets nuværende målestok, og hvad dets tekst siger — **Siger 1/4" = 1'-0"**, **Ingen målestok i dens tekst** eller **Siger ikke i målestok** (NTS).
@@ -44,7 +44,7 @@ Brug dette når der ikke er en trykt målestok du stoler på, sættet er ændret
 5. Skriv den virkelige afstand i **Virkelig afstand**, for eksempel `24'-6 1/2"`, `24.5` (decimalfod), `30"` eller `7.5 m`. Se [Indtastning af længde, pris og procent](topic:entry-formats).
 6. Vælg {{ui:Angiv målestokken}}.
    Statuslinjen viser målestokken som »1" = (n)'«, og når den ligger inden for 0.5 % af en forudindstilling, siger den hvilken, for eksempel »som svarer til 1/4" = 1'-0" (vælg den forudindstilling for en præcis målestok)«.
-   TakeoffCraft vender tilbage til værktøjet {{ui:Vælg}}.
+   TakeoffDesk vender tilbage til værktøjet {{ui:Vælg}}.
 
 Når kalibreringen svarer til en forudindstilling, giver valg af den forudindstilling en præcis målestok i stedet for en, der afhænger af hvor du klikkede.
 
@@ -61,11 +61,11 @@ Tryk {{key:Esc}} for at fjerne kontrollinjen.
 
 ## Ændr en målestok
 
-Vælg en anden forudindstilling eller kalibrér igen. Hvis arket allerede har målinger, spørger TakeoffCraft **Ændr dette arks målestok?** og siger hvor mange målinger der måles igen. Vælg {{ui:Ændr målestokken}}. Hvert forløb og areal på arket måles igen i den nye målestok. Du kan fortryde det med {{key:Mod+Z}}.
+Vælg en anden forudindstilling eller kalibrér igen. Hvis arket allerede har målinger, spørger TakeoffDesk **Ændr dette arks målestok?** og siger hvor mange målinger der måles igen. Vælg {{ui:Ændr målestokken}}. Hvert forløb og areal på arket måles igen i den nye målestok. Du kan fortryde det med {{key:Mod+Z}}.
 
 ## Hvorfor ark uden målestok ikke tælles som nul
 
-En markering på et ark uden målestok har ingen reel længde eller areal. TakeoffCraft tæller den aldrig som nul, for det ville stille og roligt gøre din kalkulation for lav. I stedet:
+En markering på et ark uden målestok har ingen reel længde eller areal. TakeoffDesk tæller den aldrig som nul, for det ville stille og roligt gøre din kalkulation for lav. I stedet:
 
 - udelader disse markeringer fra totalerne,
 - viser »+(n) uden målestok« ved siden af posten i {{ui:Mængder}},
@@ -77,5 +77,5 @@ Det kan ske, når du åbner et projekt, hvis målestokke aldrig blev angivet. Gi
 ## Tips
 
 - Angiv målestokken på hvert ark, du vil måle, inden du går i gang. Gennemgå arkelisten for **Ingen målestok** for at finde de resterende (søgefeltet kigger på arknavne, ikke målestokke).
-- Detaljer og forstørrede planer på samme ark bruger ofte en anden målestok. TakeoffCraft har én målestok pr. ark; se [Hvad der ikke er lavet endnu](topic:not-built-yet).
+- Detaljer og forstørrede planer på samme ark bruger ofte en anden målestok. TakeoffDesk har én målestok pr. ark; se [Hvad der ikke er lavet endnu](topic:not-built-yet).
 - Metriske tegninger: vælg en metrisk forudindstilling såsom `1:100`, eller kalibrér med en metrisk afstand som `6000 mm`.

@@ -32,11 +32,11 @@ Izimpawu ezinamathiselwe zihamba endaweni yezindleko ekhethwe phezulu ephaneli y
 
 {{key:Mod+Shift+V}} ({{ui:Namathisela endaweni}}) ibeka ikhophi endaweni efanayo ngqo eshidini elivulekile, ngokuma kwayo ekhasini. Yisebenzise ifloro elijwayelekile: bala izinga 2, kopisha, vula izinga 3, namathisela endaweni.
 
-Namathisela endaweni udinga ishidi **elifanayo ngosayizi** nelakopishwa kulo. Kushidi losayizi ohlukile i-TakeoffCraft iyatshela futhi ayinamathisi lutho; sebenzisa {{ui:Namathisela}} uchofoze. Eshidini elakopishwa kulo, ikhophi ifika phezu kwezimpawu zokuqala.
+Namathisela endaweni udinga ishidi **elifanayo ngosayizi** nelakopishwa kulo. Kushidi losayizi ohlukile i-TakeoffDesk iyatshela futhi ayinamathisi lutho; sebenzisa {{ui:Namathisela}} uchofoze. Eshidini elakopishwa kulo, ikhophi ifika phezu kwezimpawu zokuqala.
 
 ## Isikali kufanele sifane
 
-Ubude nezindawo kuncike esikalini seshidi. Umugqa okala u-10' ngo-1/4" = 1'-0" wawuzokala u-20' eshidini elingu-1/8" = 1'-0". Ngakho i-TakeoffCraft inamathisela imigqa nezindawo kuphela eshidini elinesikali **esifanayo** neshidi elavela kulo, futhi iyatshela uma lingenjalo:
+Ubude nezindawo kuncike esikalini seshidi. Umugqa okala u-10' ngo-1/4" = 1'-0" wawuzokala u-20' eshidini elingu-1/8" = 1'-0". Ngakho i-TakeoffDesk inamathisela imigqa nezindawo kuphela eshidini elinesikali **esifanayo** neshidi elavela kulo, futhi iyatshela uma lingenjalo:
 
 - Ishidi elivulekile alinasikali okwamanje: linike okokuqala ([Setha isikali](topic:set-the-scale)), bese unamathisela.
 - Ishidi elivulekile linesikali esehlukile: umlayezo ubiza zombili izikali. Namathisela eshidini elinesikali elifanayo.
@@ -59,7 +59,7 @@ Umhleli wento (ngaphansi kwe-**Izinto**) uphela ngalokhu:
 - {{ui:Phinda into}}: yengeza ikhophi ngokushesha, ibizwa ngokuthi "(igama) (ikhophi)".
 
 :::tip
-Ikhophi ihlala kulo kompyutha: igcinwa kule thebhu nasesitoreji sesiphequluli, ukuze ithebhu enye ye-TakeoffCraft ikwazi ukunamathisela. Akulayishwa lutho, futhi i-clipboard yesistimu ayisetshenziswa, ngakho awukwazi ukunamathisela izimpawu ezinhlelweni zanoma yini.
+Ikhophi ihlala kulo kompyutha: igcinwa kule thebhu nasesitoreji sesiphequluli, ukuze ithebhu enye ye-TakeoffDesk ikwazi ukunamathisela. Akulayishwa lutho, futhi i-clipboard yesistimu ayisetshenziswa, ngakho awukwazi ukunamathisela izimpawu ezinhlelweni zanoma yini.
 :::
 
 :::note

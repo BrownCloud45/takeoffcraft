@@ -1,22 +1,22 @@
 ---
 title: Coming from other takeoff software
-summary: How the habits of dedicated takeoff programs and PDF markup tools map to TakeoffCraft, and the differences that trip people up.
+summary: How the habits of dedicated takeoff programs and PDF markup tools map to TakeoffDesk, and the differences that trip people up.
 section: switching
 order: 10
 keywords: switching, migrate, conditions, parts, measurement tools, markups list, quantity link, takeoff habits, differences, compare
 ---
 
-If you have done takeoff in PlanSwift or with the measurement tools in Bluebeam Revu, most of TakeoffCraft will feel familiar: a plan set, a scale per sheet, things you measure, and a priced total. The way the pieces fit together is different in places, and those places are below.
+If you have done takeoff in PlanSwift or with the measurement tools in Bluebeam Revu, most of TakeoffDesk will feel familiar: a plan set, a scale per sheet, things you measure, and a priced total. The way the pieces fit together is different in places, and those places are below.
 
-If you know PlanSwift or On-Screen Takeoff, pick the {{ui:Takeoff desk}} menu style in {{ui:Settings}} › {{ui:TakeoffCraft}} › {{ui:Menus, keys and mouse}}: a menu bar with File, Edit, View, Scale, Takeoff, Items, Markup and Export over a row of the takeoff tools, with the scale presets on the sheet bar. See [Menus, keys and mouse](topic:menus-keys-and-mouse).
+If you know PlanSwift or On-Screen Takeoff, pick the {{ui:Takeoff desk}} menu style in {{ui:Settings}} › {{ui:TakeoffDesk}} › {{ui:Menus, keys and mouse}}: a menu bar with File, Edit, View, Scale, Takeoff, Items, Markup and Export over a row of the takeoff tools, with the scale presets on the sheet bar. See [Menus, keys and mouse](topic:menus-keys-and-mouse).
 
 ## Habits mapped
 
-| You are used to | In TakeoffCraft |
+| You are used to | In TakeoffDesk |
 |---|---|
 | Opening a job or project that stores the plans (PlanSwift) | Open the PDFs and the `.takeoff.json` project side by side. The project stores only the takeoff; the PDFs stay your own files. |
 | A markups list with notes, clouds and highlights (Bluebeam) | {{ui:Markup}} on the sheet bar: notes, clouds and highlights with a status (Open, Answered, Closed), listed under **Markups**, drawn in the marked PDF. See [Notes, clouds and highlights](topic:markups). |
-| Measurements saved as markups inside the PDF (Bluebeam) | The takeoff lives in the `.takeoff.json` file. {{ui:Marked PDF}} writes a copy with the takeoff drawn in, for sharing; {{ui:PDF with the takeoff inside}} writes a copy that carries the takeoff, to reopen in TakeoffCraft. |
+| Measurements saved as markups inside the PDF (Bluebeam) | The takeoff lives in the `.takeoff.json` file. {{ui:Marked PDF}} writes a copy with the takeoff drawn in, for sharing; {{ui:PDF with the takeoff inside}} writes a copy that carries the takeoff, to reopen in TakeoffDesk. |
 | Takeoff items (PlanSwift), custom measurement tools saved in the Tool Chest (Bluebeam) | **Items** under {{ui:Items}}: name, type, color, unit, height or depth, waste, rates. |
 | Parts and assemblies with formulas (PlanSwift) | The item's {{ui:Assembly}}: components with a formula using `L H A N P`. |
 | Setting the page scale, or calibrating (both) | {{ui:Preset}} list or {{ui:Calibrate}} in the {{ui:Scale}} group, per sheet. {{ui:Check}} measures a known dimension. |
@@ -40,7 +40,7 @@ If you know PlanSwift or On-Screen Takeoff, pick the {{ui:Takeoff desk}} menu st
 
 **The takeoff is not inside your PDF.** Nothing you do changes your PDFs. Save the `.takeoff.json` file and keep it with the drawings. Sending someone the marked PDF does not send them an editable takeoff: send the project file and the original PDFs, or a [PDF with the takeoff inside](topic:save-and-reopen#keep-the-takeoff-inside-the-pdf).
 
-**PDFs are matched by contents, not by name.** A revised sheet saved over the old file name is a new file to TakeoffCraft, with no scale and no marks. Your old marks stay on the old version and keep counting. See [Save and reopen a takeoff](topic:save-and-reopen#when-a-pdf-has-changed).
+**PDFs are matched by contents, not by name.** A revised sheet saved over the old file name is a new file to TakeoffDesk, with no scale and no marks. Your old marks stay on the old version and keep counting. See [Save and reopen a takeoff](topic:save-and-reopen#when-a-pdf-has-changed).
 
 **Unscaled marks are left out, not counted as zero.** If a sheet has no scale, its runs and areas do not count, and the table says "Incomplete". In many programs you would just see 0. See [Set the scale](topic:set-the-scale#why-unscaled-sheets-are-not-counted-as-zero).
 
@@ -54,9 +54,9 @@ If you know PlanSwift or On-Screen Takeoff, pick the {{ui:Takeoff desk}} menu st
 
 **Dragging pans.** A left-button drag on the sheet pans, in every tool except {{ui:Auto count}}. You never need to switch to a pan tool. The wheel zooms; it does not scroll.
 
-**A recovery copy, not a cloud.** TakeoffCraft keeps a copy of your work in this browser and offers it back after a crash ([If the tab or the browser stops](topic:save-and-reopen#if-the-tab-or-the-browser-stops)), but the takeoff is yours to save: {{key:Mod+S}}. Cloud saving is not available yet.
+**A recovery copy, not a cloud.** TakeoffDesk keeps a copy of your work in this browser and offers it back after a crash ([If the tab or the browser stops](topic:save-and-reopen#if-the-tab-or-the-browser-stops)), but the takeoff is yours to save: {{key:Mod+S}}. Cloud saving is not available yet.
 
-**Everything is in the browser.** There is nothing to install, and the plans are never uploaded. For a desktop app, TakeoffCraft comes in CadCraft Studio, with the other seven apps.
+**Everything is in the browser.** There is nothing to install, and the plans are never uploaded.
 
 ## Not here yet
 

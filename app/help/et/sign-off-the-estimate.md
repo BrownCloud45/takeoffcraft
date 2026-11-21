@@ -19,9 +19,9 @@ Jaotises **Kogused › Kirje järgi** on rida, millel on kogus, kuid mitte mater
 2. Dialoog ütleb, millise kogusumma sa kinnitad, ja loetleb read ilma määrata. Sisesta oma nimi ja soovi korral oma roll.
 3. Klõpsa **Kinnita**. Riba ütleb nüüd „Kinnitanud … kuupäeval …“ koos kogusummaga. Salvesta koguste arvestus, et see failis alles jääks.
 
-Kinnitus kuulub arvudele, mille kinnitasid. Iga hilisem muudatus kogusel, määral või real tühistab selle ning TakeoffCraft annab sellest teada. Tagasivõtmine toob tagasi kinnitatud eelarve ja selle kinnituse koos sellega. Rea ümbernimetamine ei ole arvu muutmine. **Eemalda kinnitus** võtab selle ära.
+Kinnitus kuulub arvudele, mille kinnitasid. Iga hilisem muudatus kogusel, määral või real tühistab selle ning TakeoffDesk annab sellest teada. Tagasivõtmine toob tagasi kinnitatud eelarve ja selle kinnituse koos sellega. Rea ümbernimetamine ei ole arvu muutmine. **Eemalda kinnitus** võtab selle ära.
 
-Kui koguste arvestuse faili on pärast kinnitamist muudetud väljaspool TakeoffCraft'i, avaneb see ilma kinnituseta ning sellest räägib märkus. Eksporditud eelarve (CSV ja XLSX) nimetab kinnituse summade all.
+Kui koguste arvestuse faili on pärast kinnitamist muudetud väljaspool TakeoffDesk'i, avaneb see ilma kinnituseta ning sellest räägib märkus. Eksporditud eelarve (CSV ja XLSX) nimetab kinnituse summade all.
 
 Kinnitab ainult inimene. AI-assistent saab lugeda, kas eelarve on kinnitatud ja millised määrad puuduvad; tal ei ole võimalust kinnitada.
 

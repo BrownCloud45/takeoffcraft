@@ -1,6 +1,6 @@
 ---
 title: Beszállítói készlet és szállítási idők ellenőrzése
-summary: Adjon hozzá egy beszállító készletlistáját (CSV vagy táblázat), és a TakeoffCraft a hulladékkal együtt ellenőrzi, mire van szükség a mennyiségkimutatásban: van-e elég készleten, és mennyi a várakozás. A hiányok és a hosszú várakozások a Problémák panelen jelennek meg.
+summary: Adjon hozzá egy beszállító készletlistáját (CSV vagy táblázat), és a TakeoffDesk a hulladékkal együtt ellenőrzi, mire van szükség a mennyiségkimutatásban: van-e elég készleten, és mennyi a várakozás. A hiányok és a hosszú várakozások a Problémák panelen jelennek meg.
 keywords: beszállító, készlet, készleten, szállítási idő, rendelkezésre állás, hiány, utánrendelés, rendelési lista, csv, sku, eladó, anyagok, készlet, problémák
 from: f11160fb
 ---

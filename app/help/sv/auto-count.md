@@ -1,6 +1,6 @@
 ---
 title: Autoräkna en symbol
-summary: Rita en ruta runt en symbol, låt TakeoffCraft hitta de övriga på detta blad eller på alla öppna blad, granska träffarna med reglaget och lägg till dem i ett steg.
+summary: Rita en ruta runt en symbol, låt TakeoffDesk hitta de övriga på detta blad eller på alla öppna blad, granska träffarna med reglaget och lägg till dem i ett steg.
 keywords: valfri vinkel, roterad, vriden, annan skala, olika skala, autoräkna, automatisk räkning, symbolsökning, hitta symboler, mönster, mall, träff, detektera, räkneverktyg
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ För att avbryta granskningen utan att lägga till något, välj {{ui:Discard}} 
 
 ## Vad den hittar och vad den missar
 
-TakeoffCraft jämför ritningen, pixel för pixel, med symbolen du ritade runt.
+TakeoffDesk jämför ritningen, pixel för pixel, med symbolen du ritade runt.
 
 - Den hittar symbolen vriden 0°, 90°, 180° och 270°. Bocka i {{ui:Any angle (slower)}} på autoräkningsraden innan du ritar rutan för att även hitta den i valfri vinkel: den prövar var 15°, och finjusterar sedan varje träff till en och en halv grad. Det tar ungefär sex gånger så lång tid. Den hittar inte en spegelvänd symbol (om inte symbolen ser likadan ut speglad).
 - Med {{ui:Search all open sheets}} ibockad söks ett blad i en annan skala med den storlek symbolen har där: en armatur ritad i skala på en 1/8"-plan är hälften så stor som på en 1/4"-plan, och hittas ändå. Ett sådant blad söks också med rutans egna storlek, för märkningar och symboler som är utskrivna i samma storlek på varje blad. Detta kräver en skala på båda bladen; ett blad utan skala söks endast i rutans storlek.

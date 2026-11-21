@@ -19,9 +19,9 @@ Sadaļā **Daudzumi › Pēc vienuma** rinda, kurai ir daudzums, bet nav materi�
 2. Dialogs norāda kopsummu, ko parakstāt, un uzskaita rindas bez likmes. Ievadiet savu vārdu un, ja vēlaties, savu amatu.
 3. Noklikšķiniet uz **Parakstīt**. Josla tagad rāda "Parakstījis … datumā …" ar kopsummu. Saglabājiet apjomu aprēķinu, lai to paturētu failā.
 
-Paraksts attiecas uz cipariem, ko parakstījāt. Jebkura vēlāka daudzuma, likmes vai rindas izmaiņa to notīra, un TakeoffCraft par to paziņo. Atsaukšana atgriež tāmi, ko parakstījāt, kopā ar tās parakstu. Rindas pārdēvēšana nav figūras izmaiņa. **Noņemt parakstu** to noņem.
+Paraksts attiecas uz cipariem, ko parakstījāt. Jebkura vēlāka daudzuma, likmes vai rindas izmaiņa to notīra, un TakeoffDesk par to paziņo. Atsaukšana atgriež tāmi, ko parakstījāt, kopā ar tās parakstu. Rindas pārdēvēšana nav figūras izmaiņa. **Noņemt parakstu** to noņem.
 
-Apjomu aprēķina fails, kas rediģēts ārpus TakeoffCraft pēc parakstīšanas, tiek atvērts bez paraksta, ar piezīmi par to. Eksportētā tāme (CSV un XLSX) parāda parakstu zem kopsummām.
+Apjomu aprēķina fails, kas rediģēts ārpus TakeoffDesk pēc parakstīšanas, tiek atvērts bez paraksta, ar piezīmi par to. Eksportētā tāme (CSV un XLSX) parāda parakstu zem kopsummām.
 
 Parakstīt var tikai cilvēks. MI palīgs var nolasīt, vai tāme ir parakstīta un kurām likmes trūkst; tam nav iespējas parakstīt.
 

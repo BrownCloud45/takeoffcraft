@@ -77,7 +77,7 @@ Viena eilutė kiekvienam lapui, kuris turi mastelį ar žymas.
 | Lapas | Lapo pavadinimas |
 | Mastelis | Parinkties pavadinimas, kalibruotas mastelis arba „Nėra mastelio“ |
 | Kaip | „Parinktis“ arba „Kalibruota pagal (atstumą, kurį įvedėte)“ |
-| Pėdos vienam PDF vienetui | Tikslus mastelio koeficientas, kurį naudoja TakeoffCraft |
+| Pėdos vienam PDF vienetui | Tikslus mastelio koeficientas, kurį naudoja TakeoffDesk |
 
 ## Failų pavadinimai
 

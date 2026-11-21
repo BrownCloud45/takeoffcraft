@@ -41,7 +41,7 @@ Gdy pokoje są narysowane jako zamknięte ściany, {{ui:Pokój}} ({{key:B}}) zde
 2. Wybierz {{ui:Pokój}} w grupie {{ui:Przedmiar}} albo naciśnij {{key:B}}.
 3. Kliknij wewnątrz pokoju, w otwartej podłodze (nie na linii ani na etykiecie).
 
-TakeoffCraft odczytuje linie arkusza, znajduje przestrzeń wokół kliknięcia i obrysowuje ją wzdłuż wewnętrznych lic ścian jako pole bieżącej pozycji. Otwory drzwiowe do **4'-0"** są traktowane jako zamknięte, więc obrys biegnie prosto przez przejście; **Ustawienia › TakeoffCraft › Wypełnienie pokoju zamyka otwory do** zmienia tę szerokość (od 3'-0" do 8'-0"). Nazwy pomieszczeń, meble i wyposażenie wewnątrz pokoju nie tworzą otworów.
+TakeoffDesk odczytuje linie arkusza, znajduje przestrzeń wokół kliknięcia i obrysowuje ją wzdłuż wewnętrznych lic ścian jako pole bieżącej pozycji. Otwory drzwiowe do **4'-0"** są traktowane jako zamknięte, więc obrys biegnie prosto przez przejście; **Ustawienia › TakeoffDesk › Wypełnienie pokoju zamyka otwory do** zmienia tę szerokość (od 3'-0" do 8'-0"). Nazwy pomieszczeń, meble i wyposażenie wewnątrz pokoju nie tworzą otworów.
 
 Odmawia i podaje powód, gdy:
 
@@ -62,7 +62,7 @@ Gdy drzwi są szersze niż ustawienie, wypełnienie wchodzi do następnego pokoj
 
 Okrągły otwór: wybierz {{ui:Dodaj okrągłe wycięcie}} w **Wybranym oznaczeniu**, kliknij jego środek, a potem punkt na jego krawędzi.
 
-Wycięcie musi leżeć w całości wewnątrz pola i nie może nachodzić na inne wycięcie. W przeciwnym razie TakeoffCraft je odrzuca: „Wycięcie musi leżeć w całości wewnątrz pola.” albo „Wycięcia nie mogą na siebie nachodzić.”
+Wycięcie musi leżeć w całości wewnątrz pola i nie może nachodzić na inne wycięcie. W przeciwnym razie TakeoffDesk je odrzuca: „Wycięcie musi leżeć w całości wewnątrz pola.” albo „Wycięcia nie mogą na siebie nachodzić.”
 
 Ostatni otwór usuwasz przez {{ui:Usuń ostatnie wycięcie}}.
 
@@ -76,7 +76,7 @@ Wycięcie należy do jednego oznaczenia pola. **Odejmowanie wsteczne** jest ryso
 
 Każde oznaczenie pola w pozycjach wybranych na liście, na tym samym arkuszu, traci część pokrytą przez odejmowanie wsteczne: całe odejmowanie, gdy leży w środku; tylko nakładającą się część, gdy przecina krawędź; i nic wewnątrz wycięcia. Panel zaznaczonego pola pokazuje **Odejmowanie wsteczne** i pozostałe pole. Ilość pozycji, jej formuły w kosztorysie, koszty, widok 3D sprawdzenia i eksport używają pozostałego pola; uwagi kosztorysu mówią, ile odjęły odejmowania wsteczne. Sama pozycja odejmowania wstecznego liczy własne pole (zostaw jej koszty na zero, jeśli jej nie wyceniasz).
 
-Odejmowanie wsteczne musi być **wypukłe**: prostokąt, okrąg lub dowolny obrys bez wklęsłego narożnika. TakeoffCraft odmawia narysowania takiego, który tego nie spełnia; szyb w kształcie litery L narysuj jako dwa odejmowania wsteczne. Odejmowania wsteczne nie mogą mieć wycięć, a dwa odejmowania nachodzące na siebie liczą się oba.
+Odejmowanie wsteczne musi być **wypukłe**: prostokąt, okrąg lub dowolny obrys bez wklęsłego narożnika. TakeoffDesk odmawia narysowania takiego, który tego nie spełnia; szyb w kształcie litery L narysuj jako dwa odejmowania wsteczne. Odejmowania wsteczne nie mogą mieć wycięć, a dwa odejmowania nachodzące na siebie liczą się oba.
 
 Obwód (`P`) się nie zmienia: odejmowania wsteczne zabierają tylko pole.
 

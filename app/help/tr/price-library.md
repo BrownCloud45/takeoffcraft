@@ -13,7 +13,7 @@ from: 37356c68
 
 - {{ui:CSV içe aktar…}} bir CSV olarak kaydedilmiş bir elektronik tabloyu okur (aşağıdaki sütunlara bakın). Kütüphanede adı ve türü zaten olan kalemler değiştirilir; diğerleri eklenir. Okunamayan satırlar atlanır ve hangileri ile neden olduğunu söyler.
 - {{ui:Bu metrajın kalemlerini ekle}} açık metrajın her kalemini, oranları ve birim maliyetiyle birlikte kütüphaneye kopyalar (işaretleri değil).
-- TakeoffCraft'ın dışa aktardığı keşif CSV'si ([Keşfi dışa aktarma](topic:export-estimate)) olduğu gibi içe aktarılır: son işin fiyatları bir sonraki işe başlangıç olur.
+- TakeoffDesk'ın dışa aktardığı keşif CSV'si ([Keşfi dışa aktarma](topic:export-estimate)) olduğu gibi içe aktarılır: son işin fiyatları bir sonraki işe başlangıç olur.
 
 - {{ui:Meslek paketleri…}} bir meslek için ücretsiz birim maliyetler ekler (alçıpan, elektrik ya da beton gibi), fiyat olmadan. Bkz. [Meslek paketleri](topic:trade-packs).
 

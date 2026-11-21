@@ -19,9 +19,9 @@ W **Ilości › Wg pozycji** wiersz, który ma ilość i nie ma stawki materiał
 2. Okno pokazuje sumę, którą zatwierdzasz, i wypisuje wiersze bez stawki. Wpisz swoje nazwisko i, jeśli chcesz, swoją rolę.
 3. Kliknij **Zatwierdź**. Pasek pokazuje teraz „Zatwierdzone przez … dnia …” z sumą. Zapisz przedmiar, aby zachować to w pliku.
 
-Zatwierdzenie dotyczy liczb, które zatwierdziłeś. Każda późniejsza zmiana ilości, stawki lub wiersza je usuwa, a TakeoffCraft cię o tym informuje. Cofnij przywraca kosztorys, który zatwierdziłeś, wraz z jego zatwierdzeniem. Zmiana nazwy wiersza nie jest zmianą liczby. **Usuń zatwierdzenie** je zdejmuje.
+Zatwierdzenie dotyczy liczb, które zatwierdziłeś. Każda późniejsza zmiana ilości, stawki lub wiersza je usuwa, a TakeoffDesk cię o tym informuje. Cofnij przywraca kosztorys, który zatwierdziłeś, wraz z jego zatwierdzeniem. Zmiana nazwy wiersza nie jest zmianą liczby. **Usuń zatwierdzenie** je zdejmuje.
 
-Plik przedmiaru edytowany poza TakeoffCraft po zatwierdzeniu otwiera się bez zatwierdzenia, z notatką o tym. Wyeksportowany kosztorys (CSV i XLSX) podaje zatwierdzenie pod sumami.
+Plik przedmiaru edytowany poza TakeoffDesk po zatwierdzeniu otwiera się bez zatwierdzenia, z notatką o tym. Wyeksportowany kosztorys (CSV i XLSX) podaje zatwierdzenie pod sumami.
 
 Tylko człowiek zatwierdza. Asystent AI może odczytać, czy kosztorys jest zatwierdzony i których stawek brakuje; nie ma sposobu, by go zatwierdzić.
 

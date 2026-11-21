@@ -46,7 +46,7 @@ Siffrorna ändras inte i 3D: en väggs area är dess exakta längd gånger dess 
 | {{ui:Blad}} | Visa eller dölj ritningen på marken. |
 | ViewCube, uppe till höger | Klicka på en yta, kant eller hörn för att titta därifrån; dra för att kretsa; dra i dess kompassring för att vrida; husknappen går tillbaka till {{ui:Iso}}. |
 
-Hörnet visar en ViewCube, en liten X-, Y-, Z-axelikon, eller inget: välj i {{ui:Inställningar}}, på fliken TakeoffCraft, under **Hörnindikator** ([TakeoffCraft-inställningar](topic:settings)). Det platta bladet har ingen hörnindikator.
+Hörnet visar en ViewCube, en liten X-, Y-, Z-axelikon, eller inget: välj i {{ui:Inställningar}}, på fliken TakeoffDesk, under **Hörnindikator** ([TakeoffDesk-inställningar](topic:settings)). Det platta bladet har ingen hörnindikator.
 
 :::touch
 Ett finger kretsar; två fingrar nyper för att zooma och flyttar för att panorera. Ett tryck väljer.

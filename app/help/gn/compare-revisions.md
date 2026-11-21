@@ -5,14 +5,14 @@ keywords: revisión, revisado, comparar, superposición, viejo, nuevo, cambios, 
 from: 3a1d9fe0
 ---
 
-Hoja ojeikevaʼekue rire, ndaikatúi ojejuga jey. Eipe'a PDF viejo ha pyahu, ehecha hoja-kuéra ha emboguata cómputo peteĩgui ambuégui. TakeoffCraft omarca cada marca omoambuéva dibujo, upéicha ereviza umíva ha oñongatu ambue.
+Hoja ojeikevaʼekue rire, ndaikatúi ojejuga jey. Eipe'a PDF viejo ha pyahu, ehecha hoja-kuéra ha emboguata cómputo peteĩgui ambuégui. TakeoffDesk omarca cada marca omoambuéva dibujo, upéicha ereviza umíva ha oñongatu ambue.
 
 ## Comparar
 
 1. Eipe'a PDF mokõi: juego viejo ha revisado ({{ui:Open plans}}; oĩ peteĩ archivo térã heta-pe).
 2. Eha'ã hoja **nueva**.
 3. Eiporu {{ui:Compare}} barra de hoja-pe, dibujo mboyve.
-4. Eiporúpe hoja vieja lista-pe. TakeoffCraft omoĩ hoja mismo número ambue PDF-pe, térã mismo página. Eiporu **Comparar**.
+4. Eiporúpe hoja vieja lista-pe. TakeoffDesk omoĩ hoja mismo número ambue PDF-pe, térã mismo página. Eiporu **Comparar**.
 
 Dibujo viejo ojeme'ẽ pyahu ári pytã-pe. Oĩ ojoaju-pe, líneas pytã ojoaju líneas hũ ári; ojeambue-pe, líneas pytã añoite (quitadas) ha líneas hũ añoite (agregadas) ehecha. Barra hoja ryguépe oguereko pasos umi; {{key:Esc}} térã {{ui:Close}} omosẽ comparación.
 
@@ -29,7 +29,7 @@ Dibujo pytã ojemovi, ojeroviha ha ojemoambue dibujo hũ ári. Barra de estado o
 
 ## Buscar cambios
 
-Eiporu **Buscar cambios**. TakeoffCraft ojoaju tinta dibujo mokõi: tinta hoja vieja-pe añoite, pytã-pe; tinta hoja pyahu-pe añoite, hovy-pe; barra de estado omoñe'ẽ. Línea ojemoambuéva hasy (re-plot) ndojehechái cambio.
+Eiporu **Buscar cambios**. TakeoffDesk ojoaju tinta dibujo mokõi: tinta hoja vieja-pe añoite, pytã-pe; tinta hoja pyahu-pe añoite, hovy-pe; barra de estado omoñe'ẽ. Línea ojemoambuéva hasy (re-plot) ndojehechái cambio.
 
 Oikuaa avei cada marca hoja vieja-pe ha omoñe'ẽ umíva ojeguerekóva dibujo ojemoambuévape:
 
@@ -40,7 +40,7 @@ Oikuaa avei cada marca hoja vieja-pe ha omoñe'ẽ umíva ojeguerekóva dibujo o
 
 Eiporu **Mover el cómputo aquí**. Cada marca hoja vieja-pe ojemoĩ hoja nueva-pe, alineación rupi, peteĩ paso undo-pe. Umi cambio hendápe oñemarca: halo naranja ndive ojehechauka, ha barra de hoja omoĩ "(n) para revisar".
 
-Hoja nueva ndaipóri escala, oguereko hoja vieja escala (ajuste ojapo dibujo ojeescala rire alinear-pe). Oguereko ambue escala, TakeoffCraft oporandu ántes: marcas ojemboguatáva ojemedi hoja pyahu escala-pe.
+Hoja nueva ndaipóri escala, oguereko hoja vieja escala (ajuste ojapo dibujo ojeescala rire alinear-pe). Oguereko ambue escala, TakeoffDesk oporandu ántes: marcas ojemboguatáva ojemedi hoja pyahu escala-pe.
 
 ## Revisar marcas señaladas
 

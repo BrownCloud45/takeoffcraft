@@ -32,11 +32,11 @@ Nalepljene oznake idu u oblast ponude izabranu na vrhu panela {{ui:Stavke}} (ili
 
 {{key:Mod+Shift+V}} ({{ui:Nalepi na mestu}}) stavlja kopiju na tačno isto mesto na otvorenom listu, prema njenom položaju na stranici. Koristite je za tipičan sprat: uzmite predmer za nivo 2, kopirajte, otvorite nivo 3, nalepite na mestu.
 
-Nalepi na mestu zahteva list **iste veličine** kao onaj sa kog ste kopirali. Na listu druge veličine TakeoffCraft to kaže i ništa ne nalepljuje; umesto toga koristite {{ui:Nalepi}} i kliknite. Na listu sa kog ste kopirali, kopija se nalazi preko originala.
+Nalepi na mestu zahteva list **iste veličine** kao onaj sa kog ste kopirali. Na listu druge veličine TakeoffDesk to kaže i ništa ne nalepljuje; umesto toga koristite {{ui:Nalepi}} i kliknite. Na listu sa kog ste kopirali, kopija se nalazi preko originala.
 
 ## Razmera mora da se poklapa
 
-Dužine i površine zavise od razmere lista. Potez koji meri 10' pri 1/4" = 1'-0" bi merio 20' na listu pri 1/8" = 1'-0". Zato TakeoffCraft nalepljuje poteze i površine samo na list sa **istom razmerom** kao list sa kog su došli, i jasno kaže kada nije:
+Dužine i površine zavise od razmere lista. Potez koji meri 10' pri 1/4" = 1'-0" bi merio 20' na listu pri 1/8" = 1'-0". Zato TakeoffDesk nalepljuje poteze i površine samo na list sa **istom razmerom** kao list sa kog su došli, i jasno kaže kada nije:
 
 - Otvoreni list još nema razmeru: prvo mu je dajte ([Podesite razmeru](topic:set-the-scale)), pa nalepite.
 - Otvoreni list ima drugu razmeru: poruka navodi obe razmere. Nalepite na list iste razmere.
@@ -59,7 +59,7 @@ Uređivač stavke (pod **Stavke**) se završava sa:
 - {{ui:Dupliraj stavku}}: odmah dodaje kopiju, nazvanu „(naziv) (kopija)”.
 
 :::tip
-Kopija ostaje na ovom računaru: čuva se u ovom tabu i u memoriji pregledača, pa je drugi TakeoffCraft tab može nalepiti. Ništa se ne otprema, a sistemski međuspremnik se ne koristi, pa oznake ne možete nalepiti u druge programe.
+Kopija ostaje na ovom računaru: čuva se u ovom tabu i u memoriji pregledača, pa je drugi TakeoffDesk tab može nalepiti. Ništa se ne otprema, a sistemski međuspremnik se ne koristi, pa oznake ne možete nalepiti u druge programe.
 :::
 
 :::note

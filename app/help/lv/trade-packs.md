@@ -39,4 +39,4 @@ Katram vienumam ir arī sava CSI MasterFormat numurs, piemēram, `09 21 16`.
 
 {{ui:Eksportēt kā pakotni…}} bibliotēkā saglabā to kā pakotnes failu (`.ccpack.json`), ko ikviens var pievienot ar {{ui:Atvērt pakotnes failu…}}. Pēc noklusējuma tajā nav vienumu, kas nāca no pievienotajām pakotnēm, un likmes tajā nav. Atzīmējiet {{ui:Iekļaut manas likmes kā paraugcenas}}, lai nosūtītu arī savas likmes: tās tiek izsūtītas ar norādītu reģionu un datumu, un ikviens, kas pievieno pakotni, izvēlas, vai tās izmantot.
 
-Pakotņu faili ir vienkārši dati, nekad programmas. TakeoffCraft pārbauda katru to daļu, pirms to izmanto, un izlaiž visu, ko nevar nolasīt.
+Pakotņu faili ir vienkārši dati, nekad programmas. TakeoffDesk pārbauda katru to daļu, pirms to izmanto, un izlaiž visu, ko nevar nolasīt.

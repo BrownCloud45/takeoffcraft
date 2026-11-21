@@ -5,7 +5,7 @@ keywords: jordarbejde, udgravning, afgravning, opfyld, afgravning og opfyld, pla
 from: a898e508
 ---
 
-TakeoffCraft måler det, der er tegnet på et ark. Jordarbejde kræver en terrænflade, så det deles med CivilCraft, som opbygger terrænflader ud fra punkter, planerer dem og beregner afgravning, opfyld og massetransport.
+TakeoffDesk måler det, der er tegnet på et ark. Jordarbejde kræver en terrænflade, så det deles med CivilCraft, som opbygger terrænflader ud fra punkter, planerer dem og beregner afgravning, opfyld og massetransport.
 
 ## Enkel udgravning her
 
@@ -29,8 +29,8 @@ Punkter fra forskellige ark deler ikke koordinater, så eksporten tager kun det 
 
 CivilCraft's jordarbejde kommer tilbage som to poster, du kan prissætte:
 
-1. I CivilCraft planeres dine byggeplateauer og korridorer, derefter vælges {{ui:Send til TakeoffCraft}} under **Jordarbejde** ([Jordarbejdsvolumener](app:civilcraft/volumes)). Den gemmer en mængdefil (`.quantities.json`).
-2. I TakeoffCraft åbnes den med {{ui:Åbn mængdeudtræk}}, eller den slippes på appen. Dit mængdeudtræk forbliver åbent: filen tilføjer **Jordarbejde: afgravning** og **Jordarbejde: opfyld** som [indtastede mængder](topic:create-items#typed-quantities-no-drawing) i kubikyard (CY) for et projekt i fod, eller kubikmeter (m³) for et projekt i meter. Det er ét trin: {{key:Mod+Z}} fortryder det.
+1. I CivilCraft planeres dine byggeplateauer og korridorer, derefter vælges {{ui:Send til TakeoffDesk}} under **Jordarbejde** ([Jordarbejdsvolumener](app:civilcraft/volumes)). Den gemmer en mængdefil (`.quantities.json`).
+2. I TakeoffDesk åbnes den med {{ui:Åbn mængdeudtræk}}, eller den slippes på appen. Dit mængdeudtræk forbliver åbent: filen tilføjer **Jordarbejde: afgravning** og **Jordarbejde: opfyld** som [indtastede mængder](topic:create-items#typed-quantities-no-drawing) i kubikyard (CY) for et projekt i fod, eller kubikmeter (m³) for et projekt i meter. Det er ét trin: {{key:Mod+Z}} fortryder det.
 3. Omdøb dem, og angiv spild, enhedspriser og kalkulationsenheder, som du ønsker.
 
 Når projektet ændres, sendes det igen fra CivilCraft, og den nye fil åbnes: de samme to poster får de nye mængder. Deres navne, enhedspriser, spild og kalkulationsenheder bliver, som du har angivet dem. Hvis projektets enhed er ændret, siger statuslinjen det: kontrollér enhedspriserne. En fil fra et andet CivilCraft-projekt tilføjer sine egne to poster.

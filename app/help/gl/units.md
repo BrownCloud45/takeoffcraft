@@ -55,4 +55,4 @@ A escala dunha folla indica o tamaño do debuxo; a unidade dun elemento indica c
 
 ## Precisión
 
-TakeoffCraft mide exactamente a partir dos puntos que fas clic, incluídas as lonxitudes e superficies reais dos arcos, e non redondea as cantidades. A visualización redondea as lonxitudes a 1/16 de polgada e os decimais a dúas cifras. Os importes monetarios redondeanse só nos importes extendidos, ao céntimo.
+TakeoffDesk mide exactamente a partir dos puntos que fas clic, incluídas as lonxitudes e superficies reais dos arcos, e non redondea as cantidades. A visualización redondea as lonxitudes a 1/16 de polgada e os decimais a dúas cifras. Os importes monetarios redondeanse só nos importes extendidos, ao céntimo.

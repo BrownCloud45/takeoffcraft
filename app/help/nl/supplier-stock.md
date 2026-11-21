@@ -1,6 +1,6 @@
 ---
 title: Voorraad en levertijden van leverancier controleren
-summary: Voeg de voorraadlijst van een leverancier toe (CSV of spreadsheet) en TakeoffCraft controleert wat de opmeting nodig heeft, inclusief verlies, daarmee: genoeg op voorraad en hoe lang de wachttijd is. Tekorten en lange wachttijden verschijnen in het paneel Problemen.
+summary: Voeg de voorraadlijst van een leverancier toe (CSV of spreadsheet) en TakeoffDesk controleert wat de opmeting nodig heeft, inclusief verlies, daarmee: genoeg op voorraad en hoe lang de wachttijd is. Tekorten en lange wachttijden verschijnen in het paneel Problemen.
 keywords: leverancier, voorraad, op voorraad, levertijd, beschikbaarheid, tekort, nabestelling, bestellijst, csv, sku, verkoper, materialen, levering, problemen
 from: f11160fb
 ---

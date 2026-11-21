@@ -34,7 +34,7 @@ readline.createInterface({ input: process.stdin }).on('line', (line) => {
       const text = await r.text();
       if (text) out(JSON.parse(text));
     } catch (e) {
-      if (msg && msg.id !== undefined) out({ jsonrpc: '2.0', id: msg.id, error: { code: -32001, message: `The TakeoffCraft dev shell is not running at ${url} (${e.message}). Start it with: npm run mcp` } });
+      if (msg && msg.id !== undefined) out({ jsonrpc: '2.0', id: msg.id, error: { code: -32001, message: `The TakeoffDesk dev shell is not running at ${url} (${e.message}). Start it with: npm run mcp` } });
     }
   });
 });

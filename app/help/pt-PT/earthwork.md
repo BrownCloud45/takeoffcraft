@@ -5,7 +5,7 @@ keywords: terraplenagem, escavação, aterro, escavação e aterro, modelação 
 from: a898e508
 ---
 
-O TakeoffCraft mede o que está desenhado numa folha. A terraplenagem precisa de uma superfície do terreno, por isso é partilhada com o CivilCraft, que cria superfícies a partir de pontos, modela-as e calcula a escavação, o aterro e o diagrama de Brückner.
+O TakeoffDesk mede o que está desenhado numa folha. A terraplenagem precisa de uma superfície do terreno, por isso é partilhada com o CivilCraft, que cria superfícies a partir de pontos, modela-as e calcula a escavação, o aterro e o diagrama de Brückner.
 
 ## Escavação simples aqui
 
@@ -29,8 +29,8 @@ Os pontos de folhas diferentes não partilham coordenadas, por isso a exportaç�
 
 A terraplenagem do CivilCraft volta como dois artigos a que pode atribuir preço:
 
-1. No CivilCraft, modele as suas plataformas e corredores e depois escolha {{ui:Enviar para TakeoffCraft}} em **Terraplenagem** ([Volumes de terraplenagem](app:civilcraft/volumes)). Guarda-se um ficheiro de quantidades (`.quantities.json`).
-2. No TakeoffCraft, abra-o com {{ui:Abrir medição}}, ou largue-o na aplicação. A sua medição mantém-se aberta: o ficheiro acrescenta **Terraplenagem: escavação** e **Terraplenagem: aterro** como [quantidades introduzidas](topic:create-items#typed-quantities-no-drawing) em jardas cúbicas (CY) para um projeto em pés, ou em metros cúbicos (m³) para um projeto em metros. É um passo só: {{key:Mod+Z}} anula-o.
+1. No CivilCraft, modele as suas plataformas e corredores e depois escolha {{ui:Enviar para TakeoffDesk}} em **Terraplenagem** ([Volumes de terraplenagem](app:civilcraft/volumes)). Guarda-se um ficheiro de quantidades (`.quantities.json`).
+2. No TakeoffDesk, abra-o com {{ui:Abrir medição}}, ou largue-o na aplicação. A sua medição mantém-se aberta: o ficheiro acrescenta **Terraplenagem: escavação** e **Terraplenagem: aterro** como [quantidades introduzidas](topic:create-items#typed-quantities-no-drawing) em jardas cúbicas (CY) para um projeto em pés, ou em metros cúbicos (m³) para um projeto em metros. É um passo só: {{key:Mod+Z}} anula-o.
 3. Mude-lhes o nome, defina o desperdício, os preços e os preços compostos como preferir.
 
 Quando a conceção mudar, envie de novo a partir do CivilCraft e abra o novo ficheiro: os mesmos dois artigos recebem as novas quantidades. Os seus nomes, preços, desperdício e preços compostos mantêm-se como os definiu. Se a unidade do projeto tiver mudado, a barra de estado indica-o: verifique os preços. Um ficheiro de outro projeto do CivilCraft acrescenta os seus próprios dois artigos.

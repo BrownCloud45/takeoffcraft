@@ -18,32 +18,32 @@ Setiap penyimpanan mengunduh file baru. Browser Anda mungkin memberi nama file k
 Nama diambil dari PDF pertama yang Anda buka dalam takeoff ini.
 
 :::note
-Simpan takeoff tetap satu-satunya cara menyimpan takeoff sebagai file. Selama Anda bekerja, TakeoffCraft juga menyimpan salinan pemulihan di browser ini (lihat di bawah), dan penyimpanan cloud belum tersedia. Jika Anda mencoba menutup tab dengan perubahan yang belum disimpan, browser akan menanyakan apakah Anda ingin keluar.
+Simpan takeoff tetap satu-satunya cara menyimpan takeoff sebagai file. Selama Anda bekerja, TakeoffDesk juga menyimpan salinan pemulihan di browser ini (lihat di bawah), dan penyimpanan cloud belum tersedia. Jika Anda mencoba menutup tab dengan perubahan yang belum disimpan, browser akan menanyakan apakah Anda ingin keluar.
 :::
 
 ## Simpan takeoff di dalam PDF
 
 {{ui:Ekspor}} › {{ui:PDF berisi takeoff}} mengunduh salinan setiap PDF yang terbuka, dinamai seperti `Plans (with takeoff).pdf`, yang membawa seluruh takeoff sebagai lampiran: item, tanda, skala, area penawaran, dan semua yang ada di `.takeoff.json`. Halamannya tidak diubah, sehingga tampilan dan hasil cetaknya sama dengan aslinya, dan pembaca PDF lain mencantumkan takeoff itu di bawah lampirannya.
 
-Buka PDF itu di TakeoffCraft (dengan cara apa pun Anda membuka PDF), dan aplikasi akan bertanya **PDF ini berisi takeoff**: pilih {{ui:Buka takeoff}} untuk mengambilnya kembali, atau {{ui:PDF-nya saja}} untuk hanya membuka gambarnya. Salinan itu mewakili PDF tempat ia dibuat, sehingga `.takeoff.json` yang disimpan dari salah satunya dapat dibuka di keduanya.
+Buka PDF itu di TakeoffDesk (dengan cara apa pun Anda membuka PDF), dan aplikasi akan bertanya **PDF ini berisi takeoff**: pilih {{ui:Buka takeoff}} untuk mengambilnya kembali, atau {{ui:PDF-nya saja}} untuk hanya membuka gambarnya. Salinan itu mewakili PDF tempat ia dibuat, sehingga `.takeoff.json` yang disimpan dari salah satunya dapat dibuka di keduanya.
 
 Dengan beberapa PDF, setiap salinan membawa seluruh takeoff; bukalah bersama-sama. Menyimpan lagi dari sebuah salinan akan menggantikan takeoff di dalamnya, bukan menambah takeoff kedua. `.takeoff.json` tetap menjadi file yang harus disimpan: ukurannya kecil, dan itulah yang ditulis oleh simpan otomatis dan aplikasi desktop.
 
 ## Jika tab atau browser berhenti
 
-Beberapa detik setelah setiap perubahan, TakeoffCraft menyimpan salinan takeoff di penyimpanan browser ini, bersama PDF-nya jika totalnya 64 MB atau kurang. Tidak ada yang diunggah. Saat Anda menyimpan takeoff, memulai takeoff baru, atau membuka proyek lain, salinan itu dihapus.
+Beberapa detik setelah setiap perubahan, TakeoffDesk menyimpan salinan takeoff di penyimpanan browser ini, bersama PDF-nya jika totalnya 64 MB atau kurang. Tidak ada yang diunggah. Saat Anda menyimpan takeoff, memulai takeoff baru, atau membuka proyek lain, salinan itu dihapus.
 
-Jika tab mengalami crash, browser atau komputer berhenti, atau Anda keluar dengan perubahan yang belum disimpan, saat membuka TakeoffCraft berikutnya aplikasi akan bertanya **Pulihkan pekerjaan Anda?** dan mendaftar takeoff berdasarkan namanya. Pilih **Pulihkan** untuk mengembalikannya: item, tanda, dan skala kembali, serta PDF-nya dibuka lagi jika disimpan. Bilah status menampilkan "Recovered (name). It is not saved to a file yet: Save takeoff keeps it." Jika PDF terlalu besar untuk disimpan, buka kembali; tanda akan muncul di lembarnya. Selengkapnya: [Pulihkan pekerjaan Anda](common:recover).
+Jika tab mengalami crash, browser atau komputer berhenti, atau Anda keluar dengan perubahan yang belum disimpan, saat membuka TakeoffDesk berikutnya aplikasi akan bertanya **Pulihkan pekerjaan Anda?** dan mendaftar takeoff berdasarkan namanya. Pilih **Pulihkan** untuk mengembalikannya: item, tanda, dan skala kembali, serta PDF-nya dibuka lagi jika disimpan. Bilah status menampilkan "Recovered (name). It is not saved to a file yet: Save takeoff keeps it." Jika PDF terlalu besar untuk disimpan, buka kembali; tanda akan muncul di lembarnya. Selengkapnya: [Pulihkan pekerjaan Anda](common:recover).
 
 ## Buka kembali
 
-1. Buka TakeoffCraft.
+1. Buka TakeoffDesk.
 2. Seret file `.takeoff.json` dan PDF-nya ke halaman bersamaan. Atau pilih {{ui:Buka denah}} untuk PDF dan {{ui:Buka takeoff}} untuk proyek, dalam urutan apa pun.
    Bilah status menampilkan "Opened (name): 12 items, 340 marks." Setiap lembar mendapatkan kembali skalanya, dan tanda muncul di lembarnya.
 
-Urutan PDF tidak penting, begitu pula nama file atau foldernya. TakeoffCraft mengenali setiap PDF dari sidik jari isinya.
+Urutan PDF tidak penting, begitu pula nama file atau foldernya. TakeoffDesk mengenali setiap PDF dari sidik jari isinya.
 
-Jika Anda membuka proyek saat takeoff yang sedang berjalan memiliki perubahan yang belum disimpan, TakeoffCraft akan bertanya terlebih dahulu: **Batal**, **Buang perubahan**, atau **Simpan takeoff terlebih dahulu**. Membuka proyek menggantikan item dan tanda saat ini; PDF yang sudah terbuka tetap terbuka.
+Jika Anda membuka proyek saat takeoff yang sedang berjalan memiliki perubahan yang belum disimpan, TakeoffDesk akan bertanya terlebih dahulu: **Batal**, **Buang perubahan**, atau **Simpan takeoff terlebih dahulu**. Membuka proyek menggantikan item dan tanda saat ini; PDF yang sudah terbuka tetap terbuka.
 
 ## Saat PDF hilang
 
@@ -55,7 +55,7 @@ diikuti nama file dan ukurannya. Tanda mereka tetap dihitung dalam setiap total 
 
 ## Saat PDF berubah
 
-PDF yang direvisi, atau baru saja disimpan ulang oleh program lain, memiliki isi yang berbeda, sehingga bagi TakeoffCraft itu adalah **file yang berbeda**, meskipun namanya sama. Di catatan bawah daftar lembar, file seperti itu tertulis "a file with this name is open, but its contents differ".
+PDF yang direvisi, atau baru saja disimpan ulang oleh program lain, memiliki isi yang berbeda, sehingga bagi TakeoffDesk itu adalah **file yang berbeda**, meskipun namanya sama. Di catatan bawah daftar lembar, file seperti itu tertulis "a file with this name is open, but its contents differ".
 
 - Tanda tetap melekat pada versi lama. Tanda terus dihitung, pada posisi dan skala lamanya.
 - PDF yang direvisi terbuka sebagai lembar baru tanpa skala dan tanpa tanda.
@@ -64,11 +64,11 @@ Untuk memindahkan takeoff ke revisi, buka kedua PDF dan gunakan {{ui:Bandingkan}
 
 ## File rusak atau file asing
 
-TakeoffCraft memeriksa setiap file proyek sebelum menggunakannya. Pesan yang mungkin muncul:
+TakeoffDesk memeriksa setiap file proyek sebelum menggunakannya. Pesan yang mungkin muncul:
 
-- "(file) is not a TakeoffCraft project (it is not valid JSON)."
-- "This is not a TakeoffCraft project file."
-- "This project was saved by a newer TakeoffCraft. Open it there."
+- "(file) is not a TakeoffDesk project (it is not valid JSON)."
+- "This is not a TakeoffDesk project file."
+- "This project was saved by a newer TakeoffDesk. Open it there."
 - "3 marks were damaged and left out." (sisanya tetap terbuka)
 
 ## Riwayat urungkan

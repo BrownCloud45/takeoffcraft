@@ -1,6 +1,6 @@
 ---
 title: Ukufaka ubude, irethi nephesenti
-summary: Okungafakwa ngobude, ukuphakama, amarethi emali nephesenti lodoti, nezibonelo nemilayezo yokufaka okungafundeki yi-TakeoffCraft.
+summary: Okungafakwa ngobude, ukuphakama, amarethi emali nephesenti lodoti, nezibonelo nemilayezo yokufaka okungafundeki yi-TakeoffDesk.
 keywords: ukufaka, ifomethi, amafidi namainchi, izingxenye, amafidi ane-decimal, metric, amamitha, amamilimitha, irethi, imali, amadola, iphesenti, udoti, ukubhala
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Kuya kumadesimali amabili, kusuka ku-0% kuya ku-1000%. Imilayezo: "Faka iphesent
 ## Amagama namayunithi
 
 - Amagama amaitemu namakhomponenti: kuya kuzinhlamvu ezingu-200.
-- {{ui:Iyunithi}} yekhomponenti: noma yimuphi umbhalo kuya kuzinhlamvu ezingu-20, njengo `EA`, `sheets`, `CY`, `gal`. Iyilebula nje kuphela; i-TakeoffCraft ayiyiguquli.
+- {{ui:Iyunithi}} yekhomponenti: noma yimuphi umbhalo kuya kuzinhlamvu ezingu-20, njengo `EA`, `sheets`, `CY`, `gal`. Iyilebula nje kuphela; i-TakeoffDesk ayiyiguquli.
 
 ## Izifomula
 

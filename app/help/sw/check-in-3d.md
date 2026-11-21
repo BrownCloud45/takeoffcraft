@@ -46,7 +46,7 @@ Nambari hazibadiliki kwenye 3D: eneo la ukuta ni urefu wake halisi mara kimo cha
 | {{ui:Karatasi}} | Onyesha au ficha mchoro ardhini. |
 | Kisanduku cha mwonekano, juu kulia | Bofya uso, ukingo au kona ili kutazama kutoka hapo; buruta ili kuzunguka; buruta pete ya dira ili kugeuza; kitufe cha nyumba kinarudi kwenye {{ui:Iso}}. |
 
-Kona inaonyesha kisanduku cha mwonekano, ishara ndogo ya mhimili X, Y, Z, au hakuna chochote: chagua kwenye {{ui:Mipangilio}}, kichupo cha TakeoffCraft, chini ya **Kiashiria cha kona** ([Mipangilio ya TakeoffCraft](topic:settings)). Karatasi bapa haina kiashiria cha kona.
+Kona inaonyesha kisanduku cha mwonekano, ishara ndogo ya mhimili X, Y, Z, au hakuna chochote: chagua kwenye {{ui:Mipangilio}}, kichupo cha TakeoffDesk, chini ya **Kiashiria cha kona** ([Mipangilio ya TakeoffDesk](topic:settings)). Karatasi bapa haina kiashiria cha kona.
 
 :::touch
 Kidole kimoja huzunguka; vidole viwili hubana kukuza na kusogea kusogeza. Mguso mmoja huchagua.

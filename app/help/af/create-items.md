@@ -37,12 +37,12 @@ Sommige dinge in ’n raming word nooit geteken nie: mobilisering, permitte, ’
 Druk {{key:Esc}} in die vorm om dit toe te maak sonder om ’n item by te voeg.
 
 :::tip
-As jy eers ’n meetnutsding kies, gebruik TakeoffCraft die laaste item van die regte tipe, of maak die {{ui:Nuwe item}}-vorm oop met daardie tipe alreeds gekies.
+As jy eers ’n meetnutsding kies, gebruik TakeoffDesk die laaste item van die regte tipe, of maak die {{ui:Nuwe item}}-vorm oop met daardie tipe alreeds gekies.
 :::
 
 ## Kies die item waarmee jy teken
 
-Klik op ’n item in die lys. Dit word die item waarheen nuwe merke gaan, en sy merke word op elke blad uitgelig terwyl die ander verbleek. As die oop blad geen van sy merke het nie, spring TakeoffCraft na ’n blad wat wel. Klik die item weer om die uitlig te stop; dit bly die item waarmee jy teken.
+Klik op ’n item in die lys. Dit word die item waarheen nuwe merke gaan, en sy merke word op elke blad uitgelig terwyl die ander verbleek. As die oop blad geen van sy merke het nie, spring TakeoffDesk na ’n blad wat wel. Klik die item weer om die uitlig te stop; dit bly die item waarmee jy teken.
 
 Klik op ’n merk met die {{ui:Kies}}-nutsding maak ook sy item die huidige een.
 
@@ -57,7 +57,7 @@ Die itemredigeerder (**Item: (naam)**) het hierdie velde. Elkeen word gestoor wa
 | {{ui:Kleur}} | Die kleur van sy merke op die skerm en in die gemerkte PDF. |
 | {{ui:Eenheid}} | Waarin die hoeveelheid gerapporteer word: LF of m vir lineêr; SF, SY, SQ, ac, ha of m² vir oppervlakte; EA vir tel. |
 | {{ui:Meet ook}} | Die ander soorte merke wat die item neem, elk met sy eie eenheid. Sien hieronder. |
-| {{ui:Hoogte}} (lineêr) | ’n Muurhoogte. Die item rapporteer dan ook muurarea (lengte × hoogte). Lopies wat uit ’n BimCraft-model kom, dra hul deure en vensters: dié word een keer uitgehaal, en die item sê die bruto area, die openings en die netto. ’n Opname uit ’n BimCraft-projek wat ’n meetmetode gekies het, word hier ook volgens daardie metode gemeet (die noot noem dit, met sy bron, en sê dat ’n hoeveelheidopmeter dit nie nagegaan het nie); die metode kan nie in TakeoffCraft verander word nie. Baksteen of blokke en mortel uit ’n muurtipe kom as twee komponente: die eenhede om te bestel en die mortelvolume. |
+| {{ui:Hoogte}} (lineêr) | ’n Muurhoogte. Die item rapporteer dan ook muurarea (lengte × hoogte). Lopies wat uit ’n BimCraft-model kom, dra hul deure en vensters: dié word een keer uitgehaal, en die item sê die bruto area, die openings en die netto. ’n Opname uit ’n BimCraft-projek wat ’n meetmetode gekies het, word hier ook volgens daardie metode gemeet (die noot noem dit, met sy bron, en sê dat ’n hoeveelheidopmeter dit nie nagegaan het nie); die metode kan nie in TakeoffDesk verander word nie. Baksteen of blokke en mortel uit ’n muurtipe kom as twee komponente: die eenhede om te bestel en die mortelvolume. |
 | {{ui:Diepte}} (oppervlakte) | ’n Diepte of dikte, gebruik in samestellingsformules (byvoorbeeld betonvolume). |
 | {{ui:Afval %}} | Word by die hoeveelheid getel voor prysberekening: 10 beteken hoeveelheid × 1.10. |
 | {{ui:Materiaal $/LF}} | Materiaalkoste per eenheid. Die etiket volg die eenheid: $/SF, $/EA en so aan. |
@@ -74,7 +74,7 @@ Sommige dinge word op meer as een manier gemeet: ’n vertrek het ’n vloer (�
 
 1. Maak die item met sy hoofsoort, soos ’n oppervlakte-item `Vertrek 101`.
 2. Onder {{ui:Meet ook}} in sy redigeerder, merk {{ui:Lineêr}}, {{ui:Tel}} of albei. Elkeen kry ’n eenheid langs hom.
-3. Teken met enige nutsding waarvan die soort die item neem: met `Vertrek 101` huidig, teken {{ui:Oppervlakte}} sy vloer, {{ui:Lineêr}} sy plint en {{ui:Tel}} sy deure. TakeoffCraft vra nie vir ’n ander item nie.
+3. Teken met enige nutsding waarvan die soort die item neem: met `Vertrek 101` huidig, teken {{ui:Oppervlakte}} sy vloer, {{ui:Lineêr}} sy plint en {{ui:Tel}} sy deure. TakeoffDesk vra nie vir ’n ander item nie.
 
 Die itemlys wys elke hoeveelheid (`50.00 SF + 2 EA`). In die hoeveelhedetabel het die item se ry sy hoofhoeveelheid, en elke ander soort kry sy eie ry onder dit, soos **Vertrek 101 (tel)**, met sy eie afval en materiaal- en arbeidstariewe. Die uitvoere, die tabel per blad en die legende van die gemerkte PDF lys hulle op dieselfde manier.
 
@@ -113,7 +113,7 @@ In plaas van ’n arbeidstarief per eenheid, kan ’n item se arbeid van ’n sp
 | {{ui:Spangrootte}} | `2` mense |
 | {{ui:Loon $/uur elk}} | `45` |
 
-TakeoffCraft bereken, uit die hoeveelheid met afval:
+TakeoffDesk bereken, uit die hoeveelheid met afval:
 
 - **span-ure** = hoeveelheid ÷ produksie (110 LF ÷ 20 = 5.5),
 - **werker-ure** = span-ure × spangrootte (11),

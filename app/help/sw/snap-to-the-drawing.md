@@ -5,7 +5,7 @@ keywords: nasa, osnap, nasa kitu, ncha, katikati, makutano, karibu zaidi, vekta,
 from: 41d29e9b
 ---
 
-Seti nyingi za michoro ni PDF za vekta: kuta na kingo zake ni mistari halisi, si pikseli. Unapopima, TakeoffCraft inanasa mibofyo yako kwenye mistari hiyo, hivyo njia huanza hasa kwenye kona ya ukuta, na urekebishaji husoma kipimo alichochora mchoraji, si pikseli uliyogusa.
+Seti nyingi za michoro ni PDF za vekta: kuta na kingo zake ni mistari halisi, si pikseli. Unapopima, TakeoffDesk inanasa mibofyo yako kwenye mistari hiyo, hivyo njia huanza hasa kwenye kona ya ukuta, na urekebishaji husoma kipimo alichochora mchoraji, si pikseli uliyogusa.
 
 Nasa imewashwa unapoanza. Iwashe au izime kwa {{ui:Nasa}} kwenye upau wa hali au {{key:F3}}; mpangilio huhifadhiwa kwenye kivinjari hiki (pia uko chini ya [Mipangilio](topic:settings)).
 

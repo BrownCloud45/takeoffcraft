@@ -19,9 +19,9 @@ Trong {{ui:Khối lượng}} › {{ui:Theo hạng mục}}, một dòng có khố
 2. Hộp thoại nêu tổng bạn đang ký và liệt kê các dòng chưa có đơn giá. Nhập tên của bạn và, nếu muốn, vai trò của bạn.
 3. Bấm **Ký xác nhận**. Thanh bây giờ ghi "Đã ký xác nhận bởi … vào …" cùng với tổng. Lưu bóc tách để giữ nó trong tệp.
 
-Chữ ký xác nhận gắn với các con số bạn đã ký. Mọi thay đổi sau đó đối với khối lượng, đơn giá hoặc một dòng đều xóa nó, và TakeoffCraft sẽ thông báo cho bạn. Hoàn tác sẽ đưa lại dự toán bạn đã ký, cùng với chữ ký xác nhận của nó. Đổi tên một dòng không phải là thay đổi một con số. **Gỡ bỏ chữ ký xác nhận** sẽ xóa nó đi.
+Chữ ký xác nhận gắn với các con số bạn đã ký. Mọi thay đổi sau đó đối với khối lượng, đơn giá hoặc một dòng đều xóa nó, và TakeoffDesk sẽ thông báo cho bạn. Hoàn tác sẽ đưa lại dự toán bạn đã ký, cùng với chữ ký xác nhận của nó. Đổi tên một dòng không phải là thay đổi một con số. **Gỡ bỏ chữ ký xác nhận** sẽ xóa nó đi.
 
-Một tệp bóc tách được sửa bên ngoài TakeoffCraft sau khi đã ký sẽ mở ra mà không có chữ ký xác nhận, kèm một ghi chú nói rõ điều đó. Bản dự toán xuất ra (CSV và XLSX) ghi chữ ký xác nhận ở dưới các tổng.
+Một tệp bóc tách được sửa bên ngoài TakeoffDesk sau khi đã ký sẽ mở ra mà không có chữ ký xác nhận, kèm một ghi chú nói rõ điều đó. Bản dự toán xuất ra (CSV và XLSX) ghi chữ ký xác nhận ở dưới các tổng.
 
 Chỉ người mới được ký. Trợ lý AI có thể đọc xem dự toán đã được ký xác nhận hay chưa và đơn giá nào còn thiếu; nó không có cách nào để ký.
 

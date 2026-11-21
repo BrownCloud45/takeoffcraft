@@ -1,6 +1,6 @@
 ---
 title: Keyboard and mouse
-summary: Every key, mouse, trackpad and touch action in TakeoffCraft, grouped, with the platform differences.
+summary: Every key, mouse, trackpad and touch action in TakeoffDesk, grouped, with the platform differences.
 section: reference
 order: 10
 keywords: keys, shortcuts, hotkeys, keyboard, mouse, trackpad, touch, pan, zoom, wheel, right-click, double-click, space, shift, copy, paste, cut, duplicate, select all
@@ -122,7 +122,7 @@ See [Check the takeoff in 3D](topic:check-in-3d).
 | Key | What it does |
 |---|---|
 | {{key:F1}} | Open or close the help panel (also the {{ui:Help}} button in the app bar). It works in every tool, even while typing in a field. |
-| {{key:Esc}} | Close the help panel. In its search box, the first Esc clears the search. While the panel is open, an Esc pressed after clicking the sheet closes the panel first; press it again to cancel in TakeoffCraft. |
+| {{key:Esc}} | Close the help panel. In its search box, the first Esc clears the search. While the panel is open, an Esc pressed after clicking the sheet closes the panel first; press it again to cancel in TakeoffDesk. |
 
 :::mac
 On many Mac keyboards the top row controls brightness and sound. Press fn with F1, or turn on "Use F1, F2, etc. keys as standard function keys" in System Settings, under Keyboard.
@@ -140,7 +140,7 @@ On many Mac keyboards the top row controls brightness and sound. Press fn with F
 
 :::mac
 - {{key:Mod}} is the Command key: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Full screen is the exception: Control+Shift+F.
-- Right-click is a two-finger click on a trackpad, once secondary click is on in System Settings, under Trackpad. TakeoffCraft reads only the secondary button; a Control-click may count as a plain click and add a point.
+- Right-click is a two-finger click on a trackpad, once secondary click is on in System Settings, under Trackpad. TakeoffDesk reads only the secondary button; a Control-click may count as a plain click and add a point.
 - Two fingers scrolling on a trackpad zoom the sheet (they do not scroll it). To pan, press and drag, or hold Space and drag.
 - Page Up and Page Down are fn with the up and down arrows on keyboards without them.
 - Backspace is the key labeled delete.
@@ -152,12 +152,12 @@ On many Mac keyboards the top row controls brightness and sound. Press fn with F
 :::
 
 :::linux
-- {{key:Mod}} is Ctrl. Some desktops use Ctrl+Alt or Super shortcuts of their own; TakeoffCraft uses none of them.
+- {{key:Mod}} is Ctrl. Some desktops use Ctrl+Alt or Super shortcuts of their own; TakeoffDesk uses none of them.
 - On a touchpad, a two-finger scroll zooms the sheet. To pan, press and drag.
 :::
 
 :::touch
-TakeoffCraft reads touch as a single pointer:
+TakeoffDesk reads touch as a single pointer:
 
 - Tap places a point, selects a mark or adds a count dot.
 - Drag with one finger pans the sheet (in {{ui:Auto count}} it draws the search box).
@@ -170,7 +170,7 @@ A keyboard and mouse or trackpad is the better way to do takeoff today.
 
 ## Keys the browser keeps
 
-Browsers keep some shortcuts for themselves, and a page cannot use them: closing the tab ({{key:Mod+W}}), new tab or window ({{key:Mod+T}}, {{key:Mod+N}}), and browser zoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). That is why TakeoffCraft zooms the sheet with the wheel and the bare {{key:Plus}} and {{key:Minus}} keys. If you press {{key:Mod+Plus}} by mistake, the whole page grows; {{key:Mod+0}} puts it back. See [Keys, mice and trackpads](common:keys).
+Browsers keep some shortcuts for themselves, and a page cannot use them: closing the tab ({{key:Mod+W}}), new tab or window ({{key:Mod+T}}, {{key:Mod+N}}), and browser zoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). That is why TakeoffDesk zooms the sheet with the wheel and the bare {{key:Plus}} and {{key:Minus}} keys. If you press {{key:Mod+Plus}} by mistake, the whole page grows; {{key:Mod+0}} puts it back. See [Keys, mice and trackpads](common:keys).
 
 ## Where Move lives
 

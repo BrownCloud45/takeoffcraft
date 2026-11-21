@@ -1,6 +1,6 @@
 ---
 title: Kontrola zásob dodávateľa a dodacích lehôt
-summary: Pridajte zoznam zásob dodávateľa (CSV alebo tabuľku) a TakeoffCraft podľa neho skontroluje, čo výkaz výmer potrebuje vrátane odpadu: či je dostatok na sklade a ako dlho sa čaká. Nedostatky a dlhé čakania sa zobrazia na paneli Problémy.
+summary: Pridajte zoznam zásob dodávateľa (CSV alebo tabuľku) a TakeoffDesk podľa neho skontroluje, čo výkaz výmer potrebuje vrátane odpadu: či je dostatok na sklade a ako dlho sa čaká. Nedostatky a dlhé čakania sa zobrazia na paneli Problémy.
 keywords: dodávateľ, zásoby, na sklade, dodacia lehota, dostupnosť, nedostatok, backorder, zoznam objednávky, csv, sku, predajca, materiály, dodávka, problémy
 from: f11160fb
 ---

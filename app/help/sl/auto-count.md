@@ -1,6 +1,6 @@
 ---
 title: Samodejno štetje simbola
-summary: Z okvirjem označite en simbol, naj TakeoffCraft poišče ostale na tem listu ali na vseh odprtih listih, ujemanja pregledate z drsnikom in jih dodate v enem koraku.
+summary: Z okvirjem označite en simbol, naj TakeoffDesk poišče ostale na tem listu ali na vseh odprtih listih, ujemanja pregledate z drsnikom in jih dodate v enem koraku.
 keywords: poljuben kot, zasukano, drugo merilo, drugačno merilo, samodejno štetje, samodejno iskanje, iskanje simbolov, najdi simbole, vzorec, predloga, ujemanje, zaznaj, orodje za štetje
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Celotna serija je en korak razveljavitve, zato ena {{key:Mod+Z}} odstrani vse.
 
 ## Kaj najde in kaj zgreši
 
-TakeoffCraft primerja risbo po slikovnih pikah z označenim simbolom.
+TakeoffDesk primerja risbo po slikovnih pikah z označenim simbolom.
 
 - Najde simbol, zasukan za 0°, 90°, 180° in 270°. Če ga želite najti tudi pod poljubnim kotom, pred risanjem okvirja v vrstici samodejnega štetja obkljukajte {{ui:Poljuben kot (počasneje)}}: preizkusi na vsakih 15°, nato vsako najdbo natančneje določi na stopinjo in pol. To traja približno šestkrat dlje. Zrcaljenega simbola ne najde (razen če je simbol videti enako tudi zrcaljen).
 - Če je obkljukano {{ui:Išči po vseh odprtih listih}}, se list z drugim merilom išče pri velikosti, ki jo ima simbol tam: armatura, narisana v merilu na tlorisu 1/8", je na tlorisu 1/4" dvakrat večja in jo najde. Tak list se išče tudi pri lastni velikosti okvirja, za oznake in simbole, natisnjene v eni velikosti na vseh listih. To zahteva merilo na obeh listih; list brez merila se išče samo pri velikosti okvirja.

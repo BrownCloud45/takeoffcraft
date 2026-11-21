@@ -14,7 +14,7 @@ Una voce di conteggio conta gli elementi: porte, apparecchi di illuminazione, pr
 3. Fare clic su ciascun elemento sulla tavola.
    Ogni clic mette un punto del colore della voce, e il conteggio della voce aumenta di uno.
 4. Passare alla tavola successiva ({{key:PageDown}}) e continuare a contare. Lo strumento resta su {{ui:Conteggio}}.
-5. Premere {{key:Esc}} quando si è finito. TakeoffCraft torna su {{ui:Seleziona}}.
+5. Premere {{key:Esc}} quando si è finito. TakeoffDesk torna su {{ui:Seleziona}}.
 
 Il trascinamento continua a spostare la vista e la rotella continua a ingrandire mentre si conta, così ci si può spostare sulla tavola senza aggiungere punti.
 
@@ -30,7 +30,7 @@ Fare clic sulla voce di conteggio per evidenziarne i punti su ogni tavola. L'ele
 
 ## Dimensione dei punti, a schermo e nel PDF
 
-I punti mantengono la stessa dimensione a schermo, qualunque sia lo zoom. Per cambiarla, aprire {{ui:Impostazioni}}, la scheda TakeoffCraft, e scegliere **Dimensione del segno di conteggio**: Extra piccolo, Piccolo, Medio (predefinito) o Grande.
+I punti mantengono la stessa dimensione a schermo, qualunque sia lo zoom. Per cambiarla, aprire {{ui:Impostazioni}}, la scheda TakeoffDesk, e scegliere **Dimensione del segno di conteggio**: Extra piccolo, Piccolo, Medio (predefinito) o Grande.
 
 L'esportazione PDF ({{ui:Esporta}} › il PDF segnato) disegna ogni punto alla stessa dimensione sulla carta, qualunque sia la dimensione della tavola: un visualizzatore che mostra il PDF al 100% mostra i punti grandi quanto sono a schermo. Dove i punti di una tavola si toccherebbero ancora, l'esportazione li rende più piccoli su quella tavola, così ognuno resta leggibile.
 

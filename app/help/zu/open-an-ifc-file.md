@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, umgwaqo, umgwaqo wesitimela, ibhuloho, ipaviment
 from: 6b08c2c4
 ---
 
-Ifayela le-IFC 4.3 lingabamba imigwaqo, imigwaqo yezitimela, amabhuloho, imisebenzi yasolwandle nezingxenye ezakhiwe kuzo: ama-pavement, izingqimba, amakherbhi, imitimbo yezitimela, imisebenzi yomhlaba, amabheringi, amapayili nokunye. I-TakeoffCraft iyazifunda lezo iziguqule zibe amanani ahlukile ngohlobo onganikezwa intengo.
+Ifayela le-IFC 4.3 lingabamba imigwaqo, imigwaqo yezitimela, amabhuloho, imisebenzi yasolwandle nezingxenye ezakhiwe kuzo: ama-pavement, izingqimba, amakherbhi, imitimbo yezitimela, imisebenzi yomhlaba, amabheringi, amapayili nokunye. I-TakeoffDesk iyazifunda lezo iziguqule zibe amanani ahlukile ngohlobo onganikezwa intengo.
 
 ## Vula ifayela
 
 1. Khetha {{ui:Vula amapulani}} kweqembu {{ui:Ifayela}}, noma cindezela {{key:Mod+O}}.
-2. Khetha ifayela le-IFC (ungalikhetha nama-PDF), noma liwuhudulele ku-TakeoffCraft.
+2. Khetha ifayela le-IFC (ungalikhetha nama-PDF), noma liwuhudulele ku-TakeoffDesk.
 
 Kudalwa uhlobo olulodwa olungahlukile ngalunye kanye nohlobo olucacisiwe ngaphambili, isibonelo "Pavement (flexible): count", futhi, uma ifayela lizichaza, "length" ku-m, "area" ku-m² kanye "volume" ku-m³. Inothi ngayinye lisho ukuthi izinto zingaki ezibaliwe nezingaki ezingazichazanga inani. Ukuvula ifayela elisha ngegama elifanayo kubuyekeza lawo manani kunokungeza amanye.
 

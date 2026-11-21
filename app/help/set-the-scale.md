@@ -6,7 +6,7 @@ order: 20
 keywords: detect scale, read scale, scale from text, all sheets, scale, calibrate, preset, check scale, verify, known dimension, unscaled, no scale, ratio, set scale
 ---
 
-Every sheet has its own scale. You set it, or let TakeoffCraft read it from the sheets' text (below), and check it. Until a sheet has one, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} and {{ui:Cut-out}} refuse to measure on it. {{ui:Count}} and {{ui:Auto count}} work without a scale.
+Every sheet has its own scale. You set it, or let TakeoffDesk read it from the sheets' text (below), and check it. Until a sheet has one, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} and {{ui:Cut-out}} refuse to measure on it. {{ui:Count}} and {{ui:Auto count}} work without a scale.
 
 The sheets list shows each sheet's scale, or **No scale**. The bar under the open sheet says the same.
 
@@ -24,7 +24,7 @@ The full list is in [Scale presets](topic:scale-presets).
 
 ## Read the scales from the sheets' text
 
-Most drawings say their scale: `SCALE: 1/4" = 1'-0"` in the title block, `1:100` under a view. TakeoffCraft can read it and set every sheet at once.
+Most drawings say their scale: `SCALE: 1/4" = 1'-0"` in the title block, `1:100` under a view. TakeoffDesk can read it and set every sheet at once.
 
 1. Open the {{ui:Preset}} list and choose {{ui:From the sheets' text…}} (at the top).
 2. The list shows every sheet: its scale now, and what its text says — **Says 1/4" = 1'-0"**, **No scale in its text**, or **Says not to scale** (NTS).
@@ -45,7 +45,7 @@ Use this when there is no printed scale you trust, the set was resized, or the s
 5. Type the real distance in **Real distance**, for example `24'-6 1/2"`, `24.5` (decimal feet), `30"` or `7.5 m`. See [Length, rate and percent entry](topic:entry-formats).
 6. Choose {{ui:Set the scale}}.
    The status bar shows the scale as "1" = (n)'", and when it is within 0.5% of a preset it says which one, for example "which matches 1/4" = 1'-0" (pick that preset for an exact scale)".
-   TakeoffCraft goes back to the {{ui:Select}} tool.
+   TakeoffDesk goes back to the {{ui:Select}} tool.
 
 When the calibration matches a preset, picking that preset gives an exact scale instead of one that depends on where you clicked.
 
@@ -62,11 +62,11 @@ Press {{key:Esc}} to clear the check line.
 
 ## Change a scale
 
-Pick another preset or calibrate again. If the sheet already has measurements, TakeoffCraft asks **Change this sheet's scale?** and says how many measurements will be measured again. Choose {{ui:Change the scale}}. Every run and area on the sheet is re-measured at the new scale. You can undo it with {{key:Mod+Z}}.
+Pick another preset or calibrate again. If the sheet already has measurements, TakeoffDesk asks **Change this sheet's scale?** and says how many measurements will be measured again. Choose {{ui:Change the scale}}. Every run and area on the sheet is re-measured at the new scale. You can undo it with {{key:Mod+Z}}.
 
 ## Why unscaled sheets are not counted as zero
 
-A mark on a sheet with no scale has no real length or area. TakeoffCraft never counts it as zero, which would quietly make your estimate too low. Instead it:
+A mark on a sheet with no scale has no real length or area. TakeoffDesk never counts it as zero, which would quietly make your estimate too low. Instead it:
 
 - leaves those marks out of the totals,
 - shows "+(n) unscaled" next to the item in {{ui:Quantities}},
@@ -78,5 +78,5 @@ This can happen when you open a project whose scales were never set. Give the sh
 ## Tips
 
 - Set the scale on every sheet you will measure before you start. Scan the sheets list for **No scale** to find the ones left (the search box looks at sheet names, not scales).
-- Details and enlarged plans on the same sheet often use another scale. TakeoffCraft has one scale per sheet; see [What is not built yet](topic:not-built-yet).
+- Details and enlarged plans on the same sheet often use another scale. TakeoffDesk has one scale per sheet; see [What is not built yet](topic:not-built-yet).
 - Metric drawings: pick a metric preset such as `1:100`, or calibrate with a metric distance like `6000 mm`.

@@ -1,6 +1,6 @@
 ---
 title: Lengte-, tarief- en persentasie-invoer
-summary: Wat jy vir afstande, hoogtes, geldtariewe en afvalpersentasies kan tik, met voorbeelde en die boodskappe vir invoer wat TakeoffCraft nie kan lees nie.
+summary: Wat jy vir afstande, hoogtes, geldtariewe en afvalpersentasies kan tik, met voorbeelde en die boodskappe vir invoer wat TakeoffDesk nie kan lees nie.
 keywords: invoer, formaat, voet duim, breuke, desimale voet, metriek, meter, millimeter, tarief, geld, dollar, persentasie, afval, tik
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Tot twee desimale, van 0% tot 1000%. Boodskappe: "Tik 'n persentasie soos 10 of 
 ## Name en eenhede
 
 - Item- en komponentname: tot 200 karakters.
-- 'n Komponent se {{ui:Eenheid}}: enige teks tot 20 karakters, soos `EA`, `velle`, `CY`, `gal`. Dit is net 'n etiket; TakeoffCraft skakel dit nie om nie.
+- 'n Komponent se {{ui:Eenheid}}: enige teks tot 20 karakters, soos `EA`, `velle`, `CY`, `gal`. Dit is net 'n etiket; TakeoffDesk skakel dit nie om nie.
 
 ## Formules
 

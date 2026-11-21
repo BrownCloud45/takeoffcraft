@@ -30,7 +30,7 @@ Braižant:
 - Vilkimas slenka lapą, ratukas keičia mastelį, be taškų pridėjimo.
 
 :::mac
-Mac jutiklinėje plokštėje dešinysis spustelėjimas yra dviejų pirštų spustelėjimas (įjunkite antrinį spustelėjimą sistemos nustatymuose, skiltyje Jutiklinė plokštė). TakeoffCraft skaito tik antrinį mygtuką, todėl spustelėjimas su Control gali būti priimtas kaip paprastas spustelėjimas ir pridėti tašką. Dukart spustelėjimas arba {{key:Enter}} visada baigia.
+Mac jutiklinėje plokštėje dešinysis spustelėjimas yra dviejų pirštų spustelėjimas (įjunkite antrinį spustelėjimą sistemos nustatymuose, skiltyje Jutiklinė plokštė). TakeoffDesk skaito tik antrinį mygtuką, todėl spustelėjimas su Control gali būti priimtas kaip paprastas spustelėjimas ir pridėti tašką. Dukart spustelėjimas arba {{key:Enter}} visada baigia.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Po pirmo taško galite įrašyti, kur bus kitas, o ne spustelėti. Įveskite ska
 | `@6',-4'` | 6' į dešinę ir 4' žemyn nuo paskutinio taško |
 | `6',4'` (arba `#6',4'`) | 6' į dešinę ir 4' aukštyn nuo pirmo šio ruožo taško |
 
-Ilgiai įvedami kaip visur TakeoffCraft ([Įvedimo formatai](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pėdos), `30"`, `3.2 m`. „Dešinėn“ ir „aukštyn“ – kaip matote lapą, taip pat kai PDF puslapis pasukamas.
+Ilgiai įvedami kaip visur TakeoffDesk ([Įvedimo formatai](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pėdos), `30"`, `3.2 m`. „Dešinėn“ ir „aukštyn“ – kaip matote lapą, taip pat kai PDF puslapis pasukamas.
 
 {{key:Enter}} tuščiame langelyje baigia ruožą, kaip {{key:Enter}} lape; {{key:Esc}} uždaro langelį ir palieka ruožą tęsiamą. Įvesti taškai taisyklėmis prilygsta spustelėjimams: atskaitos, lankai ir ploto uždarymas veikia visi. Tas pats langelis veikia {{ui:Plotas}} ir {{ui:Išpjova}}; po apskritimo centro jis įveda spindulį.
 

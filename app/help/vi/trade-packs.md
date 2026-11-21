@@ -39,4 +39,4 @@ Mỗi hạng mục cũng mang số CSI MasterFormat, chẳng hạn `09 21 16`.
 
 {{ui:Xuất thành gói…}} trong thư viện lưu nó thành một tệp gói (`.ccpack.json`) mà bất kỳ ai cũng có thể thêm bằng {{ui:Mở tệp gói…}}. Mặc định, tệp không gồm các hạng mục xuất phát từ gói bạn đã thêm, và không mang theo đơn giá. Đánh dấu {{ui:Đưa đơn giá của tôi vào làm đơn giá mẫu}} để gửi cả đơn giá của bạn: chúng được gắn nhãn kèm khu vực và ngày bạn ghi, và người thêm gói quyết định có dùng hay không.
 
-Tệp gói chỉ là dữ liệu thuần, không bao giờ là chương trình. TakeoffCraft kiểm tra mọi phần của tệp trước khi dùng và bỏ qua mọi thứ mà nó không đọc được.
+Tệp gói chỉ là dữ liệu thuần, không bao giờ là chương trình. TakeoffDesk kiểm tra mọi phần của tệp trước khi dùng và bỏ qua mọi thứ mà nó không đọc được.

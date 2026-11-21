@@ -6,7 +6,7 @@ order: 35
 keywords: snap, osnap, object snap, endpoint, midpoint, intersection, nearest, vector, linework, lines, precise, exact, f3, magnet, corner
 ---
 
-Most plan sets are vector PDFs: their walls and edges are real lines, not pixels. While you measure, TakeoffCraft snaps your clicks onto those lines, so a run starts exactly at a wall's corner and a calibration reads the dimension the drafter drew, not the pixel you hit.
+Most plan sets are vector PDFs: their walls and edges are real lines, not pixels. While you measure, TakeoffDesk snaps your clicks onto those lines, so a run starts exactly at a wall's corner and a calibration reads the dimension the drafter drew, not the pixel you hit.
 
 Snap is on when you start. Turn it off and on with {{ui:Snap}} in the status bar or {{key:F3}}; the setting is kept in this browser (it is also under [Settings](topic:settings)).
 

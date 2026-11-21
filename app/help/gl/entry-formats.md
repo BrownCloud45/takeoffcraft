@@ -1,6 +1,6 @@
 ---
 title: Entrada de lonxitudes, tarifas e porcentaxes
-summary: O que pode escribir para distancias, alturas, tarifas en diñeiro e porcentaxes de perda, con exemplos e as mensaxes para entradas que TakeoffCraft non pode ler.
+summary: O que pode escribir para distancias, alturas, tarifas en diñeiro e porcentaxes de perda, con exemplos e as mensaxes para entradas que TakeoffDesk non pode ler.
 keywords: entrada, formato, pés e polgadas, fraccións, pés decimais, métrico, metros, milímetros, tarifa, diñeiro, dólares, porcentaxe, perda, escribir
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Ata dous decimais, de 0 % a 1000 %. Mensaxes: "Escriba unha porcentaxe, como 10 
 ## Nomes e unidades
 
 - Nomes de elementos e de compoñentes: ata 200 caracteres.
-- A {{ui:Unidade}} dun compoñente: calquera texto de ata 20 caracteres, como `EA`, `follas`, `CY`, `gal`. É só unha etiqueta; TakeoffCraft non a converte.
+- A {{ui:Unidade}} dun compoñente: calquera texto de ata 20 caracteres, como `EA`, `follas`, `CY`, `gal`. É só unha etiqueta; TakeoffDesk non a converte.
 
 ## Fórmulas
 

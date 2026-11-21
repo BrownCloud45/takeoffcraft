@@ -13,7 +13,7 @@ Ifungue kwa {{ui:Library}} juu ya paneli ya {{ui:Items}}.
 
 - {{ui:Import CSV…}} husoma lahajedwali iliyohifadhiwa kama CSV (angalia safu hapa chini). Vipengee ambavyo jina na aina yake tayari viko kwenye maktaba vinabadilishwa; vingine vinaongezwa. Safu zisizoweza kusomwa zinaruka, na inasema zipi na kwa nini.
 - {{ui:Add this takeoff's items}} hunakili kila kipengee cha ukadiriaji ulio wazi kwenye maktaba, pamoja na viwango vyake na mkusanyiko wake (si alama zake).
-- Makadirio ya CSV ambayo TakeoffCraft inahamisha ([Hamisha makadirio](topic:export-estimate)) huingizwa kama yalivyo: bei za kazi iliyopita huwa mwanzo wa kazi inayofuata.
+- Makadirio ya CSV ambayo TakeoffDesk inahamisha ([Hamisha makadirio](topic:export-estimate)) huingizwa kama yalivyo: bei za kazi iliyopita huwa mwanzo wa kazi inayofuata.
 
 - {{ui:Trade packs…}} huongeza mikusanyiko ya bure kwa biashara, kama drywall, umeme au zege, bila bei. Angalia [Vifurushi vya biashara](topic:trade-packs).
 

@@ -1,6 +1,6 @@
 ---
 title: Klaviatura və siçan
-summary: TakeoffCraft-da hər düymə, siçan, trackpad və toxunma əməliyyatı, qruplaşdırılmış şəkildə və platforma fərqləri ilə.
+summary: TakeoffDesk-da hər düymə, siçan, trackpad və toxunma əməliyyatı, qruplaşdırılmış şəkildə və platforma fərqləri ilə.
 keywords: düymələr, qısayollar, isti düymələr, klaviatura, siçan, trackpad, toxunma, sürüşdür, miqyas, təkər, sağ klik, ikiqat klik, boşluq, shift, kopyala, yapışdır, kəs, dublikat, hamısını seç
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Bax: [Hesablamanı 3D-də yoxlayın](topic:check-in-3d).
 | Düymə | Nə edir |
 |---|---|
 | {{key:F1}} | Kömək panelini açır və ya bağlayır (həmçinin tətbiq paneli düyməsindəki {{ui:Help}}). Hər alətdə işləyir, sahəyə yazarkən də. |
-| {{key:Esc}} | Kömək panelini bağlayır. Onun axtarış qutusunda birinci {{key:Esc}} axtarışı təmizləyir. Panel açıq olduqda, vərəqə kliklədikdən sonra basılan {{key:Esc}} əvvəl paneli bağlayır; TakeoffCraft-da ləğv etmək üçün yenidən basın. |
+| {{key:Esc}} | Kömək panelini bağlayır. Onun axtarış qutusunda birinci {{key:Esc}} axtarışı təmizləyir. Panel açıq olduqda, vərəqə kliklədikdən sonra basılan {{key:Esc}} əvvəl paneli bağlayır; TakeoffDesk-da ləğv etmək üçün yenidən basın. |
 
 :::mac
 Bir çox Mac klaviaturasında yuxarı sıra parlaqlığı və səsi idarə edir. {{key:F1}} ilə birlikdə fn basın, və ya System Settings-də, Keyboard altında "Use F1, F2, etc. keys as standard function keys" seçimini aktiv edin.
@@ -139,7 +139,7 @@ Bir çox Mac klaviaturasında yuxarı sıra parlaqlığı və səsi idarə edir.
 
 :::mac
 - {{key:Mod}} Command düymədir: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Tam ekran istisnadır: Control+Shift+F.
-- Trackpad-də sağ klik iki barmaqla kliklədir, əgər System Settings-də, Trackpad altında secondary click aktiv edilibsə. TakeoffCraft yalnız ikinci düyməni oxuyur; Control-klik sadə klik kimi qəbul oluna və nöqtə əlavə edə bilər.
+- Trackpad-də sağ klik iki barmaqla kliklədir, əgər System Settings-də, Trackpad altında secondary click aktiv edilibsə. TakeoffDesk yalnız ikinci düyməni oxuyur; Control-klik sadə klik kimi qəbul oluna və nöqtə əlavə edə bilər.
 - Trackpad-də iki barmaqla sürüşdürmə vərəqi yaxınlaşdırır (sürüşdürmür). Sürüşdürmək üçün basıb sürüşdürün, və ya {{key:Space}} saxlayıb sürüşdürün.
 - Page Up və Page Down olmayan klaviaturalarda onlar fn ilə yuxarı və aşağı oxlardır.
 - {{key:Backspace}} delete yazılmış düymədir.
@@ -151,12 +151,12 @@ Bir çox Mac klaviaturasında yuxarı sıra parlaqlığı və səsi idarə edir.
 :::
 
 :::linux
-- {{key:Mod}} Ctrl-dir. Bəzi masaüstlərində öz Ctrl+Alt və ya Super qısayolları var; TakeoffCraft onlardan heç birini istifadə etmir.
+- {{key:Mod}} Ctrl-dir. Bəzi masaüstlərində öz Ctrl+Alt və ya Super qısayolları var; TakeoffDesk onlardan heç birini istifadə etmir.
 - Touchpad-də iki barmaqla sürüşdürmə vərəqi yaxınlaşdırır. Sürüşdürmək üçün basıb sürüşdürün.
 :::
 
 :::touch
-TakeoffCraft toxunmanı tək göstərici kimi oxuyur:
+TakeoffDesk toxunmanı tək göstərici kimi oxuyur:
 
 - Toxunma nöqtə yerləşdirir, nişanı seçir və ya say nöqtəsi əlavə edir.
 - Bir barmaqla sürüşdürmə vərəqi sürüşdürür ({{ui:Auto count}} rejimində axtarış qutusunu çəkir).
@@ -169,7 +169,7 @@ Hesablama üçün bu gün daha yaxşı yol klaviatura və siçan və ya trackpad
 
 ## Brauzerin saxladığı düymələr
 
-Brauzerlər bəzi qısayolları özü üçün saxlayır və səhifə onlardan istifadə edə bilməz: sekmənin bağlanması ({{key:Mod+W}}), yeni sekmə və ya pəncərə ({{key:Mod+T}}, {{key:Mod+N}}) və brauzer miqyası ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Buna görə TakeoffCraft vərəqi təkərlə və tək {{key:Plus}} və {{key:Minus}} düymələri ilə yaxınlaşdırır. {{key:Mod+Plus}} səhvən basılsa, bütün səhifə böyüyür; {{key:Mod+0}} onu geri qaytarır. Bax: [Düymələr, siçanlar və trackpad-lər](common:keys).
+Brauzerlər bəzi qısayolları özü üçün saxlayır və səhifə onlardan istifadə edə bilməz: sekmənin bağlanması ({{key:Mod+W}}), yeni sekmə və ya pəncərə ({{key:Mod+T}}, {{key:Mod+N}}) və brauzer miqyası ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Buna görə TakeoffDesk vərəqi təkərlə və tək {{key:Plus}} və {{key:Minus}} düymələri ilə yaxınlaşdırır. {{key:Mod+Plus}} səhvən basılsa, bütün səhifə böyüyür; {{key:Mod+0}} onu geri qaytarır. Bax: [Düymələr, siçanlar və trackpad-lər](common:keys).
 
 ## Köçür əmri haradadır
 

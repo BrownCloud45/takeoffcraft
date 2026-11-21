@@ -28,7 +28,7 @@ Darba grāmatā ir četras darblapas un tālāk minētie pārskati, kad tie atti
 
 Ar [piedāvājuma kopsavilkumu](topic:bid-summary) tāmes darblapa beidzas arī ar savām uzcenojumu rindām (darba uzcenojums, pārdošanas nodoklis, virsizmaksas, peļņa, galvojums un piedāvājums) kā dzīvām formulām.
 
-Tāmes darblapā saglabājas **dzīvas formulas**: daudzums ar zudumiem, noapaļotās materiāla un darba summas, katras rindas kopsumma un kopējā summa. Izklājlapu programmas tās pārrēķina, tāpēc varat izklājlapā mainīt likmi vai zudumus, un kopsummas seko. TakeoffCraft aprēķinātie skaitļi ir saglabāti arī šūnās un sakrīt līdz centam.
+Tāmes darblapā saglabājas **dzīvas formulas**: daudzums ar zudumiem, noapaļotās materiāla un darba summas, katras rindas kopsumma un kopējā summa. Izklājlapu programmas tās pārrēķina, tāpēc varat izklājlapā mainīt likmi vai zudumus, un kopsummas seko. TakeoffDesk aprēķinātie skaitļi ir saglabāti arī šūnās un sakrīt līdz centam.
 
 Piezīmju kolonnā ir norādīta katra komponenta formula, formulu kļūdas, atzīmes lapās bez mēroga, sienas laukums un perimetrs. Ja kaut kas ir izlaists, kopējās summas rindā ir teksts "Nepilnīgs: skatiet piezīmes augstāk".
 
@@ -42,7 +42,7 @@ CSV satur tikai tāmi; daudzumiem pa lapām un atzīmju sarakstam izmantojiet XL
 
 ## Tāme Google Sheets
 
-Virs tabulas **Daudzumi** izvēlne **Kopēt Google Sheets** ievieto tāmi starpliktuvē kā ar tabulatoriem atdalītu tekstu ar tām pašām rindām kā CSV. Google Sheets noklikšķiniet šūnā A1 un ielīmējiet. TakeoffCraft nepierakstās Google kontā un nekur tur neko nenosūta.
+Virs tabulas **Daudzumi** izvēlne **Kopēt Google Sheets** ievieto tāmi starpliktuvē kā ar tabulatoriem atdalītu tekstu ar tām pašām rindām kā CSV. Google Sheets noklikšķiniet šūnā A1 un ielīmējiet. TakeoffDesk nepierakstās Google kontā un nekur tur neko nenosūta.
 
 ## Trūkstošās likmes un tāmes apstiprināšana
 

@@ -55,4 +55,4 @@ L'échelle d'une feuille indique la taille du dessin ; l'unité d'un poste indiq
 
 ## Précision
 
-TakeoffCraft mesure exactement à partir des points sur lesquels vous cliquez, y compris les longueurs et surfaces réelles des arcs, et n'arrondit pas les quantités. L'affichage arrondit les longueurs au 1/16 de pouce et les décimales à deux chiffres. Les montants ne sont arrondis qu'aux montants étendus, au centime.
+TakeoffDesk mesure exactement à partir des points sur lesquels vous cliquez, y compris les longueurs et surfaces réelles des arcs, et n'arrondit pas les quantités. L'affichage arrondit les longueurs au 1/16 de pouce et les décimales à deux chiffres. Les montants ne sont arrondis qu'aux montants étendus, au centime.

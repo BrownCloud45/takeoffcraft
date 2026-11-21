@@ -5,7 +5,7 @@ keywords: snap, objectsnap, eindpunt, middelpunt, snijpunt, dichtstbijzijnde, ve
 from: 41d29e9b
 ---
 
-De meeste plansets zijn vector-pdf's: hun wanden en randen zijn echte lijnen, geen pixels. Terwijl u meet, klikt TakeoffCraft uw klikken vast op die lijnen, zodat een lengte precies begint op de hoek van een wand en een ijking de maat leest die de tekenaar heeft getekend, niet de pixel die u raakt.
+De meeste plansets zijn vector-pdf's: hun wanden en randen zijn echte lijnen, geen pixels. Terwijl u meet, klikt TakeoffDesk uw klikken vast op die lijnen, zodat een lengte precies begint op de hoek van een wand en een ijking de maat leest die de tekenaar heeft getekend, niet de pixel die u raakt.
 
 Vastklikken staat aan bij het starten. U zet het uit en aan met {{ui:Vastklikken}} in de statusbalk of met {{key:F3}}; de instelling wordt in deze browser bewaard (ze staat ook onder [Instellingen](topic:settings)).
 

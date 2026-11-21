@@ -32,11 +32,11 @@ Wklejone oznaczenia trafiają do obszaru ofertowego wybranego u góry panelu {{u
 
 {{key:Mod+Shift+V}} ({{ui:Wklej w miejscu}}) umieszcza kopię dokładnie w tym samym miejscu na otwartym arkuszu, według jej położenia na stronie. Użyj tego do typowego piętra: zmierz poziom 2, skopiuj, otwórz poziom 3, wklej w miejscu.
 
-Wklejanie w miejscu wymaga arkusza **tego samego rozmiaru** co ten, z którego kopiowałeś. Na arkuszu innego rozmiaru TakeoffCraft to zgłasza i niczego nie wkleja; zamiast tego użyj {{ui:Wklej}} i kliknij. Na arkuszu, z którego kopiowałeś, kopia ląduje na oryginałach.
+Wklejanie w miejscu wymaga arkusza **tego samego rozmiaru** co ten, z którego kopiowałeś. Na arkuszu innego rozmiaru TakeoffDesk to zgłasza i niczego nie wkleja; zamiast tego użyj {{ui:Wklej}} i kliknij. Na arkuszu, z którego kopiowałeś, kopia ląduje na oryginałach.
 
 ## Skala musi się zgadzać
 
-Długości i powierzchnie zależą od skali arkusza. Przebieg mierzący 10' przy skali 1/4" = 1'-0" miałby 20' na arkuszu w skali 1/8" = 1'-0". Dlatego TakeoffCraft wkleja przebiegi i powierzchnie tylko na arkusz o **tej samej skali** co arkusz, z którego pochodzą, i wyraźnie mówi, gdy tak nie jest:
+Długości i powierzchnie zależą od skali arkusza. Przebieg mierzący 10' przy skali 1/4" = 1'-0" miałby 20' na arkuszu w skali 1/8" = 1'-0". Dlatego TakeoffDesk wkleja przebiegi i powierzchnie tylko na arkusz o **tej samej skali** co arkusz, z którego pochodzą, i wyraźnie mówi, gdy tak nie jest:
 
 - Otwarty arkusz nie ma jeszcze skali: najpierw nadaj mu ją ([Ustawianie skali](topic:set-the-scale)), potem wklej.
 - Otwarty arkusz ma inną skalę: komunikat podaje obie skale. Wklejaj na arkusz w tej samej skali.
@@ -59,7 +59,7 @@ Edytor pozycji (pod **Pozycje**) kończy się dwoma przyciskami:
 - {{ui:Duplikuj pozycję}}: od razu dodaje kopię, nazwaną „(nazwa) (kopia)”.
 
 :::tip
-Kopia zostaje na tym komputerze: jest przechowywana w tej karcie i w pamięci przeglądarki, więc inna karta TakeoffCraft może ją wkleić. Nic nie jest przesyłane, a schowek systemowy nie jest używany, więc nie można wkleić oznaczeń do innych programów.
+Kopia zostaje na tym komputerze: jest przechowywana w tej karcie i w pamięci przeglądarki, więc inna karta TakeoffDesk może ją wkleić. Nic nie jest przesyłane, a schowek systemowy nie jest używany, więc nie można wkleić oznaczeń do innych programów.
 :::
 
 :::note

@@ -24,7 +24,7 @@ Pilih {{ui:Mengikut item}} (lalai). Setiap item mempunyai satu baris, dan setiap
 
 Baris terakhir, **Jumlah kerja**, menambah lajur bahan, upah dan jumlah. Jumlah yang sama dipaparkan di sebelah kanan pengepala jadual.
 
-Taip dalam sel pembaziran atau kadar dan tekan {{key:Enter}} atau klik di luar untuk menggunakannya. Nilai yang TakeoffCraft tidak dapat baca digarisi merah dan bar status menyatakan sebabnya, contohnya "Taip amaun seperti 12.50."
+Taip dalam sel pembaziran atau kadar dan tekan {{key:Enter}} atau klik di luar untuk menggunakannya. Nilai yang TakeoffDesk tidak dapat baca digarisi merah dan bar status menyatakan sebabnya, contohnya "Taip amaun seperti 12.50."
 
 Klik baris item untuk menyerlahkan penandanya pada setiap helaian dan melompat ke helaian yang mempunyainya (sama seperti mengkliknya di bawah {{ui:Item}}).
 

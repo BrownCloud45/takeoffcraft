@@ -5,7 +5,7 @@ keywords: jarðvinna, uppgröftur, skurður, fylling, skurður og fylling, landm
 from: a898e508
 ---
 
-TakeoffCraft mælir það sem er teiknað á blað. Jarðvinna þarf yfirborð lands, þess vegna er hún sameiginleg með CivilCraft, sem býr til yfirborð úr punktum, mótar það og reiknar skurð, fyllingu og flutning.
+TakeoffDesk mælir það sem er teiknað á blað. Jarðvinna þarf yfirborð lands, þess vegna er hún sameiginleg með CivilCraft, sem býr til yfirborð úr punktum, mótar það og reiknar skurð, fyllingu og flutning.
 
 ## Einfaldur uppgröftur hér
 
@@ -29,8 +29,8 @@ Punktar af mismunandi blöðum deila ekki hnitum, þannig að útflutningurinn t
 
 Jarðvinna CivilCraft kemur til baka sem tveir liðir sem þú getur verðlagt:
 
-1. Í CivilCraft mótarðu plön og leiðir og velur {{ui:Senda í TakeoffCraft}} undir **Jarðvinna** ([Rúmmál jarðvinnu](app:civilcraft/volumes)). Það vistar magnskrá (`.quantities.json`).
-2. Í TakeoffCraft opnarðu hana með {{ui:Opna magntöku}}, eða sleppir henni á forritið. Magntakan þín er áfram opin: skráin bætir við **Earthwork: cut** og **Earthwork: fill** sem [tegundarmagntölum](topic:create-items#typed-quantities-no-drawing) í rúmyörðum (CY) fyrir verkefni í fetum, eða rúmmetrum (m³) fyrir verkefni í metrum. Þetta er eitt skref: {{key:Mod+Z}} tekur það til baka.
+1. Í CivilCraft mótarðu plön og leiðir og velur {{ui:Senda í TakeoffDesk}} undir **Jarðvinna** ([Rúmmál jarðvinnu](app:civilcraft/volumes)). Það vistar magnskrá (`.quantities.json`).
+2. Í TakeoffDesk opnarðu hana með {{ui:Opna magntöku}}, eða sleppir henni á forritið. Magntakan þín er áfram opin: skráin bætir við **Earthwork: cut** og **Earthwork: fill** sem [tegundarmagntölum](topic:create-items#typed-quantities-no-drawing) í rúmyörðum (CY) fyrir verkefni í fetum, eða rúmmetrum (m³) fyrir verkefni í metrum. Þetta er eitt skref: {{key:Mod+Z}} tekur það til baka.
 3. Endurnefndu þá og stilltu úrgang, einingarverð og samsetningar eins og þú vilt.
 
 Þegar hönnunin breytist sendirðu aftur úr CivilCraft og opnar nýju skrána: sömu tveir liðirnir fá nýju magntölurnar. Heiti þeirra, verð, úrgangur og samsetningar haldast eins og þú stilltir þau. Ef mælieining verkefnisins breyttist segir stöðustikan það: athugaðu verðin. Skrá úr öðru CivilCraft-verkefni bætir við sínum eigin tveimur liðum.

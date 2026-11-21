@@ -28,7 +28,7 @@ Buku kerja memiliki empat lembar kerja, serta laporan di bawah bila berlaku:
 
 Dengan [ringkasan penawaran](topic:bid-summary), lembar Estimate juga diakhiri dengan markup-nya (beban upah, pajak penjualan, overhead, profit, bond, dan penawaran), sebagai rumus langsung.
 
-Lembar Estimate menyimpan **rumus langsung**: kuantitas dengan susut, jumlah material dan upah yang dibulatkan, total setiap baris, dan total pekerjaan. Program spreadsheet menghitung ulang, jadi Anda bisa mengubah harga atau susut di spreadsheet dan totalnya mengikuti. Angka yang dihitung TakeoffCraft juga disimpan di dalam sel, dan cocok sampai sen.
+Lembar Estimate menyimpan **rumus langsung**: kuantitas dengan susut, jumlah material dan upah yang dibulatkan, total setiap baris, dan total pekerjaan. Program spreadsheet menghitung ulang, jadi Anda bisa mengubah harga atau susut di spreadsheet dan totalnya mengikuti. Angka yang dihitung TakeoffDesk juga disimpan di dalam sel, dan cocok sampai sen.
 
 Kolom Notes mencantumkan rumus setiap komponen, kesalahan rumus, tanda pada lembar tanpa skala, luas dinding, dan keliling. Bila ada yang terlewat, baris total pekerjaan berbunyi "Tidak lengkap: lihat catatan di atas".
 
@@ -42,7 +42,7 @@ CSV hanya berisi estimasi; untuk kuantitas per lembar dan daftar tanda, gunakan 
 
 ## Estimasi di Google Sheets
 
-Di atas tabel Kuantitas, **Salin untuk Google Sheets** menempatkan estimasi di papan klip sebagai teks yang dipisahkan tab, dengan baris yang sama seperti CSV. Di Google Sheet, klik sel A1 lalu tempel. TakeoffCraft tidak masuk ke Google dan tidak mengirim apa pun ke sana.
+Di atas tabel Kuantitas, **Salin untuk Google Sheets** menempatkan estimasi di papan klip sebagai teks yang dipisahkan tab, dengan baris yang sama seperti CSV. Di Google Sheet, klik sel A1 lalu tempel. TakeoffDesk tidak masuk ke Google dan tidak mengirim apa pun ke sana.
 
 ## Harga satuan yang hilang dan persetujuan
 

@@ -46,7 +46,7 @@ Výška je pole {{ui:Výška}} lineárnej položky a hĺbka je pole {{ui:Hĺbka}
 | {{ui:List}} | Zobrazí alebo skryje výkres na zemi. |
 | Kocka pohľadu, vpravo hore | Kliknite na stenu, hranu alebo roh a pozrite sa odtiaľ; ťahaním ju obiehate; ťahaním jej kruhu s kompasom otáčate; tlačidlo domčeka vráti na {{ui:Izometria}}. |
 
-V rohu sa zobrazí kocka pohľadu, malá ikona osí X, Y, Z, alebo nič: vyberte v {{ui:Nastavenia}}, na karte TakeoffCraft, pod **Indikátor rohu** ([Nastavenia TakeoffCraft](topic:settings)). Plochý list nemá indikátor rohu.
+V rohu sa zobrazí kocka pohľadu, malá ikona osí X, Y, Z, alebo nič: vyberte v {{ui:Nastavenia}}, na karte TakeoffDesk, pod **Indikátor rohu** ([Nastavenia TakeoffDesk](topic:settings)). Plochý list nemá indikátor rohu.
 
 :::touch
 Jeden prst obieha; dva prsty štipnutím priblížia a posunom sa pohybujú. Klepnutie vyberie.

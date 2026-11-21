@@ -46,7 +46,7 @@ I numeri non cambiano in 3D: l'area di un muro è la sua lunghezza esatta per l'
 | {{ui:Tavola}} | Mostra o nasconde il disegno a terra. |
 | Il cubo di vista, in alto a destra | Fare clic su una faccia, uno spigolo o un vertice per guardare da lì; trascinarlo per ruotare; trascinare il suo anello della bussola per girare; il pulsante casa riporta a {{ui:Iso}}. |
 
-L'angolo mostra un cubo di vista, una piccola icona degli assi X, Y, Z, oppure niente: si sceglie in {{ui:Impostazioni}}, nella scheda TakeoffCraft, sotto **Indicatore d'angolo** ([Impostazioni di TakeoffCraft](topic:settings)). La tavola piana non ha indicatore d'angolo.
+L'angolo mostra un cubo di vista, una piccola icona degli assi X, Y, Z, oppure niente: si sceglie in {{ui:Impostazioni}}, nella scheda TakeoffDesk, sotto **Indicatore d'angolo** ([Impostazioni di TakeoffDesk](topic:settings)). La tavola piana non ha indicatore d'angolo.
 
 :::touch
 Un dito ruota la vista; due dita pizzicano per ingrandire e scorrono per spostare. Un tocco seleziona.

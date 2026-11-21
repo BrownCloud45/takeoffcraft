@@ -32,11 +32,11 @@ Las marcas pegadas van al área de oferta elegida arriba del panel {{ui:Items}} 
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) pone la copia exactamente en el mismo lugar de la hoja abierta, según su posición en la página. Usalo para un piso típico: tomá el nivel 2, copiá, abrí el nivel 3 y pegá en el lugar.
 
-Pegar en el lugar necesita una hoja del **mismo tamaño** que la de origen. En una hoja de otro tamaño, TakeoffCraft lo indica y no pega nada; usá {{ui:Paste}} y hacé clic. En la hoja de origen, la copia cae encima de los originales.
+Pegar en el lugar necesita una hoja del **mismo tamaño** que la de origen. En una hoja de otro tamaño, TakeoffDesk lo indica y no pega nada; usá {{ui:Paste}} y hacé clic. En la hoja de origen, la copia cae encima de los originales.
 
 ## La escala debe coincidir
 
-Longitudes y áreas dependen de la escala de la hoja. Un tramo que mide 10' a 1/4" = 1'-0" mediría 20' en una hoja a 1/8" = 1'-0". Por eso TakeoffCraft pega tramos y áreas solo en una hoja con la **misma escala** que la hoja de origen, y lo dice claramente cuando no:
+Longitudes y áreas dependen de la escala de la hoja. Un tramo que mide 10' a 1/4" = 1'-0" mediría 20' en una hoja a 1/8" = 1'-0". Por eso TakeoffDesk pega tramos y áreas solo en una hoja con la **misma escala** que la hoja de origen, y lo dice claramente cuando no:
 
 - La hoja abierta no tiene escala: fijala primero ([Establecer la escala](topic:set-the-scale)), y después pegá.
 - La hoja abierta tiene otra escala: el mensaje nombra las dos escalas. Pegá en una hoja a la misma escala.
@@ -59,7 +59,7 @@ El editor de ítems (bajo **Items**) termina con:
 - {{ui:Duplicate item}}: agrega una copia de una vez, llamada "(nombre) (copy)".
 
 :::tip
-La copia queda en esta computadora: se guarda en esta pestaña y en el almacenamiento del navegador, así que otra pestaña de TakeoffCraft puede pegarla. No se sube nada, y no se usa el portapapeles del sistema, así que no podés pegar marcas en otros programas.
+La copia queda en esta computadora: se guarda en esta pestaña y en el almacenamiento del navegador, así que otra pestaña de TakeoffDesk puede pegarla. No se sube nada, y no se usa el portapapeles del sistema, así que no podés pegar marcas en otros programas.
 :::
 
 :::note

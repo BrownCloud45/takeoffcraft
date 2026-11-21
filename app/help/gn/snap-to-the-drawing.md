@@ -5,7 +5,7 @@ keywords: snap, osnap, snap a objeto, extremo, punto medio, intersección, más 
 from: 41d29e9b
 ---
 
-Heta plano-kuéra ha'e PDF vectorial: iparedes ha borde-kuéra ha'e línea veraha, ndaha'éi píxel. Medi jave, TakeoffCraft nde clic-kuéra omboja'o ko línea-kuéra ári, upeicha tramo oñepyrũ tiempo esquina de muro-pe, ha calibración ohechauka cota hacedor ojapo vaekue, ndaha'éi píxel nde ojapy.
+Heta plano-kuéra ha'e PDF vectorial: iparedes ha borde-kuéra ha'e línea veraha, ndaha'éi píxel. Medi jave, TakeoffDesk nde clic-kuéra omboja'o ko línea-kuéra ári, upeicha tramo oñepyrũ tiempo esquina de muro-pe, ha calibración ohechauka cota hacedor ojapo vaekue, ndaha'éi píxel nde ojapy.
 
 Snap oñemoĩ jave oñepyrũ. Omboriahu térã omboyke {{ui:Snap}} barra de estado-pe térã {{key:F3}} rupi; ajuste ko navegador-pe oñeñongatu (oĩ avei [Configuración](topic:settings)-pe).
 

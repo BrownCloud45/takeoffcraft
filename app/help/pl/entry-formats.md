@@ -1,6 +1,6 @@
 ---
 title: Wprowadzanie długości, stawek i procentów
-summary: Co możesz wpisać jako odległości, wysokości, stawki pieniężne i procenty naddatku, z przykładami oraz komunikatami dla danych, których TakeoffCraft nie potrafi odczytać.
+summary: Co możesz wpisać jako odległości, wysokości, stawki pieniężne i procenty naddatku, z przykładami oraz komunikatami dla danych, których TakeoffDesk nie potrafi odczytać.
 keywords: wprowadzanie, format, stopy i cale, ułamki, stopy dziesiętne, metryczne, metry, milimetry, stawka, cena, dolary, procent, naddatek, pisanie
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Do dwóch miejsc po przecinku, od 0% do 1000%. Komunikaty: „Wpisz procent, na 
 ## Nazwy i jednostki
 
 - Nazwy pozycji i składników: do 200 znaków.
-- {{ui:Jednostka}} składnika: dowolny tekst do 20 znaków, na przykład `EA`, `sheets`, `CY`, `gal`. To tylko etykieta; TakeoffCraft jej nie przelicza.
+- {{ui:Jednostka}} składnika: dowolny tekst do 20 znaków, na przykład `EA`, `sheets`, `CY`, `gal`. To tylko etykieta; TakeoffDesk jej nie przelicza.
 
 ## Formuły
 

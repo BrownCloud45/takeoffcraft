@@ -39,4 +39,4 @@ Chaque poste porte aussi son numéro CSI MasterFormat, comme `09 21 16`.
 
 {{ui:Exporter en lot…}} dans la bibliothèque l'enregistre sous forme de fichier de lot (`.ccpack.json`) que n'importe qui peut ajouter avec {{ui:Ouvrir un fichier de lot…}}. Par défaut, il exclut les postes provenant des lots que vous avez ajoutés, et ne contient aucun tarif. Cochez {{ui:Inclure mes tarifs comme tarifs d'exemple}} pour y joindre aussi vos tarifs : ils sont envoyés avec la région et la date que vous indiquez, et la personne qui ajoute le lot choisit de les utiliser ou non.
 
-Les fichiers de lot ne contiennent que des données, jamais des programmes. TakeoffCraft vérifie chaque partie d'un fichier avant de l'utiliser et écarte tout ce qu'il ne peut pas lire.
+Les fichiers de lot ne contiennent que des données, jamais des programmes. TakeoffDesk vérifie chaque partie d'un fichier avant de l'utiliser et écarte tout ce qu'il ne peut pas lire.

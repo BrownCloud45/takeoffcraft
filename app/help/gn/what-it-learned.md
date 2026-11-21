@@ -1,11 +1,11 @@
 ---
 title: Mba'e ohekáva nde takeoff-kuéragui
-summary: TakeoffCraft ñongatu ojeconfirma'ỹva Conteo automático-pe ojeporúva, nde conjunto de condiciones, ensamblado heta ejeporúva ha marca-kuéra ojeporúva opa página-pe, opa takeoff-pe ijeheguáicha. Ehechakuaa, ejeporu, emboguejy.
+summary: TakeoffDesk ñongatu ojeconfirma'ỹva Conteo automático-pe ojeporúva, nde conjunto de condiciones, ensamblado heta ejeporúva ha marca-kuéra ojeporúva opa página-pe, opa takeoff-pe ijeheguáicha. Ehechakuaa, ejeporu, emboguejy.
 keywords: aprender, ohekágui, aprendizaje, asistente, recordar, símbolos, plantillas, igual que última trabajo, última trabajo, conjunto de condiciones, condiciones, reutilizar, ensamblados, más usados, sugerencias, repetir en cada página, cada página, bloque de título, patrón, limpiar todo, olvidar, privacidad
 from: 54d99e99
 ---
 
-TakeoffCraft heñapyta heta ejeporúvare nde takeoff-kuéra rupi. Ohekáva **ojeaceptáva añónte**:
+TakeoffDesk heñapyta heta ejeporúvare nde takeoff-kuéra rupi. Ohekáva **ojeaceptáva añónte**:
 
 - símbolo-kuéra ejeboxeáva [Conteo automático](topic:auto-count) rupive ha upéi omoĩva,
 - conjunto de condiciones ejonguáva,
@@ -64,6 +64,6 @@ Ko takeoff-pe ndaikatúi ohekáva: ejejoko **Aprender ko conteo-gui**. Pyahu ndo
 
 ## Ojeporu porã
 
-- TakeoffCraft versión tuichaveigua ojepyrũ archivo oñemoĩva ohekáva normal. Hetaiterei ndohechái upe parte ha omboguejy, oñongatúramo jey.
+- TakeoffDesk versión tuichaveigua ojepyrũ archivo oñemoĩva ohekáva normal. Hetaiterei ndohechái upe parte ha omboguejy, oñongatúramo jey.
 - Ohekáva símbolo peteĩ mba'e ohechaukáva ojeboxeáva, archivo-pe oñongatu (mil bytes peteĩvo).
 - Símbolos ohekáva oñeʼẽ Conteo automático-icha, upévare limitekuéra mesma: [Conteo automático peteĩ símbolo](topic:auto-count).

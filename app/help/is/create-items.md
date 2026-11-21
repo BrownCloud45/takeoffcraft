@@ -37,12 +37,12 @@ Slegið magn tekur engar merkingar og gerir kostnaðaráætlunina aldrei ófullg
 Ýttu á {{key:Esc}} í eyðublaðinu til að loka því án þess að bæta við lið.
 
 :::tip
-Ef þú velur mælitól fyrst notar TakeoffCraft síðasta lið af réttri gerð, eða opnar eyðublaðið {{ui:Nýr liður}} með þeirri gerð þegar valinni.
+Ef þú velur mælitól fyrst notar TakeoffDesk síðasta lið af réttri gerð, eða opnar eyðublaðið {{ui:Nýr liður}} með þeirri gerð þegar valinni.
 :::
 
 ## Veldu liðinn sem þú teiknar með
 
-Smelltu á lið á listanum. Hann verður liðurinn sem nýjar merkingar fara í, og merkingar hans eru auðkenndar á öllum blöðum á meðan hinir dofna. Ef opna blaðið hefur engar merkingar hans hoppar TakeoffCraft á blað sem hefur þær. Smelltu aftur á liðinn til að hætta auðkenningu; hann er áfram liðurinn sem þú teiknar með.
+Smelltu á lið á listanum. Hann verður liðurinn sem nýjar merkingar fara í, og merkingar hans eru auðkenndar á öllum blöðum á meðan hinir dofna. Ef opna blaðið hefur engar merkingar hans hoppar TakeoffDesk á blað sem hefur þær. Smelltu aftur á liðinn til að hætta auðkenningu; hann er áfram liðurinn sem þú teiknar með.
 
 Að smella á merkingu með {{ui:Velja}}-tólinu gerir einnig lið hennar að þeim núverandi.
 
@@ -57,7 +57,7 @@ Ritill liðarins (**Liður: (heiti)**) hefur þessa reiti. Hver þeirra er vista
 | {{ui:Litur}} | Litur merkinga hans á skjánum og í merkta PDF-skjalinu. |
 | {{ui:Eining}} | Það sem magnið er gefið í: LF eða m fyrir línulegt; SF, SY, SQ, ac, ha eða m² fyrir flatarmál; EA fyrir talningu. |
 | {{ui:Einnig mæla}} | Hinar tegundir merkinga sem liðurinn tekur, hver með sína eigin einingu. Sjá að neðan. |
-| {{ui:Hæð}} (línuleg) | Veghæð. Liðurinn skilar þá einnig veggfleti (lengd × hæð). Keðjur sem koma úr BimCraft-líkani bera hurðir og glugga sína: þær eru dregnar frá einu sinni, og liðurinn segir heildarflötinn, opin og nettóflötinn. Magntaka úr BimCraft-verkefni sem valdi mælingaraðferð er mæld með þeirri aðferð hér líka (athugasemdin nefnir hana, með uppruna sínum, og segir að magnmælandi hafi ekki yfirfarið hana); aðferðina er ekki hægt að breyta í TakeoffCraft. Múrsteinar eða blokkir og steypuhræra úr veggjagerð koma sem tveir hlutar: einingarnar til að panta og rúmmál steypuhrærunnar. |
+| {{ui:Hæð}} (línuleg) | Veghæð. Liðurinn skilar þá einnig veggfleti (lengd × hæð). Keðjur sem koma úr BimCraft-líkani bera hurðir og glugga sína: þær eru dregnar frá einu sinni, og liðurinn segir heildarflötinn, opin og nettóflötinn. Magntaka úr BimCraft-verkefni sem valdi mælingaraðferð er mæld með þeirri aðferð hér líka (athugasemdin nefnir hana, með uppruna sínum, og segir að magnmælandi hafi ekki yfirfarið hana); aðferðina er ekki hægt að breyta í TakeoffDesk. Múrsteinar eða blokkir og steypuhræra úr veggjagerð koma sem tveir hlutar: einingarnar til að panta og rúmmál steypuhrærunnar. |
 | {{ui:Dýpt}} (flatarmál) | Dýpt eða þykkt, notuð í formúlum samsetninga (til dæmis rúmmál steinsteypu). |
 | {{ui:Úrgangur %}} | Bætt við magnið áður en verð er reiknað: 10 þýðir magn × 1.10. |
 | {{ui:Efni $/LF}} | Efniskostnaður á einingu. Heitið fylgir einingunni: $/SF, $/EA og svo framvegis. |
@@ -74,7 +74,7 @@ Sumt er mælt á fleiri en eina leið: herbergi hefur gólf (flatarmál), sökku
 
 1. Búðu til liðinn með aðalgerð sinni, til dæmis flatarmálslið `Herbergi 101`.
 2. Undir {{ui:Einnig mæla}} í ritlinum hans skaltu haka við {{ui:Línuleg}}, {{ui:Telja}} eða bæði. Hvor um sig fær einingu við hlið sér.
-3. Teiknaðu með hvaða tóli sem er af tegund sem liðurinn tekur: með `Herbergi 101` virkt teiknar {{ui:Flatarmál}} gólfið, {{ui:Línuleg}} sökkulinn og {{ui:Telja}} hurðirnar. TakeoffCraft biður ekki um annan lið.
+3. Teiknaðu með hvaða tóli sem er af tegund sem liðurinn tekur: með `Herbergi 101` virkt teiknar {{ui:Flatarmál}} gólfið, {{ui:Línuleg}} sökkulinn og {{ui:Telja}} hurðirnar. TakeoffDesk biður ekki um annan lið.
 
 Liðalistinn sýnir hverja stærð (`50.00 SF + 2 EA`). Í magntöflunni hefur röð liðarins aðalstærðina, og hver önnur tegund fær sína eigin röð fyrir neðan, eins og **Herbergi 101 (talning)**, með eigin úrgangs-, efnis- og vinnutöxtum. Útflutningurinn, töflan á hverju blaði og skýringin í merkta PDF-skjalinu telja þær upp á sama hátt.
 
@@ -113,7 +113,7 @@ Fyrir hvern lið og hvern þátt samsetningar:
 | {{ui:Stærð vinnuflokks}} | `2` manns |
 | {{ui:Laun $/klst. hver}} | `45` |
 
-TakeoffCraft reiknar út frá magninu með úrgangi:
+TakeoffDesk reiknar út frá magninu með úrgangi:
 
 - **vinnuflokksstundir** = magn ÷ afköst (110 LF ÷ 20 = 5.5),
 - **mannstundir** = vinnuflokksstundir × stærð vinnuflokks (11),

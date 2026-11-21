@@ -1,6 +1,6 @@
 ---
 title: Auto-tæl et symbol
-summary: Tegn en boks om ét symbol, lad TakeoffCraft finde de andre på dette ark eller på alle åbne ark, gennemgå matchene med skyderen, og tilføj dem i ét trin.
+summary: Tegn en boks om ét symbol, lad TakeoffDesk finde de andre på dette ark eller på alle åbne ark, gennemgå matchene med skyderen, og tilføj dem i ét trin.
 keywords: enhver vinkel, roteret, drejet, anden målestok, anden skala, auto-tælling, automatisk tælling, symbolsøgning, find symboler, mønster, skabelon, match, registrér, tælleværktøj
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ For at lukke gennemgangen uden at tilføje noget, vælg {{ui:Kassér}} eller try
 
 ## Hvad det finder, og hvad det overser
 
-TakeoffCraft sammenligner tegningen, som pixels, med det symbol du har markeret.
+TakeoffDesk sammenligner tegningen, som pixels, med det symbol du har markeret.
 
 - Det finder symbolet drejet 0°, 90°, 180° og 270°. Sæt flueben i {{ui:Enhver vinkel (langsommere)}} på auto-tællingslinjen, før du tegner boksen, for også at finde det i enhver vinkel: den prøver hver 15° og finjusterer derefter hvert fund til en halv grad. Det tager cirka seks gange så lang tid. Den finder ikke et spejlvendt symbol (medmindre symbolet ser ens ud spejlvendt).
 - Med {{ui:Søg i alle åbne ark}} sat af søges et ark i en anden målestok i den størrelse, symbolet har der: et armatur tegnet i målestok på en 1/8"-plan er halvt så stort som på en 1/4"-plan, og det findes stadig. Et sådant ark søges også i boksens egen størrelse, til mærker og symboler trykt i én størrelse på alle ark. Dette kræver en målestok på begge ark; et ark uden målestok søges kun i boksens størrelse.

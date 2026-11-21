@@ -1,6 +1,6 @@
 ---
 title: Hitung otomatis satu simbol
-summary: Beri kotak pada satu simbol, biarkan TakeoffCraft mencari yang lain pada lembar ini atau setiap lembar yang terbuka, tinjau kecocokannya dengan penggeser, lalu tambahkan sekaligus dalam satu langkah.
+summary: Beri kotak pada satu simbol, biarkan TakeoffDesk mencari yang lain pada lembar ini atau setiap lembar yang terbuka, tinjau kecocokannya dengan penggeser, lalu tambahkan sekaligus dalam satu langkah.
 keywords: sudut apa pun, diputar, berputar, skala lain, skala berbeda, hitung otomatis, hitungan otomatis, pencarian simbol, temukan simbol, pola, templat, kecocokan, deteksi, alat hitung
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Untuk membuang tinjauan tanpa menambahkan apa pun, pilih {{ui:Buang}} atau tekan
 
 ## Apa yang ditemukan, dan apa yang terlewat
 
-TakeoffCraft membandingkan gambar, sebagai piksel, dengan simbol yang Anda beri kotak.
+TakeoffDesk membandingkan gambar, sebagai piksel, dengan simbol yang Anda beri kotak.
 
 - Ia menemukan simbol yang diputar 0°, 90°, 180°, dan 270°. Centang {{ui:Sudut apa pun (lebih lambat)}} pada bilah hitung otomatis sebelum Anda membuat kotak agar simbol juga ditemukan pada sudut apa pun: ia mencoba setiap 15°, lalu menyempurnakan setiap temuan hingga ketelitian satu setengah derajat. Ini memakan waktu sekitar enam kali lebih lama. Ia tidak menemukan simbol cermin (kecuali simbol itu terlihat sama jika dicerminkan).
 - Dengan {{ui:Cari di semua lembar yang terbuka}} dicentang, lembar dengan skala lain dicari pada ukuran yang dimiliki simbol di lembar itu: perlengkapan yang digambar sesuai skala pada denah 1/8" berukuran setengah dari ukurannya pada denah 1/4", dan tetap ditemukan. Lembar seperti itu juga dicari pada ukuran kotak itu sendiri, untuk tag dan simbol yang dicetak pada satu ukuran di setiap lembar. Ini membutuhkan skala pada kedua lembar; lembar tanpa skala hanya dicari pada ukuran kotak.

@@ -29,7 +29,7 @@ The workbook has four worksheets, and the reports below when they apply:
 
 With a [bid summary](topic:bid-summary), the Estimate worksheet also ends with its markups (labor burden, sales tax, overhead, profit, bond and the bid), as live formulas.
 
-The Estimate worksheet keeps **live formulas**: quantity with waste, the rounded material and labor amounts, each row's total and the job total. Spreadsheet programs recalculate them, so you can change a rate or waste in the spreadsheet and the totals follow. The numbers TakeoffCraft computed are stored in the cells as well, and match to the cent.
+The Estimate worksheet keeps **live formulas**: quantity with waste, the rounded material and labor amounts, each row's total and the job total. Spreadsheet programs recalculate them, so you can change a rate or waste in the spreadsheet and the totals follow. The numbers TakeoffDesk computed are stored in the cells as well, and match to the cent.
 
 The notes column lists each component's formula, formula errors, marks on sheets with no scale, wall area and perimeter. When anything is left out, the job total row says "Incomplete: see the notes above".
 
@@ -43,7 +43,7 @@ The CSV has only the estimate; for quantities by sheet and the mark list, use XL
 
 ## The estimate in Google Sheets
 
-Above the Quantities table, **Copy for Google Sheets** puts the estimate on your clipboard as tab-separated text, with the same lines as the CSV. In a Google Sheet, click cell A1 and paste. TakeoffCraft does not sign in to Google and sends nothing there.
+Above the Quantities table, **Copy for Google Sheets** puts the estimate on your clipboard as tab-separated text, with the same lines as the CSV. In a Google Sheet, click cell A1 and paste. TakeoffDesk does not sign in to Google and sends nothing there.
 
 ## Missing rates and the sign-off
 

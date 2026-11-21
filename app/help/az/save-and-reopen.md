@@ -18,32 +18,32 @@ Hər saxlama yeni fayl yükləyir. Brauzeriniz ikinci faylı `(ad) (1).takeoff.j
 Ad bu hesablamada açdığınız ilk PDF-dən götürülür.
 
 :::note
-{{ui:Hesablamanı saxla}} hesablamanı fayl kimi saxlamağın yeganə yoludur. İşləyərkən TakeoffCraft bu brauzerdə bərpa nüsxəsi də saxlayır (aşağıya bax), bulud saxlaması isə hələ mövcud deyil. Saxlanılmamış dəyişikliklərlə nişanı bağlamağa cəhd etsəniz, brauzer çıxmağın təsdiqini soruşur.
+{{ui:Hesablamanı saxla}} hesablamanı fayl kimi saxlamağın yeganə yoludur. İşləyərkən TakeoffDesk bu brauzerdə bərpa nüsxəsi də saxlayır (aşağıya bax), bulud saxlaması isə hələ mövcud deyil. Saxlanılmamış dəyişikliklərlə nişanı bağlamağa cəhd etsəniz, brauzer çıxmağın təsdiqini soruşur.
 :::
 
 ## PDF-in içində hesablamanı saxlayın
 
 {{ui:İxrac}} › {{ui:Hesablaması daxil edilmiş PDF}} açıq hər PDF-in nüsxəsini `Plans (with takeoff).pdf` kimi adlandırılmış şəkildə yükləyir və bütün hesablamanı qoşma kimi daşıyır: elementləri, işarələri, miqyasları, təklif sahələrini, `.takeoff.json`-un saxladığı hər şeyi. Səhifələri dəyişməz qalır, buna görə orijinal kimi görünür və çap olunur; digər PDF oxuyucuları hesablamanı öz qoşmalarında göstərir.
 
-Bu PDF-i TakeoffCraft-da açın (PDF-ləri necə açsanız, elə) və o soruşur **Bu PDF-in içində hesablama var**: onu geri almaq üçün {{ui:Hesablamanı açın}} seçin, ya da yalnız çertyoju açmaq üçün {{ui:Yalnız PDF}} seçin. Nüsxə ondan yaradıldığı PDF-in yerini tutur, buna görə hər ikisindən saxlanılmış `.takeoff.json` hər ikisində açılır.
+Bu PDF-i TakeoffDesk-da açın (PDF-ləri necə açsanız, elə) və o soruşur **Bu PDF-in içində hesablama var**: onu geri almaq üçün {{ui:Hesablamanı açın}} seçin, ya da yalnız çertyoju açmaq üçün {{ui:Yalnız PDF}} seçin. Nüsxə ondan yaradıldığı PDF-in yerini tutur, buna görə hər ikisindən saxlanılmış `.takeoff.json` hər ikisində açılır.
 
 Bir neçə PDF ilə hər nüsxə bütün hesablamanı daşıyır; onları birlikdə açın. Nüsxədən yenidən saxlamaq içindəki hesablamanı əvəz edir, ikinci bir hesablama əlavə etmir. `.takeoff.json` hələ də saxlanılmalı fayldır: o kiçikdir və avtomatik saxlama və masaüstü tətbiqinin yazdığı odur.
 
 ## Brauzer və ya nişan dayananda
 
-Hər dəyişiklikdən bir neçə saniyə sonra TakeoffCraft hesablamanın nüsxəsini bu brauzerin öz yaddaşında saxlayır, PDF-lər birlikdə 64 MB və ya daha az olduqda onlarla birlikdə. Heç nə yüklənmir. Hesablamanı saxlayanda, yenisini başlatanda və ya başqa layihə açanda nüsxə silinir.
+Hər dəyişiklikdən bir neçə saniyə sonra TakeoffDesk hesablamanın nüsxəsini bu brauzerin öz yaddaşında saxlayır, PDF-lər birlikdə 64 MB və ya daha az olduqda onlarla birlikdə. Heç nə yüklənmir. Hesablamanı saxlayanda, yenisini başlatanda və ya başqa layihə açanda nüsxə silinir.
 
-Nişan çöksə, brauzer və ya kompüter dayansa, ya da saxlanılmamış dəyişikliklərlə çıxsanız, TakeoffCraft növbəti dəfə açıldıqda **İşinizi bərpa edək?** soruşur və hesablamanı adı ilə siyahıda göstərir. Onu geri almaq üçün **Bərpa et** seçin: elementlər, işarələr və miqyaslar qayıdır, PDF-lər saxlanılmışdırsa yenidən açılır. Status paneli yazır: "(ad) bərpa olundu. Hələ fayla saxlanılmayıb: Hesablamanı saxla onu saxlayır." PDF-lər saxlamaq üçün çox böyük olduqda, onları yenidən açın; işarələr öz vərəqlərində görünəcək. Ətraflı: [İşinizi bərpa edin](common:recover).
+Nişan çöksə, brauzer və ya kompüter dayansa, ya da saxlanılmamış dəyişikliklərlə çıxsanız, TakeoffDesk növbəti dəfə açıldıqda **İşinizi bərpa edək?** soruşur və hesablamanı adı ilə siyahıda göstərir. Onu geri almaq üçün **Bərpa et** seçin: elementlər, işarələr və miqyaslar qayıdır, PDF-lər saxlanılmışdırsa yenidən açılır. Status paneli yazır: "(ad) bərpa olundu. Hələ fayla saxlanılmayıb: Hesablamanı saxla onu saxlayır." PDF-lər saxlamaq üçün çox böyük olduqda, onları yenidən açın; işarələr öz vərəqlərində görünəcək. Ətraflı: [İşinizi bərpa edin](common:recover).
 
 ## Yenidən açmaq
 
-1. TakeoffCraft-ı açın.
+1. TakeoffDesk-ı açın.
 2. `.takeoff.json` faylını və PDF-lərini birlikdə səhifəyə atın. Ya da PDF-lər üçün {{ui:Planları aç}}, layihə üçün {{ui:Hesablamanı aç}} seçin, hər hansı sırada.
    Status paneli yazır: "(ad) açıldı: 12 element, 340 işarə." Hər vərəq miqyasını geri alır və işarələr öz vərəqlərində görünür.
 
-PDF-lərin sırası əhəmiyyət kəsb etmir, adları və qovluqları da. TakeoffCraft hər PDF-i məzmununun barmaq izi ilə tanıyır.
+PDF-lərin sırası əhəmiyyət kəsb etmir, adları və qovluqları da. TakeoffDesk hər PDF-i məzmununun barmaq izi ilə tanıyır.
 
-Cari hesablamanın saxlanılmamış dəyişiklikləri olduqda layihə açsanız, TakeoffCraft əvvəl soruşur: **Ləğv et**, **Dəyişikliklərdən imtina et** və ya **Əvvəl hesablamanı saxla**. Layihəni açmaq cari elementləri və işarələri əvəz edir; artıq açıq olan PDF-lər açıq qalır.
+Cari hesablamanın saxlanılmamış dəyişiklikləri olduqda layihə açsanız, TakeoffDesk əvvəl soruşur: **Ləğv et**, **Dəyişikliklərdən imtina et** və ya **Əvvəl hesablamanı saxla**. Layihəni açmaq cari elementləri və işarələri əvəz edir; artıq açıq olan PDF-lər açıq qalır.
 
 ## PDF itəndə
 
@@ -55,7 +55,7 @@ Ardınca fayl adları və ölçüləri gəlir. Onların işarələri hər cəmd�
 
 ## PDF dəyişəndə
 
-Yenidən işlənmiş və ya başqa proqramla yenidən saxlanılmış PDF fərqli məzmuna malikdir, buna görə TakeoffCraft üçün **başqa fayldır**, eyni adda olsa belə. Vərəqlər siyahısının altındakı qeydə görə belə fayl deyir: "bu adlı fayl açıqdır, lakin məzmunu fərqlidir".
+Yenidən işlənmiş və ya başqa proqramla yenidən saxlanılmış PDF fərqli məzmuna malikdir, buna görə TakeoffDesk üçün **başqa fayldır**, eyni adda olsa belə. Vərəqlər siyahısının altındakı qeydə görə belə fayl deyir: "bu adlı fayl açıqdır, lakin məzmunu fərqlidir".
 
 - İşarələr köhnə versiyaya bağlı qalır. Onlar köhnə yerləri və miqyasları ilə sayılmağa davam edir.
 - Yenidən işlənmiş PDF miqyası və işarəsi olmayan yeni vərəqlər kimi açılır.
@@ -64,11 +64,11 @@ Hesablamanı revizyona keçirmək üçün hər iki PDF-i açın və yeni vərəq
 
 ## Zədələnmiş və ya yad fayl
 
-TakeoffCraft hər layihə faylını istifadə etməzdən əvvəl yoxlayır. Görə biləcəyiniz mesajlar:
+TakeoffDesk hər layihə faylını istifadə etməzdən əvvəl yoxlayır. Görə biləcəyiniz mesajlar:
 
-- "(fayl) TakeoffCraft layihəsi deyil (düzgün JSON deyil)."
-- "Bu TakeoffCraft layihə faylı deyil."
-- "Bu layihə daha yeni TakeoffCraft ilə saxlanılıb. Onu orada açın."
+- "(fayl) TakeoffDesk layihəsi deyil (düzgün JSON deyil)."
+- "Bu TakeoffDesk layihə faylı deyil."
+- "Bu layihə daha yeni TakeoffDesk ilə saxlanılıb. Onu orada açın."
 - "3 işarə zədələndi və kənarda qaldı." (qalanı açılır)
 
 ## Geri qaytarma tarixçəsi

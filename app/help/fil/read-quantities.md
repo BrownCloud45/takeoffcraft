@@ -24,7 +24,7 @@ Piliin ang {{ui:Ayon sa item}} (ang default). May sariling row ang bawat item, a
 
 Ang huling row, **Kabuuang job**, ay nagdaragdag ng mga kolum ng material, labor at total. Ang parehong kabuuan ay nakikita sa kanan ng header ng talahanayan.
 
-Mag-type sa cell ng waste o rate at pindutin ang {{key:Enter}} o mag-click sa labas para ilapat ito. Ang value na hindi mabasa ng TakeoffCraft ay may pulang outline, at sinasabi ng status bar kung bakit, halimbawa "Mag-type ng halaga gaya ng 12.50."
+Mag-type sa cell ng waste o rate at pindutin ang {{key:Enter}} o mag-click sa labas para ilapat ito. Ang value na hindi mabasa ng TakeoffDesk ay may pulang outline, at sinasabi ng status bar kung bakit, halimbawa "Mag-type ng halaga gaya ng 12.50."
 
 Mag-click sa row ng item para i-highlight ang mga marka nito sa bawat sheet at tumalon sa sheet na mayroon nito (pareho ng pag-click dito sa ilalim ng {{ui:Items}}).
 

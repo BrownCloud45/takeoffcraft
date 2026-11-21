@@ -8,7 +8,7 @@
  * 10.1 pt (a dot 0.28" across on paper), so counts that sat apart on screen ran into each other in the export.
  *
  * The rule now:
- *   - The setting is the dot's radius on screen in CSS px (Settings › TakeoffCraft › Count marker size): extra small 3,
+ *   - The setting is the dot's radius on screen in CSS px (Settings › TakeoffDesk › Count marker size): extra small 3,
  *     small 4.5, medium 6 (the default: what the screen always drew), large 8. The screen keeps that size at every zoom.
  *   - The PDF draws the same dot at that size on paper: 1 CSS px = 1/96 inch = 0.75 pt, so radius = px × 0.75 pt
  *     (medium: 4.5 pt), divided by the page's /UserUnit. A viewer showing the PDF at 100% therefore shows the dot exactly as big

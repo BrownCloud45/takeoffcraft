@@ -1,6 +1,6 @@
 ---
 title: Plan takımındaki her şeyi sayın
-summary: Bir simge açıklamasını bir kez kutuya alın; TakeoffCraft açık her sayfadaki her simgeyi tek bir çalıştırmada sayar. Her sayım sayfasına bir bağlantıdır ve hiçbir şey eklenmeden önce gözden geçirirsiniz.
+summary: Bir simge açıklamasını bir kez kutuya alın; TakeoffDesk açık her sayfadaki her simgeyi tek bir çalıştırmada sayar. Her sayım sayfasına bir bağlantıdır ve hiçbir şey eklenmeden önce gözden geçirirsiniz.
 keywords: hepsini say, açıklama, simge açıklaması, tüm takım, her sayfa, tüm sayfalar, her kapı, her armatür, cihazlar, liste, simgeler, otomatik say, plan takımı, 200 sayfa, eşleşme düzeyi, benzer görünen
 from: adc99744
 ---

@@ -19,9 +19,9 @@ U **Količine › Po stavci** red koji ima količinu, a nema cenu materijala ili
 2. Dijalog navodi ukupan iznos koji overavate i navodi redove bez cene. Ukucajte svoje ime i, ako želite, svoju ulogu.
 3. Kliknite **Overi**. Traka sada kaže „Overio … dana …” sa ukupnim iznosom. Sačuvajte predmer da to zadržite u datoteci.
 
-Overa se odnosi na brojke koje ste overili. Svaka kasnija promena količine, cene ili reda je poništava, i TakeoffCraft vas o tome obaveštava. Opozivanje vraća predračun koji ste overili, i njegovu overu sa njim. Preimenovanje reda nije promena brojke. **Ukloni overu** je uklanja.
+Overa se odnosi na brojke koje ste overili. Svaka kasnija promena količine, cene ili reda je poništava, i TakeoffDesk vas o tome obaveštava. Opozivanje vraća predračun koji ste overili, i njegovu overu sa njim. Preimenovanje reda nije promena brojke. **Ukloni overu** je uklanja.
 
-Datoteka predmera koja je izmenjena van TakeoffCraft-a posle overe otvara se bez overe, uz napomenu o tome. Izvezeni predračun (CSV i XLSX) navodi overu ispod ukupnih iznosa.
+Datoteka predmera koja je izmenjena van TakeoffDesk-a posle overe otvara se bez overe, uz napomenu o tome. Izvezeni predračun (CSV i XLSX) navodi overu ispod ukupnih iznosa.
 
 Samo osoba overava. AI asistent može da vidi da li je predračun overen i koje cene nedostaju; nema način da overi.
 

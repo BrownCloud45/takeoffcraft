@@ -13,7 +13,7 @@ Aprirla con {{ui:Libreria}} in cima al pannello {{ui:Voci}}.
 
 - {{ui:Importa CSV…}} legge un foglio di calcolo salvato come CSV (vedere le colonne sotto). Le voci il cui nome e tipo sono già nella libreria vengono sostituite; le altre vengono aggiunte. Le righe che non può leggere vengono saltate, e indica quali e perché.
 - {{ui:Aggiungi le voci di questo computo}} copia ogni voce del computo aperto nella libreria, con le sue tariffe e la sua composizione (non i suoi segni).
-- Il CSV del preventivo che TakeoffCraft esporta ([Esportare il preventivo](topic:export-estimate)) si importa così com'è: i prezzi dell'ultimo lavoro alimentano il successivo.
+- Il CSV del preventivo che TakeoffDesk esporta ([Esportare il preventivo](topic:export-estimate)) si importa così com'è: i prezzi dell'ultimo lavoro alimentano il successivo.
 
 - {{ui:Pacchetti di categoria…}} aggiunge composizioni gratuite per una categoria, come cartongesso, impianti elettrici o calcestruzzo, senza prezzi. Vedere [Pacchetti di categoria](topic:trade-packs).
 

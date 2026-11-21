@@ -13,7 +13,7 @@ Onu {{ui:Elementlər}} panelinin yuxarısındakı {{ui:Kitabxana}} ilə açın.
 
 - {{ui:CSV idxal et…}} CSV kimi saxlanmış cədvəli oxuyur (aşağıdakı sütunlara bax). Adı və növü artıq kitabxanada olan elementlər dəyişdirilir; qalanları əlavə olunur. Oxuna bilməyən sətirlər atlanır və hansının niyə olduğunu bildirir.
 - {{ui:Bu hesablamanın elementlərini əlavə et}} açıq hesablamanın hər elementini dərəcələri və yığımı ilə kitabxanaya kopyalayır (işarələri yox).
-- TakeoffCraft-ın ixrac etdiyi smeta CSV-si ([Smetanı ixrac edin](topic:export-estimate)) olduğu kimi idxal olunur: keçən işin qiymətləri növbəti işə başlanğıc verir.
+- TakeoffDesk-ın ixrac etdiyi smeta CSV-si ([Smetanı ixrac edin](topic:export-estimate)) olduğu kimi idxal olunur: keçən işin qiymətləri növbəti işə başlanğıc verir.
 
 - {{ui:Peşə paketləri…}} bir peşə üçün pulsuz yığımlar əlavə edir, məsələn quru divar, elektrik və ya beton, qiymətsiz. Bax: [Peşə paketləri](topic:trade-packs).
 

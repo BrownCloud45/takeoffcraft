@@ -5,7 +5,7 @@ keywords: dwg, dxf, cao, dessin, ouvrir un dessin, présentations, espace objet,
 from: d8c3f504
 ---
 
-TakeoffCraft ouvre un dessin DWG ou DXF comme un PDF : inutile de le tracer d'abord en PDF. Le comptage à partir du dessin lui-même est exact, car le dessin connaît chaque objet. Voir [Compter depuis un dessin](topic:count-from-a-drawing).
+TakeoffDesk ouvre un dessin DWG ou DXF comme un PDF : inutile de le tracer d'abord en PDF. Le comptage à partir du dessin lui-même est exact, car le dessin connaît chaque objet. Voir [Compter depuis un dessin](topic:count-from-a-drawing).
 
 ## Ouvrir le dessin
 
@@ -13,9 +13,9 @@ TakeoffCraft ouvre un dessin DWG ou DXF comme un PDF : inutile de le tracer d'ab
 2. Sélectionnez le fichier DWG ou DXF. Vous pouvez en sélectionner plusieurs, et des PDF avec eux.
 3. Choisissez Ouvrir.
 
-Vous pouvez aussi déposer des fichiers de dessin sur TakeoffCraft, comme des PDF. Rien n'est envoyé : le navigateur lit le fichier sur votre ordinateur.
+Vous pouvez aussi déposer des fichiers de dessin sur TakeoffDesk, comme des PDF. Rien n'est envoyé : le navigateur lit le fichier sur votre ordinateur.
 
-TakeoffCraft lit les DWG d'AutoCAD 2000 à 2018 et les DXF ASCII de R12 à 2018. Il refuse un DXF binaire (enregistrez-le en ASCII, ou en DWG) ainsi qu'un fichier qui n'est ni l'un ni l'autre, et indique pourquoi. Un fichier endommagé s'ouvre avec ce qui a pu être lu, et un message le signale ; ses comptages peuvent être incomplets.
+TakeoffDesk lit les DWG d'AutoCAD 2000 à 2018 et les DXF ASCII de R12 à 2018. Il refuse un DXF binaire (enregistrez-le en ASCII, ou en DWG) ainsi qu'un fichier qui n'est ni l'un ni l'autre, et indique pourquoi. Un fichier endommagé s'ouvre avec ce qui a pu être lu, et un message le signale ; ses comptages peuvent être incomplets.
 
 ## Feuilles
 
@@ -40,10 +40,10 @@ Une feuille commence avec l'échelle que donne le dessin :
 
 ## Dessins liés (xrefs)
 
-Un dessin qui lie d'autres dessins les affiche là où ils sont insérés. TakeoffCraft retrouve un dessin lié parmi les **fichiers ouverts**, par son nom : ouvrez le dessin principal et son dessin lié ensemble (ou l'un après l'autre). Tant qu'il ne l'est pas, la barre d'état indique combien de dessins liés n'ont pas été trouvés, que leur contenu manque, et les comptages le signalent.
+Un dessin qui lie d'autres dessins les affiche là où ils sont insérés. TakeoffDesk retrouve un dessin lié parmi les **fichiers ouverts**, par son nom : ouvrez le dessin principal et son dessin lié ensemble (ou l'un après l'autre). Tant qu'il ne l'est pas, la barre d'état indique combien de dessins liés n'ont pas été trouvés, que leur contenu manque, et les comptages le signalent.
 
 ## Limites
 
-- Les objets que TakeoffCraft ne peut ni lire ni placer (objets proxy, classes inconnues) sont listés par type dans la fenêtre de comptage ; ils ne sont jamais écartés sans avertissement.
+- Les objets que TakeoffDesk ne peut ni lire ni placer (objets proxy, classes inconnues) sont listés par type dans la fenêtre de comptage ; ils ne sont jamais écartés sans avertissement.
 - Les très grands dessins ne sont affichés qu'en partie, et les comptages s'arrêtent à une limite, en le signalant. Ouvrez plutôt un PDF tracé de ce dessin.
 - Un dessin est affiché en noir et dans ses propres couleurs, assombries pour un papier blanc. Les tables de styles de tracé et les affectations de plumes ne sont pas appliquées.

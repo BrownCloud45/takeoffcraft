@@ -24,7 +24,7 @@ Escolla {{ui:By item}} (o predeterminado). Cada elemento ten unha fila, e cada u
 
 A última fila, **Total da obra**, suma as columnas de material, man de obra e total. O mesmo total aparece á dereita do encabezado da táboa.
 
-Escriba nunha cela de desperdicio ou de tarifa e prema {{key:Enter}} ou faga clic fóra para aplicalo. Un valor que TakeoffCraft non pode ler ponse con contorno vermello, e a barra de estado indica o motivo, por exemplo «Escriba unha cantidade como 12.50.»
+Escriba nunha cela de desperdicio ou de tarifa e prema {{key:Enter}} ou faga clic fóra para aplicalo. Un valor que TakeoffDesk non pode ler ponse con contorno vermello, e a barra de estado indica o motivo, por exemplo «Escriba unha cantidade como 12.50.»
 
 Faga clic na fila dun elemento para resaltar as súas marcas en todas as follas e saltar a unha folla que as teña (igual que facendo clic debaixo de {{ui:Items}}).
 

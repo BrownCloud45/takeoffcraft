@@ -5,7 +5,7 @@ keywords: lovljenje, osnap, lovljenje objektov, krajišče, razpolovišče, pres
 from: 41d29e9b
 ---
 
-Večina načrtnih nizov je vektorskih PDF-jev: njihove stene in robovi so prave črte, ne slikovne pike. Med merjenjem TakeoffCraft pritegne vaše klike na te črte, zato se odsek začne natanko na vogalu stene, kalibracija pa prebere kóto, ki jo je narisal risar, ne piksla, na katerega ste kliknili.
+Večina načrtnih nizov je vektorskih PDF-jev: njihove stene in robovi so prave črte, ne slikovne pike. Med merjenjem TakeoffDesk pritegne vaše klike na te črte, zato se odsek začne natanko na vogalu stene, kalibracija pa prebere kóto, ki jo je narisal risar, ne piksla, na katerega ste kliknili.
 
 Lovljenje je ob zagonu vklopljeno. Vklopite ga in izklopite z {{ui:Lovljenje}} v vrstici stanja ali s {{key:F3}}; nastavitev se hrani v tem brskalniku (najdete jo tudi pod [Nastavitve](topic:settings)).
 

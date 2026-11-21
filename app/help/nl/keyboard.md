@@ -1,6 +1,6 @@
 ---
 title: Toetsenbord en muis
-summary: Elke toets-, muis-, trackpad- en touchactie in TakeoffCraft, gegroepeerd, met de verschillen per platform.
+summary: Elke toets-, muis-, trackpad- en touchactie in TakeoffDesk, gegroepeerd, met de verschillen per platform.
 keywords: toetsen, sneltoetsen, hotkeys, toetsenbord, muis, trackpad, aanraken, verschuiven, zoomen, wiel, rechtsklik, dubbelklik, spatie, shift, kopiëren, plakken, knippen, dupliceren, alles selecteren
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Zie [Controleer de opmeting in 3D](topic:check-in-3d).
 | Toets | Wat het doet |
 |---|---|
 | {{key:F1}} | Open of sluit het helppaneel (ook de knop {{ui:Help}} in de appbalk). Het werkt in elk hulpmiddel, ook terwijl u in een veld typt. |
-| {{key:Esc}} | Sluit het helppaneel. In het zoekvak wist de eerste Esc de zoekopdracht. Terwijl het paneel open is, sluit een Esc die u indrukt na het klikken op het blad eerst het paneel; druk nogmaals om te annuleren in TakeoffCraft. |
+| {{key:Esc}} | Sluit het helppaneel. In het zoekvak wist de eerste Esc de zoekopdracht. Terwijl het paneel open is, sluit een Esc die u indrukt na het klikken op het blad eerst het paneel; druk nogmaals om te annuleren in TakeoffDesk. |
 
 :::mac
 Op veel Mac-toetsenborden regelen de bovenste toetsen helderheid en geluid. Druk op fn met F1, of zet "Gebruik F1-, F2-enz. toetsen als standaard functietoetsen" aan in Systeeminstellingen, onder Toetsenbord.
@@ -139,7 +139,7 @@ Op veel Mac-toetsenborden regelen de bovenste toetsen helderheid en geluid. Druk
 
 :::mac
 - {{key:Mod}} is de Command-toets: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Volledig scherm is de uitzondering: Control+Shift+F.
-- Rechtsklik is een tweevingerklik op een trackpad, zodra secundaire klik aanstaat in Systeeminstellingen, onder Trackpad. TakeoffCraft leest alleen de secundaire knop; een Control-klik kan als gewone klik tellen en een punt toevoegen.
+- Rechtsklik is een tweevingerklik op een trackpad, zodra secundaire klik aanstaat in Systeeminstellingen, onder Trackpad. TakeoffDesk leest alleen de secundaire knop; een Control-klik kan als gewone klik tellen en een punt toevoegen.
 - Twee vingers scrollen op een trackpad zoomt het blad (het scrolt het niet). Om te verschuiven, drukt u en sleept u, of houdt u {{key:Space}} vast en sleept u.
 - Page Up en Page Down zijn fn met de pijltjestoetsen omhoog en omlaag op toetsenborden die die niet hebben.
 - Backspace is de toets met het label delete.
@@ -151,12 +151,12 @@ Op veel Mac-toetsenborden regelen de bovenste toetsen helderheid en geluid. Druk
 :::
 
 :::linux
-- {{key:Mod}} is Ctrl. Sommige bureaubladen hebben eigen sneltoetsen met Ctrl+Alt of Super; TakeoffCraft gebruikt er geen van.
+- {{key:Mod}} is Ctrl. Sommige bureaubladen hebben eigen sneltoetsen met Ctrl+Alt of Super; TakeoffDesk gebruikt er geen van.
 - Op een touchpad zoomt een tweevingerscroll het blad. Om te verschuiven, drukt u en sleept u.
 :::
 
 :::touch
-TakeoffCraft leest aanraking als één aanwijzer:
+TakeoffDesk leest aanraking als één aanwijzer:
 
 - Tikken plaatst een punt, selecteert een markering of voegt een telstip toe.
 - Slepen met één vinger verschuift het blad (in {{ui:Automatisch tellen}} tekent het het zoekvak).
@@ -169,7 +169,7 @@ Een toetsenbord met muis of trackpad is vandaag de betere manier om op te meten.
 
 ## Toetsen die de browser behoudt
 
-Browsers houden een paar sneltoetsen voor zichzelf, en een pagina kan die niet gebruiken: het tabblad sluiten ({{key:Mod+W}}), een nieuw tabblad of venster ({{key:Mod+T}}, {{key:Mod+N}}) en browserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Daarom zoomt TakeoffCraft het blad met het wiel en met de losse toetsen {{key:Plus}} en {{key:Minus}}. Drukt u per ongeluk op {{key:Mod+Plus}}, dan wordt de hele pagina groter; {{key:Mod+0}} zet dat terug. Zie [Toetsen, muizen en trackpads](common:keys).
+Browsers houden een paar sneltoetsen voor zichzelf, en een pagina kan die niet gebruiken: het tabblad sluiten ({{key:Mod+W}}), een nieuw tabblad of venster ({{key:Mod+T}}, {{key:Mod+N}}) en browserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Daarom zoomt TakeoffDesk het blad met het wiel en met de losse toetsen {{key:Plus}} en {{key:Minus}}. Drukt u per ongeluk op {{key:Mod+Plus}}, dan wordt de hele pagina groter; {{key:Mod+0}} zet dat terug. Zie [Toetsen, muizen en trackpads](common:keys).
 
 ## Waar Verplaatsen zit
 

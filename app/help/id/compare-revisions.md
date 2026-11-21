@@ -5,14 +5,14 @@ keywords: revisi, direvisi, bandingkan, overlay, lama, baru, perubahan, addendum
 from: 3a1d9fe0
 ---
 
-Saat sebuah lembar diterbitkan ulang, Anda tidak perlu menghitung takeoff dari awal. Buka PDF lama dan yang baru, bandingkan kedua lembar, dan pindahkan takeoff ke sana. TakeoffCraft menandai setiap tanda yang gambarnya berubah, sehingga Anda memeriksa tanda-tanda itu dan mempertahankan sisanya.
+Saat sebuah lembar diterbitkan ulang, Anda tidak perlu menghitung takeoff dari awal. Buka PDF lama dan yang baru, bandingkan kedua lembar, dan pindahkan takeoff ke sana. TakeoffDesk menandai setiap tanda yang gambarnya berubah, sehingga Anda memeriksa tanda-tanda itu dan mempertahankan sisanya.
 
 ## Bandingkan
 
 1. Buka kedua PDF: set lama dan yang direvisi ({{ui:Open plans}}; keduanya bisa berada dalam satu file atau beberapa file).
 2. Tampilkan lembar **baru**.
 3. Pilih {{ui:Compare}} di bilah lembar di bawah gambar.
-4. Pilih lembar lama dalam daftar. TakeoffCraft menyarankan lembar dengan nomor yang sama di PDF lainnya, atau halaman yang sama. Pilih **Bandingkan**.
+4. Pilih lembar lama dalam daftar. TakeoffDesk menyarankan lembar dengan nomor yang sama di PDF lainnya, atau halaman yang sama. Pilih **Bandingkan**.
 
 Gambar lama sekarang berada di atas gambar baru dalam warna merah. Di mana keduanya sama, garis merah berada di atas garis hitam; di mana berbeda, Anda melihat garis merah saja (dihapus) dan garis hitam saja (ditambahkan). Sebuah bilah di bagian bawah lembar memuat langkah-langkah di bawah ini; {{key:Esc}} atau {{ui:Close}} mengakhiri perbandingan.
 
@@ -29,9 +29,9 @@ Gambar merah akan bergeser, berputar, dan diskalakan agar tepat di atas gambar h
 
 ## Temukan apa yang berubah
 
-Pilih **Temukan perubahan**. TakeoffCraft membandingkan tinta kedua gambar: tinta yang hanya ada di lembar lama menjadi merah, tinta yang hanya ada di lembar baru menjadi biru, dan bilah status menghitungnya. Garis yang bergeser sedikit (cetak ulang) tidak dihitung sebagai perubahan.
+Pilih **Temukan perubahan**. TakeoffDesk membandingkan tinta kedua gambar: tinta yang hanya ada di lembar lama menjadi merah, tinta yang hanya ada di lembar baru menjadi biru, dan bilah status menghitungnya. Garis yang bergeser sedikit (cetak ulang) tidak dihitung sebagai perubahan.
 
-TakeoffCraft juga memeriksa setiap tanda di lembar lama dan menghitung yang berada di tempat gambar berubah:
+TakeoffDesk juga memeriksa setiap tanda di lembar lama dan menghitung yang berada di tempat gambar berubah:
 
 - sebuah lintasan atau area ketika gambar berubah di salah satu ujung atau sudutnya, atau sepanjang setidaknya sekitar seperenam panjangnya;
 - sebuah hitungan ketika ada yang berubah tepat di sebelahnya.
@@ -40,7 +40,7 @@ TakeoffCraft juga memeriksa setiap tanda di lembar lama dan menghitung yang bera
 
 Pilih **Pindahkan takeoff ke sini**. Setiap tanda di lembar lama berpindah ke lembar baru, melalui penyejajaran, dalam satu langkah urungkan. Yang berada di sebelah perubahan ditandai: diberi halo oranye, dan bilah lembar menampilkan "(n) perlu diperiksa".
 
-Jika lembar baru tidak memiliki skala, ia mengambil skala lembar lama (disesuaikan jika gambar harus diskalakan agar sejajar). Jika sudah memiliki skala lain yang berbeda, TakeoffCraft bertanya terlebih dahulu: tanda yang dipindahkan diukur pada skala lembar baru.
+Jika lembar baru tidak memiliki skala, ia mengambil skala lembar lama (disesuaikan jika gambar harus diskalakan agar sejajar). Jika sudah memiliki skala lain yang berbeda, TakeoffDesk bertanya terlebih dahulu: tanda yang dipindahkan diukur pada skala lembar baru.
 
 ## Periksa tanda yang ditandai
 

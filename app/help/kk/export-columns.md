@@ -77,7 +77,7 @@ CSV-да дәл осы бағандар жай мәндерді қамтиды: 
 | Sheet | Парақ атауы |
 | Scale | Пресеттің атауы, калибрленген масштаб немесе "No scale" |
 | How | "Preset", немесе "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | TakeoffCraft қолданатын дәл масштаб коэффициенті |
+| Feet per PDF unit | TakeoffDesk қолданатын дәл масштаб коэффициенті |
 
 ## Файл атаулары
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-typed.mjs — TakeoffCraft 0.6 TK.5+ in headless Chromium at https://getcadcraft.com/lab/takeoffcraft (run as root:
+ * browser-typed.mjs — TakeoffDesk 0.6 TK.5+ in headless Chromium at https://getcadcraft.com/lab/takeoffcraft (run as root:
  * a session minted for the test admin by admin.php, so the shared login throttle is untouched).
  *   node tools/takeoffcraft-test/browser-typed.mjs [--file <x.quantities.json>] [--out dir]
  *

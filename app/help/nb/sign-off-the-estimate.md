@@ -19,9 +19,9 @@ I **Mengder › Etter post** har en linje som har en mengde men ingen materiale-
 2. Dialogen oppgir totalsummen du signerer og lister linjene uten pris. Skriv inn navnet ditt og, hvis du vil, rollen din.
 3. Klikk **Signer**. Linjen leser nå «Signert av … den …» med totalsummen. Lagre mengdeuttaket for å beholde det i filen.
 
-Signeringen gjelder tallene du signerte. Enhver senere endring av en mengde, en pris eller en linje fjerner den, og TakeoffCraft sier fra. Angre henter tilbake kalkylen du signerte, og signeringen med den. Å gi nytt navn til en linje er ikke en endring av et tall. **Fjern signeringen** tar den bort.
+Signeringen gjelder tallene du signerte. Enhver senere endring av en mengde, en pris eller en linje fjerner den, og TakeoffDesk sier fra. Angre henter tilbake kalkylen du signerte, og signeringen med den. Å gi nytt navn til en linje er ikke en endring av et tall. **Fjern signeringen** tar den bort.
 
-En mengdeuttaksfil som ble redigert utenfor TakeoffCraft etter at den ble signert, åpnes uten signeringen, med en merknad om det. Den eksporterte kalkylen (CSV og XLSX) nevner signeringen under totalsummene.
+En mengdeuttaksfil som ble redigert utenfor TakeoffDesk etter at den ble signert, åpnes uten signeringen, med en merknad om det. Den eksporterte kalkylen (CSV og XLSX) nevner signeringen under totalsummene.
 
 Bare en person kan signere. En KI-assistent kan lese om kalkylen er signert og hvilke priser som mangler; den har ingen måte å signere på.
 

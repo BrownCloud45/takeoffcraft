@@ -1,11 +1,11 @@
 ---
 title: Amit a mennyiségkimutatásaiból megtanult
-summary: A TakeoffCraft megőrzi az Automatikus darabszámmal megerősített szimbólumokat, a feltételkészleteit, a leggyakrabban használt összetett tételeket és a minden lapon ismétlődő mintákat, mindezt a mennyiségkimutatás saját fájljában. Megnézheti, használhatja és törölheti.
+summary: A TakeoffDesk megőrzi az Automatikus darabszámmal megerősített szimbólumokat, a feltételkészleteit, a leggyakrabban használt összetett tételeket és a minden lapon ismétlődő mintákat, mindezt a mennyiségkimutatás saját fájljában. Megnézheti, használhatja és törölheti.
 keywords: tanulás, tanult, tanulás, asszisztens, emlékezés, szimbólumok, sablonok, ugyanaz, mint az előző munka, előző munka, feltételkészlet, feltételek, újrafelhasználás, összetett tételek, leggyakrabban használt, javaslatok, ismétlés minden oldalon, minden oldal, rajzfej, minta, összes törlése, elfelejtés, adatvédelem
 from: 54d99e99
 ---
 
-A TakeoffCraft annál gyorsabb lesz, minél több mennyiségkimutatást készít vele. **Csak azokból tanul, amelyeket Ön elfogad**:
+A TakeoffDesk annál gyorsabb lesz, minél több mennyiségkimutatást készít vele. **Csak azokból tanul, amelyeket Ön elfogad**:
 
 - az [Automatikus darabszám](topic:auto-count) segítségével bekeretezett és hozzáadott szimbólumok,
 - a mentett feltételkészletek,
@@ -64,6 +64,6 @@ Ha egy mennyiségkimutatásban meg akarja állítani a tanulást, törölje a je
 
 ## Jó tudni
 
-- A TakeoffCraft régebbi verziói normálisan megnyitják a megtanultakat tartalmazó fájlt. Ezt a részt figyelmen kívül hagyják, és ha újra mentik a fájlt, eldobják.
+- A TakeoffDesk régebbi verziói normálisan megnyitják a megtanultakat tartalmazó fájlt. Ezt a részt figyelmen kívül hagyják, és ha újra mentik a fájlt, eldobják.
 - A megtanult szimbólum a bekeretezett szimbólum kis képe, amely a fájlban tárolódik (egyenként néhány kilobájt).
 - A megtanult szimbólumokra ugyanaz a keresés fut, mint az Automatikus darabszámra, így ugyanazok a korlátok érvényesek: [Szimbólum automatikus darabszámlálása](topic:auto-count).

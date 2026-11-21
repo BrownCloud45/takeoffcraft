@@ -39,4 +39,4 @@ Setiap item juga membawa nombor CSI MasterFormat, seperti `09 21 16`.
 
 {{ui:Export as pack…}} dalam pustaka menyimpan pustakanya sebagai fail pek (`.ccpack.json`) yang sesiapa pun boleh tambah dengan {{ui:Open a pack file…}}. Secara lalai ia meninggalkan item yang datang daripada pek yang anda tambah, dan tidak membawa sebarang kadar. Tandakan {{ui:Include my rates as sample rates}} untuk menghantar kadar anda juga: ia dilabelkan dengan rantau dan tarikh yang anda beri, dan sesiapa yang menambah pek memilih sama ada mahu menggunakannya.
 
-Fail pek ialah data biasa, bukan program. TakeoffCraft menyemak setiap bahagiannya sebelum menggunakannya dan meninggalkan apa-apa yang tidak dapat dibacanya.
+Fail pek ialah data biasa, bukan program. TakeoffDesk menyemak setiap bahagiannya sebelum menggunakannya dan meninggalkan apa-apa yang tidak dapat dibacanya.

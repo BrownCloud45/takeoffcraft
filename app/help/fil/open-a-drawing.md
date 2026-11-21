@@ -5,7 +5,7 @@ keywords: "dwg, dxf, cad, drawing, magbukas ng drawing, layouts, model space, pa
 from: d8c3f504
 ---
 
-Nagbubukas ang TakeoffCraft ng DWG o DXF drawing gaya ng pagbubukas nito ng PDF: hindi mo kailangang i-plot muna ito sa PDF. Tumpak ang pagbilang mula mismo sa drawing dahil alam ng drawing kung ano ang bawat bagay. Tingnan ang [Bilangin mula sa drawing](topic:count-from-a-drawing).
+Nagbubukas ang TakeoffDesk ng DWG o DXF drawing gaya ng pagbubukas nito ng PDF: hindi mo kailangang i-plot muna ito sa PDF. Tumpak ang pagbilang mula mismo sa drawing dahil alam ng drawing kung ano ang bawat bagay. Tingnan ang [Bilangin mula sa drawing](topic:count-from-a-drawing).
 
 ## Buksan ang drawing
 
@@ -13,9 +13,9 @@ Nagbubukas ang TakeoffCraft ng DWG o DXF drawing gaya ng pagbubukas nito ng PDF:
 2. Piliin ang DWG o DXF file. Maaari kang pumili ng marami, at kasama rin ang mga PDF.
 3. Piliin ang Buksan.
 
-Maaari mo ring i-drop ang mga drawing file sa TakeoffCraft, gaya ng mga PDF. Walang ina-upload: binabasa ng browser ang file sa computer mo.
+Maaari mo ring i-drop ang mga drawing file sa TakeoffDesk, gaya ng mga PDF. Walang ina-upload: binabasa ng browser ang file sa computer mo.
 
-Bumabasa ang TakeoffCraft ng DWG mula AutoCAD 2000 hanggang 2018, at ASCII DXF mula R12 hanggang 2018. Tinatanggihan nito ang binary DXF (i-save ito bilang ASCII, o bilang DWG) at ang file na hindi alin man sa dalawa, at sinasabi nito kung bakit. Ang sirang file ay nagbubukas sa kung ano ang nabasa, at may mensaheng nagsasabi nito; maaaring kulang ang mga bilang nito.
+Bumabasa ang TakeoffDesk ng DWG mula AutoCAD 2000 hanggang 2018, at ASCII DXF mula R12 hanggang 2018. Tinatanggihan nito ang binary DXF (i-save ito bilang ASCII, o bilang DWG) at ang file na hindi alin man sa dalawa, at sinasabi nito kung bakit. Ang sirang file ay nagbubukas sa kung ano ang nabasa, at may mensaheng nagsasabi nito; maaaring kulang ang mga bilang nito.
 
 ## Mga sheet
 
@@ -40,10 +40,10 @@ Ang {{ui:I-calibrate}}, {{ui:Suriin}} at ang listahan ng {{ui:Preset}} ay nagbab
 
 ## Mga naka-link na drawing (xrefs)
 
-Ipinapakita ng drawing na nagli-link ng ibang drawing ang mga ito kung saan sila ipinasok. Hinahanap ng TakeoffCraft ang naka-link na drawing sa mga **bukas na file**, ayon sa file name nito: buksan ang host drawing at ang naka-link na drawing nang sabay (o isa-isa). Hanggang doon, sinasabi ng status bar kung ilang naka-link na drawing ang hindi nakita, na kulang ang iginuguhit ng mga ito, at sinasabi ito ng mga bilang.
+Ipinapakita ng drawing na nagli-link ng ibang drawing ang mga ito kung saan sila ipinasok. Hinahanap ng TakeoffDesk ang naka-link na drawing sa mga **bukas na file**, ayon sa file name nito: buksan ang host drawing at ang naka-link na drawing nang sabay (o isa-isa). Hanggang doon, sinasabi ng status bar kung ilang naka-link na drawing ang hindi nakita, na kulang ang iginuguhit ng mga ito, at sinasabi ito ng mga bilang.
 
 ## Mga limitasyon
 
-- Ang mga bagay na hindi mabasa o mailagay ng TakeoffCraft (proxy object, hindi kilalang class) ay nakalista sa count window ayon sa uri; hindi sila kailanman inaalis nang walang sinasabi.
+- Ang mga bagay na hindi mabasa o mailagay ng TakeoffDesk (proxy object, hindi kilalang class) ay nakalista sa count window ayon sa uri; hindi sila kailanman inaalis nang walang sinasabi.
 - Ang napakalalaking drawing ay iginuguhit nang bahagya, at humihinto ang bilang sa isang cap, at sinasabi ito. Magbukas ng PDF plot ng ganoong drawing sa halip.
 - Iginuguhit ang drawing sa itim at sa sarili nitong mga kulay, pinadilim para sa puting papel. Hindi ina-apply ang plot style table at pen assignment.

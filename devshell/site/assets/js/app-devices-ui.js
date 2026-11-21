@@ -67,7 +67,7 @@ function boot() {
   queued.forEach(register);
   let lastView = null, pointer = { x: -1, y: -1 };
   const live = () => { for (let i = views.length - 1; i >= 0; i--) if (!views[i].el.isConnected) views.splice(i, 1); return views; };
-  // on screen: a size, not inside [hidden], not visibility: hidden (CadCraft and TakeoffCraft hide the 2D view that way under 3D)
+  // on screen: a size, not inside [hidden], not visibility: hidden (CadCraft and TakeoffDesk hide the 2D view that way under 3D)
   const shown = (v) => { const r = v.el.getBoundingClientRect(); return r.width > 0 && r.height > 0 && !v.el.closest('[hidden]') && getComputedStyle(v.el).visibility !== 'hidden' ? r : null; };
   // the view whose element holds what is under the point (the innermost when views nest), else the last one registered there
   function viewAt(x, y, target) {

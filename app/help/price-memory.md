@@ -1,12 +1,12 @@
 ---
 title: Price memory from your past jobs
-summary: TakeoffCraft remembers the rates you used on past takeoffs, on this computer only, so a new takeoff can start from what you paid last time. See it, use it, forget it.
+summary: TakeoffDesk remembers the rates you used on past takeoffs, on this computer only, so a new takeoff can start from what you paid last time. See it, use it, forget it.
 section: tasks
 order: 73
 keywords: price memory, prices, remember prices, last job, past jobs, typical price, median, rates, unpriced, reprice, learn from a past takeoff, forget, library
 ---
 
-{{ui:Prices}} on the toolbar (the dollar sign) opens what TakeoffCraft remembers about the prices you used. It is a plain list: for each item name, the rates from your last jobs. It is kept in this browser (in Studio, its own web view) beside the price Library, never inside a takeoff file, and nothing is sent anywhere. It is not a trained model.
+{{ui:Prices}} on the toolbar (the dollar sign) opens what TakeoffDesk remembers about the prices you used. It is a plain list: for each item name, the rates from your last jobs. It is kept in this browser beside the price Library, never inside a takeoff file, and nothing is sent anywhere. It is not a trained model.
 
 ## What gets remembered
 

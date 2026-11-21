@@ -41,7 +41,7 @@ Kui ruumid on joonistatud suletud seintena, võtab {{ui:Ruum}} ({{key:B}}) põra
 2. Vali {{ui:Ruum}} grupis {{ui:Koguste arvestus}} või vajuta {{key:B}}.
 3. Klõpsa ruumi sees, vabal põrandal (mitte joonel ega sildil).
 
-TakeoffCraft loeb lehe jooni, leiab klõpsu ümber oleva ruumi ja joonistab selle mööda seinte sisemisi külgi praeguse kirje pinnana. Ukseavad kuni **4'-0"** käsitletakse suletuna, nii et kontuur läheb sirgelt üle ukseava; **Sätted › TakeoffCraft › Ruumi täitmine sulgeb avad kuni** muudab seda laiust (3'-0" kuni 8'-0"). Ruumi nimed, mööbel ja inventar ruumi sees ei tee auke.
+TakeoffDesk loeb lehe jooni, leiab klõpsu ümber oleva ruumi ja joonistab selle mööda seinte sisemisi külgi praeguse kirje pinnana. Ukseavad kuni **4'-0"** käsitletakse suletuna, nii et kontuur läheb sirgelt üle ukseava; **Sätted › TakeoffDesk › Ruumi täitmine sulgeb avad kuni** muudab seda laiust (3'-0" kuni 8'-0"). Ruumi nimed, mööbel ja inventar ruumi sees ei tee auke.
 
 See keeldub ja ütleb põhjuse, kui:
 
@@ -62,7 +62,7 @@ Kui uks on laiem kui seade, jookseb täitmine järgmisse ruumi ja joonistab mõl
 
 Ümara augu jaoks vali jaotises **Valitud märgis** {{ui:Lisa ümar väljalõige}}, klõpsa selle keskpunkti ja seejärel punkti servas.
 
-Väljalõige peab asuma täielikult pinna sees ega tohi kattuda teise väljalõikega. Vastasel juhul TakeoffCraft keeldub: „Väljalõige peab asuma pinna sees täielikult.“ või „Väljalõiked ei saa üksteisega kattuda.“
+Väljalõige peab asuma täielikult pinna sees ega tohi kattuda teise väljalõikega. Vastasel juhul TakeoffDesk keeldub: „Väljalõige peab asuma pinna sees täielikult.“ või „Väljalõiked ei saa üksteisega kattuda.“
 
 Viimase augu eemaldamiseks vali {{ui:Eemalda viimane väljalõige}}.
 
@@ -76,7 +76,7 @@ Väljalõige kuulub ühele pindalamärgisele. **Tagasiarvestus** joonistatakse �
 
 Iga märgitud kirje pindalamärgis samal lehel kaotab osa, mida tagasiarvestus katab: kogu tagasiarvestuse, kui see asub sees; ainult kattuva osa, kui see ületab serva; ja väljalõike sees ei kaota midagi. Valitud pinna paneel näitab **Tagasiarvestus** ja alles jäänud pinda. Kirje kogus, koostevalemid, maksumused, 3D-kontrollvaade ja eksport kasutavad alles jäänud pinda; eelarve märkmed ütlevad, kui palju tagasiarvestused maha võtsid. Tagasiarvestuse kirje ise arvestab oma pinda (jäta maksumused nulli, kui seda ei hinnastata).
 
-Tagasiarvestus peab olema **kumer**: ristkülik, ring või iga kontuur ilma sissepoole suunatud nurgata. TakeoffCraft ei luba joonistada teistsugust; joonista L-kujuline šaht kahe tagasiarvestusena. Tagasiarvestustel ei saa olla väljalõikeid, ja kaks üksteist katvat tagasiarvestust arvestatakse mõlemad.
+Tagasiarvestus peab olema **kumer**: ristkülik, ring või iga kontuur ilma sissepoole suunatud nurgata. TakeoffDesk ei luba joonistada teistsugust; joonista L-kujuline šaht kahe tagasiarvestusena. Tagasiarvestustel ei saa olla väljalõikeid, ja kaks üksteist katvat tagasiarvestust arvestatakse mõlemad.
 
 Ümbermõõt (`P`) ei muutu: tagasiarvestused võtavad maha ainult pindala.
 

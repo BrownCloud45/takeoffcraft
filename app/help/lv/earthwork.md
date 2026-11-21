@@ -5,7 +5,7 @@ keywords: zemes darbi, izrakšana, izrakums, uzbērums, izrakums un uzbērums, v
 from: a898e508
 ---
 
-TakeoffCraft mēra to, kas ir uzzīmēts lapā. Zemes darbiem nepieciešama zemes virsma, tāpēc tie ir kopīgi ar CivilCraft, kas veido virsmas no punktiem, veido tām vertikālo plānojumu un aprēķina izrakumu, uzbērumu un izvešanu.
+TakeoffDesk mēra to, kas ir uzzīmēts lapā. Zemes darbiem nepieciešama zemes virsma, tāpēc tie ir kopīgi ar CivilCraft, kas veido virsmas no punktiem, veido tām vertikālo plānojumu un aprēķina izrakumu, uzbērumu un izvešanu.
 
 ## Vienkārša izrakšana šeit
 
@@ -29,8 +29,8 @@ Punkti no dažādām lapām nedalās koordinātās, tāpēc eksportā tiek ņemt
 
 CivilCraft zemes darbu rezultāti atgriežas kā divi vienumi, kurus var cenot:
 
-1. CivilCraft sagatavojiet laukumus un koridorus, tad izvēlieties {{ui:Send to TakeoffCraft}} sadaļā **Zemes darbi** ([Zemes darbu tilpumi](app:civilcraft/volumes)). Tiek saglabāts daudzumu fails (`.quantities.json`).
-2. TakeoffCraft atveriet to ar {{ui:Open takeoff}} vai nometiet failu lietotnē. Jūsu apjomu aprēķins paliek atvērts: fails pievieno **Earthwork: cut** un **Earthwork: fill** kā [tipizētus daudzumus](topic:create-items#typed-quantities-no-drawing) kubikjardos (CY) pēdu projektam vai kubikmetros (m³) metru projektam. Tas ir viens solis: {{key:Mod+Z}} to atsauc.
+1. CivilCraft sagatavojiet laukumus un koridorus, tad izvēlieties {{ui:Send to TakeoffDesk}} sadaļā **Zemes darbi** ([Zemes darbu tilpumi](app:civilcraft/volumes)). Tiek saglabāts daudzumu fails (`.quantities.json`).
+2. TakeoffDesk atveriet to ar {{ui:Open takeoff}} vai nometiet failu lietotnē. Jūsu apjomu aprēķins paliek atvērts: fails pievieno **Earthwork: cut** un **Earthwork: fill** kā [tipizētus daudzumus](topic:create-items#typed-quantities-no-drawing) kubikjardos (CY) pēdu projektam vai kubikmetros (m³) metru projektam. Tas ir viens solis: {{key:Mod+Z}} to atsauc.
 3. Pārdēvējiet tos un iestatiet zudumus, likmes un mezglus pēc vēlēšanās.
 
 Kad projekts mainās, no CivilCraft nosūtiet vēlreiz un atveriet jauno failu: tie paši divi vienumi saņem jaunos daudzumus. To nosaukumi, likmes, zudumi un mezgli paliek tādi, kādus esat iestatījis. Ja projekta mērvienība ir mainījusies, statusa joslā par to tiek paziņots: pārbaudiet likmes. Fails no cita CivilCraft projekta pievieno savus divus vienumus.

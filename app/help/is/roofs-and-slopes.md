@@ -5,7 +5,7 @@ keywords: þak, halli, hallastuðull, ris, hlaup, 6:12, gaflbrún, ás, dalur, g
 from: 38225b60
 ---
 
-Grunnmynd af þaki sýnir hvern þakflöt flatan, eins og hann sést að ofan. Þakið sjálft er stærra: flötur með 6:12 halla hefur um 12% meira yfirborð en grunnflöturinn, og hallandi jaðrar hans eru lengri en þeir virðast. Gefðu liðnum hallann og TakeoffCraft mælir eftir hallanum.
+Grunnmynd af þaki sýnir hvern þakflöt flatan, eins og hann sést að ofan. Þakið sjálft er stærra: flötur með 6:12 halla hefur um 12% meira yfirborð en grunnflöturinn, og hallandi jaðrar hans eru lengri en þeir virðast. Gefðu liðnum hallann og TakeoffDesk mælir eftir hallanum.
 
 ## Að slá inn halla
 

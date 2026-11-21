@@ -24,7 +24,7 @@ Zgjidh {{ui:Sipas artikullit}} (si parazgjedhje). Çdo artikull ka një rresht, 
 
 Rreshti i fundit, **Totali i punës**, mbledh kolonat e materialit, punës dhe totalit. I njëjti total shfaqet në të djathtë të kokës së tabelës.
 
-Shkruaj në një qelizë humbjeje ose çmimi dhe shtyp {{key:Enter}} ose kliko jashtë për ta aplikuar. Një vlerë që TakeoffCraft nuk e lexon do të ketë kornizë të kuqe, dhe shiriti i statusit thotë arsyen, për shembull "Shkruaj një shumë si 12.50."
+Shkruaj në një qelizë humbjeje ose çmimi dhe shtyp {{key:Enter}} ose kliko jashtë për ta aplikuar. Një vlerë që TakeoffDesk nuk e lexon do të ketë kornizë të kuqe, dhe shiriti i statusit thotë arsyen, për shembull "Shkruaj një shumë si 12.50."
 
 Kliko rreshtin e një artikulli për të theksuar shënimet e tij në çdo fletë dhe për të kaluar te një fletë që i ka ato (njëlloj si kur klikon te {{ui:Artikujt}}).
 

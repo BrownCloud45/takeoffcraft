@@ -28,7 +28,7 @@
  * snapshot() returns {data, meta?} (or null = nothing to keep yet). `data` is anything IndexedDB can store: a Blob, an
  * ArrayBuffer/typed array, a string or plain JSON-like objects — the app's own format, whatever it reopens fastest. `meta`
  * is small plain data the app wants back (file name, format, view…). Each app decides what a document is (MarkupCraft:
- * each open PDF; TakeoffCraft: the takeoff; CadCraft: the drawing).
+ * each open PDF; TakeoffDesk: the takeoff; CadCraft: the drawing).
  *
  * What counts as "lost work": copies left by a page that is no longer running — the tab crashed, the browser or computer
  * stopped, or the user left with unsaved changes. Each page load is a new session (so a reload offers its own work back);

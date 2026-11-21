@@ -1,6 +1,6 @@
 ---
 title: Hlola umgcinimali womhlinzeki nezikhathi zokulinda
-summary: Engeza uhlu lomgcinimali womhlinzeki (CSV noma ishidi lesipredishithi) bese i-TakeoffCraft ihlola okudingwa ukubalwa, kanye nokulahleka, ngalo: kwanele emgcinimalini, nokuthi ukulinda kuzoba isikhathi esingakanani. Ukushoda nokulinda isikhathi eside kuvela ku-ipaneli Yezinkinga.
+summary: Engeza uhlu lomgcinimali womhlinzeki (CSV noma ishidi lesipredishithi) bese i-TakeoffDesk ihlola okudingwa ukubalwa, kanye nokulahleka, ngalo: kwanele emgcinimalini, nokuthi ukulinda kuzoba isikhathi esingakanani. Ukushoda nokulinda isikhathi eside kuvela ku-ipaneli Yezinkinga.
 keywords: umhlinzeki, umgcinimali, usemgcinimalini, isikhathi sokulethwa, ukutholakala, ukushoda, backorder, uhlu lokuyala, csv, sku, umthengisi, izinto zokwakha, inikezelo, izinkinga
 from: f11160fb
 ---

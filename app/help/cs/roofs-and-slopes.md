@@ -5,7 +5,7 @@ keywords: střecha, sklon, koeficient sklonu, stoupání, vodorovný průmět, 6
 from: 38225b60
 ---
 
-Půdorys střechy ukazuje každou rovinu střechy zploštěnou, jak je vidět shora. Samotná střecha je větší: rovina se sklonem 6:12 má přibližně o 12% větší plochu než její půdorys a její šikmé hrany jsou delší, než vypadají. Zadejte položce sklon a TakeoffCraft měří podél sklonu.
+Půdorys střechy ukazuje každou rovinu střechy zploštěnou, jak je vidět shora. Samotná střecha je větší: rovina se sklonem 6:12 má přibližně o 12% větší plochu než její půdorys a její šikmé hrany jsou delší, než vypadají. Zadejte položce sklon a TakeoffDesk měří podél sklonu.
 
 ## Zadání sklonu
 

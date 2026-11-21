@@ -14,7 +14,7 @@ Say elementi şeyləri sayır: qapılar, işıq qurğuları, rozetkalar, santexn
 3. Vərəqdə hər birinə klikləyin.
    Hər klik elementin rəngində nöqtə qoyur və elementin sayı bir artır.
 4. Növbəti vərəqə keçin ({{key:PageDown}}) və saymağa davam edin. Alət {{ui:Say}} rejimində qalır.
-5. Bitirəndə {{key:Esc}} basın. TakeoffCraft {{ui:Seç}} rejiminə qayıdır.
+5. Bitirəndə {{key:Esc}} basın. TakeoffDesk {{ui:Seç}} rejiminə qayıdır.
 
 Sürükləmə hələ də vərəqi sürüşdürür, təkər isə miqyası dəyişir; beləliklə nöqtə əlavə etmədən vərəqin ətrafında gəzə bilərsiniz.
 
@@ -30,7 +30,7 @@ Say elementini klikləyin ki, onun nöqtələri bütün vərəqlərdə vurğulan
 
 ## Nöqtə ölçüsü, ekranda və PDF-də
 
-Nöqtələr nə qədər yaxınlaşdırsanız da ekranda eyni ölçüdə qalır. Dəyişmək üçün {{ui:Parametrlər}} açın, TakeoffCraft tabını və **Say işarəsinin ölçüsü** seçin: Çox kiçik, Kiçik, Orta (defolt) və ya Böyük.
+Nöqtələr nə qədər yaxınlaşdırsanız da ekranda eyni ölçüdə qalır. Dəyişmək üçün {{ui:Parametrlər}} açın, TakeoffDesk tabını və **Say işarəsinin ölçüsü** seçin: Çox kiçik, Kiçik, Orta (defolt) və ya Böyük.
 
 PDF ixracı ({{ui:İxrac}} › {{ui:İşarələnmiş PDF}}) hər nöqtəni vərəq ölçüsündən asılı olmayaraq kağızda eyni ölçüdə çəkir: PDF-i 100% göstərən baxış proqramı nöqtələri ekrandakı kimi böyük göstərir. Vərəqdə nöqtələr toxunacaq qədər yaxındırsa, ixrac həmin vərəqin nöqtələrini kiçildir ki, hər biri oxuna bilsin.
 

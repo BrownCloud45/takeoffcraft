@@ -19,9 +19,9 @@ A **Quantitats › Per element**, una línia que té quantitat i cap preu unitar
 2. El diàleg indica el total que signeu i enumera les línies sense preu. Escriviu el vostre nom i, si voleu, el vostre càrrec.
 3. Feu clic a **Signa**. La barra diu ara "Signat per … el …" amb el total. Desau l'amidament perquè quedi al fitxer.
 
-La signatura correspon a les xifres que heu signat. Qualsevol canvi posterior d'una quantitat, un preu o una línia l'esborra, i TakeoffCraft us ho indica. La funció Desfés torna el pressupost que heu signat, i la seva signatura amb ell. Canviar el nom d'una línia no és un canvi d'una xifra. **Elimina la signatura** la treu.
+La signatura correspon a les xifres que heu signat. Qualsevol canvi posterior d'una quantitat, un preu o una línia l'esborra, i TakeoffDesk us ho indica. La funció Desfés torna el pressupost que heu signat, i la seva signatura amb ell. Canviar el nom d'una línia no és un canvi d'una xifra. **Elimina la signatura** la treu.
 
-Un fitxer d'amidament editat fora de TakeoffCraft després de ser signat s'obre sense la signatura, amb una nota que ho diu. El pressupost exportat (CSV i XLSX) indica la signatura sota els totals.
+Un fitxer d'amidament editat fora de TakeoffDesk després de ser signat s'obre sense la signatura, amb una nota que ho diu. El pressupost exportat (CSV i XLSX) indica la signatura sota els totals.
 
 Només una persona signa. Un assistent d'IA pot llegir si el pressupost està signat i quins preus falten; no té manera de signar.
 

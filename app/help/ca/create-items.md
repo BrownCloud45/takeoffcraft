@@ -37,12 +37,12 @@ Una quantitat introduïda no porta marques i mai no deixa el pressupost incomple
 Premeu {{key:Esc}} al formulari per tancar-lo sense afegir cap element.
 
 :::tip
-Si primer trieu una eina de mesura, TakeoffCraft usa l'últim element del tipus correcte, o obre el formulari {{ui:Element nou}} amb aquest tipus ja triat.
+Si primer trieu una eina de mesura, TakeoffDesk usa l'últim element del tipus correcte, o obre el formulari {{ui:Element nou}} amb aquest tipus ja triat.
 :::
 
 ## Trieu l'element amb què dibuixeu
 
-Feu clic en un element de la llista. Passa a ser l'element al qual van les marques noves, i les seves marques es ressalten en tots els fulls mentre la resta s'esvaeix. Si el full obert no en té cap de les seves marques, TakeoffCraft salta a un full que en tingui. Torneu a fer clic a l'element per deixar de ressaltar-lo; continua sent l'element amb què dibuixeu.
+Feu clic en un element de la llista. Passa a ser l'element al qual van les marques noves, i les seves marques es ressalten en tots els fulls mentre la resta s'esvaeix. Si el full obert no en té cap de les seves marques, TakeoffDesk salta a un full que en tingui. Torneu a fer clic a l'element per deixar de ressaltar-lo; continua sent l'element amb què dibuixeu.
 
 Fer clic en una marca amb l'eina {{ui:Selecciona}} també fa que el seu element sigui l'actual.
 
@@ -57,7 +57,7 @@ L'editor de l'element (**Element: (nom)**) té aquests camps. Cadascun es desa q
 | {{ui:Color}} | El color de les seves marques a la pantalla i al PDF marcat. |
 | {{ui:Unitat}} | En quina unitat s'informa la quantitat: LF o m per a lineal; SF, SY, SQ, ac, ha o m² per a àrea; EA per a recompte. |
 | {{ui:Mesura també}} | Els altres tipus de marques que admet l'element, cadascun amb la seva unitat. Vegeu més avall. |
-| {{ui:Alçada}} (lineal) | Una alçada de paret. L'element aleshores també informa de l'àrea de paret (longitud × alçada). Els trams que vénen d'un model de BimCraft porten les seves portes i finestres: aquestes es treuen un cop, i l'element indica l'àrea bruta, les obertures i la neta. Un amidament d'un projecte de BimCraft que ha triat un mètode de mesura s'hi mesura també amb aquest mètode (la nota n'indica el nom i la font, i diu que un aparellador no l'ha revisat); el mètode no es pot canviar a TakeoffCraft. Els maons o blocs i el morter d'un tipus de paret arriben com a dos components: les unitats que cal demanar i el volum de morter. |
+| {{ui:Alçada}} (lineal) | Una alçada de paret. L'element aleshores també informa de l'àrea de paret (longitud × alçada). Els trams que vénen d'un model de BimCraft porten les seves portes i finestres: aquestes es treuen un cop, i l'element indica l'àrea bruta, les obertures i la neta. Un amidament d'un projecte de BimCraft que ha triat un mètode de mesura s'hi mesura també amb aquest mètode (la nota n'indica el nom i la font, i diu que un aparellador no l'ha revisat); el mètode no es pot canviar a TakeoffDesk. Els maons o blocs i el morter d'un tipus de paret arriben com a dos components: les unitats que cal demanar i el volum de morter. |
 | {{ui:Profunditat}} (àrea) | Una profunditat o gruix, que s'usa a les fórmules de preus descomposts (per exemple, el volum de formigó). |
 | {{ui:Pèrdua %}} | S'afegeix a la quantitat abans de posar preu: 10 vol dir quantitat × 1.10. |
 | {{ui:Material $/LF}} | Cost de material per unitat. L'etiqueta segueix la unitat: $/SF, $/EA i així successivament. |
@@ -74,7 +74,7 @@ Algunes coses es mesuren de més d'una manera: una habitació té un terra (una 
 
 1. Creeu l'element amb el seu tipus principal, com un element d'àrea `Habitació 101`.
 2. Sota {{ui:Mesura també}} del seu editor, marqueu {{ui:Lineal}}, {{ui:Recompte}} o tots dos. Cadascun té una unitat al costat.
-3. Dibuixeu amb qualsevol eina el tipus de la qual admet l'element: amb `Habitació 101` com a actual, {{ui:Àrea}} dibuixa el seu terra, {{ui:Lineal}} el seu sòcol i {{ui:Recompte}} les seves portes. TakeoffCraft no demana cap altre element.
+3. Dibuixeu amb qualsevol eina el tipus de la qual admet l'element: amb `Habitació 101` com a actual, {{ui:Àrea}} dibuixa el seu terra, {{ui:Lineal}} el seu sòcol i {{ui:Recompte}} les seves portes. TakeoffDesk no demana cap altre element.
 
 La llista d'elements mostra cada quantitat (`50.00 SF + 2 EA`). A la taula de quantitats, la fila de l'element té la seva quantitat principal, i cada altre tipus té la seva pròpia fila a sota, com **Habitació 101 (recompte)**, amb la seva pròpia pèrdua i tarifes de material i de mà d'obra. Les exportacions, la taula per full i la llegenda del PDF marcat les llisten de la mateixa manera.
 
@@ -114,7 +114,7 @@ En lloc d'una tarifa de mà d'obra per unitat, la mà d'obra d'un element pot ve
 | {{ui:Mida de la quadrilla}} | `2` persones |
 | {{ui:Salari $/hora cadascun}} | `45` |
 
-TakeoffCraft calcula, a partir de la quantitat amb pèrdua:
+TakeoffDesk calcula, a partir de la quantitat amb pèrdua:
 
 - **hores de quadrilla** = quantitat ÷ producció (110 LF ÷ 20 = 5.5),
 - **hores-treballador** = hores de quadrilla × mida de la quadrilla (11),

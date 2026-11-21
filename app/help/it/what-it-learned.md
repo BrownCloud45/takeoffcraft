@@ -1,11 +1,11 @@
 ---
 title: Cosa ha appreso dai computi
-summary: TakeoffCraft conserva i simboli confermati con Conteggio automatico, i set di condizioni, le composizioni più usate e gli schemi che si ripetono su ogni pagina, tutto nel file stesso del computo. Consultarli, usarli, eliminarli.
+summary: TakeoffDesk conserva i simboli confermati con Conteggio automatico, i set di condizioni, le composizioni più usate e gli schemi che si ripetono su ogni pagina, tutto nel file stesso del computo. Consultarli, usarli, eliminarli.
 keywords: apprendere, appreso, apprendimento, assistente, ricordare, simboli, modelli, come l'ultimo lavoro, ultimo lavoro, set di condizioni, condizioni, riutilizzo, composizioni, più usate, suggerimenti, ripeti su ogni pagina, ogni pagina, cartiglio, schema, cancella tutto, dimenticare, privacy
 from: 54d99e99
 ---
 
-TakeoffCraft diventa più veloce man mano che si eseguono più computi con esso. Impara **solo da ciò che si accetta**:
+TakeoffDesk diventa più veloce man mano che si eseguono più computi con esso. Impara **solo da ciò che si accetta**:
 
 - i simboli racchiusi con [Conteggio automatico](topic:auto-count) e poi aggiunti,
 - i set di condizioni che si salvano,
@@ -64,6 +64,6 @@ Per smettere di apprendere in un solo computo, deselezionare {{ui:Apprendi da qu
 
 ## Da sapere
 
-- Le versioni precedenti di TakeoffCraft aprono normalmente un file con elementi appresi. Ignorano quella parte e la eliminano se salvano di nuovo il file.
+- Le versioni precedenti di TakeoffDesk aprono normalmente un file con elementi appresi. Ignorano quella parte e la eliminano se salvano di nuovo il file.
 - Un simbolo appreso è una piccola immagine di ciò che è stato racchiuso, conservata nel file (alcuni kilobyte ciascuno).
 - I simboli appresi vengono cercati come nelle ricerche di Conteggio automatico, quindi valgono gli stessi limiti: [Conteggio automatico di un simbolo](topic:auto-count).

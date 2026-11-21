@@ -19,9 +19,9 @@ Dans **Quantités › Par poste**, une ligne qui a une quantité et aucun prix d
 2. La boîte de dialogue indique le total que vous validez et liste les lignes sans prix. Saisissez votre nom et, si vous le souhaitez, votre fonction.
 3. Cliquez sur **Valider**. La barre indique désormais « Validé par … le … » avec le total. Enregistrez le métré pour le conserver dans le fichier.
 
-La validation porte sur les chiffres que vous avez validés. Toute modification ultérieure d'une quantité, d'un prix ou d'une ligne l'annule, et TakeoffCraft vous le signale. Annuler rétablit l'estimation que vous aviez validée, avec sa validation. Renommer une ligne n'est pas une modification de chiffre. **Retirer la validation** la supprime.
+La validation porte sur les chiffres que vous avez validés. Toute modification ultérieure d'une quantité, d'un prix ou d'une ligne l'annule, et TakeoffDesk vous le signale. Annuler rétablit l'estimation que vous aviez validée, avec sa validation. Renommer une ligne n'est pas une modification de chiffre. **Retirer la validation** la supprime.
 
-Un fichier de métré modifié hors de TakeoffCraft après sa validation s'ouvre sans validation, avec une remarque qui l'indique. L'estimation exportée (CSV et XLSX) mentionne la validation sous les totaux.
+Un fichier de métré modifié hors de TakeoffDesk après sa validation s'ouvre sans validation, avec une remarque qui l'indique. L'estimation exportée (CSV et XLSX) mentionne la validation sous les totaux.
 
 Seule une personne peut valider. Un assistant IA peut lire si l'estimation est validée et quels prix manquent ; il n'a aucun moyen de la valider.
 

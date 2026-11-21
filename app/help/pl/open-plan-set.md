@@ -5,7 +5,7 @@ keywords: otwórz, zestaw arkuszy, kilka pdf, wiele plików, arkusze, rysunki, e
 from: ed434468
 ---
 
-Zestaw arkuszy to często kilka PDF-ów: architektoniczne, konstrukcyjne, mechaniczne. TakeoffCraft otwiera je obok siebie jako jedną listę arkuszy, a jeden przedmiar może objąć wszystkie.
+Zestaw arkuszy to często kilka PDF-ów: architektoniczne, konstrukcyjne, mechaniczne. TakeoffDesk otwiera je obok siebie jako jedną listę arkuszy, a jeden przedmiar może objąć wszystkie.
 
 ## Otwórz PDF-y
 
@@ -14,14 +14,14 @@ Zestaw arkuszy to często kilka PDF-ów: architektoniczne, konstrukcyjne, mechan
 3. Wybierz przycisk Otwórz.
    Podczas odczytu każdego pliku pokazuje się komunikat „Otwieranie (nazwa)…”. Potem każda strona pojawia się w {{ui:Arkusze}}, a otwiera się pierwsza strona pierwszego nowego PDF-a.
 
-Możesz też przeciągnąć PDF-y z {{pick:mac=Findera|windows=Eksploratora plików|linux=twojego menedżera plików}} i upuścić je w dowolnym miejscu w TakeoffCraft. Podczas przeciągania pojawia się ramka „Upuść PDF-y, rysunki DWG lub DXF albo plik .takeoff.json”.
+Możesz też przeciągnąć PDF-y z {{pick:mac=Findera|windows=Eksploratora plików|linux=twojego menedżera plików}} i upuścić je w dowolnym miejscu w TakeoffDesk. Podczas przeciągania pojawia się ramka „Upuść PDF-y, rysunki DWG lub DXF albo plik .takeoff.json”.
 
 Aby dodać więcej PDF-ów później, zrób to samo. PDF-y, które są już otwarte, są pomijane.
 
 Ekran startowy wymienia też ostatnio otwarte PDF-y i przedmiary, w przeglądarkach, które pozwalają stronie ponownie otworzyć plik (Chrome i Edge). Kliknij jeden, by go otworzyć; przeglądarka może najpierw poprosić o zgodę. Zobacz [Twoje pliki](common:your-files).
 
 :::note
-Nic nie jest wysyłane. Przeglądarka czyta PDF-y na twoim komputerze, a znikają one z TakeoffCraft, gdy zamkniesz kartę albo wybierzesz {{ui:Nowy}}.
+Nic nie jest wysyłane. Przeglądarka czyta PDF-y na twoim komputerze, a znikają one z TakeoffDesk, gdy zamkniesz kartę albo wybierzesz {{ui:Nowy}}.
 :::
 
 ## Rysunki obok PDF-ów
@@ -30,7 +30,7 @@ Nic nie jest wysyłane. Przeglądarka czyta PDF-y na twoim komputerze, a znikaj�
 
 ## PDF przekazany z innej aplikacji
 
-Inna aplikacja z zestawu może przekazać PDF, który ma otwarty: otwiera TakeoffCraft w nowej karcie, a PDF otwiera się tam, jakbyś go upuścił. Pasek stanu pokazuje: „Otwarto (nazwa), przekazano z (aplikacja). Oryginalny plik jest bez zmian.” Nic nie jest wysyłane; plik przechodzi przez pamięć tej przeglądarki i znika z niej po otwarciu.
+Inna aplikacja z zestawu może przekazać PDF, który ma otwarty: otwiera TakeoffDesk w nowej karcie, a PDF otwiera się tam, jakbyś go upuścił. Pasek stanu pokazuje: „Otwarto (nazwa), przekazano z (aplikacja). Oryginalny plik jest bez zmian.” Nic nie jest wysyłane; plik przechodzi przez pamięć tej przeglądarki i znika z niej po otwarciu.
 
 Jeśli pasek stanu mówi, że PDF „nie dotarł”, karta czekała zbyt długo albo PDF był już otwarty w innej karcie: otwórz go przez {{ui:Otwórz PDF}}.
 

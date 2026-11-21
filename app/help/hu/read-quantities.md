@@ -24,7 +24,7 @@ Válassza a {{ui:Tételenként}} lehetőséget (ez az alapértelmezett). Minden 
 
 Az utolsó sor, a **Teljes összeg**, összeadja az anyag-, munkadíj- és összesen oszlopot. Ugyanez az összeg látszik a táblázat fejlécének jobb oldalán.
 
-Írjon be egy hulladék- vagy egységárcellába, majd nyomja meg az {{key:Enter}} billentyűt, vagy kattintson máshova, hogy alkalmazza. A TakeoffCraft számára olvashatatlan értéket piros keret jelöli, az állapotsor pedig megmondja az okát, például: „Írjon be egy összeget, például 12,50.”
+Írjon be egy hulladék- vagy egységárcellába, majd nyomja meg az {{key:Enter}} billentyűt, vagy kattintson máshova, hogy alkalmazza. A TakeoffDesk számára olvashatatlan értéket piros keret jelöli, az állapotsor pedig megmondja az okát, például: „Írjon be egy összeget, például 12,50.”
 
 Kattintson egy tétel sorára, hogy kiemelje a jelöléseit minden lapon, és a jelöléseket tartalmazó lapra ugorjon. (Ugyanaz, mint a {{ui:Tételek}} alatti kattintás.)
 

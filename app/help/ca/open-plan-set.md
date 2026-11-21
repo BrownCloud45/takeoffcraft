@@ -5,7 +5,7 @@ keywords: obre, joc de plànols, diversos pdf, fitxers múltiples, fulls, dibuix
 from: ed434468
 ---
 
-Un joc de plànols sovint són diversos PDF: arquitectònic, estructural, mecànic. TakeoffCraft els obre un al costat de l'altre com una sola llista de fulls, i un sol amidament pot cobrir-los tots.
+Un joc de plànols sovint són diversos PDF: arquitectònic, estructural, mecànic. TakeoffDesk els obre un al costat de l'altre com una sola llista de fulls, i un sol amidament pot cobrir-los tots.
 
 ## Obrir els PDF
 
@@ -14,14 +14,14 @@ Un joc de plànols sovint són diversos PDF: arquitectònic, estructural, mecàn
 3. Trieu Obre.
    Mentre es llegeix cada fitxer es mostra un missatge "S'obre (nom)…". Després, cada pàgina apareix sota {{ui:Fulls}} i s'obre la primera pàgina del primer PDF nou.
 
-També podeu arrossegar els PDF des de {{pick:mac=Finder|windows=Explorador de fitxers|linux=el vostre gestor de fitxers}} i deixar-los anar en qualsevol lloc de TakeoffCraft. Mentre els arrossegueu, apareix un marc "Deixeu anar PDF, dibuixos DWG o DXF, o un .takeoff.json".
+També podeu arrossegar els PDF des de {{pick:mac=Finder|windows=Explorador de fitxers|linux=el vostre gestor de fitxers}} i deixar-los anar en qualsevol lloc de TakeoffDesk. Mentre els arrossegueu, apareix un marc "Deixeu anar PDF, dibuixos DWG o DXF, o un .takeoff.json".
 
 Per afegir més PDF més endavant, feu el mateix de nou. Els PDF que ja són oberts s'ometen.
 
 La pantalla inicial també llista els PDF i els amidaments que heu obert recentment, en navegadors que deixen que una pàgina torni a obrir un fitxer (Chrome i Edge). Cliqueu-ne un per obrir-lo; el navegador pot demanar-ne permís primer. Vegeu [Els vostres fitxers](common:your-files).
 
 :::note
-Res no es puja. El navegador llegeix els PDF al vostre ordinador, i en desapareixen de TakeoffCraft quan tanqueu la pestanya o trieu {{ui:Nou}}.
+Res no es puja. El navegador llegeix els PDF al vostre ordinador, i en desapareixen de TakeoffDesk quan tanqueu la pestanya o trieu {{ui:Nou}}.
 :::
 
 ## Dibuixos al costat dels PDF
@@ -30,7 +30,7 @@ Res no es puja. El navegador llegeix els PDF al vostre ordinador, i en desaparei
 
 ## Un PDF lliurat des d'una altra aplicació
 
-Una altra aplicació de la família pot lliurar-vos el PDF que té obert: obre TakeoffCraft en una pestanya nova, i el PDF s'obre allà com si l'haguéssiu arrossegat. La barra d'estat diu "S'ha obert (nom), lliurat des de (aplicació). El fitxer original no ha canviat." No es puja res; el fitxer passa per l'emmagatzematge propi d'aquest navegador i en desapareix quan s'obre.
+Una altra aplicació de la família pot lliurar-vos el PDF que té obert: obre TakeoffDesk en una pestanya nova, i el PDF s'obre allà com si l'haguéssiu arrossegat. La barra d'estat diu "S'ha obert (nom), lliurat des de (aplicació). El fitxer original no ha canviat." No es puja res; el fitxer passa per l'emmagatzematge propi d'aquest navegador i en desapareix quan s'obre.
 
 Si la barra d'estat diu que el PDF "no ha arribat", la pestanya ha esperat massa o el PDF ja era obert en una altra pestanya: obriu-lo amb {{ui:Obre plànols}}.
 

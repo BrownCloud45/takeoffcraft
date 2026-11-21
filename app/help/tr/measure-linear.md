@@ -30,7 +30,7 @@ Araç {{ui:Doğrusal}} üzerinde açık kalır, böylece bir sonraki koşuya hem
 - Sürükleme sayfayı kaydırır, tekerlek yakınlaştırır; nokta eklemezler.
 
 :::mac
-Mac dokunmatik yüzeyinde sağ tıklama iki parmakla tıklamadır (Sistem Ayarları'nda, Trackpad altında ikincil tıklamayı açın). TakeoffCraft yalnızca ikincil düğmeyi okur; bu yüzden bir Control-tıklama düz bir tıklama sayılıp nokta ekleyebilir. Çift tıklama ya da {{key:Enter}} her zaman bitirir.
+Mac dokunmatik yüzeyinde sağ tıklama iki parmakla tıklamadır (Sistem Ayarları'nda, Trackpad altında ikincil tıklamayı açın). TakeoffDesk yalnızca ikincil düğmeyi okur; bu yüzden bir Control-tıklama düz bir tıklama sayılıp nokta ekleyebilir. Çift tıklama ya da {{key:Enter}} her zaman bitirir.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Yay modunda bu, bir yayın bittiği yer için geçerlidir: yayın kirişi başla
 | `@6',-4'` | Son noktadan 6' sağa ve 4' aşağı |
 | `6',4'` (ya da `#6',4'`) | Bu koşunun ilk noktasından 6' sağa ve 4' yukarı |
 
-Uzunluklar TakeoffCraft'ta her yerde olduğu gibi yazılır ([Giriş biçimleri](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fit), `30"`, `3.2 m`. "Sağ" ve "yukarı", sayfayı gördüğünüz gibidir; PDF sayfası döndürülmüş olsa bile.
+Uzunluklar TakeoffDesk'ta her yerde olduğu gibi yazılır ([Giriş biçimleri](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fit), `30"`, `3.2 m`. "Sağ" ve "yukarı", sayfayı gördüğünüz gibidir; PDF sayfası döndürülmüş olsa bile.
 
 Boş bir kutuda {{key:Enter}}, sayfadaki {{key:Enter}} gibi koşuyu bitirir; {{key:Esc}} kutuyu kapatır ve koşuyu sürdürür. Yazılan noktalar tıklamalarla aynı kurallardan geçer: düşüşler, yaylar ve bir alanı kapatma hepsi çalışır. Aynı kutu {{ui:Alan}} ve {{ui:Boşluk}}'ta da çalışır; bir dairenin merkezinden sonra yarıçapı alır.
 

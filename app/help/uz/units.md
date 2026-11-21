@@ -55,4 +55,4 @@ Varaqning masshtabi chizma qanchalik katta ekanini aytadi; elementning birligi e
 
 ## Aniqlik
 
-TakeoffCraft bosgan nuqtalardan aniq oʻlchaydi, shu jumladan haqiqiy yoy uzunliklari va maydonlarni, va miqdorlarni yaxlitlamaydi. Koʻrsatishda uzunliklar 1/16 dyuymgacha, kasrlar esa ikki oʻnlik xonagacha yaxlitlanadi. Pul faqat kengaytirilgan summalarda, tiyingacha yaxlitlanadi.
+TakeoffDesk bosgan nuqtalardan aniq oʻlchaydi, shu jumladan haqiqiy yoy uzunliklari va maydonlarni, va miqdorlarni yaxlitlamaydi. Koʻrsatishda uzunliklar 1/16 dyuymgacha, kasrlar esa ikki oʻnlik xonagacha yaxlitlanadi. Pul faqat kengaytirilgan summalarda, tiyingacha yaxlitlanadi.

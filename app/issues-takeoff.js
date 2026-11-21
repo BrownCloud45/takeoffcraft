@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * issues-takeoff.js: TakeoffCraft's side of the issue history (0.10 BK.48; session bk-r3-stages-10). The model, the changelog and
+ * issues-takeoff.js: TakeoffDesk's side of the issue history (0.10 BK.48; session bk-r3-stages-10). The model, the changelog and
  * the panel are the shared lib's (issuelog/). The history is kept in the takeoff file under `issuelog` (one undo step per change;
  * older builds ignore the key). A sheet's print = the marks measured on it, so "changes since" tells which sheets were measured
  * again after an issue. An issue history saved from BimCraft or MarkupCraft (`*.issues.json`) is read in with Read an issue history.

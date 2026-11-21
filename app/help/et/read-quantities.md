@@ -24,7 +24,7 @@ Vali {{ui:Kirje järgi}} (vaikimisi). Igal kirjel on oma rida ja selle koostu ko
 
 Viimane rida, **Objekti kogusumma**, liidab veerud materjal, tööjõud ja kokku. Sama kogusumma on näha tabeli päise paremal pool.
 
-Sisesta kao- või määraveergu lahtrisse ja rakenda see klahviga {{key:Enter}} või klõpsa mujale. Väärtus, mida TakeoffCraft ei suuda lugeda, on punase joonega ääristatud ja olekuriba ütleb põhjuse, näiteks „Sisesta summa kujul 12.50.“
+Sisesta kao- või määraveergu lahtrisse ja rakenda see klahviga {{key:Enter}} või klõpsa mujale. Väärtus, mida TakeoffDesk ei suuda lugeda, on punase joonega ääristatud ja olekuriba ütleb põhjuse, näiteks „Sisesta summa kujul 12.50.“
 
 Kirje rea klõpsamine tõstab esile selle märgid igal lehel ja viib lehele, kus need on (sama mis klõpsamine jaotises {{ui:Kirjed}}).
 

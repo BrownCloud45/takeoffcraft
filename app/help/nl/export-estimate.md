@@ -28,7 +28,7 @@ De werkmap heeft vier werkbladen, en de onderstaande rapporten wanneer die van t
 
 Met een [samenvatting van de inschrijving](topic:bid-summary) eindigt het werkblad Raming ook met de markups (arbeidslast, omzetbelasting, overhead, winst, borgstelling en de inschrijving), als live formules.
 
-Het werkblad Raming houdt **live formules** bij: hoeveelheid met verlies, de afgeronde materiaal- en arbeidsbedragen, het totaal per rij en het projecttotaal. Spreadsheetprogramma's berekenen ze opnieuw, dus u kunt een tarief of verlies in de spreadsheet wijzigen en de totalen volgen. De getallen die TakeoffCraft heeft berekend, staan ook in de cellen en komen tot op de cent overeen.
+Het werkblad Raming houdt **live formules** bij: hoeveelheid met verlies, de afgeronde materiaal- en arbeidsbedragen, het totaal per rij en het projecttotaal. Spreadsheetprogramma's berekenen ze opnieuw, dus u kunt een tarief of verlies in de spreadsheet wijzigen en de totalen volgen. De getallen die TakeoffDesk heeft berekend, staan ook in de cellen en komen tot op de cent overeen.
 
 De kolom opmerkingen somt de formule van elk onderdeel, formulefouten, markeringen op bladen zonder schaal, wandoppervlak en omtrek op. Wanneer iets is weggelaten, zegt de projecttotaalrij "Onvolledig: zie de opmerkingen hierboven".
 
@@ -42,7 +42,7 @@ De CSV bevat alleen de raming; voor hoeveelheden per blad en de markeringenlijst
 
 ## De raming in Google Sheets
 
-Boven de tabel {{ui:Hoeveelheden}} zet **Kopiëren voor Google Sheets** de raming als tab-gescheiden tekst op uw klembord, met dezelfde regels als de CSV. Klik in een Google Sheet op cel A1 en plak. TakeoffCraft meldt zich niet aan bij Google en stuurt daar niets naartoe.
+Boven de tabel {{ui:Hoeveelheden}} zet **Kopiëren voor Google Sheets** de raming als tab-gescheiden tekst op uw klembord, met dezelfde regels als de CSV. Klik in een Google Sheet op cel A1 en plak. TakeoffDesk meldt zich niet aan bij Google en stuurt daar niets naartoe.
 
 ## Ontbrekende tarieven en de goedkeuring
 

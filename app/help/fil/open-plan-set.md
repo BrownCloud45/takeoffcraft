@@ -5,7 +5,7 @@ keywords: "buksan, plan set, ilang pdf, maraming file, sheets, drawings, page la
 from: ed434468
 ---
 
-Madalas na ilang PDF ang isang plan set: architectural, structural, mechanical. Binubuksan sila ng TakeoffCraft nang magkatabi bilang iisang listahan ng sheet, at kayang sakupin ng iisang takeoff ang lahat ng ito.
+Madalas na ilang PDF ang isang plan set: architectural, structural, mechanical. Binubuksan sila ng TakeoffDesk nang magkatabi bilang iisang listahan ng sheet, at kayang sakupin ng iisang takeoff ang lahat ng ito.
 
 ## Buksan ang mga PDF
 
@@ -14,14 +14,14 @@ Madalas na ilang PDF ang isang plan set: architectural, structural, mechanical. 
 3. Piliin ang Buksan.
    Lalabas ang mensaheng "Binubuksan ang (name)…" habang binabasa ang bawat file. Pagkatapos, lalabas ang bawat page sa ilalim ng {{ui:Sheets}}, at bubukas ang unang page ng unang bagong PDF.
 
-Maaari mo ring i-drag ang mga PDF mula sa {{pick:mac=Finder|windows=File Explorer|linux=your file manager}} at i-drop ang mga ito kahit saan sa TakeoffCraft. Lumalabas ang frame na "I-drop ang mga PDF, DWG o DXF drawing, o isang .takeoff.json" habang nagdra-drag.
+Maaari mo ring i-drag ang mga PDF mula sa {{pick:mac=Finder|windows=File Explorer|linux=your file manager}} at i-drop ang mga ito kahit saan sa TakeoffDesk. Lumalabas ang frame na "I-drop ang mga PDF, DWG o DXF drawing, o isang .takeoff.json" habang nagdra-drag.
 
 Para magdagdag ng PDF sa susunod, gawin ulit ang parehong paraan. Nilalaktawan ang mga PDF na bukas na.
 
 Nakalista rin sa start screen ang mga PDF at takeoff na kamakailan mong binuksan, sa mga browser na pinapayagan ang page na muling magbukas ng file (Chrome at Edge). I-click ang isa para buksan ito; maaaring humingi muna ng pahintulot ang browser. Tingnan ang [Ang mga file mo](common:your-files).
 
 :::note
-Walang ina-upload. Binabasa ng browser ang mga PDF sa computer mo, at nawawala ang mga ito sa TakeoffCraft kapag isinara mo ang tab o pinili mo ang {{ui:Bago}}.
+Walang ina-upload. Binabasa ng browser ang mga PDF sa computer mo, at nawawala ang mga ito sa TakeoffDesk kapag isinara mo ang tab o pinili mo ang {{ui:Bago}}.
 :::
 
 ## Mga drawing kasama ng mga PDF
@@ -30,7 +30,7 @@ Walang ina-upload. Binabasa ng browser ang mga PDF sa computer mo, at nawawala a
 
 ## PDF na ibinigay mula sa ibang app
 
-Maaaring ibigay sa iyo ng isa pang app sa lineup ang PDF na bukas dito: magbubukas ito ng TakeoffCraft sa bagong tab, at bubukas doon ang PDF na parang na-drop mo ito. Sinasabi ng status bar na "Binuksan ang (name), ibinigay mula sa (app). Hindi nagbago ang orihinal na file." Walang ina-upload; dumadaan ang file sa sariling storage ng browser na ito, at mawawala ito roon kapag nabuksan na.
+Maaaring ibigay sa iyo ng isa pang app sa lineup ang PDF na bukas dito: magbubukas ito ng TakeoffDesk sa bagong tab, at bubukas doon ang PDF na parang na-drop mo ito. Sinasabi ng status bar na "Binuksan ang (name), ibinigay mula sa (app). Hindi nagbago ang orihinal na file." Walang ina-upload; dumadaan ang file sa sariling storage ng browser na ito, at mawawala ito roon kapag nabuksan na.
 
 Kung sinasabi ng status bar na "hindi dumating" ang PDF, naghintay nang masyado ang tab, o bukas na ang PDF sa ibang tab: buksan ito gamit ang {{ui:Buksan ang plano}}.
 

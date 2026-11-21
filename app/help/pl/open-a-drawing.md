@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, rysunek, otwórz rysunek, układy, przestrzeń modelu, 
 from: d8c3f504
 ---
 
-TakeoffCraft otwiera rysunek DWG lub DXF tak jak PDF: nie musisz najpierw drukować go do PDF-a. Liczenie z samego rysunku jest dokładne, bo rysunek zna każdy obiekt. Zobacz [Liczenie z rysunku](topic:count-from-a-drawing).
+TakeoffDesk otwiera rysunek DWG lub DXF tak jak PDF: nie musisz najpierw drukować go do PDF-a. Liczenie z samego rysunku jest dokładne, bo rysunek zna każdy obiekt. Zobacz [Liczenie z rysunku](topic:count-from-a-drawing).
 
 ## Otwórz rysunek
 
@@ -13,9 +13,9 @@ TakeoffCraft otwiera rysunek DWG lub DXF tak jak PDF: nie musisz najpierw drukow
 2. Wybierz plik DWG lub DXF. Możesz wybrać kilka, także razem z PDF-ami.
 3. Wybierz przycisk Otwórz.
 
-Możesz też upuścić pliki rysunków na TakeoffCraft, tak jak PDF-y. Nic nie jest wysyłane: przeglądarka czyta plik na twoim komputerze.
+Możesz też upuścić pliki rysunków na TakeoffDesk, tak jak PDF-y. Nic nie jest wysyłane: przeglądarka czyta plik na twoim komputerze.
 
-TakeoffCraft czyta DWG od AutoCAD 2000 do 2018 i ASCII DXF od R12 do 2018. Odrzuca binarny DXF (zapisz go jako ASCII albo jako DWG) oraz plik, który nie jest żadnym z nich, i mówi dlaczego. Uszkodzony plik otwiera się z tym, co dało się odczytać, a komunikat o tym informuje; jego liczby mogą być niepełne.
+TakeoffDesk czyta DWG od AutoCAD 2000 do 2018 i ASCII DXF od R12 do 2018. Odrzuca binarny DXF (zapisz go jako ASCII albo jako DWG) oraz plik, który nie jest żadnym z nich, i mówi dlaczego. Uszkodzony plik otwiera się z tym, co dało się odczytać, a komunikat o tym informuje; jego liczby mogą być niepełne.
 
 ## Arkusze
 
@@ -40,10 +40,10 @@ Arkusz zaczyna się od skali, którą podaje rysunek:
 
 ## Rysunki dołączone (xref)
 
-Rysunek, który łączy inne rysunki, pokazuje je tam, gdzie są wstawione. TakeoffCraft znajduje rysunek dołączony wśród **otwartych plików** po jego nazwie: otwórz rysunek główny i rysunek dołączony razem (albo jeden po drugim). Do tego czasu pasek stanu mówi, ile rysunków dołączonych nie znaleziono, a czego brakuje w ich rysunku, a liczenia to zaznaczają.
+Rysunek, który łączy inne rysunki, pokazuje je tam, gdzie są wstawione. TakeoffDesk znajduje rysunek dołączony wśród **otwartych plików** po jego nazwie: otwórz rysunek główny i rysunek dołączony razem (albo jeden po drugim). Do tego czasu pasek stanu mówi, ile rysunków dołączonych nie znaleziono, a czego brakuje w ich rysunku, a liczenia to zaznaczają.
 
 ## Ograniczenia
 
-- Obiekty, których TakeoffCraft nie umie odczytać ani umieścić (obiekty proxy, nieznane klasy), są wymienione w oknie liczenia wg typu; nigdy nie są odrzucane bez słowa.
+- Obiekty, których TakeoffDesk nie umie odczytać ani umieścić (obiekty proxy, nieznane klasy), są wymienione w oknie liczenia wg typu; nigdy nie są odrzucane bez słowa.
 - Bardzo duże rysunki są rysowane częściowo, a liczenia zatrzymują się na limicie, informując o tym. Otwórz w zamian wydruk PDF takiego rysunku.
 - Rysunek jest rysowany na czarno i we własnych kolorach, przyciemnionych do białego papieru. Tabele stylów wydruku i przypisania piór nie są stosowane.

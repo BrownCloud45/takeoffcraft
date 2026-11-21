@@ -77,7 +77,7 @@ Satu baris per lembar yang memiliki skala atau tanda.
 | Sheet | Nama lembar |
 | Scale | Nama preset, skala terkalibrasi, atau "Tanpa skala" |
 | How | "Preset", atau "Dikalibrasi pada (jarak yang Anda ketik)" |
-| Feet per PDF unit | Faktor skala persis yang dipakai TakeoffCraft |
+| Feet per PDF unit | Faktor skala persis yang dipakai TakeoffDesk |
 
 ## Nama berkas
 

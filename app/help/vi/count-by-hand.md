@@ -14,7 +14,7 @@ Một hạng mục đếm dùng để đếm các thứ: cửa, đèn chiếu s�
 3. Nhấp từng cái trên tờ.
    Mỗi lần nhấp đặt một chấm có màu của hạng mục, và số đếm của hạng mục tăng thêm một.
 4. Chuyển sang tờ tiếp theo ({{key:PageDown}}) và tiếp tục đếm. Công cụ vẫn ở {{ui:Count}}.
-5. Nhấn {{key:Esc}} khi xong. TakeoffCraft quay về {{ui:Select}}.
+5. Nhấn {{key:Esc}} khi xong. TakeoffDesk quay về {{ui:Select}}.
 
 Kéo vẫn di chuyển khung nhìn và con lăn vẫn thu phóng khi bạn đang đếm, nên bạn có thể di chuyển quanh tờ mà không thêm chấm nào.
 
@@ -30,7 +30,7 @@ Nhấp hạng mục đếm để làm nổi bật các chấm của nó trên m�
 
 ## Kích thước chấm, trên màn hình và trong PDF
 
-Các chấm giữ một kích thước trên màn hình dù bạn phóng to thế nào. Để đổi, mở {{ui:Settings}}, thẻ TakeoffCraft, và chọn **Kích thước dấu đếm**: Rất nhỏ, Nhỏ, Vừa (mặc định) hoặc Lớn.
+Các chấm giữ một kích thước trên màn hình dù bạn phóng to thế nào. Để đổi, mở {{ui:Settings}}, thẻ TakeoffDesk, và chọn **Kích thước dấu đếm**: Rất nhỏ, Nhỏ, Vừa (mặc định) hoặc Lớn.
 
 Xuất PDF ({{ui:Export}} › PDF đã đánh dấu) vẽ mỗi chấm với cùng kích thước trên giấy, bất kể kích thước tờ: trình xem PDF ở 100% hiển thị các chấm lớn bằng trên màn hình. Nếu các chấm trên một tờ vẫn chạm nhau, khi xuất, tờ đó sẽ làm chấm nhỏ hơn để mỗi chấm đọc được.
 

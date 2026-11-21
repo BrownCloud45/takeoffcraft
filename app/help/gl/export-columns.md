@@ -77,7 +77,7 @@ Unha fila por cada folla que teña escala ou marcas.
 | Folla | Nome da folla |
 | Escala | O nome do preaxuste, a escala calibrada, ou «Sen escala» |
 | Como | «Preaxuste», ou «Calibrada sobre (a distancia que escribiu)» |
-| Pés por unidade do PDF | O factor de escala exacto que usa TakeoffCraft |
+| Pés por unidade do PDF | O factor de escala exacto que usa TakeoffDesk |
 
 ## Nomes de ficheiro
 

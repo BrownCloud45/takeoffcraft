@@ -28,7 +28,7 @@ Dışa aktarımlar indirmedir. Metrajdan ve açık PDF'lerden bilgisayarınızda
 
 Bir [ihale özetiyle](topic:bid-summary) Keşif çalışma sayfası, ihale özetinin düzeltmelerini (işçilik yükü, satış vergisi, genel gider, kâr, teminat ve ihale) de canlı formül olarak sonunda içerir.
 
-Keşif çalışma sayfası **canlı formüller** tutar: fire dahil miktar, yuvarlanmış malzeme ve işçilik tutarları, her satırın toplamı ve iş toplamı. Elektronik tablo programları bunları yeniden hesaplar; bu yüzden elektronik tabloda bir birim fiyatı veya fireyi değiştirirseniz toplamlar izler. TakeoffCraft'ın hesapladığı sayılar da hücrelere kaydedilir ve kuruşa kadar eşleşir.
+Keşif çalışma sayfası **canlı formüller** tutar: fire dahil miktar, yuvarlanmış malzeme ve işçilik tutarları, her satırın toplamı ve iş toplamı. Elektronik tablo programları bunları yeniden hesaplar; bu yüzden elektronik tabloda bir birim fiyatı veya fireyi değiştirirseniz toplamlar izler. TakeoffDesk'ın hesapladığı sayılar da hücrelere kaydedilir ve kuruşa kadar eşleşir.
 
 Notlar sütunu her bileşenin formülünü, formül hatalarını, ölçeksiz sayfalardaki işaretleri, duvar alanını ve çevreyi listeler. Bir şey dışarıda bırakıldığında iş toplamı satırı "Eksik: yukarıdaki notlara bakın" yazar.
 
@@ -42,7 +42,7 @@ CSV yalnızca keşfi içerir; sayfaya göre miktarlar ve işaret listesi için X
 
 ## Google Sheets'te keşif
 
-Metraj tablosunun üstündeki **Google Sheets için kopyala**, keşfi CSV ile aynı satırlarda sekmeyle ayrılmış metin olarak panoya koyar. Bir Google E-Tablosu'nda A1 hücresine tıklayın ve yapıştırın. TakeoffCraft Google'da oturum açmaz ve oraya hiçbir şey göndermez.
+Metraj tablosunun üstündeki **Google Sheets için kopyala**, keşfi CSV ile aynı satırlarda sekmeyle ayrılmış metin olarak panoya koyar. Bir Google E-Tablosu'nda A1 hücresine tıklayın ve yapıştırın. TakeoffDesk Google'da oturum açmaz ve oraya hiçbir şey göndermez.
 
 ## Eksik birim fiyatlar ve onay
 

@@ -5,7 +5,7 @@ keywords: enganchar, osnap, enganche a obxecto, extremo, punto medio, interseci�
 from: 41d29e9b
 ---
 
-A maioría dos conxuntos de planos son PDF vectoriais: os seus muros e bordos son liñas reais, non píxeles. Mentres mides, TakeoffCraft engancha os teus clics a esas liñas, de modo que un tramo comeza exactamente na esquina dun muro e unha calibración le a cota que debuxou o delineante, non o píxel onde fas clic.
+A maioría dos conxuntos de planos son PDF vectoriais: os seus muros e bordos son liñas reais, non píxeles. Mentres mides, TakeoffDesk engancha os teus clics a esas liñas, de modo que un tramo comeza exactamente na esquina dun muro e unha calibración le a cota que debuxou o delineante, non o píxel onde fas clic.
 
 O enganche está activado ao comezar. Actívao e desactívao con {{ui:Enganchar}} na barra de estado ou con {{key:F3}}; o axuste consérvase neste navegador (tamén está en [Configuración](topic:settings)).
 

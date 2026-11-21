@@ -5,7 +5,7 @@ keywords: zemeljska dela, izkop, nasip, izkop in nasip, planiranje, višinska ko
 from: a898e508
 ---
 
-TakeoffCraft meri to, kar je narisano na listu. Zemeljska dela potrebujejo površje terena, zato jih delimo s CivilCraft, ki iz točk zgradi površja, jih planira ter izračuna izkop, nasip in odvoz.
+TakeoffDesk meri to, kar je narisano na listu. Zemeljska dela potrebujejo površje terena, zato jih delimo s CivilCraft, ki iz točk zgradi površja, jih planira ter izračuna izkop, nasip in odvoz.
 
 ## Preprosti izkopi tukaj
 
@@ -29,8 +29,8 @@ Točke z različnih listov nimajo skupnih koordinat, zato izvoz zajame samo odpr
 
 Zemeljska dela iz CivilCraft se vrnejo kot dve postavki, ki ju lahko vrednotite:
 
-1. V CivilCraft oblikujte svoje temelje in koridorje, nato pod **Zemeljska dela** izberite {{ui:Pošlji v TakeoffCraft}} ([Prostornine zemeljskih del](app:civilcraft/volumes)). Shrani se datoteka količin (`.quantities.json`).
-2. V TakeoffCraft jo odprite z {{ui:Odpri predizmere}} ali jo spustite na aplikacijo. Predizmera ostane odprta: datoteka doda **Zemeljska dela: izkop** in **Zemeljska dela: nasip** kot [vnesene količine](topic:create-items#typed-quantities-no-drawing) v kubičnih jardih (CY) za projekt v čevljih oziroma v kubičnih metrih (m³) za projekt v metrih. Gre za en korak: {{key:Mod+Z}} ga razveljavi.
+1. V CivilCraft oblikujte svoje temelje in koridorje, nato pod **Zemeljska dela** izberite {{ui:Pošlji v TakeoffDesk}} ([Prostornine zemeljskih del](app:civilcraft/volumes)). Shrani se datoteka količin (`.quantities.json`).
+2. V TakeoffDesk jo odprite z {{ui:Odpri predizmere}} ali jo spustite na aplikacijo. Predizmera ostane odprta: datoteka doda **Zemeljska dela: izkop** in **Zemeljska dela: nasip** kot [vnesene količine](topic:create-items#typed-quantities-no-drawing) v kubičnih jardih (CY) za projekt v čevljih oziroma v kubičnih metrih (m³) za projekt v metrih. Gre za en korak: {{key:Mod+Z}} ga razveljavi.
 3. Preimenujte ju, nastavite odpadek, cene in sestave, kakor želite.
 
 Ob spremembi zasnove ponovno pošljite iz CivilCraft in odprite novo datoteko: isti dve postavki dobita nove količine. Njuna imena, cene, odpadek in sestavi ostanejo taki, kot ste jih nastavili. Če se je enota projekta spremenila, to pove vrstica stanja: preverite cene. Datoteka iz drugega projekta CivilCraft doda svoji dve postavki.

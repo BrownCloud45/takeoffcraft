@@ -24,7 +24,7 @@ Elegí {{ui:Por ítem}} (el predeterminado). Cada ítem tiene una fila, y cada c
 
 La última fila, **Total de la obra**, suma las columnas de material, mano de obra y total. El mismo total aparece a la derecha del encabezado de la tabla.
 
-Escribí en una celda de desperdicio o de tarifa y presioná {{key:Enter}} o hacé clic afuera para aplicarlo. Un valor que TakeoffCraft no puede leer se marca con contorno rojo y la barra de estado dice por qué, por ejemplo "Escribí un monto como 12.50."
+Escribí en una celda de desperdicio o de tarifa y presioná {{key:Enter}} o hacé clic afuera para aplicarlo. Un valor que TakeoffDesk no puede leer se marca con contorno rojo y la barra de estado dice por qué, por ejemplo "Escribí un monto como 12.50."
 
 Hacé clic en la fila de un ítem para resaltar sus marcas en todas las hojas y saltar a una hoja que las tenga (igual que al hacer clic debajo de {{ui:Ítems}}).
 

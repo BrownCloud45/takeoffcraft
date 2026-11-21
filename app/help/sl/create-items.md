@@ -37,12 +37,12 @@ Vnesena količina ne zahteva oznak in nikoli ne naredi predračuna nepopolnega. 
 V obrazcu pritisnite {{key:Esc}}, da ga zaprete brez dodajanja postavke.
 
 :::tip
-Če najprej izberete orodje za merjenje, TakeoffCraft uporabi zadnjo postavko ustrezne vrste ali odpre obrazec {{ui:Nova postavka}} z že izbrano vrsto.
+Če najprej izberete orodje za merjenje, TakeoffDesk uporabi zadnjo postavko ustrezne vrste ali odpre obrazec {{ui:Nova postavka}} z že izbrano vrsto.
 :::
 
 ## Izbira postavke, s katero rišete
 
-Kliknite postavko na seznamu. Postane postavka, kateri pripadajo nove oznake, njene oznake pa so na vseh listih poudarjene, druge pa zbledijo. Če odprti list nima nobene njene oznake, TakeoffCraft preskoči na list, ki jo ima. Ponovno kliknite postavko, da poudarjanje ustavite; ostane postavka, s katero rišete.
+Kliknite postavko na seznamu. Postane postavka, kateri pripadajo nove oznake, njene oznake pa so na vseh listih poudarjene, druge pa zbledijo. Če odprti list nima nobene njene oznake, TakeoffDesk preskoči na list, ki jo ima. Ponovno kliknite postavko, da poudarjanje ustavite; ostane postavka, s katero rišete.
 
 Klik na oznako z orodjem {{ui:Izberi}} prav tako naredi njeno postavko trenutno.
 
@@ -57,7 +57,7 @@ Urejevalnik postavke (**Postavka: (ime)**) ima ta polja. Vsako se shrani, ko zap
 | {{ui:Color}} | Barva njenih oznak na zaslonu in v označenem PDF-ju. |
 | {{ui:Unit}} | V kateri enoti je količina prikazana: LF ali m za linijsko; SF, SY, SQ, ac, ha ali m² za površino; EA za štetje. |
 | {{ui:Also measure}} | Druge vrste oznak, ki jih postavka sprejme, vsaka s svojo enoto. Glejte spodaj. |
-| {{ui:Height}} (linijsko) | Višina stene. Postavka nato poroča tudi površino stene (dolžina × višina). Odseki, prišli iz modela BimCraft, nosijo svoja vrata in okna: ta se enkrat odštejejo, postavka pa navede bruto površino, odprtine in neto. Predizmera iz projekta BimCraft, ki je izbral metodo merjenja, se tudi tukaj meri s to metodo (opomba jo navede z njenim virom in pove, da količinski inženir ni preveril; metode v TakeoffCraft ni mogoče spremeniti). Opeke ali bloki in malta iz tipa stene pridejo kot dve komponenti: enote za naročilo in prostornina malte. |
+| {{ui:Height}} (linijsko) | Višina stene. Postavka nato poroča tudi površino stene (dolžina × višina). Odseki, prišli iz modela BimCraft, nosijo svoja vrata in okna: ta se enkrat odštejejo, postavka pa navede bruto površino, odprtine in neto. Predizmera iz projekta BimCraft, ki je izbral metodo merjenja, se tudi tukaj meri s to metodo (opomba jo navede z njenim virom in pove, da količinski inženir ni preveril; metode v TakeoffDesk ni mogoče spremeniti). Opeke ali bloki in malta iz tipa stene pridejo kot dve komponenti: enote za naročilo in prostornina malte. |
 | {{ui:Depth}} (površina) | Globina ali debelina, uporabljena v formulah sestava (na primer prostornina betona). |
 | {{ui:Waste %}} | Prišteje se h količini pred cenjenjem: 10 pomeni količina × 1.10. |
 | {{ui:Material $/LF}} | Strošek materiala na enoto. Oznaka sledi enoti: $/SF, $/EA in tako naprej. |
@@ -74,7 +74,7 @@ Nekatere stvari se merijo na več načinov: prostor ima tla (površino), podnož
 
 1. Naredite postavko z njeno glavno vrsto, na primer površinsko postavko `Soba 101`.
 2. Pod {{ui:Izmeri tudi}} v njenem urejevalniku obkljukajte {{ui:Linijsko}}, {{ui:Štetje}} ali oboje. Vsaka dobi enoto ob sebi.
-3. Rišete lahko s katerim koli orodjem, katerega vrsta postavka sprejme: z izbrano `Soba 101` {{ui:Površina}} nariše njena tla, {{ui:Linijsko}} njeno podnožnico in {{ui:Štetje}} njena vrata. TakeoffCraft ne sprašuje po drugi postavki.
+3. Rišete lahko s katerim koli orodjem, katerega vrsta postavka sprejme: z izbrano `Soba 101` {{ui:Površina}} nariše njena tla, {{ui:Linijsko}} njeno podnožnico in {{ui:Štetje}} njena vrata. TakeoffDesk ne sprašuje po drugi postavki.
 
 Seznam postavk prikaže vsako količino (`50.00 SF + 2 EA`). V preglednici količin ima vrstica postavke glavno količino, vsaka druga vrsta pa svojo vrstico pod njo, na primer **Soba 101 (štetje)**, s svojim odpadkom ter stopnjami za material in delo. Izvozi, preglednica po listih in legenda označenega PDF-ja jih navajajo na enak način.
 
@@ -114,7 +114,7 @@ Namesto stopnje dela na enoto lahko delo postavke izhaja iz ekipe: koliko naredi
 | {{ui:Velikost ekipe}} | `2` osebi |
 | {{ui:Plača $/uro za vsakega}} | `45` |
 
-TakeoffCraft izračuna iz količine z odpadkom:
+TakeoffDesk izračuna iz količine z odpadkom:
 
 - **ure ekipe** = količina ÷ proizvodnja (110 LF ÷ 20 = 5.5),
 - **človeške ure** = ure ekipe × velikost ekipe (11),

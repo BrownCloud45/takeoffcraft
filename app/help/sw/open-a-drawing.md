@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, mchoro, fungua mchoro, mipangilio, nafasi ya modeli, na
 from: d8c3f504
 ---
 
-TakeoffCraft hufungua mchoro wa DWG au DXF kama inavyofungua PDF: huhitaji kuuchapisha kuwa PDF kwanza. Kuhesabu kutoka mchoro wenyewe ni sahihi, kwa sababu mchoro unajua kila kitu ni nini. Angalia [Hesabu kutoka mchoro](topic:count-from-a-drawing).
+TakeoffDesk hufungua mchoro wa DWG au DXF kama inavyofungua PDF: huhitaji kuuchapisha kuwa PDF kwanza. Kuhesabu kutoka mchoro wenyewe ni sahihi, kwa sababu mchoro unajua kila kitu ni nini. Angalia [Hesabu kutoka mchoro](topic:count-from-a-drawing).
 
 ## Fungua mchoro
 
@@ -13,9 +13,9 @@ TakeoffCraft hufungua mchoro wa DWG au DXF kama inavyofungua PDF: huhitaji kuuch
 2. Chagua faili ya DWG au DXF. Unaweza kuchagua nyingi, na PDF pamoja nazo.
 3. Chagua Fungua.
 
-Unaweza pia kudondosha faili za mchoro kwenye TakeoffCraft, kama PDF. Hakuna kinachopakiwa: kivinjari husoma faili kwenye kompyuta yako.
+Unaweza pia kudondosha faili za mchoro kwenye TakeoffDesk, kama PDF. Hakuna kinachopakiwa: kivinjari husoma faili kwenye kompyuta yako.
 
-TakeoffCraft husoma DWG kuanzia AutoCAD 2000 hadi 2018 na DXF ya ASCII kuanzia R12 hadi 2018. Hukataa DXF ya binary (ihifadhi kama ASCII, au kama DWG) na faili isiyo ya aina hizo, na husema kwa nini. Faili iliyoharibika hufunguka na kile kilichoweza kusomwa, na ujumbe husema hivyo; hesabu zake zinaweza kuwa pungufu.
+TakeoffDesk husoma DWG kuanzia AutoCAD 2000 hadi 2018 na DXF ya ASCII kuanzia R12 hadi 2018. Hukataa DXF ya binary (ihifadhi kama ASCII, au kama DWG) na faili isiyo ya aina hizo, na husema kwa nini. Faili iliyoharibika hufunguka na kile kilichoweza kusomwa, na ujumbe husema hivyo; hesabu zake zinaweza kuwa pungufu.
 
 ## Karatasi
 
@@ -40,10 +40,10 @@ Karatasi huanza na skeli ambayo mchoro unatoa:
 
 ## Michoro iliyounganishwa (xrefs)
 
-Mchoro unaounganisha michoro mingine huzionyesha mahali zilipoingizwa. TakeoffCraft hupata mchoro uliounganishwa kati ya **faili zilizofunguliwa**, kwa jina lake la faili: fungua mchoro mwenyeji na mchoro wake uliounganishwa pamoja (au moja baada ya nyingine). Hadi hapo upau wa hali unasema michoro iliyounganishwa ngapi haikupatikana, kile zinachochora hakipo, na hesabu zinasema hivyo.
+Mchoro unaounganisha michoro mingine huzionyesha mahali zilipoingizwa. TakeoffDesk hupata mchoro uliounganishwa kati ya **faili zilizofunguliwa**, kwa jina lake la faili: fungua mchoro mwenyeji na mchoro wake uliounganishwa pamoja (au moja baada ya nyingine). Hadi hapo upau wa hali unasema michoro iliyounganishwa ngapi haikupatikana, kile zinachochora hakipo, na hesabu zinasema hivyo.
 
 ## Vikomo
 
-- Vitu ambavyo TakeoffCraft haiwezi kusoma au kuweka (vitu vya proksi, madarasa yasiyojulikana) huorodheshwa kwenye dirisha la hesabu kwa aina; havitupwi kimya kimya.
+- Vitu ambavyo TakeoffDesk haiwezi kusoma au kuweka (vitu vya proksi, madarasa yasiyojulikana) huorodheshwa kwenye dirisha la hesabu kwa aina; havitupwi kimya kimya.
 - Michoro mikubwa sana huchorwa kwa sehemu, na hesabu hukoma kwenye kikomo, zikisema hivyo. Fungua chapa ya PDF ya mchoro kama huo badala yake.
 - Mchoro huchorwa kwa nyeusi na kwa rangi zake, zikififishwa kwa karatasi nyeupe. Jedwali za mitindo ya kuchapa na mgawo wa kalamu hazitumiki.

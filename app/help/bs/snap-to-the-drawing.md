@@ -5,7 +5,7 @@ keywords: hvatanje, hvatanje objekta, krajnja tačka, središnja tačka, presjek
 from: 41d29e9b
 ---
 
-Većina setova planova su vektorski PDF-ovi: zidovi i ivice su prave linije, a ne pikseli. Dok mjerite, TakeoffCraft hvata vaše klikove na te linije, tako da dionica počinje tačno na uglu zida, a kalibracija čita dimenziju koju je projektant nacrtao, a ne piksel na koji ste kliknuli.
+Većina setova planova su vektorski PDF-ovi: zidovi i ivice su prave linije, a ne pikseli. Dok mjerite, TakeoffDesk hvata vaše klikove na te linije, tako da dionica počinje tačno na uglu zida, a kalibracija čita dimenziju koju je projektant nacrtao, a ne piksel na koji ste kliknuli.
 
 {{ui:Hvatanje}} je uključeno kada počnete. Uključite ili isključite ga sa {{ui:Hvatanje}} u statusnoj traci ili {{key:F3}}; postavka se čuva u ovom pregledaču (nalazi se i pod [Postavke](topic:settings)).
 

@@ -1,6 +1,6 @@
 ---
 title: Tastatură și mouse
-summary: Fiecare acțiune cu tastele, mouse-ul, touchpadul și atingerea din TakeoffCraft, grupată, cu diferențele dintre platforme.
+summary: Fiecare acțiune cu tastele, mouse-ul, touchpadul și atingerea din TakeoffDesk, grupată, cu diferențele dintre platforme.
 keywords: taste, scurtături, taste rapide, tastatură, mouse, touchpad, atingere, deplasare, zoom, rotiță, clic dreapta, dublu clic, spațiu, shift, copiere, lipire, decupare, duplicare, selectare totală
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Vezi [Verificarea antemăsurătorii în 3D](topic:check-in-3d).
 | Tastă | Ce face |
 |---|---|
 | {{key:F1}} | Deschide sau închide panoul de ajutor (la fel ca butonul {{ui:Help}} din bara aplicației). Funcționează în orice instrument, chiar și când scrieți într-un câmp. |
-| {{key:Esc}} | Închide panoul de ajutor. În caseta lui de căutare, primul {{key:Esc}} șterge căutarea. Cât timp panoul este deschis, un {{key:Esc}} apăsat după un clic pe foaie închide mai întâi panoul; apăsați din nou pentru a anula în TakeoffCraft. |
+| {{key:Esc}} | Închide panoul de ajutor. În caseta lui de căutare, primul {{key:Esc}} șterge căutarea. Cât timp panoul este deschis, un {{key:Esc}} apăsat după un clic pe foaie închide mai întâi panoul; apăsați din nou pentru a anula în TakeoffDesk. |
 
 :::mac
 Pe multe tastaturi Mac, rândul de sus controlează luminozitatea și sunetul. Apăsați fn împreună cu F1 sau activați „Use F1, F2, etc. keys as standard function keys” în Setări sistem, la Tastatură.
@@ -139,7 +139,7 @@ Pe multe tastaturi Mac, rândul de sus controlează luminozitatea și sunetul. A
 
 :::mac
 - {{key:Mod}} este tasta Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Ecranul complet face excepție: {{key:Ctrl+Shift+F}}.
-- Clicul dreapta este un clic cu două degete pe touchpad, după ce clicul secundar este activat în Setări sistem, la Trackpad. TakeoffCraft citește doar butonul secundar; un clic cu {{key:Ctrl}} poate fi socotit clic simplu și poate adăuga un punct.
+- Clicul dreapta este un clic cu două degete pe touchpad, după ce clicul secundar este activat în Setări sistem, la Trackpad. TakeoffDesk citește doar butonul secundar; un clic cu {{key:Ctrl}} poate fi socotit clic simplu și poate adăuga un punct.
 - Derularea cu două degete pe touchpad mărește foaia (nu o derulează). Pentru deplasare, apăsați și trageți, sau țineți {{key:Space}} și trageți.
 - Page Up și Page Down sunt fn cu săgețile sus și jos, la tastaturile care nu le au.
 - {{key:Backspace}} este tasta etichetată delete.
@@ -151,12 +151,12 @@ Pe multe tastaturi Mac, rândul de sus controlează luminozitatea și sunetul. A
 :::
 
 :::linux
-- {{key:Mod}} este Ctrl. Unele desktopuri au scurtături proprii cu Ctrl+Alt sau Super; TakeoffCraft nu folosește niciuna dintre ele.
+- {{key:Mod}} este Ctrl. Unele desktopuri au scurtături proprii cu Ctrl+Alt sau Super; TakeoffDesk nu folosește niciuna dintre ele.
 - Pe touchpad, derularea cu două degete mărește foaia. Pentru deplasare, apăsați și trageți.
 :::
 
 :::touch
-TakeoffCraft citește atingerea ca pe un singur indicator:
+TakeoffDesk citește atingerea ca pe un singur indicator:
 
 - Atingerea plasează un punct, selectează un marcaj sau adaugă un punct de numărare.
 - Tragerea cu un deget deplasează foaia (în {{ui:Auto count}} desenează caseta de căutare).
@@ -169,7 +169,7 @@ Tastatura și mouse-ul sau touchpadul sunt, deocamdată, modul mai bun de a face
 
 ## Taste pe care le păstrează browserul
 
-Browserele păstrează unele scurtături pentru ele, iar o pagină nu le poate folosi: închiderea filei ({{key:Mod+W}}), filă sau fereastră nouă ({{key:Mod+T}}, {{key:Mod+N}}) și zoom-ul browserului ({{key:Mod+Plus}}, {{key:Mod+Minus}}). De aceea TakeoffCraft mărește foaia cu rotița și cu tastele simple {{key:Plus}} și {{key:Minus}}. Dacă apăsați din greșeală {{key:Mod+Plus}}, întreaga pagină crește; {{key:Mod+0}} o readuce. Vezi [Taste, mouse și touchpad](common:keys).
+Browserele păstrează unele scurtături pentru ele, iar o pagină nu le poate folosi: închiderea filei ({{key:Mod+W}}), filă sau fereastră nouă ({{key:Mod+T}}, {{key:Mod+N}}) și zoom-ul browserului ({{key:Mod+Plus}}, {{key:Mod+Minus}}). De aceea TakeoffDesk mărește foaia cu rotița și cu tastele simple {{key:Plus}} și {{key:Minus}}. Dacă apăsați din greșeală {{key:Mod+Plus}}, întreaga pagină crește; {{key:Mod+0}} o readuce. Vezi [Taste, mouse și touchpad](common:keys).
 
 ## Unde se află Mutarea
 

@@ -24,7 +24,7 @@ Pilih {{ui:Per item}} (default). Setiap item memiliki satu baris, dan setiap kom
 
 Baris terakhir, **Total pekerjaan**, menjumlahkan kolom material, upah, dan total. Total yang sama tampil di sisi kanan header tabel.
 
-Ketik di sel susut atau harga satuan, lalu tekan {{key:Enter}} atau klik di luar sel untuk menerapkannya. Nilai yang tidak dapat dibaca TakeoffCraft diberi garis tepi merah, dan bilah status menjelaskan alasannya, misalnya "Type an amount like 12.50."
+Ketik di sel susut atau harga satuan, lalu tekan {{key:Enter}} atau klik di luar sel untuk menerapkannya. Nilai yang tidak dapat dibaca TakeoffDesk diberi garis tepi merah, dan bilah status menjelaskan alasannya, misalnya "Type an amount like 12.50."
 
 Klik baris sebuah item untuk menyorot tandanya di setiap lembar dan melompat ke lembar yang memilikinya (sama seperti mengkliknya di bawah {{ui:Item}}).
 

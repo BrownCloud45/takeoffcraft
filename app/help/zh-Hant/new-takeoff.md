@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. 若要保留目前的數量計算，先儲存：{{ui:Save takeoff}}或{{key:Mod+S}}。
 2. 在{{ui:File}}群組中選擇{{ui:New}}。
-3. 若有尚未儲存的變更，TakeoffCraft 會詢問**尚未儲存的數量計算**：可選擇{{ui:Save takeoff first}}（會下載專案，然後清除）、{{ui:Discard changes}}，或{{ui:Cancel}}。
+3. 若有尚未儲存的變更，TakeoffDesk 會詢問**尚未儲存的數量計算**：可選擇{{ui:Save takeoff first}}（會下載專案，然後清除）、{{ui:Discard changes}}，或{{ui:Cancel}}。
    視窗會回到空白狀態：沒有 PDF、沒有項目、沒有標記，也沒有比例。狀態列會顯示「新數量計算。開啟 PDF 即可開始。」
 
 會清除的內容：

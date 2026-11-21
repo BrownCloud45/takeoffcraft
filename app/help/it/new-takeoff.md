@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Salvare il computo corrente, se lo si vuole conservare: {{ui:Salva computo}} oppure {{key:Mod+S}}.
 2. Scegliere {{ui:Nuovo}} nel gruppo {{ui:File}}.
-3. Se ci sono modifiche non salvate, TakeoffCraft chiede **Computo non salvato**: scegliere {{ui:Salva prima il computo}} (scarica il progetto, poi cancella), {{ui:Scarta le modifiche}}, oppure {{ui:Annulla}}.
+3. Se ci sono modifiche non salvate, TakeoffDesk chiede **Computo non salvato**: scegliere {{ui:Salva prima il computo}} (scarica il progetto, poi cancella), {{ui:Scarta le modifiche}}, oppure {{ui:Annulla}}.
    La finestra torna allo stato vuoto: nessun PDF, nessuna voce, nessun segno, nessuna scala. La barra di stato dice "Nuovo computo. Aprire i PDF per iniziare."
 
 Viene cancellato:

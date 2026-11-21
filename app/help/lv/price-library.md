@@ -13,7 +13,7 @@ Atveriet to ar {{ui:Bibliotēka}} paneļa {{ui:Vienumi}} augšdaļā.
 
 - {{ui:Importēt CSV…}} nolasa izklājlapu, kas saglabāta kā CSV (skatiet kolonnas zemāk). Vienumi, kuru nosaukums un veids jau ir bibliotēkā, tiek aizstāti; pārējie tiek pievienoti. Rindas, ko tā nevar nolasīt, tiek izlaistas, un tā norāda, kuras un kāpēc.
 - {{ui:Pievienot šī apjoma aprēķina vienumus}} nokopē katru atvērtā apjoma aprēķina vienumu bibliotēkā ar tā likmēm un mezglu (bet ne tā atzīmēm).
-- Tāmes CSV, ko TakeoffCraft eksportē ([Eksportēt tāmi](topic:export-estimate)), tiek importēts tāds, kāds ir: pēdējā darba cenas kļūst par nākamā darba sākumpunktu.
+- Tāmes CSV, ko TakeoffDesk eksportē ([Eksportēt tāmi](topic:export-estimate)), tiek importēts tāds, kāds ir: pēdējā darba cenas kļūst par nākamā darba sākumpunktu.
 - {{ui:Nozares pakotnes…}} pievieno bezmaksas mezglus kādai nozarei, piemēram, sausajai būvniecībai, elektrībai vai betonam, bez cenām. Skatiet [Nozares pakotnes](topic:trade-packs).
 
 {{ui:Eksportēt CSV}} saglabā bibliotēku kā CSV, lai paturētu kopiju, rediģētu to izklājlapā vai nodotu kolēģim. {{ui:Notīrīt}} to iztukšo (noklikšķiniet divreiz).

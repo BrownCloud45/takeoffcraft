@@ -2,7 +2,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * browser-signoff.mjs — booklet rows BK.62 (missing rates flagged; the estimate signed off by a person, recorded in the file, cleared
- * when a figure changes) and BK.142 (a figure of the estimate selects the marks it came from) in the real TakeoffCraft page, /lab,
+ * when a figure changes) and BK.142 (a figure of the estimate selects the marks it came from) in the real TakeoffDesk page, /lab,
  * headless (session bk-r3-schedules-10):
  *   nice -n 10 timeout 600 node tools/takeoffcraft-test/browser-signoff.mjs [--shots <dir>]      run as root (a test admin session)
  * Count items on a real PDF sheet (counts need no scale). Expected values are worked out beside each check.

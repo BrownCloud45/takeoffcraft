@@ -1,7 +1,7 @@
 {
     "name": "takeoffcraft",
     "private": true,
-    "description": "TakeoffCraft — Quantity takeoff & estimating (the CadCraft family)",
+    "description": "TakeoffDesk — quantity takeoff & estimating",
     "scripts": {
         "start": "node devshell/serve.mjs",
         "mcp": "node devshell/serve.mjs --mcp",

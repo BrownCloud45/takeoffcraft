@@ -1,6 +1,6 @@
 ---
 title: Automatické počítání symbolu
-summary: Označte jeden symbol, nechte TakeoffCraft najít ostatní na tomto listu nebo na všech otevřených listech, shody zkontrolujte posuvníkem a přidejte je jedním krokem.
+summary: Označte jeden symbol, nechte TakeoffDesk najít ostatní na tomto listu nebo na všech otevřených listech, shody zkontrolujte posuvníkem a přidejte je jedním krokem.
 keywords: libovolný úhel, pootočený, otočený, jiné měřítko, jiné měřítko, automatické počítání, automatický počet, hledání symbolů, najít symboly, vzor, šablona, shoda, detekce, nástroj počítání
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Chcete-li kontrolu zahodit bez přidání čehokoli, zvolte {{ui:Zahodit}} nebo 
 
 ## Co najde a co přehlédne
 
-TakeoffCraft porovnává výkres po bodech (pixelech) s rámečkem kolem symbolu, který jste označili.
+TakeoffDesk porovnává výkres po bodech (pixelech) s rámečkem kolem symbolu, který jste označili.
 
 - Najde symbol pootočený o 0°, 90°, 180° a 270°. Chcete-li jej najít i v libovolném úhlu, zaškrtněte před nakreslením rámečku na liště automatického počítání políčko {{ui:Libovolný úhel (pomaleji)}}: zkouší každých 15° a pak každý nález doladí na stupeň a půl. Trvá to asi šestkrát déle. Zrcadlený symbol nenajde (pokud nevypadá stejně i zrcadleně).
 - Je-li zaškrtnuto {{ui:Hledat na všech otevřených listech}}, hledá se na listu v jiném měřítku ve velikosti, kterou má symbol na tomto listu: svítidlo nakreslené v měřítku na půdorysu 1/8" má poloviční velikost oproti půdorysu 1/4" a stále je nalezeno. Takový list se prohledá také ve velikosti samotného rámečku, pro štítky a symboly vytištěné na každém listu v jedné velikosti. To vyžaduje měřítko na obou listech; list bez měřítka se prohledá jen ve velikosti rámečku.

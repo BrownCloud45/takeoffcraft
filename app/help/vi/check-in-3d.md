@@ -46,7 +46,7 @@ Các con số không đổi trong 3D: diện tích tường là chiều dài ch�
 | {{ui:Tờ}} | Hiện hoặc ẩn bản vẽ trên mặt đất. |
 | Khối xem ở góc trên bên phải | Nhấn một mặt, cạnh hoặc góc để nhìn từ đó; kéo để xoay quanh; kéo vòng la bàn để quay; nút ngôi nhà đưa về {{ui:Đẳng trắc}}. |
 
-Góc hiển thị khối xem, một biểu tượng trục nhỏ X, Y, Z, hoặc không gì cả: chọn trong {{ui:Cài đặt}}, trên thẻ TakeoffCraft, dưới **Chỉ báo góc** ([Cài đặt TakeoffCraft](topic:settings)). Trang phẳng không có chỉ báo góc.
+Góc hiển thị khối xem, một biểu tượng trục nhỏ X, Y, Z, hoặc không gì cả: chọn trong {{ui:Cài đặt}}, trên thẻ TakeoffDesk, dưới **Chỉ báo góc** ([Cài đặt TakeoffDesk](topic:settings)). Trang phẳng không có chỉ báo góc.
 
 :::touch
 Một ngón để xoay; hai ngón chụm để thu phóng và di chuyển để di chuyển khung nhìn. Chạm để chọn.

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * takeoffcraft.js — TakeoffCraft in the browser: quantity takeoff and estimating on PDF plan sets.
+ * takeoffcraft.js — TakeoffDesk in the browser: quantity takeoff and estimating on PDF plan sets.
  * Wires the page (ui.inc) to the plan set (pdfset.js + pdf.js), the sheet view (viewer.js), the
  * takeoff project (model.js) and the exports (export.js, xlsx.js, pdfmarks.js + pdf-lib).
  *
@@ -13,7 +13,7 @@
  * down), Ctrl+Shift+V paste in place (same PDF coordinates; same-size sheet, same scale), Ctrl+D duplicate,
  * Ctrl+A select every mark on the sheet, Esc select none; Shift+click adds a mark to the selection or takes
  * it out. The clipboard is kept in memory and in localStorage "takeoffcraft.clipboard" (another tab can paste).
- * Settings › TakeoffCraft (settings.inc; localStorage "takeoffcraft.settings"): inch fractions on screen,
+ * Settings › TakeoffDesk (settings.inc; localStorage "takeoffcraft.settings"): inch fractions on screen,
  * waste for new items, where the auto-count slider starts, snap to 45° without Shift.
  *
  * Files never leave the computer: PDFs and projects are read here; saving is a download in the browser and a write in
@@ -156,7 +156,7 @@ function init(root) {
   function status(s, ms = 6000) { ui.status.textContent = s; clearTimeout(statusTimer); if (ms) statusTimer = setTimeout(() => { ui.status.textContent = ''; }, ms); }
   function busy(text) { ui.busy.hidden = !text; if (text) ui.busyText.textContent = text; wsChanged(); }
 
-  // ---- settings (Settings › TakeoffCraft; per viewer conveniences, localStorage only) ----
+  // ---- settings (Settings › TakeoffDesk; per viewer conveniences, localStorage only) ----
   const SET_KEY = 'takeoffcraft.settings';
   const LEN_SHOWS = ['follow', 'ftin', 'm', 'cm', 'mm'];
   const TEMP_SHOWS = ['follow', 'degc', 'degf'];   // 0.9: how temperatures read and what a bare number means
@@ -184,9 +184,9 @@ function init(root) {
   }
   loadSettings(); U.setCurrency(settings.currency);
   const saveSettings = () => { try { localStorage.setItem(SET_KEY, JSON.stringify(settings)); } catch { /* fine: this tab keeps them */ } };
-  /** How lengths read on screen: the TakeoffCraft choice, or (Follow Global) the metric unit starred in Settings › Global › Units; else feet-inches. */
+  /** How lengths read on screen: the TakeoffDesk choice, or (Follow Global) the metric unit starred in Settings › Global › Units; else feet-inches. */
   const lenMode = () => { const m = settings.lenShow === 'follow' ? starOf('length') : settings.lenShow; return m === 'm' || m === 'cm' || m === 'mm' ? m : 'ftin'; };
-  /** How temperatures read: the TakeoffCraft choice, or (Follow Global) the temperature unit starred in Settings › Global › Units; else °C when lengths show metric, °F otherwise. */
+  /** How temperatures read: the TakeoffDesk choice, or (Follow Global) the temperature unit starred in Settings › Global › Units; else °C when lengths show metric, °F otherwise. */
   const tempMode = () => { const m = settings.tempShow === 'follow' ? starOf('temperature') : settings.tempShow; return m === 'degc' || m === 'degf' ? m : (lenMode() !== 'ftin' ? 'degc' : 'degf'); };
   /** The unit a typed length field uses: the display unit when it is metric, else the item's own (m for a metric item, ft otherwise). */
   const fieldUnit = (lu) => { const m = lenMode(); return m !== 'ftin' ? m : (lu === 'm' ? 'm' : 'ft'); };
@@ -438,7 +438,7 @@ function init(root) {
   // Saving the takeoff writes it in place on the desktop (the .takeoff.json it was opened from) and downloads in the browser.
   const host = getHost({ app: 'takeoffcraft' });
   const PDF_TYPES = [{ description: 'PDF, DWG, DXF', extensions: ['.pdf', '.dwg', '.dxf'] }];                       // i18n-ignore: a file type the OS shows
-  const PROJECT_TYPES = [{ description: 'TakeoffCraft', extensions: ['.json'] }];          // i18n-ignore: a file type the OS shows
+  const PROJECT_TYPES = [{ description: 'TakeoffDesk', extensions: ['.json'] }];          // i18n-ignore: a file type the OS shows
   let projectTarget = null;      // the HostFile the takeoff was opened from, when it can be written in place
   async function openHostFiles(list) {
     const named = await Promise.all(list.map(async (hf) => { const f = await hf.file(); return f instanceof File ? f : new File([f], hf.name, { type: hf.type || '' }); }));
@@ -3565,7 +3565,7 @@ function init(root) {
   }
 
   // the menu styles (0.5 IP.3, input-takeoffcraft.js + the shell's app-input-ui.js): their messages go to the status line,
-  // and letters stay TakeoffCraft's while a run, an outline, a paste or an auto count is under way
+  // and letters stay TakeoffDesk's while a run, an outline, a paste or an auto count is under way
   window.ccInputHooks = { status: (text, bad) => status(text || '', bad ? 8000 : 6000), busy: () => !!(app.draft || app.paste || app.ac || app.box) };
   // a menu style hides the toolbar, and with it the Scale group's preset list: the presets then sit on the sheet bar, beside the
   // sheet's scale, and go back when the style is the toolbar again (the shell fires cc-input-mouse on every style change)
@@ -3792,7 +3792,7 @@ function init(root) {
     for (const f of [goAccess, goStatus]) { if (window.ccAccess) f(); else document.addEventListener('cc-access-ready', f, { once: true }); }
   }
   onDefaults(() => { try { renderQty(); } catch (e) { /* not drawn yet */ } });   // 0.10 BK.149: an office policy changed (or the add-on was switched): the tables follow at once
-  // ---- add-ons (0.5 AO.6, session addons; docs/ADDONS-SPEC.md §5.6): TakeoffCraft's own loader and API 1.0 (manifest "addons": "own") ----
+  // ---- add-ons (0.5 AO.6, session addons; docs/ADDONS-SPEC.md §5.6): TakeoffDesk's own loader and API 1.0 (manifest "addons": "own") ----
   let addonsApi = null;
   startAddons({ model, status, setActive: (id) => setActive(id), typeSelect: ui.itemForm.elements.type, rightPanel: root.querySelector('.tc-right'),
     refresh: () => { renderItems(); renderItemProps(); renderQty(); } })

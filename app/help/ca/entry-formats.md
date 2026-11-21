@@ -1,6 +1,6 @@
 ---
 title: Introducció de longituds, preus unitaris i percentatges
-summary: Què podeu escriure per a distàncies, alçades, preus unitaris en diners i percentatges de pèrdua, amb exemples i els missatges per a les dades que TakeoffCraft no pot llegir.
+summary: Què podeu escriure per a distàncies, alçades, preus unitaris en diners i percentatges de pèrdua, amb exemples i els missatges per a les dades que TakeoffDesk no pot llegir.
 keywords: entrada, format, peus i polzades, fraccions, peus decimals, mètric, metres, mil·límetres, preu, diners, dòlars, percentatge, pèrdua, escriure
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Fins a dos decimals, de 0 % a 1000 %. Missatges: "Escriviu un percentatge com 10
 ## Noms i unitats
 
 - Noms de partides i de components: fins a 200 caràcters.
-- La {{ui:Unitat}} d'un component: qualsevol text de fins a 20 caràcters, com `EA`, `sheets`, `CY` o `gal`. És només una etiqueta; TakeoffCraft no la converteix.
+- La {{ui:Unitat}} d'un component: qualsevol text de fins a 20 caràcters, com `EA`, `sheets`, `CY` o `gal`. És només una etiqueta; TakeoffDesk no la converteix.
 
 ## Fórmules
 

@@ -49,4 +49,4 @@ Een gekalibreerde schaal verschijnt als "Gekalibreerd 1" = 4.002' op 24'-6"" in 
 
 ## Ongebruikelijke PDF's
 
-Sommige PDF's geven een grotere paginaeenheid op (een "user unit"); TakeoffCraft houdt daar rekening mee bij voorinstellingen en de getoonde schaal. Pagina's die in de PDF zijn gedraaid, worden op dezelfde manier gemeten als rechtopstaande pagina's.
+Sommige PDF's geven een grotere paginaeenheid op (een "user unit"); TakeoffDesk houdt daar rekening mee bij voorinstellingen en de getoonde schaal. Pagina's die in de PDF zijn gedraaid, worden op dezelfde manier gemeten als rechtopstaande pagina's.

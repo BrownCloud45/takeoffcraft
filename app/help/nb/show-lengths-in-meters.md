@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Hva du skal gjøre
 
-Endre hvordan TakeoffCraft viser lengder, slik at et metrisk prosjekt leses i meter, centimeter eller millimeter på arket, i statuslinjen og i panelene.
+Endre hvordan TakeoffDesk viser lengder, slik at et metrisk prosjekt leses i meter, centimeter eller millimeter på arket, i statuslinjen og i panelene.
 
 ## Trinn
 
-1. Åpne {{ui:Innstillinger}} med tannhjulet i programlinjen eller med {{key:Mod+,}}, og bli på fanen {{ui:TakeoffCraft}}.
+1. Åpne {{ui:Innstillinger}} med tannhjulet i programlinjen eller med {{key:Mod+,}}, og bli på fanen {{ui:TakeoffDesk}}.
 2. Finn {{ui:Vis lengder som}} og velg {{ui:Fot og tommer}}, m, cm eller mm. {{ui:Følg Global}} bruker den metriske lengdeenheten som er merket med stjerne i {{ui:Innstillinger}} › {{ui:Globalt}} › {{ui:Enheter}}, og fot og tommer når ingen er merket.
 3. Se på arket: lengder i statuslinjen, postlisten og panelene leses nå i enheten du valgte. Høyder, dybde, tykkelse og nivåer gjør det også.
 4. For å lese postens temperaturer i °C eller °F, velg {{ui:Vis temperaturer som}} på samme fane.

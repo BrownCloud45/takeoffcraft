@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Mitä teet
 
-Muutat tapaa, jolla TakeoffCraft näyttää pituudet, jotta metrinen työ luetaan metreinä, senttimetreinä tai millimetreinä arkilla, tilarivillä ja paneeleissa.
+Muutat tapaa, jolla TakeoffDesk näyttää pituudet, jotta metrinen työ luetaan metreinä, senttimetreinä tai millimetreinä arkilla, tilarivillä ja paneeleissa.
 
 ## Vaiheet
 
-1. Avaa {{ui:Settings}} sovelluspalkin rattaalla tai painamalla {{key:Mod+,}}, ja pysy välilehdellä {{ui:TakeoffCraft}}.
+1. Avaa {{ui:Settings}} sovelluspalkin rattaalla tai painamalla {{key:Mod+,}}, ja pysy välilehdellä {{ui:TakeoffDesk}}.
 2. Etsi {{ui:Show lengths as}} ja valitse {{ui:Feet-inches}}, m, cm tai mm. {{ui:Follow Global}} käyttää metristä pituusyksikköä, joka on merkitty tähdellä kohdassa {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, ja jalkoja ja tuumia, jos mitään ei ole merkitty.
 3. Katso arkkia: pituudet tilarivillä, nimikeluettelossa ja paneeleissa näkyvät nyt valitsemassasi yksikössä. Myös korkeudet, syvyys, paksuudet ja tasot.
 4. Lukeaksesi nimikkeiden lämpötilat °C- tai °F-asteina, valitse {{ui:Show temperatures as}} samassa välilehdessä.

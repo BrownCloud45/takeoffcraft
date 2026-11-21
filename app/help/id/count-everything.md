@@ -1,6 +1,6 @@
 ---
 title: Hitung semuanya dalam set
-summary: Kotakkan legenda simbol sekali dan TakeoffCraft menghitung setiap simbol di dalamnya pada setiap lembar yang terbuka dalam satu kali jalan. Setiap hitungan adalah tautan ke lembarnya, dan Anda meninjau sebelum apa pun ditambahkan.
+summary: Kotakkan legenda simbol sekali dan TakeoffDesk menghitung setiap simbol di dalamnya pada setiap lembar yang terbuka dalam satu kali jalan. Setiap hitungan adalah tautan ke lembarnya, dan Anda meninjau sebelum apa pun ditambahkan.
 keywords: hitung semuanya, legenda, legenda simbol, seluruh set, setiap lembar, semua lembar, setiap pintu, setiap perlengkapan, perangkat, jadwal, simbol, hitung otomatis, hitung semua, set denah, 200 lembar, tingkat kecocokan, mirip
 from: adc99744
 ---

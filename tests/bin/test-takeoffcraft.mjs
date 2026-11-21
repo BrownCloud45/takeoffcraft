@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * test-takeoffcraft.mjs — TakeoffCraft's DOM-free modules without a browser (the same files the
+ * test-takeoffcraft.mjs — TakeoffDesk's DOM-free modules without a browser (the same files the
  * browser loads from public_html/assets/apps/takeoffcraft/<build>/), plus the real plan set.
  *
  *   node bin/test-takeoffcraft.mjs [--build dev|x.y] [--verbose] [--browser [--keep-shots]]
@@ -24,7 +24,7 @@
  * random password, disabled again at the end) signs in, opens the plan PDF, calibrates, takes
  * off a linear, an area and a count item with pointer events, exports CSV/XLSX/project/PDF, uses the Edit group
  * (toolbar buttons, the More menu and the keys: copy, paste by click, paste in place, duplicate, cut, delete,
- * select all/none, Shift+click, copy/duplicate item), the Settings › TakeoffCraft tab (stored, kept after a reload,
+ * select all/none, Shift+click, copy/duplicate item), the Settings › TakeoffDesk tab (stored, kept after a reload,
  * working, reset), and
  * screenshots paper and model themes into tmp/shots/takeoffcraft/. Fails on any console error. Then it runs
  * tools/takeoffcraft-test/browser-3d.mjs (the 3D check view: plan-sheet takeoff → 3D, orbit, pick, both themes; shots
@@ -1481,7 +1481,7 @@ section('Price library from CSV (T9)');
   const ids = t.addItems(r.entries.map(Lb.itemFromEntry));
   ok(ids.length === 5 && t.state.items[0].components.length === 2 && t.undoStack.length === 1, 'addItems: all five with their assemblies, one undo step');
   const est = Lb.readLibraryCsv(E.estimateCsv(t.state));
-  ok(est.ok && est.entries.length === 5 && est.entries[0].components[0].formula === 'ceil(L / 1.333) + N' && est.entries[0].mat === 21000 && est.entries[2].unit === 'SY', 'the estimate CSV TakeoffCraft exports reads in as a library (formulas from its Notes, the Job total row left out)', JSON.stringify(est.warnings));
+  ok(est.ok && est.entries.length === 5 && est.entries[0].components[0].formula === 'ceil(L / 1.333) + N' && est.entries[0].mat === 21000 && est.entries[2].unit === 'SY', 'the estimate CSV TakeoffDesk exports reads in as a library (formulas from its Notes, the Job total row left out)', JSON.stringify(est.warnings));
   // merge: the same name and type (any case) is replaced in its place
   const m = Lb.mergeEntries(r.entries, [{ ...r.entries[1], name: 'vct FLOORING', mat: 20000 }, { ...r.entries[1], name: 'New tile' }]);
   ok(m.added === 1 && m.updated === 1 && m.lib[1].mat === 20000 && m.lib.length === 6, 'merge: VCT updated in place, a new tile added');
@@ -1526,8 +1526,8 @@ section('Trade packs: format, install, remove, export (TK.1)');
   ok(r.pack.sources.length === 2 && !('url' in r.pack.sources[1]), 'a source keeps https links only');
   ok(r.warnings.some((x) => /4 items could not be read/.test(x)) && r.warnings.some((x) => /2 assembly parts/.test(x)), 'warnings say how many items and parts were left out', r.warnings.join(' | '));
   for (const [mut, why] of [
-    [(j) => { j.format = 'takeoffcraft-project'; }, /not a TakeoffCraft trade pack/],
-    [(j) => { j.version = 2; }, /newer TakeoffCraft/],
+    [(j) => { j.format = 'takeoffcraft-project'; }, /not a TakeoffDesk trade pack/],
+    [(j) => { j.version = 2; }, /newer TakeoffDesk/],
     [(j) => { j.id = 'Bad Id'; }, /id is missing/],
     [(j) => { j.id = 'a..b'; }, /id is missing/],
     [(j) => { j.name = ''; }, /has no name/],
@@ -2333,7 +2333,7 @@ section('Scales from the sheets\' text (T20)');
   const one = (s) => St.sheetScale(s).preset;
   eq([one('FLOOR PLAN  SCALE: 1/4" = 1\'-0"'), one('1/8"=1\''), one('3/16 " = 1 \' - 0 "'), one('DETAIL 1 1/2" = 1\'-0"'), one('1-1/2"=1\'-0"'), one('SITE PLAN 1" = 20\''), one('SCALE 1:100'), one('ratio 1:1000.'), one('3/4 in = 1 ft')].join(),
     'a1/4,a1/8,a3/16,a1-1/2,a1-1/2,e20,m100,m1000,a3/4', 'notations: architectural (with odd spacing, mixed numbers), engineering, metric, words for inches and feet');
-  ok(one('Time 1:30 pm') === null && one('12" = 1\'-0"') === null && one('1:2.5') === null && one('2 1/4" = 1\'-0"') === null, 'not scales: a time, full size, a decimal ratio, a scale TakeoffCraft has no preset for');
+  ok(one('Time 1:30 pm') === null && one('12" = 1\'-0"') === null && one('1:2.5') === null && one('2 1/4" = 1\'-0"') === null, 'not scales: a time, full size, a decimal ratio, a scale TakeoffDesk has no preset for');
   const nts = St.sheetScale('DETAIL A — N.T.S.');
   ok(nts.preset === null && nts.nts && nts.why === 'nts', 'NTS is reported as not to scale');
   const sev = St.sheetScale('ENLARGED 1-1/2" = 1\'-0"  PLAN 1/4" = 1\'-0"  SCALE: 1/4" = 1\'-0"');
@@ -3613,11 +3613,11 @@ async function browserTest() {
     ok(true, 'a PDF opens again after New takeoff');
     await page.screenshot({ path: path.join(shots, 'takeoffcraft-new-takeoff-paper.png') });
 
-    // ---- Settings › TakeoffCraft ----
+    // ---- Settings › TakeoffDesk ----
     await page.keyboard.press('Escape');
     await page.click('[data-settings-open]');
     await page.waitForSelector('[data-app-settings][open]');
-    ok(await T(() => document.querySelector('[data-settings-tab="app"]')?.textContent.trim() === 'TakeoffCraft' && !document.querySelector('[data-settings-tabs]').hidden), 'the Settings dialog has a TakeoffCraft tab');
+    ok(await T(() => document.querySelector('[data-settings-tab="app"]')?.textContent.trim() === 'TakeoffDesk' && !document.querySelector('[data-settings-tabs]').hidden), 'the Settings dialog has a TakeoffDesk tab');
     await page.click('[data-settings-tab="app"]');
     ok(await T(() => document.querySelector('input[name="tcDenom"][value="16"]').checked && document.querySelector('select[name="tcWaste"]').value === '0' && document.querySelector('input[name="tcSnap45"]').checked === false), 'the fields show the defaults (1/16", 0%, snap off)');
     await page.click('input[name="tcDenom"][value="4"]');
@@ -3658,7 +3658,7 @@ async function browserTest() {
     await page.click('[data-settings-reset]');
     await page.waitForTimeout(100);
     const s3 = await T(() => ({ ...window.takeoffcraft.settings, ls: localStorage.getItem('takeoffcraft.settings'), denom16: document.querySelector('input[name="tcDenom"][value="16"]').checked }));
-    ok(s3.denom === 16 && s3.waste === 0 && s3.threshold === 0.75 && !s3.snap45 && s3.ls === null && s3.denom16, 'Reset puts every TakeoffCraft setting back', JSON.stringify(s3));
+    ok(s3.denom === 16 && s3.waste === 0 && s3.threshold === 0.75 && !s3.snap45 && s3.ls === null && s3.denom16, 'Reset puts every TakeoffDesk setting back', JSON.stringify(s3));
     await page.keyboard.press('Escape');
 
     // autosave and recovery (0.4 item 1.2): an edit leaves a copy (with its PDF); a new page offers it back
@@ -3966,7 +3966,7 @@ async function browserTest() {
       await appReady();
       await page.setInputFiles('[data-file-pdf]', epf);
       await page.waitForSelector('dialog[open] [data-key="ok"]');
-      ok(/carries a TakeoffCraft takeoff \(1 item, 1 mark\)/.test(await page.textContent('dialog[open]')), 'opening it: "This PDF has a takeoff inside" (1 item, 1 mark)');
+      ok(/carries a TakeoffDesk takeoff \(1 item, 1 mark\)/.test(await page.textContent('dialog[open]')), 'opening it: "This PDF has a takeoff inside" (1 item, 1 mark)');
       await page.click('dialog[open] [data-key="ok"]');
       await page.waitForTimeout(300);
       const q10 = (await T(() => window.takeoffcraft.quantities())).find((r) => r.name === 'Floor');

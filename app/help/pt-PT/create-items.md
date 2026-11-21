@@ -37,12 +37,12 @@ Uma quantidade escrita não leva marcas e nunca deixa o orçamento incompleto. Q
 Prima {{key:Esc}} no formulário para o fechar sem adicionar um artigo.
 
 :::tip
-Se escolher primeiro uma ferramenta de medição, o TakeoffCraft usa o último artigo do tipo certo, ou abre o formulário {{ui:Novo artigo}} com esse tipo já escolhido.
+Se escolher primeiro uma ferramenta de medição, o TakeoffDesk usa o último artigo do tipo certo, ou abre o formulário {{ui:Novo artigo}} com esse tipo já escolhido.
 :::
 
 ## Escolher o artigo com que desenha
 
-Clique num artigo na lista. Passa a ser o artigo a que pertencem as novas marcas, e as suas marcas ficam realçadas em todas as folhas enquanto as restantes se desvanecem. Se a folha aberta não tiver nenhuma das suas marcas, o TakeoffCraft salta para uma folha que tenha. Clique de novo no artigo para parar o realce; continua a ser o artigo com que desenha.
+Clique num artigo na lista. Passa a ser o artigo a que pertencem as novas marcas, e as suas marcas ficam realçadas em todas as folhas enquanto as restantes se desvanecem. Se a folha aberta não tiver nenhuma das suas marcas, o TakeoffDesk salta para uma folha que tenha. Clique de novo no artigo para parar o realce; continua a ser o artigo com que desenha.
 
 Clicar numa marca com a ferramenta {{ui:Selecionar}} também torna o seu artigo o atual.
 
@@ -57,7 +57,7 @@ O editor do artigo (**Artigo: (nome)**) tem estes campos. Cada um é guardado ao
 | {{ui:Cor}} | A cor das suas marcas no ecrã e no PDF marcado. |
 | {{ui:Unidade}} | Em que unidade a quantidade é indicada: LF ou m para linear; SF, SY, SQ, ac, ha ou m² para área; EA para contagem. |
 | {{ui:Medir também}} | Os outros tipos de marcas que o artigo aceita, cada um com a sua unidade. Veja abaixo. |
-| {{ui:Altura}} (linear) | A altura de uma parede. O artigo passa então a indicar também a área da parede (comprimento × altura). Os troços vindos de um modelo do BimCraft trazem as suas portas e janelas: essas são retiradas uma só vez, e o artigo indica a área bruta, as aberturas e a área líquida. Uma medição de um projeto do BimCraft que escolheu um método de medição é medida aqui também por esse método (a nota indica-o, com a sua origem, e diz que não foi verificada por um orçamentista); o método não pode ser alterado no TakeoffCraft. Tijolos ou blocos e argamassa de um tipo de parede chegam como dois componentes: as unidades a encomendar e o volume de argamassa. |
+| {{ui:Altura}} (linear) | A altura de uma parede. O artigo passa então a indicar também a área da parede (comprimento × altura). Os troços vindos de um modelo do BimCraft trazem as suas portas e janelas: essas são retiradas uma só vez, e o artigo indica a área bruta, as aberturas e a área líquida. Uma medição de um projeto do BimCraft que escolheu um método de medição é medida aqui também por esse método (a nota indica-o, com a sua origem, e diz que não foi verificada por um orçamentista); o método não pode ser alterado no TakeoffDesk. Tijolos ou blocos e argamassa de um tipo de parede chegam como dois componentes: as unidades a encomendar e o volume de argamassa. |
 | {{ui:Profundidade}} (área) | Uma profundidade ou espessura, usada nas fórmulas de preços compostos (por exemplo, o volume de betão). |
 | {{ui:Desperdício %}} | Somado à quantidade antes da valorização: 10 quer dizer quantidade × 1.10. |
 | {{ui:Material $/LF}} | Custo de material por unidade. O rótulo segue a unidade: $/SF, $/EA e assim por diante. |
@@ -74,7 +74,7 @@ Algumas coisas são medidas de mais de uma forma: um compartimento tem um piso (
 
 1. Crie o artigo com o seu tipo principal, como um artigo de área `Compartimento 101`.
 2. Em {{ui:Medir também}} no seu editor, marque {{ui:Linear}}, {{ui:Contagem}} ou ambos. Cada um recebe uma unidade ao lado.
-3. Desenhe com qualquer ferramenta cujo tipo o artigo aceite: com `Compartimento 101` atual, {{ui:Área}} desenha o seu piso, {{ui:Linear}} o seu rodapé e {{ui:Contagem}} as suas portas. O TakeoffCraft não pede outro artigo.
+3. Desenhe com qualquer ferramenta cujo tipo o artigo aceite: com `Compartimento 101` atual, {{ui:Área}} desenha o seu piso, {{ui:Linear}} o seu rodapé e {{ui:Contagem}} as suas portas. O TakeoffDesk não pede outro artigo.
 
 A lista de artigos mostra cada quantidade (`50.00 SF + 2 EA`). Na tabela de quantidades, a linha do artigo tem a quantidade principal, e cada outro tipo tem a sua própria linha por baixo, como **Compartimento 101 (contagem)**, com o seu desperdício e as suas taxas de material e de mão de obra. As exportações, a tabela por folha e a legenda do PDF marcado listam-nos da mesma forma.
 
@@ -113,7 +113,7 @@ Em vez de uma taxa de mão de obra por unidade, a mão de obra de um artigo pode
 | {{ui:Dimensão da equipa}} | `2` pessoas |
 | {{ui:Salário $/hora cada}} | `45` |
 
-O TakeoffCraft calcula, a partir da quantidade com desperdício:
+O TakeoffDesk calcula, a partir da quantidade com desperdício:
 
 - **horas de equipa** = quantidade ÷ produção (110 LF ÷ 20 = 5.5),
 - **horas-trabalhador** = horas de equipa × dimensão da equipa (11),

@@ -1,11 +1,11 @@
 ---
 title: Zgjidhja e problemeve
-summary: Simptomat, shkaqet dhe zgjidhjet për mesazhet dhe befasitë që mund të hasni në TakeoffCraft, të cituara ashtu si i shfaq programi.
+summary: Simptomat, shkaqet dhe zgjidhjet për mesazhet dhe befasitë që mund të hasni në TakeoffDesk, të cituara ashtu si i shfaq programi.
 keywords: probleme, gabime, nuk funksionon, zgjidhje, ndihmë, refuzuar, nuk mat, pa shkallë, shenja që mungojnë, eksporti dështoi, jashtë linje, prekje
 from: cd319c9b
 ---
 
-TakeoffCraft shpjegon shumicën e refuzimeve në shiritin e gjendjes në fund të dritares. Gjeni mesazhin më poshtë.
+TakeoffDesk shpjegon shumicën e refuzimeve në shiritin e gjendjes në fund të dritares. Gjeni mesazhin më poshtë.
 
 ## Hapja e skedarëve
 
@@ -15,8 +15,8 @@ TakeoffCraft shpjegon shumicën e refuzimeve në shiritin e gjendjes në fund t�
 | (emri) është i mbrojtur me fjalëkalim. Hapni një kopje pa mbrojtje. | PDF-ja kërkon fjalëkalim për t'u hapur. | Kërkoni një kopje pa mbrojtje, ose hiqni fjalëkalimin në një program PDF të besuar. |
 | (emri) nuk mund të lexohet si PDF (…) | Skedari është i dëmtuar ose nuk është me të vërtetë një PDF. | Shkarkojeni përsëri, ose ruajeni përsëri nga programi që e krijoi. |
 | (emri) është tashmë i hapur. | I njëjti PDF (me të njëjtin përmbajtje) është i hapur. | Nuk ka çfarë të bëni. |
-| TakeoffCraft hap PDF-të dhe projektet .takeoff.json. Kapërcyer: … | Llojet e tjera të skedarëve u hoqën. | Konvertoni vizatimet në PDF së pari. |
-| Nuk ndodh asgjë kur lëshoj skedarë | Skedarët u lëshuan jashtë dritares së shfletuesit, ose shfletuesi hapi PDF-në në një skedë të re. | Lëshojeni mbi vetë faqen e TakeoffCraft; kornizën "Lësho PDF ose një .takeoff.json" e shfaq kur do të funksionojë. |
+| TakeoffDesk hap PDF-të dhe projektet .takeoff.json. Kapërcyer: … | Llojet e tjera të skedarëve u hoqën. | Konvertoni vizatimet në PDF së pari. |
+| Nuk ndodh asgjë kur lëshoj skedarë | Skedarët u lëshuan jashtë dritares së shfletuesit, ose shfletuesi hapi PDF-në në një skedë të re. | Lëshojeni mbi vetë faqen e TakeoffDesk; kornizën "Lësho PDF ose një .takeoff.json" e shfaq kur do të funksionojë. |
 | Hapja e një grupi të madh zgjat | Çdo PDF lexohet tërësisht për ta identifikuar. | Prisni që mesazhi "Duke hapur (emri)…" të pastrohet. Miniaturat plotësohen kur lëvizni. |
 
 ## Matja
@@ -47,7 +47,7 @@ TakeoffCraft shpjegon shumicën e refuzimeve në shiritin e gjendjes në fund t�
 | Mesazhi ose simptoma | Shkaku | Zgjidhja |
 |---|---|---|
 | Zgjidhni dy pika më larg njëra-tjetrës. | Pikat e kalibrimit janë pothuajse njëra mbi tjetrën. | Kalibroni mbi një përmasë më të gjatë. |
-| Një mesazh në dialogun e kalibrimit, si "Ajo distancë nuk mund të lexohej" | Distanca është në një formë që TakeoffCraft nuk e lexon. | Shih [Hyrja e gjatësisë, normës dhe përqindjes](topic:entry-formats). |
+| Një mesazh në dialogun e kalibrimit, si "Ajo distancë nuk mund të lexohej" | Distanca është në një formë që TakeoffDesk nuk e lexon. | Shih [Hyrja e gjatësisë, normës dhe përqindjes](topic:entry-formats). |
 | Kjo fletë nuk ka ende shkallë, kështu që nuk ka çfarë të kontrollohet. Kalibrojeni, ose zgjidhni një të gatshme. | {{ui:Kontrollo}} mbi një fletë pa shkallë. | Vendosni fillimisht një shkallë. |
 | Lista {{ui:Të gatshme}} është e shuar | Nuk është hapur asnjë fletë. | Hapni një PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft shpjegon shumicën e refuzimeve në shiritin e gjendjes në fund t�
 | Ky PDF është i mbrojtur me fjalëkalim ose i enkriptuar, kështu që nuk mund të shkruhet një kopje e shënuar. … | PDF-ja është e enkriptuar. | Eksportoni {{ui:XLSX}} në vend të kësaj, ose përdorni një kopje pa enkriptim të PDF-së (atëherë ka nevojë për llogaritjen e vet, sepse është një skedar tjetër). |
 | PDF-ja e shënuar nuk mund të shkruhej: … | Shpesh: jashtë linje, dhe programi nuk u ruajt për përdorim jashtë linje, kështu që mungon shkruesi PDF. | Lidhuni me internetin dhe zgjidhni {{ui:PDF e shënuar}} përsëri. Për ta shmangur, zgjidhni {{ui:Ruaje për jashtë linje}} dhe prisni {{ui:Gati jashtë linje}}. |
 | U shkarkua vetëm një PDF e shënuar | Shfletuesi bllokoi disa shkarkime njëherësh. | Lejoni shkarkime të shumta për këtë sit, dhe eksportoni përsëri. |
-| (skedari) nuk është një projekt TakeoffCraft (nuk është JSON i vlefshëm). / Ky nuk është një skedar projekti TakeoffCraft. | Skedar i gabuar, ose i dëmtuar. | Zgjidhni skedarin `.takeoff.json`. |
-| Ky projekt u ruajt nga një TakeoffCraft më i ri. Hapeni atje. | Skedari vjen nga një version më i ri. | Hapeni në versionin më të ri. |
+| (skedari) nuk është një projekt TakeoffDesk (nuk është JSON i vlefshëm). / Ky nuk është një skedar projekti TakeoffDesk. | Skedar i gabuar, ose i dëmtuar. | Zgjidhni skedarin `.takeoff.json`. |
+| Ky projekt u ruajt nga një TakeoffDesk më i ri. Hapeni atje. | Skedari vjen nga një version më i ri. | Hapeni në versionin më të ri. |
 | (n) shenja u dëmtuan dhe u hoqën. | Një pjesë e skedarit u dëmtua ose u ndryshua me dorë. | Pjesa tjetër u hap. Vizatoni përsëri shenjat që mungojnë, ose hapni një kopje më të vjetër. |
 | Shenjat mungojnë pas rihapjes | PDF-të nuk janë hapur, ose një prej tyre ndryshoi. | Shih [Ruajtja dhe rihapja e një llogaritjeje](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Shfletuesi pyet "Të largohem nga sit?" | Ka ndryshime të pa ruajtura. | Qëndroni, dhe ruajeni me {{key:Mod+S}}. |

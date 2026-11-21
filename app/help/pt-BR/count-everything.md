@@ -1,6 +1,6 @@
 ---
 title: Contar tudo no conjunto
-summary: Envolva uma legenda de símbolos uma vez, e o TakeoffCraft conta cada símbolo dela em todas as folhas abertas em uma só execução. Cada contagem é um link para a sua folha, e você revisa antes de adicionar qualquer coisa.
+summary: Envolva uma legenda de símbolos uma vez, e o TakeoffDesk conta cada símbolo dela em todas as folhas abertas em uma só execução. Cada contagem é um link para a sua folha, e você revisa antes de adicionar qualquer coisa.
 keywords: contar tudo, legenda, legenda de símbolos, conjunto inteiro, todas as folhas, cada porta, cada luminária, dispositivos, quadro, símbolos, contagem automática, contar tudo, conjunto de plantas, 200 folhas, nível de correspondência, parecido
 from: adc99744
 ---

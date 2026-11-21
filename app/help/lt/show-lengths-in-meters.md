@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Ką darysite
 
-Pakeiskite, kaip TakeoffCraft rodo ilgius, kad metrinis darbas būtų skaitomas metrais, centimetrais ar milimetrais lape, būsenos juostoje ir skydeliuose.
+Pakeiskite, kaip TakeoffDesk rodo ilgius, kad metrinis darbas būtų skaitomas metrais, centimetrais ar milimetrais lape, būsenos juostoje ir skydeliuose.
 
 ## Žingsniai
 
-1. Atidarykite {{ui:Settings}} su krumpliaračiu programos juostoje arba {{key:Mod+,}} ir likite skirtuke {{ui:TakeoffCraft}}.
+1. Atidarykite {{ui:Settings}} su krumpliaračiu programos juostoje arba {{key:Mod+,}} ir likite skirtuke {{ui:TakeoffDesk}}.
 2. Raskite {{ui:Show lengths as}} ir pasirinkite {{ui:Feet-inches}}, m, cm arba mm. {{ui:Follow Global}} naudoja metrinį ilgio vienetą, pažymėtą žvaigždute {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, o kai nieko nepažymėta – pėdas-colius.
 3. Pažiūrėkite į lapą: ilgiai būsenos juostoje, pozicijų sąraše ir skydeliuose dabar rodomi pasirinktu vienetu. Aukščiai, gylis, storis ir aukštai taip pat.
 4. Norėdami matyti pozicijų temperatūras laipsniais C arba F, tame pačiame skirtuke pasirinkite {{ui:Show temperatures as}}.

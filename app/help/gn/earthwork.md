@@ -5,7 +5,7 @@ keywords: movimiento de suelo, excavación, corte, relleno, corte y relleno, niv
 from: a898e508
 ---
 
-TakeoffCraft ohechauka loque ojedibuja hoja-pe. Movimiento de suelo ohechakuaa superficie de terreno, upévare ojeporu CivilCraft-ndive, oguereko herramienta ojapóva superficie puntos-gui, ojenivelápa ha ohechakuaa corte, relleno ha traslado.
+TakeoffDesk ohechauka loque ojedibuja hoja-pe. Movimiento de suelo ohechakuaa superficie de terreno, upévare ojeporu CivilCraft-ndive, oguereko herramienta ojapóva superficie puntos-gui, ojenivelápa ha ohechakuaa corte, relleno ha traslado.
 
 ## Excavación simple ko'ápe
 
@@ -29,8 +29,8 @@ Puntos de hojas diferentes ndoguereko coordenadas comunes, upévare la exportaci
 
 El movimiento de suelo de CivilCraft ohupytýta ita ítem ojapóva precio:
 
-1. CivilCraft-pe, nivelá tus plataformas ha corredores, upéi elegí {{ui:Send to TakeoffCraft}} debajo de **Movimiento de suelo** ([Volúmenes de movimiento de suelo](app:civilcraft/volumes)). Ojapo archivo de cantidades (`.quantities.json`).
-2. TakeoffCraft-pe, abrilo con {{ui:Open takeoff}}, térã sóltalo sobre la app. Tu cómputo sigue abierto: el archivo omoŷ **Movimiento de suelo: corte** ha **Movimiento de suelo: relleno** como [cantidades tipificadas](topic:create-items#typed-quantities-no-drawing) en yardas cúbicas (CY) para proyecto en pies, térã metros cúbicos (m³) para proyecto en metros. Ha'e un solo paso: {{key:Mod+Z}} oguejy.
+1. CivilCraft-pe, nivelá tus plataformas ha corredores, upéi elegí {{ui:Send to TakeoffDesk}} debajo de **Movimiento de suelo** ([Volúmenes de movimiento de suelo](app:civilcraft/volumes)). Ojapo archivo de cantidades (`.quantities.json`).
+2. TakeoffDesk-pe, abrilo con {{ui:Open takeoff}}, térã sóltalo sobre la app. Tu cómputo sigue abierto: el archivo omoŷ **Movimiento de suelo: corte** ha **Movimiento de suelo: relleno** como [cantidades tipificadas](topic:create-items#typed-quantities-no-drawing) en yardas cúbicas (CY) para proyecto en pies, térã metros cúbicos (m³) para proyecto en metros. Ha'e un solo paso: {{key:Mod+Z}} oguejy.
 3. Cambiá sus nombres, omoĩ desperdicio, tasas ha ensamblajes como quieras.
 
 Cuando cambia el diseño, enviá de nuevo desde CivilCraft ha abrí el archivo nuevo: los mismos dos ítems reciben las cantidades nuevas. Sus nombres, tasas, desperdicio ha ensamblajes sigue como los dejaste. Si cambió la unidad del proyecto, la barra de estado lo avisa: revisá las tasas. Un archivo de otro proyecto de CivilCraft agrega sus propios dos ítems.

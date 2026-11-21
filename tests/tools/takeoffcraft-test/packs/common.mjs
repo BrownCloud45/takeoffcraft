@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * common.mjs — helpers for writing TakeoffCraft trade packs (0.5 TK.2/TK.3). Each `<trade>.mjs` beside this file exports
+ * common.mjs — helpers for writing TakeoffDesk trade packs (0.5 TK.2/TK.3). Each `<trade>.mjs` beside this file exports
  * a pack built with `pack()` and `twin()`; `../build-packs.mjs` writes them to public_html/assets/apps/takeoffcraft/dev/packs/
  * as `<id>.ccpack.json` + `index.json` (format: docs/ADDONS-SPEC.md § 13; reader: dev/packs.js).
  *

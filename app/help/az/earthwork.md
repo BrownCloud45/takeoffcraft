@@ -5,7 +5,7 @@ keywords: torpaq işləri, qazıntı, kəsim, dolğu, kəsim və dolğu, şaquli
 from: a898e508
 ---
 
-TakeoffCraft vərəqdə çəkilmiş olanı ölçür. Torpaq işləri yer səthi tələb edir, ona görə CivilCraft ilə paylaşılır: CivilCraft nöqtələrdən səthlər qurur, onları səviyyələndirir və kəsim, dolğu və daşınma hesablayır.
+TakeoffDesk vərəqdə çəkilmiş olanı ölçür. Torpaq işləri yer səthi tələb edir, ona görə CivilCraft ilə paylaşılır: CivilCraft nöqtələrdən səthlər qurur, onları səviyyələndirir və kəsim, dolğu və daşınma hesablayır.
 
 ## Burada sadə qazıntı
 
@@ -29,8 +29,8 @@ Müxtəlif vərəqlərdəki nöqtələr koordinatları paylaşmır, ona görə i
 
 CivilCraft-ın torpaq işləri qiymətləndirə biləcəyiniz iki element kimi geri gəlir:
 
-1. CivilCraft-da platformalarınızı və dəhlizlərinizi səviyyələndirin, sonra **Torpaq işləri** altında {{ui:TakeoffCraft-a göndər}} seçin ([Torpaq işləri həcmləri](app:civilcraft/volumes)). O, miqdarlar faylı (`.quantities.json`) yazır.
-2. TakeoffCraft-da onu {{ui:Hesablamanı aç}} ilə açın və ya tətbiqə atın. Hesablamanız açıq qalır: fayl **Torpaq işləri: kəsim** və **Torpaq işləri: dolğu** elementlərini əlavə edir, fut layihəsi üçün kubik yardda (CY), metr layihəsi üçün kubmetrdə (m³) [yazılmış miqdarlar](topic:create-items#typed-quantities-no-drawing) kimi. Bu bir addımdır: {{key:Mod+Z}} onu geri qaytarır.
+1. CivilCraft-da platformalarınızı və dəhlizlərinizi səviyyələndirin, sonra **Torpaq işləri** altında {{ui:TakeoffDesk-a göndər}} seçin ([Torpaq işləri həcmləri](app:civilcraft/volumes)). O, miqdarlar faylı (`.quantities.json`) yazır.
+2. TakeoffDesk-da onu {{ui:Hesablamanı aç}} ilə açın və ya tətbiqə atın. Hesablamanız açıq qalır: fayl **Torpaq işləri: kəsim** və **Torpaq işləri: dolğu** elementlərini əlavə edir, fut layihəsi üçün kubik yardda (CY), metr layihəsi üçün kubmetrdə (m³) [yazılmış miqdarlar](topic:create-items#typed-quantities-no-drawing) kimi. Bu bir addımdır: {{key:Mod+Z}} onu geri qaytarır.
 3. Onların adlarını dəyişin, itki, dərəcə və yığımları istədiyiniz kimi təyin edin.
 
 Layihə dəyişdikdə CivilCraft-dan yenidən göndərin və yeni faylı açın: eyni iki element yeni miqdarları alır. Onların adları, dərəcələri, itkisi və yığımları təyin etdiyiniz kimi qalır. Layihənin vahidi dəyişibsə, status paneli bunu bildirir: dərəcələri yoxlayın. Başqa CivilCraft layihəsindən olan fayl öz iki elementini əlavə edir.

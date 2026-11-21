@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0 */
-// Residential (steep-slope) roofing (0.5 TK.3). CC0-1.0 data. Give the area item the roof's pitch (TakeoffCraft measures the
+// Residential (steep-slope) roofing (0.5 TK.3). CC0-1.0 data. Give the area item the roof's pitch (TakeoffDesk measures the
 // sloped surface from the plan), or measure on a roof plan drawn true to slope.
 import { pack, twin, one } from './common.mjs';
 

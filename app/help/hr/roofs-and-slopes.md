@@ -5,7 +5,7 @@ keywords: krov, nagib, pad, faktor nagiba, uspon, omjer pomaka, 6:12, zabatni ru
 from: 38225b60
 ---
 
-Nacrt krova prikazuje svaku ravninu krova ravno, gledano odozgo. Sam krov je veći: ravnina pod 6:12 ima oko 12% više površine od svog tlocrta, a njezini nagnuti rubovi duži su nego što izgledaju. Dodijelite stavci njezin nagib i TakeoffCraft mjeri duž nagiba.
+Nacrt krova prikazuje svaku ravninu krova ravno, gledano odozgo. Sam krov je veći: ravnina pod 6:12 ima oko 12% više površine od svog tlocrta, a njezini nagnuti rubovi duži su nego što izgledaju. Dodijelite stavci njezin nagib i TakeoffDesk mjeri duž nagiba.
 
 ## Upisivanje nagiba
 

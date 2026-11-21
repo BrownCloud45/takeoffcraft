@@ -5,7 +5,7 @@ keywords: openen, tekenset, meerdere pdf's, meerdere bestanden, tekeningen, blad
 from: ed434468
 ---
 
-Een tekenset bestaat vaak uit meerdere pdf's: architectuur, constructie, werktuigbouwkunde. TakeoffCraft opent ze naast elkaar als één lijst van bladen, en één opmeting kan ze alle omvatten.
+Een tekenset bestaat vaak uit meerdere pdf's: architectuur, constructie, werktuigbouwkunde. TakeoffDesk opent ze naast elkaar als één lijst van bladen, en één opmeting kan ze alle omvatten.
 
 ## De pdf's openen
 
@@ -14,14 +14,14 @@ Een tekenset bestaat vaak uit meerdere pdf's: architectuur, constructie, werktui
 3. Kies Openen.
    Een bericht "(naam) openen…" verschijnt terwijl elk bestand wordt gelezen. Daarna verschijnt elke pagina onder {{ui:Bladen}}, en de eerste pagina van de eerste nieuwe pdf opent.
 
-U kunt de pdf's ook slepen vanuit {{pick:mac=Finder|windows=Verkenner|linux=uw bestandsbeheer}} en overal op TakeoffCraft neerzetten. Een kader "Zet pdf's, DWG- of DXF-tekeningen of een .takeoff.json neer" verschijnt terwijl u sleept.
+U kunt de pdf's ook slepen vanuit {{pick:mac=Finder|windows=Verkenner|linux=uw bestandsbeheer}} en overal op TakeoffDesk neerzetten. Een kader "Zet pdf's, DWG- of DXF-tekeningen of een .takeoff.json neer" verschijnt terwijl u sleept.
 
 Om later meer pdf's toe te voegen, doet u hetzelfde opnieuw. Pdf's die al open zijn, worden overgeslagen.
 
 Het startscherm toont ook de pdf's en opmetingen die u onlangs opende, in browsers die een pagina een bestand weer laten openen (Chrome en Edge). Klik erop om het te openen; de browser vraagt misschien eerst om toestemming. Zie [Uw bestanden](common:your-files).
 
 :::note
-Er wordt niets geüpload. De browser leest de pdf's op uw computer, en ze verdwijnen uit TakeoffCraft zodra u het tabblad sluit of {{ui:Nieuw}} kiest.
+Er wordt niets geüpload. De browser leest de pdf's op uw computer, en ze verdwijnen uit TakeoffDesk zodra u het tabblad sluit of {{ui:Nieuw}} kiest.
 :::
 
 ## Tekeningen naast pdf's
@@ -30,7 +30,7 @@ Er wordt niets geüpload. De browser leest de pdf's op uw computer, en ze verdwi
 
 ## Een pdf overgedragen vanuit een andere app
 
-Een andere app uit de lineup kan de pdf overdragen die hij open heeft: hij opent TakeoffCraft in een nieuw tabblad en de pdf opent daar alsof u hem had neergezet. De statusbalk zegt "(naam) geopend, overgedragen vanuit (app). Het oorspronkelijke bestand is ongewijzigd." Er wordt niets geüpload; het bestand gaat via de eigen opslag van deze browser en is eruit verdwenen zodra het opent.
+Een andere app uit de lineup kan de pdf overdragen die hij open heeft: hij opent TakeoffDesk in een nieuw tabblad en de pdf opent daar alsof u hem had neergezet. De statusbalk zegt "(naam) geopend, overgedragen vanuit (app). Het oorspronkelijke bestand is ongewijzigd." Er wordt niets geüpload; het bestand gaat via de eigen opslag van deze browser en is eruit verdwenen zodra het opent.
 
 Als de statusbalk zegt dat de pdf "niet is aangekomen", heeft het tabblad te lang gewacht, of was de pdf al in een ander tabblad geopend: open hem dan met {{ui:Tekeningen openen}}.
 

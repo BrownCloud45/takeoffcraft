@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Sla de huidige opmeting op als u haar wilt bewaren: {{ui:Opmeting opslaan}} of {{key:Mod+S}}.
 2. Kies {{ui:Nieuw}} in de groep {{ui:Bestand}}.
-3. Zijn er niet-opgeslagen wijzigingen, dan vraagt TakeoffCraft **Niet-opgeslagen opmeting**: kies {{ui:Eerst de opmeting opslaan}} (het project wordt gedownload en daarna gewist), {{ui:Wijzigingen weggooien}}, of {{ui:Annuleren}}.
+3. Zijn er niet-opgeslagen wijzigingen, dan vraagt TakeoffDesk **Niet-opgeslagen opmeting**: kies {{ui:Eerst de opmeting opslaan}} (het project wordt gedownload en daarna gewist), {{ui:Wijzigingen weggooien}}, of {{ui:Annuleren}}.
    Het venster keert terug naar de lege toestand: geen PDF's, geen posten, geen markeringen, geen schalen. De statusbalk zegt "Nieuwe opmeting. Open PDF's om te beginnen."
 
 Wat wordt gewist:

@@ -5,14 +5,14 @@ keywords: rewizja, poprawiony, porównaj, nakładka, stary, nowy, zmiany, aneks,
 from: 3a1d9fe0
 ---
 
-Kiedy arkusz zostaje ponownie wydany, nie musisz go znowu mierzyć. Otwórz stary PDF i nowy, porównaj oba arkusze i przenieś przedmiar. TakeoffCraft oznacza każde oznaczenie, w którym rysunek się zmienił, więc sprawdzasz te i zostawiasz resztę.
+Kiedy arkusz zostaje ponownie wydany, nie musisz go znowu mierzyć. Otwórz stary PDF i nowy, porównaj oba arkusze i przenieś przedmiar. TakeoffDesk oznacza każde oznaczenie, w którym rysunek się zmienił, więc sprawdzasz te i zostawiasz resztę.
 
 ## Porównanie
 
 1. Otwórz oba pliki PDF: stary zestaw i poprawiony ({{ui:Otwórz PDF}}; mogą być w jednym pliku lub w kilku).
 2. Pokaż **nowy** arkusz.
 3. Wybierz {{ui:Porównaj}} na pasku arkusza pod rysunkiem.
-4. Wybierz stary arkusz z listy. TakeoffCraft proponuje arkusz o tym samym numerze w drugim PDF lub tę samą stronę. Wybierz **Porównaj**.
+4. Wybierz stary arkusz z listy. TakeoffDesk proponuje arkusz o tym samym numerze w drugim PDF lub tę samą stronę. Wybierz **Porównaj**.
 
 Stary rysunek leży teraz na nowym, w kolorze czerwonym. Tam, gdzie oba się zgadzają, czerwone linie leżą na czarnych; tam, gdzie się różnią, widzisz same czerwone linie (usunięte) i same czarne (dodane). Pasek u dołu arkusza zawiera kroki opisane niżej; {{key:Esc}} lub {{ui:Zamknij}} kończy porównywanie.
 
@@ -29,7 +29,7 @@ Czerwony rysunek przesuwa się, obraca i skaluje na czarny. Pasek stanu mówi, o
 
 ## Znajdź zmiany
 
-Wybierz **Znajdź zmiany**. TakeoffCraft porównuje tusz obu rysunków: tusz tylko na starym arkuszu staje się czerwony, tusz tylko na nowym – niebieski, a pasek stanu je liczy. Linie przesunięte o włos (ponowny wydruk) nie są liczone jako zmiany.
+Wybierz **Znajdź zmiany**. TakeoffDesk porównuje tusz obu rysunków: tusz tylko na starym arkuszu staje się czerwony, tusz tylko na nowym – niebieski, a pasek stanu je liczy. Linie przesunięte o włos (ponowny wydruk) nie są liczone jako zmiany.
 
 Dodatkowo sprawdza każde oznaczenie na starym arkuszu i liczy te, które leżą tam, gdzie rysunek się zmienił:
 
@@ -40,7 +40,7 @@ Dodatkowo sprawdza każde oznaczenie na starym arkuszu i liczy te, które leżą
 
 Wybierz **Przenieś przedmiar tutaj**. Każde oznaczenie na starym arkuszu przechodzi na nowy, przez wyrównanie, jednym krokiem cofnięcia. Te leżące przy zmianie są oznaczone: rysowane są z pomarańczową poświatą, a pasek arkusza pokazuje „(n) do sprawdzenia”.
 
-Jeśli nowy arkusz nie miał skali, przejmuje skalę starego (dopasowaną, gdy rysunki trzeba było przeskalować, aby się wyrównały). Jeśli miał już inną skalę, TakeoffCraft najpierw pyta: przeniesione oznaczenia są mierzone w skali nowego arkusza.
+Jeśli nowy arkusz nie miał skali, przejmuje skalę starego (dopasowaną, gdy rysunki trzeba było przeskalować, aby się wyrównały). Jeśli miał już inną skalę, TakeoffDesk najpierw pyta: przeniesione oznaczenia są mierzone w skali nowego arkusza.
 
 ## Sprawdź oznaczone
 

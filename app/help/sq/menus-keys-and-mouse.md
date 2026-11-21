@@ -5,22 +5,22 @@ keywords: stili i menusë, menutë, shiriti i menusë, shiriti, tabelat e shirit
 from: f01f0d6d
 ---
 
-Komandat e TakeoffCraft janë të njëjta kudo që t'i arrish. Një **stil menuje** vendos vetëm ku qëndrojnë në ekran, si quhen atje dhe cilat taste i ekzekutojnë. Zgjidhe te {{ui:Cilësimet}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menutë, tastet dhe miu}}; ndryshimi zbatohet menjëherë, dhe ky shfletues e mban mend.
+Komandat e TakeoffDesk janë të njëjta kudo që t'i arrish. Një **stil menuje** vendos vetëm ku qëndrojnë në ekran, si quhen atje dhe cilat taste i ekzekutojnë. Zgjidhe te {{ui:Cilësimet}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menutë, tastet dhe miu}}; ndryshimi zbatohet menjëherë, dhe ky shfletues e mban mend.
 
 ## Tre stilet
 
 | Stili | Çfarë merr |
 |---|---|
-| {{ui:TakeoffCraft}} | Shiriti i veti i TakeoffCraft: Skedari, Eksporto, Shkallë, Llogaritja, Redakto dhe Pamja, me tastet e veglave me një shkronjë. Pika e nisjes. |
+| {{ui:TakeoffDesk}} | Shiriti i veti i TakeoffDesk: Skedari, Eksporto, Shkallë, Llogaritja, Redakto dhe Pamja, me tastet e veglave me një shkronjë. Pika e nisjes. |
 | {{ui:Tavolina e llogaritjes}} | Një shirit menush ({{ui:Skedari}}, {{ui:Redakto}}, {{ui:Pamja}}, {{ui:Shkallë}}, {{ui:Llogaritja}}, {{ui:Artikujt}}, {{ui:Shënime}}, {{ui:Eksporto}}) mbi një rresht veglash llogaritjeje, ashtu si i shtrojnë programet e tjera të llogaritjes në ekran. Artikujt quhen kushte në rresht. Të njëjtat taste, plus {{key:N}} për një artikull të ri. Butonat e shkallës lëvizin te shiriti i fletës, pranë shkallës së fletës. |
 | {{ui:Shiriti i llogaritjes së sasive}} | Skeda shiriti me emra sipas punës: {{ui:Llogaritja}} (mat, formëzo, shkallë, nga vizatimi, kushtet), {{ui:Redakto}}, {{ui:Pamja}}, {{ui:Shënime}} dhe {{ui:Preventivi}} (libri i punës, PDF-të e shënuara, oferta), me një menu {{ui:Skedari}} dhe një rresht të shpejtë për hapje, ruajtje, zhbërje dhe ribërje. Veglat që përdor gjithë ditën janë të mëdha, fqinjët e tyre të vegjël dhe të grumbulluar. Të njëjtat taste; butonat e shkallës lëvizin te shiriti i fletës. |
 
-Të tre stilet mbajnë tastet e TakeoffCraft: {{key:V}} përzgjedh, {{key:L}} lineare, {{key:A}} sipërfaqe, {{key:O}} rreth, {{key:B}} dhomë, {{key:P}} shteg (zgjedh vijat e PDF-it), {{key:X}} hapje, {{key:C}} numërim, {{key:S}} numërim automatik, {{key:K}} kalibrim, {{key:D}} kontroll, {{key:R}} mënyra e harkut, {{key:E}} mënyra e zbritjes, {{key:F}} dhe {{key:W}} për përshtatje, {{key:3}} pamja 3D e kontrollit, {{key:F3}} kapja, dhe {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Të tre stilet mbajnë tastet e TakeoffDesk: {{key:V}} përzgjedh, {{key:L}} lineare, {{key:A}} sipërfaqe, {{key:O}} rreth, {{key:B}} dhomë, {{key:P}} shteg (zgjedh vijat e PDF-it), {{key:X}} hapje, {{key:C}} numërim, {{key:S}} numërim automatik, {{key:K}} kalibrim, {{key:D}} kontroll, {{key:R}} mënyra e harkut, {{key:E}} mënyra e zbritjes, {{key:F}} dhe {{key:W}} për përshtatje, {{key:3}} pamja 3D e kontrollit, {{key:F3}} kapja, dhe {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Veglat e shiritit të fletës (shënime, re, theksime, Krahaso, 3D) presin derisa të hapet një PDF; nëse zgjidhen më parë, rreshti i statusit e thotë këtë.
 
 :::tip
-Një tast që i takon përshtatjes së vetë TakeoffCraft, por që stili yt ia ka dhënë një komande tjetër, nuk bën asgjë, dhe rreshti i statusit thotë ku shkoi komanda e tij ("Te Tastet e mia, Numëro është Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} dhe shigjetat ruajnë gjithmonë kuptimin e tyre. Ndërsa vizaton një vijë ose një kontur, ngjit ose shqyrton një numërim automatik, shkronjat dhe numrat e një gjatësie të shkruar mbeten me vizatimin.
+Një tast që i takon përshtatjes së vetë TakeoffDesk, por që stili yt ia ka dhënë një komande tjetër, nuk bën asgjë, dhe rreshti i statusit thotë ku shkoi komanda e tij ("Te Tastet e mia, Numëro është Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} dhe shigjetat ruajnë gjithmonë kuptimin e tyre. Ndërsa vizaton një vijë ose një kontur, ngjit ose shqyrton një numërim automatik, shkronjat dhe numrat e një gjatësie të shkruar mbeten me vizatimin.
 :::
 
 ## Bëje tënden
@@ -41,12 +41,12 @@ Ruajtja e një stili të integruar bën kopjen tënde ("Tavolina ime e llogaritj
 
 ## Merre me vete
 
-{{ui:Eksporto}} ruan stilin në përdorim si një skedar të vogël `.ccinput.json`; {{ui:Importo…}} shton një të tillë, nga një kompjuter tjetër ose nga një koleg. Një skedar i importuar mund të tregojë vetëm te komandat e vetë TakeoffCraft: çdo gjë tjetër në të lihet jashtë dhe numërohet në rreshtin e statusit. {{ui:Fshi këtë stil}} heq një stil tënd.
+{{ui:Eksporto}} ruan stilin në përdorim si një skedar të vogël `.ccinput.json`; {{ui:Importo…}} shton një të tillë, nga një kompjuter tjetër ose nga një koleg. Një skedar i importuar mund të tregojë vetëm te komandat e vetë TakeoffDesk: çdo gjë tjetër në të lihet jashtë dhe numërohet në rreshtin e statusit. {{ui:Fshi këtë stil}} heq një stil tënd.
 
 :::note
-Këto cilësime qëndrojnë në këtë shfletues. {{ui:Përdore këtë stil në çdo aplikacion}} nën kartat e stilit e bën çdo aplikacion të hapet në stilin përkatës të vet (shiriti i vet, një shirit menush ose një shirit me skeda), me ndryshimet që ke bërë në secilin aplikacion. TakeoffCraft nuk ka stil me rresht komandash: kur zgjidhet për çdo aplikacion, TakeoffCraft mban shiritin e vet.
+Këto cilësime qëndrojnë në këtë shfletues. {{ui:Përdore këtë stil në çdo aplikacion}} nën kartat e stilit e bën çdo aplikacion të hapet në stilin përkatës të vet (shiriti i vet, një shirit menush ose një shirit me skeda), me ndryshimet që ke bërë në secilin aplikacion. TakeoffDesk nuk ka stil me rresht komandash: kur zgjidhet për çdo aplikacion, TakeoffDesk mban shiritin e vet.
 
-{{ui:Shiriti i llogaritjes së sasive}} është gjithashtu shiriti i paraqitjes {{ui:Shiriti dhe shfletuesi i projektit}} ({{ui:Cilësimet}} › {{ui:Globale}} › {{ui:Paraqitja}}): shih [Ekrani i TakeoffCraft](topic:workspace).
+{{ui:Shiriti i llogaritjes së sasive}} është gjithashtu shiriti i paraqitjes {{ui:Shiriti dhe shfletuesi i projektit}} ({{ui:Cilësimet}} › {{ui:Globale}} › {{ui:Paraqitja}}): shih [Ekrani i TakeoffDesk](topic:workspace).
 :::
 
-Lidhur: [Tastiera dhe miu](topic:keyboard) · [Cilësimet e TakeoffCraft](topic:settings) · [Nga programe të tjera të llogaritjes](topic:coming-from)
+Lidhur: [Tastiera dhe miu](topic:keyboard) · [Cilësimet e TakeoffDesk](topic:settings) · [Nga programe të tjera të llogaritjes](topic:coming-from)

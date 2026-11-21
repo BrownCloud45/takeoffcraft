@@ -24,7 +24,7 @@ Escolha {{ui:Por item}} (o padrão). Cada item tem uma linha, e cada um dos seus
 
 A última linha, **Total da obra**, soma as colunas de material, mão de obra e total. O mesmo total aparece à direita do cabeçalho da tabela.
 
-Digite em uma célula de perda ou de preço unitário e pressione {{key:Enter}} ou clique fora dela para aplicar. Um valor que o TakeoffCraft não consegue ler fica com contorno vermelho, e a barra de status informa o motivo, por exemplo "Digite um valor como 12.50."
+Digite em uma célula de perda ou de preço unitário e pressione {{key:Enter}} ou clique fora dela para aplicar. Um valor que o TakeoffDesk não consegue ler fica com contorno vermelho, e a barra de status informa o motivo, por exemplo "Digite um valor como 12.50."
 
 Clique na linha de um item para destacar as suas marcações em todas as folhas e ir para uma folha que as tenha (igual a clicar nele em {{ui:Itens}}).
 

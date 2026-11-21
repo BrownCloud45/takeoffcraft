@@ -55,4 +55,4 @@ Skala helaian memberitahu saiz lukisan; unit item memberitahu cara melaporkannya
 
 ## Kejituan
 
-TakeoffCraft mengukur dengan tepat daripada titik yang anda klik, termasuk panjang lengkok dan luas sebenar, dan tidak membundarkan kuantiti. Paparan membundarkan panjang kepada 1/16 inci dan nilai perpuluhan kepada dua tempat. Wang hanya dibundarkan pada jumlah lanjutan, kepada sen.
+TakeoffDesk mengukur dengan tepat daripada titik yang anda klik, termasuk panjang lengkok dan luas sebenar, dan tidak membundarkan kuantiti. Paparan membundarkan panjang kepada 1/16 inci dan nilai perpuluhan kepada dua tempat. Wang hanya dibundarkan pada jumlah lanjutan, kepada sen.

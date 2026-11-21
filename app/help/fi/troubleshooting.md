@@ -1,11 +1,11 @@
 ---
 title: Vianmääritys
-summary: Oireet, syyt ja ratkaisut viesteihin ja yllätyksiin, joita TakeoffCraftissa voi kohdata, lainattuina siinä muodossa kuin sovellus ne näyttää.
+summary: Oireet, syyt ja ratkaisut viesteihin ja yllätyksiin, joita TakeoffDeskissa voi kohdata, lainattuina siinä muodossa kuin sovellus ne näyttää.
 keywords: ongelmat, virheet, ei toimi, korjaus, ohje, hylätty, ei mittaa, ei mittakaavaa, puuttuvat merkinnät, vienti epäonnistui, offline, kosketus
 from: cd319c9b
 ---
 
-TakeoffCraft selittää useimmat hylkäykset ikkunan alareunan tilarivillä. Etsi viesti alta.
+TakeoffDesk selittää useimmat hylkäykset ikkunan alareunan tilarivillä. Etsi viesti alta.
 
 ## Tiedostojen avaaminen
 
@@ -15,8 +15,8 @@ TakeoffCraft selittää useimmat hylkäykset ikkunan alareunan tilarivillä. Ets
 | (nimi) on suojattu salasanalla. Avaa suojaamaton kopio. | PDF vaatii salasanan avautuakseen. | Pyydä suojaamaton kopio tai poista salasana luotettavalla PDF-ohjelmalla. |
 | (nimi) ei voitu lukea PDF-tiedostona (…) | Tiedosto on vioittunut tai se ei ole oikeasti PDF. | Lataa se uudelleen tai tallenna se uudelleen ohjelmasta, jolla se tehtiin. |
 | (nimi) on jo auki. | Sama PDF (sama sisältö) on jo auki. | Ei tarvetta toimia. |
-| TakeoffCraft avaa PDF-tiedostoja ja .takeoff.json-projekteja. Ohitettu: … | Muut tiedostotyypit jätettiin pois. | Muunna piirustukset ensin PDF-muotoon. |
-| Tiedostojen pudottaminen ei tee mitään | Tiedostot pudotettiin selainikkunan ulkopuolelle, tai selain avasi PDF:n uuteen välilehteen. | Pudota tiedostot TakeoffCraft-sivulle itse; kehys ”Pudota PDF-tiedostoja tai .takeoff.json” näyttää, milloin pudottaminen toimii. |
+| TakeoffDesk avaa PDF-tiedostoja ja .takeoff.json-projekteja. Ohitettu: … | Muut tiedostotyypit jätettiin pois. | Muunna piirustukset ensin PDF-muotoon. |
+| Tiedostojen pudottaminen ei tee mitään | Tiedostot pudotettiin selainikkunan ulkopuolelle, tai selain avasi PDF:n uuteen välilehteen. | Pudota tiedostot TakeoffDesk-sivulle itse; kehys ”Pudota PDF-tiedostoja tai .takeoff.json” näyttää, milloin pudottaminen toimii. |
 | Suuren sarjan avaaminen kestää | Jokainen PDF luetaan kokonaan sen tunnistamiseksi. | Odota, kunnes viesti ”Avataan (nimi)…” katoaa. Pikkukuvat täyttyvät vierittäessä. |
 
 ## Mittaaminen
@@ -47,7 +47,7 @@ TakeoffCraft selittää useimmat hylkäykset ikkunan alareunan tilarivillä. Ets
 | Viesti tai oire | Syy | Ratkaisu |
 |---|---|---|
 | Valitse kaksi pistettä kauempana toisistaan. | Kalibrointipisteet ovat melkein päällekkäin. | Kalibroi pitemmällä mitalla. |
-| Kalibrointidialogin viesti, kuten ”Etäisyyttä ei voitu lukea” | Etäisyys on muodossa, jota TakeoffCraft ei osaa lukea. | Katso [Pituuden, hinnan ja prosentin syöttö](topic:entry-formats). |
+| Kalibrointidialogin viesti, kuten ”Etäisyyttä ei voitu lukea” | Etäisyys on muodossa, jota TakeoffDesk ei osaa lukea. | Katso [Pituuden, hinnan ja prosentin syöttö](topic:entry-formats). |
 | Tällä arkilla ei ole vielä mittakaavaa, joten tarkistettavaa ei ole. Kalibroi se tai valitse esiasetus. | {{ui:Tarkista}} mittakaavattomalla arkilla. | Aseta ensin mittakaava. |
 | {{ui:Esiasetus}}-luettelo on harmaana | Arkkia ei ole auki. | Avaa PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft selittää useimmat hylkäykset ikkunan alareunan tilarivillä. Ets
 | Tämä PDF on suojattu salasanalla tai salattu, joten merkittyä kopiota ei voi kirjoittaa. … | PDF on salattu. | Vie {{ui:XLSX}} sen sijaan, tai käytä PDF:n suojaamatonta kopiota (sillä on silloin oma määrälaskentansa, koska se on eri tiedosto). |
 | Merkittyä PDF:ää ei voitu kirjoittaa: … | Usein: olet offline-tilassa, eikä sovellusta ole tallennettu offline-käyttöön, joten PDF-kirjoitin puuttuu. | Yhdistä verkkoon ja valitse {{ui:Merkitty PDF}} uudelleen. Vältä tämä valitsemalla {{ui:Tallenna offline-käyttöön}} ja odottamalla, että näkyy {{ui:Offline valmis}}. |
 | Vain yksi merkitty PDF latautui | Selain esti useat lataukset kerralla. | Salli useat lataukset tälle sivustolle ja vie uudelleen. |
-| (tiedosto) ei ole TakeoffCraft-projekti (se ei ole kelvollinen JSON). / Tämä ei ole TakeoffCraft-projektitiedosto. | Väärä tiedosto tai vioittunut tiedosto. | Valitse `.takeoff.json`-tiedosto. |
-| Tämän projektin tallensi uudempi TakeoffCraft. Avaa se siellä. | Tiedosto on uudemmasta versiosta. | Avaa se uudemmassa versiossa. |
+| (tiedosto) ei ole TakeoffDesk-projekti (se ei ole kelvollinen JSON). / Tämä ei ole TakeoffDesk-projektitiedosto. | Väärä tiedosto tai vioittunut tiedosto. | Valitse `.takeoff.json`-tiedosto. |
+| Tämän projektin tallensi uudempi TakeoffDesk. Avaa se siellä. | Tiedosto on uudemmasta versiosta. | Avaa se uudemmassa versiossa. |
 | (n) merkintää oli vioittuneita, ja ne jätettiin pois. | Osa tiedostosta oli vioittunut tai muokattu käsin. | Loput avautuivat. Piirrä puuttuvat merkinnät uudelleen tai avaa vanhempi kopio. |
 | Merkinnät puuttuvat uudelleen avaamisen jälkeen | PDF-tiedostot eivät ole auki, tai yksi niistä muuttui. | Katso [Tallenna ja avaa määrälaskenta uudelleen](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Selain kysyy ”Poistutaanko sivulta?” | On tallentamattomia muutoksia. | Pysy sivulla ja tallenna painamalla {{key:Mod+S}}. |

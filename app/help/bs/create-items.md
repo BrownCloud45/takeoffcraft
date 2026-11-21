@@ -37,12 +37,12 @@ Upisana količina ne zauzima oznake i nikada ne čini procjenu nepotpunom. Kada 
 Pritisni {{key:Esc}} u obrascu da ga zatvoriš bez dodavanja stavke.
 
 :::tip
-Ako prvo odaberete alat za mjerenje, TakeoffCraft koristi posljednju stavku odgovarajućeg tipa ili otvara obrazac {{ui:New item}} sa tim tipom već odabranim.
+Ako prvo odaberete alat za mjerenje, TakeoffDesk koristi posljednju stavku odgovarajućeg tipa ili otvara obrazac {{ui:New item}} sa tim tipom već odabranim.
 :::
 
 ## Odaberi stavku kojom crtaš
 
-Klikni stavku na listi. Ona postaje stavka kojoj idu nove oznake, a njene oznake se ističu na svakom listu dok ostale blijede. Ako otvoreni list nema nijednu njenu oznaku, TakeoffCraft skače na list koji ih ima. Klikni stavku ponovo da prestane isticanje; ona ostaje stavka kojom crtate.
+Klikni stavku na listi. Ona postaje stavka kojoj idu nove oznake, a njene oznake se ističu na svakom listu dok ostale blijede. Ako otvoreni list nema nijednu njenu oznaku, TakeoffDesk skače na list koji ih ima. Klikni stavku ponovo da prestane isticanje; ona ostaje stavka kojom crtate.
 
 Klik na oznaku alatom {{ui:Select}} također čini njenu stavku trenutnom.
 
@@ -57,7 +57,7 @@ Uređivač stavke (**Stavka: (naziv)**) ima ova polja. Svako se sprema kada napu
 | {{ui:Color}} | Boja njenih oznaka na ekranu i u označenom PDF-u. |
 | {{ui:Unit}} | U čemu se količina izvještava: LF ili m za linijski; SF, SY, SQ, ac, ha ili m² za površinu; EA za brojanje. |
 | {{ui:Also measure}} | Ostale vrste oznaka koje stavka prima, svaka sa svojom jedinicom. Vidi dolje. |
-| {{ui:Height}} (linear) | Visina zida. Stavka tada također izvještava površinu zida (dužina × visina). Nizovi koji potiču iz BimCraft modela nose svoja vrata i prozore: ona se oduzimaju jednom, a stavka navodi bruto površinu, otvore i neto. Predmjer iz BimCraft projekta koji je odabrao metodu mjerenja mjeri se tom metodom i ovdje (napomena je navodi, s izvorom, i kaže da je neprovjerena od strane ovlaštenog procjenitelja količina); u TakeoffCraft nije moguće mijenjati metodu. Cigle ili blokovi i malter iz tipa zida dolaze kao dvije komponente: jedinice za naručivanje i zapremina maltera. |
+| {{ui:Height}} (linear) | Visina zida. Stavka tada također izvještava površinu zida (dužina × visina). Nizovi koji potiču iz BimCraft modela nose svoja vrata i prozore: ona se oduzimaju jednom, a stavka navodi bruto površinu, otvore i neto. Predmjer iz BimCraft projekta koji je odabrao metodu mjerenja mjeri se tom metodom i ovdje (napomena je navodi, s izvorom, i kaže da je neprovjerena od strane ovlaštenog procjenitelja količina); u TakeoffDesk nije moguće mijenjati metodu. Cigle ili blokovi i malter iz tipa zida dolaze kao dvije komponente: jedinice za naručivanje i zapremina maltera. |
 | {{ui:Depth}} (area) | Dubina ili debljina, koristi se u formulama sklopa (na primjer zapremina betona). |
 | {{ui:Waste %}} | Dodaje se količini prije obračuna cijene: 10 znači količina × 1.10. |
 | Materijal $/LF | Trošak materijala po jedinici. Oznaka prati jedinicu: $/SF, $/EA itd. |
@@ -74,7 +74,7 @@ Neke stvari se mjere na više načina: prostorija ima pod (površinu), podnožnu
 
 1. Napravi stavku sa njenim glavnim tipom, na primjer površinska stavka `Prostorija 101`.
 2. Pod {{ui:Also measure}} u njenom uređivaču označi {{ui:Linearno (dužina)}}, {{ui:Count}} ili oboje. Uz svaku se dodaje jedinica.
-3. Crtaj bilo kojim alatom čija vrsta stavka prima: uz trenutnu stavku `Prostorija 101`, {{ui:Area}} crta njen pod, {{ui:Linear}} njenu podnožnu letvu, a {{ui:Count}} njena vrata. TakeoffCraft ne traži drugu stavku.
+3. Crtaj bilo kojim alatom čija vrsta stavka prima: uz trenutnu stavku `Prostorija 101`, {{ui:Area}} crta njen pod, {{ui:Linear}} njenu podnožnu letvu, a {{ui:Count}} njena vrata. TakeoffDesk ne traži drugu stavku.
 
 Lista stavki prikazuje svaku količinu (`50.00 SF + 2 EA`). U tabeli količina red stavke ima njenu glavnu količinu, a svaka druga vrsta dobija svoj red ispod, na primjer **Prostorija 101 (brojanje)**, sa vlastitim otpadom te stopama za materijal i rad. Izvozi, tabela po listu i legenda označenog PDF-a navode ih na isti način.
 
@@ -113,7 +113,7 @@ Umjesto stope rada po jedinici, rad stavke može dolaziti iz ekipe: koliko ona u
 | {{ui:Crew size}} | `2` osobe |
 | Plata $/sat po osobi | `45` |
 
-TakeoffCraft računa, iz količine sa otpadom:
+TakeoffDesk računa, iz količine sa otpadom:
 
 - **sati ekipe** = količina ÷ učinak (110 LF ÷ 20 = 5.5),
 - **sati radnika** = sati ekipe × veličina ekipe (11),

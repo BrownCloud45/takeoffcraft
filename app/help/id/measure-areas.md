@@ -41,7 +41,7 @@ Saat ruangan digambar sebagai dinding tertutup, {{ui:Ruang}} ({{key:B}}) mengamb
 2. Pilih {{ui:Ruang}} di grup {{ui:Takeoff}}, atau tekan {{key:B}}.
 3. Klik di dalam ruangan, di lantai terbuka (bukan pada garis atau label).
 
-TakeoffCraft membaca garis lembar, menemukan ruang di sekitar klik, dan membuat garis tepinya mengikuti sisi dalam dinding, sebagai area dari item yang aktif. Bukaan pintu hingga **4'-0"** diperlakukan sebagai tertutup, sehingga garis tepi melintang lurus di atas ambang pintu; **Pengaturan › TakeoffCraft › Isi ruang menutup bukaan hingga** mengubah lebar itu (3'-0" hingga 8'-0"). Nama ruang, perabot, dan perlengkapan di dalam ruang tidak membuat lubang.
+TakeoffDesk membaca garis lembar, menemukan ruang di sekitar klik, dan membuat garis tepinya mengikuti sisi dalam dinding, sebagai area dari item yang aktif. Bukaan pintu hingga **4'-0"** diperlakukan sebagai tertutup, sehingga garis tepi melintang lurus di atas ambang pintu; **Pengaturan › TakeoffDesk › Isi ruang menutup bukaan hingga** mengubah lebar itu (3'-0" hingga 8'-0"). Nama ruang, perabot, dan perlengkapan di dalam ruang tidak membuat lubang.
 
 Ditolak, dengan menyebutkan alasannya, saat:
 
@@ -62,7 +62,7 @@ Saat pintu lebih lebar dari pengaturan, isian meluas ke ruangan berikutnya dan m
 
 Untuk lubang bulat, pilih {{ui:Tambah lubang potong bulat}} di bawah **Tanda yang dipilih**, klik pusatnya, lalu sebuah titik pada tepinya.
 
-Lubang potong harus berada sepenuhnya di dalam area dan tidak boleh tumpang tindih dengan lubang potong lain. Jika tidak, TakeoffCraft menolaknya: "Lubang potong harus berada sepenuhnya di dalam area." atau "Lubang potong tidak boleh saling tumpang tindih."
+Lubang potong harus berada sepenuhnya di dalam area dan tidak boleh tumpang tindih dengan lubang potong lain. Jika tidak, TakeoffDesk menolaknya: "Lubang potong harus berada sepenuhnya di dalam area." atau "Lubang potong tidak boleh saling tumpang tindih."
 
 Untuk mengeluarkan lubang terakhir lagi, pilih {{ui:Buang lubang potong terakhir}}.
 
@@ -76,7 +76,7 @@ Lubang potong menjadi milik satu tanda area. **Back-out** digambar sekali dan di
 
 Setiap tanda area dari item yang dicentang pada lembar yang sama kehilangan bagian yang ditutupi back-out: seluruh back-out saat berada di dalam, hanya bagian yang tumpang tindih saat melintasi tepi, dan tidak ada apa pun di dalam lubang potong. Panel area yang dipilih menampilkan **Back-out** dan sisa area. Kuantitas item, rumus rakitannya, biaya, tampilan cek 3D, dan ekspor semuanya memakai sisa area; catatan estimasi menyebutkan berapa yang dikurangkan back-out. Item back-out itu sendiri menghitung area miliknya sendiri (biarkan biayanya nol jika Anda tidak memberinya harga).
 
-Back-out harus **cembung**: persegi panjang, lingkaran, atau garis tepi apa pun tanpa sudut ke dalam. TakeoffCraft menolak menggambar yang tidak demikian; gambar shaft berbentuk L sebagai dua back-out. Back-out tidak dapat memiliki lubang potong, dan dua back-out yang saling tumpang tindih keduanya dihitung.
+Back-out harus **cembung**: persegi panjang, lingkaran, atau garis tepi apa pun tanpa sudut ke dalam. TakeoffDesk menolak menggambar yang tidak demikian; gambar shaft berbentuk L sebagai dua back-out. Back-out tidak dapat memiliki lubang potong, dan dua back-out yang saling tumpang tindih keduanya dihitung.
 
 Keliling (`P`) tidak berubah: back-out hanya mengurangi luas.
 

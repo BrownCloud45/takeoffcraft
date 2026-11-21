@@ -2,7 +2,7 @@
 /**
  * panel.js: the issue history panel every host shows (0.10 BK.46, BK.48; session bk-r3-stages-10). Plain DOM, no app imports: the
  * host hands over its words, its history and what it can do. One panel, so an issue, a site instruction or a shop drawing reads
- * and is recorded the same way in BimCraft, MarkupCraft, TakeoffCraft, DetailCraft and SuperCad Studio.
+ * and is recorded the same way in BimCraft, MarkupCraft, TakeoffDesk, DetailCraft and SuperCad Studio.
  *
  *   mountIssuePanel(root, host) → { render(), state, changes(issueId) }
  *   host = {

@@ -37,12 +37,12 @@ Sisestatud kogus ei võta märke ja ei muuda hinnangut kunagi poolikuks. Kui kog
 Vajuta vormis {{key:Esc}}, et see sulgeda ilma kirjet lisamata.
 
 :::tip
-Kui valid esmalt mõõtmistööriista, kasutab TakeoffCraft viimast õiget tüüpi kirjet või avab vormi {{ui:Uus kirje}} juba valitud tüübiga.
+Kui valid esmalt mõõtmistööriista, kasutab TakeoffDesk viimast õiget tüüpi kirjet või avab vormi {{ui:Uus kirje}} juba valitud tüübiga.
 :::
 
 ## Vali kirje, millega joonistad
 
-Klõpsa loendis kirjel. See saab kirjeks, kuhu uued märgid lähevad, ja selle märgid tõstetakse esile igal lehel, teised kirjed muutuvad hämaraks. Kui avatud lehel pole selle märke, hüppab TakeoffCraft lehele, millel on. Klõpsa kirjel uuesti, et esiletõstmine lõpetada; see jääb siiski kirjeks, millega joonistad.
+Klõpsa loendis kirjel. See saab kirjeks, kuhu uued märgid lähevad, ja selle märgid tõstetakse esile igal lehel, teised kirjed muutuvad hämaraks. Kui avatud lehel pole selle märke, hüppab TakeoffDesk lehele, millel on. Klõpsa kirjel uuesti, et esiletõstmine lõpetada; see jääb siiski kirjeks, millega joonistad.
 
 Märgi klõpsamine tööriistaga {{ui:Vali}} muudab ka selle märgi kirje praeguseks kirjeks.
 
@@ -57,7 +57,7 @@ Kirje redaktoril (**Kirje: (nimi)**) on need väljad. Iga väli salvestatakse, k
 | {{ui:Värv}} | Selle märkide värv ekraanil ja märgitud PDF-is. |
 | {{ui:Ühik}} | Millises ühikus kogus on aruandes: LF või m lineaarse puhul; SF, SY, SQ, ac, ha või m² pindala puhul; EA loendamise puhul. |
 | {{ui:Mõõdetakse ka}} | Muud liiki märgid, mida kirje võtab, igaühel oma ühik. Vaata allpool. |
-| {{ui:Kõrgus}} (lineaarne) | Seina kõrgus. Kirje annab siis ka seinapindala (pikkus × kõrgus). Joonte, mis pärinevad BimCraft-mudelist, uksed ja aknad on kaasas: need võetakse välja üks kord ning kirje näitab brutopindala, avasid ja netopindala. Projektist BimCraft, mis valis mõõtmismeetodi, mõõdetakse siin samuti selle meetodiga (märkuses on meetod koos allikaga ja öeldud, et see pole koguseekspert kontrollinud); meetodit ei saa TakeoffCraftis muuta. Seinatüübi tellised või plokid ja mört tulevad kahe komponendina: tellitavad ühikud ja mördi maht. |
+| {{ui:Kõrgus}} (lineaarne) | Seina kõrgus. Kirje annab siis ka seinapindala (pikkus × kõrgus). Joonte, mis pärinevad BimCraft-mudelist, uksed ja aknad on kaasas: need võetakse välja üks kord ning kirje näitab brutopindala, avasid ja netopindala. Projektist BimCraft, mis valis mõõtmismeetodi, mõõdetakse siin samuti selle meetodiga (märkuses on meetod koos allikaga ja öeldud, et see pole koguseekspert kontrollinud); meetodit ei saa TakeoffDeskis muuta. Seinatüübi tellised või plokid ja mört tulevad kahe komponendina: tellitavad ühikud ja mördi maht. |
 | {{ui:Sügavus}} (pindala) | Sügavus või paksus, mida kasutatakse koostevalemites (näiteks betoonimaht). |
 | {{ui:Jäätmed %}} | Lisatakse kogusele enne hindamist: 10 tähendab kogus × 1,10. |
 | Materjal $/LF | Materjali maksumus ühiku kohta. Silt järgib ühikut: $/SF, $/EA jne. |
@@ -74,7 +74,7 @@ Mõnda asja mõõdetakse rohkem kui ühel viisil: ruumil on põrand (pindala), s
 
 1. Tee kirje selle põhitüübiga, näiteks pindala kirje `Ruum 101`.
 2. Kirje redaktoris jaotises {{ui:Mõõdetakse ka}} märgi linnukestega {{ui:Lineaarne}}, {{ui:Loe}} või mõlemad. Igaühe kõrval on oma ühik.
-3. Joonista mis tahes tööriistaga, mille liik kirje võtab: kui `Ruum 101` on praegune, joonistab {{ui:Pindala}} selle põranda, {{ui:Lineaarne}} sokli ja {{ui:Loe}} uksed. TakeoffCraft ei küsi teist kirjet.
+3. Joonista mis tahes tööriistaga, mille liik kirje võtab: kui `Ruum 101` on praegune, joonistab {{ui:Pindala}} selle põranda, {{ui:Lineaarne}} sokli ja {{ui:Loe}} uksed. TakeoffDesk ei küsi teist kirjet.
 
 Kirjete loend näitab iga koguse (`50.00 SF + 2 EA`). Koguste tabelis on kirje rida põhikogusega ja iga muu liik saab oma rea selle all, näiteks **Ruum 101 (loendamine)**, oma jäätmete ning materjali- ja tööjõuhindadega. Eksport, lehe kaupa tabel ja märgitud PDF-i legend loetlevad need samamoodi.
 
@@ -113,7 +113,7 @@ Selle asemel, et sisestada tööjõu hind ühiku kohta, saab kirje tööjõud tu
 | {{ui:Meeskonna suurus}} | `2` inimest |
 | {{ui:Palk $/tund igaühele}} | `45` |
 
-TakeoffCraft arvutab jäätmetega kogusest:
+TakeoffDesk arvutab jäätmetega kogusest:
 
 - **meeskonnatunnid** = kogus ÷ tootlikkus (110 LF ÷ 20 = 5.5),
 - **tööjõutunnid** = meeskonnatunnid × meeskonna suurus (11),

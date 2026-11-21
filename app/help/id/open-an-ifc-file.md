@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, jalan, rel kereta, jembatan, perkerasan, kanstin
 from: 6b08c2c4
 ---
 
-File IFC 4.3 dapat memuat jalan, rel kereta api, jembatan, pekerjaan laut, dan bagian-bagian penyusunnya: perkerasan, lapis, kanstin, rel, pekerjaan tanah, bearing, tiang pancang, dan lainnya. TakeoffCraft membacanya dan mengubahnya menjadi kuantitas bertipe yang dapat Anda beri harga.
+File IFC 4.3 dapat memuat jalan, rel kereta api, jembatan, pekerjaan laut, dan bagian-bagian penyusunnya: perkerasan, lapis, kanstin, rel, pekerjaan tanah, bearing, tiang pancang, dan lainnya. TakeoffDesk membacanya dan mengubahnya menjadi kuantitas bertipe yang dapat Anda beri harga.
 
 ## Buka file
 
 1. Pilih {{ui:Open plans}} di grup {{ui:File}}, atau tekan {{key:Mod+O}}.
-2. Pilih file IFC (Anda bisa memilihnya bersama PDF), atau seret ke TakeoffCraft.
+2. Pilih file IFC (Anda bisa memilihnya bersama PDF), atau seret ke TakeoffDesk.
 
 Satu kuantitas bertipe dibuat untuk setiap kelas dan tipe yang sudah ditentukan, misalnya "Perkerasan (lentur): hitung", dan, jika file menyatakannya, "panjang" dalam m, "luas" dalam m² dan "volume" dalam m³. Catatan pada setiap item menyebutkan berapa elemen yang dihitung dan berapa yang tidak menyatakan kuantitas. Membuka file yang lebih baru dengan nama yang sama akan memperbarui kuantitas tersebut, bukan menambahkannya.
 

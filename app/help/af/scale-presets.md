@@ -49,4 +49,4 @@ Elke voorinstelling neem aan dat die PDF-bladsy die tekening se werklike papierg
 
 ## Ongewone PDF's
 
-Sommige PDF's verklaar 'n groter bladsyeenheid ( 'n "user unit"); TakeoffCraft neem dit in ag vir voorinstellings en vir die skaal wat gewys word. Bladsye wat in die PDF gedraai is, word op dieselfde manier gemeet as regop bladsye.
+Sommige PDF's verklaar 'n groter bladsyeenheid ( 'n "user unit"); TakeoffDesk neem dit in ag vir voorinstellings en vir die skaal wat gewys word. Bladsye wat in die PDF gedraai is, word op dieselfde manier gemeet as regop bladsye.

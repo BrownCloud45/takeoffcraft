@@ -5,7 +5,7 @@ keywords: paa, pitch, mteremko, kipengele cha mteremko, kupanda, mlalo, 6:12, ub
 from: 38225b60
 ---
 
-Mpango wa paa unaonyesha kila ndege ya paa ikiwa tambarare, kama inavyoonekana kutoka juu. Paa lenyewe ni kubwa zaidi: ndege yenye 6:12 ina uso wa takriban 12% zaidi ya mpango wake, na kingo zake za mteremko ni ndefu kuliko zinavyoonekana. Mpe kipengee chake pitch na TakeoffCraft itapima kando ya mteremko.
+Mpango wa paa unaonyesha kila ndege ya paa ikiwa tambarare, kama inavyoonekana kutoka juu. Paa lenyewe ni kubwa zaidi: ndege yenye 6:12 ina uso wa takriban 12% zaidi ya mpango wake, na kingo zake za mteremko ni ndefu kuliko zinavyoonekana. Mpe kipengee chake pitch na TakeoffDesk itapima kando ya mteremko.
 
 ## Kuandika pitch
 

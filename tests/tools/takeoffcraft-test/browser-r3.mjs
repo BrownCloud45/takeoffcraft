@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-r3.mjs — round 3 in TakeoffCraft at /lab/takeoffcraft (session takeoff_PART_3): the shell's seven modules mounted (calc sheets and design reasons in the
+ * browser-r3.mjs — round 3 in TakeoffDesk at /lab/takeoffcraft (session takeoff_PART_3): the shell's seven modules mounted (calc sheets and design reasons in the
  * file, running totals for cost and carbon, the first lesson, Suggest / activity / Ask), supplier prices from an Excel file into the price Library, Carbon (EG.14)
  * and the 5D price table (EG.17), a tag schedule as quantities (SU.915), a two-finger swipe that pans (D7.56), the live adapter's where().
  *   node tools/takeoffcraft-test/browser-r3.mjs [--out dir]

@@ -1,11 +1,11 @@
 ---
 title: Riešenie problémov
-summary: Príznaky, príčiny a riešenia hlásení a prekvapení, na ktoré môžete v TakeoffCraft naraziť, citované tak, ako ich aplikácia zobrazuje.
+summary: Príznaky, príčiny a riešenia hlásení a prekvapení, na ktoré môžete v TakeoffDesk naraziť, citované tak, ako ich aplikácia zobrazuje.
 keywords: problémy, chyby, nefunguje, oprava, pomoc, odmietnuté, nemeria, žiadna mierka, chýbajúce značky, export zlyhal, offline, dotyk
 from: cd319c9b
 ---
 
-TakeoffCraft vysvetľuje väčšinu odmietnutí na stavovom riadku v dolnej časti okna. Nájdite správu nižšie.
+TakeoffDesk vysvetľuje väčšinu odmietnutí na stavovom riadku v dolnej časti okna. Nájdite správu nižšie.
 
 ## Otváranie súborov
 
@@ -15,8 +15,8 @@ TakeoffCraft vysvetľuje väčšinu odmietnutí na stavovom riadku v dolnej čas
 | (name) je chránený heslom. Otvorte nechránenú kópiu. | PDF na otvorenie vyžaduje heslo. | Požiadajte o nechránenú kópiu alebo odstráňte heslo v PDF programe, ktorému dôverujete. |
 | (name) sa nedal prečítať ako PDF (…) | Súbor je poškodený alebo nie je naozaj PDF. | Stiahnite ho znova alebo ho znova uložte z programu, ktorý ho vytvoril. |
 | (name) je už otvorený. | Rovnaké PDF (rovnaký obsah) je otvorené. | Nič netreba robiť. |
-| TakeoffCraft otvára PDF a projekty .takeoff.json. Preskočené: … | Iné typy súborov boli vynechané. | Najprv prevedte výkresy do PDF. |
-| Pri pustení súborov sa nič nedeje | Súbory boli pustené mimo okna prehliadača alebo prehliadač otvoril PDF na novej karte. | Pustite ich na samotnú stránku TakeoffCraft; rámček "Pustite PDF alebo .takeoff.json" ukazuje, kedy to bude fungovať. |
+| TakeoffDesk otvára PDF a projekty .takeoff.json. Preskočené: … | Iné typy súborov boli vynechané. | Najprv prevedte výkresy do PDF. |
+| Pri pustení súborov sa nič nedeje | Súbory boli pustené mimo okna prehliadača alebo prehliadač otvoril PDF na novej karte. | Pustite ich na samotnú stránku TakeoffDesk; rámček "Pustite PDF alebo .takeoff.json" ukazuje, kedy to bude fungovať. |
 | Otváranie veľkej sady trvá dlho | Každé PDF sa na identifikáciu prečíta celé. | Počkajte, kým zmizne správa "Otváranie (name)…". Náhľady sa dopĺňajú pri posúvaní. |
 
 ## Meranie
@@ -47,7 +47,7 @@ TakeoffCraft vysvetľuje väčšinu odmietnutí na stavovom riadku v dolnej čas
 | Správa alebo príznak | Príčina | Riešenie |
 |---|---|---|
 | Vyberte dva body, ktoré sú od seba ďalej. | Kalibračné body sú takmer na sebe. | Kalibrujte na dlhšej kóte. |
-| Správa v dialógu kalibrácie, napríklad "Tú vzdialenosť nebolo možné prečítať" | Vzdialenosť je v tvare, ktorý TakeoffCraft nedokáže prečítať. | Pozri [Zadávanie dĺžky, sadzby a percent](topic:entry-formats). |
+| Správa v dialógu kalibrácie, napríklad "Tú vzdialenosť nebolo možné prečítať" | Vzdialenosť je v tvare, ktorý TakeoffDesk nedokáže prečítať. | Pozri [Zadávanie dĺžky, sadzby a percent](topic:entry-formats). |
 | Tento list zatiaľ nemá mierku, takže nie je čo kontrolovať. Skalibrujte ho alebo vyberte predvoľbu. | {{ui:Kontrola}} na liste bez mierky. | Najprv nastavte mierku. |
 | Zoznam {{ui:Predvoľba}} je sivý | Nie je otvorený žiadny list. | Otvorte PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft vysvetľuje väčšinu odmietnutí na stavovom riadku v dolnej čas
 | Toto PDF je chránené heslom alebo zašifrované, takže označenú kópiu nie je možné zapísať. … | PDF je zašifrované. | Exportujte {{ui:XLSX}} namiesto toho alebo použite nezašifrovanú kópiu PDF (potom potrebuje vlastný výkaz výmer, lebo je to iný súbor). |
 | Označené PDF sa nepodarilo zapísať: … | Často: ste offline a aplikácia nebola uložená na použitie offline, takže chýba zapisovač PDF. | Pripojte sa na internet a znova vyberte {{ui:Označené PDF}}. Aby ste tomu predišli, vyberte {{ui:Uložiť na offline použitie}} a počkajte na {{ui:Pripravené offline}}. |
 | Stiahlo sa len jedno označené PDF | Prehliadač zablokoval viaceré sťahovania naraz. | Povoľte viaceré sťahovania pre tento web a exportujte znova. |
-| (file) nie je projekt TakeoffCraft (nie je to platný JSON). / Toto nie je súbor projektu TakeoffCraft. | Zlý súbor alebo poškodený. | Vyberte súbor `.takeoff.json`. |
-| Tento projekt uložil novší TakeoffCraft. Otvorte ho tam. | Súbor pochádza z novšej verzie. | Otvorte ho v novšej verzii. |
+| (file) nie je projekt TakeoffDesk (nie je to platný JSON). / Toto nie je súbor projektu TakeoffDesk. | Zlý súbor alebo poškodený. | Vyberte súbor `.takeoff.json`. |
+| Tento projekt uložil novší TakeoffDesk. Otvorte ho tam. | Súbor pochádza z novšej verzie. | Otvorte ho v novšej verzii. |
 | (n) značiek bolo poškodených a vynechaných. | Časť súboru bola poškodená alebo upravená ručne. | Zvyšok sa otvoril. Nakreslite chýbajúce značky znova alebo otvorte staršiu kópiu. |
 | Značky chýbajú po opätovnom otvorení | PDF nie sú otvorené alebo sa jedno z nich zmenilo. | Pozri [Uloženie a opätovné otvorenie výkazu výmer](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Prehliadač sa pýta "Opustiť stránku?" | Existujú neuložené zmeny. | Zostaňte a uložte pomocou {{key:Mod+S}}. |

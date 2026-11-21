@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Wat u gaat doen
 
-Wijzig hoe TakeoffCraft lengten toont, zodat een metrische opdracht in meters, centimeters of millimeters leest op het blad, in de statusbalk en in de panelen.
+Wijzig hoe TakeoffDesk lengten toont, zodat een metrische opdracht in meters, centimeters of millimeters leest op het blad, in de statusbalk en in de panelen.
 
 ## Stappen
 
-1. Open {{ui:Instellingen}} met het tandwiel in de appbalk of {{key:Mod+,}}, en blijf op het tabblad {{ui:TakeoffCraft}}.
+1. Open {{ui:Instellingen}} met het tandwiel in de appbalk of {{key:Mod+,}}, en blijf op het tabblad {{ui:TakeoffDesk}}.
 2. Zoek {{ui:Lengten tonen als}} en kies {{ui:Feet-inches}}, m, cm of mm. {{ui:Volg Algemeen}} gebruikt de metrische lengte-eenheid die met een ster is aangegeven in {{ui:Instellingen}} › {{ui:Algemeen}} › {{ui:Eenheden}}, en feet-inches wanneer er geen ster staat.
 3. Kijk naar het blad: lengten in de statusbalk, de lijst Posten en de panelen lezen nu in de eenheid die u koos. Hoogten, diepte, dikte en de niveaus doen dat ook.
 4. Om itemtemperaturen in graden C of F te lezen, kies {{ui:Temperaturen tonen als}} in hetzelfde tabblad.

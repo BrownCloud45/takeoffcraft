@@ -5,7 +5,7 @@ keywords: tető, hajlás, lejtés, lejtési tényező, emelkedés, futás, 6:12,
 from: 38225b60
 ---
 
-A tetőalaprajz minden tetősíkot laposan mutat, felülnézetből. A tető maga nagyobb: a 6:12 hajlású sík felülete körülbelül 12%-kal nagyobb, mint az alaprajzi felülete, és a lejtős élei hosszabbak, mint amilyennek látszanak. Adja meg a tételnek a hajlását, és a TakeoffCraft a lejtés mentén mér.
+A tetőalaprajz minden tetősíkot laposan mutat, felülnézetből. A tető maga nagyobb: a 6:12 hajlású sík felülete körülbelül 12%-kal nagyobb, mint az alaprajzi felülete, és a lejtős élei hosszabbak, mint amilyennek látszanak. Adja meg a tételnek a hajlását, és a TakeoffDesk a lejtés mentén mér.
 
 ## Hajlás megadása
 

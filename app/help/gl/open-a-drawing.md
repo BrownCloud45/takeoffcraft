@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, debuxo, abrir un debuxo, layouts, espazo modelo, espazo
 from: d8c3f504
 ---
 
-TakeoffCraft abre un debuxo DWG ou DXF como abre un PDF: non ten que trazalo antes a PDF. A medición feita sobre o propio debuxo é exacta, porque o debuxo sabe o que é cada obxecto. Consulte [Contar desde un debuxo](topic:count-from-a-drawing).
+TakeoffDesk abre un debuxo DWG ou DXF como abre un PDF: non ten que trazalo antes a PDF. A medición feita sobre o propio debuxo é exacta, porque o debuxo sabe o que é cada obxecto. Consulte [Contar desde un debuxo](topic:count-from-a-drawing).
 
 ## Abrir o debuxo
 
@@ -13,9 +13,9 @@ TakeoffCraft abre un debuxo DWG ou DXF como abre un PDF: non ten que trazalo ant
 2. Seleccione o ficheiro DWG ou DXF. Pode seleccionar varios, e PDF con eles.
 3. Escolla Abrir.
 
-Tamén pode soltar ficheiros de debuxo sobre TakeoffCraft, como os PDF. Non se envía nada: o navegador le o ficheiro no seu ordenador.
+Tamén pode soltar ficheiros de debuxo sobre TakeoffDesk, como os PDF. Non se envía nada: o navegador le o ficheiro no seu ordenador.
 
-TakeoffCraft le DWG desde AutoCAD 2000 ata 2018 e DXF ASCII desde R12 ata 2018. Rexeita un DXF binario (gárdeo como ASCII, ou como DWG) e un ficheiro que non é ningún dos dous, e indica o motivo. Un ficheiro danado ábrese co que se puido ler, e unha mensaxe di iso; as súas contas poden estar incompletas.
+TakeoffDesk le DWG desde AutoCAD 2000 ata 2018 e DXF ASCII desde R12 ata 2018. Rexeita un DXF binario (gárdeo como ASCII, ou como DWG) e un ficheiro que non é ningún dos dous, e indica o motivo. Un ficheiro danado ábrese co que se puido ler, e unha mensaxe di iso; as súas contas poden estar incompletas.
 
 ## Follas
 
@@ -40,10 +40,10 @@ Unha folla comeza coa escala que indica o debuxo:
 
 ## Debuxos ligados (xrefs)
 
-Un debuxo que liga outros debuxos móstraos onde están inseridos. TakeoffCraft atopa un debuxo ligado entre os **ficheiros abertos**, polo seu nome: abra o debuxo principal e o debuxo ligado xuntos (ou un despois do outro). Ata entón a barra de estado indica cantos debuxos ligados non se atoparon, o que falta debuxar, e as contas di iso.
+Un debuxo que liga outros debuxos móstraos onde están inseridos. TakeoffDesk atopa un debuxo ligado entre os **ficheiros abertos**, polo seu nome: abra o debuxo principal e o debuxo ligado xuntos (ou un despois do outro). Ata entón a barra de estado indica cantos debuxos ligados non se atoparon, o que falta debuxar, e as contas di iso.
 
 ## Límites
 
-- Os obxectos que TakeoffCraft non pode ler ou colocar (obxectos proxy, clases descoñecidas) listanse na xanela de contas por tipo; nunca se descartan sen dicir nada.
+- Os obxectos que TakeoffDesk non pode ler ou colocar (obxectos proxy, clases descoñecidas) listanse na xanela de contas por tipo; nunca se descartan sen dicir nada.
 - Os debuxos moi grandes debúxanse por partes, e as contas deteñense nun límite, indicándoo. Abra antes un trazado en PDF dese debuxo.
 - Un debuxo debúxase en negro e coas súas propias cores, escurecidas para papel branco. As táboas de estilos de trazado e as asignacións de plumas non se aplican.

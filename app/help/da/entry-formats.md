@@ -1,6 +1,6 @@
 ---
 title: Indtastning af længder, enhedspriser og procenter
-summary: Hvad du kan skrive for afstande, højder, pengepriser og spildprocenter, med eksempler og meddelelser for indtastninger, TakeoffCraft ikke kan læse.
+summary: Hvad du kan skrive for afstande, højder, pengepriser og spildprocenter, med eksempler og meddelelser for indtastninger, TakeoffDesk ikke kan læse.
 keywords: indtastning, format, fod tommer, brøker, decimalfod, metrisk, meter, millimeter, enhedspris, penge, dollar, procent, spild, skrivning
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Op til to decimaler, fra 0% til 1000%. Meddelelser: "Angiv en procentsats, f.eks
 ## Navne og enheder
 
 - Navne på poster og komponenter: op til 200 tegn.
-- En komponents {{ui:Enhed}}: al tekst op til 20 tegn, f.eks. `EA`, `sheets`, `CY`, `gal`. Det er kun en etiket; TakeoffCraft omregner den ikke.
+- En komponents {{ui:Enhed}}: al tekst op til 20 tegn, f.eks. `EA`, `sheets`, `CY`, `gal`. Det er kun en etiket; TakeoffDesk omregner den ikke.
 
 ## Formler
 

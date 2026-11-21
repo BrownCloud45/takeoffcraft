@@ -5,7 +5,7 @@ keywords: ajustar, ajuste a objetos, osnap, extremo, punto medio, intersección,
 from: 41d29e9b
 ---
 
-La mayoría de los juegos de planos son PDF vectoriales: sus muros y bordes son líneas reales, no píxeles. Mientras mide, TakeoffCraft ajusta sus clics a esas líneas, de modo que un tramo empieza exactamente en la esquina de un muro y una calibración toma la cota que dibujó el delineante, no el píxel en el que hizo clic.
+La mayoría de los juegos de planos son PDF vectoriales: sus muros y bordes son líneas reales, no píxeles. Mientras mide, TakeoffDesk ajusta sus clics a esas líneas, de modo que un tramo empieza exactamente en la esquina de un muro y una calibración toma la cota que dibujó el delineante, no el píxel en el que hizo clic.
 
 El ajuste está activado al iniciar. Actívelo o desactívelo con {{ui:Ajustar}} en la barra de estado o con {{key:F3}}; el valor se guarda en este navegador (también está en [Ajustes](topic:settings)).
 

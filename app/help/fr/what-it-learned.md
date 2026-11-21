@@ -1,11 +1,11 @@
 ---
-title: Ce que TakeoffCraft a appris de vos métrés
-summary: TakeoffCraft garde les symboles que vous avez confirmés avec Comptage auto, vos jeux de conditions, les ouvrages que vous utilisez le plus et les motifs que vous répétez sur chaque page, le tout dans le fichier du métré. Consultez-les, utilisez-les, supprimez-les.
+title: Ce que TakeoffDesk a appris de vos métrés
+summary: TakeoffDesk garde les symboles que vous avez confirmés avec Comptage auto, vos jeux de conditions, les ouvrages que vous utilisez le plus et les motifs que vous répétez sur chaque page, le tout dans le fichier du métré. Consultez-les, utilisez-les, supprimez-les.
 keywords: apprendre, appris, apprentissage, assistant, mémoriser, symboles, modèles, comme le dernier chantier, dernier chantier, jeu de conditions, conditions, réutiliser, ouvrages, les plus utilisés, suggestions, répéter sur chaque page, chaque page, cartouche, motif, tout effacer, oublier, confidentialité
 from: 54d99e99
 ---
 
-TakeoffCraft devient plus rapide à mesure que vous faites des métrés avec lui. Il n'apprend **que de ce que vous acceptez** :
+TakeoffDesk devient plus rapide à mesure que vous faites des métrés avec lui. Il n'apprend **que de ce que vous acceptez** :
 
 - les symboles que vous avez encadrés avec [Comptage auto](topic:auto-count) puis ajoutés,
 - les jeux de conditions que vous enregistrez,
@@ -64,6 +64,6 @@ Pour arrêter l'apprentissage dans un seul métré, désactivez {{ui:Apprendre d
 
 ## Bon à savoir
 
-- Les anciennes versions de TakeoffCraft ouvrent normalement un fichier contenant des éléments appris. Elles ignorent cette partie, et la suppriment si elles enregistrent à nouveau le fichier.
+- Les anciennes versions de TakeoffDesk ouvrent normalement un fichier contenant des éléments appris. Elles ignorent cette partie, et la suppriment si elles enregistrent à nouveau le fichier.
 - Un symbole appris est une petite image de ce que vous avez encadré, conservée dans le fichier (quelques kilo-octets chacune).
 - Les symboles appris sont recherchés comme le fait Comptage auto, donc avec les mêmes limites : [Compter automatiquement un symbole](topic:auto-count).

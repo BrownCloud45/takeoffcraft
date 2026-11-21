@@ -1,6 +1,6 @@
 ---
 title: Tiri dhammaan set-ka
-summary: Sanduuq hal jadwal astaamaha mar, TakeoffCraft wuxuu tirinayaa astaamo kasta oo ku jira xaashi kasta oo furan hal orod. Tiro kasta waa xiriir ilaa xaashigeeda, waxaana dib u eegtaa kahor intaan wax lagu darin.
+summary: Sanduuq hal jadwal astaamaha mar, TakeoffDesk wuxuu tirinayaa astaamo kasta oo ku jira xaashi kasta oo furan hal orod. Tiro kasta waa xiriir ilaa xaashigeeda, waxaana dib u eegtaa kahor intaan wax lagu darin.
 keywords: tiri dhammaan, jadwal, jadwalka astaamaha, set-ka oo dhan, xaashi kasta, dhammaan xaashiyada, dhammaan albaabbada, dhammaan qalabka, aaladaha, astaamaha, tirin otomaatig ah, tiri dhammaan, set-ka qorshaha, 200 xaashi, heerka isku mid, isku eeg
 from: adc99744
 ---

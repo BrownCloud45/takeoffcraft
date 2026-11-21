@@ -5,7 +5,7 @@ keywords: çati, pjerrësi, faktor pjerrësie, ngritje, shtrirje, 6:12, anë, qo
 from: 38225b60
 ---
 
-Plani i çatisë tregon çdo plan çatie të shtrirë, siç shihet nga lart. Vetë çatia është më e madhe: një plan me 6:12 ka rreth 12% më shumë sipërfaqe se plani i tij, dhe skajet e tij të pjerrëta janë më të gjata nga sa duken. Jepi artikullit pjerrësinë e tij dhe TakeoffCraft mat sipas pjerrësisë.
+Plani i çatisë tregon çdo plan çatie të shtrirë, siç shihet nga lart. Vetë çatia është më e madhe: një plan me 6:12 ka rreth 12% më shumë sipërfaqe se plani i tij, dhe skajet e tij të pjerrëta janë më të gjata nga sa duken. Jepi artikullit pjerrësinë e tij dhe TakeoffDesk mat sipas pjerrësisë.
 
 ## Shkrimi i një pjerrësie
 

@@ -46,7 +46,7 @@ Rakamlar 3B'de değişmez: bir duvarın alanı tam uzunluğu çarpı yüksekliğ
 | {{ui:Sheet}} | Zemindeki çizimi göster ya da gizle. |
 | Sağ üstteki görünüm küpü | Bir yüze, kenara ya da köşeye tıklayarak oradan bakın; sürükleyerek döndürün; pusula halkasını sürükleyerek çevirin; ev düğmesi {{ui:Iso}} görünümüne döndürür. |
 
-Köşede bir görünüm küpü, küçük bir X, Y, Z eksen simgesi ya da hiçbir şey görünür: bunu {{ui:Settings}} içinde, TakeoffCraft sekmesinde, **Köşe göstergesi** altında seçin ([TakeoffCraft ayarları](topic:settings)). Düz sayfada köşe göstergesi yoktur.
+Köşede bir görünüm küpü, küçük bir X, Y, Z eksen simgesi ya da hiçbir şey görünür: bunu {{ui:Settings}} içinde, TakeoffDesk sekmesinde, **Köşe göstergesi** altında seçin ([TakeoffDesk ayarları](topic:settings)). Düz sayfada köşe göstergesi yoktur.
 
 :::touch
 Bir parmak döndürür; iki parmak çimdikleyerek yakınlaştırır ve kaydırarak taşır. Dokunmak seçer.

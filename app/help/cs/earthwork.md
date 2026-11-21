@@ -5,7 +5,7 @@ keywords: zemní práce, výkop, výkop, násyp, výkop a násyp, úprava terén
 from: a898e508
 ---
 
-TakeoffCraft měří to, co je nakresleno na listu. Zemní práce potřebují povrch terénu, proto je sdílen s aplikací CivilCraft, která z bodů vytváří povrchy, upravuje je a počítá výkop, násyp a odvoz.
+TakeoffDesk měří to, co je nakresleno na listu. Zemní práce potřebují povrch terénu, proto je sdílen s aplikací CivilCraft, která z bodů vytváří povrchy, upravuje je a počítá výkop, násyp a odvoz.
 
 ## Jednoduchý výkop zde
 
@@ -29,8 +29,8 @@ Body z různých listů nesdílejí souřadnice, proto export bere pouze otevře
 
 Zemní práce z aplikace CivilCraft se vrátí jako dvě položky, které můžete ocenit:
 
-1. V aplikaci CivilCraft urovnejte stavební plochy a koridory a poté pod **Zemní práce** zvolte {{ui:Odeslat do TakeoffCraft}} ([Objemy zemních prací](app:civilcraft/volumes)). Uloží se soubor množství (`.quantities.json`).
-2. V aplikaci TakeoffCraft jej otevřete přes {{ui:Otevřít výkaz}}, nebo jej přetáhněte do aplikace. Váš výkaz zůstane otevřený: soubor přidá položky **Zemní práce: výkop** a **Zemní práce: násyp** jako [zadaná množství](topic:create-items#typed-quantities-no-drawing) v krychlových yardech (CY) pro projekt ve stopách, nebo v krychlových metrech (m³) pro projekt v metrech. Je to jeden krok: {{key:Mod+Z}} jej vrátí zpět.
+1. V aplikaci CivilCraft urovnejte stavební plochy a koridory a poté pod **Zemní práce** zvolte {{ui:Odeslat do TakeoffDesk}} ([Objemy zemních prací](app:civilcraft/volumes)). Uloží se soubor množství (`.quantities.json`).
+2. V aplikaci TakeoffDesk jej otevřete přes {{ui:Otevřít výkaz}}, nebo jej přetáhněte do aplikace. Váš výkaz zůstane otevřený: soubor přidá položky **Zemní práce: výkop** a **Zemní práce: násyp** jako [zadaná množství](topic:create-items#typed-quantities-no-drawing) v krychlových yardech (CY) pro projekt ve stopách, nebo v krychlových metrech (m³) pro projekt v metrech. Je to jeden krok: {{key:Mod+Z}} jej vrátí zpět.
 3. Přejmenujte je, nastavte odpad, sazby a sestavy podle potřeby.
 
 Když se návrh změní, odešlete znovu z aplikace CivilCraft a otevřete nový soubor: ty samé dvě položky dostanou nová množství. Jejich názvy, sazby, odpad a sestavy zůstanou tak, jak jste je nastavili. Pokud se jednotka projektu změnila, stavový řádek to uvede: zkontrolujte sazby. Soubor z jiného projektu aplikace CivilCraft přidá své vlastní dvě položky.

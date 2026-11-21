@@ -28,7 +28,7 @@ Arbetsboken har fyra kalkylblad, och rapporterna nedan när de gäller:
 
 Med en [anbudssammanfattning](topic:bid-summary) slutar också kalkylbladet Kalkyl med dess påslag (lönebikostnad, försäljningsskatt, overhead, vinst, borgen och anbudet), som levande formler.
 
-Kalkylbladet Kalkyl har **levande formler**: mängd med spill, de avrundade material- och arbetsbeloppen, varje rads summa och totalsumman för jobbet. Kalkylprogram räknar om dem, så du kan ändra ett pris eller spill i kalkylprogrammet och summorna följer med. De tal som TakeoffCraft räknat ut lagras också i cellerna och stämmer till öre.
+Kalkylbladet Kalkyl har **levande formler**: mängd med spill, de avrundade material- och arbetsbeloppen, varje rads summa och totalsumman för jobbet. Kalkylprogram räknar om dem, så du kan ändra ett pris eller spill i kalkylprogrammet och summorna följer med. De tal som TakeoffDesk räknat ut lagras också i cellerna och stämmer till öre.
 
 Kolumnen Anteckningar listar varje komponents formel, formelfel, markeringar på blad utan skala, väggarea och omkrets. När något utelämnas säger summeringsraden för jobbet ”Ofullständig: se anteckningarna ovan”.
 
@@ -42,7 +42,7 @@ CSV-filen innehåller bara kalkylen; för mängder per blad och markeringslistan
 
 ## Kalkylen i Google Sheets
 
-Ovanför tabellen Mängder lägger **Kopiera för Google Sheets** kalkylen på urklipp som tabbseparerad text, med samma rader som CSV-filen. I ett Google Sheets-dokument klickar du på cell A1 och klistrar in. TakeoffCraft loggar inte in hos Google och skickar ingenting dit.
+Ovanför tabellen Mängder lägger **Kopiera för Google Sheets** kalkylen på urklipp som tabbseparerad text, med samma rader som CSV-filen. I ett Google Sheets-dokument klickar du på cell A1 och klistrar in. TakeoffDesk loggar inte in hos Google och skickar ingenting dit.
 
 ## Saknade priser och godkännande
 

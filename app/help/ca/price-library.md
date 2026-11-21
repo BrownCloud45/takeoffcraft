@@ -13,7 +13,7 @@ Obriu-la amb {{ui:Biblioteca}} a la part superior del tauler {{ui:Elements}}.
 
 - {{ui:Importa CSV…}} llegeix un full de càlcul desat com a CSV (vegeu les columnes més avall). Els elements el nom i tipus dels quals ja són a la biblioteca es reemplacen; la resta s'afegeix. Les files que no pot llegir s'ometen, i indica quines i per què.
 - {{ui:Afegeix els elements d'aquest amidament}} copia cada element de l'amidament obert a la biblioteca, amb les seves tarifes i el seu preu descompost (no les seves marques).
-- El pressupost en CSV que exporta TakeoffCraft ([Exporta el pressupost](topic:export-estimate)) s'importa tal com és: els preus de l'obra anterior alimenten la següent.
+- El pressupost en CSV que exporta TakeoffDesk ([Exporta el pressupost](topic:export-estimate)) s'importa tal com és: els preus de l'obra anterior alimenten la següent.
 
 - {{ui:Paquets d'oficis…}} afegeix preus descomposts gratuïts per a un ofici, com ara placa de guix, elèctric o formigó, sense preus. Vegeu [Paquets d'oficis](topic:trade-packs).
 

@@ -1,6 +1,6 @@
 ---
 title: Kira semua dalam set
-summary: Kotak satu legenda simbol sekali dan TakeoffCraft mengira setiap simbol di dalamnya pada setiap helaian terbuka dalam satu larian. Setiap kiraan ialah pautan ke helaiannya, dan anda menyemak sebelum apa-apa ditambah.
+summary: Kotak satu legenda simbol sekali dan TakeoffDesk mengira setiap simbol di dalamnya pada setiap helaian terbuka dalam satu larian. Setiap kiraan ialah pautan ke helaiannya, dan anda menyemak sebelum apa-apa ditambah.
 keywords: kira semua, legenda, legenda simbol, seluruh set, setiap helaian, semua helaian, setiap pintu, setiap lengkapan, peranti, jadual, simbol, kiraan auto, kira kesemuanya, set lukisan, 200 helaian, tahap padanan, rupa serupa
 from: adc99744
 ---

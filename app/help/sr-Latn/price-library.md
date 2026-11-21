@@ -13,7 +13,7 @@ Otvori je sa {{ui:Biblioteka}} na vrhu panela {{ui:Stavke}}.
 
 - {{ui:Uvezi CSV…}} čita tabelu sačuvanu kao CSV (vidi kolone ispod). Stavke čiji su naziv i tip već u biblioteci se zamenjuju; ostale se dodaju. Redovi koje ne može da pročita se preskaču, a kaže koji su i zašto.
 - {{ui:Dodaj stavke ovog predmera}} kopira svaku stavku otvorenog predmera u biblioteku, sa njenim stopama i sklopom (ne i sa oznakama).
-- CSV procene koju TakeoffCraft izvozi ([Izvezi procenu](topic:export-estimate)) uvozi se onakav kakav je: cene prošlog posla su polazna tačka za sledeći.
+- CSV procene koju TakeoffDesk izvozi ([Izvezi procenu](topic:export-estimate)) uvozi se onakav kakav je: cene prošlog posla su polazna tačka za sledeći.
 
 - {{ui:Paketi za struku…}} dodaje besplatne sklopove za struku, kao što su gips-karton, elektro ili beton, bez cena. Pogledaj [Paketi za struku](topic:trade-packs).
 

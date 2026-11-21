@@ -19,9 +19,9 @@ In **Hoeveelhede › Per item** dra 'n lyn wat 'n hoeveelheid en geen materiaal-
 2. Die dialoog sê watter totaal jy afteken en lys die lyne sonder tarief. Tik jou naam en, as jy wil, jou rol.
 3. Klik op **Sign off**. Die balk lees nou "Signed off by … on …" met die totaal. Stoor die hoeveelheidsopname om dit in die lêer te hou.
 
-Die afteken hoort by die syfers wat jy afgeteken het. Enige latere verandering aan 'n hoeveelheid, 'n tarief of 'n lyn maak dit skoon, en TakeoffCraft sê so. Ontdoen bring die beraming terug wat jy afgeteken het, en sy afteken saam daarmee. Die hernoem van 'n lyn is nie 'n verandering van 'n syfer nie. **Remove the sign-off** haal dit weg.
+Die afteken hoort by die syfers wat jy afgeteken het. Enige latere verandering aan 'n hoeveelheid, 'n tarief of 'n lyn maak dit skoon, en TakeoffDesk sê so. Ontdoen bring die beraming terug wat jy afgeteken het, en sy afteken saam daarmee. Die hernoem van 'n lyn is nie 'n verandering van 'n syfer nie. **Remove the sign-off** haal dit weg.
 
-'n Hoeveelheidsopname-lêer wat buite TakeoffCraft geredigeer is nadat dit afgeteken is, maak sonder die afteken oop, met 'n notas wat dit sê. Die uitgevoerde beraming (CSV en XLSX) noem die afteken onder die totale.
+'n Hoeveelheidsopname-lêer wat buite TakeoffDesk geredigeer is nadat dit afgeteken is, maak sonder die afteken oop, met 'n notas wat dit sê. Die uitgevoerde beraming (CSV en XLSX) noem die afteken onder die totale.
 
 Net 'n mens teken af. 'n KI-assistent kan lees of die beraming afgeteken is en watter tariewe ontbreek; dit het geen manier om af te teken nie.
 

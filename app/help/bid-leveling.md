@@ -6,7 +6,7 @@ order: 102
 keywords: bid leveling, leveling, bid package, subcontractor, sub bid, scope, plug, trade, csi division, compare bids, low bid, bid tab, bidder, award, chosen bid, use a bid, subcontract price
 ---
 
-A general contractor sends each trade's scope to subcontractors and compares what comes back. TakeoffCraft does both from the takeoff: open {{ui:Export}} › {{ui:Bid packages and leveling…}}.
+A general contractor sends each trade's scope to subcontractors and compares what comes back. TakeoffDesk does both from the takeoff: open {{ui:Export}} › {{ui:Bid packages and leveling…}}.
 
 ## Packages
 

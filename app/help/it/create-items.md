@@ -36,12 +36,12 @@ Una quantità digitata non accetta segni e non rende mai incompleto il computo. 
 Premere {{key:Esc}} nel modulo per chiuderlo senza aggiungere una voce.
 
 :::tip
-Se si sceglie prima uno strumento di misura, TakeoffCraft usa l'ultima voce del tipo giusto oppure apre il modulo {{ui:New item}} con quel tipo già selezionato.
+Se si sceglie prima uno strumento di misura, TakeoffDesk usa l'ultima voce del tipo giusto oppure apre il modulo {{ui:New item}} con quel tipo già selezionato.
 :::
 
 ## Scegliere la voce con cui si disegna
 
-Fare clic su una voce nell'elenco. Diventa la voce a cui vanno i nuovi segni, e i suoi segni sono evidenziati su ogni tavola mentre le altre si attenuano. Se la tavola aperta non ha segni di quella voce, TakeoffCraft passa a una tavola che li ha. Fare di nuovo clic sulla voce per interrompere l'evidenziazione; resta comunque la voce con cui si disegna.
+Fare clic su una voce nell'elenco. Diventa la voce a cui vanno i nuovi segni, e i suoi segni sono evidenziati su ogni tavola mentre le altre si attenuano. Se la tavola aperta non ha segni di quella voce, TakeoffDesk passa a una tavola che li ha. Fare di nuovo clic sulla voce per interrompere l'evidenziazione; resta comunque la voce con cui si disegna.
 
 Fare clic su un segno con lo strumento {{ui:Select}} rende corrente anche la sua voce.
 
@@ -56,7 +56,7 @@ L'editor della voce (**Voce: (nome)**) ha questi campi. Ciascuno viene salvato q
 | {{ui:Color}} | Il colore dei suoi segni sullo schermo e nel PDF con i segni. |
 | {{ui:Unit}} | L'unità in cui è riportata la quantità: LF o m per il lineare; SF, SY, SQ, ac, ha o m² per l'area; EA per il conteggio. |
 | {{ui:Also measure}} | Gli altri tipi di segni che la voce accoglie, ciascuno con una propria unità. Vedi sotto. |
-| {{ui:Height}} (lineare) | Un'altezza di parete. La voce riporta poi anche la superficie della parete (lunghezza × altezza). I tratti provenienti da un modello BimCraft includono porte e finestre: vengono sottratte una volta, e la voce indica la superficie lorda, le aperture e la netta. Un computo da un progetto BimCraft che ha scelto un metodo di misurazione viene misurato anche qui con quel metodo (la nota ne indica il nome, con la fonte, e dice che non è verificato da un computista); il metodo non può essere cambiato in TakeoffCraft. Mattoni o blocchi e malta da un tipo di muro arrivano come due componenti: le unità da ordinare e il volume di malta. |
+| {{ui:Height}} (lineare) | Un'altezza di parete. La voce riporta poi anche la superficie della parete (lunghezza × altezza). I tratti provenienti da un modello BimCraft includono porte e finestre: vengono sottratte una volta, e la voce indica la superficie lorda, le aperture e la netta. Un computo da un progetto BimCraft che ha scelto un metodo di misurazione viene misurato anche qui con quel metodo (la nota ne indica il nome, con la fonte, e dice che non è verificato da un computista); il metodo non può essere cambiato in TakeoffDesk. Mattoni o blocchi e malta da un tipo di muro arrivano come due componenti: le unità da ordinare e il volume di malta. |
 | {{ui:Depth}} (area) | Una profondità o uno spessore, usato nelle formule delle composizioni (per esempio il volume di calcestruzzo). |
 | {{ui:Waste %}} | Aggiunto alla quantità prima del prezzo: 10 significa quantità × 1.10. |
 | Materiali $/LF | Costo dei materiali per unità. L'etichetta segue l'unità: $/SF, $/EA e così via. |
@@ -73,7 +73,7 @@ Alcune cose si misurano in più modi: una stanza ha un pavimento (un'area), uno 
 
 1. Creare la voce con il suo tipo principale, per esempio una voce di area `Stanza 101`.
 2. Nell'editor, sotto {{ui:Also measure}}, spuntare {{ui:Linear}}, {{ui:Count}} o entrambi. Ciascuno riceve un'unità accanto.
-3. Disegnare con qualsiasi strumento il cui tipo la voce accoglie: con `Stanza 101` corrente, {{ui:Area}} disegna il suo pavimento, {{ui:Linear}} lo zoccolo e {{ui:Count}} le sue porte. TakeoffCraft non chiede un'altra voce.
+3. Disegnare con qualsiasi strumento il cui tipo la voce accoglie: con `Stanza 101` corrente, {{ui:Area}} disegna il suo pavimento, {{ui:Linear}} lo zoccolo e {{ui:Count}} le sue porte. TakeoffDesk non chiede un'altra voce.
 
 L'elenco delle voci mostra ogni quantità (`50.00 SF + 2 EA`). Nella tabella delle quantità la riga della voce ha la sua quantità principale, e ogni altro tipo ottiene una propria riga sotto, come **Stanza 101 (conteggio)**, con i propri sfrido e prezzi di materiali e manodopera. Le esportazioni, la tabella per tavola e la legenda del PDF con i segni le elencano allo stesso modo.
 
@@ -112,7 +112,7 @@ Invece di un prezzo della manodopera per unità, la manodopera di una voce può 
 | {{ui:Crew size}} | `2` persone |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft calcola, a partire dalla quantità con sfrido:
+TakeoffDesk calcola, a partire dalla quantità con sfrido:
 
 - **ore squadra** = quantità ÷ produzione (110 LF ÷ 20 = 5.5),
 - **ore operaio** = ore squadra × dimensione della squadra (11),

@@ -24,7 +24,7 @@ Kies {{ui:By item}} (die verstek). Elke item het 'n ry, en elk van sy samestelli
 
 Die laaste ry, **Job total**, tel die materiaal-, arbeid- en totaalkolomme bymekaar. Dieselfde totaal verskyn regs in die tabel se kop.
 
-Tik in 'n verspillings- of tariefsel en druk {{key:Enter}} of klik weg om dit toe te pas. 'n Waarde wat TakeoffCraft nie kan lees nie, word rooi omlyn en die statusbalk sê waarom, byvoorbeeld "Type an amount like 12.50."
+Tik in 'n verspillings- of tariefsel en druk {{key:Enter}} of klik weg om dit toe te pas. 'n Waarde wat TakeoffDesk nie kan lees nie, word rooi omlyn en die statusbalk sê waarom, byvoorbeeld "Type an amount like 12.50."
 
 Klik op 'n item se ry om sy merke op elke blad uit te lig en na 'n blad te spring wat hulle het (dieselfde as om daarop te klik onder {{ui:Items}}).
 

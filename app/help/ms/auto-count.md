@@ -1,6 +1,6 @@
 ---
 title: Kiraan auto bagi satu simbol
-summary: Kotakkan satu simbol, biarkan TakeoffCraft mencari yang lain pada helaian ini atau pada setiap helaian yang dibuka, semak padanan dengan peluncur, dan tambahkannya dalam satu langkah.
+summary: Kotakkan satu simbol, biarkan TakeoffDesk mencari yang lain pada helaian ini atau pada setiap helaian yang dibuka, semak padanan dengan peluncur, dan tambahkannya dalam satu langkah.
 keywords: mana-mana sudut, diputar, dipusing, skala lain, skala berbeza, kiraan auto, kiraan automatik, carian simbol, cari simbol, corak, templat, padanan, kesan, alat kiraan
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Untuk membuang semakan tanpa menambah apa-apa, pilih {{ui:Discard}} atau tekan {
 
 ## Apa yang dicari, dan apa yang terlepas
 
-TakeoffCraft membandingkan lukisan, sebagai piksel, dengan simbol yang anda kotakkan.
+TakeoffDesk membandingkan lukisan, sebagai piksel, dengan simbol yang anda kotakkan.
 
 - Ia mencari simbol yang diputar 0°, 90°, 180° dan 270°. Tandakan {{ui:Any angle (slower)}} pada bar kiraan auto sebelum anda melukis kotak untuk mencarinya pada mana-mana sudut juga: ia mencuba setiap 15°, kemudian memperhalusi setiap penemuan kepada darjah dan setengah darjah. Ini mengambil masa kira-kira enam kali lebih lama. Ia tidak mencari simbol yang dicerminkan (melainkan simbol itu kelihatan sama apabila dicerminkan).
 - Dengan {{ui:Search all open sheets}} ditandakan, helaian pada skala lain dicari pada saiz yang dimiliki simbol itu di sana: perkakas yang dilukis mengikut skala pada pelan 1/8" adalah separuh saiznya pada pelan 1/4", dan ia masih ditemui. Helaian sedemikian juga dicari pada saiz kotak itu sendiri, untuk tag dan simbol yang dicetak pada satu saiz pada setiap helaian. Ini memerlukan skala pada kedua-dua helaian; helaian tanpa skala hanya dicari pada saiz kotak.

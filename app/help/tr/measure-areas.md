@@ -41,7 +41,7 @@ Odalar kapalı duvarlar olarak çizilmişse, {{ui:Oda}} ({{key:B}}) tek tıkla b
 2. {{ui:Metraj}} grubunda {{ui:Oda}}'yı seçin ya da {{key:B}} tuşuna basın.
 3. Bir odanın içine, açık zeminde tıklayın (bir çizgi ya da etiketin üstüne değil).
 
-TakeoffCraft sayfanın çizgilerini okur, tıklamanın çevresindeki alanı bulur ve duvarların iç yüzleri boyunca geçerli kalemin bir alanı olarak dış hattını çizer. **4'-0"**'a kadar olan kapı açıklıkları kapalı sayılır, böylece dış hat kapı boşluğunun üzerinden düz geçer; **Ayarlar › TakeoffCraft › Oda doldurma şu genişliğe kadar açıklıkları kapatır** bu genişliği değiştirir (3'-0" ile 8'-0" arası). Odanın içindeki oda adları, mobilyalar ve armatürler boşluk oluşturmaz.
+TakeoffDesk sayfanın çizgilerini okur, tıklamanın çevresindeki alanı bulur ve duvarların iç yüzleri boyunca geçerli kalemin bir alanı olarak dış hattını çizer. **4'-0"**'a kadar olan kapı açıklıkları kapalı sayılır, böylece dış hat kapı boşluğunun üzerinden düz geçer; **Ayarlar › TakeoffDesk › Oda doldurma şu genişliğe kadar açıklıkları kapatır** bu genişliği değiştirir (3'-0" ile 8'-0" arası). Odanın içindeki oda adları, mobilyalar ve armatürler boşluk oluşturmaz.
 
 Şu durumlarda nedenini belirterek reddeder:
 
@@ -62,7 +62,7 @@ Bir kapı ayardan geniş olduğunda, doldurma bir sonraki odaya taşar ve ikisin
 
 Yuvarlak bir boşluk için **Seçili işaret** altında {{ui:Yuvarlak boşluk ekle}}'yi seçin, merkezine, sonra kenarındaki bir noktaya tıklayın.
 
-Bir boşluk tamamen alanın içinde olmalı ve başka bir boşlukla çakışmamalıdır. Aksi halde TakeoffCraft onu reddeder: "Bir boşluk tamamen alanın içinde olmalıdır." ya da "Boşluklar birbiriyle çakışamaz."
+Bir boşluk tamamen alanın içinde olmalı ve başka bir boşlukla çakışmamalıdır. Aksi halde TakeoffDesk onu reddeder: "Bir boşluk tamamen alanın içinde olmalıdır." ya da "Boşluklar birbiriyle çakışamaz."
 
 Son boşluğu yeniden çıkarmak için {{ui:Son boşluğu kaldır}}'ı seçin.
 
@@ -76,7 +76,7 @@ Bir boşluk tek bir alan işaretine aittir. Bir **geri çıkarma** bir kez çizi
 
 Aynı sayfadaki, işaretli bir kalemin her alan işareti, geri çıkarmanın kapsadığı kısmı kaybeder: içinde kalırsa tüm geri çıkarma, kenarı kestiğinde yalnızca çakışan kısım ve bir boşluğun içinde hiçbir şey. Seçili alanın panelinde **Geri çıkarmalar** ve kalan alan gösterilir. Kalemin miktarı, birim maliyet formülleri, maliyetler, 3B denetim görünümü ve dışa aktarma hepsi kalan alanı kullanır; keşifin notları geri çıkarmaların ne kadar çıkardığını söyler. Geri çıkarma kaleminin kendi alanını sayar (fiyatlandırmıyorsanız maliyetlerini sıfır bırakın).
 
-Bir geri çıkarma **dışbükey** olmalıdır: bir dikdörtgen, bir daire ya da içe dönük köşesi olmayan herhangi bir dış hat. TakeoffCraft dışbükey olmayanı çizmeyi reddeder; L biçimli bir şaftı iki geri çıkarma olarak çizin. Geri çıkarmaların boşlukları olamaz ve birbiriyle çakışan iki geri çıkarma ikisi de sayılır.
+Bir geri çıkarma **dışbükey** olmalıdır: bir dikdörtgen, bir daire ya da içe dönük köşesi olmayan herhangi bir dış hat. TakeoffDesk dışbükey olmayanı çizmeyi reddeder; L biçimli bir şaftı iki geri çıkarma olarak çizin. Geri çıkarmaların boşlukları olamaz ve birbiriyle çakışan iki geri çıkarma ikisi de sayılır.
 
 Çevre (`P`) değişmez: geri çıkarmalar yalnızca alanı çıkarır.
 

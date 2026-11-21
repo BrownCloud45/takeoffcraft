@@ -24,7 +24,7 @@ Chọn {{ui:Theo hạng mục}} (mặc định). Mỗi hạng mục có một h�
 
 Hàng cuối cùng, **Tổng công trình**, cộng các cột vật liệu, nhân công và tổng. Cùng một tổng cũng hiển thị ở bên phải tiêu đề của bảng.
 
-Nhập vào ô hao hụt hoặc ô đơn giá rồi nhấn {{key:Enter}} hoặc bấm ra ngoài để áp dụng. Giá trị mà TakeoffCraft không đọc được sẽ có viền đỏ và thanh trạng thái nêu lý do, ví dụ "Nhập một số tiền như 12.50."
+Nhập vào ô hao hụt hoặc ô đơn giá rồi nhấn {{key:Enter}} hoặc bấm ra ngoài để áp dụng. Giá trị mà TakeoffDesk không đọc được sẽ có viền đỏ và thanh trạng thái nêu lý do, ví dụ "Nhập một số tiền như 12.50."
 
 Bấm hàng của một hạng mục để tô sáng các dấu của nó trên mọi tờ và chuyển đến một tờ có các dấu đó (giống như bấm nó dưới {{ui:Hạng mục}}).
 

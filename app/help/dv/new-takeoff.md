@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. ކޮންޓިޓީ ރައްކާ ކުރޭ ބޭނުން ނަމަ: {{ui:Save takeoff}} ނުވަތަ {{key:Mod+S}}.
 2. **{{ui:File}}** ގްރޫޕުގައި {{ui:New}} ހޮވާ.
-3. ރައްކާ ނުކުރާ ބަދަލުތަކެއް ހުރިނަމަ، TakeoffCraft ސުވާލު ކުރޭ **Unsaved takeoff**: {{ui:Save takeoff first}} ހޮވާ (ޕްރޮޖެކްޓް ޑައުންލޯޑް ކުރާ، ދެން ކްލިއާ ކުރާ)، {{ui:Discard changes}}، ނުވަތަ {{ui:Cancel}}.
+3. ރައްކާ ނުކުރާ ބަދަލުތަކެއް ހުރިނަމަ، TakeoffDesk ސުވާލު ކުރޭ **Unsaved takeoff**: {{ui:Save takeoff first}} ހޮވާ (ޕްރޮޖެކްޓް ޑައުންލޯޑް ކުރާ، ދެން ކްލިއާ ކުރާ)، {{ui:Discard changes}}، ނުވަތަ {{ui:Cancel}}.
    ވިންޑޯ ހުސް ހާލަތަށް ދާނެ: PDF ނެތް، އައިޓަމް ނެތް، މާކު ނެތް، ސްކޭލް ނެތް. ސްޓޭޓަސް ބާރު ދައްކާ "New takeoff. Open PDFs to begin."
 
 ކްލިއާ ވާ ކަންތައް:

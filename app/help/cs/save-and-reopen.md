@@ -18,32 +18,32 @@ Každé uložení stáhne nový soubor. Váš prohlížeč může druhý pojmeno
 Název se odvodí od prvního PDF, které jste v tomto výkazu otevřeli.
 
 :::note
-{{ui:Uložit výkaz}} je stále jediný způsob, jak uchovat výkaz jako soubor. Během práce TakeoffCraft také ukládá záložní kopii v tomto prohlížeči (viz níže) a ukládání do cloudu zatím není k dispozici. Pokud se pokusíte zavřít kartu s neuloženými změnami, prohlížeč se zeptá, zda chcete odejít.
+{{ui:Uložit výkaz}} je stále jediný způsob, jak uchovat výkaz jako soubor. Během práce TakeoffDesk také ukládá záložní kopii v tomto prohlížeči (viz níže) a ukládání do cloudu zatím není k dispozici. Pokud se pokusíte zavřít kartu s neuloženými změnami, prohlížeč se zeptá, zda chcete odejít.
 :::
 
 ## Uložení výkazu uvnitř PDF
 
 {{ui:Export}} › {{ui:PDF s výkazem uvnitř}} stáhne kopii každého otevřeného PDF, pojmenovanou například `Plans (with takeoff).pdf`, která nese celý výkaz jako přílohu: položky, značky, měřítka, oblasti nabídek, prostě vše, co obsahuje `.takeoff.json`. Stránky zůstávají nedotčeny, takže vypadají a tisknou se jako originál, a jiné čtečky PDF uvádějí výkaz mezi přílohami.
 
-Otevřete toto PDF v TakeoffCraftu (jakkoli otevíráte PDF) a zeptá se **Toto PDF obsahuje výkaz**: zvolte {{ui:Otevřít výkaz}}, abyste ho získali zpět, nebo {{ui:Jen PDF}}, abyste otevřeli jen výkres. Kopie představuje PDF, ze kterého vznikla, takže `.takeoff.json` uložený z kterékoli z nich se otevře u obou.
+Otevřete toto PDF v TakeoffDesku (jakkoli otevíráte PDF) a zeptá se **Toto PDF obsahuje výkaz**: zvolte {{ui:Otevřít výkaz}}, abyste ho získali zpět, nebo {{ui:Jen PDF}}, abyste otevřeli jen výkres. Kopie představuje PDF, ze kterého vznikla, takže `.takeoff.json` uložený z kterékoli z nich se otevře u obou.
 
 Při několika PDF nese každá kopie celý výkaz; otevřete je společně. Opětovné uložení z kopie nahradí výkaz uvnitř ní, nepřidá druhý. `.takeoff.json` je stále soubor, který si máte nechat: je malý a zapisuje ho automatické ukládání i desktopová aplikace.
 
 ## Když se karta nebo prohlížeč zastaví
 
-Pár sekund po každé změně si TakeoffCraft uloží kopii výkazu do vlastního úložiště tohoto prohlížeče, spolu s PDF, pokud jejich velikost nepřesahuje 64 MB. Nic se nenahrává na server. Když výkaz uložíte, začnete nový nebo otevřete jiný projekt, kopie zmizí.
+Pár sekund po každé změně si TakeoffDesk uloží kopii výkazu do vlastního úložiště tohoto prohlížeče, spolu s PDF, pokud jejich velikost nepřesahuje 64 MB. Nic se nenahrává na server. Když výkaz uložíte, začnete nový nebo otevřete jiný projekt, kopie zmizí.
 
-Pokud karta spadne, prohlížeč nebo počítač se zastaví, nebo odejdete s neuloženými změnami, při příštím otevření TakeoffCraftu se zeptá **Obnovit práci?** a vypíše výkaz podle názvu. Zvolte **Obnovit**, aby se vrátil: položky, značky a měřítka se obnoví a jeho PDF se znovu otevřou, pokud byla uchována. Stavový řádek říká "Obnoveno (name). Ještě není uloženo do souboru; {{ui:Uložit výkaz}} ho uloží." Pokud byla PDF příliš velká na uchování, otevřete je znovu; značky se objeví na jejich listech. Více: [Obnovit práci](common:recover).
+Pokud karta spadne, prohlížeč nebo počítač se zastaví, nebo odejdete s neuloženými změnami, při příštím otevření TakeoffDesku se zeptá **Obnovit práci?** a vypíše výkaz podle názvu. Zvolte **Obnovit**, aby se vrátil: položky, značky a měřítka se obnoví a jeho PDF se znovu otevřou, pokud byla uchována. Stavový řádek říká "Obnoveno (name). Ještě není uloženo do souboru; {{ui:Uložit výkaz}} ho uloží." Pokud byla PDF příliš velká na uchování, otevřete je znovu; značky se objeví na jejich listech. Více: [Obnovit práci](common:recover).
 
 ## Znovuotevření
 
-1. Otevřete TakeoffCraft.
+1. Otevřete TakeoffDesk.
 2. Přetáhněte soubor `.takeoff.json` a jeho PDF na stránku společně. Nebo zvolte {{ui:Otevřít plány}} pro PDF a {{ui:Otevřít výkaz}} pro projekt, v libovolném pořadí.
    Stavový řádek říká "Otevřeno (name): 12 položek, 340 značek." Každý list získá zpět své měřítko a značky se objeví na svých listech.
 
-Pořadí PDF nehraje roli, stejně jako nehrají roli jejich názvy nebo složky. TakeoffCraft každé PDF rozpozná podle otisku jeho obsahu.
+Pořadí PDF nehraje roli, stejně jako nehrají roli jejich názvy nebo složky. TakeoffDesk každé PDF rozpozná podle otisku jeho obsahu.
 
-Pokud otevřete projekt, zatímco aktuální výkaz má neuložené změny, TakeoffCraft se nejdřív zeptá: **Zrušit**, **Zahodit změny**, nebo **Nejdřív uložit výkaz**. Otevření projektu nahradí aktuální položky a značky; PDF, která jsou už otevřená, zůstanou otevřená.
+Pokud otevřete projekt, zatímco aktuální výkaz má neuložené změny, TakeoffDesk se nejdřív zeptá: **Zrušit**, **Zahodit změny**, nebo **Nejdřív uložit výkaz**. Otevření projektu nahradí aktuální položky a značky; PDF, která jsou už otevřená, zůstanou otevřená.
 
 ## Když chybí PDF
 
@@ -55,7 +55,7 @@ následované názvy souborů a velikostmi. Jejich značky se stále počítají
 
 ## Když se PDF změnilo
 
-PDF, které bylo revidováno, nebo jen znovu uloženo jiným programem, má jiný obsah, takže je pro TakeoffCraft **jiným souborem**, i když má stejný název. V poznámce pod seznamem listů takový soubor říká "soubor s tímto názvem je otevřen, ale jeho obsah se liší".
+PDF, které bylo revidováno, nebo jen znovu uloženo jiným programem, má jiný obsah, takže je pro TakeoffDesk **jiným souborem**, i když má stejný název. V poznámce pod seznamem listů takový soubor říká "soubor s tímto názvem je otevřen, ale jeho obsah se liší".
 
 - Značky zůstanou připojeny ke staré verzi. Dál se počítají, na svých starých pozicích a měřítkách.
 - Revidované PDF se otevře jako nové listy bez měřítka a bez značek.
@@ -64,11 +64,11 @@ Chcete-li přenést výkaz na revizi, otevřete obě PDF a na novém listu použ
 
 ## Poškozený nebo cizí soubor
 
-TakeoffCraft zkontroluje každý projektový soubor, než ho použije. Můžete vidět tato hlášení:
+TakeoffDesk zkontroluje každý projektový soubor, než ho použije. Můžete vidět tato hlášení:
 
-- "(file) není projekt TakeoffCraftu (není platný JSON)."
-- "Toto není projektový soubor TakeoffCraftu."
-- "Tento projekt uložil novější TakeoffCraft. Otevřete ho tam."
+- "(file) není projekt TakeoffDesku (není platný JSON)."
+- "Toto není projektový soubor TakeoffDesku."
+- "Tento projekt uložil novější TakeoffDesk. Otevřete ho tam."
 - "3 značky byly poškozeny a vynechány." (zbytek se otevře)
 
 ## Historie zpět

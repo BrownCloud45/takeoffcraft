@@ -18,32 +18,32 @@ Her kayıt yeni bir dosya indirir. Tarayıcınız ikincisine `(name) (1).takeoff
 Ad, bu metrajda açtığınız ilk PDF'den alınır.
 
 :::note
-Metrajı bir dosya olarak saklamanın hâlâ tek yolu {{ui:Save takeoff}}'tur. Çalışırken TakeoffCraft bu tarayıcıda bir kurtarma kopyası da tutar (aşağıya bakın); bulut kaydı ise henüz kullanılamıyor. Kaydedilmemiş değişikliklerle sekmeyi kapatmaya çalışırsanız, tarayıcı ayrılıp ayrılmayacağınızı sorar.
+Metrajı bir dosya olarak saklamanın hâlâ tek yolu {{ui:Save takeoff}}'tur. Çalışırken TakeoffDesk bu tarayıcıda bir kurtarma kopyası da tutar (aşağıya bakın); bulut kaydı ise henüz kullanılamıyor. Kaydedilmemiş değişikliklerle sekmeyi kapatmaya çalışırsanız, tarayıcı ayrılıp ayrılmayacağınızı sorar.
 :::
 
 ## Metrajı PDF'nin içinde tutun
 
 {{ui:Export}} › {{ui:PDF with the takeoff inside}} her açık PDF'nin bir kopyasını indirir. Adı `Plans (with takeoff).pdf` gibidir ve tüm metrajı bir ek olarak taşır: kalemler, işaretler, ölçekler, ihale alanları, `.takeoff.json` dosyasında bulunan her şey. Sayfaları değiştirilmez; bu yüzden orijinali gibi görünür ve yazdırılır, diğer PDF okuyucular da metrajı eklerinin arasında listeler.
 
-Bu PDF'yi TakeoffCraft'te açın (PDF'leri nasıl açarsanız açın); program **Bu PDF'nin içinde bir metraj var** diye sorar. Metrajı geri almak için {{ui:Open the takeoff}}, yalnızca çizimi açmak için {{ui:Just the PDF}} seçin. Kopya, üretildiği PDF'yi temsil eder; bu yüzden her ikisinden kaydedilen bir `.takeoff.json` ikisinde de açılır.
+Bu PDF'yi TakeoffDesk'te açın (PDF'leri nasıl açarsanız açın); program **Bu PDF'nin içinde bir metraj var** diye sorar. Metrajı geri almak için {{ui:Open the takeoff}}, yalnızca çizimi açmak için {{ui:Just the PDF}} seçin. Kopya, üretildiği PDF'yi temsil eder; bu yüzden her ikisinden kaydedilen bir `.takeoff.json` ikisinde de açılır.
 
 Birden çok PDF ile her kopya tüm metrajı taşır; bunları birlikte açın. Bir kopyadan tekrar kaydetmek, içindeki metrajı değiştirir; ikinci bir metraj eklemez. Yine de saklanacak dosya `.takeoff.json`'dur: küçüktür ve otomatik kaydetmenin ve masaüstü uygulamasının yazdığı dosya budur.
 
 ## Sekme ya da tarayıcı durursa
 
-Her değişiklikten birkaç saniye sonra TakeoffCraft, metrajın bir kopyasını bu tarayıcının kendi depolamasında tutar; PDF'ler toplam 64 MB ya da daha azsa onlar da dahil edilir. Hiçbir şey yüklenmez. Metrajı kaydettiğinizde, yenisini başlattığınızda ya da başka bir proje açtığınızda kopya silinir.
+Her değişiklikten birkaç saniye sonra TakeoffDesk, metrajın bir kopyasını bu tarayıcının kendi depolamasında tutar; PDF'ler toplam 64 MB ya da daha azsa onlar da dahil edilir. Hiçbir şey yüklenmez. Metrajı kaydettiğinizde, yenisini başlattığınızda ya da başka bir proje açtığınızda kopya silinir.
 
-Sekme çökerse, tarayıcı ya da bilgisayar durursa ya da kaydedilmemiş değişikliklerle çıkarsanız, TakeoffCraft'i bir sonraki açışınızda **Çalışmanız kurtarılsın mı?** diye sorar ve metrajı adıyla listeler. Geri getirmek için **Kurtar**'ı seçin: kalemler, işaretler ve ölçekler geri gelir; PDF'ler saklandıysa yeniden açılır. Durum çubuğu şunu yazar: "(name) kurtarıldı. Henüz bir dosyaya kaydedilmedi: Metrajı kaydet onu saklar." PDF'ler saklanamayacak kadar büyükse, onları yeniden açın; işaretler kendi sayfalarında görünür. Daha fazlası: [Çalışmanızı kurtarın](common:recover).
+Sekme çökerse, tarayıcı ya da bilgisayar durursa ya da kaydedilmemiş değişikliklerle çıkarsanız, TakeoffDesk'i bir sonraki açışınızda **Çalışmanız kurtarılsın mı?** diye sorar ve metrajı adıyla listeler. Geri getirmek için **Kurtar**'ı seçin: kalemler, işaretler ve ölçekler geri gelir; PDF'ler saklandıysa yeniden açılır. Durum çubuğu şunu yazar: "(name) kurtarıldı. Henüz bir dosyaya kaydedilmedi: Metrajı kaydet onu saklar." PDF'ler saklanamayacak kadar büyükse, onları yeniden açın; işaretler kendi sayfalarında görünür. Daha fazlası: [Çalışmanızı kurtarın](common:recover).
 
 ## Yeniden açma
 
-1. TakeoffCraft'i açın.
+1. TakeoffDesk'i açın.
 2. `.takeoff.json` dosyasını ve PDF'lerini birlikte sayfaya sürükleyip bırakın. Ya da PDF'ler için {{ui:Open plans}}, proje için {{ui:Open takeoff}} seçeneğini seçin; sıra fark etmez.
    Durum çubuğu şunu yazar: "(name) açıldı: 12 kalem, 340 işaret." Her sayfa ölçeğini geri alır ve işaretler kendi sayfalarında görünür.
 
-PDF'lerin sırası önemli değildir; adları ya da klasörleri de öyle. TakeoffCraft her PDF'yi içeriğinin parmak izinden tanır.
+PDF'lerin sırası önemli değildir; adları ya da klasörleri de öyle. TakeoffDesk her PDF'yi içeriğinin parmak izinden tanır.
 
-Kaydedilmemiş değişiklikleri olan mevcut bir metrajın üzerine bir proje açarsanız, TakeoffCraft önce sorar: **İptal**, **Değişiklikleri at** ya da **Önce metrajı kaydet**. Proje açmak mevcut kalemleri ve işaretleri değiştirir; zaten açık olan PDF'ler açık kalır.
+Kaydedilmemiş değişiklikleri olan mevcut bir metrajın üzerine bir proje açarsanız, TakeoffDesk önce sorar: **İptal**, **Değişiklikleri at** ya da **Önce metrajı kaydet**. Proje açmak mevcut kalemleri ve işaretleri değiştirir; zaten açık olan PDF'ler açık kalır.
 
 ## PDF eksik olduğunda
 
@@ -55,7 +55,7 @@ Ardından dosya adları ve boyutları gelir. Bu işaretler yine her toplamda ve 
 
 ## PDF değiştiğinde
 
-Revize edilmiş ya da başka bir programla yeniden kaydedilmiş bir PDF'nin içeriği farklıdır; bu yüzden aynı adı taşısa bile TakeoffCraft için **farklı bir dosyadır**. Sayfalar listesinin altındaki notta böyle bir dosya "bu adda bir dosya açık, ancak içeriği farklı" diye yazar.
+Revize edilmiş ya da başka bir programla yeniden kaydedilmiş bir PDF'nin içeriği farklıdır; bu yüzden aynı adı taşısa bile TakeoffDesk için **farklı bir dosyadır**. Sayfalar listesinin altındaki notta böyle bir dosya "bu adda bir dosya açık, ancak içeriği farklı" diye yazar.
 
 - Metrajdaki işaretler eski sürüme bağlı kalır. Eski konumlarında ve ölçeklerinde saymaya devam ederler.
 - Revize PDF, ölçeksiz ve işaretsiz yeni sayfalar olarak açılır.
@@ -64,11 +64,11 @@ Metrajı revizyona taşımak için her iki PDF'yi açın ve yeni sayfada {{ui:Co
 
 ## Hasarlı ya da yabancı dosya
 
-TakeoffCraft her proje dosyasını kullanmadan önce denetler. Görebileceğiniz iletiler:
+TakeoffDesk her proje dosyasını kullanmadan önce denetler. Görebileceğiniz iletiler:
 
-- "(file) bir TakeoffCraft projesi değil (geçerli bir JSON değil)."
-- "Bu bir TakeoffCraft proje dosyası değil."
-- "Bu proje daha yeni bir TakeoffCraft ile kaydedilmiş. Onu orada açın."
+- "(file) bir TakeoffDesk projesi değil (geçerli bir JSON değil)."
+- "Bu bir TakeoffDesk proje dosyası değil."
+- "Bu proje daha yeni bir TakeoffDesk ile kaydedilmiş. Onu orada açın."
 - "3 işaret hasarlıydı ve dışarıda bırakıldı." (geri kalanı açılır)
 
 ## Geri alma geçmişi

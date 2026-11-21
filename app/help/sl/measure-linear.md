@@ -30,7 +30,7 @@ Med risanjem:
 - Povlek pomika list, kolesce povečuje, brez dodajanja točk.
 
 :::mac
-Na Mac sledilni ploščici je desni klik dvoprstni klik (vklopite sekundarni klik v Sistemskih nastavitvah, pod Sledilna ploščica). TakeoffCraft prebere samo sekundarni gumb, zato se lahko klik s Control vzame kot navaden klik in doda točko. Dvojni klik ali {{key:Enter}} vedno končata.
+Na Mac sledilni ploščici je desni klik dvoprstni klik (vklopite sekundarni klik v Sistemskih nastavitvah, pod Sledilna ploščica). TakeoffDesk prebere samo sekundarni gumb, zato se lahko klik s Control vzame kot navaden klik in doda točko. Dvojni klik ali {{key:Enter}} vedno končata.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Po prvi točki lahko namesto klika vpišete, kam gre naslednja. Vnesite števko,
 | `@6',-4'` | 6' desno in 4' navzdol od zadnje točke |
 | `6',4'` (ali `#6',4'`) | 6' desno in 4' navzgor od prve točke tega odseka |
 
-Dolžine vpisujete kot povsod v TakeoffCraft ([Oblike vnosa](topic:entry-formats)): `12'-6 1/2"`, `12.5` (čevlji), `30"`, `3.2 m`. „Desno“ in „navzgor“ sta, kakor vidite list, tudi ko je stran PDF obrnjena.
+Dolžine vpisujete kot povsod v TakeoffDesk ([Oblike vnosa](topic:entry-formats)): `12'-6 1/2"`, `12.5` (čevlji), `30"`, `3.2 m`. „Desno“ in „navzgor“ sta, kakor vidite list, tudi ko je stran PDF obrnjena.
 
 {{key:Enter}} na prazno polje konča odsek, kot {{key:Enter}} na listu; {{key:Esc}} zapre polje in pusti odsek, da teče naprej. Vpisane točke sledijo enakim pravilom kot kliki: odbitki, loki in zapiranje površin delujejo. Isto polje deluje v {{ui:Površina}} in {{ui:Odprtina}}; za središčem kroga vzame polmer.
 

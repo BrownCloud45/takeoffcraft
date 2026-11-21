@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Lokho ozokwenza
 
-Shintsha indlela i-TakeoffCraft ebonisa ngayo ubude, ukuze iphrojekthi yemethrikhi ifundeke ngamamitha, ngosentimitha noma ngamamilimitha eshidini, ebhalweni lesimo nakumaphaneli.
+Shintsha indlela i-TakeoffDesk ebonisa ngayo ubude, ukuze iphrojekthi yemethrikhi ifundeke ngamamitha, ngosentimitha noma ngamamilimitha eshidini, ebhalweni lesimo nakumaphaneli.
 
 ## Izinyathelo
 
-1. Vula {{ui:Settings}} ngegiya ebhala lokusebenza noma ngo-{{key:Mod+,}}, bese uhlala ethebhini le-{{ui:TakeoffCraft}}.
+1. Vula {{ui:Settings}} ngegiya ebhala lokusebenza noma ngo-{{key:Mod+,}}, bese uhlala ethebhini le-{{ui:TakeoffDesk}}.
 2. Thola {{ui:Show lengths as}} bese ukhetha {{ui:Feet-inches}}, m, cm noma mm. {{ui:Follow Global}} isebenzisa iyunithi yobude yemethrikhi ephawulwe ku-{{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, futhi ifiti namayintshi uma kungekho lutho oluphawulwe.
 3. Bheka eshidini: ubude ebhalweni lesimo, ohlwini lwezinto nasemaphaneli manje bufundeka ngeyunithi okhethile. Ukuphakama, ukujula, ukuqina nezingqimba nakho kuyashintsha.
 4. Ukuze ufunde izinga lokushisa lezinto ngamadigri C noma F, khetha {{ui:Show temperatures as}} kuleyo thebhu efanayo.

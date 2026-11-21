@@ -55,4 +55,4 @@ Lapo mastelis nurodo, koks didelis brėžinys; pozicijos vienetas nurodo, kaip j
 
 ## Tikslumas
 
-TakeoffCraft matuoja tiksliai pagal jūsų spustelėtus taškus, įskaitant tikrus lankų ilgius ir plotus, ir kiekių neapvalina. Rodmuo apvalina ilgius iki 1/16 colio, o dešimtaines – iki dviejų skaitmenų. Pinigai apvalinami tik galutinėse sumose, iki cento.
+TakeoffDesk matuoja tiksliai pagal jūsų spustelėtus taškus, įskaitant tikrus lankų ilgius ir plotus, ir kiekių neapvalina. Rodmuo apvalina ilgius iki 1/16 colio, o dešimtaines – iki dviejų skaitmenų. Pinigai apvalinami tik galutinėse sumose, iki cento.

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Vistaðu núverandi magntöku ef þú vilt geyma hana: {{ui:Vista magntöku}} eða {{key:Mod+S}}.
 2. Veldu {{ui:Ný}} í hópnum {{ui:Skrá}}.
-3. Ef það eru óvistaðar breytingar spyr TakeoffCraft **Óvistuð magntaka**: veldu {{ui:Vista magntöku fyrst}} (það sækir verkefnið, og hreinsar síðan), {{ui:Henda breytingum}}, eða {{ui:Hætta við}}.
+3. Ef það eru óvistaðar breytingar spyr TakeoffDesk **Óvistuð magntaka**: veldu {{ui:Vista magntöku fyrst}} (það sækir verkefnið, og hreinsar síðan), {{ui:Henda breytingum}}, eða {{ui:Hætta við}}.
    Glugginn fer aftur í tómt ástand: engin PDF-skjöl, engir liðir, engar merkingar, engir mælikvarðar. Stöðustikan segir „Ný magntaka. Opnaðu PDF-skjöl til að byrja.“
 
 Þetta er hreinsað:

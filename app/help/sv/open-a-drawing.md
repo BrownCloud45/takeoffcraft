@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, ritning, öppna en ritning, layouter, modellrum, papper
 from: d8c3f504
 ---
 
-TakeoffCraft öppnar en DWG- eller DXF-ritning på samma sätt som en PDF: du behöver inte plotta den till PDF först. Att räkna direkt från ritningen är exakt, eftersom ritningen vet vad varje objekt är. Se [Räkna från en ritning](topic:count-from-a-drawing).
+TakeoffDesk öppnar en DWG- eller DXF-ritning på samma sätt som en PDF: du behöver inte plotta den till PDF först. Att räkna direkt från ritningen är exakt, eftersom ritningen vet vad varje objekt är. Se [Räkna från en ritning](topic:count-from-a-drawing).
 
 ## Öppna ritningen
 
@@ -13,9 +13,9 @@ TakeoffCraft öppnar en DWG- eller DXF-ritning på samma sätt som en PDF: du be
 2. Markera DWG- eller DXF-filen. Du kan markera flera, och PDF-filer tillsammans med dem.
 3. Välj Öppna.
 
-Du kan också släppa ritningsfiler på TakeoffCraft, precis som PDF-filer. Inget laddas upp: webbläsaren läser filen på din dator.
+Du kan också släppa ritningsfiler på TakeoffDesk, precis som PDF-filer. Inget laddas upp: webbläsaren läser filen på din dator.
 
-TakeoffCraft läser DWG från AutoCAD 2000 till 2018 och ASCII-DXF från R12 till 2018. Den vägrar en binär DXF (spara den som ASCII, eller som DWG) och en fil som är ingetdera, och säger varför. En skadad fil öppnas med det som kunde läsas, och ett meddelande säger det; dess räkningar kan vara ofullständiga.
+TakeoffDesk läser DWG från AutoCAD 2000 till 2018 och ASCII-DXF från R12 till 2018. Den vägrar en binär DXF (spara den som ASCII, eller som DWG) och en fil som är ingetdera, och säger varför. En skadad fil öppnas med det som kunde läsas, och ett meddelande säger det; dess räkningar kan vara ofullständiga.
 
 ## Blad
 
@@ -40,10 +40,10 @@ Ett blad börjar med den skala ritningen anger:
 
 ## Länkade ritningar (xrefs)
 
-En ritning som länkar andra ritningar visar dem där de infogats. TakeoffCraft hittar en länkad ritning bland de **öppna filerna**, efter dess filnamn: öppna värdritningen och den länkade ritningen tillsammans (eller den ena efter den andra). Tills dess säger statusfältet hur många länkade ritningar som inte hittades och att det som de ritar saknas, och räkningarna säger det.
+En ritning som länkar andra ritningar visar dem där de infogats. TakeoffDesk hittar en länkad ritning bland de **öppna filerna**, efter dess filnamn: öppna värdritningen och den länkade ritningen tillsammans (eller den ena efter den andra). Tills dess säger statusfältet hur många länkade ritningar som inte hittades och att det som de ritar saknas, och räkningarna säger det.
 
 ## Begränsningar
 
-- Objekt som TakeoffCraft inte kan läsa eller placera (proxyobjekt, okända klasser) listas i räknefönstret efter typ; de tas aldrig bort utan ett ord.
+- Objekt som TakeoffDesk inte kan läsa eller placera (proxyobjekt, okända klasser) listas i räknefönstret efter typ; de tas aldrig bort utan ett ord.
 - Mycket stora ritningar ritas delvis, och räkningar stannar vid en gräns och säger det. Öppna en PDF-plot av en sådan ritning i stället.
 - En ritning ritas i svart och i sina egna färger, mörkade för vitt papper. Plottstilstabeller och pennytilldelningar tillämpas inte.

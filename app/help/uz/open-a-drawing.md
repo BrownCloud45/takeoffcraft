@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, chizma, chizmani ochish, maketlar, model maydoni, qogʻ
 from: d8c3f504
 ---
 
-TakeoffCraft DWG yoki DXF chizmasini PDF kabi ochadi: uni avval PDF ga chop etishingiz shart emas. Chizmaning oʻzidan sanash aniq, chunki chizma har bir obyekt nima ekanligini biladi. Qarang: [Chizmadan sanash](topic:count-from-a-drawing).
+TakeoffDesk DWG yoki DXF chizmasini PDF kabi ochadi: uni avval PDF ga chop etishingiz shart emas. Chizmaning oʻzidan sanash aniq, chunki chizma har bir obyekt nima ekanligini biladi. Qarang: [Chizmadan sanash](topic:count-from-a-drawing).
 
 ## Chizmani ochish
 
@@ -13,9 +13,9 @@ TakeoffCraft DWG yoki DXF chizmasini PDF kabi ochadi: uni avval PDF ga chop etis
 2. DWG yoki DXF faylini tanlang. Bir nechtasini, shuningdek PDF lar bilan birga tanlashingiz mumkin.
 3. Ochish ni tanlang.
 
-Chizma fayllarini PDF lar kabi TakeoffCraft ustiga ham tashlashingiz mumkin. Hech narsa yuklanmaydi: brauzer faylni kompyuteringizdan oʻqiydi.
+Chizma fayllarini PDF lar kabi TakeoffDesk ustiga ham tashlashingiz mumkin. Hech narsa yuklanmaydi: brauzer faylni kompyuteringizdan oʻqiydi.
 
-TakeoffCraft AutoCAD 2000 dan 2018 gacha boʻlgan DWG ni va R12 dan 2018 gacha boʻlgan ASCII DXF ni oʻqiydi. U ikkilik DXF ni (uni ASCII yoki DWG sifatida saqlang) va ikkalasi ham boʻlmagan faylni rad etadi va sababini aytadi. Shikastlangan fayl oʻqilgan qismi bilan ochiladi va xabar buni aytadi; uning sanoqlari toʻliq boʻlmasligi mumkin.
+TakeoffDesk AutoCAD 2000 dan 2018 gacha boʻlgan DWG ni va R12 dan 2018 gacha boʻlgan ASCII DXF ni oʻqiydi. U ikkilik DXF ni (uni ASCII yoki DWG sifatida saqlang) va ikkalasi ham boʻlmagan faylni rad etadi va sababini aytadi. Shikastlangan fayl oʻqilgan qismi bilan ochiladi va xabar buni aytadi; uning sanoqlari toʻliq boʻlmasligi mumkin.
 
 ## Varaqlar
 
@@ -40,10 +40,10 @@ Varaq panelidagi {{ui:Qatlamlar}} chizmaning qatlamlarini, har birida shu varaqd
 
 ## Bogʻlangan chizmalar (xref)
 
-Boshqa chizmalarni bogʻlagan chizma ularni joylashtirilgan joyda koʻrsatadi. TakeoffCraft bogʻlangan chizmani **ochiq fayllar** orasidan fayl nomi boʻyicha topadi: asosiy chizmani va uning bogʻlangan chizmasini birga (yoki ketma-ket) oching. Shunga qadar holat satri nechta bogʻlangan chizma topilmaganini koʻrsatadi, ularning chizgan narsalari yetishmaydi va sanoqlar buni aytadi.
+Boshqa chizmalarni bogʻlagan chizma ularni joylashtirilgan joyda koʻrsatadi. TakeoffDesk bogʻlangan chizmani **ochiq fayllar** orasidan fayl nomi boʻyicha topadi: asosiy chizmani va uning bogʻlangan chizmasini birga (yoki ketma-ket) oching. Shunga qadar holat satri nechta bogʻlangan chizma topilmaganini koʻrsatadi, ularning chizgan narsalari yetishmaydi va sanoqlar buni aytadi.
 
 ## Cheklovlar
 
-- TakeoffCraft oʻqiy olmaydigan yoki joylashtira olmaydigan obyektlar (proksi obyektlar, nomaʼlum sinflar) sanash oynasida tur boʻyicha roʻyxatga olinadi; ular hech qanday xabarsiz tashlanmaydi.
+- TakeoffDesk oʻqiy olmaydigan yoki joylashtira olmaydigan obyektlar (proksi obyektlar, nomaʼlum sinflar) sanash oynasida tur boʻyicha roʻyxatga olinadi; ular hech qanday xabarsiz tashlanmaydi.
 - Juda katta chizmalar qisman chiziladi, sanoqlar chegaraga yetganda toʻxtaydi va buni aytadi. Bunday chizmaning oʻrniga uning PDF chop etilgan nusxasini oching.
 - Chizma qora rangda va oʻz ranglarida, oq qogʻoz uchun qoraytirilgan holda chiziladi. Chop etish uslubi jadvallari va qalam tayinlashlari qoʻllanmaydi.

@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, piirustus, avaa piirustus, asettelut, mallitila, paperi
 from: d8c3f504
 ---
 
-TakeoffCraft avaa DWG- tai DXF-piirustuksen samalla tavalla kuin PDF:n: sitä ei tarvitse plottaa ensin PDF:ksi. Laskenta itse piirustuksesta on tarkka, koska piirustus tietää, mikä kukin kohde on. Katso [Laske piirustuksesta](topic:count-from-a-drawing).
+TakeoffDesk avaa DWG- tai DXF-piirustuksen samalla tavalla kuin PDF:n: sitä ei tarvitse plottaa ensin PDF:ksi. Laskenta itse piirustuksesta on tarkka, koska piirustus tietää, mikä kukin kohde on. Katso [Laske piirustuksesta](topic:count-from-a-drawing).
 
 ## Avaa piirustus
 
@@ -13,9 +13,9 @@ TakeoffCraft avaa DWG- tai DXF-piirustuksen samalla tavalla kuin PDF:n: sitä ei
 2. Valitse DWG- tai DXF-tiedosto. Voit valita useita, ja PDF-tiedostoja niiden kanssa.
 3. Valitse Avaa.
 
-Voit myös pudottaa piirustustiedostoja TakeoffCraftiin, kuten PDF-tiedostoja. Mitään ei lähetetä: selain lukee tiedoston tietokoneeltasi.
+Voit myös pudottaa piirustustiedostoja TakeoffDeskiin, kuten PDF-tiedostoja. Mitään ei lähetetä: selain lukee tiedoston tietokoneeltasi.
 
-TakeoffCraft lukee DWG-tiedostot AutoCAD 2000:sta 2018:aan ja ASCII-DXF-tiedostot versiosta R12 versioon 2018. Se hylkää binaarisen DXF:n (tallenna se ASCII-muodossa tai DWG-tiedostona) ja tiedoston, joka ei ole kumpaakaan, ja kertoo syyn. Vioittunut tiedosto avautuu sillä, mikä voitiin lukea, ja viesti kertoo siitä; sen laskennat voivat olla puutteellisia.
+TakeoffDesk lukee DWG-tiedostot AutoCAD 2000:sta 2018:aan ja ASCII-DXF-tiedostot versiosta R12 versioon 2018. Se hylkää binaarisen DXF:n (tallenna se ASCII-muodossa tai DWG-tiedostona) ja tiedoston, joka ei ole kumpaakaan, ja kertoo syyn. Vioittunut tiedosto avautuu sillä, mikä voitiin lukea, ja viesti kertoo siitä; sen laskennat voivat olla puutteellisia.
 
 ## Arkit
 
@@ -40,10 +40,10 @@ Arkki alkaa piirustuksen antamalla mittakaavalla:
 
 ## Linkitetyt piirustukset (xref)
 
-Piirustus, joka linkittää muita piirustuksia, näyttää ne siellä, mihin ne on lisätty. TakeoffCraft löytää linkitetyn piirustuksen **avoimista tiedostoista** tiedostonimen perusteella: avaa isäntäpiirustus ja sen linkitetty piirustus yhdessä (tai toinen toisensa jälkeen). Siihen asti tilarivi kertoo, kuinka monta linkitettyä piirustusta ei löytynyt, mitä ne piirtävät puuttuu, ja laskennat kertovat sen.
+Piirustus, joka linkittää muita piirustuksia, näyttää ne siellä, mihin ne on lisätty. TakeoffDesk löytää linkitetyn piirustuksen **avoimista tiedostoista** tiedostonimen perusteella: avaa isäntäpiirustus ja sen linkitetty piirustus yhdessä (tai toinen toisensa jälkeen). Siihen asti tilarivi kertoo, kuinka monta linkitettyä piirustusta ei löytynyt, mitä ne piirtävät puuttuu, ja laskennat kertovat sen.
 
 ## Rajoitukset
 
-- Kohteet, joita TakeoffCraft ei voi lukea tai sijoittaa (välityskohteet, tuntemattomat luokat), luetellaan laskentaikkunassa tyypin mukaan; niitä ei koskaan jätetä pois ilman mainintaa.
+- Kohteet, joita TakeoffDesk ei voi lukea tai sijoittaa (välityskohteet, tuntemattomat luokat), luetellaan laskentaikkunassa tyypin mukaan; niitä ei koskaan jätetä pois ilman mainintaa.
 - Hyvin suuret piirustukset piirretään osittain, ja laskennat pysähtyvät rajaan, josta ilmoitetaan. Avaa sellaisen piirustuksen PDF-plotti sen sijaan.
 - Piirustus piirretään mustana ja omilla väreillään, tummennettuna valkoiselle paperille. Plottaustyylitaulukoita ja kynäasetuksia ei sovelleta.

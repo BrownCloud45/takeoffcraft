@@ -1,6 +1,6 @@
 ---
 title: Uzunluq, dərəcə və faiz daxiletməsi
-summary: Məsafələr, hündürlüklər, pul dərəcələri və itki faizləri üçün nə yaza bilərsiniz, nümunələr və TakeoffCraft-ın oxuya bilmədiyi daxiletmə üçün mesajlar.
+summary: Məsafələr, hündürlüklər, pul dərəcələri və itki faizləri üçün nə yaza bilərsiniz, nümunələr və TakeoffDesk-ın oxuya bilmədiyi daxiletmə üçün mesajlar.
 keywords: daxiletmə, format, fut düym, kəsrlər, onluq fut, metrik, metrlər, millimetrlər, dərəcə, pul, dollar, faiz, itki, yazma
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Genişləndirilmiş məbləğlər (material, əmək, cəmlər) sentə qədər he
 ## Adlar və vahidlər
 
 - Element və komponent adları: 200 simvola qədər.
-- Komponentin {{ui:Vahid}}-i: 20 simvola qədər istənilən mətn, məsələn `EA`, `vərəq`, `CY`, `gal`. Bu yalnız etiketdir; TakeoffCraft onu çevirmir.
+- Komponentin {{ui:Vahid}}-i: 20 simvola qədər istənilən mətn, məsələn `EA`, `vərəq`, `CY`, `gal`. Bu yalnız etiketdir; TakeoffDesk onu çevirmir.
 
 ## Düsturlar
 

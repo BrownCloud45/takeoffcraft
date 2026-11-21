@@ -5,14 +5,14 @@ keywords: semakan, disemak, banding, tindihan, lama, baharu, perubahan, addendum
 from: 3a1d9fe0
 ---
 
-Apabila helaian diterbitkan semula, anda tidak perlu mengukurnya dari awal. Buka PDF lama dan yang baharu, banding kedua-dua helaian, dan alihkan pengukuran kuantiti merentasinya. TakeoffCraft menandakan setiap tanda yang lukisannya berubah, jadi anda menyemak tanda-tanda itu dan mengekalkan yang lain.
+Apabila helaian diterbitkan semula, anda tidak perlu mengukurnya dari awal. Buka PDF lama dan yang baharu, banding kedua-dua helaian, dan alihkan pengukuran kuantiti merentasinya. TakeoffDesk menandakan setiap tanda yang lukisannya berubah, jadi anda menyemak tanda-tanda itu dan mengekalkan yang lain.
 
 ## Banding
 
 1. Buka kedua-dua PDF: set lama dan yang disemak ({{ui:Buka pelan}}; ia boleh berada dalam satu fail atau beberapa fail).
 2. Tunjukkan helaian **baharu**.
 3. Pilih {{ui:Banding}} pada bar helaian di bawah lukisan.
-4. Pilih helaian lama dalam senarai. TakeoffCraft mencadangkan helaian dengan nombor yang sama dalam PDF yang satu lagi, atau halaman yang sama. Pilih **Banding**.
+4. Pilih helaian lama dalam senarai. TakeoffDesk mencadangkan helaian dengan nombor yang sama dalam PDF yang satu lagi, atau halaman yang sama. Pilih **Banding**.
 
 Lukisan lama kini terletak di atas yang baharu dalam warna merah. Di mana kedua-duanya sepadan, garisan merah berada di atas garisan hitam; di mana ia berbeza, anda nampak garisan merah sahaja (dibuang) dan garisan hitam sahaja (ditambah). Bar di bahagian bawah helaian memegang langkah di bawah; {{key:Esc}} atau {{ui:Tutup}} menamatkan perbandingan.
 
@@ -29,7 +29,7 @@ Lukisan merah dialihkan, dipusing dan diskalakan ke atas yang hitam. Bar status 
 
 ## Cari apa yang berubah
 
-Pilih **Cari perubahan**. TakeoffCraft membandingkan dakwat dua lukisan itu: dakwat hanya pada helaian lama menjadi merah, dakwat hanya pada helaian baharu menjadi biru, dan bar status mengira kesemuanya. Garisan yang beralih sedikit sahaja (cetak semula) tidak dikira sebagai perubahan.
+Pilih **Cari perubahan**. TakeoffDesk membandingkan dakwat dua lukisan itu: dakwat hanya pada helaian lama menjadi merah, dakwat hanya pada helaian baharu menjadi biru, dan bar status mengira kesemuanya. Garisan yang beralih sedikit sahaja (cetak semula) tidak dikira sebagai perubahan.
 
 Ia juga melihat setiap tanda pada helaian lama dan mengira yang berada di tempat lukisan berubah:
 
@@ -40,7 +40,7 @@ Ia juga melihat setiap tanda pada helaian lama dan mengira yang berada di tempat
 
 Pilih **Alih pengukuran kuantiti ke sini**. Setiap tanda pada helaian lama dialihkan ke yang baharu, melalui penjajaran, dalam satu langkah buat asal. Tanda yang berada di sebelah perubahan ditandakan: ia dilukis dengan halo oren, dan bar helaian menunjukkan "(n) untuk disemak".
 
-Jika helaian baharu tiada skala, ia mengambil skala helaian lama (diselaraskan apabila lukisan terpaksa diskalakan untuk dijajarkan). Jika ia sudah mempunyai skala yang berbeza, TakeoffCraft bertanya dahulu: tanda yang dialihkan diukur pada skala helaian baharu.
+Jika helaian baharu tiada skala, ia mengambil skala helaian lama (diselaraskan apabila lukisan terpaksa diskalakan untuk dijajarkan). Jika ia sudah mempunyai skala yang berbeza, TakeoffDesk bertanya dahulu: tanda yang dialihkan diukur pada skala helaian baharu.
 
 ## Semak tanda yang ditandakan
 

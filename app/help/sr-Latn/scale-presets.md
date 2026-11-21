@@ -49,4 +49,4 @@ Kalibrisana razmera se prikazuje kao „Kalibrisana 1" = 4.002' na 24'-6"" u tra
 
 ## Neobični PDF-ovi
 
-Neki PDF-ovi navode veću jedinicu stranice (takozvana „korisnička jedinica”); TakeoffCraft je uzima u obzir za unapred podešene razmere i za prikazanu razmeru. Stranice zakrenute u PDF-u mere se isto kao uspravne.
+Neki PDF-ovi navode veću jedinicu stranice (takozvana „korisnička jedinica”); TakeoffDesk je uzima u obzir za unapred podešene razmere i za prikazanu razmeru. Stranice zakrenute u PDF-u mere se isto kao uspravne.

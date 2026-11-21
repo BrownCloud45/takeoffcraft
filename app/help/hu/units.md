@@ -55,4 +55,4 @@ A lap léptéke azt mondja meg, mekkora a rajz; a tétel mértékegysége pedig 
 
 ## Pontosság
 
-A TakeoffCraft pontosan a kattintott pontokból mér, beleértve a valódi ívhosszakat és területeket, és nem kerekíti a mennyiségeket. A megjelenítés a hosszakat 1/16 hüvelykre, a tizedeseket két tizedesjegyre kerekíti. A pénzösszegek csak a tételes végösszegeknél kerekítődnek, a cent pontosságára.
+A TakeoffDesk pontosan a kattintott pontokból mér, beleértve a valódi ívhosszakat és területeket, és nem kerekíti a mennyiségeket. A megjelenítés a hosszakat 1/16 hüvelykre, a tizedeseket két tizedesjegyre kerekíti. A pénzösszegek csak a tételes végösszegeknél kerekítődnek, a cent pontosságára.

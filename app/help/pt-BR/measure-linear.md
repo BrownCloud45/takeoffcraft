@@ -30,7 +30,7 @@ Enquanto desenha:
 - Arrastar faz pan na folha, e a roda dá zoom, sem adicionar pontos.
 
 :::mac
-Num trackpad do Mac, clique com o botão direito é um clique com dois dedos (ative o clique secundário em Configurações do Sistema, em Trackpad). O TakeoffCraft lê apenas o botão secundário, então um Control-clique pode ser tratado como clique simples e adicionar um ponto. Clique duplo ou {{key:Enter}} sempre terminam.
+Num trackpad do Mac, clique com o botão direito é um clique com dois dedos (ative o clique secundário em Configurações do Sistema, em Trackpad). O TakeoffDesk lê apenas o botão secundário, então um Control-clique pode ser tratado como clique simples e adicionar um ponto. Clique duplo ou {{key:Enter}} sempre terminam.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Depois do primeiro ponto, você pode digitar onde o próximo ficará, em vez de 
 | `@6',-4'` | 6' para a direita e 4' para baixo a partir do último ponto |
 | `6',4'` (ou `#6',4'`) | 6' para a direita e 4' para cima a partir do primeiro ponto deste trecho |
 
-Os comprimentos são digitados como em todo o TakeoffCraft ([Formatos de entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pés), `30"`, `3.2 m`. "Direita" e "cima" são como você vê a folha, mesmo quando a página do PDF é girada.
+Os comprimentos são digitados como em todo o TakeoffDesk ([Formatos de entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pés), `30"`, `3.2 m`. "Direita" e "cima" são como você vê a folha, mesmo quando a página do PDF é girada.
 
 {{key:Enter}} em uma caixa vazia termina o trecho, como {{key:Enter}} na folha; {{key:Esc}} fecha a caixa e mantém o trecho. Os pontos digitados seguem as mesmas regras dos cliques: deduções, arcos e o fechamento de uma área funcionam todos. A mesma caixa funciona em {{ui:Área}} e {{ui:Recorte}}; depois do centro de um círculo, ela pede o raio.
 

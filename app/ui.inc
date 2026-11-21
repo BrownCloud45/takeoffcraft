@@ -1,7 +1,7 @@
 <?php
 // SPDX-License-Identifier: Apache-2.0
 /**
- * TakeoffCraft UI (rendered inside app-shell.inc; $app, $__area, $__build and $__manifest are set).
+ * TakeoffDesk UI (rendered inside app-shell.inc; $app, $__area, $__build and $__manifest are set).
  * Server-rendered shell: toolbar, sheets, the page, items, quantities and the status bar.
  * takeoffcraft.js runs it. PDFs open on this computer; nothing here posts anywhere.
  *
@@ -12,7 +12,7 @@
  *   bottom  quantities and costs (by item / by sheet), job total · status bar
  *
  * "Open in <review app>" on the sheet bar: only when MarkupCraft is open in this area and the build it runs here takes a
- * handed-over file (manifest "accepts": ["handoff"]; see handoff.js). TakeoffCraft itself takes one (?handoff=<id>).
+ * handed-over file (manifest "accepts": ["handoff"]; see handoff.js). TakeoffDesk itself takes one (?handoff=<id>).
  */
 Lang::use($__build); echo Lang::bootTag();   // language files (docs/LANG.md); harmless once app-shell.inc does it
 $__review = Catalog::app('markupcraft');

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Speichern Sie die aktuelle Ermittlung, wenn Sie sie behalten möchten: {{ui:Ermittlung speichern}} oder {{key:Mod+S}}.
 2. Wählen Sie {{ui:Neu}} in der Gruppe {{ui:Datei}}.
-3. Gibt es nicht gespeicherte Änderungen, fragt TakeoffCraft **Nicht gespeicherte Ermittlung**: Wählen Sie {{ui:Zuerst Ermittlung speichern}} (sie lädt das Projekt herunter und leert dann), {{ui:Änderungen verwerfen}} oder {{ui:Abbrechen}}.
+3. Gibt es nicht gespeicherte Änderungen, fragt TakeoffDesk **Nicht gespeicherte Ermittlung**: Wählen Sie {{ui:Zuerst Ermittlung speichern}} (sie lädt das Projekt herunter und leert dann), {{ui:Änderungen verwerfen}} oder {{ui:Abbrechen}}.
    Das Fenster kehrt in seinen leeren Zustand zurück: keine PDFs, keine Positionen, keine Markierungen, keine Maßstäbe. Die Statusleiste sagt „Neue Ermittlung. PDFs öffnen, um zu beginnen.“
 
 Gelöscht wird:

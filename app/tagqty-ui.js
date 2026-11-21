@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * tagqty-ui.js — the page side of "Tag schedule" (0.8 SU.915, TakeoffCraft's side; session takeoff_PART_3): the toolbar's Tags button and its dialog.
+ * tagqty-ui.js — the page side of "Tag schedule" (0.8 SU.915, TakeoffDesk's side; session takeoff_PART_3): the toolbar's Tags button and its dialog.
  * Pick the CSV a BimCraft tag schedule left as, say which column names the line and which holds the number, and each distinct name becomes a typed quantity
  * (tagqty.js → the same import as CivilCraft's cut and fill). Nothing is sent anywhere. Mounted by takeoffcraft.js: mountTagQty(ctx) → { open, drive }.
  */

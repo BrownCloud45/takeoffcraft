@@ -24,7 +24,7 @@ Escolha {{ui:By item}} (a predefinição). Cada artigo tem uma linha, e cada com
 
 A última linha, **Total da obra**, soma as colunas de material, mão de obra e total. O mesmo total aparece à direita do cabeçalho da tabela.
 
-Escreva numa célula de desperdício ou de preço e prima {{key:Enter}} ou clique fora dela para aplicar. Um valor que o TakeoffCraft não consegue ler fica com contorno vermelho e a barra de estado diz porquê, por exemplo «Escreva um valor como 12.50.»
+Escreva numa célula de desperdício ou de preço e prima {{key:Enter}} ou clique fora dela para aplicar. Um valor que o TakeoffDesk não consegue ler fica com contorno vermelho e a barra de estado diz porquê, por exemplo «Escreva um valor como 12.50.»
 
 Clique na linha de um artigo para realçar as suas marcas em todas as folhas e saltar para uma folha que as tenha (o mesmo que clicar nele em {{ui:Items}}).
 

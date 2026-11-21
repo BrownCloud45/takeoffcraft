@@ -1,6 +1,6 @@
 ---
 title: Provjera zaliha dobavljača i rokova isporuke
-summary: Dodajte popis zaliha dobavljača (CSV ili proračunska tablica), a TakeoffCraft provjerava što predmjer treba, uključujući gubitak, u odnosu na njega: ima li dovoljno na zalihi i koliko traje čekanje. Manjkovi i dugi rokovi prikazuju se na ploči Problemi.
+summary: Dodajte popis zaliha dobavljača (CSV ili proračunska tablica), a TakeoffDesk provjerava što predmjer treba, uključujući gubitak, u odnosu na njega: ima li dovoljno na zalihi i koliko traje čekanje. Manjkovi i dugi rokovi prikazuju se na ploči Problemi.
 keywords: dobavljač, zaliha, na zalihi, rok isporuke, dostupnost, manjak, naručeno unaprijed, popis za narudžbu, csv, sku, prodavatelj, materijali, nabava, problemi
 from: f11160fb
 ---

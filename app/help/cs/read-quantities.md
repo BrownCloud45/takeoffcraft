@@ -24,7 +24,7 @@ Zvolte {{ui:Podle položky}} (výchozí). Každá položka má řádek a každá
 
 Poslední řádek, **Celkem zakázky**, sečte sloupce materiálu, práce a celkem. Stejný součet se zobrazí vpravo v záhlaví tabulky.
 
-Zapište hodnotu do buňky odpadu nebo ceny a stiskněte {{key:Enter}}, nebo klikněte mimo ni, čímž ji použijete. Hodnotu, kterou TakeoffCraft nedokáže přečíst, zvýrazní červený obrys a stavový řádek vysvětlí proč, například "Zadejte částku, například 12.50."
+Zapište hodnotu do buňky odpadu nebo ceny a stiskněte {{key:Enter}}, nebo klikněte mimo ni, čímž ji použijete. Hodnotu, kterou TakeoffDesk nedokáže přečíst, zvýrazní červený obrys a stavový řádek vysvětlí proč, například "Zadejte částku, například 12.50."
 
 Klikněte na řádek položky, čímž zvýrazníte její značky na všech listech a přejdete na list, který je obsahuje (stejně jako kliknutím pod {{ui:Položky}}).
 

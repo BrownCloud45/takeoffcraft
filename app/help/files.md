@@ -1,5 +1,5 @@
 ---
-title: Files TakeoffCraft opens and saves
+title: Files TakeoffDesk opens and saves
 summary: PDFs in, a takeoff project file, spreadsheets and marked PDFs out - what each holds, where it goes, and what changes online, offline and between browsers.
 section: start
 order: 30
@@ -16,8 +16,8 @@ keywords: files, formats, pdf, takeoff.json, project file, xlsx, csv, marked pdf
 Other files dropped on the page are skipped, and the status bar names them.
 
 - **Password-protected PDFs** do not open: "(name) is password-protected. Open an unprotected copy."
-- **The same PDF twice** is opened once: "(name) is already open." TakeoffCraft knows files by their contents, not their names.
-- **Scanned PDFs** open and measure like any other; TakeoffCraft does not need the text in the PDF.
+- **The same PDF twice** is opened once: "(name) is already open." TakeoffDesk knows files by their contents, not their names.
+- **Scanned PDFs** open and measure like any other; TakeoffDesk does not need the text in the PDF.
 - **Large plan sets**: every PDF is read in full when it opens (to fingerprint it), so a very large file takes a moment. Thumbnails are drawn one at a time as you scroll.
 
 ## What it saves
@@ -59,7 +59,7 @@ See [Save and reopen a takeoff](topic:save-and-reopen).
 
 ## Online and offline
 
-Your PDFs and takeoffs never leave your computer, online or offline. The connection matters only for loading TakeoffCraft itself.
+Your PDFs and takeoffs never leave your computer, online or offline. The connection matters only for loading TakeoffDesk itself.
 
 To work with no connection, save the app first, while you are online:
 
@@ -67,7 +67,7 @@ To work with no connection, save the app first, while you are online:
    The button counts up, "Saving 12 of 40", while it saves.
 2. Wait for {{ui:Offline ready}}.
 
-Saving TakeoffCraft keeps the app, this help, the PDF reader, the PDF writer used by {{ui:Marked PDF}} and the auto count worker in your browser, about 6 MB. Once it says {{ui:Offline ready}}, everything works offline: opening PDFs, measuring, {{ui:Auto count}}, {{ui:Save takeoff}}, {{ui:XLSX}}, {{ui:CSV}} and {{ui:Marked PDF}}.
+Saving TakeoffDesk keeps the app, this help, the PDF reader, the PDF writer used by {{ui:Marked PDF}} and the auto count worker in your browser, about 6 MB. Once it says {{ui:Offline ready}}, everything works offline: opening PDFs, measuring, {{ui:Auto count}}, {{ui:Save takeoff}}, {{ui:XLSX}}, {{ui:CSV}} and {{ui:Marked PDF}}.
 
 | The button says | Meaning |
 |---|---|
@@ -80,7 +80,7 @@ Saving TakeoffCraft keeps the app, this help, the PDF reader, the PDF writer use
 More, including how long a saved copy lasts in each browser: [Working offline](common:offline).
 
 :::offline
-You are offline. If the app bar shows {{ui:Offline ready}}, everything works. If it does not, the parts TakeoffCraft has not loaded yet in this tab (the PDF writer for {{ui:Marked PDF}}, the auto count worker) cannot load now, and {{ui:Marked PDF}} stops with "The marked PDF could not be written". Your takeoff is safe either way: {{ui:Save takeoff}}, {{ui:XLSX}} and {{ui:CSV}} need no connection. Do not reload the tab until you are online again.
+You are offline. If the app bar shows {{ui:Offline ready}}, everything works. If it does not, the parts TakeoffDesk has not loaded yet in this tab (the PDF writer for {{ui:Marked PDF}}, the auto count worker) cannot load now, and {{ui:Marked PDF}} stops with "The marked PDF could not be written". Your takeoff is safe either way: {{ui:Save takeoff}}, {{ui:XLSX}} and {{ui:CSV}} need no connection. Do not reload the tab until you are online again.
 :::
 
 :::online
@@ -96,7 +96,7 @@ The CSV is plain values with a byte order mark, so spreadsheet programs read cha
 ## Desktop and cloud
 
 :::desktop
-From 0.5 the desktop app is CadCraft Studio: TakeoffCraft and the other seven apps in one install. There is no separate TakeoffCraft installer.
+TakeoffDesk runs in the browser; there is no installer.
 :::
 
 Cloud saving is not available yet. Keep your `.takeoff.json` files with the job's PDFs, and back them up like any other file. See [Where your files go](common:your-files).

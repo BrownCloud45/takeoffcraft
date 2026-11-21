@@ -1,11 +1,11 @@
 ---
 title: Wat het leerde van uw opmetingen
-summary: TakeoffCraft bewaart de symbolen die u bevestigde met Automatisch tellen, uw conditiesets, de samenstellingen die u het meest gebruikt en patronen die u op elke pagina herhaalt, allemaal binnen het eigen bestand van de opmeting. Bekijk ze, gebruik ze, verwijder ze.
+summary: TakeoffDesk bewaart de symbolen die u bevestigde met Automatisch tellen, uw conditiesets, de samenstellingen die u het meest gebruikt en patronen die u op elke pagina herhaalt, allemaal binnen het eigen bestand van de opmeting. Bekijk ze, gebruik ze, verwijder ze.
 keywords: leren, geleerd, leren van, assistent, onthouden, symbolen, sjablonen, zoals vorige klus, vorige klus, conditieset, condities, hergebruiken, samenstellingen, meest gebruikt, suggesties, op elke pagina herhalen, elke pagina, titelblok, patroon, alles wissen, vergeten, privacy
 from: 54d99e99
 ---
 
-TakeoffCraft wordt sneller naarmate u er meer opmetingen mee doet. Het leert **alleen van wat u accepteert**:
+TakeoffDesk wordt sneller naarmate u er meer opmetingen mee doet. Het leert **alleen van wat u accepteert**:
 
 - de symbolen die u met [Automatisch tellen](topic:auto-count) omkaderde en vervolgens toevoegde,
 - de conditiesets die u opslaat,
@@ -64,6 +64,6 @@ Om in één opmeting te stoppen met leren, schakel {{ui:Leren van deze opmeting}
 
 ## Goed om te weten
 
-- Oudere versies van TakeoffCraft openen een bestand met geleerde zaken normaal. Ze negeren dat deel en laten het weg als ze het bestand opnieuw opslaan.
+- Oudere versies van TakeoffDesk openen een bestand met geleerde zaken normaal. Ze negeren dat deel en laten het weg als ze het bestand opnieuw opslaan.
 - Een geleerd symbool is een klein beeld van wat u omkaderde, bewaard in het bestand (elk enkele kilobytes).
 - Geleerde symbolen worden gezocht zoals Automatisch tellen zoekt, dus dezelfde grenzen gelden: [Een symbool automatisch tellen](topic:auto-count).

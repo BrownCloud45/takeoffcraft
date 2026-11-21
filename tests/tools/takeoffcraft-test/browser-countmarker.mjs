@@ -7,7 +7,7 @@
  *
  * Opens a generated 24" × 36" sheet, counts a row of 12 symbols 18 pt apart (1/4" on paper) with the Count tool, measures
  * the dots on the screen's own canvas at 100% (96 px per inch), exports the marked PDF from the Export menu, reads the dot
- * radius out of the PDF and rasterises it with poppler at 96 dpi, and compares. Then Settings › TakeoffCraft › Count marker
+ * radius out of the PDF and rasterises it with poppler at 96 dpi, and compares. Then Settings › TakeoffDesk › Count marker
  * size: Large and Extra small change both, the choice is kept after a reload, Reset puts medium back.
  * Screenshots in tmp/shots/takeoffcraft/countmarker-*.png.
  */
@@ -149,7 +149,7 @@ try {
   ok(Math.abs(pr.width - scr.width) <= 1 && pr.gap !== null && Math.abs(pr.gap - scr.gap) <= 2, `PDF at 96 dpi against the screen at 100%: dot ${pr.width} px vs ${scr.width} px, gap ${pr.gap} px vs ${scr.gap} px`);
   pdfShot(pf, 'countmarker-01-pdf-medium');
 
-  // Settings › TakeoffCraft › Count marker size
+  // Settings › TakeoffDesk › Count marker size
   const setSize = async (v, shot) => {
     await page.click('[data-settings-open]');
     await page.waitForSelector('[data-app-settings][open]');
@@ -164,12 +164,12 @@ try {
   await page.click('[data-settings-open]');
   await page.waitForSelector('[data-app-settings][open]');
   await page.click('[data-settings-tab="app"]');
-  ok(await T(() => { const f = document.querySelector('[data-tc-marker]'); return !!f && f.querySelector('legend').textContent.trim() === 'Count marker size' && [...f.querySelectorAll('input[name="tcMarker"]')].map((r) => r.value).join() === 'xsmall,small,medium,large' && f.querySelector('input[name="tcMarker"]:checked')?.value === 'medium'; }), 'Settings › TakeoffCraft has "Count marker size": Extra small, Small, Medium, Large; Medium is on at the start');
+  ok(await T(() => { const f = document.querySelector('[data-tc-marker]'); return !!f && f.querySelector('legend').textContent.trim() === 'Count marker size' && [...f.querySelectorAll('input[name="tcMarker"]')].map((r) => r.value).join() === 'xsmall,small,medium,large' && f.querySelector('input[name="tcMarker"]:checked')?.value === 'medium'; }), 'Settings › TakeoffDesk has "Count marker size": Extra small, Small, Medium, Large; Medium is on at the start');
   await page.keyboard.press('Escape');
   await page.waitForFunction(() => !document.querySelector('[data-app-settings][open]'));
 
   await setSize('large', 'countmarker-02-settings.png');
-  ok(await T(() => JSON.parse(localStorage.getItem('takeoffcraft.settings')).marker === 'large'), 'Large is stored with the other TakeoffCraft settings (localStorage takeoffcraft.settings)');
+  ok(await T(() => JSON.parse(localStorage.getItem('takeoffcraft.settings')).marker === 'large'), 'Large is stored with the other TakeoffDesk settings (localStorage takeoffcraft.settings)');
   scr = await measure();
   ok(scr && Math.abs(scr.width - 14) <= 1.5, `screen, large: ${scr?.width} px across (8 px radius)`, JSON.stringify(scr));
   await page.screenshot({ path: path.join(OUT, 'countmarker-03-screen-large.png'), clip: await clip() });
@@ -205,7 +205,7 @@ try {
   ok(await T(() => document.querySelector('input[name="tcMarker"]:checked')?.value === 'xsmall'), 'and the dialog shows it');
   await page.click('[data-settings-reset]');
   await page.waitForTimeout(300);
-  ok(await T(() => document.querySelector('input[name="tcMarker"]:checked')?.value === 'medium' && !JSON.parse(localStorage.getItem('takeoffcraft.settings') || '{}').marker), 'Reset TakeoffCraft settings puts Medium back');
+  ok(await T(() => document.querySelector('input[name="tcMarker"]:checked')?.value === 'medium' && !JSON.parse(localStorage.getItem('takeoffcraft.settings') || '{}').marker), 'Reset TakeoffDesk settings puts Medium back');
   await page.keyboard.press('Escape');
 
   ok(!problems.length, 'no console errors' + (problems.length ? ': ' + problems.slice(0, 5).join(' | ') : ''));

@@ -1,6 +1,6 @@
 ---
 title: Klávesnice a myš
-summary: Každá klávesa, myš, touchpad a dotykové gesto v TakeoffCraftu, seskupené, s rozdíly mezi platformami.
+summary: Každá klávesa, myš, touchpad a dotykové gesto v TakeoffDesku, seskupené, s rozdíly mezi platformami.
 keywords: klávesy, zkratky, klávesové zkratky, klávesnice, myš, touchpad, dotyk, posun, zoom, kolečko, pravé tlačítko, dvojklik, space, shift, kopírovat, vložit, vyjmout, duplikovat, vybrat vše
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Viz [Kontrola výkazu ve 3D](topic:check-in-3d).
 | Klávesa | Co dělá |
 |---|---|
 | {{key:F1}} | Otevře nebo zavře panel nápovědy (také tlačítko {{ui:Nápověda}} na liště aplikace). Funguje ve všech nástrojích, i když píšete do pole. |
-| {{key:Esc}} | Zavře panel nápovědy. V jeho hledacím poli první Esc vymaže hledání. Když je panel otevřený, Esc stisknutý po kliknutí na list nejprve zavře panel; stisknutím znovu zrušíte v TakeoffCraftu. |
+| {{key:Esc}} | Zavře panel nápovědy. V jeho hledacím poli první Esc vymaže hledání. Když je panel otevřený, Esc stisknutý po kliknutí na list nejprve zavře panel; stisknutím znovu zrušíte v TakeoffDesku. |
 
 :::mac
 Na mnoha klávesnicích Macu řádek nahoře ovládá jas a zvuk. Stiskněte fn spolu s F1, nebo zapněte "Použít klávesy F1, F2 atd. jako standardní funkční klávesy" v Nastavení systému v části Klávesnice.
@@ -139,7 +139,7 @@ Na mnoha klávesnicích Macu řádek nahoře ovládá jas a zvuk. Stiskněte fn 
 
 :::mac
 - {{key:Mod}} je klávesa Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Výjimkou je celá obrazovka: Control+Shift+F.
-- Pravé tlačítko je dvouprstové klepnutí na touchpadu, pokud je v Nastavení systému v části Trackpad zapnuto sekundární kliknutí. TakeoffCraft čte jen sekundární tlačítko; klik s Control se může počítat jako obyčejný klik a přidat bod.
+- Pravé tlačítko je dvouprstové klepnutí na touchpadu, pokud je v Nastavení systému v části Trackpad zapnuto sekundární kliknutí. TakeoffDesk čte jen sekundární tlačítko; klik s Control se může počítat jako obyčejný klik a přidat bod.
 - Dva prsty posouvající po touchpadu přibližují list (neposouvají ho). Pro posun stiskněte a táhněte, nebo držte {{key:Space}} a táhněte.
 - Page Up a Page Down jsou fn se šipkami nahoru a dolů na klávesnicích, které je nemají.
 - Backspace je klávesa označená delete.
@@ -151,12 +151,12 @@ Na mnoha klávesnicích Macu řádek nahoře ovládá jas a zvuk. Stiskněte fn 
 :::
 
 :::linux
-- {{key:Mod}} je Ctrl. Některá prostředí používají vlastní zkratky Ctrl+Alt nebo Super; TakeoffCraft žádnou z nich nepoužívá.
+- {{key:Mod}} je Ctrl. Některá prostředí používají vlastní zkratky Ctrl+Alt nebo Super; TakeoffDesk žádnou z nich nepoužívá.
 - Na touchpadu dvouprstový posun přibližuje list. Pro posun stiskněte a táhněte.
 :::
 
 :::touch
-TakeoffCraft čte dotyk jako jediný ukazatel:
+TakeoffDesk čte dotyk jako jediný ukazatel:
 
 - Klepnutí umístí bod, vybere značku nebo přidá tečku počtu.
 - Tažení jedním prstem posouvá list (v {{ui:Automatické počítání}} nakreslí rámeček hledání).
@@ -169,7 +169,7 @@ Pro výkaz dnes je lepší klávesnice a myš, nebo touchpad.
 
 ## Klávesy, které si ponechává prohlížeč
 
-Prohlížeč si některé zkratky ponechává a stránka je nemůže použít: zavření karty ({{key:Mod+W}}), nová karta nebo okno ({{key:Mod+T}}, {{key:Mod+N}}) a zoom prohlížeče ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Proto TakeoffCraft přibližuje list kolečkem a samotnými klávesami {{key:Plus}} a {{key:Minus}}. Pokud omylem stisknete {{key:Mod+Plus}}, zvětší se celá stránka; {{key:Mod+0}} ji vrátí zpět. Viz [Klávesy, myši a touchpady](common:keys).
+Prohlížeč si některé zkratky ponechává a stránka je nemůže použít: zavření karty ({{key:Mod+W}}), nová karta nebo okno ({{key:Mod+T}}, {{key:Mod+N}}) a zoom prohlížeče ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Proto TakeoffDesk přibližuje list kolečkem a samotnými klávesami {{key:Plus}} a {{key:Minus}}. Pokud omylem stisknete {{key:Mod+Plus}}, zvětší se celá stránka; {{key:Mod+0}} ji vrátí zpět. Viz [Klávesy, myši a touchpady](common:keys).
 
 ## Kde je příkaz Přesunout
 

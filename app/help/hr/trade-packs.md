@@ -39,4 +39,4 @@ Svaka stavka nosi i svoj broj CSI MasterFormat, poput `09 21 16`.
 
 {{ui:Izvezi kao paket…}} u knjižnici sprema je kao datoteku paketa (`.ccpack.json`) koju svatko može dodati pomoću {{ui:Otvori datoteku paketa…}}. Prema zadanom izostavlja stavke koje su došle iz paketa koje ste dodali i ne nosi cijene. Označite {{ui:Uključi moje cijene kao primjere cijena}} da pošaljete i svoje cijene: idu označene regijom i datumom koje unesete, a onaj tko doda paket odlučuje hoće li ih koristiti.
 
-Datoteke paketa su obični podaci, nikad programi. TakeoffCraft provjerava svaki dio prije uporabe i izostavlja ono što ne može pročitati.
+Datoteke paketa su obični podaci, nikad programi. TakeoffDesk provjerava svaki dio prije uporabe i izostavlja ono što ne može pročitati.

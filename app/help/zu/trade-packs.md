@@ -39,4 +39,4 @@ Yonke into iphinde ithwale inombolo yayo ye-CSI MasterFormat, njengo `09 21 16`.
 
 {{ui:Thumela njengephakhi…}} emtapweni iyawulondoloza njengefayela lephakhi (`.ccpack.json`) okungeziwa yinoma ubani nge-{{ui:Vula ifayela lephakhi…}}. Ngokuzenzakalelayo ishiya izinto ezivela emaphakhini owengezile, futhi ayinawo amanani. Khetha {{ui:Faka amazinga ami njengamazinga wesampula}} ukuthumela namazinga akho: aphuma enelebula yesifunda nosuku owunikezayo, futhi noma ngubani owengeza iphakhi uyakhetha ukuthi uwasebenzise yini.
 
-Amafayela ephakhi ayidatha evamile, hhayi izinhlelo. I-TakeoffCraft ihlola yonke ingxenye yefayela ngaphambi kokuyisebenzisa futhi ishiye noma yini engayifundi.
+Amafayela ephakhi ayidatha evamile, hhayi izinhlelo. I-TakeoffDesk ihlola yonke ingxenye yefayela ngaphambi kokuyisebenzisa futhi ishiye noma yini engayifundi.

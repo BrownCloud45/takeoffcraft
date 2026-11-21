@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-weights-temps.mjs — TakeoffCraft 0.9 TKW.1: weights as typed-quantity units (lb, ton, kg, t) and an item temperature in °C / °F.
+ * browser-weights-temps.mjs — TakeoffDesk 0.9 TKW.1: weights as typed-quantity units (lb, ton, kg, t) and an item temperature in °C / °F.
  * Run as root (session minted by admin.php, like browser-propgrid.mjs):  node tools/takeoffcraft-test/browser-weights-temps.mjs
  */
 import path from 'node:path';

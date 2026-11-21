@@ -55,4 +55,4 @@ Skala arkusza mówi, jak duży jest rysunek; jednostka pozycji mówi, jak go rap
 
 ## Dokładność
 
-TakeoffCraft mierzy dokładnie z klikniętych punktów, łącznie z prawdziwymi długościami i polami łuków, i nie zaokrągla ilości. Wyświetlanie zaokrągla długości do 1/16 cala, a wartości dziesiętne do dwóch miejsc. Kwoty pieniężne są zaokrąglane dopiero w kwotach wynikowych, do grosza.
+TakeoffDesk mierzy dokładnie z klikniętych punktów, łącznie z prawdziwymi długościami i polami łuków, i nie zaokrągla ilości. Wyświetlanie zaokrągla długości do 1/16 cala, a wartości dziesiętne do dwóch miejsc. Kwoty pieniężne są zaokrąglane dopiero w kwotach wynikowych, do grosza.

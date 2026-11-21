@@ -12,7 +12,7 @@
  * full screen needs a click or key press every time.
  *
  * The bars are the app bar plus any toolbar that is a direct child of <main> (CadCraft,
- * MarkupCraft, TakeoffCraft); every app redraws through its ResizeObserver when they go. A workspace layout that puts the
+ * MarkupCraft, TakeoffDesk); every app redraws through its ResizeObserver when they go. A workspace layout that puts the
  * toolbar in the drawing area (.ws-toolbar-strip, app-workspace.js) keeps it a bar: it hides with the others.
  *
  * 0.6 DF.8 (dev builds and releases from 0.6: the Settings dialog carries data-shell-ui): while the bars are hidden a small

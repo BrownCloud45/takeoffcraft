@@ -19,9 +19,9 @@ In **Mengen › Nach Position** trägt eine Zeile, die eine Menge und keinen Mat
 2. Der Dialog nennt den Gesamtbetrag, den Sie freigeben, und listet die Zeilen ohne Einheitspreis auf. Geben Sie Ihren Namen ein und, falls Sie möchten, Ihre Rolle.
 3. Klicken Sie auf **Freigeben**. Die Leiste zeigt nun „Freigegeben von … am …“ mit dem Gesamtbetrag. Speichern Sie die Mengenermittlung, um das in der Datei festzuhalten.
 
-Die Freigabe gehört zu den Zahlen, die Sie freigegeben haben. Jede spätere Änderung an einer Menge, einem Einheitspreis oder einer Zeile hebt sie auf, und TakeoffCraft weist Sie darauf hin. Rückgängig stellt die freigegebene Kalkulation wieder her, und mit ihr die Freigabe. Eine Zeile umzubenennen ist keine Änderung einer Zahl. **Freigabe entfernen** nimmt sie weg.
+Die Freigabe gehört zu den Zahlen, die Sie freigegeben haben. Jede spätere Änderung an einer Menge, einem Einheitspreis oder einer Zeile hebt sie auf, und TakeoffDesk weist Sie darauf hin. Rückgängig stellt die freigegebene Kalkulation wieder her, und mit ihr die Freigabe. Eine Zeile umzubenennen ist keine Änderung einer Zahl. **Freigabe entfernen** nimmt sie weg.
 
-Eine Mengenermittlungsdatei, die außerhalb von TakeoffCraft nach der Freigabe bearbeitet wurde, öffnet sich ohne Freigabe, mit einem Hinweis darauf. Die exportierte Kalkulation (CSV und XLSX) nennt die Freigabe unter den Summen.
+Eine Mengenermittlungsdatei, die außerhalb von TakeoffDesk nach der Freigabe bearbeitet wurde, öffnet sich ohne Freigabe, mit einem Hinweis darauf. Die exportierte Kalkulation (CSV und XLSX) nennt die Freigabe unter den Summen.
 
 Nur eine Person kann freigeben. Ein KI-Assistent kann lesen, ob die Kalkulation freigegeben ist und welche Einheitspreise fehlen; er kann nicht freigeben.
 

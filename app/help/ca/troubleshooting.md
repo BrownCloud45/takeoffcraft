@@ -1,11 +1,11 @@
 ---
 title: Resolució de problemes
-summary: Símptomes, causes i solucions dels missatges i les sorpreses que pots trobar a TakeoffCraft, citats tal com els mostra l'aplicació.
+summary: Símptomes, causes i solucions dels missatges i les sorpreses que pots trobar a TakeoffDesk, citats tal com els mostra l'aplicació.
 keywords: problemes, errors, no funciona, solució, ajuda, rebutjat, no mesura, sense escala, marques que falten, exportació fallida, sense connexió, tàctil
 from: cd319c9b
 ---
 
-TakeoffCraft explica la majoria de rebutjos a la barra d'estat de la part inferior de la finestra. Busca el missatge a continuació.
+TakeoffDesk explica la majoria de rebutjos a la barra d'estat de la part inferior de la finestra. Busca el missatge a continuació.
 
 ## Obrir fitxers
 
@@ -15,8 +15,8 @@ TakeoffCraft explica la majoria de rebutjos a la barra d'estat de la part inferi
 | (name) is password-protected. Open an unprotected copy. | El PDF necessita una contrasenya per obrir-se. | Demana una còpia sense protecció, o treu la contrasenya amb un programa de PDF de confiança. |
 | (name) could not be read as a PDF (…) | El fitxer està malmès o no és realment un PDF. | Baixa'l de nou, o torna'l a desar des del programa que el va fer. |
 | (name) is already open. | El mateix PDF (mateix contingut) ja és obert. | No cal fer res. |
-| TakeoffCraft opens PDFs and .takeoff.json projects. Skipped: … | S'han descartat altres tipus de fitxer. | Converteix primer els dibuixos a PDF. |
-| Nothing happens when I drop files | Els fitxers s'han deixat anar fora de la finestra del navegador, o el navegador ha obert el PDF en una pestanya nova. | Deixa'ls anar sobre la mateixa pàgina de TakeoffCraft; el marc "Drop PDFs or a .takeoff.json" indica quan funcionarà. |
+| TakeoffDesk opens PDFs and .takeoff.json projects. Skipped: … | S'han descartat altres tipus de fitxer. | Converteix primer els dibuixos a PDF. |
+| Nothing happens when I drop files | Els fitxers s'han deixat anar fora de la finestra del navegador, o el navegador ha obert el PDF en una pestanya nova. | Deixa'ls anar sobre la mateixa pàgina de TakeoffDesk; el marc "Drop PDFs or a .takeoff.json" indica quan funcionarà. |
 | Opening a big set takes a while | Cada PDF es llegeix sencer per generar-ne una empremta. | Espera que desaparegui el missatge "Opening (name)…". Les miniatures s'omplen en desplaçar-te. |
 
 ## Mesurar
@@ -47,7 +47,7 @@ TakeoffCraft explica la majoria de rebutjos a la barra d'estat de la part inferi
 | Missatge o símptoma | Causa | Solució |
 |---|---|---|
 | Tria dos punts més separats. | Els punts de calibratge són gairebé l'un sobre l'altre. | Calibra sobre una cota més llarga. |
-| Un missatge al diàleg de calibratge, com ara "That distance could not be read" | La distància està en un format que TakeoffCraft no pot llegir. | Vegeu [Introducció de longituds, tarifes i percentatges](topic:entry-formats). |
+| Un missatge al diàleg de calibratge, com ara "That distance could not be read" | La distància està en un format que TakeoffDesk no pot llegir. | Vegeu [Introducció de longituds, tarifes i percentatges](topic:entry-formats). |
 | Aquest full encara no té escala, així que no hi ha res a comprovar. Calibra'l o tria una predefinida. | {{ui:Comprova}} en un full sense escala. | Defineix primer una escala. |
 | La llista {{ui:Predefinida}} està en gris | No hi ha cap full obert. | Obre un PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft explica la majoria de rebutjos a la barra d'estat de la part inferi
 | Aquest PDF està protegit amb contrasenya o xifrat, així que no es pot escriure una còpia marcada. … | El PDF està xifrat. | Exporta {{ui:XLSX}} en lloc d'això, o fes servir una còpia sense xifrar del PDF (llavors necessita el seu propi amidament, ja que és un fitxer diferent). |
 | No s'ha pogut escriure el PDF marcat: … | Sovint: sense connexió, i l'aplicació no es va desar per usar sense connexió, de manera que falta l'escriptor de PDF. | Connecta't i tria de nou {{ui:PDF marcat}}. Per evitar-ho, tria {{ui:Desa per fer-lo servir sense connexió}} i espera {{ui:Disponible sense connexió}}. |
 | Només s'ha baixat un PDF marcat | El navegador ha bloquejat diverses baixades alhora. | Permet diverses baixades per a aquest lloc i torna a exportar. |
-| (fitxer) no és un projecte de TakeoffCraft (no és un JSON vàlid). / Aquest no és un fitxer de projecte de TakeoffCraft. | Fitxer equivocat, o un de malmès. | Selecciona el fitxer `.takeoff.json`. |
-| Aquest projecte s'ha desat amb un TakeoffCraft més nou. Obre'l allà. | El fitxer ve d'una versió més nova. | Obre'l en la versió més nova. |
+| (fitxer) no és un projecte de TakeoffDesk (no és un JSON vàlid). / Aquest no és un fitxer de projecte de TakeoffDesk. | Fitxer equivocat, o un de malmès. | Selecciona el fitxer `.takeoff.json`. |
+| Aquest projecte s'ha desat amb un TakeoffDesk més nou. Obre'l allà. | El fitxer ve d'una versió més nova. | Obre'l en la versió més nova. |
 | (n) marques s'han malmès i s'han deixat fora. | Part del fitxer s'ha malmès o s'ha editat a mà. | La resta s'ha obert. Torna a dibuixar les marques que falten, o obre una còpia més antiga. |
 | Falten marques en tornar a obrir | Els PDF no estan oberts, o un d'ells ha canviat. | Vegeu [Desar i tornar a obrir un amidament](topic:save-and-reopen#when-a-pdf-has-changed). |
 | El navegador pregunta "Leave site?" | Hi ha canvis sense desar. | Queda't aquí i desa amb {{key:Mod+S}}. |

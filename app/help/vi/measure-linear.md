@@ -30,7 +30,7 @@ Khi đang vẽ:
 - Kéo sẽ di chuyển tờ và con lăn sẽ phóng to, mà không thêm điểm nào.
 
 :::mac
-Trên bàn di chuột Mac, nhấp chuột phải là chạm bằng hai ngón (bật nhấp phụ trong System Settings, mục Trackpad). TakeoffCraft chỉ đọc nút phụ, nên một Control-click có thể được coi là nhấp thường và thêm một điểm. Nhấp đúp hoặc {{key:Enter}} luôn kết thúc.
+Trên bàn di chuột Mac, nhấp chuột phải là chạm bằng hai ngón (bật nhấp phụ trong System Settings, mục Trackpad). TakeoffDesk chỉ đọc nút phụ, nên một Control-click có thể được coi là nhấp thường và thêm một điểm. Nhấp đúp hoặc {{key:Enter}} luôn kết thúc.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Sau điểm đầu tiên, bạn có thể gõ vị trí của điểm tiếp the
 | `@6',-4'` | Cách điểm cuối cùng 6' sang phải và 4' xuống dưới |
 | `6',4'` (hoặc `#6',4'`) | Cách điểm đầu tiên của đoạn này 6' sang phải và 4' lên trên |
 
-Chiều dài được gõ như mọi nơi trong TakeoffCraft ([Định dạng nhập liệu](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Phải" và "lên" là theo cách bạn nhìn tờ, kể cả khi trang PDF đã được xoay.
+Chiều dài được gõ như mọi nơi trong TakeoffDesk ([Định dạng nhập liệu](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Phải" và "lên" là theo cách bạn nhìn tờ, kể cả khi trang PDF đã được xoay.
 
 {{key:Enter}} trên hộp trống sẽ kết thúc đoạn, giống như {{key:Enter}} trên tờ; {{key:Esc}} đóng hộp và giữ đoạn tiếp tục. Các điểm được gõ đi qua cùng quy tắc như các lần nhấp: khấu trừ, cung và đóng một diện tích đều hoạt động. Hộp này cũng dùng được trong {{ui:Diện tích}} và {{ui:Lỗ khoét}}; sau tâm của một vòng tròn, nó nhận bán kính.
 

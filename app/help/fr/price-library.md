@@ -13,7 +13,7 @@ Ouvrez-la avec {{ui:Bibliothèque}} en haut du panneau {{ui:Éléments (I)}}.
 
 - {{ui:Importer un CSV…}} lit un tableur enregistré en CSV (voir les colonnes ci-dessous). Les postes dont le nom et le type figurent déjà dans la bibliothèque sont remplacés ; les autres sont ajoutés. Les lignes illisibles sont ignorées, et l'outil indique lesquelles et pourquoi.
 - {{ui:Ajouter les postes de ce métré}} copie chaque poste du métré ouvert dans la bibliothèque, avec ses taux et son ouvrage (mais non ses repères).
-- L'estimation CSV exportée par TakeoffCraft ([Exporter l'estimation](topic:export-estimate)) s'importe telle quelle : les prix du dernier chantier servent de base au suivant.
+- L'estimation CSV exportée par TakeoffDesk ([Exporter l'estimation](topic:export-estimate)) s'importe telle quelle : les prix du dernier chantier servent de base au suivant.
 
 - {{ui:Lots de métiers…}} ajoute des ouvrages gratuits pour un métier, comme la cloison sèche, l'électricité ou le béton, sans prix. Voir [Lots de métiers](topic:trade-packs).
 

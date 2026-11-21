@@ -14,7 +14,7 @@ Un ítem de conteo cuenta cosas: puertas, artefactos de luz, tomas, artefactos s
 3. Hacé clic en cada uno en la hoja.
    Cada clic pone un punto del color del ítem, y el conteo del ítem sube en uno.
 4. Pasá a la siguiente hoja ({{key:PageDown}}) y seguí contando. La herramienta sigue en {{ui:Count}}.
-5. Presioná {{key:Esc}} cuando termines. TakeoffCraft vuelve a {{ui:Select}}.
+5. Presioná {{key:Esc}} cuando termines. TakeoffDesk vuelve a {{ui:Select}}.
 
 Arrastrar sigue desplazando y la rueda sigue haciendo zoom mientras contás, así podés moverte por la hoja sin agregar puntos.
 
@@ -30,7 +30,7 @@ Hacé clic en el ítem de conteo para resaltar sus puntos en todas las hojas. La
 
 ## Tamaño del punto, en pantalla y en el PDF
 
-Los puntos mantienen un tamaño en pantalla sin importar cuánto hagas zoom. Para cambiarlo, abrí {{ui:Settings}}, la pestaña TakeoffCraft, y elegí **Count marker size**: Extra small, Small, Medium (el predeterminado) o Large.
+Los puntos mantienen un tamaño en pantalla sin importar cuánto hagas zoom. Para cambiarlo, abrí {{ui:Settings}}, la pestaña TakeoffDesk, y elegí **Count marker size**: Extra small, Small, Medium (el predeterminado) o Large.
 
 La exportación a PDF ({{ui:Export}} › el PDF marcado) dibuja cada punto del mismo tamaño en papel, sea cual sea el tamaño de la hoja: un visor que muestra el PDF al 100% muestra los puntos tan grandes como en pantalla. Si en una hoja los puntos se tocarían, la exportación reduce el tamaño de esos puntos para que cada uno se pueda leer.
 

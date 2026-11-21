@@ -77,7 +77,7 @@ Una fila por hoja que tenga escala o marcas.
 | Sheet | Nombre de la hoja |
 | Scale | Nombre del preajuste, o la escala calibrada, o "No scale" |
 | How | "Preset", o "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | El factor de escala exacto que usa TakeoffCraft |
+| Feet per PDF unit | El factor de escala exacto que usa TakeoffDesk |
 
 ## Nombres de archivo
 

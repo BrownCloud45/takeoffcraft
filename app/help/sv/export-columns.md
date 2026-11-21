@@ -77,7 +77,7 @@ En rad per blad som har en skala eller markeringar.
 | Blad | Bladets namn |
 | Skala | Förinställningens namn, den kalibrerade skalan, eller ”Ingen skala” |
 | Hur | ”Förinställd”, eller ”Kalibrerad på (avståndet du skrev)” |
-| Fot per PDF-enhet | Den exakta skalfaktor som TakeoffCraft använder |
+| Fot per PDF-enhet | Den exakta skalfaktor som TakeoffDesk använder |
 
 ## Filnamn
 

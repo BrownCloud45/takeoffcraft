@@ -5,7 +5,7 @@ keywords: earthwork, paghuhukay, excavation, cut, fill, cut and fill, grading, s
 from: a898e508
 ---
 
-Sumusukat ang TakeoffCraft ng kung ano ang nakaguhit sa isang sheet. Kailangan ng earthwork ang ground surface, kaya ibinabahagi ito sa CivilCraft, na gumagawa ng surface mula sa mga punto, nagla-grade nito, at kinukuwenta ang cut and fill at haul.
+Sumusukat ang TakeoffDesk ng kung ano ang nakaguhit sa isang sheet. Kailangan ng earthwork ang ground surface, kaya ibinabahagi ito sa CivilCraft, na gumagawa ng surface mula sa mga punto, nagla-grade nito, at kinukuwenta ang cut and fill at haul.
 
 ## Simpleng paghuhukay dito
 
@@ -29,8 +29,8 @@ Hindi nagbabahagi ng coordinates ang mga punto mula sa magkaibang sheet, kaya bu
 
 Dalawang item ang ibinabalik ng earthwork ng CivilCraft na maaari mong presyuhan:
 
-1. Sa CivilCraft, i-grade ang iyong pads at corridors, pagkatapos ay piliin ang {{ui:Ipadala sa TakeoffCraft}} sa ilalim ng **Earthwork** ([Earthwork volumes](app:civilcraft/volumes)). Nagse-save ito ng quantities file (`.quantities.json`).
-2. Sa TakeoffCraft, buksan ito gamit ang {{ui:Buksan ang takeoff}}, o i-drop ito sa app. Nananatiling bukas ang takeoff mo: idinadagdag ng file ang **Earthwork: cut** at **Earthwork: fill** bilang [typed quantities](topic:create-items#typed-quantities-no-drawing) sa cubic yards (CY) para sa feet project, o cubic meters (m³) para sa metre project. Isang hakbang lang ito: binabawi ito ng {{key:Mod+Z}}.
+1. Sa CivilCraft, i-grade ang iyong pads at corridors, pagkatapos ay piliin ang {{ui:Ipadala sa TakeoffDesk}} sa ilalim ng **Earthwork** ([Earthwork volumes](app:civilcraft/volumes)). Nagse-save ito ng quantities file (`.quantities.json`).
+2. Sa TakeoffDesk, buksan ito gamit ang {{ui:Buksan ang takeoff}}, o i-drop ito sa app. Nananatiling bukas ang takeoff mo: idinadagdag ng file ang **Earthwork: cut** at **Earthwork: fill** bilang [typed quantities](topic:create-items#typed-quantities-no-drawing) sa cubic yards (CY) para sa feet project, o cubic meters (m³) para sa metre project. Isang hakbang lang ito: binabawi ito ng {{key:Mod+Z}}.
 3. I-rename ang mga ito, at itakda ang waste, rate at assembly ayon sa gusto mo.
 
 Kapag nagbago ang disenyo, magpadala ulit mula sa CivilCraft at buksan ang bagong file: ang parehong dalawang item ay makakakuha ng bagong quantities. Nananatili ang kanilang pangalan, rate, waste at assembly na itinakda mo. Kung nagbago ang unit ng project, sinasabi ito ng status bar: suriin ang mga rate. Ang file mula sa ibang project ng CivilCraft ay nagdadagdag ng sarili nitong dalawang item.

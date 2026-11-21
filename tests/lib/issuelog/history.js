@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * history.js: the ONE issue history (0.10 BK.46, BK.48; session bk-r3-stages-10). Host-free, no DOM, no imports: BimCraft's sheets,
- * MarkupCraft's pages, TakeoffCraft's sheets and DetailCraft's shop drawings all record issues in this shape, so a drawing changelog
+ * MarkupCraft's pages, TakeoffDesk's sheets and DetailCraft's shop drawings all record issues in this shape, so a drawing changelog
  * reads the same in every app and in SuperCad Studio. Synced byte-identical into <app>/dev/issuelog/ by tools/issuelog/sync.mjs.
  *
  * An ISSUE is a set of sheets given out on a date for a purpose, each sheet at a revision, with a print of what was on it:

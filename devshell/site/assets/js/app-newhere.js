@@ -20,7 +20,7 @@
   // the area this page lives in (/try, /lab …): the other apps are its neighbours
   var AREA = SITE ? '/try' : '/' + (location.pathname.split('/')[1] || 'try');
   var APPS = ['cadcraft', 'bimcraft', 'modelcraft', 'markupcraft', 'takeoffcraft', 'civilcraft', 'detailcraft', 'partcraft'];
-  var NAMES = { cadcraft: 'CadCraft', bimcraft: 'BimCraft', modelcraft: 'ModelCraft', markupcraft: 'MarkupCraft', takeoffcraft: 'TakeoffCraft', civilcraft: 'CivilCraft', detailcraft: 'DetailCraft', partcraft: 'PartCraft' };
+  var NAMES = { cadcraft: 'CadCraft', bimcraft: 'BimCraft', modelcraft: 'ModelCraft', markupcraft: 'MarkupCraft', takeoffcraft: 'TakeoffDesk', civilcraft: 'CivilCraft', detailcraft: 'DetailCraft', partcraft: 'PartCraft' };
   var TASKS = ['draft', 'building', 'model', 'markup', 'takeoff', 'civil', 'detail', 'parts'];   // same order as APPS
 
   function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }

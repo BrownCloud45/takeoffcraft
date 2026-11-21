@@ -19,9 +19,9 @@ V **Množství › Podle položky** je řádek, který má množství a nemá ma
 2. Dialog uvádí součet, který podepisujete, a vypisuje řádky bez ceny. Napište své jméno a, pokud chcete, svou roli.
 3. Klikněte na **Podepsat**. Lišta nyní říká "Podepsal … dne …" se součtem. Uložte výkaz, aby se to zachovalo v souboru.
 
-Podpis patří k číslům, která jste podepsali. Jakákoli pozdější změna množství, jednotkové ceny nebo řádku ho zruší a TakeoffCraft vás na to upozorní. Zpět vrátí rozpočet, který jste podepsali, i s jeho podpisem. Přejmenování řádku není změnou čísla. **Odebrat podpis** ho odstraní.
+Podpis patří k číslům, která jste podepsali. Jakákoli pozdější změna množství, jednotkové ceny nebo řádku ho zruší a TakeoffDesk vás na to upozorní. Zpět vrátí rozpočet, který jste podepsali, i s jeho podpisem. Přejmenování řádku není změnou čísla. **Odebrat podpis** ho odstraní.
 
-Soubor výkazu, který byl po podpisu upraven mimo TakeoffCraft, se otevře bez podpisu s poznámkou o tom. Exportovaný rozpočet (CSV a XLSX) uvádí podpis pod součty.
+Soubor výkazu, který byl po podpisu upraven mimo TakeoffDesk, se otevře bez podpisu s poznámkou o tom. Exportovaný rozpočet (CSV a XLSX) uvádí podpis pod součty.
 
 Podepisuje pouze člověk. AI asistent může zjistit, zda je rozpočet podepsán a které ceny chybí; nemá způsob, jak podepsat.
 

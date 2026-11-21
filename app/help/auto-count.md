@@ -1,6 +1,6 @@
 ---
 title: Auto count a symbol
-summary: Box one symbol, let TakeoffCraft find the others on this sheet or every open sheet, review the matches with the slider, and add them in one step.
+summary: Box one symbol, let TakeoffDesk find the others on this sheet or every open sheet, review the matches with the slider, and add them in one step.
 section: tasks
 order: 70
 keywords: any angle, rotated, turned, other scale, different scale, auto count, automatic count, symbol search, find symbols, pattern, template, match, detect, count tool
@@ -39,7 +39,7 @@ To drop the review without adding anything, choose {{ui:Discard}} or press {{key
 
 ## What it finds, and what it misses
 
-TakeoffCraft compares the drawing, as pixels, with the symbol you boxed.
+TakeoffDesk compares the drawing, as pixels, with the symbol you boxed.
 
 - It finds the symbol turned 0°, 90°, 180° and 270°. Tick {{ui:Any angle (slower)}} on the auto count bar before you draw the box to find it at any angle as well: it tries every 15°, then fine-tunes each find to the degree and a half. That takes about six times as long. It does not find a mirrored symbol (unless the symbol looks the same mirrored).
 - With {{ui:Search all open sheets}} ticked, a sheet at another scale is searched at the size the symbol has there: a fixture drawn to scale on a 1/8" plan is half the size it is on a 1/4" plan, and is still found. Such a sheet is also searched at the box's own size, for tags and symbols printed at one size on every sheet. This needs a scale on both sheets; a sheet with no scale is searched at the box's size only.

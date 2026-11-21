@@ -46,7 +46,7 @@ Els números no canvien en 3D: l'àrea d'un mur és la seva longitud exacta per 
 | {{ui:Full}} | Mostra o amaga el dibuix a terra. |
 | El cub de vista, a dalt a la dreta | Feu clic en una cara, aresta o cantonada per mirar des d'allà; arrossegueu-lo per girar; arrossegueu el seu anell de brúixola per rotar; el botó de casa torna a {{ui:Iso}}. |
 
-La cantonada mostra un cub de vista, una petita icona dels eixos X, Y, Z, o res: trieu-ho a {{ui:Configuració}}, a la pestanya TakeoffCraft, sota **Indicador de cantonada** ([Configuració de TakeoffCraft](topic:settings)). El full pla no té indicador de cantonada.
+La cantonada mostra un cub de vista, una petita icona dels eixos X, Y, Z, o res: trieu-ho a {{ui:Configuració}}, a la pestanya TakeoffDesk, sota **Indicador de cantonada** ([Configuració de TakeoffDesk](topic:settings)). El full pla no té indicador de cantonada.
 
 :::touch
 Un dit gira; dos dits pincen per ampliar i es mouen per desplaçar. Un toc selecciona.

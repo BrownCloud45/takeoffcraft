@@ -5,7 +5,7 @@ keywords: punë dheu, gërmim, mbushje, gërmim dhe mbushje, nivelim, kotë pike
 from: a898e508
 ---
 
-TakeoffCraft mat atë që është vizatuar në një fletë. Puna me dheun ka nevojë për një sipërfaqe terreni, prandaj ndahet me CivilCraft, i cili ndërton sipërfaqe nga pikat, i nivelon ato dhe llogarit gërmimin, mbushjen dhe transportin.
+TakeoffDesk mat atë që është vizatuar në një fletë. Puna me dheun ka nevojë për një sipërfaqe terreni, prandaj ndahet me CivilCraft, i cili ndërton sipërfaqe nga pikat, i nivelon ato dhe llogarit gërmimin, mbushjen dhe transportin.
 
 ## Gërmim i thjeshtë këtu
 
@@ -29,8 +29,8 @@ Pikat nga fletë të ndryshme nuk ndajnë koordinata, prandaj eksporti merr vet�
 
 Puna me dheun e CivilCraft kthehet si dy artikuj që mund t'i çmosh:
 
-1. Në CivilCraft, nivelo platformat dhe korridoret, pastaj zgjidh {{ui:Dërgo te TakeoffCraft}} nën **Punë dheu** ([Vëllimet e punës me dheun](app:civilcraft/volumes)). Ai ruan një skedar sasish (`.quantities.json`).
-2. Në TakeoffCraft, hape me {{ui:Hap llogaritjen}}, ose lëshoje mbi aplikacion. Llogaritja jote mbetet e hapur: skedari shton **Punë dheu: gërmim** dhe **Punë dheu: mbushje** si [sasi të tipizuara](topic:create-items#typed-quantities-no-drawing) në jard kub (CY) për projekt në këmbë, ose metra kub (m³) për projekt në metra. Është një hap: {{key:Mod+Z}} e kthen mbrapsht.
+1. Në CivilCraft, nivelo platformat dhe korridoret, pastaj zgjidh {{ui:Dërgo te TakeoffDesk}} nën **Punë dheu** ([Vëllimet e punës me dheun](app:civilcraft/volumes)). Ai ruan një skedar sasish (`.quantities.json`).
+2. Në TakeoffDesk, hape me {{ui:Hap llogaritjen}}, ose lëshoje mbi aplikacion. Llogaritja jote mbetet e hapur: skedari shton **Punë dheu: gërmim** dhe **Punë dheu: mbushje** si [sasi të tipizuara](topic:create-items#typed-quantities-no-drawing) në jard kub (CY) për projekt në këmbë, ose metra kub (m³) për projekt në metra. Është një hap: {{key:Mod+Z}} e kthen mbrapsht.
 3. Riemërto ato, vendos humbjen, tarifat dhe montimet sipas dëshirës.
 
 Kur ndryshon projekti, dërgo përsëri nga CivilCraft dhe hap skedarin e ri: të njëjtat dy artikuj marrin sasitë e reja. Emrat, tarifat, humbja dhe montimet mbeten ashtu si i ke caktuar. Nëse njësia e projektit ka ndryshuar, shiriti i gjendjes e thotë këtë: kontrollo tarifat. Një skedar nga një projekt tjetër i CivilCraft shton dy artikujt e vet.

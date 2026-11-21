@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, desenho, abrir um desenho, layouts, espaço modelo, esp
 from: d8c3f504
 ---
 
-O TakeoffCraft abre um desenho DWG ou DXF da mesma forma que abre um PDF: não é preciso imprimi-lo antes para PDF. A contagem feita a partir do próprio desenho é exata, porque o desenho sabe o que é cada objeto. Ver [Contar a partir de um desenho](topic:count-from-a-drawing).
+O TakeoffDesk abre um desenho DWG ou DXF da mesma forma que abre um PDF: não é preciso imprimi-lo antes para PDF. A contagem feita a partir do próprio desenho é exata, porque o desenho sabe o que é cada objeto. Ver [Contar a partir de um desenho](topic:count-from-a-drawing).
 
 ## Abrir o desenho
 
@@ -13,9 +13,9 @@ O TakeoffCraft abre um desenho DWG ou DXF da mesma forma que abre um PDF: não �
 2. Selecione o ficheiro DWG ou DXF. Pode selecionar vários, e PDF juntamente com eles.
 3. Escolha Abrir.
 
-Também pode largar ficheiros de desenho no TakeoffCraft, como os PDF. Nada é enviado: o navegador lê o ficheiro no seu computador.
+Também pode largar ficheiros de desenho no TakeoffDesk, como os PDF. Nada é enviado: o navegador lê o ficheiro no seu computador.
 
-O TakeoffCraft lê DWG desde o AutoCAD 2000 até ao 2018 e DXF ASCII desde o R12 até ao 2018. Recusa um DXF binário (guarde-o como ASCII, ou como DWG) e um ficheiro que não seja nenhum dos dois, e diz porquê. Um ficheiro danificado abre com o que foi possível ler, e uma mensagem indica-o; as suas contagens podem estar incompletas.
+O TakeoffDesk lê DWG desde o AutoCAD 2000 até ao 2018 e DXF ASCII desde o R12 até ao 2018. Recusa um DXF binário (guarde-o como ASCII, ou como DWG) e um ficheiro que não seja nenhum dos dois, e diz porquê. Um ficheiro danificado abre com o que foi possível ler, e uma mensagem indica-o; as suas contagens podem estar incompletas.
 
 ## Folhas
 
@@ -40,10 +40,10 @@ Uma folha começa com a escala que o desenho indica:
 
 ## Desenhos referenciados (xrefs)
 
-Um desenho que referencia outros desenhos mostra-os onde estão inseridos. O TakeoffCraft encontra um desenho referenciado entre os **ficheiros abertos**, pelo nome do ficheiro: abra o desenho principal e o desenho referenciado em conjunto (ou um a seguir ao outro). Até lá, a barra de estado indica quantos desenhos referenciados não foram encontrados, e que o que desenhavam fica em falta; as contagens assinalam-no.
+Um desenho que referencia outros desenhos mostra-os onde estão inseridos. O TakeoffDesk encontra um desenho referenciado entre os **ficheiros abertos**, pelo nome do ficheiro: abra o desenho principal e o desenho referenciado em conjunto (ou um a seguir ao outro). Até lá, a barra de estado indica quantos desenhos referenciados não foram encontrados, e que o que desenhavam fica em falta; as contagens assinalam-no.
 
 ## Limites
 
-- Os objetos que o TakeoffCraft não consegue ler ou colocar (objetos proxy, classes desconhecidas) são listados na janela de contagem por tipo; nunca são descartados sem aviso.
+- Os objetos que o TakeoffDesk não consegue ler ou colocar (objetos proxy, classes desconhecidas) são listados na janela de contagem por tipo; nunca são descartados sem aviso.
 - Os desenhos muito grandes são desenhados em parte, e as contagens param num limite, indicando-o. Abra antes uma impressão PDF deste desenho.
 - Um desenho é desenhado a preto e nas suas próprias cores, escurecidas para papel branco. As tabelas de estilos de impressão e as atribuições de canetas não se aplicam.

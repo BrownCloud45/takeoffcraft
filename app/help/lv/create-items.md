@@ -37,12 +37,12 @@ Ievadītam daudzumam nav nekādu atzīmju, un tas nekad nepadara tāmi nepabeigt
 Veidlapā nospiediet {{key:Esc}}, lai to aizvērtu, nepievienojot vienumu.
 
 :::tip
-Ja vispirms izvēlaties mērīšanas rīku, TakeoffCraft izmanto pēdējo pareizā veida vienumu vai atver veidlapu {{ui:New item}} jau ar izvēlētu veidu.
+Ja vispirms izvēlaties mērīšanas rīku, TakeoffDesk izmanto pēdējo pareizā veida vienumu vai atver veidlapu {{ui:New item}} jau ar izvēlētu veidu.
 :::
 
 ## Izvēlēties vienumu, ar kuru zīmējat
 
-Noklikšķiniet uz vienuma sarakstā. Tas kļūst par vienumu, kuram tiek piešķirtas jaunās atzīmes, un tā atzīmes tiek izceltas visās lapās, kamēr pārējie izbāl. Ja atvērtajā lapā nav neviena tā atzīme, TakeoffCraft pāriet uz lapu, kurā tādas ir. Vēlreiz noklikšķiniet uz vienuma, lai pārtrauktu izcelšanu; tas paliek vienums, ar kuru zīmējat.
+Noklikšķiniet uz vienuma sarakstā. Tas kļūst par vienumu, kuram tiek piešķirtas jaunās atzīmes, un tā atzīmes tiek izceltas visās lapās, kamēr pārējie izbāl. Ja atvērtajā lapā nav neviena tā atzīme, TakeoffDesk pāriet uz lapu, kurā tādas ir. Vēlreiz noklikšķiniet uz vienuma, lai pārtrauktu izcelšanu; tas paliek vienums, ar kuru zīmējat.
 
 Noklikšķinot uz atzīmes ar rīku {{ui:Select}}, arī tās vienums kļūst par pašreizējo.
 
@@ -57,7 +57,7 @@ Vienuma redaktorā (**Vienums: (nosaukums)**) ir šādi lauki. Katrs tiek saglab
 | {{ui:Color}} | Tā atzīmju krāsa ekrānā un atzīmētajā PDF. |
 | {{ui:Unit}} | Mērvienība, kādā tiek atskaitīts daudzums: LF vai m lineāram; SF, SY, SQ, ac, ha vai m² laukumam; EA skaitīšanai. |
 | {{ui:Also measure}} | Citi atzīmju veidi, ko vienums pieņem, katrs ar savu mērvienību. Skatiet tālāk. |
-| {{ui:Height}} (linear) | Sienas augstums. Tad vienums atskaita arī sienas laukumu (garums × augstums). Posmi, kas nākuši no BimCraft modeļa, nes savas durvis un logus: tās tiek izņemtas vienu reizi, un vienums norāda bruto laukumu, atvērumus un neto. Apjomu aprēķins no BimCraft projekta, kurā izvēlēta mērīšanas metode, šeit tiek mērīts arī ar šo metodi (piezīmē tā nosaukta, ar avotu, un norādīts, ka to nav pārbaudījis kvantitāšu inženieris); metodi TakeoffCraft mainīt nevar. Ķieģeļi vai bloki un java, kas nākuši no sienas veida, ir divi komponenti: pasūtāmās vienības un javas tilpums. |
+| {{ui:Height}} (linear) | Sienas augstums. Tad vienums atskaita arī sienas laukumu (garums × augstums). Posmi, kas nākuši no BimCraft modeļa, nes savas durvis un logus: tās tiek izņemtas vienu reizi, un vienums norāda bruto laukumu, atvērumus un neto. Apjomu aprēķins no BimCraft projekta, kurā izvēlēta mērīšanas metode, šeit tiek mērīts arī ar šo metodi (piezīmē tā nosaukta, ar avotu, un norādīts, ka to nav pārbaudījis kvantitāšu inženieris); metodi TakeoffDesk mainīt nevar. Ķieģeļi vai bloki un java, kas nākuši no sienas veida, ir divi komponenti: pasūtāmās vienības un javas tilpums. |
 | {{ui:Depth}} (area) | Dziļums vai biezums, ko izmanto mezgla formulās (piemēram, betona tilpums). |
 | {{ui:Waste %}} | Tiek pieskaitīts daudzumam pirms cenas aprēķina: 10 nozīmē daudzums × 1.10. |
 | **Materiāls $/LF** | Materiāla izmaksas par vienību. Uzraksts seko mērvienībai: $/SF, $/EA un tā tālāk. |
@@ -74,7 +74,7 @@ Dažas lietas mēra vairākos veidos: istabai ir grīda (laukums), plinšu josla
 
 1. Izveidojiet vienumu ar tā galveno veidu, piemēram, laukuma vienumu `Telpa 101`.
 2. Vienuma redaktorā zem {{ui:Also measure}} atzīmējiet {{ui:Linear}}, {{ui:Count}} vai abus. Katram ir mērvienība blakus.
-3. Zīmējiet ar jebkuru rīku, kura veids vienumam ir pieņemams: ar pašreizējo `Telpa 101` {{ui:Area}} zīmē tās grīdu, {{ui:Linear}} — plinšu joslu, bet {{ui:Count}} — durvis. TakeoffCraft nejautā citu vienumu.
+3. Zīmējiet ar jebkuru rīku, kura veids vienumam ir pieņemams: ar pašreizējo `Telpa 101` {{ui:Area}} zīmē tās grīdu, {{ui:Linear}} — plinšu joslu, bet {{ui:Count}} — durvis. TakeoffDesk nejautā citu vienumu.
 
 Vienumu sarakstā redzams katrs daudzums (`50.00 SF + 2 EA`). Daudzumu tabulā vienuma rindā ir galvenais daudzums, un katrs cits veids saņem savu rindu zem tā, piemēram, **Telpa 101 (skaitīšana)**, ar savām atkritumu, materiālu un darbaspēka likmēm. Eksporti, lapas tabula un atzīmētā PDF leģenda tos uzskaita tāpat.
 
@@ -113,7 +113,7 @@ Darbaspēka likmes par vienību vietā vienuma darbaspēks var nākt no brigāde
 | {{ui:Crew size}} | `2` cilvēki |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft aprēķina no daudzuma ar atkritumiem:
+TakeoffDesk aprēķina no daudzuma ar atkritumiem:
 
 - **brigādes stundas** = daudzums ÷ ražīgums (110 LF ÷ 20 = 5.5),
 - **darbinieku stundas** = brigādes stundas × brigādes sastāvs (11),

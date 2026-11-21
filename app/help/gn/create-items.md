@@ -37,12 +37,12 @@ Cantidad escrita ndoiporúi marca ha nunca ndohasái presupuesto ndaiko'ẽ. Có
 Eapreta {{key:Esc}} formulario-pe ojeheja hag̃ua ítem ndaha'éi oñemoĩvo.
 
 :::tip
-Medición herramienta primero eiporu ramo, TakeoffCraft eiporu tipo ojeporúva ramo hopápe ítem, térã oñepyrũ {{ui:Nuevo ítem}} formulario upe tipo jepe ojeporúva.
+Medición herramienta primero eiporu ramo, TakeoffDesk eiporu tipo ojeporúva ramo hopápe ítem, térã oñepyrũ {{ui:Nuevo ítem}} formulario upe tipo jepe ojeporúva.
 :::
 
 ## Elegir el ítem con el que dibujás
 
-Eje'o peteĩ ítem lista-pe. Oñemoĩ ítem marca pyahu oiko ryepýpe, ha hoja opavavépe ohechauka marca-kuéra, ambuégui oikókuri. Hoja ojehechágui marca ndoguerekoi, TakeoffCraft oho hoja oguerekóva. Eje'o jey ítem ohechaukáva jeporu; oikoseha ítem ojejapóva.
+Eje'o peteĩ ítem lista-pe. Oñemoĩ ítem marca pyahu oiko ryepýpe, ha hoja opavavépe ohechauka marca-kuéra, ambuégui oikókuri. Hoja ojehechágui marca ndoguerekoi, TakeoffDesk oho hoja oguerekóva. Eje'o jey ítem ohechaukáva jeporu; oikoseha ítem ojejapóva.
 
 Eiporu {{ui:Seleccionar}} herramienta marca rehe eje'o ramo, upe marca ítem oiko ojeporúva.
 
@@ -57,7 +57,7 @@ Eiporu {{ui:Seleccionar}} herramienta marca rehe eje'o ramo, upe marca ítem oik
 | {{ui:Color}} | Marca-kuéra color pantalla-pe ha PDF marcado-pe. |
 | {{ui:Unidad}} | Cantidad ohechauka mávape: LF térã m lineal-pe; SF, SY, SQ, ac, ha térã m² área-pe; EA conteo-pe. |
 | {{ui:Medir también}} | Ambue clase marca ítem oguerekóva, peteĩteĩ unidad-nguéva. Ehecha peteĩ rehe. |
-| {{ui:Altura}} (lineal) | Peteĩ altura muro. Ítem upéicha ohecha avei área muro (longitud × altura). Tramo BimCraft modelo-gui ojeguerahágui oguereko puerta ha ventana: upéva peteĩ jey oñemboguejy, ha ítem ohechauka área bruta, aberturas ha neta. BimCraft proyecto-gui medición método ojeporúva ndaha'éi cuantitativo-pe verificado, ohecha upe método-pe (nota-pe ohechauka, origen ha ndoverificáiva cuantitativo profesional-gui); método ndaikatúi TakeoffCraft-pe mudar. Ladrillo térã bloque mortero-pe tipo muro-gui oguejy mbohapy: pedido unidades ha mortero volumen. |
+| {{ui:Altura}} (lineal) | Peteĩ altura muro. Ítem upéicha ohecha avei área muro (longitud × altura). Tramo BimCraft modelo-gui ojeguerahágui oguereko puerta ha ventana: upéva peteĩ jey oñemboguejy, ha ítem ohechauka área bruta, aberturas ha neta. BimCraft proyecto-gui medición método ojeporúva ndaha'éi cuantitativo-pe verificado, ohecha upe método-pe (nota-pe ohechauka, origen ha ndoverificáiva cuantitativo profesional-gui); método ndaikatúi TakeoffDesk-pe mudar. Ladrillo térã bloque mortero-pe tipo muro-gui oguejy mbohapy: pedido unidades ha mortero volumen. |
 | {{ui:Profundidad}} (área) | Profundidad térã espesor, conjunto fórmula-pe ojeporúva (ejemplo hormigón volumen). |
 | {{ui:Desperdicio %}} | Cantidad-pe ojeño'ã preciopa mboyve: 10 ohechauka cantidad × 1.10. |
 | {{ui:Material $/LF}} | Material costo unidad-pe. Etiqueta ohéi unidad-pe: $/SF, $/EA ha ambue. |
@@ -74,7 +74,7 @@ Mba'e oñemedi ojeporúva mbohapy ruta: peteĩ ambiente oguereko piso (área), z
 
 1. Hacé ítem tipo principal-nguéva, peteĩ ítem área `Ambiente 101`.
 2. {{ui:Medir también}} editor-pe, eje'o {{ui:Lineal}}, {{ui:Conteo}} térã ambo. Peteĩteĩ oguereko unidad hendápe.
-3. Eiporu herramienta oikóva ítem tipo-pe: `Ambiente 101` ha'eháicha corriente, {{ui:Área}} oñemboguejy piso, {{ui:Lineal}} zócalo ha {{ui:Conteo}} puerta-kuéra. TakeoffCraft ndojerokýi ambue ítem.
+3. Eiporu herramienta oikóva ítem tipo-pe: `Ambiente 101` ha'eháicha corriente, {{ui:Área}} oñemboguejy piso, {{ui:Lineal}} zócalo ha {{ui:Conteo}} puerta-kuéra. TakeoffDesk ndojerokýi ambue ítem.
 
 Ítem-kuéra lista-pe ohechauka cantidad opavave (`50.00 SF + 2 EA`). Cantidades tabla-pe ítem fila-pe oguereko cantidad principal, ha peteĩteĩ clase ambue oguereko fila hendápe, ejemplo **Ambiente 101 (conteo)**, desperdicio ha material ha mano de obra tarifa-nguéva. Exportación, hoja-pe tabla ha PDF marcado leyenda-pe oñemboguejy upéicha avei.
 
@@ -113,7 +113,7 @@ Tarifa por unidad mba'erã, ítem mano de obra ikatu oúva cuadrilla-gui: mba'é
 | {{ui:Tamaño de la cuadrilla}} | `2` persona |
 | {{ui:Salario $/hora cada uno}} | `45` |
 
-TakeoffCraft ohesa cantidad desperdicio-gui:
+TakeoffDesk ohesa cantidad desperdicio-gui:
 
 - **horas-cuadrilla** = cantidad ÷ producción (110 LF ÷ 20 = 5.5),
 - **horas-trabajador** = horas-cuadrilla × tamaño cuadrilla (11),

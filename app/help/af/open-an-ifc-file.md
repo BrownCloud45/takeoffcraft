@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, pad, spoorweg, brug, plaveisel, kantsteen, laag,
 from: 6b08c2c4
 ---
 
-'n IFC 4.3-lêer kan paaie, spoorwegs, brûe, mariene werke en die dele waaruit hulle bestaan, hou: plaveisels, lae, kantstene, spoorstawe, grondwerk, steunpunte, pale en meer. TakeoffCraft lees dié en maak daarvan getikte hoeveelhede wat jy kan prys.
+'n IFC 4.3-lêer kan paaie, spoorwegs, brûe, mariene werke en die dele waaruit hulle bestaan, hou: plaveisels, lae, kantstene, spoorstawe, grondwerk, steunpunte, pale en meer. TakeoffDesk lees dié en maak daarvan getikte hoeveelhede wat jy kan prys.
 
 ## Maak die lêer oop
 
 1. Kies {{ui:Maak planne oop}} in die {{ui:Lêer}}-groep, of druk {{key:Mod+O}}.
-2. Kies die IFC-lêer (jy kan dit saam met PDF's kies), of laat dit op TakeoffCraft val.
+2. Kies die IFC-lêer (jy kan dit saam met PDF's kies), of laat dit op TakeoffDesk val.
 
 Een getikte hoeveelheid word gemaak vir elke klas en vooraf gedefinieerde soort, byvoorbeeld "Plaveisel (buigbaar): telling", en, wanneer die lêer hulle meld, "lengte" in m, "oppervlakte" in m² en "volume" in m³. Die nota op elke item sê hoeveel elemente getel is en hoeveel geen hoeveelheid gemeld het nie. As jy 'n nuwer lêer van dieselfde naam oopmaak, word daardie hoeveelhede opgedateer in plaas van dat meer bygevoeg word.
 

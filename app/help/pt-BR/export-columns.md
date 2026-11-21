@@ -77,7 +77,7 @@ Uma linha por folha que tem escala ou marcas.
 | Folha | Nome da folha |
 | Escala | O nome da predefinição, ou a escala calibrada, ou "Sem escala" |
 | Como | "Predefinida", ou "Calibrada em (a distância que você digitou)" |
-| Pés por unidade do PDF | O fator de escala exato que o TakeoffCraft usa |
+| Pés por unidade do PDF | O fator de escala exato que o TakeoffDesk usa |
 
 ## Nomes de arquivos
 

@@ -39,4 +39,4 @@ Hver post bærer også sitt CSI MasterFormat-nummer, for eksempel `09 21 16`.
 
 {{ui:Eksporter som pakke…}} i biblioteket lagrer det som en pakkefil (`.ccpack.json`) som alle kan legge til med {{ui:Åpne en pakkefil…}}. Som standard utelates postene som kom fra pakker du har lagt til, og filen har ingen priser. Hak av for {{ui:Ta med mine priser som eksempelpriser}} for å sende prisene dine også: de sendes merket med regionen og datoen du oppgir, og den som legger til pakken, velger om de skal brukes.
 
-Pakkefiler er rene data, aldri programmer. TakeoffCraft kontrollerer hver del av en fil før den brukes, og utelater alt den ikke kan lese.
+Pakkefiler er rene data, aldri programmer. TakeoffDesk kontrollerer hver del av en fil før den brukes, og utelater alt den ikke kan lese.

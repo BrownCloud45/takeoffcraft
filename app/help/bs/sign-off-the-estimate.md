@@ -19,9 +19,9 @@ U **Količine › Po stavci**, stavka koja ima količinu a nema materijalnu ili 
 2. Dijalog navodi ukupan iznos koji potpisuješ i navodi stavke bez cijene. Upiši svoje ime i, ako želiš, svoju ulogu.
 3. Klikni **Potpiši**. Traka sada kaže "Potpisano od strane … dana …" s ukupnim iznosom. Spasi predmjer da ga zadržiš u datoteci.
 
-Potpis pripada brojkama koje si potpisao. Svaka kasnija promjena količine, cijene ili stavke ga briše, i TakeoffCraft te obavijesti. {{ui:Poništi}} vraća predračun koji si potpisao, zajedno s njegovim potpisom. Preimenovanje stavke nije promjena brojke. **Ukloni potpis** ga uklanja.
+Potpis pripada brojkama koje si potpisao. Svaka kasnija promjena količine, cijene ili stavke ga briše, i TakeoffDesk te obavijesti. {{ui:Poništi}} vraća predračun koji si potpisao, zajedno s njegovim potpisom. Preimenovanje stavke nije promjena brojke. **Ukloni potpis** ga uklanja.
 
-Datoteka predmjera koja je uređivana van TakeoffCraft-a nakon potpisivanja otvara se bez potpisa, uz napomenu o tome. Izvezeni predračun (CSV i XLSX) navodi potpis ispod ukupnih iznosa.
+Datoteka predmjera koja je uređivana van TakeoffDesk-a nakon potpisivanja otvara se bez potpisa, uz napomenu o tome. Izvezeni predračun (CSV i XLSX) navodi potpis ispod ukupnih iznosa.
 
 Potpisuje samo osoba. AI asistent može pročitati je li predračun potpisan i koje cijene nedostaju; nema način da potpiše.
 

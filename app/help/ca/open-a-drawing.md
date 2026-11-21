@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, dibuix, obre un dibuix, presentacions, espai model, esp
 from: d8c3f504
 ---
 
-TakeoffCraft obre un dibuix DWG o DXF com obre un PDF: no cal traçar-lo a PDF abans. Comptar des del mateix dibuix és exacte, perquè el dibuix sap què és cada objecte. Vegeu [Compta des d'un dibuix](topic:count-from-a-drawing).
+TakeoffDesk obre un dibuix DWG o DXF com obre un PDF: no cal traçar-lo a PDF abans. Comptar des del mateix dibuix és exacte, perquè el dibuix sap què és cada objecte. Vegeu [Compta des d'un dibuix](topic:count-from-a-drawing).
 
 ## Obrir el dibuix
 
@@ -13,9 +13,9 @@ TakeoffCraft obre un dibuix DWG o DXF com obre un PDF: no cal traçar-lo a PDF a
 2. Seleccioneu el fitxer DWG o DXF. En podeu seleccionar diversos, i PDF amb ells.
 3. Trieu Obre.
 
-També podeu arrossegar fitxers de dibuix a TakeoffCraft, com els PDF. No es puja res: el navegador llegeix el fitxer al vostre ordinador.
+També podeu arrossegar fitxers de dibuix a TakeoffDesk, com els PDF. No es puja res: el navegador llegeix el fitxer al vostre ordinador.
 
-TakeoffCraft llegeix DWG des d'AutoCAD 2000 fins a 2018 i DXF ASCII des de R12 fins a 2018. Rebutja un DXF binari (deseu-lo com a ASCII, o com a DWG) i un fitxer que no és cap dels dos, i en diu el motiu. Un fitxer malmès s'obre amb el que s'ha pogut llegir, i un missatge ho indica; els seus recomptes poden ser incomplets.
+TakeoffDesk llegeix DWG des d'AutoCAD 2000 fins a 2018 i DXF ASCII des de R12 fins a 2018. Rebutja un DXF binari (deseu-lo com a ASCII, o com a DWG) i un fitxer que no és cap dels dos, i en diu el motiu. Un fitxer malmès s'obre amb el que s'ha pogut llegir, i un missatge ho indica; els seus recomptes poden ser incomplets.
 
 ## Fulls
 
@@ -40,10 +40,10 @@ Un full comença amb l'escala que dona el dibuix:
 
 ## Dibuixos enllaçats (xrefs)
 
-Un dibuix que enllaça altres dibuixos els mostra on són inserits. TakeoffCraft troba un dibuix enllaçat entre els **fitxers oberts**, pel seu nom de fitxer: obriu el dibuix principal i el dibuix enllaçat junts (o un després de l'altre). Fins llavors, la barra d'estat diu quants dibuixos enllaçats no s'han trobat, que el que dibuixen falta, i els recomptes ho indiquen.
+Un dibuix que enllaça altres dibuixos els mostra on són inserits. TakeoffDesk troba un dibuix enllaçat entre els **fitxers oberts**, pel seu nom de fitxer: obriu el dibuix principal i el dibuix enllaçat junts (o un després de l'altre). Fins llavors, la barra d'estat diu quants dibuixos enllaçats no s'han trobat, que el que dibuixen falta, i els recomptes ho indiquen.
 
 ## Límits
 
-- Els objectes que TakeoffCraft no pot llegir ni col·locar (objectes proxy, classes desconegudes) es llisten a la finestra de recompte per tipus; mai no se n'eliminen sense avisar.
+- Els objectes que TakeoffDesk no pot llegir ni col·locar (objectes proxy, classes desconegudes) es llisten a la finestra de recompte per tipus; mai no se n'eliminen sense avisar.
 - Els dibuixos molt grans es dibuixen per parts, i els recomptes s'aturen en un límit, i ho indiquen. Obriu-ne un traçat en PDF en lloc seu.
 - Un dibuix es dibuixa en negre i amb els seus propis colors, enfosquits per al paper blanc. Les taules d'estils de traçat i les assignacions de plomes no s'apliquen.

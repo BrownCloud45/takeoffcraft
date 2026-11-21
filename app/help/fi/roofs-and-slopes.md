@@ -5,7 +5,7 @@ keywords: katto, kaltevuus, luiskakerroin, nousu, vaakamitta, 6:12, päätyräys
 from: 38225b60
 ---
 
-Pohjapiirroksessa jokainen katto-osa näkyy litteänä, ylhäältä nähtynä. Katto itse on suurempi: 6:12-kaltevuudella olevalla tasolla on noin 12 % enemmän pintaa kuin sen pohjapiirroksessa, ja sen viistot reunat ovat pidempiä kuin miltä ne näyttävät. Anna nimikkeelle kaltevuus, niin TakeoffCraft mittaa luiskaa pitkin.
+Pohjapiirroksessa jokainen katto-osa näkyy litteänä, ylhäältä nähtynä. Katto itse on suurempi: 6:12-kaltevuudella olevalla tasolla on noin 12 % enemmän pintaa kuin sen pohjapiirroksessa, ja sen viistot reunat ovat pidempiä kuin miltä ne näyttävät. Anna nimikkeelle kaltevuus, niin TakeoffDesk mittaa luiskaa pitkin.
 
 ## Kaltevuuden kirjoittaminen
 

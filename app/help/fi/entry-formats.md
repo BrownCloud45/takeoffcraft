@@ -1,6 +1,6 @@
 ---
 title: Pituuksien, hintojen ja prosenttien syöttö
-summary: Mitä voit kirjoittaa etäisyyksille, korkeuksille, hinnoille ja hukkaprosenteille, esimerkkeinä sekä viesteinä syötteistä, joita TakeoffCraft ei pysty lukemaan.
+summary: Mitä voit kirjoittaa etäisyyksille, korkeuksille, hinnoille ja hukkaprosenteille, esimerkkeinä sekä viesteinä syötteistä, joita TakeoffDesk ei pysty lukemaan.
 keywords: syöte, muoto, jalat ja tuumat, murtoluvut, desimaalijalat, metrijärjestelmä, metrit, millimetrit, hinta, raha, dollarit, prosentti, hukka, kirjoittaminen
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Enintään kaksi desimaalia, 0 %:sta 1000 %:iin. Viestit: ”Kirjoita prosentti,
 ## Nimet ja yksiköt
 
 - Nimikkeen ja osan nimi: enintään 200 merkkiä.
-- Osan {{ui:Yksikkö}}: mikä tahansa teksti enintään 20 merkkiä, kuten `EA`, `sheets`, `CY`, `gal`. Se on vain nimiö; TakeoffCraft ei muunna sitä.
+- Osan {{ui:Yksikkö}}: mikä tahansa teksti enintään 20 merkkiä, kuten `EA`, `sheets`, `CY`, `gal`. Se on vain nimiö; TakeoffDesk ei muunna sitä.
 
 ## Kaavat
 

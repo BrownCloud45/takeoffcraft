@@ -24,7 +24,7 @@ Wählen Sie {{ui:Nach Position}} (die Voreinstellung). Jede Position hat eine Ze
 
 Die letzte Zeile, **Gesamtbetrag des Auftrags**, addiert die Spalten Material, Lohn und Gesamtbetrag. Dieselbe Summe steht rechts in der Kopfzeile der Tabelle.
 
-Tragen Sie in eine Verschnitt- oder Einheitspreiszelle einen Wert ein und drücken Sie {{key:Enter}} oder klicken Sie daneben, um ihn zu übernehmen. Ein Wert, den TakeoffCraft nicht lesen kann, wird rot umrandet, und die Statusleiste nennt den Grund, zum Beispiel „Geben Sie einen Betrag wie 12.50 ein.“
+Tragen Sie in eine Verschnitt- oder Einheitspreiszelle einen Wert ein und drücken Sie {{key:Enter}} oder klicken Sie daneben, um ihn zu übernehmen. Ein Wert, den TakeoffDesk nicht lesen kann, wird rot umrandet, und die Statusleiste nennt den Grund, zum Beispiel „Geben Sie einen Betrag wie 12.50 ein.“
 
 Klicken Sie auf die Zeile einer Position, um ihre Markierungen auf jedem Blatt hervorzuheben und zu einem Blatt zu springen, das sie enthält (dasselbe wie ein Klick darauf unter {{ui:Positionen}}).
 

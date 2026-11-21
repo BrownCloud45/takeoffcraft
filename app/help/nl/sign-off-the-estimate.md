@@ -19,9 +19,9 @@ In **Hoeveelheden › Per post** heeft een regel met een hoeveelheid maar geen m
 2. Het dialoogvenster vermeldt het totaal dat u ondertekent en somt de regels zonder tarief op. Typ uw naam en, als u wilt, uw rol.
 3. Klik op **Ondertekenen**. De balk toont nu "Ondertekend door … op …" met het totaal. Sla de opmeting op om het in het bestand te bewaren.
 
-De ondertekening hoort bij de cijfers die u ondertekende. Elke latere wijziging aan een hoeveelheid, een tarief of een regel wist haar, en TakeoffCraft laat het u weten. Ongedaan maken herstelt de raming die u ondertekende, en de ondertekening ervan. Een regel hernoemen is geen wijziging van een cijfer. **De ondertekening verwijderen** haalt haar weg.
+De ondertekening hoort bij de cijfers die u ondertekende. Elke latere wijziging aan een hoeveelheid, een tarief of een regel wist haar, en TakeoffDesk laat het u weten. Ongedaan maken herstelt de raming die u ondertekende, en de ondertekening ervan. Een regel hernoemen is geen wijziging van een cijfer. **De ondertekening verwijderen** haalt haar weg.
 
-Een opmetingsbestand dat buiten TakeoffCraft is bewerkt nadat het was ondertekend, opent zonder de ondertekening, met een opmerking die dat zegt. De geëxporteerde raming (CSV en XLSX) noemt de ondertekening onder de totalen.
+Een opmetingsbestand dat buiten TakeoffDesk is bewerkt nadat het was ondertekend, opent zonder de ondertekening, met een opmerking die dat zegt. De geëxporteerde raming (CSV en XLSX) noemt de ondertekening onder de totalen.
 
 Alleen een persoon ondertekent. Een AI-assistent kan lezen of de raming is ondertekend en welke tarieven ontbreken; hij kan niet ondertekenen.
 

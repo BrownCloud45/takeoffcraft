@@ -41,7 +41,7 @@ Wanneer die vertrekke as geslote mure geteken is, neem {{ui:Vertrek}} ({{key:B}}
 2. Kies {{ui:Vertrek}} in die {{ui:Hoeveelheidsopname}}-groep, of druk {{key:B}}.
 3. Klik binne ’n vertrek, in die oop vloer (nie op ’n lyn of ’n etiket nie).
 
-TakeoffCraft lees die blad se lyne, vind die ruimte rondom die klik en omlyn dit langs die muurs se binnekante, as ’n oppervlakte van die huidige item. Deuropeninge tot **4'-0"** word as gesluit behandel, sodat die buitelyn reguit oor die deuropening loop; **Instellings › TakeoffCraft › Vertrekvul sluit openings tot** verander daardie wydte (3'-0" tot 8'-0"). Vertreknaam, meubels en toerusting binne die vertrek maak nie gate nie.
+TakeoffDesk lees die blad se lyne, vind die ruimte rondom die klik en omlyn dit langs die muurs se binnekante, as ’n oppervlakte van die huidige item. Deuropeninge tot **4'-0"** word as gesluit behandel, sodat die buitelyn reguit oor die deuropening loop; **Instellings › TakeoffDesk › Vertrekvul sluit openings tot** verander daardie wydte (3'-0" tot 8'-0"). Vertreknaam, meubels en toerusting binne die vertrek maak nie gate nie.
 
 Dit weier, en sê waarom, wanneer:
 
@@ -62,7 +62,7 @@ Wanneer ’n deur wyer is as die instelling, loop die vulling in die volgende ve
 
 Vir ’n ronde gat, kies {{ui:Voeg ’n ronde uitsnit by}} onder **Gekose merk**, klik die middelpunt, en dan ’n punt op sy rand.
 
-’n Uitsnyding moet heeltemal binne die oppervlakte lê en mag nie ’n ander uitsnyding oorvleuel nie. Andersins weier TakeoffCraft dit: "’n Uitsnyding moet heeltemal binne die oppervlakte lê." of "Uitsnydings mag nie mekaar oorvleuel nie."
+’n Uitsnyding moet heeltemal binne die oppervlakte lê en mag nie ’n ander uitsnyding oorvleuel nie. Andersins weier TakeoffDesk dit: "’n Uitsnyding moet heeltemal binne die oppervlakte lê." of "Uitsnydings mag nie mekaar oorvleuel nie."
 
 Om die laaste gat weer te verwyder, kies {{ui:Verwyder laaste uitsnit}}.
 
@@ -76,7 +76,7 @@ Om die laaste gat weer te verwyder, kies {{ui:Verwyder laaste uitsnit}}.
 
 Elke oppervlaktemerk van ’n gemerkte item op dieselfde blad verloor die deel wat ’n terugtrekking dek: die hele terugtrekking wanneer dit binne lê, net die oorvleuelende deel wanneer dit die rand kruis, en niks binne ’n uitsnyding nie. Die paneel van die gekose oppervlakte wys **Terugtrekkings** en die oppervlakte wat oorbly. Die item se hoeveelheid, sy samestellingsformules, die koste, die 3D-kontrole-aansig en die uitvoer gebruik almal die oorblywende oppervlakte; die beraming se notas sê hoeveel terugtrekkings afgeneem het. Die terugtrekkingsitem self tel sy eie oppervlakte (laat sy koste op nul as jy dit nie prys nie).
 
-’n Terugtrekking moet **konveks** wees: ’n reghoek, ’n sirkel, of enige buitelyn sonder ’n binnekantse hoek. TakeoffCraft weier om een te teken wat nie so is nie; teken ’n L-vormige skag as twee terugtrekkings. Terugtrekkings kan nie uitsnydings hê nie, en twee terugtrekkings wat mekaar oorvleuel, tel albei.
+’n Terugtrekking moet **konveks** wees: ’n reghoek, ’n sirkel, of enige buitelyn sonder ’n binnekantse hoek. TakeoffDesk weier om een te teken wat nie so is nie; teken ’n L-vormige skag as twee terugtrekkings. Terugtrekkings kan nie uitsnydings hê nie, en twee terugtrekkings wat mekaar oorvleuel, tel albei.
 
 Die omtrek (`P`) verander nie: terugtrekkings neem slegs oppervlakte af.
 

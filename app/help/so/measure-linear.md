@@ -30,7 +30,7 @@ Intii aad sawirayso:
 - Jiidista wuxuu guuraa xaashiga, shubiska wuxuu weynaynayaa, iyada oo aan barar lagu darin.
 
 :::mac
-Mac trackpad-ka, midig-riixu waa labo-farood riix (shid secondary click Dejinta nidaamka, hoosta Trackpad). TakeoffCraft wuxuu akhrisaa badhanka labaad kaliya, sidaas darteed Control-riix waxa laga yaabaa in loo qaato riix caadi ah oo barta ku daro. Labo-riix ama {{key:Enter}} mar walba way dhammeeyaan.
+Mac trackpad-ka, midig-riixu waa labo-farood riix (shid secondary click Dejinta nidaamka, hoosta Trackpad). TakeoffDesk wuxuu akhrisaa badhanka labaad kaliya, sidaas darteed Control-riix waxa laga yaabaa in loo qaato riix caadi ah oo barta ku daro. Labo-riix ama {{key:Enter}} mar walba way dhammeeyaan.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Barta ugu horeysa ka dib, waxaad qori kartaa meesha barta xigu tagayso halkii aa
 | `@6',-4'` | 6' midig iyo 4' hoos barta u dambaysa |
 | `6',4'` (ama `#6',4'`) | 6' midig iyo 4' sare barta ugu horeysa ee socodkan |
 
-Dherarka waxa loo qoraa sida meel kasta oo TakeoffCraft ([Qaababka gelinta](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Midig" iyo "sare" waa sida aad xaashiga aragto, xitaa marka bogga PDF-ka la wareejiyo.
+Dherarka waxa loo qoraa sida meel kasta oo TakeoffDesk ([Qaababka gelinta](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Midig" iyo "sare" waa sida aad xaashiga aragto, xitaa marka bogga PDF-ka la wareejiyo.
 
 {{key:Enter}} sanduuq madhan ayuu socodka dhammeeyaa, sida {{key:Enter}} xaashiga; {{key:Esc}} wuxuu xiraa sanduuqa oo socodka wuu sii wadaa. Barar la qoray waxay raacaan sharciyada riixitaanka: ka jar, qallooc iyo aag xidhitaanka oo dhan way shaqeeyaan. Sanduuqa isku mid ahi wuxuu shaqeeyaa {{ui:Aag}} iyo {{ui:God}}; goobada dhexdeeda ka dib wuxuu qaataa radius.
 

@@ -5,7 +5,7 @@ keywords: hvatanje, osnap, hvatanje objekata, krajnja točka, polovište, sjeci�
 from: 41d29e9b
 ---
 
-Većina skupova planova su vektorski PDF-ovi: njihovi zidovi i rubovi su stvarne linije, a ne pikseli. Dok mjerite, TakeoffCraft hvata vaše klikove na te linije, pa trasa počinje točno u kutu zida, a kalibracija očitava kotu koju je projektant nacrtao, a ne piksel na koji ste kliknuli.
+Većina skupova planova su vektorski PDF-ovi: njihovi zidovi i rubovi su stvarne linije, a ne pikseli. Dok mjerite, TakeoffDesk hvata vaše klikove na te linije, pa trasa počinje točno u kutu zida, a kalibracija očitava kotu koju je projektant nacrtao, a ne piksel na koji ste kliknuli.
 
 Hvatanje je uključeno kad počnete. Uključite ga i isključite pomoću {{ui:Hvatanje}} u statusnoj traci ili pomoću {{key:F3}}; postavka se čuva u ovom pregledniku (nalazi se i pod [Postavke](topic:settings)).
 

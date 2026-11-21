@@ -24,7 +24,7 @@ Vyberte {{ui:By item}} (predvolené). Každá položka má riadok a každý jej 
 
 Posledný riadok **Celkom za zákazku** sčítava stĺpce materiálu, práce a celkom. Rovnaký súčet sa zobrazuje vpravo v hlavičke tabuľky.
 
-Zadajte hodnotu do bunky odpadu alebo jednotkovej ceny a stlačte {{key:Enter}} alebo kliknite mimo nej, čím ju použijete. Hodnota, ktorú TakeoffCraft nedokáže prečítať, je orámovaná na červeno a stavový riadok vysvetlí dôvod, napríklad "Zadajte sumu, napríklad 12.50."
+Zadajte hodnotu do bunky odpadu alebo jednotkovej ceny a stlačte {{key:Enter}} alebo kliknite mimo nej, čím ju použijete. Hodnota, ktorú TakeoffDesk nedokáže prečítať, je orámovaná na červeno a stavový riadok vysvetlí dôvod, napríklad "Zadajte sumu, napríklad 12.50."
 
 Kliknutím na riadok položky zvýraznite jej značky na všetkých listoch a prejdete na list, ktorý ich obsahuje (rovnako ako kliknutie na ňu pod {{ui:Items}}).
 

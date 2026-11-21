@@ -46,7 +46,7 @@ Tallene endres ikke i 3D: en veggs areal er dens eksakte lengde ganger høyden, 
 | {{ui:Ark}} | Vis eller skjul tegningen på bakken. |
 | Visningskuben, øverst til høyre | Klikk på en flate, kant eller hjørne for å se derfra; dra den for å rotere; dra kompassringen for å vri; husknappen går tilbake til {{ui:Iso}}. |
 
-Hjørnet viser en visningskube, et lite X-, Y-, Z-aksesymbol, eller ingenting. Velg i {{ui:Innstillinger}}, under fanen TakeoffCraft, under **Hjørneindikator** ([TakeoffCraft-innstillinger](topic:settings)). Det flate arket har ingen hjørneindikator.
+Hjørnet viser en visningskube, et lite X-, Y-, Z-aksesymbol, eller ingenting. Velg i {{ui:Innstillinger}}, under fanen TakeoffDesk, under **Hjørneindikator** ([TakeoffDesk-innstillinger](topic:settings)). Det flate arket har ingen hjørneindikator.
 
 :::touch
 En finger roterer; to fingre klyper for å zoome og flytter for å panorere. Et trykk velger.

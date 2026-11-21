@@ -50,4 +50,4 @@ A calibrated scale shows as "Calibrated 1" = 4.002' on 24'-6"" in the bar under 
 
 ## Unusual PDFs
 
-Some PDFs declare a larger page unit (a "user unit"); TakeoffCraft takes it into account for presets and for the scale shown. Pages rotated in the PDF are measured the same way as upright ones.
+Some PDFs declare a larger page unit (a "user unit"); TakeoffDesk takes it into account for presets and for the scale shown. Pages rotated in the PDF are measured the same way as upright ones.

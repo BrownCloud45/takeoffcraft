@@ -77,7 +77,7 @@ Una fila per cada full que té escala o marques.
 | Sheet | Nom del full |
 | Scale | El nom de la predefinició, o l'escala calibrada, o "No scale" |
 | How | "Preset", o "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | El factor d'escala exacte que utilitza TakeoffCraft |
+| Feet per PDF unit | El factor d'escala exacte que utilitza TakeoffDesk |
 
 ## Noms de fitxer
 

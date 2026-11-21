@@ -30,7 +30,7 @@ Rajzolás közben:
 - Húzással a lap eltolódik, a görgővel lehet nagyítani, pont hozzáadása nélkül.
 
 :::mac
-Mac érintőpadon a jobb klikk kétujjas kattintás (kapcsolja be a másodlagos kattintást a Rendszerbeállításokban, az Érintőpad alatt). A TakeoffCraft csak a másodlagos gombot olvassa, így a Control-kattintás egyszerű kattintásnak számíthat, és pontot ad hozzá. A dupla kattintás vagy az {{key:Enter}} mindig befejez.
+Mac érintőpadon a jobb klikk kétujjas kattintás (kapcsolja be a másodlagos kattintást a Rendszerbeállításokban, az Érintőpad alatt). A TakeoffDesk csak a másodlagos gombot olvassa, így a Control-kattintás egyszerű kattintásnak számíthat, és pontot ad hozzá. A dupla kattintás vagy az {{key:Enter}} mindig befejez.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Az első pont után beírhatja, hol legyen a következő pont, ahelyett, hogy ka
 | `@6',-4'` | 6'-tel jobbra és 4'-tel lefelé az utolsó ponttól |
 | `6',4'` (vagy `#6',4'`) | 6'-tel jobbra és 4'-tel felfelé a futás első pontjától |
 
-Hosszakat a TakeoffCraftban mindenhol úgy írjon be, ahogy a [Bevitel formátumai](topic:entry-formats) szerint: `12'-6 1/2"`, `12.5` (láb), `30"`, `3.2 m`. A „jobbra” és a „felfelé” úgy értendő, ahogy a lapot látja, akkor is, ha a PDF-oldal el van forgatva.
+Hosszakat a TakeoffDeskban mindenhol úgy írjon be, ahogy a [Bevitel formátumai](topic:entry-formats) szerint: `12'-6 1/2"`, `12.5` (láb), `30"`, `3.2 m`. A „jobbra” és a „felfelé” úgy értendő, ahogy a lapot látja, akkor is, ha a PDF-oldal el van forgatva.
 
 Üres mezőben az {{key:Enter}} befejezi a futást, ugyanúgy, mint a lapon; az {{key:Esc}} bezárja a mezőt, és a futás folytatódik. A beírt pontokra ugyanazok a szabályok vonatkoznak, mint a kattintásokra: a levonások, az ívek és a terület lezárása is működik. Ugyanez a mező működik az {{ui:Terület}} és a {{ui:Kivágás}} eszköznél is; kör középpontja után a sugarat kéri.
 

@@ -28,7 +28,7 @@ Buku kerja mempunyai empat hamparan, dan laporan di bawah apabila berkenaan:
 
 Dengan [ringkasan bidaan](topic:bid-summary), hamparan Anggaran kos juga berakhir dengan markupnya (beban upah, cukai jualan, overhed, untung, bon dan bidaan), sebagai formula langsung.
 
-Hamparan Anggaran kos mengekalkan **formula langsung**: kuantiti dengan pembaziran, amaun bahan dan upah yang dibundarkan, jumlah setiap baris dan jumlah kerja. Program hamparan mengira semula, jadi anda boleh menukar kadar atau pembaziran dalam hamparan dan jumlahnya akan mengikut. Nombor yang dikira TakeoffCraft juga disimpan dalam sel, dan sepadan hingga sen.
+Hamparan Anggaran kos mengekalkan **formula langsung**: kuantiti dengan pembaziran, amaun bahan dan upah yang dibundarkan, jumlah setiap baris dan jumlah kerja. Program hamparan mengira semula, jadi anda boleh menukar kadar atau pembaziran dalam hamparan dan jumlahnya akan mengikut. Nombor yang dikira TakeoffDesk juga disimpan dalam sel, dan sepadan hingga sen.
 
 Lajur nota menyenaraikan formula setiap komponen, ralat formula, tanda pada helaian tanpa skala, luas dinding dan perimeter. Apabila ada yang ditinggalkan, baris jumlah kerja menyatakan "Tidak lengkap: lihat nota di atas".
 
@@ -42,7 +42,7 @@ CSV hanya mengandungi anggaran; untuk kuantiti mengikut helaian dan senarai tand
 
 ## Anggaran kos dalam Google Sheets
 
-Di atas jadual Kuantiti, **Salin untuk Google Sheets** meletakkan anggaran pada papan keratan anda sebagai teks dipisahkan tab, dengan baris yang sama seperti CSV. Dalam Google Sheet, klik sel A1 dan tampal. TakeoffCraft tidak log masuk ke Google dan tidak menghantar apa-apa ke sana.
+Di atas jadual Kuantiti, **Salin untuk Google Sheets** meletakkan anggaran pada papan keratan anda sebagai teks dipisahkan tab, dengan baris yang sama seperti CSV. Dalam Google Sheet, klik sel A1 dan tampal. TakeoffDesk tidak log masuk ke Google dan tidak menghantar apa-apa ke sana.
 
 ## Kadar yang hilang dan pengesahan
 

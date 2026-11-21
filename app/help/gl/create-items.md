@@ -37,12 +37,12 @@ Unha cantidade escrita non admite marcas e nunca deixa o orzamento incompleto. C
 Prema {{key:Esc}} no formulario para pechalo sen engadir un elemento.
 
 :::tip
-Se escolle primeiro unha ferramenta de medición, TakeoffCraft usa o último elemento do tipo correcto, ou abre o formulario {{ui:New item}} con ese tipo xa escollido.
+Se escolle primeiro unha ferramenta de medición, TakeoffDesk usa o último elemento do tipo correcto, ou abre o formulario {{ui:New item}} con ese tipo xa escollido.
 :::
 
 ## Escoller o elemento co que debuxa
 
-Prema un elemento na lista. Convértese no elemento ao que van as novas marcas, e as súas marcas resáltanse en todas as follas mentres os demais se esvaecen. Se a folla aberta non ten ningunha das súas marcas, TakeoffCraft salta a unha folla que as teña. Prema de novo o elemento para deixar de resaltalo; segue sendo o elemento co que debuxa.
+Prema un elemento na lista. Convértese no elemento ao que van as novas marcas, e as súas marcas resáltanse en todas as follas mentres os demais se esvaecen. Se a folla aberta non ten ningunha das súas marcas, TakeoffDesk salta a unha folla que as teña. Prema de novo o elemento para deixar de resaltalo; segue sendo o elemento co que debuxa.
 
 Escoller unha marca coa ferramenta {{ui:Select}} tamén fai que o seu elemento sexa o actual.
 
@@ -57,7 +57,7 @@ O editor do elemento (**Item: (nome)**) ten estes campos. Cada un gárdase ao sa
 | {{ui:Color}} | A cor das súas marcas na pantalla e no PDF marcado. |
 | {{ui:Unit}} | En que unidade se informa a cantidade: LF ou m para lineal; SF, SY, SQ, ac, ha ou m² para superficie; EA para contar. |
 | {{ui:Also measure}} | Os outros tipos de marcas que admite o elemento, cada un coa súa unidade. Vexa máis abaixo. |
-| {{ui:Height}} (linear) | Unha altura de muro. O elemento tamén informa entón a superficie do muro (lonxitude × altura). Os tramos que proveñen dun modelo de BimCraft levan as súas portas e xanelas: retíranse unha vez, e o elemento indica a superficie bruta, as aberturas e a líquida. Unha medición dun proxecto de BimCraft que escolleu un método de medición mídese aquí tamén por ese método (a nota nomea o método, coa súa orixe, e indica que non está verificado por un aparellador); o método non se pode cambiar en TakeoffCraft. Os ladrillos ou bloques e a morteiro dun tipo de muro chegan como dous compoñentes: as unidades a pedir e o volume de morteiro. |
+| {{ui:Height}} (linear) | Unha altura de muro. O elemento tamén informa entón a superficie do muro (lonxitude × altura). Os tramos que proveñen dun modelo de BimCraft levan as súas portas e xanelas: retíranse unha vez, e o elemento indica a superficie bruta, as aberturas e a líquida. Unha medición dun proxecto de BimCraft que escolleu un método de medición mídese aquí tamén por ese método (a nota nomea o método, coa súa orixe, e indica que non está verificado por un aparellador); o método non se pode cambiar en TakeoffDesk. Os ladrillos ou bloques e a morteiro dun tipo de muro chegan como dous compoñentes: as unidades a pedir e o volume de morteiro. |
 | {{ui:Depth}} (superficie) | Unha profundidade ou espesor, usado nas fórmulas dos conxuntos (por exemplo, volume de formigón). |
 | {{ui:Waste %}} | Engádese á cantidade antes de valorar: 10 significa cantidade × 1.10. |
 | Material $/LF | Custo do material por unidade. A etiqueta segue a unidade: $/SF, $/EA e así. |
@@ -74,7 +74,7 @@ Algunhas cousas miden de máis dunha forma: unha sala ten un chan (unha superfic
 
 1. Cree o elemento co seu tipo principal, como un elemento de superficie `Sala 101`.
 2. Baixo {{ui:Also measure}} no seu editor, marque {{ui:Linear}}, {{ui:Count}} ou ambos. Cada un recibe unha unidade ao lado.
-3. Debuxe con calquera ferramenta cuxo tipo admita o elemento: con `Sala 101` actual, {{ui:Area}} debuxa o seu chan, {{ui:Linear}} o seu rodapé e {{ui:Count}} as súas portas. TakeoffCraft non pide outro elemento.
+3. Debuxe con calquera ferramenta cuxo tipo admita o elemento: con `Sala 101` actual, {{ui:Area}} debuxa o seu chan, {{ui:Linear}} o seu rodapé e {{ui:Count}} as súas portas. TakeoffDesk non pide outro elemento.
 
 A lista de elementos mostra cada cantidade (`50.00 SF + 2 EA`). Na táboa de cantidades, a fila do elemento ten a súa cantidade principal, e cada outro tipo ten a súa propia fila debaixo, como **Sala 101 (contar)**, coas súas propias tarifas de desperdicio, material e mano de obra. As exportacións, a táboa por folla e a lenda do PDF marcado listan igual.
 
@@ -113,7 +113,7 @@ En lugar dunha tarifa de mano de obra por unidade, a mano de obra dun elemento p
 | {{ui:Crew size}} | `2` persoas |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft calcula, a partir da cantidade con desperdicio:
+TakeoffDesk calcula, a partir da cantidade con desperdicio:
 
 - **horas de cuadrilla** = cantidade ÷ produción (110 LF ÷ 20 = 5.5),
 - **horas-traballador** = horas de cuadrilla × tamaño da cuadrilla (11),

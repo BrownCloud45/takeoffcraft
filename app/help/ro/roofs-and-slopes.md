@@ -5,7 +5,7 @@ keywords: acoperiș, pantă, înclinare, factor de înclinare, ridicare, orizont
 from: 38225b60
 ---
 
-Planul unui acoperiș arată fiecare față a acoperișului întinsă, văzută de sus. Acoperișul propriu-zis este mai mare: o față la 6:12 are cu aproximativ 12% mai multă suprafață decât proiecția ei în plan, iar muchiile înclinate sunt mai lungi decât par. Dați articolului panta sa, iar TakeoffCraft măsoară de-a lungul pantei.
+Planul unui acoperiș arată fiecare față a acoperișului întinsă, văzută de sus. Acoperișul propriu-zis este mai mare: o față la 6:12 are cu aproximativ 12% mai multă suprafață decât proiecția ei în plan, iar muchiile înclinate sunt mai lungi decât par. Dați articolului panta sa, iar TakeoffDesk măsoară de-a lungul pantei.
 
 ## Introducerea unei pante
 

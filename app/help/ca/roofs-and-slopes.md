@@ -5,7 +5,7 @@ keywords: teulada, pendent, inclinació, factor d'inclinació, alçada, recorreg
 from: 38225b60
 ---
 
-Un plànol de coberta mostra cada pla de teulada pla, vist des de dalt. La coberta real és més gran: un pla al 6:12 té uns 12% més de superfície que la seva planta, i les seves vores inclinades són més llargues del que semblen. Doneu a la partida el seu pendent i TakeoffCraft mesura al llarg de la inclinació.
+Un plànol de coberta mostra cada pla de teulada pla, vist des de dalt. La coberta real és més gran: un pla al 6:12 té uns 12% més de superfície que la seva planta, i les seves vores inclinades són més llargues del que semblen. Doneu a la partida el seu pendent i TakeoffDesk mesura al llarg de la inclinació.
 
 ## Escriure un pendent
 

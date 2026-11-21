@@ -37,12 +37,12 @@ Una cantidad escrita no admite marcas y nunca deja incompleta la medición. Cuan
 Pulse {{key:Esc}} en el formulario para cerrarlo sin añadir ninguna partida.
 
 :::tip
-Si elige primero una herramienta de medición, TakeoffCraft usa la última partida del tipo correcto, o abre el formulario {{ui:Nueva partida}} con ese tipo ya elegido.
+Si elige primero una herramienta de medición, TakeoffDesk usa la última partida del tipo correcto, o abre el formulario {{ui:Nueva partida}} con ese tipo ya elegido.
 :::
 
 ## Elegir la partida con la que dibuja
 
-Haga clic en una partida de la lista. Pasa a ser la partida a la que van las nuevas marcas, y sus marcas se resaltan en todas las hojas mientras las demás se atenúan. Si la hoja abierta no tiene ninguna de sus marcas, TakeoffCraft salta a una hoja que sí las tenga. Haga clic de nuevo en la partida para dejar de resaltarla; sigue siendo la partida con la que dibuja.
+Haga clic en una partida de la lista. Pasa a ser la partida a la que van las nuevas marcas, y sus marcas se resaltan en todas las hojas mientras las demás se atenúan. Si la hoja abierta no tiene ninguna de sus marcas, TakeoffDesk salta a una hoja que sí las tenga. Haga clic de nuevo en la partida para dejar de resaltarla; sigue siendo la partida con la que dibuja.
 
 Al hacer clic en una marca con la herramienta {{ui:Seleccionar}}, su partida también pasa a ser la actual.
 
@@ -57,7 +57,7 @@ El editor de partidas (**Partida: (nombre)**) tiene estos campos. Cada uno se gu
 | {{ui:Color}} | El color de sus marcas en pantalla y en el PDF marcado. |
 | {{ui:Unidad}} | En qué unidad se informa la cantidad: LF o m para lineal; SF, SY, SQ, ac, ha o m² para área; EA para recuento. |
 | {{ui:Medir también}} | Los otros tipos de marcas que admite la partida, cada uno con su unidad. Véase más abajo. |
-| {{ui:Altura}} (lineal) | Altura de un muro. La partida informa entonces también la superficie del muro (longitud × altura). Los tramos procedentes de un modelo de BimCraft conservan sus puertas y ventanas: se descuentan una vez, y la partida indica la superficie bruta, los huecos y la neta. Una medición de un proyecto de BimCraft que eligió un método de medición se mide también con ese método aquí (la nota lo indica, con su origen, y señala que no ha sido verificada por un técnico de mediciones); el método no se puede cambiar en TakeoffCraft. Los ladrillos o bloques y el mortero de un tipo de muro llegan como dos componentes: las unidades que hay que pedir y el volumen de mortero. |
+| {{ui:Altura}} (lineal) | Altura de un muro. La partida informa entonces también la superficie del muro (longitud × altura). Los tramos procedentes de un modelo de BimCraft conservan sus puertas y ventanas: se descuentan una vez, y la partida indica la superficie bruta, los huecos y la neta. Una medición de un proyecto de BimCraft que eligió un método de medición se mide también con ese método aquí (la nota lo indica, con su origen, y señala que no ha sido verificada por un técnico de mediciones); el método no se puede cambiar en TakeoffDesk. Los ladrillos o bloques y el mortero de un tipo de muro llegan como dos componentes: las unidades que hay que pedir y el volumen de mortero. |
 | {{ui:Profundidad}} (área) | Profundidad o espesor, usado en las fórmulas de conjuntos (por ejemplo, volumen de hormigón). |
 | {{ui:Desperdicio %}} | Se suma a la cantidad antes de valorar: 10 significa cantidad × 1.10. |
 | {{ui:Material $/LF}} | Coste de material por unidad. La etiqueta sigue a la unidad: $/SF, $/EA, etc. |
@@ -74,7 +74,7 @@ Algunas cosas se miden de más de una forma: una habitación tiene un suelo (un 
 
 1. Cree la partida con su tipo principal, como una partida de área `Habitación 101`.
 2. Debajo de {{ui:Medir también}} en su editor, marque {{ui:Lineal}}, {{ui:Recuento}} o ambos. Cada uno recibe una unidad junto a él.
-3. Dibuje con cualquier herramienta cuyo tipo admita la partida: con `Habitación 101` como actual, {{ui:Área}} dibuja su suelo, {{ui:Lineal}} su zócalo y {{ui:Recuento}} sus puertas. TakeoffCraft no pide otra partida.
+3. Dibuje con cualquier herramienta cuyo tipo admita la partida: con `Habitación 101` como actual, {{ui:Área}} dibuja su suelo, {{ui:Lineal}} su zócalo y {{ui:Recuento}} sus puertas. TakeoffDesk no pide otra partida.
 
 La lista de partidas muestra cada cantidad (`50.00 SF + 2 EA`). En la tabla de cantidades, la fila de la partida tiene su cantidad principal, y cada otro tipo tiene su propia fila debajo, como **Habitación 101 (recuento)**, con su propio desperdicio y sus tarifas de material y mano de obra. Las exportaciones, la tabla por hoja y la leyenda del PDF marcado las listan de la misma forma.
 
@@ -113,7 +113,7 @@ En lugar de una tarifa de mano de obra por unidad, la mano de obra de una partid
 | {{ui:Tamaño de la cuadrilla}} | `2` personas |
 | {{ui:Salario $/hora cada uno}} | `45` |
 
-TakeoffCraft calcula, a partir de la cantidad con desperdicio:
+TakeoffDesk calcula, a partir de la cantidad con desperdicio:
 
 - **horas de cuadrilla** = cantidad ÷ producción (110 LF ÷ 20 = 5.5),
 - **horas-hombre** = horas de cuadrilla × tamaño de la cuadrilla (11),

@@ -55,4 +55,4 @@ Mierka listu hovorí, aký veľký je výkres; jednotka položky hovorí, ako ho
 
 ## Presnosť
 
-TakeoffCraft meria presne z bodov, na ktoré kliknete, vrátane skutočných dĺžok a plôch oblúkov, a množstvá nezaokrúhľuje. Zobrazenie zaokrúhľuje dĺžky na 1/16 palca a desatinné čísla na dve miesta. Peniaze sa zaokrúhľujú len pri rozšírených sumách, na cent.
+TakeoffDesk meria presne z bodov, na ktoré kliknete, vrátane skutočných dĺžok a plôch oblúkov, a množstvá nezaokrúhľuje. Zobrazenie zaokrúhľuje dĺžky na 1/16 palca a desatinné čísla na dve miesta. Peniaze sa zaokrúhľujú len pri rozšírených sumách, na cent.

@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, tekening, tekening openen, indelingen, modelruimte, pap
 from: d8c3f504
 ---
 
-TakeoffCraft opent een DWG- of DXF-tekening zoals het een pdf opent: u hoeft haar niet eerst naar pdf te plotten. Tellen vanuit de tekening zelf is exact, omdat de tekening weet wat elk object is. Zie [Tellen vanuit een tekening](topic:count-from-a-drawing).
+TakeoffDesk opent een DWG- of DXF-tekening zoals het een pdf opent: u hoeft haar niet eerst naar pdf te plotten. Tellen vanuit de tekening zelf is exact, omdat de tekening weet wat elk object is. Zie [Tellen vanuit een tekening](topic:count-from-a-drawing).
 
 ## De tekening openen
 
@@ -13,9 +13,9 @@ TakeoffCraft opent een DWG- of DXF-tekening zoals het een pdf opent: u hoeft haa
 2. Selecteer het DWG- of DXF-bestand. U kunt er meerdere selecteren, en pdf's erbij.
 3. Kies Openen.
 
-U kunt tekeningbestanden ook op TakeoffCraft slepen, net als pdf's. Er wordt niets geüpload: de browser leest het bestand op uw computer.
+U kunt tekeningbestanden ook op TakeoffDesk slepen, net als pdf's. Er wordt niets geüpload: de browser leest het bestand op uw computer.
 
-TakeoffCraft leest DWG van AutoCAD 2000 tot 2018 en ASCII-DXF van R12 tot 2018. Een binaire DXF weigert het (sla die op als ASCII, of als DWG), net als een bestand dat geen van beide is, en het zegt waarom. Een beschadigd bestand opent met wat kon worden gelezen, en een melding zegt dat; de tellingen kunnen onvolledig zijn.
+TakeoffDesk leest DWG van AutoCAD 2000 tot 2018 en ASCII-DXF van R12 tot 2018. Een binaire DXF weigert het (sla die op als ASCII, of als DWG), net als een bestand dat geen van beide is, en het zegt waarom. Een beschadigd bestand opent met wat kon worden gelezen, en een melding zegt dat; de tellingen kunnen onvolledig zijn.
 
 ## Bladen
 
@@ -40,10 +40,10 @@ Een blad begint met de schaal die de tekening geeft:
 
 ## Gekoppelde tekeningen (xrefs)
 
-Een tekening die andere tekeningen koppelt, toont ze waar ze zijn ingevoegd. TakeoffCraft vindt een gekoppelde tekening onder de **geopende bestanden**, op haar bestandsnaam: open de hoofdtekening en de gekoppelde tekening samen (of de een na de ander). Tot dan zegt de statusbalk hoeveel gekoppelde tekeningen niet zijn gevonden, dat wat ze tekenen ontbreekt, en tellingen melden dat ook.
+Een tekening die andere tekeningen koppelt, toont ze waar ze zijn ingevoegd. TakeoffDesk vindt een gekoppelde tekening onder de **geopende bestanden**, op haar bestandsnaam: open de hoofdtekening en de gekoppelde tekening samen (of de een na de ander). Tot dan zegt de statusbalk hoeveel gekoppelde tekeningen niet zijn gevonden, dat wat ze tekenen ontbreekt, en tellingen melden dat ook.
 
 ## Beperkingen
 
-- Objecten die TakeoffCraft niet kan lezen of plaatsen (proxy-objecten, onbekende klassen) worden in het telvenster per type getoond; ze worden nooit zonder melding weggelaten.
+- Objecten die TakeoffDesk niet kan lezen of plaatsen (proxy-objecten, onbekende klassen) worden in het telvenster per type getoond; ze worden nooit zonder melding weggelaten.
 - Heel grote tekeningen worden gedeeltelijk getekend, en tellingen stoppen bij een limiet, met een melding. Open in dat geval een pdf-plot van zo'n tekening.
 - Een tekening wordt in zwart getekend en in haar eigen kleuren, donkerder voor wit papier. Plotstijltabellen en pentoewijzingen worden niet toegepast.

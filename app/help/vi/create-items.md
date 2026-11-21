@@ -37,12 +37,12 @@ Khối lượng nhập tay không có dấu nào và không bao giờ làm dự 
 Nhấn {{key:Esc}} trong biểu mẫu để đóng mà không thêm hạng mục.
 
 :::tip
-Nếu bạn chọn công cụ đo trước, TakeoffCraft dùng hạng mục cuối cùng có đúng loại, hoặc mở biểu mẫu {{ui:Hạng mục mới}} với loại đó đã được chọn sẵn.
+Nếu bạn chọn công cụ đo trước, TakeoffDesk dùng hạng mục cuối cùng có đúng loại, hoặc mở biểu mẫu {{ui:Hạng mục mới}} với loại đó đã được chọn sẵn.
 :::
 
 ## Chọn hạng mục bạn vẽ bằng
 
-Nhấp một hạng mục trong danh sách. Nó trở thành hạng mục mà các dấu mới sẽ thuộc về, và các dấu của nó được tô sáng trên mọi tờ trong khi các hạng mục khác mờ đi. Nếu tờ đang mở không có dấu nào của nó, TakeoffCraft sẽ nhảy đến một tờ có. Nhấp lại hạng mục để ngừng tô sáng; nó vẫn là hạng mục bạn vẽ bằng.
+Nhấp một hạng mục trong danh sách. Nó trở thành hạng mục mà các dấu mới sẽ thuộc về, và các dấu của nó được tô sáng trên mọi tờ trong khi các hạng mục khác mờ đi. Nếu tờ đang mở không có dấu nào của nó, TakeoffDesk sẽ nhảy đến một tờ có. Nhấp lại hạng mục để ngừng tô sáng; nó vẫn là hạng mục bạn vẽ bằng.
 
 Nhấp một dấu bằng công cụ {{ui:Chọn}} cũng làm hạng mục của dấu đó thành hạng mục hiện tại.
 
@@ -57,7 +57,7 @@ Trình soạn hạng mục (**Hạng mục: (tên)**) có các trường sau. M�
 | {{ui:Màu}} | Màu của các dấu trên màn hình và trong PDF có đánh dấu. |
 | {{ui:Đơn vị}} | Đơn vị báo cáo khối lượng: LF hoặc m cho tuyến tính; SF, SY, SQ, ac, ha hoặc m² cho diện tích; EA cho đếm. |
 | {{ui:Đo thêm}} | Các loại dấu khác mà hạng mục nhận, mỗi loại có đơn vị riêng. Xem bên dưới. |
-| {{ui:Chiều cao}} (tuyến tính) | Chiều cao tường. Khi đó hạng mục cũng báo cáo diện tích tường (chiều dài × chiều cao). Các đoạn lấy từ mô hình BimCraft mang theo cửa đi và cửa sổ: chúng được trừ một lần, và hạng mục ghi diện tích gộp, các lỗ mở và phần thuần. Bóc tách từ dự án BimCraft có chọn phương pháp đo sẽ được đo theo phương pháp đó tại đây (ghi chú nêu rõ phương pháp và nguồn, và ghi rằng chưa được kỹ sư dự toán kiểm tra); phương pháp không thể đổi trong TakeoffCraft. Gạch hoặc khối xây và vữa từ loại tường được đưa vào thành hai thành phần: số lượng cần đặt và thể tích vữa. |
+| {{ui:Chiều cao}} (tuyến tính) | Chiều cao tường. Khi đó hạng mục cũng báo cáo diện tích tường (chiều dài × chiều cao). Các đoạn lấy từ mô hình BimCraft mang theo cửa đi và cửa sổ: chúng được trừ một lần, và hạng mục ghi diện tích gộp, các lỗ mở và phần thuần. Bóc tách từ dự án BimCraft có chọn phương pháp đo sẽ được đo theo phương pháp đó tại đây (ghi chú nêu rõ phương pháp và nguồn, và ghi rằng chưa được kỹ sư dự toán kiểm tra); phương pháp không thể đổi trong TakeoffDesk. Gạch hoặc khối xây và vữa từ loại tường được đưa vào thành hai thành phần: số lượng cần đặt và thể tích vữa. |
 | {{ui:Chiều sâu}} (diện tích) | Chiều sâu hoặc độ dày, dùng trong công thức định mức (ví dụ thể tích bê tông). |
 | {{ui:Hao hụt %}} | Được cộng vào khối lượng trước khi định giá: 10 nghĩa là khối lượng × 1.10. |
 | {{ui:Vật liệu $/LF}} | Chi phí vật liệu trên mỗi đơn vị. Nhãn theo đơn vị: $/SF, $/EA, v.v. |
@@ -74,7 +74,7 @@ Một số thứ được đo bằng nhiều cách: một phòng có sàn (diệ
 
 1. Tạo hạng mục với loại chính, như hạng mục diện tích `Room 101`.
 2. Dưới {{ui:Đo thêm}} trong trình soạn, đánh dấu {{ui:Tuyến tính}}, {{ui:Đếm}} hoặc cả hai. Mỗi loại có một đơn vị bên cạnh.
-3. Vẽ bằng bất kỳ công cụ nào có loại mà hạng mục nhận: khi `Room 101` là hiện tại, {{ui:Diện tích}} vẽ sàn, {{ui:Tuyến tính}} vẽ chân tường và {{ui:Đếm}} vẽ cửa. TakeoffCraft không hỏi hạng mục khác.
+3. Vẽ bằng bất kỳ công cụ nào có loại mà hạng mục nhận: khi `Room 101` là hiện tại, {{ui:Diện tích}} vẽ sàn, {{ui:Tuyến tính}} vẽ chân tường và {{ui:Đếm}} vẽ cửa. TakeoffDesk không hỏi hạng mục khác.
 
 Danh sách hạng mục hiển thị mọi khối lượng (`50.00 SF + 2 EA`). Trong bảng khối lượng, hàng của hạng mục có khối lượng chính, và mỗi loại khác có một hàng riêng bên dưới, như **Room 101 (count)**, với hao hụt, vật liệu và nhân công riêng. Các tệp xuất, bảng theo tờ và chú giải của PDF có đánh dấu cũng liệt kê chúng theo cách đó.
 
@@ -113,7 +113,7 @@ Thay vì đơn giá nhân công trên mỗi đơn vị, nhân công của hạng
 | {{ui:Quy mô tổ}} | `2` người |
 | {{ui:Tiền công $/giờ mỗi người}} | `45` |
 
-TakeoffCraft tính, từ khối lượng có hao hụt:
+TakeoffDesk tính, từ khối lượng có hao hụt:
 
 - **giờ-tổ** = khối lượng ÷ năng suất (110 LF ÷ 20 = 5.5),
 - **giờ công** = giờ-tổ × quy mô tổ (11),

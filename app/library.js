@@ -16,7 +16,7 @@
  * any case, English names or the app's own export headers): Item (or Name), Type, Unit, Waste %, Material per unit,
  * Labor per unit, Height (or Depth), Component, Formula, Notes. A row is a component when its Component column is
  * filled, or its Type says Component (the app's estimate CSV: the formula is then read from its Notes). The estimate CSV
- * TakeoffCraft exports reads in as a library, so the prices of one job seed the next.
+ * TakeoffDesk exports reads in as a library, so the prices of one job seed the next.
  */
 
 import { t } from './i18n.js';

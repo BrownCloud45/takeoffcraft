@@ -37,12 +37,12 @@ Kuantiti ditaip tidak mengambil penanda dan tidak sekali-kali menjadikan anggara
 Tekan {{key:Esc}} dalam borang untuk menutupnya tanpa menambah item.
 
 :::tip
-Jika anda memilih alat ukur dahulu, TakeoffCraft menggunakan item terakhir bagi jenis yang betul, atau membuka borang {{ui:New item}} dengan jenis itu sudah dipilih.
+Jika anda memilih alat ukur dahulu, TakeoffDesk menggunakan item terakhir bagi jenis yang betul, atau membuka borang {{ui:New item}} dengan jenis itu sudah dipilih.
 :::
 
 ## Pilih item yang anda lukis dengannya
 
-Klik item dalam senarai. Ia menjadi item tempat penanda baharu pergi, dan penanda-penandanya diserlahkan pada setiap helaian manakala yang lain pudar. Jika helaian yang dibuka tidak mempunyai sebarang penanda daripadanya, TakeoffCraft melompat ke helaian yang mempunyainya. Klik item sekali lagi untuk berhenti menyerlahkan; ia kekal sebagai item yang anda lukis dengannya.
+Klik item dalam senarai. Ia menjadi item tempat penanda baharu pergi, dan penanda-penandanya diserlahkan pada setiap helaian manakala yang lain pudar. Jika helaian yang dibuka tidak mempunyai sebarang penanda daripadanya, TakeoffDesk melompat ke helaian yang mempunyainya. Klik item sekali lagi untuk berhenti menyerlahkan; ia kekal sebagai item yang anda lukis dengannya.
 
 Klik penanda dengan alat {{ui:Select}} juga menjadikan item penandanya sebagai item semasa.
 
@@ -57,7 +57,7 @@ Penyunting item (**Item: (nama)**) mempunyai medan berikut. Setiap satu disimpan
 | {{ui:Color}} | Warna penandanya pada skrin dan dalam PDF bertanda. |
 | {{ui:Unit}} | Unit kuantiti dilaporkan: LF atau m untuk linear; SF, SY, SQ, ac, ha atau m² untuk luas; EA untuk kiraan. |
 | {{ui:Also measure}} | Jenis penanda lain yang diterima item, setiap satu dengan unitnya sendiri. Lihat di bawah. |
-| {{ui:Height}} (linear) | Ketinggian dinding. Item kemudian juga melaporkan luas dinding (panjang × ketinggian). Rangkaian yang datang dari model BimCraft membawa pintu dan tingkapnya: ini dikeluarkan sekali, dan item menyatakan luas kasar, bukaan dan luas bersih. Pengukuran kuantiti dari projek BimCraft yang memilih kaedah pengukuran diukur dengan kaedah itu juga di sini (nota menamakannya, dengan sumbernya, dan menyatakan ia belum disemak oleh juruukur bahan); kaedah itu tidak boleh ditukar dalam TakeoffCraft. Bata atau blok dan mortar daripada jenis dinding tiba sebagai dua komponen: unit untuk dipesan dan isipadu mortar. |
+| {{ui:Height}} (linear) | Ketinggian dinding. Item kemudian juga melaporkan luas dinding (panjang × ketinggian). Rangkaian yang datang dari model BimCraft membawa pintu dan tingkapnya: ini dikeluarkan sekali, dan item menyatakan luas kasar, bukaan dan luas bersih. Pengukuran kuantiti dari projek BimCraft yang memilih kaedah pengukuran diukur dengan kaedah itu juga di sini (nota menamakannya, dengan sumbernya, dan menyatakan ia belum disemak oleh juruukur bahan); kaedah itu tidak boleh ditukar dalam TakeoffDesk. Bata atau blok dan mortar daripada jenis dinding tiba sebagai dua komponen: unit untuk dipesan dan isipadu mortar. |
 | {{ui:Depth}} (luas) | Kedalaman atau ketebalan, digunakan dalam formula himpunan (contohnya isipadu konkrit). |
 | {{ui:Waste %}} | Ditambah kepada kuantiti sebelum harga: 10 bermaksud kuantiti × 1.10. |
 | Bahan $/LF | Kos bahan bagi setiap unit. Label mengikut unit: $/SF, $/EA dan seterusnya. |
@@ -74,7 +74,7 @@ Sesetengah perkara diukur lebih daripada satu cara: sebuah bilik mempunyai lanta
 
 1. Buat item dengan jenis utamanya, seperti item luas `Bilik 101`.
 2. Di bawah {{ui:Also measure}} dalam penyuntingnya, tandakan {{ui:Linear}}, {{ui:Count}} atau kedua-duanya. Setiap satu mendapat unit di sebelahnya.
-3. Lukis dengan mana-mana alat yang jenisnya diterima item: dengan `Bilik 101` semasa, {{ui:Area}} melukis lantainya, {{ui:Linear}} tepinya dan {{ui:Count}} pintunya. TakeoffCraft tidak meminta item lain.
+3. Lukis dengan mana-mana alat yang jenisnya diterima item: dengan `Bilik 101` semasa, {{ui:Area}} melukis lantainya, {{ui:Linear}} tepinya dan {{ui:Count}} pintunya. TakeoffDesk tidak meminta item lain.
 
 Senarai item memaparkan setiap kuantiti (`50.00 SF + 2 EA`). Dalam jadual kuantiti, baris item mempunyai kuantiti utamanya, dan setiap jenis lain mendapat baris sendiri di bawahnya, seperti **Bilik 101 (kiraan)**, dengan pembaziran serta kadar bahan dan buruhnya sendiri. Eksport, jadual setiap helaian dan legenda PDF bertanda menyenaraikannya dengan cara yang sama.
 
@@ -113,7 +113,7 @@ Daripada kadar buruh bagi setiap unit, buruh item boleh datang daripada krew: be
 | {{ui:Crew size}} | `2` orang |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft mengira, daripada kuantiti dengan pembaziran:
+TakeoffDesk mengira, daripada kuantiti dengan pembaziran:
 
 - **jam krew** = kuantiti ÷ pengeluaran (110 LF ÷ 20 = 5.5),
 - **jam pekerja** = jam krew × saiz krew (11),

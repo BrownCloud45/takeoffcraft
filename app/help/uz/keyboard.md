@@ -1,6 +1,6 @@
 ---
 title: Klaviatura va sichqoncha
-summary: TakeoffCraft dagi har bir tugma, sichqoncha, sensorli panel va sensorli ekran harakati, guruhlangan holda, platformalar farqlari bilan.
+summary: TakeoffDesk dagi har bir tugma, sichqoncha, sensorli panel va sensorli ekran harakati, guruhlangan holda, platformalar farqlari bilan.
 keywords: tugmalar, yorliqlar, tezkor tugmalar, klaviatura, sichqoncha, sensorli panel, sensorli ekran, surish, kattalashtirish, gʻildirak, oʻng tugma, ikki marta bosish, Space, Shift, nusxalash, qoʻyish, kesish, dublikat, hammasini tanlash
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Qarang: [Hajmlarni 3D da tekshirish](topic:check-in-3d).
 | Tugma | Vazifasi |
 |---|---|
 | {{key:F1}} | Yordam panelini ochish yoki yopish (ilova panelidagi {{ui:Help}} tugmasi ham). U har bir asbobda ishlaydi, maydonga yozayotganda ham. |
-| {{key:Esc}} | Yordam panelini yopish. Uning qidiruv oynasida birinchi {{key:Esc}} qidiruvni tozalaydi. Panel ochiq boʻlganda, varaqni bosgandan keyin bosilgan {{key:Esc}} avval panelni yopadi; TakeoffCraft da bekor qilish uchun yana bosing. |
+| {{key:Esc}} | Yordam panelini yopish. Uning qidiruv oynasida birinchi {{key:Esc}} qidiruvni tozalaydi. Panel ochiq boʻlganda, varaqni bosgandan keyin bosilgan {{key:Esc}} avval panelni yopadi; TakeoffDesk da bekor qilish uchun yana bosing. |
 
 :::mac
 Koʻpgina Mac klaviaturalarida yuqori qator yorqinlik va ovozni boshqaradi. {{key:F1}} uchun fn ni bosing yoki Tizim sozlamalari boʻlimida, Keyboard ostida "Use F1, F2, etc. keys as standard function keys" ni yoqing.
@@ -139,7 +139,7 @@ Koʻpgina Mac klaviaturalarida yuqori qator yorqinlik va ovozni boshqaradi. {{ke
 
 :::mac
 - {{key:Mod}} — Command tugmasi: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Toʻliq ekran istisno: Control+Shift+F.
-- Oʻng tugma bosish — sensorli panelda ikki barmoq bosish; buning uchun Tizim sozlamalari, Trackpad boʻlimida ikkilamchi bosish yoqilgan boʻlishi kerak. TakeoffCraft faqat ikkilamchi tugmani oʻqiydi; Control-bosish oddiy bosish sifatida hisoblanib, nuqta qoʻshishi mumkin.
+- Oʻng tugma bosish — sensorli panelda ikki barmoq bosish; buning uchun Tizim sozlamalari, Trackpad boʻlimida ikkilamchi bosish yoqilgan boʻlishi kerak. TakeoffDesk faqat ikkilamchi tugmani oʻqiydi; Control-bosish oddiy bosish sifatida hisoblanib, nuqta qoʻshishi mumkin.
 - Sensorli panelda ikki barmoq aylantirish varaqni kattalashtiradi (u aylanmaydi). Surish uchun bosib sudrang yoki {{key:Space}} ni ushlab sudrang.
 - Page Up va Page Down — klaviaturada boʻlmaganda fn bilan yuqori va pastki strelkalar.
 - {{key:Backspace}} — delete deb yozilgan tugma.
@@ -151,12 +151,12 @@ Koʻpgina Mac klaviaturalarida yuqori qator yorqinlik va ovozni boshqaradi. {{ke
 :::
 
 :::linux
-- {{key:Mod}} — Ctrl. Baʼzi ish stollari oʻz Ctrl+Alt yoki Super yorliqlaridan foydalanadi; TakeoffCraft ularning hech birini ishlatmaydi.
+- {{key:Mod}} — Ctrl. Baʼzi ish stollari oʻz Ctrl+Alt yoki Super yorliqlaridan foydalanadi; TakeoffDesk ularning hech birini ishlatmaydi.
 - Sensorli panelda ikki barmoq aylantirish varaqni kattalashtiradi. Surish uchun bosib sudrang.
 :::
 
 :::touch
-TakeoffCraft sensorli ekranni bitta kursor sifatida oʻqiydi:
+TakeoffDesk sensorli ekranni bitta kursor sifatida oʻqiydi:
 
 - Teginish nuqta qoʻyadi, belgini tanlaydi yoki sanash nuqtasini qoʻshadi.
 - Bitta barmoq bilan sudrash varaqni suradi ({{ui:Auto count}} da qidiruv qutisini chizadi).
@@ -169,7 +169,7 @@ Hozircha hajmlarni hisoblash uchun klaviatura va sichqoncha yoki sensorli panel 
 
 ## Brauzer saqlaydigan tugmalar
 
-Brauzerlar baʼzi yorliqlarni oʻzlari uchun saqlaydi, va sahifa ulardan foydalana olmaydi: yorliqni yopish ({{key:Mod+W}}), yangi yorliq yoki oyna ({{key:Mod+T}}, {{key:Mod+N}}) va brauzer kattalashtirish ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Shu sababli TakeoffCraft varaqni gʻildirak va oddiy {{key:Plus}} hamda {{key:Minus}} tugmalari bilan kattalashtiradi. Agar {{key:Mod+Plus}} ni tasodifan bossangiz, butun sahifa kattalashadi; {{key:Mod+0}} uni qaytaradi. Qarang: [Klaviatura, sichqoncha va sensorli panellar](common:keys).
+Brauzerlar baʼzi yorliqlarni oʻzlari uchun saqlaydi, va sahifa ulardan foydalana olmaydi: yorliqni yopish ({{key:Mod+W}}), yangi yorliq yoki oyna ({{key:Mod+T}}, {{key:Mod+N}}) va brauzer kattalashtirish ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Shu sababli TakeoffDesk varaqni gʻildirak va oddiy {{key:Plus}} hamda {{key:Minus}} tugmalari bilan kattalashtiradi. Agar {{key:Mod+Plus}} ni tasodifan bossangiz, butun sahifa kattalashadi; {{key:Mod+0}} uni qaytaradi. Qarang: [Klaviatura, sichqoncha va sensorli panellar](common:keys).
 
 ## Koʻchirish buyrugʻi qayerda
 

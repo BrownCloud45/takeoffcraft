@@ -41,7 +41,7 @@ Kada su prostorije nacrtane kao zatvoreni zidovi, {{ui:Prostorija}} ({{key:B}}) 
 2. Izaberite {{ui:Prostorija}} u grupi {{ui:Predmer}}, ili pritisnite {{key:B}}.
 3. Kliknite unutar prostorije, na otvorenom podu (ne na liniji ili oznaci).
 
-TakeoffCraft čita linije lista, nalazi prostor oko klika i ocrtava ga duž unutrašnjih strana zidova, kao površinu tekuće stavke. Otvori vrata do **4'-0"** tretiraju se kao zatvoreni, pa obris prelazi preko otvora pravo. **Podešavanja › TakeoffCraft › Popunjavanje prostorije zatvara otvore do** menja tu širinu (od 3'-0" do 8'-0"). Nazivi prostorija, nameštaj i instalacije unutar prostorije ne prave rupe.
+TakeoffDesk čita linije lista, nalazi prostor oko klika i ocrtava ga duž unutrašnjih strana zidova, kao površinu tekuće stavke. Otvori vrata do **4'-0"** tretiraju se kao zatvoreni, pa obris prelazi preko otvora pravo. **Podešavanja › TakeoffDesk › Popunjavanje prostorije zatvara otvore do** menja tu širinu (od 3'-0" do 8'-0"). Nazivi prostorija, nameštaj i instalacije unutar prostorije ne prave rupe.
 
 Odbija se, uz objašnjenje zašto, kada:
 
@@ -62,7 +62,7 @@ Kada je vrata šira od podešavanja, popunjavanje prelazi u sledeću prostoriju 
 
 Za okruglu rupu izaberite {{ui:Dodaj okrugli izrez}} pod **Izabrana oznaka**, kliknite njen centar, pa tačku na ivici.
 
-Izrez mora biti potpuno unutar površine i ne sme se preklapati sa drugim izrezom. Inače ga TakeoffCraft odbija: „Izrez mora da bude potpuno unutar površine.“ ili „Izrezi ne mogu da se preklapaju.“
+Izrez mora biti potpuno unutar površine i ne sme se preklapati sa drugim izrezom. Inače ga TakeoffDesk odbija: „Izrez mora da bude potpuno unutar površine.“ ili „Izrezi ne mogu da se preklapaju.“
 
 Da uklonite poslednju rupu, izaberite {{ui:Ukloni poslednji izrez}}.
 
@@ -76,7 +76,7 @@ Izrez pripada jednoj oznaci površine. **Oduzimanje unazad** se crta jednom i od
 
 Svaka oznaka površine štiklirane stavke na istom listu gubi deo koji pokriva oduzimanje unazad: celo oduzimanje kada leži unutra, samo preklopljeni deo kada seče ivicu, a ništa unutar izreza. Panel izabrane površine prikazuje **Oduzimanja unazad** i preostalu površinu. Količina stavke, njene formule sklopa, troškovi, 3D provera i izvoz koriste preostalu površinu; napomene predračuna kažu koliko su oduzimanja unazad uzela. Sama stavka oduzimanja broji svoju površinu (ostavite njene troškove na nuli ako je ne cenite).
 
-Oduzimanje unazad mora biti **konveksno**: pravougaonik, krug ili bilo koji obris bez unutrašnjeg ugla. TakeoffCraft odbija da ga nacrta ako nije; okno u obliku slova L nacrtajte kao dva oduzimanja unazad. Oduzimanja unazad ne mogu imati izreze, a dva oduzimanja unazad koja se preklapaju računaju se oba.
+Oduzimanje unazad mora biti **konveksno**: pravougaonik, krug ili bilo koji obris bez unutrašnjeg ugla. TakeoffDesk odbija da ga nacrta ako nije; okno u obliku slova L nacrtajte kao dva oduzimanja unazad. Oduzimanja unazad ne mogu imati izreze, a dva oduzimanja unazad koja se preklapaju računaju se oba.
 
 Obim (`P`) se ne menja: oduzimanja unazad uzimaju samo površinu.
 

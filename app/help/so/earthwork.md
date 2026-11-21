@@ -5,7 +5,7 @@ keywords: dhulka shaqada, keenis, jar, buuxin, jar iyo buuxin, sawirka dhulka, d
 from: a898e508
 ---
 
-TakeoffCraft wuxuu qiyaasaa waxa lagu rejeeyay sawirka. Dhulka shaqadu waxay u baahan tahay dusha dhulka, sidaas darteed waxay la wadaagtaa CivilCraft, kaas oo ka dhisa duushaha barta, u sinaysa, oo xisaabiya jarista, buuxinta iyo gaadiidka.
+TakeoffDesk wuxuu qiyaasaa waxa lagu rejeeyay sawirka. Dhulka shaqadu waxay u baahan tahay dusha dhulka, sidaas darteed waxay la wadaagtaa CivilCraft, kaas oo ka dhisa duushaha barta, u sinaysa, oo xisaabiya jarista, buuxinta iyo gaadiidka.
 
 ## Keenista fudud halkan
 
@@ -29,8 +29,8 @@ Barta laga soo qaaday sawirro kala duwan ma wadaagaan isku-xidhka, sidaas dartee
 
 Shaqada dhulka ee CivilCraft waxay ku soo noqotaa laba shay oo aad qiimayn karto:
 
-1. CivilCraft, ku qiyaas padsyada iyo jidadka, kadibna dooro {{ui:U dir TakeoffCraft}} hoosta **Dhulka shaqada** ([Mugga dhulka shaqada](app:civilcraft/volumes)). Waxay kaydinaysaa fayl tirooyin (`.quantities.json`).
-2. TakeoffCraft, ku fur {{ui:Fur xisaabinta}}, ama ku riix barnaamijka. Xisaabintaadu way furan tahay: faylku wuxuu ku daraa **Dhulka shaqada: jar** iyo **Dhulka shaqada: buuxin** sida [tirooyinka nooca loo qoray](topic:create-items#typed-quantities-no-drawing), oo ku qoran kuyuubka yaardka (CY) mashruuca feet-ka, ama mitir kuyuub (m³) mashruuca mitirka. Waa hal tallaabo: {{key:Mod+Z}} ayaa dib u celiya.
+1. CivilCraft, ku qiyaas padsyada iyo jidadka, kadibna dooro {{ui:U dir TakeoffDesk}} hoosta **Dhulka shaqada** ([Mugga dhulka shaqada](app:civilcraft/volumes)). Waxay kaydinaysaa fayl tirooyin (`.quantities.json`).
+2. TakeoffDesk, ku fur {{ui:Fur xisaabinta}}, ama ku riix barnaamijka. Xisaabintaadu way furan tahay: faylku wuxuu ku daraa **Dhulka shaqada: jar** iyo **Dhulka shaqada: buuxin** sida [tirooyinka nooca loo qoray](topic:create-items#typed-quantities-no-drawing), oo ku qoran kuyuubka yaardka (CY) mashruuca feet-ka, ama mitir kuyuub (m³) mashruuca mitirka. Waa hal tallaabo: {{key:Mod+Z}} ayaa dib u celiya.
 3. Magacyadooda beddel, dhigo qashinka, qiimayaasha iyo isku-dhisyada sidaad rabto.
 
 Marka naqshadda isbedesho, mar kale ku dir CivilCraft oo fur faylka cusub: laba shay ee isku mid ah ayaa helaya tirooyinka cusub. Magacyadooda, qiimayaasha, qashinka iyo isku-dhisyada way sii ahaanayaan sidaad dejisay. Haddii unugga mashruuca isbedelay, xariiqda xaaladda ayaa sheegaysa: hubi qiimayaasha. Fayl ka yimid mashruuc kale oo CivilCraft ah wuxuu ku daraa laba shay oo uu leeyahay.

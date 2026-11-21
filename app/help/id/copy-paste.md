@@ -32,11 +32,11 @@ Tanda yang ditempel masuk ke area penawaran yang dipilih di bagian atas panel {{
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) menempatkan salinan tepat di titik yang sama pada lembar yang terbuka, sesuai posisinya di halaman. Gunakan untuk lantai tipikal: hitung lantai 2, salin, buka lantai 3, tempel di tempat yang sama.
 
-Tempel di tempat yang sama memerlukan lembar dengan **ukuran yang sama** seperti lembar tempat Anda menyalin. Pada lembar berukuran lain, TakeoffCraft memberitahukannya dan tidak menempel apa pun; gunakan {{ui:Paste}} dan klik sebagai gantinya. Pada lembar tempat Anda menyalin, salinan jatuh di atas aslinya.
+Tempel di tempat yang sama memerlukan lembar dengan **ukuran yang sama** seperti lembar tempat Anda menyalin. Pada lembar berukuran lain, TakeoffDesk memberitahukannya dan tidak menempel apa pun; gunakan {{ui:Paste}} dan klik sebagai gantinya. Pada lembar tempat Anda menyalin, salinan jatuh di atas aslinya.
 
 ## Skala harus sama
 
-Panjang dan luas bergantung pada skala lembar. Lintasan yang mengukur 10' pada 1/4" = 1'-0" akan mengukur 20' pada lembar dengan 1/8" = 1'-0". Karena itu TakeoffCraft hanya menempel lintasan dan area ke lembar dengan **skala yang sama** seperti lembar asalnya, dan menyatakan dengan jelas jika tidak:
+Panjang dan luas bergantung pada skala lembar. Lintasan yang mengukur 10' pada 1/4" = 1'-0" akan mengukur 20' pada lembar dengan 1/8" = 1'-0". Karena itu TakeoffDesk hanya menempel lintasan dan area ke lembar dengan **skala yang sama** seperti lembar asalnya, dan menyatakan dengan jelas jika tidak:
 
 - Lembar yang terbuka belum memiliki skala: beri skala terlebih dahulu ([Atur skala](topic:set-the-scale)), lalu tempel.
 - Lembar yang terbuka memiliki skala lain: pesannya menyebutkan kedua skala. Tempel pada lembar dengan skala yang sama.
@@ -59,7 +59,7 @@ Editor item (di bawah **Item**) diakhiri dengan:
 - {{ui:Duplicate item}}: langsung menambahkan salinan, dinamai "(nama) (salinan)".
 
 :::tip
-Salinan tetap berada di komputer ini: disimpan di tab ini dan di penyimpanan peramban, sehingga tab TakeoffCraft lain bisa menempelkannya. Tidak ada yang diunggah, dan papan klip sistem tidak digunakan, sehingga Anda tidak dapat menempel tanda ke program lain.
+Salinan tetap berada di komputer ini: disimpan di tab ini dan di penyimpanan peramban, sehingga tab TakeoffDesk lain bisa menempelkannya. Tidak ada yang diunggah, dan papan klip sistem tidak digunakan, sehingga Anda tidak dapat menempel tanda ke program lain.
 :::
 
 :::note

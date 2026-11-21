@@ -1,11 +1,11 @@
 ---
 title: Rješavanje problema
-summary: Simptomi, uzroci i rješenja za poruke i iznenađenja na koje možete naići u aplikaciji TakeoffCraft, navedeni onako kako ih aplikacija prikazuje.
+summary: Simptomi, uzroci i rješenja za poruke i iznenađenja na koje možete naići u aplikaciji TakeoffDesk, navedeni onako kako ih aplikacija prikazuje.
 keywords: problemi, greške, ne radi, rješenje, pomoć, odbijeno, ne mjeri, bez razmjere, nedostajuće oznake, izvoz nije uspio, van mreže, dodir
 from: cd319c9b
 ---
 
-TakeoffCraft objašnjava većinu odbijanja u statusnoj traci na dnu prozora. Pronađite poruku ispod.
+TakeoffDesk objašnjava većinu odbijanja u statusnoj traci na dnu prozora. Pronađite poruku ispod.
 
 ## Otvaranje datoteka
 
@@ -15,8 +15,8 @@ TakeoffCraft objašnjava većinu odbijanja u statusnoj traci na dnu prozora. Pro
 | (naziv) je zaštićen lozinkom. Otvorite kopiju bez zaštite. | PDF za otvaranje traži lozinku. | Zatražite kopiju bez zaštite, ili uklonite lozinku u PDF programu kojem vjerujete. |
 | (naziv) se nije mogao pročitati kao PDF (…) | Datoteka je oštećena ili nije zaista PDF. | Ponovo je preuzmite, ili je ponovo spasite iz programa koji ju je napravio. |
 | (naziv) je već otvoren. | Isti PDF (isti sadržaj) je otvoren. | Ništa ne treba raditi. |
-| TakeoffCraft otvara PDF-ove i .takeoff.json projekte. Preskočeno: … | Drugi tipovi datoteka su odbačeni. | Prvo pretvorite crteže u PDF. |
-| Ništa se ne dešava kada prevučem datoteke | Datoteke su prevučene van prozora pregledača, ili je pregledač otvorio PDF u novoj kartici. | Prevucite na samu stranicu TakeoffCraft; okvir „Prevuci PDF-ove ili .takeoff.json“ pokazuje hoće li to raditi. |
+| TakeoffDesk otvara PDF-ove i .takeoff.json projekte. Preskočeno: … | Drugi tipovi datoteka su odbačeni. | Prvo pretvorite crteže u PDF. |
+| Ništa se ne dešava kada prevučem datoteke | Datoteke su prevučene van prozora pregledača, ili je pregledač otvorio PDF u novoj kartici. | Prevucite na samu stranicu TakeoffDesk; okvir „Prevuci PDF-ove ili .takeoff.json“ pokazuje hoće li to raditi. |
 | Otvaranje velikog seta traje neko vrijeme | Svaki PDF se čita u cijelosti da bi se dobio njegov otisak. | Sačekajte da poruka „Otvaranje (naziv)…“ nestane. Sličice se popunjavaju dok skrolujete. |
 
 ## Mjerenje
@@ -47,7 +47,7 @@ TakeoffCraft objašnjava većinu odbijanja u statusnoj traci na dnu prozora. Pro
 | Poruka ili simptom | Uzrok | Rješenje |
 |---|---|---|
 | Izaberite dvije tačke dalje jednu od druge. | Tačke kalibracije su gotovo jedna na drugoj. | Kalibrirajte na dužoj koti. |
-| Poruka u dijalogu kalibracije, kao „Ta udaljenost se nije mogla pročitati“ | Udaljenost je u obliku koji TakeoffCraft ne može pročitati. | Vidi [Unos dužine, cijene i procenta](topic:entry-formats). |
+| Poruka u dijalogu kalibracije, kao „Ta udaljenost se nije mogla pročitati“ | Udaljenost je u obliku koji TakeoffDesk ne može pročitati. | Vidi [Unos dužine, cijene i procenta](topic:entry-formats). |
 | Ovaj list još nema razmjeru, pa nema šta provjeriti. Kalibrirajte ga ili izaberite unaprijed zadanu razmjeru. | {{ui:Provjeri}} na listu bez razmjere. | Prvo postavite razmjeru. |
 | Lista {{ui:Unaprijed zadana}} je zasivljena | Nijedan list nije otvoren. | Otvorite PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft objašnjava većinu odbijanja u statusnoj traci na dnu prozora. Pro
 | Ovaj PDF je zaštićen lozinkom ili šifrovan, pa se označena kopija ne može napisati. … | PDF je šifrovan. | Izvezite {{ui:XLSX}} umjesto toga, ili koristite nešifrovanu kopiju PDF-a (ona tada treba vlastiti predmjer, jer je to druga datoteka). |
 | Označeni PDF se nije mogao napisati: … | Često: van mreže, a aplikacija nije sačuvana za rad van mreže, pa nedostaje pisač PDF-a. | Idite na mrežu i ponovo izaberite {{ui:Označeni PDF}}. Da to izbjegnete, izaberite {{ui:Spasi za rad van mreže}} i sačekajte {{ui:Spremno za rad van mreže}}. |
 | Preuzet je samo jedan označeni PDF | Pregledač je blokirao više preuzimanja odjednom. | Dozvolite više preuzimanja za ovu stranicu, pa izvezite ponovo. |
-| (datoteka) nije TakeoffCraft projekt (nije ispravan JSON). / Ovo nije TakeoffCraft datoteka projekta. | Pogrešna datoteka, ili oštećena. | Izaberite datoteku `.takeoff.json`. |
-| Ovaj projekt je spašen u novijoj verziji aplikacije TakeoffCraft. Otvorite ga tamo. | Datoteka potiče iz novije verzije. | Otvorite je u novijoj verziji. |
+| (datoteka) nije TakeoffDesk projekt (nije ispravan JSON). / Ovo nije TakeoffDesk datoteka projekta. | Pogrešna datoteka, ili oštećena. | Izaberite datoteku `.takeoff.json`. |
+| Ovaj projekt je spašen u novijoj verziji aplikacije TakeoffDesk. Otvorite ga tamo. | Datoteka potiče iz novije verzije. | Otvorite je u novijoj verziji. |
 | (n) oznaka je oštećeno i izostavljeno. | Dio datoteke je oštećen ili ručno izmijenjen. | Ostatak se otvorio. Ponovo nacrtajte nedostajuće oznake, ili otvorite stariju kopiju. |
 | Oznake nedostaju nakon ponovnog otvaranja | PDF-ovi nisu otvoreni, ili se jedan od njih promijenio. | Vidi [Spasi i ponovo otvori predmjer](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Pregledač pita „Napustiti stranicu?“ | Postoje nespašene promjene. | Ostanite i spasite sa {{key:Mod+S}}. |

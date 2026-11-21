@@ -15,8 +15,8 @@ import { UsdBuilder, V, hexToLinear } from './usd/index.js';
 
 const M = 0.3048;
 
-export function checkUsd(scene, { format = 'usdz', name = 'TakeoffCraft' } = {}) {
-  const b = new UsdBuilder({ app: 'TakeoffCraft', source: name, doc: name });
+export function checkUsd(scene, { format = 'usdz', name = 'TakeoffDesk' } = {}) {
+  const b = new UsdBuilder({ app: 'TakeoffDesk', source: name, doc: name });
   const mats = new Map();
   const material = (color, see) => {
     const key = color + (see ? '_see' : '');

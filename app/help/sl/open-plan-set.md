@@ -5,7 +5,7 @@ keywords: odpri, komplet načrtov, več PDF-jev, več datotek, listi, risbe, ozn
 from: ed434468
 ---
 
-Komplet načrtov je pogosto več PDF-jev: arhitekturni, konstrukcijski, strojni. TakeoffCraft jih odpre drugega ob drugem kot en seznam listov, ena predizmera pa lahko zajame vse.
+Komplet načrtov je pogosto več PDF-jev: arhitekturni, konstrukcijski, strojni. TakeoffDesk jih odpre drugega ob drugem kot en seznam listov, ena predizmera pa lahko zajame vse.
 
 ## Odprite PDF-je
 
@@ -14,14 +14,14 @@ Komplet načrtov je pogosto več PDF-jev: arhitekturni, konstrukcijski, strojni.
 3. Izberite Odpri.
    Med branjem vsake datoteke se prikaže sporočilo „Odpiranje (ime)…“. Nato se vsaka stran pojavi pod {{ui:Listi}}, odpre pa se prva stran prvega novega PDF-ja.
 
-PDF-je lahko tudi povlečete iz {{pick:mac=Finder|windows=File Explorer|linux=vašega upravitelja datotek}} in spustite kamorkoli na TakeoffCraft. Med vlečenjem se prikaže okvir „Spustite PDF-je, risbe DWG ali DXF ali .takeoff.json“.
+PDF-je lahko tudi povlečete iz {{pick:mac=Finder|windows=File Explorer|linux=vašega upravitelja datotek}} in spustite kamorkoli na TakeoffDesk. Med vlečenjem se prikaže okvir „Spustite PDF-je, risbe DWG ali DXF ali .takeoff.json“.
 
 Dodatne PDF-je dodate pozneje tako, da ponovite isto. PDF-ji, ki so že odprti, se preskočijo.
 
 Začetni zaslon prikaže tudi PDF-je in predizmere, ki ste jih nazadnje odprli, v brskalnikih, ki omogočajo strani znova odpreti datoteko (Chrome in Edge). Kliknite jo, da jo odprete; brskalnik lahko najprej zahteva dovoljenje. Glejte [Vaše datoteke](common:your-files).
 
 :::note
-Ničesar se ne naloži. Brskalnik bere PDF-je v vašem računalniku, ti pa so iz TakeoffCraft odstranjeni, ko zaprete zavihek ali izberete {{ui:Novo}}.
+Ničesar se ne naloži. Brskalnik bere PDF-je v vašem računalniku, ti pa so iz TakeoffDesk odstranjeni, ko zaprete zavihek ali izberete {{ui:Novo}}.
 :::
 
 ## Risbe poleg PDF-jev
@@ -30,7 +30,7 @@ Ničesar se ne naloži. Brskalnik bere PDF-je v vašem računalniku, ti pa so iz
 
 ## PDF, predan iz druge aplikacije
 
-Druga aplikacija iz nabora vam lahko preda PDF, ki ga ima odprtega: odpre TakeoffCraft v novem zavihku in PDF se odpre tam, kot da ste ga spustili. Vrstica stanja pove „Odprto (ime), predano iz (aplikacija). Izvirna datoteka je nespremenjena.“ Ničesar se ne naloži; datoteka gre čez shrambo tega brskalnika in je iz nje odstranjena, ko se odpre.
+Druga aplikacija iz nabora vam lahko preda PDF, ki ga ima odprtega: odpre TakeoffDesk v novem zavihku in PDF se odpre tam, kot da ste ga spustili. Vrstica stanja pove „Odprto (ime), predano iz (aplikacija). Izvirna datoteka je nespremenjena.“ Ničesar se ne naloži; datoteka gre čez shrambo tega brskalnika in je iz nje odstranjena, ko se odpre.
 
 Če vrstica stanja pove, da PDF „ni prispel“, je zavihek predolgo čakal ali pa je bil PDF že odprt v drugem zavihku: odprite ga z {{ui:Odpri načrte}}.
 

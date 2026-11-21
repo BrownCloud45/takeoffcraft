@@ -55,4 +55,4 @@ Sinasabi ng scale ng sheet kung gaano kalaki ang drawing; sinasabi ng unit ng it
 
 ## Katumpakan
 
-Sumusukat nang eksakto ang TakeoffCraft mula sa mga punto na iyong i-click, kasama ang totoong haba at lawak ng arko, at hindi nito binibilog ang mga dami. Ibinibilog ng display ang mga haba sa 1/16 inch at ang mga decimal sa dalawang lugar. Ibinibilog lang ang pera sa mga extended amount, sa sentimo.
+Sumusukat nang eksakto ang TakeoffDesk mula sa mga punto na iyong i-click, kasama ang totoong haba at lawak ng arko, at hindi nito binibilog ang mga dami. Ibinibilog ng display ang mga haba sa 1/16 inch at ang mga decimal sa dalawang lugar. Ibinibilog lang ang pera sa mga extended amount, sa sentimo.

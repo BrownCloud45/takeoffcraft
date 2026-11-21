@@ -49,4 +49,4 @@ Ang calibrated scale ay lumalabas bilang "Calibrated 1" = 4.002' sa 24'-6"" sa b
 
 ## Kakaibang PDF
 
-Ang ilang PDF ay nagdedeklara ng mas malaking unit ng page (isang "user unit"); isinasaalang-alang ito ng TakeoffCraft para sa mga preset at sa ipinapakitang scale. Ang mga page na naka-rotate sa PDF ay sinusukat nang pareho sa mga nakatayong page.
+Ang ilang PDF ay nagdedeklara ng mas malaking unit ng page (isang "user unit"); isinasaalang-alang ito ng TakeoffDesk para sa mga preset at sa ipinapakitang scale. Ang mga page na naka-rotate sa PDF ay sinusukat nang pareho sa mga nakatayong page.

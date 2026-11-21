@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, put, cesta, željeznica, most, kolovoz, sloj, iv
 from: 6b08c2c4
 ---
 
-Datoteka IFC 4.3 može sadržavati ceste, željeznice, mostove, morske građevine i dijelove od kojih se one sastoje: kolovoze, slojeve, ivičnjake, šine, zemljane radove, ležišta, pilote i još mnogo toga. TakeoffCraft ih čita i pretvara u tipizirane količine koje možete cijeniti.
+Datoteka IFC 4.3 može sadržavati ceste, željeznice, mostove, morske građevine i dijelove od kojih se one sastoje: kolovoze, slojeve, ivičnjake, šine, zemljane radove, ležišta, pilote i još mnogo toga. TakeoffDesk ih čita i pretvara u tipizirane količine koje možete cijeniti.
 
 ## Otvorite datoteku
 
 1. Izaberite {{ui:Open plans}} u grupi {{ui:File}}, ili pritisnite {{key:Mod+O}}.
-2. Izaberite IFC datoteku (možete je izabrati zajedno sa PDF-ovima), ili je prevucite na TakeoffCraft.
+2. Izaberite IFC datoteku (možete je izabrati zajedno sa PDF-ovima), ili je prevucite na TakeoffDesk.
 
 Za svaku klasu i predefinisani tip pravi se jedna tipizirana količina, na primjer "Kolovoz (fleksibilni): brojanje", i, kad ih datoteka navodi, "dužina" u m, "površina" u m² i "zapremina" u m³. Napomena uz svaku stavku kaže koliko je elemenata izbrojano, a koliko nije imalo nikakvu količinu. Otvaranje novije datoteke istog naziva ažurira te količine umjesto da dodaje nove.
 

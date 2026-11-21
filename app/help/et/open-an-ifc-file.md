@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, tee, raudtee, sild, kate, äärekivi, kiht, muld
 from: 6b08c2c4
 ---
 
-IFC 4.3 fail võib sisaldada teid, raudteid, sildu, mererajatisi ja nende osi: katteid, kihte, äärekive, rööpaid, muldtöid, laagreid, vaiu ja muud. TakeoffCraft loeb need ja teeb neist tüübitud kogused, mida saab hinnastada.
+IFC 4.3 fail võib sisaldada teid, raudteid, sildu, mererajatisi ja nende osi: katteid, kihte, äärekive, rööpaid, muldtöid, laagreid, vaiu ja muud. TakeoffDesk loeb need ja teeb neist tüübitud kogused, mida saab hinnastada.
 
 ## Faili avamine
 
 1. Vali rühmas {{ui:Fail}} {{ui:Ava plaanid}} või vajuta {{key:Mod+O}}.
-2. Vali IFC-fail (saad selle valida koos PDF-idega) või lohista see TakeoffCraftile.
+2. Vali IFC-fail (saad selle valida koos PDF-idega) või lohista see TakeoffDeskile.
 
 Iga klassi ja ettemääratud tüübi kohta tehakse üks tüübitud kogus, näiteks „Kate (paindlik): loendus“, ja kui fail need ütleb, siis ka „pikkus“ meetrites, „pindala“ ruutmeetrites ja „maht“ kuupmeetrites. Kirje märkus ütleb, mitu elementi loeti ja mitmel polnud kogust. Sama nimega uuema faili avamine uuendab neid koguseid, selle asemel et lisada juurde.
 

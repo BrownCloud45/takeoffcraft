@@ -1,6 +1,6 @@
 ---
 title: Kontrola zásob a dodacích lhůt dodavatele
-summary: Přidejte seznam zásob dodavatele (CSV nebo tabulku) a TakeoffCraft podle něj zkontroluje, co výkaz výměr potřebuje včetně odpadu: zda je toho dost skladem a jak dlouho se čeká. Nedostatky a dlouhá čekání se zobrazí v panelu Problémy.
+summary: Přidejte seznam zásob dodavatele (CSV nebo tabulku) a TakeoffDesk podle něj zkontroluje, co výkaz výměr potřebuje včetně odpadu: zda je toho dost skladem a jak dlouho se čeká. Nedostatky a dlouhá čekání se zobrazí v panelu Problémy.
 keywords: dodavatel, zásoby, skladem, dodací lhůta, dostupnost, nedostatek, zpětná objednávka, seznam objednávky, csv, sku, prodejce, materiály, zásobování, problémy
 from: f11160fb
 ---

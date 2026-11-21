@@ -1,11 +1,11 @@
 ---
-title: TakeoffCraft'ın metrajlarınızdan öğrendikleri
-summary: TakeoffCraft, Otomatik say ile onayladığınız sembolleri, koşul takımlarınızı, en çok kullandığınız birim maliyetleri ve her sayfada tekrarladığınız işaret kalıplarını metrajın kendi dosyasının içinde saklar. Görün, kullanın, silin.
+title: TakeoffDesk'ın metrajlarınızdan öğrendikleri
+summary: TakeoffDesk, Otomatik say ile onayladığınız sembolleri, koşul takımlarınızı, en çok kullandığınız birim maliyetleri ve her sayfada tekrarladığınız işaret kalıplarını metrajın kendi dosyasının içinde saklar. Görün, kullanın, silin.
 keywords: öğren, öğrenilenler, öğrenme, asistan, hatırla, semboller, şablonlar, geçen işle aynı, geçen iş, koşul takımı, koşullar, yeniden kullan, birim maliyetler, en çok kullanılan, öneriler, her sayfada yinele, her sayfa, künye, kalıp, tümünü temizle, unut, gizlilik
 from: 54d99e99
 ---
 
-TakeoffCraft, onunla ne kadar çok metraj yaparsanız o kadar hızlanır. Yalnızca kabul ettiklerinizden öğrenir:
+TakeoffDesk, onunla ne kadar çok metraj yaparsanız o kadar hızlanır. Yalnızca kabul ettiklerinizden öğrenir:
 
 - [Otomatik say](topic:auto-count) ile bir sembolü kutuya alıp ardından eklediğiniz semboller,
 - kaydettiğiniz koşul takımları,
@@ -64,6 +64,6 @@ Bir metrajda öğrenmeyi durdurmak için {{ui:Learn from this takeoff}} seçene�
 
 ## İyi bilmeniz gerekenler
 
-- TakeoffCraft'ın eski sürümleri öğrenilmiş şeyler içeren bir dosyayı normal açar. Bu bölümü yok sayarlar ve dosyayı yeniden kaydederlerse onu atarlar.
+- TakeoffDesk'ın eski sürümleri öğrenilmiş şeyler içeren bir dosyayı normal açar. Bu bölümü yok sayarlar ve dosyayı yeniden kaydederlerse onu atarlar.
 - Öğrenilen bir sembol, kutuya aldığınız şeyin küçük bir resmidir ve dosyada tutulur (her biri birkaç kilobayt).
 - Öğrenilen semboller de Otomatik say gibi aranır; bu yüzden aynı sınırlar geçerlidir: [Bir sembolü otomatik say](topic:auto-count).

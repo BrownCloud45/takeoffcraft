@@ -37,12 +37,12 @@ En angiven mängd tar inga märken och gör aldrig kalkylen ofullständig. När 
 Tryck på {{key:Esc}} i formuläret för att stänga det utan att lägga till någon post.
 
 :::tip
-Om du först väljer ett mätverktyg använder TakeoffCraft den senast skapade posten av rätt typ, eller öppnar formuläret för {{ui:New item}} med den typen redan vald.
+Om du först väljer ett mätverktyg använder TakeoffDesk den senast skapade posten av rätt typ, eller öppnar formuläret för {{ui:New item}} med den typen redan vald.
 :::
 
 ## Välj posten du ritar med
 
-Klicka på en post i listan. Den blir den post nya märken går till, och dess märken framhävs på varje blad medan de andra tonas ned. Om det öppna bladet inte har några av dess märken hoppar TakeoffCraft till ett blad som har dem. Klicka på posten igen för att sluta framhäva; den förblir posten du ritar med.
+Klicka på en post i listan. Den blir den post nya märken går till, och dess märken framhävs på varje blad medan de andra tonas ned. Om det öppna bladet inte har några av dess märken hoppar TakeoffDesk till ett blad som har dem. Klicka på posten igen för att sluta framhäva; den förblir posten du ritar med.
 
 Att klicka på ett märke med verktyget {{ui:Select}} gör också dess post till den aktuella.
 
@@ -57,7 +57,7 @@ Postredigeraren (**Post: (namn)**) har dessa fält. Varje fält sparas när du l
 | {{ui:Color}} | Märkenas färg på skärmen och i den markerade PDF:en. |
 | {{ui:Unit}} | Vad mängden redovisas i: LF eller m för linjär; SF, SY, SQ, ac, ha eller m² för area; EA för räkna. |
 | {{ui:Also measure}} | De andra slagen märken som posten tar emot, var och en med sin egen enhet. Se nedan. |
-| {{ui:Height}} (linear) | En väggs höjd. Posten redovisar då även väggarea (längd × höjd). Sträckor som kommer från en BimCraft-modell bär sina dörrar och fönster: de tas bort en gång, och posten anger bruttoarea, öppningarna och nettot. En mängdavtagning från ett BimCraft-projekt som valt en mätmetod mäts med den metoden även här (noten anger metoden, med källan, och säger att den inte är granskad av en kvantitetsingenjör); metoden kan inte ändras i TakeoffCraft. Tegel eller murblock och murbruk från en väggtyp kommer som två komponenter: enheterna att beställa och murbrukets volym. |
+| {{ui:Height}} (linear) | En väggs höjd. Posten redovisar då även väggarea (längd × höjd). Sträckor som kommer från en BimCraft-modell bär sina dörrar och fönster: de tas bort en gång, och posten anger bruttoarea, öppningarna och nettot. En mängdavtagning från ett BimCraft-projekt som valt en mätmetod mäts med den metoden även här (noten anger metoden, med källan, och säger att den inte är granskad av en kvantitetsingenjör); metoden kan inte ändras i TakeoffDesk. Tegel eller murblock och murbruk från en väggtyp kommer som två komponenter: enheterna att beställa och murbrukets volym. |
 | {{ui:Depth}} (area) | Ett djup eller en tjocklek, används i sammansättningsformler (till exempel betongvolym). |
 | {{ui:Waste %}} | Läggs till mängden före prissättning: 10 betyder mängd × 1.10. |
 | Material $/LF | Materialkostnad per enhet. Etiketten följer enheten: $/SF, $/EA och så vidare. |
@@ -74,7 +74,7 @@ Vissa saker mäts på mer än ett sätt: ett rum har ett golv (en area), en list
 
 1. Skapa posten med sin huvudtyp, till exempel en areapost `Rum 101`.
 2. Under {{ui:Also measure}} i dess redigerare bockar du i {{ui:Linear}}, {{ui:Count}} eller båda. Var och en får en enhet bredvid sig.
-3. Rita med vilket verktyg som helst vars slag posten tar emot: med `Rum 101` aktuell ritar {{ui:Area}} dess golv, {{ui:Linear}} dess list och {{ui:Count}} dess dörrar. TakeoffCraft frågar inte efter en annan post.
+3. Rita med vilket verktyg som helst vars slag posten tar emot: med `Rum 101` aktuell ritar {{ui:Area}} dess golv, {{ui:Linear}} dess list och {{ui:Count}} dess dörrar. TakeoffDesk frågar inte efter en annan post.
 
 Listan över poster visar varje mängd (`50.00 SF + 2 EA`). I mängdtabellen har postens rad sin huvudmängd, och varje annat slag får en egen rad under den, till exempel **Rum 101 (räkna)**, med egna spill- och material- och arbetspriser. Exporterna, tabellen per blad och den markerade PDF:ens förklaring listar dem på samma sätt.
 
@@ -113,7 +113,7 @@ I stället för ett arbetspris per enhet kan postens arbete komma från ett arbe
 | {{ui:Crew size}} | `2` personer |
 | {{ui:Wage $/hour each}} | `45` |
 
-Utifrån mängden med spill räknar TakeoffCraft ut:
+Utifrån mängden med spill räknar TakeoffDesk ut:
 
 - **arbetslagstimmar** = mängd ÷ produktion (110 LF ÷ 20 = 5.5),
 - **persontimmar** = arbetslagstimmar × arbetslagets storlek (11),

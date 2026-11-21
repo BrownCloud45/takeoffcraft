@@ -1,6 +1,6 @@
 ---
 title: Symbolin automaattilaskenta
-summary: Rajaa yksi symboli laatikolla, anna TakeoffCraftin etsiä muut tältä arkilta tai kaikilta avoimilta arkeilta, tarkista osumat liukusäätimellä ja lisää ne yhdellä kertaa.
+summary: Rajaa yksi symboli laatikolla, anna TakeoffDeskin etsiä muut tältä arkilta tai kaikilta avoimilta arkeilta, tarkista osumat liukusäätimellä ja lisää ne yhdellä kertaa.
 keywords: mikä tahansa kulma, kierretty, käännetty, muu mittakaava, eri mittakaava, automaattilaskenta, automaattinen laskenta, symbolihaku, symbolien etsintä, kuvio, sapluuna, vastaavuus, tunnistus, laskentatyökalu
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Jos haluat hylätä tarkistuksen lisäämättä mitään, valitse {{ui:Discard}}
 
 ## Mitä se löytää ja mitä se jättää väliin
 
-TakeoffCraft vertaa piirustusta pikseleinä piirtämääsi symboliin.
+TakeoffDesk vertaa piirustusta pikseleinä piirtämääsi symboliin.
 
 - Se löytää symbolin, joka on käännetty 0°, 90°, 180° ja 270°. Jos haluat löytää sen myös mistä tahansa kulmasta, valitse automaattilaskennan palkissa {{ui:Any angle (slower)}} ennen laatikon piirtämistä: se kokeilee 15 asteen välein ja hienosäätää jokaisen löydön asteen ja puolen tarkkuuteen. Tämä kestää noin kuusi kertaa kauemmin. Peilattua symbolia se ei löydä (ellei symboli näytä peilattunakin samalta).
 - Kun {{ui:Search all open sheets}} on valittuna, toisessa mittakaavassa olevaa arkkia haetaan siinä olevan symbolin kokoisena: 1/8"-pohjapiirrokseen mittakaavassa piirretty laite on puolet kokoaan 1/4"-pohjapiirroksessa, ja se löydetään silti. Tällaista arkkia haetaan myös laatikon omalla koolla merkeille ja symboleille, jotka on tulostettu samankokoisina joka arkille. Tämä vaatii mittakaavan molemmilla arkeilla; arkki ilman mittakaavaa haetaan vain laatikon koolla.

@@ -18,32 +18,32 @@ Każdy zapis pobiera nowy plik. Przeglądarka może nazwać drugi plik `(nazwa) 
 Nazwa pochodzi od pierwszego PDF-a otwartego w tym przedmiarze.
 
 :::note
-{{ui:Save takeoff}} nadal jest jedynym sposobem, by zachować przedmiar jako plik. Podczas pracy TakeoffCraft zachowuje też kopię odzyskiwania w tej przeglądarce (patrz niżej), a zapis w chmurze nie jest jeszcze dostępny. Jeśli spróbujesz zamknąć kartę z niezapisanymi zmianami, przeglądarka zapyta, czy opuścić stronę.
+{{ui:Save takeoff}} nadal jest jedynym sposobem, by zachować przedmiar jako plik. Podczas pracy TakeoffDesk zachowuje też kopię odzyskiwania w tej przeglądarce (patrz niżej), a zapis w chmurze nie jest jeszcze dostępny. Jeśli spróbujesz zamknąć kartę z niezapisanymi zmianami, przeglądarka zapyta, czy opuścić stronę.
 :::
 
 ## Zachowaj przedmiar w PDF-ie
 
 {{ui:Export}} › {{ui:PDF with the takeoff inside}} pobiera kopię każdego otwartego PDF-a, nazwaną np. `Plans (with takeoff).pdf`, która zawiera cały przedmiar jako załącznik: pozycje, oznaczenia, skale, obszary oferty, wszystko, co zawiera `.takeoff.json`. Jej strony nie są zmieniane, więc wygląda i drukuje się jak oryginał, a inne czytniki PDF wyświetlają przedmiar wśród załączników.
 
-Otwórz ten PDF w TakeoffCraft (dowolnym sposobem otwierania PDF-ów), a zapyta: **Ten PDF ma przedmiar w środku**. Wybierz {{ui:Open the takeoff}}, aby go odzyskać, albo {{ui:Just the PDF}}, aby otworzyć tylko rysunek. Kopia reprezentuje PDF, z którego powstała, więc `.takeoff.json` zapisany z dowolnej z nich otworzy się na obu.
+Otwórz ten PDF w TakeoffDesk (dowolnym sposobem otwierania PDF-ów), a zapyta: **Ten PDF ma przedmiar w środku**. Wybierz {{ui:Open the takeoff}}, aby go odzyskać, albo {{ui:Just the PDF}}, aby otworzyć tylko rysunek. Kopia reprezentuje PDF, z którego powstała, więc `.takeoff.json` zapisany z dowolnej z nich otworzy się na obu.
 
 Przy kilku PDF-ach każda kopia zawiera cały przedmiar; otwórz je razem. Ponowny zapis z kopii zastępuje przedmiar w niej, nie dodaje drugiego. Plik `.takeoff.json` nadal jest tym, który należy zachować: jest mały, a to on zapisuje automatyczny zapis i aplikacja desktopowa.
 
 ## Jeśli karta lub przeglądarka się zatrzyma
 
-Kilka sekund po każdej zmianie TakeoffCraft zachowuje kopię przedmiaru w pamięci tej przeglądarki, razem z jego PDF-ami, gdy mieszczą się w 64 MB lub mniej. Nic nie jest przesyłane. Gdy zapiszesz przedmiar, zaczniesz nowy albo otworzysz inny projekt, kopia znika.
+Kilka sekund po każdej zmianie TakeoffDesk zachowuje kopię przedmiaru w pamięci tej przeglądarki, razem z jego PDF-ami, gdy mieszczą się w 64 MB lub mniej. Nic nie jest przesyłane. Gdy zapiszesz przedmiar, zaczniesz nowy albo otworzysz inny projekt, kopia znika.
 
-Jeśli karta ulegnie awarii, przeglądarka lub komputer się zatrzyma albo wyjdziesz z niezapisanymi zmianami, następnym razem, gdy otworzysz TakeoffCraft, zapyta **Odzyskać pracę?** i wyświetli przedmiar wraz z nazwą. Wybierz **Odzyskaj**, aby go przywrócić: pozycje, oznaczenia i skale wrócą, a jego PDF-y otworzą się ponownie, jeśli je zachowano. Pasek stanu pisze „Odzyskano (nazwa). Nie jest jeszcze zapisany w pliku: zapisze go Zapisz przedmiar.” Gdy PDF-y były zbyt duże, by je zachować, otwórz je ponownie; oznaczenia pojawią się na ich arkuszach. Więcej: [Odzyskiwanie pracy](common:recover).
+Jeśli karta ulegnie awarii, przeglądarka lub komputer się zatrzyma albo wyjdziesz z niezapisanymi zmianami, następnym razem, gdy otworzysz TakeoffDesk, zapyta **Odzyskać pracę?** i wyświetli przedmiar wraz z nazwą. Wybierz **Odzyskaj**, aby go przywrócić: pozycje, oznaczenia i skale wrócą, a jego PDF-y otworzą się ponownie, jeśli je zachowano. Pasek stanu pisze „Odzyskano (nazwa). Nie jest jeszcze zapisany w pliku: zapisze go Zapisz przedmiar.” Gdy PDF-y były zbyt duże, by je zachować, otwórz je ponownie; oznaczenia pojawią się na ich arkuszach. Więcej: [Odzyskiwanie pracy](common:recover).
 
 ## Ponowne otwarcie
 
-1. Otwórz TakeoffCraft.
+1. Otwórz TakeoffDesk.
 2. Upuść plik `.takeoff.json` i jego PDF-y razem na stronę. Albo wybierz {{ui:Open plans}} dla PDF-ów i {{ui:Open takeoff}} dla projektu, w dowolnej kolejności.
    Pasek stanu pisze „Otwarto (nazwa): 12 pozycji, 340 oznaczeń.” Każdy arkusz odzyskuje swoją skalę, a oznaczenia pojawiają się na arkuszach.
 
-Kolejność PDF-ów nie ma znaczenia, podobnie jak ich nazwy czy foldery. TakeoffCraft rozpoznaje każdy PDF po odcisku jego zawartości.
+Kolejność PDF-ów nie ma znaczenia, podobnie jak ich nazwy czy foldery. TakeoffDesk rozpoznaje każdy PDF po odcisku jego zawartości.
 
-Jeśli otworzysz projekt, gdy bieżący przedmiar ma niezapisane zmiany, TakeoffCraft najpierw zapyta: **Anuluj**, **Odrzuć zmiany** albo **Najpierw zapisz przedmiar**. Otwarcie projektu zastępuje bieżące pozycje i oznaczenia; PDF-y, które są już otwarte, pozostają otwarte.
+Jeśli otworzysz projekt, gdy bieżący przedmiar ma niezapisane zmiany, TakeoffDesk najpierw zapyta: **Anuluj**, **Odrzuć zmiany** albo **Najpierw zapisz przedmiar**. Otwarcie projektu zastępuje bieżące pozycje i oznaczenia; PDF-y, które są już otwarte, pozostają otwarte.
 
 ## Gdy brakuje PDF-a
 
@@ -55,7 +55,7 @@ Po czym następują nazwy plików i rozmiary. Ich oznaczenia nadal liczą się w
 
 ## Gdy PDF się zmienił
 
-Poprawiony PDF albo tylko ponownie zapisany przez inny program ma inną zawartość, więc dla TakeoffCraft to **inny plik**, nawet o tej samej nazwie. W notatce pod listą arkuszy taki plik pisze „plik o tej nazwie jest otwarty, ale jego zawartość się różni”.
+Poprawiony PDF albo tylko ponownie zapisany przez inny program ma inną zawartość, więc dla TakeoffDesk to **inny plik**, nawet o tej samej nazwie. W notatce pod listą arkuszy taki plik pisze „plik o tej nazwie jest otwarty, ale jego zawartość się różni”.
 
 - Oznaczenia zostają przypięte do starej wersji. Nadal się liczą, na swoich dawnych miejscach i skalach.
 - Poprawiony PDF otwiera się jako nowe arkusze bez skali i bez oznaczeń.
@@ -64,11 +64,11 @@ Aby przenieść przedmiar na poprawkę, otwórz oba PDF-y i użyj {{ui:Compare}}
 
 ## Uszkodzony lub obcy plik
 
-TakeoffCraft sprawdza każdy plik projektu przed jego użyciem. Możesz zobaczyć komunikaty:
+TakeoffDesk sprawdza każdy plik projektu przed jego użyciem. Możesz zobaczyć komunikaty:
 
-- „(plik) nie jest projektem TakeoffCraft (nie jest poprawnym JSON-em).”
-- „To nie jest plik projektu TakeoffCraft.”
-- „Ten projekt zapisano w nowszej wersji TakeoffCraft. Otwórz go tam.”
+- „(plik) nie jest projektem TakeoffDesk (nie jest poprawnym JSON-em).”
+- „To nie jest plik projektu TakeoffDesk.”
+- „Ten projekt zapisano w nowszej wersji TakeoffDesk. Otwórz go tam.”
 - „3 oznaczenia uszkodzono i pominięto.” (reszta się otwiera)
 
 ## Historia cofania

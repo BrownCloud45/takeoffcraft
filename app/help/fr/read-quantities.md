@@ -24,7 +24,7 @@ Choisissez {{ui:Par poste}} (le choix par défaut). Chaque poste a une ligne, et
 
 La dernière ligne, **Total général**, additionne les colonnes Matériau, Main-d'œuvre et Total. Le même total s'affiche à droite de l'en-tête du tableau.
 
-Saisissez une valeur dans une cellule de chute ou de prix, puis appuyez sur {{key:Enter}} ou cliquez ailleurs pour l'appliquer. Une valeur que TakeoffCraft ne peut pas lire est encadrée en rouge et la barre d'état indique pourquoi, par exemple « Saisissez une valeur comme 12.50. »
+Saisissez une valeur dans une cellule de chute ou de prix, puis appuyez sur {{key:Enter}} ou cliquez ailleurs pour l'appliquer. Une valeur que TakeoffDesk ne peut pas lire est encadrée en rouge et la barre d'état indique pourquoi, par exemple « Saisissez une valeur comme 12.50. »
 
 Cliquez sur la ligne d'un poste pour mettre en évidence ses repères sur chaque feuille et aller à une feuille qui en contient (comme un clic sous {{ui:Éléments (I)}}).
 

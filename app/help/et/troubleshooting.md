@@ -1,11 +1,11 @@
 ---
 title: Tõrkeotsing
-summary: Sümptomid, põhjused ja parandused sõnumite ja ootamatuste jaoks, mida TakeoffCraftis võid kohata, tsiteeritud nii, nagu rakendus need näitab.
+summary: Sümptomid, põhjused ja parandused sõnumite ja ootamatuste jaoks, mida TakeoffDeskis võid kohata, tsiteeritud nii, nagu rakendus need näitab.
 keywords: probleemid, vead, ei tööta, parandus, abi, keeldumine, ei mõõda, mõõtkava puudub, puuduvad märgid, eksport ebaõnnestus, võrguta, puuteekraan
 from: cd319c9b
 ---
 
-TakeoffCraft selgitab enamikku keeldumisi akna all olevas olekuribas. Leia sõnum allpool.
+TakeoffDesk selgitab enamikku keeldumisi akna all olevas olekuribas. Leia sõnum allpool.
 
 ## Failide avamine
 
@@ -15,8 +15,8 @@ TakeoffCraft selgitab enamikku keeldumisi akna all olevas olekuribas. Leia sõnu
 | (nimi) on parooliga kaitstud. Ava kaitsmata koopia. | PDF nõuab avamiseks parooli. | Palu kaitsmata koopia või eemalda parool usaldusväärses PDF-programmis. |
 | (nimi) ei saanud PDF-ina lugeda (…) | Fail on rikutud või pole tegelikult PDF. | Laadi uuesti alla või salvesta uuesti selle programmiga, mis selle tegi. |
 | (nimi) on juba avatud. | Sama PDF (sama sisu) on avatud. | Pole midagi teha. |
-| TakeoffCraft avab PDF-e ja .takeoff.json projekte. Vahele jäetud: … | Muud failitüübid jäeti välja. | Teisenda joonised enne PDF-iks. |
-| Failide lohistamisel ei juhtu midagi | Failid lohistati väljapoole brauseriakent või brauser avas PDF-i uuel vahekaardil. | Lohista TakeoffCraft'i lehele endale; raam „Lohista PDF-id või .takeoff.json“ näitab, millal see töötab. |
+| TakeoffDesk avab PDF-e ja .takeoff.json projekte. Vahele jäetud: … | Muud failitüübid jäeti välja. | Teisenda joonised enne PDF-iks. |
+| Failide lohistamisel ei juhtu midagi | Failid lohistati väljapoole brauseriakent või brauser avas PDF-i uuel vahekaardil. | Lohista TakeoffDesk'i lehele endale; raam „Lohista PDF-id või .takeoff.json“ näitab, millal see töötab. |
 | Suure komplekti avamine võtab aega | Iga PDF loetakse täielikult, et seda identifitseerida. | Oota, kuni teade „Avan (nimi)…“ kaob. Pisipildid täituvad kerimisel. |
 
 ## Mõõtmine
@@ -47,7 +47,7 @@ TakeoffCraft selgitab enamikku keeldumisi akna all olevas olekuribas. Leia sõnu
 | Sõnum või sümptom | Põhjus | Parandus |
 |---|---|---|
 | Vali kaks punkti, mis on üksteisest kaugemal. | Kalibreerimispunktid on peaaegu üksteise peal. | Kalibreeri pikema mõõdu järgi. |
-| Kalibreerimisdialoogis teade nagu „Seda kaugust ei saanud lugeda“ | Kaugus on vormingus, mida TakeoffCraft ei oska lugeda. | Vt [Pikkuse, kiiruse ja protsendi sisestamine](topic:entry-formats). |
+| Kalibreerimisdialoogis teade nagu „Seda kaugust ei saanud lugeda“ | Kaugus on vormingus, mida TakeoffDesk ei oska lugeda. | Vt [Pikkuse, kiiruse ja protsendi sisestamine](topic:entry-formats). |
 | Sellel lehel pole veel mõõtkava, seega kontrollida pole midagi. Kalibreeri see või vali eelseade. | {{ui:Kontrolli}} mõõtkavata lehel. | Sea enne mõõtkava. |
 | {{ui:Eelseade}} loend on hall | Ühtegi lehte pole avatud. | Ava PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft selgitab enamikku keeldumisi akna all olevas olekuribas. Leia sõnu
 | See PDF on parooliga kaitstud või krüpteeritud, seega märgitud koopiat ei saa kirjutada. … | PDF on krüpteeritud. | Ekspordi selle asemel {{ui:XLSX}} või kasuta PDF-i krüpteerimata koopiat (see vajab siis oma koguste arvestust, sest see on teine fail). |
 | Märgitud PDF-i ei saanud kirjutada: … | Sageli: oled võrguta ja rakendust polnud võrguks salvestatud, seega PDF-kirjutaja puudub. | Mine võrku ja vali {{ui:Märgitud PDF}} uuesti. Selle vältimiseks vali {{ui:Salvesta võrguks}} ja oota {{ui:Valmis ka võrguta}}. |
 | Alla laaditi ainult üks märgitud PDF | Brauser blokeeris mitu allalaadimist korraga. | Luba sellel saidil mitu allalaadimist ja ekspordi uuesti. |
-| (fail) ei ole TakeoffCraft'i projekt (see pole kehtiv JSON). / See ei ole TakeoffCraft'i projektifail. | Vale fail või rikutud fail. | Vali `.takeoff.json` fail. |
-| Selle projekti salvestas uuem TakeoffCraft. Ava see seal. | Fail pärineb uuemast versioonist. | Ava see uuemas versioonis. |
+| (fail) ei ole TakeoffDesk'i projekt (see pole kehtiv JSON). / See ei ole TakeoffDesk'i projektifail. | Vale fail või rikutud fail. | Vali `.takeoff.json` fail. |
+| Selle projekti salvestas uuem TakeoffDesk. Ava see seal. | Fail pärineb uuemast versioonist. | Ava see uuemas versioonis. |
 | (n) märki olid rikutud ja jäeti välja. | Osa failist oli rikutud või muudetud käsitsi. | Ülejäänu avati. Joonista puuduvad märgid uuesti või ava vanem koopia. |
 | Märgid puuduvad pärast uuesti avamist | PDF-id pole avatud või üks neist on muutunud. | Vt [Salvesta ja ava koguste arvestus uuesti](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Brauser küsib „Lahkuda saidilt?“ | Salvestamata muudatused. | Jää lehele ja salvesta klahviga {{key:Mod+S}}. |

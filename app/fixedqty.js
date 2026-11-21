@@ -3,12 +3,12 @@
  * fixedqty.js — quantities that arrive from another app (0.6 TK.5+). DOM-free (tested in Node).
  *
  * A quantities file is plain JSON any app or script can write; CivilCraft writes one for its cut and fill
- * (Earthwork › Send to TakeoffCraft):
+ * (Earthwork › Send to TakeoffDesk):
  *
  *   { "format": "cadcraft-quantities", "version": 1, "app": "CivilCraft", "project": "North lot", "made": "<ISO time>",
  *     "items": [ { "key": "earthwork:cut", "name": "Earthwork: cut", "unit": "CY", "qty": 1234.56, "note": "…" }, … ] }
  *
- * `key` names the quantity in the app that sent it; units are TakeoffCraft's (LS EA CY m³ LF m SF SY m²). Each item becomes a
+ * `key` names the quantity in the app that sent it; units are TakeoffDesk's (LS EA CY m³ LF m SF SY m²). Each item becomes a
  * typed quantity (item type `fixed`) with `origin` { app, project, key, at }. Opening a newer file from the same app and
  * project updates those items' quantities (names, rates, waste and assemblies stay the estimator's) instead of adding more.
  */

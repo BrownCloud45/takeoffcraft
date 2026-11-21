@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * sheetlist.js: a windowed list of sheets, so a 2,000-sheet set puts a screenful of rows in the page instead of 14,000 nodes (0.10 PERF.35).
- * Canonical copy: lib/sheetlist/. MarkupCraft and TakeoffCraft each carry a byte-identical copy in <app>/dev/sheetlist.js
+ * Canonical copy: lib/sheetlist/. MarkupCraft and TakeoffDesk each carry a byte-identical copy in <app>/dev/sheetlist.js
  * (`node tools/sheetlist/sync.mjs [--check] markupcraft takeoffcraft`; nobody edits a copy).
  *
  *   const win = new SheetWindow({ list: <ol>, renderRow: (entry, i) => <li>, estimate: (entry) => px, overscan: 400 })

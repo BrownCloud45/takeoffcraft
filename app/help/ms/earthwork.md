@@ -5,7 +5,7 @@ keywords: kerja tanah, galian, potongan, tambakan, potongan dan tambakan, pemben
 from: a898e508
 ---
 
-TakeoffCraft mengukur apa yang dilukis pada helaian. Kerja tanah memerlukan permukaan tanah, jadi ia dikongsi dengan CivilCraft, yang membina permukaan daripada titik, menentukan kecerunannya dan mengira potongan, tambakan serta angkutan jisim.
+TakeoffDesk mengukur apa yang dilukis pada helaian. Kerja tanah memerlukan permukaan tanah, jadi ia dikongsi dengan CivilCraft, yang membina permukaan daripada titik, menentukan kecerunannya dan mengira potongan, tambakan serta angkutan jisim.
 
 ## Galian mudah di sini
 
@@ -29,8 +29,8 @@ Titik daripada helaian yang berbeza tidak berkongsi koordinat, jadi eksport hany
 
 Kerja tanah CivilCraft kembali sebagai dua item yang boleh anda harga:
 
-1. Dalam CivilCraft, gredkan pelantar dan koridor anda, kemudian pilih {{ui:Send to TakeoffCraft}} di bawah **Kerja tanah** ([Isipadu kerja tanah](app:civilcraft/volumes)). Ia menyimpan fail kuantiti (`.quantities.json`).
-2. Dalam TakeoffCraft, buka fail itu melalui {{ui:Open takeoff}}, atau lepaskannya pada aplikasi. Takeoff anda kekal terbuka: fail itu menambah **Kerja tanah: potongan** dan **Kerja tanah: tambakan** sebagai [kuantiti ditaip](topic:create-items#typed-quantities-no-drawing) dalam yard padu (CY) untuk projek kaki, atau meter padu (m³) untuk projek meter. Ia satu langkah: {{key:Mod+Z}} membatalkannya.
+1. Dalam CivilCraft, gredkan pelantar dan koridor anda, kemudian pilih {{ui:Send to TakeoffDesk}} di bawah **Kerja tanah** ([Isipadu kerja tanah](app:civilcraft/volumes)). Ia menyimpan fail kuantiti (`.quantities.json`).
+2. Dalam TakeoffDesk, buka fail itu melalui {{ui:Open takeoff}}, atau lepaskannya pada aplikasi. Takeoff anda kekal terbuka: fail itu menambah **Kerja tanah: potongan** dan **Kerja tanah: tambakan** sebagai [kuantiti ditaip](topic:create-items#typed-quantities-no-drawing) dalam yard padu (CY) untuk projek kaki, atau meter padu (m³) untuk projek meter. Ia satu langkah: {{key:Mod+Z}} membatalkannya.
 3. Namakan semula, tetapkan pembaziran, kadar dan himpunan kos mengikut kehendak anda.
 
 Apabila reka bentuk berubah, hantar semula daripada CivilCraft dan buka fail baharu: dua item yang sama mendapat kuantiti baharu. Nama, kadar, pembaziran dan himpunan kos mereka kekal seperti yang anda tetapkan. Jika unit projek berubah, bar status akan memberitahu anda: semak kadar. Fail daripada projek CivilCraft lain menambah dua item sendiri.

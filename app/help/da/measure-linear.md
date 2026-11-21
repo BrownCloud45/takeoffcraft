@@ -30,7 +30,7 @@ Mens du tegner:
 - Træk panorerer arket, og hjulet zoomer, uden at tilføje punkter.
 
 :::mac
-På et Mac-touchpad er højreklik et tofingerklik (slå sekundærklik til under Systemindstillinger, Touchpad). TakeoffCraft læser kun sekundærknappen, så et Control-klik kan tages for et almindeligt klik og tilføje et punkt. Dobbeltklik eller {{key:Enter}} afslutter altid.
+På et Mac-touchpad er højreklik et tofingerklik (slå sekundærklik til under Systemindstillinger, Touchpad). TakeoffDesk læser kun sekundærknappen, så et Control-klik kan tages for et almindeligt klik og tilføje et punkt. Dobbeltklik eller {{key:Enter}} afslutter altid.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Efter det første punkt kan du skrive, hvor det næste skal ligge, i stedet for 
 | `@6',-4'` | 6' til højre og 4' ned fra det sidste punkt |
 | `6',4'` (eller `#6',4'`) | 6' til højre og 4' op fra forløbets første punkt |
 
-Længder skrives, som de skrives overalt i TakeoffCraft ([Indtastningsformater](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fod), `30"`, `3.2 m`. "Højre" og "op" er, som du ser arket, også når PDF-siden er drejet.
+Længder skrives, som de skrives overalt i TakeoffDesk ([Indtastningsformater](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fod), `30"`, `3.2 m`. "Højre" og "op" er, som du ser arket, også når PDF-siden er drejet.
 
 {{key:Enter}} i en tom boks afslutter forløbet, ligesom {{key:Enter}} på arket; {{key:Esc}} lukker boksen og lader forløbet fortsætte. Skrevne punkter følger de samme regler som klik: fradrag, buer og lukning af et areal virker alle. Den samme boks virker i {{ui:Areal}} og {{ui:Udsparing}}; efter en cirkels centrum tager den radius.
 

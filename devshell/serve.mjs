@@ -143,6 +143,6 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   console.log(`${META.app.name} dev shell: http://${o.host}:${o.port}/  (Ctrl+C to stop)`);
   if (o.mcp) {
     console.log(`AI assistants: http://127.0.0.1:${o.port}/mcp  token in devshell/.mcp-token (devshell/MCP.md)`);
-    console.log('  Then in the app: Settings › TakeoffCraft › Assistants › tick "Let AI assistants and scripts use TakeoffCraft".');
+    console.log('  Then in the app: Settings › TakeoffDesk › Assistants › tick "Let AI assistants and scripts use TakeoffDesk".');
   }
 }

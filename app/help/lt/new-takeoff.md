@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Įrašykite dabartinį kiekių skaičiavimą, jei norite jį išsaugoti: {{ui:Įrašyti kiekius}} arba {{key:Mod+S}}.
 2. Grupėje {{ui:Failas}} pasirinkite {{ui:Naujas}}.
-3. Jei yra neįrašytų pakeitimų, TakeoffCraft klausia **Neįrašytas kiekių skaičiavimas**: pasirinkite {{ui:Pirmiausia įrašyti kiekių skaičiavimą}} (atsisiunčia projektą, tada išvalo), {{ui:Atsisakyti pakeitimų}} arba {{ui:Atšaukti}}.
+3. Jei yra neįrašytų pakeitimų, TakeoffDesk klausia **Neįrašytas kiekių skaičiavimas**: pasirinkite {{ui:Pirmiausia įrašyti kiekių skaičiavimą}} (atsisiunčia projektą, tada išvalo), {{ui:Atsisakyti pakeitimų}} arba {{ui:Atšaukti}}.
    Langas grįžta į tuščią būseną: be PDF, be pozicijų, be žymių, be mastelių. Būsenos juostoje rašoma: „Naujas kiekių skaičiavimas. Atidarykite PDF, kad pradėtumėte.“
 
 Išvalomi:

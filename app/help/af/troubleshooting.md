@@ -1,11 +1,11 @@
 ---
 title: Probleemoplossing
-summary: Simptome, oorsake en oplossings vir die boodskappe en verrassings wat jy in TakeoffCraft kan teëkom, aangehaal soos die app dit wys.
+summary: Simptome, oorsake en oplossings vir die boodskappe en verrassings wat jy in TakeoffDesk kan teëkom, aangehaal soos die app dit wys.
 keywords: probleme, foute, werk nie, oplossing, hulp, geweier, meet nie, geen skaal, ontbrekende merkers, uitvoer misluk, vanlyn, aanraak
 from: cd319c9b
 ---
 
-TakeoffCraft verduidelik die meeste weigerings in die statusbalk onderaan die venster. Soek die boodskap hieronder.
+TakeoffDesk verduidelik die meeste weigerings in die statusbalk onderaan die venster. Soek die boodskap hieronder.
 
 ## Lêers oopmaak
 
@@ -15,8 +15,8 @@ TakeoffCraft verduidelik die meeste weigerings in die statusbalk onderaan die ve
 | (name) is met 'n wagwoord beskerm. Maak 'n onbeskermde kopie oop. | Die PDF benodig 'n wagwoord om oop te maak. | Vra vir 'n onbeskermde kopie, of verwyder die wagwoord in 'n PDF-program wat jy vertrou. |
 | (name) kon nie as 'n PDF gelees word nie (…) | Die lêer is beskadig of is nie werklik 'n PDF nie. | Laai dit weer af, of stoor dit weer vanaf die program wat dit gemaak het. |
 | (name) is reeds oop. | Dieselfde PDF (dieselfde inhoud) is oop. | Niks om te doen nie. |
-| TakeoffCraft maak PDF's en .takeoff.json-projekte oop. Oorgeslaan: … | Ander lêersoorte is laat val. | Skakel tekeninge eers om na PDF. |
-| Niks gebeur wanneer ek lêers los nie | Die lêers is buite die blaaiervenster losgelaat, of die blaaier het die PDF in 'n nuwe oortjie oopgemaak. | Los hulle op die TakeoffCraft-bladsy self; die raam "Los PDF's of 'n .takeoff.json" wys wanneer dit sal werk. |
+| TakeoffDesk maak PDF's en .takeoff.json-projekte oop. Oorgeslaan: … | Ander lêersoorte is laat val. | Skakel tekeninge eers om na PDF. |
+| Niks gebeur wanneer ek lêers los nie | Die lêers is buite die blaaiervenster losgelaat, of die blaaier het die PDF in 'n nuwe oortjie oopgemaak. | Los hulle op die TakeoffDesk-bladsy self; die raam "Los PDF's of 'n .takeoff.json" wys wanneer dit sal werk. |
 | Om 'n groot stel oop te maak neem 'n rukkie | Elke PDF word volledig gelees om dit te identifiseer. | Wag totdat die "Maak (name) oop…"-boodskap verdwyn. Miniatuurbeelde vul in soos jy rol. |
 
 ## Meet
@@ -47,7 +47,7 @@ TakeoffCraft verduidelik die meeste weigerings in die statusbalk onderaan die ve
 | Boodskap of simptoom | Oorsaak | Oplossing |
 |---|---|---|
 | Kies twee punte verder uitmekaar. | Die kalibrasiepunte lê byna op mekaar. | Kalibreer op 'n langer maat. |
-| 'n Boodskap in die kalibreer-dialoog, soos "Daardie afstand kon nie gelees word nie" | Die afstand is in 'n vorm wat TakeoffCraft nie kan lees nie. | Sien [Invoer van lengte, tarief en persentasie](topic:entry-formats). |
+| 'n Boodskap in die kalibreer-dialoog, soos "Daardie afstand kon nie gelees word nie" | Die afstand is in 'n vorm wat TakeoffDesk nie kan lees nie. | Sien [Invoer van lengte, tarief en persentasie](topic:entry-formats). |
 | Hierdie blad het nog geen skaal nie, so daar is niks om te kontroleer nie. Kalibreer dit, of kies 'n voorinstelling. | {{ui:Kontroleer}} op 'n blad sonder skaal. | Stel eers 'n skaal. |
 | Die lys {{ui:Voorinstelling}} is grys | Geen blad is oop nie. | Maak 'n PDF oop. |
 
@@ -86,8 +86,8 @@ TakeoffCraft verduidelik die meeste weigerings in die statusbalk onderaan die ve
 | Hierdie PDF is met 'n wagwoord beskerm of geënkripteer, so 'n gemerkte kopie kan nie geskryf word nie. … | Die PDF is geënkripteer. | Voer eerder {{ui:XLSX}} uit, of gebruik 'n onge-enkripteerde kopie van die PDF (dit benodig dan sy eie hoeveelheidsopname, omdat dit 'n ander lêer is). |
 | Die gemerkte PDF kon nie geskryf word nie: … | Dikwels: vanlyn, en die app is nie vir vanlyn gebruik gestoor nie, so die PDF-skrywer ontbreek. | Gaan aanlyn en kies weer {{ui:Gemerkte PDF}}. Om dit te vermy, kies {{ui:Stoor vir vanlyn}} en wag vir {{ui:Vanlyn gereed}}. |
 | Slegs een gemerkte PDF is afgelaai | Die blaaier het verskeie aflaaie terselfdertyd geblokkeer. | Laat meervoudige aflaaie vir hierdie webwerf toe, en voer weer uit. |
-| (file) is nie 'n TakeoffCraft-projek nie (dit is nie geldige JSON nie). / Hierdie is nie 'n TakeoffCraft-projeklêer nie. | Verkeerde lêer, of 'n beskadigde een. | Kies die `.takeoff.json`-lêer. |
-| Hierdie projek is deur 'n nuwer TakeoffCraft gestoor. Maak dit daar oop. | Die lêer kom uit 'n nuwer bou. | Maak dit in die nuwer bou oop. |
+| (file) is nie 'n TakeoffDesk-projek nie (dit is nie geldige JSON nie). / Hierdie is nie 'n TakeoffDesk-projeklêer nie. | Verkeerde lêer, of 'n beskadigde een. | Kies die `.takeoff.json`-lêer. |
+| Hierdie projek is deur 'n nuwer TakeoffDesk gestoor. Maak dit daar oop. | Die lêer kom uit 'n nuwer bou. | Maak dit in die nuwer bou oop. |
 | (n) merkers was beskadig en is uitgelaat. | 'n Deel van die lêer is beskadig of met die hand geredigeer. | Die res het oopgemaak. Teken die ontbrekende merkers opnuut, of maak 'n ouer kopie oop. |
 | Merkers ontbreek ná heroopening | Die PDF's is nie oop nie, of een van hulle het verander. | Sien [Stoor en heropen 'n hoeveelheidsopname](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Die blaaier vra "Verlaat webwerf?" | Daar is ongestoorde veranderinge. | Bly, en stoor met {{key:Mod+S}}. |

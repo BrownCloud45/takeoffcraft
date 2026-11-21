@@ -5,7 +5,7 @@ keywords: moviment de terres, excavació, desmunt, terraplè, desmunt i terrapl�
 from: a898e508
 ---
 
-TakeoffCraft mesura el que està dibuixat en un full. El moviment de terres necessita una superfície del terreny, de manera que es comparteix amb CivilCraft, que construeix superfícies a partir de punts, les anivella i calcula el desmunt, el terraplè i el transport.
+TakeoffDesk mesura el que està dibuixat en un full. El moviment de terres necessita una superfície del terreny, de manera que es comparteix amb CivilCraft, que construeix superfícies a partir de punts, les anivella i calcula el desmunt, el terraplè i el transport.
 
 ## Excavació senzilla
 
@@ -29,8 +29,8 @@ Els punts de fulls diferents no comparteixen coordenades, de manera que l'export
 
 El moviment de terres de CivilCraft torna en forma de dues partides que podeu valorar:
 
-1. A CivilCraft, anivelleu les plataformes i els corredors i trieu {{ui:Envia a TakeoffCraft}} sota **Moviment de terres** ([Volums de moviment de terres](app:civilcraft/volumes)). Desa un fitxer de quantitats (`.quantities.json`).
-2. A TakeoffCraft, obriu-lo amb {{ui:Obre amidament}}, o deixeu-lo anar sobre l'aplicació. L'amidament es manté obert: el fitxer afegeix **Moviment de terres: desmunt** i **Moviment de terres: terraplè** com a [quantitats tipades](topic:create-items#typed-quantities-no-drawing) en iardes cúbiques (CY) per a un projecte en peus, o en metres cúbics (m³) per a un projecte en metres. És un sol pas: {{key:Mod+Z}} ho desfà.
+1. A CivilCraft, anivelleu les plataformes i els corredors i trieu {{ui:Envia a TakeoffDesk}} sota **Moviment de terres** ([Volums de moviment de terres](app:civilcraft/volumes)). Desa un fitxer de quantitats (`.quantities.json`).
+2. A TakeoffDesk, obriu-lo amb {{ui:Obre amidament}}, o deixeu-lo anar sobre l'aplicació. L'amidament es manté obert: el fitxer afegeix **Moviment de terres: desmunt** i **Moviment de terres: terraplè** com a [quantitats tipades](topic:create-items#typed-quantities-no-drawing) en iardes cúbiques (CY) per a un projecte en peus, o en metres cúbics (m³) per a un projecte en metres. És un sol pas: {{key:Mod+Z}} ho desfà.
 3. Reanomeneu-les i establiu la pèrdua, els preus unitaris i els preus descomposts com vulgueu.
 
 Quan canvi el disseny, torneu a enviar des de CivilCraft i obriu el fitxer nou: les mateixes dues partides rebran les quantitats noves. Els seus noms, preus unitaris, pèrdua i preus descomposts es mantenen tal com els heu establert. Si ha canviat la unitat del projecte, la barra d'estat ho indica: reviseu els preus unitaris. Un fitxer d'un altre projecte de CivilCraft afegeix les seves pròpies dues partides.

@@ -1,11 +1,11 @@
 ---
 title: Mida ta on sinu koguste arvestustest õppinud
-summary: TakeoffCraft hoiab alles Automaatse loenduse abil kinnitatud sümbolid, sinu salvestatud tingimuste komplektid, enim kasutatavad koostud ja mustrid, mida kordad igal lehel, kõik selle koguste arvestuse enda failis. Vaata, kasuta, kustuta.
+summary: TakeoffDesk hoiab alles Automaatse loenduse abil kinnitatud sümbolid, sinu salvestatud tingimuste komplektid, enim kasutatavad koostud ja mustrid, mida kordad igal lehel, kõik selle koguste arvestuse enda failis. Vaata, kasuta, kustuta.
 keywords: õpi, õpitud, õppimine, assistent, meeldejätmine, sümbolid, mallid, sama mis viimane töö, viimane töö, tingimuste komplekt, tingimused, taaskasutus, koostud, enim kasutatud, soovitused, korda igal lehel, iga leht, tiitelplokk, muster, tühjenda kõik, unusta, privaatsus
 from: 54d99e99
 ---
 
-TakeoffCraft muutub kiiremaks, mida rohkem koguste arvestusi sellega teed. See õpib **ainult sinu kinnitatud asjadest**:
+TakeoffDesk muutub kiiremaks, mida rohkem koguste arvestusi sellega teed. See õpib **ainult sinu kinnitatud asjadest**:
 
 - sümbolid, mille oled märkinud [Automaatse loenduse](topic:auto-count) abil ja seejärel lisanud,
 - tingimuste komplektid, mille salvestad,
@@ -64,6 +64,6 @@ Et ühes koguste arvestuses õppimine lõpetada, tühjenda {{ui:Õpi sellest kog
 
 ## Hea teada
 
-- Vanemad TakeoffCrafti versioonid avavad õpitud asjadega faili tavaliselt. Nad ignoreerivad seda osa ja eemaldavad selle, kui fail uuesti salvestatakse.
+- Vanemad TakeoffDeski versioonid avavad õpitud asjadega faili tavaliselt. Nad ignoreerivad seda osa ja eemaldavad selle, kui fail uuesti salvestatakse.
 - Õpitud sümbol on väike pilt sellest, mille märkisid kastiga, ja see hoitakse failis (igaüks mõni kilobait).
 - Õpitud sümboleid otsitakse nagu Automaatne loendus, seega kehtivad samad piirangud: [Sümboli automaatne loendamine](topic:auto-count).

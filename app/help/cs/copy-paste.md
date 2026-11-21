@@ -32,11 +32,11 @@ Vložené značky jdou do rozpočtové oblasti zvolené nahoře na panelu {{ui:P
 
 {{key:Mod+Shift+V}} ({{ui:Vložit na stejné místo}}) umístí kopii přesně na stejné místo na otevřeném listu, podle její polohy na stránce. Použijte to pro typické patro: vyberte půdorys 2. patra, zkopírujte, otevřete 3. patro a vložte na stejné místo.
 
-Vložit na stejné místo vyžaduje list **stejné velikosti**, jako byl ten, ze kterého jste kopírovali. Na listu jiné velikosti TakeoffCraft to oznámí a nic nevloží; místo toho použijte {{ui:Vložit}} a klikněte. Na listu, ze kterého jste kopírovali, kopie dopadne přes originály.
+Vložit na stejné místo vyžaduje list **stejné velikosti**, jako byl ten, ze kterého jste kopírovali. Na listu jiné velikosti TakeoffDesk to oznámí a nic nevloží; místo toho použijte {{ui:Vložit}} a klikněte. Na listu, ze kterého jste kopírovali, kopie dopadne přes originály.
 
 ## Měřítko musí souhlasit
 
-Délky a plochy závisí na měřítku listu. Úsek naměřený 10' při 1/4" = 1'-0" by na listu 1/8" = 1'-0" měřil 20'. Proto TakeoffCraft vkládá úseky a plochy jen na list se **stejným měřítkem**, jaké měl list, odkud pocházejí, a jasně to oznámí, když tomu tak není:
+Délky a plochy závisí na měřítku listu. Úsek naměřený 10' při 1/4" = 1'-0" by na listu 1/8" = 1'-0" měřil 20'. Proto TakeoffDesk vkládá úseky a plochy jen na list se **stejným měřítkem**, jaké měl list, odkud pocházejí, a jasně to oznámí, když tomu tak není:
 
 - Otevřený list ještě nemá měřítko: nejprve mu ho nastavte ([Nastavení měřítka](topic:set-the-scale)), pak vložte.
 - Otevřený list má jiné měřítko: zpráva uvede obě měřítka. Vložte na list se stejným měřítkem.
@@ -59,7 +59,7 @@ Editor položky (pod **Položky**) končí:
 - {{ui:Duplikovat položku}}: přidá kopii hned, pojmenovanou „(název) (kopie)“.
 
 :::tip
-Kopie zůstává na tomto počítači: je uložena v této kartě a v úložišti prohlížeče, takže ji může vložit i jiná karta TakeoffCraft. Nic se nenahrává a systémová schránka se nepoužívá, takže značky nelze vkládat do jiných programů.
+Kopie zůstává na tomto počítači: je uložena v této kartě a v úložišti prohlížeče, takže ji může vložit i jiná karta TakeoffDesk. Nic se nenahrává a systémová schránka se nepoužívá, takže značky nelze vkládat do jiných programů.
 :::
 
 :::note

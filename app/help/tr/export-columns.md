@@ -77,7 +77,7 @@ Her alan, "(ad) ara toplam" satırıyla biter; bu satırın maliyetleri, kendi s
 | Sayfa | Sayfa adı |
 | Ölçek | Ön ayarın adı, kalibre edilmiş ölçek veya "Ölçek yok" |
 | Nasıl | "Ön ayar" veya "Kalibre edildi (yazdığınız mesafe)" |
-| PDF birimi başına feet | TakeoffCraft'ın kullandığı tam ölçek faktörü |
+| PDF birimi başına feet | TakeoffDesk'ın kullandığı tam ölçek faktörü |
 
 ## Dosya adları
 

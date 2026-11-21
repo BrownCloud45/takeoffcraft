@@ -46,7 +46,7 @@ Tölurnar breytast ekki í þrívídd: flatarmál veggs er nákvæm lengd hans s
 | {{ui:Blað}} | Sýna eða fela teikninguna á jörðinni. |
 | Útsýnisteningurinn efst hægra megin | Smelltu á flöt, brún eða horn til að horfa þaðan; dragðu hann til að snúa; dragðu áttavitahringinn til að snúa honum; húshnappurinn fer aftur í {{ui:Ísó}}. |
 
-Hornið sýnir útsýnisteninginn, litla X, Y, Z-ásatákn, eða ekkert: veldu í {{ui:Stillingar}}, á flipanum TakeoffCraft, undir **Hornvísir** ([Stillingar TakeoffCraft](topic:settings)). Flata blaðið hefur engan hornvísi.
+Hornið sýnir útsýnisteninginn, litla X, Y, Z-ásatákn, eða ekkert: veldu í {{ui:Stillingar}}, á flipanum TakeoffDesk, undir **Hornvísir** ([Stillingar TakeoffDesk](topic:settings)). Flata blaðið hefur engan hornvísi.
 
 :::touch
 Einn fingur snýr; tveir fingur klípa til að aðdraga og færast til að hliðra. Smellur velur.

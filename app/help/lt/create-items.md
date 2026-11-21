@@ -37,12 +37,12 @@ Kai kurių sąmatos dalykų niekada nenubraižote: mobilizacijos, leidimų, atsa
 Formoje paspauskite {{key:Esc}}, kad ją uždarytumėte nieko nepridėdami.
 
 :::tip
-Jei pirmiausia pasirinksite matavimo įrankį, TakeoffCraft panaudoja paskutinę tinkamo tipo poziciją arba atveria formą {{ui:New item}} su jau pasirinktu tipu.
+Jei pirmiausia pasirinksite matavimo įrankį, TakeoffDesk panaudoja paskutinę tinkamo tipo poziciją arba atveria formą {{ui:New item}} su jau pasirinktu tipu.
 :::
 
 ## Pasirinkti poziciją, kuria braižote
 
-Spustelėkite poziciją sąraše. Ji tampa pozicija, kuriai priskiriamos naujos žymos, o jos žymos paryškinamos kiekviename lape, kol kitos išblunka. Jei atidarytame lape jos žymų nėra, TakeoffCraft nuveda į lapą, kuriame jų yra. Spustelėkite poziciją dar kartą, kad nustotumėte ją paryškinę; ji lieka pozicija, kuria braižote.
+Spustelėkite poziciją sąraše. Ji tampa pozicija, kuriai priskiriamos naujos žymos, o jos žymos paryškinamos kiekviename lape, kol kitos išblunka. Jei atidarytame lape jos žymų nėra, TakeoffDesk nuveda į lapą, kuriame jų yra. Spustelėkite poziciją dar kartą, kad nustotumėte ją paryškinę; ji lieka pozicija, kuria braižote.
 
 Spustelėjus žymą įrankiu {{ui:Select}}, jos pozicija taip pat tampa dabartine.
 
@@ -57,7 +57,7 @@ Pozicijos redaktoriuje (**Pozicija: (pavadinimas)**) yra šie laukai. Kiekvienas
 | {{ui:Color}} | Jos žymų spalva ekrane ir pažymėtame PDF. |
 | {{ui:Unit}} | Vienetas, kuriuo nurodomas kiekis: LF arba m linijinėms; SF, SY, SQ, ac, ha arba m² plotams; EA skaičiavimams. |
 | {{ui:Also measure}} | Kitos žymų rūšys, kurias pozicija priima, kiekviena su savo vienetu. Žr. žemiau. |
-| {{ui:Height}} (linear) | Sienos aukštis. Tada pozicija taip pat nurodo sienos plotą (ilgis × aukštis). Ruožai, atėję iš BimCraft modelio, turi savo duris ir langus: jos atimamos vieną kartą, o pozicijoje nurodomas bendras plotas, angos ir grynasis plotas. Kiekių skaičiavimas iš BimCraft projekto, kuriame pasirinktas matavimo metodas, čia taip pat matuojamas tuo metodu (pastaboje nurodomas metodas ir jo šaltinis bei pažymima, kad kiekių sąmatininkas jo dar nepatikrino); metodo TakeoffCraft pakeisti negalima. Plytos arba blokai ir skiedinys iš sienos tipo pateikiami kaip du komponentai: užsakomų vienetų kiekis ir skiedinio tūris. |
+| {{ui:Height}} (linear) | Sienos aukštis. Tada pozicija taip pat nurodo sienos plotą (ilgis × aukštis). Ruožai, atėję iš BimCraft modelio, turi savo duris ir langus: jos atimamos vieną kartą, o pozicijoje nurodomas bendras plotas, angos ir grynasis plotas. Kiekių skaičiavimas iš BimCraft projekto, kuriame pasirinktas matavimo metodas, čia taip pat matuojamas tuo metodu (pastaboje nurodomas metodas ir jo šaltinis bei pažymima, kad kiekių sąmatininkas jo dar nepatikrino); metodo TakeoffDesk pakeisti negalima. Plytos arba blokai ir skiedinys iš sienos tipo pateikiami kaip du komponentai: užsakomų vienetų kiekis ir skiedinio tūris. |
 | {{ui:Depth}} (area) | Gylis arba storis, naudojamas surinkimo formulėse (pavyzdžiui, betono tūriui). |
 | {{ui:Waste %}} | Pridedama prie kiekio prieš įkainojimą: 10 reiškia kiekis × 1.10. |
 | {{ui:Material $/LF}} | Medžiagų kaina vienetui. Etiketė seka vienetą: $/SF, $/EA ir pan. |
@@ -74,7 +74,7 @@ Kai kas matuojama daugiau nei vienu būdu: kambarys turi grindis (plotas), pagri
 
 1. Sukurkite poziciją su pagrindiniu tipu, pavyzdžiui plotų poziciją `Patalpa 101`.
 2. Redaktoriuje po {{ui:Also measure}} pažymėkite {{ui:Linear}}, {{ui:Count}} arba abu. Prie kiekvieno nurodomas jo vienetas.
-3. Braižykite bet kuriuo įrankiu, kurio tipą pozicija priima: kai dabartinė yra `Patalpa 101`, {{ui:Area}} nubraižo jos grindis, {{ui:Linear}} – pagrindą, o {{ui:Count}} – duris. TakeoffCraft nereikalauja kitos pozicijos.
+3. Braižykite bet kuriuo įrankiu, kurio tipą pozicija priima: kai dabartinė yra `Patalpa 101`, {{ui:Area}} nubraižo jos grindis, {{ui:Linear}} – pagrindą, o {{ui:Count}} – duris. TakeoffDesk nereikalauja kitos pozicijos.
 
 Pozicijų sąraše rodomas kiekvienas kiekis (`50.00 SF + 2 EA`). Kiekių lentelėje pozicijos eilutėje rodomas pagrindinis kiekis, o kiekvienas kitas tipas turi savo eilutę žemiau, pavyzdžiui **Patalpa 101 (skaičiavimas)**, su savo atliekomis ir medžiagų bei darbo įkainiais. Eksportai, lapo lentelė ir pažymėto PDF legenda juos išvardija tokiu pat būdu.
 
@@ -113,7 +113,7 @@ Vietoj darbo įkainio vienetui pozicijos darbas gali būti skaičiuojamas pagal 
 | {{ui:Crew size}} | `2` žmonės |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft apskaičiuoja iš kiekio su atliekomis:
+TakeoffDesk apskaičiuoja iš kiekio su atliekomis:
 
 - **brigados valandos** = kiekis ÷ našumas (110 LF ÷ 20 = 5.5),
 - **darbuotojų valandos** = brigados valandos × brigados dydis (11),

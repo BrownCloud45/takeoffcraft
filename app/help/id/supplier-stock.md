@@ -1,6 +1,6 @@
 ---
 title: Periksa stok dan waktu tunggu pemasok
-summary: Tambahkan daftar stok pemasok (CSV atau spreadsheet) dan TakeoffCraft memeriksa apa yang dibutuhkan takeoff, termasuk susut, terhadap daftar itu: cukup tersedia atau tidak, dan berapa lama waktu tunggunya. Kekurangan dan waktu tunggu yang lama muncul di panel Masalah.
+summary: Tambahkan daftar stok pemasok (CSV atau spreadsheet) dan TakeoffDesk memeriksa apa yang dibutuhkan takeoff, termasuk susut, terhadap daftar itu: cukup tersedia atau tidak, dan berapa lama waktu tunggunya. Kekurangan dan waktu tunggu yang lama muncul di panel Masalah.
 keywords: pemasok, stok, tersedia, waktu tunggu, ketersediaan, kekurangan, backorder, daftar pesanan, csv, sku, vendor, material, pasokan, masalah
 from: f11160fb
 ---

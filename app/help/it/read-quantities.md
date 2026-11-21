@@ -24,7 +24,7 @@ Scegliere {{ui:Per voce}} (l'impostazione predefinita). Ogni voce ha una riga, e
 
 L'ultima riga, **Totale del lavoro**, somma le colonne materiale, manodopera e totale. Lo stesso totale appare a destra dell'intestazione della tabella.
 
-Digitare in una cella di sfrido o di tariffa e premere {{key:Enter}} oppure fare clic altrove per applicarla. Un valore che TakeoffCraft non è in grado di leggere viene evidenziato in rosso e la barra di stato ne indica il motivo, per esempio "Digitare un importo come 12.50."
+Digitare in una cella di sfrido o di tariffa e premere {{key:Enter}} oppure fare clic altrove per applicarla. Un valore che TakeoffDesk non è in grado di leggere viene evidenziato in rosso e la barra di stato ne indica il motivo, per esempio "Digitare un importo come 12.50."
 
 Fare clic sulla riga di una voce per evidenziare i suoi segni su ogni tavola e passare a una tavola che li contiene (come fare clic su di essa sotto {{ui:Voci}}).
 

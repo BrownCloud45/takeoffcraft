@@ -13,7 +13,7 @@ Otwórz ją przez {{ui:Biblioteka}} na górze panelu {{ui:Pozycje}}.
 
 - {{ui:Importuj CSV…}} czyta arkusz zapisany jako CSV (zobacz kolumny poniżej). Pozycje, których nazwa i typ są już w bibliotece, zostają zastąpione; reszta jest dodawana. Wiersze, których nie da się odczytać, są pomijane, a program mówi, które i dlaczego.
 - {{ui:Dodaj pozycje tego przedmiaru}} kopiuje każdą pozycję otwartego przedmiaru do biblioteki, wraz ze stawkami i zestawem kosztorysowym (bez jej znaczników).
-- Kosztorys CSV, który eksportuje TakeoffCraft ([Eksport kosztorysu](topic:export-estimate)), importuje się tak, jak jest: ceny z poprzedniej pracy zasilają następną.
+- Kosztorys CSV, który eksportuje TakeoffDesk ([Eksport kosztorysu](topic:export-estimate)), importuje się tak, jak jest: ceny z poprzedniej pracy zasilają następną.
 
 - {{ui:Pakiety branżowe…}} dodaje darmowe zestawy kosztorysowe dla branży, na przykład gipsowe, elektryczne lub betonowe, bez cen. Zobacz [Pakiety branżowe](topic:trade-packs).
 

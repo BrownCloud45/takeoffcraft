@@ -2,7 +2,7 @@
 /**
  * prices.js — price memory from your own jobs (0.8 EG.68, session takeoff_PART_2). DOM-free (tested in Node).
  *
- * TakeoffCraft remembers the rates you actually used on past takeoffs, item by item, so a new takeoff starts from what you paid
+ * TakeoffDesk remembers the rates you actually used on past takeoffs, item by item, so a new takeoff starts from what you paid
  * last time instead of an empty price. It is a plain list: for each item name the rates of up to the last 12 jobs. No model, no
  * network: it reads only your saved takeoffs (or a past takeoff file you point it at) and the page keeps the list in this browser
  * or Studio's storage next to the price Library (library.js), where you can see it, change a price, forget a name or clear it all.

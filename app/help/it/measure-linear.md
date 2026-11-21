@@ -30,7 +30,7 @@ Durante il disegno:
 - Trascinare sposta la vista e la rotella ingrandisce, senza aggiungere punti.
 
 :::mac
-Su un trackpad Mac, il clic destro è un clic a due dita (attivare il clic secondario in Impostazioni di Sistema, sotto Trackpad). TakeoffCraft legge solo il pulsante secondario, quindi un Control-clic può essere considerato un clic semplice e aggiungere un punto. Doppio clic o {{key:Enter}} terminano sempre.
+Su un trackpad Mac, il clic destro è un clic a due dita (attivare il clic secondario in Impostazioni di Sistema, sotto Trackpad). TakeoffDesk legge solo il pulsante secondario, quindi un Control-clic può essere considerato un clic semplice e aggiungere un punto. Doppio clic o {{key:Enter}} terminano sempre.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Dopo il primo punto, si può digitare dove andrà il successivo invece di fare c
 | `@6',-4'` | 6' a destra e 4' in basso dall'ultimo punto |
 | `6',4'` (o `#6',4'`) | 6' a destra e 4' in alto dal primo punto di questo tratto |
 
-Le lunghezze si digitano come ovunque in TakeoffCraft ([Formati di inserimento](topic:entry-formats)): `12'-6 1/2"`, `12.5` (piedi), `30"`, `3.2 m`. "Destra" e "in alto" sono come si vedono sulla tavola, anche quando la pagina PDF è ruotata.
+Le lunghezze si digitano come ovunque in TakeoffDesk ([Formati di inserimento](topic:entry-formats)): `12'-6 1/2"`, `12.5` (piedi), `30"`, `3.2 m`. "Destra" e "in alto" sono come si vedono sulla tavola, anche quando la pagina PDF è ruotata.
 
 {{key:Enter}} su una casella vuota termina il tratto, come {{key:Enter}} sulla tavola; {{key:Esc}} chiude la casella e mantiene il tratto in corso. I punti digitati seguono le stesse regole dei clic: detrazioni, archi e chiusura di un'area funzionano tutti. La stessa casella funziona in {{ui:Area}} e {{ui:Vuoto}}; dopo il centro di un cerchio chiede il raggio.
 

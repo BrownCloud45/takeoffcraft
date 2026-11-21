@@ -36,12 +36,12 @@ En oppgitt mengde tar ingen markeringer og gjør aldri kalkylen ufullstendig. N�
 Trykk {{key:Esc}} i skjemaet for å lukke det uten å legge til en post.
 
 :::tip
-Velger du et måleverktøy først, bruker TakeoffCraft siste post av riktig type, eller åpner skjemaet for {{ui:Ny post}} med den typen allerede valgt.
+Velger du et måleverktøy først, bruker TakeoffDesk siste post av riktig type, eller åpner skjemaet for {{ui:Ny post}} med den typen allerede valgt.
 :::
 
 ## Velg posten du tegner med
 
-Klikk på en post i listen. Den blir posten nye markeringer legges til i, og markeringene dens fremheves på alle ark mens de andre blekner. Hvis det åpne arket ikke har noen av markeringene, hopper TakeoffCraft til et ark som har. Klikk på posten igjen for å slutte å fremheve; den forblir posten du tegner med.
+Klikk på en post i listen. Den blir posten nye markeringer legges til i, og markeringene dens fremheves på alle ark mens de andre blekner. Hvis det åpne arket ikke har noen av markeringene, hopper TakeoffDesk til et ark som har. Klikk på posten igjen for å slutte å fremheve; den forblir posten du tegner med.
 
 Klikker du på en markering med verktøyet {{ui:Velg}}, blir også dens post den gjeldende.
 
@@ -56,7 +56,7 @@ Postredigeringen (**Post: (navn)**) har disse feltene. Hvert felt lagres når du
 | {{ui:Farge}} | Fargen på markeringene på skjermen og i den merkede PDF-en. |
 | {{ui:Enhet}} | Enheten mengden rapporteres i: LF eller m for linjær; SF, SY, SQ, ac, ha eller m² for areal; EA for tell. |
 | {{ui:Mål også}} | De andre typene markeringer posten tar, hver med sin egen enhet. Se nedenfor. |
-| {{ui:Høyde}} (linjær) | En veggshøyde. Posten rapporterer da også veggareal (lengde × høyde). Løp som kommer fra en BimCraft-modell har med seg dørene og vinduene sine: de trekkes fra én gang, og posten oppgir brutto areal, åpningene og netto. En mengde fra et BimCraft-prosjekt som valgte en målemetode, måles etter den metoden også her (merknaden nevner den, med kilden, og sier at den ikke er kontrollert av en mengdemåler); metoden kan ikke endres i TakeoffCraft. Murstein eller blokker og mørtel fra en veggtype kommer som to komponenter: enhetene å bestille og mørteltvolumet. |
+| {{ui:Høyde}} (linjær) | En veggshøyde. Posten rapporterer da også veggareal (lengde × høyde). Løp som kommer fra en BimCraft-modell har med seg dørene og vinduene sine: de trekkes fra én gang, og posten oppgir brutto areal, åpningene og netto. En mengde fra et BimCraft-prosjekt som valgte en målemetode, måles etter den metoden også her (merknaden nevner den, med kilden, og sier at den ikke er kontrollert av en mengdemåler); metoden kan ikke endres i TakeoffDesk. Murstein eller blokker og mørtel fra en veggtype kommer som to komponenter: enhetene å bestille og mørteltvolumet. |
 | {{ui:Dybde}} (areal) | En dybde eller tykkelse, brukt i formlene for sammensatte poster (for eksempel betongvolum). |
 | {{ui:Svinn %}} | Legges til mengden før prising: 10 betyr mengde × 1.10. |
 | {{ui:Materiell $/LF}} | Materialkostnad per enhet. Etiketten følger enheten: $/SF, $/EA og så videre. |
@@ -73,7 +73,7 @@ Noe måles på mer enn én måte: et rom har et gulv (et areal), en fotlist lang
 
 1. Lag posten med hovedtypen, for eksempel en arealpost `Rom 101`.
 2. Under {{ui:Mål også}} i redigeringen krysser du av for {{ui:Linjær}}, {{ui:Tell}} eller begge. Hver får en enhet ved siden av seg.
-3. Tegn med ethvert verktøy hvis type posten tar: med `Rom 101` gjeldende tegner {{ui:Areal}} gulvet, {{ui:Linjær}} fotlisten og {{ui:Tell}} dørene. TakeoffCraft spør ikke etter en annen post.
+3. Tegn med ethvert verktøy hvis type posten tar: med `Rom 101` gjeldende tegner {{ui:Areal}} gulvet, {{ui:Linjær}} fotlisten og {{ui:Tell}} dørene. TakeoffDesk spør ikke etter en annen post.
 
 Postlisten viser hver mengde (`50.00 SF + 2 EA`). I mengdetabellen har postens rad hovedmengden, og hver annen type får sin egen rad under, som **Rom 101 (tell)**, med egne satser for svinn, materiell og arbeid. Eksportene, tabellen per ark og forklaringen i den merkede PDF-en viser dem på samme måte.
 
@@ -112,7 +112,7 @@ I stedet for en arbeidssats per enhet kan postens arbeid komme fra et arbeidslag
 | {{ui:Lagstørrelse}} | `2` personer |
 | {{ui:Lønn $/time hver}} | `45` |
 
-TakeoffCraft regner ut, fra mengden med svinn:
+TakeoffDesk regner ut, fra mengden med svinn:
 
 - **lagtimer** = mengde ÷ produksjon (110 LF ÷ 20 = 5.5),
 - **arbeidertimer** = lagtimer × lagstørrelse (11),

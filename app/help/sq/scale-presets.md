@@ -49,4 +49,4 @@ Një shkallë e kalibruar shfaqet si "Calibrated 1" = 4.002' on 24'-6"" në shir
 
 ## PDF të pazakonta
 
-Disa PDF deklarojnë një njësi më të madhe faqeje (një "user unit"); TakeoffCraft e merr parasysh për të gatshmet dhe për shkallën e shfaqur. Faqet e rrotulluara në PDF maten njësoj si ato të drejta.
+Disa PDF deklarojnë një njësi më të madhe faqeje (një "user unit"); TakeoffDesk e merr parasysh për të gatshmet dhe për shkallën e shfaqur. Faqet e rrotulluara në PDF maten njësoj si ato të drejta.

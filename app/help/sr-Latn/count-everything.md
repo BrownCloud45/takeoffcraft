@@ -1,6 +1,6 @@
 ---
 title: Prebrojte sve u setu
-summary: Obuhvatite legendu simbola jednom, a TakeoffCraft prebroji svaki simbol iz nje na svakom otvorenom listu u jednom prolazu. Svako brojanje je veza do svog lista, a pregledate ga pre dodavanja.
+summary: Obuhvatite legendu simbola jednom, a TakeoffDesk prebroji svaki simbol iz nje na svakom otvorenom listu u jednom prolazu. Svako brojanje je veza do svog lista, a pregledate ga pre dodavanja.
 keywords: prebroji sve, legenda, legenda simbola, ceo set, svaki list, svi listovi, sva vrata, svaka armatura, uređaji, specifikacija, simboli, automatsko brojanje, set planova, 200 listova, nivo poklapanja, slični
 from: adc99744
 ---

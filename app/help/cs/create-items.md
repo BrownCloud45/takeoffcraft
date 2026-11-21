@@ -36,12 +36,12 @@ Zadané množství nemá žádné značky a nikdy nezpůsobí, že rozpočet bud
 Stiskněte {{key:Esc}} ve formuláři, chcete-li jej zavřít bez přidání položky.
 
 :::tip
-Pokud nejdřív vyberete měřicí nástroj, TakeoffCraft použije poslední položku správného typu, nebo otevře formulář {{ui:Nová položka}} s již zvoleným typem.
+Pokud nejdřív vyberete měřicí nástroj, TakeoffDesk použije poslední položku správného typu, nebo otevře formulář {{ui:Nová položka}} s již zvoleným typem.
 :::
 
 ## Vyberte položku, kterou kreslíte
 
-Klikněte na položku v seznamu. Stane se položkou, do které se budou přidávat nové značky, a její značky se zvýrazní na každém listu, zatímco ostatní zeslábnou. Pokud otevřený list nemá žádnou její značku, TakeoffCraft přeskočí na list, který ji má. Dalším kliknutím na položku zvýraznění vypnete; zůstane položkou, kterou kreslíte.
+Klikněte na položku v seznamu. Stane se položkou, do které se budou přidávat nové značky, a její značky se zvýrazní na každém listu, zatímco ostatní zeslábnou. Pokud otevřený list nemá žádnou její značku, TakeoffDesk přeskočí na list, který ji má. Dalším kliknutím na položku zvýraznění vypnete; zůstane položkou, kterou kreslíte.
 
 Kliknutí na značku nástrojem {{ui:Vybrat}} také nastaví její položku jako aktuální.
 
@@ -56,7 +56,7 @@ Editor položky (**Položka: (název)**) má tato pole. Každé se uloží, kdy�
 | {{ui:Barva}} | Barva jejích značek na obrazovce a v označeném PDF. |
 | {{ui:Jednotka}} | V jaké jednotce se množství uvádí: LF nebo m u délkové; SF, SY, SQ, ac, ha nebo m² u plochy; EA u počtu. |
 | {{ui:Měřit také}} | Další druhy značek, které položka přijímá, každý s vlastní jednotkou. Viz níže. |
-| {{ui:Výška}} (délková) | Výška stěny. Položka pak zobrazuje také plochu stěn (délka × výška). Úseky pocházející z modelu BimCraft nesou své dveře a okna: ty se odečtou jednou a položka uvádí hrubou plochu, otvory a čistou plochu. Výkaz z projektu BimCraft, který zvolil metodu měření, se měří touto metodou i zde (poznámka ji uvádí i s jejím zdrojem a říká, že ji rozpočtář neověřil); metodu v TakeoffCraft nelze změnit. Cihly nebo tvárnice a malta z typu stěny přicházejí jako dvě složky: jednotky k objednání a objem malty. |
+| {{ui:Výška}} (délková) | Výška stěny. Položka pak zobrazuje také plochu stěn (délka × výška). Úseky pocházející z modelu BimCraft nesou své dveře a okna: ty se odečtou jednou a položka uvádí hrubou plochu, otvory a čistou plochu. Výkaz z projektu BimCraft, který zvolil metodu měření, se měří touto metodou i zde (poznámka ji uvádí i s jejím zdrojem a říká, že ji rozpočtář neověřil); metodu v TakeoffDesk nelze změnit. Cihly nebo tvárnice a malta z typu stěny přicházejí jako dvě složky: jednotky k objednání a objem malty. |
 | {{ui:Hloubka}} (plocha) | Hloubka nebo tloušťka použitá ve vzorcích sestavy (například objem betonu). |
 | {{ui:Odpad %}} | Přičte se k množství před oceněním: 10 znamená množství × 1.10. |
 | {{ui:Materiál $/LF}} | Cena materiálu za jednotku. Popisek se řídí jednotkou: $/SF, $/EA a podobně. |
@@ -73,7 +73,7 @@ Některé věci se měří více způsoby: místnost má podlahu (plochu), lišt
 
 1. Vytvořte položku s jejím hlavním typem, například plošnou položku `Místnost 101`.
 2. V jejím editoru pod {{ui:Měřit také}} zaškrtněte {{ui:Délková}}, {{ui:Počet}} nebo obojí. U každé se vedle ní objeví jednotka.
-3. Kreslete libovolným nástrojem, jehož druh položka přijímá: když je aktuální `Místnost 101`, {{ui:Plocha}} nakreslí její podlahu, {{ui:Délková}} její lištu a {{ui:Počet}} její dveře. TakeoffCraft se na jinou položku neptá.
+3. Kreslete libovolným nástrojem, jehož druh položka přijímá: když je aktuální `Místnost 101`, {{ui:Plocha}} nakreslí její podlahu, {{ui:Délková}} její lištu a {{ui:Počet}} její dveře. TakeoffDesk se na jinou položku neptá.
 
 Seznam položek zobrazuje každé množství (`50.00 SF + 2 EA`). V tabulce množství má řádek položky hlavní množství a každý další druh má vlastní řádek pod ní, například **Místnost 101 (počet)**, se svým odpadem a sazbami materiálu a práce. Exporty, tabulka po listech a legenda označeného PDF je uvádějí stejně.
 
@@ -112,7 +112,7 @@ Místo sazby práce za jednotku může práce položky vycházet z party: kolik 
 | {{ui:Velikost party}} | `2` lidé |
 | {{ui:Mzda $/hodinu na osobu}} | `45` |
 
-TakeoffCraft z množství s odpadem spočítá:
+TakeoffDesk z množství s odpadem spočítá:
 
 - **hodiny party** = množství ÷ výkon (110 LF ÷ 20 = 5.5),
 - **člověkohodiny** = hodiny party × velikost party (11),

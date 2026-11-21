@@ -5,14 +5,14 @@ keywords: marekebisho, kurekebishwa, linganisha, mwingiliano, zamani, mpya, maba
 from: 3a1d9fe0
 ---
 
-Karatasi inapotolewa upya, huhitaji kuipima tena. Fungua PDF ya zamani na mpya, linganisha karatasi hizo mbili, kisha uhamishe ukadiriaji. TakeoffCraft inaweka alama kila alama ambapo mchoro ulibadilika, hivyo unakagua hizo na kuacha zilizobaki.
+Karatasi inapotolewa upya, huhitaji kuipima tena. Fungua PDF ya zamani na mpya, linganisha karatasi hizo mbili, kisha uhamishe ukadiriaji. TakeoffDesk inaweka alama kila alama ambapo mchoro ulibadilika, hivyo unakagua hizo na kuacha zilizobaki.
 
 ## Linganisha
 
 1. Fungua PDF zote mbili: seti ya zamani na iliyorekebishwa ({{ui:Open plans}}; zinaweza kuwa faili moja au nyingi).
 2. Onyesha karatasi **mpya**.
 3. Chagua {{ui:Compare}} kwenye upau wa karatasi chini ya mchoro.
-4. Chagua karatasi ya zamani kwenye orodha. TakeoffCraft inapendekeza karatasi yenye nambari ile ile kwenye PDF nyingine, au ukurasa uleule. Chagua **Linganisha**.
+4. Chagua karatasi ya zamani kwenye orodha. TakeoffDesk inapendekeza karatasi yenye nambari ile ile kwenye PDF nyingine, au ukurasa uleule. Chagua **Linganisha**.
 
 Mchoro wa zamani sasa unalala juu ya ule mpya kwa rangi nyekundu. Mahali yanapokubaliana, mistari nyekundu iko juu ya nyeusi; mahali yanapotofautiana, unaona mistari nyekundu peke yake (iliyoondolewa) na mistari nyeusi peke yake (iliyoongezwa). Upau chini ya karatasi unashikilia hatua zilizo hapa chini; {{key:Esc}} au {{ui:Close}} humaliza ulinganisho.
 
@@ -29,7 +29,7 @@ Mchoro mwekundu unasogea, unageuka na kubadilishwa ukubwa ili uingie kwenye mweu
 
 ## Tafuta kilichobadilika
 
-Chagua **Tafuta mabadiliko**. TakeoffCraft inalinganisha wino wa michoro miwili: wino ulio kwenye karatasi ya zamani peke yake unageuka nyekundu, wino ulio kwenye karatasi mpya peke yake unageuka bluu, na upau wa hali unahesabu hizo. Mistari iliyosogea kidogo sana (chapisho upya) haihesabiwi kama mabadiliko.
+Chagua **Tafuta mabadiliko**. TakeoffDesk inalinganisha wino wa michoro miwili: wino ulio kwenye karatasi ya zamani peke yake unageuka nyekundu, wino ulio kwenye karatasi mpya peke yake unageuka bluu, na upau wa hali unahesabu hizo. Mistari iliyosogea kidogo sana (chapisho upya) haihesabiwi kama mabadiliko.
 
 Pia inaangalia kila alama kwenye karatasi ya zamani na kuhesabu zile zilizo mahali mchoro ulipobadilika:
 
@@ -40,7 +40,7 @@ Pia inaangalia kila alama kwenye karatasi ya zamani na kuhesabu zile zilizo maha
 
 Chagua **Hamishia ukadiriaji hapa**. Kila alama kwenye karatasi ya zamani inahamia kwenye mpya, kupitia mpangilio, kwa hatua moja ya kutendua. Zile zilizo karibu na mabadiliko zimewekwa alama: zinachorwa kwa mng'ao wa chungwa, na upau wa karatasi unaonyesha "(n) za kukaguliwa".
 
-Ikiwa karatasi mpya haikuwa na kipimo, inachukua kipimo cha karatasi ya zamani (kilichorekebishwa ikiwa michoro ilipaswa kupimwa ili kupangwa sawa). Ikiwa tayari ina kipimo tofauti, TakeoffCraft inauliza kwanza: alama zilizohamishwa zinapimwa kwa kipimo cha karatasi mpya.
+Ikiwa karatasi mpya haikuwa na kipimo, inachukua kipimo cha karatasi ya zamani (kilichorekebishwa ikiwa michoro ilipaswa kupimwa ili kupangwa sawa). Ikiwa tayari ina kipimo tofauti, TakeoffDesk inauliza kwanza: alama zilizohamishwa zinapimwa kwa kipimo cha karatasi mpya.
 
 ## Kagua alama zilizowekwa alama
 

@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, bản vẽ, mở bản vẽ, bố cục, không gian m�
 from: d8c3f504
 ---
 
-TakeoffCraft mở bản vẽ DWG hoặc DXF như cách nó mở PDF: bạn không cần in ra PDF trước. Đếm trực tiếp từ bản vẽ là chính xác, vì bản vẽ biết mỗi đối tượng là gì. Xem [Đếm từ bản vẽ](topic:count-from-a-drawing).
+TakeoffDesk mở bản vẽ DWG hoặc DXF như cách nó mở PDF: bạn không cần in ra PDF trước. Đếm trực tiếp từ bản vẽ là chính xác, vì bản vẽ biết mỗi đối tượng là gì. Xem [Đếm từ bản vẽ](topic:count-from-a-drawing).
 
 ## Mở bản vẽ
 
@@ -13,9 +13,9 @@ TakeoffCraft mở bản vẽ DWG hoặc DXF như cách nó mở PDF: bạn khôn
 2. Chọn tệp DWG hoặc DXF. Bạn có thể chọn nhiều tệp, và chọn cả PDF cùng lúc.
 3. Chọn Mở.
 
-Bạn cũng có thể thả tệp bản vẽ lên TakeoffCraft, như với PDF. Không có gì được tải lên: trình duyệt đọc tệp trên máy tính của bạn.
+Bạn cũng có thể thả tệp bản vẽ lên TakeoffDesk, như với PDF. Không có gì được tải lên: trình duyệt đọc tệp trên máy tính của bạn.
 
-TakeoffCraft đọc DWG từ AutoCAD 2000 đến 2018 và DXF ASCII từ R12 đến 2018. Nó từ chối DXF nhị phân (hãy lưu thành ASCII, hoặc thành DWG) và tệp không thuộc hai loại trên, rồi cho biết lý do. Tệp bị hỏng vẫn mở với phần đọc được, và có thông báo cho biết; số đếm có thể không đầy đủ.
+TakeoffDesk đọc DWG từ AutoCAD 2000 đến 2018 và DXF ASCII từ R12 đến 2018. Nó từ chối DXF nhị phân (hãy lưu thành ASCII, hoặc thành DWG) và tệp không thuộc hai loại trên, rồi cho biết lý do. Tệp bị hỏng vẫn mở với phần đọc được, và có thông báo cho biết; số đếm có thể không đầy đủ.
 
 ## Tờ
 
@@ -40,10 +40,10 @@ Một tờ bắt đầu với tỷ lệ mà bản vẽ cung cấp:
 
 ## Bản vẽ liên kết (xref)
 
-Bản vẽ có liên kết các bản vẽ khác sẽ hiển thị chúng ở vị trí chèn. TakeoffCraft tìm bản vẽ liên kết trong các **tệp đang mở**, theo tên tệp: hãy mở bản vẽ chủ và bản vẽ liên kết cùng nhau (hoặc lần lượt). Cho đến khi đó, thanh trạng thái cho biết có bao nhiêu bản vẽ liên kết chưa tìm thấy, phần chúng vẽ đang thiếu, và số đếm sẽ nêu điều đó.
+Bản vẽ có liên kết các bản vẽ khác sẽ hiển thị chúng ở vị trí chèn. TakeoffDesk tìm bản vẽ liên kết trong các **tệp đang mở**, theo tên tệp: hãy mở bản vẽ chủ và bản vẽ liên kết cùng nhau (hoặc lần lượt). Cho đến khi đó, thanh trạng thái cho biết có bao nhiêu bản vẽ liên kết chưa tìm thấy, phần chúng vẽ đang thiếu, và số đếm sẽ nêu điều đó.
 
 ## Giới hạn
 
-- Các đối tượng mà TakeoffCraft không đọc hoặc đặt được (đối tượng proxy, lớp không rõ) được liệt kê theo loại trong cửa sổ đếm; chúng không bao giờ bị bỏ đi mà không có thông báo.
+- Các đối tượng mà TakeoffDesk không đọc hoặc đặt được (đối tượng proxy, lớp không rõ) được liệt kê theo loại trong cửa sổ đếm; chúng không bao giờ bị bỏ đi mà không có thông báo.
 - Bản vẽ rất lớn được vẽ một phần, và số đếm dừng ở một giới hạn, có thông báo. Hãy mở bản in PDF của bản vẽ như vậy.
 - Bản vẽ được vẽ bằng màu đen và màu riêng của nó, làm tối cho giấy trắng. Bảng kiểu nét in và gán bút không được áp dụng.

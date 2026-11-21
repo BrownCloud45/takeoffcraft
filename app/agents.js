@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — tool names, descriptions and results are read by the assistant program, not shown to the person. */
 /**
- * agents.js — TakeoffCraft for AI assistants and scripts (0.4 part 2 X.7, session agents; docs/AGENTS-SPEC.md §5.2). The
+ * agents.js — TakeoffDesk for AI assistants and scripts (0.4 part 2 X.7, session agents; docs/AGENTS-SPEC.md §5.2). The
  * apps contain no AI: this gives the person's own assistant read-only tools on the takeoff (and exports when allowed);
  * Settings › Assistants (host.js) decides which.
  *
@@ -71,7 +71,7 @@ export function takeoffEstimate(state) {
     missingRates: missing, missingRateCount: missing.length,
     ...(() => { const lay = layoutAnswer(estimateLayout(state, e), { mat: 'materialCents', lab: 'laborCents', total: 'totalCents' }); return lay ? { layout: lay } : {}; })(),   // 0.10 BK.149: only when the office set a standard
     signoff: so ? { signedOff: true, by: so.by, ...(so.role ? { role: so.role } : {}), at: so.at, totalCents: so.total, total: money(so.total), linesWithNoRateWhenSigned: so.missing } : { signedOff: false },
-    signoffNote: 'Only a person signs an estimate off, in TakeoffCraft (Quantities › Sign off the estimate). No tool signs. Any change to a quantity, a rate or a line clears the sign-off.' };
+    signoffNote: 'Only a person signs an estimate off, in TakeoffDesk (Quantities › Sign off the estimate). No tool signs. Any change to a quantity, a rate or a line clears the sign-off.' };
 }
 
 // ---------------------------------------------------------------- 0.7 AS.5: items and marks
@@ -239,18 +239,18 @@ export function installAgents(app) {
   const C = getHost({ app: 'takeoffcraft' }).control;
   const st = () => app.model.state;
   const obj = (properties, required = []) => ({ type: 'object', properties, required, additionalProperties: false });
-  C.configure({ title: 'TakeoffCraft', rollback: stackRollback(() => app.model), info: () => ({ takeoff: st().name, items: st().items.length, marks: st().marks.length, sheet: app.current() ? app.sheetLabel(app.current()) : null }) });
-  C.tool({ name: 'app_info', group: 'read', title: 'About this window', description: 'TakeoffCraft\'s window: the takeoff open, its PDFs, items and marks, the sheet shown, and the permissions the person allowed.',
-    run: async () => ({ app: 'takeoffcraft', title: 'TakeoffCraft', allowed: C.groups, sheet: app.current() ? app.sheetLabel(app.current()) : null, ...takeoffSummary(st(), app.sheetLabel) }) });
+  C.configure({ title: 'TakeoffDesk', rollback: stackRollback(() => app.model), info: () => ({ takeoff: st().name, items: st().items.length, marks: st().marks.length, sheet: app.current() ? app.sheetLabel(app.current()) : null }) });
+  C.tool({ name: 'app_info', group: 'read', title: 'About this window', description: 'TakeoffDesk\'s window: the takeoff open, its PDFs, items and marks, the sheet shown, and the permissions the person allowed.',
+    run: async () => ({ app: 'takeoffcraft', title: 'TakeoffDesk', allowed: C.groups, sheet: app.current() ? app.sheetLabel(app.current()) : null, ...takeoffSummary(st(), app.sheetLabel) }) });
   C.tool({ name: 'sheets_list', group: 'read', untrusted: true, title: 'List sheets', description: 'The sheets of the open PDFs, each with its scale (or none) and how many marks it holds.',
     run: async () => ({ sheets: app.sheets().map((s) => ({ key: s.key, sheet: s.title, scale: (st().sheets[s.key] && st().sheets[s.key].scale && st().sheets[s.key].scale.label) || null, marks: st().marks.filter((m) => m.sheet === s.key).length })) }) });
   C.tool({ name: 'items_list', group: 'read', untrusted: true, title: 'List items', description: 'The takeoff items: type (linear, area, count), unit, height, waste, material and labor rates, and their assembly components with formulas.',
     run: async () => ({ items: itemsList(st()) }) });
   C.tool({ name: 'takeoff_quantities', group: 'read', untrusted: true, title: 'Quantities', description: 'Quantities per item (in its unit) or per sheet. Marks on sheets with no scale are listed as unscaled, never counted as zero.',
     inputSchema: obj({ by: { description: 'item (default) or sheet.', type: 'string', enum: ['item', 'sheet'], default: 'item' } }), run: async (a) => takeoffQuantities(st(), app.sheetLabel, a) });
-  C.tool({ name: 'takeoff_estimate', group: 'read', untrusted: true, title: 'Estimate', description: 'The priced estimate as TakeoffCraft computes it: a row per item and per assembly component, totals in cents and as text; incomplete when a formula fails or marks are unscaled. Rows with a quantity and no rate carry missingRate and are listed under missingRates (an item priced through its components is not one). Each row names the marks its figures came from (marks, for marks_select). signoff says whether a person signed the estimate off, who, when and for what total; a sign-off is made only by a person in the app and is cleared by any change to the figures.',
+  C.tool({ name: 'takeoff_estimate', group: 'read', untrusted: true, title: 'Estimate', description: 'The priced estimate as TakeoffDesk computes it: a row per item and per assembly component, totals in cents and as text; incomplete when a formula fails or marks are unscaled. Rows with a quantity and no rate carry missingRate and are listed under missingRates (an item priced through its components is not one). Each row names the marks its figures came from (marks, for marks_select). signoff says whether a person signed the estimate off, who, when and for what total; a sign-off is made only by a person in the app and is cleared by any change to the figures.',
     run: async () => takeoffEstimate(st()) });
-  C.tool({ name: 'takeoff_export', group: 'export', title: 'Export the estimate', description: 'TakeoffCraft\'s own export of the estimate, as .csv or .xlsx, downloaded (desktop: saved where the person chooses), or as sheets: the same lines as tab-separated text that comes back, to paste into cell A1 of a Google Sheet (TakeoffCraft does not sign in to Google and sends nothing there).',
+  C.tool({ name: 'takeoff_export', group: 'export', title: 'Export the estimate', description: 'TakeoffDesk\'s own export of the estimate, as .csv or .xlsx, downloaded (desktop: saved where the person chooses), or as sheets: the same lines as tab-separated text that comes back, to paste into cell A1 of a Google Sheet (TakeoffDesk does not sign in to Google and sends nothing there).',
     inputSchema: obj({ format: { description: 'csv, xlsx (default) or sheets (tab-separated text to paste into Google Sheets).', type: 'string', enum: ['csv', 'xlsx', 'sheets'], default: 'xlsx' } }),
     run: async (a) => {
       if (!st().items.length) throw new Error('The takeoff has no items yet.');
@@ -404,7 +404,7 @@ export function installAgents(app) {
       const sh = findSheet(q);
       const [hash, idx] = String(sh.key).split(':');
       const set = app.cadSets().find((f) => f.hash === hash);
-      if (!set) throw new Error(sh.title + ' is a PDF page: these tools count and measure on the sheets of a DWG or DXF drawing (open one in TakeoffCraft).');
+      if (!set) throw new Error(sh.title + ' is a PDF page: these tools count and measure on the sheets of a DWG or DXF drawing (open one in TakeoffDesk).');
       return { sh, set, i: +idx };
     };
     const SHEET = { anyOf: [{ type: 'integer', minimum: 1 }, { type: 'string', maxLength: 255 }], description: 'A drawing\'s sheet: its key, its name (Model, a layout) or its number in sheets_list; default the sheet shown.' };

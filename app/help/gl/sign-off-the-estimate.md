@@ -19,9 +19,9 @@ En **Cantidades › Por elemento**, unha liña que ten unha cantidade e ningunha
 2. O diálogo indica o total que asina e lista as liñas sen tarifa. Escriba o seu nome e, se quere, o seu cargo.
 3. Faga clic en **Asinar**. A barra di agora «Asinado por … o …» co total. Garde a medición para conservalo no ficheiro.
 
-A asinatura refírese ás cifras que asinou. Calquera cambio posterior nunha cantidade, unha tarifa ou unha liña borra a asinatura, e TakeoffCraft avísao. Desfacer devolve o orzamento que asinou, e a súa asinatura con el. Cambiar o nome dunha liña non é cambiar unha cifra. **Retirar a asinatura** a elimina.
+A asinatura refírese ás cifras que asinou. Calquera cambio posterior nunha cantidade, unha tarifa ou unha liña borra a asinatura, e TakeoffDesk avísao. Desfacer devolve o orzamento que asinou, e a súa asinatura con el. Cambiar o nome dunha liña non é cambiar unha cifra. **Retirar a asinatura** a elimina.
 
-Un ficheiro de medición que se editou fóra de TakeoffCraft despois de asinarse ábrese sen a asinatura, cunha nota que o indica. O orzamento exportado (CSV e XLSX) menciona a asinatura debaixo dos totais.
+Un ficheiro de medición que se editou fóra de TakeoffDesk despois de asinarse ábrese sen a asinatura, cunha nota que o indica. O orzamento exportado (CSV e XLSX) menciona a asinatura debaixo dos totais.
 
 Só unha persoa asina. Un asistente de IA pode ler se o orzamento está asinado e que tarifas faltan; non ten maneira de asinar.
 

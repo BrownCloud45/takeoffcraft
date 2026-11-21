@@ -1,6 +1,6 @@
 ---
 title: Təchizatçı stokunu və çatdırılma müddətlərini yoxlayın
-summary: Təchizatçının stok siyahısını (CSV və ya cədvəl) əlavə edin və TakeoffCraft həcmlərin hesablanmasının tələb etdiyini, tullantı daxil olmaqla, ona görə yoxlayır: stokda kifayətdirmi və gözləmə nə qədər çəkir. Çatışmazlıqlar və uzun gözləmələr Problemlər panelində görünür.
+summary: Təchizatçının stok siyahısını (CSV və ya cədvəl) əlavə edin və TakeoffDesk həcmlərin hesablanmasının tələb etdiyini, tullantı daxil olmaqla, ona görə yoxlayır: stokda kifayətdirmi və gözləmə nə qədər çəkir. Çatışmazlıqlar və uzun gözləmələr Problemlər panelində görünür.
 keywords: təchizatçı, stok, stokda, çatdırılma müddəti, əlçatanlıq, çatışmazlıq, geri sifariş, sifariş siyahısı, csv, sku, satıcı, materiallar, təchizat, problemlər
 from: f11160fb
 ---

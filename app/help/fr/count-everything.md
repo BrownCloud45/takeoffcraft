@@ -1,6 +1,6 @@
 ---
 title: Tout compter dans le jeu de plans
-summary: Encadrez une fois la légende des symboles et TakeoffCraft compte chaque symbole qu'elle contient sur chaque feuille ouverte, en une seule passe. Chaque comptage renvoie à sa feuille, et vous vérifiez avant tout ajout.
+summary: Encadrez une fois la légende des symboles et TakeoffDesk compte chaque symbole qu'elle contient sur chaque feuille ouverte, en une seule passe. Chaque comptage renvoie à sa feuille, et vous vérifiez avant tout ajout.
 keywords: tout compter, légende, légende des symboles, ensemble complet, chaque feuille, toutes les feuilles, chaque porte, chaque équipement, appareils, nomenclature, symboles, comptage auto, compter tout, jeu de plans, 200 feuilles, niveau de correspondance, aspect semblable
 from: adc99744
 ---

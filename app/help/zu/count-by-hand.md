@@ -14,7 +14,7 @@ Into yokubala ibala izinto: izimnyango, izinto zokukhanyisa, amasokhethi, izinto
 3. Chofoza ngayinye eshidini.
    Ukuchofoza ngakunye kubeka ichashaza ngombala wento, bese inani lento lenyuka ngo-1.
 4. Hambela eshidini elilandelayo ({{key:PageDown}}) uqhubeke nokubala. Ithuluzi lihlala ku-{{ui:Bala}}.
-5. Cindezela {{key:Esc}} uma uqedile. I-TakeoffCraft ibuyela ku-{{ui:Khetha}}.
+5. Cindezela {{key:Esc}} uma uqedile. I-TakeoffDesk ibuyela ku-{{ui:Khetha}}.
 
 Ukudonsa kusashelelisa nevili lisasondeza uma ubala, ngakho ungazulazula eshidini ngaphandle kokwengeza amachashaza.
 
@@ -30,7 +30,7 @@ Chofoza into yokubala ukuze uqaqamise amachashaza ayo kuwo wonke amashidi. Uhlu 
 
 ## Usayizi wamachashaza, esikrinini nasePDF
 
-Amachashaza agcina usayizi munye esikrinini noma ukusondeza kangakanani. Ukuze uwashintshe, vula {{ui:Izilungiselelo}}, ithebhu ye-TakeoffCraft, bese ukhetha **Usayizi wophawu lokubala**: Ncane kakhulu, Ncane, Maphakathi (okuzenzakalelayo) noma Enkulu.
+Amachashaza agcina usayizi munye esikrinini noma ukusondeza kangakanani. Ukuze uwashintshe, vula {{ui:Izilungiselelo}}, ithebhu ye-TakeoffDesk, bese ukhetha **Usayizi wophawu lokubala**: Ncane kakhulu, Ncane, Maphakathi (okuzenzakalelayo) noma Enkulu.
 
 Ukuthumela ({{ui:Thumela}} › {{ui:I-PDF emakwe}}) kudweba ichashaza ngalinye ngosayizi ofanayo ephepheni, kungakhathaliseki usayizi weshidi: isibukeli se-PDF esibonisa ngo-100% sibonisa amachashaza njengoba ekhona esikrinini. Lapho amachashaza eshidini angathintana, ukuthumela kwenza amachashaza alelo shidi ancane ukuze ngayinye ifundeke.
 

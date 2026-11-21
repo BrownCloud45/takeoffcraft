@@ -14,7 +14,7 @@ Kipengee cha hesabu kinahesabu vitu: milango, taa, soketi, vifaa vya mabomba. Ki
 3. Bofya kila kitu kwenye karatasi.
    Kila bofya huweka nukta yenye rangi ya kipengee, na hesabu ya kipengee inaongezeka kwa moja.
 4. Nenda karatasi inayofuata ({{key:PageDown}}) uendelee kuhesabu. Zana inabaki kwenye {{ui:Count}}.
-5. Bonyeza {{key:Esc}} ukimaliza. TakeoffCraft inarudi kwenye {{ui:Select}}.
+5. Bonyeza {{key:Esc}} ukimaliza. TakeoffDesk inarudi kwenye {{ui:Select}}.
 
 Kuburuta bado kunasogeza karatasi, na gurudumu bado linakuza ukiwa unahesabu, kwa hiyo unaweza kuzunguka karatasi bila kuongeza nukta.
 
@@ -30,7 +30,7 @@ Bofya kipengee cha hesabu ili kuangazia nukta zake kwenye kila karatasi. Orodha 
 
 ## Ukubwa wa nukta, kwenye skrini na kwenye PDF
 
-Nukta zinabaki na ukubwa mmoja kwenye skrini, bila kujali unavyokuza. Ili kuubadilisha, fungua {{ui:Settings}}, kichupo cha TakeoffCraft, kisha chagua **Count marker size**: Extra small, Small, Medium (chaguo-msingi) au Large.
+Nukta zinabaki na ukubwa mmoja kwenye skrini, bila kujali unavyokuza. Ili kuubadilisha, fungua {{ui:Settings}}, kichupo cha TakeoffDesk, kisha chagua **Count marker size**: Extra small, Small, Medium (chaguo-msingi) au Large.
 
 Hamisho la PDF ({{ui:Export}} › PDF yenye alama) linachora kila nukta kwa ukubwa uleule kwenye karatasi, bila kujali ukubwa wa karatasi: kitazamaji kinachoonyesha PDF kwa 100% kinaonyesha nukta kubwa kama zilivyo kwenye skrini. Ikiwa nukta kwenye karatasi bado zingegusana, hamisho linapunguza nukta za karatasi hiyo ili kila moja isomeke.
 

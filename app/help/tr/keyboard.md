@@ -1,6 +1,6 @@
 ---
 title: Klavye ve fare
-summary: TakeoffCraft'taki her tuş, fare, dokunmatik yüzey ve dokunma işlemi; gruplara ayrılmış ve platform farklarıyla birlikte.
+summary: TakeoffDesk'taki her tuş, fare, dokunmatik yüzey ve dokunma işlemi; gruplara ayrılmış ve platform farklarıyla birlikte.
 keywords: tuşlar, kısayollar, kısayol tuşları, klavye, fare, dokunmatik yüzey, dokunma, kaydır, yakınlaştır, tekerlek, sağ tık, çift tık, boşluk, shift, kopyala, yapıştır, kes, çoğalt, tümünü seç
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Bkz. [Metrajı 3B'de denetleyin](topic:check-in-3d).
 | Tuş | Ne yapar |
 |---|---|
 | {{key:F1}} | Yardım panelini açar ya da kapatır (uygulama çubuğundaki {{ui:Yardım}} düğmesi de aynı işi görür). Her araçta, bir alana yazarken bile çalışır. |
-| {{key:Esc}} | Yardım panelini kapatır. Arama kutusunda ilk Esc aramayı temizler. Panel açıkken, sayfaya tıkladıktan sonra basılan Esc önce paneli kapatır; TakeoffCraft'ta iptal etmek için yeniden basın. |
+| {{key:Esc}} | Yardım panelini kapatır. Arama kutusunda ilk Esc aramayı temizler. Panel açıkken, sayfaya tıkladıktan sonra basılan Esc önce paneli kapatır; TakeoffDesk'ta iptal etmek için yeniden basın. |
 
 :::mac
 Birçok Mac klavyesinde üst sıra parlaklık ve ses denetler. {{key:F1}} ile birlikte fn tuşuna basın ya da Sistem Ayarları'nda, Klavye altında "Use F1, F2, etc. keys as standard function keys" seçeneğini açın.
@@ -139,7 +139,7 @@ Birçok Mac klavyesinde üst sıra parlaklık ve ses denetler. {{key:F1}} ile bi
 
 :::mac
 - {{key:Mod}}, Command tuşudur: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Tam ekran istisnadır: Control+Shift+F.
-- Sağ tıklama, Sistem Ayarları'nda, Trackpad altında ikincil tıklama açıldıktan sonra dokunmatik yüzeyde iki parmakla tıklamadır. TakeoffCraft yalnızca ikincil düğmeyi okur; Control-tıklama düz bir tıklama sayılıp bir nokta ekleyebilir.
+- Sağ tıklama, Sistem Ayarları'nda, Trackpad altında ikincil tıklama açıldıktan sonra dokunmatik yüzeyde iki parmakla tıklamadır. TakeoffDesk yalnızca ikincil düğmeyi okur; Control-tıklama düz bir tıklama sayılıp bir nokta ekleyebilir.
 - Dokunmatik yüzeyde iki parmakla kaydırma sayfayı kaydırmaz, yakınlaştırır. Kaydırmak için basılı tutup sürükleyin ya da {{key:Space}} tuşunu basılı tutup sürükleyin.
 - {{key:PageUp}} ve {{key:PageDown}}, bunlara sahip olmayan klavyelerde yukarı ve aşağı ok tuşlarıyla birlikte fn tuşudur.
 - {{key:Backspace}}, delete yazılı tuştur.
@@ -151,12 +151,12 @@ Birçok Mac klavyesinde üst sıra parlaklık ve ses denetler. {{key:F1}} ile bi
 :::
 
 :::linux
-- {{key:Mod}}, Ctrl'dir. Bazı masaüstleri kendi Ctrl+Alt ya da Super kısayollarını kullanır; TakeoffCraft bunların hiçbirini kullanmaz.
+- {{key:Mod}}, Ctrl'dir. Bazı masaüstleri kendi Ctrl+Alt ya da Super kısayollarını kullanır; TakeoffDesk bunların hiçbirini kullanmaz.
 - Dokunmatik yüzeyde iki parmakla kaydırma sayfayı yakınlaştırır. Kaydırmak için basılı tutup sürükleyin.
 :::
 
 :::touch
-TakeoffCraft dokunmayı tek bir işaretçi olarak okur:
+TakeoffDesk dokunmayı tek bir işaretçi olarak okur:
 
 - Dokunma bir nokta yerleştirir, bir işareti seçer ya da bir say noktası ekler.
 - Tek parmakla sürükleme sayfayı kaydırır ({{ui:Otomatik say}} içinde arama kutusunu çizer).
@@ -169,7 +169,7 @@ Bugün metraj yapmanın daha iyi yolu klavye ve fare ya da dokunmatik yüzeydir.
 
 ## Tarayıcının tuttuğu tuşlar
 
-Tarayıcılar bazı kısayolları kendilerine ayırır; sayfa bunları kullanamaz: sekmeyi kapatma ({{key:Mod+W}}), yeni sekme ya da pencere ({{key:Mod+T}}, {{key:Mod+N}}) ve tarayıcı yakınlaştırması ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Bu yüzden TakeoffCraft sayfayı tekerlekle ve çıplak {{key:Plus}} ile {{key:Minus}} tuşlarıyla yakınlaştırır. Yanlışlıkla {{key:Mod+Plus}} basarsanız tüm sayfa büyür; {{key:Mod+0}} onu eski haline getirir. Bkz. [Tuşlar, fareler ve dokunmatik yüzeyler](common:keys).
+Tarayıcılar bazı kısayolları kendilerine ayırır; sayfa bunları kullanamaz: sekmeyi kapatma ({{key:Mod+W}}), yeni sekme ya da pencere ({{key:Mod+T}}, {{key:Mod+N}}) ve tarayıcı yakınlaştırması ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Bu yüzden TakeoffDesk sayfayı tekerlekle ve çıplak {{key:Plus}} ile {{key:Minus}} tuşlarıyla yakınlaştırır. Yanlışlıkla {{key:Mod+Plus}} basarsanız tüm sayfa büyür; {{key:Mod+0}} onu eski haline getirir. Bkz. [Tuşlar, fareler ve dokunmatik yüzeyler](common:keys).
 
 ## Taşı komutunun yeri
 

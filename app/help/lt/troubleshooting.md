@@ -1,11 +1,11 @@
 ---
 title: Trikčių šalinimas
-summary: Simptomai, priežastys ir sprendimai pranešimams bei netikėtumams, kuriuos galite sutikti TakeoffCraft, pateikti taip, kaip programa juos rodo.
+summary: Simptomai, priežastys ir sprendimai pranešimams bei netikėtumams, kuriuos galite sutikti TakeoffDesk, pateikti taip, kaip programa juos rodo.
 keywords: problemos, klaidos, neveikia, taisymas, pagalba, atmesta, nematuoja, nėra mastelio, trūksta žymų, eksportas nepavyko, neprisijungus, jutiklinis
 from: cd319c9b
 ---
 
-TakeoffCraft paaiškina daugumą atsisakymų lango apačioje esančioje būsenos juostoje. Raskite toliau pateiktą pranešimą.
+TakeoffDesk paaiškina daugumą atsisakymų lango apačioje esančioje būsenos juostoje. Raskite toliau pateiktą pranešimą.
 
 ## Failų atidarymas
 
@@ -15,8 +15,8 @@ TakeoffCraft paaiškina daugumą atsisakymų lango apačioje esančioje būsenos
 | (name) yra apsaugotas slaptažodžiu. Atidarykite neapsaugotą kopiją. | PDF atidarymui reikia slaptažodžio. | Paprašykite neapsaugotos kopijos arba pašalinkite slaptažodį patikimoje PDF programoje. |
 | (name) negalėjo būti perskaitytas kaip PDF (…) | Failas sugadintas arba iš tikrųjų nėra PDF. | Atsisiųskite iš naujo arba įrašykite iš naujo programoje, kuri jį sukūrė. |
 | (name) jau atidarytas. | Tas pats PDF (tas pats turinys) jau atidarytas. | Nieko daryti nereikia. |
-| TakeoffCraft atidaro PDF ir .takeoff.json projektus. Praleista: … | Kiti failų tipai buvo atmesti. | Pirmiausia konvertuokite brėžinius į PDF. |
-| Nieko neįvyksta, kai įmetate failus | Failai įmesti ne naršyklės lange arba naršyklė atidarė PDF naujame skirtuke. | Įmeskite juos ant pačio TakeoffCraft puslapio; rėmelis „Įmeskite PDF arba .takeoff.json“ rodomas, kai tai veiks. |
+| TakeoffDesk atidaro PDF ir .takeoff.json projektus. Praleista: … | Kiti failų tipai buvo atmesti. | Pirmiausia konvertuokite brėžinius į PDF. |
+| Nieko neįvyksta, kai įmetate failus | Failai įmesti ne naršyklės lange arba naršyklė atidarė PDF naujame skirtuke. | Įmeskite juos ant pačio TakeoffDesk puslapio; rėmelis „Įmeskite PDF arba .takeoff.json“ rodomas, kai tai veiks. |
 | Didelio komplekto atidarymas užtrunka | Kiekvienas PDF nuskaitomas visas, kad būtų atpažintas. | Palaukite, kol išnyks pranešimas „Atidaromas (name)…“. Miniatiūros užsipildo slenkant. |
 
 ## Matavimas
@@ -47,7 +47,7 @@ TakeoffCraft paaiškina daugumą atsisakymų lango apačioje esančioje būsenos
 | Pranešimas ar simptomas | Priežastis | Sprendimas |
 |---|---|---|
 | Pasirinkite du taškus toliau vienas nuo kito. | Kalibravimo taškai beveik sutampa. | Kalibruokite ant ilgesnio matmens. |
-| Pranešimas kalibravimo lange, pvz., „Tas atstumas negalėjo būti nuskaitytas“ | Atstumas užrašytas forma, kurios TakeoffCraft negali perskaityti. | Žr. [Ilgio, įkainio ir procento įvedimas](topic:entry-formats). |
+| Pranešimas kalibravimo lange, pvz., „Tas atstumas negalėjo būti nuskaitytas“ | Atstumas užrašytas forma, kurios TakeoffDesk negali perskaityti. | Žr. [Ilgio, įkainio ir procento įvedimas](topic:entry-formats). |
 | Šis lapas dar neturi mastelio, todėl nėra ko tikrinti. Kalibruokite jį arba pasirinkite {{ui:Iš anksto nustatytas}}. | {{ui:Tikrinti}} neturinčiame mastelio lape. | Pirmiausia nustatykite mastelį. |
 | {{ui:Iš anksto nustatytas}} sąrašas pilkas | Nėra atidaryto lapo. | Atidarykite PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft paaiškina daugumą atsisakymų lango apačioje esančioje būsenos
 | Šis PDF yra apsaugotas slaptažodžiu arba užšifruotas, todėl pažymėtos kopijos įrašyti negalima. … | PDF yra užšifruotas. | Eksportuokite {{ui:XLSX}} vietoje arba naudokite neužšifruotą PDF kopiją (tada jai reikia atskiro kiekių skaičiavimo, nes tai kitas failas). |
 | Pažymėto PDF nepavyko įrašyti: … | Dažniausiai: esate neprisijungę, o programa nebuvo įrašyta naudojimui neprisijungus, todėl PDF rašytuvo nėra. | Prisijunkite ir vėl pasirinkite {{ui:Pažymėtas PDF}}. Kad išvengtumėte, pasirinkite {{ui:Įrašyti neprisijungus}} ir palaukite {{ui:Paruošta neprisijungus}}. |
 | Atsisiųstas tik vienas pažymėtas PDF | Naršyklė užblokavo kelis atsisiuntimus vienu metu. | Leiskite kelis atsisiuntimus šiai svetainei ir eksportuokite iš naujo. |
-| (file) nėra TakeoffCraft projektas (tai nėra galiojantis JSON). / Tai nėra TakeoffCraft projekto failas. | Netinkamas failas arba sugadintas. | Pasirinkite `.takeoff.json` failą. |
-| Šį projektą įrašė naujesnis TakeoffCraft. Atidarykite jį ten. | Failas kilęs iš naujesnės versijos. | Atidarykite jį naujesnėje versijoje. |
+| (file) nėra TakeoffDesk projektas (tai nėra galiojantis JSON). / Tai nėra TakeoffDesk projekto failas. | Netinkamas failas arba sugadintas. | Pasirinkite `.takeoff.json` failą. |
+| Šį projektą įrašė naujesnis TakeoffDesk. Atidarykite jį ten. | Failas kilęs iš naujesnės versijos. | Atidarykite jį naujesnėje versijoje. |
 | (n) žymos buvo sugadintos ir praleistos. | Dalis failo buvo sugadinta arba redaguota rankiniu būdu. | Likusi dalis atidaryta. Nubrėžkite trūkstamas žymas iš naujo arba atidarykite senesnę kopiją. |
 | Žymos dingo po atidarymo iš naujo | PDF neatidaryti arba vienas iš jų pasikeitė. | Žr. [Įrašyti ir vėl atidaryti kiekių skaičiavimą](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Naršyklė klausia „Palikti svetainę?“ | Yra neįrašytų pakeitimų. | Likite ir įrašykite su {{key:Mod+S}}. |

@@ -1,11 +1,11 @@
 ---
 title: Çfarë mësoi nga llogaritjet tuaja
-summary: TakeoffCraft mban simbolet që konfirmoni me Numërim automatik, grupet e kushteve, montimet që përdorni më shumë dhe modelet që përsëritni në çdo faqe, të gjitha brenda vetë skedarit të llogaritjes sasish. Shikojini, përdorini, fshijini.
+summary: TakeoffDesk mban simbolet që konfirmoni me Numërim automatik, grupet e kushteve, montimet që përdorni më shumë dhe modelet që përsëritni në çdo faqe, të gjitha brenda vetë skedarit të llogaritjes sasish. Shikojini, përdorini, fshijini.
 keywords: mëso, mësuar, mësim, asistent, mbaj mend, simbole, shabllone, njëlloj si puna e fundit, puna e fundit, grup kushtesh, kushte, ripërdorim, montime, më të përdorurat, sugjerime, përsërit në çdo faqe, çdo faqe, bllok titulli, model, pastro të gjitha, harro, privatësi
 from: 54d99e99
 ---
 
-TakeoffCraft bëhet më i shpejtë sa më shumë llogaritje sasish të bëni me të. Ai mëson **vetëm nga ajo që pranoni**:
+TakeoffDesk bëhet më i shpejtë sa më shumë llogaritje sasish të bëni me të. Ai mëson **vetëm nga ajo që pranoni**:
 
 - simbolet që keni kutizuar me [Numërim automatik](topic:auto-count) dhe pastaj i keni shtuar,
 - grupet e kushteve që ruani,
@@ -64,6 +64,6 @@ Për të ndaluar mësimin në një llogaritje, hiqni shenjën te {{ui:Learn from
 
 ## Të mirë për t'u ditur
 
-- Versionet më të vjetra të TakeoffCraft hapin normalisht një skedar me gjëra të mësuara. Ato e injorojnë atë pjesë, dhe e heqin nëse e ruajnë përsëri skedarin.
+- Versionet më të vjetra të TakeoffDesk hapin normalisht një skedar me gjëra të mësuara. Ato e injorojnë atë pjesë, dhe e heqin nëse e ruajnë përsëri skedarin.
 - Një simbol i mësuar është një foto e vogël e asaj që kutizuat, e ruajtur në skedar (disa kilobajt secili).
 - Simbolet e mësuara kërkohen si kërkon Numërimi automatik, kështu që vlejnë të njëjtat kufizime: [Numëro një simbol automatikisht](topic:auto-count).

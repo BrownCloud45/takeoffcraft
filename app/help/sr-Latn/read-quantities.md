@@ -24,7 +24,7 @@ Izaberite {{ui:Po stavci}} (podrazumevano). Svaka stavka ima jedan red, a svaka 
 
 Poslednji red, **Ukupno za posao**, sabira kolone materijala, rada i ukupno. Isti iznos se prikazuje desno u zaglavlju tabele.
 
-Upišite u ćeliju za otpad ili cenu i pritisnite {{key:Enter}} ili kliknite van nje da primenite. Vrednost koju TakeoffCraft ne može da pročita biće obeležena crvenim okvirom, a statusna traka kaže zašto, na primer „Unesite iznos kao 12.50.”
+Upišite u ćeliju za otpad ili cenu i pritisnite {{key:Enter}} ili kliknite van nje da primenite. Vrednost koju TakeoffDesk ne može da pročita biće obeležena crvenim okvirom, a statusna traka kaže zašto, na primer „Unesite iznos kao 12.50.”
 
 Kliknite red stavke da istaknete njene oznake na svakom listu i da skočite na list koji ih ima (isto kao kada kliknete stavku ispod {{ui:Stavke}}).
 

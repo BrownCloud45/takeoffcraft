@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, dibujo, abrir un dibujo, presentaciones, espacio modelo
 from: d8c3f504
 ---
 
-TakeoffCraft abre un dibujo DWG o DXF igual que abre un PDF: no tiene que trazarlo antes a PDF. El recuento desde el propio dibujo es exacto, porque el dibujo sabe qué es cada objeto. Consulte [Contar desde un dibujo](topic:count-from-a-drawing).
+TakeoffDesk abre un dibujo DWG o DXF igual que abre un PDF: no tiene que trazarlo antes a PDF. El recuento desde el propio dibujo es exacto, porque el dibujo sabe qué es cada objeto. Consulte [Contar desde un dibujo](topic:count-from-a-drawing).
 
 ## Abrir el dibujo
 
@@ -13,9 +13,9 @@ TakeoffCraft abre un dibujo DWG o DXF igual que abre un PDF: no tiene que trazar
 2. Seleccione el archivo DWG o DXF. Puede seleccionar varios, y también PDF junto con ellos.
 3. Elija Abrir.
 
-También puede soltar archivos de dibujo sobre TakeoffCraft, como los PDF. No se sube nada: el navegador lee el archivo en su ordenador.
+También puede soltar archivos de dibujo sobre TakeoffDesk, como los PDF. No se sube nada: el navegador lee el archivo en su ordenador.
 
-TakeoffCraft lee DWG desde AutoCAD 2000 hasta 2018 y DXF ASCII desde R12 hasta 2018. Rechaza un DXF binario (guárdelo como ASCII, o como DWG) y cualquier archivo que no sea ninguno de los dos, e indica el motivo. Un archivo dañado se abre con lo que se pudo leer, y un mensaje lo indica; sus recuentos pueden estar incompletos.
+TakeoffDesk lee DWG desde AutoCAD 2000 hasta 2018 y DXF ASCII desde R12 hasta 2018. Rechaza un DXF binario (guárdelo como ASCII, o como DWG) y cualquier archivo que no sea ninguno de los dos, e indica el motivo. Un archivo dañado se abre con lo que se pudo leer, y un mensaje lo indica; sus recuentos pueden estar incompletos.
 
 ## Hojas
 
@@ -40,10 +40,10 @@ Una hoja empieza con la escala que indica el dibujo:
 
 ## Dibujos vinculados (xref)
 
-Un dibujo que vincula otros dibujos los muestra donde están insertados. TakeoffCraft encuentra un dibujo vinculado entre los **archivos abiertos**, por su nombre de archivo: abra el dibujo principal y el vinculado juntos (o uno tras otro). Hasta entonces, la barra de estado indica cuántos dibujos vinculados no se encontraron y qué les falta por dibujar, y los recuentos lo indican.
+Un dibujo que vincula otros dibujos los muestra donde están insertados. TakeoffDesk encuentra un dibujo vinculado entre los **archivos abiertos**, por su nombre de archivo: abra el dibujo principal y el vinculado juntos (o uno tras otro). Hasta entonces, la barra de estado indica cuántos dibujos vinculados no se encontraron y qué les falta por dibujar, y los recuentos lo indican.
 
 ## Límites
 
-- Los objetos que TakeoffCraft no puede leer ni colocar (objetos proxy, clases desconocidas) se listan en la ventana de recuento por tipo; nunca se descartan sin avisar.
+- Los objetos que TakeoffDesk no puede leer ni colocar (objetos proxy, clases desconocidas) se listan en la ventana de recuento por tipo; nunca se descartan sin avisar.
 - Los dibujos muy grandes se dibujan en parte, y los recuentos se detienen en un límite, lo que se indica. Abra en su lugar un PDF trazado de ese dibujo.
 - Un dibujo se dibuja en negro y en sus propios colores, oscurecidos para papel blanco. Las tablas de estilos de trazado y las asignaciones de plumas no se aplican.

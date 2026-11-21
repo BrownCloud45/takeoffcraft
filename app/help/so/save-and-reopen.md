@@ -18,32 +18,32 @@ Kaydinta kasta wuxuu soo dejiyaa fayl cusub. Browser-kaagu wuxuu magacaabi karaa
 Magaca wuxuu ka yimaadaa PDF-ka ugu horeeya ee aad ku furtay xisaabintan.
 
 :::note
-Kaydi xisaabinta weli waa kaliya habka loo hayo xisaabinta fayl ahaan. Intaad shaqaynayso, TakeoffCraft wuxuu sidoo kale hayaa nuqul soo kabasho browser-kan (eeg hoos), balse kaydinta daruurta weli ma diyaar. Haddii aad isku daydo inaad xirto tab-ka isbeddel aan la kaydin ku jiro, browser-ku wuxuu kaa weydiinayaa inaad ka baxdo.
+Kaydi xisaabinta weli waa kaliya habka loo hayo xisaabinta fayl ahaan. Intaad shaqaynayso, TakeoffDesk wuxuu sidoo kale hayaa nuqul soo kabasho browser-kan (eeg hoos), balse kaydinta daruurta weli ma diyaar. Haddii aad isku daydo inaad xirto tab-ka isbeddel aan la kaydin ku jiro, browser-ku wuxuu kaa weydiinayaa inaad ka baxdo.
 :::
 
 ## Ku hay xisaabinta gudaha PDF-ka
 
 {{ui:Dhoofin}} › {{ui:PDF oo ku jira xisaabinta qadarka}} wuxuu soo dejiyaa nuqul PDF kasta oo furan, magaceedu sida `Plans (with takeoff).pdf`, kaas oo xisaabinta oo dhan u qaada lifaaq: shayada, calaamadaha, miisaannada, aagagga tartanka, iyo wax kasta oo `.takeoff.json` ku jira. Bogagiisu lama beddelo, sidaas darteed wuu u eegaa oo u daabacaa sida asalka, akhristayaasha PDF kale ayaana xisaabinta ku arki doona lifaafkooda.
 
-Fur nuqulkaas TakeoffCraft (siyaabkasta aad PDF-yada u furto) wuxuu weydiinayaa **Pdf-kan wuxuu ku jiraa xisaabin qadar**: dooro {{ui:Fur xisaabinta qadarka}} si aad u soo celiso, ama {{ui:PDF-ka keliya}} si aad u furto oo keliya naqshadda. Nuqulku wuxuu matalaa PDF-ka laga sameeyay, sidaas darteed `.takeoff.json` oo laga kaydiyay midkoodna labadaba ayuu ku furmaa.
+Fur nuqulkaas TakeoffDesk (siyaabkasta aad PDF-yada u furto) wuxuu weydiinayaa **Pdf-kan wuxuu ku jiraa xisaabin qadar**: dooro {{ui:Fur xisaabinta qadarka}} si aad u soo celiso, ama {{ui:PDF-ka keliya}} si aad u furto oo keliya naqshadda. Nuqulku wuxuu matalaa PDF-ka laga sameeyay, sidaas darteed `.takeoff.json` oo laga kaydiyay midkoodna labadaba ayuu ku furmaa.
 
 Haddii PDF-yo badan ay jiraan, nuqul kasta wuxuu xambaarsan yahay xisaabinta oo dhan; furtoodaba wada. Mar kale kaydinta nuqulka waxay bedeshaa xisaabinta ku jirta, ma ay ku dari doonto mid labaad. `.takeoff.json` weli waa faylka loo hayo: waa yar yahay, waana kan ay autosave iyo app-ka desktop-ku qoraan.
 
 ## Haddii tab-ka ama browser-ku joogsado
 
-Dhowr ilbiriqsi ka dib isbeddel kasta, TakeoffCraft wuxuu hayaa nuqul xisaabinta ah kaydka browser-kan, oo ay ku jiraan PDF-yadiisa haddii wadarta ay ka yar tahay ama le'eg tahay 64 MB. Waxba server-ka lama soo dirayo. Marka aad kaydiso xisaabinta, aad bilowdo mid cusub ama aad furto mashruuc kale, nuqulkaas waa la tirtiraa.
+Dhowr ilbiriqsi ka dib isbeddel kasta, TakeoffDesk wuxuu hayaa nuqul xisaabinta ah kaydka browser-kan, oo ay ku jiraan PDF-yadiisa haddii wadarta ay ka yar tahay ama le'eg tahay 64 MB. Waxba server-ka lama soo dirayo. Marka aad kaydiso xisaabinta, aad bilowdo mid cusub ama aad furto mashruuc kale, nuqulkaas waa la tirtiraa.
 
-Haddii tab-ku burburo, browser-ka ama kombiyuutarku joogsado, ama aad ka baxdo isbeddel aan la kaydin, marka xigta aad furto TakeoffCraft wuxuu weydiinayaa **Ma soo celinaysaa shaqadaada?** wuxuuna magacaabaa xisaabinta. Guji **Soo celi** si aad u soo celiso: shayada, calaamadaha iyo miisaannadu way soo noqdaan, PDF-yadiisana way dib u furmaan haddii la kaydiyay. Jaanqaadka xaaladda wuxuu leeyahay "Waa la soo celiyay (name). Weli fayl looma kaydin; Kaydi xisaabinta ayaa hayn doonta." Haddii PDF-yadu aad u waaweyn yihiin si loo kaydiyo, dib u fur; calaamadaha ayaa xaashiyadooda ku soo muuqan doona. Wax dheeraad ah: [Soo celi shaqadaada](common:recover).
+Haddii tab-ku burburo, browser-ka ama kombiyuutarku joogsado, ama aad ka baxdo isbeddel aan la kaydin, marka xigta aad furto TakeoffDesk wuxuu weydiinayaa **Ma soo celinaysaa shaqadaada?** wuxuuna magacaabaa xisaabinta. Guji **Soo celi** si aad u soo celiso: shayada, calaamadaha iyo miisaannadu way soo noqdaan, PDF-yadiisana way dib u furmaan haddii la kaydiyay. Jaanqaadka xaaladda wuxuu leeyahay "Waa la soo celiyay (name). Weli fayl looma kaydin; Kaydi xisaabinta ayaa hayn doonta." Haddii PDF-yadu aad u waaweyn yihiin si loo kaydiyo, dib u fur; calaamadaha ayaa xaashiyadooda ku soo muuqan doona. Wax dheeraad ah: [Soo celi shaqadaada](common:recover).
 
 ## Dib u fur
 
-1. Fur TakeoffCraft.
+1. Fur TakeoffDesk.
 2. Ku rid faylka `.takeoff.json` iyo PDF-yadiisa bogga dushiisa wada. Ama dooro {{ui:Fur qorshayaasha}} PDF-yada, iyo {{ui:Fur xisaabinta}} mashruuca, siday kala horreeyaan.
    Jaanqaadka xaaladda wuxuu leeyahay "Waa la furay (name): 12 shay, 340 calaamo." Xaashi kasta miisaankiisa ayuu helaa, calaamadahana xaashiyadooda ayay ku soo muuqdaan.
 
-Dalabka PDF-yada muhiim ma aha, magacyadooda ama faylalkooda ma muhiim. TakeoffCraft wuxuu PDF kasta ku aqoonsadaa farshaxan (fingerprint) ee waxa ku jira.
+Dalabka PDF-yada muhiim ma aha, magacyadooda ama faylalkooda ma muhiim. TakeoffDesk wuxuu PDF kasta ku aqoonsadaa farshaxan (fingerprint) ee waxa ku jira.
 
-Haddii aad furto mashruuc intaad xisaabinta jirto isbeddel aan la kaydin ku jiro, TakeoffCraft marka hore wuxuu weydiinayaa: **Jooji**, **Ka tag isbeddelada**, ama **Kaydi xisaabinta marka hore**. Furidda mashruuc waxay beddeshaa shayada iyo calaamadaha hadda jira; PDF-yada horay loo furay way furan yihiin.
+Haddii aad furto mashruuc intaad xisaabinta jirto isbeddel aan la kaydin ku jiro, TakeoffDesk marka hore wuxuu weydiinayaa: **Jooji**, **Ka tag isbeddelada**, ama **Kaydi xisaabinta marka hore**. Furidda mashruuc waxay beddeshaa shayada iyo calaamadaha hadda jira; PDF-yada horay loo furay way furan yihiin.
 
 ## Marka PDF maqan yahay
 
@@ -55,7 +55,7 @@ Kadibna magacyada faylalka iyo cabbirradooda. Calaamadahooda weli waxay ku tiran
 
 ## Marka PDF la beddelay
 
-PDF la dib u eegay, ama barnaamij kale oo mar kale kaydiyay, waxa ku jira ayaa kala duwan, sidaas darteed TakeoffCraft wuxuu u arkaa **fayl kale**, xataa haddii magaca isku mid yahay. Qoraalka hoosta liiska xaashiyada, faylkaas noocaas ah wuxuu leeyahay "magacaas fayl ayaa furan, laakiin waxa ku jira way kala duwan yihiin".
+PDF la dib u eegay, ama barnaamij kale oo mar kale kaydiyay, waxa ku jira ayaa kala duwan, sidaas darteed TakeoffDesk wuxuu u arkaa **fayl kale**, xataa haddii magaca isku mid yahay. Qoraalka hoosta liiska xaashiyada, faylkaas noocaas ah wuxuu leeyahay "magacaas fayl ayaa furan, laakiin waxa ku jira way kala duwan yihiin".
 
 - Calaamadaha waxay ku xiran yihiin nooca hore. Way sii tirinayaan, meelahooda hore iyo miisaannadoodii hore.
 - PDF-ka la dib u eegay wuxuu u furmaa xaashiyo cusub oo aan miisaan lahayn, iyo calaamo la'aan.
@@ -64,11 +64,11 @@ Si aad xisaabinta ugu wareejiso dib u eegista, fur labada PDF oo isticmaal {{ui:
 
 ## Fayl dhaawacan ama shisheeye
 
-TakeoffCraft wuxuu hubiyaa fayl mashruuc kasta ka hor intuusan isticmaalin. Fariimaha aad arki kartid:
+TakeoffDesk wuxuu hubiyaa fayl mashruuc kasta ka hor intuusan isticmaalin. Fariimaha aad arki kartid:
 
-- "(file) ma aha mashruuc TakeoffCraft (ma aha JSON sax ah)."
-- "Tani ma aha fayl mashruuc TakeoffCraft."
-- "Mashruucan waxaa kaydiyay TakeoffCraft cusub. Ku fur halkaas."
+- "(file) ma aha mashruuc TakeoffDesk (ma aha JSON sax ah)."
+- "Tani ma aha fayl mashruuc TakeoffDesk."
+- "Mashruucan waxaa kaydiyay TakeoffDesk cusub. Ku fur halkaas."
 - "3 calaamo waa la burburiyay oo waa la tegey." (kuwa kale way furmaan)
 
 ## Taariikhda ka noqoshada

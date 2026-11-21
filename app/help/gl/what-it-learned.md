@@ -1,11 +1,11 @@
 ---
 title: O que aprendeu das súas medicións
-summary: TakeoffCraft garda os símbolos que confirmou con Contaxe automática, os seus grupos de condicións, os conxuntos que máis usa e os patróns que repite en cada páxina, todo dentro do ficheiro da propia medición. Véxao, use e elimíneo.
+summary: TakeoffDesk garda os símbolos que confirmou con Contaxe automática, os seus grupos de condicións, os conxuntos que máis usa e os patróns que repite en cada páxina, todo dentro do ficheiro da propia medición. Véxao, use e elimíneo.
 keywords: aprender, aprendido, aprendizaxe, asistente, lembrar, símbolos, modelos, igual que o último traballo, último traballo, grupo de condicións, condicións, reutilizar, conxuntos, máis usados, suxestións, repetir en cada páxina, cada páxina, cartela, patrón, limpar todo, esquecer, privacidade
 from: 54d99e99
 ---
 
-TakeoffCraft faise máis rápido canto máis medicións fai con el. Aprende **só do que acepta**:
+TakeoffDesk faise máis rápido canto máis medicións fai con el. Aprende **só do que acepta**:
 
 - os símbolos que marcou con [Contaxe automática](topic:auto-count) e despois engadiu,
 - os grupos de condicións que garda,
@@ -64,6 +64,6 @@ Para deixar de aprender nunha medición, desmarque {{ui:Aprender desta medición
 
 ## Cousas boas de saber
 
-- As versións anteriores de TakeoffCraft abren un ficheiro con cousas aprendidas con normalidade. Ignoran esa parte e a eliminan se gardan o ficheiro de novo.
+- As versións anteriores de TakeoffDesk abren un ficheiro con cousas aprendidas con normalidade. Ignoran esa parte e a eliminan se gardan o ficheiro de novo.
 - Un símbolo aprendido é unha pequena imaxe do que marcou, gardada no ficheiro (uns poucos kilobytes cada unha).
 - Os símbolos aprendidos búscanse como os busca Contaxe automática, así que aplícanse os mesmos límites: [Contar automaticamente un símbolo](topic:auto-count).

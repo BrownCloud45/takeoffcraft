@@ -24,7 +24,7 @@ Chagua {{ui:Kwa kipengee}} (chaguo-msingi). Kila kipengee kina safu yake, na kil
 
 Safu ya mwisho, **Jumla ya kazi**, inajumlisha safu za nyenzo, kazi na jumla. Jumla hiyo hiyo inaonekana upande wa kulia wa kichwa cha jedwali.
 
-Andika kwenye kisanduku cha taka au kiwango kisha bonyeza {{key:Enter}} au bofya pembeni ili kutumia. Thamani ambayo TakeoffCraft haiwezi kuisoma imezungushwa kwa mstari mwekundu, na upau wa hali unaeleza sababu, kwa mfano "Andika kiasi kama 12.50."
+Andika kwenye kisanduku cha taka au kiwango kisha bonyeza {{key:Enter}} au bofya pembeni ili kutumia. Thamani ambayo TakeoffDesk haiwezi kuisoma imezungushwa kwa mstari mwekundu, na upau wa hali unaeleza sababu, kwa mfano "Andika kiasi kama 12.50."
 
 Bofya safu ya kipengee ili kuangazia alama zake kwenye kila karatasi na kuruka hadi karatasi yenye alama hizo (sawa na kubofya chini ya {{ui:Vipengee}}).
 

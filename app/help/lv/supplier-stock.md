@@ -1,6 +1,6 @@
 ---
 title: Pārbaudīt piegādātāja krājumus un piegādes laikus
-summary: Pievienojiet piegādātāja krājumu sarakstu (CSV vai izklājlapu), un TakeoffCraft pārbauda, ko apjomu aprēķins prasa, ieskaitot atkritumus, pret to: vai ir pietiekami krājumā un cik ilgs ir gaidīšanas laiks. Trūkumi un ilgi gaidīšanas laiki tiek rādīti Problēmu panelī.
+summary: Pievienojiet piegādātāja krājumu sarakstu (CSV vai izklājlapu), un TakeoffDesk pārbauda, ko apjomu aprēķins prasa, ieskaitot atkritumus, pret to: vai ir pietiekami krājumā un cik ilgs ir gaidīšanas laiks. Trūkumi un ilgi gaidīšanas laiki tiek rādīti Problēmu panelī.
 keywords: piegādātājs, krājumi, noliktavā, piegādes laiks, pieejamība, trūkums, atpakaļpasūtījums, pasūtījuma saraksts, csv, sku, pārdevējs, materiāli, piegāde, problēmas
 from: f11160fb
 ---

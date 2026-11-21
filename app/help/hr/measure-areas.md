@@ -42,7 +42,7 @@ Kad su prostorije nacrtane kao zatvoreni zidovi, {{ui:Prostorija}} ({{key:B}}) u
 2. Odaberite {{ui:Prostorija}} u grupi {{ui:Predmjer}} ili pritisnite {{key:B}}.
 3. Kliknite unutar prostorije, u otvorenom podu (ne na liniji ni na oznaci).
 
-TakeoffCraft čita linije lista, pronalazi prostor oko klika i ocrtava ga uz unutarnja lica zidova, kao površinu trenutne stavke. Otvori vrata do **4'-0"** smatraju se zatvorenima, pa obris ide ravno preko otvora; **Postavke › TakeoffCraft › Ispuna prostorije zatvara otvore do** mijenja tu širinu (3'-0" do 8'-0"). Nazivi prostorija, namještaj i oprema unutar prostorije ne čine rupe.
+TakeoffDesk čita linije lista, pronalazi prostor oko klika i ocrtava ga uz unutarnja lica zidova, kao površinu trenutne stavke. Otvori vrata do **4'-0"** smatraju se zatvorenima, pa obris ide ravno preko otvora; **Postavke › TakeoffDesk › Ispuna prostorije zatvara otvore do** mijenja tu širinu (3'-0" do 8'-0"). Nazivi prostorija, namještaj i oprema unutar prostorije ne čine rupe.
 
 Odbija se, uz objašnjenje, kad:
 
@@ -62,7 +62,7 @@ Kad je vrata šira od postavke, ispuna prelazi u sljedeću prostoriju i ocrtava 
 
 Za okruglu rupu odaberite {{ui:Dodaj okrugli otvor}} pod **Odabrana oznaka**, kliknite njezino središte, pa točku na njezinu rubu.
 
-Otvor mora u potpunosti ležati unutar površine i ne smije se preklapati s drugim otvorom. Inače ga TakeoffCraft odbija: „Otvor mora u potpunosti ležati unutar površine.“ ili „Otvori se ne mogu preklapati.“
+Otvor mora u potpunosti ležati unutar površine i ne smije se preklapati s drugim otvorom. Inače ga TakeoffDesk odbija: „Otvor mora u potpunosti ležati unutar površine.“ ili „Otvori se ne mogu preklapati.“
 
 Za uklanjanje zadnje rupe odaberite {{ui:Ukloni zadnji otvor}}.
 
@@ -76,7 +76,7 @@ Otvor pripada jednoj oznaci površine. **Povratni odbitak** se crta jednom i izl
 
 Svaka oznaka površine označene stavke na istom listu gubi dio koji pokriva povratni odbitak: cijeli odbitak kad je unutra, samo preklapajući dio kad prelazi rub, i ništa unutar otvora. Ploča odabrane površine prikazuje **Povratni odbici** i preostalu površinu. Količina stavke, njezine formule sklopa, troškovi, 3D pregled provjere i izvoz koriste preostalu površinu; bilješke predračuna kažu koliko su povratni odbici oduzeli. Sama stavka povratnog odbitka broji vlastitu površinu (ostavite njezine troškove na nuli ako je ne cijenite).
 
-Povratni odbitak mora biti **konveksan**: pravokutnik, kružnica ili bilo koji obris bez unutarnjeg kuta. TakeoffCraft odbija crtanje onoga što nije; L-oblik šahta nacrtajte kao dva povratna odbitka. Povratni odbici ne mogu imati otvore, a dva povratna odbitka koja se preklapaju broje se oba.
+Povratni odbitak mora biti **konveksan**: pravokutnik, kružnica ili bilo koji obris bez unutarnjeg kuta. TakeoffDesk odbija crtanje onoga što nije; L-oblik šahta nacrtajte kao dva povratna odbitka. Povratni odbici ne mogu imati otvore, a dva povratna odbitka koja se preklapaju broje se oba.
 
 Opseg (`P`) se ne mijenja: povratni odbici oduzimaju samo površinu.
 

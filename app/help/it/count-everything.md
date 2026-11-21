@@ -1,6 +1,6 @@
 ---
 title: Contare tutto il set
-summary: Racchiudere una volta la legenda dei simboli e TakeoffCraft conta ogni simbolo in essa su ogni tavola aperta in un'unica esecuzione. Ogni conteggio è un collegamento alla sua tavola, e si verifica prima che venga aggiunto qualcosa.
+summary: Racchiudere una volta la legenda dei simboli e TakeoffDesk conta ogni simbolo in essa su ogni tavola aperta in un'unica esecuzione. Ogni conteggio è un collegamento alla sua tavola, e si verifica prima che venga aggiunto qualcosa.
 keywords: conta tutto, legenda, legenda dei simboli, intero set, ogni tavola, tutte le tavole, ogni porta, ogni apparecchio, dispositivi, abaco, simboli, conteggio automatico, set di piani, 200 tavole, livello di corrispondenza, simile
 from: adc99744
 ---

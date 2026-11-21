@@ -5,14 +5,14 @@ keywords: átdolgozás, átdolgozott, összehasonlítás, átfedés, régi, új,
 from: 3a1d9fe0
 ---
 
-Ha egy lapot újra kiadnak, nem kell újra felmérnie. Nyissa meg a régi és az új PDF-et, hasonlítsa össze a két lapot, és vigye át a mennyiségkimutatást. A TakeoffCraft minden olyan jelölést megjelöl, ahol a rajz változott, így ezeket ellenőrizheti, a többit pedig megtartja.
+Ha egy lapot újra kiadnak, nem kell újra felmérnie. Nyissa meg a régi és az új PDF-et, hasonlítsa össze a két lapot, és vigye át a mennyiségkimutatást. A TakeoffDesk minden olyan jelölést megjelöl, ahol a rajz változott, így ezeket ellenőrizheti, a többit pedig megtartja.
 
 ## Összehasonlítás
 
 1. Nyissa meg mindkét PDF-et: a régi és az átdolgozott készletet ({{ui:Tervek megnyitása}}; lehetnek egy fájlban vagy többben).
 2. Jelenítse meg az **új** lapot.
 3. Válassza a {{ui:Összehasonlítás}} lehetőséget a rajz alatti lapsávon.
-4. Válassza ki a régi lapot a listából. A TakeoffCraft a másik PDF-ben a azonos számú lapot, vagy ugyanazt az oldalt javasolja. Válassza az **Összehasonlítás** gombot.
+4. Válassza ki a régi lapot a listából. A TakeoffDesk a másik PDF-ben a azonos számú lapot, vagy ugyanazt az oldalt javasolja. Válassza az **Összehasonlítás** gombot.
 
 A régi rajz most pirosan fekszik az új fölött. Ahol a két rajz megegyezik, a piros vonalak a feketék alatt vannak; ahol eltérnek, csak piros vonalakat lát (eltávolítva), és csak fekete vonalakat (hozzáadva). A lap alján lévő sáv tartalmazza az alábbi lépéseket; az {{key:Esc}} vagy a {{ui:Bezárás}} befejezi az összehasonlítást.
 
@@ -29,7 +29,7 @@ A piros rajz a fekete fölé mozdul, elfordul és méretezi magát. Az állapots
 
 ## Változások keresése
 
-Válassza a **Változások keresése** lehetőséget. A TakeoffCraft összehasonlítja a két rajz tintáját: a csak a régi lapon lévő tinta pirosra vált, a csak az új lapon lévő kékre, az állapotsor pedig megszámolja őket. A minimálisan (egy hajszálnyit) eltolt vonalak (újranyomtatás) nem számítanak változásnak.
+Válassza a **Változások keresése** lehetőséget. A TakeoffDesk összehasonlítja a két rajz tintáját: a csak a régi lapon lévő tinta pirosra vált, a csak az új lapon lévő kékre, az állapotsor pedig megszámolja őket. A minimálisan (egy hajszálnyit) eltolt vonalak (újranyomtatás) nem számítanak változásnak.
 
 Azt is megnézi minden régi lapon lévő jelölést, és megszámolja azokat, amelyek ott vannak, ahol a rajz változott:
 
@@ -40,7 +40,7 @@ Azt is megnézi minden régi lapon lévő jelölést, és megszámolja azokat, a
 
 Válassza a **Mennyiségkimutatás áthelyezése ide** lehetőséget. A régi lap minden jelölése az igazításon keresztül átkerül az új lapra, egyetlen visszavonási lépésben. Azok, amelyek egy változás mellett vannak, meg vannak jelölve: narancssárga körvonallal rajzolódnak, a lapsáv pedig „(n) ellenőrzendő” szöveget mutat.
 
-Ha az új lapnak nem volt méretaránya, átveszi a régi lap méretarányát (módosítva, ha a rajzokat az igazításhoz méretezni kellett). Ha már volt eltérő méretaránya, a TakeoffCraft előbb kérdez: az áthelyezett jelöléseket az új lap méretarányával mérjük.
+Ha az új lapnak nem volt méretaránya, átveszi a régi lap méretarányát (módosítva, ha a rajzokat az igazításhoz méretezni kellett). Ha már volt eltérő méretaránya, a TakeoffDesk előbb kérdez: az áthelyezett jelöléseket az új lap méretarányával mérjük.
 
 ## A megjelölt jelölések ellenőrzése
 

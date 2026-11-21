@@ -13,7 +13,7 @@ Det **prisbiblioteket** holder postene du bruker jobb etter jobb: type, enhet, h
 
 - {{ui:Importer CSV…}} leser et regneark lagret som CSV (se kolonnene nedenfor). Poster der navn og type allerede finnes i biblioteket, erstattes; resten legges til. Rader den ikke kan lese, hoppes over, og den sier hvilke og hvorfor.
 - Legg til dette mengdeuttakets poster kopierer hver post i det åpne mengdeuttaket inn i biblioteket, med satsene og den sammensatte posten (ikke merkene).
-- Kalkyle-CSV-en TakeoffCraft eksporterer ([Eksporter kalkylen](topic:export-estimate)) importeres slik den er: forrige jobbs priser gir starten på den neste.
+- Kalkyle-CSV-en TakeoffDesk eksporterer ([Eksporter kalkylen](topic:export-estimate)) importeres slik den er: forrige jobbs priser gir starten på den neste.
 
 - {{ui:Fagpakker…}} legger til gratis sammensatte poster for et fag, for eksempel gips, elektrisk eller betong, uten priser. Se [Fagpakker](topic:trade-packs).
 

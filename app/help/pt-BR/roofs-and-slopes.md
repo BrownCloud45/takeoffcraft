@@ -5,7 +5,7 @@ keywords: telhado, caimento, inclinação, fator de inclinação, elevação, av
 from: 38225b60
 ---
 
-A planta de um telhado mostra cada plano do telhado plano, visto de cima. O telhado em si é maior: um plano com caimento de 6:12 tem cerca de 12% mais superfície do que a sua planta, e as bordas inclinadas são mais longas do que parecem. Dê ao item o seu caimento e o TakeoffCraft mede ao longo da inclinação.
+A planta de um telhado mostra cada plano do telhado plano, visto de cima. O telhado em si é maior: um plano com caimento de 6:12 tem cerca de 12% mais superfície do que a sua planta, e as bordas inclinadas são mais longas do que parecem. Dê ao item o seu caimento e o TakeoffDesk mede ao longo da inclinação.
 
 ## Digitar um caimento
 

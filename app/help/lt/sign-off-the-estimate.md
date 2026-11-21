@@ -19,9 +19,9 @@ Lentelėje **Kiekiai › Pagal poziciją** eilutė, turinti kiekį, bet neturint
 2. Dialogas nurodo sumą, kurią pasirašote, ir išvardija eilutes be įkainio. Įveskite savo vardą ir, jei norite, pareigas.
 3. Spustelėkite **Pasirašyti**. Juostoje dabar rašoma „Pasirašė … , data … “ su suma. Įrašykite kiekių skaičiavimą, kad tai liktų faile.
 
-Pasirašymas priklauso skaičiams, kuriuos pasirašėte. Bet koks vėlesnis kiekio, įkainio ar eilutės pakeitimas jį panaikina, ir TakeoffCraft apie tai praneša. Anuliavimas atkuria sąmatą, kurią pasirašėte, kartu su jos pasirašymu. Eilutės pervadinimas nėra skaičiaus pakeitimas. **Pašalinti pasirašymą** jį nuima.
+Pasirašymas priklauso skaičiams, kuriuos pasirašėte. Bet koks vėlesnis kiekio, įkainio ar eilutės pakeitimas jį panaikina, ir TakeoffDesk apie tai praneša. Anuliavimas atkuria sąmatą, kurią pasirašėte, kartu su jos pasirašymu. Eilutės pervadinimas nėra skaičiaus pakeitimas. **Pašalinti pasirašymą** jį nuima.
 
-Kiekių failas, kuris buvo redaguotas ne TakeoffCraft po pasirašymo, atsidaro be pasirašymo, su pastaba apie tai. Eksportuota sąmata (CSV ir XLSX) pasirašymą nurodo po sumomis.
+Kiekių failas, kuris buvo redaguotas ne TakeoffDesk po pasirašymo, atsidaro be pasirašymo, su pastaba apie tai. Eksportuota sąmata (CSV ir XLSX) pasirašymą nurodo po sumomis.
 
 Pasirašo tik asmuo. DI asistentas gali perskaityti, ar sąmata pasirašyta ir kurių įkainių trūksta; jis negali pasirašyti.
 

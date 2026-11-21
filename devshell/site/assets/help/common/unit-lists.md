@@ -48,7 +48,7 @@ Open {{ui:Settings}} (the gear on the app bar, or {{key:Mod+,}}), choose {{ui:Ge
 | ModelCraft | The units list beside the value box | The unit of a new model |
 | BimCraft | The units list on the plan toolbar | The display units, until you pick them on the toolbar (your earlier pick is kept) |
 | MarkupCraft | The measuring and position units in {{ui:Settings}}, and the unit in the calibrate dialog | The measuring unit, until MarkupCraft's own settings have been saved |
-| TakeoffCraft | The unit lists of an item | Length and area: the unit of a new item |
+| TakeoffDesk | The unit lists of an item | Length and area: the unit of a new item |
 
 The angle and slope lists are saved, but no app's box follows them yet.
 

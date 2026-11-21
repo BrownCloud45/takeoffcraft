@@ -13,7 +13,7 @@ Otvorte ju cez {{ui:Library}} hore na paneli {{ui:Items}}.
 
 - {{ui:Import CSV…}} načíta tabuľku uloženú ako CSV (pozri stĺpce nižšie). Položky, ktorých názov a typ sú už v knižnici, sa nahradia; ostatné sa pridajú. Riadky, ktoré nevie prečítať, sa preskočia a povie, ktoré a prečo.
 - {{ui:Add this takeoff's items}} skopíruje každú položku otvoreného výkazu do knižnice, so sadzbami a zostavou (nie so značkami).
-- Odhad CSV, ktorý TakeoffCraft exportuje ([Export odhadu](topic:export-estimate)), sa importuje tak, ako je: ceny minulej zákazky naštartujú ďalšiu.
+- Odhad CSV, ktorý TakeoffDesk exportuje ([Export odhadu](topic:export-estimate)), sa importuje tak, ako je: ceny minulej zákazky naštartujú ďalšiu.
 
 - {{ui:Trade packs…}} pridá bezplatné zostavy pre remeslo, napríklad sadrokartón, elektroinštalácie alebo betón, bez cien. Pozri [Balíky remesiel](topic:trade-packs).
 

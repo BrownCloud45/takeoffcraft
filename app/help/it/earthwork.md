@@ -5,7 +5,7 @@ keywords: movimenti di terra, scavo, sterro, riporto, sterro e riporto, sistemaz
 from: a898e508
 ---
 
-TakeoffCraft misura ciò che è disegnato su una tavola. I movimenti di terra richiedono una superficie del terreno, quindi sono condivisi con CivilCraft, che costruisce superfici a partire dai punti, le sistema e calcola sterro, riporto e trasporto.
+TakeoffDesk misura ciò che è disegnato su una tavola. I movimenti di terra richiedono una superficie del terreno, quindi sono condivisi con CivilCraft, che costruisce superfici a partire dai punti, le sistema e calcola sterro, riporto e trasporto.
 
 ## Scavo semplice qui
 
@@ -29,8 +29,8 @@ I punti di tavole diverse non condividono le coordinate, quindi l'esportazione p
 
 I movimenti di terra di CivilCraft arrivano come due voci che si possono prezzare:
 
-1. In CivilCraft, sistemare piazzole e corridoi, poi scegliere {{ui:Invia a TakeoffCraft}} sotto **Movimenti di terra** ([Volumi di movimento di terra](app:civilcraft/volumes)). Salva un file delle quantità (`.quantities.json`).
-2. In TakeoffCraft, aprirlo con {{ui:Apri computo}}, oppure trascinarlo sull'app. Il computo resta aperto: il file aggiunge **Movimenti di terra: sterro** e **Movimenti di terra: riporto** come [quantità digitate](topic:create-items#typed-quantities-no-drawing) in iarde cubiche (CY) per un progetto in piedi, o in metri cubi (m³) per un progetto in metri. È un solo passaggio: {{key:Mod+Z}} lo annulla.
+1. In CivilCraft, sistemare piazzole e corridoi, poi scegliere {{ui:Invia a TakeoffDesk}} sotto **Movimenti di terra** ([Volumi di movimento di terra](app:civilcraft/volumes)). Salva un file delle quantità (`.quantities.json`).
+2. In TakeoffDesk, aprirlo con {{ui:Apri computo}}, oppure trascinarlo sull'app. Il computo resta aperto: il file aggiunge **Movimenti di terra: sterro** e **Movimenti di terra: riporto** come [quantità digitate](topic:create-items#typed-quantities-no-drawing) in iarde cubiche (CY) per un progetto in piedi, o in metri cubi (m³) per un progetto in metri. È un solo passaggio: {{key:Mod+Z}} lo annulla.
 3. Rinominarle, impostare sfrido, prezzi e composizioni a piacere.
 
 Quando il progetto cambia, inviare di nuovo da CivilCraft e aprire il nuovo file: le stesse due voci ricevono le nuove quantità. Nomi, prezzi, sfrido e composizioni restano come impostati. Se l'unità del progetto è cambiata, la barra di stato lo segnala: verificare i prezzi. Un file di un altro progetto CivilCraft aggiunge due voci proprie.

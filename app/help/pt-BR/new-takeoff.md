@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Salve o levantamento atual se quiser mantê-lo: {{ui:Salvar levantamento}} ou {{key:Mod+S}}.
 2. Escolha {{ui:Novo}} no grupo {{ui:Arquivo}}.
-3. Se houver alterações não salvas, o TakeoffCraft pergunta **Levantamento não salvo**: escolha {{ui:Salvar levantamento primeiro}} (ele baixa o projeto e depois limpa), {{ui:Descartar alterações}} ou {{ui:Cancelar}}.
+3. Se houver alterações não salvas, o TakeoffDesk pergunta **Levantamento não salvo**: escolha {{ui:Salvar levantamento primeiro}} (ele baixa o projeto e depois limpa), {{ui:Descartar alterações}} ou {{ui:Cancelar}}.
    A janela volta ao estado vazio: sem PDFs, sem itens, sem marcas, sem escalas. A barra de status diz "Novo levantamento. Abra PDFs para começar."
 
 O que é limpo:

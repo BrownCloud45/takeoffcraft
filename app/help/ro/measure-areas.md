@@ -41,7 +41,7 @@ Când încăperile sunt desenate ca pereți închiși, {{ui:Room}} ({{key:B}}) s
 2. Alegeți {{ui:Room}} din grupul {{ui:Takeoff}}, sau apăsați {{key:B}}.
 3. Faceți clic în interiorul unei încăperi, pe podeaua liberă (nu pe o linie sau o etichetă).
 
-TakeoffCraft citește liniile foii, găsește spațiul din jurul clicului și conturează spațiul de-a lungul fețelor interioare ale pereților, ca arie a articolului curent. Deschiderile de uși de până la **4'-0"** sunt considerate închise, astfel încât conturul trece drept peste ușă; **Setări › TakeoffCraft › Umplere încăpere închide deschiderile până la** modifică această lățime (de la 3'-0" la 8'-0"). Numele încăperilor, mobilierul și corpurile fixe din încăpere nu fac goluri.
+TakeoffDesk citește liniile foii, găsește spațiul din jurul clicului și conturează spațiul de-a lungul fețelor interioare ale pereților, ca arie a articolului curent. Deschiderile de uși de până la **4'-0"** sunt considerate închise, astfel încât conturul trece drept peste ușă; **Setări › TakeoffDesk › Umplere încăpere închide deschiderile până la** modifică această lățime (de la 3'-0" la 8'-0"). Numele încăperilor, mobilierul și corpurile fixe din încăpere nu fac goluri.
 
 Refuză, spunând de ce, când:
 
@@ -62,7 +62,7 @@ Când o ușă este mai largă decât setarea, umplerea intră în următoarea î
 
 Pentru un gol rotund, alegeți {{ui:Add a round cut-out}} sub **Marcaj selectat**, faceți clic pe centru, apoi pe un punct de margine.
 
-Un decupaj trebuie să fie complet în interiorul ariei și să nu se suprapună cu alt decupaj. Altfel, TakeoffCraft îl refuză: „Un decupaj trebuie să fie complet în interiorul ariei.” sau „Decupajele nu se pot suprapune între ele.”
+Un decupaj trebuie să fie complet în interiorul ariei și să nu se suprapună cu alt decupaj. Altfel, TakeoffDesk îl refuză: „Un decupaj trebuie să fie complet în interiorul ariei.” sau „Decupajele nu se pot suprapune între ele.”
 
 Pentru a scoate ultimul gol, alegeți {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ Un decupaj aparține unui singur marcaj de arie. O **deducere** este desenată o
 
 Fiecare marcaj de arie al unui articol bifat, de pe aceeași foaie, pierde partea acoperită de o deducere: întreaga deducere când se află în interior, doar porțiunea suprapusă când trece peste margine și nimic în interiorul unui decupaj. Panoul ariei selectate arată **Deduceri** și aria rămasă. Cantitatea articolului, formulele de ansamblu, costurile, vizualizarea 3D de verificare și exportul folosesc aria rămasă; notele devizului arată cât au scos deducerile. Articolul de deducere își numără propria arie (lăsați costurile la zero dacă nu îl evaluați).
 
-O deducere trebuie să fie **convexă**: un dreptunghi, un cerc sau orice contur fără colț spre interior. TakeoffCraft refuză să o deseneze pe cea care nu este; desenați un gol în formă de L ca două deduceri. Deducerile nu pot avea decupaje, iar două deduceri care se suprapun între ele se numără amândouă.
+O deducere trebuie să fie **convexă**: un dreptunghi, un cerc sau orice contur fără colț spre interior. TakeoffDesk refuză să o deseneze pe cea care nu este; desenați un gol în formă de L ca două deduceri. Deducerile nu pot avea decupaje, iar două deduceri care se suprapun între ele se numără amândouă.
 
 Perimetrul (`P`) nu se modifică: deducerile scot doar arie.
 

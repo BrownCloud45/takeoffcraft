@@ -1,6 +1,6 @@
 ---
 title: Sprawdź stan magazynowy dostawcy i czasy dostawy
-summary: Dodaj listę stanów dostawcy (CSV lub arkusz kalkulacyjny), a TakeoffCraft sprawdzi, czego potrzebuje przedmiar wraz z naddatkiem, czyli czy jest tego wystarczająco na stanie i jak długie jest oczekiwanie. Braki i długie oczekiwanie pokazują się w panelu Problemy.
+summary: Dodaj listę stanów dostawcy (CSV lub arkusz kalkulacyjny), a TakeoffDesk sprawdzi, czego potrzebuje przedmiar wraz z naddatkiem, czyli czy jest tego wystarczająco na stanie i jak długie jest oczekiwanie. Braki i długie oczekiwanie pokazują się w panelu Problemy.
 keywords: dostawca, stan magazynowy, na stanie, czas dostawy, dostępność, brak towaru, zamówienie oczekujące, lista zamówienia, csv, sku, sprzedawca, materiały, dostawa, problemy
 from: f11160fb
 ---

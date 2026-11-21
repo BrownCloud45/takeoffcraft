@@ -1,6 +1,6 @@
 ---
 title: Verificare le scorte e i tempi di consegna dei fornitori
-summary: Aggiungere l'elenco delle scorte di un fornitore (CSV o foglio di calcolo) e TakeoffCraft verifica contro di esso ciò che serve al computo, con lo sfrido: quanto è disponibile e quanto dura l'attesa. Carenze e attese lunghe compaiono nel pannello Problemi.
+summary: Aggiungere l'elenco delle scorte di un fornitore (CSV o foglio di calcolo) e TakeoffDesk verifica contro di esso ciò che serve al computo, con lo sfrido: quanto è disponibile e quanto dura l'attesa. Carenze e attese lunghe compaiono nel pannello Problemi.
 keywords: fornitore, venditore, scorte, disponibile, tempo di consegna, disponibilità, carenza, ordine arretrato, elenco ordine, csv, sku, materiali, fornitura, problemi
 from: f11160fb
 ---

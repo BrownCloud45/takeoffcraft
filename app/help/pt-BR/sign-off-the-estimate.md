@@ -19,9 +19,9 @@ Em **Quantitativos › Por item**, uma linha que tem quantidade e nenhum preço 
 2. A caixa de diálogo informa o total que você está assinando e lista as linhas sem preço. Digite o seu nome e, se quiser, o seu cargo.
 3. Clique em **Assinar**. A barra agora diz "Assinado por … em …" com o total. Salve o levantamento para mantê-lo no arquivo.
 
-A assinatura vale para os valores que você assinou. Qualquer alteração posterior em uma quantidade, em um preço unitário ou em uma linha a cancela, e o TakeoffCraft avisa você. Desfazer traz de volta o orçamento que você assinou, e a assinatura junto com ele. Renomear uma linha não é uma alteração de valor. **Remover a assinatura** a tira.
+A assinatura vale para os valores que você assinou. Qualquer alteração posterior em uma quantidade, em um preço unitário ou em uma linha a cancela, e o TakeoffDesk avisa você. Desfazer traz de volta o orçamento que você assinou, e a assinatura junto com ele. Renomear uma linha não é uma alteração de valor. **Remover a assinatura** a tira.
 
-Um arquivo de levantamento editado fora do TakeoffCraft depois de assinado abre sem a assinatura, com uma nota dizendo isso. O orçamento exportado (CSV e XLSX) menciona a assinatura abaixo dos totais.
+Um arquivo de levantamento editado fora do TakeoffDesk depois de assinado abre sem a assinatura, com uma nota dizendo isso. O orçamento exportado (CSV e XLSX) menciona a assinatura abaixo dos totais.
 
 Somente uma pessoa assina. Um assistente de IA pode ler se o orçamento está assinado e quais preços unitários faltam; ele não tem como assinar.
 

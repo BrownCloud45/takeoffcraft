@@ -1,6 +1,6 @@
 ---
 title: Bàn phím và chuột
-summary: Mọi thao tác phím, chuột, bàn di chuột và cảm ứng trong TakeoffCraft, được nhóm lại, kèm sự khác biệt giữa các nền tảng.
+summary: Mọi thao tác phím, chuột, bàn di chuột và cảm ứng trong TakeoffDesk, được nhóm lại, kèm sự khác biệt giữa các nền tảng.
 keywords: phím, phím tắt, phím nóng, bàn phím, chuột, bàn di chuột, cảm ứng, di chuyển khung nhìn, thu phóng, con lăn, nhấp chuột phải, nhấp đúp, Space, Shift, sao chép, dán, cắt, nhân bản, chọn tất cả
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Xem [Kiểm tra bóc tách trong 3D](topic:check-in-3d).
 | Phím | Tác dụng |
 |---|---|
 | {{key:F1}} | Mở hoặc đóng bảng trợ giúp (cũng là nút {{ui:Trợ giúp}} trên thanh ứng dụng). Phím này hoạt động trong mọi công cụ, kể cả khi đang gõ trong một ô nhập. |
-| {{key:Esc}} | Đóng bảng trợ giúp. Trong ô tìm kiếm của bảng, Esc đầu tiên xóa nội dung tìm kiếm. Khi bảng đang mở, Esc được nhấn sau khi nhấp vào tờ sẽ đóng bảng trước; nhấn lại để hủy trong TakeoffCraft. |
+| {{key:Esc}} | Đóng bảng trợ giúp. Trong ô tìm kiếm của bảng, Esc đầu tiên xóa nội dung tìm kiếm. Khi bảng đang mở, Esc được nhấn sau khi nhấp vào tờ sẽ đóng bảng trước; nhấn lại để hủy trong TakeoffDesk. |
 
 :::mac
 Trên nhiều bàn phím Mac, hàng phím trên cùng điều khiển độ sáng và âm thanh. Nhấn fn cùng F1, hoặc bật "Use F1, F2, etc. keys as standard function keys" trong System Settings, mục Keyboard.
@@ -139,7 +139,7 @@ Trên nhiều bàn phím Mac, hàng phím trên cùng điều khiển độ sán
 
 :::mac
 - {{key:Mod}} là phím Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Toàn màn hình là ngoại lệ: Control+Shift+F.
-- Nhấp chuột phải là chạm bằng hai ngón trên bàn di chuột, khi đã bật nhấp phụ trong System Settings, mục Trackpad. TakeoffCraft chỉ đọc nút phụ; một lần Control-click có thể được tính là nhấp thường và thêm một điểm.
+- Nhấp chuột phải là chạm bằng hai ngón trên bàn di chuột, khi đã bật nhấp phụ trong System Settings, mục Trackpad. TakeoffDesk chỉ đọc nút phụ; một lần Control-click có thể được tính là nhấp thường và thêm một điểm.
 - Cuộn bằng hai ngón trên bàn di chuột sẽ phóng to tờ (không cuộn tờ). Để di chuyển khung nhìn, nhấn và kéo, hoặc giữ Space và kéo.
 - Page Up và Page Down là fn cùng với mũi tên lên và xuống trên bàn phím không có các phím này.
 - Backspace là phím có ghi Delete.
@@ -151,12 +151,12 @@ Trên nhiều bàn phím Mac, hàng phím trên cùng điều khiển độ sán
 :::
 
 :::linux
-- {{key:Mod}} là Ctrl. Một số màn hình nền dùng các phím tắt Ctrl+Alt hoặc Super riêng; TakeoffCraft không dùng phím nào trong số đó.
+- {{key:Mod}} là Ctrl. Một số màn hình nền dùng các phím tắt Ctrl+Alt hoặc Super riêng; TakeoffDesk không dùng phím nào trong số đó.
 - Trên bàn di chuột, cuộn bằng hai ngón sẽ phóng to tờ. Để di chuyển khung nhìn, nhấn và kéo.
 :::
 
 :::touch
-TakeoffCraft đọc cảm ứng như một con trỏ duy nhất:
+TakeoffDesk đọc cảm ứng như một con trỏ duy nhất:
 
 - Chạm để đặt điểm, chọn một dấu hoặc thêm một chấm đếm.
 - Kéo bằng một ngón để di chuyển tờ (trong {{ui:Đếm tự động}} thì vẽ hộp tìm kiếm).
@@ -169,7 +169,7 @@ Hiện nay, bàn phím cùng chuột hoặc bàn di chuột là cách bóc tách
 
 ## Phím trình duyệt giữ lại
 
-Trình duyệt giữ một số phím tắt cho riêng mình, và trang web không thể dùng chúng: đóng thẻ ({{key:Mod+W}}), thẻ hoặc cửa sổ mới ({{key:Mod+T}}, {{key:Mod+N}}), và thu phóng trình duyệt ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Vì vậy TakeoffCraft phóng to tờ bằng con lăn và các phím {{key:Plus}} và {{key:Minus}} đứng riêng. Nếu bạn nhấn {{key:Mod+Plus}} nhầm, toàn bộ trang sẽ lớn lên; {{key:Mod+0}} sẽ đưa nó về như cũ. Xem [Phím, chuột và bàn di chuột](common:keys).
+Trình duyệt giữ một số phím tắt cho riêng mình, và trang web không thể dùng chúng: đóng thẻ ({{key:Mod+W}}), thẻ hoặc cửa sổ mới ({{key:Mod+T}}, {{key:Mod+N}}), và thu phóng trình duyệt ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Vì vậy TakeoffDesk phóng to tờ bằng con lăn và các phím {{key:Plus}} và {{key:Minus}} đứng riêng. Nếu bạn nhấn {{key:Mod+Plus}} nhầm, toàn bộ trang sẽ lớn lên; {{key:Mod+0}} sẽ đưa nó về như cũ. Xem [Phím, chuột và bàn di chuột](common:keys).
 
 ## Lệnh Di chuyển nằm ở đâu
 

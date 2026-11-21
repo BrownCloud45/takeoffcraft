@@ -13,7 +13,7 @@ Otvorite je s {{ui:Knjižnica}} na vrhu ploče {{ui:Stavke}}.
 
 - {{ui:Uvezi CSV…}} čita proračunsku tablicu spremljenu kao CSV (vidi stupce u nastavku). Stavke čiji su naziv i vrsta već u knjižnici se zamjenjuju; ostale se dodaju. Redci koje ne može pročitati se preskaču, a kaže koji su i zašto.
 - {{ui:Dodaj stavke ovog predmjera}} kopira svaku stavku otvorenog predmjera u knjižnicu, sa stopama i sklopom (ne s oznakama).
-- Procjena u CSV-u koju TakeoffCraft izvozi ([Izvoz procjene](topic:export-estimate)) uvozi se kakva jest: cijene prošlog posla služe kao početak sljedećeg.
+- Procjena u CSV-u koju TakeoffDesk izvozi ([Izvoz procjene](topic:export-estimate)) uvozi se kakva jest: cijene prošlog posla služe kao početak sljedećeg.
 
 - {{ui:Paketi struke…}} dodaje besplatne sklopove za struku, poput gipsanih radova, elektroinstalacija ili betona, bez cijena. Vidi [Paketi struke](topic:trade-packs).
 

@@ -37,12 +37,12 @@ Kiasi kilichoandikwa hakichukui alama kamwe, na hakifanyi makadirio kuwa hayajak
 Bonyeza {{key:Esc}} kwenye fomu ili kuifunga bila kuongeza kipengee.
 
 :::tip
-Ukichagua zana ya kupima kwanza, TakeoffCraft hutumia kipengee cha mwisho cha aina sahihi, au hufungua fomu ya {{ui:Kipengee kipya}} ikiwa aina hiyo tayari imechaguliwa.
+Ukichagua zana ya kupima kwanza, TakeoffDesk hutumia kipengee cha mwisho cha aina sahihi, au hufungua fomu ya {{ui:Kipengee kipya}} ikiwa aina hiyo tayari imechaguliwa.
 :::
 
 ## Chagua kipengee utakachochora nacho
 
-Bofya kipengee kwenye orodha. Kinakuwa kipengee ambacho alama mpya huenda kwake, na alama zake huangaziwa kwenye kila karatasi huku vingine vikififia. Kama karatasi iliyofunguliwa haina alama zake, TakeoffCraft inaruka hadi karatasi yenye alama hizo. Bofya kipengee tena ili kusimamisha kuangazia; bado kinabaki kipengee utakachochora nacho.
+Bofya kipengee kwenye orodha. Kinakuwa kipengee ambacho alama mpya huenda kwake, na alama zake huangaziwa kwenye kila karatasi huku vingine vikififia. Kama karatasi iliyofunguliwa haina alama zake, TakeoffDesk inaruka hadi karatasi yenye alama hizo. Bofya kipengee tena ili kusimamisha kuangazia; bado kinabaki kipengee utakachochora nacho.
 
 Kubofya alama kwa zana ya {{ui:Chagua}} pia hufanya kipengee chake kuwa cha sasa.
 
@@ -57,7 +57,7 @@ Kihariri cha kipengee (**Kipengee: (jina)**) kina sehemu hizi. Kila moja huhifad
 | {{ui:Rangi}} | Rangi ya alama zake kwenye skrini na kwenye PDF iliyowekewa alama. |
 | {{ui:Kitengo}} | Kiasi kinaripotiwa kwa kitengo gani: LF au m kwa mstari; SF, SY, SQ, ac, ha au m² kwa eneo; EA kwa hesabu. |
 | {{ui:Pima pia}} | Aina nyingine za alama ambazo kipengee kinazichukua, kila moja na kitengo chake. Tazama hapa chini. |
-| {{ui:Kimo}} (mstari) | Kimo cha ukuta. Kipengee basi pia huripoti eneo la ukuta (urefu × kimo). Mikondo iliyotoka kwenye modeli ya BimCraft hubeba milango na madirisha yake: hizo hutolewa mara moja, na kipengee kinasema eneo ghafi, nafasi zilizo wazi na eneo halisi. Makadirio kutoka mradi wa BimCraft uliochagua mbinu ya kupima hupimwa kwa mbinu hiyo hapa pia (dokezo linataja mbinu, chanzo chake, na kwamba mpima viasi hajaikagua); mbinu haiwezi kubadilishwa kwenye TakeoffCraft. Matofali au vizuizi na chokaa kutoka aina ya ukuta vinafika kama vipengele viwili: vitengo vya kuagiza na ujazo wa chokaa. |
+| {{ui:Kimo}} (mstari) | Kimo cha ukuta. Kipengee basi pia huripoti eneo la ukuta (urefu × kimo). Mikondo iliyotoka kwenye modeli ya BimCraft hubeba milango na madirisha yake: hizo hutolewa mara moja, na kipengee kinasema eneo ghafi, nafasi zilizo wazi na eneo halisi. Makadirio kutoka mradi wa BimCraft uliochagua mbinu ya kupima hupimwa kwa mbinu hiyo hapa pia (dokezo linataja mbinu, chanzo chake, na kwamba mpima viasi hajaikagua); mbinu haiwezi kubadilishwa kwenye TakeoffDesk. Matofali au vizuizi na chokaa kutoka aina ya ukuta vinafika kama vipengele viwili: vitengo vya kuagiza na ujazo wa chokaa. |
 | {{ui:Kina}} (eneo) | Kina au unene, kinachotumika kwenye fomula za mkusanyiko (kwa mfano ujazo wa zege). |
 | {{ui:Upotevu %}} | Kinaongezwa kwenye kiasi kabla ya kupanga bei: 10 maana yake kiasi × 1.10. |
 | {{ui:Nyenzo $/LF}} | Gharama ya nyenzo kwa kila kitengo. Lebo inafuata kitengo: $/SF, $/EA na kadhalika. |
@@ -74,7 +74,7 @@ Vitu vingine hupimwa kwa njia zaidi ya moja: chumba kina sakafu (eneo), msingi k
 
 1. Tengeneza kipengee chenye aina yake kuu, kama kipengee cha eneo `Chumba 101`.
 2. Chini ya {{ui:Pima pia}} kwenye kihariri chake, weka tiki {{ui:Mstari}}, {{ui:Hesabu}} au zote mbili. Kila moja hupata kitengo karibu nayo.
-3. Chora kwa zana yoyote ambayo aina yake kipengee kinachukua: `Chumba 101` kikiwa cha sasa, {{ui:Eneo}} huchora sakafu yake, {{ui:Mstari}} huchora msingi wake, na {{ui:Hesabu}} huchora milango yake. TakeoffCraft haiulizi kipengee kingine.
+3. Chora kwa zana yoyote ambayo aina yake kipengee kinachukua: `Chumba 101` kikiwa cha sasa, {{ui:Eneo}} huchora sakafu yake, {{ui:Mstari}} huchora msingi wake, na {{ui:Hesabu}} huchora milango yake. TakeoffDesk haiulizi kipengee kingine.
 
 Orodha ya vipengee inaonyesha kila kiasi (`50.00 SF + 2 EA`). Kwenye jedwali la viasi, safu ya kipengee ina kiasi chake kikuu, na kila aina nyingine ina safu yake chini yake, kama **Chumba 101 (hesabu)**, yenye upotevu wake na viwango vyake vya nyenzo na kazi. Mauzo ya nje, jedwali la kila karatasi, na maelezo ya alama ya PDF iliyowekewa alama yanayaorodhesha kwa njia hiyo hiyo.
 
@@ -113,7 +113,7 @@ Badala ya kiwango cha kazi kwa kila kitengo, kazi ya kipengee inaweza kutoka kwa
 | {{ui:Ukubwa wa kikundi}} | `2` watu |
 | {{ui:Mshahara $/saa kwa kila mtu}} | `45` |
 
-TakeoffCraft inahesabu, kutoka kiasi pamoja na upotevu:
+TakeoffDesk inahesabu, kutoka kiasi pamoja na upotevu:
 
 - **saa-za-kikundi** = kiasi ÷ uzalishaji (110 LF ÷ 20 = 5.5),
 - **saa-za-wafanyakazi** = saa-za-kikundi × ukubwa wa kikundi (11),

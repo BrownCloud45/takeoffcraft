@@ -13,7 +13,7 @@
  *     alignments: [{ id, name, predefined, curve (id | null), length (m) | null, referents: [{ id, name, station }] }],
  *     counts: { <group>: n }, problems: [{ code, severity, vars, text }] }
  *   classify(schemaName, cls) → group name | null   (the infrastructure groups, GROUPS below)
- *   quantitiesFile(read, { project, app }) → a 'cadcraft-quantities' document (TakeoffCraft's typed quantities, fixedqty.js)
+ *   quantitiesFile(read, { project, app }) → a 'cadcraft-quantities' document (TakeoffDesk's typed quantities, fixedqty.js)
  *   summary(read) → [{ group, cls, predefined, count, length, area, volume, counted: { length, area, volume } }]  one row per class + predefined type
  *   write43(spec) → { bytes, text, counts }   a new IFC4X3_ADD2 file; spec in the comment above writeSpec
  *
@@ -294,7 +294,7 @@ export function summary(r) {
 const words = (s) => String(s).replace(/^Ifc/, '').replace(/([a-z])([A-Z])/g, '$1 $2');
 const slug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-/** A 'cadcraft-quantities' document (TakeoffCraft's fixedqty.js reads it): a count per class and predefined type, and its length, area and volume when the file states them. */
+/** A 'cadcraft-quantities' document (TakeoffDesk's fixedqty.js reads it): a count per class and predefined type, and its length, area and volume when the file states them. */
 export function quantitiesFile(r, { project = '', app = 'BimCraft', made = new Date().toISOString().replace(/\.\d+Z$/, 'Z') } = {}) {
   const items = [];
   for (const row of summary(r)) {

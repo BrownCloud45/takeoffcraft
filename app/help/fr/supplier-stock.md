@@ -1,6 +1,6 @@
 ---
 title: Vérifier le stock fournisseur et les délais
-summary: Ajoutez la liste de stock d'un fournisseur (CSV ou tableur) et TakeoffCraft compare à celle-ci ce dont le métré a besoin, chute comprise, avec le stock disponible et la durée d'attente. Les manques et les longs délais apparaissent dans le panneau Problèmes.
+summary: Ajoutez la liste de stock d'un fournisseur (CSV ou tableur) et TakeoffDesk compare à celle-ci ce dont le métré a besoin, chute comprise, avec le stock disponible et la durée d'attente. Les manques et les longs délais apparaissent dans le panneau Problèmes.
 keywords: fournisseur, stock, en stock, délai, délai de livraison, disponibilité, pénurie, commande en attente, liste de commande, csv, sku, vendeur, matériaux, approvisionnement, problèmes
 from: f11160fb
 ---

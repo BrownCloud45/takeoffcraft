@@ -46,7 +46,7 @@ Výška je pole {{ui:Výška}} délkové položky a hloubka pole {{ui:Hloubka}} 
 | {{ui:List}} | Zobrazí nebo skryje výkres na zemi. |
 | Kostka pohledu, vpravo nahoře | Kliknutím na stěnu, hranu nebo roh se díváte odtud; přetažením ji otáčíte; přetažením jejího kompasového kruhu se otáčí; tlačítko domečku vrátí na {{ui:Izo}}. |
 
-V rohu se ukáže kostka pohledu, malá ikona os X, Y, Z, nebo nic: vyberte v {{ui:Nastavení}}, na kartě TakeoffCraft, pod **Indikátor rohu** ([Nastavení TakeoffCraft](topic:settings)). Plochý list indikátor rohu nemá.
+V rohu se ukáže kostka pohledu, malá ikona os X, Y, Z, nebo nic: vyberte v {{ui:Nastavení}}, na kartě TakeoffDesk, pod **Indikátor rohu** ([Nastavení TakeoffDesk](topic:settings)). Plochý list indikátor rohu nemá.
 
 :::touch
 Jedním prstem otáčíte; dvěma prsty přibližujete stažením a posouváte posunem. Klepnutím vyberete.

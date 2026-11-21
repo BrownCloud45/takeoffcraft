@@ -30,7 +30,7 @@ Dok crtate:
 - Povlačenje pomiče list, a kotačić zumira, bez dodavanja točaka.
 
 :::mac
-Na Mac trackpadu desni klik je klik dvama prstima (uključite sekundarni klik u Postavkama sustava, pod Trackpad). TakeoffCraft čita samo sekundarnu tipku, pa se Control-klik može uzeti kao običan klik i dodati točku. Dvostruki klik ili {{key:Enter}} uvijek završavaju.
+Na Mac trackpadu desni klik je klik dvama prstima (uključite sekundarni klik u Postavkama sustava, pod Trackpad). TakeoffDesk čita samo sekundarnu tipku, pa se Control-klik može uzeti kao običan klik i dodati točku. Dvostruki klik ili {{key:Enter}} uvijek završavaju.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Nakon prve točke možete upisati gdje ide sljedeća, umjesto da kliknete. Upiš
 | `@6',-4'` | 6' desno i 4' dolje od zadnje točke |
 | `6',4'` (ili `#6',4'`) | 6' desno i 4' gore od prve točke ove dionice |
 
-Duljine se upisuju kao i u ostatku programa TakeoffCraft ([Formati unosa](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stope), `30"`, `3.2 m`. „Desno“ i „gore“ su kako vidite list, i kad je stranica PDF-a okrenuta.
+Duljine se upisuju kao i u ostatku programa TakeoffDesk ([Formati unosa](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stope), `30"`, `3.2 m`. „Desno“ i „gore“ su kako vidite list, i kad je stranica PDF-a okrenuta.
 
 {{key:Enter}} na praznom okviru završava dionicu, kao i {{key:Enter}} na listu; {{key:Esc}} zatvara okvir i dionica se nastavlja. Upisane točke prolaze ista pravila kao i klikovi: odbici, lukovi i zatvaranje površine rade. Isti okvir radi i u {{ui:Površina}} i u {{ui:Otvor}}; nakon središta kružnice uzima polumjer.
 

@@ -32,11 +32,11 @@ Las marcas pegadas van al área de licitación elegida en la parte superior del 
 
 {{key:Mod+Shift+V}} ({{ui:Pegar en el mismo lugar}}) coloca la copia exactamente en el mismo sitio de la hoja abierta, según su posición en la página. Úselo para un piso típico: cuantifique el nivel 2, copie, abra el nivel 3 y pegue en el mismo lugar.
 
-Pegar en el mismo lugar necesita una hoja del **mismo tamaño** que la que copió. En una hoja de otro tamaño, TakeoffCraft lo indica y no pega nada; use {{ui:Pegar}} y haga clic en su lugar. En la hoja de la que copió, la copia cae encima de los originales.
+Pegar en el mismo lugar necesita una hoja del **mismo tamaño** que la que copió. En una hoja de otro tamaño, TakeoffDesk lo indica y no pega nada; use {{ui:Pegar}} y haga clic en su lugar. En la hoja de la que copió, la copia cae encima de los originales.
 
 ## La escala debe coincidir
 
-Las longitudes y las áreas dependen de la escala de la hoja. Un tramo que mide 10' a 1/4" = 1'-0" mediría 20' en una hoja a 1/8" = 1'-0". Por eso TakeoffCraft pega tramos y áreas solo en una hoja con la **misma escala** que la hoja de origen, y lo dice claramente cuando no es así:
+Las longitudes y las áreas dependen de la escala de la hoja. Un tramo que mide 10' a 1/4" = 1'-0" mediría 20' en una hoja a 1/8" = 1'-0". Por eso TakeoffDesk pega tramos y áreas solo en una hoja con la **misma escala** que la hoja de origen, y lo dice claramente cuando no es así:
 
 - La hoja abierta todavía no tiene escala: asígnele una primero ([Fijar la escala](topic:set-the-scale)), y luego pegue.
 - La hoja abierta tiene otra escala: el mensaje indica ambas escalas. Pegue en una hoja con la misma escala.
@@ -59,7 +59,7 @@ El editor de partidas (en **Partidas**) termina con:
 - {{ui:Duplicar partida}}: agrega una copia de inmediato, llamada "(nombre) (copia)".
 
 :::tip
-La copia permanece en esta computadora: se guarda en esta pestaña y en el almacenamiento del navegador, así que otra pestaña de TakeoffCraft puede pegarla. No se sube nada, y no se usa el portapapeles del sistema, así que no puede pegar marcas en otros programas.
+La copia permanece en esta computadora: se guarda en esta pestaña y en el almacenamiento del navegador, así que otra pestaña de TakeoffDesk puede pegarla. No se sube nada, y no se usa el portapapeles del sistema, así que no puede pegar marcas en otros programas.
 :::
 
 :::note

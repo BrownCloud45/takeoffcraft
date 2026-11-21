@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Vad du ska göra
 
-Ändra hur TakeoffCraft visar längder, så att ett metriskt jobb läses i meter, centimeter eller millimeter på bladet, i statusfältet och i panelerna.
+Ändra hur TakeoffDesk visar längder, så att ett metriskt jobb läses i meter, centimeter eller millimeter på bladet, i statusfältet och i panelerna.
 
 ## Steg
 
-1. Öppna {{ui:Inställningar}} med kugghjulet i appfältet eller {{key:Mod+,}}, och stanna kvar på fliken {{ui:TakeoffCraft}}.
+1. Öppna {{ui:Inställningar}} med kugghjulet i appfältet eller {{key:Mod+,}}, och stanna kvar på fliken {{ui:TakeoffDesk}}.
 2. Hitta {{ui:Visa längder som}} och välj {{ui:Fot och tum}}, m, cm eller mm. {{ui:Följ Global}} använder den metriska längdenhet som är stjärnmärkt i {{ui:Inställningar}} › {{ui:Globalt}} › {{ui:Enheter}}, och fot och tum när ingen är stjärnmärkt.
 3. Titta på bladet: längder i statusfältet, i postlistan och i panelerna läser nu i den enhet du valde. Höjder, djup, tjocklek och nivåer gör det också.
 4. För att läsa postens temperaturer i grader C eller F, välj {{ui:Visa temperaturer som}} på samma flik.

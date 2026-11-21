@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, yoʻl, temir yoʻl, koʻprik, yoʻl qoplamasi, b
 from: 6b08c2c4
 ---
 
-IFC 4.3 fayli yoʻllar, temir yoʻllar, koʻpriklar, dengiz inshootlari va ularning qismlarini saqlashi mumkin: qoplamalar, qatlamlar, bordyurlar, relslar, yer ishlari, tayanchlar, qoziqlar va boshqalar. TakeoffCraft ularni oʻqiydi va narxlash mumkin boʻlgan tipli miqdorlarga aylantiradi.
+IFC 4.3 fayli yoʻllar, temir yoʻllar, koʻpriklar, dengiz inshootlari va ularning qismlarini saqlashi mumkin: qoplamalar, qatlamlar, bordyurlar, relslar, yer ishlari, tayanchlar, qoziqlar va boshqalar. TakeoffDesk ularni oʻqiydi va narxlash mumkin boʻlgan tipli miqdorlarga aylantiradi.
 
 ## Faylni ochish
 
 1. {{ui:Fayl}} guruhida {{ui:Rejalarni ochish}} ni tanlang yoki {{key:Mod+O}} ni bosing.
-2. IFC faylini tanlang (uni PDF lar bilan birga tanlashingiz mumkin) yoki uni TakeoffCraft ustiga tashlang.
+2. IFC faylini tanlang (uni PDF lar bilan birga tanlashingiz mumkin) yoki uni TakeoffDesk ustiga tashlang.
 
 Har bir klass va oldindan belgilangan tur uchun bitta tipli miqdor yaratiladi, masalan “Yoʻl qoplamasi (egiluvchan): sanoq”, va fayl ularni bayon qilganda — “uzunlik” m da, “maydon” m² da va “hajm” m³ da. Har bir elementdagi izoh nechta element sanalganini va nechtasi miqdor bermaganini aytadi. Xuddi shu nomli yangiroq faylni ochish bu miqdorlarni yangilaydi, yangilarini qoʻshmaydi.
 

@@ -5,7 +5,7 @@ keywords: roboty ziemne, wykopy, wykop, nasyp, wykop i nasyp, niwelacja, rzędna
 from: a898e508
 ---
 
-TakeoffCraft mierzy to, co narysowano na arkuszu. Roboty ziemne wymagają powierzchni terenu, dlatego są wspólne z CivilCraft, który buduje powierzchnie z punktów, niweluje je i wylicza wykopy, nasypy oraz transport ziemi.
+TakeoffDesk mierzy to, co narysowano na arkuszu. Roboty ziemne wymagają powierzchni terenu, dlatego są wspólne z CivilCraft, który buduje powierzchnie z punktów, niweluje je i wylicza wykopy, nasypy oraz transport ziemi.
 
 ## Proste wykopy tutaj
 
@@ -29,8 +29,8 @@ Punkty z różnych arkuszy nie mają wspólnych współrzędnych, dlatego ekspor
 
 Roboty ziemne z CivilCraft wracają jako dwie pozycje, które możesz wycenić:
 
-1. W CivilCraft wyrównaj place i korytarze, a następnie wybierz {{ui:Wyślij do TakeoffCraft}} w sekcji **Roboty ziemne** ([Objętości robót ziemnych](app:civilcraft/volumes)). Program zapisuje plik ilości (`.quantities.json`).
-2. W TakeoffCraft otwórz go przyciskiem {{ui:Otwórz przedmiar}} albo upuść go na aplikację. Przedmiar pozostaje otwarty: plik dodaje **Roboty ziemne: wykop** i **Roboty ziemne: nasyp** jako [ilości wpisane ręcznie](topic:create-items#typed-quantities-no-drawing) w jardach sześciennych (CY) dla projektu w stopach albo w metrach sześciennych (m³) dla projektu w metrach. Jest to jeden krok: cofa go {{key:Mod+Z}}.
+1. W CivilCraft wyrównaj place i korytarze, a następnie wybierz {{ui:Wyślij do TakeoffDesk}} w sekcji **Roboty ziemne** ([Objętości robót ziemnych](app:civilcraft/volumes)). Program zapisuje plik ilości (`.quantities.json`).
+2. W TakeoffDesk otwórz go przyciskiem {{ui:Otwórz przedmiar}} albo upuść go na aplikację. Przedmiar pozostaje otwarty: plik dodaje **Roboty ziemne: wykop** i **Roboty ziemne: nasyp** jako [ilości wpisane ręcznie](topic:create-items#typed-quantities-no-drawing) w jardach sześciennych (CY) dla projektu w stopach albo w metrach sześciennych (m³) dla projektu w metrach. Jest to jeden krok: cofa go {{key:Mod+Z}}.
 3. Zmień ich nazwy, ustaw naddatek, ceny i zestawy kosztorysowe według potrzeb.
 
 Gdy projekt się zmieni, wyślij ponownie z CivilCraft i otwórz nowy plik: te same dwie pozycje dostają nowe ilości. Ich nazwy, ceny, naddatek i zestawy pozostają takie, jakie ustawiono. Jeśli jednostka projektu się zmieniła, pasek stanu o tym informuje: sprawdź ceny. Plik z innego projektu CivilCraft dodaje własne dwie pozycje.

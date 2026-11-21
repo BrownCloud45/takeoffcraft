@@ -32,11 +32,11 @@ As marcas pegadas van á zona de oferta escollida na parte superior do panel {{u
 
 {{key:Mod+Shift+V}} ({{ui:Pegar no mesmo sitio}}) pon a copia exactamente no mesmo lugar da folla aberta, pola súa posición na páxina. Use-o para unha planta tipo: medir o nivel 2, copiar, abrir o nivel 3, pegar no mesmo sitio.
 
-Pegar no mesmo sitio precisa unha folla do **mesmo tamaño** que a que copiou. Nunha folla de outro tamaño TakeoffCraft di iso e non pega nada; use {{ui:Pegar}} e faga clic. Na folla desde a que copiou, a copia cae enriba dos orixinais.
+Pegar no mesmo sitio precisa unha folla do **mesmo tamaño** que a que copiou. Nunha folla de outro tamaño TakeoffDesk di iso e non pega nada; use {{ui:Pegar}} e faga clic. Na folla desde a que copiou, a copia cae enriba dos orixinais.
 
 ## A escala ten que coincidir
 
-As lonxitudes e as áreas dependen da escala da folla. Un tramo que mide 10' a 1/4" = 1'-0" mediríase 20' nunha folla a 1/8" = 1'-0". Por iso TakeoffCraft pega tramos e áreas só nunha folla coa **mesma escala** que a folla de onde proceden, e di claramente cando non:
+As lonxitudes e as áreas dependen da escala da folla. Un tramo que mide 10' a 1/4" = 1'-0" mediríase 20' nunha folla a 1/8" = 1'-0". Por iso TakeoffDesk pega tramos e áreas só nunha folla coa **mesma escala** que a folla de onde proceden, e di claramente cando non:
 
 - A folla aberta aínda non ten escala: dálle unha primeiro ([Fixar a escala](topic:set-the-scale)), e logo pegue.
 - A folla aberta ten outra escala: a mensaxe nomea as dúas escalas. Pegue nunha folla á mesma escala.
@@ -59,7 +59,7 @@ O editor de elementos (en **Elementos**) remata con:
 - {{ui:Duplicar elemento}}: engade unha copia de inmediato, co nome «(nome) (copia)».
 
 :::tip
-A copia queda neste ordenador: gárdase nesta lapela e no almacenamento do navegador, para que outra lapela de TakeoffCraft poida pegala. Non se envía nada, e non se usa o portapapeis do sistema, así que non pode pegar marcas noutros programas.
+A copia queda neste ordenador: gárdase nesta lapela e no almacenamento do navegador, para que outra lapela de TakeoffDesk poida pegala. Non se envía nada, e non se usa o portapapeis do sistema, así que non pode pegar marcas noutros programas.
 :::
 
 :::note

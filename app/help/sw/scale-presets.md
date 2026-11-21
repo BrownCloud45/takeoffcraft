@@ -49,4 +49,4 @@ Skeli iliyorekebishwa inaonekana kama "Imerekebishwa 1" = 4.002' kwenye 24'-6"" 
 
 ## PDF zisizo za kawaida
 
-Baadhi ya PDF zinatangaza kitengo kikubwa zaidi cha ukurasa (kitengo cha mtumiaji, "user unit"); TakeoffCraft inakizingatia kwa vipimo vilivyowekwa na kwa skeli inayoonyeshwa. Kurasa zilizozungushwa ndani ya PDF zinapimwa kwa njia ile ile kama zilizo wima.
+Baadhi ya PDF zinatangaza kitengo kikubwa zaidi cha ukurasa (kitengo cha mtumiaji, "user unit"); TakeoffDesk inakizingatia kwa vipimo vilivyowekwa na kwa skeli inayoonyeshwa. Kurasa zilizozungushwa ndani ya PDF zinapimwa kwa njia ile ile kama zilizo wima.

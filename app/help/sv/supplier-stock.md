@@ -1,6 +1,6 @@
 ---
 title: Kontrollera leverantörslager och leveranstider
-summary: Lägg till en leverantörs lagerlista (CSV eller kalkylblad) så kontrollerar TakeoffCraft vad mängdavtagningen behöver, inklusive spill, mot den: om det finns tillräckligt i lager och hur lång väntan är. Brist och långa väntetider visas i Problem-panelen.
+summary: Lägg till en leverantörs lagerlista (CSV eller kalkylblad) så kontrollerar TakeoffDesk vad mängdavtagningen behöver, inklusive spill, mot den: om det finns tillräckligt i lager och hur lång väntan är. Brist och långa väntetider visas i Problem-panelen.
 keywords: leverantör, lager, i lager, leveranstid, tillgänglighet, brist, restnotering, beställningslista, csv, sku, leverantör, material, leverans, problem
 from: f11160fb
 ---

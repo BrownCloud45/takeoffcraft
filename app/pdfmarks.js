@@ -105,7 +105,7 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
     if (legend && marks.length) drawLegend(PDFLib, page, box, font, bold, marks, items, q, key, { rgb, degrees });
     marked++;
   }
-  doc.setProducer('TakeoffCraft (pdf-lib)');
+  doc.setProducer('TakeoffDesk (pdf-lib)');
   const out = await doc.save({ useObjectStreams: false });
   return { bytes: out, pages: marked, marks: drawn };
 }

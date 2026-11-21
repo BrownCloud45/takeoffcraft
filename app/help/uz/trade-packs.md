@@ -39,4 +39,4 @@ Har bir elementda, masalan `09 21 16`, CSI MasterFormat raqami ham bor.
 
 Kutubxonadagi {{ui:Paket sifatida eksport…}} uni paket fayli (`.ccpack.json`) sifatida saqlaydi, uni istalgan kishi {{ui:Paket faylini ochish…}} bilan qoʻshishi mumkin. Odatiy holda, qoʻshgan paketlaringizdan kelgan elementlar chiqarib tashlanadi va unda stavkalar boʻlmaydi. Stavkalaringizni ham yuborish uchun {{ui:Stavkalarimni namunaviy stavka sifatida qoʻshish}} ni belgilang: ular siz bergan hudud va sana bilan belgilanib chiqadi, paketni qoʻshgan kishi ulardan foydalanish-foydalanmaslikni tanlaydi.
 
-Paket fayllari oddiy maʼlumotlar, hech qachon dasturlar emas. TakeoffCraft ulardan foydalanishdan oldin har bir qismini tekshiradi va oʻqiy olmaydigan narsalarni chiqarib tashlaydi.
+Paket fayllari oddiy maʼlumotlar, hech qachon dasturlar emas. TakeoffDesk ulardan foydalanishdan oldin har bir qismini tekshiradi va oʻqiy olmaydigan narsalarni chiqarib tashlaydi.

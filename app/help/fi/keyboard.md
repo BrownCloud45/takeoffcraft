@@ -1,6 +1,6 @@
 ---
 title: Näppäimistö ja hiiri
-summary: Jokainen näppäin-, hiiri-, kosketuslevy- ja kosketustoiminto TakeoffCraftissa ryhmiteltynä, alustakohtaisine eroineen.
+summary: Jokainen näppäin-, hiiri-, kosketuslevy- ja kosketustoiminto TakeoffDeskissa ryhmiteltynä, alustakohtaisine eroineen.
 keywords: näppäimet, pikanäppäimet, pikanäppäin, näppäimistö, hiiri, kosketuslevy, kosketus, panoroi, zoomaa, rulla, oikea napsautus, kaksoisnapsautus, välilyönti, shift, kopioi, liitä, leikkaa, monista, valitse kaikki
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Katso [Tarkista määrälaskenta 3D:ssä](topic:check-in-3d).
 | Näppäin | Mitä se tekee |
 |---|---|
 | {{key:F1}} | Avaa tai sulje ohjepaneeli (myös {{ui:Help}}-painike sovelluspalkissa). Se toimii kaikissa työkaluissa, myös kun kirjoitat kenttään. |
-| {{key:Esc}} | Sulje ohjepaneeli. Sen hakukentässä ensimmäinen Esc tyhjentää haun. Kun paneeli on auki, Esc, jonka painat napsautettuasi arkkia, sulkee ensin paneelin; paina uudelleen, jos haluat peruuttaa TakeoffCraftissa. |
+| {{key:Esc}} | Sulje ohjepaneeli. Sen hakukentässä ensimmäinen Esc tyhjentää haun. Kun paneeli on auki, Esc, jonka painat napsautettuasi arkkia, sulkee ensin paneelin; paina uudelleen, jos haluat peruuttaa TakeoffDeskissa. |
 
 :::mac
 Monissa Mac-näppäimistöissä ylärivi säätää kirkkautta ja ääntä. Paina fn + F1, tai ota käyttöön "Use F1, F2, etc. keys as standard function keys" macOS:n Järjestelmäasetuksissa kohdassa Näppäimistö.
@@ -139,7 +139,7 @@ Monissa Mac-näppäimistöissä ylärivi säätää kirkkautta ja ääntä. Pain
 
 :::mac
 - {{key:Mod}} on Command-näppäin: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Koko näyttö on poikkeus: Control+Shift+F.
-- Oikea napsautus on kaksisormennapsautus kosketuslevyllä, kun toissijainen napsautus on käytössä macOS:n Järjestelmäasetuksissa kohdassa Kosketuslevy. TakeoffCraft lukee vain toissijaisen painikkeen; Control-napsautus voidaan tulkita tavalliseksi napsautukseksi ja lisätä piste.
+- Oikea napsautus on kaksisormennapsautus kosketuslevyllä, kun toissijainen napsautus on käytössä macOS:n Järjestelmäasetuksissa kohdassa Kosketuslevy. TakeoffDesk lukee vain toissijaisen painikkeen; Control-napsautus voidaan tulkita tavalliseksi napsautukseksi ja lisätä piste.
 - Kahden sormen vieritys kosketuslevyllä zoomaa arkkia (ei vieritä sitä). Panoroi painamalla ja vetämällä tai pitämällä {{key:Space}} pohjassa ja vetämällä.
 - Page Up ja Page Down ovat fn-näppäin yhdessä ylä- ja alanuolen kanssa näppäimistöissä, joissa niitä ei ole.
 - {{key:Backspace}} on näppäin, jossa lukee delete.
@@ -151,12 +151,12 @@ Monissa Mac-näppäimistöissä ylärivi säätää kirkkautta ja ääntä. Pain
 :::
 
 :::linux
-- {{key:Mod}} on Ctrl. Osalla työpöydistä on omat Ctrl+Alt- tai Super-pikanäppäimensä; TakeoffCraft ei käytä niistä yhtäkään.
+- {{key:Mod}} on Ctrl. Osalla työpöydistä on omat Ctrl+Alt- tai Super-pikanäppäimensä; TakeoffDesk ei käytä niistä yhtäkään.
 - Kosketuslevyllä kahden sormen vieritys zoomaa arkkia. Panoroi painamalla ja vetämällä.
 :::
 
 :::touch
-TakeoffCraft lukee kosketuksen yhtenä osoittimena:
+TakeoffDesk lukee kosketuksen yhtenä osoittimena:
 
 - Napautus asettaa pisteen, valitsee merkinnän tai lisää lukumäärän pisteen.
 - Yhdellä sormella vetäminen panoroi arkkia ({{ui:Auto count}}-tilassa se piirtää hakuruudun).
@@ -169,7 +169,7 @@ Näppäimistö ja hiiri tai kosketuslevy ovat tällä hetkellä parempi tapa teh
 
 ## Näppäimet, jotka selain pitää
 
-Selaimet pitävät joitakin pikanäppäimiä itsellään, eikä sivu voi käyttää niitä: välilehden sulkeminen ({{key:Mod+W}}), uusi välilehti tai ikkuna ({{key:Mod+T}}, {{key:Mod+N}}) ja selaimen zoomaus ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Siksi TakeoffCraft zoomaa arkkia rullalla ja pelkillä {{key:Plus}}- ja {{key:Minus}}-näppäimillä. Jos painat {{key:Mod+Plus}} vahingossa, koko sivu suurenee; {{key:Mod+0}} palauttaa sen. Katso [Näppäimet, hiiret ja kosketuslevyt](common:keys).
+Selaimet pitävät joitakin pikanäppäimiä itsellään, eikä sivu voi käyttää niitä: välilehden sulkeminen ({{key:Mod+W}}), uusi välilehti tai ikkuna ({{key:Mod+T}}, {{key:Mod+N}}) ja selaimen zoomaus ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Siksi TakeoffDesk zoomaa arkkia rullalla ja pelkillä {{key:Plus}}- ja {{key:Minus}}-näppäimillä. Jos painat {{key:Mod+Plus}} vahingossa, koko sivu suurenee; {{key:Mod+0}} palauttaa sen. Katso [Näppäimet, hiiret ja kosketuslevyt](common:keys).
 
 ## Missä Siirrä on
 

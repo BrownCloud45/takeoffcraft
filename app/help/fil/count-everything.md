@@ -1,6 +1,6 @@
 ---
 title: Bilangin ang lahat sa set
-summary: I-box ang symbol legend nang isang beses at bibilangin ng TakeoffCraft ang bawat simbolo rito sa bawat bukas na sheet sa isang takbo. Bawat bilang ay link sa sheet nito, at sinusuri mo ito bago idagdag ang anuman.
+summary: I-box ang symbol legend nang isang beses at bibilangin ng TakeoffDesk ang bawat simbolo rito sa bawat bukas na sheet sa isang takbo. Bawat bilang ay link sa sheet nito, at sinusuri mo ito bago idagdag ang anuman.
 keywords: bilangin ang lahat, legend, symbol legend, buong set, bawat sheet, lahat ng sheet, bawat pinto, bawat fixture, device, schedule, simbolo, auto count, bilangin lahat, set ng mga plano, 200 sheet, antas ng match, magkamukha
 from: adc99744
 ---

@@ -24,7 +24,7 @@ Oynaning pastki qismidagi {{ui:Miqdorlar}} jadvali — sizning jonli smetangiz. 
 
 Oxirgi qator — **Ish boʻyicha jami** — material, mehnat va jami ustunlarini qoʻshadi. Xuddi shu jami jadval sarlavhasining oʻng tomonida ham koʻrinadi.
 
-Chiqindi yoki stavka katakchasiga yozing va {{key:Enter}} tugmasini bosing yoki boshqa joyni bosing — qiymat qoʻllanadi. TakeoffCraft oʻqiy olmaydigan qiymat qizil rang bilan belgilanadi va holat satri sababini koʻrsatadi, masalan "Masalan, 12.50 kabi qiymat kiriting."
+Chiqindi yoki stavka katakchasiga yozing va {{key:Enter}} tugmasini bosing yoki boshqa joyni bosing — qiymat qoʻllanadi. TakeoffDesk oʻqiy olmaydigan qiymat qizil rang bilan belgilanadi va holat satri sababini koʻrsatadi, masalan "Masalan, 12.50 kabi qiymat kiriting."
 
 Elementning qatorini bosing — uning belgilari har bir varaqda ajratiladi va u belgilar bor varaqqa oʻtiladi ({{ui:Elementlar}} ostida uni bosganingizdek).
 

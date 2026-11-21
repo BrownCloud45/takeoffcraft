@@ -19,9 +19,9 @@ Keşfin her satırının fiyatlandırıldığını kontrol edin, sonra adınız�
 2. İletişim kutusu, onayladığınız toplamı belirtir ve birim fiyatı olmayan satırları listeler. Adınızı ve isterseniz rolünüzü yazın.
 3. **Onayla**'ya tıklayın. Çubuk artık toplamıyla birlikte "… tarafından … tarihinde onaylandı" yazar. Dosyada saklamak için metrajı kaydedin.
 
-Onay, onayladığınız rakamlara aittir. Bir miktarda, birim fiyatta ya da satırda sonradan yapılan her değişiklik onayı siler ve TakeoffCraft bunu size söyler. Geri al, onayladığınız keşfi onayıyla birlikte geri getirir. Bir satırın adını değiştirmek rakam değişikliği değildir. **Onayı kaldır** onayı tamamen ortadan kaldırır.
+Onay, onayladığınız rakamlara aittir. Bir miktarda, birim fiyatta ya da satırda sonradan yapılan her değişiklik onayı siler ve TakeoffDesk bunu size söyler. Geri al, onayladığınız keşfi onayıyla birlikte geri getirir. Bir satırın adını değiştirmek rakam değişikliği değildir. **Onayı kaldır** onayı tamamen ortadan kaldırır.
 
-Onaylandıktan sonra TakeoffCraft dışında düzenlenmiş bir metraj dosyası, onay olmadan ve bunu belirten bir notla açılır. Dışa aktarılan keşif (CSV ve XLSX), toplamların altında onayı adlandırır.
+Onaylandıktan sonra TakeoffDesk dışında düzenlenmiş bir metraj dosyası, onay olmadan ve bunu belirten bir notla açılır. Dışa aktarılan keşif (CSV ve XLSX), toplamların altında onayı adlandırır.
 
 Yalnızca bir kişi onaylar. Bir yapay zekâ asistanı keşfin onaylı olup olmadığını ve hangi birim fiyatların eksik olduğunu okuyabilir; onaylayamaz.
 

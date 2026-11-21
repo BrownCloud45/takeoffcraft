@@ -13,7 +13,7 @@ Deschideți-o cu {{ui:Library}} din capul panoului {{ui:Items}}.
 
 - {{ui:Import CSV…}} citește o foaie de calcul salvată ca CSV (vezi coloanele de mai jos). Articolele al căror nume și tip există deja în bibliotecă sunt înlocuite; restul sunt adăugate. Rândurile care nu pot fi citite sunt sărite, iar aplicația spune care și de ce.
 - {{ui:Adăugare articolele acestei antemăsurători}} copiază fiecare articol al antemăsurătorii deschise în bibliotecă, cu tarifele și ansamblul său (nu cu marcajele).
-- Devizul CSV exportat de TakeoffCraft ([Exportul devizului](topic:export-estimate)) se importă așa cum este: prețurile ultimei lucrări pregătesc următoarea.
+- Devizul CSV exportat de TakeoffDesk ([Exportul devizului](topic:export-estimate)) se importă așa cum este: prețurile ultimei lucrări pregătesc următoarea.
 
 - {{ui:Pachete pe meserii…}} adaugă ansambluri gratuite pentru o meserie, precum gips-carton, instalații electrice sau beton, fără prețuri. Consultați [Pachete pe meserii](topic:trade-packs).
 

@@ -49,4 +49,4 @@ Kalibrovaná mierka sa zobrazí ako "Kalibrované 1" = 4.002' na 24'-6"" v lišt
 
 ## Neobvyklé PDF
 
-Niektoré PDF deklarujú väčšiu jednotku strany (tzv. "používateľskú jednotku"); TakeoffCraft ju zohľadní pri predvoľbách aj pri zobrazenej mierke. Strany otočené v PDF sa merajú rovnako ako vzpriamené.
+Niektoré PDF deklarujú väčšiu jednotku strany (tzv. "používateľskú jednotku"); TakeoffDesk ju zohľadní pri predvoľbách aj pri zobrazenej mierke. Strany otočené v PDF sa merajú rovnako ako vzpriamené.

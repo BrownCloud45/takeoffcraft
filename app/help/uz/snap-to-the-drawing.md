@@ -5,7 +5,7 @@ keywords: tutib olish, osnap, obyektga tutib olish, uchi, oʻrtasi, kesishma, en
 from: 41d29e9b
 ---
 
-Koʻpgina loyiha toʻplamlari vektor PDF lardir: ularning devorlari va chekkalari piksel emas, haqiqiy chiziqlardir. Oʻlchash vaqtida TakeoffCraft bosishlaringizni shu chiziqlarga tutib oladi, shunda chiziq aynan devor burchagidan boshlanadi va kalibrlash bosgan pikselni emas, chizmachi chizgan oʻlchamni oʻqiydi.
+Koʻpgina loyiha toʻplamlari vektor PDF lardir: ularning devorlari va chekkalari piksel emas, haqiqiy chiziqlardir. Oʻlchash vaqtida TakeoffDesk bosishlaringizni shu chiziqlarga tutib oladi, shunda chiziq aynan devor burchagidan boshlanadi va kalibrlash bosgan pikselni emas, chizmachi chizgan oʻlchamni oʻqiydi.
 
 Boshlanganda Tutib olish yoqilgan boʻladi. Uni holat satrida {{ui:Tutib olish}} yoki {{key:F3}} bilan yoqing yoki oʻchiring; bu sozlama shu brauzerda saqlanadi (u [Sozlamalar](topic:settings) ostida ham bor).
 

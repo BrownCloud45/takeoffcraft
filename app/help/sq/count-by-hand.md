@@ -14,7 +14,7 @@ Një artikull numërimi numëron gjëra: dyer, armatura ndriçimi, priza, pajisj
 3. Kliko çdo element në fletë.
    Çdo klikim vendos një pikë në ngjyrën e artikullit, dhe numërimi i artikullit rritet me një.
 4. Kalo te fleta tjetër ({{key:PageDown}}) dhe vazhdo të numërosh. Mjeti mbetet te {{ui:Numëro}}.
-5. Shtyp {{key:Esc}} kur të mbarosh. TakeoffCraft kthehet te {{ui:Përzgjidh}}.
+5. Shtyp {{key:Esc}} kur të mbarosh. TakeoffDesk kthehet te {{ui:Përzgjidh}}.
 
 Tërheqja vazhdon të lëvizë pamjen dhe rrota vazhdon të zmadhojë ndërsa numëron, kështu mund të lëvizësh rreth fletës pa shtuar pika.
 
@@ -30,7 +30,7 @@ Kliko artikullin e numërimit për të theksuar pikat e tij në çdo fletë. Lis
 
 ## Madhësia e pikës, në ekran dhe në PDF
 
-Pikat ruajnë një madhësi në ekran sado që zmadhon. Për ta ndryshuar, hap {{ui:Cilësimet}}, skedën TakeoffCraft, dhe zgjidh **Madhësia e shenjës së numërimit**: Shumë e vogël, E vogël, E mesme (parazgjedhja) ose E madhe.
+Pikat ruajnë një madhësi në ekran sado që zmadhon. Për ta ndryshuar, hap {{ui:Cilësimet}}, skedën TakeoffDesk, dhe zgjidh **Madhësia e shenjës së numërimit**: Shumë e vogël, E vogël, E mesme (parazgjedhja) ose E madhe.
 
 Eksportimi PDF ({{ui:Eksporto}} › PDF e shënuar) vizaton çdo pikë me të njëjtën madhësi në letër, pavarësisht nga madhësia e fletës: një shikues që e shfaq PDF-në në 100% i shfaq pikat aq të mëdha sa janë në ekran. Aty ku pikat e një fletë do të prekeshin, eksportimi i bën pikat e asaj fletë më të vogla, që çdo pikë të lexohet.
 

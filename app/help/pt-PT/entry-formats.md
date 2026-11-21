@@ -1,6 +1,6 @@
 ---
 title: Introdução de comprimentos, preços e percentagens
-summary: O que pode introduzir para distâncias, alturas, preços e percentagens de desperdício, com exemplos e as mensagens para entradas que o TakeoffCraft não consegue ler.
+summary: O que pode introduzir para distâncias, alturas, preços e percentagens de desperdício, com exemplos e as mensagens para entradas que o TakeoffDesk não consegue ler.
 keywords: introdução, formato, pés polegadas, frações, pés decimais, métrico, metros, milímetros, preço, dinheiro, dólares, percentagem, desperdício, digitação
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Até duas casas decimais, de 0% a 1000%. Mensagens: "Introduza uma percentagem, 
 ## Nomes e unidades
 
 - Nomes de artigos e componentes: até 200 caracteres.
-- A {{ui:Unidade}} de um componente: qualquer texto até 20 caracteres, como `EA`, `sheets`, `CY`, `gal`. É apenas uma etiqueta; o TakeoffCraft não a converte.
+- A {{ui:Unidade}} de um componente: qualquer texto até 20 caracteres, como `EA`, `sheets`, `CY`, `gal`. É apenas uma etiqueta; o TakeoffDesk não a converte.
 
 ## Fórmulas
 

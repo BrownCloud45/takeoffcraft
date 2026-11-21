@@ -5,7 +5,7 @@ keywords: movemento de terras, escavación, desmonte, terraplén, desmonte e ter
 from: a898e508
 ---
 
-TakeoffCraft mide o que está debuxado nunha folla. O movemento de terras necesita unha superficie do terreo, polo que se comparte con CivilCraft, que constrúe superficies a partir de puntos, nivela o terreo e calcula o desmonte, o terraplén e o transporte.
+TakeoffDesk mide o que está debuxado nunha folla. O movemento de terras necesita unha superficie do terreo, polo que se comparte con CivilCraft, que constrúe superficies a partir de puntos, nivela o terreo e calcula o desmonte, o terraplén e o transporte.
 
 ## Escavación sinxela aquí
 
@@ -29,8 +29,8 @@ Os puntos de follas distintas non comparten coordenadas, polo que a exportación
 
 O movemento de terras de CivilCraft volve como dous elementos que pode valorar:
 
-1. En CivilCraft, nivele as súas plataformas e corredores e escolla {{ui:Enviar a TakeoffCraft}} en **Movemento de terras** ([Volumes de movemento de terras](app:civilcraft/volumes)). Gárdase un ficheiro de cantidades (`.quantities.json`).
-2. En TakeoffCraft, ábrao con {{ui:Abrir medición}}, ou solteo na aplicación. A súa medición queda aberta: o ficheiro engade **Movemento de terras: desmonte** e **Movemento de terras: terraplén** como [cantidades tipadas](topic:create-items#typed-quantities-no-drawing), en iardas cúbicas (CY) para un proxecto en pés, ou en metros cúbicos (m³) para un proxecto en metros. É un só paso: {{key:Mod+Z}} desfáo.
+1. En CivilCraft, nivele as súas plataformas e corredores e escolla {{ui:Enviar a TakeoffDesk}} en **Movemento de terras** ([Volumes de movemento de terras](app:civilcraft/volumes)). Gárdase un ficheiro de cantidades (`.quantities.json`).
+2. En TakeoffDesk, ábrao con {{ui:Abrir medición}}, ou solteo na aplicación. A súa medición queda aberta: o ficheiro engade **Movemento de terras: desmonte** e **Movemento de terras: terraplén** como [cantidades tipadas](topic:create-items#typed-quantities-no-drawing), en iardas cúbicas (CY) para un proxecto en pés, ou en metros cúbicos (m³) para un proxecto en metros. É un só paso: {{key:Mod+Z}} desfáo.
 3. Cámbielles o nome, e estableza as perdas, as tarifas e os conxuntos como prefira.
 
 Cando cambie o deseño, envíe de novo desde CivilCraft e abra o ficheiro novo: os mesmos dous elementos reciben as cantidades novas. Os seus nomes, tarifas, perdas e conxuntos mantéñense como os estableceu. Se cambiou a unidade do proxecto, a barra de estado móstrao: revise as tarifas. Un ficheiro doutro proxecto de CivilCraft engade os seus propios dous elementos.

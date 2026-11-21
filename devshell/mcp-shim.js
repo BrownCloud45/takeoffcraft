@@ -31,7 +31,7 @@
     if (!hs.length) {
       var m = it.message || {};
       send('/__bridge/reply', { rid: it.rid, answer: m.id === undefined ? null : { jsonrpc: '2.0', id: m.id, error: { code: -32001,
-        message: 'TakeoffCraft is open but assistants are off: the person turns them on in Settings › TakeoffCraft › Assistants ("Let AI assistants and scripts use TakeoffCraft").' } } });
+        message: 'TakeoffDesk is open but assistants are off: the person turns them on in Settings › TakeoffDesk › Assistants ("Let AI assistants and scripts use TakeoffDesk").' } } });
       return;
     }
     hs.forEach(function (h) { try { h({ rid: it.rid, sid: it.sid, client: it.client, message: it.message }, { from: 'devshell' }); } catch (e) { console.warn('assistant bridge:', e); } });

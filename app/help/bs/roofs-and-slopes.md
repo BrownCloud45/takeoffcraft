@@ -5,7 +5,7 @@ keywords: krov, nagib, pad, faktor nagiba, uspon, trčanje, 6:12, zabatni rub, g
 from: 38225b60
 ---
 
-Krovni nacrt prikazuje svaku krovnu ravan ravno, gledano odozgo. Sam krov je veći: ravan pod 6:12 ima oko 12% više površine od svog nacrta, a njene kose ivice su duže nego što izgledaju. Daj stavci njen nagib i TakeoffCraft mjeri duž kosine.
+Krovni nacrt prikazuje svaku krovnu ravan ravno, gledano odozgo. Sam krov je veći: ravan pod 6:12 ima oko 12% više površine od svog nacrta, a njene kose ivice su duže nego što izgledaju. Daj stavci njen nagib i TakeoffDesk mjeri duž kosine.
 
 ## Upis nagiba
 

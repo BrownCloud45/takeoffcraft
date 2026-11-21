@@ -19,9 +19,9 @@ Di **Kuantitas › Per item**, baris yang memiliki kuantitas tetapi tidak memili
 2. Dialog menyebutkan total yang Anda setujui dan mencantumkan baris tanpa harga satuan. Ketik nama Anda dan, jika mau, peran Anda.
 3. Klik **Setujui**. Bilah kini menampilkan "Disetujui oleh … pada …" beserta total. Simpan takeoff untuk menyimpannya di file.
 
-Persetujuan berlaku untuk angka yang Anda setujui. Setiap perubahan berikutnya pada kuantitas, harga satuan, atau baris akan menghapusnya, dan TakeoffCraft akan memberi tahu Anda. Urungkan mengembalikan estimasi yang Anda setujui beserta persetujuannya. Mengganti nama baris bukan perubahan angka. **Hapus persetujuan** akan menghilangkannya.
+Persetujuan berlaku untuk angka yang Anda setujui. Setiap perubahan berikutnya pada kuantitas, harga satuan, atau baris akan menghapusnya, dan TakeoffDesk akan memberi tahu Anda. Urungkan mengembalikan estimasi yang Anda setujui beserta persetujuannya. Mengganti nama baris bukan perubahan angka. **Hapus persetujuan** akan menghilangkannya.
 
-File takeoff yang diedit di luar TakeoffCraft setelah disetujui akan terbuka tanpa persetujuan, dengan catatan yang menyebutkan hal itu. Estimasi yang diekspor (CSV dan XLSX) mencantumkan persetujuan di bawah total.
+File takeoff yang diedit di luar TakeoffDesk setelah disetujui akan terbuka tanpa persetujuan, dengan catatan yang menyebutkan hal itu. Estimasi yang diekspor (CSV dan XLSX) mencantumkan persetujuan di bawah total.
 
 Hanya manusia yang dapat menyetujui. Asisten AI dapat membaca apakah estimasi sudah disetujui dan harga satuan mana yang hilang; ia tidak memiliki cara untuk menyetujui.
 

@@ -14,7 +14,7 @@ Bir sayım kalemi şeyleri sayar: kapılar, ışık armatürleri, prizler, tesis
 3. Sayfadaki her birine tıklayın.
    Her tıklama, kalemin rengiyle bir nokta koyar ve kalemin sayısı bir artar.
 4. Sonraki sayfaya geçin ({{key:PageDown}}) ve saymaya devam edin. Araç {{ui:Say}} üzerinde kalır.
-5. Bitirdiğinizde {{key:Esc}} tuşuna basın. TakeoffCraft {{ui:Seç}}'e döner.
+5. Bitirdiğinizde {{key:Esc}} tuşuna basın. TakeoffDesk {{ui:Seç}}'e döner.
 
 Sayarken sürüklemek hâlâ kaydırır ve tekerlek hâlâ yakınlaştırır; böylece noktalar eklemeden sayfada dolaşabilirsiniz.
 
@@ -30,7 +30,7 @@ Sayım kalemine tıklayarak noktalarını her sayfada vurgulayın. Sayfalar list
 
 ## Nokta boyutu, ekranda ve PDF'te
 
-Noktalar, ne kadar yakınlaştırırsanız yakınlaştırın, ekranda aynı boyutta kalır. Değiştirmek için {{ui:Ayarlar}}'ı açın, TakeoffCraft sekmesini seçin ve **Sayım işaretçisi boyutu** seçeneğini seçin: Çok küçük, Küçük, Orta (varsayılan) ya da Büyük.
+Noktalar, ne kadar yakınlaştırırsanız yakınlaştırın, ekranda aynı boyutta kalır. Değiştirmek için {{ui:Ayarlar}}'ı açın, TakeoffDesk sekmesini seçin ve **Sayım işaretçisi boyutu** seçeneğini seçin: Çok küçük, Küçük, Orta (varsayılan) ya da Büyük.
 
 PDF dışa aktarma ({{ui:Dışa aktar}} › {{ui:İşaretli PDF}}) her noktayı sayfa boyutu ne olursa olsun kâğıtta aynı boyutta çizer: PDF'i %100 gösteren bir görüntüleyici, noktaları ekrandaki boyutlarıyla gösterir. Bir sayfadaki noktalar hâlâ birbirine değecekse, dışa aktarma o sayfanın noktalarını küçültür ki her biri okunabilsin.
 

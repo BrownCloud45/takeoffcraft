@@ -5,7 +5,7 @@ keywords: streha, naklon, nagib, faktor naklona, vzpon, tek, 6:12, čelni rob, �
 from: 38225b60
 ---
 
-Tloris strehe prikazuje vsako ravnino strehe ravno, kot je vidna od zgoraj. Sama streha je večja: ravnina z naklonom 6:12 ima približno 12 % več površine kot njen tloris, njeni nagnjeni robovi pa so daljši, kot se zdijo. Dodelite postavki naklon, TakeoffCraft pa meri vzdolž naklona.
+Tloris strehe prikazuje vsako ravnino strehe ravno, kot je vidna od zgoraj. Sama streha je večja: ravnina z naklonom 6:12 ima približno 12 % več površine kot njen tloris, njeni nagnjeni robovi pa so daljši, kot se zdijo. Dodelite postavki naklon, TakeoffDesk pa meri vzdolž naklona.
 
 ## Vnos naklona
 

@@ -5,7 +5,7 @@ keywords: atvērt, plānu komplekts, vairāki pdf, vairāki faili, lapas, rasēj
 from: ed434468
 ---
 
-Plānu komplekts bieži ir vairāki PDF: arhitektūras, konstrukciju, mehānikas. TakeoffCraft tos atver blakus kā vienu lapu sarakstu, un viens apjoma aprēķins var aptvert visus.
+Plānu komplekts bieži ir vairāki PDF: arhitektūras, konstrukciju, mehānikas. TakeoffDesk tos atver blakus kā vienu lapu sarakstu, un viens apjoma aprēķins var aptvert visus.
 
 ## PDF atvēršana
 
@@ -14,14 +14,14 @@ Plānu komplekts bieži ir vairāki PDF: arhitektūras, konstrukciju, mehānikas
 3. Noklikšķiniet uz „Atvērt”.
    Kamēr katrs fails tiek nolasīts, rādīts ziņojums "Notiek atvēršana: (name)…". Pēc tam katra lapa parādās sarakstā {{ui:Lapas}}, un tiek atvērta pirmā jaunā PDF pirmā lapa.
 
-Varat arī vilkt PDF no {{pick:mac=Finder|windows=Failu pārlūks|linux=jūsu failu pārvaldnieks}} un nomest tos jebkurā TakeoffCraft vietā. Vilkšanas laikā parādās rāmis "Nometiet PDF, DWG vai DXF rasējumus vai .takeoff.json".
+Varat arī vilkt PDF no {{pick:mac=Finder|windows=Failu pārlūks|linux=jūsu failu pārvaldnieks}} un nomest tos jebkurā TakeoffDesk vietā. Vilkšanas laikā parādās rāmis "Nometiet PDF, DWG vai DXF rasējumus vai .takeoff.json".
 
 Lai vēlāk pievienotu vēl PDF, rīkojieties tāpat. PDF, kas jau ir atvērti, tiek izlaisti.
 
 Sākuma ekrānā uzskaitīti arī nesen atvērtie PDF un apjoma aprēķini pārlūkprogrammās, kas ļauj lapai atkārtoti atvērt failu (Chrome un Edge). Noklikšķiniet uz viena, lai to atvērtu; pārlūkprogramma var vispirms prasīt atļauju. Skatiet [Jūsu faili](common:your-files).
 
 :::note
-Nekas netiek augšupielādēts. Pārlūkprogramma nolasa PDF jūsu datorā, un tie pazūd no TakeoffCraft, kad aizverat cilni vai izvēlaties {{ui:Jauns}}.
+Nekas netiek augšupielādēts. Pārlūkprogramma nolasa PDF jūsu datorā, un tie pazūd no TakeoffDesk, kad aizverat cilni vai izvēlaties {{ui:Jauns}}.
 :::
 
 ## Rasējumi kopā ar PDF
@@ -30,7 +30,7 @@ Nekas netiek augšupielādēts. Pārlūkprogramma nolasa PDF jūsu datorā, un t
 
 ## PDF, kas nodots no citas lietotnes
 
-Cita šīs komplekta lietotne var nodot jums PDF, ko tā ir atvērusi: tā atver TakeoffCraft jaunā cilnē, un PDF tur atveras tā, it kā būtu nomests. Statusjoslā rakstīts "Atvērts (name), nodots no (app). Sākotnējais fails nav mainīts." Nekas netiek augšupielādēts; fails iziet cauri šīs pārlūkprogrammas krātuvei un pēc atvēršanas no tās tiek izdzēsts.
+Cita šīs komplekta lietotne var nodot jums PDF, ko tā ir atvērusi: tā atver TakeoffDesk jaunā cilnē, un PDF tur atveras tā, it kā būtu nomests. Statusjoslā rakstīts "Atvērts (name), nodots no (app). Sākotnējais fails nav mainīts." Nekas netiek augšupielādēts; fails iziet cauri šīs pārlūkprogrammas krātuvei un pēc atvēršanas no tās tiek izdzēsts.
 
 Ja statusjoslā rakstīts, ka PDF "nav ieradies", cilne pārāk ilgi gaidīja vai PDF jau bija atvērts citā cilnē: atveriet to ar {{ui:Atvērt plānus}}.
 

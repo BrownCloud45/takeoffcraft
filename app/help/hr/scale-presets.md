@@ -49,4 +49,4 @@ Kalibrirano mjerilo prikazuje se kao „Kalibrirano 1" = 4.002' na 24'-6""“ u 
 
 ## Neobični PDF-ovi
 
-Neki PDF-ovi navode veću jedinicu stranice (korisnička jedinica); TakeoffCraft to uzima u obzir za predloške i za prikazano mjerilo. Stranice zakrenute u PDF-u mjere se jednako kao uspravne.
+Neki PDF-ovi navode veću jedinicu stranice (korisnička jedinica); TakeoffDesk to uzima u obzir za predloške i za prikazano mjerilo. Stranice zakrenute u PDF-u mjere se jednako kao uspravne.

@@ -37,12 +37,12 @@ Qadarka gacanta lagu qoray ma qaadato calaamo, weliba ma ka dhigo qiyaasta mid a
 Taabo {{key:Esc}} foomka dhexdiisa si aad u xirto adigoon shay ku darin.
 
 :::tip
-Haddii aad marka hore doorato qalab cabbir, TakeoffCraft wuxuu isticmaalaa shayga ugu dambeeya ee nooca saxda ah, ama wuxuu furaa foomka {{ui:Shay cusub}} oo nooca horey loogu doortay.
+Haddii aad marka hore doorato qalab cabbir, TakeoffDesk wuxuu isticmaalaa shayga ugu dambeeya ee nooca saxda ah, ama wuxuu furaa foomka {{ui:Shay cusub}} oo nooca horey loogu doortay.
 :::
 
 ## Dooro shayga aad ku jiidayso
 
-Guji shay liiska ku jira. Wuxuu noqdaa shayga calaamadaha cusub loo geliyo, calaamadihiisa waxay ku iftiimaan xaashi kasta, kuwa kalena waxay ifuraan. Haddii xaashida furan aysan ku jirin calaamadihiisa, TakeoffCraft wuxuu kugu boodaa xaashi leh. Mar kale guji shayga si aad u joojiso iftiinka; wuxuu sii ahaanayaa shayga aad ku jiidayso.
+Guji shay liiska ku jira. Wuxuu noqdaa shayga calaamadaha cusub loo geliyo, calaamadihiisa waxay ku iftiimaan xaashi kasta, kuwa kalena waxay ifuraan. Haddii xaashida furan aysan ku jirin calaamadihiisa, TakeoffDesk wuxuu kugu boodaa xaashi leh. Mar kale guji shayga si aad u joojiso iftiinka; wuxuu sii ahaanayaa shayga aad ku jiidayso.
 
 Calaamad guji adigoo isticmaalaya qalabka {{ui:Dooro}} sidoo kale waxay shayga uu leeyahay ka dhigaysaa mid hadda jira.
 
@@ -74,7 +74,7 @@ Waxaa jira waxyaabo lagu cabbiro laba ama ka badan oo siyaabood ah: qol wuxuu le
 
 1. Samee shayga nooceeda ugu weyn, tusaale shay aag oo `Qolka 101`.
 2. Hoosta {{ui:Sidoo kale cabbir}} ee qaabeeyaha, calaamee {{ui:Socod}}, {{ui:Tiri}} ama labadaba. Mid kasta wuxuu helaa unug ag ku dhow.
-3. Ku jiid qalab kasta oo nooca uu shaygu aqbalo: marka `Qolka 101` uu hadda jiro, {{ui:Aag}} wuxuu jiidaa dabaqa, {{ui:Socod}} salka, {{ui:Tiri}} albaabbadiisa. TakeoffCraft ma weydiinayo shay kale.
+3. Ku jiid qalab kasta oo nooca uu shaygu aqbalo: marka `Qolka 101` uu hadda jiro, {{ui:Aag}} wuxuu jiidaa dabaqa, {{ui:Socod}} salka, {{ui:Tiri}} albaabbadiisa. TakeoffDesk ma weydiinayo shay kale.
 
 Liiska shayada wuxuu muujinayaa qadar kasta (`50.00 SF + 2 EA`). Miiskha qadarka safka shayga waxa ku jira qadarkiisa ugu weyn, nooc kasta oo kale safkiisa hoose ayuu helaa, tusaale **Qolka 101 (tiri)**, oo leh qashinkiisa, agabkiisa iyo heerarka shaqadiisa. Dhoofinta, miiskha xaashida, iyo sharraxaadda PDF-ka calaamadaysan ayaa sidaas oo kale ku liistaa.
 
@@ -113,7 +113,7 @@ Halkii heer shaqo oo unug kasta, shaqada shayga waxay ka imaan kartaa kooxda: in
 | {{ui:Tirada kooxda}} | `2` qof |
 | {{ui:Mushahar $/saac mid kasta}} | `45` |
 
-TakeoffCraft wuxuu xisaabiyaa, qadarka ku jira qashinka:
+TakeoffDesk wuxuu xisaabiyaa, qadarka ku jira qashinka:
 
 - **saacadaha kooxda** = qadar ÷ wax soo saar (110 LF ÷ 20 = 5.5),
 - **saacadaha shaqaalaha** = saacadaha kooxda × tirada kooxda (11),

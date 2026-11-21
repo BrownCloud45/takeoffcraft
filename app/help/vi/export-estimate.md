@@ -28,7 +28,7 @@ Sổ làm việc có bốn trang tính, cùng các báo cáo dưới đây khi �
 
 Khi có [tóm tắt thầu](topic:bid-summary), trang tính Dự toán cũng kết thúc bằng các khoản đánh dấu (chi phí nhân công, thuế bán hàng, chi phí chung, lợi nhuận, bảo lãnh và giá thầu), dưới dạng công thức trực tiếp.
 
-Trang tính Dự toán giữ **công thức trực tiếp**: khối lượng kể cả hao hụt, số tiền vật liệu và nhân công đã làm tròn, tổng của từng hàng và tổng công việc. Chương trình bảng tính tự tính lại, nên bạn có thể đổi đơn giá hoặc hao hụt trong bảng tính và các tổng sẽ theo đó thay đổi. Các số mà TakeoffCraft tính cũng được lưu trong ô, và khớp đến từng xu.
+Trang tính Dự toán giữ **công thức trực tiếp**: khối lượng kể cả hao hụt, số tiền vật liệu và nhân công đã làm tròn, tổng của từng hàng và tổng công việc. Chương trình bảng tính tự tính lại, nên bạn có thể đổi đơn giá hoặc hao hụt trong bảng tính và các tổng sẽ theo đó thay đổi. Các số mà TakeoffDesk tính cũng được lưu trong ô, và khớp đến từng xu.
 
 Cột ghi chú liệt kê công thức của từng cấu kiện, lỗi công thức, dấu trên tờ không có tỷ lệ, diện tích tường và chu vi. Khi có mục bị bỏ sót, hàng tổng công việc ghi "Chưa đầy đủ: xem các ghi chú phía trên".
 
@@ -42,7 +42,7 @@ CSV chỉ có dự toán; để có khối lượng theo tờ và danh sách d�
 
 ## Dự toán trong Google Sheets
 
-Phía trên bảng Khối lượng, **Sao chép cho Google Sheets** đưa dự toán vào bộ nhớ tạm dưới dạng văn bản phân tách bằng tab, với các dòng giống CSV. Trong một Google Sheet, nhấp ô A1 rồi dán. TakeoffCraft không đăng nhập Google và không gửi gì đến đó.
+Phía trên bảng Khối lượng, **Sao chép cho Google Sheets** đưa dự toán vào bộ nhớ tạm dưới dạng văn bản phân tách bằng tab, với các dòng giống CSV. Trong một Google Sheet, nhấp ô A1 rồi dán. TakeoffDesk không đăng nhập Google và không gửi gì đến đó.
 
 ## Thiếu đơn giá và xác nhận
 

@@ -1,6 +1,6 @@
 ---
 title: Taustiņi un pele
-summary: Katrs taustiņš, pele, skārienpaliktņa un skārienekrāna darbība TakeoffCraft, sagrupēta, ar platformu atšķirībām.
+summary: Katrs taustiņš, pele, skārienpaliktņa un skārienekrāna darbība TakeoffDesk, sagrupēta, ar platformu atšķirībām.
 keywords: taustiņi, saīsnes, karstie taustiņi, tastatūra, pele, skārienpaliktnis, skāriens, panoramēt, tālummaiņa, ritenis, labā poga, dubultklikšķis, atstarpe, shift, kopēt, ielīmēt, izgriezt, dublēt, atlasīt visu
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Skatiet [Pārbaudīt apjomu aprēķinu 3D](topic:check-in-3d).
 | Taustiņš | Ko tas dara |
 |---|---|
 | {{key:F1}} | Atver vai aizver palīdzības paneli (arī {{ui:Palīdzība}} pogu lietotnes joslā). Darbojas katrā rīkā, pat rakstot laukā. |
-| {{key:Esc}} | Aizver palīdzības paneli. Tās meklēšanas lodziņā pirmais Esc notīra meklēšanu. Kamēr panelis ir atvērts, Esc, kas nospiests pēc klikšķa uz lapas, vispirms aizver paneli; nospiediet vēlreiz, lai atceltu TakeoffCraft darbu. |
+| {{key:Esc}} | Aizver palīdzības paneli. Tās meklēšanas lodziņā pirmais Esc notīra meklēšanu. Kamēr panelis ir atvērts, Esc, kas nospiests pēc klikšķa uz lapas, vispirms aizver paneli; nospiediet vēlreiz, lai atceltu TakeoffDesk darbu. |
 
 :::mac
 Daudzām Mac tastatūrām augšējā rinda vada spilgtumu un skaņu. Nospiediet fn kopā ar F1 vai sistēmas iestatījumos sadaļā Tastatūra ieslēdziet "Izmantot F1, F2 u.c. taustiņus kā standarta funkciju taustiņus".
@@ -139,7 +139,7 @@ Daudzām Mac tastatūrām augšējā rinda vada spilgtumu un skaņu. Nospiediet 
 
 :::mac
 - {{key:Mod}} ir Command taustiņš: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Pilnekrāna režīms ir izņēmums: Control+Shift+F.
-- Labais klikšķis ir divu pirkstu klikšķis uz skārienpaliktņa, kad sekundārais klikšķis ir ieslēgts sistēmas iestatījumos sadaļā Trackpad. TakeoffCraft nolasa tikai sekundāro pogu; Control-klikšķis var tikt uzskatīts par parastu klikšķi un pievienot punktu.
+- Labais klikšķis ir divu pirkstu klikšķis uz skārienpaliktņa, kad sekundārais klikšķis ir ieslēgts sistēmas iestatījumos sadaļā Trackpad. TakeoffDesk nolasa tikai sekundāro pogu; Control-klikšķis var tikt uzskatīts par parastu klikšķi un pievienot punktu.
 - Divi pirksti, ritinot skārienpaliktnī, tālina lapu (tā neritina). Lai panorētu, nospiediet un velciet vai turiet Space un velciet.
 - Page Up un Page Down ir fn kopā ar augšup un lejup bultiņām klaviatūrām, kurām tādu nav.
 - Backspace ir taustiņš, kas apzīmēts ar delete.
@@ -151,12 +151,12 @@ Daudzām Mac tastatūrām augšējā rinda vada spilgtumu un skaņu. Nospiediet 
 :::
 
 :::linux
-- {{key:Mod}} ir Ctrl. Dažas darbvirsmas izmanto savas Ctrl+Alt vai Super saīsnes; TakeoffCraft neizmanto nevienu no tām.
+- {{key:Mod}} ir Ctrl. Dažas darbvirsmas izmanto savas Ctrl+Alt vai Super saīsnes; TakeoffDesk neizmanto nevienu no tām.
 - Skārienpaliktnī divu pirkstu ritināšana tālina lapu. Lai panorētu, nospiediet un velciet.
 :::
 
 :::touch
-TakeoffCraft nolasa skārienu kā vienu rādītāju:
+TakeoffDesk nolasa skārienu kā vienu rādītāju:
 
 - Pieskaršanās novieto punktu, atlasa atzīmi vai pievieno skaitīšanas punktu.
 - Vilkšana ar vienu pirkstu panorē lapu ({{ui:Automātiski skaitīt}} laikā tā zīmē meklēšanas lodziņu).
@@ -169,7 +169,7 @@ TakeoffCraft nolasa skārienu kā vienu rādītāju:
 
 ## Taustiņi, ko pārlūkprogramma patur sev
 
-Pārlūkprogrammas patur dažas saīsnes sev, un lapa tās nevar izmantot: cilnes aizvēršana ({{key:Mod+W}}), jauna cilne vai logs ({{key:Mod+T}}, {{key:Mod+N}}) un pārlūkprogrammas tālummaiņa ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Tāpēc TakeoffCraft tuvina lapu ar riteni un vienkāršiem taustiņiem {{key:Plus}} un {{key:Minus}}. Ja kļūdaini nospiežat {{key:Mod+Plus}}, aug visa lapa; {{key:Mod+0}} to atjauno. Skatiet [Taustiņi, peles un skārienpaliktņi](common:keys).
+Pārlūkprogrammas patur dažas saīsnes sev, un lapa tās nevar izmantot: cilnes aizvēršana ({{key:Mod+W}}), jauna cilne vai logs ({{key:Mod+T}}, {{key:Mod+N}}) un pārlūkprogrammas tālummaiņa ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Tāpēc TakeoffDesk tuvina lapu ar riteni un vienkāršiem taustiņiem {{key:Plus}} un {{key:Minus}}. Ja kļūdaini nospiežat {{key:Mod+Plus}}, aug visa lapa; {{key:Mod+0}} to atjauno. Skatiet [Taustiņi, peles un skārienpaliktņi](common:keys).
 
 ## Kur atrodas Pārvietot
 

@@ -28,7 +28,7 @@ Delovni zvezek ima štiri delovne liste, poleg njih pa še spodnja poročila, ka
 
 S [povzetkom ponudbe](topic:bid-summary) se delovni list Estimate konča tudi z njegovimi dodatki (obremenitev za delo, davek na promet, splošni stroški, dobiček, garancija in ponudba) kot žive formule.
 
-Delovni list Estimate ohrani **žive formule**: količina z odpadkom, zaokroženi zneski materiala in dela, skupaj vsake vrstice in skupna vsota. Preglednični programi jih preračunajo, zato lahko spremenite ceno ali odpadek v preglednici in vsote sledijo. Izračunane številke TakeoffCraft so shranjene tudi v celicah in se ujemajo do centa.
+Delovni list Estimate ohrani **žive formule**: količina z odpadkom, zaokroženi zneski materiala in dela, skupaj vsake vrstice in skupna vsota. Preglednični programi jih preračunajo, zato lahko spremenite ceno ali odpadek v preglednici in vsote sledijo. Izračunane številke TakeoffDesk so shranjene tudi v celicah in se ujemajo do centa.
 
 Stolpec opomb navaja formulo vsake komponente, napake v formulah, oznake na listih brez merila, površino sten in obseg. Kadar je kaj izpuščeno, vrstica skupne vsote pravi „Nepopolno: glejte zgornje opombe“.
 
@@ -42,7 +42,7 @@ CSV ima samo predračun; za količine po listih in seznam oznak uporabite XLSX. 
 
 ## Predračun v Google Sheets
 
-Nad tabelo {{ui:Količine}} **Kopiraj za Google Sheets** da predračun na odložišče kot besedilo, ločeno s tabulatorji, z enakimi vrsticami kot CSV. V Google Sheet kliknite celico A1 in prilepite. TakeoffCraft se ne prijavi v Google in tja ne pošlje ničesar.
+Nad tabelo {{ui:Količine}} **Kopiraj za Google Sheets** da predračun na odložišče kot besedilo, ločeno s tabulatorji, z enakimi vrsticami kot CSV. V Google Sheet kliknite celico A1 in prilepite. TakeoffDesk se ne prijavi v Google in tja ne pošlje ničesar.
 
 ## Manjkajoče cene in podpis predračuna
 

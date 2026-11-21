@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, risba, odpri risbo, postavitve, prostor modela, papirni
 from: d8c3f504
 ---
 
-TakeoffCraft odpre risbo DWG ali DXF enako kot PDF: ni treba je prej izrisati v PDF. Štetje iz same risbe je natančno, ker risba ve, kaj je vsak predmet. Glejte [Štetje iz risbe](topic:count-from-a-drawing).
+TakeoffDesk odpre risbo DWG ali DXF enako kot PDF: ni treba je prej izrisati v PDF. Štetje iz same risbe je natančno, ker risba ve, kaj je vsak predmet. Glejte [Štetje iz risbe](topic:count-from-a-drawing).
 
 ## Odprite risbo
 
@@ -13,9 +13,9 @@ TakeoffCraft odpre risbo DWG ali DXF enako kot PDF: ni treba je prej izrisati v 
 2. Izberite datoteko DWG ali DXF. Izberete lahko več datotek, tudi PDF-je med njimi.
 3. Izberite Odpri.
 
-Datoteke risb lahko tudi spustite na TakeoffCraft, tako kot PDF-je. Nič se ne naloži: brskalnik bere datoteko v vašem računalniku.
+Datoteke risb lahko tudi spustite na TakeoffDesk, tako kot PDF-je. Nič se ne naloži: brskalnik bere datoteko v vašem računalniku.
 
-TakeoffCraft bere DWG od AutoCAD 2000 do 2018 in ASCII DXF od R12 do 2018. Binarne DXF zavrne (shranite jo kot ASCII ali kot DWG) in tudi datoteko, ki ni niti eno niti drugo, ter pove, zakaj. Poškodovana datoteka se odpre z delom, ki ga je bilo mogoče prebrati; sporočilo to pove, njena štetja pa so lahko nepopolna.
+TakeoffDesk bere DWG od AutoCAD 2000 do 2018 in ASCII DXF od R12 do 2018. Binarne DXF zavrne (shranite jo kot ASCII ali kot DWG) in tudi datoteko, ki ni niti eno niti drugo, ter pove, zakaj. Poškodovana datoteka se odpre z delom, ki ga je bilo mogoče prebrati; sporočilo to pove, njena štetja pa so lahko nepopolna.
 
 ## Listi
 
@@ -40,10 +40,10 @@ List se začne z merilom, ki ga da risba:
 
 ## Povezane risbe (xref)
 
-Risba, ki povezuje druge risbe, jih prikaže tam, kjer so vstavljene. TakeoffCraft najde povezano risbo med **odprtimi datotekami** po imenu datoteke: odprite glavno risbo in povezano risbo skupaj (ali eno za drugo). Dokler ju ne odprete, vrstica stanja pove, koliko povezanih risb ni najdenih; kar bi morale narisati, manjka, štetja pa to povedo.
+Risba, ki povezuje druge risbe, jih prikaže tam, kjer so vstavljene. TakeoffDesk najde povezano risbo med **odprtimi datotekami** po imenu datoteke: odprite glavno risbo in povezano risbo skupaj (ali eno za drugo). Dokler ju ne odprete, vrstica stanja pove, koliko povezanih risb ni najdenih; kar bi morale narisati, manjka, štetja pa to povedo.
 
 ## Omejitve
 
-- Predmeti, ki jih TakeoffCraft ne more prebrati ali postaviti (posredniški (proxy) predmeti, neznani razredi), so navedeni po vrsti v oknu štetja; nikoli niso brez besede izpuščeni.
+- Predmeti, ki jih TakeoffDesk ne more prebrati ali postaviti (posredniški (proxy) predmeti, neznani razredi), so navedeni po vrsti v oknu štetja; nikoli niso brez besede izpuščeni.
 - Zelo velike risbe so narisane po delih, štetja pa se ustavijo pri omejitvi in to povedo. Za take risbe raje odprite PDF izris.
 - Risba je narisana črno in v svojih barvah, potemnjenih za beli papir. Tabele slogov izrisa in dodelitve peres se ne uporabijo.

@@ -1,6 +1,6 @@
 ---
 title: Qaabka dhererka, qiimaha iyo boqolkiiba
-summary: Waxa aad ku qori kartid masaafooyinka, joogta, qiimaha lacagta iyo boqolkiiba qashinka, oo leh tusaalooyin iyo fariimaha u soo baxa qoraal aan TakeoffCraft akhriyi karin.
+summary: Waxa aad ku qori kartid masaafooyinka, joogta, qiimaha lacagta iyo boqolkiiba qashinka, oo leh tusaalooyin iyo fariimaha u soo baxa qoraal aan TakeoffDesk akhriyi karin.
 keywords: gelin, qaab, feet iyo inch, jajab, feet tobanle, metric, mitir, millimitir, qiime, lacag, doolar, boqolkiiba, qashin, qorid
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Ilaa laba tobanle, 0% ilaa 1000%. Fariimaha: "Ku qor boqolkiiba sida 10 ama 7.5.
 ## Magacyada iyo unugyada
 
 - Magaca shayga iyo qaybta: ilaa 200 xaraf.
-- {{ui:Unug}} qaybta: qoraal kasta oo ilaa 20 xaraf, sida `EA`, `sheets`, `CY`, `gal`. Waa calaamad keliya; TakeoffCraft ma beddelo.
+- {{ui:Unug}} qaybta: qoraal kasta oo ilaa 20 xaraf, sida `EA`, `sheets`, `CY`, `gal`. Waa calaamad keliya; TakeoffDesk ma beddelo.
 
 ## Qaacidooyin
 

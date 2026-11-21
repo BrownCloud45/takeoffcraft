@@ -5,7 +5,7 @@ keywords: haakumine, osnap, objekti haakumine, otspunkt, keskpunkt, ristumine, l
 from: 41d29e9b
 ---
 
-Enamik plaanikomplekte on vektor-PDF-id: nende seinad ja servad on tõelised jooned, mitte pikslid. Mõõtmise ajal haakab TakeoffCraft sinu klõpsud nendele joontele, nii et joon algab täpselt seina nurgast ja kalibreerimine loeb joonistaja joonistatud mõõtu, mitte pikslit, mida tabasid.
+Enamik plaanikomplekte on vektor-PDF-id: nende seinad ja servad on tõelised jooned, mitte pikslid. Mõõtmise ajal haakab TakeoffDesk sinu klõpsud nendele joontele, nii et joon algab täpselt seina nurgast ja kalibreerimine loeb joonistaja joonistatud mõõtu, mitte pikslit, mida tabasid.
 
 Haakumine on alguses sisse lülitatud. Lülita see sisse ja välja oleku­ribal oleva {{ui:Haakumine}} või klahviga {{key:F3}}; seade jääb sellesse brauserisse alles (seda leiad ka [Sätted](topic:settings) alt).
 

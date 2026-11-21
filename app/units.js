@@ -5,7 +5,7 @@ import { calc, hasArithmetic } from './lencalc.js';   // 0.6 DF.3: + - * / and b
 import { parseTo, parse as tableParse, format as tableFormat, unit as tableUnit, unitName } from './unit-table.js';   // 0.7 UNITS: the shared table (lib/units; a copy: tools/units/sync.mjs)
 import { choices, defaultUnit } from './unit-prefs.js';
 /**
- * units.js — lengths, scales and money for TakeoffCraft. DOM-free (tested in Node).
+ * units.js — lengths, scales and money for TakeoffDesk. DOM-free (tested in Node).
  *
  * The canonical length is the FOOT (areas in square feet). Everything typed or shown converts
  * at the edge: feet-inches with fractions, decimal feet, inches, m, cm, mm. PDF user space is
@@ -358,7 +358,7 @@ export function parsePercent(text) {
   if (v > 1000) return { ok: false, error: t('pct.err.big') };
   return { ok: true, bp: Math.round(roundTo(v, 2) * 100) };
 }
-/** The money symbol shown before amounts (Settings › TakeoffCraft › Currency): $ € £ … Display only; amounts are never converted. */
+/** The money symbol shown before amounts (Settings › TakeoffDesk › Currency): $ € £ … Display only; amounts are never converted. */
 let CUR = '$';
 export const CURRENCIES = Object.freeze(['$', '€', '£', 'CHF ', 'kr ', 'zł ', 'R ', 'A$', 'C$']);
 export const setCurrency = (s) => { CUR = CURRENCIES.includes(s) ? s : '$'; };

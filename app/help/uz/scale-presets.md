@@ -49,4 +49,4 @@ Hisoblangan masshtab varaq ostidagi chiziqda "Kalibrlangan 1" = 4.002' on 24'-6"
 
 ## Oddiy boʻlmagan PDF lar
 
-Ba'zi PDF lar kattaroq sahifa birligini eʼlon qiladi ("foydalanuvchi birligi"); TakeoffCraft buni oldindan oʻrnatmalar va koʻrsatilgan masshtab uchun hisobga oladi. PDF da aylantirilgan sahifalar tik sahifalar bilan bir xil tarzda oʻlchanadi.
+Ba'zi PDF lar kattaroq sahifa birligini eʼlon qiladi ("foydalanuvchi birligi"); TakeoffDesk buni oldindan oʻrnatmalar va koʻrsatilgan masshtab uchun hisobga oladi. PDF da aylantirilgan sahifalar tik sahifalar bilan bir xil tarzda oʻlchanadi.

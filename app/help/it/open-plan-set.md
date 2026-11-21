@@ -5,7 +5,7 @@ keywords: apri, set di tavole, più pdf, file multipli, tavole, disegni, etichet
 from: ed434468
 ---
 
-Un set di tavole è spesso composto da più PDF: architettonico, strutturale, meccanico. TakeoffCraft li apre affiancati come un unico elenco di tavole, e un solo computo può coprirli tutti.
+Un set di tavole è spesso composto da più PDF: architettonico, strutturale, meccanico. TakeoffDesk li apre affiancati come un unico elenco di tavole, e un solo computo può coprirli tutti.
 
 ## Aprire i PDF
 
@@ -14,14 +14,14 @@ Un set di tavole è spesso composto da più PDF: architettonico, strutturale, me
 3. Scegliere Apri.
    Mentre ogni file viene letto compare il messaggio "Apertura di (nome)…". Poi ogni pagina compare sotto {{ui:Tavole}} e si apre la prima pagina del primo PDF nuovo.
 
-Si possono anche trascinare i PDF da {{pick:mac=Finder|windows=Esplora file|linux=il gestore di file}} e rilasciarli in un punto qualsiasi di TakeoffCraft. Mentre si trascina compare la cornice "Trascina qui PDF, disegni DWG o DXF, oppure un .takeoff.json".
+Si possono anche trascinare i PDF da {{pick:mac=Finder|windows=Esplora file|linux=il gestore di file}} e rilasciarli in un punto qualsiasi di TakeoffDesk. Mentre si trascina compare la cornice "Trascina qui PDF, disegni DWG o DXF, oppure un .takeoff.json".
 
 Per aggiungere altri PDF in seguito, ripetere la stessa operazione. I PDF già aperti vengono saltati.
 
 La schermata iniziale elenca anche i PDF e i computi aperti di recente, nei browser che permettono a una pagina di riaprire un file (Chrome ed Edge). Fare clic su uno per aprirlo; il browser può chiedere prima l'autorizzazione. Vedere [I propri file](common:your-files).
 
 :::note
-Nulla viene caricato. Il browser legge i PDF sul computer, e vengono rimossi da TakeoffCraft quando si chiude la scheda o si sceglie {{ui:Nuovo}}.
+Nulla viene caricato. Il browser legge i PDF sul computer, e vengono rimossi da TakeoffDesk quando si chiude la scheda o si sceglie {{ui:Nuovo}}.
 :::
 
 ## Disegni accanto ai PDF
@@ -30,7 +30,7 @@ Nulla viene caricato. Il browser legge i PDF sul computer, e vengono rimossi da 
 
 ## Un PDF passato da un'altra app
 
-Un'altra app della suite può passare il PDF che ha aperto: apre TakeoffCraft in una nuova scheda e il PDF si apre lì come se fosse stato trascinato. La barra di stato dice "Aperto (nome), passato da (app). Il file originale è invariato." Nulla viene caricato; il file passa dalla memoria del browser e ne viene rimosso appena si apre.
+Un'altra app della suite può passare il PDF che ha aperto: apre TakeoffDesk in una nuova scheda e il PDF si apre lì come se fosse stato trascinato. La barra di stato dice "Aperto (nome), passato da (app). Il file originale è invariato." Nulla viene caricato; il file passa dalla memoria del browser e ne viene rimosso appena si apre.
 
 Se la barra di stato dice che il PDF "non è arrivato", la scheda ha atteso troppo oppure il PDF era già aperto in un'altra scheda: aprirlo con {{ui:Apri PDF}}.
 

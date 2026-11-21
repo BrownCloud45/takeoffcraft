@@ -77,7 +77,7 @@ Jedan red po listu koji ima razmjeru ili oznake.
 | List | Naziv lista |
 | Razmjera | Naziv postavke, ili kalibrirana razmjera, ili "Nema razmjere" |
 | Način | "Unaprijed podešeno", ili "Kalibrirano na (upisana udaljenost)" |
-| Stope po jedinici PDF-a | Tačan faktor razmjere koji TakeoffCraft koristi |
+| Stope po jedinici PDF-a | Tačan faktor razmjere koji TakeoffDesk koristi |
 
 ## Nazivi datoteka
 

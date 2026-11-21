@@ -49,4 +49,4 @@ Uma escala calibrada aparece como «Calibrada 1» = 4.002' em 24'-6"" na barra p
 
 ## PDF invulgares
 
-Alguns PDF declaram uma unidade de página maior (uma «unidade de utilizador»); o TakeoffCraft tem-na em conta nas predefinições e na escala mostrada. As páginas rodadas no PDF são medidas da mesma forma que as páginas na vertical.
+Alguns PDF declaram uma unidade de página maior (uma «unidade de utilizador»); o TakeoffDesk tem-na em conta nas predefinições e na escala mostrada. As páginas rodadas no PDF são medidas da mesma forma que as páginas na vertical.

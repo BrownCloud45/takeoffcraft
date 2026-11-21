@@ -11,9 +11,9 @@ Bukalah dengan {{ui:Library}} di bagian atas panel {{ui:Items}}.
 
 ## Mengisi pustaka
 
-- {{ui:Import CSV…}} membaca spreadsheet yang disimpan sebagai CSV (lihat kolomnya di bawah). Item yang nama dan jenisnya sudah ada di pustaka akan diganti; sisanya ditambahkan. Baris yang tidak dapat dibaca dilewati, dan TakeoffCraft menyebutkan baris mana dan alasannya.
+- {{ui:Import CSV…}} membaca spreadsheet yang disimpan sebagai CSV (lihat kolomnya di bawah). Item yang nama dan jenisnya sudah ada di pustaka akan diganti; sisanya ditambahkan. Baris yang tidak dapat dibaca dilewati, dan TakeoffDesk menyebutkan baris mana dan alasannya.
 - Tambahkan item takeoff ini menyalin setiap item dari takeoff yang terbuka ke pustaka, beserta tarif dan rakitannya (tetapi tidak termasuk tandanya).
-- Estimasi CSV yang diekspor TakeoffCraft ([Ekspor estimasi](topic:export-estimate)) diimpor apa adanya: harga pekerjaan terakhir menjadi awal untuk pekerjaan berikutnya.
+- Estimasi CSV yang diekspor TakeoffDesk ([Ekspor estimasi](topic:export-estimate)) diimpor apa adanya: harga pekerjaan terakhir menjadi awal untuk pekerjaan berikutnya.
 
 - {{ui:Trade packs…}} menambahkan rakitan gratis untuk satu bidang, seperti drywall, listrik, atau beton, tanpa harga. Lihat [Paket keahlian](topic:trade-packs).
 

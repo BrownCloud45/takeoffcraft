@@ -37,12 +37,12 @@ En indtastet mængde tager ingen mærker og gør aldrig overslaget ufuldstændig
 Tryk {{key:Esc}} i formularen for at lukke den uden at tilføje en post.
 
 :::tip
-Hvis du vælger et måleværktøj først, bruger TakeoffCraft den sidste post af den rigtige type, eller åbner formularen {{ui:Ny post}} med den type allerede valgt.
+Hvis du vælger et måleværktøj først, bruger TakeoffDesk den sidste post af den rigtige type, eller åbner formularen {{ui:Ny post}} med den type allerede valgt.
 :::
 
 ## Vælg den post du tegner med
 
-Klik på en post på listen. Den bliver den post nye mærker går til, og dens mærker fremhæves på alle ark, mens de andre fortoner sig. Hvis det åbne ark ikke har nogen af dens mærker, springer TakeoffCraft til et ark, der har. Klik på posten igen for at stoppe fremhævningen; den forbliver den post du tegner med.
+Klik på en post på listen. Den bliver den post nye mærker går til, og dens mærker fremhæves på alle ark, mens de andre fortoner sig. Hvis det åbne ark ikke har nogen af dens mærker, springer TakeoffDesk til et ark, der har. Klik på posten igen for at stoppe fremhævningen; den forbliver den post du tegner med.
 
 Klik på et mærke med værktøjet {{ui:Vælg}} gør også dets post til den aktuelle.
 
@@ -57,7 +57,7 @@ Postredigeringen (**Post: (navn)**) har disse felter. Hvert felt gemmes, når du
 | {{ui:Farve}} | Farven på dens mærker på skærmen og i den markerede PDF. |
 | {{ui:Enhed}} | Hvilken enhed mængden rapporteres i: LF eller m for lineær; SF, SY, SQ, ac, ha eller m² for areal; EA for tæl. |
 | {{ui:Mål også}} | De andre slags mærker posten tager, hver med sin egen enhed. Se nedenfor. |
-| {{ui:Højde}} (lineær) | En vægs højde. Posten rapporterer så også vægareal (længde × højde). Serier, der stammer fra en BimCraft-model, medbringer deres døre og vinduer: de trækkes fra én gang, og posten angiver bruttoareal, åbningerne og nettoarealet. Et mængdeudtræk fra et BimCraft-projekt, der valgte en opmålingsmetode, måles også med den metode her (noten nævner den med dens kilde og siger, at en mængdekonsulent ikke har kontrolleret den); metoden kan ikke ændres i TakeoffCraft. Mursten eller blokke og mørtel fra en vægtype kommer som to komponenter: de enheder, der skal bestilles, og mørtelvolumenet. |
+| {{ui:Højde}} (lineær) | En vægs højde. Posten rapporterer så også vægareal (længde × højde). Serier, der stammer fra en BimCraft-model, medbringer deres døre og vinduer: de trækkes fra én gang, og posten angiver bruttoareal, åbningerne og nettoarealet. Et mængdeudtræk fra et BimCraft-projekt, der valgte en opmålingsmetode, måles også med den metode her (noten nævner den med dens kilde og siger, at en mængdekonsulent ikke har kontrolleret den); metoden kan ikke ændres i TakeoffDesk. Mursten eller blokke og mørtel fra en vægtype kommer som to komponenter: de enheder, der skal bestilles, og mørtelvolumenet. |
 | {{ui:Dybde}} (areal) | En dybde eller tykkelse, brugt i kalkulationsenhedens formler (for eksempel betonvolumen). |
 | {{ui:Spild %}} | Lægges til mængden før prissætning: 10 betyder mængde × 1.10. |
 | {{ui:Materiale $/LF}} | Materialeomkostning pr. enhed. Etiketten følger enheden: $/SF, $/EA og så videre. |
@@ -74,7 +74,7 @@ Nogle ting måles på mere end én måde: et rum har et gulv (et areal), en fodl
 
 1. Opret posten med sin hovedtype, for eksempel en arealpost `Rum 101`.
 2. Under {{ui:Mål også}} i dens redigering sætter du flueben i {{ui:Lineær}}, {{ui:Tæl}} eller begge. Hver får en enhed ved siden af sig.
-3. Tegn med ethvert værktøj, hvis slags posten tager: med `Rum 101` aktuel tegner {{ui:Areal}} dens gulv, {{ui:Lineær}} dens fodliste og {{ui:Tæl}} dens døre. TakeoffCraft spørger ikke efter en anden post.
+3. Tegn med ethvert værktøj, hvis slags posten tager: med `Rum 101` aktuel tegner {{ui:Areal}} dens gulv, {{ui:Lineær}} dens fodliste og {{ui:Tæl}} dens døre. TakeoffDesk spørger ikke efter en anden post.
 
 Posten på listen viser alle mængder (`50.00 SF + 2 EA`). I mængdetabellen har postens række sin hovedmængde, og hver anden slags får sin egen række under den, som **Rum 101 (tæl)**, med egne spild-, materiale- og lønsatser. Eksporterne, tabellen pr. ark og den markerede PDFs signaturforklaring lister dem på samme måde.
 
@@ -113,7 +113,7 @@ I stedet for en lønsats pr. enhed kan en posts løn komme fra et hold: hvor meg
 | {{ui:Holdstørrelse}} | `2` personer |
 | {{ui:Timeløn $/time pr. person}} | `45` |
 
-TakeoffCraft beregner ud fra mængden med spild:
+TakeoffDesk beregner ud fra mængden med spild:
 
 - **holdtimer** = mængde ÷ produktion (110 LF ÷ 20 = 5.5),
 - **arbejdstimer** = holdtimer × holdstørrelse (11),

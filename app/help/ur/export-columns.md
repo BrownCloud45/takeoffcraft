@@ -77,7 +77,7 @@ CSV میں یہی کالم سادہ قدریں رکھتے ہیں، Waste % فی�
 | Sheet | شیٹ کا نام |
 | Scale | پری سیٹ کا نام، یا کیلیبریٹ شدہ اسکیل، یا "No scale" |
 | How | "Preset"، یا "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | وہ درست اسکیل فیکٹر جو TakeoffCraft استعمال کرتا ہے |
+| Feet per PDF unit | وہ درست اسکیل فیکٹر جو TakeoffDesk استعمال کرتا ہے |
 
 ## فائل کے نام
 

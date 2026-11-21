@@ -77,7 +77,7 @@ Yksi rivi jokaista arkkia kohden, jolla on mittakaava tai merkintöjä.
 | Arkki | Arkin nimi |
 | Mittakaava | Esiasetuksen nimi, kalibroitu mittakaava tai "Ei mittakaavaa" |
 | Tapa | "Esiasetus" tai "Kalibroitu (etäisyys, jonka kirjoitit)" |
-| Jalkaa PDF-yksikköä kohti | TakeoffCraftin käyttämä tarkka mittakaavakerroin |
+| Jalkaa PDF-yksikköä kohti | TakeoffDeskin käyttämä tarkka mittakaavakerroin |
 
 ## Tiedostonimet
 

@@ -1,6 +1,6 @@
 ---
 title: Tastatur og mus
-summary: Alle taster, mus-, styreflate- og berøringshandlinger i TakeoffCraft, gruppert, med forskjellene mellom plattformene.
+summary: Alle taster, mus-, styreflate- og berøringshandlinger i TakeoffDesk, gruppert, med forskjellene mellom plattformene.
 keywords: taster, snarveier, hurtigtaster, tastatur, mus, styreflate, berøring, panorer, zoom, hjul, høyreklikk, dobbeltklikk, mellomrom, shift, kopier, lim inn, klipp ut, dupliser, velg alle
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Se [Kontroller mengdeuttaket i 3D](topic:check-in-3d).
 | Tast | Hva den gjør |
 |---|---|
 | {{key:F1}} | Åpner eller lukker hjelpepanelet (også knappen {{ui:Help}} i programlinjen). Virker i alle verktøy, selv mens du skriver i et felt. |
-| {{key:Esc}} | Lukker hjelpepanelet. I søkeboksen tømmer den første Esc søket. Mens panelet er åpent, lukker en Esc trykket etter å ha klikket på arket panelet først; trykk én gang til for å avbryte i TakeoffCraft. |
+| {{key:Esc}} | Lukker hjelpepanelet. I søkeboksen tømmer den første Esc søket. Mens panelet er åpent, lukker en Esc trykket etter å ha klikket på arket panelet først; trykk én gang til for å avbryte i TakeoffDesk. |
 
 :::mac
 På mange Mac-tastaturer styrer den øverste raden lysstyrke og lyd. Trykk fn med F1, eller slå på «Bruk F1, F2 osv. som standard funksjonstaster» i Systeminnstillinger, under Tastatur.
@@ -139,7 +139,7 @@ På mange Mac-tastaturer styrer den øverste raden lysstyrke og lyd. Trykk fn me
 
 :::mac
 - {{key:Mod}} er Command-tasten: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Fullskjerm er unntaket: Control+Shift+F.
-- Høyreklikk er et tofingerklikk på styreflaten, når sekundærklikk er på i Systeminnstillinger, under Styreflate. TakeoffCraft leser bare sekundærknappen; et Control-klikk kan telle som et vanlig klikk og legge til et punkt.
+- Høyreklikk er et tofingerklikk på styreflaten, når sekundærklikk er på i Systeminnstillinger, under Styreflate. TakeoffDesk leser bare sekundærknappen; et Control-klikk kan telle som et vanlig klikk og legge til et punkt.
 - Tofingersrulling på styreflaten zoomer arket (den ruller det ikke). For å panorere trykker og drar du, eller holder inne Space og drar.
 - Page Up og Page Down er fn med piltastene opp og ned på tastaturer uten dem.
 - Backspace er tasten som er merket delete.
@@ -151,12 +151,12 @@ På mange Mac-tastaturer styrer den øverste raden lysstyrke og lyd. Trykk fn me
 :::
 
 :::linux
-- {{key:Mod}} er Ctrl. Noen skrivebord har egne snarveier med Ctrl+Alt eller Super; TakeoffCraft bruker ingen av dem.
+- {{key:Mod}} er Ctrl. Noen skrivebord har egne snarveier med Ctrl+Alt eller Super; TakeoffDesk bruker ingen av dem.
 - På en styreflate zoomer tofingerrulling arket. For å panorere trykker og drar du.
 :::
 
 :::touch
-TakeoffCraft leser berøring som én peker:
+TakeoffDesk leser berøring som én peker:
 
 - Trykk plasserer et punkt, velger et merke eller legger til en tellingsprikk.
 - Dra med ett finger panorerer arket (i {{ui:Auto count}} tegner det søkeboksen).
@@ -169,7 +169,7 @@ Et tastatur og en mus eller styreflate er i dag den bedre måten å gjøre mengd
 
 ## Taster nettleseren beholder
 
-Nettlesere beholder noen snarveier for seg selv, og en side kan ikke bruke dem: å lukke fanen ({{key:Mod+W}}), ny fane eller nytt vindu ({{key:Mod+T}}, {{key:Mod+N}}) og nettleserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Derfor zoomer TakeoffCraft arket med hjulet og de rene tastene {{key:Plus}} og {{key:Minus}}. Hvis du trykker {{key:Mod+Plus}} ved et uhell, vokser hele siden; {{key:Mod+0}} setter den tilbake. Se [Taster, mus og styreflater](common:keys).
+Nettlesere beholder noen snarveier for seg selv, og en side kan ikke bruke dem: å lukke fanen ({{key:Mod+W}}), ny fane eller nytt vindu ({{key:Mod+T}}, {{key:Mod+N}}) og nettleserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Derfor zoomer TakeoffDesk arket med hjulet og de rene tastene {{key:Plus}} og {{key:Minus}}. Hvis du trykker {{key:Mod+Plus}} ved et uhell, vokser hele siden; {{key:Mod+0}} setter den tilbake. Se [Taster, mus og styreflater](common:keys).
 
 ## Hvor Flytt er
 

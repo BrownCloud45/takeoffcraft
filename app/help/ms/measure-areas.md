@@ -41,7 +41,7 @@ Apabila bilik dilukis sebagai dinding tertutup, {{ui:Bilik}} ({{key:B}}) mengamb
 2. Pilih {{ui:Bilik}} dalam kumpulan {{ui:Takeoff}}, atau tekan {{key:B}}.
 3. Klik di dalam bilik, di lantai terbuka (bukan pada garisan atau label).
 
-TakeoffCraft membaca garisan lembaran, mencari ruang di sekeliling klik dan menggariskannya sepanjang muka dalam dinding, sebagai kawasan item semasa. Bukaan pintu sehingga **4'-0"** dianggap tertutup, jadi garis luar berjalan lurus merentasi ambang; **Tetapan › TakeoffCraft › Isi bilik menutup bukaan sehingga** menukar lebar itu (3'-0" hingga 8'-0"). Nama bilik, perabot dan lengkapan di dalam bilik tidak membentuk lubang.
+TakeoffDesk membaca garisan lembaran, mencari ruang di sekeliling klik dan menggariskannya sepanjang muka dalam dinding, sebagai kawasan item semasa. Bukaan pintu sehingga **4'-0"** dianggap tertutup, jadi garis luar berjalan lurus merentasi ambang; **Tetapan › TakeoffDesk › Isi bilik menutup bukaan sehingga** menukar lebar itu (3'-0" hingga 8'-0"). Nama bilik, perabot dan lengkapan di dalam bilik tidak membentuk lubang.
 
 Ia menolak, dengan menyatakan sebab, apabila:
 
@@ -62,7 +62,7 @@ Apabila pintu lebih lebar daripada tetapan, isian itu masuk ke bilik seterusnya 
 
 Untuk lubang bulat, pilih {{ui:Tambah potongan bulat}} di bawah **Tanda dipilih**, klik pusatnya, kemudian satu titik pada tepinya.
 
-Potongan mesti berada sepenuhnya di dalam kawasan dan tidak boleh bertindih dengan potongan lain. Jika tidak, TakeoffCraft menolaknya: "Potongan mesti berada sepenuhnya di dalam kawasan." atau "Potongan tidak boleh bertindih antara satu sama lain."
+Potongan mesti berada sepenuhnya di dalam kawasan dan tidak boleh bertindih dengan potongan lain. Jika tidak, TakeoffDesk menolaknya: "Potongan mesti berada sepenuhnya di dalam kawasan." atau "Potongan tidak boleh bertindih antara satu sama lain."
 
 Untuk mengeluarkan semula lubang terakhir, pilih {{ui:Alih keluar potongan terakhir}}.
 
@@ -76,7 +76,7 @@ Potongan tergolong kepada satu tanda kawasan. **Back-out** dilukis sekali dan ke
 
 Setiap tanda kawasan bagi item yang ditandakan pada lembaran yang sama kehilangan bahagian yang dilindungi back-out: keseluruhan back-out apabila ia berada di dalam, hanya bahagian bertindih apabila ia merentasi tepi, dan tiada apa-apa di dalam potongan. Panel kawasan yang dipilih memaparkan **Back-out** dan luas yang tinggal. Kuantiti item, formula himpunannya, kos, paparan semakan 3D dan eksport semuanya menggunakan luas yang tinggal; nota anggaran menyatakan berapa banyak back-out telah diambil. Item back-out itu sendiri mengira luasnya sendiri (biarkan kosnya sifar jika anda tidak menilainya).
 
-Back-out mesti **cembung**: segi empat tepat, bulatan atau mana-mana garis luar tanpa sudut ke dalam. TakeoffCraft menolak untuk melukis yang tidak begitu; lukis aci berbentuk L sebagai dua back-out. Back-out tidak boleh mempunyai potongan, dan dua back-out yang bertindih antara satu sama lain kedua-duanya dikira.
+Back-out mesti **cembung**: segi empat tepat, bulatan atau mana-mana garis luar tanpa sudut ke dalam. TakeoffDesk menolak untuk melukis yang tidak begitu; lukis aci berbentuk L sebagai dua back-out. Back-out tidak boleh mempunyai potongan, dan dua back-out yang bertindih antara satu sama lain kedua-duanya dikira.
 
 Perimeter (`P`) tidak berubah: back-out hanya mengambil luas.
 

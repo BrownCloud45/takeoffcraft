@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, vizatim, hap një vizatim, paraqitje, hapësira e model
 from: d8c3f504
 ---
 
-TakeoffCraft hap një vizatim DWG ose DXF ashtu si hap një PDF: nuk ke nevojë ta printosh së pari në PDF. Numërimi nga vetë vizatimi është i saktë, sepse vizatimi di çfarë është çdo objekt. Shih [Numëro nga një vizatim](topic:count-from-a-drawing).
+TakeoffDesk hap një vizatim DWG ose DXF ashtu si hap një PDF: nuk ke nevojë ta printosh së pari në PDF. Numërimi nga vetë vizatimi është i saktë, sepse vizatimi di çfarë është çdo objekt. Shih [Numëro nga një vizatim](topic:count-from-a-drawing).
 
 ## Hap vizatimin
 
@@ -13,9 +13,9 @@ TakeoffCraft hap një vizatim DWG ose DXF ashtu si hap një PDF: nuk ke nevojë 
 2. Zgjidh skedarin DWG ose DXF. Mund të zgjedhësh disa, dhe PDF-të bashkë me to.
 3. Zgjidh Hap.
 
-Mund t'i lësh skedarët e vizatimit mbi TakeoffCraft, si PDF-të. Asgjë nuk ngarkohet: shfletuesi lexon skedarin në kompjuterin tënd.
+Mund t'i lësh skedarët e vizatimit mbi TakeoffDesk, si PDF-të. Asgjë nuk ngarkohet: shfletuesi lexon skedarin në kompjuterin tënd.
 
-TakeoffCraft lexon DWG nga AutoCAD 2000 deri 2018 dhe DXF ASCII nga R12 deri 2018. Refuzon një DXF binar (ruaje si ASCII, ose si DWG) dhe një skedar që nuk është asnjëri, dhe thotë pse. Një skedar i dëmtuar hapet me atë që mund të lexohej, dhe një mesazh e thotë këtë; numërimet e tij mund të jenë të paplota.
+TakeoffDesk lexon DWG nga AutoCAD 2000 deri 2018 dhe DXF ASCII nga R12 deri 2018. Refuzon një DXF binar (ruaje si ASCII, ose si DWG) dhe një skedar që nuk është asnjëri, dhe thotë pse. Një skedar i dëmtuar hapet me atë që mund të lexohej, dhe një mesazh e thotë këtë; numërimet e tij mund të jenë të paplota.
 
 ## Fletët
 
@@ -40,10 +40,10 @@ Një fletë fillon me shkallën që jep vizatimi:
 
 ## Vizatimet e lidhura (xref)
 
-Një vizatim që lidh vizatime të tjera i shfaq aty ku janë futur. TakeoffCraft gjen një vizatim të lidhur midis **skedarëve të hapur**, sipas emrit të skedarit: hap vizatimin kryesor dhe vizatimin e lidhur bashkë (ose njëri pas tjetrit). Deri atëherë shiriti i statusit thotë sa vizatime të lidhura nuk u gjetën, çfarë vizatojnë ato mungon, dhe numërimet e thonë këtë.
+Një vizatim që lidh vizatime të tjera i shfaq aty ku janë futur. TakeoffDesk gjen një vizatim të lidhur midis **skedarëve të hapur**, sipas emrit të skedarit: hap vizatimin kryesor dhe vizatimin e lidhur bashkë (ose njëri pas tjetrit). Deri atëherë shiriti i statusit thotë sa vizatime të lidhura nuk u gjetën, çfarë vizatojnë ato mungon, dhe numërimet e thonë këtë.
 
 ## Kufizime
 
-- Objektet që TakeoffCraft nuk i lexon ose nuk i vendos (objekte proxy, klasa të panjohura) listohen në dritaren e numërimit sipas llojit; nuk hidhen kurrë pa u thënë.
+- Objektet që TakeoffDesk nuk i lexon ose nuk i vendos (objekte proxy, klasa të panjohura) listohen në dritaren e numërimit sipas llojit; nuk hidhen kurrë pa u thënë.
 - Vizatimet shumë të mëdha vizatohen pjesërisht, dhe numërimet ndalen te një kufi, duke e thënë këtë. Hap në vend të kësaj një PDF printimi të atij vizatimi.
 - Një vizatim vizatohet me të zezë dhe me ngjyrat e veta, të errësuara për letër të bardhë. Tabelat e stilit të printimit dhe caktimet e penave nuk aplikohen.

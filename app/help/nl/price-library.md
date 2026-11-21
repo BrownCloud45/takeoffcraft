@@ -13,7 +13,7 @@ Open haar met {{ui:Bibliotheek}} bovenaan het paneel {{ui:Posten}}.
 
 - {{ui:CSV importeren…}} leest een spreadsheet die als CSV is opgeslagen (zie de kolommen hieronder). Posten waarvan naam en type al in de bibliotheek staan, worden vervangen; de rest wordt toegevoegd. Regels die het niet kan lezen, worden overgeslagen, en het meldt welke en waarom.
 - {{ui:Posten van deze opmeting toevoegen}} kopieert elke post van de geopende opmeting naar de bibliotheek, met hun tarieven en assemblage (niet hun markeringen).
-- De raming-CSV die TakeoffCraft exporteert ([De raming exporteren](topic:export-estimate)) wordt zoals die is geïmporteerd: de prijzen van de vorige opdracht zaaien de volgende.
+- De raming-CSV die TakeoffDesk exporteert ([De raming exporteren](topic:export-estimate)) wordt zoals die is geïmporteerd: de prijzen van de vorige opdracht zaaien de volgende.
 
 - {{ui:Vakpakketten…}} voegt gratis assemblages voor een vakgebied toe, zoals droogbouw, elektra of beton, zonder prijzen. Zie [Vakpakketten](topic:trade-packs).
 

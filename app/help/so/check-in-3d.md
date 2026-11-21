@@ -46,7 +46,7 @@ Tirooyinka 3D kuma beddelmaan: darbi waa dhererkiisa saxda ah oo jibbaaray joogi
 | {{ui:Sheet}} | Muuji ama qari xaashida dhulka. |
 | Calaamadda muuqaalka, geeska sare midig | Guji dhinac, geeso ama geeso si aad uga aragto meeshaas; jiid si aad u wareegto; jiid giraangiraha isha si aad u rogto; badhanka guriga wuxuu dib ugu noqdaa {{ui:Iso}}. |
 
-Geeska wuxuu muujinayaa calaamadda muuqaalka, X, Y, Z axis yar, ama waxba: dooro {{ui:Settings}}, tab-ka TakeoffCraft, hoosta **Corner indicator** ([Dejinta TakeoffCraft](topic:settings)). Xaashida fiiqan ma leh calaamad geesood.
+Geeska wuxuu muujinayaa calaamadda muuqaalka, X, Y, Z axis yar, ama waxba: dooro {{ui:Settings}}, tab-ka TakeoffDesk, hoosta **Corner indicator** ([Dejinta TakeoffDesk](topic:settings)). Xaashida fiiqan ma leh calaamad geesood.
 
 :::touch
 Hal farood wuu wareegaa; laba farood wuu pinch-gareeyaa oo wuu guuraa. Taabasho wuxuu doortaa.

@@ -1,6 +1,6 @@
 ---
 title: Contaxe automática dun símbolo
-summary: Marque un símbolo, deixe que TakeoffCraft atope os demais nesta folla ou en todas as follas abertas, revise as coincidencias co control deslizante e engádaas nun só paso.
+summary: Marque un símbolo, deixe que TakeoffDesk atope os demais nesta folla ou en todas as follas abertas, revise as coincidencias co control deslizante e engádaas nun só paso.
 keywords: calquera ángulo, xirado, virado, outra escala, escala diferente, contaxe automática, busca de símbolos, atopar símbolos, patrón, modelo, coincidencia, detectar, ferramenta de contaxe
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Para deixar a revisión sen engadir nada, escolla {{ui:Discard}} ou prema {{key:
 
 ## Que atopa e que non
 
-TakeoffCraft compara o debuxo, como píxeles, co símbolo que marcou.
+TakeoffDesk compara o debuxo, como píxeles, co símbolo que marcou.
 
 - Atopa o símbolo xirado 0°, 90°, 180° e 270°. Marque {{ui:Any angle (slower)}} na barra de contaxe automática antes de debuxar a caixa para atopalo tamén en calquera ángulo: proba cada 15° e logo axusta cada atopado ata o grao e medio. Tarda uns seis veces máis. Non atopa un símbolo espello (salvo que o símbolo teña o mesmo aspecto espellado).
 - Con {{ui:Search all open sheets}} marcado, unha folla noutra escala búscase co tamaño que o símbolo ten nela: un aparello debuxado a escala nunha planta de 1/8" mide a metade que nunha planta de 1/4", e aínda así se atopa. Esa folla tamén se busca co tamaño propio da caixa, para etiquetas e símbolos impresos nun só tamaño en todas as follas. Isto require unha escala en ambas as follas; unha folla sen escala búscase só co tamaño da caixa.

@@ -77,7 +77,7 @@ $__wsCfg = AppBuilds::hasWorkspaces($__build) ? AppBuilds::workspaceConfig($__bu
 // menus, keys and mouse: as the site's import map (AppBuilds::headTags), a module may import the engine by its absolute path
 if (AppBuilds::input($__build)) foreach ([AppBuilds::INPUT_ENGINE, AppBuilds::INPUT_SCRIPT] as $__m) $imports[$__m] = $R . ltrim($__m, '/');
 if ($__wsCfg) { $imports['cc-workspace'] = $R . 'assets/js/app-workspace.js'; foreach (AppBuilds::WORKSPACE_MODULES as $__m) $imports[$__m] = $R . ltrim($__m, '/'); }
-$__site = 'https://getcadcraft.com';
+$__site = '';   // TakeoffDesk: no website behind the app
 // The edition's own facts for the apps and the shell (0.4 part 2 D.4): features that live only on getcadcraft.com are off.
 $__editionData = $edition === null ? null : [
     'edition' => 'browser', 'app' => $app['slug'], 'version' => $edition, 'site' => $__site,
@@ -176,7 +176,6 @@ ob_start();
 <?php endif; ?>
   </div>
   <nav class="app-bar-links" aria-label="<?= e($app['name']) ?>">
-    <a href="<?= e($__site) ?>/apps/<?= e($app['slug']) ?>"<?= $edition !== null ? ' target="_blank" rel="noopener"' : '' ?>><?= Lang::e('shell.bar.about', ['app' => $app['name']]) ?></a>
   </nav>
   <button type="button" class="app-bar-btn app-bar-help" data-help-open aria-expanded="false" title="Help (F1)" hidden><i class="bi bi-question-circle" aria-hidden="true"></i><span class="app-bar-btn-label">Help</span></button>
 <?php if ($__offlineData !== null): ?>

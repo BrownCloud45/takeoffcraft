@@ -37,12 +37,12 @@ Ang typed quantity ay walang mark at hindi ito nagpapagawang hindi kumpleto ang 
 Pindutin ang {{key:Esc}} sa form para isara ito nang hindi nagdadagdag ng item.
 
 :::tip
-Kung unang pipiliin mo ang measuring tool, gagamitin ng TakeoffCraft ang huling item ng tamang uri, o bubuksan ang form na {{ui:Bagong item}} na may napiling uri na.
+Kung unang pipiliin mo ang measuring tool, gagamitin ng TakeoffDesk ang huling item ng tamang uri, o bubuksan ang form na {{ui:Bagong item}} na may napiling uri na.
 :::
 
 ## Piliin ang item na ginuguhitan mo
 
-I-click ang item sa listahan. Ito ang magiging item kung saan mapupunta ang mga bagong mark, at made-highlight ang mga mark nito sa bawat sheet habang nagfa-fade ang iba. Kung walang mark ang bukas na sheet nito, tatalon ang TakeoffCraft sa sheet na mayroon. I-click ulit ang item para ihinto ang highlighting; mananatili pa rin itong item na ginuguhitan mo.
+I-click ang item sa listahan. Ito ang magiging item kung saan mapupunta ang mga bagong mark, at made-highlight ang mga mark nito sa bawat sheet habang nagfa-fade ang iba. Kung walang mark ang bukas na sheet nito, tatalon ang TakeoffDesk sa sheet na mayroon. I-click ulit ang item para ihinto ang highlighting; mananatili pa rin itong item na ginuguhitan mo.
 
 Ang pag-click sa mark gamit ang {{ui:Select}} tool ay ginagawa ring kasalukuyang item ang kabilang item.
 
@@ -57,7 +57,7 @@ Ang item editor (**Item: (pangalan)**) ay may mga field na ito. Bawat isa ay sin
 | {{ui:Color}} | Ang kulay ng mga mark nito sa screen at sa minarkahang PDF. |
 | {{ui:Unit}} | Ang unit ng iniuulat na quantity: LF o m para sa linear; SF, SY, SQ, ac, ha o m² para sa area; EA para sa count. |
 | {{ui:Also measure}} | Ang ibang uri ng mark na tinatanggap ng item, bawat isa ay may sariling unit. Tingnan sa ibaba. |
-| {{ui:Height}} (linear) | Taas ng pader. Iniuulat din ng item ang wall area (haba × taas). Ang runs na galing sa BimCraft model ay may dalang pinto at bintana: tinatanggal ang mga iyon nang isang beses, at sinasabi ng item ang gross area, ang mga opening, at ang net. Ang takeoff mula sa BimCraft project na pumili ng paraan ng pagsukat ay sinusukat din sa paraang iyon dito (sinasabi ng note ang pangalan nito, kasama ang pinagmulan, at sinasabing hindi pa ito na-check ng quantity surveyor); hindi mababago ang paraan sa TakeoffCraft. Ang bricks o blocks at mortar mula sa wall type ay dumarating bilang dalawang component: ang mga unit na oorderin at ang volume ng mortar. |
+| {{ui:Height}} (linear) | Taas ng pader. Iniuulat din ng item ang wall area (haba × taas). Ang runs na galing sa BimCraft model ay may dalang pinto at bintana: tinatanggal ang mga iyon nang isang beses, at sinasabi ng item ang gross area, ang mga opening, at ang net. Ang takeoff mula sa BimCraft project na pumili ng paraan ng pagsukat ay sinusukat din sa paraang iyon dito (sinasabi ng note ang pangalan nito, kasama ang pinagmulan, at sinasabing hindi pa ito na-check ng quantity surveyor); hindi mababago ang paraan sa TakeoffDesk. Ang bricks o blocks at mortar mula sa wall type ay dumarating bilang dalawang component: ang mga unit na oorderin at ang volume ng mortar. |
 | {{ui:Depth}} (area) | Lalim o kapal, ginagamit sa assembly formula (halimbawa ang volume ng kongkreto). |
 | {{ui:Waste %}} | Idinadagdag sa quantity bago presyuhan: ang 10 ay quantity × 1.10. |
 | Materyal $/LF | Gastos sa materyal bawat unit. Sumusunod ang label sa unit: $/SF, $/EA at iba pa. |
@@ -74,7 +74,7 @@ May mga bagay na sinusukat sa higit sa isang paraan: may sahig ang kuwarto (isan
 
 1. Gawin ang item gamit ang pangunahing uri nito, gaya ng area item na `Room 101`.
 2. Sa ilalim ng {{ui:Also measure}} sa editor nito, lagyan ng check ang {{ui:Linear}}, {{ui:Bilang}} o pareho. Bawat isa ay may unit sa tabi nito.
-3. Gumuhit gamit ang alinmang tool na tinatanggap ng uri ng item: kapag kasalukuyang `Room 101`, ang {{ui:Lawak}} ay gumuguhit ng sahig nito, ang {{ui:Linear}} ng base nito, at ang {{ui:Bilang}} ng mga pinto nito. Hindi humihingi ng ibang item ang TakeoffCraft.
+3. Gumuhit gamit ang alinmang tool na tinatanggap ng uri ng item: kapag kasalukuyang `Room 101`, ang {{ui:Lawak}} ay gumuguhit ng sahig nito, ang {{ui:Linear}} ng base nito, at ang {{ui:Bilang}} ng mga pinto nito. Hindi humihingi ng ibang item ang TakeoffDesk.
 
 Ipinapakita ng listahan ng items ang bawat quantity (`50.00 SF + 2 EA`). Sa quantities table, ang row ng item ay may pangunahing quantity, at ang bawat ibang uri ay may sariling row sa ibaba, gaya ng **Room 101 (bilang)**, na may sariling waste, materyal at labor rates. Ganito rin sila nililista ng mga export, ng per-sheet table, at ng legend ng minarkahang PDF.
 
@@ -113,7 +113,7 @@ Sa halip na labor rate bawat unit, ang labor ng item ay puwedeng galing sa crew:
 | {{ui:Laki ng crew}} | `2` katao |
 | {{ui:Sahod $/oras bawat isa}} | `45` |
 
-Kinukuwenta ng TakeoffCraft, mula sa quantity na kasama ang waste:
+Kinukuwenta ng TakeoffDesk, mula sa quantity na kasama ang waste:
 
 - **crew-hours** = quantity ÷ production (110 LF ÷ 20 = 5.5),
 - **worker-hours** = crew-hours × laki ng crew (11),

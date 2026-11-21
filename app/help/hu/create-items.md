@@ -37,12 +37,12 @@ A beírt mennyiség nem kap jeleket, és soha nem teszi a becslést hiányossá.
 Az űrlapban az {{key:Esc}} billentyű megnyomásával tétel hozzáadása nélkül zárhatja be.
 
 :::tip
-Ha előbb mérőeszközt választ, a TakeoffCraft a megfelelő típus utolsó tételét használja, vagy megnyitja az {{ui:Új tétel}} űrlapot a típus előre kiválasztásával.
+Ha előbb mérőeszközt választ, a TakeoffDesk a megfelelő típus utolsó tételét használja, vagy megnyitja az {{ui:Új tétel}} űrlapot a típus előre kiválasztásával.
 :::
 
 ## Válassza ki a rajzoláshoz használt tételt
 
-Kattintson a lista egyik tételére. Ez lesz az a tétel, amelyhez az új jelek tartoznak, a jelei pedig minden lapon kiemelve látszanak, a többi halványul. Ha a megnyitott lapon nincs egyetlen jele sem, a TakeoffCraft egy olyan lapra ugrik, amelyiken van. Kattintson újra a tételre a kiemelés megszüntetéséhez; a tétel attól még a rajzoláshoz használt tétel marad.
+Kattintson a lista egyik tételére. Ez lesz az a tétel, amelyhez az új jelek tartoznak, a jelei pedig minden lapon kiemelve látszanak, a többi halványul. Ha a megnyitott lapon nincs egyetlen jele sem, a TakeoffDesk egy olyan lapra ugrik, amelyiken van. Kattintson újra a tételre a kiemelés megszüntetéséhez; a tétel attól még a rajzoláshoz használt tétel marad.
 
 A {{ui:Kijelölés}} eszközzel egy jelre kattintva annak tétele is az aktuális tétel lesz.
 
@@ -57,7 +57,7 @@ A tételszerkesztő (**Tétel: (név)**) ezeket a mezőket tartalmazza. Mindegyi
 | {{ui:Szín}} | A jelei színe a képernyőn és a megjelölt PDF-ben. |
 | {{ui:Egység}} | Ebben az egységben jelenik meg a mennyiség: LF vagy m vonalasnál; SF, SY, SQ, ac, ha vagy m² területnél; EA darabszámnál. |
 | {{ui:Mérje még}} | Az egyéb jelfajták, amelyeket a tétel felvesz, mindegyik saját mértékegységgel. Lásd lent. |
-| {{ui:Magasság}} (vonalas) | Falmagasság. A tétel ekkor a falterületet is megjeleníti (hossz × magasság). A BimCraft modellből származó szakaszok a nyílásaikat is hordozzák: azokat egyszer kivonja, és a tétel a bruttó területet, a nyílásokat és a nettó területet közli. Ha a BimCraft-projekt mérési módszert választott, a mérés itt is ezzel történik (a megjegyzés megnevezi a módszert a forrásával együtt, és kimondja, hogy mennyiségi felmérő nem ellenőrizte); a módszer a TakeoffCraftban nem módosítható. Egy falfajtából származó téglák vagy blokkok és habarcs két összetevőként érkeznek: a rendelendő egységek és a habarcs térfogata. |
+| {{ui:Magasság}} (vonalas) | Falmagasság. A tétel ekkor a falterületet is megjeleníti (hossz × magasság). A BimCraft modellből származó szakaszok a nyílásaikat is hordozzák: azokat egyszer kivonja, és a tétel a bruttó területet, a nyílásokat és a nettó területet közli. Ha a BimCraft-projekt mérési módszert választott, a mérés itt is ezzel történik (a megjegyzés megnevezi a módszert a forrásával együtt, és kimondja, hogy mennyiségi felmérő nem ellenőrizte); a módszer a TakeoffDeskban nem módosítható. Egy falfajtából származó téglák vagy blokkok és habarcs két összetevőként érkeznek: a rendelendő egységek és a habarcs térfogata. |
 | {{ui:Mélység}} (terület) | Mélység vagy vastagság, az összetett tétel képleteiben használva (például betontérfogat). |
 | {{ui:Hulladék %}} | Az árazás előtt a mennyiséghez adódik: 10 esetén mennyiség × 1,10. |
 | {{ui:Anyag $/LF}} | Anyagköltség egységenként. A címke az egységet követi: $/SF, $/EA stb. |
@@ -74,7 +74,7 @@ Bizonyos dolgokat többféleképpen mérünk: egy helyiségnek van padlója (ter
 
 1. Készítse el a tételt a fő típusával, például `101-es helyiség` nevű területtételként.
 2. A szerkesztőjében a {{ui:Mérje még}} alatt jelölje be a {{ui:Vonalas}}, a {{ui:Darabszám}} négyzetet vagy mindkettőt. Mindegyik mellé kerül egy mértékegység.
-3. Rajzoljon bármely olyan eszközzel, amelynek a fajtáját a tétel felveszi: ha a `101-es helyiség` az aktuális, a {{ui:Terület}} a padlóját rajzolja meg, a {{ui:Vonalas}} a lábazatát, a {{ui:Darabszám}} az ajtóit. A TakeoffCraft nem kér másik tételt.
+3. Rajzoljon bármely olyan eszközzel, amelynek a fajtáját a tétel felveszi: ha a `101-es helyiség` az aktuális, a {{ui:Terület}} a padlóját rajzolja meg, a {{ui:Vonalas}} a lábazatát, a {{ui:Darabszám}} az ajtóit. A TakeoffDesk nem kér másik tételt.
 
 A tétellista minden mennyiséget mutat (`50.00 SF + 2 EA`). A mennyiségek táblázatában a tétel sorában van a fő mennyiség, a többi jelfajta pedig saját sort kap alatta, például **101-es helyiség (darabszám)** néven, saját hulladék- és anyag- és munkadíj-egységárral. Az exportok, a laponkénti táblázat és a megjelölt PDF jelmagyarázata ugyanígy sorolja fel őket.
 
@@ -113,7 +113,7 @@ Egységnyi munkadíj helyett a tétel munkadíja brigádból is származhat: men
 | {{ui:Brigádlétszám}} | `2` fő |
 | {{ui:Bér $/óra fejenként}} | `45` |
 
-A TakeoffCraft a hulladékkal számított mennyiségből kiszámítja:
+A TakeoffDesk a hulladékkal számított mennyiségből kiszámítja:
 
 - **brigádórák** = mennyiség ÷ termelékenység (110 LF ÷ 20 = 5,5),
 - **munkaórák** = brigádórák × brigádlétszám (11),

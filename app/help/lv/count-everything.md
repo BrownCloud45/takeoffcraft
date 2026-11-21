@@ -1,6 +1,6 @@
 ---
 title: Saskaitīt visu komplektā
-summary: Iezīmējiet simbolu legendu vienreiz, un TakeoffCraft saskaita katru tās simbolu katrā atvērtajā lapā vienā darbībā. Katrs skaits ir saite uz tā lapu, un jūs to pārskatāt, pirms kaut kas tiek pievienots.
+summary: Iezīmējiet simbolu legendu vienreiz, un TakeoffDesk saskaita katru tās simbolu katrā atvērtajā lapā vienā darbībā. Katrs skaits ir saite uz tā lapu, un jūs to pārskatāt, pirms kaut kas tiek pievienots.
 keywords: skaitīt visu, legenda, simbolu legenda, viss komplekts, katra lapa, visas lapas, katras durvis, katra armatūra, ierīces, specifikācija, simboli, automātiski skaitīt, skaitīt visu, plānu komplekts, 200 lapas, atbilstības līmenis, līdzīgi
 from: adc99744
 ---

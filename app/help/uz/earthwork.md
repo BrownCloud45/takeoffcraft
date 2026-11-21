@@ -5,7 +5,7 @@ keywords: yer ishlari, qazish, kesish, toʻldirish, kesish va toʻldirish, verti
 from: a898e508
 ---
 
-TakeoffCraft varaqda chizilgan narsalarni oʻlchaydi. Yer ishlari yer sirtini talab qiladi, shuning uchun u CivilCraft bilan birgalikda ishlatiladi: CivilCraft nuqtalardan sirtlar quradi, ularni vertikal rejalashtiradi va kesish, toʻldirish hamda tashishni hisoblaydi.
+TakeoffDesk varaqda chizilgan narsalarni oʻlchaydi. Yer ishlari yer sirtini talab qiladi, shuning uchun u CivilCraft bilan birgalikda ishlatiladi: CivilCraft nuqtalardan sirtlar quradi, ularni vertikal rejalashtiradi va kesish, toʻldirish hamda tashishni hisoblaydi.
 
 ## Bu yerda oddiy qazish
 
@@ -29,8 +29,8 @@ Turli varaqlardagi nuqtalar koordinatalarni bogʻlamaydi, shuning uchun eksport 
 
 CivilCraft'ning yer ishlari ikkita sotiladigan element sifatida qaytadi:
 
-1. CivilCraft'da maydonchalar va yoʻlaklarni vertikal rejalashtiring, soʻngra **Yer ishlari** ostida {{ui:Send to TakeoffCraft}} ni tanlang ([Yer ishlari hajmlari](app:civilcraft/volumes)). U miqdorlar faylini (`.quantities.json`) saqlaydi.
-2. TakeoffCraft'da uni {{ui:Open takeoff}} bilan oching yoki ilovaga tashlang. Hajmlar hisobingiz ochiq qoladi: fayl **Earthwork: cut** va **Earthwork: fill** elementlarini [turdagi miqdorlar](topic:create-items#typed-quantities-no-drawing) sifatida qoʻshadi: fut loyiha uchun kub yard (CY), metr loyiha uchun kub metr (m³) hisobida. Bu bitta qadam: {{key:Mod+Z}} uni qaytaradi.
+1. CivilCraft'da maydonchalar va yoʻlaklarni vertikal rejalashtiring, soʻngra **Yer ishlari** ostida {{ui:Send to TakeoffDesk}} ni tanlang ([Yer ishlari hajmlari](app:civilcraft/volumes)). U miqdorlar faylini (`.quantities.json`) saqlaydi.
+2. TakeoffDesk'da uni {{ui:Open takeoff}} bilan oching yoki ilovaga tashlang. Hajmlar hisobingiz ochiq qoladi: fayl **Earthwork: cut** va **Earthwork: fill** elementlarini [turdagi miqdorlar](topic:create-items#typed-quantities-no-drawing) sifatida qoʻshadi: fut loyiha uchun kub yard (CY), metr loyiha uchun kub metr (m³) hisobida. Bu bitta qadam: {{key:Mod+Z}} uni qaytaradi.
 3. Ularni xohlaganingizcha qayta nomlang, chiqindi, stavkalar va yigʻmalarni sozlang.
 
 Loyiha oʻzgarganda, CivilCraft'dan yana yuboring va yangi faylni oching: xuddi shu ikki element yangi miqdorlarni oladi. Ularning nomlari, stavkalari, chiqindisi va yigʻmalari siz belgilagandek qoladi. Agar loyihaning birligi oʻzgargan boʻlsa, holat satrida shu haqda aytiladi: stavkalarni tekshiring. Boshqa CivilCraft loyihasidan kelgan fayl oʻzining ikkita elementini qoʻshadi.

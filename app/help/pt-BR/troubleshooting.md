@@ -1,11 +1,11 @@
 ---
 title: Solução de problemas
-summary: Sintomas, causas e soluções para as mensagens e surpresas que você pode encontrar no TakeoffCraft, citadas como o aplicativo as mostra.
+summary: Sintomas, causas e soluções para as mensagens e surpresas que você pode encontrar no TakeoffDesk, citadas como o aplicativo as mostra.
 keywords: problemas, erros, não funciona, correção, ajuda, recusado, não mede, sem escala, marcações ausentes, falha na exportação, offline, toque
 from: cd319c9b
 ---
 
-O TakeoffCraft explica a maioria das recusas na barra de status, na parte inferior da janela. Encontre a mensagem abaixo.
+O TakeoffDesk explica a maioria das recusas na barra de status, na parte inferior da janela. Encontre a mensagem abaixo.
 
 ## Abrir arquivos
 
@@ -15,8 +15,8 @@ O TakeoffCraft explica a maioria das recusas na barra de status, na parte inferi
 | (nome) está protegido por senha. Abra uma cópia sem proteção. | O PDF precisa de senha para abrir. | Peça uma cópia sem proteção ou remova a senha em um programa de PDF em que você confie. |
 | (nome) não pôde ser lido como PDF (…) | O arquivo está danificado ou não é realmente um PDF. | Baixe-o de novo ou salve-o novamente pelo programa que o criou. |
 | (nome) já está aberto. | O mesmo PDF (mesmo conteúdo) está aberto. | Nada a fazer. |
-| O TakeoffCraft abre PDFs e projetos .takeoff.json. Ignorados: … | Outros tipos de arquivo foram descartados. | Converta os desenhos para PDF primeiro. |
-| Nada acontece ao soltar arquivos | Os arquivos foram soltos fora da janela do navegador, ou o navegador abriu o PDF em uma nova guia. | Solte sobre a própria página do TakeoffCraft; o quadro "Solte PDFs ou um .takeoff.json" mostra quando isso vai funcionar. |
+| O TakeoffDesk abre PDFs e projetos .takeoff.json. Ignorados: … | Outros tipos de arquivo foram descartados. | Converta os desenhos para PDF primeiro. |
+| Nada acontece ao soltar arquivos | Os arquivos foram soltos fora da janela do navegador, ou o navegador abriu o PDF em uma nova guia. | Solte sobre a própria página do TakeoffDesk; o quadro "Solte PDFs ou um .takeoff.json" mostra quando isso vai funcionar. |
 | Abrir um conjunto grande leva algum tempo | Cada PDF é lido por completo para gerar sua impressão digital. | Aguarde a mensagem "Abrindo (nome)…" sumir. As miniaturas são preenchidas conforme você rola a tela. |
 
 ## Medir
@@ -47,7 +47,7 @@ O TakeoffCraft explica a maioria das recusas na barra de status, na parte inferi
 | Mensagem ou sintoma | Causa | Solução |
 |---|---|---|
 | Escolha dois pontos mais afastados. | Os pontos de calibração estão quase sobrepostos. | Calibre em uma cota maior. |
-| Uma mensagem na caixa de diálogo de calibração, como "Não foi possível ler essa distância" | A distância está em um formato que o TakeoffCraft não consegue ler. | Veja [Entrada de comprimento, preço unitário e percentual](topic:entry-formats). |
+| Uma mensagem na caixa de diálogo de calibração, como "Não foi possível ler essa distância" | A distância está em um formato que o TakeoffDesk não consegue ler. | Veja [Entrada de comprimento, preço unitário e percentual](topic:entry-formats). |
 | Esta folha ainda não tem escala, então não há nada a conferir. Calibre-a ou escolha uma predefinida. | {{ui:Conferir}} em uma folha sem escala. | Defina uma escala primeiro. |
 | A lista {{ui:Predefinida}} está desabilitada | Nenhuma folha está aberta. | Abra um PDF. |
 
@@ -86,8 +86,8 @@ O TakeoffCraft explica a maioria das recusas na barra de status, na parte inferi
 | Este PDF é protegido por senha ou criptografado, então uma cópia marcada não pode ser gravada. … | O PDF está criptografado. | Exporte o {{ui:XLSX}} no lugar, ou use uma cópia sem criptografia do PDF (ela então precisa do próprio levantamento, pois é outro arquivo). |
 | O PDF marcado não pôde ser gravado: … | Muitas vezes: offline, e o aplicativo não foi salvo para uso offline, então o gravador de PDF está ausente. | Volte a ficar online e escolha {{ui:PDF marcado}} de novo. Para evitar isso, escolha {{ui:Salvar para uso offline}} e aguarde {{ui:Pronto para uso offline}}. |
 | Só um PDF marcado foi baixado | O navegador bloqueou vários downloads ao mesmo tempo. | Permita vários downloads para este site e exporte de novo. |
-| (arquivo) não é um projeto do TakeoffCraft (não é um JSON válido). / Este não é um arquivo de projeto do TakeoffCraft. | Arquivo errado, ou um arquivo danificado. | Selecione o arquivo `.takeoff.json`. |
-| Este projeto foi salvo por um TakeoffCraft mais novo. Abra-o lá. | O arquivo vem de uma versão mais recente. | Abra-o na versão mais recente. |
+| (arquivo) não é um projeto do TakeoffDesk (não é um JSON válido). / Este não é um arquivo de projeto do TakeoffDesk. | Arquivo errado, ou um arquivo danificado. | Selecione o arquivo `.takeoff.json`. |
+| Este projeto foi salvo por um TakeoffDesk mais novo. Abra-o lá. | O arquivo vem de uma versão mais recente. | Abra-o na versão mais recente. |
 | (n) marcações foram danificadas e deixadas de fora. | Parte do arquivo foi danificada ou editada manualmente. | O restante foi aberto. Desenhe as marcações que faltam de novo, ou abra uma cópia mais antiga. |
 | Marcações ausentes após reabrir | Os PDFs não estão abertos, ou um deles foi alterado. | Veja [Salvar e reabrir um levantamento](topic:save-and-reopen#when-a-pdf-has-changed). |
 | O navegador pergunta "Sair do site?" | Há alterações não salvas. | Fique na página e salve com {{key:Mod+S}}. |

@@ -5,12 +5,12 @@ keywords: "ifc, ifc4x3, ifc 4.3, kalsada, riles, tulay, pavement, kerb, course, 
 from: 6b08c2c4
 ---
 
-Maaaring maglaman ang IFC 4.3 file ng mga kalsada, riles, tulay, marine works at ang mga bahaging binubuo ng mga ito: pavement, course, kerb, rail, earthworks, bearing, pile at iba pa. Binabasa ng TakeoffCraft ang mga ito at ginagawang typed quantities na maaari mong presyuhan.
+Maaaring maglaman ang IFC 4.3 file ng mga kalsada, riles, tulay, marine works at ang mga bahaging binubuo ng mga ito: pavement, course, kerb, rail, earthworks, bearing, pile at iba pa. Binabasa ng TakeoffDesk ang mga ito at ginagawang typed quantities na maaari mong presyuhan.
 
 ## Buksan ang file
 
 1. Piliin ang {{ui:Buksan ang plano}} sa pangkat na {{ui:File}}, o pindutin ang {{key:Mod+O}}.
-2. Piliin ang IFC file (maaari mo itong piliin kasama ng mga PDF), o i-drop ito sa TakeoffCraft.
+2. Piliin ang IFC file (maaari mo itong piliin kasama ng mga PDF), o i-drop ito sa TakeoffDesk.
 
 Isang typed quantity ang nagagawa para sa bawat class at predefined type, halimbawa "Pavement (flexible): count", at, kapag sinasabi ito ng file, "length" sa m, "area" sa m² at "volume" sa m³. Sinasabi ng note sa bawat item kung ilang elemento ang nabilang at ilan ang walang sinasabing dami. Ang pagbubukas ng mas bagong file na may parehong pangalan ay nag-a-update ng mga dami na iyon, sa halip na magdagdag pa ng marami.
 

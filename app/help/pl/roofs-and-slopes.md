@@ -5,7 +5,7 @@ keywords: dach, spadek, nachylenie, współczynnik nachylenia, wzniesienie, bieg
 from: 38225b60
 ---
 
-Rzut dachu pokazuje każdą płaszczyznę dachu płasko, widzianą z góry. Sam dach jest większy: płaszczyzna o spadku 6:12 ma około 12% więcej powierzchni niż jej rzut, a jej pochylone krawędzie są dłuższe, niż wyglądają. Nadaj pozycji spadek, a TakeoffCraft zmierzy wzdłuż nachylenia.
+Rzut dachu pokazuje każdą płaszczyznę dachu płasko, widzianą z góry. Sam dach jest większy: płaszczyzna o spadku 6:12 ma około 12% więcej powierzchni niż jej rzut, a jej pochylone krawędzie są dłuższe, niż wyglądają. Nadaj pozycji spadek, a TakeoffDesk zmierzy wzdłuż nachylenia.
 
 ## Wpisywanie spadku
 

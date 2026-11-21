@@ -55,4 +55,4 @@ Miisaanka xaashi wuxuu sheegaa sida naqshaddu u weyn tahay; unugga shayga wuxuu 
 
 ## Saxnaanta
 
-TakeoffCraft wuxuu si sax ah u cabbiraa dhibcaha aad riixdo, oo ay ku jiraan dhererrada qalooca dhabta ah iyo aagagga, mana wareejiyo tirooyinka. Muujintu waxay dhererka wareejisaa 1/16 inji, tobanleyda labo meelood. Lacagta waxaa la wareejiyaa oo kaliya wadarta dhammaatay, ilaa sentiin.
+TakeoffDesk wuxuu si sax ah u cabbiraa dhibcaha aad riixdo, oo ay ku jiraan dhererrada qalooca dhabta ah iyo aagagga, mana wareejiyo tirooyinka. Muujintu waxay dhererka wareejisaa 1/16 inji, tobanleyda labo meelood. Lacagta waxaa la wareejiyaa oo kaliya wadarta dhammaatay, ilaa sentiin.

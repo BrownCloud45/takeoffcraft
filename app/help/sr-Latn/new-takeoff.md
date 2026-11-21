@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Sačuvajte tekući predmer ako ga želite zadržati: {{ui:Sačuvaj predmer}} ili {{key:Mod+S}}.
 2. Izaberite {{ui:Novi}} u grupi {{ui:Datoteka}}.
-3. Ako postoje nesačuvane izmene, TakeoffCraft pita **Nesačuvan predmer**: izaberite {{ui:Prvo sačuvaj predmer}} (preuzima projekat, pa briše), {{ui:Odbaci izmene}} ili {{ui:Otkaži}}.
+3. Ako postoje nesačuvane izmene, TakeoffDesk pita **Nesačuvan predmer**: izaberite {{ui:Prvo sačuvaj predmer}} (preuzima projekat, pa briše), {{ui:Odbaci izmene}} ili {{ui:Otkaži}}.
    Prozor se vraća u prazno stanje: nema PDF-ova, stavki, oznaka ni razmera. Statusna traka kaže „Novi predmer. Otvorite PDF-ove da počnete.“
 
 Šta se briše:

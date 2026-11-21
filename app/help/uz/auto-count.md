@@ -1,6 +1,6 @@
 ---
 title: Belgini avtosanash
-summary: Bitta belgini belgilang, TakeoffCraft bu varaqdan yoki ochiq barcha varaqlardan boshqalarini topsin, moslikni surgich bilan koʻrib chiqing va bir qadamda qoʻshing.
+summary: Bitta belgini belgilang, TakeoffDesk bu varaqdan yoki ochiq barcha varaqlardan boshqalarini topsin, moslikni surgich bilan koʻrib chiqing va bir qadamda qoʻshing.
 keywords: istalgan burchak, burilgan, boshqa masshtab, turli masshtab, avtosanash, avtomatik sanash, belgini qidirish, belgilarni topish, andoza, shablon, moslik, aniqlash, sanash asbobi
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Hech narsa qoʻshmasdan koʻrib chiqishni bekor qilish uchun {{ui:Rad etish}} ni
 
 ## Nimani topadi va nimani oʻtkazib yuboradi
 
-TakeoffCraft chizmani piksellar boʻyicha siz belgilagan belgi bilan solishtiradi.
+TakeoffDesk chizmani piksellar boʻyicha siz belgilagan belgi bilan solishtiradi.
 
 - Belgini 0°, 90°, 180° va 270° ga burilgan holda topadi. Istalgan burchakda ham topish uchun quti chizishdan oldin avtosanash panelida {{ui:Istalgan burchak ostida (sekinroq)}} ni belgilang: u har 15° da sinaydi, soʻngra har bir topilmani daraja va yarim darajagacha aniqlaydi. Bu taxminan olti barobar uzoq davom etadi. Aks ettirilgan belgini topmaydi (agar belgi aks ettirilganda ham oʻxshash boʻlmasa).
 - {{ui:Barcha ochiq varaqlarni qidirish}} belgilangan boʻlsa, boshqa masshtabdagi varaq shu varaqda belgi egallagan oʻlchamda qidiriladi: 1/8" planda masshtabda chizilgan qurilma 1/4" planda undan ikki baravar kichik boʻladi, lekin yana topiladi. Bunday varaq quti oʻz oʻlchamida ham qidiriladi — bu har bir varaqda bir xil oʻlchamda chop etilgan teglar va belgilar uchun. Buning uchun ikkala varaqda ham masshtab boʻlishi kerak; masshtabi boʻlmagan varaq faqat quti oʻlchamida qidiriladi.

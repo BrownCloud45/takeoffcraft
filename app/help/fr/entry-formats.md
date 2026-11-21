@@ -1,6 +1,6 @@
 ---
 title: Saisie des longueurs, des prix unitaires et des pourcentages
-summary: Ce que vous pouvez saisir pour les distances, les hauteurs, les prix unitaires et les pourcentages de chute, avec des exemples et les messages pour les saisies que TakeoffCraft ne peut pas lire.
+summary: Ce que vous pouvez saisir pour les distances, les hauteurs, les prix unitaires et les pourcentages de chute, avec des exemples et les messages pour les saisies que TakeoffDesk ne peut pas lire.
 keywords: saisie, format, pieds et pouces, fractions, pieds décimaux, métrique, mètres, millimètres, prix unitaire, montant, dollars, pourcentage, chute, frappe
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Jusqu'à deux décimales, de 0 % à 1000 %. Messages : « Saisissez un pourcenta
 ## Noms et unités
 
 - Noms des postes et des composants : 200 caractères maximum.
-- L'{{ui:Unité}} d'un composant : tout texte de 20 caractères maximum, comme `EA`, `sheets`, `CY`, `gal`. Ce n'est qu'une étiquette ; TakeoffCraft ne la convertit pas.
+- L'{{ui:Unité}} d'un composant : tout texte de 20 caractères maximum, comme `EA`, `sheets`, `CY`, `gal`. Ce n'est qu'une étiquette ; TakeoffDesk ne la convertit pas.
 
 ## Formules
 

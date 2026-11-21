@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, kelias, geležinkelis, tiltas, danga, bordiūras
 from: 6b08c2c4
 ---
 
-IFC 4.3 failas gali turėti kelius, geležinkelius, tiltus, jūrų statinius ir jų dalis: dangas, sluoksnius, bordiūrus, bėgius, žemės darbus, atramas, polius ir kita. TakeoffCraft juos nuskaito ir paverčia tipizuotais kiekiais, kuriuos galite įkainoti.
+IFC 4.3 failas gali turėti kelius, geležinkelius, tiltus, jūrų statinius ir jų dalis: dangas, sluoksnius, bordiūrus, bėgius, žemės darbus, atramas, polius ir kita. TakeoffDesk juos nuskaito ir paverčia tipizuotais kiekiais, kuriuos galite įkainoti.
 
 ## Atidaryti failą
 
 1. Pasirinkite {{ui:Atidaryti planus}} grupėje {{ui:Failas}} arba paspauskite {{key:Mod+O}}.
-2. Pasirinkite IFC failą (galite pasirinkti jį kartu su PDF) arba įmeskite jį į TakeoffCraft.
+2. Pasirinkite IFC failą (galite pasirinkti jį kartu su PDF) arba įmeskite jį į TakeoffDesk.
 
 Kiekvienai klasei ir iš anksto nustatytam tipui sukuriamas vienas tipizuotas kiekis, pavyzdžiui „Danga (lanksti): skaičius“, o kai failas juos nurodo, dar „ilgis“ m, „plotas“ m² ir „tūris“ m³. Prie kiekvienos pozicijos esanti pastaba nurodo, kiek elementų suskaičiuota ir kiek jų neturėjo nurodyto kiekio. Atidarius naujesnį to paties pavadinimo failą, šie kiekiai atnaujinami, o ne pridedami.
 

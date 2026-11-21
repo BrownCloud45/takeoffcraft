@@ -77,7 +77,7 @@ Eén rij per blad dat een schaal of markeringen heeft.
 | Blad | Bladnaam |
 | Schaal | De naam van de voorinstelling, of de gekalibreerde schaal, of "Geen schaal" |
 | Hoe | "Voorinstelling", of "Gekalibreerd op (de afstand die u typte)" |
-| Voet per pdf-eenheid | De exacte schaalfactor die TakeoffCraft gebruikt |
+| Voet per pdf-eenheid | De exacte schaalfactor die TakeoffDesk gebruikt |
 
 ## Bestandsnamen
 

@@ -14,7 +14,7 @@ Stavka brojanja broji stvari: vrata, svetiljke, utičnice, vodovodne armature. S
 3. Kliknite svaki na listu.
    Svaki klik stavlja tačku u boji stavke, a brojanje stavke se povećava za jedan.
 4. Idite na sledeći list ({{key:PageDown}}) i nastavite da brojite. Alat ostaje na {{ui:Prebroj}}.
-5. Pritisnite {{key:Esc}} kada završite. TakeoffCraft se vraća na {{ui:Izaberi}}.
+5. Pritisnite {{key:Esc}} kada završite. TakeoffDesk se vraća na {{ui:Izaberi}}.
 
 Prevlačenje i dalje pomera pogled, a točkić zumira dok brojite, pa se možete kretati po listu bez dodavanja tačaka.
 
@@ -30,7 +30,7 @@ Kliknite stavku brojanja da istaknete njene tačke na svim listovima. Spisak lis
 
 ## Veličina tačke, na ekranu i u PDF-u
 
-Tačke zadržavaju istu veličinu na ekranu bez obzira koliko zumirate. Da je promenite, otvorite {{ui:Podešavanja}}, tab TakeoffCraft, i izaberite **Veličina oznake brojanja**: Ekstra mala, Mala, Srednja (podrazumevana) ili Velika.
+Tačke zadržavaju istu veličinu na ekranu bez obzira koliko zumirate. Da je promenite, otvorite {{ui:Podešavanja}}, tab TakeoffDesk, i izaberite **Veličina oznake brojanja**: Ekstra mala, Mala, Srednja (podrazumevana) ili Velika.
 
 Izvoz u PDF ({{ui:Izvezi}} › PDF sa oznakama) crta svaku tačku iste veličine na papiru, bez obzira na veličinu lista: pregledač koji prikazuje PDF na 100% prikazuje tačke onoliko velike koliko su na ekranu. Ako bi se tačke na listu inače dodirivale, izvoz za taj list smanjuje tačke da bi svaka mogla da se pročita.
 

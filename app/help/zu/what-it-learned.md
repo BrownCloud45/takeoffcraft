@@ -1,11 +1,11 @@
 ---
-title: Okufundwe yi-TakeoffCraft kokubalwa kwakho
-summary: I-TakeoffCraft igcina izimpawu oziqinisekisile nge-Ukubala okuzenzakalelayo, amasethi wezimo zakho, izinhlanganisela ozisebenzisa kakhulu nemikhuba oyiphindayo kuwo wonke amakhasi, konke ngaphakathi kwefayela lokubalwa lwayo. Bheka, sebenzisa, susa.
+title: Okufundwe yi-TakeoffDesk kokubalwa kwakho
+summary: I-TakeoffDesk igcina izimpawu oziqinisekisile nge-Ukubala okuzenzakalelayo, amasethi wezimo zakho, izinhlanganisela ozisebenzisa kakhulu nemikhuba oyiphindayo kuwo wonke amakhasi, konke ngaphakathi kwefayela lokubalwa lwayo. Bheka, sebenzisa, susa.
 keywords: funda, okufundiwe, ukufunda, umsizi, khumbula, izimpawu, amathempelethi, njengomsebenzi wokugcina, umsebenzi wokugcina, isethi yezimo, izimo, sebenzisa kabusha, izinhlanganisela, ezisetshenziswa kakhulu, iziphakamiso, phinda kuwo wonke amakhasi, wonke amakhasi, ibhulokhi yesihloko, ipethini, sula konke, khohlwa, ubumfihlo
 from: 54d99e99
 ---
 
-I-TakeoffCraft iba ngcono ngokuthi usebenza kakhulu ngayo. Ifunda **kuphela kulokho okwamukelayo**:
+I-TakeoffDesk iba ngcono ngokuthi usebenza kakhulu ngayo. Ifunda **kuphela kulokho okwamukelayo**:
 
 - izimpawu owaziboxe nge-[Ukubala okuzenzakalelayo](topic:auto-count) bese uzengeza,
 - amasethi wezimo ozigcinayo,
@@ -64,6 +64,6 @@ Ukuze uyeke ukufunda kokubalwa okukodwa, susa ukukhethwa kwe-{{ui:Learn from thi
 
 ## Okufanele uyazi
 
-- Izinguqulo zangaphambili ze-TakeoffCraft zivula ifayela elinento efundiwe ngokujwayelekile. Zinganaki lolo lolwazi, futhi uma zilondoloza ifayela futhi, ziyalususa.
+- Izinguqulo zangaphambili ze-TakeoffDesk zivula ifayela elinento efundiwe ngokujwayelekile. Zinganaki lolo lolwazi, futhi uma zilondoloza ifayela futhi, ziyalususa.
 - Isimpawu esifundiwe siyisithombe esincane sento oyiboxile, esigcinwa kulelifayela (ama-KB ambalwa ngamunye).
 - Izimpawu ezifundiwe ziyasesha njengoba i-Auto count isesha, ngakho imikhawulo efanayo iyasebenza: [Ukubala isimpawu ngokuzenzakalelayo](topic:auto-count).

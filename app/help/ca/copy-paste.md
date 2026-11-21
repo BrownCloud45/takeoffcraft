@@ -32,11 +32,11 @@ Les marques enganxades van a l'{{ui:Àrea de pressupost}} escollida a la part su
 
 {{key:Mod+Shift+V}} ({{ui:Enganxa al mateix lloc}}) posa la còpia exactament al mateix lloc del full obert, segons la seva posició a la pàgina. Useu-la per a una planta típica: amidiu el nivell 2, copieu, obriu el nivell 3 i enganxeu al mateix lloc.
 
-Enganxar al mateix lloc necessita un full de la **mateixa mida** que aquell del qual heu copiat. En un full d'una altra mida, TakeoffCraft ho diu i no enganxa res; useu {{ui:Enganxa}} i cliqueu. Sobre el full del qual heu copiat, la còpia cau damunt dels originals.
+Enganxar al mateix lloc necessita un full de la **mateixa mida** que aquell del qual heu copiat. En un full d'una altra mida, TakeoffDesk ho diu i no enganxa res; useu {{ui:Enganxa}} i cliqueu. Sobre el full del qual heu copiat, la còpia cau damunt dels originals.
 
 ## L'escala ha de coincidir
 
-Les longituds i les àrees depenen de l'escala del full. Un recorregut que mesura 10' a 1/4" = 1'-0" mesuraria 20' en un full a 1/8" = 1'-0". Per això TakeoffCraft enganxa recorreguts i àrees només en un full amb la **mateixa escala** que el full d'origen, i ho diu clarament quan no és així:
+Les longituds i les àrees depenen de l'escala del full. Un recorregut que mesura 10' a 1/4" = 1'-0" mesuraria 20' en un full a 1/8" = 1'-0". Per això TakeoffDesk enganxa recorreguts i àrees només en un full amb la **mateixa escala** que el full d'origen, i ho diu clarament quan no és així:
 
 - El full obert encara no té escala: doneu-li'n una primer ([Estableix l'escala](topic:set-the-scale)), i després enganxeu.
 - El full obert té una altra escala: el missatge en diu les dues escales. Enganxeu en un full de la mateixa escala.
@@ -59,7 +59,7 @@ L'editor d'elements (sota **Elements**) acaba amb:
 - {{ui:Duplica la partida}}: afegeix una còpia de seguida, anomenada "(nom) (còpia)".
 
 :::tip
-La còpia es queda en aquest ordinador: es guarda en aquesta pestanya i a l'emmagatzematge del navegador, de manera que una altra pestanya de TakeoffCraft la pot enganxar. No es puja res, i no s'usa el porta-retalls del sistema, així que no podeu enganxar marques en altres programes.
+La còpia es queda en aquest ordinador: es guarda en aquesta pestanya i a l'emmagatzematge del navegador, de manera que una altra pestanya de TakeoffDesk la pot enganxar. No es puja res, i no s'usa el porta-retalls del sistema, així que no podeu enganxar marques en altres programes.
 :::
 
 :::note

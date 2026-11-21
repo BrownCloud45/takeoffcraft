@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Čo urobíte
 
-Zmeníte, ako TakeoffCraft zobrazuje dĺžky, aby sa metrická zákazka čítala v metroch, centimetroch alebo milimetroch na liste, v stavovom riadku a v paneloch.
+Zmeníte, ako TakeoffDesk zobrazuje dĺžky, aby sa metrická zákazka čítala v metroch, centimetroch alebo milimetroch na liste, v stavovom riadku a v paneloch.
 
 ## Postup
 
-1. Otvorte {{ui:Settings}} cez ozubené koliesko na paneli aplikácie alebo stlačte {{key:Mod+,}} a zostaňte na karte {{ui:TakeoffCraft}}.
+1. Otvorte {{ui:Settings}} cez ozubené koliesko na paneli aplikácie alebo stlačte {{key:Mod+,}} a zostaňte na karte {{ui:TakeoffDesk}}.
 2. Nájdite {{ui:Show lengths as}} a vyberte {{ui:Feet-inches}}, m, cm alebo mm. {{ui:Follow Global}} použije metrickú jednotku dĺžky označenú hviezdičkou v {{ui:Settings}} › {{ui:Global}} › {{ui:Units}} a stopy a palce, ak žiadna označená nie je.
 3. Pozrite sa na list: dĺžky v stavovom riadku, v zozname položiek a v paneloch sa teraz zobrazujú v jednotke, ktorú ste vybrali. Rovnako výšky, hĺbky, hrúbky a úrovne.
 4. Ak chcete teploty položiek čítať v °C alebo °F, vyberte {{ui:Show temperatures as}} na tej istej karte.

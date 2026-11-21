@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-ifc43.mjs — 0.8 SU.882 (ifc_PART_4): an IFC 4.3 file opened in TakeoffCraft (/lab/takeoffcraft, headless Chromium, run as root) becomes typed
+ * browser-ifc43.mjs — 0.8 SU.882 (ifc_PART_4): an IFC 4.3 file opened in TakeoffDesk (/lab/takeoffcraft, headless Chromium, run as root) becomes typed
  * quantities. Writes a road with lib/ifc/ifc43.js write43, opens it through the file input, checks the items (pavement volume 210 m³, kerb length, counts),
  * the same file again changes nothing, an IFC4 building file says it holds no infrastructure, no console errors.
  *   node tools/takeoffcraft-test/browser-ifc43.mjs

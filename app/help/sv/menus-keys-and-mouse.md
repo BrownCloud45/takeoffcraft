@@ -5,22 +5,22 @@ keywords: menystil, menyer, menyrad, menyflik, menyflikar, verktygsfält, genvä
 from: f01f0d6d
 ---
 
-TakeoffCraft:s kommandon är desamma oavsett hur du når dem. En **menystil** avgör bara var de sitter på skärmen, vad de heter där och vilka tangenter som kör dem. Välj en i {{ui:Inställningar}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menyer, tangenter och mus}}; ändringen gäller direkt, och den här webbläsaren kommer ihåg den.
+TakeoffDesk:s kommandon är desamma oavsett hur du når dem. En **menystil** avgör bara var de sitter på skärmen, vad de heter där och vilka tangenter som kör dem. Välj en i {{ui:Inställningar}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menyer, tangenter och mus}}; ändringen gäller direkt, och den här webbläsaren kommer ihåg den.
 
 ## De tre stilarna
 
 | Stil | Vad du får |
 |---|---|
-| {{ui:TakeoffCraft}} | TakeoffCraft:s egna verktygsfält: Fil, Exportera, Skala, Mängdavtagning, Redigera och Visa, med tangenterna för verktygen (en bokstav var). Utgångspunkten. |
+| {{ui:TakeoffDesk}} | TakeoffDesk:s egna verktygsfält: Fil, Exportera, Skala, Mängdavtagning, Redigera och Visa, med tangenterna för verktygen (en bokstav var). Utgångspunkten. |
 | {{ui:Avtagningsbord}} | En menyrad ({{ui:Fil}}, {{ui:Redigera}}, {{ui:Visa}}, {{ui:Skala}}, {{ui:Mängdavtagning}}, {{ui:Poster}}, {{ui:Markering}}, {{ui:Exportera}}) över en rad med avtagningsverktyg, så som program för digital avtagning brukar lägga upp sina. Poster kallas villkor på raden. Samma tangenter, plus {{key:N}} för en ny post. Skalförvalen flyttas till bladets fält, bredvid bladets skala. |
 | {{ui:Avtagningsmeny}} | Menyflikar med namn efter arbetet: {{ui:Mängdavtagning}} (mät, form, skala, från ritningen, villkor), {{ui:Redigera}}, {{ui:Visa}}, {{ui:Markering}} och {{ui:Kalkyl}} (arbetsboken, markerade PDF:er, anbudet), med en menyn {{ui:Fil}} och en snabbrad för öppna, spara, ångra och gör om. De verktyg du använder hela dagen är stora, och deras grannar små och staplade. Samma tangenter; skalförvalen flyttas till bladets fält. |
 
-Alla tre stilarna behåller TakeoffCraft:s tangenter: {{key:V}} markera, {{key:L}} linjär, {{key:A}} area, {{key:O}} cirkel, {{key:B}} rum, {{key:P}} sökväg (välj PDF:ens linjer), {{key:X}} urtag, {{key:C}} räkna, {{key:S}} autoräkna, {{key:K}} kalibrera, {{key:D}} kontrollera, {{key:R}} bågläge, {{key:E}} avdragsläge, {{key:F}} och {{key:W}} för att anpassa, {{key:3}} 3D-kontrollvyn, {{key:F3}} fångst, samt {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Alla tre stilarna behåller TakeoffDesk:s tangenter: {{key:V}} markera, {{key:L}} linjär, {{key:A}} area, {{key:O}} cirkel, {{key:B}} rum, {{key:P}} sökväg (välj PDF:ens linjer), {{key:X}} urtag, {{key:C}} räkna, {{key:S}} autoräkna, {{key:K}} kalibrera, {{key:D}} kontrollera, {{key:R}} bågläge, {{key:E}} avdragsläge, {{key:F}} och {{key:W}} för att anpassa, {{key:3}} 3D-kontrollvyn, {{key:F3}} fångst, samt {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Bladfältets verktyg (anteckningar, moln, överstrykningar, Jämför, 3D) väntar tills en PDF är öppen; väljs de innan dess säger statusraden det.
 
 :::tip
-En tangent som hör till TakeoffCraft:s egen layout men som din stil gav ett annat kommando gör ingenting, och statusraden säger vart dess kommando tog vägen (”I Mina tangenter är Räkna Ctrl+Alt+C”). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} och piltangenterna behåller alltid sin betydelse. Medan du ritar en sträcka eller en kontur, klistrar in eller granskar en autoräkning, tillhör bokstäverna och siffrorna i en inskriven längd ritningen.
+En tangent som hör till TakeoffDesk:s egen layout men som din stil gav ett annat kommando gör ingenting, och statusraden säger vart dess kommando tog vägen (”I Mina tangenter är Räkna Ctrl+Alt+C”). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} och piltangenterna behåller alltid sin betydelse. Medan du ritar en sträcka eller en kontur, klistrar in eller granskar en autoräkning, tillhör bokstäverna och siffrorna i en inskriven längd ritningen.
 :::
 
 ## Gör den till din egen
@@ -41,12 +41,12 @@ Att spara en inbyggd stil gör en egen kopia (”Mitt avtagningsbord”); den in
 
 ## Ta den med dig
 
-{{ui:Exportera}} sparar stilen i bruk som en liten `.ccinput.json`-fil; {{ui:Importera…}} lägger till en, från en annan dator eller från en kollega. En importerad fil kan bara peka på TakeoffCraft:s egna kommandon: allt annat i den utelämnas och räknas i statusraden. {{ui:Ta bort den här stilen}} tar bort en av dina egna.
+{{ui:Exportera}} sparar stilen i bruk som en liten `.ccinput.json`-fil; {{ui:Importera…}} lägger till en, från en annan dator eller från en kollega. En importerad fil kan bara peka på TakeoffDesk:s egna kommandon: allt annat i den utelämnas och räknas i statusraden. {{ui:Ta bort den här stilen}} tar bort en av dina egna.
 
 :::note
-Inställningarna stannar i den här webbläsaren. {{ui:Använd den här stilen i alla appar}} under stilkorten gör att varje app öppnas i sin motsvarande stil (sitt eget verktygsfält, en menyrad eller en menyflik), med de ändringar du gjort i varje app. TakeoffCraft har ingen stil med en kommandorad: när en sådan väljs för alla appar behåller TakeoffCraft sitt eget verktygsfält.
+Inställningarna stannar i den här webbläsaren. {{ui:Använd den här stilen i alla appar}} under stilkorten gör att varje app öppnas i sin motsvarande stil (sitt eget verktygsfält, en menyrad eller en menyflik), med de ändringar du gjort i varje app. TakeoffDesk har ingen stil med en kommandorad: när en sådan väljs för alla appar behåller TakeoffDesk sitt eget verktygsfält.
 
-{{ui:Avtagningsmeny}} är också menyflikarna i layouten {{ui:Ribbon and project browser}} ({{ui:Inställningar}} › {{ui:Globalt}} › {{ui:Layout}}): se [TakeoffCraft-skärmen](topic:workspace).
+{{ui:Avtagningsmeny}} är också menyflikarna i layouten {{ui:Ribbon and project browser}} ({{ui:Inställningar}} › {{ui:Globalt}} › {{ui:Layout}}): se [TakeoffDesk-skärmen](topic:workspace).
 :::
 
-Relaterat: [Tangentbord och mus](topic:keyboard) · [TakeoffCraft-inställningar](topic:settings) · [Om du kommer från annan avtagningsprogramvara](topic:coming-from)
+Relaterat: [Tangentbord och mus](topic:keyboard) · [TakeoffDesk-inställningar](topic:settings) · [Om du kommer från annan avtagningsprogramvara](topic:coming-from)

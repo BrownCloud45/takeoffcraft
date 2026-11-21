@@ -32,11 +32,11 @@ Mapupunta ang mga na-paste na mark sa bid area na pinili sa itaas ng panel ng {{
 
 {{key:Mod+Shift+V}} ({{ui:I-paste sa lugar}}) ay inilalagay ang kopya sa eksaktong parehong puwesto sa bukas na sheet, ayon sa posisyon nito sa page. Gamitin ito para sa karaniwang palapag: i-takeoff ang level 2, kopyahin, buksan ang level 3, at i-paste sa lugar.
 
-Kailangang **magkaparehong laki** ng sheet sa pinagkopyahan ang I-paste sa lugar. Sa sheet na ibang laki, sasabihin ito ng TakeoffCraft at walang ipi-paste; gamitin na lang ang {{ui:I-paste}} at mag-click. Sa sheet na pinagkopyahan, mapupunta ang kopya sa ibabaw ng mga orihinal.
+Kailangang **magkaparehong laki** ng sheet sa pinagkopyahan ang I-paste sa lugar. Sa sheet na ibang laki, sasabihin ito ng TakeoffDesk at walang ipi-paste; gamitin na lang ang {{ui:I-paste}} at mag-click. Sa sheet na pinagkopyahan, mapupunta ang kopya sa ibabaw ng mga orihinal.
 
 ## Dapat magkapareho ang scale
 
-Nakadepende sa scale ng sheet ang mga haba at area. Ang run na sumusukat ng 10' sa 1/4" = 1'-0" ay susukat ng 20' sa sheet na 1/8" = 1'-0". Kaya ang mga run at area ay ipinapaste lamang ng TakeoffCraft sa sheet na may **parehong scale** ng sheet na pinanggalingan, at tahasang sinasabi kapag hindi ito:
+Nakadepende sa scale ng sheet ang mga haba at area. Ang run na sumusukat ng 10' sa 1/4" = 1'-0" ay susukat ng 20' sa sheet na 1/8" = 1'-0". Kaya ang mga run at area ay ipinapaste lamang ng TakeoffDesk sa sheet na may **parehong scale** ng sheet na pinanggalingan, at tahasang sinasabi kapag hindi ito:
 
 - Walang scale pa ang bukas na sheet: bigyan muna ito ng isa ([Itakda ang scale](topic:set-the-scale)), saka i-paste.
 - Ibang scale ang bukas na sheet: pinangalanan ng mensahe ang dalawang scale. I-paste sa sheet na may parehong scale.
@@ -59,7 +59,7 @@ Ang item editor (sa ilalim ng **Items**) ay nagtatapos sa:
 - {{ui:I-duplicate ang item}}: nagdaragdag agad ng kopya, pinangalanang "(pangalan) (kopya)".
 
 :::tip
-Nananatili ang kopya sa computer na ito: nakatago ito sa tab na ito at sa storage ng browser, kaya maaaring i-paste ito ng ibang tab ng TakeoffCraft. Walang ina-upload, at hindi ginagamit ang system clipboard, kaya hindi ka makakapag-paste ng mga mark sa ibang programa.
+Nananatili ang kopya sa computer na ito: nakatago ito sa tab na ito at sa storage ng browser, kaya maaaring i-paste ito ng ibang tab ng TakeoffDesk. Walang ina-upload, at hindi ginagamit ang system clipboard, kaya hindi ka makakapag-paste ng mga mark sa ibang programa.
 :::
 
 :::note

@@ -5,7 +5,7 @@ keywords: ogaanshaha miisaanka, akhri miisaanka, miisaanka qoraalka, dhammaan xa
 from: 8f0148e6
 ---
 
-Xaashi kasta wuxuu leeyahay miisaankiisa. Adigu ayaad dejisaa, ama TakeoffCraft wuu ka akhrin karaa qoraalka xaashiyada (hoos), kadibna hubi. Ilaa xaashi uu leeyahay miisaan, {{ui:Socod}}, {{ui:Aag}}, {{ui:Goobo}} iyo {{ui:God}} way diidaan inay ku cabbiraan. {{ui:Tiri}} iyo {{ui:Tirin otomaatig ah}} waxay shaqeeyaan iyagoon miisaan lahayn.
+Xaashi kasta wuxuu leeyahay miisaankiisa. Adigu ayaad dejisaa, ama TakeoffDesk wuu ka akhrin karaa qoraalka xaashiyada (hoos), kadibna hubi. Ilaa xaashi uu leeyahay miisaan, {{ui:Socod}}, {{ui:Aag}}, {{ui:Goobo}} iyo {{ui:God}} way diidaan inay ku cabbiraan. {{ui:Tiri}} iyo {{ui:Tirin otomaatig ah}} waxay shaqeeyaan iyagoon miisaan lahayn.
 
 Liiska xaashiyada wuxuu muujinayaa miisaan kasta oo xaashi, ama **Aan miisaan lahayn**. Bar-ka hoosta xaashiga furan wuxuu leeyahay isku mid.
 
@@ -23,7 +23,7 @@ Liiska oo dhan waxaa ku jira [Diyaarinta miisaanka](topic:scale-presets).
 
 ## Akhri miisaannada qoraalka xaashiyada
 
-Naqshado badan waxay sheegaan miisaankooda: `SCALE: 1/4" = 1'-0"` xaashiga macluumaadka, `1:100` hoosta aragti. TakeoffCraft wuu akhriyi karaa oo wuu dejin karaa xaashi kasta hal mar.
+Naqshado badan waxay sheegaan miisaankooda: `SCALE: 1/4" = 1'-0"` xaashiga macluumaadka, `1:100` hoosta aragti. TakeoffDesk wuu akhriyi karaa oo wuu dejin karaa xaashi kasta hal mar.
 
 1. Fur liiska {{ui:Diyaar}} oo dooro {{ui:Xaashiyada qoraalkooda…}} (kore).
 2. Liiska wuxuu muujinayaa xaashi kasta: miisaankeeda hadda, iyo waxa qoraalkeedu leeyahay — **Waxay leedahay 1/4" = 1'-0"**, **Qoraal miisaan ma leh**, ama **Waxay leedahay ma-miisaano** (NTS).
@@ -44,7 +44,7 @@ Isticmaal tan marka aanad aaminin miisaan la daabacay, marka set-ka la beddelay,
 5. Ku qor masaafada dhabta ah **Masaafada dhabta ah**, tusaale ahaan `24'-6 1/2"`, `24.5` (feet tobanle), `30"` ama `7.5 m`. Eeg [Galinta dherarka, qiimaha iyo boqolkiiba](topic:entry-formats).
 6. Dooro {{ui:Dejiso miisaanka}}.
    Bar-ka xaaladda wuxuu muujinayaa miisaanka sida "1" = (n)'", marka uu ku dhow yahay 0.5% diyaar wuxuu sheegaa kee, tusaale ahaan "oo waafaqa 1/4" = 1'-0" (dooro diyaarkaas si aad u hesho miisaan sax ah)".
-   TakeoffCraft wuxuu dib ugu noqdaa qalabka {{ui:Dooro}}.
+   TakeoffDesk wuxuu dib ugu noqdaa qalabka {{ui:Dooro}}.
 
 Marka hagaajintu waafaqdo diyaar, dooro diyaarkaas wuxuu siinayaa miisaan sax ah halkii uu ku xirnaan lahaa meesha aad gujisay.
 
@@ -61,11 +61,11 @@ Taabo {{key:Esc}} si aad u nadiifiso xariiqda hubinta.
 
 ## Beddel miisaanka
 
-Dooro diyaar kale ama dib u hagaaji. Haddii xaashigu hore u lahaa cabbiro, TakeoffCraft wuxuu weydiinayaa **Ma beddelaa miisaanka xaashigan?** wuxuuna sheegayaa inta cabbir dib loo cabbiri doono. Dooro {{ui:Beddel miisaanka}}. Socod kasta iyo aag kasta oo xaashiga ku jira ayaa dib loo cabbiraa miisaanka cusub. Waad ka noqon kartaa {{key:Mod+Z}}.
+Dooro diyaar kale ama dib u hagaaji. Haddii xaashigu hore u lahaa cabbiro, TakeoffDesk wuxuu weydiinayaa **Ma beddelaa miisaanka xaashigan?** wuxuuna sheegayaa inta cabbir dib loo cabbiri doono. Dooro {{ui:Beddel miisaanka}}. Socod kasta iyo aag kasta oo xaashiga ku jira ayaa dib loo cabbiraa miisaanka cusub. Waad ka noqon kartaa {{key:Mod+Z}}.
 
 ## Sababta xaashiyada aan miisaan lahayn looga reebo wadarta
 
-Calaamadda xaashi aan miisaan lahayn ma leh dherer ama aag dhab ah. TakeoffCraft weligiis uma tiro eber, taasoo si aan la dareemin u dhigi lahayd qiyaaskaaga mid aad u hooseeya. Halkaas wuxuu:
+Calaamadda xaashi aan miisaan lahayn ma leh dherer ama aag dhab ah. TakeoffDesk weligiis uma tiro eber, taasoo si aan la dareemin u dhigi lahayd qiyaaskaaga mid aad u hooseeya. Halkaas wuxuu:
 
 - ka reebaa calaamadahaas wadarta,
 - muujiyaa "+(n) aan miisaan lahayn" shayga ku xiga {{ui:Tirooyinka}},
@@ -77,5 +77,5 @@ Tani waxay dhici kartaa marka aad furto mashruuc aan miisaankiisu la dejin. Xaas
 ## Talooyin
 
 - Dejiso miisaanka xaashi kasta oo aad cabbiri doonto ka hor intaadan bilaabin. Ka raadi liiska xaashiyada **Aan miisaan lahayn** si aad u hesho kuwa hadhay (sanduuqa raadinta wuxuu eegaa magacyada xaashiyada, ma aha miisaannada).
-- Faahfaahinta iyo qorshayaasha la weyneeyay ee isla xaashi badanaa waxay leeyihiin miisaan kale. TakeoffCraft wuxuu xaashi kasta leeyahay hal miisaan; eeg [Wixii weli la dhisin](topic:not-built-yet).
+- Faahfaahinta iyo qorshayaasha la weyneeyay ee isla xaashi badanaa waxay leeyihiin miisaan kale. TakeoffDesk wuxuu xaashi kasta leeyahay hal miisaan; eeg [Wixii weli la dhisin](topic:not-built-yet).
 - Naqshado metric: dooro diyaar metric sida `1:100`, ama hagaaji masaafad metric sida `6000 mm`.

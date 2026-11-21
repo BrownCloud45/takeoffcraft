@@ -19,9 +19,9 @@ In **Quantità › Per voce**, una riga che ha una quantità e nessuna tariffa d
 2. La finestra indica il totale che si sta firmando ed elenca le righe senza tariffa. Digitare il proprio nome e, se si desidera, il proprio ruolo.
 3. Fare clic su **Firma**. La barra ora riporta "Firmato da … il …" con il totale. Salvare il computo per conservarla nel file.
 
-La firma riguarda le cifre firmate. Ogni modifica successiva a una quantità, a una tariffa o a una riga la annulla, e TakeoffCraft lo segnala. Annulla riporta il preventivo firmato, e la sua firma con esso. Rinominare una riga non è una modifica di una cifra. **Rimuovi la firma** la elimina.
+La firma riguarda le cifre firmate. Ogni modifica successiva a una quantità, a una tariffa o a una riga la annulla, e TakeoffDesk lo segnala. Annulla riporta il preventivo firmato, e la sua firma con esso. Rinominare una riga non è una modifica di una cifra. **Rimuovi la firma** la elimina.
 
-Un file di computo modificato al di fuori di TakeoffCraft dopo la firma si apre senza firma, con una nota che lo indica. Il preventivo esportato (CSV e XLSX) riporta la firma sotto i totali.
+Un file di computo modificato al di fuori di TakeoffDesk dopo la firma si apre senza firma, con una nota che lo indica. Il preventivo esportato (CSV e XLSX) riporta la firma sotto i totali.
 
 Solo una persona può firmare. Un assistente IA può leggere se il preventivo è firmato e quali tariffe mancano; non ha modo di firmare.
 

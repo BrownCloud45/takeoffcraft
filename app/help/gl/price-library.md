@@ -13,7 +13,7 @@ A **biblioteca de prezos** garda os elementos que usa traballo tras traballo: o 
 
 - {{ui:Importar CSV…}} le unha folla de cálculo gardada como CSV (vexa as columnas máis abaixo). Os elementos cuxo nome e tipo xa están na biblioteca substitúense; o resto engádense. As filas que non pode ler sáltanse, e indica cales e por que.
 - {{ui:Engadir os elementos desta medición}} copia cada elemento da medición aberta á biblioteca, coas súas tarifas e o seu conxunto (non as súas marcas).
-- O CSV de orzamento que exporta TakeoffCraft ([Exportar o orzamento](topic:export-estimate)) impórtase tal como é: os prezos do traballo anterior sementan o seguinte.
+- O CSV de orzamento que exporta TakeoffDesk ([Exportar o orzamento](topic:export-estimate)) impórtase tal como é: os prezos do traballo anterior sementan o seguinte.
 
 - {{ui:Paquetes de oficios…}} engade conxuntos gratuítos para un oficio, como pladur, electricidade ou formigón, sen prezos. Consulte [Paquetes de oficios](topic:trade-packs).
 

@@ -5,7 +5,7 @@ keywords: mở, bộ bản vẽ, nhiều pdf, nhiều tệp, tờ, bản vẽ, n
 from: ed434468
 ---
 
-Một bộ bản vẽ thường gồm nhiều PDF: kiến trúc, kết cấu, cơ điện. TakeoffCraft mở chúng cạnh nhau thành một danh sách tờ duy nhất, và một bóc tách có thể bao gồm tất cả.
+Một bộ bản vẽ thường gồm nhiều PDF: kiến trúc, kết cấu, cơ điện. TakeoffDesk mở chúng cạnh nhau thành một danh sách tờ duy nhất, và một bóc tách có thể bao gồm tất cả.
 
 ## Mở các PDF
 
@@ -14,14 +14,14 @@ Một bộ bản vẽ thường gồm nhiều PDF: kiến trúc, kết cấu, c�
 3. Chọn Mở.
    Thông báo "Đang mở (tên)…" hiện trong khi mỗi tệp được đọc. Sau đó mọi trang xuất hiện dưới {{ui:Tờ}}, và trang đầu tiên của PDF mới đầu tiên được mở.
 
-Bạn cũng có thể kéo các PDF từ {{pick:mac=Finder|windows=File Explorer|linux=trình quản lý tệp của bạn}} và thả vào bất kỳ đâu trên TakeoffCraft. Khung "Thả PDF, bản vẽ DWG hoặc DXF, hoặc một tệp .takeoff.json" hiện lên khi bạn đang kéo.
+Bạn cũng có thể kéo các PDF từ {{pick:mac=Finder|windows=File Explorer|linux=trình quản lý tệp của bạn}} và thả vào bất kỳ đâu trên TakeoffDesk. Khung "Thả PDF, bản vẽ DWG hoặc DXF, hoặc một tệp .takeoff.json" hiện lên khi bạn đang kéo.
 
 Để thêm PDF sau này, làm lại như vậy. Các PDF đã mở sẽ được bỏ qua.
 
 Màn hình bắt đầu cũng liệt kê các PDF và bóc tách bạn đã mở gần đây, trong các trình duyệt cho phép trang mở lại tệp (Chrome và Edge). Nhấp vào một mục để mở; trình duyệt có thể hỏi quyền trước. Xem [Tệp của bạn](common:your-files).
 
 :::note
-Không có gì được tải lên. Trình duyệt đọc các PDF trên máy tính của bạn, và chúng biến mất khỏi TakeoffCraft khi bạn đóng thẻ hoặc chọn {{ui:Mới}}.
+Không có gì được tải lên. Trình duyệt đọc các PDF trên máy tính của bạn, và chúng biến mất khỏi TakeoffDesk khi bạn đóng thẻ hoặc chọn {{ui:Mới}}.
 :::
 
 ## Bản vẽ bên cạnh PDF
@@ -30,7 +30,7 @@ Không có gì được tải lên. Trình duyệt đọc các PDF trên máy t�
 
 ## PDF được bàn giao từ ứng dụng khác
 
-Một ứng dụng khác trong bộ có thể giao cho bạn PDF mà nó đang mở: nó mở TakeoffCraft trong thẻ mới và PDF mở ra ở đó như thể bạn đã thả nó vào. Thanh trạng thái hiển thị "Đã mở (tên), được bàn giao từ (ứng dụng). Tệp gốc không thay đổi." Không có gì được tải lên; tệp đi qua bộ nhớ riêng của trình duyệt này và biến mất khỏi đó khi đã mở xong.
+Một ứng dụng khác trong bộ có thể giao cho bạn PDF mà nó đang mở: nó mở TakeoffDesk trong thẻ mới và PDF mở ra ở đó như thể bạn đã thả nó vào. Thanh trạng thái hiển thị "Đã mở (tên), được bàn giao từ (ứng dụng). Tệp gốc không thay đổi." Không có gì được tải lên; tệp đi qua bộ nhớ riêng của trình duyệt này và biến mất khỏi đó khi đã mở xong.
 
 Nếu thanh trạng thái báo PDF "chưa đến", thẻ đã chờ quá lâu, hoặc PDF đã được mở trong thẻ khác: hãy mở nó bằng {{ui:Mở bản vẽ}}.
 

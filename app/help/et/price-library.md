@@ -13,7 +13,7 @@ Ava see nupuga {{ui:Teek}} rubriigi {{ui:Kirjed}} paneeli ülaosas.
 
 - {{ui:Impordi CSV…}} loeb tabelarvutuse, mis on salvestatud CSV-na (vt allpool veerge). Kirjed, mille nimi ja tüüp on juba teegis, asendatakse; ülejäänud lisatakse. Loetamatud read jäetakse vahele ja öeldakse, millised ja miks.
 - {{ui:Lisa selle koguste arvestuse kirjed}} kopeerib iga avatud koguste arvestuse kirje teeki koos hindade ja koostega (mitte märkidega).
-- TakeoffCraft'i hinnangu CSV ([Ekspordi hinnang](topic:export-estimate)) impordib nii, nagu ta on: eelmise töö hinnad annavad järgmise töö alguse.
+- TakeoffDesk'i hinnangu CSV ([Ekspordi hinnang](topic:export-estimate)) impordib nii, nagu ta on: eelmise töö hinnad annavad järgmise töö alguse.
 
 - {{ui:Tööpaketid…}} lisab tasuta koosted ühele erialale, nagu krohvimine, elekter või betoon, ilma hindadeta. Vt [Tööpaketid](topic:trade-packs).
 

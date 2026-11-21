@@ -36,12 +36,12 @@ Kirjoitettu määrä ei saa merkintöjä, eikä se tee kustannusarviota koskaan 
 Sulje lomake lisäämättä nimikettä painamalla {{key:Esc}}.
 
 :::tip
-Jos valitset ensin mittaustyökalun, TakeoffCraft käyttää viimeistä oikean tyyppistä nimikettä tai avaa lomakkeen {{ui:New item}} jo valitulla tyypillä.
+Jos valitset ensin mittaustyökalun, TakeoffDesk käyttää viimeistä oikean tyyppistä nimikettä tai avaa lomakkeen {{ui:New item}} jo valitulla tyypillä.
 :::
 
 ## Valitse nimike, jolla piirrät
 
-Napsauta nimikettä listassa. Siitä tulee nimike, johon uudet merkinnät menevät, ja sen merkinnät korostuvat jokaisella arkilla, kun muut himmenevät. Jos avoimella arkilla ei ole sen merkintöjä, TakeoffCraft siirtyy arkille, jolla niitä on. Napsauta nimikettä uudelleen lopettaaksesi korostuksen; se pysyy nimikkeenä, jolla piirrät.
+Napsauta nimikettä listassa. Siitä tulee nimike, johon uudet merkinnät menevät, ja sen merkinnät korostuvat jokaisella arkilla, kun muut himmenevät. Jos avoimella arkilla ei ole sen merkintöjä, TakeoffDesk siirtyy arkille, jolla niitä on. Napsauta nimikettä uudelleen lopettaaksesi korostuksen; se pysyy nimikkeenä, jolla piirrät.
 
 Merkinnän napsauttaminen työkalulla {{ui:Select}} tekee myös sen nimikkeestä nykyisen.
 
@@ -56,7 +56,7 @@ Nimikkeen editorissa (**Nimike: (nimi)**) on nämä kentät. Kukin tallentuu, ku
 | {{ui:Color}} | Merkintöjen väri näytöllä ja merkityssä PDF-tiedostossa. |
 | {{ui:Unit}} | Yksikkö, jolla määrä ilmoitetaan: LF tai m viivoille; SF, SY, SQ, ac, ha tai m² pinta-aloille; EA lukumäärälle. |
 | {{ui:Also measure}} | Muut merkintätyypit, joita nimike ottaa, kukin omalla yksiköllään. Katso alla. |
-| {{ui:Height}} (viiva) | Seinän korkeus. Nimike raportoi silloin myös seinäpinta-alan (pituus × korkeus). Ajot, jotka tulevat BimCraft-mallista, kantavat ovensa ja ikkunansa: ne vähennetään kerran, ja nimike ilmoittaa bruttopinta-alan, aukot ja nettopinta-alan. BimCraft-projektin määrälaskenta, jossa on valittu mittausmenetelmä, mitataan tässä myös sillä menetelmällä (huomautus nimeää sen lähteineen ja kertoo, ettei määrälaskija ole tarkistanut sitä); menetelmää ei voi vaihtaa TakeoffCraftissa. Seinätyypin tiilet tai harkot ja laasti tulevat kahtena komponenttina: tilattavat yksiköt ja laastin tilavuus. |
+| {{ui:Height}} (viiva) | Seinän korkeus. Nimike raportoi silloin myös seinäpinta-alan (pituus × korkeus). Ajot, jotka tulevat BimCraft-mallista, kantavat ovensa ja ikkunansa: ne vähennetään kerran, ja nimike ilmoittaa bruttopinta-alan, aukot ja nettopinta-alan. BimCraft-projektin määrälaskenta, jossa on valittu mittausmenetelmä, mitataan tässä myös sillä menetelmällä (huomautus nimeää sen lähteineen ja kertoo, ettei määrälaskija ole tarkistanut sitä); menetelmää ei voi vaihtaa TakeoffDeskissa. Seinätyypin tiilet tai harkot ja laasti tulevat kahtena komponenttina: tilattavat yksiköt ja laastin tilavuus. |
 | {{ui:Depth}} (pinta-ala) | Syvyys tai paksuus, jota käytetään yhdistelmien kaavoissa (esimerkiksi betonin tilavuus). |
 | {{ui:Waste %}} | Lisätään määrään ennen hinnoittelua: 10 tarkoittaa määrä × 1.10. |
 | {{ui:Material $/LF}} | Materiaalikustannus yksikköä kohti. Nimike seuraa yksikköä: $/SF, $/EA ja niin edelleen. |
@@ -73,7 +73,7 @@ Joitakin asioita mitataan useammalla tavalla: huoneella on lattia (pinta-ala), s
 
 1. Tee nimike sen pääasiallisella tyypillä, kuten pinta-alanimike `Room 101`.
 2. Kohdassa {{ui:Also measure}} sen editorissa valitse {{ui:Linear}}, {{ui:Count}} tai molemmat. Kummallekin tulee yksikkö viereen.
-3. Piirrä millä tahansa työkalulla, jonka tyyppi nimike ottaa: kun `Room 101` on nykyinen, {{ui:Area}} piirtää sen lattian, {{ui:Linear}} lattialistan ja {{ui:Count}} ovet. TakeoffCraft ei pyydä toista nimikettä.
+3. Piirrä millä tahansa työkalulla, jonka tyyppi nimike ottaa: kun `Room 101` on nykyinen, {{ui:Area}} piirtää sen lattian, {{ui:Linear}} lattialistan ja {{ui:Count}} ovet. TakeoffDesk ei pyydä toista nimikettä.
 
 Nimikeluettelo näyttää jokaisen määrän (`50.00 SF + 2 EA`). Määrätaulukossa nimikkeen rivillä on sen pääasiallinen määrä, ja jokainen muu tyyppi saa oman rivin sen alle, kuten **Room 101 (lukumäärä)**, omine hukka-, materiaali- ja työhintoineen. Viennit, arkkikohtainen taulukko ja merkityn PDF:n selite listaavat ne samalla tavalla.
 
@@ -112,7 +112,7 @@ Yksikkökohtaisen työhinnan sijaan nimikkeen työ voi tulla kolonnalta: kuinka 
 | {{ui:Crew size}} | `2` henkeä |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft laskee hukalla korotetusta määrästä:
+TakeoffDesk laskee hukalla korotetusta määrästä:
 
 - **kolonnatunnit** = määrä ÷ tuotanto (110 LF ÷ 20 = 5.5),
 - **työntekijätunnit** = kolonnatunnit × kolonnan koko (11),

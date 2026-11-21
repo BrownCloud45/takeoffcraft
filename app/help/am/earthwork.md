@@ -5,7 +5,7 @@ keywords: የመሬት ስራ, ቁፋሮ, ቆረጣ, ሙላት, ቆረጣ እና
 from: a898e508
 ---
 
-TakeoffCraft በሉህ ላይ የተሳለውን ይለካል። የመሬት ስራ የመሬት ገጽ ያስፈልገዋል፣ ስለዚህ ከCivilCraft ጋር ይጋራል። CivilCraft ገጽታዎችን ከነጥቦች ይገነባል፣ ያስተካክላል፣ እና ቆረጣ፣ ሙላት እና ማጓጓዣን ያሰላል።
+TakeoffDesk በሉህ ላይ የተሳለውን ይለካል። የመሬት ስራ የመሬት ገጽ ያስፈልገዋል፣ ስለዚህ ከCivilCraft ጋር ይጋራል። CivilCraft ገጽታዎችን ከነጥቦች ይገነባል፣ ያስተካክላል፣ እና ቆረጣ፣ ሙላት እና ማጓጓዣን ያሰላል።
 
 ## እዚህ ቀላል ቁፋሮ
 
@@ -29,8 +29,8 @@ Northing እና easting በሉሁ የራሱ መጋጠሚያዎች ናቸው፣ �
 
 የCivilCraft የመሬት ስራ ዋጋ ልትሰጣቸው የምትችላቸው ሁለት ዕቃዎች ሆኖ ይመለሳል፦
 
-1. በCivilCraft ንጣፎችህን እና ኮሪዶሮችህን አስተካክል፣ ከዚያም በ**የመሬት ስራ** ስር {{ui:Send to TakeoffCraft}} ምረጥ ([የመሬት ስራ ይዘት](app:civilcraft/volumes))። የብዛቶች ፋይል (`.quantities.json`) ያስቀምጣል።
-2. በTakeoffCraft በ{{ui:Open takeoff}} ክፈተው፣ ወይም በመተግበሪያው ላይ ጣለው። የብዛት ልኬትህ ክፍት ይቀራል፡ ፋይሉ **Earthwork: cut** እና **Earthwork: fill** ይጨምራል እንደ [የተተየቡ ብዛቶች](topic:create-items#typed-quantities-no-drawing)፣ በኪዩቢክ ያርድ (CY) ለጫማ ፕሮጀክት፣ ወይም በኪዩቢክ ሜትር (m³) ለሜትር ፕሮጀክት። አንድ እርምጃ ነው፦ {{key:Mod+Z}} ይመልሰዋል።
+1. በCivilCraft ንጣፎችህን እና ኮሪዶሮችህን አስተካክል፣ ከዚያም በ**የመሬት ስራ** ስር {{ui:Send to TakeoffDesk}} ምረጥ ([የመሬት ስራ ይዘት](app:civilcraft/volumes))። የብዛቶች ፋይል (`.quantities.json`) ያስቀምጣል።
+2. በTakeoffDesk በ{{ui:Open takeoff}} ክፈተው፣ ወይም በመተግበሪያው ላይ ጣለው። የብዛት ልኬትህ ክፍት ይቀራል፡ ፋይሉ **Earthwork: cut** እና **Earthwork: fill** ይጨምራል እንደ [የተተየቡ ብዛቶች](topic:create-items#typed-quantities-no-drawing)፣ በኪዩቢክ ያርድ (CY) ለጫማ ፕሮጀክት፣ ወይም በኪዩቢክ ሜትር (m³) ለሜትር ፕሮጀክት። አንድ እርምጃ ነው፦ {{key:Mod+Z}} ይመልሰዋል።
 3. ስማቸውን ቀይር፣ ብክነትን፣ ዋጋዎችን እና ስብስቦችን እንደፈለግህ አዘጋጅ።
 
 ዲዛይኑ ሲለወጥ ከCivilCraft እንደገና ላክ እና አዲሱን ፋይል ክፈት፦ ተመሳሳዩ ሁለት ዕቃዎች አዲሶቹን ብዛቶች ያገኛሉ። ስማቸው፣ ዋጋዎቻቸው፣ ብክነታቸው እና ስብስቦቻቸው እንዳዘጋጃቸው ይቀራሉ። የፕሮጀክቱ አሃድ ከተቀየረ የሁኔታ አሞሌው ይነግርሃል፦ ዋጋዎቹን ፈትሽ። ከሌላ የCivilCraft ፕሮጀክት የመጣ ፋይል የራሱን ሁለት ዕቃዎች ይጨምራል።

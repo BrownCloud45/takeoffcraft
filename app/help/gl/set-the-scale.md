@@ -5,7 +5,7 @@ keywords: detectar escala, ler escala, escala do texto, todas as follas, escala,
 from: 8f0148e6
 ---
 
-Cada folla ten a súa propia escala. Vostede a define, ou deixa que TakeoffCraft a lea do texto das follas (abaixo), e compróbaa. Ata que unha folla teña escala, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} e {{ui:Cut-out}} negan a medir nela. {{ui:Count}} e {{ui:Auto count}} funcionan sen escala.
+Cada folla ten a súa propia escala. Vostede a define, ou deixa que TakeoffDesk a lea do texto das follas (abaixo), e compróbaa. Ata que unha folla teña escala, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} e {{ui:Cut-out}} negan a medir nela. {{ui:Count}} e {{ui:Auto count}} funcionan sen escala.
 
 A lista de follas mostra a escala de cada folla, ou **Sen escala**. A barra debaixo da folla aberta di o mesmo.
 
@@ -23,7 +23,7 @@ A lista completa está en [Predefinicións de escala](topic:scale-presets).
 
 ## Ler as escalas do texto das follas
 
-A maioría dos debuxos indican a súa escala: `SCALE: 1/4" = 1'-0"` no caixetín, `1:100` debaixo dunha vista. TakeoffCraft pode lela e fixar todas as follas á vez.
+A maioría dos debuxos indican a súa escala: `SCALE: 1/4" = 1'-0"` no caixetín, `1:100` debaixo dunha vista. TakeoffDesk pode lela e fixar todas as follas á vez.
 
 1. Abra a lista {{ui:Preset}} e escolla {{ui:From the sheets' text…}} (na parte superior).
 2. A lista mostra cada folla: a súa escala agora, e o que di o seu texto — **Indica 1/4" = 1'-0"**, **Sen escala no seu texto** ou **Indica que non se escala** (NTS).
@@ -44,7 +44,7 @@ Use isto cando non hai unha escala impresa de confianza, o xogo foi redimensiona
 5. Escriba a distancia real en **Distancia real**, por exemplo `24'-6 1/2"`, `24.5` (pés decimais), `30"` ou `7.5 m`. Vexa [Introdución de lonxitudes, tarifas e porcentaxes](topic:entry-formats).
 6. Escolla {{ui:Set the scale}}.
    A barra de estado mostra a escala como «1" = (n)'», e cando está a menos de 0.5 % dunha predefinición indica cal, por exemplo «que coincide con 1/4" = 1'-0" (escolla esa predefinición para unha escala exacta)».
-   TakeoffCraft volve á ferramenta {{ui:Select}}.
+   TakeoffDesk volve á ferramenta {{ui:Select}}.
 
 Cando a calibración coincide cunha predefinición, escoller esa predefinición dá unha escala exacta, en vez dunha que depende de onde fixo clic.
 
@@ -61,11 +61,11 @@ Prema {{key:Esc}} para borrar a liña de comprobación.
 
 ## Cambiar unha escala
 
-Escolla outra predefinición ou calibre de novo. Se a folla xa ten medicións, TakeoffCraft pregunta **Cambiar a escala desta folla?** e indica cantas medicións se volverán medir. Escolla {{ui:Change the scale}}. Cada tramo e área da folla volve medirse á nova escala. Pode desfacelo con {{key:Mod+Z}}.
+Escolla outra predefinición ou calibre de novo. Se a folla xa ten medicións, TakeoffDesk pregunta **Cambiar a escala desta folla?** e indica cantas medicións se volverán medir. Escolla {{ui:Change the scale}}. Cada tramo e área da folla volve medirse á nova escala. Pode desfacelo con {{key:Mod+Z}}.
 
 ## Por que as follas sen escala non se contan como cero
 
-Unha marca nunha folla sen escala non ten lonxitude nin superficie reais. TakeoffCraft nunca a conta como cero, o que faría o seu orzamento baixo sen avisalo. En cambio:
+Unha marca nunha folla sen escala non ten lonxitude nin superficie reais. TakeoffDesk nunca a conta como cero, o que faría o seu orzamento baixo sen avisalo. En cambio:
 
 - deixa esas marcas fóra dos totais,
 - mostra «+(n) sen escala» xunto ao elemento en {{ui:Quantities}},
@@ -77,5 +77,5 @@ Isto pode pasar cando abre un proxecto cuxas escalas nunca se fixaron. Dea escal
 ## Consellos
 
 - Defina a escala de cada folla que vaia medir antes de comezar. Busque **Sen escala** na lista de follas para atopar as que faltan (a caixa de busca mira os nomes das follas, non as escalas).
-- Os detalles e planos ampliados na mesma folla adoitan usar outra escala. TakeoffCraft ten unha escala por folla; vexa [O que aínda non está construído](topic:not-built-yet).
+- Os detalles e planos ampliados na mesma folla adoitan usar outra escala. TakeoffDesk ten unha escala por folla; vexa [O que aínda non está construído](topic:not-built-yet).
 - Debuxos métricos: escolla unha predefinición métrica como `1:100`, ou calibre cunha distancia métrica como `6000 mm`.

@@ -24,7 +24,7 @@ Elija {{ui:Por partida}} (la opción predeterminada). Cada partida tiene una fil
 
 La última fila, **Total de la obra**, suma las columnas de material, mano de obra y total. El mismo total aparece a la derecha del encabezado de la tabla.
 
-Escriba en una celda de desperdicio o de tarifa y pulse {{key:Enter}} o haga clic fuera para aplicarlo. Un valor que TakeoffCraft no puede leer aparece con contorno rojo y la barra de estado indica el motivo, por ejemplo "Escriba una cantidad como 12.50."
+Escriba en una celda de desperdicio o de tarifa y pulse {{key:Enter}} o haga clic fuera para aplicarlo. Un valor que TakeoffDesk no puede leer aparece con contorno rojo y la barra de estado indica el motivo, por ejemplo "Escriba una cantidad como 12.50."
 
 Haga clic en la fila de una partida para resaltar sus marcas en todas las hojas y saltar a una hoja que las tenga (igual que al hacer clic en ella bajo {{ui:Partidas}}).
 

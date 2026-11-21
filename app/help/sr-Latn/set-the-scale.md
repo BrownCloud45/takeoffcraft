@@ -5,7 +5,7 @@ keywords: otkrij razmeru, pročitaj razmeru, razmera iz teksta, svi listovi, raz
 from: 8f0148e6
 ---
 
-Svaki list ima svoju razmeru. Vi je postavljate, ili pustite da TakeoffCraft je pročita iz teksta listova (ispod), i proverite je. Dok list nema razmeru, {{ui:Linijski}}, {{ui:Površina}}, {{ui:Krug}} i {{ui:Izrez}} odbijaju da mere na njemu. {{ui:Prebroj}} i {{ui:Automatsko brojanje}} rade bez razmere.
+Svaki list ima svoju razmeru. Vi je postavljate, ili pustite da TakeoffDesk je pročita iz teksta listova (ispod), i proverite je. Dok list nema razmeru, {{ui:Linijski}}, {{ui:Površina}}, {{ui:Krug}} i {{ui:Izrez}} odbijaju da mere na njemu. {{ui:Prebroj}} i {{ui:Automatsko brojanje}} rade bez razmere.
 
 Spisak listova prikazuje razmeru svakog lista, ili **Nema razmere**. Traka ispod otvorenog lista kaže isto.
 
@@ -23,7 +23,7 @@ Potpuna lista je u [Unapred podešene razmere](topic:scale-presets).
 
 ## Čitanje razmera iz teksta listova
 
-Većina crteža navodi svoju razmeru: `SCALE: 1/4" = 1'-0"` u natpisnom bloku, `1:100` ispod pogleda. TakeoffCraft može da je pročita i postavi svaki list odjednom.
+Većina crteža navodi svoju razmeru: `SCALE: 1/4" = 1'-0"` u natpisnom bloku, `1:100` ispod pogleda. TakeoffDesk može da je pročita i postavi svaki list odjednom.
 
 1. Otvorite listu {{ui:Unapred podešeno}} i izaberite {{ui:Iz teksta listova…}} (na vrhu).
 2. Spisak prikazuje svaki list: njegovu trenutnu razmeru i šta njegov tekst kaže — **Kaže 1/4" = 1'-0"**, **Nema razmere u tekstu** ili **Kaže da nije u razmeri** (NTS).
@@ -44,7 +44,7 @@ Koristite ovo kada nema odštampane razmere kojoj verujete, set je promenjen po 
 5. Ukucajte stvarno rastojanje u **Stvarna dužina**, na primer `24'-6 1/2"`, `24.5` (decimalne stope), `30"` ili `7.5 m`. Pogledajte [Unos dužine, cene i procenta](topic:entry-formats).
 6. Izaberite {{ui:Postavi razmeru}}.
    Statusna traka prikazuje razmeru kao „1" = (n)'”, a kada je u okviru 0.5% od unapred podešene razmere, kaže koja je, na primer „što odgovara 1/4" = 1'-0" (izaberite tu unapred podešenu razmeru za tačnu razmeru)”.
-   TakeoffCraft se vraća na alat {{ui:Izaberi}}.
+   TakeoffDesk se vraća na alat {{ui:Izaberi}}.
 
 Kada kalibracija odgovara unapred podešenoj razmeri, izbor te razmere daje tačnu razmeru umesto one koja zavisi od mesta na koje ste kliknuli.
 
@@ -61,11 +61,11 @@ Pritisnite {{key:Esc}} da obrišete liniju provere.
 
 ## Promena razmere
 
-Izaberite drugu unapred podešenu razmeru ili ponovo kalibrišite. Ako list već ima merenja, TakeoffCraft pita **Promeniti razmeru ovog lista?** i kaže koliko merenja će biti ponovo izmereno. Izaberite {{ui:Promeni razmeru}}. Svaka deonica i površina na listu se ponovo meri u novoj razmeri. Možete to opozvati sa {{key:Mod+Z}}.
+Izaberite drugu unapred podešenu razmeru ili ponovo kalibrišite. Ako list već ima merenja, TakeoffDesk pita **Promeniti razmeru ovog lista?** i kaže koliko merenja će biti ponovo izmereno. Izaberite {{ui:Promeni razmeru}}. Svaka deonica i površina na listu se ponovo meri u novoj razmeri. Možete to opozvati sa {{key:Mod+Z}}.
 
 ## Zašto listovi bez razmere nisu uračunati kao nula
 
-Oznaka na listu bez razmere nema stvarnu dužinu ili površinu. TakeoffCraft je nikada ne računa kao nulu, jer bi tiho učinila vaš predračun preniskim. Umesto toga:
+Oznaka na listu bez razmere nema stvarnu dužinu ili površinu. TakeoffDesk je nikada ne računa kao nulu, jer bi tiho učinila vaš predračun preniskim. Umesto toga:
 
 - izostavlja te oznake iz zbirova,
 - prikazuje „+(n) bez razmere” pored stavke u {{ui:Količine}},
@@ -77,5 +77,5 @@ Ovo se može dogoditi kada otvorite projekat čije razmere nikada nisu postavlje
 ## Saveti
 
 - Postavite razmeru na svakom listu koji ćete meriti pre nego što počnete. Pregledajte spisak listova za **Nema razmere** da nađete one koji su ostali (polje za pretragu gleda nazive listova, a ne razmere).
-- Detalji i uvećani planovi na istom listu često koriste drugu razmeru. TakeoffCraft ima jednu razmeru po listu; pogledajte [Šta još nije napravljeno](topic:not-built-yet).
+- Detalji i uvećani planovi na istom listu često koriste drugu razmeru. TakeoffDesk ima jednu razmeru po listu; pogledajte [Šta još nije napravljeno](topic:not-built-yet).
 - Metrički crteži: izaberite metričku unapred podešenu razmeru kao `1:100`, ili kalibrišite metričkom dužinom kao `6000 mm`.

@@ -1,6 +1,6 @@
 ---
 title: Bir sembolü otomatik say
-summary: Bir sembolün etrafını kutuya alın, TakeoffCraft bu sayfada ya da açık olan tüm sayfalarda diğerlerini bulsun, eşleşmeleri kaydırıcıyla gözden geçirin ve tek adımda ekleyin.
+summary: Bir sembolün etrafını kutuya alın, TakeoffDesk bu sayfada ya da açık olan tüm sayfalarda diğerlerini bulsun, eşleşmeleri kaydırıcıyla gözden geçirin ve tek adımda ekleyin.
 keywords: herhangi bir açı, döndürülmüş, çevrilmiş, farklı ölçek, başka ölçek, otomatik say, otomatik sayım, sembol arama, sembol bul, örüntü, şablon, eşleşme, algıla, sayım aracı
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Hiçbir şey eklemeden gözden geçirmeyi bırakmak için {{ui:Discard}} seçin 
 
 ## Neyi bulur, neyi kaçırır
 
-TakeoffCraft çizimi, piksel piksel, çizdiğiniz sembolle karşılaştırır.
+TakeoffDesk çizimi, piksel piksel, çizdiğiniz sembolle karşılaştırır.
 
 - Sembolü 0°, 90°, 180° ve 270° döndürülmüş hâlde bulur. Herhangi bir açıdaki sembolü de bulmak için kutuyu çizmeden önce otomatik say çubuğunda {{ui:Any angle (slower)}} kutusunu işaretleyin: her 15°'de dener, sonra her bulguyu 1.5° hassasiyetine kadar ince ayarlar. Bu yaklaşık altı kat daha uzun sürer. Aynalanmış bir sembolü bulmaz; ancak sembol aynalandığında da aynı görünüyorsa bulur.
 - {{ui:Search all open sheets}} işaretliyken, başka ölçekteki bir sayfa, sembolün o sayfadaki boyutunda aranır: 1/8" planda ölçeğine uygun çizilmiş bir armatür, 1/4" planda olduğunun yarısı boyutundadır ve yine bulunur. Böyle bir sayfa ayrıca kutunun kendi boyutunda da aranır; böylece her sayfada aynı boyutta basılmış etiketler ve semboller bulunur. Bunun için iki sayfada da ölçek olmalıdır; ölçeksiz bir sayfa yalnızca kutunun boyutunda aranır.

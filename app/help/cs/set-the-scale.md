@@ -5,7 +5,7 @@ keywords: zjistit měřítko, číst měřítko, měřítko z textu, všechny li
 from: 8f0148e6
 ---
 
-Každý list má vlastní měřítko. Nastavíte ho buď vy, nebo ho nechte TakeoffCraft přečíst z textu listů (níže), a zkontrolujte ho. Dokud list měřítko nemá, nástroje {{ui:Délková}}, {{ui:Plocha}}, {{ui:Kruh}} a {{ui:Výřez}} na něm odmítnou měřit. {{ui:Počet}} a {{ui:Automatické počítání}} fungují bez měřítka.
+Každý list má vlastní měřítko. Nastavíte ho buď vy, nebo ho nechte TakeoffDesk přečíst z textu listů (níže), a zkontrolujte ho. Dokud list měřítko nemá, nástroje {{ui:Délková}}, {{ui:Plocha}}, {{ui:Kruh}} a {{ui:Výřez}} na něm odmítnou měřit. {{ui:Počet}} a {{ui:Automatické počítání}} fungují bez měřítka.
 
 Seznam listů ukazuje měřítko každého listu, nebo **Bez měřítka**. Lišta pod otevřeným listem říká totéž.
 
@@ -23,7 +23,7 @@ Předvolba předpokládá, že PDF má skutečný papírový formát, pro který
 
 ## Čtení měřítek z textu listů
 
-Většina výkresů uvádí své měřítko: `SCALE: 1/4" = 1'-0"` v razítku, `1:100` pod pohledem. TakeoffCraft ho umí přečíst a nastavit každý list najednou.
+Většina výkresů uvádí své měřítko: `SCALE: 1/4" = 1'-0"` v razítku, `1:100` pod pohledem. TakeoffDesk ho umí přečíst a nastavit každý list najednou.
 
 1. Otevřete seznam {{ui:Předvolba}} a zvolte {{ui:Ze textu listů…}} (nahoře).
 2. Seznam ukazuje každý list: jeho aktuální měřítko a co říká jeho text — **Uvádí 1/4" = 1'-0"**, **V textu není měřítko**, nebo **Uvádí, že se nemá měřit** (NTS).
@@ -44,7 +44,7 @@ Použijte to, když neexistuje žádné vytištěné měřítko, kterému věř�
 5. Do pole **Skutečná vzdálenost** zadejte skutečnou vzdálenost, například `24'-6 1/2"`, `24.5` (desetinné stopy), `30"` nebo `7.5 m`. Viz [Zadávání délek, cen a procent](topic:entry-formats).
 6. Zvolte {{ui:Nastavit měřítko}}.
    Stavový řádek ukáže měřítko jako "1" = (n)'" a pokud je do 0.5% některé předvolby, řekne, které, například "což odpovídá 1/4" = 1'-0" (pro přesné měřítko vyberte tuto předvolbu)".
-   TakeoffCraft se vrátí k nástroji {{ui:Vybrat}}.
+   TakeoffDesk se vrátí k nástroji {{ui:Vybrat}}.
 
 Když kalibrace odpovídá předvolbě, výběr této předvolby dá přesné měřítko namísto takového, které závisí na tom, kam jste klikli.
 
@@ -61,11 +61,11 @@ Stisknutím {{key:Esc}} kontrolní čáru smažete.
 
 ## Změna měřítka
 
-Vyberte jinou předvolbu, nebo kalibrujte znovu. Pokud list už má měření, TakeoffCraft se zeptá **Změnit měřítko tohoto listu?** a řekne, kolik měření bude přepočítáno. Zvolte {{ui:Změnit měřítko}}. Každý úsek a plocha na listu se přepočítá v novém měřítku. Můžete to vrátit pomocí {{key:Mod+Z}}.
+Vyberte jinou předvolbu, nebo kalibrujte znovu. Pokud list už má měření, TakeoffDesk se zeptá **Změnit měřítko tohoto listu?** a řekne, kolik měření bude přepočítáno. Zvolte {{ui:Změnit měřítko}}. Každý úsek a plocha na listu se přepočítá v novém měřítku. Můžete to vrátit pomocí {{key:Mod+Z}}.
 
 ## Proč listy bez měřítka nejsou počítány jako nula
 
-Značka na listu bez měřítka nemá skutečnou délku ani plochu. TakeoffCraft ji nikdy nepočítá jako nulu, což by tiše udělalo rozpočet příliš nízký. Místo toho:
+Značka na listu bez měřítka nemá skutečnou délku ani plochu. TakeoffDesk ji nikdy nepočítá jako nulu, což by tiše udělalo rozpočet příliš nízký. Místo toho:
 
 - tyto značky vynechá ze součtů,
 - u položky v {{ui:Množství}} ukáže "+(n) bez měřítka",
@@ -77,5 +77,5 @@ To se může stát, když otevřete projekt, jehož měřítka nikdy nebyla nast
 ## Tipy
 
 - Před začátkem měření nastavte měřítko na každém listu, který budete měřit. Projděte seznam listů a hledejte **Bez měřítka**, abyste našli zbylé (vyhledávací pole hledá v názvech listů, ne v měřítkách).
-- Detaily a zvětšené půdorysy na stejném listu často používají jiné měřítko. TakeoffCraft má na list jedno měřítko; viz [Co ještě není hotovo](topic:not-built-yet).
+- Detaily a zvětšené půdorysy na stejném listu často používají jiné měřítko. TakeoffDesk má na list jedno měřítko; viz [Co ještě není hotovo](topic:not-built-yet).
 - Metrické výkresy: vyberte metrickou předvolbu, například `1:100`, nebo kalibrujte metrickou vzdáleností, například `6000 mm`.

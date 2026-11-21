@@ -46,7 +46,7 @@ Las cifras no cambian en 3D: la superficie de un muro es su longitud exacta por 
 | {{ui:Hoja}} | Muestra u oculta el plano en el suelo. |
 | El cubo de vista, arriba a la derecha | Hacé clic en una cara, arista o esquina para mirar desde allí; arrastralo para girar; arrastrá su anillo de brújula para rotar; el botón de casa vuelve a {{ui:Iso}}. |
 
-La esquina muestra un cubo de vista, un pequeño ícono de ejes X, Y, Z, o nada: elegí en {{ui:Configuración}}, en la pestaña TakeoffCraft, bajo **Indicador de esquina** ([Configuración de TakeoffCraft](topic:settings)). La hoja plana no tiene indicador de esquina.
+La esquina muestra un cubo de vista, un pequeño ícono de ejes X, Y, Z, o nada: elegí en {{ui:Configuración}}, en la pestaña TakeoffDesk, bajo **Indicador de esquina** ([Configuración de TakeoffDesk](topic:settings)). La hoja plana no tiene indicador de esquina.
 
 :::touch
 Un dedo gira; dos dedos pellizcan para hacer zoom y se mueven para desplazar. Un toque selecciona.

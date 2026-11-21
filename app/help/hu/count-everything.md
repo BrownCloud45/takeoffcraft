@@ -1,6 +1,6 @@
 ---
 title: Mindent megszámol a tervkészletben
-summary: Jelöljön be egyszer egy szimbólumjegyzéket, és a TakeoffCraft egy futtatással megszámolja az összes benne lévő szimbólumot minden megnyitott lapon. Minden darabszám hivatkozás a lapjára, és hozzáadás előtt Ön átnézi.
+summary: Jelöljön be egyszer egy szimbólumjegyzéket, és a TakeoffDesk egy futtatással megszámolja az összes benne lévő szimbólumot minden megnyitott lapon. Minden darabszám hivatkozás a lapjára, és hozzáadás előtt Ön átnézi.
 keywords: mindent megszámol, jegyzék, szimbólumjegyzék, teljes tervkészlet, minden lap, összes lap, minden ajtó, minden berendezés, eszközök, ütemezés, szimbólumok, automatikus darabszám, összes számolása, 200 lap, egyezési szint, hasonló
 from: adc99744
 ---

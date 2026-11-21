@@ -40,4 +40,4 @@ Each item also carries its CSI MasterFormat number, such as `09 21 16`.
 
 {{ui:Export as pack…}} in the library saves it as a pack file (`.ccpack.json`) that anyone can add with {{ui:Open a pack file…}}. By default it leaves out the items that came from packs you added, and it carries no rates. Tick {{ui:Include my rates as sample rates}} to send your rates too: they go out labelled with the region and the date you give, and whoever adds the pack chooses whether to use them.
 
-Pack files are plain data, never programs. TakeoffCraft checks every part of one before it uses it and leaves out anything it cannot read.
+Pack files are plain data, never programs. TakeoffDesk checks every part of one before it uses it and leaves out anything it cannot read.

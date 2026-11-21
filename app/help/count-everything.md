@@ -1,6 +1,6 @@
 ---
 title: Count everything in the set
-summary: Box a symbol legend once and TakeoffCraft counts every symbol in it on every open sheet in one run. Each count is a link to its sheet, and you review before anything is added.
+summary: Box a symbol legend once and TakeoffDesk counts every symbol in it on every open sheet in one run. Each count is a link to its sheet, and you review before anything is added.
 section: tasks
 order: 71
 keywords: count everything, legend, symbol legend, whole set, every sheet, all sheets, every door, every fixture, devices, schedule, symbols, auto count, count all, set of plans, 200 sheets, match level, look alike

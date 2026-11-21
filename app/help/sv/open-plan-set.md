@@ -5,7 +5,7 @@ keywords: öppna, ritningssats, flera pdf, flera filer, blad, ritningar, sidetik
 from: ed434468
 ---
 
-En ritningssats består ofta av flera PDF-filer: arkitektur, konstruktion, installationer. TakeoffCraft öppnar dem sida vid sida som en enda lista med blad, och en mängdavtagning kan omfatta alla.
+En ritningssats består ofta av flera PDF-filer: arkitektur, konstruktion, installationer. TakeoffDesk öppnar dem sida vid sida som en enda lista med blad, och en mängdavtagning kan omfatta alla.
 
 ## Öppna PDF-filerna
 
@@ -14,14 +14,14 @@ En ritningssats består ofta av flera PDF-filer: arkitektur, konstruktion, insta
 3. Välj Öppna.
    Meddelandet ”Öppnar (name)…” visas medan varje fil läses. Sedan visas varje sida under {{ui:Blad}} och första sidan i första nya PDF:en öppnas.
 
-Du kan också dra PDF-filerna från {{pick:mac=Finder|windows=Utforskaren|linux=din filhanterare}} och släppa dem var som helst på TakeoffCraft. En ram ”Släpp PDF-filer, DWG- eller DXF-ritningar, eller en .takeoff.json” visas medan du drar.
+Du kan också dra PDF-filerna från {{pick:mac=Finder|windows=Utforskaren|linux=din filhanterare}} och släppa dem var som helst på TakeoffDesk. En ram ”Släpp PDF-filer, DWG- eller DXF-ritningar, eller en .takeoff.json” visas medan du drar.
 
 För att lägga till fler PDF-filer senare, gör samma sak igen. PDF-filer som redan är öppna hoppas över.
 
 Startskärmen listar också PDF-filerna och mängdavtagningarna du öppnade nyligen, i webbläsare som låter en sida öppna en fil igen (Chrome och Edge). Klicka på en för att öppna den; webbläsaren kan be om tillstånd först. Se [Dina filer](common:your-files).
 
 :::note
-Inget laddas upp. Webbläsaren läser PDF-filerna på din dator, och de försvinner från TakeoffCraft när du stänger fliken eller väljer {{ui:Ny}}.
+Inget laddas upp. Webbläsaren läser PDF-filerna på din dator, och de försvinner från TakeoffDesk när du stänger fliken eller väljer {{ui:Ny}}.
 :::
 
 ## Ritningar bredvid PDF-filer
@@ -30,7 +30,7 @@ Inget laddas upp. Webbläsaren läser PDF-filerna på din dator, och de försvin
 
 ## En PDF överlämnad från ett annat program
 
-Ett annat program i paketet kan lämna över PDF-filen det har öppen: det öppnar TakeoffCraft i en ny flik, och PDF-filen öppnas där som om du hade släppt den. Statusfältet säger ”Öppnade (name), överlämnad från (app). Originalfilen är oförändrad.” Inget laddas upp; filen passerar webbläsarens egen lagring och försvinner från den när den har öppnats.
+Ett annat program i paketet kan lämna över PDF-filen det har öppen: det öppnar TakeoffDesk i en ny flik, och PDF-filen öppnas där som om du hade släppt den. Statusfältet säger ”Öppnade (name), överlämnad från (app). Originalfilen är oförändrad.” Inget laddas upp; filen passerar webbläsarens egen lagring och försvinner från den när den har öppnats.
 
 Om statusfältet säger att PDF-filen ”inte kom fram” väntade fliken för länge, eller så var PDF-filen redan öppen i en annan flik: öppna den med {{ui:Öppna ritningar}}.
 

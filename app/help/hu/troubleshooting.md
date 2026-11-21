@@ -1,11 +1,11 @@
 ---
 title: Hibaelhárítás
-summary: A TakeoffCraftban előforduló üzenetek és meglepetések tünetei, okai és megoldásai, úgy idézve, ahogy az alkalmazás megjeleníti őket.
+summary: A TakeoffDeskban előforduló üzenetek és meglepetések tünetei, okai és megoldásai, úgy idézve, ahogy az alkalmazás megjeleníti őket.
 keywords: problémák, hibák, nem működik, javítás, súgó, elutasítva, nem mér, nincs léptéke, hiányzó jelek, exportálás sikertelen, offline, érintés
 from: cd319c9b
 ---
 
-A TakeoffCraft a legtöbb elutasítást az ablak alján lévő státuszsorban magyarázza el. Keresse meg az alábbi üzenetet.
+A TakeoffDesk a legtöbb elutasítást az ablak alján lévő státuszsorban magyarázza el. Keresse meg az alábbi üzenetet.
 
 ## Fájlok megnyitása
 
@@ -15,8 +15,8 @@ A TakeoffCraft a legtöbb elutasítást az ablak alján lévő státuszsorban ma
 | (name) jelszóval védett. Nyisson meg egy jelszó nélküli példányt. | A PDF megnyitásához jelszó kell. | Kérjen jelszó nélküli példányt, vagy távolítsa el a jelszót egy megbízható PDF-programban. |
 | (name) nem olvasható PDF-ként (…) | A fájl sérült, vagy nem valódi PDF. | Töltse le újra, vagy mentse újra abból a programból, amely készítette. |
 | (name) már meg van nyitva. | Ugyanaz a PDF (azonos tartalommal) már meg van nyitva. | Nincs teendő. |
-| A TakeoffCraft PDF-eket és .takeoff.json projekteket nyit meg. Kihagyva: … | A többi fájltípust eldobtuk. | Alakítsa előbb PDF-fé a rajzokat. |
-| Fájlok húzásakor nem történik semmi | A fájlokat a böngészőablakon kívül húzta, vagy a böngésző új lapon nyitotta meg a PDF-et. | Húzza a TakeoffCraft oldalra; a „PDF-ek vagy .takeoff.json húzása ide” keret mutatja, mikor fog működni. |
+| A TakeoffDesk PDF-eket és .takeoff.json projekteket nyit meg. Kihagyva: … | A többi fájltípust eldobtuk. | Alakítsa előbb PDF-fé a rajzokat. |
+| Fájlok húzásakor nem történik semmi | A fájlokat a böngészőablakon kívül húzta, vagy a böngésző új lapon nyitotta meg a PDF-et. | Húzza a TakeoffDesk oldalra; a „PDF-ek vagy .takeoff.json húzása ide” keret mutatja, mikor fog működni. |
 | Nagy készlet megnyitása sokáig tart | Minden PDF-et teljes egészében beolvas az egyedi azonosító készítéséhez. | Várja meg, amíg a „(name) megnyitása…” üzenet eltűnik. A bélyegképek görgetéskor töltődnek fel. |
 
 ## Mérés
@@ -47,7 +47,7 @@ A TakeoffCraft a legtöbb elutasítást az ablak alján lévő státuszsorban ma
 | Üzenet vagy tünet | Ok | Megoldás |
 |---|---|---|
 | Válasszon két, egymástól távolabbi pontot. | A kalibrációs pontok szinte egymáson vannak. | Kalibráljon hosszabb méreten. |
-| A kalibráló párbeszédpanelben üzenet, például „Ezt a távolságot nem lehetett beolvasni” | A távolság olyan formában van, amelyet a TakeoffCraft nem tud beolvasni. | Lásd [Hossz, egységár és százalék megadása](topic:entry-formats). |
+| A kalibráló párbeszédpanelben üzenet, például „Ezt a távolságot nem lehetett beolvasni” | A távolság olyan formában van, amelyet a TakeoffDesk nem tud beolvasni. | Lásd [Hossz, egységár és százalék megadása](topic:entry-formats). |
 | Ennek a lapnak még nincs léptéke, így nincs mit ellenőrizni. Kalibrálja, vagy válasszon előbeállítást. | Az {{ui:Check}} léptéktelen lapon. | Állítson be előbb léptéket. |
 | Az {{ui:Preset}} lista szürke | Nincs megnyitott lap. | Nyisson meg egy PDF-et. |
 
@@ -86,8 +86,8 @@ A TakeoffCraft a legtöbb elutasítást az ablak alján lévő státuszsorban ma
 | Ez a PDF jelszóval védett vagy titkosított, ezért jelölt példány nem írható. … | A PDF titkosított. | Exportálja inkább az {{ui:XLSX}} formátumot, vagy használja a PDF titkosítatlan példányát (ennek saját mennyiségkimutatása kell legyen, mert más fájl). |
 | A jelölt PDF nem írható: … | Gyakran: offline van, és az alkalmazást nem mentette offline használatra, így hiányzik a PDF-író. | Kapcsolódjon az internetre, és válassza újra a {{ui:Marked PDF}} lehetőséget. Ennek elkerülésére válassza a {{ui:Save for offline}} lehetőséget, és várja meg az {{ui:Offline ready}} állapotot. |
 | Csak egy jelölt PDF töltődött le | A böngésző több letöltést egyszerre blokkolt. | Engedélyezze a több letöltést ennek a webhelynek, és exportáljon újra. |
-| (file) nem TakeoffCraft-projekt (nem érvényes JSON). / Ez nem TakeoffCraft-projektfájl. | Rossz fájl, vagy sérült. | Válassza a `.takeoff.json` fájlt. |
-| Ezt a projektet újabb TakeoffCraft mentette. Nyissa meg ott. | A fájl újabb verzióból származik. | Nyissa meg az újabb verzióban. |
+| (file) nem TakeoffDesk-projekt (nem érvényes JSON). / Ez nem TakeoffDesk-projektfájl. | Rossz fájl, vagy sérült. | Válassza a `.takeoff.json` fájlt. |
+| Ezt a projektet újabb TakeoffDesk mentette. Nyissa meg ott. | A fájl újabb verzióból származik. | Nyissa meg az újabb verzióban. |
 | (n) jel sérült, és kimaradt. | A fájl egy része sérült, vagy kézzel szerkesztették. | A többi megnyílt. Rajzolja újra a hiányzó jeleket, vagy nyisson meg egy régebbi példányt. |
 | Újranyitás után hiányoznak a jelek | A PDF-ek nincsenek megnyitva, vagy valamelyikük megváltozott. | Lásd [Mennyiségkimutatás mentése és újranyitása](topic:save-and-reopen#when-a-pdf-has-changed). |
 | A böngésző rákérdez: „Elhagyja az oldalt?” | Vannak nem mentett módosítások. | Maradjon, és mentsen a {{key:Mod+S}} billentyűvel. |

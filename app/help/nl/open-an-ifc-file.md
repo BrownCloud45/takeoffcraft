@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, weg, spoorweg, brug, wegdek, stoeprand, deklaag,
 from: 6b08c2c4
 ---
 
-Een IFC 4.3-bestand kan wegen, spoorwegen, bruggen, maritieme werken en de onderdelen waaruit die bestaan bevatten: wegdekken, deklagen, stoepranden, rails, grondwerk, opleggingen, palen en meer. TakeoffCraft leest die en zet ze om in getypeerde hoeveelheden die u kunt prijzen.
+Een IFC 4.3-bestand kan wegen, spoorwegen, bruggen, maritieme werken en de onderdelen waaruit die bestaan bevatten: wegdekken, deklagen, stoepranden, rails, grondwerk, opleggingen, palen en meer. TakeoffDesk leest die en zet ze om in getypeerde hoeveelheden die u kunt prijzen.
 
 ## Het bestand openen
 
 1. Kies {{ui:Tekeningen openen}} in de groep {{ui:Bestand}}, of druk op {{key:Mod+O}}.
-2. Selecteer het IFC-bestand (u kunt het selecteren naast pdf's), of sleep het op TakeoffCraft.
+2. Selecteer het IFC-bestand (u kunt het selecteren naast pdf's), of sleep het op TakeoffDesk.
 
 Voor elke klasse en elk vooraf gedefinieerd type wordt één getypeerde hoeveelheid gemaakt, bijvoorbeeld "Wegdek (flexibel): aantal", en, wanneer het bestand ze vermeldt, "lengte" in m, "oppervlakte" in m² en "volume" in m³. De notitie bij elk item zegt hoeveel elementen zijn geteld en hoeveel er geen hoeveelheid vermeldden. Een nieuwer bestand met dezelfde naam openen werkt die hoeveelheden bij in plaats van er meer toe te voegen.
 

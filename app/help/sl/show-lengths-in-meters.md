@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Kaj boste naredili
 
-Spremenite, kako TakeoffCraft prikazuje dolžine, da metrični projekt na listu, v vrstici stanja in v ploščah prikazuje v metrih, centimetrih ali milimetrih.
+Spremenite, kako TakeoffDesk prikazuje dolžine, da metrični projekt na listu, v vrstici stanja in v ploščah prikazuje v metrih, centimetrih ali milimetrih.
 
 ## Koraki
 
-1. Odprite {{ui:Nastavitve}} z zobnikom v vrstici aplikacije ali s {{key:Mod+,}} in ostanite na zavihku {{ui:TakeoffCraft}}.
+1. Odprite {{ui:Nastavitve}} z zobnikom v vrstici aplikacije ali s {{key:Mod+,}} in ostanite na zavihku {{ui:TakeoffDesk}}.
 2. Poiščite {{ui:Prikaži dolžine kot}} in izberite {{ui:Čevlji in palci}}, m, cm ali mm. {{ui:Sledi splošnim}} uporabi metrično enoto dolžine, ki je označena z zvezdico v {{ui:Nastavitve}} › {{ui:Globalno}} › {{ui:Enote}}, in čevlje in palce, če nobena ni označena.
 3. Oglejte si list: dolžine v vrstici stanja, na seznamu postavk in v ploščah so zdaj v izbrani enoti. Enako velja za višine, globine, debeline in nivoje.
 4. Če želite temperature postavk brati v stopinjah C ali F, izberite {{ui:Prikaži temperature kot}} v istem zavihku.

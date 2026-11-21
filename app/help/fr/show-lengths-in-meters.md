@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Ce que vous allez faire
 
-Modifier l'affichage des longueurs dans TakeoffCraft, pour qu'un chantier métrique s'affiche en mètres, centimètres ou millimètres sur la feuille, dans la barre d'état et dans les panneaux.
+Modifier l'affichage des longueurs dans TakeoffDesk, pour qu'un chantier métrique s'affiche en mètres, centimètres ou millimètres sur la feuille, dans la barre d'état et dans les panneaux.
 
 ## Étapes
 
-1. Ouvrez {{ui:Paramètres}} avec l'engrenage de la barre d'application ou avec {{key:Mod+,}}, et restez sur l'onglet {{ui:TakeoffCraft}}.
+1. Ouvrez {{ui:Paramètres}} avec l'engrenage de la barre d'application ou avec {{key:Mod+,}}, et restez sur l'onglet {{ui:TakeoffDesk}}.
 2. Repérez {{ui:Afficher les longueurs en}} et choisissez {{ui:Pieds-pouces}}, m, cm ou mm. {{ui:Suivre Général}} utilise l'unité de longueur métrique marquée d'une étoile dans {{ui:Paramètres}} › {{ui:Général}} › {{ui:Unités}}, et pieds-pouces lorsqu'aucune n'est marquée.
 3. Regardez la feuille : les longueurs dans la barre d'état, la liste {{ui:Éléments (I)}} et les panneaux s'affichent désormais dans l'unité choisie. Les hauteurs, profondeurs, épaisseurs et niveaux aussi.
 4. Pour lire les températures des postes en degrés C ou F, choisissez {{ui:Afficher les températures en}} dans le même onglet.

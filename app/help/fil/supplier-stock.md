@@ -1,6 +1,6 @@
 ---
 title: Suriin ang supplier stock at lead time
-summary: Magdagdag ng stock list ng supplier (CSV o spreadsheet) at susuriin ng TakeoffCraft ang kailangan ng takeoff, kasama ang waste, laban dito: sapat ba sa stock, at gaano katagal ang paghihintay. Lumalabas sa Problems panel ang mga kakulangan at mahahabang paghihintay.
+summary: Magdagdag ng stock list ng supplier (CSV o spreadsheet) at susuriin ng TakeoffDesk ang kailangan ng takeoff, kasama ang waste, laban dito: sapat ba sa stock, at gaano katagal ang paghihintay. Lumalabas sa Problems panel ang mga kakulangan at mahahabang paghihintay.
 keywords: supplier, stock, nasa stock, lead time, availability, kakulangan, backorder, order list, csv, sku, vendor, materyales, supply, problema
 from: f11160fb
 ---

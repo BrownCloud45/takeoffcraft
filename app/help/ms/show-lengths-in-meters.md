@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Apa yang akan anda lakukan
 
-Tukar cara TakeoffCraft memaparkan panjang, supaya kerja metrik dibaca dalam meter, sentimeter atau milimeter pada helaian, dalam bar status dan dalam panel.
+Tukar cara TakeoffDesk memaparkan panjang, supaya kerja metrik dibaca dalam meter, sentimeter atau milimeter pada helaian, dalam bar status dan dalam panel.
 
 ## Langkah
 
-1. Buka {{ui:Tetapan}} dengan ikon gear pada bar aplikasi atau {{key:Mod+,}}, dan kekal pada tab {{ui:TakeoffCraft}}.
+1. Buka {{ui:Tetapan}} dengan ikon gear pada bar aplikasi atau {{key:Mod+,}}, dan kekal pada tab {{ui:TakeoffDesk}}.
 2. Cari {{ui:Tunjukkan panjang sebagai}} dan pilih {{ui:Kaki-inci}}, m, cm atau mm. {{ui:Ikut Global}} menggunakan unit panjang metrik yang dibintangkan dalam {{ui:Tetapan}} › {{ui:Global}} › {{ui:Unit}}, dan kaki-inci apabila tiada yang dibintangkan.
 3. Lihat helaian: panjang dalam bar status, senarai {{ui:Item}} dan panel kini dibaca dalam unit yang anda pilih. Ketinggian, kedalaman, ketebalan dan aras turut berbuat demikian.
 4. Untuk membaca suhu item dalam darjah C atau F, pilih {{ui:Tunjukkan suhu sebagai}} dalam tab yang sama.

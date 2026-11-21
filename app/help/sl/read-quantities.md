@@ -24,7 +24,7 @@ Izberite {{ui:Po postavkah}} (privzeto). Vsaka postavka ima svojo vrstico, vsaka
 
 Zadnja vrstica, **Skupni znesek**, sešteje stolpce material, delo in skupaj. Isti znesek je prikazan tudi desno v glavi tabele.
 
-Vpišite v celico za odpadek ali ceno in pritisnite {{key:Enter}} ali kliknite drugam, da ga uveljavite. Vrednost, ki je TakeoffCraft ne more prebrati, je obrobljena z rdečo, vrstica stanja pa pove razlog, na primer „Vnesite znesek, na primer 12.50.“
+Vpišite v celico za odpadek ali ceno in pritisnite {{key:Enter}} ali kliknite drugam, da ga uveljavite. Vrednost, ki je TakeoffDesk ne more prebrati, je obrobljena z rdečo, vrstica stanja pa pove razlog, na primer „Vnesite znesek, na primer 12.50.“
 
 ## Po listih
 

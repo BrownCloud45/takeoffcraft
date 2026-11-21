@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * host.js: the panel's host for an app that keeps the issue history as one JSON object in its own file (0.10 BK.48; session
- * bk-r3-stages-10). MarkupCraft, TakeoffCraft and DetailCraft use it; BimCraft has its own (the history lives in the IFC and it
+ * bk-r3-stages-10). MarkupCraft, TakeoffDesk and DetailCraft use it; BimCraft has its own (the history lives in the IFC and it
  * prints elements). No app imports.
  *
  *   fileHost({ t, app, read() → stored object | null, write(history, label), sheets?() → [{ id, number, title, hash }],

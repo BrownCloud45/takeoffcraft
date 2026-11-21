@@ -39,4 +39,4 @@ Vsak element nosi tudi številko CSI MasterFormat, na primer `09 21 16`.
 
 {{ui:Izvozi kot paket …}} v knjižnici shrani njo kot datoteko paketa (`.ccpack.json`), ki jo lahko kdorkoli doda z {{ui:Odpri datoteko paketa …}}. Privzeto izpusti elemente, ki so prišli iz paketov, ki ste jih dodali, in ne nosi cen. Označite {{ui:Vključi moje cene kot vzorčne cene}}, da pošljete tudi svoje cene: označene so z regijo in datumom, ki ju navedete, kdor doda paket, pa se odloči, ali jih bo uporabil.
 
-Datoteke paketov so navadni podatki, nikoli programi. TakeoffCraft vsak del datoteke preveri, preden ga uporabi, in izpusti vse, česar ne zna prebrati.
+Datoteke paketov so navadni podatki, nikoli programi. TakeoffDesk vsak del datoteke preveri, preden ga uporabi, in izpusti vse, česar ne zna prebrati.

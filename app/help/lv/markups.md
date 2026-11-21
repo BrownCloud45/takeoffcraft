@@ -27,7 +27,7 @@ Piezīmes adata ir oranža, kamēr tā ir atvērta, zila, kad atbildēta, un pel
 
 ## Saraksts
 
-**Atzīmes** labajā panelī uzskaita katru TakeoffCraft atzīmi ar tās statusu un parāda, cik vēl ir atvērtas. Atzīmējiet **Tikai atvērtās**, lai redzētu, kas vēl jāatrisina. Noklikšķiniet uz rindas, lai pārietu uz tās lapu un to atlasītu.
+**Atzīmes** labajā panelī uzskaita katru TakeoffDesk atzīmi ar tās statusu un parāda, cik vēl ir atvērtas. Atzīmējiet **Tikai atvērtās**, lai redzētu, kas vēl jāatrisina. Noklikšķiniet uz rindas, lai pārietu uz tās lapu un to atlasītu.
 
 ## Kopīgot tās
 

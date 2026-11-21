@@ -1,6 +1,6 @@
 ---
 title: Consultar existencias del proveedor y tiempos de entrega
-summary: Agregue la lista de existencias de un proveedor (CSV u hoja de cálculo) y TakeoffCraft compara con ella lo que necesita la cuantificación, con desperdicio: si hay suficiente en existencia y cuánto dura la espera. Los faltantes y las esperas largas aparecen en el panel de Problemas.
+summary: Agregue la lista de existencias de un proveedor (CSV u hoja de cálculo) y TakeoffDesk compara con ella lo que necesita la cuantificación, con desperdicio: si hay suficiente en existencia y cuánto dura la espera. Los faltantes y las esperas largas aparecen en el panel de Problemas.
 keywords: proveedor, existencias, en existencia, tiempo de entrega, disponibilidad, faltante, pedido pendiente, lista de pedido, csv, sku, vendedor, materiales, suministro, problemas
 from: f11160fb
 ---

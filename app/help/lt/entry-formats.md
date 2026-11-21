@@ -1,6 +1,6 @@
 ---
 title: Ilgio, normos ir procentų įvedimas
-summary: Ką galite įvesti atstumams, aukščiams, pinigų normoms ir atliekų procentams, su pavyzdžiais ir pranešimais apie įvestis, kurių TakeoffCraft negali perskaityti.
+summary: Ką galite įvesti atstumams, aukščiams, pinigų normoms ir atliekų procentams, su pavyzdžiais ir pranešimais apie įvestis, kurių TakeoffDesk negali perskaityti.
 keywords: įvestis, formatas, pėdos ir coliai, trupmenos, dešimtainės pėdos, metrinė sistema, metrai, milimetrai, norma, kaina, doleriai, procentas, atliekos, rašymas
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Iki dviejų skaitmenų po skyriklio, nuo 0% iki 1000%. Pranešimai: „Įveskite
 ## Pavadinimai ir vienetai
 
 - Elementų ir komponentų pavadinimai: iki 200 simbolių.
-- Komponento {{ui:Vienetas}}: bet koks tekstas iki 20 simbolių, pavyzdžiui `EA`, `lapai`, `CY`, `gal`. Tai tik žymė; TakeoffCraft jos nekonvertuoja.
+- Komponento {{ui:Vienetas}}: bet koks tekstas iki 20 simbolių, pavyzdžiui `EA`, `lapai`, `CY`, `gal`. Tai tik žymė; TakeoffDesk jos nekonvertuoja.
 
 ## Formulės
 

@@ -39,4 +39,4 @@ Shay kasta waxa kale oo ku jira lambarka CSI MasterFormat, sida `09 21 16`.
 
 {{ui:U dhoofi xirmo…}} gudaha maktabadda wuxuu kaydiyaa fayl xirmo (`.ccpack.json`) oo qof kasta ku dari karo {{ui:Fur fayl xirmo…}}. Caadi ahaan wuu ka reebaa shayada ka timid xirmooyinka aad ku darteen, wuxuuna ka reebaa qiimaha. Calaamee {{ui:Ku dar heerarkayga tusaalooyin ahaan}} si aad qiimahaaga u dirto: waxay u yimaadaan calaamad gobolka iyo taariikhda aad siiso, qofkii ku daraa xirmada wuxuu go'aaminayaa inuu isticmaalo iyo midna.
 
-Faylasha xirmada waa xog qeexan oo kaliya, ma aha barnaamij. TakeoffCraft wuxuu hubiyaa qayb kasta oo ka mid ah ka hor inta uusan isticmaalin, wuxuuna ka reebaa wax aan akhrisan karin.
+Faylasha xirmada waa xog qeexan oo kaliya, ma aha barnaamij. TakeoffDesk wuxuu hubiyaa qayb kasta oo ka mid ah ka hor inta uusan isticmaalin, wuxuuna ka reebaa wax aan akhrisan karin.

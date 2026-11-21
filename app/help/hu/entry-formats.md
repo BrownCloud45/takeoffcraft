@@ -1,6 +1,6 @@
 ---
 title: Hossz-, egységár- és százalékbevitel
-summary: Mit írhat be távolságokhoz, magasságokhoz, pénzbeli egységárakhoz és hulladékszázalékokhoz, példákkal és azokkal az üzenetekkel, amelyeket a TakeoffCraft nem tud értelmezni.
+summary: Mit írhat be távolságokhoz, magasságokhoz, pénzbeli egységárakhoz és hulladékszázalékokhoz, példákkal és azokkal az üzenetekkel, amelyeket a TakeoffDesk nem tud értelmezni.
 keywords: bevitel, formátum, láb és hüvelyk, törtek, tizedes láb, metrikus, méter, milliméter, egységár, pénz, dollár, százalék, hulladék, gépelés
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Legfeljebb két tizedesjegy, 0% és 1000% között. Üzenetek: „Adjon meg szá
 ## Nevek és mértékegységek
 
 - Tétel- és összetevőnevek: legfeljebb 200 karakter.
-- Egy összetevő {{ui:Egység}} mezője: legfeljebb 20 karakter bármilyen szöveg, például `EA`, `sheets`, `CY`, `gal`. Ez csak címke; a TakeoffCraft nem váltja át.
+- Egy összetevő {{ui:Egység}} mezője: legfeljebb 20 karakter bármilyen szöveg, például `EA`, `sheets`, `CY`, `gal`. Ez csak címke; a TakeoffDesk nem váltja át.
 
 ## Képletek
 

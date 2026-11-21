@@ -56,4 +56,4 @@ A sheet's scale says how big the drawing is; an item's unit says how to report i
 
 ## Precision
 
-TakeoffCraft measures exactly from the points you click, including true arc lengths and areas, and does not round quantities. Display rounds lengths to 1/16 inch and decimals to two places. Money is rounded only at the extended amounts, to the cent.
+TakeoffDesk measures exactly from the points you click, including true arc lengths and areas, and does not round quantities. Display rounds lengths to 1/16 inch and decimals to two places. Money is rounded only at the extended amounts, to the cent.

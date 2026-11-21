@@ -13,7 +13,7 @@ Maak dit oop met {{ui:Biblioteek}} bo-aan die {{ui:Items}}-paneel.
 
 - {{ui:Voer CSV in…}} lees 'n sigblad wat as CSV gestoor is (sien die kolomme hieronder). Items waarvan die naam en soort reeds in die biblioteek is, word vervang; die res word bygevoeg. Rye wat dit nie kan lees nie, word oorgeslaan, en dit sê watter en hoekom.
 - {{ui:Voeg hierdie hoeveelheidsopname se items by}} kopieer elke item van die oop hoeveelheidsopname na die biblioteek, met sy tariewe en samestelling (nie sy merke nie).
-- Die skatting-CSV wat TakeoffCraft uitvoer ([Voer die skatting uit](topic:export-estimate)) word soos dit is ingevoer: die vorige werk se pryse saai die volgende een.
+- Die skatting-CSV wat TakeoffDesk uitvoer ([Voer die skatting uit](topic:export-estimate)) word soos dit is ingevoer: die vorige werk se pryse saai die volgende een.
 
 - {{ui:Handelspakkette…}} voeg gratis samestellings vir 'n bedryf by, soos gipsbord, elektries of beton, sonder pryse. Sien [Handelspakkette](topic:trade-packs).
 

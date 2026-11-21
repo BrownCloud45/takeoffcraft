@@ -41,7 +41,7 @@ Kapag nakaguhit ang mga room bilang saradong pader, kinukuha ng {{ui:Room}} ({{k
 2. Piliin ang {{ui:Room}} sa grupong {{ui:Takeoff}}, o pindutin ang {{key:B}}.
 3. I-click sa loob ng room, sa bukas na sahig (hindi sa linya o label).
 
-Binabasa ng TakeoffCraft ang mga linya ng sheet, hinahanap ang espasyo sa paligid ng click at binabalangkas ito sa kahabaan ng loob ng mga pader, bilang area ng kasalukuyang item. Itinuturing na sarado ang mga pagbubukas ng pinto hanggang **4'-0"**, kaya tuwid na dumadaan ang outline sa pinto; binabago ng **Mga setting › TakeoffCraft › Room fill nagsasara ng mga opening hanggang** ang lapad na iyon (3'-0" hanggang 8'-0"). Hindi gumagawa ng butas ang mga pangalan ng room, kasangkapan at fixture sa loob ng room.
+Binabasa ng TakeoffDesk ang mga linya ng sheet, hinahanap ang espasyo sa paligid ng click at binabalangkas ito sa kahabaan ng loob ng mga pader, bilang area ng kasalukuyang item. Itinuturing na sarado ang mga pagbubukas ng pinto hanggang **4'-0"**, kaya tuwid na dumadaan ang outline sa pinto; binabago ng **Mga setting › TakeoffDesk › Room fill nagsasara ng mga opening hanggang** ang lapad na iyon (3'-0" hanggang 8'-0"). Hindi gumagawa ng butas ang mga pangalan ng room, kasangkapan at fixture sa loob ng room.
 
 Tumatanggi ito at sinasabi kung bakit kapag:
 
@@ -62,7 +62,7 @@ Kapag mas malapad ang pinto kaysa sa setting, tatakbo ang fill papunta sa kasuno
 
 Para sa bilog na butas, piliin ang {{ui:Add a round cut-out}} sa ilalim ng **Selected mark**, i-click ang center nito, pagkatapos ang isang point sa gilid nito.
 
-Dapat nasa loob nang buo ng area ang cut-out at hindi dapat magsalubong sa ibang cut-out. Kung hindi, tatanggihan ito ng TakeoffCraft: "Dapat nasa loob nang buo ng area ang cut-out." o "Hindi maaaring magsalubong ang mga cut-out."
+Dapat nasa loob nang buo ng area ang cut-out at hindi dapat magsalubong sa ibang cut-out. Kung hindi, tatanggihan ito ng TakeoffDesk: "Dapat nasa loob nang buo ng area ang cut-out." o "Hindi maaaring magsalubong ang mga cut-out."
 
 Para alisin ang huling butas, piliin ang {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ Kabilang ang isang cut-out sa iisang area mark. Ang **back-out** ay iginuguhit n
 
 Bawat area mark ng naka-tsek na item sa parehong sheet ay nawawalan ng bahaging sakop ng back-out: ang buong back-out kapag nasa loob ito, ang nagsasalubong na bahagi lamang kapag tumatawid ito sa gilid, at wala kapag nasa loob ng cut-out. Ipinapakita ng panel ng napiling area ang **Back-outs** at ang natitirang area. Ang dami ng item, mga formula ng assembly, gastos, 3D check view at export ay gumagamit ng natitirang area; sinasabi ng mga tala ng estimate kung gaano karami ang inalis ng mga back-out. Binibilang ng back-out item mismo ang sarili nitong area (iwanang zero ang gastos nito kung hindi mo ito pina-presyuhan).
 
-Dapat **convex** ang back-out: isang rectangle, bilog, o anumang outline na walang papasok na sulok. Tinatanggihan ng TakeoffCraft ang hindi ganoon; iguhit ang L-shaped na shaft bilang dalawang back-out. Hindi maaaring may cut-out ang back-out, at parehong binibilang ang dalawang back-out na nagsasalubong.
+Dapat **convex** ang back-out: isang rectangle, bilog, o anumang outline na walang papasok na sulok. Tinatanggihan ng TakeoffDesk ang hindi ganoon; iguhit ang L-shaped na shaft bilang dalawang back-out. Hindi maaaring may cut-out ang back-out, at parehong binibilang ang dalawang back-out na nagsasalubong.
 
 Hindi nagbabago ang perimeter (`P`): inaalis lamang ng back-out ang area.
 

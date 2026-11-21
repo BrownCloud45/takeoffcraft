@@ -5,7 +5,7 @@ keywords: snap, snap a oggetto, osnap, punto finale, punto medio, intersezione, 
 from: 41d29e9b
 ---
 
-Il PDF di una serie di piante è in genere vettoriale: i muri e i bordi sono linee vere, non pixel. Durante la misurazione TakeoffCraft aggancia i clic a quelle linee, così una misura inizia esattamente nell'angolo di un muro e una calibrazione legge la quota disegnata dal progettista, non il pixel che si è toccato.
+Il PDF di una serie di piante è in genere vettoriale: i muri e i bordi sono linee vere, non pixel. Durante la misurazione TakeoffDesk aggancia i clic a quelle linee, così una misura inizia esattamente nell'angolo di un muro e una calibrazione legge la quota disegnata dal progettista, non il pixel che si è toccato.
 
 Snap è attivo all'avvio. Per attivarlo o disattivarlo usare {{ui:Snap}} nella barra di stato oppure {{key:F3}}; l'impostazione viene mantenuta in questo browser (si trova anche in [Impostazioni](topic:settings)).
 

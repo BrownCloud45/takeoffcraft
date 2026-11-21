@@ -1,6 +1,6 @@
 ---
 title: Introducerea lungimilor, tarifelor și procentelor
-summary: Ce puteți scrie pentru distanțe, înălțimi, tarife în bani și procente de pierderi, cu exemple și mesajele pentru datele pe care TakeoffCraft nu le poate citi.
+summary: Ce puteți scrie pentru distanțe, înălțimi, tarife în bani și procente de pierderi, cu exemple și mesajele pentru datele pe care TakeoffDesk nu le poate citi.
 keywords: introducere, format, picioare și inci, fracții, picioare zecimale, metric, metri, milimetri, tarif, bani, dolari, procent, pierderi, scriere
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Până la două zecimale, de la 0% la 1000%. Mesaje: "Scrieți un procent, de ex
 ## Nume și unități
 
 - Nume de articole și componente: până la 200 de caractere.
-- {{ui:UM}} a unei componente: orice text de până la 20 de caractere, precum `EA`, `foi`, `CY`, `gal`. Este doar o etichetă; TakeoffCraft nu o convertește.
+- {{ui:UM}} a unei componente: orice text de până la 20 de caractere, precum `EA`, `foi`, `CY`, `gal`. Este doar o etichetă; TakeoffDesk nu o convertește.
 
 ## Formule
 

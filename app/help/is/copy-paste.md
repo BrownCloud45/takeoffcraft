@@ -32,11 +32,11 @@ Límd merki fara á tilboðssvæðið sem er valið efst á {{ui:Liðir}}-spjald
 
 {{key:Mod+Shift+V}} ({{ui:Líma á sama stað}}) setur afritið nákvæmlega á sama stað á opna blaðinu, eftir stöðu þess á síðunni. Notaðu það fyrir dæmigerða hæð: mældu hæð 2, afritaðu, opnaðu hæð 3, límdu á sama stað.
 
-Líma á sama stað þarf blað af **sömu stærð** og blaðið sem þú afritaðir af. Á blaði af annarri stærð segir TakeoffCraft það og límir ekkert; notaðu þá {{ui:Líma}} og smelltu í staðinn. Á blaðinu sem þú afritaðir af lendir afritið ofan á upprunalegu merkjunum.
+Líma á sama stað þarf blað af **sömu stærð** og blaðið sem þú afritaðir af. Á blaði af annarri stærð segir TakeoffDesk það og límir ekkert; notaðu þá {{ui:Líma}} og smelltu í staðinn. Á blaðinu sem þú afritaðir af lendir afritið ofan á upprunalegu merkjunum.
 
 ## Mælikvarðinn þarf að passa
 
-Lengdir og flatarmál ráðast af mælikvarða blaðsins. Keðja sem mælist 10' við 1/4" = 1'-0" myndi mælast 20' á blaði við 1/8" = 1'-0". Þess vegna límir TakeoffCraft keðjur og fleti aðeins á blað með **sama mælikvarða** og blaðið sem þau komu af, og segir það berum orðum þegar svo er ekki:
+Lengdir og flatarmál ráðast af mælikvarða blaðsins. Keðja sem mælist 10' við 1/4" = 1'-0" myndi mælast 20' á blaði við 1/8" = 1'-0". Þess vegna límir TakeoffDesk keðjur og fleti aðeins á blað með **sama mælikvarða** og blaðið sem þau komu af, og segir það berum orðum þegar svo er ekki:
 
 - Opna blaðið hefur engan mælikvarða ennþá: gefðu því hann fyrst ([Stilla mælikvarðann](topic:set-the-scale)), og límdu síðan.
 - Opna blaðið hefur annan mælikvarða: skilaboðin nefna báða mælikvarðana. Límdu á blað með sama mælikvarða.
@@ -59,7 +59,7 @@ Liðaritillinn (undir **Liðir**) endar á:
 - {{ui:Tvöfalda lið}}: bætir afriti við strax, með heitinu „(heiti) (afrit)“.
 
 :::tip
-Afritið er geymt á þessari tölvu: það er geymt í þessum flipa og í geymslu vafrans, svo annar TakeoffCraft-flipi geti límt það. Ekkert er hlaðið upp, og klemmuspjald kerfisins er ekki notað, svo þú getur ekki límt merki inn í önnur forrit.
+Afritið er geymt á þessari tölvu: það er geymt í þessum flipa og í geymslu vafrans, svo annar TakeoffDesk-flipi geti límt það. Ekkert er hlaðið upp, og klemmuspjald kerfisins er ekki notað, svo þú getur ekki límt merki inn í önnur forrit.
 :::
 
 :::note

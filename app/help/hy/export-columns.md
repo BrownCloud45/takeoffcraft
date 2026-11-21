@@ -77,7 +77,7 @@ CSV-ում նույն սյուները պարունակում են պարզ ար
 | Sheet | Թերթի անունը |
 | Scale | Նախադրված մասշտաբի անունը, կալիբրացված մասշտաբը կամ «No scale» |
 | How | «Preset», կամ «Calibrated on (the distance you typed)» |
-| Feet per PDF unit | Ճշգրիտ մասշտաբային գործակիցը, որ օգտագործում է TakeoffCraft-ը |
+| Feet per PDF unit | Ճշգրիտ մասշտաբային գործակիցը, որ օգտագործում է TakeoffDesk-ը |
 
 ## Ֆայլերի անուններ
 

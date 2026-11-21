@@ -1,11 +1,11 @@
 ---
 title: Rozwiązywanie problemów
-summary: Objawy, przyczyny i sposoby naprawy komunikatów oraz niespodzianek, na które możesz trafić w TakeoffCraft, cytowane tak, jak pokazuje je aplikacja.
+summary: Objawy, przyczyny i sposoby naprawy komunikatów oraz niespodzianek, na które możesz trafić w TakeoffDesk, cytowane tak, jak pokazuje je aplikacja.
 keywords: problemy, błędy, nie działa, naprawa, pomoc, odmowa, nie mierzy, brak skali, brakujące znaczniki, eksport nie powiódł się, offline, dotyk
 from: cd319c9b
 ---
 
-TakeoffCraft wyjaśnia większość odmów w pasku stanu u dołu okna. Znajdź komunikat poniżej.
+TakeoffDesk wyjaśnia większość odmów w pasku stanu u dołu okna. Znajdź komunikat poniżej.
 
 ## Otwieranie plików
 
@@ -15,8 +15,8 @@ TakeoffCraft wyjaśnia większość odmów w pasku stanu u dołu okna. Znajdź k
 | (nazwa) jest zabezpieczony hasłem. Otwórz kopię bez zabezpieczenia. | Plik PDF wymaga hasła, aby go otworzyć. | Poproś o kopię bez zabezpieczenia albo usuń hasło w programie do PDF, któremu ufasz. |
 | (nazwa) nie udało się odczytać jako PDF (…) | Plik jest uszkodzony albo nie jest naprawdę plikiem PDF. | Pobierz go ponownie albo zapisz go ponownie z programu, który go utworzył. |
 | (nazwa) jest już otwarty. | Ten sam PDF (ta sama zawartość) jest otwarty. | Nic nie trzeba robić. |
-| TakeoffCraft otwiera pliki PDF i projekty .takeoff.json. Pominięto: … | Inne typy plików zostały odrzucone. | Najpierw zamień rysunki na PDF. |
-| Nic się nie dzieje, gdy upuszczam pliki | Pliki upuszczono poza oknem przeglądarki albo przeglądarka otworzyła PDF w nowej karcie. | Upuść je na samą stronę TakeoffCraft; ramka „Upuść pliki PDF lub .takeoff.json” pokazuje, kiedy to zadziała. |
+| TakeoffDesk otwiera pliki PDF i projekty .takeoff.json. Pominięto: … | Inne typy plików zostały odrzucone. | Najpierw zamień rysunki na PDF. |
+| Nic się nie dzieje, gdy upuszczam pliki | Pliki upuszczono poza oknem przeglądarki albo przeglądarka otworzyła PDF w nowej karcie. | Upuść je na samą stronę TakeoffDesk; ramka „Upuść pliki PDF lub .takeoff.json” pokazuje, kiedy to zadziała. |
 | Otwieranie dużego zestawu trwa chwilę | Każdy PDF jest odczytywany w całości, aby go rozpoznać. | Poczekaj, aż zniknie komunikat „Otwieranie (nazwa)…”. Miniatury uzupełniają się podczas przewijania. |
 
 ## Pomiary
@@ -47,7 +47,7 @@ TakeoffCraft wyjaśnia większość odmów w pasku stanu u dołu okna. Znajdź k
 | Komunikat lub objaw | Przyczyna | Rozwiązanie |
 |---|---|---|
 | Wskaż dwa punkty dalej od siebie. | Punkty kalibracji leżą prawie na sobie. | Kalibruj na dłuższym wymiarze. |
-| Komunikat w oknie kalibracji, na przykład „Tej odległości nie udało się odczytać” | Odległość zapisano w formie, której TakeoffCraft nie potrafi odczytać. | Zob. [Wprowadzanie długości, stawki i procentów](topic:entry-formats). |
+| Komunikat w oknie kalibracji, na przykład „Tej odległości nie udało się odczytać” | Odległość zapisano w formie, której TakeoffDesk nie potrafi odczytać. | Zob. [Wprowadzanie długości, stawki i procentów](topic:entry-formats). |
 | Ten arkusz nie ma jeszcze skali, więc nie ma czego sprawdzać. Skalibruj go albo wybierz gotową skalę. | {{ui:Sprawdź}} na arkuszu bez skali. | Najpierw ustaw skalę. |
 | Lista {{ui:Gotowa skala}} jest wyszarzona | Nie jest otwarty żaden arkusz. | Otwórz PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft wyjaśnia większość odmów w pasku stanu u dołu okna. Znajdź k
 | Ten PDF jest zabezpieczony hasłem lub zaszyfrowany, więc kopii z oznaczeniami nie można zapisać. … | Plik PDF jest zaszyfrowany. | Wyeksportuj {{ui:XLSX}} zamiast tego albo użyj niezaszyfrowanej kopii PDF-a (wtedy potrzebuje własnego przedmiaru, bo to inny plik). |
 | Nie udało się zapisać PDF-a z oznaczeniami: … | Często: jesteś offline, a aplikacji nie zapisano do pracy offline, więc brakuje zapisywacza PDF. | Połącz się z siecią i ponownie wybierz {{ui:PDF z oznaczeniami}}. Aby tego uniknąć, wybierz {{ui:Zapisz do pracy offline}} i poczekaj na {{ui:Gotowe offline}}. |
 | Pobrano tylko jeden PDF z oznaczeniami | Przeglądarka zablokowała kilka pobrań naraz. | Zezwól na wiele pobrań dla tej strony i wyeksportuj ponownie. |
-| (plik) nie jest projektem TakeoffCraft (nie jest poprawnym JSON-em). / To nie jest plik projektu TakeoffCraft. | Zły plik albo uszkodzony. | Wskaż plik `.takeoff.json`. |
-| Ten projekt zapisano w nowszym TakeoffCraft. Otwórz go tam. | Plik pochodzi z nowszej wersji. | Otwórz go w nowszej wersji. |
+| (plik) nie jest projektem TakeoffDesk (nie jest poprawnym JSON-em). / To nie jest plik projektu TakeoffDesk. | Zły plik albo uszkodzony. | Wskaż plik `.takeoff.json`. |
+| Ten projekt zapisano w nowszym TakeoffDesk. Otwórz go tam. | Plik pochodzi z nowszej wersji. | Otwórz go w nowszej wersji. |
 | (n) znaczników było uszkodzonych i zostało pominiętych. | Część pliku została uszkodzona albo edytowana ręcznie. | Reszta została otwarta. Narysuj brakujące znaczniki ponownie albo otwórz starszą kopię. |
 | Brak znaczników po ponownym otwarciu | PDF-y nie są otwarte albo któryś z nich się zmienił. | Zob. [Zapisywanie i ponowne otwieranie przedmiaru](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Przeglądarka pyta „Opuścić witrynę?” | Są niezapisane zmiany. | Pozostań i zapisz, używając {{key:Mod+S}}. |

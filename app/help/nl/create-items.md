@@ -37,12 +37,12 @@ Een getypte hoeveelheid krijgt geen markeringen en maakt de raming nooit onvolle
 Druk in het formulier op {{key:Esc}} om het te sluiten zonder een post toe te voegen.
 
 :::tip
-Als u eerst een meethulpmiddel kiest, gebruikt TakeoffCraft de laatste post van het juiste soort, of opent het formulier {{ui:Nieuwe post}} met dat soort al gekozen.
+Als u eerst een meethulpmiddel kiest, gebruikt TakeoffDesk de laatste post van het juiste soort, of opent het formulier {{ui:Nieuwe post}} met dat soort al gekozen.
 :::
 
 ## De post kiezen waarmee u tekent
 
-Klik op een post in de lijst. Die wordt de post waaraan nieuwe markeringen worden toegevoegd, en zijn markeringen worden op elk blad gemarkeerd terwijl de andere vervagen. Heeft het open blad geen markeringen ervan, dan springt TakeoffCraft naar een blad dat er wel heeft. Klik de post nogmaals om het markeren te stoppen; hij blijft de post waarmee u tekent.
+Klik op een post in de lijst. Die wordt de post waaraan nieuwe markeringen worden toegevoegd, en zijn markeringen worden op elk blad gemarkeerd terwijl de andere vervagen. Heeft het open blad geen markeringen ervan, dan springt TakeoffDesk naar een blad dat er wel heeft. Klik de post nogmaals om het markeren te stoppen; hij blijft de post waarmee u tekent.
 
 Klik een markering met het hulpmiddel {{ui:Selecteren}} om ook zijn post de huidige te maken.
 
@@ -57,7 +57,7 @@ De postbewerking (**Post: (naam)**) heeft deze velden. Elk veld wordt opgeslagen
 | {{ui:Kleur}} | De kleur van de markeringen op het scherm en in de gemarkeerde PDF. |
 | {{ui:Eenheid}} | Waarin de hoeveelheid wordt gerapporteerd: LF of m voor lineair; SF, SY, SQ, ac, ha of m² voor oppervlakte; EA voor tellen. |
 | {{ui:Ook meten}} | De andere soorten markeringen die de post aanneemt, elk met een eigen eenheid. Zie hieronder. |
-| {{ui:Hoogte}} (lineair) | Een wandhoogte. De post rapporteert dan ook het wandoppervlak (lengte × hoogte). Reeksen die uit een BimCraft-model komen, bevatten hun deuren en ramen: die worden één keer eraf gehaald, en de post toont het bruto oppervlak, de openingen en het netto. Een opmeting uit een BimCraft-project waarbij een meetmethode is gekozen, wordt hier ook met die methode gemeten (de notitie noemt die, met zijn bron, en zegt dat een kostendeskundige die niet heeft gecontroleerd); de methode kan niet in TakeoffCraft worden gewijzigd. Metselstenen of blokken en mortel uit een wandtype komen aan als twee componenten: de te bestellen eenheden en het mortelvolume. |
+| {{ui:Hoogte}} (lineair) | Een wandhoogte. De post rapporteert dan ook het wandoppervlak (lengte × hoogte). Reeksen die uit een BimCraft-model komen, bevatten hun deuren en ramen: die worden één keer eraf gehaald, en de post toont het bruto oppervlak, de openingen en het netto. Een opmeting uit een BimCraft-project waarbij een meetmethode is gekozen, wordt hier ook met die methode gemeten (de notitie noemt die, met zijn bron, en zegt dat een kostendeskundige die niet heeft gecontroleerd); de methode kan niet in TakeoffDesk worden gewijzigd. Metselstenen of blokken en mortel uit een wandtype komen aan als twee componenten: de te bestellen eenheden en het mortelvolume. |
 | {{ui:Diepte}} (oppervlakte) | Een diepte of dikte, gebruikt in samenstellingsformules (bijvoorbeeld betonvolume). |
 | {{ui:Verlies %}} | Wordt bij de hoeveelheid opgeteld vóór het prijzen: 10 betekent hoeveelheid × 1.10. |
 | {{ui:Materiaal €/LF}} | Materiaalkosten per eenheid. Het label volgt de eenheid: €/SF, €/EA enzovoort. |
@@ -74,7 +74,7 @@ Sommige dingen worden op meer dan één manier gemeten: een ruimte heeft een vlo
 
 1. Maak de post met zijn hoofdsoort, zoals een oppervlaktepost `Ruimte 101`.
 2. Vink onder {{ui:Ook meten}} in zijn editor {{ui:Lineair}}, {{ui:Tellen}} of beide aan. Elk krijgt ernaast een eenheid.
-3. Teken met elk hulpmiddel waarvan de soort de post aanneemt: met `Ruimte 101` als huidige post tekent {{ui:Oppervlakte}} de vloer, {{ui:Lineair}} de plint en {{ui:Tellen}} de deuren. TakeoffCraft vraagt niet om een andere post.
+3. Teken met elk hulpmiddel waarvan de soort de post aanneemt: met `Ruimte 101` als huidige post tekent {{ui:Oppervlakte}} de vloer, {{ui:Lineair}} de plint en {{ui:Tellen}} de deuren. TakeoffDesk vraagt niet om een andere post.
 
 De lijst met posten toont elke hoeveelheid (`50.00 SF + 2 EA`). In de tabel {{ui:Hoeveelheden}} heeft de rij van de post de hoofdhoeveelheid, en elke andere soort krijgt een eigen rij eronder, zoals **Ruimte 101 (tellen)**, met een eigen verlies en materiaal- en arbeidstarieven. De exports, de tabel per blad en de legenda van de gemarkeerde PDF tonen ze op dezelfde manier.
 
@@ -113,7 +113,7 @@ In plaats van een arbeidstarief per eenheid kan de arbeid van een post uit een p
 | {{ui:Ploegsterkte}} | `2` personen |
 | {{ui:Loon €/uur per persoon}} | `45` |
 
-TakeoffCraft berekent uit de hoeveelheid met verlies:
+TakeoffDesk berekent uit de hoeveelheid met verlies:
 
 - **ploegenuren** = hoeveelheid ÷ productie (110 LF ÷ 20 = 5.5),
 - **werkersuren** = ploegenuren × ploegsterkte (11),

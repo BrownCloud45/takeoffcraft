@@ -37,12 +37,12 @@ Zadané množstvo nemá značky a rozpočet nikdy neurobí neúplným. Ak má v�
 Stlačením {{key:Esc}} vo formulári ho zatvoríte bez pridania položky.
 
 :::tip
-Ak najskôr vyberiete merací nástroj, TakeoffCraft použije poslednú položku správneho typu, alebo otvorí formulár {{ui:Nová položka}} s už zvoleným typom.
+Ak najskôr vyberiete merací nástroj, TakeoffDesk použije poslednú položku správneho typu, alebo otvorí formulár {{ui:Nová položka}} s už zvoleným typom.
 :::
 
 ## Výber položky, ktorou kreslíte
 
-Kliknite na položku v zozname. Stane sa položkou, do ktorej smerujú nové značky, a jej značky sa zvýraznia na každom liste, zatiaľ čo ostatné zablednú. Ak otvorený list nemá jej značky, TakeoffCraft prejde na list, ktorý ich má. Kliknutím na položku znova zvýrazňovanie vypnete; zostane položkou, ktorou kreslíte.
+Kliknite na položku v zozname. Stane sa položkou, do ktorej smerujú nové značky, a jej značky sa zvýraznia na každom liste, zatiaľ čo ostatné zablednú. Ak otvorený list nemá jej značky, TakeoffDesk prejde na list, ktorý ich má. Kliknutím na položku znova zvýrazňovanie vypnete; zostane položkou, ktorou kreslíte.
 
 Kliknutím na značku nástrojom {{ui:Vybrať}} sa jej položka tiež stane aktuálnou.
 
@@ -57,7 +57,7 @@ Editor položky (**Položka: (názov)**) má tieto polia. Každé pole sa ulož�
 | {{ui:Farba}} | Farba jej značiek na obrazovke a v označenom súbore PDF. |
 | {{ui:Jednotka}} | V akej jednotke sa množstvo zobrazuje: LF alebo m pre lineárne; SF, SY, SQ, ac, ha alebo m² pre plošné; EA pre počtové. |
 | {{ui:Merať aj}} | Ďalšie druhy značiek, ktoré položka prijíma, každý s vlastnou jednotkou. Pozri nižšie. |
-| {{ui:Výška}} (lineárna) | Výška steny. Položka potom zobrazuje aj plochu steny (dĺžka × výška). Úseky pochádzajúce z modelu BimCraft obsahujú svoje dvere a okná: tie sa odpočítajú raz a položka uvádza hrubú plochu, otvory a čistú plochu. Výkaz výmer z projektu BimCraft, ktorý zvolil spôsob merania, sa tu meria tiež týmto spôsobom (poznámka ho pomenúva, uvádza jeho zdroj a hovorí, že ho rozpočtár neoveril); spôsob sa v TakeoffCraft nedá zmeniť. Tehly alebo bloky a malta z typu steny prichádzajú ako dve zložky: jednotky na objednanie a objem malty. |
+| {{ui:Výška}} (lineárna) | Výška steny. Položka potom zobrazuje aj plochu steny (dĺžka × výška). Úseky pochádzajúce z modelu BimCraft obsahujú svoje dvere a okná: tie sa odpočítajú raz a položka uvádza hrubú plochu, otvory a čistú plochu. Výkaz výmer z projektu BimCraft, ktorý zvolil spôsob merania, sa tu meria tiež týmto spôsobom (poznámka ho pomenúva, uvádza jeho zdroj a hovorí, že ho rozpočtár neoveril); spôsob sa v TakeoffDesk nedá zmeniť. Tehly alebo bloky a malta z typu steny prichádzajú ako dve zložky: jednotky na objednanie a objem malty. |
 | {{ui:Hĺbka}} (plošná) | Hĺbka alebo hrúbka, používaná vo vzorcoch zostavy (napríklad objem betónu). |
 | {{ui:Odpad %}} | Pripočíta sa k množstvu pred ocenením: 10 znamená množstvo × 1.10. |
 | {{ui:Materiál $/LF}} | Náklad na materiál na jednotku. Popis sa riadi jednotkou: $/SF, $/EA a podobne. |
@@ -74,7 +74,7 @@ Niektoré veci sa merajú viacerými spôsobmi: miestnosť má podlahu (plochu),
 
 1. Vytvorte položku s jej hlavným typom, napríklad plošnú položku `Room 101`.
 2. V jej editore pod {{ui:Merať aj}} zaškrtnite {{ui:Lineárne}}, {{ui:Počet}} alebo obe. Každá dostane vedľa seba jednotku.
-3. Kreslite ľubovoľným nástrojom, ktorého druh položka prijíma: pri aktuálnej položke `Room 101` kreslí {{ui:Plocha}} jej podlahu, {{ui:Lineárne}} jej sokel a {{ui:Počet}} jej dvere. TakeoffCraft nežiada inú položku.
+3. Kreslite ľubovoľným nástrojom, ktorého druh položka prijíma: pri aktuálnej položke `Room 101` kreslí {{ui:Plocha}} jej podlahu, {{ui:Lineárne}} jej sokel a {{ui:Počet}} jej dvere. TakeoffDesk nežiada inú položku.
 
 Zoznam položiek zobrazuje každé množstvo (`50.00 SF + 2 EA`). V tabuľke množstiev má riadok položky jej hlavné množstvo a každý ďalší druh dostane vlastný riadok pod ním, napríklad **Room 101 (count)**, s vlastným odpadom a sadzbami materiálu a práce. Exporty, tabuľka po listoch a legenda označeného súboru PDF ich uvádzajú rovnako.
 
@@ -113,7 +113,7 @@ Namiesto sadzby práce na jednotku môže práca položky vychádzať z čaty: k
 | {{ui:Veľkosť čaty}} | `2` osoby |
 | {{ui:Mzda $/hodina na osobu}} | `45` |
 
-TakeoffCraft vypočíta z množstva s odpadom:
+TakeoffDesk vypočíta z množstva s odpadom:
 
 - **hodiny čaty** = množstvo ÷ produkcia (110 LF ÷ 20 = 5.5),
 - **človekohodiny** = hodiny čaty × veľkosť čaty (11),

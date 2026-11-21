@@ -1,6 +1,6 @@
 ---
 title: Eingabe von Längen, Einheitspreisen und Prozenten
-summary: Was Sie für Strecken, Höhen, Geldsätze und Verschnittprozente eingeben können, mit Beispielen und den Meldungen für Eingaben, die TakeoffCraft nicht lesen kann.
+summary: Was Sie für Strecken, Höhen, Geldsätze und Verschnittprozente eingeben können, mit Beispielen und den Meldungen für Eingaben, die TakeoffDesk nicht lesen kann.
 keywords: Eingabe, Format, Fuß Zoll, Brüche, Dezimalfuß, metrisch, Meter, Millimeter, Einheitspreis, Geld, Dollar, Prozent, Verschnitt, Tippen
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Bis zu zwei Nachkommastellen, von 0 % bis 1000 %. Meldungen: „Einen Prozentsat
 ## Namen und Einheiten
 
 - Namen von Positionen und Komponenten: bis zu 200 Zeichen.
-- Die {{ui:Einheit}} einer Komponente: beliebiger Text bis zu 20 Zeichen, z. B. `EA`, `Blatt`, `CY`, `gal`. Sie ist nur eine Bezeichnung; TakeoffCraft rechnet sie nicht um.
+- Die {{ui:Einheit}} einer Komponente: beliebiger Text bis zu 20 Zeichen, z. B. `EA`, `Blatt`, `CY`, `gal`. Sie ist nur eine Bezeichnung; TakeoffDesk rechnet sie nicht um.
 
 ## Formeln
 

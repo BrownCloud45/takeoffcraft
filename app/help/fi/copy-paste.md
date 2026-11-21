@@ -32,11 +32,11 @@ Liitetyt merkinnät menevät tarjousalueeseen, joka on valittu {{ui:Nimikkeet}}-
 
 {{key:Mod+Shift+V}} ({{ui:Liitä samaan paikkaan}}) asettaa kopion täsmälleen samaan kohtaan avoimella arkilla, sijaintinsa mukaan sivulla. Käytä sitä tyypillisille kerroksille: määritä kerros 2, kopioi, avaa kerros 3 ja liitä samaan paikkaan.
 
-Liitä samaan paikkaan vaatii arkin, jonka **koko on sama** kuin kopioidun arkin. Eri kokoisella arkilla TakeoffCraft kertoo sen eikä liitä mitään; käytä sen sijaan {{ui:Liitä}}-toimintoa ja napsauta. Arkilla, josta kopioit, kopio osuu alkuperäisten päälle.
+Liitä samaan paikkaan vaatii arkin, jonka **koko on sama** kuin kopioidun arkin. Eri kokoisella arkilla TakeoffDesk kertoo sen eikä liitä mitään; käytä sen sijaan {{ui:Liitä}}-toimintoa ja napsauta. Arkilla, josta kopioit, kopio osuu alkuperäisten päälle.
 
 ## Mittakaavan on täsmättävä
 
-Pituudet ja pinta-alat riippuvat arkin mittakaavasta. Viiva, joka mittaa 10' mittakaavassa 1/4" = 1'-0", mittaisi 20' arkilla mittakaavassa 1/8" = 1'-0". Siksi TakeoffCraft liittää viivat ja pinta-alat vain arkille, jonka **mittakaava on sama** kuin arkilla, josta ne tulivat, ja sanoo selvästi, jos ei ole:
+Pituudet ja pinta-alat riippuvat arkin mittakaavasta. Viiva, joka mittaa 10' mittakaavassa 1/4" = 1'-0", mittaisi 20' arkilla mittakaavassa 1/8" = 1'-0". Siksi TakeoffDesk liittää viivat ja pinta-alat vain arkille, jonka **mittakaava on sama** kuin arkilla, josta ne tulivat, ja sanoo selvästi, jos ei ole:
 
 - Avoimella arkilla ei ole vielä mittakaavaa: anna sille ensin mittakaava ([Aseta mittakaava](topic:set-the-scale)), liitä sitten.
 - Avoimella arkilla on eri mittakaava: viesti nimeää molemmat mittakaavat. Liitä arkille, jolla on sama mittakaava.
@@ -59,7 +59,7 @@ Nimikkeen muokkausikkuna (kohdassa **{{ui:Nimikkeet}}**) päättyy kohtiin:
 - {{ui:Monista nimike}}: lisää kopion heti nimellä "(nimi) (kopio)".
 
 :::tip
-Kopio pysyy tällä tietokoneella: se säilytetään tässä välilehdessä ja selaimen tallennustilassa, joten toinen TakeoffCraft-välilehti voi liittää sen. Mitään ei lähetetä, eikä järjestelmän leikepöytää käytetä, joten merkintöjä ei voi liittää muihin ohjelmiin.
+Kopio pysyy tällä tietokoneella: se säilytetään tässä välilehdessä ja selaimen tallennustilassa, joten toinen TakeoffDesk-välilehti voi liittää sen. Mitään ei lähetetä, eikä järjestelmän leikepöytää käytetä, joten merkintöjä ei voi liittää muihin ohjelmiin.
 :::
 
 :::note

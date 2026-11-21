@@ -1,6 +1,6 @@
 ---
 title: Keyboard dan mouse
-summary: Setiap tombol, mouse, trackpad, dan aksi sentuh di TakeoffCraft, dikelompokkan, dengan perbedaan antarplatform.
+summary: Setiap tombol, mouse, trackpad, dan aksi sentuh di TakeoffDesk, dikelompokkan, dengan perbedaan antarplatform.
 keywords: tombol, pintasan, tombol pintasan, keyboard, mouse, trackpad, sentuh, geser, zoom, roda, klik kanan, klik dua kali, spasi, shift, salin, tempel, potong, duplikat, pilih semua
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Lihat [Periksa takeoff dalam 3D](topic:check-in-3d).
 | Tombol | Fungsinya |
 |---|---|
 | {{key:F1}} | Buka atau tutup panel bantuan (juga tombol {{ui:Bantuan}} di bilah aplikasi). Berfungsi di setiap alat, meski sedang mengetik di kolom isian. |
-| {{key:Esc}} | Tutup panel bantuan. Di kotak pencariannya, Esc pertama menghapus pencarian. Saat panel terbuka, Esc yang ditekan setelah mengklik lembar akan menutup panel dulu; tekan lagi untuk membatalkan di TakeoffCraft. |
+| {{key:Esc}} | Tutup panel bantuan. Di kotak pencariannya, Esc pertama menghapus pencarian. Saat panel terbuka, Esc yang ditekan setelah mengklik lembar akan menutup panel dulu; tekan lagi untuk membatalkan di TakeoffDesk. |
 
 :::mac
 Di banyak keyboard Mac, baris atas mengatur kecerahan dan suara. Tekan fn bersama F1, atau aktifkan "Gunakan tombol F1, F2, dst. sebagai tombol fungsi standar" di Pengaturan Sistem, di bawah Keyboard.
@@ -139,7 +139,7 @@ Di banyak keyboard Mac, baris atas mengatur kecerahan dan suara. Tekan fn bersam
 
 :::mac
 - {{key:Mod}} adalah tombol Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Layar penuh adalah pengecualian: Control+Shift+F.
-- Klik kanan adalah klik dua jari pada trackpad, setelah klik sekunder diaktifkan di Pengaturan Sistem, di bawah Trackpad. TakeoffCraft hanya membaca tombol sekunder; Control-klik dapat dianggap klik biasa dan menambahkan titik.
+- Klik kanan adalah klik dua jari pada trackpad, setelah klik sekunder diaktifkan di Pengaturan Sistem, di bawah Trackpad. TakeoffDesk hanya membaca tombol sekunder; Control-klik dapat dianggap klik biasa dan menambahkan titik.
 - Dua jari yang digulir pada trackpad memperbesar lembar (tidak menggulirnya). Untuk menggeser, tekan dan seret, atau tahan {{key:Space}} lalu seret.
 - Page Up dan Page Down adalah fn bersama panah atas dan bawah pada keyboard yang tidak memilikinya.
 - Backspace adalah tombol yang berlabel delete.
@@ -151,12 +151,12 @@ Di banyak keyboard Mac, baris atas mengatur kecerahan dan suara. Tekan fn bersam
 :::
 
 :::linux
-- {{key:Mod}} adalah Ctrl. Sebagian desktop memakai pintasan Ctrl+Alt atau Super milik mereka sendiri; TakeoffCraft tidak memakai satu pun dari itu.
+- {{key:Mod}} adalah Ctrl. Sebagian desktop memakai pintasan Ctrl+Alt atau Super milik mereka sendiri; TakeoffDesk tidak memakai satu pun dari itu.
 - Pada touchpad, gulir dua jari memperbesar lembar. Untuk menggeser, tekan dan seret.
 :::
 
 :::touch
-TakeoffCraft membaca sentuhan sebagai satu penunjuk:
+TakeoffDesk membaca sentuhan sebagai satu penunjuk:
 
 - Ketuk menempatkan titik, memilih tanda, atau menambahkan titik hitung.
 - Seret dengan satu jari untuk menggeser lembar (di {{ui:Hitung otomatis}} ia menggambar kotak pencarian).
@@ -169,7 +169,7 @@ Untuk saat ini, keyboard dan mouse atau trackpad adalah cara yang lebih baik unt
 
 ## Tombol yang dipakai peramban
 
-Peramban menyimpan beberapa pintasan untuk dirinya sendiri, dan halaman tidak dapat memakainya: menutup tab ({{key:Mod+W}}), tab atau jendela baru ({{key:Mod+T}}, {{key:Mod+N}}), dan zoom peramban ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Itulah sebabnya TakeoffCraft men-zoom lembar dengan roda dan tombol {{key:Plus}} dan {{key:Minus}} saja. Jika Anda menekan {{key:Mod+Plus}} secara tidak sengaja, seluruh halaman membesar; {{key:Mod+0}} mengembalikannya. Lihat [Tombol, mouse, dan trackpad](common:keys).
+Peramban menyimpan beberapa pintasan untuk dirinya sendiri, dan halaman tidak dapat memakainya: menutup tab ({{key:Mod+W}}), tab atau jendela baru ({{key:Mod+T}}, {{key:Mod+N}}), dan zoom peramban ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Itulah sebabnya TakeoffDesk men-zoom lembar dengan roda dan tombol {{key:Plus}} dan {{key:Minus}} saja. Jika Anda menekan {{key:Mod+Plus}} secara tidak sengaja, seluruh halaman membesar; {{key:Mod+0}} mengembalikannya. Lihat [Tombol, mouse, dan trackpad](common:keys).
 
 ## Letak perintah Pindahkan
 

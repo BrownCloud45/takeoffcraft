@@ -5,7 +5,7 @@ keywords: saqaf, janjeer, dhalaal, janjeerka, kor, socod, 6:12, rake, hip, valle
 from: 38225b60
 ---
 
-Qorshaha saqafku wuxuu muujiyaa qayb kasta oo saqaf oo siman, sida laga arko kor. Saqafka laftiisu way ka weyn yahay: saqaf 6:12 wuxuu leeyahay ku dhawaad 12% dusha ka badan qorshihiisa, geesaha janjeeray way ka dheer yihiin sidii ay u muuqdaan. Siiso shayga janjeerkiisa, TakeoffCraft wuxuu ku qiyaasaa dhinaca janjeerka.
+Qorshaha saqafku wuxuu muujiyaa qayb kasta oo saqaf oo siman, sida laga arko kor. Saqafka laftiisu way ka weyn yahay: saqaf 6:12 wuxuu leeyahay ku dhawaad 12% dusha ka badan qorshihiisa, geesaha janjeeray way ka dheer yihiin sidii ay u muuqdaan. Siiso shayga janjeerkiisa, TakeoffDesk wuxuu ku qiyaasaa dhinaca janjeerka.
 
 ## Qorista janjeerka
 

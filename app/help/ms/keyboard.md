@@ -1,6 +1,6 @@
 ---
 title: Papan kekunci dan tetikus
-summary: Setiap kekunci, tindakan tetikus, pad sentuh dan sentuhan dalam TakeoffCraft, dikumpulkan, dengan perbezaan mengikut platform.
+summary: Setiap kekunci, tindakan tetikus, pad sentuh dan sentuhan dalam TakeoffDesk, dikumpulkan, dengan perbezaan mengikut platform.
 keywords: kekunci, pintasan, kekunci pantas, papan kekunci, tetikus, pad sentuh, sentuh, pan, zum, roda, klik kanan, klik dua kali, space, shift, salin, tampal, potong, pendua, pilih semua
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Lihat [Semak takeoff dalam 3D](topic:check-in-3d).
 | Kekunci | Fungsinya |
 |---|---|
 | {{key:F1}} | Buka atau tutup panel bantuan (juga butang {{ui:Bantuan}} dalam bar aplikasi). Ia berfungsi dalam setiap alat, walaupun semasa menaip dalam medan. |
-| {{key:Esc}} | Tutup panel bantuan. Dalam kotak carian, Esc pertama mengosongkan carian. Semasa panel dibuka, Esc yang ditekan selepas klik pada lembaran menutup panel dahulu; tekan sekali lagi untuk membatalkan dalam TakeoffCraft. |
+| {{key:Esc}} | Tutup panel bantuan. Dalam kotak carian, Esc pertama mengosongkan carian. Semasa panel dibuka, Esc yang ditekan selepas klik pada lembaran menutup panel dahulu; tekan sekali lagi untuk membatalkan dalam TakeoffDesk. |
 
 :::mac
 Pada kebanyakan papan kekunci Mac, baris atas mengawal kecerahan dan bunyi. Tekan fn bersama F1, atau hidupkan "Use F1, F2, etc. keys as standard function keys" dalam Tetapan Sistem, di bawah Papan kekunci.
@@ -139,7 +139,7 @@ Pada kebanyakan papan kekunci Mac, baris atas mengawal kecerahan dan bunyi. Teka
 
 :::mac
 - {{key:Mod}} ialah kekunci Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Skrin penuh ialah pengecualian: Control+Shift+F.
-- Klik kanan ialah klik dua jari pada pad sentuh, apabila klik sekunder dihidupkan dalam Tetapan Sistem, di bawah Pad sentuh. TakeoffCraft hanya membaca butang sekunder; klik Control mungkin dikira sebagai klik biasa dan menambah titik.
+- Klik kanan ialah klik dua jari pada pad sentuh, apabila klik sekunder dihidupkan dalam Tetapan Sistem, di bawah Pad sentuh. TakeoffDesk hanya membaca butang sekunder; klik Control mungkin dikira sebagai klik biasa dan menambah titik.
 - Skrol dua jari pada pad sentuh mengezum lembaran (ia tidak menggulungnya). Untuk pan, tekan dan seret, atau tahan Space dan seret.
 - Page Up dan Page Down ialah fn bersama anak panah atas dan bawah pada papan kekunci yang tidak mempunyainya.
 - Backspace ialah kekunci yang berlabel delete.
@@ -151,12 +151,12 @@ Pada kebanyakan papan kekunci Mac, baris atas mengawal kecerahan dan bunyi. Teka
 :::
 
 :::linux
-- {{key:Mod}} ialah Ctrl. Sesetengah desktop mempunyai pintasan Ctrl+Alt atau Super sendiri; TakeoffCraft tidak menggunakan mana-mana daripadanya.
+- {{key:Mod}} ialah Ctrl. Sesetengah desktop mempunyai pintasan Ctrl+Alt atau Super sendiri; TakeoffDesk tidak menggunakan mana-mana daripadanya.
 - Pada pad sentuh, skrol dua jari mengezum lembaran. Untuk pan, tekan dan seret.
 :::
 
 :::touch
-TakeoffCraft membaca sentuhan sebagai satu penunjuk:
+TakeoffDesk membaca sentuhan sebagai satu penunjuk:
 
 - Ketik meletakkan titik, memilih tanda atau menambah titik kiraan.
 - Seret dengan satu jari untuk pan lembaran (dalam {{ui:Kiraan auto}} ia melukis kotak carian).
@@ -169,7 +169,7 @@ Papan kekunci dan tetikus atau pad sentuh ialah cara yang lebih baik untuk takeo
 
 ## Kekunci yang dikekalkan pelayar
 
-Pelayar mengekalkan sesetengah pintasan untuk dirinya sendiri, dan halaman tidak boleh menggunakannya: menutup tab ({{key:Mod+W}}), tab atau tetingkap baharu ({{key:Mod+T}}, {{key:Mod+N}}), dan zum pelayar ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Sebab itulah TakeoffCraft mengezum lembaran dengan roda dan kekunci {{key:Plus}} dan {{key:Minus}} sahaja. Jika anda menekan {{key:Mod+Plus}} secara tidak sengaja, keseluruhan halaman akan membesar; {{key:Mod+0}} mengembalikannya. Lihat [Kekunci, tetikus dan pad sentuh](common:keys).
+Pelayar mengekalkan sesetengah pintasan untuk dirinya sendiri, dan halaman tidak boleh menggunakannya: menutup tab ({{key:Mod+W}}), tab atau tetingkap baharu ({{key:Mod+T}}, {{key:Mod+N}}), dan zum pelayar ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Sebab itulah TakeoffDesk mengezum lembaran dengan roda dan kekunci {{key:Plus}} dan {{key:Minus}} sahaja. Jika anda menekan {{key:Mod+Plus}} secara tidak sengaja, keseluruhan halaman akan membesar; {{key:Mod+0}} mengembalikannya. Lihat [Kekunci, tetikus dan pad sentuh](common:keys).
 
 ## Di mana Alih berada
 

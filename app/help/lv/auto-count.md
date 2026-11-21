@@ -1,6 +1,6 @@
 ---
 title: Automātiski saskaitīt simbolu
-summary: Apvelciet vienu simbolu, ļaujiet TakeoffCraft atrast pārējos šajā lapā vai visās atvērtajās lapās, pārskatiet atbilstības ar slīdni un pievienojiet tās vienā solī.
+summary: Apvelciet vienu simbolu, ļaujiet TakeoffDesk atrast pārējos šajā lapā vai visās atvērtajās lapās, pārskatiet atbilstības ar slīdni un pievienojiet tās vienā solī.
 keywords: jebkurš leņķis, pagriezts, apgriezts, cits mērogs, dažāds mērogs, automātiskā skaitīšana, automātiska skaitīšana, simbolu meklēšana, atrast simbolus, raksts, veidne, atbilstība, noteikt, skaitīšanas rīks
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Lai atmestu pārskatīšanu, nepievienojot neko, izvēlieties {{ui:Discard}} vai
 
 ## Ko tas atrod un ko palaiž garām
 
-TakeoffCraft salīdzina zīmējumu pēc pikseļiem ar apvilkto simbolu.
+TakeoffDesk salīdzina zīmējumu pēc pikseļiem ar apvilkto simbolu.
 
 - Tas atrod simbolu, kas pagriezts par 0°, 90°, 180° un 270°. Lai to atrastu arī jebkurā leņķī, atzīmējiet {{ui:Any angle (slower)}} automātiskās skaitīšanas joslā, pirms velkat rāmi: tas pārbauda ik pēc 15°, tad precizē katru atradumu līdz grādam un pusei. Tas aizņem apmēram sešas reizes ilgāk. Spoguļattēlā simbols netiek atrasts (ja vien simbols spoguļattēlā neizskatās tāpat).
 - Ja ir atzīmēts {{ui:Search all open sheets}}, lapa citā mērogā tiek meklēta simbolam tajā piemērotajā izmērā: simbols, kas zīmēts mērogā uz 1/8" plāna, ir uz pusi mazāks nekā uz 1/4" plāna, un tomēr tiek atrasts. Šāda lapa tiek meklēta arī pēc rāmja paša izmēra — birkām un simboliem, kas uz katras lapas iespiesti vienā izmērā. Tam nepieciešams mērogs abās lapās; lapa bez mēroga tiek meklēta tikai pēc rāmja izmēra.

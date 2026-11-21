@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, vei, jernbane, bru, dekke, kantstein, lag, jorda
 from: 6b08c2c4
 ---
 
-En IFC 4.3-fil kan inneholde veier, jernbaner, broer, marine konstruksjoner og delene de består av: dekker, lag, kantsteiner, skinner, jordarbeider, opplagre, peler og mer. TakeoffCraft leser dem og gjør dem om til typede mengder du kan prise.
+En IFC 4.3-fil kan inneholde veier, jernbaner, broer, marine konstruksjoner og delene de består av: dekker, lag, kantsteiner, skinner, jordarbeider, opplagre, peler og mer. TakeoffDesk leser dem og gjør dem om til typede mengder du kan prise.
 
 ## Åpne filen
 
 1. Velg {{ui:Åpne tegninger}} i gruppen {{ui:Fil}}, eller trykk {{key:Mod+O}}.
-2. Velg IFC-filen (du kan velge den sammen med PDF-er), eller slipp den på TakeoffCraft.
+2. Velg IFC-filen (du kan velge den sammen med PDF-er), eller slipp den på TakeoffDesk.
 
 Én typet mengde lages for hver klasse og forhåndsdefinert type, for eksempel «Dekke (fleksibelt): antall», og, når filen angir dem, «lengde» i m, «areal» i m² og «volum» i m³. Notatet på hvert element sier hvor mange elementer som ble talt, og hvor mange som ikke oppga en mengde. Åpner du en nyere fil med samme navn, oppdateres disse mengdene i stedet for at det legges til flere.
 

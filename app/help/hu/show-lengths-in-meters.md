@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Mit fog csinálni
 
-Módosítsa, hogyan jelenítse meg a TakeoffCraft a hosszúságokat, hogy egy metrikus munka méterben, centiméterben vagy milliméterben jelenjen meg a lapon, az állapotsorban és a paneleken.
+Módosítsa, hogyan jelenítse meg a TakeoffDesk a hosszúságokat, hogy egy metrikus munka méterben, centiméterben vagy milliméterben jelenjen meg a lapon, az állapotsorban és a paneleken.
 
 ## Lépések
 
-1. Nyissa meg a {{ui:Beállítások}} menüt az alkalmazássávban lévő fogaskerékkel, vagy a {{key:Mod+,}} billentyűvel, és maradjon a {{ui:TakeoffCraft}} lapon.
+1. Nyissa meg a {{ui:Beállítások}} menüt az alkalmazássávban lévő fogaskerékkel, vagy a {{key:Mod+,}} billentyűvel, és maradjon a {{ui:TakeoffDesk}} lapon.
 2. Keresse meg a {{ui:Hosszúságok megjelenítése}} beállítást, és válassza a {{ui:Láb-hüvelyk}}, m, cm vagy mm értéket. A {{ui:Globális beállítás követése}} a {{ui:Beállítások}} › {{ui:Globális}} › {{ui:Egységek}} alatt csillaggal jelölt metrikus hosszegységet használja, és láb-hüvelykben jelenít meg, ha nincs ilyen megjelölve.
 3. Nézze meg a lapot: a hosszúságok az állapotsorban, a tételek listájában és a paneleken a választott egységben jelennek meg. A magasságok, mélységek, vastagságok és szintek is így.
 4. Hogy a tételek hőmérsékletét Celsius- vagy Fahrenheit-fokban olvassa, válassza a {{ui:Hőmérséklet megjelenítése}} beállítást ugyanazon a lapon.

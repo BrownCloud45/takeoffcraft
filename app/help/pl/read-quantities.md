@@ -24,7 +24,7 @@ Wybierz {{ui:By item}} (ustawienie domyślne). Każda pozycja ma wiersz, a każd
 
 Ostatni wiersz, **Suma całości**, dodaje kolumny materiału, robocizny i razem. Ta sama suma pokazuje się po prawej stronie nagłówka tabeli.
 
-Wpisz w komórkę naddatku lub stawki i naciśnij {{key:Enter}} albo kliknij poza nią, aby ją zastosować. Wartość, której TakeoffCraft nie potrafi odczytać, jest obramowana na czerwono, a pasek stanu podaje powód, np. „Wpisz kwotę, np. 12.50.”
+Wpisz w komórkę naddatku lub stawki i naciśnij {{key:Enter}} albo kliknij poza nią, aby ją zastosować. Wartość, której TakeoffDesk nie potrafi odczytać, jest obramowana na czerwono, a pasek stanu podaje powód, np. „Wpisz kwotę, np. 12.50.”
 
 Kliknij wiersz pozycji, aby zaznaczyć jej oznaczenia na każdym arkuszu i przejść do arkusza, który je ma (tak samo jak kliknięcie jej pod {{ui:Items}}).
 

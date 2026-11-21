@@ -1,11 +1,11 @@
 ---
 title: Yang dipelajari dari takeoff Anda
-summary: TakeoffCraft menyimpan simbol yang Anda konfirmasi dengan Hitung otomatis, set kondisi Anda, rakitan yang paling sering Anda pakai, dan pola yang Anda ulangi di setiap halaman, semuanya di dalam file takeoff itu sendiri. Lihat, gunakan, hapus.
+summary: TakeoffDesk menyimpan simbol yang Anda konfirmasi dengan Hitung otomatis, set kondisi Anda, rakitan yang paling sering Anda pakai, dan pola yang Anda ulangi di setiap halaman, semuanya di dalam file takeoff itu sendiri. Lihat, gunakan, hapus.
 keywords: belajar, dipelajari, pembelajaran, asisten, ingat, simbol, templat, sama seperti pekerjaan terakhir, pekerjaan terakhir, set kondisi, kondisi, pakai ulang, rakitan, paling sering dipakai, saran, ulangi di setiap halaman, setiap halaman, kepala gambar, pola, hapus semua, lupakan, privasi
 from: 54d99e99
 ---
 
-TakeoffCraft menjadi lebih cepat seiring makin banyak takeoff yang Anda kerjakan dengannya. Ia hanya belajar dari apa yang **Anda terima**:
+TakeoffDesk menjadi lebih cepat seiring makin banyak takeoff yang Anda kerjakan dengannya. Ia hanya belajar dari apa yang **Anda terima**:
 
 - simbol yang Anda kotak dengan [Hitung otomatis](topic:auto-count) lalu tambahkan,
 - set kondisi yang Anda simpan,
@@ -64,6 +64,6 @@ Untuk berhenti belajar di satu takeoff, hapus centang {{ui:Belajar dari takeoff 
 
 ## Perlu diketahui
 
-- TakeoffCraft versi lebih lama membuka file dengan hal-hal yang dipelajari secara normal. Mereka mengabaikan bagian itu, dan membuangnya jika file disimpan lagi.
+- TakeoffDesk versi lebih lama membuka file dengan hal-hal yang dipelajari secara normal. Mereka mengabaikan bagian itu, dan membuangnya jika file disimpan lagi.
 - Simbol yang dipelajari adalah gambar kecil dari apa yang Anda kotak, disimpan di dalam file (beberapa kilobita masing-masing).
 - Simbol yang dipelajari dicari seperti pencarian Hitung otomatis, sehingga batasannya sama: [Hitung otomatis sebuah simbol](topic:auto-count).

@@ -5,7 +5,7 @@ keywords: ava, plaanikomplekt, mitu pdf-i, mitu faili, lehed, joonised, lehesild
 from: ed434468
 ---
 
-Plaanikomplekt on sageli mitu PDF-i: arhitektuur, konstruktsioon, mehaanika. TakeoffCraft avab need kõrvuti ühe lehtede loendina ja üks koguste arvestus võib katta kõik.
+Plaanikomplekt on sageli mitu PDF-i: arhitektuur, konstruktsioon, mehaanika. TakeoffDesk avab need kõrvuti ühe lehtede loendina ja üks koguste arvestus võib katta kõik.
 
 ## PDF-ide avamine
 
@@ -14,14 +14,14 @@ Plaanikomplekt on sageli mitu PDF-i: arhitektuur, konstruktsioon, mehaanika. Tak
 3. Vali Ava.
    Iga faili lugemise ajal kuvatakse teade „Avan (nimi)…“. Seejärel ilmub iga leht rubriiki {{ui:Lehed}} ja avatakse uue PDF-i esimene leht.
 
-Võid PDF-id lohistada ({{pick:mac=Finder|windows=File Explorer|linux=sinu failihaldur}}) ja kukutada need kuhu tahes TakeoffCraftile. Lohistamise ajal ilmub raam „Lohista PDF-id, DWG- või DXF-joonised või .takeoff.json“.
+Võid PDF-id lohistada ({{pick:mac=Finder|windows=File Explorer|linux=sinu failihaldur}}) ja kukutada need kuhu tahes TakeoffDeskile. Lohistamise ajal ilmub raam „Lohista PDF-id, DWG- või DXF-joonised või .takeoff.json“.
 
 Veel PDF-e saad lisada hiljem, tehes sama uuesti. Juba avatud PDF-id jäetakse vahele.
 
 Alustuskuva loetleb ka hiljuti avatud PDF-id ja koguste arvestused brauserites, mis lubavad lehel faili uuesti avada (Chrome ja Edge). Klõpsa ühel, et see avada; brauser võib enne luba küsida. Vt [Sinu failid](common:your-files).
 
 :::note
-Midagi ei laadita üles. Brauser loeb PDF-e sinu arvutist ja need kaovad TakeoffCraftist, kui suled vahelehe või valid {{ui:Uus}}.
+Midagi ei laadita üles. Brauser loeb PDF-e sinu arvutist ja need kaovad TakeoffDeskist, kui suled vahelehe või valid {{ui:Uus}}.
 :::
 
 ## Joonised PDF-ide kõrval
@@ -30,7 +30,7 @@ Midagi ei laadita üles. Brauser loeb PDF-e sinu arvutist ja need kaovad Takeoff
 
 ## PDF, mis tuli teisest rakendusest
 
-Teine komplekti rakendus võib anda sulle PDF-i, mis tal on avatud: see avab TakeoffCraftile uue vahelehe ja PDF avatakse seal nii, nagu oleks sa selle sinna lohistanud. Olekuriba ütleb „Avatud (nimi), edastatud rakendusest (rakendus). Algne fail on muutmata.“ Midagi ei laadita üles; fail läbib selle brauseri oma salvestuse ja on sealt kadunud, kui see avatakse.
+Teine komplekti rakendus võib anda sulle PDF-i, mis tal on avatud: see avab TakeoffDeskile uue vahelehe ja PDF avatakse seal nii, nagu oleks sa selle sinna lohistanud. Olekuriba ütleb „Avatud (nimi), edastatud rakendusest (rakendus). Algne fail on muutmata.“ Midagi ei laadita üles; fail läbib selle brauseri oma salvestuse ja on sealt kadunud, kui see avatakse.
 
 Kui olekuriba ütleb, et PDF „ei jõudnud kohale“, ootas vaheleht liiga kaua või PDF oli juba avatud teises vahelehes: ava see {{ui:Ava plaanid}} abil.
 

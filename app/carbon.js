@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — reasons for a line left out are codes (unit, noqty, nofactor); the page words them from its language file (eg14.why.<code>) */
 /**
- * carbon.js — embodied carbon and the 5D price table from a takeoff (0.8 EG.14 and EG.17, TakeoffCraft's side; session takeoff_PART_3). DOM-free (tested in Node).
+ * carbon.js — embodied carbon and the 5D price table from a takeoff (0.8 EG.14 and EG.17, TakeoffDesk's side; session takeoff_PART_3). DOM-free (tested in Node).
  *
  * EG.14: each item's quantity (with waste) is turned into the factor table's basis (m, m², m³, item; kg when the factor has a density and the quantity is a volume)
  * and multiplied by the matching factor row's figures (A1–A3 product stage, A4 transport, A5 site waste, per the modules the person counts). The factor table is
@@ -23,7 +23,7 @@ export { STARTER_LABEL, mergeTable, tableJson, readTableJson, tableCsv, readTabl
 
 export const LIMIT = { rows: 200, picks: 2000 };
 export const MODULES = Object.freeze(['a1a3', 'a4', 'a5']);
-/** A TakeoffCraft unit → the factor table's basis and how many basis units one of it is. */
+/** A TakeoffDesk unit → the factor table's basis and how many basis units one of it is. */
 export const BASIS_OF = Object.freeze({ LF: ['m', 0.3048], m: ['m', 1], SF: ['m2', 0.09290304], SY: ['m2', 0.83612736], SQ: ['m2', 9.290304], ac: ['m2', 4046.8564224], 'm²': ['m2', 1], ha: ['m2', 10000], EA: ['item', 1], CY: ['m3', 0.764554858], 'm³': ['m3', 1] });
 const ID_RE = /^[a-z0-9][a-z0-9._-]{0,63}$/;
 
@@ -106,7 +106,7 @@ export function priceRows(est, items) {
     let id = slug(label), n = 2;
     while (seen.has(id)) id = slug(label).slice(0, 52) + '-' + n++;
     seen.add(id);
-    rows.push({ id, match: [norm(name).slice(0, 60)].filter(Boolean), classes: [], unit: u[0], density: null, mat: Math.round(mat * u[1] * 1e6) / 1e6, lab: Math.round(lab * u[1] * 1e6) / 1e6, waste: Math.min(5, Math.max(0, (Number(r.waste) || 0) / 10000)), source: 'TakeoffCraft rates', note: '' });
+    rows.push({ id, match: [norm(name).slice(0, 60)].filter(Boolean), classes: [], unit: u[0], density: null, mat: Math.round(mat * u[1] * 1e6) / 1e6, lab: Math.round(lab * u[1] * 1e6) / 1e6, waste: Math.min(5, Math.max(0, (Number(r.waste) || 0) / 10000)), source: 'TakeoffDesk rates', note: '' });
   }
   return { rows: rows.filter((x) => x.match.length), skipped };
 }

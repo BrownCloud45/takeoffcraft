@@ -1,6 +1,6 @@
 ---
 title: Automatsko brojanje simbola
-summary: Označite jedan simbol, pa TakeoffCraft pronalazi ostale na ovom listu ili na svim otvorenim listovima, pregledajte podudaranja klizačem i dodajte ih u jednom koraku.
+summary: Označite jedan simbol, pa TakeoffDesk pronalazi ostale na ovom listu ili na svim otvorenim listovima, pregledajte podudaranja klizačem i dodajte ih u jednom koraku.
 keywords: bilo koji ugao, rotirano, okrenuto, druga razmera, drugačija razmera, automatsko brojanje, automatsko brojanje simbola, pretraga simbola, pronađi simbole, šablon, obrazac, podudaranje, detektuj, alat za brojanje
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Da odbacite pregled bez dodavanja ičega, izaberite {{ui:Odbaci}} ili pritisnite
 
 ## Šta pronalazi, a šta propušta
 
-TakeoffCraft poredi crtež, piksel po piksel, sa simbolom koji ste označili.
+TakeoffDesk poredi crtež, piksel po piksel, sa simbolom koji ste označili.
 
 - Pronalazi simbol okrenut za 0°, 90°, 180° i 270°. Označite {{ui:Bilo koji ugao (sporije)}} na traci automatskog brojanja pre crtanja okvira da ga pronađe i pod bilo kojim uglom: proverava na svakih 15°, zatim fino podešava svaki nalaz na stepen i po. To traje oko šest puta duže. Ne pronalazi ogledalski simbol (osim ako simbol izgleda isto i u ogledalu).
 - Sa označenim {{ui:Pretraži sve otvorene listove}}, list druge razmere se pretražuje u veličini koju simbol ima na njemu: instalacija nacrtana u razmeri na osnovi 1/8" je upola manja nego na osnovi 1/4", i ipak se pronalazi. Takav list se takođe pretražuje u veličini samog okvira, za oznake i simbole štampane u jednoj veličini na svakom listu. Ovo zahteva razmeru na oba lista; list bez razmere se pretražuje samo u veličini okvira.

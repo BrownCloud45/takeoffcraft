@@ -1,11 +1,11 @@
 ---
-title: Hva TakeoffCraft har lært av mengdeuttakene dine
-summary: TakeoffCraft beholder symbolene du bekreftet med Autotelling, betingelsessettene dine, de sammensatte postene du bruker mest og mønstrene du gjentar på hver side, alt i mengdeuttakets egen fil. Se dem, bruk dem, slett dem.
+title: Hva TakeoffDesk har lært av mengdeuttakene dine
+summary: TakeoffDesk beholder symbolene du bekreftet med Autotelling, betingelsessettene dine, de sammensatte postene du bruker mest og mønstrene du gjentar på hver side, alt i mengdeuttakets egen fil. Se dem, bruk dem, slett dem.
 keywords: lære, lært, læring, assistent, huske, symboler, maler, som forrige jobb, forrige jobb, betingelsessett, betingelser, gjenbruk, sammensatte poster, mest brukt, forslag, gjenta på hver side, hver side, tegningshode, mønster, tøm alt, glemme, personvern
 from: 54d99e99
 ---
 
-TakeoffCraft blir raskere jo flere mengdeuttak du gjør med det. Det lærer **bare av det du godtar**:
+TakeoffDesk blir raskere jo flere mengdeuttak du gjør med det. Det lærer **bare av det du godtar**:
 
 - symbolene du tegnet en boks rundt med [Autotelling](topic:auto-count), og deretter la til,
 - betingelsessettene du lagrer,
@@ -64,6 +64,6 @@ For å slutte å lære i ett mengdeuttak, fjern avkryssingen for {{ui:Learn from
 
 ## Greit å vite
 
-- Eldre versjoner av TakeoffCraft åpner en fil med lærte ting normalt. De ignorerer den delen, og fjerner den hvis de lagrer filen igjen.
+- Eldre versjoner av TakeoffDesk åpner en fil med lærte ting normalt. De ignorerer den delen, og fjerner den hvis de lagrer filen igjen.
 - Et lært symbol er et lite bilde av det du tegnet rundt, lagret i filen (noen kilobyte hver).
 - Lærte symboler søkes etter på samme måte som Autotelling søker, så de samme begrensningene gjelder: [Autotelling av et symbol](topic:auto-count).

@@ -1,6 +1,6 @@
 ---
 title: Teclado y ratón
-summary: Todas las teclas, acciones del ratón, del panel táctil y táctiles de TakeoffCraft, agrupadas, con las diferencias entre plataformas.
+summary: Todas las teclas, acciones del ratón, del panel táctil y táctiles de TakeoffDesk, agrupadas, con las diferencias entre plataformas.
 keywords: teclas, atajos, teclas de acceso rápido, teclado, ratón, panel táctil, táctil, desplazar, zoom, rueda, clic derecho, doble clic, espacio, Shift, copiar, pegar, cortar, duplicar, seleccionar todo
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Consulte [Comprobar la medición en 3D](topic:check-in-3d).
 | Tecla | Qué hace |
 |---|---|
 | {{key:F1}} | Abre o cierra el panel de ayuda (también el botón {{ui:Ayuda}} de la barra de aplicación). Funciona con todas las herramientas, incluso mientras escribe en un campo. |
-| {{key:Esc}} | Cierra el panel de ayuda. En su cuadro de búsqueda, el primer Esc borra la búsqueda. Con el panel abierto, un Esc pulsado después de hacer clic en la hoja cierra primero el panel; púlselo de nuevo para cancelar en TakeoffCraft. |
+| {{key:Esc}} | Cierra el panel de ayuda. En su cuadro de búsqueda, el primer Esc borra la búsqueda. Con el panel abierto, un Esc pulsado después de hacer clic en la hoja cierra primero el panel; púlselo de nuevo para cancelar en TakeoffDesk. |
 
 :::mac
 En muchos teclados de Mac, la fila superior controla el brillo y el sonido. Pulse fn con F1, o active «Usar las teclas F1, F2, etc. como teclas de función estándar» en Ajustes del Sistema, en Teclado.
@@ -139,7 +139,7 @@ En muchos teclados de Mac, la fila superior controla el brillo y el sonido. Puls
 
 :::mac
 - {{key:Mod}} es la tecla Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. La pantalla completa es la excepción: Control+Shift+F.
-- El clic derecho es un clic con dos dedos en el panel táctil, una vez activado el clic secundario en Ajustes del Sistema, en Trackpad. TakeoffCraft lee solo el botón secundario; un Control-clic puede contar como un clic normal y añadir un punto.
+- El clic derecho es un clic con dos dedos en el panel táctil, una vez activado el clic secundario en Ajustes del Sistema, en Trackpad. TakeoffDesk lee solo el botón secundario; un Control-clic puede contar como un clic normal y añadir un punto.
 - Deslizar con dos dedos en el panel táctil amplía la hoja (no la desplaza). Para desplazarla, pulse y arrastre, o mantenga pulsado Espacio y arrastre.
 - Re Pág y Av Pág son fn con las flechas arriba y abajo en los teclados que no las tienen.
 - {{key:Backspace}} es la tecla con la etiqueta «delete».
@@ -151,12 +151,12 @@ En muchos teclados de Mac, la fila superior controla el brillo y el sonido. Puls
 :::
 
 :::linux
-- {{key:Mod}} es Ctrl. Algunos escritorios tienen atajos propios con Ctrl+Alt o Super; TakeoffCraft no usa ninguno de ellos.
+- {{key:Mod}} es Ctrl. Algunos escritorios tienen atajos propios con Ctrl+Alt o Super; TakeoffDesk no usa ninguno de ellos.
 - En un panel táctil, deslizar con dos dedos amplía la hoja. Para desplazarla, pulse y arrastre.
 :::
 
 :::touch
-TakeoffCraft lee el tacto como un único puntero:
+TakeoffDesk lee el tacto como un único puntero:
 
 - Un toque coloca un punto, selecciona una marca o añade un punto de recuento.
 - Arrastrar con un dedo desplaza la hoja (en {{ui:Autorrecuento}} dibuja el cuadro de búsqueda).
@@ -169,7 +169,7 @@ Hoy, para medir, es mejor un teclado con ratón o con panel táctil.
 
 ## Teclas que conserva el navegador
 
-Los navegadores reservan algunos atajos para sí mismos, y una página no puede usarlos: cerrar la pestaña ({{key:Mod+W}}), nueva pestaña o ventana ({{key:Mod+T}}, {{key:Mod+N}}) y el zoom del navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Por eso TakeoffCraft amplía la hoja con la rueda y con las teclas {{key:Plus}} y {{key:Minus}} solas. Si pulsa {{key:Mod+Plus}} por error, crece toda la página; {{key:Mod+0}} la devuelve a su tamaño. Consulte [Teclas, ratones y paneles táctiles](common:keys).
+Los navegadores reservan algunos atajos para sí mismos, y una página no puede usarlos: cerrar la pestaña ({{key:Mod+W}}), nueva pestaña o ventana ({{key:Mod+T}}, {{key:Mod+N}}) y el zoom del navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Por eso TakeoffDesk amplía la hoja con la rueda y con las teclas {{key:Plus}} y {{key:Minus}} solas. Si pulsa {{key:Mod+Plus}} por error, crece toda la página; {{key:Mod+0}} la devuelve a su tamaño. Consulte [Teclas, ratones y paneles táctiles](common:keys).
 
 ## Dónde está Mover
 

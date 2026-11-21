@@ -32,11 +32,11 @@ As marcações coladas vão para a área da proposta escolhida no topo do painel
 
 {{key:Mod+Shift+V}} ({{ui:Colar no mesmo local}}) põe a cópia exatamente no mesmo lugar da folha aberta, pela posição na página. Use para um pavimento típico: levante o nível 2, copie, abra o nível 3 e cole no mesmo local.
 
-Colar no mesmo local exige uma folha do **mesmo tamanho** da que você copiou. Em uma folha de outro tamanho, o TakeoffCraft avisa e não cola nada; use {{ui:Colar}} e clique. Na folha de onde você copiou, a cópia cai sobre os originais.
+Colar no mesmo local exige uma folha do **mesmo tamanho** da que você copiou. Em uma folha de outro tamanho, o TakeoffDesk avisa e não cola nada; use {{ui:Colar}} e clique. Na folha de onde você copiou, a cópia cai sobre os originais.
 
 ## A escala precisa coincidir
 
-Comprimentos e áreas dependem da escala da folha. Um trecho que mede 10' em 1/4" = 1'-0" mediria 20' em uma folha em 1/8" = 1'-0". Por isso o TakeoffCraft cola trechos e áreas apenas em uma folha com a **mesma escala** da folha de origem, e diz claramente quando não é o caso:
+Comprimentos e áreas dependem da escala da folha. Um trecho que mede 10' em 1/4" = 1'-0" mediria 20' em uma folha em 1/8" = 1'-0". Por isso o TakeoffDesk cola trechos e áreas apenas em uma folha com a **mesma escala** da folha de origem, e diz claramente quando não é o caso:
 
 - A folha aberta ainda não tem escala: defina uma primeiro ([Definir a escala](topic:set-the-scale)) e depois cole.
 - A folha aberta tem outra escala: a mensagem informa as duas escalas. Cole em uma folha na mesma escala.
@@ -59,7 +59,7 @@ O editor de item (em **Itens**) termina com:
 - {{ui:Duplicar item}}: adiciona uma cópia de imediato, chamada "(nome) (cópia)".
 
 :::tip
-A cópia fica neste computador: é guardada nesta guia e no armazenamento do navegador, para que outra guia do TakeoffCraft possa colá-la. Nada é enviado, e a área de transferência do sistema não é usada, então você não pode colar marcações em outros programas.
+A cópia fica neste computador: é guardada nesta guia e no armazenamento do navegador, para que outra guia do TakeoffDesk possa colá-la. Nada é enviado, e a área de transferência do sistema não é usada, então você não pode colar marcações em outros programas.
 :::
 
 :::note

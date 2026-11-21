@@ -24,7 +24,7 @@ Pencerenin alt kısmındaki {{ui:Quantities}} tablosu canlı keşfinizdir. Çizi
 
 Son satır olan **İş toplamı**, malzeme, işçilik ve toplam sütunlarını ekler. Aynı toplam, tablo başlığının sağında da görünür.
 
-Bir fire ya da birim fiyat hücresine yazın ve {{key:Enter}} tuşuna basın ya da başka bir yere tıklayın. TakeoffCraft'in okuyamadığı bir değer kırmızı çerçeveyle işaretlenir ve durum çubuğu nedenini söyler, örneğin "12.50 gibi bir tutar yazın."
+Bir fire ya da birim fiyat hücresine yazın ve {{key:Enter}} tuşuna basın ya da başka bir yere tıklayın. TakeoffDesk'in okuyamadığı bir değer kırmızı çerçeveyle işaretlenir ve durum çubuğu nedenini söyler, örneğin "12.50 gibi bir tutar yazın."
 
 {{ui:Items}} altındaki gibi, bir kalemin satırına tıklayın: işaretleri her sayfada vurgulanır ve bu işaretleri içeren bir sayfaya geçilir.
 

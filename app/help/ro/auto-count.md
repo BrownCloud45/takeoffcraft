@@ -1,6 +1,6 @@
 ---
 title: Numărare automată a unui simbol
-summary: Încadrați un simbol într-o casetă, lăsați TakeoffCraft să găsească celelalte pe această foaie sau pe toate foile deschise, verificați potrivirile cu glisorul și adăugați-le dintr-o singură dată.
+summary: Încadrați un simbol într-o casetă, lăsați TakeoffDesk să găsească celelalte pe această foaie sau pe toate foile deschise, verificați potrivirile cu glisorul și adăugați-le dintr-o singură dată.
 keywords: orice unghi, rotit, întors, altă scară, scară diferită, numărare automată, numărare automatizată, căutare simboluri, găsire simboluri, model, șablon, potrivire, detectare, instrument de numărare
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Pentru a renunța la verificare fără a adăuga nimic, alegeți {{ui:Renunțare
 
 ## Ce găsește și ce ratează
 
-TakeoffCraft compară desenul, ca pixeli, cu simbolul pe care l-ați încadrat.
+TakeoffDesk compară desenul, ca pixeli, cu simbolul pe care l-ați încadrat.
 
 - Găsește simbolul rotit la 0°, 90°, 180° și 270°. Bifați {{ui:Orice unghi (mai lent)}} pe bara de numărare automată înainte de a trasa caseta, pentru a-l găsi și la orice unghi: încearcă la fiecare 15°, apoi ajustează fiecare găsire până la un grad și jumătate. Durează de aproximativ șase ori mai mult. Nu găsește un simbol oglindit (cu excepția cazului în care simbolul arată la fel oglindit).
 - Cu {{ui:Căutare în toate foile deschise}} bifat, o foaie la altă scară este căutată la dimensiunea pe care o are simbolul acolo: un corp de iluminat desenat la scară pe un plan la 1/8" are jumătate din dimensiunea de pe un plan la 1/4" și este totuși găsit. O astfel de foaie este căutată și la dimensiunea casetei, pentru etichete și simboluri tipărite la o singură dimensiune pe fiecare foaie. Acest lucru necesită o scară pe ambele foi; o foaie fără scară este căutată doar la dimensiunea casetei.

@@ -5,14 +5,14 @@ keywords: rishikim, i rishikuar, krahaso, mbivendosje, i vjetër, i ri, ndryshim
 from: 3a1d9fe0
 ---
 
-Kur një fletë ribotohet, nuk të duhet ta llogarisësh sërish nga e para. Hap PDF-në e vjetër dhe atë të re, krahaso dy fletët, dhe zhvendos llogaritjen. TakeoffCraft shënon çdo shenjë ku vizatimi ndryshoi, kështu që kontrollon ato dhe i mban të tjerat.
+Kur një fletë ribotohet, nuk të duhet ta llogarisësh sërish nga e para. Hap PDF-në e vjetër dhe atë të re, krahaso dy fletët, dhe zhvendos llogaritjen. TakeoffDesk shënon çdo shenjë ku vizatimi ndryshoi, kështu që kontrollon ato dhe i mban të tjerat.
 
 ## Krahaso
 
 1. Hap të dyja PDF-të: grupin e vjetër dhe atë të rishikuar ({{ui:Hap planimetritë}}; mund të jenë në një skedar ose në disa).
 2. Shfaq fletën **të re**.
 3. Zgjidh {{ui:Krahaso}} te shiriti i fletës nën vizatim.
-4. Zgjidh fletën e vjetër nga lista. TakeoffCraft sugjeron fletën me të njëjtin numër në PDF-in tjetër, ose të njëjtën faqe. Zgjidh **Krahaso**.
+4. Zgjidh fletën e vjetër nga lista. TakeoffDesk sugjeron fletën me të njëjtin numër në PDF-in tjetër, ose të njëjtën faqe. Zgjidh **Krahaso**.
 
 Vizatimi i vjetër shtrihet tani mbi atë të ri me ngjyrë të kuqe. Aty ku të dyja pajtohen, vijat e kuqe ndodhen mbi ato të zeza; aty ku ndryshojnë, sheh vetëm vija të kuqe (të hequra) dhe vetëm vija të zeza (të shtuara). Një shirit në fund të fletës mban hapat e mëposhtëm; {{key:Esc}} ose {{ui:Mbyll}} e mbyll krahasimin.
 
@@ -29,7 +29,7 @@ Vizatimi i kuq lëviz, rrotullohet dhe shkallëzohet mbi atë të zi. Shiriti i 
 
 ## Gjej ndryshimet
 
-Zgjidh **Gjej ndryshimet**. TakeoffCraft krahason bojën e dy vizatimeve: boja vetëm në fletën e vjetër bëhet e kuqe, boja vetëm në fletën e re bëhet blu, dhe shiriti i gjendjes i numëron. Vijat që u zhvendosën për një qime (ribotim) nuk numërohen si ndryshime.
+Zgjidh **Gjej ndryshimet**. TakeoffDesk krahason bojën e dy vizatimeve: boja vetëm në fletën e vjetër bëhet e kuqe, boja vetëm në fletën e re bëhet blu, dhe shiriti i gjendjes i numëron. Vijat që u zhvendosën për një qime (ribotim) nuk numërohen si ndryshime.
 
 Gjithashtu shikon çdo shenjë në fletën e vjetër dhe numëron ato që ndodhen aty ku vizatimi ndryshoi:
 
@@ -40,7 +40,7 @@ Gjithashtu shikon çdo shenjë në fletën e vjetër dhe numëron ato që ndodhe
 
 Zgjidh **Zhvendos llogaritjen këtu**. Çdo shenjë në fletën e vjetër zhvendoset te ajo e re, përmes rreshtimit, në një hap zhbërjeje. Ato pranë një ndryshimi shënohen: vizatohen me një halo portokalli, dhe shiriti i fletës shfaq "(n) për t'u kontrolluar".
 
-Nëse fleta e re nuk kishte shkallë, merr shkallën e fletës së vjetër (e rregulluar kur vizatimet u shkallëzuan për t'u rreshtuar). Nëse kishte tashmë një shkallë tjetër, TakeoffCraft pyet së pari: shenjat e zhvendosura matën me shkallën e fletës së re.
+Nëse fleta e re nuk kishte shkallë, merr shkallën e fletës së vjetër (e rregulluar kur vizatimet u shkallëzuan për t'u rreshtuar). Nëse kishte tashmë një shkallë tjetër, TakeoffDesk pyet së pari: shenjat e zhvendosura matën me shkallën e fletës së re.
 
 ## Kontrollo shenjat e shënuara
 

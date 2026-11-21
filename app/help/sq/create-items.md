@@ -37,12 +37,12 @@ Një sasi e shtypur nuk merr shenja dhe nuk e bën kurrë parashikimin të paplo
 Shtyp {{key:Esc}} në formë për ta mbyllur pa shtuar artikull.
 
 :::tip
-Nëse zgjedh fillimisht një mjet matjeje, TakeoffCraft përdor artikullin e fundit të llojit të duhur, ose hap formën {{ui:Artikull i ri}} me atë lloj të zgjedhur paraprakisht.
+Nëse zgjedh fillimisht një mjet matjeje, TakeoffDesk përdor artikullin e fundit të llojit të duhur, ose hap formën {{ui:Artikull i ri}} me atë lloj të zgjedhur paraprakisht.
 :::
 
 ## Zgjidh artikullin me të cilin vizaton
 
-Kliko një artikull në listë. Ai bëhet artikulli ku shkojnë shenjat e reja, dhe shenjat e tij theksohen në çdo fletë ndërsa të tjerët zbehen. Nëse fleta e hapur nuk ka asnjë nga shenjat e tij, TakeoffCraft kalon te një fletë që ka. Kliko artikullin përsëri për të ndaluar theksimin; mbetet artikulli me të cilin vizaton.
+Kliko një artikull në listë. Ai bëhet artikulli ku shkojnë shenjat e reja, dhe shenjat e tij theksohen në çdo fletë ndërsa të tjerët zbehen. Nëse fleta e hapur nuk ka asnjë nga shenjat e tij, TakeoffDesk kalon te një fletë që ka. Kliko artikullin përsëri për të ndaluar theksimin; mbetet artikulli me të cilin vizaton.
 
 Klikimi i një shenje me mjetin {{ui:Përzgjidh}} e bën gjithashtu artikullin e saj artikullin aktual.
 
@@ -57,7 +57,7 @@ Redaktuesi i artikullit (**Artikulli: (emri)**) ka këto fusha. Secila ruhet kur
 | {{ui:Ngjyra}} | Ngjyra e shenjave të tij në ekran dhe në PDF-në e shënuar. |
 | {{ui:Njësia}} | Në çfarë raportohet sasia: LF ose m për lineare; SF, SY, SQ, ac, ha ose m² për sipërfaqe; EA për numërim. |
 | {{ui:Gjithashtu mat}} | Llojet e tjera të shenjave që merr artikulli, secila me njësinë e vet. Shih më poshtë. |
-| {{ui:Lartësia}} (lineare) | Lartësia e murit. Artikulli atëherë raporton edhe sipërfaqen e murit (gjatësi × lartësi). Vijat që vijnë nga një model BimCraft mbartin dyert dhe dritaret e tyre: ato hiqen një herë, dhe artikulli thotë sipërfaqen bruto, hapjet dhe neton. Një llogaritje nga një projekt BimCraft që zgjodhi një metodë matjeje matet edhe këtu me atë metodë (shënimi e emëron, me burimin e saj, dhe thotë se nuk është kontrolluar nga një matës sasish); metoda nuk mund të ndryshohet në TakeoffCraft. Tullat ose blloqet dhe llaçi nga një lloj muri vijnë si dy komponentë: njësitë për t'u porositur dhe vëllimi i llaçit. |
+| {{ui:Lartësia}} (lineare) | Lartësia e murit. Artikulli atëherë raporton edhe sipërfaqen e murit (gjatësi × lartësi). Vijat që vijnë nga një model BimCraft mbartin dyert dhe dritaret e tyre: ato hiqen një herë, dhe artikulli thotë sipërfaqen bruto, hapjet dhe neton. Një llogaritje nga një projekt BimCraft që zgjodhi një metodë matjeje matet edhe këtu me atë metodë (shënimi e emëron, me burimin e saj, dhe thotë se nuk është kontrolluar nga një matës sasish); metoda nuk mund të ndryshohet në TakeoffDesk. Tullat ose blloqet dhe llaçi nga një lloj muri vijnë si dy komponentë: njësitë për t'u porositur dhe vëllimi i llaçit. |
 | {{ui:Thellësia}} (sipërfaqe) | Një thellësi ose trashësi, e përdorur në formulat e montimit (për shembull vëllimi i betonit). |
 | {{ui:Humbja %}} | Shtohet te sasia para çmimit: 10 do të thotë sasia × 1.10. |
 | {{ui:Materiali $/LF}} | Kosto materiali për njësi. Etiketa ndjek njësinë: $/SF, $/EA e kështu me radhë. |
@@ -74,7 +74,7 @@ Disa gjëra matën më shumë se një mënyrë: një dhomë ka dysheme (sipërfa
 
 1. Krijo artikullin me llojin e tij kryesor, si artikull sipërfaqeje `Dhoma 101`.
 2. Nën {{ui:Gjithashtu mat}} në redaktuesin e tij, shëno {{ui:Lineare}}, {{ui:Numëro}} ose të dyja. Secili merr një njësi pranë vetes.
-3. Vizato me çdo mjet që lloji i tij e merr: me `Dhoma 101` aktual, {{ui:Sipërfaqe}} vizaton dyshemenë e tij, {{ui:Lineare}} bazamentin e tij dhe {{ui:Numëro}} dyert e tij. TakeoffCraft nuk kërkon një artikull tjetër.
+3. Vizato me çdo mjet që lloji i tij e merr: me `Dhoma 101` aktual, {{ui:Sipërfaqe}} vizaton dyshemenë e tij, {{ui:Lineare}} bazamentin e tij dhe {{ui:Numëro}} dyert e tij. TakeoffDesk nuk kërkon një artikull tjetër.
 
 Lista e artikujve shfaq çdo sasi (`50.00 SF + 2 EA`). Në tabelën e sasive, rreshti i artikullit ka sasinë e tij kryesore, dhe çdo lloj tjetër merr rreshtin e vet poshtë, si **Dhoma 101 (numëro)**, me humbjen dhe normat e veta të materialit dhe të punës. Eksportet, tabela për fletë dhe legjenda e PDF-së së shënuar i listojnë në të njëjtën mënyrë.
 
@@ -113,7 +113,7 @@ Në vend të një norme pune për njësi, puna e një artikulli mund të vijë n
 | {{ui:Madhësia e ekipit}} | `2` njerëz |
 | {{ui:Paga $/orë secili}} | `45` |
 
-TakeoffCraft llogarit, nga sasia me humbje:
+TakeoffDesk llogarit, nga sasia me humbje:
 
 - **orë-ekipi** = sasia ÷ prodhimi (110 LF ÷ 20 = 5.5),
 - **orë-punëtori** = orë-ekipi × madhësia e ekipit (11),

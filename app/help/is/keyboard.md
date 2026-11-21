@@ -1,6 +1,6 @@
 ---
 title: Lyklaborð og mús
-summary: Sérhver takki, mús-, snertiborðs- og snertiaðgerð í TakeoffCraft, flokkuð, með muninum milli kerfa.
+summary: Sérhver takki, mús-, snertiborðs- og snertiaðgerð í TakeoffDesk, flokkuð, með muninum milli kerfa.
 keywords: takkar, flýtilyklar, flýtileiðir, lyklaborð, mús, snertiborð, snerting, færa, aðdráttur, hjól, hægrismella, tvísmella, bil, shift, afrita, líma, klippa, tvöfalda, velja allt
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Sjá [Athuga magntökuna í 3D](topic:check-in-3d).
 | Takki | Hvað hann gerir |
 |---|---|
 | {{key:F1}} | Opnar eða lokar hjálparspjaldinu (líka hnappurinn {{ui:Hjálp}} í forritastikunni). Virkar í öllum verkfærum, jafnvel meðan skrifað er í reit. |
-| {{key:Esc}} | Lokar hjálparspjaldinu. Í leitarreitnum hreinsar fyrsti Esc leitina. Meðan spjaldið er opið lokar Esc, sem er ýtt á eftir smell á blaðið, spjaldinu fyrst; ýttu aftur til að hætta við í TakeoffCraft. |
+| {{key:Esc}} | Lokar hjálparspjaldinu. Í leitarreitnum hreinsar fyrsti Esc leitina. Meðan spjaldið er opið lokar Esc, sem er ýtt á eftir smell á blaðið, spjaldinu fyrst; ýttu aftur til að hætta við í TakeoffDesk. |
 
 :::mac
 Á mörgum Mac-lyklaborðum stjórna efstu takkarnir birtu og hljóði. Ýttu á fn með F1, eða kveiktu á „Use F1, F2, etc. keys as standard function keys“ í Kerfisstillingum, undir Lyklaborð.
@@ -139,7 +139,7 @@ Sjá [Athuga magntökuna í 3D](topic:check-in-3d).
 
 :::mac
 - {{key:Mod}} er Command-takkinn: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Skjáfylling er undantekningin: Control+Shift+F.
-- Hægri smellur er tveggja fingra smellur á snertiborði, þegar annar smellur er kveiktur í Kerfisstillingum, undir Snertiborð. TakeoffCraft les aðeins annan hnappinn; Control-smellur getur talist venjulegur smellur og bætt við punkti.
+- Hægri smellur er tveggja fingra smellur á snertiborði, þegar annar smellur er kveiktur í Kerfisstillingum, undir Snertiborð. TakeoffDesk les aðeins annan hnappinn; Control-smellur getur talist venjulegur smellur og bætt við punkti.
 - Tveir fingur sem skruna á snertiborði aðdráttast að blaðinu (þeir skruna því ekki). Til að hliðra, ýttu og dragðu, eða haltu Space og dragðu.
 - Page Up og Page Down eru fn með örvunum upp og niður á lyklaborðum sem hafa þá ekki.
 - Backspace er takkinn merktur delete.
@@ -151,12 +151,12 @@ Sjá [Athuga magntökuna í 3D](topic:check-in-3d).
 :::
 
 :::linux
-- {{key:Mod}} er Ctrl. Sum skjáborð nota eigin flýtileiðir með Ctrl+Alt eða Super; TakeoffCraft notar engar þeirra.
+- {{key:Mod}} er Ctrl. Sum skjáborð nota eigin flýtileiðir með Ctrl+Alt eða Super; TakeoffDesk notar engar þeirra.
 - Á snertiborði aðdráttast blaðinu við tveggja fingra skrun. Til að hliðra, ýttu og dragðu.
 :::
 
 :::touch
-TakeoffCraft les snertingu sem einn bendil:
+TakeoffDesk les snertingu sem einn bendil:
 
 - Snerting setur punkt, velur merkingu eða bætir við teljadepli.
 - Dráttur með einum fingri hliðrar blaðinu (í {{ui:Sjálftalning}} teiknar hann leitarreitinn).
@@ -169,7 +169,7 @@ Lyklaborð og mús eða snertiborð er betri leið til magntöku eins og er.
 
 ## Lyklar sem vafrinn heldur
 
-Vafrar halda sumum flýtileiðum fyrir sjálfa sig og síðan getur ekki notað þær: að loka flipanum ({{key:Mod+W}}), nýr flipi eða gluggi ({{key:Mod+T}}, {{key:Mod+N}}) og aðdráttur vafrans ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Þess vegna aðdráttast TakeoffCraft blaðinu með hjólinu og einföldum {{key:Plus}}- og {{key:Minus}}-lyklum. Ef þú ýtir á {{key:Mod+Plus}} óvart stækkar allur síðan; {{key:Mod+0}} setur hana aftur. Sjá [Lyklar, mýs og snertiborð](common:keys).
+Vafrar halda sumum flýtileiðum fyrir sjálfa sig og síðan getur ekki notað þær: að loka flipanum ({{key:Mod+W}}), nýr flipi eða gluggi ({{key:Mod+T}}, {{key:Mod+N}}) og aðdráttur vafrans ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Þess vegna aðdráttast TakeoffDesk blaðinu með hjólinu og einföldum {{key:Plus}}- og {{key:Minus}}-lyklum. Ef þú ýtir á {{key:Mod+Plus}} óvart stækkar allur síðan; {{key:Mod+0}} setur hana aftur. Sjá [Lyklar, mýs og snertiborð](common:keys).
 
 ## Hvar Færa er
 

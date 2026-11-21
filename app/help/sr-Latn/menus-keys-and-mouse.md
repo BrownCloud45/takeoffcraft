@@ -5,22 +5,22 @@ keywords: stil menija, meniji, traka menija, traka, kartice trake, traka alata, 
 from: f01f0d6d
 ---
 
-Komande TakeoffCraft-a su iste kako god do njih dođete. **Stil menija** samo određuje gde stoje na ekranu, kako se zovu tamo i koje ih tastere pokreću. Izaberite ga u {{ui:Podešavanja}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Meniji, tasteri i miš}}; promena je odmah, a ovaj pregledač je pamti.
+Komande TakeoffDesk-a su iste kako god do njih dođete. **Stil menija** samo određuje gde stoje na ekranu, kako se zovu tamo i koje ih tastere pokreću. Izaberite ga u {{ui:Podešavanja}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Meniji, tasteri i miš}}; promena je odmah, a ovaj pregledač je pamti.
 
 ## Tri stila
 
 | Stil | Šta dobijate |
 |---|---|
-| {{ui:TakeoffCraft}} | Sopstvena traka alata TakeoffCraft-a: Datoteka, Izvezi, Razmera, Predmer, Uredi i Pogled, sa tasterima alatki od jednog slova. Početak. |
+| {{ui:TakeoffDesk}} | Sopstvena traka alata TakeoffDesk-a: Datoteka, Izvezi, Razmera, Predmer, Uredi i Pogled, sa tasterima alatki od jednog slova. Početak. |
 | {{ui:Radni sto za predmer}} | Traka menija ({{ui:Datoteka}}, {{ui:Uredi}}, {{ui:Pogled}}, {{ui:Razmera}}, {{ui:Predmer}}, {{ui:Stavke}}, {{ui:Označavanje}}, {{ui:Izvezi}}) nad jednim redom alatki za predmer, onako kako programi za predmer na ekranu raspoređuju svoje. Stavke se na tom redu zovu uslovi. Isti tasteri, plus {{key:N}} za novu stavku. Predlošci razmere prelaze na traku lista, uz razmeru lista. |
 | {{ui:Traka predmera}} | Kartice trake nazvane po poslu: {{ui:Predmer}} (merenje, oblici, razmera, sa crteža, uslovi), {{ui:Uredi}}, {{ui:Pogled}}, {{ui:Označavanje}} i {{ui:Predračun}} (radna sveska, označeni PDF-ovi, ponuda), sa menijem {{ui:Datoteka}} i brzim redom za otvaranje, čuvanje, opoziv i ponovo. Alatke koje koristite ceo dan su velike, a njihovi susedi mali i složeni. Isti tasteri; predlošci razmere prelaze na traku lista. |
 
-Sva tri stila zadržavaju TakeoffCraft-ove tastere: {{key:V}} izbor, {{key:L}} linijski, {{key:A}} površina, {{key:O}} krug, {{key:B}} prostorija, {{key:P}} putanja (biranje linija PDF-a), {{key:X}} izrez, {{key:C}} prebroj, {{key:S}} automatsko brojanje, {{key:K}} kalibriši, {{key:D}} proveri, {{key:R}} režim luka, {{key:E}} režim odbitka, {{key:F}} i {{key:W}} za uklapanje, {{key:3}} 3D provera, {{key:F3}} hvatanje, i {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Sva tri stila zadržavaju TakeoffDesk-ove tastere: {{key:V}} izbor, {{key:L}} linijski, {{key:A}} površina, {{key:O}} krug, {{key:B}} prostorija, {{key:P}} putanja (biranje linija PDF-a), {{key:X}} izrez, {{key:C}} prebroj, {{key:S}} automatsko brojanje, {{key:K}} kalibriši, {{key:D}} proveri, {{key:R}} režim luka, {{key:E}} režim odbitka, {{key:F}} i {{key:W}} za uklapanje, {{key:3}} 3D provera, {{key:F3}} hvatanje, i {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Alatke trake lista (beleške, oblaci, isticanja, Uporedi, 3D) čekaju dok se ne otvori PDF; ako ih izaberete ranije, statusna linija to kaže.
 
 :::tip
-Taster koji pripada TakeoffCraft-ovom sopstvenom rasporedu, a vaš stil ga dodeljuje drugoj komandi, ne radi ništa, a statusna linija kaže gde je otišla njegova komanda („U Mojim tasterima, Prebroj je Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} i strelice uvek zadržavaju svoje značenje. Dok crtate deonicu ili obris, lepite ili pregledate automatsko brojanje, slova i brojevi unete dužine ostaju kod crteža.
+Taster koji pripada TakeoffDesk-ovom sopstvenom rasporedu, a vaš stil ga dodeljuje drugoj komandi, ne radi ništa, a statusna linija kaže gde je otišla njegova komanda („U Mojim tasterima, Prebroj je Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} i strelice uvek zadržavaju svoje značenje. Dok crtate deonicu ili obris, lepite ili pregledate automatsko brojanje, slova i brojevi unete dužine ostaju kod crteža.
 :::
 
 ## Prilagodite
@@ -41,12 +41,12 @@ Taster koji pripada TakeoffCraft-ovom sopstvenom rasporedu, a vaš stil ga dodel
 
 ## Ponesite ih sa sobom
 
-{{ui:Izvezi}} čuva stil u upotrebi kao mali `.ccinput.json` fajl; {{ui:Uvezi…}} dodaje jedan, sa drugog računara ili od kolege. Uvezeni fajl može da pokazuje samo na TakeoffCraft-ove sopstvene komande: sve drugo se u njemu izostavlja i broji u statusnoj liniji. {{ui:Izbriši ovaj stil}} uklanja jedan vaš.
+{{ui:Izvezi}} čuva stil u upotrebi kao mali `.ccinput.json` fajl; {{ui:Uvezi…}} dodaje jedan, sa drugog računara ili od kolege. Uvezeni fajl može da pokazuje samo na TakeoffDesk-ove sopstvene komande: sve drugo se u njemu izostavlja i broji u statusnoj liniji. {{ui:Izbriši ovaj stil}} uklanja jedan vaš.
 
 :::note
-Ova podešavanja ostaju u ovom pregledaču. {{ui:Koristi ovaj stil u svakoj aplikaciji}} ispod kartica stila čini da se svaka aplikacija otvara u odgovarajućem stilu (sopstvena traka alata, traka menija ili traka), sa izmenama koje ste napravili u svakoj. TakeoffCraft nema stil sa komandnom linijom: kada se jedan izabere za svaku aplikaciju, TakeoffCraft zadržava sopstvenu traku alata.
+Ova podešavanja ostaju u ovom pregledaču. {{ui:Koristi ovaj stil u svakoj aplikaciji}} ispod kartica stila čini da se svaka aplikacija otvara u odgovarajućem stilu (sopstvena traka alata, traka menija ili traka), sa izmenama koje ste napravili u svakoj. TakeoffDesk nema stil sa komandnom linijom: kada se jedan izabere za svaku aplikaciju, TakeoffDesk zadržava sopstvenu traku alata.
 
-{{ui:Traka predmera}} je takođe traka rasporeda {{ui:Traka i pregledač projekta}} ({{ui:Podešavanja}} › {{ui:Globalno}} › {{ui:Raspored}}): pogledajte [Ekran TakeoffCraft-a](topic:workspace).
+{{ui:Traka predmera}} je takođe traka rasporeda {{ui:Traka i pregledač projekta}} ({{ui:Podešavanja}} › {{ui:Globalno}} › {{ui:Raspored}}): pogledajte [Ekran TakeoffDesk-a](topic:workspace).
 :::
 
-Povezano: [Tasteri i miš](topic:keyboard) · [Podešavanja TakeoffCraft-a](topic:settings) · [Prelazak sa drugog softvera za predmer](topic:coming-from)
+Povezano: [Tasteri i miš](topic:keyboard) · [Podešavanja TakeoffDesk-a](topic:settings) · [Prelazak sa drugog softvera za predmer](topic:coming-from)

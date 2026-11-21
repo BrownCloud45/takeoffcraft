@@ -13,7 +13,7 @@ Abra-a com {{ui:Library}} no topo do painel {{ui:Items}}.
 
 - {{ui:Import CSV…}} lê uma planilha salva como CSV (veja as colunas abaixo). Itens cujo nome e tipo já estão na biblioteca são substituídos; os demais são adicionados. Linhas que não consegue ler são ignoradas, e ele informa quais são e por quê.
 - {{ui:Adicionar os itens deste levantamento}} copia para a biblioteca cada item do levantamento aberto, com suas taxas e composição (mas não com suas marcas).
-- O CSV de orçamento que o TakeoffCraft exporta ([Exportar o orçamento](topic:export-estimate)) é importado como está: os preços do último trabalho servem de base para o próximo.
+- O CSV de orçamento que o TakeoffDesk exporta ([Exportar o orçamento](topic:export-estimate)) é importado como está: os preços do último trabalho servem de base para o próximo.
 
 - {{ui:Trade packs…}} adiciona composições gratuitas para uma especialidade, como drywall, elétrica ou concreto, sem preços. Veja [Pacotes de serviço](topic:trade-packs).
 

@@ -32,11 +32,11 @@ Alama zilizobandikwa zinaingia kwenye eneo la zabuni lililochaguliwa juu ya pane
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) huweka nakala mahali pale pale kabisa kwenye karatasi iliyo wazi, kwa nafasi yake kwenye ukurasa. Itumie kwa sakafu ya kawaida: pima ghorofa ya 2, nakili, fungua ghorofa ya 3, kisha bandika mahali pale.
 
-Bandika mahali pale linahitaji karatasi ya **ukubwa uleule** kama ile uliyonakili. Kwenye karatasi ya ukubwa mwingine TakeoffCraft inasema hivyo na haibandiki chochote; tumia {{ui:Paste}} na ubofye badala yake. Kwenye karatasi uliyonakili, nakala inatua juu ya asili.
+Bandika mahali pale linahitaji karatasi ya **ukubwa uleule** kama ile uliyonakili. Kwenye karatasi ya ukubwa mwingine TakeoffDesk inasema hivyo na haibandiki chochote; tumia {{ui:Paste}} na ubofye badala yake. Kwenye karatasi uliyonakili, nakala inatua juu ya asili.
 
 ## Kipimo lazima kilingane
 
-Urefu na maeneo hutegemea kipimo cha karatasi. Mstari unaopima 10' kwa 1/4" = 1'-0" ungepima 20' kwenye karatasi ya 1/8" = 1'-0". Kwa hiyo TakeoffCraft inabandika mistari na maeneo tu kwenye karatasi yenye **kipimo kilekile** kama karatasi ilikotoka, na inasema wazi haifanyi hivyo:
+Urefu na maeneo hutegemea kipimo cha karatasi. Mstari unaopima 10' kwa 1/4" = 1'-0" ungepima 20' kwenye karatasi ya 1/8" = 1'-0". Kwa hiyo TakeoffDesk inabandika mistari na maeneo tu kwenye karatasi yenye **kipimo kilekile** kama karatasi ilikotoka, na inasema wazi haifanyi hivyo:
 
 - Karatasi iliyo wazi bado haina kipimo: ipe kwanza ([Weka kipimo](topic:set-the-scale)), kisha bandika.
 - Karatasi iliyo wazi ina kipimo kingine: ujumbe unataja vipimo vyote viwili. Bandika kwenye karatasi yenye kipimo sawa.
@@ -59,7 +59,7 @@ Mhariri wa kipengee (chini ya **Vipengee**) unaishia na:
 - {{ui:Duplicate item}}: huongeza nakala mara moja, ikiitwa "(jina) (nakala)".
 
 :::tip
-Nakala inabaki kwenye kompyuta hii: inahifadhiwa kwenye kichupo hiki na kwenye hifadhi ya kivinjari, hivyo kichupo kingine cha TakeoffCraft kinaweza kuibandika. Hakuna kinachopakiwa, na ubao wa kunakili wa mfumo hautumiki, kwa hiyo huwezi kubandika alama kwenye programu nyingine.
+Nakala inabaki kwenye kompyuta hii: inahifadhiwa kwenye kichupo hiki na kwenye hifadhi ya kivinjari, hivyo kichupo kingine cha TakeoffDesk kinaweza kuibandika. Hakuna kinachopakiwa, na ubao wa kunakili wa mfumo hautumiki, kwa hiyo huwezi kubandika alama kwenye programu nyingine.
 :::
 
 :::note

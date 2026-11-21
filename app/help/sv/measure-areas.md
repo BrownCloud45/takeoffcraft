@@ -41,7 +41,7 @@ När rummen är ritade som slutna väggar tar {{ui:Rum}} ({{key:B}}) bort ett go
 2. Välj {{ui:Rum}} i gruppen {{ui:Mängdavtagning}}, eller tryck {{key:B}}.
 3. Klicka inne i ett rum, på det öppna golvet (inte på en linje eller en etikett).
 
-TakeoffCraft läser bladets linjer, hittar utrymmet runt klicket och konturerar det längs väggarnas insidor, som en area för den aktuella posten. Dörröppningar upp till **4'-0"** behandlas som slutna, så konturen går rakt över dörröppningen; **Inställningar › TakeoffCraft › Rumsfyllning stänger öppningar upp till** ändrar bredden (3'-0" till 8'-0"). Rumsnamn, möbler och inredning inuti rummet gör inga hål.
+TakeoffDesk läser bladets linjer, hittar utrymmet runt klicket och konturerar det längs väggarnas insidor, som en area för den aktuella posten. Dörröppningar upp till **4'-0"** behandlas som slutna, så konturen går rakt över dörröppningen; **Inställningar › TakeoffDesk › Rumsfyllning stänger öppningar upp till** ändrar bredden (3'-0" till 8'-0"). Rumsnamn, möbler och inredning inuti rummet gör inga hål.
 
 Den vägrar och säger varför när:
 
@@ -62,7 +62,7 @@ När en dörr är bredare än inställningen löper fyllningen in i nästa rum o
 
 För ett runt hål väljer du {{ui:Lägg till ett runt urtag}} under **Vald markering**, klickar på dess mitt och sedan på en punkt på kanten.
 
-Ett urtag måste ligga helt inuti ytan och får inte överlappa ett annat urtag. Annars vägrar TakeoffCraft det: ”Ett urtag måste ligga helt inuti ytan.” eller ”Urtag kan inte överlappa varandra.”
+Ett urtag måste ligga helt inuti ytan och får inte överlappa ett annat urtag. Annars vägrar TakeoffDesk det: ”Ett urtag måste ligga helt inuti ytan.” eller ”Urtag kan inte överlappa varandra.”
 
 För att ta bort det sista hålet igen, välj {{ui:Ta bort senaste urtaget}}.
 
@@ -76,7 +76,7 @@ Ett urtag tillhör en areamarkering. Ett **bakåtavdrag** ritas en gång och dra
 
 Varje areamarkering för en ibockad post på samma blad förlorar den del som ett bakåtavdrag täcker: hela bakåtavdraget när det ligger inuti, bara den överlappande delen när det korsar kanten, och inget inuti ett urtag. Den valda ytans panel visar **Bakåtavdrag** och den återstående arean. Postens mängd, dess formler för kalkylsammansättningen, kostnaderna, 3D-kontrollvyn och exporten använder den återstående arean; kalkylens noteringar anger hur mycket bakåtavdragen tog bort. Bakåtavdragsposten räknar själv sin egen area (lämna dess kostnader på noll om du inte prissätter den).
 
-Ett bakåtavdrag måste vara **konvext**: en rektangel, en cirkel eller valfri kontur utan inåtvänt hörn. TakeoffCraft vägrar att rita ett som inte är det; rita ett L-format schakt som två bakåtavdrag. Bakåtavdrag kan inte ha urtag, och två bakåtavdrag som överlappar varandra räknas båda.
+Ett bakåtavdrag måste vara **konvext**: en rektangel, en cirkel eller valfri kontur utan inåtvänt hörn. TakeoffDesk vägrar att rita ett som inte är det; rita ett L-format schakt som två bakåtavdrag. Bakåtavdrag kan inte ha urtag, och två bakåtavdrag som överlappar varandra räknas båda.
 
 Omkretsen (`P`) ändras inte: bakåtavdrag tar bort endast area.
 

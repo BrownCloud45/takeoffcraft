@@ -5,22 +5,22 @@ keywords: menüüstiil, menüüd, menüüriba, lint, lindi kaardid, tööriistar
 from: f01f0d6d
 ---
 
-TakeoffCraftis on käsud samad, sõltumata sellest, kuidas neid kätte saad. **Menüüstiil** määrab ainult, kus need ekraanil asuvad, mida neid seal nimetatakse ja millised klahvid neid käivitavad. Vali üks jaotises {{ui:Sätted}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menüüd, klahvid ja hiir}}; muudatus rakendub kohe ja see brauser mäletab seda.
+TakeoffDeskis on käsud samad, sõltumata sellest, kuidas neid kätte saad. **Menüüstiil** määrab ainult, kus need ekraanil asuvad, mida neid seal nimetatakse ja millised klahvid neid käivitavad. Vali üks jaotises {{ui:Sätted}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menüüd, klahvid ja hiir}}; muudatus rakendub kohe ja see brauser mäletab seda.
 
 ## Kolm stiili
 
 | Stiil | Mida saad |
 |---|---|
-| {{ui:TakeoffCraft}} | TakeoffCraft'i enda tööriistariba: Fail, Eksport, Mõõtkava, Koguste arvestus, Redigeeri ja Vaade, koos ühetäheliste tööriistaklahvidega. Algus. |
+| {{ui:TakeoffDesk}} | TakeoffDesk'i enda tööriistariba: Fail, Eksport, Mõõtkava, Koguste arvestus, Redigeeri ja Vaade, koos ühetäheliste tööriistaklahvidega. Algus. |
 | {{ui:Koguste arvestuse töölaud}} | Menüüriba ({{ui:Fail}}, {{ui:Redigeeri}}, {{ui:Vaade}}, {{ui:Mõõtkava}}, {{ui:Koguste arvestus}}, {{ui:Kirjed}}, {{ui:Märgistus}}, {{ui:Eksport}}) ühe reaga koguste arvestuse tööriistu, nagu need on paigutatud ekraanipõhistes koguste arvestuse programmides. Kirjed on real nimetatud tingimusteks. Samad klahvid, plus {{key:N}} uue kirje jaoks. Mõõtkava eelseadistused liiguvad lehe ribale, lehe mõõtkava kõrvale. |
 | {{ui:Koguste arvestuse lint}} | Lindi kaardid, nimetatud töö järgi: {{ui:Koguste arvestus}} (mõõda, kuju, mõõtkava, joonisest, tingimused), {{ui:Redigeeri}}, {{ui:Vaade}}, {{ui:Märgistus}} ja {{ui:Eelarve}} (tööraamat, märgitud PDF-id, pakkumus), koos menüüga {{ui:Fail}} ja kiirreaga avamiseks, salvestamiseks, tagasivõtmiseks ja uuesti tegemiseks. Igapäevased tööriistad on suured, nende naabrid väikesed ja virnas. Samad klahvid; mõõtkava eelseadistused liiguvad lehe ribale. |
 
-Kõik kolm stiili säilitavad TakeoffCraft'i klahvid: {{key:V}} vali, {{key:L}} lineaarne, {{key:A}} pindala, {{key:O}} ring, {{key:B}} ruum, {{key:P}} tee (vali PDF-i jooned), {{key:X}} väljalõige, {{key:C}} loe, {{key:S}} automaatne loendus, {{key:K}} kalibreeri, {{key:D}} kontrolli, {{key:R}} kaarerežiim, {{key:E}} mahaarvamisrežiim, {{key:F}} ja {{key:W}} sobitamiseks, {{key:3}} 3D-kontrollvaade, {{key:F3}} kinnitus ning {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Kõik kolm stiili säilitavad TakeoffDesk'i klahvid: {{key:V}} vali, {{key:L}} lineaarne, {{key:A}} pindala, {{key:O}} ring, {{key:B}} ruum, {{key:P}} tee (vali PDF-i jooned), {{key:X}} väljalõige, {{key:C}} loe, {{key:S}} automaatne loendus, {{key:K}} kalibreeri, {{key:D}} kontrolli, {{key:R}} kaarerežiim, {{key:E}} mahaarvamisrežiim, {{key:F}} ja {{key:W}} sobitamiseks, {{key:3}} 3D-kontrollvaade, {{key:F3}} kinnitus ning {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Lehe riba tööriistad (märkused, pilved, esiletõstud, Võrdle, 3D) ootavad, kuni PDF on avatud; kui valid need enne seda, ütleb olekurida seda.
 
 :::tip
-Klahv, mis kuulub TakeoffCraft'i enda paigutusse, aga mille sinu stiil andis teisele käsule, ei tee midagi, ja olekurida ütleb, kuhu tema käsk läks („Minu klahvides on Loe Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} ja nooled säilitavad alati oma tähenduse. Kui joonistad jada või kontuuri, kleebid või kontrollid automaatset loendust, jäävad tähed ja sisestatud pikkuse numbrid joonistusele.
+Klahv, mis kuulub TakeoffDesk'i enda paigutusse, aga mille sinu stiil andis teisele käsule, ei tee midagi, ja olekurida ütleb, kuhu tema käsk läks („Minu klahvides on Loe Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} ja nooled säilitavad alati oma tähenduse. Kui joonistad jada või kontuuri, kleebid või kontrollid automaatset loendust, jäävad tähed ja sisestatud pikkuse numbrid joonistusele.
 :::
 
 ## Kohanda enda järgi
@@ -41,12 +41,12 @@ Sisseehitatud stiili salvestamine teeb sinu enda koopia („Minu koguste arvestu
 
 ## Vii see kaasa
 
-{{ui:Eksport}} salvestab kasutusel oleva stiili väikese faili `.ccinput.json`; {{ui:Impordi…}} lisab ühe, teisest arvutist või kolleegilt. Imporditud fail saab osutada ainult TakeoffCraft'i enda käskudele: kõik muu jäetakse välja ja loetakse olekureal. {{ui:Kustuta see stiil}} eemaldab ühe sinu enda stiilidest.
+{{ui:Eksport}} salvestab kasutusel oleva stiili väikese faili `.ccinput.json`; {{ui:Impordi…}} lisab ühe, teisest arvutist või kolleegilt. Imporditud fail saab osutada ainult TakeoffDesk'i enda käskudele: kõik muu jäetakse välja ja loetakse olekureal. {{ui:Kustuta see stiil}} eemaldab ühe sinu enda stiilidest.
 
 :::note
-Need sätted jäävad selle brauserisse. {{ui:Kasuta seda stiili kõigis rakendustes}} stiilikaartide all paneb iga rakenduse avanema vastava stiiliga (oma tööriistariba, menüüriba või lint), koos muudatustega, mida tegid igas rakenduses. TakeoffCraftil ei ole käsurea stiili: kui see valitakse kõigi rakenduste jaoks, säilitab TakeoffCraft oma tööriistariba.
+Need sätted jäävad selle brauserisse. {{ui:Kasuta seda stiili kõigis rakendustes}} stiilikaartide all paneb iga rakenduse avanema vastava stiiliga (oma tööriistariba, menüüriba või lint), koos muudatustega, mida tegid igas rakenduses. TakeoffDeskil ei ole käsurea stiili: kui see valitakse kõigi rakenduste jaoks, säilitab TakeoffDesk oma tööriistariba.
 
-{{ui:Koguste arvestuse lint}} on ka paigutuse {{ui:Lint ja projektisirvija}} lint ({{ui:Sätted}} › {{ui:Globaalne}} › {{ui:Paigutus}}): vaata [TakeoffCraft'i ekraan](topic:workspace).
+{{ui:Koguste arvestuse lint}} on ka paigutuse {{ui:Lint ja projektisirvija}} lint ({{ui:Sätted}} › {{ui:Globaalne}} › {{ui:Paigutus}}): vaata [TakeoffDesk'i ekraan](topic:workspace).
 :::
 
-Seotud: [Klahvid ja hiir](topic:keyboard) · [TakeoffCraft'i sätted](topic:settings) · [Üleminek teisest koguste arvestuse tarkvarast](topic:coming-from)
+Seotud: [Klahvid ja hiir](topic:keyboard) · [TakeoffDesk'i sätted](topic:settings) · [Üleminek teisest koguste arvestuse tarkvarast](topic:coming-from)

@@ -37,12 +37,12 @@ Yazılmış miqdar heç bir işarə almır və heç vaxt smetanı natamam etmir.
 Elementi əlavə etmədən formanı bağlamaq üçün formada {{key:Esc}} basın.
 
 :::tip
-Əvvəlcə ölçmə alətini seçsəniz, TakeoffCraft həmin növün sonuncu elementini istifadə edir, ya da həmin növ artıq seçilmiş {{ui:Yeni element}} formasını açır.
+Əvvəlcə ölçmə alətini seçsəniz, TakeoffDesk həmin növün sonuncu elementini istifadə edir, ya da həmin növ artıq seçilmiş {{ui:Yeni element}} formasını açır.
 :::
 
 ## Çəkdiyiniz elementi seçin
 
-Siyahıda elementə klikləyin. O, yeni işarələrin aid olduğu element olur və onun işarələri bütün vərəqlərdə vurğulanır, digərləri solğunlaşır. Açıq vərəqdə onun işarəsi yoxdursa, TakeoffCraft işarəsi olan vərəqə keçir. Elementə yenidən klikləyin ki, vurğulama dayansın; o, yenə də çəkdiyiniz element olaraq qalır.
+Siyahıda elementə klikləyin. O, yeni işarələrin aid olduğu element olur və onun işarələri bütün vərəqlərdə vurğulanır, digərləri solğunlaşır. Açıq vərəqdə onun işarəsi yoxdursa, TakeoffDesk işarəsi olan vərəqə keçir. Elementə yenidən klikləyin ki, vurğulama dayansın; o, yenə də çəkdiyiniz element olaraq qalır.
 
 {{ui:Seç}} aləti ilə işarəyə klikləmək də onun elementini cari edir.
 
@@ -57,7 +57,7 @@ Element redaktorunda (**Element: (ad)**) bu sahələr var. Hər biri sahəni tə
 | {{ui:Rəng}} | İşarələrinin ekranda və işarələnmiş PDF-də rəngi. |
 | {{ui:Vahid}} | Miqdarın hansı vahidlə göstərildiyi: xətti üçün LF və ya m; sahə üçün SF, SY, SQ, ac, ha və ya m²; say üçün EA. |
 | {{ui:Həm də ölçün}} | Elementin qəbul etdiyi digər işarə növləri, hər birinin öz vahidi ilə. Aşağıya bax. |
-| {{ui:Hündürlük}} (xətti) | Divar hündürlüyü. Element bundan sonra divar sahəsini də (uzunluq × hündürlük) göstərir. BimCraft modelindən gələn xətlər öz qapı və pəncərələrini də daşıyır: onlar bir dəfə çıxılır və element ümumi sahəni, açılışları və xalis sahəni göstərir. BimCraft layihəsindən olan və ölçmə üsulu seçilmiş smeta həmin üsulla burada da ölçülür (qeyddə üsul və mənbəyi adlandırılır və bunun miqdar üzrə mühəndis tərəfindən yoxlanılmadığı deyilir); üsulu TakeoffCraft-da dəyişmək olmur. Divar növündən gələn kərpiclər və ya bloklar və məhlul iki komponent kimi gəlir: sifariş ediləcək vahidlər və məhlulun həcmi. |
+| {{ui:Hündürlük}} (xətti) | Divar hündürlüyü. Element bundan sonra divar sahəsini də (uzunluq × hündürlük) göstərir. BimCraft modelindən gələn xətlər öz qapı və pəncərələrini də daşıyır: onlar bir dəfə çıxılır və element ümumi sahəni, açılışları və xalis sahəni göstərir. BimCraft layihəsindən olan və ölçmə üsulu seçilmiş smeta həmin üsulla burada da ölçülür (qeyddə üsul və mənbəyi adlandırılır və bunun miqdar üzrə mühəndis tərəfindən yoxlanılmadığı deyilir); üsulu TakeoffDesk-da dəyişmək olmur. Divar növündən gələn kərpiclər və ya bloklar və məhlul iki komponent kimi gəlir: sifariş ediləcək vahidlər və məhlulun həcmi. |
 | {{ui:Dərinlik}} (sahə) | Dərinlik və ya qalınlıq, yığım düsturlarında istifadə olunur (məsələn beton həcmi). |
 | {{ui:İtki %}} | Qiymətləndirmədən əvvəl miqdara əlavə olunur: 10 deməkdir miqdar × 1.10. |
 | {{ui:Material $/LF}} | Vahid üzrə material dəyəri. Etiket vahidi izləyir: $/SF, $/EA və s. |
@@ -74,7 +74,7 @@ Bəzi şeylər bir neçə yolla ölçülür: otağın döşəməsi (sahə), diva
 
 1. Elementi əsas növü ilə yaradın, məsələn `Otaq 101` adlı sahə elementi.
 2. Onun redaktorunda {{ui:Həm də ölçün}} altında {{ui:Xətti}}, {{ui:Say}} və ya hər ikisini işarələyin. Hər birinin yanında vahid görünür.
-3. Elementin qəbul etdiyi növə uyğun hər hansı alətlə çəkin: `Otaq 101` cari olanda {{ui:Sahə}} döşəməsini, {{ui:Xətti}} plintusunu, {{ui:Say}} qapılarını çəkir. TakeoffCraft başqa element soruşmur.
+3. Elementin qəbul etdiyi növə uyğun hər hansı alətlə çəkin: `Otaq 101` cari olanda {{ui:Sahə}} döşəməsini, {{ui:Xətti}} plintusunu, {{ui:Say}} qapılarını çəkir. TakeoffDesk başqa element soruşmur.
 
 Element siyahısı hər miqdarı göstərir (`50.00 SF + 2 EA`). Miqdarlar cədvəlində elementin sətrində əsas miqdar olur, hər digər növ üçün altında ayrıca sətir çıxır, məsələn **Otaq 101 (say)**, öz itki və material və əmək dərəcələri ilə. İxraclar, vərəq üzrə cədvəl və işarələnmiş PDF-in legendası onları eyni qaydada sadalayır.
 
@@ -113,7 +113,7 @@ Elementin əməyi vahid üzrə əmək dərəcəsi əvəzinə briqadadan gələ b
 | {{ui:Briqadanın tərkibi}} | `2` nəfər |
 | {{ui:Hər nəfər üçün saatlıq əmək haqqı, $}} | `45` |
 
-TakeoffCraft itki ilə miqdardan hesablayır:
+TakeoffDesk itki ilə miqdardan hesablayır:
 
 - **briqada-saatı** = miqdar ÷ istehsal (110 LF ÷ 20 = 5.5),
 - **adam-saatı** = briqada-saatı × briqadanın tərkibi (11),

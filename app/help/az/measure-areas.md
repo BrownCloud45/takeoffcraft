@@ -41,7 +41,7 @@ Otaqlar qapalı divarlar kimi çəkilibsə, {{ui:Room}} ({{key:B}}) bir klikdə 
 2. {{ui:Takeoff}} qrupunda {{ui:Room}} seçin və ya {{key:B}} basın.
 3. Otağın içinə klik edin, açıq döşəmədə (xəttin və ya yazının üstündə yox).
 
-TakeoffCraft vərəqin xətlərini oxuyur, klik ətrafındakı boşluğu tapır və divarların daxili üzləri boyunca konturlayır, cari elementin sahəsi kimi. Qapı açılışları **4'-0"**-ə qədər qapalı sayılır, buna görə kontur qapı boyunca düz keçir; **Parametrlər › TakeoffCraft › Otaq doldurma açılışları bağlayır** bu eni dəyişir (3'-0" ilə 8'-0" arası). Otağın içindəki otaq adları, mebel və qurğular deşik yaratmır.
+TakeoffDesk vərəqin xətlərini oxuyur, klik ətrafındakı boşluğu tapır və divarların daxili üzləri boyunca konturlayır, cari elementin sahəsi kimi. Qapı açılışları **4'-0"**-ə qədər qapalı sayılır, buna görə kontur qapı boyunca düz keçir; **Parametrlər › TakeoffDesk › Otaq doldurma açılışları bağlayır** bu eni dəyişir (3'-0" ilə 8'-0" arası). Otağın içindəki otaq adları, mebel və qurğular deşik yaratmır.
 
 Rədd edir və səbəbini deyir, nə vaxt ki:
 
@@ -62,7 +62,7 @@ Qapı parametrdən geniş olduqda doldurma növbəti otağa keçir və hər ikis
 
 Dairəvi deşik üçün **Seçilmiş nişan** altında {{ui:Add a round cut-out}} seçin, mərkəzinə, sonra kənarda bir nöqtəyə klik edin.
 
-Deşik sahənin içində tam yerləşməlidir və başqa deşiklə üst-üstə düşməməlidir. Əks halda TakeoffCraft rədd edir: "A cut-out has to sit fully inside the area." (Deşik sahənin içində tam yerləşməlidir.) və ya "Cut-outs cannot overlap each other." (Deşiklər bir-birini üst-üstə sala bilməz.)
+Deşik sahənin içində tam yerləşməlidir və başqa deşiklə üst-üstə düşməməlidir. Əks halda TakeoffDesk rədd edir: "A cut-out has to sit fully inside the area." (Deşik sahənin içində tam yerləşməlidir.) və ya "Cut-outs cannot overlap each other." (Deşiklər bir-birini üst-üstə sala bilməz.)
 
 Son deşiyi çıxarmaq üçün {{ui:Remove last cut-out}} seçin.
 
@@ -76,7 +76,7 @@ Deşik bir sahə nişanına aiddir. **Geri çıxılma** bir dəfə çəkilir və
 
 Həmin vərəqdə işarələnmiş elementin hər sahə nişanı geri çıxılmanın əhatə etdiyi hissəni itirir: içəridə olduqda bütün geri çıxılma, kənarı kəsdikdə yalnız üst-üstə düşən hissə və deşiyin içində heç nə. Seçilmiş sahənin paneli **Geri çıxılmalar** və qalan sahəni göstərir. Elementin miqdarı, onun yığım düsturları, qiymətlər, 3D yoxlama görünüşü və ixrac qalan sahədən istifadə edir; smetanın qeydləri geri çıxılmaların nə qədər çıxdığını göstərir. Geri çıxılma elementinin özü öz sahəsini sayır (qiymətləndirmirsinizsə, qiymətləri sıfırda saxlayın).
 
-Geri çıxılma **qabarıq** olmalıdır: düzbucaqlı, dairə və ya içəriyə küncü olmayan istənilən kontur. TakeoffCraft belə olmayanı çəkməyə icazə vermir; L-formalı şaftı iki geri çıxılma kimi çəkin. Geri çıxılmalarda deşik ola bilməz, və bir-birini üst-üstə salan iki geri çıxılmanın hər ikisi sayılır.
+Geri çıxılma **qabarıq** olmalıdır: düzbucaqlı, dairə və ya içəriyə küncü olmayan istənilən kontur. TakeoffDesk belə olmayanı çəkməyə icazə vermir; L-formalı şaftı iki geri çıxılma kimi çəkin. Geri çıxılmalarda deşik ola bilməz, və bir-birini üst-üstə salan iki geri çıxılmanın hər ikisi sayılır.
 
 Perimetr (`P`) dəyişmir: geri çıxılmalar yalnız sahəni çıxır.
 

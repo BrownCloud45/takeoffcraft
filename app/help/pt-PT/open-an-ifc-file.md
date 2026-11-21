@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, estrada, linha férrea, ponte, pavimento, lancil
 from: 6b08c2c4
 ---
 
-Um ficheiro IFC 4.3 pode conter estradas, linhas férreas, pontes, obras marítimas e as partes de que são feitas: pavimentos, camadas, lancis, carris, movimentos de terras, aparelhos de apoio, estacas e outras. O TakeoffCraft lê esses elementos e transforma-os em quantidades tipificadas que pode orçamentar.
+Um ficheiro IFC 4.3 pode conter estradas, linhas férreas, pontes, obras marítimas e as partes de que são feitas: pavimentos, camadas, lancis, carris, movimentos de terras, aparelhos de apoio, estacas e outras. O TakeoffDesk lê esses elementos e transforma-os em quantidades tipificadas que pode orçamentar.
 
 ## Abrir o ficheiro
 
 1. Escolha {{ui:Abrir plantas}} no grupo {{ui:Ficheiro}}, ou prima {{key:Mod+O}}.
-2. Selecione o ficheiro IFC (pode selecioná-lo juntamente com PDF), ou largue-o no TakeoffCraft.
+2. Selecione o ficheiro IFC (pode selecioná-lo juntamente com PDF), ou largue-o no TakeoffDesk.
 
 Cria-se uma quantidade tipificada para cada classe e tipo predefinido, por exemplo "Pavimento (flexível): contagem", e, quando o ficheiro as indica, "comprimento" em m, "área" em m² e "volume" em m³. A nota de cada artigo indica quantos elementos foram contados e quantos não indicaram quantidade. Abrir um ficheiro mais recente com o mesmo nome atualiza essas quantidades em vez de acrescentar mais.
 

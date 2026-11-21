@@ -1,6 +1,6 @@
 ---
 title: Compta-ho tot del joc
-summary: Envolteu una vegada la llegenda de símbols i TakeoffCraft compta cada símbol que hi ha en cada full obert en una sola execució. Cada recompte és un enllaç al seu full, i reviseu abans d'afegir res.
+summary: Envolteu una vegada la llegenda de símbols i TakeoffDesk compta cada símbol que hi ha en cada full obert en una sola execució. Cada recompte és un enllaç al seu full, i reviseu abans d'afegir res.
 keywords: comptar-ho tot, llegenda, llegenda de símbols, joc complet, cada full, tots els fulls, cada porta, cada accessori, dispositius, quadre, símbols, recompte automàtic, comptar tot, joc de plànols, 200 fulls, nivell de coincidència, semblants
 from: adc99744
 ---

@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * shell-mount.js — TakeoffCraft attaches the shell's seven modules (0.8 round 3, takeoff_PART_3; docs/apps/shell-modules.md § Mounting):
+ * shell-mount.js — TakeoffDesk attaches the shell's seven modules (0.8 round 3, takeoff_PART_3; docs/apps/shell-modules.md § Mounting):
  * calc sheets (EG.18), design reasons (EG.34), running totals (EG.30: cost and embodied carbon), lessons (EG.23), Suggest (AC.12), the
- * activity log (AC.13) and the Ask box (AC.8). The block in mountShellModules is the doc's, unchanged; takeoffHost() is what TakeoffCraft hands over.
+ * activity log (AC.13) and the Ask box (AC.8). The block in mountShellModules is the doc's, unchanged; takeoffHost() is what TakeoffDesk hands over.
  *
  *   mountTakeoffShell(tc) — tc = { model, control, estimate(), carbon(), selection(), onSelection(fn) → off, select(id), name(), path() }
  * Calc sheets and reasons are saved in the takeoff's file under `calcs` and `reasons` (model.js readProject keeps them; null removes the key).
@@ -88,7 +88,7 @@ function lessonsOf(tc) {
   };
 }
 
-/** What TakeoffCraft hands over (the doc's table, § 3). */
+/** What TakeoffDesk hands over (the doc's table, § 3). */
 export function takeoffHost(tc) {
   const model = tc.model;
   let inStep = false;

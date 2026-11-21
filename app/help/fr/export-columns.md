@@ -77,7 +77,7 @@ Une ligne par feuille ayant une échelle ou des repères.
 | Feuille | Nom de la feuille |
 | Échelle | Le nom du préréglage, l'échelle étalonnée, ou « Pas d'échelle » |
 | Mode | « Préréglage », ou « Étalonnée sur (la distance que vous avez saisie) » |
-| Pieds par unité PDF | Le facteur d'échelle exact utilisé par TakeoffCraft |
+| Pieds par unité PDF | Le facteur d'échelle exact utilisé par TakeoffDesk |
 
 ## Noms de fichiers
 

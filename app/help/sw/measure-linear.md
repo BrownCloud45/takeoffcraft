@@ -30,7 +30,7 @@ Wakati wa kuchora:
 - Kuburuta husogeza karatasi na gurudumu hukuza, bila kuongeza nukta.
 
 :::mac
-Kwenye pedi ya kugusa ya Mac, bofya kulia ni bofya kwa vidole viwili (washa secondary click katika Mipangilio ya Mfumo, chini ya Trackpad). TakeoffCraft husoma kitufe cha pili pekee, kwa hiyo Control-bofya inaweza kuchukuliwa kama bofya la kawaida na kuongeza nukta. Bofya mara mbili au {{key:Enter}} daima humaliza.
+Kwenye pedi ya kugusa ya Mac, bofya kulia ni bofya kwa vidole viwili (washa secondary click katika Mipangilio ya Mfumo, chini ya Trackpad). TakeoffDesk husoma kitufe cha pili pekee, kwa hiyo Control-bofya inaweza kuchukuliwa kama bofya la kawaida na kuongeza nukta. Bofya mara mbili au {{key:Enter}} daima humaliza.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Baada ya nukta ya kwanza, unaweza kuandika mahali nukta inayofuata inapoenda bad
 | `@6',-4'` | 6' kulia na 4' chini kutoka nukta ya mwisho |
 | `6',4'` (au `#6',4'`) | 6' kulia na 4' juu kutoka nukta ya kwanza ya mfululizo huu |
 
-Urefu unaandikwa kama kila mahali kwenye TakeoffCraft ([Muundo wa kuingiza](topic:entry-formats)): `12'-6 1/2"`, `12.5` (futi), `30"`, `3.2 m`. "Kulia" na "juu" ni kama unavyoona karatasi, hata PDF ikigeuzwa.
+Urefu unaandikwa kama kila mahali kwenye TakeoffDesk ([Muundo wa kuingiza](topic:entry-formats)): `12'-6 1/2"`, `12.5` (futi), `30"`, `3.2 m`. "Kulia" na "juu" ni kama unavyoona karatasi, hata PDF ikigeuzwa.
 
 {{key:Enter}} kwenye kisanduku tupu humaliza mfululizo, kama {{key:Enter}} kwenye karatasi; {{key:Esc}} hufunga kisanduku na kuweka mfululizo ukiendelea. Nukta zilizoandikwa hufuata sheria zile zile za mibofyo: punguzo, matao na kufunga eneo vyote vinafanya kazi. Kisanduku kile kile kinafanya kazi kwenye {{ui:Eneo}} na {{ui:Shimo}}; baada ya katikati ya duara, kinachukua radius.
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * learn-ui.js — the page side of "what TakeoffCraft learned" (0.8 SU.811, session sx-learn): the toolbar's Learned button
+ * learn-ui.js — the page side of "what TakeoffDesk learned" (0.8 SU.811, session sx-learn): the toolbar's Learned button
  * and its dialog, the offer bar on a page where something learned can be used, finding a learned symbol (through the page's
  * own Auto count review: the person still accepts every mark), "Same as last job…", saving and adding condition sets,
  * assembly suggestions and "Repeat on every page". The data and the edits are learn.js / learn-apply.js (DOM-free).

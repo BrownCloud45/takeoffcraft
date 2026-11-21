@@ -46,7 +46,7 @@ Tallene ændrer sig ikke i 3D: en vægs areal er dens nøjagtige længde gange d
 | {{ui:Ark}} | Vis eller skjul tegningen på jorden. |
 | ViewCube, øverst til højre | Klik på en flade, kant eller hjørne for at kigge derfra; træk det for at kredse; træk dets kompasring for at dreje; husknappen går tilbage til {{ui:Iso}}. |
 
-Hjørnet viser en ViewCube, et lille X, Y, Z-akseikon eller ingenting: vælg det i {{ui:Indstillinger}}, på fanen TakeoffCraft, under **Hjørneindikator** ([TakeoffCraft-indstillinger](topic:settings)). Det flade ark har ingen hjørneindikator.
+Hjørnet viser en ViewCube, et lille X, Y, Z-akseikon eller ingenting: vælg det i {{ui:Indstillinger}}, på fanen TakeoffDesk, under **Hjørneindikator** ([TakeoffDesk-indstillinger](topic:settings)). Det flade ark har ingen hjørneindikator.
 
 :::touch
 En finger kredser; to fingre knibes for at zoome og flyttes for at panorere. Et tryk vælger.

@@ -13,7 +13,7 @@ Mở bằng {{ui:Thư viện}} ở đầu bảng {{ui:Hạng mục}}.
 
 - {{ui:Nhập CSV…}} đọc bảng tính được lưu dưới dạng CSV (xem các cột bên dưới). Các hạng mục có tên và loại đã có trong thư viện sẽ được thay thế; phần còn lại được thêm vào. Các dòng không đọc được sẽ bị bỏ qua, và thông báo cho biết dòng nào và vì sao.
 - {{ui:Thêm hạng mục của bóc tách này}} sao chép mọi hạng mục của bóc tách đang mở vào thư viện, cùng đơn giá và lắp ráp (không gồm dấu).
-- Tệp CSV dự toán mà TakeoffCraft xuất ra ([Xuất dự toán](topic:export-estimate)) được nhập nguyên như vậy: giá của công trình trước làm nền cho công trình kế tiếp.
+- Tệp CSV dự toán mà TakeoffDesk xuất ra ([Xuất dự toán](topic:export-estimate)) được nhập nguyên như vậy: giá của công trình trước làm nền cho công trình kế tiếp.
 
 - {{ui:Gói ngành…}} thêm các lắp ráp miễn phí cho một ngành, như vách thạch cao, điện hoặc bê tông, không kèm giá. Xem [Gói ngành](topic:trade-packs).
 

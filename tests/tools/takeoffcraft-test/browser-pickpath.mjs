@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-pickpath.mjs — TakeoffCraft 0.8 SU.880 (Path tool: pick the PDF's own linework) in headless Chromium at
+ * browser-pickpath.mjs — TakeoffDesk 0.8 SU.880 (Path tool: pick the PDF's own linework) in headless Chromium at
  * https://getcadcraft.com/lab/takeoffcraft (run as root: a session minted for the test admin by admin.php).
  *   node tools/takeoffcraft-test/browser-pickpath.mjs [--out dir]
  *

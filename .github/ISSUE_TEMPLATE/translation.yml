@@ -1,5 +1,5 @@
 name: Translation
-description: Offer or improve a translation of TakeoffCraft
+description: Offer or improve a translation of TakeoffDesk
 labels: [translation]
 body:
   - type: input

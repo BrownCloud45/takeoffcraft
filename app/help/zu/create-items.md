@@ -37,12 +37,12 @@ Inani elibhalwe alithathi zimpawu futhi alenzi isilinganiso sibe sesingaphelele.
 Cindezela {{key:Esc}} efomini ukuze uyivale ngaphandle kokwengeza into.
 
 :::tip
-Uma ukhetha ithuluzi lokulinganisa kuqala, i-TakeoffCraft isebenzisa into yokugcina yohlobo olufanele, noma ivule ifomu le-{{ui:Into entsha}} nohlobo selukhethiwe kade.
+Uma ukhetha ithuluzi lokulinganisa kuqala, i-TakeoffDesk isebenzisa into yokugcina yohlobo olufanele, noma ivule ifomu le-{{ui:Into entsha}} nohlobo selukhethiwe kade.
 :::
 
 ## Khetha into oyidwebisa ngayo
 
-Chofoza into ohlwini. Iba yinto izimpawu ezintsha ezingena kuyo, nezimpawu zayo zikhanyiswe kuwo wonke amashidi kanti ezinye zifiphale. Uma ishidi elivuliwe lingenazo izimpawu zayo, i-TakeoffCraft ikuyisa kwelinye ishidi elinazo. Chofoza into futhi ukuze uyeke ukuyikhanyisa; isahlala iyinto oyidwebisa ngayo.
+Chofoza into ohlwini. Iba yinto izimpawu ezintsha ezingena kuyo, nezimpawu zayo zikhanyiswe kuwo wonke amashidi kanti ezinye zifiphale. Uma ishidi elivuliwe lingenazo izimpawu zayo, i-TakeoffDesk ikuyisa kwelinye ishidi elinazo. Chofoza into futhi ukuze uyeke ukuyikhanyisa; isahlala iyinto oyidwebisa ngayo.
 
 Chofoza impawu ngethuluzi le-{{ui:Khetha}} nalo lenza into yayo ibe yamanje.
 
@@ -57,7 +57,7 @@ Umhleli wento (**Into: (igama)**) unezinkambu ezilandelayo. Ngayinye iyagcinwa u
 | {{ui:Umbala}} | Umbala wezimpawu zayo esikrinini nasePDF enezimpawu. |
 | {{ui:Iyunithi}} | Inani elibikwa ngayo: LF noma m zomugqa; SF, SY, SQ, ac, ha noma m² zendawo; EA zokubala. |
 | {{ui:Futhi ukale}} | Ezinye izinhlobo zezimpawu into eyithathayo, ngayinye neyunithi yayo. Bona ngezansi. |
-| {{ui:Ukuphakama}} (umugqa) | Ukuphakama kodonga. Into-ke ibuye ibike indawo yodonga (ubude × ukuphakama). Imigqa evela kumodeli ye-BimCraft ithwala iminyango nezifasi zayo: zisuswa kanye, futhi into ibika indawo ephelele, izikhala nendawo esele. Ukubalwa kusuka kuprojekthi ye-BimCraft okukhethwe kuyo indlela yokulinganisa kulinganiswa ngaleyo ndlela nalapha (inothi liyibiza, kanye nomthombo wayo, lithi ayihlolwa yi-quantity surveyor); le ndlela ayishintshwa ku-TakeoffCraft. Izitini noma amabhulokhi nodaka oluvela kuhlobo lodonga lufika njengezingxenye ezimbili: iyunithi zokuyalwa nevolumu kadaka. |
+| {{ui:Ukuphakama}} (umugqa) | Ukuphakama kodonga. Into-ke ibuye ibike indawo yodonga (ubude × ukuphakama). Imigqa evela kumodeli ye-BimCraft ithwala iminyango nezifasi zayo: zisuswa kanye, futhi into ibika indawo ephelele, izikhala nendawo esele. Ukubalwa kusuka kuprojekthi ye-BimCraft okukhethwe kuyo indlela yokulinganisa kulinganiswa ngaleyo ndlela nalapha (inothi liyibiza, kanye nomthombo wayo, lithi ayihlolwa yi-quantity surveyor); le ndlela ayishintshwa ku-TakeoffDesk. Izitini noma amabhulokhi nodaka oluvela kuhlobo lodonga lufika njengezingxenye ezimbili: iyunithi zokuyalwa nevolumu kadaka. |
 | {{ui:Ukujula}} (indawo) | Ukujula noma ubukhulu, kusetshenziswa ezifomulini zomhlanganisela (isibonelo ivolumu yekhonkolo). |
 | {{ui:Ukulahleka %}} | Kwengezwa enanini ngaphambi kokubiza: 10 kusho inani × 1.10. |
 | {{ui:Impahla $/LF}} | Izindleko zempahla ngeyunithi. Ilebula ilandela iyunithi: $/SF, $/EA njalo njalo. |
@@ -74,7 +74,7 @@ Ezinye izinto zilinganiswa ngendlela ngaphezu kweyodwa: igumbi linesakhiwo (inda
 
 1. Yenza into ngohlobo lwayo oluyinhloko, njengento yendawo `Igumbi 101`.
 2. Ngaphansi kwe-{{ui:Futhi ukale}} kumhleli wayo, tshekisha {{ui:Umugqa}}, {{ui:Bala}} noma zombili. Ngayinye ithola iyunithi eseceleni kwayo.
-3. Dweba ngalo nalo luphi na uthuluzi uhlobo lwalo olwamukelwa yinto: nge-`Igumbi 101` lamanje, {{ui:Indawo}} idweba isakhiwo sayo, {{ui:Umugqa}} idweba ukugcina kwayo phansi, bese {{ui:Bala}} idweba iminyango yayo. I-TakeoffCraft ayicele enye into.
+3. Dweba ngalo nalo luphi na uthuluzi uhlobo lwalo olwamukelwa yinto: nge-`Igumbi 101` lamanje, {{ui:Indawo}} idweba isakhiwo sayo, {{ui:Umugqa}} idweba ukugcina kwayo phansi, bese {{ui:Bala}} idweba iminyango yayo. I-TakeoffDesk ayicele enye into.
 
 Uhlu lwezinto lubonisa inani lonke (`50.00 SF + 2 EA`). Kuthebula lamanani, umugqa wento uhlala nenani layo elikhulu, bese ngayinye yezinye izinhlobo ithola umugqa wayo ngaphansi kwawo, njenge **Igumbi 101 (bala)**, nezinga layo lokulahleka nempahla nomsebenzi. Ukuthunyelwa, ithebula lalo shidi nencwadi yencazelo ye-PDF enezimpawu zibhalwe ngendlela efanayo.
 
@@ -113,7 +113,7 @@ Esikhundleni sezinga lomsebenzi ngeyunithi, umsebenzi wento ungavela eqenjini: l
 | {{ui:Inani leqembu}} | `2` abantu |
 | {{ui:Umholo $/ihora ngamunye}} | `45` |
 
-I-TakeoffCraft ibala, kusukela enanini elinokulahleka:
+I-TakeoffDesk ibala, kusukela enanini elinokulahleka:
 
 - **amahora eqembu** = inani ÷ ukukhiqiza (110 LF ÷ 20 = 5.5),
 - **amahora abasebenzi** = amahora eqembu × inani leqembu (11),

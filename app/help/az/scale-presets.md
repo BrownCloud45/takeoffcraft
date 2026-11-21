@@ -49,4 +49,4 @@ Kalibrlənmiş miqyas vərəqin altındakı zolaqda "Kalibrlənmiş 1" = 4.002' 
 
 ## Qeyri-adi PDF-lər
 
-Bəzi PDF-lər daha böyük səhifə vahidi bildirir ("istifadəçi vahidi"); TakeoffCraft bunu hazırlar və göstərilən miqyas üçün nəzərə alır. PDF-də fırlandırılmış səhifələr dik səhifələrlə eyni qayda ilə ölçülür.
+Bəzi PDF-lər daha böyük səhifə vahidi bildirir ("istifadəçi vahidi"); TakeoffDesk bunu hazırlar və göstərilən miqyas üçün nəzərə alır. PDF-də fırlandırılmış səhifələr dik səhifələrlə eyni qayda ilə ölçülür.

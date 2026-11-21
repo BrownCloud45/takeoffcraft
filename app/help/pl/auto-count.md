@@ -1,6 +1,6 @@
 ---
 title: Auto liczenie symbolu
-summary: Zaznacz jeden symbol ramką, pozwól TakeoffCraft znaleźć pozostałe na tym arkuszu lub na wszystkich otwartych arkuszach, przejrzyj dopasowania suwakiem i dodaj je jednym krokiem.
+summary: Zaznacz jeden symbol ramką, pozwól TakeoffDesk znaleźć pozostałe na tym arkuszu lub na wszystkich otwartych arkuszach, przejrzyj dopasowania suwakiem i dodaj je jednym krokiem.
 keywords: dowolny kąt, obrócony, odwrócony, inna skala, auto liczenie, automatyczne liczenie, wyszukiwanie symboli, znajdź symbole, wzorzec, szablon, dopasowanie, wykrywanie, narzędzie liczenia
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Aby zrezygnować z przeglądu bez dodawania czegokolwiek, wybierz {{ui:Odrzuć}}
 
 ## Co znajduje, a czego nie
 
-TakeoffCraft porównuje rysunek, w pikselach, z zaznaczonym symbolem.
+TakeoffDesk porównuje rysunek, w pikselach, z zaznaczonym symbolem.
 
 - Znajduje symbol obrócony o 0°, 90°, 180° i 270°. Zaznacz {{ui:Dowolny kąt (wolniej)}} na pasku auto liczenia przed narysowaniem ramki, aby znalazł go także pod dowolnym kątem: sprawdza co 15°, a potem dopracowuje każde znalezienie z dokładnością do półtora stopnia. Trwa to około sześć razy dłużej. Nie znajduje symbolu odbitego lustrzanie (chyba że symbol wygląda tak samo po odbiciu).
 - Przy zaznaczonym {{ui:Przeszukaj wszystkie otwarte arkusze}} arkusz w innej skali jest przeszukiwany w rozmiarze, jaki symbol ma na nim: oprawa narysowana w skali na rzucie 1/8" jest o połowę mniejsza niż na rzucie 1/4" i nadal zostanie znaleziona. Taki arkusz jest też przeszukiwany w rozmiarze samej ramki, dla oznaczeń i symboli wydrukowanych w jednym rozmiarze na każdym arkuszu. Wymaga to skali na obu arkuszach; arkusz bez skali jest przeszukiwany tylko w rozmiarze ramki.

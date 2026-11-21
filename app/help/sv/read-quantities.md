@@ -24,7 +24,7 @@ Välj {{ui:Per post}} (standard). Varje post har en rad, och varje komponent i e
 
 Den sista raden, **Jobbsumma**, adderar kolumnerna material, arbete och summa. Samma summa visas till höger i tabellens rubrik.
 
-Skriv i en spill- eller prisruta och tryck på {{key:Enter}} eller klicka utanför för att tillämpa värdet. Ett värde som TakeoffCraft inte kan läsa markeras med röd kontur, och statusfältet säger varför, till exempel "Skriv ett belopp, till exempel 12.50."
+Skriv i en spill- eller prisruta och tryck på {{key:Enter}} eller klicka utanför för att tillämpa värdet. Ett värde som TakeoffDesk inte kan läsa markeras med röd kontur, och statusfältet säger varför, till exempel "Skriv ett belopp, till exempel 12.50."
 
 Klicka på en posts rad för att markera dess markeringar på alla blad och hoppa till ett blad som har dem (samma som att klicka på posten under {{ui:Poster}}).
 

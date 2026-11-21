@@ -24,7 +24,7 @@ Valitse {{ui:By item}} (oletus). Jokaisella nimikkeellä on oma rivi, ja sen yhd
 
 Viimeinen rivi, **Työn kokonaissumma**, laskee yhteen materiaali-, työ- ja yhteensä-sarakkeet. Sama kokonaissumma näkyy taulukon otsikon oikealla puolella.
 
-Kirjoita hukka- tai hintasoluun ja paina {{key:Enter}} tai napsauta muualle, jolloin arvo otetaan käyttöön. Arvo, jota TakeoffCraft ei osaa lukea, saa punaisen reunuksen, ja tilarivi kertoo syyn, esimerkiksi "Kirjoita määrä, esim. 12.50."
+Kirjoita hukka- tai hintasoluun ja paina {{key:Enter}} tai napsauta muualle, jolloin arvo otetaan käyttöön. Arvo, jota TakeoffDesk ei osaa lukea, saa punaisen reunuksen, ja tilarivi kertoo syyn, esimerkiksi "Kirjoita määrä, esim. 12.50."
 
 Napsauta nimikkeen riviä, niin sen merkinnät korostuvat jokaisella arkilla ja siirryt arkille, jolla niitä on. Tämä tekee saman kuin napsauttaminen kohdassa {{ui:Items}}.
 

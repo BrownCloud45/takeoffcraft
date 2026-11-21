@@ -28,7 +28,7 @@ Radna knjiga ima četiri radna lista, i izveštaje ispod kada se primenjuju:
 
 Uz [rezime ponude](topic:bid-summary), radni list Predračun se završava i svojim dodacima (doprinosi za rad, porez na promet, opšti troškovi, dobit, garancija i ponuda), kao aktivne formule.
 
-Radni list Predračun zadržava **aktivne formule**: količinu sa škartom, zaokružene iznose materijala i rada, ukupno svakog reda i ukupan zbir. Tabelarni programi ih ponovo računaju, pa možete promeniti cenu ili škart u tabeli i zbirovi se menjaju. Brojevi koje je TakeoffCraft izračunao takođe su sačuvani u ćelijama i slažu se do centa.
+Radni list Predračun zadržava **aktivne formule**: količinu sa škartom, zaokružene iznose materijala i rada, ukupno svakog reda i ukupan zbir. Tabelarni programi ih ponovo računaju, pa možete promeniti cenu ili škart u tabeli i zbirovi se menjaju. Brojevi koje je TakeoffDesk izračunao takođe su sačuvani u ćelijama i slažu se do centa.
 
 Kolona beleški navodi formulu svake komponente, greške u formulama, oznake na listovima bez razmere, površinu zida i obim. Kada je nešto izostavljeno, red ukupnog zbira kaže „Nepotpuno: vidi beleške iznad“.
 
@@ -42,7 +42,7 @@ CSV sadrži samo predračun; za količine po listu i spisak oznaka koristite XLS
 
 ## Predračun u Google Sheets
 
-Iznad tabele {{ui:Količine}}, **Kopiraj za Google Sheets** stavlja predračun u privremenu memoriju kao tekst odvojen tabulatorima, sa istim redovima kao CSV. U Google tabeli kliknite ćeliju A1 i nalepite. TakeoffCraft se ne prijavljuje na Google i ništa tamo ne šalje.
+Iznad tabele {{ui:Količine}}, **Kopiraj za Google Sheets** stavlja predračun u privremenu memoriju kao tekst odvojen tabulatorima, sa istim redovima kao CSV. U Google tabeli kliknite ćeliju A1 i nalepite. TakeoffDesk se ne prijavljuje na Google i ništa tamo ne šalje.
 
 ## Nedostajuće cene i potpisivanje
 

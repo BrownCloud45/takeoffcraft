@@ -5,7 +5,7 @@ keywords: opna, teikningasett, mörg pdf, margar skrár, blöð, teikningar, sí
 from: ed434468
 ---
 
-Teikningasett er oft nokkur PDF-skjöl: arkitektúr, burðarvirki, lagnir. TakeoffCraft opnar þau hlið við hlið sem einn lista yfir blöð, og ein magntaka getur náð yfir þau öll.
+Teikningasett er oft nokkur PDF-skjöl: arkitektúr, burðarvirki, lagnir. TakeoffDesk opnar þau hlið við hlið sem einn lista yfir blöð, og ein magntaka getur náð yfir þau öll.
 
 ## Opnaðu PDF-skjölin
 
@@ -14,14 +14,14 @@ Teikningasett er oft nokkur PDF-skjöl: arkitektúr, burðarvirki, lagnir. Takeo
 3. Veldu Opna.
    Skilaboðin „Opna (nafn)…“ birtast meðan hver skrá er lesin. Síðan birtist hver síða undir {{ui:Blöð}} og fyrsta síða fyrsta nýja PDF-skjalsins opnast.
 
-Þú getur líka dregið PDF-skjölin úr {{pick:mac=Finder|windows=File Explorer|linux=skráastjóranum þínum}} og sleppt þeim hvar sem er á TakeoffCraft. Rammi með „Slepptu PDF, DWG eða DXF teikningum, eða .takeoff.json“ birtist meðan þú dregur.
+Þú getur líka dregið PDF-skjölin úr {{pick:mac=Finder|windows=File Explorer|linux=skráastjóranum þínum}} og sleppt þeim hvar sem er á TakeoffDesk. Rammi með „Slepptu PDF, DWG eða DXF teikningum, eða .takeoff.json“ birtist meðan þú dregur.
 
 Til að bæta við fleiri PDF-skjölum síðar, gerðu það sama aftur. PDF-skjöl sem eru þegar opin eru sleppt.
 
 Upphafsskjárinn sýnir líka PDF-skjöl og magntökur sem þú opnaðir nýlega, í vöfrum sem leyfa síðu að opna skrá aftur (Chrome og Edge). Smelltu á eina til að opna hana; vafrinn gæti beðið um heimild fyrst. Sjá [Skrárnar þínar](common:your-files).
 
 :::note
-Ekkert er sent upp. Vafrinn les PDF-skjölin á tölvunni þinni, og þau eru horfin úr TakeoffCraft þegar þú lokar flipanum eða velur {{ui:Ný}}.
+Ekkert er sent upp. Vafrinn les PDF-skjölin á tölvunni þinni, og þau eru horfin úr TakeoffDesk þegar þú lokar flipanum eða velur {{ui:Ný}}.
 :::
 
 ## Teikningar með PDF-skjölum
@@ -30,7 +30,7 @@ Ekkert er sent upp. Vafrinn les PDF-skjölin á tölvunni þinni, og þau eru ho
 
 ## PDF-skjal afhent úr öðru forriti
 
-Annað forrit í línunni getur afhent þér PDF-skjalið sem það hefur opið: það opnar TakeoffCraft í nýjum flipa og PDF-skjalið opnast þar eins og þú hefðir sleppt því. Stöðustikan segir „Opnað (nafn), afhent frá (forrit). Upprunalega skráin er óbreytt.“ Ekkert er sent upp; skráin fer um eigin geymslu þessa vafra og er horfin úr henni þegar hún opnast.
+Annað forrit í línunni getur afhent þér PDF-skjalið sem það hefur opið: það opnar TakeoffDesk í nýjum flipa og PDF-skjalið opnast þar eins og þú hefðir sleppt því. Stöðustikan segir „Opnað (nafn), afhent frá (forrit). Upprunalega skráin er óbreytt.“ Ekkert er sent upp; skráin fer um eigin geymslu þessa vafra og er horfin úr henni þegar hún opnast.
 
 Ef stöðustikan segir að PDF-skjalið „barst ekki“, beið flipinn of lengi eða PDF-skjalið var þegar opnað í öðrum flipa: opnaðu það með {{ui:Opna teikningar}}.
 

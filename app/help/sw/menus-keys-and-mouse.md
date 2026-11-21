@@ -5,22 +5,22 @@ keywords: mtindo wa menyu, menyu, upau wa menyu, utepe, vichupo vya utepe, upau 
 from: f01f0d6d
 ---
 
-Amri za TakeoffCraft ni zile zile bila kujali unazifikiaje. **Mtindo wa menyu** huamua tu zinakaa wapi kwenye skrini, zinaitwaje hapo na ni vitufe vipi vinazifanya ziendeshe. Chagua moja kwenye {{ui:Mipangilio}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menyu, vitufe na panya}}. Mabadiliko yanaanza mara moja, na kivinjari hiki kinayakumbuka.
+Amri za TakeoffDesk ni zile zile bila kujali unazifikiaje. **Mtindo wa menyu** huamua tu zinakaa wapi kwenye skrini, zinaitwaje hapo na ni vitufe vipi vinazifanya ziendeshe. Chagua moja kwenye {{ui:Mipangilio}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menyu, vitufe na panya}}. Mabadiliko yanaanza mara moja, na kivinjari hiki kinayakumbuka.
 
 ## Mitindo mitatu
 
 | Mtindo | Unachopata |
 |---|---|
-| {{ui:TakeoffCraft}} | Upau wa zana wa TakeoffCraft wenyewe: {{ui:Faili}}, {{ui:Hamisha}}, {{ui:Kipimo}}, {{ui:Ukadiriaji}}, {{ui:Hariri}} na {{ui:Mwonekano}}, pamoja na vitufe vya zana vya herufi moja. Mwanzo. |
+| {{ui:TakeoffDesk}} | Upau wa zana wa TakeoffDesk wenyewe: {{ui:Faili}}, {{ui:Hamisha}}, {{ui:Kipimo}}, {{ui:Ukadiriaji}}, {{ui:Hariri}} na {{ui:Mwonekano}}, pamoja na vitufe vya zana vya herufi moja. Mwanzo. |
 | {{ui:Dawati la ukadiriaji}} | Upau wa menyu ({{ui:Faili}}, {{ui:Hariri}}, {{ui:Mwonekano}}, {{ui:Kipimo}}, {{ui:Ukadiriaji}}, {{ui:Vipengee}}, {{ui:Alama}}, {{ui:Hamisha}}) juu ya safu moja ya zana za ukadiriaji, kama vile programu za ukadiriaji za skrini zinavyopanga zao. Vipengee vinaitwa masharti kwenye safu. Vitufe ni vile vile, pamoja na {{key:N}} kwa kipengee kipya. Vitufe vya kipimo vinahamia kwenye upau wa karatasi, karibu na skeli ya karatasi. |
 | {{ui:Utepe wa ukadiriaji}} | Vichupo vya utepe vilivyopewa majina ya kazi: {{ui:Ukadiriaji}} (pima, unda umbo, weka kipimo, kutoka kwenye mchoro, masharti), {{ui:Hariri}}, {{ui:Mwonekano}}, {{ui:Alama}} na {{ui:Makadirio}} (kitabu cha kazi, PDF zenye alama, zabuni). Pia kuna menyu ya {{ui:Faili}} na safu ya haraka ya kufungua, kuhifadhi, kutendua na kurudia. Zana unazotumia kila siku ni kubwa, na jirani zake ni ndogo na zimepangwa juu ya nyingine. Vitufe ni vile vile; vitufe vya kipimo vinahamia kwenye upau wa karatasi. |
 
-Mitindo yote mitatu inabaki na vitufe vya TakeoffCraft: {{key:V}} chagua, {{key:L}} mstari, {{key:A}} eneo, {{key:O}} duara, {{key:B}} chumba, {{key:P}} njia (chagua mistari ya PDF), {{key:X}} shimo, {{key:C}} hesabu, {{key:S}} hesabu otomatiki, {{key:K}} rekebisha, {{key:D}} kagua, {{key:R}} hali ya tao, {{key:E}} hali ya punguza, {{key:F}} na {{key:W}} kutosha, {{key:3}} mwonekano wa ukaguzi wa 3D, {{key:F3}} nasa, na {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Mitindo yote mitatu inabaki na vitufe vya TakeoffDesk: {{key:V}} chagua, {{key:L}} mstari, {{key:A}} eneo, {{key:O}} duara, {{key:B}} chumba, {{key:P}} njia (chagua mistari ya PDF), {{key:X}} shimo, {{key:C}} hesabu, {{key:S}} hesabu otomatiki, {{key:K}} rekebisha, {{key:D}} kagua, {{key:R}} hali ya tao, {{key:E}} hali ya punguza, {{key:F}} na {{key:W}} kutosha, {{key:3}} mwonekano wa ukaguzi wa 3D, {{key:F3}} nasa, na {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Zana za upau wa karatasi (dokezo, mawingu, vionyeshi, Linganisha, 3D) zinasubiri hadi PDF ifunguliwe. Ukizichagua kabla ya hapo, mstari wa hali unasema hivyo.
 
 :::tip
-Kitufe ambacho ni cha mpangilio wa TakeoffCraft lakini mtindo wako umekipa amri nyingine hakifanyi kitu, na mstari wa hali unasema amri yake ilipohamia (kwa mfano "Katika Vitufe vyangu, Hesabu ni Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} na vishale daima vinabaki na maana yake. Unapochora mfululizo au mpaka, kubandika au kukagua hesabu otomatiki, herufi na nambari za urefu uliondikwa vinabaki kwa mchoro.
+Kitufe ambacho ni cha mpangilio wa TakeoffDesk lakini mtindo wako umekipa amri nyingine hakifanyi kitu, na mstari wa hali unasema amri yake ilipohamia (kwa mfano "Katika Vitufe vyangu, Hesabu ni Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} na vishale daima vinabaki na maana yake. Unapochora mfululizo au mpaka, kubandika au kukagua hesabu otomatiki, herufi na nambari za urefu uliondikwa vinabaki kwa mchoro.
 :::
 
 ## Fanya iwe yako
@@ -41,12 +41,12 @@ Kuhifadhi mtindo uliojengwa ndani kunafanya nakala yako mwenyewe ("Dawati langu 
 
 ## Ichukue nawe
 
-{{ui:Hamisha}} inahifadhi mtindo unaotumika kama faili dogo la `.ccinput.json`. {{ui:Ingiza…}} inaongeza moja, kutoka kompyuta nyingine au kutoka kwa mwenzako. Faili lililoingizwa linaweza kuelekeza tu kwenye amri za TakeoffCraft zenyewe: kitu kingine chochote ndani yake kinaachwa, na kuhesabiwa kwenye mstari wa hali. {{ui:Futa mtindo huu}} inaondoa mojawapo ya yako.
+{{ui:Hamisha}} inahifadhi mtindo unaotumika kama faili dogo la `.ccinput.json`. {{ui:Ingiza…}} inaongeza moja, kutoka kompyuta nyingine au kutoka kwa mwenzako. Faili lililoingizwa linaweza kuelekeza tu kwenye amri za TakeoffDesk zenyewe: kitu kingine chochote ndani yake kinaachwa, na kuhesabiwa kwenye mstari wa hali. {{ui:Futa mtindo huu}} inaondoa mojawapo ya yako.
 
 :::note
-Mipangilio hii inabaki kwenye kivinjari hiki. {{ui:Tumia mtindo huu katika kila programu}} chini ya kadi za mitindo inafanya kila programu ifunguke kwenye mtindo wake unaolingana (upau wake wa zana, upau wa menyu au utepe), pamoja na mabadiliko uliyofanya katika kila programu. TakeoffCraft haina mtindo wenye mstari wa amri: ukichaguliwa kwa kila programu, TakeoffCraft inabaki na upau wake wa zana.
+Mipangilio hii inabaki kwenye kivinjari hiki. {{ui:Tumia mtindo huu katika kila programu}} chini ya kadi za mitindo inafanya kila programu ifunguke kwenye mtindo wake unaolingana (upau wake wa zana, upau wa menyu au utepe), pamoja na mabadiliko uliyofanya katika kila programu. TakeoffDesk haina mtindo wenye mstari wa amri: ukichaguliwa kwa kila programu, TakeoffDesk inabaki na upau wake wa zana.
 
-{{ui:Utepe wa ukadiriaji}} pia ndio utepe wa mpangilio wa {{ui:Utepe na kivinjari cha mradi}} ({{ui:Mipangilio}} › {{ui:Kimataifa}} › {{ui:Mpangilio}}): angalia [Skrini ya TakeoffCraft](topic:workspace).
+{{ui:Utepe wa ukadiriaji}} pia ndio utepe wa mpangilio wa {{ui:Utepe na kivinjari cha mradi}} ({{ui:Mipangilio}} › {{ui:Kimataifa}} › {{ui:Mpangilio}}): angalia [Skrini ya TakeoffDesk](topic:workspace).
 :::
 
-Inayohusiana: [Kibodi na panya](topic:keyboard) · [Mipangilio ya TakeoffCraft](topic:settings) · [Kuhamia kutoka programu nyingine za ukadiriaji](topic:coming-from)
+Inayohusiana: [Kibodi na panya](topic:keyboard) · [Mipangilio ya TakeoffDesk](topic:settings) · [Kuhamia kutoka programu nyingine za ukadiriaji](topic:coming-from)

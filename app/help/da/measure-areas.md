@@ -41,7 +41,7 @@ Når rummene er tegnet som lukkede vægge, tager {{ui:Rum}} ({{key:B}}) et gulv 
 2. Vælg {{ui:Rum}} i gruppen {{ui:Mængdeudtræk}}, eller tryk {{key:B}}.
 3. Klik inde i et rum, på det åbne gulv (ikke på en linje eller en etiket).
 
-TakeoffCraft læser arkets linjer, finder det område rundt om klikket og afgrænser det langs væggenes indvendige flader som et areal for den aktuelle post. Døråbninger op til **4'-0"** behandles som lukkede, så konturen går lige hen over døråbningen; **Indstillinger › TakeoffCraft › Rumfyldning lukker åbninger op til** ændrer den bredde (3'-0" til 8'-0"). Rumnavne, møbler og inventar inde i rummet laver ingen huller.
+TakeoffDesk læser arkets linjer, finder det område rundt om klikket og afgrænser det langs væggenes indvendige flader som et areal for den aktuelle post. Døråbninger op til **4'-0"** behandles som lukkede, så konturen går lige hen over døråbningen; **Indstillinger › TakeoffDesk › Rumfyldning lukker åbninger op til** ændrer den bredde (3'-0" til 8'-0"). Rumnavne, møbler og inventar inde i rummet laver ingen huller.
 
 Den afvises og forklarer hvorfor, når:
 
@@ -62,7 +62,7 @@ Når en dør er bredere end indstillingen, løber fyldningen ind i det næste ru
 
 For et rundt hul vælger du {{ui:Tilføj en rund udsparing}} under **Valgt markering**, klikker på dets centrum og derefter på et punkt på kanten.
 
-En udsparing skal ligge helt inde i arealet og må ikke overlappe en anden udsparing. Ellers afviser TakeoffCraft den: "En udsparing skal ligge helt inde i arealet." eller "Udsparinger kan ikke overlappe hinanden."
+En udsparing skal ligge helt inde i arealet og må ikke overlappe en anden udsparing. Ellers afviser TakeoffDesk den: "En udsparing skal ligge helt inde i arealet." eller "Udsparinger kan ikke overlappe hinanden."
 
 Vil du fjerne det sidste hul igen, vælger du {{ui:Fjern sidste udsparing}}.
 
@@ -76,7 +76,7 @@ En udsparing hører til ét arealmærke. Et **fradragsareal** tegnes én gang og
 
 Hvert arealmærke på samme ark for en post med kryds mister den del, som et fradragsareal dækker: hele fradragsarealet, når det ligger inde i det, kun det overlappende stykke, når det krydser kanten, og intet inde i en udsparing. Panelet for det valgte areal viser **Fradragsarealer** og det resterende areal. Postens mængde, formlerne i dens kalkulationsenheder, priserne, 3D-kontrolvisningen og eksporten bruger det resterende areal; noterne i kalkulationen siger, hvor meget fradragsarealerne tog. Selve fradragsarealpostens eget areal tælles med (lad dens priser være nul, hvis du ikke priser den).
 
-Et fradragsareal skal være **konvekst**: et rektangel, en cirkel eller en kontur uden indadgående hjørne. TakeoffCraft nægter at tegne et, der ikke er det; tegn en L-formet skakt som to fradragsarealer. Fradragsarealer kan ikke have udsparinger, og to fradragsarealer, der overlapper hinanden, tæller begge.
+Et fradragsareal skal være **konvekst**: et rektangel, en cirkel eller en kontur uden indadgående hjørne. TakeoffDesk nægter at tegne et, der ikke er det; tegn en L-formet skakt som to fradragsarealer. Fradragsarealer kan ikke have udsparinger, og to fradragsarealer, der overlapper hinanden, tæller begge.
 
 Omkredsen (`P`) ændrer sig ikke: fradragsarealer tager kun areal fra.
 

@@ -32,11 +32,11 @@ Prilepljene oznake gredo v območje ponudbe, izbrano na vrhu plošče {{ui:Items
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) postavi kopijo na točno isto mesto na odprtem listu, po njenem položaju na strani. Uporabite za tipično etažo: izmerite 2. nivo, kopirajte, odprite 3. nivo in prilepite na isto mesto.
 
-Prilepi na isto mesto potrebuje list **iste velikosti** kot tistega, iz katerega ste kopirali. Na listu druge velikosti TakeoffCraft to sporoči in ničesar ne prilepi; namesto tega uporabite {{ui:Paste}} in kliknite. Na listu, iz katerega ste kopirali, kopija pristane na vrhu izvirnikov.
+Prilepi na isto mesto potrebuje list **iste velikosti** kot tistega, iz katerega ste kopirali. Na listu druge velikosti TakeoffDesk to sporoči in ničesar ne prilepi; namesto tega uporabite {{ui:Paste}} in kliknite. Na listu, iz katerega ste kopirali, kopija pristane na vrhu izvirnikov.
 
 ## Merilo mora ustrezati
 
-Dolžine in površine so odvisne od merila lista. Odsek, ki meri 10' pri 1/4" = 1'-0", bi na listu pri 1/8" = 1'-0" meril 20'. Zato TakeoffCraft prilepi odseke in površine samo na list z **istim merilom** kot list, iz katerega so prišli, in to jasno pove, kadar ni tako:
+Dolžine in površine so odvisne od merila lista. Odsek, ki meri 10' pri 1/4" = 1'-0", bi na listu pri 1/8" = 1'-0" meril 20'. Zato TakeoffDesk prilepi odseke in površine samo na list z **istim merilom** kot list, iz katerega so prišli, in to jasno pove, kadar ni tako:
 
 - Odprt list še nima merila: najprej mu ga določite ([Nastavitev merila](topic:set-the-scale)), nato prilepite.
 - Odprt list ima drugo merilo: sporočilo navede obe merili. Prilepite na list z istim merilom.
@@ -59,7 +59,7 @@ Urejevalnik postavk (pod **Postavke**) se konča z:
 - {{ui:Duplicate item}}: takoj doda kopijo z imenom „(ime) (kopija)“.
 
 :::tip
-Kopija ostane na tem računalniku: hrani se v tem zavihku in v shrambi brskalnika, tako da jo lahko prilepi drug zavihek TakeoffCraft. Ničesar se ne naloži, sistemsko odložišče pa se ne uporablja, zato oznak ne morete prilepiti v druge programe.
+Kopija ostane na tem računalniku: hrani se v tem zavihku in v shrambi brskalnika, tako da jo lahko prilepi drug zavihek TakeoffDesk. Ničesar se ne naloži, sistemsko odložišče pa se ne uporablja, zato oznak ne morete prilepiti v druge programe.
 :::
 
 :::note

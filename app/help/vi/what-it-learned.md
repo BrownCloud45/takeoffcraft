@@ -1,11 +1,11 @@
 ---
 title: Những gì nó đã học từ takeoff của bạn
-summary: TakeoffCraft giữ các ký hiệu bạn xác nhận bằng Đếm tự động, các bộ điều kiện, các định mức bạn dùng nhiều nhất và các mẫu bạn lặp lại trên mọi trang, tất cả nằm trong tệp riêng của takeoff. Xem, dùng và xóa.
+summary: TakeoffDesk giữ các ký hiệu bạn xác nhận bằng Đếm tự động, các bộ điều kiện, các định mức bạn dùng nhiều nhất và các mẫu bạn lặp lại trên mọi trang, tất cả nằm trong tệp riêng của takeoff. Xem, dùng và xóa.
 keywords: học, đã học, học tập, trợ lý, ghi nhớ, ký hiệu, mẫu, giống công trình trước, công trình trước, bộ điều kiện, điều kiện, tái sử dụng, định mức, dùng nhiều nhất, gợi ý, lặp lại trên mọi trang, mọi trang, khung tên, mẫu, xóa tất cả, quên, quyền riêng tư
 from: 54d99e99
 ---
 
-TakeoffCraft nhanh hơn khi bạn làm càng nhiều takeoff với nó. Nó chỉ học **từ những gì bạn chấp nhận**:
+TakeoffDesk nhanh hơn khi bạn làm càng nhiều takeoff với nó. Nó chỉ học **từ những gì bạn chấp nhận**:
 
 - các ký hiệu bạn đã khoanh bằng [Đếm tự động](topic:auto-count) rồi thêm vào,
 - các bộ điều kiện bạn lưu,
@@ -64,6 +64,6 @@ Mọi thứ đã học được liệt kê trong {{ui:Learned}}. Thùng rác xó
 
 ## Điều nên biết
 
-- Các phiên bản TakeoffCraft cũ hơn mở tệp có nội dung đã học bình thường. Chúng bỏ qua phần đó, và loại bỏ nó nếu lưu lại tệp.
+- Các phiên bản TakeoffDesk cũ hơn mở tệp có nội dung đã học bình thường. Chúng bỏ qua phần đó, và loại bỏ nó nếu lưu lại tệp.
 - Một ký hiệu đã học là một ảnh nhỏ của những gì bạn đã khoanh, được giữ trong tệp (vài KB mỗi ảnh).
 - Các ký hiệu đã học được tìm kiếm như Đếm tự động tìm, nên cùng giới hạn áp dụng: [Đếm tự động một ký hiệu](topic:auto-count).

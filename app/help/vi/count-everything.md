@@ -1,6 +1,6 @@
 ---
 title: Đếm tất cả trong bộ bản vẽ
-summary: Khoanh một lần bảng chú giải ký hiệu và TakeoffCraft đếm mọi ký hiệu trong đó trên mọi tờ đang mở trong một lượt chạy. Mỗi số đếm là một liên kết đến tờ của nó, và bạn xem lại trước khi thêm vào.
+summary: Khoanh một lần bảng chú giải ký hiệu và TakeoffDesk đếm mọi ký hiệu trong đó trên mọi tờ đang mở trong một lượt chạy. Mỗi số đếm là một liên kết đến tờ của nó, và bạn xem lại trước khi thêm vào.
 keywords: đếm tất cả, chú giải, bảng chú giải ký hiệu, toàn bộ bộ bản vẽ, mọi tờ, tất cả các tờ, mọi cửa, mọi thiết bị, thiết bị, bảng thống kê, ký hiệu, đếm tự động, đếm tất cả, bộ bản vẽ, 200 tờ, mức khớp, giống nhau
 from: adc99744
 ---

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * test-takeoffcraft-cad.mjs — TakeoffCraft opens a DWG / DXF and counts straight from it (0.7 Track TD). DOM-free: the same
+ * test-takeoffcraft-cad.mjs — TakeoffDesk opens a DWG / DXF and counts straight from it (0.7 Track TD). DOM-free: the same
  * modules the browser loads (takeoffcraft/<build>/cadset.js, cadcount.js, cadmarks.js, model.js), the shared readers
  * (dwg/read.js = lib/dwg, dxf-model.js = CadCraft's), no browser. The browser run is tools/takeoffcraft-test/browser-cad.mjs.
  *
@@ -432,7 +432,7 @@ section('Untrusted input: truncated, flipped, wrong, huge');
   msg = ''; try { await open(new TextEncoder().encode('%PDF-1.7\n' + 'x'.repeat(200))); } catch (e) { msg = e.message; }
   ok(/not a DWG or an ASCII DXF/.test(msg), 'a PDF given as a drawing is refused', msg);
   msg = ''; try { await open(good, { limits: { dwgBytes: 1000 } }); } catch (e) { msg = e.message; }
-  ok(/MB, more than TakeoffCraft opens as a drawing/.test(msg), 'the size cap refuses a file over it, with the size', msg);
+  ok(/MB, more than TakeoffDesk opens as a drawing/.test(msg), 'the size cap refuses a file over it, with the size', msg);
   msg = ''; try { await Set_.openCad(good, 'x.dwg', { hash: 'a'.repeat(64), readers: { dwg: async () => { throw new Error('boom'); }, dxf: readers.dxf } }); } catch (e) { msg = e.message; }
   ok(/could not be read as a drawing \(boom\)/.test(msg), 'a reader that throws becomes a message', msg);
   msg = ''; try { await Set_.openCad(good, 'x.dwg', { hash: 'a'.repeat(64), readers: { dwg: async () => ({ nope: 1 }), dxf: readers.dxf } }); } catch (e) { msg = e.message; }
@@ -650,7 +650,7 @@ section('The marked PDF works from a drawing, no plotting step (TD.6)');
     const w = Mt.workScale(maxX - minX, maxY - minY), src = await raster(w);
     const tpl = Mt.trim(Mt.crop(src, minX * w, minY * w, (maxX - minX) * w, (maxY - minY) * w));
     const cands = Mt.suppress(Mt.findSymbol(src, tpl, { floor: 0.5 }), 0.75);
-    eq(cands.length, 22, 'the PDF TakeoffCraft draws from the drawing auto-counts 22 shelves too, like the plotted one');
+    eq(cands.length, 22, 'the PDF TakeoffDesk draws from the drawing auto-counts 22 shelves too, like the plotted one');
   }
   // marks → the marked PDF
   const t = new M.Takeoff();

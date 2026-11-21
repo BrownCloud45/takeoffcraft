@@ -5,7 +5,7 @@ keywords: földmunka, földkiemelés, bevágás, feltöltés, bevágás és felt
 from: a898e508
 ---
 
-A TakeoffCraft a lapon rajzolt dolgokat méri. A földmunkához terepfelület kell, ezért ez a CivilCraft-tal közös: a CivilCraft pontokból épít felületeket, lejtéseket ad nekik, és kiszámítja a bevágást, a feltöltést és a szállítást.
+A TakeoffDesk a lapon rajzolt dolgokat méri. A földmunkához terepfelület kell, ezért ez a CivilCraft-tal közös: a CivilCraft pontokból épít felületeket, lejtéseket ad nekik, és kiszámítja a bevágást, a feltöltést és a szállítást.
 
 ## Egyszerű földkiemelés itt
 
@@ -29,8 +29,8 @@ Különböző lapok pontjai nem osztoznak koordinátákon, ezért az exportálá
 
 A CivilCraft földmunkája két olyan tételként tér vissza, amelyeket árazni lehet:
 
-1. A CivilCraftban alakítsa ki a tereplépcsőket és a folyosókat, majd a **Földmunka** alatt válassza a {{ui:Küldés a TakeoffCraftba}} lehetőséget ([Földmunka térfogatai](app:civilcraft/volumes)). Ez egy mennyiségi fájlt (`.quantities.json`) ment.
-2. A TakeoffCraftban nyissa meg a {{ui:Mennyiségkimutatás megnyitása}} paranccsal, vagy húzza rá az alkalmazásra. A mennyiségkimutatás nyitva marad: a fájl a **Földmunka: bevágás** és a **Földmunka: feltöltés** tételeket adja hozzá [típusos mennyiségként](topic:create-items#typed-quantities-no-drawing), köbyardban (CY) láb alapú projekt esetén, vagy köbméterben (m³) méteres projekt esetén. Ez egyetlen lépés: a {{key:Mod+Z}} visszavonja.
+1. A CivilCraftban alakítsa ki a tereplépcsőket és a folyosókat, majd a **Földmunka** alatt válassza a {{ui:Küldés a TakeoffDeskba}} lehetőséget ([Földmunka térfogatai](app:civilcraft/volumes)). Ez egy mennyiségi fájlt (`.quantities.json`) ment.
+2. A TakeoffDeskban nyissa meg a {{ui:Mennyiségkimutatás megnyitása}} paranccsal, vagy húzza rá az alkalmazásra. A mennyiségkimutatás nyitva marad: a fájl a **Földmunka: bevágás** és a **Földmunka: feltöltés** tételeket adja hozzá [típusos mennyiségként](topic:create-items#typed-quantities-no-drawing), köbyardban (CY) láb alapú projekt esetén, vagy köbméterben (m³) méteres projekt esetén. Ez egyetlen lépés: a {{key:Mod+Z}} visszavonja.
 3. Nevezze át őket, és állítsa be a hulladékot, az egységárakat és az összetett tételeket tetszés szerint.
 
 Ha a tervek változnak, a CivilCraftból küldje újra, és nyissa meg az új fájlt: ugyanez a két tétel az új mennyiségeket kapja. A nevük, az egységáraik, a hulladékuk és az összetett tételeik a beállított módon maradnak. Ha a projekt mértékegysége megváltozott, az állapotsor ezt jelzi: ellenőrizze az egységárakat. Egy másik CivilCraft-projektből származó fájl saját két tételt ad hozzá.

@@ -1,6 +1,6 @@
 ---
 title: Automatiškai suskaičiuoti simbolį
-summary: Nubrėžkite langelį aplink vieną simbolį, leiskite TakeoffCraft rasti kitus šiame lape arba visuose atidarytuose lapuose, peržiūrėkite atitikimus slankikliu ir pridėkite juos vienu veiksmu.
+summary: Nubrėžkite langelį aplink vieną simbolį, leiskite TakeoffDesk rasti kitus šiame lape arba visuose atidarytuose lapuose, peržiūrėkite atitikimus slankikliu ir pridėkite juos vienu veiksmu.
 keywords: auto count, automatinis skaičiavimas, simbolių paieška, rasti simbolius, pasuktas, apsuktas, kitas mastelis, skirtingas mastelis, šablonas, atitikimas, aptikti, skaičiavimo įrankis
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Norėdami atsisakyti peržiūros nieko nepridėdami, pasirinkite {{ui:Discard}} 
 
 ## Ką randa ir ko nerandа
 
-TakeoffCraft lygina brėžinį pikselis po pikselio su jūsų nubrėžtu simboliu.
+TakeoffDesk lygina brėžinį pikselis po pikselio su jūsų nubrėžtu simboliu.
 
 - Randa simbolį, pasuktą 0°, 90°, 180° ir 270°. Jei norite jį rasti ir bet kuriuo kampu, prieš braižydami langelį pažymėkite {{ui:Any angle (slower)}} auto count juostoje: tikrinama kas 15°, o kiekvienas radinys tikslinamas iki vieno su puse laipsnio. Tai trunka maždaug šešis kartus ilgiau. Veidrodiškai atspindėto simbolio neranda (nebent simbolis atrodo lygiai taip pat atspindėtas).
 - Kai pažymėta {{ui:Search all open sheets}}, lapas kitu mastelių ieškomas to dydžio, koks simboliui yra tame lape: įrenginys, nubrėžtas 1/8" mastelio plane, yra perpus mažesnis nei 1/4" mastelio plane, bet vis tiek randamas. Tokiame lape taip pat ieškoma pagal paties langelio dydį, skirta žymoms ir simboliams, atspausdintiems vienodo dydžio ant kiekvieno lapo. Tam reikia mastelio abiejuose lapuose; lapas be mastelio ieškomas tik pagal langelio dydį.

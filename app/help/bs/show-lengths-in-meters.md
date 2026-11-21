@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Šta ćeš uraditi
 
-Promijeni način na koji TakeoffCraft prikazuje dužine, tako da metrički posao čita u metrima, centimetrima ili milimetrima na listu, u statusnoj traci i u panelima.
+Promijeni način na koji TakeoffDesk prikazuje dužine, tako da metrički posao čita u metrima, centimetrima ili milimetrima na listu, u statusnoj traci i u panelima.
 
 ## Koraci
 
-1. Otvori {{ui:Postavke}} preko zupčanika u traci aplikacije ili pritiskom na {{key:Mod+,}}, i ostani na kartici {{ui:TakeoffCraft}}.
+1. Otvori {{ui:Postavke}} preko zupčanika u traci aplikacije ili pritiskom na {{key:Mod+,}}, i ostani na kartici {{ui:TakeoffDesk}}.
 2. Pronađi {{ui:Prikaži dužine kao}} i odaberi {{ui:Stope i inči}}, m, cm ili mm. {{ui:Prati Global}} koristi metričku jedinicu dužine označenu zvjezdicom u {{ui:Postavke}} › {{ui:Globalno}} › {{ui:Jedinice}}, a stope i inče kad nijedna nije označena.
 3. Pogledaj list: dužine u statusnoj traci, u spisku stavki i u panelima sada se čitaju u jedinici koju si odabrao. Visine, dubine, debljine i nivoi takođe.
 4. Da čitaš temperature stavki u °C ili °F, odaberi {{ui:Prikaži temperature kao}} na istoj kartici.

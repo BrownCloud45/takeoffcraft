@@ -46,7 +46,7 @@ A számok 3D-ben nem változnak: a fal területe a pontos hossza szorozva a maga
 | {{ui:Lap}} | A talajon lévő rajz megjelenítése vagy elrejtése. |
 | A nézetkocka, jobb felül | Kattintson egy lapra, élre vagy sarokra, hogy onnan nézzen; húzza a körbeforgatáshoz; húzza az iránytű gyűrűjét az elforgatáshoz; a házikó gomb visszavisz az {{ui:Izometrikus}} nézetbe. |
 
-A sarokban nézetkocka, egy kis X, Y, Z tengelyikon, vagy semmi sem látszik: a {{ui:Beállítások}} alatt, a TakeoffCraft lapon, a **Sarokjelző** részben választhat ([TakeoffCraft-beállítások](topic:settings)). A lapos lapon nincs sarokjelző.
+A sarokban nézetkocka, egy kis X, Y, Z tengelyikon, vagy semmi sem látszik: a {{ui:Beállítások}} alatt, a TakeoffDesk lapon, a **Sarokjelző** részben választhat ([TakeoffDesk-beállítások](topic:settings)). A lapos lapon nincs sarokjelző.
 
 :::touch
 Egy ujjal körbeforgat; két ujjal csippentéssel nagyít, és mozgatással eltol. Koppintás kijelöl.

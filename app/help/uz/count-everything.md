@@ -1,6 +1,6 @@
 ---
 title: Toʻplamdagi hammasini sanash
-summary: Belgilar legendasini bir marta ramkaga oling, TakeoffCraft esa ochiq har bir varaqdagi har bir belgini bir yurishda sanaydi. Har bir son oʻz varaqiga havola, qoʻshishdan oldin koʻrib chiqasiz.
+summary: Belgilar legendasini bir marta ramkaga oling, TakeoffDesk esa ochiq har bir varaqdagi har bir belgini bir yurishda sanaydi. Har bir son oʻz varaqiga havola, qoʻshishdan oldin koʻrib chiqasiz.
 keywords: hammasini sanash, legenda, belgilar legendasi, butun toʻplam, har bir varaq, barcha varaqlar, har bir eshik, har bir asbob, qurilmalar, jadval, belgilar, avtosanash, hammasini sanash, chizmalar toʻplami, 200 varaq, moslik darajasi, oʻxshash
 from: adc99744
 ---

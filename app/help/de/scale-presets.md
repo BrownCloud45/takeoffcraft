@@ -49,4 +49,4 @@ Ein kalibrierter Maßstab wird in der Leiste unter dem Blatt als „Kalibriert 1
 
 ## Ungewöhnliche PDFs
 
-Manche PDFs deklarieren eine größere Seiteneinheit (eine „user unit“). TakeoffCraft berücksichtigt sie bei den Voreinstellungen und beim angezeigten Maßstab. Im PDF gedrehte Seiten werden genauso gemessen wie aufrechte.
+Manche PDFs deklarieren eine größere Seiteneinheit (eine „user unit“). TakeoffDesk berücksichtigt sie bei den Voreinstellungen und beim angezeigten Maßstab. Im PDF gedrehte Seiten werden genauso gemessen wie aufrechte.

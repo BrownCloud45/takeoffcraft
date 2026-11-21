@@ -39,4 +39,4 @@ Zgjidhni {{ui:Burimet dhe detajet}} nën një paketë për të parë nga çfarë
 
 {{ui:Eksporto si paketë…}} në bibliotekë e ruan atë si skedar paketë (`.ccpack.json`) që çdokush mund ta shtojë me {{ui:Hap një skedar paketë…}}. Si parazgjedhje heq artikujt që vijnë nga paketat që keni shtuar, dhe nuk mban asnjë normë. Shënoni {{ui:Përfshi normat e mia si norma mostre}} për t'i dërguar edhe normat tuaja: ato dalin të etiketuara me rajonin dhe datën që jepni, dhe kush e shton paketën zgjedh nëse i përdor.
 
-Skedarët e paketave janë të dhëna të thjeshta, jo programe. TakeoffCraft kontrollon çdo pjesë të një skedari para se ta përdorë dhe heq çdo gjë që nuk mund ta lexojë.
+Skedarët e paketave janë të dhëna të thjeshta, jo programe. TakeoffDesk kontrollon çdo pjesë të një skedari para se ta përdorë dhe heq çdo gjë që nuk mund ta lexojë.

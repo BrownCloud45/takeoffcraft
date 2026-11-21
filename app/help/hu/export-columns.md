@@ -77,7 +77,7 @@ Soronként egy olyan lap, amelynek van méretaránya vagy jelölése.
 | Lap | A lap neve |
 | Méretarány | Az előre beállított méretarány neve, a kalibrált méretarány, vagy „Nincs méretarány” |
 | Mód | „Előre beállított”, vagy „Kalibrálva (a megadott távolság)” |
-| Láb PDF-egységenként | A TakeoffCraft által használt pontos méretaránytényező |
+| Láb PDF-egységenként | A TakeoffDesk által használt pontos méretaránytényező |
 
 ## Fájlnevek
 

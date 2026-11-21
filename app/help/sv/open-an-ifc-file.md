@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, väg, järnväg, bro, beläggning, kantsten, vä
 from: 6b08c2c4
 ---
 
-En IFC 4.3-fil kan innehålla vägar, järnvägar, broar, marina arbeten och de delar de består av: beläggningar, vägskikt, kantstenar, räls, jordarbeten, upplager, pålar med mera. TakeoffCraft läser dessa och gör dem till typade mängder som du kan prissätta.
+En IFC 4.3-fil kan innehålla vägar, järnvägar, broar, marina arbeten och de delar de består av: beläggningar, vägskikt, kantstenar, räls, jordarbeten, upplager, pålar med mera. TakeoffDesk läser dessa och gör dem till typade mängder som du kan prissätta.
 
 ## Öppna filen
 
 1. Välj {{ui:Öppna ritningar}} i gruppen {{ui:Fil}}, eller tryck på {{key:Mod+O}}.
-2. Markera IFC-filen (du kan markera den tillsammans med PDF-filer), eller släpp den på TakeoffCraft.
+2. Markera IFC-filen (du kan markera den tillsammans med PDF-filer), eller släpp den på TakeoffDesk.
 
 En typad mängd skapas för varje klass och fördefinierad typ, till exempel ”Beläggning (flexibel): antal”, och, när filen anger dem, ”längd” i m, ”area” i m² och ”volym” i m³. Noteringen på varje post anger hur många element som räknats och hur många som inte angav någon mängd. Om du öppnar en nyare fil med samma namn uppdateras dessa mängder i stället för att fler läggs till.
 

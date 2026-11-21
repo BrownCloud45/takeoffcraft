@@ -1,6 +1,6 @@
 ---
 title: Uzunlik, stavka va foizni kiritish
-summary: Masofalar, balandliklar, pul stavkalari va chiqindi foizlari uchun nima kiritish mumkinligi, misollar hamda TakeoffCraft oʻqiy olmagan kirish uchun xabarlar.
+summary: Masofalar, balandliklar, pul stavkalari va chiqindi foizlari uchun nima kiritish mumkinligi, misollar hamda TakeoffDesk oʻqiy olmagan kirish uchun xabarlar.
 keywords: kiritish, format, futlar dyuymlar, kasrlar, oʻnlik fut, metrik, metrlar, millimetrlar, stavka, pul, dollar, foiz, chiqindi, yozish
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Ikki oʻnlik xonagacha, 0% dan 1000% gacha. Xabarlar: "Foizni 10 yoki 7.5 kabi k
 ## Nomlar va birliklar
 
 - Element va komponent nomlari: 200 belgigacha.
-- Komponentning {{ui:Unit}}i: 20 belgigacha istalgan matn, masalan `EA`, `sheets`, `CY`, `gal`. Bu faqat belgi; TakeoffCraft uni aylantirmaydi.
+- Komponentning {{ui:Unit}}i: 20 belgigacha istalgan matn, masalan `EA`, `sheets`, `CY`, `gal`. Bu faqat belgi; TakeoffDesk uni aylantirmaydi.
 
 ## Formulalar
 

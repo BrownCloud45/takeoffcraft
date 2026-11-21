@@ -46,7 +46,7 @@ Skaitļi 3D skatā nemainās: sienas laukums ir tās precīzais garums reizināt
 | {{ui:Sheet}} | Parādīt vai paslēpt zīmējumu uz zemes. |
 | Skata kubs augšā pa labi | Noklikšķiniet uz sejas, malas vai stūra, lai skatītos no turienes; velciet to, lai grieztu; velciet tā kompasa gredzenu, lai pagrieztu; mājiņas poga atgriež uz {{ui:Iso}}. |
 
-Stūrī rāda skata kubu, nelielu X, Y, Z asu ikonu vai neko: izvēlieties {{ui:Settings}} cilnē TakeoffCraft, sadaļā **Stūra rādītājs** ([TakeoffCraft iestatījumi](topic:settings)). Plakanajai lapai stūra rādītāja nav.
+Stūrī rāda skata kubu, nelielu X, Y, Z asu ikonu vai neko: izvēlieties {{ui:Settings}} cilnē TakeoffDesk, sadaļā **Stūra rādītājs** ([TakeoffDesk iestatījumi](topic:settings)). Plakanajai lapai stūra rādītāja nav.
 
 :::touch
 Viens pirksts griež apkārt; divi pirksti savelk, lai tuvinātu, un pārvieto, lai panoramētu. Pieskāriens atlasa.

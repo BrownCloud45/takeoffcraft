@@ -37,12 +37,12 @@ Eine eingegebene Menge nimmt keine Markierungen auf und macht die Kalkulation ni
 Drücken Sie {{key:Esc}} im Formular, um es zu schließen, ohne eine Position hinzuzufügen.
 
 :::tip
-Wenn Sie zuerst ein Messwerkzeug wählen, verwendet TakeoffCraft die letzte Position des passenden Typs oder öffnet das Formular {{ui:Neue Position}} mit bereits gewähltem Typ.
+Wenn Sie zuerst ein Messwerkzeug wählen, verwendet TakeoffDesk die letzte Position des passenden Typs oder öffnet das Formular {{ui:Neue Position}} mit bereits gewähltem Typ.
 :::
 
 ## Die Position wählen, mit der Sie zeichnen
 
-Klicken Sie in der Liste auf eine Position. Sie wird zur Position, der neue Markierungen zugeordnet werden, und ihre Markierungen werden auf jedem Blatt hervorgehoben, während die anderen verblassen. Hat das geöffnete Blatt keine ihrer Markierungen, springt TakeoffCraft zu einem Blatt, das welche hat. Klicken Sie die Position erneut an, um das Hervorheben zu beenden; sie bleibt die Position, mit der Sie zeichnen.
+Klicken Sie in der Liste auf eine Position. Sie wird zur Position, der neue Markierungen zugeordnet werden, und ihre Markierungen werden auf jedem Blatt hervorgehoben, während die anderen verblassen. Hat das geöffnete Blatt keine ihrer Markierungen, springt TakeoffDesk zu einem Blatt, das welche hat. Klicken Sie die Position erneut an, um das Hervorheben zu beenden; sie bleibt die Position, mit der Sie zeichnen.
 
 Klicken Sie mit dem Werkzeug {{ui:Auswählen}} auf eine Markierung, wird auch deren Position zur aktuellen.
 
@@ -57,7 +57,7 @@ Der Positionseditor (**Position: (Name)**) hat diese Felder. Jedes Feld wird ges
 | {{ui:Farbe}} | Die Farbe ihrer Markierungen auf dem Bildschirm und im markierten PDF. |
 | {{ui:Einheit}} | In welcher Einheit die Menge ausgewiesen wird: LF oder m für Länge; SF, SY, SQ, ac, ha oder m² für Fläche; EA für Zählen. |
 | {{ui:Auch messen}} | Die anderen Arten von Markierungen, die die Position aufnimmt, jede mit eigener Einheit. Siehe unten. |
-| {{ui:Höhe}} (Länge) | Eine Wandhöhe. Die Position weist dann zusätzlich die Wandfläche aus (Länge × Höhe). Strecken, die aus einem BimCraft-Modell stammen, tragen ihre Türen und Fenster: Diese werden einmal abgezogen, und die Position nennt die Bruttofläche, die Öffnungen und die Nettofläche. Ein Takeoff aus einem BimCraft-Projekt, das eine Aufmaßmethode gewählt hat, wird hier nach dieser Methode gemessen (der Hinweis nennt sie mit ihrer Quelle und sagt, dass sie von einem Kostenplaner nicht geprüft ist); die Methode lässt sich in TakeoffCraft nicht ändern. Steine oder Blöcke und Mörtel aus einem Wandtyp kommen als zwei Komponenten: die zu bestellenden Einheiten und das Mörtelvolumen. |
+| {{ui:Höhe}} (Länge) | Eine Wandhöhe. Die Position weist dann zusätzlich die Wandfläche aus (Länge × Höhe). Strecken, die aus einem BimCraft-Modell stammen, tragen ihre Türen und Fenster: Diese werden einmal abgezogen, und die Position nennt die Bruttofläche, die Öffnungen und die Nettofläche. Ein Takeoff aus einem BimCraft-Projekt, das eine Aufmaßmethode gewählt hat, wird hier nach dieser Methode gemessen (der Hinweis nennt sie mit ihrer Quelle und sagt, dass sie von einem Kostenplaner nicht geprüft ist); die Methode lässt sich in TakeoffDesk nicht ändern. Steine oder Blöcke und Mörtel aus einem Wandtyp kommen als zwei Komponenten: die zu bestellenden Einheiten und das Mörtelvolumen. |
 | {{ui:Tiefe}} (Fläche) | Eine Tiefe oder Dicke, die in Formeln von Baugruppen verwendet wird (zum Beispiel Betonvolumen). |
 | {{ui:Verschnitt %}} | Wird vor der Bepreisung zur Menge addiert: 10 bedeutet Menge × 1.10. |
 | {{ui:Material $/LF}} | Materialkosten je Einheit. Die Bezeichnung folgt der Einheit: $/SF, $/EA usw. |
@@ -74,7 +74,7 @@ Manche Dinge werden auf mehr als eine Art gemessen: Ein Raum hat einen Boden (ei
 
 1. Erstellen Sie die Position mit ihrem Haupttyp, etwa eine Flächenposition `Raum 101`.
 2. Setzen Sie im Editor unter {{ui:Auch messen}} den Haken bei {{ui:Länge}}, {{ui:Zählen}} oder bei beiden. Jede Art bekommt daneben eine Einheit.
-3. Zeichnen Sie mit jedem Werkzeug, dessen Art die Position aufnimmt: Mit `Raum 101` als aktueller Position zeichnet {{ui:Fläche}} den Boden, {{ui:Länge}} den Sockel und {{ui:Zählen}} die Türen. TakeoffCraft fragt nicht nach einer weiteren Position.
+3. Zeichnen Sie mit jedem Werkzeug, dessen Art die Position aufnimmt: Mit `Raum 101` als aktueller Position zeichnet {{ui:Fläche}} den Boden, {{ui:Länge}} den Sockel und {{ui:Zählen}} die Türen. TakeoffDesk fragt nicht nach einer weiteren Position.
 
 Die Positionsliste zeigt jede Menge (`50.00 SF + 2 EA`). In der Mengentabelle hat die Zeile der Position ihre Hauptmenge, und jede weitere Art bekommt eine eigene Zeile darunter, etwa **Raum 101 (Zählen)**, mit eigenem Verschnitt und eigenen Material- und Lohnsätzen. Die Exporte, die Blatttabelle und die Legende des markierten PDFs führen sie genauso auf.
 
@@ -113,7 +113,7 @@ Statt eines Lohnsatzes je Einheit kann der Lohn einer Position aus einer Kolonne
 | {{ui:Kolonnenstärke}} | `2` Personen |
 | {{ui:Lohn $/Stunde je Person}} | `45` |
 
-TakeoffCraft berechnet aus der Menge mit Verschnitt:
+TakeoffDesk berechnet aus der Menge mit Verschnitt:
 
 - **Kolonnenstunden** = Menge ÷ Leistung (110 LF ÷ 20 = 5.5),
 - **Personenstunden** = Kolonnenstunden × Kolonnenstärke (11),

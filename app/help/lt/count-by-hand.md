@@ -14,7 +14,7 @@ Skaičiavimo pozicija skaičiuoja daiktus: duris, šviestuvus, lizdus, santechni
 3. Spustelėkite kiekvieną lape esantį daiktą.
    Kiekvienas spustelėjimas padeda tašką pozicijos spalva, o pozicijos skaičius padidėja vienu.
 4. Pereikite į kitą lapą ({{key:PageDown}}) ir toliau skaičiuokite. Įrankis lieka {{ui:Skaičiuoti}}.
-5. Baigę paspauskite {{key:Esc}}. TakeoffCraft grįžta į {{ui:Pasirinkti}}.
+5. Baigę paspauskite {{key:Esc}}. TakeoffDesk grįžta į {{ui:Pasirinkti}}.
 
 Vilkimas vis dar slenka, o ratukas keičia mastelį, kol skaičiuojate, todėl galite judėti po lapą nepridėdami taškų.
 
@@ -30,7 +30,7 @@ Spustelėkite skaičiavimo poziciją, kad būtų paryškinti jos taškai kiekvie
 
 ## Taškų dydis ekrane ir PDF
 
-Taškai išlaiko vieną dydį ekrane, kad ir kiek priartintumėte. Norėdami pakeisti, atidarykite {{ui:Parametrai}}, skirtuką TakeoffCraft, ir pasirinkite **Skaičiavimo žymos dydis**: Labai mažas, Mažas, Vidutinis (numatytasis) arba Didelis.
+Taškai išlaiko vieną dydį ekrane, kad ir kiek priartintumėte. Norėdami pakeisti, atidarykite {{ui:Parametrai}}, skirtuką TakeoffDesk, ir pasirinkite **Skaičiavimo žymos dydis**: Labai mažas, Mažas, Vidutinis (numatytasis) arba Didelis.
 
 PDF eksportas ({{ui:Eksportuoti}} › pažymėtas PDF) nubraižo kiekvieną tašką tokio paties dydžio popieriuje, nepriklausomai nuo lapo dydžio: PDF rodinys 100 % parodo taškus tokius pat didelius, kaip jie ekrane. Jei lape taškai vis tiek liestųsi, eksportas to lapo taškus padaro mažesnius, kad kiekvienas būtų įskaitomas.
 

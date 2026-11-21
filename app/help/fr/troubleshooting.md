@@ -1,11 +1,11 @@
 ---
 title: Dépannage
-summary: Symptômes, causes et solutions aux messages et surprises que vous pouvez rencontrer dans TakeoffCraft, cités tels que l'application les affiche.
+summary: Symptômes, causes et solutions aux messages et surprises que vous pouvez rencontrer dans TakeoffDesk, cités tels que l'application les affiche.
 keywords: problèmes, erreurs, ne fonctionne pas, solution, aide, refusé, ne mesure pas, pas d'échelle, repères manquants, échec de l'export, hors ligne, tactile
 from: cd319c9b
 ---
 
-TakeoffCraft explique la plupart des refus dans la barre d'état en bas de la fenêtre. Recherchez le message ci-dessous.
+TakeoffDesk explique la plupart des refus dans la barre d'état en bas de la fenêtre. Recherchez le message ci-dessous.
 
 ## Ouverture des fichiers
 
@@ -15,8 +15,8 @@ TakeoffCraft explique la plupart des refus dans la barre d'état en bas de la fe
 | (nom) est protégé par mot de passe. Ouvrez une copie non protégée. | Le PDF demande un mot de passe pour s'ouvrir. | Demandez une copie non protégée, ou supprimez le mot de passe dans un logiciel PDF de confiance. |
 | (nom) n'a pas pu être lu comme un PDF (…) | Le fichier est endommagé ou n'est pas réellement un PDF. | Téléchargez-le à nouveau, ou réenregistrez-le depuis le logiciel qui l'a créé. |
 | (nom) est déjà ouvert. | Le même PDF (même contenu) est ouvert. | Rien à faire. |
-| TakeoffCraft ouvre les PDF et les projets .takeoff.json. Ignoré : … | Les autres types de fichiers ont été écartés. | Convertissez d'abord les dessins en PDF. |
-| Rien ne se passe quand je dépose des fichiers | Les fichiers ont été déposés en dehors de la fenêtre du navigateur, ou le navigateur a ouvert le PDF dans un nouvel onglet. | Déposez-les sur la page TakeoffCraft elle-même ; le cadre « Déposez des PDF ou un .takeoff.json » indique quand cela fonctionnera. |
+| TakeoffDesk ouvre les PDF et les projets .takeoff.json. Ignoré : … | Les autres types de fichiers ont été écartés. | Convertissez d'abord les dessins en PDF. |
+| Rien ne se passe quand je dépose des fichiers | Les fichiers ont été déposés en dehors de la fenêtre du navigateur, ou le navigateur a ouvert le PDF dans un nouvel onglet. | Déposez-les sur la page TakeoffDesk elle-même ; le cadre « Déposez des PDF ou un .takeoff.json » indique quand cela fonctionnera. |
 | L'ouverture d'un gros jeu prend du temps | Chaque PDF est lu en entier pour en établir l'empreinte. | Attendez que le message « Ouverture de (nom)… » disparaisse. Les miniatures se remplissent au fil du défilement. |
 
 ## Mesure
@@ -47,7 +47,7 @@ TakeoffCraft explique la plupart des refus dans la barre d'état en bas de la fe
 | Message ou symptôme | Cause | Solution |
 |---|---|---|
 | Choisissez deux points plus éloignés l'un de l'autre. | Les points d'étalonnage sont presque superposés. | Étalonnez sur une cote plus longue. |
-| Un message dans la boîte de dialogue d'étalonnage, du type « Cette distance n'a pas pu être lue » | La distance est saisie sous une forme que TakeoffCraft ne peut pas lire. | Voir [Saisie des longueurs, tarifs et pourcentages](topic:entry-formats). |
+| Un message dans la boîte de dialogue d'étalonnage, du type « Cette distance n'a pas pu être lue » | La distance est saisie sous une forme que TakeoffDesk ne peut pas lire. | Voir [Saisie des longueurs, tarifs et pourcentages](topic:entry-formats). |
 | Cette feuille n'a pas encore d'échelle, il n'y a donc rien à vérifier. Étalonnez-la, ou choisissez un préréglage. | {{ui:Vérifier}} sur une feuille sans échelle. | Définissez d'abord une échelle. |
 | La liste {{ui:Prédéfini}} est grisée | Aucune feuille n'est ouverte. | Ouvrez un PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft explique la plupart des refus dans la barre d'état en bas de la fe
 | Ce PDF est protégé par mot de passe ou chiffré, une copie annotée ne peut donc pas être écrite. … | Le PDF est chiffré. | Exportez plutôt {{ui:XLSX}}, ou utilisez une copie non chiffrée du PDF (elle a alors besoin de son propre métré, puisqu'il s'agit d'un autre fichier). |
 | Le PDF annoté n'a pas pu être écrit : … | Souvent : hors ligne, et l'application n'a pas été enregistrée pour une utilisation hors ligne, donc le générateur PDF manque. | Connectez-vous et choisissez à nouveau {{ui:PDF annoté}}. Pour l'éviter, choisissez {{ui:Enregistrer pour le hors ligne}} et attendez {{ui:Prêt hors ligne}}. |
 | Un seul PDF annoté a été téléchargé | Le navigateur a bloqué plusieurs téléchargements à la fois. | Autorisez les téléchargements multiples pour ce site, puis exportez à nouveau. |
-| (fichier) n'est pas un projet TakeoffCraft (ce n'est pas du JSON valide). / Ce n'est pas un fichier de projet TakeoffCraft. | Mauvais fichier, ou fichier endommagé. | Sélectionnez le fichier `.takeoff.json`. |
-| Ce projet a été enregistré par une version plus récente de TakeoffCraft. Ouvrez-le dans cette version. | Le fichier provient d'une version plus récente. | Ouvrez-le dans la version plus récente. |
+| (fichier) n'est pas un projet TakeoffDesk (ce n'est pas du JSON valide). / Ce n'est pas un fichier de projet TakeoffDesk. | Mauvais fichier, ou fichier endommagé. | Sélectionnez le fichier `.takeoff.json`. |
+| Ce projet a été enregistré par une version plus récente de TakeoffDesk. Ouvrez-le dans cette version. | Le fichier provient d'une version plus récente. | Ouvrez-le dans la version plus récente. |
 | (n) repères étaient endommagés et ont été écartés. | Une partie du fichier était endommagée ou a été modifiée à la main. | Le reste s'est ouvert. Retracez les repères manquants, ou ouvrez une copie plus ancienne. |
 | Repères manquants après réouverture | Les PDF ne sont pas ouverts, ou l'un d'eux a changé. | Voir [Enregistrer et rouvrir un métré](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Le navigateur demande « Quitter le site ? » | Il y a des modifications non enregistrées. | Restez, et enregistrez avec {{key:Mod+S}}. |

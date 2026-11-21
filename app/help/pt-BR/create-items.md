@@ -37,12 +37,12 @@ Uma quantidade digitada não recebe marcas e nunca deixa o levantamento incomple
 Pressione {{key:Esc}} no formulário para fechá-lo sem adicionar um item.
 
 :::tip
-Se você escolher primeiro uma ferramenta de medição, o TakeoffCraft usa o último item do tipo certo, ou abre o formulário {{ui:Novo item}} com esse tipo já escolhido.
+Se você escolher primeiro uma ferramenta de medição, o TakeoffDesk usa o último item do tipo certo, ou abre o formulário {{ui:Novo item}} com esse tipo já escolhido.
 :::
 
 ## Escolher o item com que você desenha
 
-Clique em um item na lista. Ele passa a ser o item para o qual as novas marcas vão, e as marcas dele ficam destacadas em todas as folhas enquanto os outros desaparecem. Se a folha aberta não tiver nenhuma marca dele, o TakeoffCraft pula para uma folha que tenha. Clique no item de novo para parar o destaque; ele continua sendo o item com que você desenha.
+Clique em um item na lista. Ele passa a ser o item para o qual as novas marcas vão, e as marcas dele ficam destacadas em todas as folhas enquanto os outros desaparecem. Se a folha aberta não tiver nenhuma marca dele, o TakeoffDesk pula para uma folha que tenha. Clique no item de novo para parar o destaque; ele continua sendo o item com que você desenha.
 
 Clicar em uma marca com a ferramenta {{ui:Selecionar}} também torna o item dela o atual.
 
@@ -57,7 +57,7 @@ O editor do item (**Item: (nome)**) tem estes campos. Cada um é salvo ao sair d
 | {{ui:Cor}} | A cor das marcas na tela e no PDF marcado. |
 | {{ui:Unidade}} | Em que unidade a quantidade é informada: LF ou m para linear; SF, SY, SQ, ac, ha ou m² para área; EA para contagem. |
 | {{ui:Medir também}} | Os outros tipos de marcas que o item recebe, cada um com a própria unidade. Veja abaixo. |
-| {{ui:Altura}} (linear) | Uma altura de parede. O item então também informa a área da parede (comprimento × altura). Trechos vindos de um modelo do BimCraft trazem suas portas e janelas: elas são descontadas uma vez, e o item informa a área bruta, as aberturas e a líquida. Um levantamento de um projeto do BimCraft que escolheu um método de medição é medido por esse método aqui também (a nota diz qual, com a origem, e informa que não foi verificado por um orçamentista); o método não pode ser alterado no TakeoffCraft. Tijolos ou blocos e argamassa de um tipo de parede chegam como dois componentes: as unidades a pedir e o volume de argamassa. |
+| {{ui:Altura}} (linear) | Uma altura de parede. O item então também informa a área da parede (comprimento × altura). Trechos vindos de um modelo do BimCraft trazem suas portas e janelas: elas são descontadas uma vez, e o item informa a área bruta, as aberturas e a líquida. Um levantamento de um projeto do BimCraft que escolheu um método de medição é medido por esse método aqui também (a nota diz qual, com a origem, e informa que não foi verificado por um orçamentista); o método não pode ser alterado no TakeoffDesk. Tijolos ou blocos e argamassa de um tipo de parede chegam como dois componentes: as unidades a pedir e o volume de argamassa. |
 | {{ui:Profundidade}} (área) | Uma profundidade ou espessura, usada nas fórmulas de composição (por exemplo, volume de concreto). |
 | {{ui:Perda %}} | Somado à quantidade antes da precificação: 10 significa quantidade × 1.10. |
 | {{ui:Material $/LF}} | Custo de material por unidade. O rótulo segue a unidade: $/SF, $/EA e assim por diante. |
@@ -74,7 +74,7 @@ Algumas coisas são medidas de mais de uma forma: um ambiente tem um piso (uma �
 
 1. Crie o item com o tipo principal, como um item de área `Ambiente 101`.
 2. Em {{ui:Medir também}} no editor dele, marque {{ui:Linear}}, {{ui:Contagem}} ou ambos. Cada um recebe uma unidade ao lado.
-3. Desenhe com qualquer ferramenta cujo tipo o item recebe: com `Ambiente 101` atual, {{ui:Área}} desenha o piso, {{ui:Linear}} o rodapé e {{ui:Contagem}} as portas. O TakeoffCraft não pede outro item.
+3. Desenhe com qualquer ferramenta cujo tipo o item recebe: com `Ambiente 101` atual, {{ui:Área}} desenha o piso, {{ui:Linear}} o rodapé e {{ui:Contagem}} as portas. O TakeoffDesk não pede outro item.
 
 A lista de itens mostra cada quantidade (`50.00 SF + 2 EA`). Na tabela de quantidades, a linha do item tem a quantidade principal, e cada outro tipo ganha sua própria linha abaixo, como **Ambiente 101 (contagem)**, com a própria perda e taxas de material e de mão de obra. As exportações, a tabela por folha e a legenda do PDF marcado as listam da mesma forma.
 
@@ -113,7 +113,7 @@ Em vez de uma taxa de mão de obra por unidade, a mão de obra de um item pode v
 | {{ui:Tamanho da equipe}} | `2` pessoas |
 | {{ui:Salário $/hora cada}} | `45` |
 
-O TakeoffCraft calcula, a partir da quantidade com perda:
+O TakeoffDesk calcula, a partir da quantidade com perda:
 
 - **horas-equipe** = quantidade ÷ produção (110 LF ÷ 20 = 5.5),
 - **horas-homem** = horas-equipe × tamanho da equipe (11),

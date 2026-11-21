@@ -41,7 +41,7 @@ Cuando los cuartos están dibujados como muros cerrados, {{ui:Room}} ({{key:B}})
 2. Elija {{ui:Room}} en el grupo {{ui:Takeoff}}, o pulse {{key:B}}.
 3. Haga clic dentro de un cuarto, en el piso abierto (no sobre una línea ni una etiqueta).
 
-TakeoffCraft lee las líneas de la hoja, encuentra el espacio alrededor del clic y lo contornea por las caras interiores de los muros, como un área de la partida actual. Las aberturas de puerta de hasta **4'-0"** se consideran cerradas, así que el contorno cruza recto la puerta; **Configuración › TakeoffCraft › Relleno de cuarto cierra aberturas de hasta** cambia ese ancho (de 3'-0" a 8'-0"). Los nombres de cuartos, muebles y accesorios dentro del cuarto no crean huecos.
+TakeoffDesk lee las líneas de la hoja, encuentra el espacio alrededor del clic y lo contornea por las caras interiores de los muros, como un área de la partida actual. Las aberturas de puerta de hasta **4'-0"** se consideran cerradas, así que el contorno cruza recto la puerta; **Configuración › TakeoffDesk › Relleno de cuarto cierra aberturas de hasta** cambia ese ancho (de 3'-0" a 8'-0"). Los nombres de cuartos, muebles y accesorios dentro del cuarto no crean huecos.
 
 Se rechaza, indicando por qué, cuando:
 
@@ -62,7 +62,7 @@ Cuando una puerta es más ancha que la configuración, el relleno pasa al siguie
 
 Para un hueco redondo, elija {{ui:Add a round cut-out}} en **Marca seleccionada**, haga clic en su centro y luego en un punto de su borde.
 
-Un recorte debe quedar completamente dentro del área y no debe superponerse con otro recorte. Si no, TakeoffCraft lo rechaza: "Un recorte tiene que quedar completamente dentro del área." o "Los recortes no pueden superponerse entre sí."
+Un recorte debe quedar completamente dentro del área y no debe superponerse con otro recorte. Si no, TakeoffDesk lo rechaza: "Un recorte tiene que quedar completamente dentro del área." o "Los recortes no pueden superponerse entre sí."
 
 Para quitar el último hueco, elija {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ Un recorte pertenece a una sola marca de área. Un **descuento** se dibuja una v
 
 Cada marca de área de una partida marcada, en la misma hoja, pierde la parte que cubre un descuento: todo el descuento cuando queda dentro, solo la parte que cruza cuando cruza el borde, y nada dentro de un recorte. El panel del área seleccionada muestra **Descuentos** y el área restante. La cantidad de la partida, sus fórmulas de conjunto, los costos, la vista de comprobación 3D y la exportación usan el área restante; las notas del presupuesto indican cuánto quitaron los descuentos. La partida de descuento en sí cuenta su propia área (deje sus costos en cero si no la valúa).
 
-Un descuento debe ser **convexo**: un rectángulo, un círculo o cualquier contorno sin esquina hacia adentro. TakeoffCraft rechaza dibujar uno que no lo sea; dibuje un ducto en forma de L como dos descuentos. Los descuentos no pueden tener recortes, y si dos descuentos se superponen, ambos cuentan.
+Un descuento debe ser **convexo**: un rectángulo, un círculo o cualquier contorno sin esquina hacia adentro. TakeoffDesk rechaza dibujar uno que no lo sea; dibuje un ducto en forma de L como dos descuentos. Los descuentos no pueden tener recortes, y si dos descuentos se superponen, ambos cuentan.
 
 El perímetro (`P`) no cambia: los descuentos restan solo área.
 

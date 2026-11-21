@@ -37,12 +37,12 @@ Girilen miktar hiçbir işaret almaz ve tahmini hiçbir zaman eksik bırakmaz. M
 Kalem eklemeden formu kapatmak için formda {{key:Esc}} tuşuna basın.
 
 :::tip
-Önce bir ölçüm aracı seçerseniz TakeoffCraft, doğru türdeki son kalemi kullanır ya da o türü önceden seçili olarak {{ui:New item}} formunu açar.
+Önce bir ölçüm aracı seçerseniz TakeoffDesk, doğru türdeki son kalemi kullanır ya da o türü önceden seçili olarak {{ui:New item}} formunu açar.
 :::
 
 ## Çizdiğiniz kalemi seçin
 
-Listede bir kaleme tıklayın. Yeni işaretlerin gideceği kalem olur; işaretleri her sayfada vurgulanır, diğerleri silikleşir. Açık sayfada hiç işareti yoksa TakeoffCraft işaretin bulunduğu bir sayfaya geçer. Vurgulamayı durdurmak için kalemi yeniden tıklayın; yine de çizdiğiniz kalem olarak kalır.
+Listede bir kaleme tıklayın. Yeni işaretlerin gideceği kalem olur; işaretleri her sayfada vurgulanır, diğerleri silikleşir. Açık sayfada hiç işareti yoksa TakeoffDesk işaretin bulunduğu bir sayfaya geçer. Vurgulamayı durdurmak için kalemi yeniden tıklayın; yine de çizdiğiniz kalem olarak kalır.
 
 {{ui:Select}} aracıyla bir işarete tıklamak da işaretin kalemini geçerli yapar.
 
@@ -57,7 +57,7 @@ Kalem düzenleyicisinde (**Kalem: (ad)**) şu alanlar bulunur. Her biri alandan 
 | {{ui:Color}} | Ekranda ve işaretlenmiş PDF'de işaretlerinin rengi. |
 | {{ui:Unit}} | Miktarın hangi birimle raporlanacağı: doğrusal için LF veya m; alan için SF, SY, SQ, ac, ha veya m²; say için EA. |
 | {{ui:Also measure}} | Kalemin aldığı diğer işaret türleri; her biri kendi birimiyle. Aşağıya bakın. |
-| {{ui:Height}} (doğrusal) | Bir duvar yüksekliği. Kalem o zaman duvar alanını da (uzunluk × yükseklik) raporlar. BimCraft modelinden gelen koşular kapı ve pencerelerini de taşır: bunlar bir kez çıkarılır ve kalem brüt alanı, açıklıkları ve net alanı söyler. Bir ölçüm yöntemi seçmiş bir BimCraft projesinden gelen metraj, burada da o yöntemle ölçülür (not bunu kaynağıyla birlikte adlandırır ve bir metraj uzmanı tarafından kontrol edilmediğini belirtir); yöntem TakeoffCraft'ta değiştirilemez. Bir duvar tipinden gelen tuğla veya blok ile harç, iki bileşen olarak gelir: sipariş edilecek birimler ve harç hacmi. |
+| {{ui:Height}} (doğrusal) | Bir duvar yüksekliği. Kalem o zaman duvar alanını da (uzunluk × yükseklik) raporlar. BimCraft modelinden gelen koşular kapı ve pencerelerini de taşır: bunlar bir kez çıkarılır ve kalem brüt alanı, açıklıkları ve net alanı söyler. Bir ölçüm yöntemi seçmiş bir BimCraft projesinden gelen metraj, burada da o yöntemle ölçülür (not bunu kaynağıyla birlikte adlandırır ve bir metraj uzmanı tarafından kontrol edilmediğini belirtir); yöntem TakeoffDesk'ta değiştirilemez. Bir duvar tipinden gelen tuğla veya blok ile harç, iki bileşen olarak gelir: sipariş edilecek birimler ve harç hacmi. |
 | {{ui:Depth}} (alan) | Bir derinlik veya kalınlık; montaj formüllerinde kullanılır (örneğin beton hacmi). |
 | {{ui:Waste %}} | Fiyatlamadan önce miktara eklenir: 10 demek, miktar × 1.10 demektir. |
 | {{ui:Malzeme $/LF}} | Birim başına malzeme maliyeti. Etiket birime göre değişir: $/SF, $/EA vb. |
@@ -74,7 +74,7 @@ Bazı şeyler birden çok biçimde ölçülür: bir odanın bir zemini (bir alan
 
 1. Kalemi ana türüyle oluşturun, örneğin bir alan kalemi `Oda 101`.
 2. Düzenleyicisindeki {{ui:Also measure}} altında {{ui:Linear}}, {{ui:Count}} veya ikisini de işaretleyin. Her birinin yanında bir birim belirir.
-3. Kalemin aldığı türdeki herhangi bir araçla çizin: `Oda 101` geçerliyken {{ui:Area}} zeminini, {{ui:Linear}} süpürgeliğini ve {{ui:Count}} kapılarını çizer. TakeoffCraft başka bir kalem istemez.
+3. Kalemin aldığı türdeki herhangi bir araçla çizin: `Oda 101` geçerliyken {{ui:Area}} zeminini, {{ui:Linear}} süpürgeliğini ve {{ui:Count}} kapılarını çizer. TakeoffDesk başka bir kalem istemez.
 
 Kalem listesi her miktarı gösterir (`50.00 SF + 2 EA`). Miktar tablosunda kalemin satırında ana miktarı bulunur ve diğer her tür, kendi fire, malzeme ve işçilik oranlarıyla birlikte, altında kendi satırını alır; örneğin **Oda 101 (say)**. Dışa aktarmalar, sayfa başına tablo ve işaretlenmiş PDF'nin açıklaması da aynı şekilde listeler.
 
@@ -113,7 +113,7 @@ Birim başına işçilik oranı yerine, bir kalemin işçiliği bir ekipten gele
 | {{ui:Crew size}} | `2` kişi |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft, fireyle birlikte miktardan şunları hesaplar:
+TakeoffDesk, fireyle birlikte miktardan şunları hesaplar:
 
 - **ekip saati** = miktar ÷ üretim (110 LF ÷ 20 = 5.5),
 - **işçi saati** = ekip saati × ekip büyüklüğü (11),

@@ -37,12 +37,12 @@ Kiritilgan miqdor hech qanday belgi olmaydi va hisob-kitobni hech qachon toʻliq
 Shaklni elementsiz qoʻshmasdan yopish uchun shakl ichida {{key:Esc}} ni bosing.
 
 :::tip
-Avval oʻlchash asbobini tanlasangiz, TakeoffCraft shu turdagi oxirgi elementdan foydalanadi yoki shu tur tanlangan holda {{ui:Yangi element}} shaklini ochadi.
+Avval oʻlchash asbobini tanlasangiz, TakeoffDesk shu turdagi oxirgi elementdan foydalanadi yoki shu tur tanlangan holda {{ui:Yangi element}} shaklini ochadi.
 :::
 
 ## Chizish uchun elementni tanlang
 
-Roʻyxatdagi elementni bosing. U yangi belgilar tushadigan element boʻladi, uning belgilari har bir varaqda ajratib koʻrsatiladi, boshqalari xiralashadi. Ochiq varaqda uning belgilari boʻlmasa, TakeoffCraft belgilari bor varaqqa oʻtadi. Ajratib koʻrsatishni toʻxtatish uchun elementni yana bosing; u baribir chizish uchun element boʻlib qoladi.
+Roʻyxatdagi elementni bosing. U yangi belgilar tushadigan element boʻladi, uning belgilari har bir varaqda ajratib koʻrsatiladi, boshqalari xiralashadi. Ochiq varaqda uning belgilari boʻlmasa, TakeoffDesk belgilari bor varaqqa oʻtadi. Ajratib koʻrsatishni toʻxtatish uchun elementni yana bosing; u baribir chizish uchun element boʻlib qoladi.
 
 {{ui:Tanlash}} asbobi bilan belgini bosish ham uning elementini joriy qiladi.
 
@@ -57,7 +57,7 @@ Element tahrirlovchisida (**Element: (nom)**) quyidagi maydonlar bor. Har biri m
 | {{ui:Rang}} | Belgilarining rangi ekranda va belgilangan PDF da. |
 | {{ui:Birlik}} | Miqdor qaysi birlikda hisobot qilinishi: chiziqli uchun LF yoki m; maydon uchun SF, SY, SQ, ac, ha yoki m²; sanash uchun EA. |
 | {{ui:Yana oʻlchash}} | Element qabul qiladigan boshqa tur belgilar, har biri oʻz birligi bilan. Pastga qarang. |
-| {{ui:Balandlik}} (chiziqli) | Devor balandligi. Shunda element devor maydonini ham hisobot qiladi (uzunlik × balandlik). BimCraft modelidan olingan qatorlar oʻz eshik va derazalarini olib keladi: ular bir marta chiqariladi va element umumiy maydonni, teshiklarni hamda sof maydonni koʻrsatadi. BimCraft loyihasidan oʻlchash usuli tanlangan hisob-kitob shu yerda ham oʻsha usul bilan oʻlchanadi (izohda usul va manbasi koʻrsatiladi hamda miqdor muhandisi tomonidan tekshirilmagani aytiladi); usulni TakeoffCraft ichida oʻzgartirib boʻlmaydi. Devor turidan olingan gʻisht yoki blok va qorishma ikki komponent boʻlib keladi: buyurtma qilinadigan birliklar va qorishma hajmi. |
+| {{ui:Balandlik}} (chiziqli) | Devor balandligi. Shunda element devor maydonini ham hisobot qiladi (uzunlik × balandlik). BimCraft modelidan olingan qatorlar oʻz eshik va derazalarini olib keladi: ular bir marta chiqariladi va element umumiy maydonni, teshiklarni hamda sof maydonni koʻrsatadi. BimCraft loyihasidan oʻlchash usuli tanlangan hisob-kitob shu yerda ham oʻsha usul bilan oʻlchanadi (izohda usul va manbasi koʻrsatiladi hamda miqdor muhandisi tomonidan tekshirilmagani aytiladi); usulni TakeoffDesk ichida oʻzgartirib boʻlmaydi. Devor turidan olingan gʻisht yoki blok va qorishma ikki komponent boʻlib keladi: buyurtma qilinadigan birliklar va qorishma hajmi. |
 | {{ui:Chuqurlik}} (maydon) | Qalinlik yoki chuqurlik, yigʻma formulalarida ishlatiladi (masalan, beton hajmi). |
 | {{ui:Chiqindi %}} | Narxlashdan oldin miqdorga qoʻshiladi: 10 degani miqdor × 1.10. |
 | {{ui:Material $/LF}} | Birlik boshiga material narxi. Yorliq birlikka amal qiladi: $/SF, $/EA va hokazo. |
@@ -74,7 +74,7 @@ Ba'zi narsalar bir necha usulda oʻlchanadi: xonada pol (maydon), devor boʻylab
 
 1. Elementni asosiy turi bilan yarating, masalan maydon elementi `Xona 101`.
 2. Uning tahrirlovchisida {{ui:Yana oʻlchash}} ostida {{ui:Chiziqli}}, {{ui:Sanash}} yoki ikkalasini belgilang. Har biri yonida oʻz birligi chiqadi.
-3. Element qabul qiladigan turdagi istalgan asbob bilan chizing: `Xona 101` joriy boʻlganda {{ui:Maydon}} uning polini, {{ui:Chiziqli}} plintusini, {{ui:Sanash}} esa eshiklarini chizadi. TakeoffCraft boshqa element soʻramaydi.
+3. Element qabul qiladigan turdagi istalgan asbob bilan chizing: `Xona 101` joriy boʻlganda {{ui:Maydon}} uning polini, {{ui:Chiziqli}} plintusini, {{ui:Sanash}} esa eshiklarini chizadi. TakeoffDesk boshqa element soʻramaydi.
 
 Elementlar roʻyxatida har bir miqdor koʻrsatiladi (`50.00 SF + 2 EA`). Miqdorlar jadvalida elementning qatorida asosiy miqdor boʻladi, har bir boshqa tur esa pastida alohida qator oladi, masalan **Xona 101 (sanash)**, oʻz chiqindi, material va mehnat stavkalari bilan. Eksportlar, har varaq jadvali va belgilangan PDF ning legendasi ularni xuddi shunday sanab beradi.
 
@@ -113,7 +113,7 @@ Birlik boshiga mehnat stavkasi oʻrniga elementning mehnati brigadadan olinishi 
 | {{ui:Brigada tarkibi}} | `2` kishi |
 | {{ui:Ish haqi $/soat har biriga}} | `45` |
 
-TakeoffCraft chiqindi bilan miqdordan quyidagilarni hisoblaydi:
+TakeoffDesk chiqindi bilan miqdordan quyidagilarni hisoblaydi:
 
 - **brigada-soatlar** = miqdor ÷ ishlab chiqarish (110 LF ÷ 20 = 5.5),
 - **ishchi-soatlar** = brigada-soatlar × brigada tarkibi (11),

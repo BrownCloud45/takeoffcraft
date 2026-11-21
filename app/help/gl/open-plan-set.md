@@ -5,7 +5,7 @@ keywords: abrir, conxunto de planos, varios PDF, varios ficheiros, follas, debux
 from: ed434468
 ---
 
-Un conxunto de planos adoita ser varios PDF: arquitectónicos, estruturais, mecánicos. TakeoffCraft ábreos xuntos, lado a lado, como unha única lista de follas, e unha medición pode cubrilos todos.
+Un conxunto de planos adoita ser varios PDF: arquitectónicos, estruturais, mecánicos. TakeoffDesk ábreos xuntos, lado a lado, como unha única lista de follas, e unha medición pode cubrilos todos.
 
 ## Abrir os PDF
 
@@ -14,14 +14,14 @@ Un conxunto de planos adoita ser varios PDF: arquitectónicos, estruturais, mec�
 3. Escolla Abrir.
    Mentres se le cada ficheiro móstrase unha mensaxe "Abrindo (nome)…". Despois aparece cada páxina baixo {{ui:Follas}} e ábrese a primeira páxina do primeiro PDF novo.
 
-Tamén pode arrastrar os PDF desde {{pick:mac=Finder|windows=Explorador de ficheiros|linux=o seu xestor de ficheiros}} e soltalos en calquera lugar de TakeoffCraft. Mentres arrastra aparece un marco "Solte PDF, debuxos DWG ou DXF, ou un .takeoff.json".
+Tamén pode arrastrar os PDF desde {{pick:mac=Finder|windows=Explorador de ficheiros|linux=o seu xestor de ficheiros}} e soltalos en calquera lugar de TakeoffDesk. Mentres arrastra aparece un marco "Solte PDF, debuxos DWG ou DXF, ou un .takeoff.json".
 
 Para engadir máis PDF despois, faga o mesmo. Os PDF que xa están abertos sáltanse.
 
 A pantalla de inicio tamén lista os PDF e as medicións que abriu recentemente, nos navegadores que permiten a unha páxina abrir de novo un ficheiro (Chrome e Edge). Prema un para abrilo; o navegador pode pedir primeiro permiso. Consulte [Os seus ficheiros](common:your-files).
 
 :::note
-Non se envía nada. O navegador le os PDF no seu ordenador, e desaparecen de TakeoffCraft cando pecha a pestana ou escolle {{ui:Novo}}.
+Non se envía nada. O navegador le os PDF no seu ordenador, e desaparecen de TakeoffDesk cando pecha a pestana ou escolle {{ui:Novo}}.
 :::
 
 ## Debuxos xunto aos PDF
@@ -30,7 +30,7 @@ Non se envía nada. O navegador le os PDF no seu ordenador, e desaparecen de Tak
 
 ## Un PDF entregado desde outra aplicación
 
-Outra aplicación do conxunto pode entregarlle o PDF que ten aberto: abre TakeoffCraft nunha pestana nova e o PDF ábrese alí como se o tivese soltado. A barra de estado di "Aberto (nome), entregado desde (aplicación). O ficheiro orixinal non cambiou." Non se envía nada; o ficheiro pasa polo almacenamento deste navegador e sae del cando se abre.
+Outra aplicación do conxunto pode entregarlle o PDF que ten aberto: abre TakeoffDesk nunha pestana nova e o PDF ábrese alí como se o tivese soltado. A barra de estado di "Aberto (nome), entregado desde (aplicación). O ficheiro orixinal non cambiou." Non se envía nada; o ficheiro pasa polo almacenamento deste navegador e sae del cando se abre.
 
 Se a barra de estado di que o PDF "non chegou", a pestana esperou demasiado ou o PDF xa se abriu noutra pestana: ábrao con {{ui:Abrir planos}}.
 

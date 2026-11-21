@@ -5,7 +5,7 @@ keywords: agățare, osnap, agățare la obiect, capăt, mijloc, intersecție, c
 from: 41d29e9b
 ---
 
-Majoritatea seturilor de planuri sunt PDF-uri vectoriale: pereții și muchiile lor sunt linii reale, nu pixeli. În timp ce măsurați, TakeoffCraft fixează clicurile pe aceste linii, astfel încât o rută pornește exact din colțul unui perete, iar o calibrare citește cota desenată de proiectant, nu pixelul pe care l-ați atins.
+Majoritatea seturilor de planuri sunt PDF-uri vectoriale: pereții și muchiile lor sunt linii reale, nu pixeli. În timp ce măsurați, TakeoffDesk fixează clicurile pe aceste linii, astfel încât o rută pornește exact din colțul unui perete, iar o calibrare citește cota desenată de proiectant, nu pixelul pe care l-ați atins.
 
 Agățarea este pornită la început. Activați și dezactivați cu {{ui:Agățare}} din bara de stare sau cu {{key:F3}}; setarea se păstrează în acest browser (este și în [Setări](topic:settings)).
 

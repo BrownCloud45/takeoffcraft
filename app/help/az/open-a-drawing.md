@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, çertyoj, çertyoj açmaq, tərtibatlar, model fəzası
 from: d8c3f504
 ---
 
-TakeoffCraft DWG və ya DXF çertyojunu PDF kimi açır: onu əvvəlcə PDF-ə çap etməyə ehtiyac yoxdur. Çertyojun özündən saymaq dəqiqdir, çünki çertyoj hər obyektin nə olduğunu bilir. Bax: [Çertyojdan say](topic:count-from-a-drawing).
+TakeoffDesk DWG və ya DXF çertyojunu PDF kimi açır: onu əvvəlcə PDF-ə çap etməyə ehtiyac yoxdur. Çertyojun özündən saymaq dəqiqdir, çünki çertyoj hər obyektin nə olduğunu bilir. Bax: [Çertyojdan say](topic:count-from-a-drawing).
 
 ## Çertyoju açın
 
@@ -13,9 +13,9 @@ TakeoffCraft DWG və ya DXF çertyojunu PDF kimi açır: onu əvvəlcə PDF-ə �
 2. DWG və ya DXF faylını seçin. Bir neçəsini, PDF-lərlə birlikdə də seçə bilərsiniz.
 3. **Aç** seçin.
 
-Çertyoj fayllarını da PDF kimi TakeoffCraft-a buraxa bilərsiniz. Heç nə yüklənmir: brauzer faylı kompüterinizdə oxuyur.
+Çertyoj fayllarını da PDF kimi TakeoffDesk-a buraxa bilərsiniz. Heç nə yüklənmir: brauzer faylı kompüterinizdə oxuyur.
 
-TakeoffCraft AutoCAD 2000-dən 2018-ə qədər DWG və R12-dən 2018-ə qədər ASCII DXF oxuyur. Binar DXF-i rədd edir (onu ASCII və ya DWG kimi saxlayın), nə DWG, nə də DXF olan faylı da rədd edir və səbəbini bildirir. Zədələnmiş fayl oxuna bilən hissəsi ilə açılır və bunu mesaj bildirir; onun sayları natamam ola bilər.
+TakeoffDesk AutoCAD 2000-dən 2018-ə qədər DWG və R12-dən 2018-ə qədər ASCII DXF oxuyur. Binar DXF-i rədd edir (onu ASCII və ya DWG kimi saxlayın), nə DWG, nə də DXF olan faylı da rədd edir və səbəbini bildirir. Zədələnmiş fayl oxuna bilən hissəsi ilə açılır və bunu mesaj bildirir; onun sayları natamam ola bilər.
 
 ## Vərəqlər
 
@@ -40,10 +40,10 @@ Vərəq zolağında {{ui:Qatlar}} çertyojun qatlarını, hər birində bu vər�
 
 ## Əlaqəli çertyojlar (xref-lər)
 
-Başqa çertyojları əlaqələndirən çertyoj onları yerləşdirildikləri yerdə göstərir. TakeoffCraft əlaqəli çertyojları **açıq fayllar** arasında fayl adına görə tapır: ana çertyojunu və əlaqəli çertyojunu birlikdə (ya da bir-birinin ardınca) açın. Bu vaxta qədər status zolağı neçə əlaqəli çertyojun tapılmadığını, onların çəkdiklərinin itdiyini bildirir və saylar bunu göstərir.
+Başqa çertyojları əlaqələndirən çertyoj onları yerləşdirildikləri yerdə göstərir. TakeoffDesk əlaqəli çertyojları **açıq fayllar** arasında fayl adına görə tapır: ana çertyojunu və əlaqəli çertyojunu birlikdə (ya da bir-birinin ardınca) açın. Bu vaxta qədər status zolağı neçə əlaqəli çertyojun tapılmadığını, onların çəkdiklərinin itdiyini bildirir və saylar bunu göstərir.
 
 ## Məhdudiyyətlər
 
-- TakeoffCraft-ın oxuya və ya yerləşdirə bilmədiyi obyektlər (proxy obyektlər, naməlum siniflər) say pəncərəsində növünə görə sadalanır; heç bir söz demədən heç vaxt atılmır.
+- TakeoffDesk-ın oxuya və ya yerləşdirə bilmədiyi obyektlər (proxy obyektlər, naməlum siniflər) say pəncərəsində növünə görə sadalanır; heç bir söz demədən heç vaxt atılmır.
 - Çox böyük çertyojlar hissə-hissə çəkilir və saylar bir həddə çatanda dayanır və bunu bildirir. Belə çertyojun PDF çapını açın.
 - Çertyoj qara və öz rənglərində, ağ kağız üçün tündləşdirilmiş şəkildə çəkilir. Çap üslub cədvəlləri və qələm təyinatları tətbiq olunmur.

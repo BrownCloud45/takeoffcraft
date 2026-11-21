@@ -5,7 +5,7 @@ keywords: katus, kalle, kaldetegur, tõus, ulatus, 6:12, viil, vaalu, org, katus
 from: 38225b60
 ---
 
-Katuseplaan näitab iga katusetasandit lamedana, nagu seda ülevalt vaadatakse. Katus ise on suurem: tasand kaldega 6:12 on umbes 12% rohkem pinda kui plaanil ja selle kaldus servad on pikemad, kui need paistavad. Anna kirjele selle kalle ja TakeoffCraft mõõdab kalde järgi.
+Katuseplaan näitab iga katusetasandit lamedana, nagu seda ülevalt vaadatakse. Katus ise on suurem: tasand kaldega 6:12 on umbes 12% rohkem pinda kui plaanil ja selle kaldus servad on pikemad, kui need paistavad. Anna kirjele selle kalle ja TakeoffDesk mõõdab kalde järgi.
 
 ## Kalde sisestamine
 

@@ -46,7 +46,7 @@ Višina je polje {{ui:Višina}} linearne postavke, globina pa polje {{ui:Globina
 | {{ui:List}} | Pokaže ali skrije risbo na tleh. |
 | Kocka pogleda, zgoraj desno | Kliknite ploskev, rob ali kot za pogled od tam; povlecite jo za vrtenje; povlecite obroč kompasa za obračanje; gumb hiške vrne v {{ui:Izo}}. |
 
-Kot v zgornjem desnem vogalu prikazuje kocko pogleda, majhno ikono osi X, Y, Z ali nič: izberite v {{ui:Nastavitve}}, na zavihku TakeoffCraft, pod **Indikator kota** ([Nastavitve TakeoffCraft](topic:settings)). Ravni list nima indikatorja kota.
+Kot v zgornjem desnem vogalu prikazuje kocko pogleda, majhno ikono osi X, Y, Z ali nič: izberite v {{ui:Nastavitve}}, na zavihku TakeoffDesk, pod **Indikator kota** ([Nastavitve TakeoffDesk](topic:settings)). Ravni list nima indikatorja kota.
 
 :::touch
 En prst vrti, dva prsta stisnete za povečavo in premaknete za pomik. Dotik izbere.

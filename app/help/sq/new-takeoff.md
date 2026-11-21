@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Ruaj llogaritjen aktuale nëse dëshiron ta mbash: {{ui:Ruaj llogaritjen}} ose {{key:Mod+S}}.
 2. Zgjidh {{ui:E re}} në grupin {{ui:Skedari}}.
-3. Nëse ka ndryshime të pa ruajtura, TakeoffCraft pyet **Llogaritja e pa ruajtur**: zgjidh {{ui:Ruaj llogaritjen më parë}} (shkarkon projektin, pastaj pastron), {{ui:Hidh ndryshimet}}, ose {{ui:Anulo}}.
+3. Nëse ka ndryshime të pa ruajtura, TakeoffDesk pyet **Llogaritja e pa ruajtur**: zgjidh {{ui:Ruaj llogaritjen më parë}} (shkarkon projektin, pastaj pastron), {{ui:Hidh ndryshimet}}, ose {{ui:Anulo}}.
    Dritarja kthehet në gjendjen bosh: pa PDF, pa artikuj, pa shenja, pa shkallë. Rreshti i statusit thotë "Llogaritje e re. Hap PDF-të për të filluar."
 
 Pastrohet:

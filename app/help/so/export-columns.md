@@ -77,7 +77,7 @@ Hal safka xaashi kasta oo leh miisaan ama calaamado.
 | Xaashi | Magaca xaashiga |
 | Miisaan | Magaca preset-ka, ama miisaanka la calibrate-ay, ama "No scale" |
 | Sidee | "Preset", ama "Calibrated on (the distance you typed)" |
-| Feet halkii unug PDF | Qiimaha saxda ah ee miisaanka ee TakeoffCraft isticmaasho |
+| Feet halkii unug PDF | Qiimaha saxda ah ee miisaanka ee TakeoffDesk isticmaasho |
 
 ## Magacyada faylalka
 

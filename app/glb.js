@@ -25,7 +25,7 @@ export function linearRgb(hex) {
 
 const toGl = (a, i) => [a[i] * M, a[i + 2] * M, -a[i + 1] * M];
 
-export function sceneToGlb(scene, { name = 'TakeoffCraft' } = {}) {
+export function sceneToGlb(scene, { name = 'TakeoffDesk' } = {}) {
   const chunks = [];          // Float32Arrays, in buffer order
   let byteLength = 0;
   const bufferViews = [], accessors = [], meshes = [], nodes = [], materials = [];
@@ -85,7 +85,7 @@ export function sceneToGlb(scene, { name = 'TakeoffCraft' } = {}) {
     nodes.push({ name: (o.name || '') + ' (' + o.kind + ')', mesh: meshes.length - 1, extras: { mark: o.id, item: o.item, kind: o.kind, measure: o.measure } });
   }
   const gltf = {
-    asset: { version: '2.0', generator: 'TakeoffCraft (glb.js)' },
+    asset: { version: '2.0', generator: 'TakeoffDesk (glb.js)' },
     scene: 0,
     scenes: [{ name, nodes: nodes.map((_, i) => i) }],
     nodes, meshes, materials, accessors, bufferViews,

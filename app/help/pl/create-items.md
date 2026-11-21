@@ -36,12 +36,12 @@ Ilość wpisana nie przyjmuje żadnych znaczników i nigdy nie sprawia, że kosz
 Naciśnij {{key:Esc}} w formularzu, aby go zamknąć bez dodawania pozycji.
 
 :::tip
-Jeśli najpierw wybierzesz narzędzie pomiarowe, TakeoffCraft użyje ostatniej pozycji właściwego typu albo otworzy formularz {{ui:Nowa pozycja}} z już wybranym typem.
+Jeśli najpierw wybierzesz narzędzie pomiarowe, TakeoffDesk użyje ostatniej pozycji właściwego typu albo otworzy formularz {{ui:Nowa pozycja}} z już wybranym typem.
 :::
 
 ## Wybierz pozycję, którą rysujesz
 
-Kliknij pozycję na liście. Staje się ona pozycją, do której trafiają nowe znaczniki, a jej znaczniki są podświetlone na każdym arkuszu, podczas gdy pozostałe blakną. Jeśli otwarty arkusz nie ma jej żadnych znaczników, TakeoffCraft przeskakuje do arkusza, który je ma. Kliknij pozycję ponownie, aby przestać ją podświetlać; pozostaje ona pozycją, którą rysujesz.
+Kliknij pozycję na liście. Staje się ona pozycją, do której trafiają nowe znaczniki, a jej znaczniki są podświetlone na każdym arkuszu, podczas gdy pozostałe blakną. Jeśli otwarty arkusz nie ma jej żadnych znaczników, TakeoffDesk przeskakuje do arkusza, który je ma. Kliknij pozycję ponownie, aby przestać ją podświetlać; pozostaje ona pozycją, którą rysujesz.
 
 Kliknięcie znacznika narzędziem {{ui:Zaznacz}} także ustawia jego pozycję jako bieżącą.
 
@@ -56,7 +56,7 @@ Edytor pozycji (**Pozycja: (nazwa)**) ma te pola. Każde zapisuje się po opuszc
 | {{ui:Kolor}} | Kolor jej znaczników na ekranie i w oznaczonym PDF. |
 | {{ui:Jednostka}} | W jakich jednostkach podawana jest ilość: LF lub m dla liniowych; SF, SY, SQ, ac, ha lub m² dla pól; EA dla liczenia. |
 | {{ui:Mierz też}} | Inne rodzaje znaczników, jakie przyjmuje pozycja, każdy z własną jednostką. Zob. niżej. |
-| {{ui:Wysokość}} (liniowe) | Wysokość ściany. Pozycja wtedy również raportuje pole ściany (długość × wysokość). Ciągi pochodzące z modelu BimCraft mają swoje drzwi i okna: są wyjmowane raz, a pozycja podaje pole brutto, otwory i netto. Przedmiar z projektu BimCraft, który wybrał metodę pomiaru, jest tu mierzony tą metodą (notka podaje ją wraz ze źródłem i mówi, że nie została sprawdzona przez kosztorysanta); metody nie można zmienić w TakeoffCraft. Cegły lub bloczki i zaprawa z typu ściany trafiają jako dwa składniki: jednostki do zamówienia oraz objętość zaprawy. |
+| {{ui:Wysokość}} (liniowe) | Wysokość ściany. Pozycja wtedy również raportuje pole ściany (długość × wysokość). Ciągi pochodzące z modelu BimCraft mają swoje drzwi i okna: są wyjmowane raz, a pozycja podaje pole brutto, otwory i netto. Przedmiar z projektu BimCraft, który wybrał metodę pomiaru, jest tu mierzony tą metodą (notka podaje ją wraz ze źródłem i mówi, że nie została sprawdzona przez kosztorysanta); metody nie można zmienić w TakeoffDesk. Cegły lub bloczki i zaprawa z typu ściany trafiają jako dwa składniki: jednostki do zamówienia oraz objętość zaprawy. |
 | {{ui:Głębokość}} (pole) | Głębokość lub grubość, używana we wzorach zestawu (na przykład objętość betonu). |
 | {{ui:Naddatek %}} | Dodawany do ilości przed wyceną: 10 oznacza ilość × 1,10. |
 | {{ui:Materiał $/LF}} | Koszt materiału za jednostkę. Etykieta zmienia się z jednostką: $/SF, $/EA itd. |
@@ -73,7 +73,7 @@ Niektóre rzeczy mierzy się na więcej niż jeden sposób: pokój ma podłogę 
 
 1. Utwórz pozycję z jej głównym typem, na przykład pozycję pola `Room 101`.
 2. W jej edytorze, pod {{ui:Mierz też}}, zaznacz {{ui:Liniowy}}, {{ui:Liczenie}} albo oba. Każdy dostaje obok jednostkę.
-3. Rysuj dowolnym narzędziem, którego rodzaj pozycja przyjmuje: przy bieżącej `Room 101` narzędzie {{ui:Pole}} rysuje jej podłogę, {{ui:Liniowy}} listwę, a {{ui:Liczenie}} drzwi. TakeoffCraft nie pyta o inną pozycję.
+3. Rysuj dowolnym narzędziem, którego rodzaj pozycja przyjmuje: przy bieżącej `Room 101` narzędzie {{ui:Pole}} rysuje jej podłogę, {{ui:Liniowy}} listwę, a {{ui:Liczenie}} drzwi. TakeoffDesk nie pyta o inną pozycję.
 
 Lista pozycji pokazuje każdą ilość (`50.00 SF + 2 EA`). W tabeli ilości wiersz pozycji ma główną ilość, a każdy inny rodzaj ma własny wiersz poniżej, na przykład **Room 101 (liczenie)**, z własnymi stawkami naddatku, materiału i robocizny. Eksporty, tabela na arkusz i legenda oznaczonego PDF wymieniają je tak samo.
 
@@ -113,7 +113,7 @@ Zamiast stawki robocizny za jednostkę robocizna pozycji może pochodzić z ekip
 | {{ui:Wielkość ekipy}} | `2` osoby |
 | {{ui:Płaca $/godzinę za osobę}} | `45` |
 
-TakeoffCraft wylicza z ilości z naddatkiem:
+TakeoffDesk wylicza z ilości z naddatkiem:
 
 - **godziny ekipy** = ilość ÷ wydajność (110 LF ÷ 20 = 5,5),
 - **roboczogodziny** = godziny ekipy × wielkość ekipy (11),

@@ -28,7 +28,7 @@ A pasta de trabalho tem quatro planilhas, e os relatórios abaixo quando se apli
 
 Com um [resumo da proposta](topic:bid-summary), a planilha Orçamento também termina com as suas margens (encargos sobre a mão de obra, impostos sobre vendas, despesas gerais, lucro, garantia e a proposta), como fórmulas ativas.
 
-A planilha Orçamento mantém **fórmulas ativas**: quantidade com perda, os valores arredondados de material e de mão de obra, o total de cada linha e o total da obra. Programas de planilha recalculam essas fórmulas, então você pode alterar um preço unitário ou a perda na planilha e os totais acompanham. Os números que o TakeoffCraft calculou também ficam guardados nas células, e batem até o centavo.
+A planilha Orçamento mantém **fórmulas ativas**: quantidade com perda, os valores arredondados de material e de mão de obra, o total de cada linha e o total da obra. Programas de planilha recalculam essas fórmulas, então você pode alterar um preço unitário ou a perda na planilha e os totais acompanham. Os números que o TakeoffDesk calculou também ficam guardados nas células, e batem até o centavo.
 
 A coluna de notas lista a fórmula de cada componente, erros de fórmula, marcas em folhas sem escala, área de parede e perímetro. Quando algo fica de fora, a linha de total da obra diz "Incompleto: veja as notas acima".
 
@@ -42,7 +42,7 @@ O CSV tem apenas o orçamento; para quantidades por folha e a lista de marcas, u
 
 ## O orçamento no Google Sheets
 
-Acima da tabela de Quantitativos, **Copiar para o Google Sheets** coloca o orçamento na sua área de transferência como texto separado por tabulações, com as mesmas linhas do CSV. Em uma planilha do Google, clique na célula A1 e cole. O TakeoffCraft não entra no Google e não envia nada para lá.
+Acima da tabela de Quantitativos, **Copiar para o Google Sheets** coloca o orçamento na sua área de transferência como texto separado por tabulações, com as mesmas linhas do CSV. Em uma planilha do Google, clique na célula A1 e cole. O TakeoffDesk não entra no Google e não envia nada para lá.
 
 ## Preços faltando e aprovação do orçamento
 

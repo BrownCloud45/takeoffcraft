@@ -272,7 +272,6 @@ for (const f of ['LICENSE', 'PROVENANCE.md', 'TRADEMARKS.md']) fs.copyFileSync(p
 fs.writeFileSync(path.join(ed, 'NOTICE'), kit.notice);
 
 // 7. README, INSTALL, the server helpers and release.json (devshell/edition-docs.php on the site).
-const repoUrl = `https://github.com/getcadcraft/${slug}`;
 const zipName = `${top}.zip`;
 const manifest = readJson(path.join(SRC, 'manifest.json'));
 const iso = ['require-corp', 'credentialless'].includes(String(manifest.isolate ?? '')) ? manifest.isolate : null;
@@ -284,22 +283,22 @@ const threads = !iso ? '' : `## Faster solving (optional)\n\n${app.name} runs wi
   + 'location block. Caddy: `header Cross-Origin-Opener-Policy same-origin` and `header Cross-Origin-Embedder-Policy '
   + `${iso}\`. The one-line test servers cannot send them; that is fine.\n`;
 const fill = (t) => t.replace(/\{\{(name|slug|version|semver|zip|releases|repo|folder|threads)\}\}/g, (m, k) => ({
-  name: app.name, slug, version: label, semver, zip: zipName, releases: `${repoUrl}/releases/tag/${slug}-v${semver}`, repo: repoUrl, folder: top, threads,
+  name: app.name, slug, version: label, semver, zip: zipName, releases: '', repo: '', folder: top, threads,
 }[k]));
 const install = fill(fs.readFileSync(path.join(KIT_DIR, 'INSTALL.md'), 'utf8').split('{{privacy}}').join(kit.privacy)).replace(/\n{3,}/g, '\n\n');
 fs.writeFileSync(path.join(ed, 'INSTALL.md'), install);
 const role = /^[A-Z][a-z]/.test(app.role || '') ? app.role[0].toLowerCase() + app.role.slice(1) : (app.role || '');
 fs.writeFileSync(path.join(ed, 'README.md'), `# ${app.name} ${label}: browser edition\n\n${app.tagline ?? ''}\n\n`
-  + `${app.name} is the ${role} app in the CadCraft family. This folder is the whole app as plain files: `
+  + `${app.name} is a ${role} app. This folder is the whole app as plain files: `
   + `put it on any web server and open it in your browser. ${kit.privacy}\n\n`
-  + `1. **Get it:** the zip \`${zipName}\` from ${repoUrl}/releases, or build this folder from a clone of ${repoUrl} (\`node devshell/edition.mjs\`, see BUILDING.md there).\n`
+  + `1. **Get it:** the zip \`${zipName}\`, or build this folder from a clone of the source (\`node devshell/edition.mjs\`, see BUILDING.md there).\n`
   + '2. **Put it on a web server:** any folder of any web server. On your own computer, run `python3 -m http.server 8000` '
   + '(or `php -S localhost:8000`, or `npx serve .`) inside this folder.\n'
   + '3. **Open it:** the folder\'s address in your browser, for example http://localhost:8000/. Press F1 for help.\n\n'
   + 'Double-clicking `index.html` does not work: browsers do not run apps like this from `file://` addresses. '
   + 'Servers, troubleshooting, updating and removing: see [INSTALL.md](INSTALL.md).\n\n'
   + '## License\n\nApache License 2.0 (`LICENSE`, `NOTICE`). Libraries and their licenses: `THIRD_PARTY.md`. Where our code comes from: `PROVENANCE.md`. '
-  + 'The CadCraft names are trademarks; a fork must use another name ([TRADEMARKS.md](TRADEMARKS.md)).\n\n'
+  + 'Based on TakeoffCraft by The Data Design Group, Inc. ([TRADEMARKS.md](TRADEMARKS.md)).\n\n'
   + '---\n' + kit.trademarkNotice + '\n');
 fs.writeFileSync(path.join(ed, '.htaccess'), `# ${app.name} browser edition: file types some servers do not know (see INSTALL.md).\n`
   + 'AddType application/wasm .wasm\nAddType text/javascript .js\nAddType application/json .json\nAddType font/woff2 .woff2\n'

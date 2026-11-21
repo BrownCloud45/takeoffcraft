@@ -79,7 +79,7 @@ CSV ގައި ހަމަ ކޮލަމްތަކުގައި ސާދާ އަގުތައް ހ�
 | Sheet | ޝީޓުގެ ނަން |
 | Scale | ޕްރީސެޓުގެ ނަން، ނުވަތަ ކަލިބްރޭޓްކުރެވުނު ސްކޭލް، ނުވަތަ "No scale" |
 | How | "Preset"، ނުވަތަ "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | TakeoffCraft ބޭނުންކުރާ ރަނގަޅު ސްކޭލް ފެކްޓަރ |
+| Feet per PDF unit | TakeoffDesk ބޭނުންކުރާ ރަނގަޅު ސްކޭލް ފެކްޓަރ |
 
 ## ފައިލް ނަންތައް
 

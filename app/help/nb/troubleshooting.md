@@ -1,11 +1,11 @@
 ---
 title: Feilsøking
-summary: Symptomer, årsaker og løsninger på meldingene og overraskelsene du kan møte i TakeoffCraft, sitert slik appen viser dem.
+summary: Symptomer, årsaker og løsninger på meldingene og overraskelsene du kan møte i TakeoffDesk, sitert slik appen viser dem.
 keywords: problemer, feil, virker ikke, løsning, hjelp, avvist, måler ikke, ingen skala, manglende markeringer, eksport mislyktes, frakoblet, berøring
 from: cd319c9b
 ---
 
-TakeoffCraft forklarer de fleste avvisninger i statuslinjen nederst i vinduet. Finn meldingen nedenfor.
+TakeoffDesk forklarer de fleste avvisninger i statuslinjen nederst i vinduet. Finn meldingen nedenfor.
 
 ## Åpne filer
 
@@ -15,8 +15,8 @@ TakeoffCraft forklarer de fleste avvisninger i statuslinjen nederst i vinduet. F
 | (navn) er passordbeskyttet. Åpne en kopi uten beskyttelse. | PDF-en krever passord for å åpnes. | Be om en kopi uten beskyttelse, eller fjern passordet i et PDF-program du stoler på. |
 | (navn) kunne ikke leses som en PDF (…) | Filen er skadet eller ikke en ekte PDF. | Last den ned på nytt, eller lagre den på nytt fra programmet som laget den. |
 | (navn) er allerede åpen. | Den samme PDF-en (samme innhold) er åpen. | Ingenting å gjøre. |
-| TakeoffCraft åpner PDF-er og .takeoff.json-prosjekter. Hoppet over: … | Andre filtyper ble fjernet. | Konverter tegninger til PDF først. |
-| Ingenting skjer når jeg slipper filer | Filene ble sluppet utenfor nettleservinduet, eller nettleseren åpnet PDF-en i en ny fane. | Slipp dem på selve TakeoffCraft-siden; rammen «Slipp PDF-er eller en .takeoff.json» viser når det vil fungere. |
+| TakeoffDesk åpner PDF-er og .takeoff.json-prosjekter. Hoppet over: … | Andre filtyper ble fjernet. | Konverter tegninger til PDF først. |
+| Ingenting skjer når jeg slipper filer | Filene ble sluppet utenfor nettleservinduet, eller nettleseren åpnet PDF-en i en ny fane. | Slipp dem på selve TakeoffDesk-siden; rammen «Slipp PDF-er eller en .takeoff.json» viser når det vil fungere. |
 | Åpning av et stort sett tar en stund | Hver PDF leses i sin helhet for å identifisere den. | Vent til meldingen «Åpner (navn)…» forsvinner. Miniatyrbildene fylles inn når du ruller. |
 
 ## Måling
@@ -47,7 +47,7 @@ TakeoffCraft forklarer de fleste avvisninger i statuslinjen nederst i vinduet. F
 | Melding eller symptom | Årsak | Løsning |
 |---|---|---|
 | Velg to punkter som ligger lenger fra hverandre. | Kalibreringspunktene ligger nesten oppå hverandre. | Kalibrer på et lengre mål. |
-| En melding i kalibreringsdialogen, for eksempel «That distance could not be read» | Avstanden er i en form TakeoffCraft ikke kan lese. | Se [Oppføring av lengde, pris og prosent](topic:entry-formats). |
+| En melding i kalibreringsdialogen, for eksempel «That distance could not be read» | Avstanden er i en form TakeoffDesk ikke kan lese. | Se [Oppføring av lengde, pris og prosent](topic:entry-formats). |
 | Dette arket har ingen skala ennå, så det er ingenting å kontrollere. Kalibrer det, eller velg et forvalg. | {{ui:Kontroller}} på et ark uten skala. | Sett en skala først. |
 | Listen {{ui:Forvalg}} er nedtonet | Ingen ark er åpent. | Åpne en PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft forklarer de fleste avvisninger i statuslinjen nederst i vinduet. F
 | Denne PDF-en er passordbeskyttet eller kryptert, så en markert kopi kan ikke skrives. … | PDF-en er kryptert. | Eksporter {{ui:XLSX}} i stedet, eller bruk en ukryptert kopi av PDF-en (den trenger da et eget mengdeuttak, siden det er en annen fil). |
 | Den markerte PDF-en kunne ikke skrives: … | Ofte: frakoblet, og appen ble ikke lagret for frakoblet bruk, så PDF-skriveren mangler. | Gå på nett og velg {{ui:Markert PDF}} igjen. For å unngå det, velg {{ui:Lagre for frakoblet bruk}} og vent på {{ui:Klar frakoblet}}. |
 | Bare én markert PDF ble lastet ned | Nettleseren blokkerte flere nedlastinger samtidig. | Tillat flere nedlastinger for dette nettstedet, og eksporter på nytt. |
-| (fil) er ikke et TakeoffCraft-prosjekt (den er ikke gyldig JSON). / Dette er ikke en TakeoffCraft-prosjektfil. | Feil fil, eller en skadet en. | Velg `.takeoff.json`-filen. |
-| Dette prosjektet ble lagret av en nyere TakeoffCraft. Åpne det der. | Filen kommer fra en nyere versjon. | Åpne den i den nyere versjonen. |
+| (fil) er ikke et TakeoffDesk-prosjekt (den er ikke gyldig JSON). / Dette er ikke en TakeoffDesk-prosjektfil. | Feil fil, eller en skadet en. | Velg `.takeoff.json`-filen. |
+| Dette prosjektet ble lagret av en nyere TakeoffDesk. Åpne det der. | Filen kommer fra en nyere versjon. | Åpne den i den nyere versjonen. |
 | (n) markeringer ble skadet og utelatt. | Deler av filen ble skadet eller endret for hånd. | Resten ble åpnet. Tegn de manglende markeringene på nytt, eller åpne en eldre kopi. |
 | Markeringer mangler etter gjenåpning | PDF-ene er ikke åpne, eller en av dem har endret seg. | Se [Lagre og gjenåpne et mengdeuttak](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Nettleseren spør «Leave site?» | Det finnes ulagrede endringer. | Bli, og lagre med {{key:Mod+S}}. |

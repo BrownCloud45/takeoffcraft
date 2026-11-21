@@ -77,7 +77,7 @@ Una fila por cada plano que tenga escala o marcas.
 | Plano | Nombre del plano |
 | Escala | El nombre del ajuste predefinido, la escala calibrada, o "Sin escala" |
 | Cómo | "Predefinida", o "Calibrada con (la distancia que escribió)" |
-| Pies por unidad de PDF | El factor de escala exacto que usa TakeoffCraft |
+| Pies por unidad de PDF | El factor de escala exacto que usa TakeoffDesk |
 
 ## Nombres de archivo
 

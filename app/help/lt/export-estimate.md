@@ -28,7 +28,7 @@ Sąsiuvinyje yra keturi darbalapiai, o toliau – ataskaitos, kai jos taikomos:
 
 Su [pasiūlymo santrauka](topic:bid-summary) sąmatos darbalapis baigiasi ir jos antkainiais (darbo sąnaudų antkainis, pardavimo mokestis, bendrosios išlaidos, pelnas, garantija ir pasiūlymas) kaip veikiančiomis formulėmis.
 
-Sąmatos darbalapis išlaiko **veikiančias formules**: kiekis su atliekomis, suapvalintos medžiagų ir darbo sumos, kiekvienos eilutės viso ir bendra suma. Skaičiuoklių programos jas perskaičiuoja, todėl galite pakeisti normą ar atliekas skaičiuoklėje, ir sumos atsinaujins. TakeoffCraft apskaičiuoti skaičiai taip pat įrašomi į langelius ir sutampa iki cento.
+Sąmatos darbalapis išlaiko **veikiančias formules**: kiekis su atliekomis, suapvalintos medžiagų ir darbo sumos, kiekvienos eilutės viso ir bendra suma. Skaičiuoklių programos jas perskaičiuoja, todėl galite pakeisti normą ar atliekas skaičiuoklėje, ir sumos atsinaujins. TakeoffDesk apskaičiuoti skaičiai taip pat įrašomi į langelius ir sutampa iki cento.
 
 Pastabų stulpelyje išvardytos kiekvieno komponento formulės, formulių klaidos, žymos lapuose be mastelio, sienos plotas ir perimetras. Kai ką nors praleidžiama, bendros sumos eilutėje rašoma „Neišsamu: žr. pastabas aukščiau“.
 
@@ -42,7 +42,7 @@ CSV faile yra tik sąmata; kiekiams pagal lapą ir žymų sąrašui naudokite XL
 
 ## Sąmata Google Sheets
 
-Virš kiekių lentelės **Kopijuoti Google Sheets** įdeda sąmatą į iškarpinę kaip tabuliacija atskirtą tekstą, su tomis pačiomis eilutėmis kaip CSV. Google Sheets lape spustelėkite langelį A1 ir įklijuokite. TakeoffCraft neprisijungia prie Google ir ten nieko nesiunčia.
+Virš kiekių lentelės **Kopijuoti Google Sheets** įdeda sąmatą į iškarpinę kaip tabuliacija atskirtą tekstą, su tomis pačiomis eilutėmis kaip CSV. Google Sheets lape spustelėkite langelį A1 ir įklijuokite. TakeoffDesk neprisijungia prie Google ir ten nieko nesiunčia.
 
 ## Trūkstamos normos ir sąmatos patvirtinimas
 

@@ -19,9 +19,9 @@ Under **Mängder › Per post** har en rad som har en mängd men inget material-
 2. Dialogrutan anger summan du signerar och listar raderna utan pris. Skriv ditt namn och, om du vill, din roll.
 3. Klicka på **Signera**. Fältet säger nu "Signerad av … den …" med summan. Spara avtagningen för att behålla signeringen i filen.
 
-Signeringen gäller de siffror du signerade. Varje senare ändring av en mängd, ett pris eller en rad rensar den, och TakeoffCraft säger till. Ångra återställer kalkylen du signerade, och dess signering med den. Att byta namn på en rad är inte en ändring av en siffra. **Ta bort signeringen** tar bort den.
+Signeringen gäller de siffror du signerade. Varje senare ändring av en mängd, ett pris eller en rad rensar den, och TakeoffDesk säger till. Ångra återställer kalkylen du signerade, och dess signering med den. Att byta namn på en rad är inte en ändring av en siffra. **Ta bort signeringen** tar bort den.
 
-En avtagningsfil som redigerats utanför TakeoffCraft efter att den signerats öppnas utan signeringen, med en anteckning om det. Den exporterade kalkylen (CSV och XLSX) anger signeringen under summorna.
+En avtagningsfil som redigerats utanför TakeoffDesk efter att den signerats öppnas utan signeringen, med en anteckning om det. Den exporterade kalkylen (CSV och XLSX) anger signeringen under summorna.
 
 Bara en person kan signera. En AI-assistent kan läsa om kalkylen är signerad och vilka priser som saknas; den kan inte signera.
 

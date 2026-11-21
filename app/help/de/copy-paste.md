@@ -32,11 +32,11 @@ Eingefügte Markierungen kommen in den Angebotsbereich, der oben im Bedienfeld {
 
 {{key:Mod+Shift+V}} ({{ui:An gleicher Position einfügen}}) setzt die Kopie genau an dieselbe Stelle auf dem geöffneten Blatt, nach ihrer Lage auf der Seite. Verwenden Sie es für ein typisches Geschoss: Nehmen Sie Geschoss 2 auf, kopieren Sie, öffnen Sie Geschoss 3 und fügen Sie an gleicher Position ein.
 
-An gleicher Position einfügen braucht ein Blatt **derselben Größe** wie das, von dem Sie kopiert haben. Auf einem Blatt anderer Größe sagt TakeoffCraft das und fügt nichts ein; verwenden Sie stattdessen {{ui:Einfügen}} und klicken Sie. Auf dem Blatt, von dem Sie kopiert haben, landet die Kopie über den Originalen.
+An gleicher Position einfügen braucht ein Blatt **derselben Größe** wie das, von dem Sie kopiert haben. Auf einem Blatt anderer Größe sagt TakeoffDesk das und fügt nichts ein; verwenden Sie stattdessen {{ui:Einfügen}} und klicken Sie. Auf dem Blatt, von dem Sie kopiert haben, landet die Kopie über den Originalen.
 
 ## Der Maßstab muss übereinstimmen
 
-Längen und Flächen hängen vom Maßstab des Blattes ab. Eine Strecke, die bei 1/4" = 1'-0" 10' misst, würde auf einem Blatt mit 1/8" = 1'-0" 20' messen. Deshalb fügt TakeoffCraft Strecken und Flächen nur auf einem Blatt mit **demselben Maßstab** wie dem Blatt ein, von dem sie stammen, und sagt klar, wenn das nicht zutrifft:
+Längen und Flächen hängen vom Maßstab des Blattes ab. Eine Strecke, die bei 1/4" = 1'-0" 10' misst, würde auf einem Blatt mit 1/8" = 1'-0" 20' messen. Deshalb fügt TakeoffDesk Strecken und Flächen nur auf einem Blatt mit **demselben Maßstab** wie dem Blatt ein, von dem sie stammen, und sagt klar, wenn das nicht zutrifft:
 
 - Das geöffnete Blatt hat noch keinen Maßstab: Geben Sie ihm zuerst einen ([Maßstab festlegen](topic:set-the-scale)), dann fügen Sie ein.
 - Das geöffnete Blatt hat einen anderen Maßstab: Die Meldung nennt beide Maßstäbe. Fügen Sie auf einem Blatt mit demselben Maßstab ein.
@@ -59,7 +59,7 @@ Der Positionseditor (unter **Positionen**) endet mit:
 - {{ui:Position duplizieren}}: fügt sofort eine Kopie hinzu, benannt „(Name) (Kopie)“.
 
 :::tip
-Die Kopie bleibt auf diesem Computer: Sie wird in diesem Tab und im Speicher des Browsers gehalten, sodass ein anderer TakeoffCraft-Tab sie einfügen kann. Nichts wird hochgeladen, und die Zwischenablage des Systems wird nicht verwendet, daher lassen sich keine Markierungen in andere Programme einfügen.
+Die Kopie bleibt auf diesem Computer: Sie wird in diesem Tab und im Speicher des Browsers gehalten, sodass ein anderer TakeoffDesk-Tab sie einfügen kann. Nichts wird hochgeladen, und die Zwischenablage des Systems wird nicht verwendet, daher lassen sich keine Markierungen in andere Programme einfügen.
 :::
 
 :::note

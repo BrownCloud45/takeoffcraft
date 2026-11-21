@@ -39,4 +39,4 @@ Cada item também traz seu número CSI MasterFormat, como `09 21 16`.
 
 {{ui:Exportar como pacote…}} na biblioteca a salva como um arquivo de pacote (`.ccpack.json`) que qualquer pessoa pode adicionar com {{ui:Abrir um arquivo de pacote…}}. Por padrão, ela deixa de fora os itens vindos de pacotes que você adicionou, e não leva preços. Marque {{ui:Incluir meus preços como preços de exemplo}} para enviar também os seus preços: eles vão identificados com a região e a data que você informar, e quem adicionar o pacote decide se quer usá-los.
 
-Arquivos de pacote são apenas dados, nunca programas. O TakeoffCraft verifica cada parte de um arquivo antes de usá-lo e deixa de fora o que não consegue ler.
+Arquivos de pacote são apenas dados, nunca programas. O TakeoffDesk verifica cada parte de um arquivo antes de usá-lo e deixa de fora o que não consegue ler.

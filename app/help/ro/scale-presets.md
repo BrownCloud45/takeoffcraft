@@ -49,4 +49,4 @@ O scară calibrată apare ca „Calibrată 1” = 4.002' pe 24'-6"" în bara de 
 
 ## PDF-uri neobișnuite
 
-Unele PDF-uri declară o unitate de pagină mai mare („unitate utilizator”); TakeoffCraft o ia în calcul pentru presetări și pentru scara afișată. Paginile rotite în PDF sunt măsurate la fel ca cele drepte.
+Unele PDF-uri declară o unitate de pagină mai mare („unitate utilizator”); TakeoffDesk o ia în calcul pentru presetări și pentru scara afișată. Paginile rotite în PDF sunt măsurate la fel ca cele drepte.

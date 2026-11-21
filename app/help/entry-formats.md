@@ -1,6 +1,6 @@
 ---
 title: Length, rate and percent entry
-summary: What you can type for distances, heights, money rates and waste percentages, with examples and the messages for input TakeoffCraft cannot read.
+summary: What you can type for distances, heights, money rates and waste percentages, with examples and the messages for input TakeoffDesk cannot read.
 section: reference
 order: 20
 keywords: input, format, feet inches, fractions, decimal feet, metric, meters, millimeters, rate, money, dollars, percent, waste, typing
@@ -83,7 +83,7 @@ Up to two decimals, from 0% to 1000%. Messages: "Type a percentage like 10 or 7.
 ## Names and units
 
 - Item and component names: up to 200 characters.
-- A component's {{ui:Unit}}: any text up to 20 characters, like `EA`, `sheets`, `CY`, `gal`. It is a label only; TakeoffCraft does not convert it.
+- A component's {{ui:Unit}}: any text up to 20 characters, like `EA`, `sheets`, `CY`, `gal`. It is a label only; TakeoffDesk does not convert it.
 
 ## Formulas
 

@@ -5,7 +5,7 @@ keywords: abrir, conjunto de plantas, vários pdfs, múltiplos arquivos, folhas,
 from: ed434468
 ---
 
-Um conjunto de plantas costuma ser composto de vários PDFs: arquitetônico, estrutural, mecânico. O TakeoffCraft os abre lado a lado como uma única lista de folhas, e um levantamento pode cobrir todos eles.
+Um conjunto de plantas costuma ser composto de vários PDFs: arquitetônico, estrutural, mecânico. O TakeoffDesk os abre lado a lado como uma única lista de folhas, e um levantamento pode cobrir todos eles.
 
 ## Abrir os PDFs
 
@@ -14,14 +14,14 @@ Um conjunto de plantas costuma ser composto de vários PDFs: arquitetônico, est
 3. Escolha Abrir.
    Uma mensagem "Abrindo (nome)…" aparece enquanto cada arquivo é lido. Em seguida, cada página aparece em {{ui:Sheets}} e a primeira página do primeiro PDF novo é aberta.
 
-Você também pode arrastar os PDFs de {{pick:mac=Finder|windows=Explorador de Arquivos|linux=seu gerenciador de arquivos}} e soltá-los em qualquer lugar do TakeoffCraft. Uma moldura "Solte PDFs, desenhos DWG ou DXF, ou um .takeoff.json" aparece enquanto você arrasta.
+Você também pode arrastar os PDFs de {{pick:mac=Finder|windows=Explorador de Arquivos|linux=seu gerenciador de arquivos}} e soltá-los em qualquer lugar do TakeoffDesk. Uma moldura "Solte PDFs, desenhos DWG ou DXF, ou um .takeoff.json" aparece enquanto você arrasta.
 
 Para adicionar mais PDFs depois, faça o mesmo de novo. PDFs que já estão abertos são ignorados.
 
 A tela inicial também lista os PDFs e levantamentos abertos recentemente, em navegadores que permitem a uma página abrir um arquivo novamente (Chrome e Edge). Clique em um deles para abri-lo; o navegador pode pedir permissão antes. Veja [Seus arquivos](common:your-files).
 
 :::note
-Nada é enviado. O navegador lê os PDFs no seu computador, e eles saem do TakeoffCraft quando você fecha a aba ou escolhe {{ui:New}}.
+Nada é enviado. O navegador lê os PDFs no seu computador, e eles saem do TakeoffDesk quando você fecha a aba ou escolhe {{ui:New}}.
 :::
 
 ## Desenhos junto com PDFs
@@ -30,7 +30,7 @@ Nada é enviado. O navegador lê os PDFs no seu computador, e eles saem do Takeo
 
 ## Um PDF transferido de outro aplicativo
 
-Outro aplicativo da mesma família pode lhe passar o PDF que tem aberto: ele abre o TakeoffCraft em uma nova aba, e o PDF abre ali como se você tivesse soltado nele. A barra de status diz "Aberto (nome), transferido de (aplicativo). O arquivo original não foi alterado." Nada é enviado; o arquivo passa pelo armazenamento próprio deste navegador e sai dele assim que é aberto.
+Outro aplicativo da mesma família pode lhe passar o PDF que tem aberto: ele abre o TakeoffDesk em uma nova aba, e o PDF abre ali como se você tivesse soltado nele. A barra de status diz "Aberto (nome), transferido de (aplicativo). O arquivo original não foi alterado." Nada é enviado; o arquivo passa pelo armazenamento próprio deste navegador e sai dele assim que é aberto.
 
 Se a barra de status disser que o PDF "não chegou", a aba esperou tempo demais, ou o PDF já estava aberto em outra aba: abra-o com {{ui:Open plans}}.
 

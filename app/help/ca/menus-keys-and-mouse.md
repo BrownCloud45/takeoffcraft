@@ -5,22 +5,22 @@ keywords: estil de menú, menús, barra de menús, cinta, pestanyes de la cinta,
 from: f01f0d6d
 ---
 
-Les ordres de TakeoffCraft són les mateixes per on s'hi arribi. Un **estil de menús** només decideix on es troben a la pantalla, com es diuen i quines tecles les executen. Trieu-ne un a {{ui:Configuració}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menús, tecles i ratolí}}; el canvi és immediat, i aquest navegador el recorda.
+Les ordres de TakeoffDesk són les mateixes per on s'hi arribi. Un **estil de menús** només decideix on es troben a la pantalla, com es diuen i quines tecles les executen. Trieu-ne un a {{ui:Configuració}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menús, tecles i ratolí}}; el canvi és immediat, i aquest navegador el recorda.
 
 ## Els tres estils
 
 | Estil | Què obteniu |
 |---|---|
-| {{ui:TakeoffCraft}} | La barra d'eines pròpia de TakeoffCraft: Fitxer, Exporta, Escala, Amidament, Edita i Vista, amb les tecles d'eina d'una sola lletra. El punt de partida. |
+| {{ui:TakeoffDesk}} | La barra d'eines pròpia de TakeoffDesk: Fitxer, Exporta, Escala, Amidament, Edita i Vista, amb les tecles d'eina d'una sola lletra. El punt de partida. |
 | {{ui:Taula d'amidament}} | Una barra de menús ({{ui:Fitxer}}, {{ui:Edita}}, {{ui:Vista}}, {{ui:Escala}}, {{ui:Amidament}}, {{ui:Elements}}, {{ui:Marques}}, {{ui:Exporta}}) sobre una fila d'eines d'amidament, com les disposen els programes d'amidament en pantalla. A la fila, els elements es diuen condicions. Les mateixes tecles, més {{key:N}} per a un element nou. Els preus predefinits de l'escala passen a la barra del full, al costat de l'escala del full. |
 | {{ui:Cinta d'amidament}} | Pestanyes de cinta amb noms segons la feina: {{ui:Amidament}} (mesurar, donar forma, escala, des del dibuix, condicions), {{ui:Edita}}, {{ui:Vista}}, {{ui:Marques}} i {{ui:Pressupost}} (el llibre de treball, els PDF marcats, l'oferta), amb un menú {{ui:Fitxer}} i una fila ràpida per obrir, desar, desfer i refer. Les eines que feu servir tot el dia són grans, i les veïnes, petites i apilades. Les mateixes tecles; els preus predefinits de l'escala passen a la barra del full. |
 
-Els tres estils mantenen les tecles de TakeoffCraft: {{key:V}} selecciona, {{key:L}} lineal, {{key:A}} àrea, {{key:O}} cercle, {{key:B}} sala, {{key:P}} camí (selecciona les línies del PDF), {{key:X}} tall, {{key:C}} recompte, {{key:S}} recompte automàtic, {{key:K}} calibra, {{key:D}} comprova, {{key:R}} mode d'arc, {{key:E}} mode de deducció, {{key:F}} i {{key:W}} per ajustar, {{key:3}} la vista de comprovació 3D, {{key:F3}} ajust, i {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Els tres estils mantenen les tecles de TakeoffDesk: {{key:V}} selecciona, {{key:L}} lineal, {{key:A}} àrea, {{key:O}} cercle, {{key:B}} sala, {{key:P}} camí (selecciona les línies del PDF), {{key:X}} tall, {{key:C}} recompte, {{key:S}} recompte automàtic, {{key:K}} calibra, {{key:D}} comprova, {{key:R}} mode d'arc, {{key:E}} mode de deducció, {{key:F}} i {{key:W}} per ajustar, {{key:3}} la vista de comprovació 3D, {{key:F3}} ajust, i {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Les eines de la barra del full (notes, núvols, ressaltats, Compara, 3D) esperen fins que hi hagi un PDF obert; si les trieu abans, la línia d'estat ho indica.
 
 :::tip
-Una tecla que pertany a la disposició pròpia de TakeoffCraft però que el vostre estil ha assignat a una altra ordre no fa res, i la línia d'estat indica on ha anat la seva ordre ("A Les meves tecles, Recompte és Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} i les fletxes mantenen sempre el seu significat. Mentre dibuixeu un tram o un contorn, enganxeu o reviseu un recompte automàtic, les lletres i els números d'una longitud escrita es queden amb el dibuix.
+Una tecla que pertany a la disposició pròpia de TakeoffDesk però que el vostre estil ha assignat a una altra ordre no fa res, i la línia d'estat indica on ha anat la seva ordre ("A Les meves tecles, Recompte és Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} i les fletxes mantenen sempre el seu significat. Mentre dibuixeu un tram o un contorn, enganxeu o reviseu un recompte automàtic, les lletres i els números d'una longitud escrita es queden amb el dibuix.
 :::
 
 ## Feu-lo a la vostra mida
@@ -41,12 +41,12 @@ Desar un estil integrat en fa una còpia pròpia ("La meva taula d'amidament"); 
 
 ## Porteu-lo amb vosaltres
 
-{{ui:Exporta}} desa l'estil en ús com un fitxer petit `.ccinput.json`; {{ui:Importa…}} n'afegeix un, des d'un altre ordinador o d'un company. Un fitxer importat només pot apuntar a les ordres pròpies de TakeoffCraft: qualsevol altra cosa que hi hagi es deixa de banda i es compta a la línia d'estat. {{ui:Suprimeix aquest estil}} elimina un dels vostres.
+{{ui:Exporta}} desa l'estil en ús com un fitxer petit `.ccinput.json`; {{ui:Importa…}} n'afegeix un, des d'un altre ordinador o d'un company. Un fitxer importat només pot apuntar a les ordres pròpies de TakeoffDesk: qualsevol altra cosa que hi hagi es deixa de banda i es compta a la línia d'estat. {{ui:Suprimeix aquest estil}} elimina un dels vostres.
 
 :::note
-Aquests ajustos es queden en aquest navegador. {{ui:Usa aquest estil a totes les aplicacions}} sota les targetes d'estil fa que cada aplicació s'obri amb el seu estil corresponent (la seva pròpia barra d'eines, una barra de menús o una cinta), amb els canvis que hi heu fet a cadascuna. TakeoffCraft no té cap estil amb línia d'ordres: quan se'n tria un per a totes les aplicacions, TakeoffCraft manté la seva pròpia barra d'eines.
+Aquests ajustos es queden en aquest navegador. {{ui:Usa aquest estil a totes les aplicacions}} sota les targetes d'estil fa que cada aplicació s'obri amb el seu estil corresponent (la seva pròpia barra d'eines, una barra de menús o una cinta), amb els canvis que hi heu fet a cadascuna. TakeoffDesk no té cap estil amb línia d'ordres: quan se'n tria un per a totes les aplicacions, TakeoffDesk manté la seva pròpia barra d'eines.
 
-La {{ui:Cinta d'amidament}} també és la cinta de la disposició {{ui:Cinta i navegador de projecte}} ({{ui:Configuració}} › {{ui:Global}} › {{ui:Disposició}}): vegeu [La pantalla de TakeoffCraft](topic:workspace).
+La {{ui:Cinta d'amidament}} també és la cinta de la disposició {{ui:Cinta i navegador de projecte}} ({{ui:Configuració}} › {{ui:Global}} › {{ui:Disposició}}): vegeu [La pantalla de TakeoffDesk](topic:workspace).
 :::
 
-Relacionat: [Teclat i ratolí](topic:keyboard) · [Configuració de TakeoffCraft](topic:settings) · [Des d'altre programari d'amidament](topic:coming-from)
+Relacionat: [Teclat i ratolí](topic:keyboard) · [Configuració de TakeoffDesk](topic:settings) · [Des d'altre programari d'amidament](topic:coming-from)

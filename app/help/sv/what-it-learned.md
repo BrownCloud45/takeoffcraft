@@ -1,11 +1,11 @@
 ---
 title: Vad den har lärt sig av dina mängdavtagningar
-summary: TakeoffCraft sparar symbolerna du bekräftade med Autoräkna, dina villkorsuppsättningar, kalkylsammansättningarna du använder mest och mönster du upprepar på varje sida, allt i mängdavtagningens egen fil. Se det, använd det, ta bort det.
+summary: TakeoffDesk sparar symbolerna du bekräftade med Autoräkna, dina villkorsuppsättningar, kalkylsammansättningarna du använder mest och mönster du upprepar på varje sida, allt i mängdavtagningens egen fil. Se det, använd det, ta bort det.
 keywords: lär, inlärt, inlärning, assistent, kom ihåg, symboler, mallar, som förra jobbet, förra jobbet, villkorsuppsättning, villkor, återanvänd, kalkylsammansättningar, mest använda, förslag, upprepa på varje sida, varje sida, ritningshuvud, mönster, rensa allt, glöm, integritet
 from: 54d99e99
 ---
 
-TakeoffCraft blir snabbare ju fler mängdavtagningar du gör med det. Det lär sig **bara av sånt du godkänner**:
+TakeoffDesk blir snabbare ju fler mängdavtagningar du gör med det. Det lär sig **bara av sånt du godkänner**:
 
 - symbolerna du markerade med [Autoräkna](topic:auto-count) och sedan lade till,
 - villkorsuppsättningarna du sparar,
@@ -64,6 +64,6 @@ För att sluta lära i en mängdavtagning, avmarkera {{ui:Lär av den här mäng
 
 ## Bra att veta
 
-- Äldre versioner av TakeoffCraft öppnar en fil med inlärda saker som vanligt. De ignorerar den delen, och tar bort den om de sparar filen igen.
+- Äldre versioner av TakeoffDesk öppnar en fil med inlärda saker som vanligt. De ignorerar den delen, och tar bort den om de sparar filen igen.
 - En inlärd symbol är en liten bild av det du markerade, sparad i filen (några kilobyte vardera).
 - Inlärda symboler söks som Autoräkna söker, så samma begränsningar gäller: [Autoräkna en symbol](topic:auto-count).

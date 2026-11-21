@@ -90,7 +90,7 @@ export class TakeoffView3D {
     this.ro = new ResizeObserver(() => this.resize());
     this.ro.observe(host);
     this.bindInput();
-    // corner indicator (Settings › TakeoffCraft): ModelCraft's view cube (top right) or the X/Y/Z axis icon (bottom left)
+    // corner indicator (Settings › TakeoffDesk): ModelCraft's view cube (top right) or the X/Y/Z axis icon (bottom left)
     // the cube's words come from the language file (viewcube.* keys; docs/apps/viewcube.md § Language keys)
     this.cubeOpts = { ...cameraCubeOptions(this.cam, { invalidate: () => this.invalidate(), home: () => this.standard('iso') }), i18n: { t, has } };
     this.cube = mountViewCube(host, this.cubeOpts);

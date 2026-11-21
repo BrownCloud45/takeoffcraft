@@ -5,7 +5,7 @@ keywords: grondwerk, uitgrawing, afgrawing, ophoging, afgrawing en ophoging, gel
 from: a898e508
 ---
 
-TakeoffCraft meet wat op 'n blad geteken is. Grondwerk benodig 'n grondoppervlak, daarom word dit gedeel met CivilCraft, wat oppervlaktes uit punte bou, dit gradeer en afgrawing, ophoging en vervoer bereken.
+TakeoffDesk meet wat op 'n blad geteken is. Grondwerk benodig 'n grondoppervlak, daarom word dit gedeel met CivilCraft, wat oppervlaktes uit punte bou, dit gradeer en afgrawing, ophoging en vervoer bereken.
 
 ## Eenvoudige uitgrawing hier
 
@@ -29,8 +29,8 @@ Punte van verskillende blaaie deel nie koördinate nie, so die uitvoer neem sleg
 
 CivilCraft se grondwerk kom terug as twee items wat jy kan prys:
 
-1. In CivilCraft, gradeer jou plekke en korridors, en kies {{ui:Stuur na TakeoffCraft}} onder **Grondwerk** ([Grondwerkvolumes](app:civilcraft/volumes)). Dit stoor 'n hoeveelhedelêer (`.quantities.json`).
-2. In TakeoffCraft, maak dit oop met {{ui:Maak hoeveelheidsopname oop}}, of laat dit op die program val. Jou hoeveelheidsopname bly oop: die lêer voeg **Grondwerk: afgrawing** en **Grondwerk: ophoging** by as [getikte hoeveelhede](topic:create-items#typed-quantities-no-drawing) in kubieke jard (CY) vir 'n voet-projek, of kubieke meter (m³) vir 'n meter-projek. Dit is een stap: {{key:Mod+Z}} neem dit terug.
+1. In CivilCraft, gradeer jou plekke en korridors, en kies {{ui:Stuur na TakeoffDesk}} onder **Grondwerk** ([Grondwerkvolumes](app:civilcraft/volumes)). Dit stoor 'n hoeveelhedelêer (`.quantities.json`).
+2. In TakeoffDesk, maak dit oop met {{ui:Maak hoeveelheidsopname oop}}, of laat dit op die program val. Jou hoeveelheidsopname bly oop: die lêer voeg **Grondwerk: afgrawing** en **Grondwerk: ophoging** by as [getikte hoeveelhede](topic:create-items#typed-quantities-no-drawing) in kubieke jard (CY) vir 'n voet-projek, of kubieke meter (m³) vir 'n meter-projek. Dit is een stap: {{key:Mod+Z}} neem dit terug.
 3. Hernoem hulle en stel afval, tariewe en samestellings soos jy wil.
 
 Wanneer die ontwerp verander, stuur weer vanaf CivilCraft en maak die nuwe lêer oop: dieselfde twee items kry die nuwe hoeveelhede. Hulle name, tariewe, afval en samestellings bly soos jy dit gestel het. As die projek se eenheid verander het, sê die statusbalk dit: kontroleer die tariewe. 'n Lêer van 'n ander CivilCraft-projek voeg sy eie twee items by.

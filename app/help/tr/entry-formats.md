@@ -1,6 +1,6 @@
 ---
 title: Uzunluk, birim fiyat ve yüzde girişi
-summary: Mesafeler, yükseklikler, para birim fiyatları ve fire yüzdeleri için neler yazabileceğiniz; örnekler ve TakeoffCraft'ın okuyamadığı girişler için iletiler.
+summary: Mesafeler, yükseklikler, para birim fiyatları ve fire yüzdeleri için neler yazabileceğiniz; örnekler ve TakeoffDesk'ın okuyamadığı girişler için iletiler.
 keywords: giriş, biçim, fit inç, kesirler, ondalık fit, metrik, metre, milimetre, birim fiyat, para, dolar, yüzde, fire, yazma
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ En fazla iki ondalık, %0 ile %1000 arası. İletiler: "10 veya 7.5 gibi bir yü
 ## Adlar ve birimler
 
 - Kalem ve bileşen adları: en fazla 200 karakter.
-- Bir bileşenin {{ui:Birim}} değeri: en fazla 20 karakterlik herhangi bir metin, ör. `EA`, `sheets`, `CY`, `gal`. Yalnızca bir etikettir; TakeoffCraft dönüştürme yapmaz.
+- Bir bileşenin {{ui:Birim}} değeri: en fazla 20 karakterlik herhangi bir metin, ör. `EA`, `sheets`, `CY`, `gal`. Yalnızca bir etikettir; TakeoffDesk dönüştürme yapmaz.
 
 ## Formüller
 

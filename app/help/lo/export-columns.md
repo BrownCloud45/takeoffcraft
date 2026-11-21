@@ -77,7 +77,7 @@ from: fed07851
 | Sheet | ຊື່ແຜ່ນ |
 | Scale | ຊື່ຂອງ preset, ຫຼື ມາດຕາສ່ວນທີ່ປັບແລ້ວ, ຫຼື "No scale" |
 | How | "Preset", ຫຼື "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | ຕົວຄູນມາດຕາສ່ວນທີ່ແນ່ນອນທີ່ TakeoffCraft ໃຊ້ |
+| Feet per PDF unit | ຕົວຄູນມາດຕາສ່ວນທີ່ແນ່ນອນທີ່ TakeoffDesk ໃຊ້ |
 
 ## ຊື່ໄຟລ໌
 

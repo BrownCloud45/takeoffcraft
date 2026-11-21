@@ -24,7 +24,7 @@ Vælg {{ui:Pr. post}} (standard). Hver post har en række, og hver af dens kompo
 
 Den sidste række, **Jobtotal**, lægger kolonnerne materiale, løn og i alt sammen. Den samme total vises til højre i tabelhovedet.
 
-Skriv i en spild- eller pricelle og tryk {{key:Enter}} eller klik et andet sted for at anvende den. En værdi TakeoffCraft ikke kan læse, omrammes med rødt, og statuslinjen forklarer hvorfor, for eksempel »Skriv et beløb som 12.50.«
+Skriv i en spild- eller pricelle og tryk {{key:Enter}} eller klik et andet sted for at anvende den. En værdi TakeoffDesk ikke kan læse, omrammes med rødt, og statuslinjen forklarer hvorfor, for eksempel »Skriv et beløb som 12.50.«
 
 Klik på en postrække for at markere dens markeringer på alle ark og hoppe til et ark der har dem (det samme som at klikke på den under {{ui:Poster}}).
 

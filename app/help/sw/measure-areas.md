@@ -41,7 +41,7 @@ Chumba kikichorwa kama kuta zilizofungwa, {{ui:Chumba}} ({{key:B}}) hutoa sakafu
 2. Chagua {{ui:Chumba}} kwenye kundi la {{ui:Ukadiriaji}}, au bonyeza {{key:B}}.
 3. Bofya ndani ya chumba, kwenye sakafu iliyo wazi (si kwenye mstari au lebo).
 
-TakeoffCraft husoma mistari ya karatasi, hutafuta nafasi inayozunguka bofya, na kuiainisha kando ya nyuso za ndani za kuta, kama eneo la kipengee cha sasa. Milango yenye upana hadi **4'-0"** huchukuliwa kama imefungwa, kwa hiyo mpaka unakwenda moja kwa moja kuvuka mlango. **Mipangilio › TakeoffCraft › Jaza chumba hufunga fursa hadi** hubadilisha upana huo (3'-0" hadi 8'-0"). Majina ya vyumba, samani na vifaa ndani ya chumba hayafanyi mashimo.
+TakeoffDesk husoma mistari ya karatasi, hutafuta nafasi inayozunguka bofya, na kuiainisha kando ya nyuso za ndani za kuta, kama eneo la kipengee cha sasa. Milango yenye upana hadi **4'-0"** huchukuliwa kama imefungwa, kwa hiyo mpaka unakwenda moja kwa moja kuvuka mlango. **Mipangilio › TakeoffDesk › Jaza chumba hufunga fursa hadi** hubadilisha upana huo (3'-0" hadi 8'-0"). Majina ya vyumba, samani na vifaa ndani ya chumba hayafanyi mashimo.
 
 Inaikataa, ikisema kwa nini, wakati:
 
@@ -62,7 +62,7 @@ Mlango ukiwa mpana kuliko mpangilio, kujaza kunaingia chumba kinachofuata na kua
 
 Kwa shimo la duara, chagua {{ui:Ongeza tundu la duara}} chini ya **Alama iliyochaguliwa**, bofya katikati yake, kisha nukta kwenye ukingo wake.
 
-Shimo lazima likae kikamilifu ndani ya eneo na lisigusane na shimo jingine. Vinginevyo TakeoffCraft inalikataa: "Shimo lazima likae kikamilifu ndani ya eneo." au "Mashimo hayawezi kugusana."
+Shimo lazima likae kikamilifu ndani ya eneo na lisigusane na shimo jingine. Vinginevyo TakeoffDesk inalikataa: "Shimo lazima likae kikamilifu ndani ya eneo." au "Mashimo hayawezi kugusana."
 
 Kuondoa shimo la mwisho, chagua {{ui:Ondoa tundu la mwisho}}.
 
@@ -76,7 +76,7 @@ Shimo moja linahusu alama moja ya eneo. **Back-out** huchorwa mara moja na inato
 
 Kila alama ya eneo ya kipengee kilichowekwa tiki kwenye karatasi hiyo hiyo inapoteza sehemu ambayo back-out inafunika: back-out nzima ikiwa ndani, sehemu inayoingiliana tu ikivuka ukingo, na chochote kilicho ndani ya shimo hakipotei. Jopo la eneo lililochaguliwa linaonyesha **Back-outs** na eneo lililobaki. Kiasi cha kipengee, fomula zake za kusanyiko, gharama, mwonekano wa 3D wa ukaguzi na hamisho zote zinatumia eneo lililobaki; maelezo ya makadirio yanasema back-outs zimetoa kiasi gani. Kipengee cha back-out chenyewe kinahesabu eneo lake (acha gharama zake sifuri usipoziwekea bei).
 
-Back-out lazima iwe **convex**: mstatili, duara au mpaka wowote usio na kona inayoingia ndani. TakeoffCraft inakataa kuchora ile isiyokuwa hivyo; chora shimo la wima lenye umbo la L kama back-outs mbili. Back-outs haziwezi kuwa na mashimo, na back-outs mbili zinazoingiliana zote huhesabiwa.
+Back-out lazima iwe **convex**: mstatili, duara au mpaka wowote usio na kona inayoingia ndani. TakeoffDesk inakataa kuchora ile isiyokuwa hivyo; chora shimo la wima lenye umbo la L kama back-outs mbili. Back-outs haziwezi kuwa na mashimo, na back-outs mbili zinazoingiliana zote huhesabiwa.
 
 Mzingo (`P`) haubadiliki: back-outs hutoa eneo tu.
 

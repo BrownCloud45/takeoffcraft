@@ -33,11 +33,11 @@ Pasted marks go in the bid area chosen at the top of the {{ui:Items}} panel (or 
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) puts the copy at exactly the same spot on the open sheet, by its position on the page. Use it for a typical floor: take off level 2, copy, open level 3, paste in place.
 
-Paste in place needs a sheet the **same size** as the one you copied from. On a sheet of another size TakeoffCraft says so and pastes nothing; use {{ui:Paste}} and click instead. On the sheet you copied from, the copy lands on top of the originals.
+Paste in place needs a sheet the **same size** as the one you copied from. On a sheet of another size TakeoffDesk says so and pastes nothing; use {{ui:Paste}} and click instead. On the sheet you copied from, the copy lands on top of the originals.
 
 ## The scale must match
 
-Lengths and areas depend on the sheet's scale. A run that measures 10' at 1/4" = 1'-0" would measure 20' on a sheet at 1/8" = 1'-0". So TakeoffCraft pastes runs and areas only onto a sheet with the **same scale** as the sheet they came from, and says plainly when it does not:
+Lengths and areas depend on the sheet's scale. A run that measures 10' at 1/4" = 1'-0" would measure 20' on a sheet at 1/8" = 1'-0". So TakeoffDesk pastes runs and areas only onto a sheet with the **same scale** as the sheet they came from, and says plainly when it does not:
 
 - The open sheet has no scale yet: give it one first ([Set the scale](topic:set-the-scale)), then paste.
 - The open sheet has another scale: the message names both scales. Paste on a sheet at the same scale.
@@ -60,7 +60,7 @@ The item editor (under **Items**) ends with:
 - {{ui:Duplicate item}}: adds a copy at once, named "(name) (copy)".
 
 :::tip
-The copy stays on this computer: it is kept in this tab and in the browser's storage, so another TakeoffCraft tab can paste it. Nothing is uploaded, and the system clipboard is not used, so you cannot paste marks into other programs.
+The copy stays on this computer: it is kept in this tab and in the browser's storage, so another TakeoffDesk tab can paste it. Nothing is uploaded, and the system clipboard is not used, so you cannot paste marks into other programs.
 :::
 
 :::note

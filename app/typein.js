@@ -4,7 +4,7 @@
  *
  *   parseEntry(text, ctx) → { ok: true, point: {x, y}, kind } | { ok: false, error: key }
  *
- * What can be typed (lengths as everywhere in TakeoffCraft: 12'-6 1/2", 12.5, 30", 3.2 m; a bare number is feet):
+ * What can be typed (lengths as everywhere in TakeoffDesk: 12'-6 1/2", 12.5, 30", 3.2 m; a bare number is feet):
  *   12'6"          direct distance: that far from the last point, toward the pointer          kind 'dist'
  *   12'6"<30       that far at 30° (counter-clockwise from the screen's right, as you see it)   kind 'polar'
  *   @6',-4'        relative: 6' right and 4' down (as you see it) from the last point          kind 'rel'

@@ -717,7 +717,7 @@ export class Takeoff {
   toJSON(savedAt = new Date().toISOString()) {
     const s = this.state;
     return {
-      format: FORMAT, version: FORMAT_VERSION, app: 'TakeoffCraft', savedAt,
+      format: FORMAT, version: FORMAT_VERSION, app: 'TakeoffDesk', savedAt,
       name: s.name, seq: s.seq,
       files: s.files.map((f) => ({ hash: f.hash, name: f.name, size: f.size, pages: f.pages })),
       sheets: s.sheets,

@@ -5,7 +5,7 @@ keywords: vasvang, osnap, voorwerpvasvang, eindpunt, middelpunt, snypunt, naaste
 from: 41d29e9b
 ---
 
-Die meeste planstelle is vektor-PDF's: hul mure en rande is werklike lyne, nie pixels nie. Terwyl jy meet, vasvang TakeoffCraft jou kliks na daardie lyne, sodat 'n lopie presies by 'n muur se hoek begin en 'n kalibrasie die maat lees wat die tekenaar geteken het, nie die pixel wat jy getref het nie.
+Die meeste planstelle is vektor-PDF's: hul mure en rande is werklike lyne, nie pixels nie. Terwyl jy meet, vasvang TakeoffDesk jou kliks na daardie lyne, sodat 'n lopie presies by 'n muur se hoek begin en 'n kalibrasie die maat lees wat die tekenaar geteken het, nie die pixel wat jy getref het nie.
 
 Vasvang is aan wanneer jy begin. Skakel dit af en aan met {{ui:Vasvang}} in die statusbalk of {{key:F3}}; die instelling word in hierdie blaaier bewaar (dit is ook onder [Instellings](topic:settings)).
 

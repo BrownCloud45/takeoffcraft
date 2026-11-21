@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, çizim, çizim açma, düzenler, model uzayı, kâğıt
 from: d8c3f504
 ---
 
-TakeoffCraft bir DWG ya da DXF çizimini bir PDF gibi açar: önce PDF'e çıktı almanız gerekmez. Doğrudan çizimden sayım kesindir, çünkü çizim her nesnenin ne olduğunu bilir. Bkz. [Çizimden sayma](topic:count-from-a-drawing).
+TakeoffDesk bir DWG ya da DXF çizimini bir PDF gibi açar: önce PDF'e çıktı almanız gerekmez. Doğrudan çizimden sayım kesindir, çünkü çizim her nesnenin ne olduğunu bilir. Bkz. [Çizimden sayma](topic:count-from-a-drawing).
 
 ## Çizimi açın
 
@@ -13,9 +13,9 @@ TakeoffCraft bir DWG ya da DXF çizimini bir PDF gibi açar: önce PDF'e çıkt�
 2. DWG ya da DXF dosyasını seçin. Birden fazla seçebilirsiniz; PDF'leri de birlikte seçebilirsiniz.
 3. Aç'ı seçin.
 
-PDF'lerde olduğu gibi çizim dosyalarını TakeoffCraft'a sürükleyip bırakabilirsiniz. Hiçbir şey yüklenmez: tarayıcı dosyayı bilgisayarınızda okur.
+PDF'lerde olduğu gibi çizim dosyalarını TakeoffDesk'a sürükleyip bırakabilirsiniz. Hiçbir şey yüklenmez: tarayıcı dosyayı bilgisayarınızda okur.
 
-TakeoffCraft, AutoCAD 2000'den 2018'e kadar DWG'yi ve R12'den 2018'e kadar ASCII DXF'yi okur. İkili DXF'yi (ASCII ya da DWG olarak kaydedin) ve bunların hiçbiri olmayan dosyayı reddeder ve nedenini söyler. Hasarlı bir dosya okunabilen kısmıyla açılır ve bir ileti bunu belirtir; sayımları eksik olabilir.
+TakeoffDesk, AutoCAD 2000'den 2018'e kadar DWG'yi ve R12'den 2018'e kadar ASCII DXF'yi okur. İkili DXF'yi (ASCII ya da DWG olarak kaydedin) ve bunların hiçbiri olmayan dosyayı reddeder ve nedenini söyler. Hasarlı bir dosya okunabilen kısmıyla açılır ve bir ileti bunu belirtir; sayımları eksik olabilir.
 
 ## Sayfalar
 
@@ -40,10 +40,10 @@ Sayfa çubuğundaki {{ui:Katmanlar}}, çizimin katmanlarını, her birinin bu sa
 
 ## Bağlı çizimler (xref)
 
-Başka çizimleri bağlayan bir çizim, bunları eklendikleri yerde gösterir. TakeoffCraft bağlı bir çizimi, dosya adına göre, **açık dosyalar** arasında bulur: ev sahibi çizimi ve bağlı çizimini birlikte (ya da birbiri ardından) açın. O zamana kadar durum çubuğu kaç bağlı çizimin bulunamadığını söyler; çizdikleri şey eksiktir ve sayımlar bunu belirtir.
+Başka çizimleri bağlayan bir çizim, bunları eklendikleri yerde gösterir. TakeoffDesk bağlı bir çizimi, dosya adına göre, **açık dosyalar** arasında bulur: ev sahibi çizimi ve bağlı çizimini birlikte (ya da birbiri ardından) açın. O zamana kadar durum çubuğu kaç bağlı çizimin bulunamadığını söyler; çizdikleri şey eksiktir ve sayımlar bunu belirtir.
 
 ## Sınırlar
 
-- TakeoffCraft'ın okuyamadığı ya da yerleştiremediği nesneler (vekil nesneler, bilinmeyen sınıflar) sayım penceresinde türlerine göre listelenir; bir uyarı olmadan asla atılmazlar.
+- TakeoffDesk'ın okuyamadığı ya da yerleştiremediği nesneler (vekil nesneler, bilinmeyen sınıflar) sayım penceresinde türlerine göre listelenir; bir uyarı olmadan asla atılmazlar.
 - Çok büyük çizimler kısmen çizilir ve sayımlar bir üst sınırda durur; bunu belirtir. Bunun yerine böyle bir çizimin PDF çıktısını açın.
 - Çizim siyahla ve kendi renkleriyle, beyaz kâğıt için koyulaştırılarak çizilir. Çıktı stili tabloları ve kalem atamaları uygulanmaz.

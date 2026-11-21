@@ -1,6 +1,6 @@
 ---
 title: Kiiboodhka iyo mouse-ka
-summary: Furayaasha oo dhan, mouse-ka, trackpad-ka iyo falalka taabashada ee TakeoffCraft, oo koox koox ah, iyo kala duwanaanshaha nidaamyada.
+summary: Furayaasha oo dhan, mouse-ka, trackpad-ka iyo falalka taabashada ee TakeoffDesk, oo koox koox ah, iyo kala duwanaanshaha nidaamyada.
 keywords: furayaasha, gaabiyo, kiiboodh, mouse, trackpad, taabasho, guuri, weynee, shubis, midig-riix, labo-riix, space, shift, koobiyee, dhaji, god, nuqul, dooro dhammaan
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Eeg [Hubi xisaabinta qadarka 3D](topic:check-in-3d).
 | Furay | Waxa uu sameeyaa |
 |---|---|
 | {{key:F1}} | Fur ama xir panelka caawimaadda (sidoo kale badhanka {{ui:Caawimaad}} ee bar-ka app). Wuxuu shaqeeyaa qalab kasta, xataa markii aad ku qorayso goob. |
-| {{key:Esc}} | Xir panelka caawimaadda. Sanduuqa raadinta gudihiisa, Esc kowaad wuxuu nadiifiyaa raadinta. Markii panelku furan yahay, Esc ka dib markii la riixay xaashiga ayaa marka hore panelka xiraysa; mar kale riix si aad ugu joojiso TakeoffCraft. |
+| {{key:Esc}} | Xir panelka caawimaadda. Sanduuqa raadinta gudihiisa, Esc kowaad wuxuu nadiifiyaa raadinta. Markii panelku furan yahay, Esc ka dib markii la riixay xaashiga ayaa marka hore panelka xiraysa; mar kale riix si aad ugu joojiso TakeoffDesk. |
 
 :::mac
 Kiiboodhadaha Mac badan safka sare ayaa xakameeya iftiinka iyo codka. Riix fn oo leh F1, ama shid "Isticmaal furayaasha F1, F2 iwm sida furayaasha shaqada caadiga ah" Dejinta nidaamka, hoosta Kiiboodh.
@@ -139,7 +139,7 @@ Kiiboodhadaha Mac badan safka sare ayaa xakameeya iftiinka iyo codka. Riix fn oo
 
 :::mac
 - {{key:Mod}} waa furaha Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Shaashadda buuxda way ka duwan tahay: Control+Shift+F.
-- Midig-riixu waa labo-farood riix trackpad-ka, marka secondary click la shido, Dejinta nidaamka, hoosta Trackpad. TakeoffCraft wuxuu akhrisaa badhanka labaad kaliya; Control-riix waxa laga yaabaa in loo tiriyo riix caadi ah oo barta ku daro.
+- Midig-riixu waa labo-farood riix trackpad-ka, marka secondary click la shido, Dejinta nidaamka, hoosta Trackpad. TakeoffDesk wuxuu akhrisaa badhanka labaad kaliya; Control-riix waxa laga yaabaa in loo tiriyo riix caadi ah oo barta ku daro.
 - Labo farood oo skrol-ka trackpad-ka waxay xaashiga weynaysaa (ma jiidaan). Si aad u guurto, riix oo jiid, ama hay Space oo jiid.
 - Page Up iyo Page Down waa fn oo leh fallaadhaha sare iyo hoose kiiboodhadaha aan lahayn.
 - Backspace waa furaha la sheego delete.
@@ -151,12 +151,12 @@ Kiiboodhadaha Mac badan safka sare ayaa xakameeya iftiinka iyo codka. Riix fn oo
 :::
 
 :::linux
-- {{key:Mod}} waa Ctrl. Desktop-yada qaarkood waxay leeyihiin gaabiyo Ctrl+Alt ama Super oo gaar ah; TakeoffCraft ma isticmaalo midna.
+- {{key:Mod}} waa Ctrl. Desktop-yada qaarkood waxay leeyihiin gaabiyo Ctrl+Alt ama Super oo gaar ah; TakeoffDesk ma isticmaalo midna.
 - Touchpad-ka, labo farood oo skrol ah ayaa xaashiga weynaysa. Si aad u guurto, riix oo jiid.
 :::
 
 :::touch
-TakeoffCraft wuxuu akhrisaa taabashada sida mawshin keli ah:
+TakeoffDesk wuxuu akhrisaa taabashada sida mawshin keli ah:
 
 - Taabasho waxay dhigtaa barta, dooraysa calaamad ama ku darta dhibic tiro.
 - Jiid hal farood ah wuxuu guuraa xaashiga (ku jira {{ui:Tirin otomaatig ah}} wuxuu sawiraa sanduuqa raadinta).
@@ -169,7 +169,7 @@ Kiiboodh iyo mouse ama trackpad ayaa maanta xisaabinta qadarka ugu fiican.
 
 ## Furayaasha browser-ku hayo
 
-Browser-yadu waxay hayaan gaabiyo qaar oo bog ma isticmaali karo: xidhidda tab-ka ({{key:Mod+W}}), tab ama daaqad cusub ({{key:Mod+T}}, {{key:Mod+N}}), iyo weynaynta browser-ka ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Sidaas daraadeed TakeoffCraft xaashiga wuxuu weynaysiiyaa mawshinka iyo furayaasha keligood {{key:Plus}} iyo {{key:Minus}}. Haddii aad si khalad ah u riixdo {{key:Mod+Plus}}, bogga oo dhan ayaa weynaanaya; {{key:Mod+0}} ayaa soo celinaysa. Eeg [Furayaasha, mouse-yada iyo trackpad-yada](common:keys).
+Browser-yadu waxay hayaan gaabiyo qaar oo bog ma isticmaali karo: xidhidda tab-ka ({{key:Mod+W}}), tab ama daaqad cusub ({{key:Mod+T}}, {{key:Mod+N}}), iyo weynaynta browser-ka ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Sidaas daraadeed TakeoffDesk xaashiga wuxuu weynaysiiyaa mawshinka iyo furayaasha keligood {{key:Plus}} iyo {{key:Minus}}. Haddii aad si khalad ah u riixdo {{key:Mod+Plus}}, bogga oo dhan ayaa weynaanaya; {{key:Mod+0}} ayaa soo celinaysa. Eeg [Furayaasha, mouse-yada iyo trackpad-yada](common:keys).
 
 ## Meesha ay Guuri ku taal
 

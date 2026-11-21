@@ -1,6 +1,6 @@
 ---
 title: Numărare totală în set
-summary: Încadrați o dată o legendă de simboluri, iar TakeoffCraft numără fiecare simbol din ea pe fiecare foaie deschisă, într-o singură rulare. Fiecare numărare este o legătură către foaia sa, iar verificarea se face înainte ca ceva să fie adăugat.
+summary: Încadrați o dată o legendă de simboluri, iar TakeoffDesk numără fiecare simbol din ea pe fiecare foaie deschisă, într-o singură rulare. Fiecare numărare este o legătură către foaia sa, iar verificarea se face înainte ca ceva să fie adăugat.
 keywords: numărare totală, legendă, legendă de simboluri, set complet, fiecare foaie, toate foile, fiecare ușă, fiecare corp, dispozitive, tabel, simboluri, numărare automată, numărare toate, set de planuri, 200 de foi, nivel de potrivire, asemănător
 from: adc99744
 ---

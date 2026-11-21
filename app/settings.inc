@@ -1,8 +1,8 @@
 <?php
 // SPDX-License-Identifier: Apache-2.0
 /**
- * settings.inc — TakeoffCraft's own panel of the Settings dialog (core/components/app-settings.inc includes it,
- * as the "TakeoffCraft" tab). takeoffcraft.js reads and stores the fields (localStorage takeoffcraft.settings),
+ * settings.inc — TakeoffDesk's own panel of the Settings dialog (core/components/app-settings.inc includes it,
+ * as the "TakeoffDesk" tab). takeoffcraft.js reads and stores the fields (localStorage takeoffcraft.settings),
  * fills them in each time the dialog opens, and resets them on "cc-settings-reset".
  *   tcLenShow    how lengths read: follow (the metric unit starred in Global › Units, else feet-inches; default) / ftin / m / cm / mm — display only
  *   tcDenom      fractions of an inch on screen: 16 (default) / 8 / 4 — display only; exports keep 1/16"

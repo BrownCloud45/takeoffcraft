@@ -19,9 +19,9 @@ Katika **{{ui:Viasi}} › {{ui:Kwa kipengee}}**, mstari wenye kiasi lakini bila 
 2. Kisanduku kinataja jumla unayothibitisha na kuorodhesha mistari bila kiwango. Andika jina lako na, ukipenda, nafasi yako.
 3. Bofya **Thibitisha**. Upau sasa unasema "Imethibitishwa na … tarehe …" pamoja na jumla. Hifadhi ukadiriaji ili ubaki kwenye faili.
 
-Uthibitisho ni wa takwimu ulizothibitisha. Mabadiliko yoyote baadaye ya kiasi, kiwango au mstari yanaondoa uthibitisho, na TakeoffCraft inakujulisha. {{ui:Tendua}} inarudisha makadirio uliyothibitisha, pamoja na uthibitisho wake. Kubadilisha jina la mstari si mabadiliko ya takwimu. **Ondoa uthibitisho** unauondoa.
+Uthibitisho ni wa takwimu ulizothibitisha. Mabadiliko yoyote baadaye ya kiasi, kiwango au mstari yanaondoa uthibitisho, na TakeoffDesk inakujulisha. {{ui:Tendua}} inarudisha makadirio uliyothibitisha, pamoja na uthibitisho wake. Kubadilisha jina la mstari si mabadiliko ya takwimu. **Ondoa uthibitisho** unauondoa.
 
-Faili ya ukadiriaji iliyohaririwa nje ya TakeoffCraft baada ya kuthibitishwa inafunguka bila uthibitisho, pamoja na noti inayosema hivyo. Makadirio yaliyosafirishwa (CSV na XLSX) yanataja uthibitisho chini ya jumla.
+Faili ya ukadiriaji iliyohaririwa nje ya TakeoffDesk baada ya kuthibitishwa inafunguka bila uthibitisho, pamoja na noti inayosema hivyo. Makadirio yaliyosafirishwa (CSV na XLSX) yanataja uthibitisho chini ya jumla.
 
 Mtu tu ndiye anayethibitisha. Msaidizi wa AI anaweza kusoma kama makadirio yamethibitishwa na ni viwango vipi vinavyokosekana; hana njia ya kuthibitisha.
 

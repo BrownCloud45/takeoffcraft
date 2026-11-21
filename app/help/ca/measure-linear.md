@@ -30,7 +30,7 @@ Mentre dibuixeu:
 - Arrossegar desplaça el full i la roda fa zoom, sense afegir punts.
 
 :::mac
-Al panell tàctil d'un Mac, el clic dret és un clic amb dos dits (activeu el clic secundari a Configuració del sistema, dins de Trackpad). TakeoffCraft només llegeix el botó secundari, de manera que un clic amb Control pot comptar com un clic simple i afegir un punt. Doble clic o {{key:Enter}} sempre acaben.
+Al panell tàctil d'un Mac, el clic dret és un clic amb dos dits (activeu el clic secundari a Configuració del sistema, dins de Trackpad). TakeoffDesk només llegeix el botó secundari, de manera que un clic amb Control pot comptar com un clic simple i afegir un punt. Doble clic o {{key:Enter}} sempre acaben.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Després del primer punt, podeu escriure on va el següent en lloc de fer clic. 
 | `@6',-4'` | 6' a la dreta i 4' avall des de l'últim punt |
 | `6',4'` (o `#6',4'`) | 6' a la dreta i 4' amunt des del primer punt d'aquest tram |
 
-Les longituds s'escriuen com a tot arreu a TakeoffCraft ([Formats d'entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (peus), `30"`, `3.2 m`. "Dreta" i "amunt" són tal com veieu el full, també quan la pàgina PDF està girada.
+Les longituds s'escriuen com a tot arreu a TakeoffDesk ([Formats d'entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (peus), `30"`, `3.2 m`. "Dreta" i "amunt" són tal com veieu el full, també quan la pàgina PDF està girada.
 
 {{key:Enter}} en un quadre buit acaba el tram, com {{key:Enter}} al full; {{key:Esc}} tanca el quadre i manté el tram en curs. Els punts escrits segueixen les mateixes regles que els clics: deduccions, arcs i tancament d'àrees funcionen tots. El mateix quadre funciona a {{ui:Àrea}} i {{ui:Tall}}; després del centre d'un cercle agafa el radi.
 

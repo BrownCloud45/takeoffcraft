@@ -14,7 +14,7 @@ Walaxda tirada ah waxay tirisaa waxyaabaha: albaabbo, qalabka iftiinka, koronto-
 3. Riix kasta oo xaashiga ku jira.
    Riix kasta wuxuu dhigaa dhibic midabka walaxda, tirada walaxdana waxay kor u kacdaa hal.
 4. Tag xaashiga xiga ({{key:PageDown}}) oo sii tiri. Qalabku wuxuu sii joogaa {{ui:Tiri}}.
-5. Riix {{key:Esc}} marka aad dhammayso. TakeoffCraft wuxuu ku laabanayaa {{ui:Dooro}}.
+5. Riix {{key:Esc}} marka aad dhammayso. TakeoffDesk wuxuu ku laabanayaa {{ui:Dooro}}.
 
 Jiidistu weli waxay dhaqaajinaysaa xaashiga, tirada wareegguna wuu weyneeyaa intaad tirinayso, sidaas darteed waad ku wareegi kartaa xaashiga iyada oo aan dhibic lagu darin.
 
@@ -30,7 +30,7 @@ Riix walaxda tirada si aad u iftiimiso dhibcaheeda xaashi kasta. Liiska xaashiya
 
 ## Cabbirka dhibicda, shaashadda iyo PDF-ka
 
-Dhibicyadu waxay ku haystaan hal cabbir shaashadda, intaad weyneysid ama yareysid. Si aad u beddesho, fur {{ui:Dejinta}}, tab-ka TakeoffCraft, oo dooro **Cabbirka calaamadda tirada**: Aad u yar, Yar, Dhexe (caadiga) ama Weyn.
+Dhibicyadu waxay ku haystaan hal cabbir shaashadda, intaad weyneysid ama yareysid. Si aad u beddesho, fur {{ui:Dejinta}}, tab-ka TakeoffDesk, oo dooro **Cabbirka calaamadda tirada**: Aad u yar, Yar, Dhexe (caadiga) ama Weyn.
 
 Dhoofinta PDF-ka ({{ui:Dhoofin}} › PDF calaamadsan) wuxuu dhibic kasta ku sawiraa cabbir isku mid ah warqadda, xaashi kasta ha ahaato cabbirkiisa: muuqaaleeyaha PDF-ka oo muuqaalka 100% ku muujinaya wuxuu arkayaa dhibcaha sida weyn ee ay shaashadda ku yihiin. Halka dhibcaha xaashi weli is taabanayaan, dhoofintu wuxuu dhibcaha xaashigaas ka dhigaa mid yar si mid kastaa loo akhrin karo.
 

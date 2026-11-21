@@ -5,7 +5,7 @@ keywords: zemljani radovi, iskop, iskop, nasip, iskop i nasip, nivelacija, kota 
 from: a898e508
 ---
 
-TakeoffCraft mjeri ono što je nacrtano na listu. Zemljani radovi zahtijevaju površ terena, pa se dijele s aplikacijom CivilCraft, koja gradi površi od tačaka, nivelira ih i računa iskop, nasip i odvoz.
+TakeoffDesk mjeri ono što je nacrtano na listu. Zemljani radovi zahtijevaju površ terena, pa se dijele s aplikacijom CivilCraft, koja gradi površi od tačaka, nivelira ih i računa iskop, nasip i odvoz.
 
 ## Jednostavan iskop ovdje
 
@@ -29,8 +29,8 @@ Tačke s različitih listova nemaju zajedničke koordinate, pa izvoz uzima samo 
 
 Zemljani radovi iz aplikacije CivilCraft vraćaju se kao dvije stavke koje možeš cijeniti:
 
-1. U aplikaciji CivilCraft nivelira podloge i koridore, pa izaberi {{ui:Send to TakeoffCraft}} pod **Zemljani radovi** ([Zapremine zemljanih radova](app:civilcraft/volumes)). Sprema se datoteka količina (`.quantities.json`).
-2. U TakeoffCraft-u otvori je s {{ui:Open takeoff}} ili je prevuci na aplikaciju. Predmjer ostaje otvoren: datoteka dodaje **Zemljani radovi: iskop** i **Zemljani radovi: nasip** kao [unesene količine](topic:create-items#typed-quantities-no-drawing) u kubnim jardama (CY) za projekat u stopama, ili u kubnim metrima (m³) za projekat u metrima. To je jedan korak: {{key:Mod+Z}} ga poništava.
+1. U aplikaciji CivilCraft nivelira podloge i koridore, pa izaberi {{ui:Send to TakeoffDesk}} pod **Zemljani radovi** ([Zapremine zemljanih radova](app:civilcraft/volumes)). Sprema se datoteka količina (`.quantities.json`).
+2. U TakeoffDesk-u otvori je s {{ui:Open takeoff}} ili je prevuci na aplikaciju. Predmjer ostaje otvoren: datoteka dodaje **Zemljani radovi: iskop** i **Zemljani radovi: nasip** kao [unesene količine](topic:create-items#typed-quantities-no-drawing) u kubnim jardama (CY) za projekat u stopama, ili u kubnim metrima (m³) za projekat u metrima. To je jedan korak: {{key:Mod+Z}} ga poništava.
 3. Preimenuj ih, postavi otpad, cijene i sklopove kako želiš.
 
 Kada se projekat promijeni, ponovo pošalji iz aplikacije CivilCraft i otvori novu datoteku: iste dvije stavke dobiju nove količine. Njihova imena, cijene, otpad i sklopovi ostaju onako kako su postavljeni. Ako se jedinica projekta promijenila, statusna traka to kaže: provjeri cijene. Datoteka iz drugog projekta aplikacije CivilCraft dodaje svoje dvije stavke.

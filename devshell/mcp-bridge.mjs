@@ -85,8 +85,8 @@ export function createBridge({ token, port, log = () => {} }) {
     });
   }
 
-  const NO_TAB = 'TakeoffCraft is not open. Start it with `npm run mcp` (or `node devshell/serve.mjs --mcp`), open ' +
-    `http://127.0.0.1:${port}/ in a browser, and turn on Settings › TakeoffCraft › Assistants. Keep that tab open.`;
+  const NO_TAB = 'TakeoffDesk is not open. Start it with `npm run mcp` (or `node devshell/serve.mjs --mcp`), open ' +
+    `http://127.0.0.1:${port}/ in a browser, and turn on Settings › TakeoffDesk › Assistants. Keep that tab open.`;
 
   async function mcp(req, res) {
     const auth = String(req.headers.authorization || '');

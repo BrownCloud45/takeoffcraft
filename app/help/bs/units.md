@@ -55,4 +55,4 @@ Razmjera lista govori koliko je crtež velik; jedinica stavke govori kako se pri
 
 ## Preciznost
 
-TakeoffCraft mjeri tačno iz tačaka na koje kliknete, uključujući stvarne dužine i površine lukova, i ne zaokružuje količine. Prikaz zaokružuje dužine na 1/16 inča, a decimale na dva mjesta. Novac se zaokružuje tek u ukupnim iznosima, na cent.
+TakeoffDesk mjeri tačno iz tačaka na koje kliknete, uključujući stvarne dužine i površine lukova, i ne zaokružuje količine. Prikaz zaokružuje dužine na 1/16 inča, a decimale na dva mjesta. Novac se zaokružuje tek u ukupnim iznosima, na cent.

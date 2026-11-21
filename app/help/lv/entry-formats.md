@@ -1,6 +1,6 @@
 ---
 title: Garuma, likmes un procentu ievade
-summary: Ko var ierakstīt attālumiem, augstumiem, naudas likmēm un zudumu procentiem, ar piemēriem un ziņojumiem par ievadi, ko TakeoffCraft nevar nolasīt.
+summary: Ko var ierakstīt attālumiem, augstumiem, naudas likmēm un zudumu procentiem, ar piemēriem un ziņojumiem par ievadi, ko TakeoffDesk nevar nolasīt.
 keywords: ievade, formāts, pēdas, collas, daļas, decimālpēdas, metriskā, metri, milimetri, likme, nauda, dolāri, procents, zudumi, rakstīšana
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Līdz diviem decimāldaļām, no 0% līdz 1000%. Ziņojumi: "Ievadiet procentu, 
 ## Nosaukumi un mērvienības
 
 - Vienumu un komponentu nosaukumi: līdz 200 rakstzīmēm.
-- Komponenta {{ui:Unit}}: jebkurš teksts līdz 20 rakstzīmēm, piemēram, `EA`, `sheets`, `CY`, `gal`. Tā ir tikai etiķete; TakeoffCraft to nepārvērš.
+- Komponenta {{ui:Unit}}: jebkurš teksts līdz 20 rakstzīmēm, piemēram, `EA`, `sheets`, `CY`, `gal`. Tā ir tikai etiķete; TakeoffDesk to nepārvērš.
 
 ## Formulas
 

@@ -5,7 +5,7 @@ keywords: detetar escala, ler escala, escala a partir do texto, todas as folhas,
 from: 8f0148e6
 ---
 
-Cada folha tem a sua própria escala. Pode defini-la ou deixar que o TakeoffCraft a leia a partir do texto das folhas (ver abaixo), e deve verificá-la. Enquanto uma folha não tiver escala, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} e {{ui:Cut-out}} recusam medir nela. {{ui:Count}} e {{ui:Auto count}} funcionam sem escala.
+Cada folha tem a sua própria escala. Pode defini-la ou deixar que o TakeoffDesk a leia a partir do texto das folhas (ver abaixo), e deve verificá-la. Enquanto uma folha não tiver escala, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} e {{ui:Cut-out}} recusam medir nela. {{ui:Count}} e {{ui:Auto count}} funcionam sem escala.
 
 A lista de folhas mostra a escala de cada folha, ou **Sem escala**. A barra por baixo da folha aberta diz o mesmo.
 
@@ -23,7 +23,7 @@ A lista completa está em [Escalas predefinidas](topic:scale-presets).
 
 ## Ler as escalas a partir do texto das folhas
 
-A maioria dos desenhos indica a sua escala: `SCALE: 1/4" = 1'-0"` na legenda, `1:100` por baixo de uma vista. O TakeoffCraft pode lê-la e definir todas as folhas de uma só vez.
+A maioria dos desenhos indica a sua escala: `SCALE: 1/4" = 1'-0"` na legenda, `1:100` por baixo de uma vista. O TakeoffDesk pode lê-la e definir todas as folhas de uma só vez.
 
 1. Abra a lista {{ui:Preset}} e escolha {{ui:Do texto das folhas…}} (no topo).
 2. A lista mostra cada folha: a sua escala atual, e o que o seu texto diz — **Diz 1/4" = 1'-0"**, **Sem escala no texto**, ou **Indica sem escala** (NTS).
@@ -44,7 +44,7 @@ Use isto quando não há uma escala impressa em que confie, quando o conjunto fo
 5. Escreva a distância real em **Distância real**, por exemplo `24'-6 1/2"`, `24.5` (pés decimais), `30"` ou `7.5 m`. Ver [Introdução de comprimentos, preços unitários e percentagens](topic:entry-formats).
 6. Escolha {{ui:Set the scale}}.
    A barra de estado mostra a escala como «1" = (n)'», e quando está a menos de 0.5% de uma predefinição indica qual, por exemplo «que corresponde a 1/4" = 1'-0" (escolha essa predefinição para uma escala exata)».
-   O TakeoffCraft volta à ferramenta {{ui:Select}}.
+   O TakeoffDesk volta à ferramenta {{ui:Select}}.
 
 Quando a calibração corresponde a uma predefinição, escolher essa predefinição dá uma escala exata, em vez de uma que depende de onde clicou.
 
@@ -61,11 +61,11 @@ Prima {{key:Esc}} para limpar a linha de verificação.
 
 ## Alterar uma escala
 
-Escolha outra predefinição ou calibre de novo. Se a folha já tiver medições, o TakeoffCraft pergunta **Alterar a escala desta folha?** e diz quantas medições serão medidas de novo. Escolha {{ui:Change the scale}}. Cada percurso e área na folha é medido de novo à nova escala. Pode anular com {{key:Mod+Z}}.
+Escolha outra predefinição ou calibre de novo. Se a folha já tiver medições, o TakeoffDesk pergunta **Alterar a escala desta folha?** e diz quantas medições serão medidas de novo. Escolha {{ui:Change the scale}}. Cada percurso e área na folha é medido de novo à nova escala. Pode anular com {{key:Mod+Z}}.
 
 ## Porque é que as folhas sem escala não contam como zero
 
-Uma marca numa folha sem escala não tem comprimento ou área reais. O TakeoffCraft nunca a conta como zero, pois isso baixaria o orçamento sem que se notasse. Em vez disso:
+Uma marca numa folha sem escala não tem comprimento ou área reais. O TakeoffDesk nunca a conta como zero, pois isso baixaria o orçamento sem que se notasse. Em vez disso:
 
 - deixa essas marcas de fora dos totais,
 - mostra «+(n) sem escala» ao lado do artigo em {{ui:Quantities}},
@@ -77,5 +77,5 @@ Isto pode acontecer quando abre um projeto cujas escalas nunca foram definidas. 
 ## Sugestões
 
 - Defina a escala de todas as folhas que vai medir antes de começar. Procure **Sem escala** na lista de folhas para encontrar as que faltam (a caixa de pesquisa procura nomes de folhas, não escalas).
-- Pormenores e plantas ampliadas na mesma folha usam muitas vezes outra escala. O TakeoffCraft tem uma escala por folha; ver [O que ainda não está implementado](topic:not-built-yet).
+- Pormenores e plantas ampliadas na mesma folha usam muitas vezes outra escala. O TakeoffDesk tem uma escala por folha; ver [O que ainda não está implementado](topic:not-built-yet).
 - Desenhos métricos: escolha uma predefinição métrica como `1:100`, ou calibre com uma distância métrica como `6000 mm`.

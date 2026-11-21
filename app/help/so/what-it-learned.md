@@ -1,11 +1,11 @@
 ---
 title: Waxa uu ka baray tirintaada
-summary: TakeoffCraft wuxuu xasuustaa calaamadaha aad ku xaqiijisay Tirin otomaatig ah, koox-shuruudaha, isku-dhisyada aad inta badan isticmaasho iyo qaababka aad bog kasta ku celiso, dhammaan gudaha faylka xisaabintan. Ka eeg, isticmaal, tirtir.
+summary: TakeoffDesk wuxuu xasuustaa calaamadaha aad ku xaqiijisay Tirin otomaatig ah, koox-shuruudaha, isku-dhisyada aad inta badan isticmaasho iyo qaababka aad bog kasta ku celiso, dhammaan gudaha faylka xisaabintan. Ka eeg, isticmaal, tirtir.
 keywords: baro, waxa la baray, barasho, kaaliye, xusuus, astaamo, qaabab, isla sida shaqadii ugu dambaysay, shaqadii ugu dambaysay, koox-shuruudo, shuruudo, dib u isticmaal, isku-dhisyo, inta badan la isticmaalo, soo jeedin, ku celi bog kasta, bog kasta, qoraalka cinwaanka, qaab, ka saar dhammaan, illow, asturnaan
 from: 54d99e99
 ---
 
-TakeoffCraft wuu degdegaa marka aad xisaabinta badan ku samayso. Wuxuu **kaliya** ka baraa waxa aad aqbasho:
+TakeoffDesk wuu degdegaa marka aad xisaabinta badan ku samayso. Wuxuu **kaliya** ka baraa waxa aad aqbasho:
 
 - calaamadaha aad ku xuddun-dahay [Tirin otomaatig ah](topic:auto-count) kadibna aad ku dartay,
 - koox-shuruudaha aad kaydiyo,
@@ -64,6 +64,6 @@ Si aad u joojiso barashada xisaabin hal ah, ka saar xulashada {{ui:Ka baro tirin
 
 ## Waxa wanaagsan in la yaqaan
 
-- Noocyada hore ee TakeoffCraft waxay furaan fayl leh waxyaabo la baray si caadi ah. Way iska indho tirtiraan qaybtaas, oo way ka saaraan haddii mar kale kaydiyaan faylka.
+- Noocyada hore ee TakeoffDesk waxay furaan fayl leh waxyaabo la baray si caadi ah. Way iska indho tirtiraan qaybtaas, oo way ka saaraan haddii mar kale kaydiyaan faylka.
 - Calaamad la baray waa sawir yar oo waxa aad xuddun-dahay, oo ku kaydsan faylka (dhowr kiilobaayt mid kasta).
 - Calaamadaha la baray waxa loo raadiyaa sida Tirin otomaatig ah u raadiso, sidaas darteed isla xaddidaadyadaas ayaa khuseeya: [Tirin otomaatig ah calaamad](topic:auto-count).

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Saklamak istiyorsanız geçerli metrajı kaydedin: {{ui:Metrajı kaydet}} ya da {{key:Mod+S}}.
 2. {{ui:Dosya}} grubunda {{ui:Yeni}}'yi seçin.
-3. Kaydedilmemiş değişiklikler varsa TakeoffCraft **Kaydedilmemiş metraj** diye sorar: {{ui:Önce metrajı kaydet}} (projeyi indirir, sonra temizler), {{ui:Değişiklikleri at}} ya da {{ui:İptal}}'i seçin.
+3. Kaydedilmemiş değişiklikler varsa TakeoffDesk **Kaydedilmemiş metraj** diye sorar: {{ui:Önce metrajı kaydet}} (projeyi indirir, sonra temizler), {{ui:Değişiklikleri at}} ya da {{ui:İptal}}'i seçin.
    Pencere boş durumuna döner: PDF yok, kalem yok, işaret yok, ölçek yok. Durum çubuğu "Yeni metraj. Başlamak için PDF açın." der.
 
 Temizlenenler:

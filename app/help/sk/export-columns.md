@@ -77,7 +77,7 @@ Jeden riadok na list, ktorý má mierku alebo značky.
 | List | Názov listu |
 | Mierka | Názov predvoľby, kalibrovaná mierka alebo „Bez mierky“ |
 | Spôsob | „Predvoľba“ alebo „Kalibrované podľa (vzdialenosti, ktorú ste zadali)“ |
-| Stopy na jednotku PDF | Presný koeficient mierky, ktorý používa TakeoffCraft |
+| Stopy na jednotku PDF | Presný koeficient mierky, ktorý používa TakeoffDesk |
 
 ## Názvy súborov
 

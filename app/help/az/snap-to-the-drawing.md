@@ -5,7 +5,7 @@ keywords: tutma, osnap, obyektə tutma, uc, orta nöqtə, kəsişmə, ən yaxın
 from: 41d29e9b
 ---
 
-Plan dəstlərinin əksəriyyəti vektor PDF-dir: divarları və kənarları real xəttlərdir, piksel deyil. Ölçü götürərkən TakeoffCraft kliklərinizi həmin xəttlərə tutur, belə ki, xətt divarın küncündən dəqiq başlayır və kalibrləmə rəssamın çəkdiyi ölçünü oxuyur, sizin vurduğunuz pikseli yox.
+Plan dəstlərinin əksəriyyəti vektor PDF-dir: divarları və kənarları real xəttlərdir, piksel deyil. Ölçü götürərkən TakeoffDesk kliklərinizi həmin xəttlərə tutur, belə ki, xətt divarın küncündən dəqiq başlayır və kalibrləmə rəssamın çəkdiyi ölçünü oxuyur, sizin vurduğunuz pikseli yox.
 
 Başlayanda {{ui:Tutma}} açıqdır. Onu status panelindəki {{ui:Tutma}} düyməsi və ya {{key:F3}} ilə söndürüb yandırın; parametr bu brauzerdə saxlanılır (həmçinin [Parametrlər](topic:settings) altındadır).
 

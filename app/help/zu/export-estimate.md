@@ -28,7 +28,7 @@ I-workbook inamashidi amane, namanye ama-report alandelayo uma ehambisana:
 
 Nge[isifinyezo sethenda](topic:bid-summary), ishidi le-Estimate liphela nemarkup yalo (inzuzo yabasebenzi, intela yokuthengisa, izindleko zokuphatha, inzuzo, ibhondi nethenda), njengezifomula eziphilayo.
 
-Ishidi le-Estimate ligcina **izifomula eziphilayo**: inani nodoti, izinani zempahla nomsebenzi ezizungeziwe, isamba sawo wonke umugqa nesamba sephrojekthi. Izinhlelo ze-spreadsheet ziyabala kabusha, ngakho ungashintsha irethi noma udoti kuspredishithi bese amasamba ayalandela. Izinombolo ezibalwe yi-TakeoffCraft nazo zigcinwe emaseli, futhi ziyafana kuze kube yisenti.
+Ishidi le-Estimate ligcina **izifomula eziphilayo**: inani nodoti, izinani zempahla nomsebenzi ezizungeziwe, isamba sawo wonke umugqa nesamba sephrojekthi. Izinhlelo ze-spreadsheet ziyabala kabusha, ngakho ungashintsha irethi noma udoti kuspredishithi bese amasamba ayalandela. Izinombolo ezibalwe yi-TakeoffDesk nazo zigcinwe emaseli, futhi ziyafana kuze kube yisenti.
 
 Ikholomu yamanothi ibala ifomula yekhomponenti ngayinye, amaphutha ezifomula, amaemaki emashidini angenasikali, indawo yodonga nomjikelo. Uma kukhona okushiyiwe, umugqa wesamba sephrojekthi uthi "Incomplete: see the notes above".
 
@@ -42,7 +42,7 @@ I-CSV inesilinganiso kuphela; ngamanani ngeshidi nohlu lwemaki, sebenzisa i-XLSX
 
 ## Isilinganiso ku-Google Sheets
 
-Ngaphezulu kwethebhula lamanani, **Kopisha ye-Google Sheets** ufaka isilinganiso ekhliphodini njengombhalo ohlukaniswe ngamathebhu, ngemigqa efanayo ne-CSV. Ku-Google Sheet, chofoza iseli A1 bese unamathisela. I-TakeoffCraft ayingeni ngemvume ku-Google futhi ayithumeli lutho lapho.
+Ngaphezulu kwethebhula lamanani, **Kopisha ye-Google Sheets** ufaka isilinganiso ekhliphodini njengombhalo ohlukaniswe ngamathebhu, ngemigqa efanayo ne-CSV. Ku-Google Sheet, chofoza iseli A1 bese unamathisela. I-TakeoffDesk ayingeni ngemvume ku-Google futhi ayithumeli lutho lapho.
 
 ## Amarethi angekho nokusayina
 

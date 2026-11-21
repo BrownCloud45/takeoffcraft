@@ -77,7 +77,7 @@ Jeden řádek na list, který má měřítko nebo značky.
 | List | Název listu |
 | Měřítko | Název předvolby, nebo kalibrované měřítko, nebo "Bez měřítka" |
 | Způsob | "Předvolba", nebo "Kalibrováno podle (zadané vzdálenosti)" |
-| Stopy na jednotku PDF | Přesný koeficient měřítka, který TakeoffCraft používá |
+| Stopy na jednotku PDF | Přesný koeficient měřítka, který TakeoffDesk používá |
 
 ## Názvy souborů
 

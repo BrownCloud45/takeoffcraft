@@ -1,11 +1,11 @@
 ---
 title: Lo que aprendió de sus cuantificaciones
-summary: TakeoffCraft guarda los símbolos que confirmó con Autorrecuento, sus conjuntos de condiciones, los ensamblajes que más usa y los patrones que repite en todas las páginas, todo dentro del archivo propio de la cuantificación. Véalo, úselo, elimínelo.
+summary: TakeoffDesk guarda los símbolos que confirmó con Autorrecuento, sus conjuntos de condiciones, los ensamblajes que más usa y los patrones que repite en todas las páginas, todo dentro del archivo propio de la cuantificación. Véalo, úselo, elimínelo.
 keywords: aprender, aprendido, aprendizaje, asistente, recordar, símbolos, plantillas, igual que el último trabajo, último trabajo, conjunto de condiciones, condiciones, reutilizar, ensamblajes, más usados, sugerencias, repetir en todas las páginas, todas las páginas, cajetín, patrón, borrar todo, olvidar, privacidad
 from: 54d99e99
 ---
 
-TakeoffCraft mejora cuantas más cuantificaciones haga con él. Aprende **solo de lo que usted acepta**:
+TakeoffDesk mejora cuantas más cuantificaciones haga con él. Aprende **solo de lo que usted acepta**:
 
 - los símbolos que encerró con [Autorrecuento](topic:auto-count) y luego añadió,
 - los conjuntos de condiciones que guarda,
@@ -64,6 +64,6 @@ Para dejar de aprender en una cuantificación, desmarque {{ui:Aprender de esta m
 
 ## Bueno saber
 
-- Las versiones anteriores de TakeoffCraft abren un archivo con cosas aprendidas con normalidad. Ignoran esa parte y la descartan si guardan el archivo de nuevo.
+- Las versiones anteriores de TakeoffDesk abren un archivo con cosas aprendidas con normalidad. Ignoran esa parte y la descartan si guardan el archivo de nuevo.
 - Un símbolo aprendido es una pequeña imagen de lo que encerró, guardada en el archivo (unos pocos kilobytes cada una).
 - Los símbolos aprendidos se buscan como lo hace Autorrecuento, así que se aplican los mismos límites: [Contar un símbolo con Autorrecuento](topic:auto-count).

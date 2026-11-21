@@ -1,11 +1,11 @@
 ---
 title: Risoluzione dei problemi
-summary: Sintomi, cause e rimedi per i messaggi e le sorprese che si possono incontrare in TakeoffCraft, riportati come li mostra il programma.
+summary: Sintomi, cause e rimedi per i messaggi e le sorprese che si possono incontrare in TakeoffDesk, riportati come li mostra il programma.
 keywords: problemi, errori, non funziona, rimedio, guida, rifiutato, non misura, nessuna scala, segni mancanti, esportazione non riuscita, offline, touch
 from: cd319c9b
 ---
 
-TakeoffCraft spiega la maggior parte dei rifiuti nella barra di stato in basso nella finestra. Cercare il messaggio qui sotto.
+TakeoffDesk spiega la maggior parte dei rifiuti nella barra di stato in basso nella finestra. Cercare il messaggio qui sotto.
 
 ## Apertura dei file
 
@@ -15,8 +15,8 @@ TakeoffCraft spiega la maggior parte dei rifiuti nella barra di stato in basso n
 | (nome) è protetto da password. Aprire una copia senza protezione. | Il PDF richiede una password per essere aperto. | Chiedere una copia senza protezione, oppure rimuovere la password con un programma PDF di fiducia. |
 | (nome) non può essere letto come PDF (…) | Il file è danneggiato o non è davvero un PDF. | Scaricarlo di nuovo, oppure salvarlo di nuovo dal programma che lo ha creato. |
 | (nome) è già aperto. | Lo stesso PDF (stesso contenuto) è aperto. | Nulla da fare. |
-| TakeoffCraft apre i PDF e i progetti .takeoff.json. Saltati: … | Gli altri tipi di file sono stati scartati. | Convertire prima i disegni in PDF. |
-| Non succede nulla quando si trascinano i file | I file sono stati trascinati fuori dalla finestra del browser, oppure il browser ha aperto il PDF in una nuova scheda. | Trascinare sulla pagina di TakeoffCraft stessa; il riquadro "Trascina PDF o un .takeoff.json" indica quando funzionerà. |
+| TakeoffDesk apre i PDF e i progetti .takeoff.json. Saltati: … | Gli altri tipi di file sono stati scartati. | Convertire prima i disegni in PDF. |
+| Non succede nulla quando si trascinano i file | I file sono stati trascinati fuori dalla finestra del browser, oppure il browser ha aperto il PDF in una nuova scheda. | Trascinare sulla pagina di TakeoffDesk stessa; il riquadro "Trascina PDF o un .takeoff.json" indica quando funzionerà. |
 | L'apertura di una serie grande richiede tempo | Ogni PDF viene letto per intero per generarne l'impronta. | Attendere che scompaia il messaggio "Apertura di (nome)…". Le miniature compaiono man mano che si scorre. |
 
 ## Misurazione
@@ -47,7 +47,7 @@ TakeoffCraft spiega la maggior parte dei rifiuti nella barra di stato in basso n
 | Messaggio o sintomo | Causa | Rimedio |
 |---|---|---|
 | Scegliere due punti più distanti tra loro. | I punti di calibrazione sono quasi sovrapposti. | Calibrare su una quota più lunga. |
-| Un messaggio nella finestra di calibrazione, come "Impossibile leggere quella distanza" | La distanza è in una forma che TakeoffCraft non sa leggere. | Vedere [Inserimento di lunghezze, tariffe e percentuali](topic:entry-formats). |
+| Un messaggio nella finestra di calibrazione, come "Impossibile leggere quella distanza" | La distanza è in una forma che TakeoffDesk non sa leggere. | Vedere [Inserimento di lunghezze, tariffe e percentuali](topic:entry-formats). |
 | Questo foglio non ha ancora una scala, quindi non c'è nulla da verificare. Calibrarlo oppure scegliere una scala predefinita. | {{ui:Verifica}} su un foglio senza scala. | Impostare prima una scala. |
 | L'elenco {{ui:Predefinita}} è in grigio | Nessun foglio è aperto. | Aprire un PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft spiega la maggior parte dei rifiuti nella barra di stato in basso n
 | Questo PDF è protetto da password o cifrato, quindi non si può scrivere una copia con segni. … | Il PDF è cifrato. | Esportare {{ui:XLSX}} al suo posto, oppure usare una copia non cifrata del PDF (che richiede poi un suo computo, perché è un file diverso). |
 | Il PDF segnato non è stato scritto: … | Spesso: si è offline e l'app non è stata salvata per l'uso offline, quindi manca lo scrittore PDF. | Tornare online e scegliere di nuovo {{ui:PDF segnato}}. Per evitarlo, scegliere {{ui:Salva per l'uso offline}} e attendere {{ui:Pronto per l'uso offline}}. |
 | È stato scaricato un solo PDF segnato | Il browser ha bloccato più download contemporanei. | Consentire più download per questo sito ed esportare di nuovo. |
-| (file) non è un progetto TakeoffCraft (non è JSON valido). / Questo non è un file di progetto TakeoffCraft. | File sbagliato, oppure danneggiato. | Selezionare il file `.takeoff.json`. |
-| Questo progetto è stato salvato da una versione più recente di TakeoffCraft. Aprirlo lì. | Il file proviene da una build più recente. | Aprirlo nella build più recente. |
+| (file) non è un progetto TakeoffDesk (non è JSON valido). / Questo non è un file di progetto TakeoffDesk. | File sbagliato, oppure danneggiato. | Selezionare il file `.takeoff.json`. |
+| Questo progetto è stato salvato da una versione più recente di TakeoffDesk. Aprirlo lì. | Il file proviene da una build più recente. | Aprirlo nella build più recente. |
 | (n) segni erano danneggiati e sono stati esclusi. | Una parte del file è danneggiata o è stata modificata a mano. | Il resto è stato aperto. Ridisegnare i segni mancanti, oppure aprire una copia precedente. |
 | Segni mancanti dopo la riapertura | I PDF non sono aperti, oppure uno di essi è cambiato. | Vedere [Salvare e riaprire un computo](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Il browser chiede "Lasciare il sito?" | Ci sono modifiche non salvate. | Restare nella pagina e salvare con {{key:Mod+S}}. |

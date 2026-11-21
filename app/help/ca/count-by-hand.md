@@ -14,7 +14,7 @@ Un element de recompte compta coses: portes, lluminàries, endolls, aparells san
 3. Cliqueu cadascun sobre el full.
    Cada clic posa un punt del color de l'element, i el recompte de l'element puja en un.
 4. Passeu al següent full ({{key:PageDown}}) i seguiu comptant. L'eina es queda a {{ui:Recompte}}.
-5. Premeu {{key:Esc}} quan acabeu. TakeoffCraft torna a {{ui:Selecciona}}.
+5. Premeu {{key:Esc}} quan acabeu. TakeoffDesk torna a {{ui:Selecciona}}.
 
 Arrossegar encara desplaça i la roda encara fa zoom mentre compteu, de manera que podeu moure's pel full sense afegir punts.
 
@@ -30,7 +30,7 @@ Cliqueu l'element de recompte per ressaltar-ne els punts a tots els fulls. La ll
 
 ## Mida dels punts, a la pantalla i al PDF
 
-Els punts mantenen una mida a la pantalla, per molt que feu zoom. Per canviar-la, obriu {{ui:Configuració}}, la pestanya TakeoffCraft, i trieu **Mida del marcador de recompte**: Molt petita, Petita, Mitjana (la predeterminada) o Gran.
+Els punts mantenen una mida a la pantalla, per molt que feu zoom. Per canviar-la, obriu {{ui:Configuració}}, la pestanya TakeoffDesk, i trieu **Mida del marcador de recompte**: Molt petita, Petita, Mitjana (la predeterminada) o Gran.
 
 L'exportació a PDF ({{ui:Exporta}} › {{ui:PDF marcat}}) dibuixa cada punt a la mateixa mida sobre el paper, sigui quina sigui la mida del full: un visor que mostri el PDF al 100% mostra els punts tan grans com ho són a la pantalla. Quan els punts d'un full es tocarien encara, l'exportació fa més petits els punts d'aquell full perquè es puguin llegir cadascun.
 

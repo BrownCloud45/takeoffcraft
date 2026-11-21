@@ -1,6 +1,6 @@
 ---
 title: Kontroleer voorraad en leeftye van verskaffers
-summary: Voeg 'n verskaffer se voorraadlys (CSV of sigblad) by en TakeoffCraft kontroleer wat die hoeveelheidsopname benodig, met afval, daarteen: genoeg in voorraad, en hoe lank die wag is. Tekorte en lang wagte verskyn in die Probleme-paneel.
+summary: Voeg 'n verskaffer se voorraadlys (CSV of sigblad) by en TakeoffDesk kontroleer wat die hoeveelheidsopname benodig, met afval, daarteen: genoeg in voorraad, en hoe lank die wag is. Tekorte en lang wagte verskyn in die Probleme-paneel.
 keywords: verskaffer, voorraad, in voorraad, leeftyd, beskikbaarheid, tekort, agterorder, bestellys, csv, sku, verkoper, materiale, voorsiening, probleme
 from: f11160fb
 ---

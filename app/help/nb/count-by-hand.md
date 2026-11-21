@@ -14,7 +14,7 @@ En tellepost teller ting: dører, lysarmaturer, uttak, sanitærutstyr. Hvert kli
 3. Klikk på hver enkelt på arket.
    Hvert klikk setter en prikk i postens farge, og postens antall går opp med én.
 4. Gå til neste ark ({{key:PageDown}}) og fortsett å telle. Verktøyet blir på {{ui:Tell}}.
-5. Trykk {{key:Esc}} når du er ferdig. TakeoffCraft går tilbake til {{ui:Velg}}.
+5. Trykk {{key:Esc}} når du er ferdig. TakeoffDesk går tilbake til {{ui:Velg}}.
 
 Dra panorerer fortsatt, og hjulet zoomer mens du teller, så du kan bevege deg rundt på arket uten å legge til prikker.
 
@@ -30,7 +30,7 @@ Klikk på tellepost for å markere prikkene på alle ark. Arkelisten viser da hv
 
 ## Prikkstørrelse, på skjermen og i PDF-en
 
-Prikkene beholder én størrelse på skjermen uansett hvor mye du zoomer. For å endre den, åpne {{ui:Innstillinger}}, fanen TakeoffCraft, og velg **Størrelse på tellemarkør**: Ekstra liten, Liten, Middels (standard) eller Stor.
+Prikkene beholder én størrelse på skjermen uansett hvor mye du zoomer. For å endre den, åpne {{ui:Innstillinger}}, fanen TakeoffDesk, og velg **Størrelse på tellemarkør**: Ekstra liten, Liten, Middels (standard) eller Stor.
 
 PDF-eksporten ({{ui:Eksporter}} › {{ui:Markert PDF}}) tegner hver prikk i samme størrelse på papiret, uansett arkstørrelse: en leser som viser PDF-en til 100 % ser prikkene like store som på skjermen. Der prikkene på et ark ellers ville røre hverandre, gjør eksporten prikkene på det arket mindre, slik at hver kan leses.
 

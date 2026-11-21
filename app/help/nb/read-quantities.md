@@ -24,7 +24,7 @@ Velg {{ui:Etter post}} (standard). Hver post har en rad, og hver av delkomponent
 
 Den siste raden, **Sum for jobben**, legger sammen kolonnene for materiale, arbeid og sum. Den samme totalsummen vises til høyre i tabellens overskrift.
 
-Skriv inn i en svinn- eller prisceller og trykk {{key:Enter}} eller klikk utenfor for å bruke den. En verdi TakeoffCraft ikke kan lese, får rød kant, og statuslinjen forklarer hvorfor, for eksempel «Skriv inn et beløp, for eksempel 12.50.»
+Skriv inn i en svinn- eller prisceller og trykk {{key:Enter}} eller klikk utenfor for å bruke den. En verdi TakeoffDesk ikke kan lese, får rød kant, og statuslinjen forklarer hvorfor, for eksempel «Skriv inn et beløp, for eksempel 12.50.»
 
 Klikk på radraden til en post for å markere markeringene på alle ark og hoppe til et ark som har dem (samme som å klikke på posten under {{ui:Poster}}).
 

@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Hvað þú gerir
 
-Breyttu því hvernig TakeoffCraft sýnir lengdir, svo metraverkefni lesist í metrum, sentímetrum eða millimetrum á blaðinu, í stöðustikunni og í spjöldunum.
+Breyttu því hvernig TakeoffDesk sýnir lengdir, svo metraverkefni lesist í metrum, sentímetrum eða millimetrum á blaðinu, í stöðustikunni og í spjöldunum.
 
 ## Skref
 
-1. Opnaðu {{ui:Settings}} með gírnum í forritastikunni eða {{key:Mod+,}}, og vertu áfram á flipanum {{ui:TakeoffCraft}}.
+1. Opnaðu {{ui:Settings}} með gírnum í forritastikunni eða {{key:Mod+,}}, og vertu áfram á flipanum {{ui:TakeoffDesk}}.
 2. Finndu {{ui:Show lengths as}} og veldu {{ui:Feet-inches}}, m, cm eða mm. {{ui:Follow Global}} notar metrísku lengdareininguna sem er merkt með stjörnu í {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, og fet og tommur þegar engin er merkt.
 3. Skoðaðu blaðið: lengdir í stöðustikunni, lista liða og spjöldunum lesast nú í þeirri einingu sem þú valdir. Hæðir, dýpt, þykkt og hæðarkótar gera það líka.
 4. Til að lesa hitastig liða í gráðum C eða F, veldu {{ui:Show temperatures as}} í sama flipa.

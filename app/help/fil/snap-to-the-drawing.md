@@ -5,7 +5,7 @@ keywords: snap, osnap, object snap, endpoint, midpoint, intersection, pinakamala
 from: 41d29e9b
 ---
 
-Karamihan sa mga plan set ay vector PDF: tunay na linya ang kanilang mga pader at gilid, hindi pixel. Habang nagme-measure, sina-snap ng TakeoffCraft ang iyong mga click sa mga linyang iyon, kaya eksaktong nagsisimula ang isang run sa sulok ng pader, at ang calibration ay bumabasa ng dimensyong iginuhit ng drafter, hindi ng pixel na natamaan mo.
+Karamihan sa mga plan set ay vector PDF: tunay na linya ang kanilang mga pader at gilid, hindi pixel. Habang nagme-measure, sina-snap ng TakeoffDesk ang iyong mga click sa mga linyang iyon, kaya eksaktong nagsisimula ang isang run sa sulok ng pader, at ang calibration ay bumabasa ng dimensyong iginuhit ng drafter, hindi ng pixel na natamaan mo.
 
 Naka-on ang Snap kapag nagsimula ka. I-on at i-off ito gamit ang {{ui:Snap}} sa status bar o {{key:F3}}; naka-save ang setting sa browser na ito (nasa [Mga setting](topic:settings) din ito).
 

@@ -32,11 +32,11 @@ Innlimte merker havner i tilbudsområdet valgt øverst i {{ui:Poster}}-panelet (
 
 {{key:Mod+Shift+V}} ({{ui:Lim inn på samme sted}}) legger kopien på nøyaktig samme sted på det åpne arket, etter posisjonen på siden. Bruk det for en typisk etasje: ta ut mengder for etasje 2, kopier, åpne etasje 3, lim inn på samme sted.
 
-Lim inn på samme sted krever et ark av **samme størrelse** som det du kopierte fra. På et ark av en annen størrelse sier TakeoffCraft fra og limer ikke inn noe; bruk {{ui:Lim inn}} og klikk i stedet. På arket du kopierte fra, legges kopien oppå originalene.
+Lim inn på samme sted krever et ark av **samme størrelse** som det du kopierte fra. På et ark av en annen størrelse sier TakeoffDesk fra og limer ikke inn noe; bruk {{ui:Lim inn}} og klikk i stedet. På arket du kopierte fra, legges kopien oppå originalene.
 
 ## Målestokken må stemme
 
-Lengder og arealer avhenger av arkets målestokk. En strekning som måler 10' ved 1/4" = 1'-0" ville måle 20' på et ark med 1/8" = 1'-0". Derfor limer TakeoffCraft bare inn strekninger og områder på et ark med **samme målestokk** som arket de kom fra, og sier tydelig fra når det ikke er det:
+Lengder og arealer avhenger av arkets målestokk. En strekning som måler 10' ved 1/4" = 1'-0" ville måle 20' på et ark med 1/8" = 1'-0". Derfor limer TakeoffDesk bare inn strekninger og områder på et ark med **samme målestokk** som arket de kom fra, og sier tydelig fra når det ikke er det:
 
 - Det åpne arket har ingen målestokk ennå: gi det en først ([Sett målestokken](topic:set-the-scale)), og lim deretter inn.
 - Det åpne arket har en annen målestokk: meldingen nevner begge målestokkene. Lim inn på et ark med samme målestokk.
@@ -59,7 +59,7 @@ Postredigeringen (under **{{ui:Poster}}**) slutter med:
 - {{ui:Dupliser post}}: legger til en kopi med en gang, kalt «(navn) (kopi)».
 
 :::tip
-Kopien blir på denne datamaskinen: den holdes i denne fanen og i nettleserens lagring, så en annen TakeoffCraft-fane kan lime den inn. Ingenting lastes opp, og systemets utklippstavle brukes ikke, så du kan ikke lime merker inn i andre programmer.
+Kopien blir på denne datamaskinen: den holdes i denne fanen og i nettleserens lagring, så en annen TakeoffDesk-fane kan lime den inn. Ingenting lastes opp, og systemets utklippstavle brukes ikke, så du kan ikke lime merker inn i andre programmer.
 :::
 
 :::note

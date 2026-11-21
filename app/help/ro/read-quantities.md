@@ -24,7 +24,7 @@ Alegeți {{ui:Pe articole}} (implicit). Fiecare articol are un rând, iar fiecar
 
 Ultimul rând, **Total lucrare**, adună coloanele Materiale, Manoperă și Total. Același total apare în dreapta antetului tabelului.
 
-Introduceți o valoare într-o celulă de pierderi sau de preț și apăsați {{key:Enter}} sau faceți clic în altă parte pentru a o aplica. O valoare pe care TakeoffCraft nu o poate citi este încadrată cu roșu, iar bara de stare explică motivul, de exemplu „Introduceți o sumă, de exemplu 12.50.”
+Introduceți o valoare într-o celulă de pierderi sau de preț și apăsați {{key:Enter}} sau faceți clic în altă parte pentru a o aplica. O valoare pe care TakeoffDesk nu o poate citi este încadrată cu roșu, iar bara de stare explică motivul, de exemplu „Introduceți o sumă, de exemplu 12.50.”
 
 Faceți clic pe rândul unui articol pentru a evidenția marcajele sale pe toate foile și pentru a trece la o foaie care le conține (același lucru ca un clic pe articol sub {{ui:Articole}}).
 

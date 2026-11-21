@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Lagre det gjeldende mengdeuttaket hvis du vil beholde det: {{ui:Save takeoff}} eller {{key:Mod+S}}.
 2. Velg {{ui:New}} i gruppen {{ui:File}}.
-3. Hvis det finnes ulagrede endringer, spør TakeoffCraft **Ulagret mengdeuttak**: velg {{ui:Save takeoff first}} (den laster ned prosjektet, og tømmer deretter), {{ui:Discard changes}}, eller {{ui:Cancel}}.
+3. Hvis det finnes ulagrede endringer, spør TakeoffDesk **Ulagret mengdeuttak**: velg {{ui:Save takeoff first}} (den laster ned prosjektet, og tømmer deretter), {{ui:Discard changes}}, eller {{ui:Cancel}}.
    Vinduet går tilbake til sin tomme tilstand: ingen PDF-er, ingen poster, ingen merker, ingen målestokker. Statuslinjen sier «Nytt mengdeuttak. Åpne PDF-er for å begynne.»
 
 Dette tømmes:

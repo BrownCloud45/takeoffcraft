@@ -24,7 +24,7 @@ Izvēlieties {{ui:Pēc vienuma}} (noklusējums). Katram vienumam ir rinda, un ka
 
 Pēdējā rinda, **Objekta kopā**, saskaita kolonnas materiāls, darbs un kopā. Tā pati kopsumma redzama tabulas galvenes labajā pusē.
 
-Ierakstiet zudumu vai likmes šūnā un nospiediet {{key:Enter}} vai noklikšķiniet citur, lai to piemērotu. Vērtība, ko TakeoffCraft nevar nolasīt, tiek iezīmēta sarkanā kontūrā, un statusa joslā norādīts iemesls, piemēram, "Ievadiet summu, piemēram, 12.50."
+Ierakstiet zudumu vai likmes šūnā un nospiediet {{key:Enter}} vai noklikšķiniet citur, lai to piemērotu. Vērtība, ko TakeoffDesk nevar nolasīt, tiek iezīmēta sarkanā kontūrā, un statusa joslā norādīts iemesls, piemēram, "Ievadiet summu, piemēram, 12.50."
 
 Noklikšķiniet uz vienuma rindas, lai izceltu tā atzīmes visās lapās un pārietu uz lapu, kurā tās ir (tas pats, kas noklikšķinot zem {{ui:Vienumi}}).
 
