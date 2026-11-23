@@ -77,7 +77,7 @@ En rad per ark som har en målestokk eller markeringer.
 | Ark | Arknavn |
 | Målestokk | Forhåndsvalgtes navn, den kalibrerte målestokken, eller «Ingen målestokk» |
 | Hvordan | «Forhåndsvalgt», eller «Kalibrert på avstanden som ble skrevet inn» |
-| Fot per PDF-enhet | Den nøyaktige skaleringsfaktoren TakeoffCraft bruker |
+| Fot per PDF-enhet | Den nøyaktige skaleringsfaktoren TakeoffDesk bruker |
 
 ## Filnavn
 

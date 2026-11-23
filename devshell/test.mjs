@@ -127,7 +127,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
 
   const problems = [];
   if (!OFFLINE) {
-    const v = await fetchVendor({ quiet: false, oracles: ORACLES });
+    const v = await fetchVendor({ quiet: false });
     console.log(`libraries: ${v.fetched} fetched, ${v.kept} already here`);
     for (const f of v.failed) problems.push('library: ' + f);
   }

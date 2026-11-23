@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Lưu bóc tách hiện tại nếu bạn muốn giữ nó: {{ui:Lưu bóc tách}} hoặc {{key:Mod+S}}.
 2. Chọn {{ui:Mới}} trong nhóm {{ui:Tệp}}.
-3. Nếu có thay đổi chưa lưu, TakeoffCraft hỏi **Bóc tách chưa lưu**: chọn {{ui:Lưu bóc tách trước}} (nó tải dự án xuống, rồi xóa), {{ui:Bỏ thay đổi}}, hoặc {{ui:Hủy}}.
+3. Nếu có thay đổi chưa lưu, TakeoffDesk hỏi **Bóc tách chưa lưu**: chọn {{ui:Lưu bóc tách trước}} (nó tải dự án xuống, rồi xóa), {{ui:Bỏ thay đổi}}, hoặc {{ui:Hủy}}.
    Cửa sổ trở về trạng thái trống: không có PDF, không có hạng mục, không có dấu, không có tỷ lệ. Thanh trạng thái ghi "Bóc tách mới. Mở PDF để bắt đầu."
 
 Những gì bị xóa:

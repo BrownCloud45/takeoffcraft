@@ -6,7 +6,7 @@ order: 20
 keywords: limits, missing, not yet, roadmap, planned, workaround, per run, cloud, desktop
 ---
 
-TakeoffCraft is in development. This list is what the current build does not do, and how to get the job done anyway.
+TakeoffDesk is in development. This list is what the current build does not do, and how to get the job done anyway.
 
 ## Measuring
 
@@ -57,10 +57,10 @@ TakeoffCraft is in development. This list is what the current build does not do,
 
 | Not built yet | Instead, today |
 |---|---|
-| One PDF that both shows the marks and carries the takeoff | {{ui:Marked PDF}} for people to see the marks; {{ui:PDF with the takeoff inside}} to reopen in TakeoffCraft. |
+| One PDF that both shows the marks and carries the takeoff | {{ui:Marked PDF}} for people to see the marks; {{ui:PDF with the takeoff inside}} to reopen in TakeoffDesk. |
 | A CSV of quantities by sheet or of the marks | Use {{ui:XLSX}}: its By sheet and Marks worksheets have them. |
 | Cloud saving | Not available yet. Save project files to your computer and back them up. |
-| A separate TakeoffCraft desktop app | From 0.5 the desktop app is CadCraft Studio, with all eight apps in one install. TakeoffCraft also runs in the browser. |
+| A desktop app | TakeoffDesk runs in the browser, served from your own computer (`npm start`) or any web server (the browser edition). |
 
 ## Screen and input
 
@@ -81,9 +81,7 @@ TakeoffCraft is in development. This list is what the current build does not do,
 
 | Not built yet | Instead, today |
 |---|---|
-| Addenda to a package that was already sent, award letters, a scope sheet each bidder signs off | Send a new package, and write the award yourself. [Send a package for bids](topic:bid-invitations) covers what is built. |
-| Sending bid invitations from any account: while it is tested, mail to outside bidders is switched off except for accounts the CadCraft team has enabled | Download the {{ui:Scope CSV}}, email it yourself and type the bids in. |
-| Sending bid packages from a Studio window | Send from TakeoffCraft in the browser. |
+| Sending a package to subcontractors from the app, addenda, award letters | Export the package's CSV (or the bid PDF), send it yourself, and type the bids that come back into the leveling table. |
 | Repricing an alternate's bid area with a chosen bid | Alternates and bid-area subtotals use your own prices; adjust the alternate by hand. |
 | Automatic reminders before a subcontractor's insurance or license date runs out | The date is flagged on the Subcontractors page once it is past or within 30 days; check it when you invite. |
 
@@ -95,4 +93,4 @@ TakeoffCraft is in development. This list is what the current build does not do,
 
 ## Spreadsheets
 
-The XLSX workbook has been checked in LibreOffice Calc, which recalculated every total to the same cent as TakeoffCraft. It has not been opened in Excel yet. If a spreadsheet program shows something unexpected, the CSV export holds the same estimate as plain values.
+The XLSX workbook has been checked in LibreOffice Calc, which recalculated every total to the same cent as TakeoffDesk. It has not been opened in Excel yet. If a spreadsheet program shows something unexpected, the CSV export holds the same estimate as plain values.

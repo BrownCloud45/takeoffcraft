@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * packs.js — trade packs (0.5 TK.1): a data-only kind of add-on for TakeoffCraft. A pack is one JSON file of items with
+ * packs.js — trade packs (0.5 TK.1): a data-only kind of add-on for TakeoffDesk. A pack is one JSON file of items with
  * their assemblies (components, formulas, waste), CSI MasterFormat numbers, imperial and metric twins and the public
  * references each assembly was written from. It carries no code, so it is never run, only read — as untrusted as a project
  * file (`readProject`): every field is checked, bad parts are dropped with a warning, anything malformed is refused.

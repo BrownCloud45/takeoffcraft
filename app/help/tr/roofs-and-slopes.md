@@ -5,7 +5,7 @@ keywords: çatı, eğim, eğim katsayısı, yükselme, ilerleme, 6:12, beşik ke
 from: 38225b60
 ---
 
-Bir çatı planı, her çatı düzlemini yukarıdan görüldüğü gibi düz gösterir. Gerçek çatı ise daha büyüktür: 6:12 eğimli bir düzlemin yüzeyi planından yaklaşık %12 daha fazladır ve eğimli kenarları göründüğünden daha uzundur. Kaleme eğimini verin; TakeoffCraft eğim boyunca ölçer.
+Bir çatı planı, her çatı düzlemini yukarıdan görüldüğü gibi düz gösterir. Gerçek çatı ise daha büyüktür: 6:12 eğimli bir düzlemin yüzeyi planından yaklaşık %12 daha fazladır ve eğimli kenarları göründüğünden daha uzundur. Kaleme eğimini verin; TakeoffDesk eğim boyunca ölçer.
 
 ## Eğim yazma
 

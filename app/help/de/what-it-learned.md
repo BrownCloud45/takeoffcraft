@@ -1,11 +1,11 @@
 ---
-title: Was TakeoffCraft aus Ihren Mengenermittlungen lernt
-summary: TakeoffCraft behält die Symbole, die Sie mit Auto-Zählen bestätigt haben, Ihre Konditionssätze, die am häufigsten verwendeten Kalkulationsbausteine und Muster, die Sie auf jeder Seite wiederholen, alles in der Datei der Mengenermittlung. Einsehen, verwenden, löschen.
+title: Was TakeoffDesk aus Ihren Mengenermittlungen lernt
+summary: TakeoffDesk behält die Symbole, die Sie mit Auto-Zählen bestätigt haben, Ihre Konditionssätze, die am häufigsten verwendeten Kalkulationsbausteine und Muster, die Sie auf jeder Seite wiederholen, alles in der Datei der Mengenermittlung. Einsehen, verwenden, löschen.
 keywords: lernen, gelernt, lernend, assistent, merken, symbole, vorlagen, wie beim letzten auftrag, letzter auftrag, konditionssatz, konditionen, wiederverwenden, kalkulationsbausteine, am häufigsten verwendet, vorschläge, auf jeder seite wiederholen, jede seite, schriftfeld, muster, alles löschen, vergessen, datenschutz
 from: 54d99e99
 ---
 
-TakeoffCraft wird mit jeder Mengenermittlung schneller. Es lernt **nur von dem, was Sie übernehmen**:
+TakeoffDesk wird mit jeder Mengenermittlung schneller. Es lernt **nur von dem, was Sie übernehmen**:
 
 - die Symbole, die Sie mit [{{ui:Auto-Zählen}}](topic:auto-count) markiert und dann hinzugefügt haben,
 - die Konditionssätze, die Sie speichern,
@@ -64,6 +64,6 @@ Um das Lernen in einer Mengenermittlung zu beenden, deaktivieren Sie {{ui:Aus di
 
 ## Gut zu wissen
 
-- Ältere Versionen von TakeoffCraft öffnen eine Datei mit Gelerntem normal. Sie ignorieren diesen Teil und verwerfen ihn, wenn sie die Datei erneut speichern.
+- Ältere Versionen von TakeoffDesk öffnen eine Datei mit Gelerntem normal. Sie ignorieren diesen Teil und verwerfen ihn, wenn sie die Datei erneut speichern.
 - Ein gelerntes Symbol ist ein kleines Bild dessen, was Sie markiert haben, und wird in der Datei gespeichert (je wenige Kilobyte).
 - Gelernte Symbole werden wie bei Auto-Zählen durchsucht, daher gelten dieselben Grenzen: [Ein Symbol mit Auto-Zählen zählen](topic:auto-count).

@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Ano ang gagawin mo
 
-Baguhin kung paano ipinapakita ng TakeoffCraft ang mga haba, para ang metric na trabaho ay mabasa sa metro, sentimetro o milimetro sa sheet, sa status bar at sa mga panel.
+Baguhin kung paano ipinapakita ng TakeoffDesk ang mga haba, para ang metric na trabaho ay mabasa sa metro, sentimetro o milimetro sa sheet, sa status bar at sa mga panel.
 
 ## Mga hakbang
 
-1. Buksan ang {{ui:Mga setting}} gamit ang gear sa app bar o {{key:Mod+,}}, at manatili sa tab na {{ui:TakeoffCraft}}.
+1. Buksan ang {{ui:Mga setting}} gamit ang gear sa app bar o {{key:Mod+,}}, at manatili sa tab na {{ui:TakeoffDesk}}.
 2. Hanapin ang {{ui:Ipakita ang haba bilang}} at piliin ang {{ui:Feet-inches}}, m, cm o mm. Ang {{ui:Sundin ang Global}} ay gumagamit ng metric na length unit na may bituin sa {{ui:Mga setting}} › {{ui:Global}} › {{ui:Mga unit}}, at feet-inches kapag walang naka-bituin.
 3. Tingnan ang sheet: ang mga haba sa status bar, sa listahan ng {{ui:Items}} at sa mga panel ay nababasa na sa unit na pinili mo. Ganoon din ang mga taas, lalim, kapal at mga level.
 4. Para mabasa ang temperatura ng item sa degrees C o F, piliin ang {{ui:Ipakita ang temperatura bilang}} sa parehong tab.

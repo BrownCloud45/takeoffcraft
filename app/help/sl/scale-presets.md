@@ -49,4 +49,4 @@ Izračunano merilo se v vrstici pod listom prikaže kot „Kalibrirano 1“ = 4.
 
 ## Nenavadni PDF-ji
 
-Nekateri PDF-ji naznanijo večjo enoto strani („uporabniško enoto“); TakeoffCraft jo upošteva pri prednastavitvah in pri prikazanem merilu. Strani, zasukane v PDF-ju, se merijo enako kot pokončne.
+Nekateri PDF-ji naznanijo večjo enoto strani („uporabniško enoto“); TakeoffDesk jo upošteva pri prednastavitvah in pri prikazanem merilu. Strani, zasukane v PDF-ju, se merijo enako kot pokončne.

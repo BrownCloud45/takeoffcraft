@@ -5,7 +5,7 @@ keywords: movimiento de tierras, excavación, desmonte, terraplén, desmonte y t
 from: a898e508
 ---
 
-TakeoffCraft mide lo que está dibujado en un plano. El movimiento de tierras necesita una superficie del terreno, por eso se comparte con CivilCraft, que construye superficies a partir de puntos, las nivela y calcula el desmonte, el terraplén y el transporte de tierras.
+TakeoffDesk mide lo que está dibujado en un plano. El movimiento de tierras necesita una superficie del terreno, por eso se comparte con CivilCraft, que construye superficies a partir de puntos, las nivela y calcula el desmonte, el terraplén y el transporte de tierras.
 
 ## Excavación sencilla aquí
 
@@ -29,8 +29,8 @@ Los puntos de planos distintos no comparten coordenadas, así que la exportació
 
 El movimiento de tierras de CivilCraft llega como dos elementos que puede valorar:
 
-1. En CivilCraft, nivele sus plataformas y corredores y elija {{ui:Enviar a TakeoffCraft}} en **Movimiento de tierras** ([Volúmenes de movimiento de tierras](app:civilcraft/volumes)). Guarda un archivo de cantidades (`.quantities.json`).
-2. En TakeoffCraft, ábralo con {{ui:Abrir medición}}, o suéltelo sobre la aplicación. Su medición sigue abierta: el archivo añade **Earthwork: cut** y **Earthwork: fill** como [cantidades introducidas manualmente](topic:create-items#typed-quantities-no-drawing) en yardas cúbicas (CY) para un proyecto en pies, o en metros cúbicos (m³) para un proyecto en metros. Es un solo paso: {{key:Mod+Z}} lo deshace.
+1. En CivilCraft, nivele sus plataformas y corredores y elija {{ui:Enviar a TakeoffDesk}} en **Movimiento de tierras** ([Volúmenes de movimiento de tierras](app:civilcraft/volumes)). Guarda un archivo de cantidades (`.quantities.json`).
+2. En TakeoffDesk, ábralo con {{ui:Abrir medición}}, o suéltelo sobre la aplicación. Su medición sigue abierta: el archivo añade **Earthwork: cut** y **Earthwork: fill** como [cantidades introducidas manualmente](topic:create-items#typed-quantities-no-drawing) en yardas cúbicas (CY) para un proyecto en pies, o en metros cúbicos (m³) para un proyecto en metros. Es un solo paso: {{key:Mod+Z}} lo deshace.
 3. Renómbrelos, y ajuste el desperdicio, los precios y los ensamblajes como desee.
 
 Cuando cambie el diseño, envíe de nuevo desde CivilCraft y abra el archivo nuevo: los mismos dos elementos reciben las nuevas cantidades. Sus nombres, precios, desperdicio y ensamblajes se mantienen tal como los haya dejado. Si cambió la unidad del proyecto, la barra de estado lo indica: revise los precios. Un archivo de otro proyecto de CivilCraft añade sus propios dos elementos.

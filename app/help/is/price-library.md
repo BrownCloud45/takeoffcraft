@@ -13,7 +13,7 @@ Opnaðu það með {{ui:Safn}} efst á {{ui:Liðir}}-spjaldinu.
 
 - {{ui:Flytja inn CSV…}} les töflureikni vistaðan sem CSV (sjá dálkana hér að neðan). Liðir sem eru þegar í safninu með sama nafni og gerð eru skiptir út; hinir bætast við. Línur sem það getur ekki lesið eru sleppt, og það segir hvaða línur og af hverju.
 - {{ui:Bæta við liðum þessarar magntöku}} afritar alla liði opinnar magntöku í safnið, með taxtum sínum og samsetningu (ekki merkjunum).
-- Matið sem TakeoffCraft flytur út sem CSV ([Flyttu matið út](topic:export-estimate)) flyst inn eins og það er: verð síðasta verks gefa upphafið að því næsta.
+- Matið sem TakeoffDesk flytur út sem CSV ([Flyttu matið út](topic:export-estimate)) flyst inn eins og það er: verð síðasta verks gefa upphafið að því næsta.
 
 - {{ui:Fagpakkar…}} bætir ókeypis samsetningum fyrir iðngrein við, svo sem gipsveggi, rafmagn eða steinsteypu, án verða. Sjá [Fagpakkar](topic:trade-packs).
 

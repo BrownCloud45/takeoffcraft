@@ -1,6 +1,6 @@
 # Dev shell
 
-Run this app from a clone, without getcadcraft.com.
+Run this app from a clone.
 
 ```sh
 node devshell/serve.mjs            # Node 20.19 or newer; no packages to install
@@ -11,6 +11,7 @@ node devshell/serve.mjs            # Node 20.19 or newer; no packages to install
 - `?lang=es-MX` — another language (when the app has `app/lang/es-MX.json`); `?lang=en-XA` shows every translated
   string accented and 40% longer, so text that skipped the language files stands out.
 - `--port 8080`, `--host 0.0.0.0`, `--offline` (never download libraries).
+- `--mcp` (or `npm run mcp`): let an AI assistant such as Claude Code or Claude Desktop use the open tab — see `MCP.md`.
 
 ## Tests
 
@@ -31,11 +32,11 @@ The tests use the drawings in `fixtures/` (made for testing; no customer files).
 | `devshell/serve.mjs` | the local server |
 | `devshell/render.php` | builds the page from `app/ui.inc` (`--edition` for the browser edition's page) |
 | `devshell/edition.mjs` | packs the browser edition into `dist/` (BUILDING.md § The browser edition) |
-| `devshell/edition/` | what edition.mjs needs from getcadcraft.com: service worker, INSTALL.md template, `kit.json` (written by the sync; do not edit) |
+| `devshell/edition/` | what edition.mjs needs: service worker, INSTALL.md template, `kit.json` (notices and library license texts) |
 | `devshell/index.html` | the page, pre-rendered — used when PHP is not installed |
 | `devshell/app.json` | the app's name and colour, and the exact library versions it runs on |
-| `devshell/site/` | the shared shell from getcadcraft.com (app bar styles, settings dialog, help panel, fonts) |
-| `devshell/vendor/` | libraries (pdf.js, three.js, …), downloaded once by version (`devshell/vendor.json` lists every file and its checksum) |
+| `devshell/site/` | the shell (app bar styles, settings dialog, help panel, fonts) |
+| `devshell/vendor/` | libraries (pdf.js, three.js, …), downloaded once from the npm registry by version (`devshell/vendor.json` lists every file and its checksum) |
 | `tests/`, `fixtures/` | the app's tests and the drawings they use; `.cc-test/` is where `npm test` runs them |
 
 ## Editing
@@ -58,5 +59,5 @@ The whole app as static files for any web server, as on the Releases page; needs
 
 ## What the dev shell does not do
 
-It has no accounts and no cloud: saving goes to your computer, as in the browser apps. The library panel, "Save for
-offline" and links to the other apps need getcadcraft.com and are hidden or will say they cannot connect.
+It has no accounts and no cloud: saving goes to your computer. "Save for offline" works only in the browser edition
+(`node devshell/edition.mjs`).

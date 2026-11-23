@@ -1,11 +1,11 @@
 ---
 title: Fehlerbehebung
-summary: Symptome, Ursachen und Lösungen für die Meldungen und Überraschungen, die Ihnen in TakeoffCraft begegnen können, zitiert so, wie die App sie anzeigt.
+summary: Symptome, Ursachen und Lösungen für die Meldungen und Überraschungen, die Ihnen in TakeoffDesk begegnen können, zitiert so, wie die App sie anzeigt.
 keywords: Probleme, Fehler, funktioniert nicht, Lösung, Hilfe, abgelehnt, misst nicht, kein Maßstab, fehlende Markierungen, Export fehlgeschlagen, offline, Touch
 from: cd319c9b
 ---
 
-TakeoffCraft erklärt die meisten Ablehnungen in der Statusleiste unten im Fenster. Suchen Sie unten die Meldung.
+TakeoffDesk erklärt die meisten Ablehnungen in der Statusleiste unten im Fenster. Suchen Sie unten die Meldung.
 
 ## Dateien öffnen
 
@@ -15,8 +15,8 @@ TakeoffCraft erklärt die meisten Ablehnungen in der Statusleiste unten im Fenst
 | (name) ist passwortgeschützt. Öffnen Sie eine ungeschützte Kopie. | Die PDF braucht ein Passwort zum Öffnen. | Fragen Sie nach einer ungeschützten Kopie oder entfernen Sie das Passwort in einem vertrauenswürdigen PDF-Programm. |
 | (name) konnte nicht als PDF gelesen werden (…) | Die Datei ist beschädigt oder keine echte PDF. | Laden Sie sie erneut herunter oder speichern Sie sie in dem Programm neu, das sie erstellt hat. |
 | (name) ist bereits geöffnet. | Dieselbe PDF (gleicher Inhalt) ist bereits geöffnet. | Nichts zu tun. |
-| TakeoffCraft öffnet PDFs und .takeoff.json-Projekte. Übersprungen: … | Andere Dateitypen wurden verworfen. | Wandeln Sie Zeichnungen zuerst in PDF um. |
-| Nichts passiert, wenn ich Dateien ablege | Die Dateien wurden außerhalb des Browserfensters abgelegt, oder der Browser hat die PDF in einem neuen Tab geöffnet. | Legen Sie die Dateien auf der TakeoffCraft-Seite selbst ab. Der Rahmen „PDFs oder eine .takeoff.json ablegen“ zeigt an, wann es funktioniert. |
+| TakeoffDesk öffnet PDFs und .takeoff.json-Projekte. Übersprungen: … | Andere Dateitypen wurden verworfen. | Wandeln Sie Zeichnungen zuerst in PDF um. |
+| Nichts passiert, wenn ich Dateien ablege | Die Dateien wurden außerhalb des Browserfensters abgelegt, oder der Browser hat die PDF in einem neuen Tab geöffnet. | Legen Sie die Dateien auf der TakeoffDesk-Seite selbst ab. Der Rahmen „PDFs oder eine .takeoff.json ablegen“ zeigt an, wann es funktioniert. |
 | Das Öffnen einer großen Planmappe dauert eine Weile | Jede PDF wird vollständig gelesen, um sie zu identifizieren. | Warten Sie, bis die Meldung „(name) wird geöffnet…“ verschwindet. Miniaturansichten erscheinen beim Scrollen. |
 
 ## Messen
@@ -47,7 +47,7 @@ TakeoffCraft erklärt die meisten Ablehnungen in der Statusleiste unten im Fenst
 | Meldung oder Symptom | Ursache | Lösung |
 |---|---|---|
 | Wählen Sie zwei Punkte, die weiter auseinanderliegen. | Die Kalibrierpunkte liegen fast aufeinander. | Kalibrieren Sie an einem längeren Maß. |
-| Eine Meldung im Kalibrierdialog, etwa „Diese Strecke konnte nicht gelesen werden“ | Die Strecke steht in einer Form, die TakeoffCraft nicht lesen kann. | Siehe [Eingabe von Länge, Satz und Prozent](topic:entry-formats). |
+| Eine Meldung im Kalibrierdialog, etwa „Diese Strecke konnte nicht gelesen werden“ | Die Strecke steht in einer Form, die TakeoffDesk nicht lesen kann. | Siehe [Eingabe von Länge, Satz und Prozent](topic:entry-formats). |
 | Dieses Blatt hat noch keinen Maßstab, daher gibt es nichts zu prüfen. Kalibrieren Sie es oder wählen Sie eine Voreinstellung. | {{ui:Prüfen}} auf einem Blatt ohne Maßstab. | Legen Sie zuerst einen Maßstab fest. |
 | Die Liste {{ui:Voreinstellung}} ist ausgegraut | Es ist kein Blatt geöffnet. | Öffnen Sie eine PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft erklärt die meisten Ablehnungen in der Statusleiste unten im Fenst
 | Diese PDF ist passwortgeschützt oder verschlüsselt, daher kann keine markierte Kopie geschrieben werden. … | Die PDF ist verschlüsselt. | Exportieren Sie stattdessen {{ui:XLSX}}, oder verwenden Sie eine unverschlüsselte Kopie der PDF (sie braucht dann eine eigene Mengenermittlung, da es eine andere Datei ist). |
 | Das markierte PDF konnte nicht geschrieben werden: … | Oft: offline, und die App wurde nicht für Offline gespeichert, daher fehlt der PDF-Schreiber. | Gehen Sie online und wählen Sie {{ui:Markiertes PDF}} erneut. Um es zu vermeiden, wählen Sie {{ui:Für Offline speichern}} und warten Sie auf {{ui:Offline bereit}}. |
 | Nur ein markiertes PDF wurde heruntergeladen | Der Browser hat mehrere Downloads gleichzeitig blockiert. | Erlauben Sie mehrere Downloads für diese Seite und exportieren Sie erneut. |
-| (file) ist kein TakeoffCraft-Projekt (es ist kein gültiges JSON). / Dies ist keine TakeoffCraft-Projektdatei. | Falsche oder beschädigte Datei. | Wählen Sie die Datei `.takeoff.json`. |
-| Dieses Projekt wurde mit einer neueren Version von TakeoffCraft gespeichert. Öffnen Sie es dort. | Die Datei stammt aus einer neueren Version. | Öffnen Sie sie in der neueren Version. |
+| (file) ist kein TakeoffDesk-Projekt (es ist kein gültiges JSON). / Dies ist keine TakeoffDesk-Projektdatei. | Falsche oder beschädigte Datei. | Wählen Sie die Datei `.takeoff.json`. |
+| Dieses Projekt wurde mit einer neueren Version von TakeoffDesk gespeichert. Öffnen Sie es dort. | Die Datei stammt aus einer neueren Version. | Öffnen Sie sie in der neueren Version. |
 | (n) Markierungen waren beschädigt und wurden ausgelassen. | Ein Teil der Datei war beschädigt oder wurde von Hand bearbeitet. | Der Rest wurde geöffnet. Zeichnen Sie die fehlenden Markierungen neu, oder öffnen Sie eine ältere Kopie. |
 | Markierungen fehlen nach dem erneuten Öffnen | Die PDFs sind nicht geöffnet, oder eine von ihnen hat sich geändert. | Siehe [Mengenermittlung speichern und erneut öffnen](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Der Browser fragt „Seite verlassen?“ | Es gibt nicht gespeicherte Änderungen. | Bleiben Sie und speichern Sie mit {{key:Mod+S}}. |

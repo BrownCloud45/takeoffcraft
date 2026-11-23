@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, výkres, otvoriť výkres, rozloženia, priestor modelu
 from: d8c3f504
 ---
 
-TakeoffCraft otvára výkres DWG alebo DXF rovnako ako PDF: nemusíte ho najprv vykresliť do PDF. Počítanie priamo z výkresu je presné, lebo výkres pozná, čím je každý objekt. Pozri [Počítanie z výkresu](topic:count-from-a-drawing).
+TakeoffDesk otvára výkres DWG alebo DXF rovnako ako PDF: nemusíte ho najprv vykresliť do PDF. Počítanie priamo z výkresu je presné, lebo výkres pozná, čím je každý objekt. Pozri [Počítanie z výkresu](topic:count-from-a-drawing).
 
 ## Otvorenie výkresu
 
@@ -13,9 +13,9 @@ TakeoffCraft otvára výkres DWG alebo DXF rovnako ako PDF: nemusíte ho najprv 
 2. Vyberte súbor DWG alebo DXF. Môžete vybrať viac súborov a spolu s nimi aj PDF.
 3. Kliknite na Otvoriť.
 
-Súbory výkresov môžete tiež presunúť na TakeoffCraft, rovnako ako PDF. Nič sa nenahráva: prehliadač číta súbor vo vašom počítači.
+Súbory výkresov môžete tiež presunúť na TakeoffDesk, rovnako ako PDF. Nič sa nenahráva: prehliadač číta súbor vo vašom počítači.
 
-TakeoffCraft číta DWG od AutoCAD 2000 po 2018 a ASCII DXF od R12 po 2018. Binárny DXF odmietne (uložte ho ako ASCII alebo ako DWG) a rovnako súbor, ktorý nie je ani jedno, a povie prečo. Poškodený súbor sa otvorí s tým, čo sa dalo prečítať, a správa to povie; jeho počty môžu byť neúplné.
+TakeoffDesk číta DWG od AutoCAD 2000 po 2018 a ASCII DXF od R12 po 2018. Binárny DXF odmietne (uložte ho ako ASCII alebo ako DWG) a rovnako súbor, ktorý nie je ani jedno, a povie prečo. Poškodený súbor sa otvorí s tým, čo sa dalo prečítať, a správa to povie; jeho počty môžu byť neúplné.
 
 ## Listy
 
@@ -40,10 +40,10 @@ List začína mierkou, ktorú výkres udáva:
 
 ## Pripojené výkresy (xref)
 
-Výkres, ktorý odkazuje na iné výkresy, ich zobrazí tam, kde sú vložené. TakeoffCraft nájde pripojený výkres medzi **otvorenými súbormi** podľa názvu súboru: otvorte hlavný výkres a pripojený spolu (alebo jeden po druhom). Dovtedy stavový riadok hovorí, koľko pripojených výkresov sa nenašlo, čo kreslia, chýba, a počty to uvedú.
+Výkres, ktorý odkazuje na iné výkresy, ich zobrazí tam, kde sú vložené. TakeoffDesk nájde pripojený výkres medzi **otvorenými súbormi** podľa názvu súboru: otvorte hlavný výkres a pripojený spolu (alebo jeden po druhom). Dovtedy stavový riadok hovorí, koľko pripojených výkresov sa nenašlo, čo kreslia, chýba, a počty to uvedú.
 
 ## Obmedzenia
 
-- Objekty, ktoré TakeoffCraft nevie prečítať alebo umiestniť (proxy objekty, neznáme triedy), sú vypísané v okne počítania podľa typu; nikdy sa nevynechajú bez upozornenia.
+- Objekty, ktoré TakeoffDesk nevie prečítať alebo umiestniť (proxy objekty, neznáme triedy), sú vypísané v okne počítania podľa typu; nikdy sa nevynechajú bez upozornenia.
 - Veľmi veľké výkresy sa kreslia po častiach a počty sa zastavia pri limite, čo sa povie. Otvorte namiesto toho PDF vykreslenie takého výkresu.
 - Výkres sa kreslí čiernou a vlastnými farbami stmavenými pre biely papier. Tabuľky štýlov vykreslenia a priradenia pier sa neuplatňujú.

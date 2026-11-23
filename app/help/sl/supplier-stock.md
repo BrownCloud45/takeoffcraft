@@ -1,6 +1,6 @@
 ---
 title: Preverite zalogo dobavitelja in dobavne roke
-summary: Dodajte seznam zalog dobavitelja (CSV ali preglednico) in TakeoffCraft ga primerja s tem, kar predizmere potrebujejo, z odpadkom: dovolj na zalogi in kako dolgo traja čakanje. Pomanjkanja in dolga čakanja se prikažejo v podoknu Težave.
+summary: Dodajte seznam zalog dobavitelja (CSV ali preglednico) in TakeoffDesk ga primerja s tem, kar predizmere potrebujejo, z odpadkom: dovolj na zalogi in kako dolgo traja čakanje. Pomanjkanja in dolga čakanja se prikažejo v podoknu Težave.
 keywords: dobavitelj, zaloga, na zalogi, dobavni rok, razpoložljivost, pomanjkanje, backorder, seznam naročila, csv, sku, prodajalec, materiali, dobava, težave
 from: f11160fb
 ---

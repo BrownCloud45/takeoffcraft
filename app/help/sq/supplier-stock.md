@@ -1,6 +1,6 @@
 ---
 title: Kontrollo stokun e furnizuesit dhe kohët e pritjes
-summary: Shtoni listën e stokut të një furnizuesi (CSV ose fletëllogaritës) dhe TakeoffCraft kontrollon ndaj saj atë që kërkon llogaritja, me humbjen: sa ka në stok dhe sa zgjat pritja. Mungesat dhe pritjet e gjata shfaqen te panelin e Problemeve.
+summary: Shtoni listën e stokut të një furnizuesi (CSV ose fletëllogaritës) dhe TakeoffDesk kontrollon ndaj saj atë që kërkon llogaritja, me humbjen: sa ka në stok dhe sa zgjat pritja. Mungesat dhe pritjet e gjata shfaqen te panelin e Problemeve.
 keywords: furnizues, stok, në stok, kohë pritjeje, disponueshmëri, mungesë, porosi e mbetur, lista e porosisë, csv, sku, shitës, materiale, furnizimi, probleme
 from: f11160fb
 ---

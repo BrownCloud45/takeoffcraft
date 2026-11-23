@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * layout-test.mjs — TakeoffCraft's estimate and quantities by sheet in the office layout (booklet row BK.149; session
+ * layout-test.mjs — TakeoffDesk's estimate and quantities by sheet in the office layout (booklet row BK.149; session
  * bk-r3-schedules-10): the same office standard (the Default Policies store and its four all.schedule.* policies) and the same
  * layout engine (tables/table.js) as BimCraft. DOM-free:
  *   node tools/takeoffcraft-test/layout-test.mjs
@@ -28,13 +28,13 @@ const ok = (c, name, detail) => { if (c) pass++; else { fail++; console.log('  F
 const same = (a, b) => fs.readFileSync(a).equals(fs.readFileSync(b));
 
 console.log('== one engine, one store, one reading of the standard');
-ok(same(path.join(ROOT, 'lib/tables/table.js'), path.join(TC, 'tables/table.js')) && same(path.join(TC, 'tables/table.js'), path.join(BC, 'tables/table.js')), 'TakeoffCraft and BimCraft carry the same layout engine, byte for byte (lib/tables/table.js)');
+ok(same(path.join(ROOT, 'lib/tables/table.js'), path.join(TC, 'tables/table.js')) && same(path.join(TC, 'tables/table.js'), path.join(BC, 'tables/table.js')), 'TakeoffDesk and BimCraft carry the same layout engine, byte for byte (lib/tables/table.js)');
 ok(same(path.join(ROOT, 'lib/defaults/defaults-hook.js'), path.join(TC, 'defaults-hook.js')) && same(path.join(TC, 'defaults-hook.js'), path.join(BC, 'defaults-hook.js')), 'and the same defaults hook');
-for (const f of ['policies.js', 'store.js', 'provider.js', 'ui.js']) ok(same(path.join(ROOT, 'lib/defaults', f), path.join(TC, 'addons/default-policies/lib', f)), 'the add-on in TakeoffCraft carries lib/defaults/' + f + ' unchanged');
+for (const f of ['policies.js', 'store.js', 'provider.js', 'ui.js']) ok(same(path.join(ROOT, 'lib/defaults', f), path.join(TC, 'addons/default-policies/lib', f)), 'the add-on in TakeoffDesk carries lib/defaults/' + f + ' unchanged');
 ok(/applyLayout|withStandard/.test(fs.readFileSync(path.join(TC, 'estimate-layout.js'), 'utf8')) && !/function applyLayout|localStorage/.test(fs.readFileSync(path.join(TC, 'estimate-layout.js'), 'utf8') + fs.readFileSync(path.join(TC, 'estimate-layout-ui.js'), 'utf8')), 'the adapter calls the shared engine; it has no layout engine and no store of its own');
 const man = JSON.parse(fs.readFileSync(path.join(TC, 'addons/default-policies/addon.json'), 'utf8'));
-ok(man.id === 'default-policies' && man.apps.join() === 'takeoffcraft' && man.default === 'off' && man.api === '1.1' && API.TAKEOFFCRAFT_API_VERSION === '1.1' && JSON.parse(fs.readFileSync(path.join(TC, 'addons/index.json'), 'utf8')).addons.includes('default-policies'), 'the Default Policies add-on is listed in TakeoffCraft, off until switched on, on add-on API 1.1');
-ok(POL.policyList('*').filter((p) => p.id.startsWith('all.schedule.')).length === 4 && POL.policyList('takeoffcraft').length === 0, 'the four schedule policies are for every app; TakeoffCraft has none of its own');
+ok(man.id === 'default-policies' && man.apps.join() === 'takeoffcraft' && man.default === 'off' && man.api === '1.1' && API.TAKEOFFCRAFT_API_VERSION === '1.1' && JSON.parse(fs.readFileSync(path.join(TC, 'addons/index.json'), 'utf8')).addons.includes('default-policies'), 'the Default Policies add-on is listed in TakeoffDesk, off until switched on, on add-on API 1.1');
+ok(POL.policyList('*').filter((p) => p.id.startsWith('all.schedule.')).length === 4 && POL.policyList('takeoffcraft').length === 0, 'the four schedule policies are for every app; TakeoffDesk has none of its own');
 
 // Walls 2 linear items, Doors count with a component, a typed item
 const H = 'a'.repeat(64), S1 = H + ':0', S2 = H + ':1';

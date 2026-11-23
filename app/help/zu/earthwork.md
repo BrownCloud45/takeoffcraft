@@ -5,7 +5,7 @@ keywords: umsebenzi womhlaba, ukumbiwa, ukumba, ukugcwalisa, ukumba nokugcwalisa
 from: a898e508
 ---
 
-I-TakeoffCraft ilinganisa lokho okudwetshwe eshidini. Umsebenzi womhlaba udinga umphezulu womhlaba, ngakho wabelwana ne-CivilCraft, eyakha imiphezulu ngamaphoyinti, ilinganise izinga bese ibala ukumba, ukugcwalisa nokuthuthwa.
+I-TakeoffDesk ilinganisa lokho okudwetshwe eshidini. Umsebenzi womhlaba udinga umphezulu womhlaba, ngakho wabelwana ne-CivilCraft, eyakha imiphezulu ngamaphoyinti, ilinganise izinga bese ibala ukumba, ukugcwalisa nokuthuthwa.
 
 ## Ukumbiwa okulula lapha
 
@@ -29,8 +29,8 @@ Amaphoyinti eshidi ezahlukene awabelani ngezixhumanisi, ngakho ukuthumela kuthat
 
 Umsebenzi womhlaba we-CivilCraft ubuyela njengezinto ezimbili ongazithengisa:
 
-1. Ku-CivilCraft, linganisa amaphedi nezindlela zakho, bese ukhetha {{ui:Thumela ku-TakeoffCraft}} ngaphansi kwe-**Umsebenzi womhlaba** ([Ivolumu yomsebenzi womhlaba](app:civilcraft/volumes)). Ilondoloza ifayela lamanani (`.quantities.json`).
-2. Ku-TakeoffCraft, vula ngo {{ui:Vula ukubala amanani}}, noma uyiphonse ku-app. Ukubala kwakho kuhlala kuvulekile: ifayela lengeza **Earthwork: cut** no **Earthwork: fill** njengo [typed quantities](topic:create-items#typed-quantities-no-drawing) ngamayunithi e-cubic yards (CY) uma iphrojekthi ingeyamafidi, noma ngama-cubic metres (m³) uma iphrojekthi ingeyamamitha. Kuyisinyathelo esisodwa: {{key:Mod+Z}} siyasihlehlisa.
+1. Ku-CivilCraft, linganisa amaphedi nezindlela zakho, bese ukhetha {{ui:Thumela ku-TakeoffDesk}} ngaphansi kwe-**Umsebenzi womhlaba** ([Ivolumu yomsebenzi womhlaba](app:civilcraft/volumes)). Ilondoloza ifayela lamanani (`.quantities.json`).
+2. Ku-TakeoffDesk, vula ngo {{ui:Vula ukubala amanani}}, noma uyiphonse ku-app. Ukubala kwakho kuhlala kuvulekile: ifayela lengeza **Earthwork: cut** no **Earthwork: fill** njengo [typed quantities](topic:create-items#typed-quantities-no-drawing) ngamayunithi e-cubic yards (CY) uma iphrojekthi ingeyamafidi, noma ngama-cubic metres (m³) uma iphrojekthi ingeyamamitha. Kuyisinyathelo esisodwa: {{key:Mod+Z}} siyasihlehlisa.
 3. Qamba kabusha, setha udoti, amarethi namakhomponenti njengoba ufisa.
 
 Uma uklelo lushintsha, thumela futhi kusuka ku-CivilCraft bese uvula ifayela elisha: lawo mazinto amabili afanayo athola amanani amasha. Amagama awo, amarethi, udoti namakhomponenti kuhlala njengoba uwasethile. Uma iyunithi yephrojekthi yeshintsha, ibha yesimo iyasho lokho: hlola amarethi. Ifayela lephrojekthi ye-CivilCraft ehlukile lengeza amazinto amabili ayo.

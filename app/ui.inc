@@ -1,7 +1,7 @@
 <?php
 // SPDX-License-Identifier: Apache-2.0
 /**
- * TakeoffCraft UI (rendered inside app-shell.inc; $app, $__area, $__build and $__manifest are set).
+ * TakeoffDesk UI (rendered inside app-shell.inc; $app, $__area, $__build and $__manifest are set).
  * Server-rendered shell: toolbar, sheets, the page, items, quantities and the status bar.
  * takeoffcraft.js runs it. PDFs open on this computer; nothing here posts anywhere.
  *
@@ -12,7 +12,7 @@
  *   bottom  quantities and costs (by item / by sheet), job total · status bar
  *
  * "Open in <review app>" on the sheet bar: only when MarkupCraft is open in this area and the build it runs here takes a
- * handed-over file (manifest "accepts": ["handoff"]; see handoff.js). TakeoffCraft itself takes one (?handoff=<id>).
+ * handed-over file (manifest "accepts": ["handoff"]; see handoff.js). TakeoffDesk itself takes one (?handoff=<id>).
  */
 Lang::use($__build); echo Lang::bootTag();   // language files (docs/LANG.md); harmless once app-shell.inc does it
 $__review = Catalog::app('markupcraft');
@@ -83,7 +83,6 @@ $__tools = [   // group key => [kind, key, icon, label key, title key]; group na
     <?php foreach ($__tools as $__group => $__items): ?>
       <?php $__gname = Lang::t('group.' . strtolower($__group)); /* the English name stays the group's key (data-tb-key): saved toolbar arrangements survive a language change */ ?>
       <div class="tc-tool-group" role="group" data-tb-key="<?= e($__group) ?>" aria-label="<?= e($__gname) ?>">
-        <span class="tc-tool-label" aria-hidden="true"><?= e($__gname) ?></span>
         <div class="tc-tool-row">
           <?php if ($__group === 'Export'): // i18n-ignore: the group's key; one menu button keeps the toolbar one row at 1280 px ?>
             <details class="tc-menu" data-export-menu>

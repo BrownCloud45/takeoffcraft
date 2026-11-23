@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Yang akan Anda lakukan
 
-Ubah cara TakeoffCraft menampilkan panjang, sehingga pekerjaan metrik terbaca dalam meter, sentimeter, atau milimeter di lembar, di bilah status, dan di panel.
+Ubah cara TakeoffDesk menampilkan panjang, sehingga pekerjaan metrik terbaca dalam meter, sentimeter, atau milimeter di lembar, di bilah status, dan di panel.
 
 ## Langkah
 
-1. Buka {{ui:Pengaturan}} dengan ikon roda gigi di bilah aplikasi atau {{key:Mod+,}}, dan tetap di tab {{ui:TakeoffCraft}}.
+1. Buka {{ui:Pengaturan}} dengan ikon roda gigi di bilah aplikasi atau {{key:Mod+,}}, dan tetap di tab {{ui:TakeoffDesk}}.
 2. Temukan {{ui:Tampilkan panjang sebagai}} dan pilih {{ui:Kaki-inci}}, m, cm, atau mm. {{ui:Ikuti Global}} memakai satuan panjang metrik yang diberi bintang di {{ui:Pengaturan}} › {{ui:Global}} › {{ui:Satuan}}, dan kaki-inci jika tidak ada yang diberi bintang.
 3. Lihat lembar: panjang di bilah status, di daftar {{ui:Item}}, dan di panel kini terbaca dalam satuan yang Anda pilih. Tinggi, kedalaman, ketebalan, dan level juga ikut berubah.
 4. Untuk membaca suhu item dalam derajat C atau F, pilih {{ui:Tampilkan suhu sebagai}} di tab yang sama.

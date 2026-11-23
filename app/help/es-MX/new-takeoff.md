@@ -9,7 +9,7 @@ Con {{ui:New}} se cierran todos los PDF y se inicia una cuantificación vacía e
 
 1. Guarde la cuantificación actual si quiere conservarla: {{ui:Save takeoff}} o {{key:Mod+S}}.
 2. Elija {{ui:New}} en el grupo {{ui:File}}.
-3. Si hay cambios sin guardar, TakeoffCraft pregunta **Cuantificación sin guardar**: elija {{ui:Save takeoff first}} (descarga el proyecto y luego borra), {{ui:Discard changes}}, o {{ui:Cancel}}.
+3. Si hay cambios sin guardar, TakeoffDesk pregunta **Cuantificación sin guardar**: elija {{ui:Save takeoff first}} (descarga el proyecto y luego borra), {{ui:Discard changes}}, o {{ui:Cancel}}.
    La ventana vuelve a su estado vacío: sin PDF, sin partidas, sin marcas y sin escalas. La barra de estado dice "Nueva cuantificación. Abra PDF para comenzar."
 
 Se borra:

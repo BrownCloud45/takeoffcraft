@@ -41,7 +41,7 @@ Lorsque les pièces sont dessinées sous forme de murs fermés, {{ui:Pièce}} ({
 2. Choisissez {{ui:Pièce}} dans le groupe {{ui:Métré}}, ou appuyez sur {{key:B}}.
 3. Cliquez à l'intérieur d'une pièce, sur le sol libre (pas sur une ligne ni sur une étiquette).
 
-TakeoffCraft lit les lignes de la feuille, trouve l'espace autour du clic et le contourne le long des faces intérieures des murs, sous forme de surface du poste courant. Les ouvertures de porte jusqu'à **4'-0"** sont considérées comme fermées, de sorte que le contour traverse la porte en ligne droite ; **Paramètres › TakeoffCraft › Le remplissage de pièce ferme les ouvertures jusqu'à** modifie cette largeur (de 3'-0" à 8'-0"). Les noms de pièces, le mobilier et les équipements à l'intérieur de la pièce ne créent pas de trous.
+TakeoffDesk lit les lignes de la feuille, trouve l'espace autour du clic et le contourne le long des faces intérieures des murs, sous forme de surface du poste courant. Les ouvertures de porte jusqu'à **4'-0"** sont considérées comme fermées, de sorte que le contour traverse la porte en ligne droite ; **Paramètres › TakeoffDesk › Le remplissage de pièce ferme les ouvertures jusqu'à** modifie cette largeur (de 3'-0" à 8'-0"). Les noms de pièces, le mobilier et les équipements à l'intérieur de la pièce ne créent pas de trous.
 
 Il refuse, en indiquant la raison, lorsque :
 
@@ -62,7 +62,7 @@ Lorsqu'une porte est plus large que le réglage, le remplissage déborde dans la
 
 Pour un trou rond, choisissez {{ui:Ajouter une découpe ronde}} sous **Repère sélectionné**, cliquez sur son centre, puis sur un point de son bord.
 
-Une découpe doit se trouver entièrement à l'intérieur de la surface et ne doit pas chevaucher une autre découpe. Sinon, TakeoffCraft la refuse : « A cut-out has to sit fully inside the area. » ou « Cut-outs cannot overlap each other. »
+Une découpe doit se trouver entièrement à l'intérieur de la surface et ne doit pas chevaucher une autre découpe. Sinon, TakeoffDesk la refuse : « A cut-out has to sit fully inside the area. » ou « Cut-outs cannot overlap each other. »
 
 Pour retirer la dernière découpe, choisissez {{ui:Retirer la dernière découpe}}.
 
@@ -76,7 +76,7 @@ Une découpe appartient à un seul repère de surface. Une **déduction** est de
 
 Chaque repère de surface d'un poste coché situé sur la même feuille perd la partie couverte par une déduction : la déduction entière lorsqu'elle se trouve à l'intérieur, seulement la partie qui chevauche lorsqu'elle traverse le bord, et rien à l'intérieur d'une découpe. Le panneau de la surface sélectionnée affiche **Déductions** et la surface restante. La quantité du poste, ses formules d'ouvrage, les coûts, la vue de contrôle 3D et l'export utilisent la surface restante ; les notes de l'estimation indiquent la surface retirée par les déductions. Le poste de déduction lui-même compte sa propre surface (laissez ses coûts à zéro si vous ne le chiffrez pas).
 
-Une déduction doit être **convexe** : un rectangle, un cercle ou tout contour sans angle rentrant. TakeoffCraft refuse d'en dessiner une qui ne l'est pas ; dessinez une gaine en L sous forme de deux déductions. Les déductions ne peuvent pas comporter de découpes, et deux déductions qui se chevauchent sont comptées toutes les deux.
+Une déduction doit être **convexe** : un rectangle, un cercle ou tout contour sans angle rentrant. TakeoffDesk refuse d'en dessiner une qui ne l'est pas ; dessinez une gaine en L sous forme de deux déductions. Les déductions ne peuvent pas comporter de découpes, et deux déductions qui se chevauchent sont comptées toutes les deux.
 
 Le périmètre (`P`) ne change pas : les déductions ne retirent que de la surface.
 

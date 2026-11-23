@@ -5,7 +5,7 @@ keywords: detectare scară, citire scară, scară din text, toate foile, scară,
 from: 8f0148e6
 ---
 
-Fiecare foaie are propria scară. Scara se stabilește manual sau poate fi citită de TakeoffCraft din textul foilor (mai jos), iar apoi se verifică. Până când o foaie are scară, {{ui:Liniar}}, {{ui:Arie}}, {{ui:Cerc}} și {{ui:Decupaj}} refuză să măsoare pe ea. {{ui:Numărare}} și {{ui:Numărare automată}} funcționează fără scară.
+Fiecare foaie are propria scară. Scara se stabilește manual sau poate fi citită de TakeoffDesk din textul foilor (mai jos), iar apoi se verifică. Până când o foaie are scară, {{ui:Liniar}}, {{ui:Arie}}, {{ui:Cerc}} și {{ui:Decupaj}} refuză să măsoare pe ea. {{ui:Numărare}} și {{ui:Numărare automată}} funcționează fără scară.
 
 Lista foilor arată scara fiecărei foi sau **Fără scară**. Bara de sub foaia deschisă spune același lucru.
 
@@ -23,7 +23,7 @@ Lista completă se află în [Presetări de scară](topic:scale-presets).
 
 ## Citirea scărilor din textul foilor
 
-Majoritatea desenelor își indică scara: `SCALE: 1/4" = 1'-0"` în cartuș, `1:100` sub o vedere. TakeoffCraft le poate citi și poate stabili toate foile odată.
+Majoritatea desenelor își indică scara: `SCALE: 1/4" = 1'-0"` în cartuș, `1:100` sub o vedere. TakeoffDesk le poate citi și poate stabili toate foile odată.
 
 1. Deschideți lista {{ui:Presetare}} și alegeți {{ui:Din textul foilor…}} (în partea de sus).
 2. Lista arată fiecare foaie: scara sa actuală și ce spune textul ei — **Indică 1/4" = 1'-0"**, **Fără scară în text** sau **Indică „nu la scară”** (NTS).
@@ -44,7 +44,7 @@ Folosiți această metodă când nu există o scară tipărită în care aveți 
 5. Introduceți distanța reală în câmpul **Distanța reală**, de exemplu `24'-6 1/2"`, `24.5` (picioare zecimale), `30"` sau `7.5 m`. Vezi [Introducerea lungimii, prețului și procentului](topic:entry-formats).
 6. Alegeți {{ui:Setare scară}}.
    Bara de stare afișează scara ca „1" = (n)'”, iar când se află în limita de 0.5% față de o presetare, indică care, de exemplu „ceea ce corespunde cu 1/4" = 1'-0" (alegeți acea presetare pentru o scară exactă)”.
-   TakeoffCraft revine la instrumentul {{ui:Selectare}}.
+   TakeoffDesk revine la instrumentul {{ui:Selectare}}.
 
 Când calibrarea corespunde unei presetări, alegerea acelei presetări dă o scară exactă, în loc de una care depinde de locul unde ați făcut clic.
 
@@ -61,11 +61,11 @@ Apăsați {{key:Esc}} pentru a șterge linia de verificare.
 
 ## Schimbarea scării
 
-Alegeți o altă presetare sau calibrați din nou. Dacă foaia are deja măsurători, TakeoffCraft întreabă **Schimbați scara acestei foi?** și arată câte măsurători vor fi refăcute. Alegeți {{ui:Schimbare scară}}. Fiecare tronson și fiecare zonă de pe foaie este remăsurat la noua scară. O puteți anula cu {{key:Mod+Z}}.
+Alegeți o altă presetare sau calibrați din nou. Dacă foaia are deja măsurători, TakeoffDesk întreabă **Schimbați scara acestei foi?** și arată câte măsurători vor fi refăcute. Alegeți {{ui:Schimbare scară}}. Fiecare tronson și fiecare zonă de pe foaie este remăsurat la noua scară. O puteți anula cu {{key:Mod+Z}}.
 
 ## De ce foile fără scară nu sunt numărate ca zero
 
-Un marcaj pe o foaie fără scară nu are lungime sau arie reală. TakeoffCraft nu îl numără niciodată ca zero, ceea ce ar face devizul discret prea mic. În schimb, aplicația:
+Un marcaj pe o foaie fără scară nu are lungime sau arie reală. TakeoffDesk nu îl numără niciodată ca zero, ceea ce ar face devizul discret prea mic. În schimb, aplicația:
 
 - lasă acele marcaje din totaluri,
 - afișează „+(n) fără scară” lângă articol în {{ui:Cantități}},
@@ -77,5 +77,5 @@ Acest lucru poate apărea când deschideți un proiect ale cărui scări nu au f
 ## Sfaturi
 
 - Stabiliți scara pe fiecare foaie pe care o veți măsura înainte de a începe. Căutați în lista foilor **Fără scară** pentru a găsi cele rămase (caseta de căutare se uită la numele foilor, nu la scări).
-- Detaliile și planurile mărite de pe aceeași foaie folosesc adesea altă scară. TakeoffCraft are o scară pe foaie; vezi [Ce este încă nerealizat](topic:not-built-yet).
+- Detaliile și planurile mărite de pe aceeași foaie folosesc adesea altă scară. TakeoffDesk are o scară pe foaie; vezi [Ce este încă nerealizat](topic:not-built-yet).
 - Desene metrice: alegeți o presetare metrică, cum ar fi `1:100`, sau calibrați cu o distanță metrică, de exemplu `6000 mm`.

@@ -1,6 +1,6 @@
 ---
 title: Ein Symbol automatisch zählen
-summary: Umranden Sie ein Symbol, lassen Sie TakeoffCraft die anderen auf diesem Blatt oder auf allen geöffneten Blättern finden, prüfen Sie die Treffer mit dem Schieberegler und fügen Sie sie in einem Schritt hinzu.
+summary: Umranden Sie ein Symbol, lassen Sie TakeoffDesk die anderen auf diesem Blatt oder auf allen geöffneten Blättern finden, prüfen Sie die Treffer mit dem Schieberegler und fügen Sie sie in einem Schritt hinzu.
 keywords: beliebiger Winkel, gedreht, gewendet, anderer Maßstab, unterschiedlicher Maßstab, Auto-Zählen, automatisches Zählen, Symbolsuche, Symbole finden, Muster, Vorlage, Übereinstimmung, erkennen, Zählwerkzeug
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Um die Prüfung ohne Hinzufügen zu verwerfen, wählen Sie {{ui:Verwerfen}} oder
 
 ## Was gefunden wird und was nicht
 
-TakeoffCraft vergleicht die Zeichnung als Pixel mit dem umrandeten Symbol.
+TakeoffDesk vergleicht die Zeichnung als Pixel mit dem umrandeten Symbol.
 
 - Es findet das Symbol, wenn es um 0°, 90°, 180° und 270° gedreht ist. Aktivieren Sie {{ui:Beliebiger Winkel (langsamer)}} in der Leiste von Auto-Zählen, bevor Sie den Rahmen ziehen, um es auch in jedem beliebigen Winkel zu finden: Es probiert alle 15° und verfeinert jeden Treffer danach auf ein halbes Grad genau. Das dauert etwa sechsmal so lange. Ein gespiegeltes Symbol findet es nicht (außer das Symbol sieht gespiegelt gleich aus).
 - Wenn {{ui:Alle geöffneten Blätter durchsuchen}} aktiviert ist, wird ein Blatt mit einem anderen Maßstab in der Größe durchsucht, die das Symbol dort hat: Ein Gerät, das auf einem Grundriss im Maßstab 1/8" maßstäblich gezeichnet ist, ist halb so groß wie auf einem Plan im Maßstab 1/4" und wird trotzdem gefunden. Ein solches Blatt wird außerdem in der Größe des Rahmens durchsucht, für Kennzeichnungen und Symbole, die auf jedem Blatt in einer Größe gedruckt sind. Dafür ist ein Maßstab auf beiden Blättern nötig; ein Blatt ohne Maßstab wird nur in der Größe des Rahmens durchsucht.

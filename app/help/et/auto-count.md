@@ -1,6 +1,6 @@
 ---
 title: Sümboli automaatne loendamine
-summary: Märgi üks sümbol kastiga, lase TakeoffCraftil leida teised sellel lehel või kõigil avatud lehtedel, vaata vasteid üle liuguriga ja lisa need ühe sammuga.
+summary: Märgi üks sümbol kastiga, lase TakeoffDeskil leida teised sellel lehel või kõigil avatud lehtedel, vaata vasteid üle liuguriga ja lisa need ühe sammuga.
 keywords: suvaline nurk, pööratud, teine mõõtkava, erinev mõõtkava, automaatne loendus, automaatne loendamine, sümbolite otsing, leia sümbolid, muster, mall, vaste, tuvasta, loendamise tööriist
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Et läbivaatamine ilma lisamata lõpetada, vali {{ui:Heida kõrvale}} või vajut
 
 ## Mida see leiab ja mida ei leia
 
-TakeoffCraft võrdleb joonist piksliti kaupa sinu kastiga märgitud sümboliga.
+TakeoffDesk võrdleb joonist piksliti kaupa sinu kastiga märgitud sümboliga.
 
 - See leiab sümboli, mis on pööratud 0°, 90°, 180° ja 270°. Et leida see ka igas nurgas, märgi linnukesega {{ui:Suvalise nurga all (aeglasem)}} automaatse loendamise ribal enne kasti joonistamist: see proovib iga 15° järel ja täpsustab iga leidu kraadi ja poole täpsuseni. See võtab umbes kuus korda kauem. Peegelpildis sümbolit see ei leia (välja arvatud juhul, kui sümbol peegelpildis näeb samasugune välja).
 - Kui on märgitud {{ui:Otsi kõigilt avatud lehtedelt}}, otsitakse teise mõõtkavaga lehel sümbolit selle suuruses, mis sellel lehel on: joonisel mõõtkavas 1/8" plaanil oleva armatuuri suurus on pool selle suurusest 1/4" plaanil, ja see leitakse ikka. Sellist lehte otsitakse ka kasti enda suuruses, et leida sildid ja sümbolid, mis on igal lehel trükitud ühes suuruses. See eeldab mõõtkava mõlemal lehel; leht ilma mõõtkavata otsitakse ainult kasti suuruses.

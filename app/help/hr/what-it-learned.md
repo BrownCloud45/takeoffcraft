@@ -1,11 +1,11 @@
 ---
 title: Što je naučeno iz vaših predmjera
-summary: TakeoffCraft čuva simbole koje ste potvrdili pomoću Autobrojanja, vaše skupove uvjeta, sklopove koje najčešće koristite i uzorke koje ponavljate na svakoj stranici, sve unutar vlastite datoteke predmjera. Pogledajte ih, upotrijebite ih, izbrišite.
+summary: TakeoffDesk čuva simbole koje ste potvrdili pomoću Autobrojanja, vaše skupove uvjeta, sklopove koje najčešće koristite i uzorke koje ponavljate na svakoj stranici, sve unutar vlastite datoteke predmjera. Pogledajte ih, upotrijebite ih, izbrišite.
 keywords: naučeno, učenje, učiti, pomoćnik, zapamti, simboli, predlošci, isto kao prošli posao, prošli posao, skup uvjeta, uvjeti, ponovna upotreba, sklopovi, najčešće korišteno, prijedlozi, ponovi na svakoj stranici, svaka stranica, zaglavlje crteža, uzorak, očisti sve, zaboravi, privatnost
 from: 54d99e99
 ---
 
-TakeoffCraft postaje brži što više predmjera radite s njim. Uči **samo iz onoga što prihvatite**:
+TakeoffDesk postaje brži što više predmjera radite s njim. Uči **samo iz onoga što prihvatite**:
 
 - simbole koje ste označili pomoću [Autobrojanje](topic:auto-count) i zatim dodali,
 - skupove uvjeta koje spremite,
@@ -64,6 +64,6 @@ Da prestanete učiti u jednom predmjeru, isključite {{ui:Uči iz ovog predmjera
 
 ## Dobro je znati
 
-- Starije verzije aplikacije TakeoffCraft otvaraju datoteku s naučenim stvarima normalno. Ignoriraju taj dio i odbacuju ga ako datoteku ponovno spreme.
+- Starije verzije aplikacije TakeoffDesk otvaraju datoteku s naučenim stvarima normalno. Ignoriraju taj dio i odbacuju ga ako datoteku ponovno spreme.
 - Naučeni simbol je mala slika onoga što ste označili, čuva se u datoteci (nekoliko kilobajta svaki).
 - Naučeni simboli pretražuju se kao što pretražuje Autobrojanje, pa vrijede ista ograničenja: [Autobrojanje simbola](topic:auto-count).

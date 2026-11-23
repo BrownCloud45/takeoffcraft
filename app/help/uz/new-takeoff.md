@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Agar saqlamoqchi boʻlsangiz, joriy hajmlar hisobini saqlang: {{ui:Save takeoff}} yoki {{key:Mod+S}}.
 2. {{ui:File}} guruhida {{ui:New}} ni tanlang.
-3. Saqlanmagan oʻzgarishlar boʻlsa, TakeoffCraft **Saqlanmagan hajmlar hisobi** deb soradi: {{ui:Save takeoff first}} ni tanlang (u loyihani yuklab oladi, soʻng tozalaydi), {{ui:Discard changes}} yoki {{ui:Cancel}}.
+3. Saqlanmagan oʻzgarishlar boʻlsa, TakeoffDesk **Saqlanmagan hajmlar hisobi** deb soradi: {{ui:Save takeoff first}} ni tanlang (u loyihani yuklab oladi, soʻng tozalaydi), {{ui:Discard changes}} yoki {{ui:Cancel}}.
    Oyna boʻsh holatiga qaytadi: PDF yoʻq, elementlar yoʻq, belgilar yoʻq, masshtablar yoʻq. Holat satri aytadi: "Yangi hajmlar hisobi. Boshlash uchun PDF larni oching."
 
 Nima tozalanadi:

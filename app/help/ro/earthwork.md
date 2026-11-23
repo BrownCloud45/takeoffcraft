@@ -5,7 +5,7 @@ keywords: terasamente, săpătură, debleu, rambleu, debleu și rambleu, sistema
 from: a898e508
 ---
 
-TakeoffCraft măsoară ceea ce este desenat pe o foaie. Terasamentele au nevoie de o suprafață a terenului, deci sunt comune cu CivilCraft, care construiește suprafețe din puncte, le nivelează și calculează debleul, rambleul și transportul.
+TakeoffDesk măsoară ceea ce este desenat pe o foaie. Terasamentele au nevoie de o suprafață a terenului, deci sunt comune cu CivilCraft, care construiește suprafețe din puncte, le nivelează și calculează debleul, rambleul și transportul.
 
 ## Săpătură simplă aici
 
@@ -29,8 +29,8 @@ Punctele de pe foi diferite nu au aceleași coordonate, deci exportul ia doar fo
 
 Terasamentele din CivilCraft revin ca două articole pe care le puteți deviza:
 
-1. În CivilCraft, nivelați platformele și coridoarele, apoi alegeți {{ui:Trimitere către TakeoffCraft}} sub **Terasamente** ([Volume de terasamente](app:civilcraft/volumes)). Se salvează un fișier de cantități (`.quantities.json`).
-2. În TakeoffCraft, deschideți-l cu {{ui:Deschidere antemăsurătoare}} sau trageți-l în aplicație. Antemăsurătoarea rămâne deschisă: fișierul adaugă **Earthwork: cut** și **Earthwork: fill** ca [cantități tipizate](topic:create-items#typed-quantities-no-drawing), în yarzi cubi (CY) pentru un proiect în ft sau în metri cubi (m³) pentru un proiect în metri. Este un singur pas: {{key:Mod+Z}} îl anulează.
+1. În CivilCraft, nivelați platformele și coridoarele, apoi alegeți {{ui:Trimitere către TakeoffDesk}} sub **Terasamente** ([Volume de terasamente](app:civilcraft/volumes)). Se salvează un fișier de cantități (`.quantities.json`).
+2. În TakeoffDesk, deschideți-l cu {{ui:Deschidere antemăsurătoare}} sau trageți-l în aplicație. Antemăsurătoarea rămâne deschisă: fișierul adaugă **Earthwork: cut** și **Earthwork: fill** ca [cantități tipizate](topic:create-items#typed-quantities-no-drawing), în yarzi cubi (CY) pentru un proiect în ft sau în metri cubi (m³) pentru un proiect în metri. Este un singur pas: {{key:Mod+Z}} îl anulează.
 3. Redenumiți-le, setați pierderile, tarifele și articolele compuse după dorință.
 
 Când proiectul se modifică, trimiteți din nou din CivilCraft și deschideți fișierul nou: aceleași două articole primesc noile cantități. Denumirile, tarifele, pierderile și articolele compuse rămân cum le-ați setat. Dacă unitatea proiectului s-a schimbat, bara de stare o spune: verificați tarifele. Un fișier de la alt proiect CivilCraft adaugă propriile sale două articole.

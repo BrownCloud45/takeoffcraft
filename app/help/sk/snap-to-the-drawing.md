@@ -5,7 +5,7 @@ keywords: prichytávanie, osnap, uchopenie objektu, koncový bod, stred, priese�
 from: 41d29e9b
 ---
 
-Väčšina súborov plánov sú vektorové PDF: ich steny a hrany sú skutočné čiary, nie pixely. Počas merania TakeoffCraft prichytí vaše kliknutia na tieto čiary, takže úsek začína presne v rohu steny a kalibrácia načíta kótu, ktorú nakreslil kreslič, nie pixel, na ktorý ste klikli.
+Väčšina súborov plánov sú vektorové PDF: ich steny a hrany sú skutočné čiary, nie pixely. Počas merania TakeoffDesk prichytí vaše kliknutia na tieto čiary, takže úsek začína presne v rohu steny a kalibrácia načíta kótu, ktorú nakreslil kreslič, nie pixel, na ktorý ste klikli.
 
 Prichytávanie je pri spustení zapnuté. Zapnite a vypnite ho tlačidlom {{ui:Prichytávanie}} na stavovom riadku alebo klávesom {{key:F3}}; nastavenie sa uchováva v tomto prehliadači (nájdete ho aj v [Nastavenia](topic:settings)).
 

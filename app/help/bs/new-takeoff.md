@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Spasite trenutni predmjer ako ga želite zadržati: {{ui:Spasi predmjer}} ili {{key:Mod+S}}.
 2. Odaberite {{ui:Novi}} u grupi {{ui:Datoteka}}.
-3. Ako postoje nesačuvane promjene, TakeoffCraft pita **Nesačuvan predmjer**: odaberite {{ui:Prvo spasi predmjer}} (preuzima projekat, zatim briše), {{ui:Odbaci promjene}} ili {{ui:Otkaži}}.
+3. Ako postoje nesačuvane promjene, TakeoffDesk pita **Nesačuvan predmjer**: odaberite {{ui:Prvo spasi predmjer}} (preuzima projekat, zatim briše), {{ui:Odbaci promjene}} ili {{ui:Otkaži}}.
    Ekran se vraća u prazno stanje: nema PDF-ova, stavki, oznaka ni razmjera. Statusna traka kaže „Novi predmjer. Otvorite PDF-ove da započnete.“
 
 Šta se briše:

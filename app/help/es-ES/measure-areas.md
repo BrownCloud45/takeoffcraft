@@ -41,7 +41,7 @@ Cuando las salas están dibujadas como muros cerrados, {{ui:Sala}} ({{key:B}}) c
 2. Elija {{ui:Sala}} en el grupo {{ui:Medición}}, o pulse {{key:B}}.
 3. Haga clic dentro de una sala, en el suelo libre (no sobre una línea ni sobre una etiqueta).
 
-TakeoffCraft lee las líneas de la hoja, encuentra el espacio alrededor del clic y lo traza siguiendo las caras interiores de los muros, como un área de la partida actual. Las aberturas de puerta de hasta **4'-0"** se consideran cerradas, de modo que el contorno cruza la puerta en línea recta; **Ajustes › Medición › Room fill closes openings up to** cambia esa anchura (de 3'-0" a 8'-0"). Los nombres de sala, muebles y accesorios dentro de la sala no hacen huecos.
+TakeoffDesk lee las líneas de la hoja, encuentra el espacio alrededor del clic y lo traza siguiendo las caras interiores de los muros, como un área de la partida actual. Las aberturas de puerta de hasta **4'-0"** se consideran cerradas, de modo que el contorno cruza la puerta en línea recta; **Ajustes › Medición › Room fill closes openings up to** cambia esa anchura (de 3'-0" a 8'-0"). Los nombres de sala, muebles y accesorios dentro de la sala no hacen huecos.
 
 Rechaza el relleno y explica por qué cuando:
 
@@ -62,7 +62,7 @@ Cuando una puerta es más ancha que el ajuste, el relleno pasa a la sala contigu
 
 Para un hueco redondo, elija {{ui:Añadir un recorte redondo}} bajo **Marca seleccionada**, haga clic en su centro y luego en un punto de su borde.
 
-Un recorte debe quedar totalmente dentro del área y no debe solaparse con otro recorte. Si no, TakeoffCraft lo rechaza: «El recorte tiene que quedar totalmente dentro del área.» o «Los recortes no pueden solaparse entre sí.»
+Un recorte debe quedar totalmente dentro del área y no debe solaparse con otro recorte. Si no, TakeoffDesk lo rechaza: «El recorte tiene que quedar totalmente dentro del área.» o «Los recortes no pueden solaparse entre sí.»
 
 Para quitar de nuevo el último hueco, elija {{ui:Quitar el último recorte}}.
 
@@ -76,7 +76,7 @@ Un recorte pertenece a una marca de área. Una **sustracción** se dibuja una so
 
 Cada marca de área de una partida marcada, en la misma hoja, pierde la parte que cubre una sustracción: la sustracción completa cuando queda dentro, solo la parte solapada cuando cruza el borde, y nada dentro de un recorte. El panel del área seleccionada muestra **Sustracciones** y el área restante. La cantidad de la partida, sus fórmulas de composiciones, los costes, la vista de comprobación 3D y la exportación usan el área restante; las notas de la estimación indican cuánto han restado las sustracciones. La propia partida de sustracción cuenta su área (deje sus costes a cero si no la valora).
 
-Una sustracción debe ser **convexa**: un rectángulo, un círculo o cualquier contorno sin esquinas hacia dentro. TakeoffCraft no permite dibujar una que no lo sea; dibuje un patinillo en forma de L como dos sustracciones. Las sustracciones no pueden tener recortes, y dos sustracciones que se solapan entre sí cuentan ambas.
+Una sustracción debe ser **convexa**: un rectángulo, un círculo o cualquier contorno sin esquinas hacia dentro. TakeoffDesk no permite dibujar una que no lo sea; dibuje un patinillo en forma de L como dos sustracciones. Las sustracciones no pueden tener recortes, y dos sustracciones que se solapan entre sí cuentan ambas.
 
 El perímetro (`P`) no cambia: las sustracciones restan solo área.
 

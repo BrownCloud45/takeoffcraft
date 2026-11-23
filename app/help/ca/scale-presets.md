@@ -49,4 +49,4 @@ Una escala calibrada apareix com "Calibrada 1" = 4.002' sobre 24'-6"" a la barra
 
 ## PDF inusuals
 
-Alguns PDF declaren una unitat de pàgina més gran (una "user unit"); TakeoffCraft la té en compte per a les predefinicions i per a l'escala mostrada. Les pàgines girades dins del PDF es mesuren de la mateixa manera que les dretes.
+Alguns PDF declaren una unitat de pàgina més gran (una "user unit"); TakeoffDesk la té en compte per a les predefinicions i per a l'escala mostrada. Les pàgines girades dins del PDF es mesuren de la mateixa manera que les dretes.

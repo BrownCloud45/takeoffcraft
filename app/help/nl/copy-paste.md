@@ -32,11 +32,11 @@ Geplakte markeringen gaan in het biedgebied dat bovenaan het paneel {{ui:Posten}
 
 {{key:Mod+Shift+V}} ({{ui:Op dezelfde plaats plakken}}) zet de kopie op precies dezelfde plek op het open blad, op basis van de positie op de pagina. Gebruik dat voor een typische verdieping: meet niveau 2 op, kopieer, open niveau 3, plak op dezelfde plaats.
 
-Op dezelfde plaats plakken vereist een blad van **dezelfde grootte** als het blad waarvan u kopieerde. Op een blad van een andere grootte zegt TakeoffCraft dat en plakt het niets; gebruik dan {{ui:Plakken}} en klik. Op het blad waarvan u kopieerde, komt de kopie bovenop de originelen.
+Op dezelfde plaats plakken vereist een blad van **dezelfde grootte** als het blad waarvan u kopieerde. Op een blad van een andere grootte zegt TakeoffDesk dat en plakt het niets; gebruik dan {{ui:Plakken}} en klik. Op het blad waarvan u kopieerde, komt de kopie bovenop de originelen.
 
 ## De schaal moet overeenkomen
 
-Lengten en oppervlakten hangen af van de schaal van het blad. Een traject dat 10' meet bij 1/4" = 1'-0" zou 20' meten op een blad van 1/8" = 1'-0". Daarom plakt TakeoffCraft trajecten en vlakken alleen op een blad met **dezelfde schaal** als het blad waarvan ze komen, en zegt het duidelijk wanneer dat niet zo is:
+Lengten en oppervlakten hangen af van de schaal van het blad. Een traject dat 10' meet bij 1/4" = 1'-0" zou 20' meten op een blad van 1/8" = 1'-0". Daarom plakt TakeoffDesk trajecten en vlakken alleen op een blad met **dezelfde schaal** als het blad waarvan ze komen, en zegt het duidelijk wanneer dat niet zo is:
 
 - Het open blad heeft nog geen schaal: geef het eerst een schaal ([Schaal instellen](topic:set-the-scale)), en plak daarna.
 - Het open blad heeft een andere schaal: het bericht noemt beide schalen. Plak op een blad met dezelfde schaal.
@@ -59,7 +59,7 @@ De postbewerker (onder **Posten**) eindigt met:
 - {{ui:Post dupliceren}}: voegt meteen een kopie toe, genaamd "(naam) (kopie)".
 
 :::tip
-De kopie blijft op deze computer: ze wordt bewaard in dit tabblad en in de opslag van de browser, zodat een ander TakeoffCraft-tabblad haar kan plakken. Er wordt niets geüpload, en het systeemklembord wordt niet gebruikt, dus u kunt markeringen niet in andere programma's plakken.
+De kopie blijft op deze computer: ze wordt bewaard in dit tabblad en in de opslag van de browser, zodat een ander TakeoffDesk-tabblad haar kan plakken. Er wordt niets geüpload, en het systeemklembord wordt niet gebruikt, dus u kunt markeringen niet in andere programma's plakken.
 :::
 
 :::note

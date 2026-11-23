@@ -256,10 +256,10 @@ for (const app of ['bimcraft', 'takeoffcraft']) for (const file of ['rules.js', 
 const lang = (app) => JSON.parse(fs.readFileSync(path.join(ROOT, 'public_html/assets/apps', app, 'dev/lang/en.json'), 'utf8'));
 const bim = lang('bimcraft'), tc = lang('takeoffcraft');
 ok(Object.keys(M.TEXT).every((k) => bim['qty.m.' + k] === M.TEXT[k]), 'BimCraft\'s lang file holds every method sentence word for word (qty.m.*)', Object.keys(M.TEXT).filter((k) => bim['qty.m.' + k] !== M.TEXT[k]));
-ok(['line', 'line.source', 'line.own', 'review.unchecked', 'review.checked'].every((k) => tc['qty.m.' + k] === M.TEXT[k]), 'TakeoffCraft\'s lang file holds the sentences that name a method');
+ok(['line', 'line.source', 'line.own', 'review.unchecked', 'review.checked'].every((k) => tc['qty.m.' + k] === M.TEXT[k]), 'TakeoffDesk\'s lang file holds the sentences that name a method');
 const src = (app, file) => fs.readFileSync(path.join(ROOT, 'public_html/assets/apps', app, 'dev', file), 'utf8');
 ok(/ruleOf\(w, 'floor'\)/.test(src('bimcraft', 'model-slabs.js')) && /ruleOf\(w, 'finish.ceiling'\)/.test(src('bimcraft', 'model-slabs.js')) && /ruleOf\(w, 'floor'\)/.test(src('bimcraft', 'model-floors.js')) && /QUANTITY_HOOK\(w, storey, walls, host\)/.test(src('bimcraft', 'model-walls.js')), 'BimCraft\'s IFC quantity writers ask for the project\'s method');
-ok(/wallRule\(state\)/.test(src('takeoffcraft', 'model.js')) && /deducts\(a, rule\)/.test(src('takeoffcraft', 'model.js')), 'TakeoffCraft measures a run\'s openings by the takeoff\'s method');
+ok(/wallRule\(state\)/.test(src('takeoffcraft', 'model.js')) && /deducts\(a, rule\)/.test(src('takeoffcraft', 'model.js')), 'TakeoffDesk measures a run\'s openings by the takeoff\'s method');
 
 console.log('\n' + pass + ' passed, ' + fail + ' failed');
 process.exit(fail ? 1 : 0);

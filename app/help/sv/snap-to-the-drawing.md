@@ -5,7 +5,7 @@ keywords: fångst, objektfångst, osnap, ändpunkt, mittpunkt, skärning, närma
 from: 41d29e9b
 ---
 
-De flesta ritningsserier är vektor-PDF:er: deras väggar och kanter är riktiga linjer, inte pixlar. Medan du mäter fångar TakeoffCraft dina klick mot de linjerna, så att en sträcka börjar exakt vid en väggs hörn och en kalibrering läser det mått ritaren ritade, inte pixeln du träffade.
+De flesta ritningsserier är vektor-PDF:er: deras väggar och kanter är riktiga linjer, inte pixlar. Medan du mäter fångar TakeoffDesk dina klick mot de linjerna, så att en sträcka börjar exakt vid en väggs hörn och en kalibrering läser det mått ritaren ritade, inte pixeln du träffade.
 
 {{ui:Fångst}} är på när du startar. Slå av och på den med {{ui:Fångst}} i statusfältet eller med {{key:F3}}; inställningen sparas i den här webbläsaren (den finns också under [Inställningar](topic:settings)).
 

@@ -5,14 +5,14 @@ keywords: tarkistus, tarkistettu, vertailu, päällekkäin, vanha, uusi, muutoks
 from: 3a1d9fe0
 ---
 
-Kun arkki julkaistaan uudelleen, sitä ei tarvitse mitata alusta. Avaa vanha PDF ja uusi, vertaa kahta arkkia ja siirrä määrälaskenta niiden välillä. TakeoffCraft merkitsee jokaisen merkinnän, jonka kohdalla piirustus muuttui, joten tarkistat ne ja säilytät muut.
+Kun arkki julkaistaan uudelleen, sitä ei tarvitse mitata alusta. Avaa vanha PDF ja uusi, vertaa kahta arkkia ja siirrä määrälaskenta niiden välillä. TakeoffDesk merkitsee jokaisen merkinnän, jonka kohdalla piirustus muuttui, joten tarkistat ne ja säilytät muut.
 
 ## Vertaa
 
 1. Avaa molemmat PDF:t: vanha sarja ja tarkistettu ({{ui:Avaa piirustukset}}; ne voivat olla yhdessä tiedostossa tai useissa).
 2. Näytä **uusi** arkki.
 3. Valitse arkkipalkista piirustuksen alta {{ui:Vertaa}}.
-4. Valitse vanha arkki luettelosta. TakeoffCraft ehdottaa arkkia, jolla on sama numero toisessa PDF:ssä, tai samaa sivua. Valitse **Vertaa**.
+4. Valitse vanha arkki luettelosta. TakeoffDesk ehdottaa arkkia, jolla on sama numero toisessa PDF:ssä, tai samaa sivua. Valitse **Vertaa**.
 
 Vanha piirustus näkyy nyt uuden päällä punaisena. Missä kaksi piirustusta ovat samat, punaiset viivat osuvat mustien päälle; missä ne eroavat, näet pelkät punaiset viivat (poistettu) ja pelkät mustat viivat (lisätty). Arkin alareunan palkki sisältää alla olevat vaiheet; {{key:Esc}} tai {{ui:Sulje}} lopettaa vertailun.
 
@@ -29,7 +29,7 @@ Punainen piirustus siirtyy, kääntyy ja skaalautuu mustan päälle. Tilarivi ke
 
 ## Etsi muutokset
 
-Valitse **{{ui:Etsi muutokset}}**. TakeoffCraft vertaa kahden piirustuksen mustetta: pelkästään vanhalla arkilla oleva muste muuttuu punaiseksi, pelkästään uudella arkilla oleva siniseksi, ja tilarivi laskee ne. Viivat, jotka siirtyivät hiukan (uudelleenpiirto), eivät ole muutoksia.
+Valitse **{{ui:Etsi muutokset}}**. TakeoffDesk vertaa kahden piirustuksen mustetta: pelkästään vanhalla arkilla oleva muste muuttuu punaiseksi, pelkästään uudella arkilla oleva siniseksi, ja tilarivi laskee ne. Viivat, jotka siirtyivät hiukan (uudelleenpiirto), eivät ole muutoksia.
 
 Se tarkistaa myös jokaisen vanhan arkin merkinnän ja laskee ne, jotka osuvat kohtiin, joissa piirustus muuttui:
 
@@ -40,7 +40,7 @@ Se tarkistaa myös jokaisen vanhan arkin merkinnän ja laskee ne, jotka osuvat k
 
 Valitse **{{ui:Siirrä määrälaskenta tähän}}**. Jokainen vanhan arkin merkintä siirtyy uudelle arkille kohdistuksen kautta yhdellä kumoamisaskeleella. Muutosten viereen osuneet merkinnät merkitään: ne piirretään oranssilla hehkulla, ja arkkipalkki näyttää "(n) tarkistettavaa".
 
-Jos uudella arkilla ei ollut mittakaavaa, se ottaa vanhan arkin mittakaavan (muokattuna, jos piirustukset piti skaalata kohdistusta varten). Jos sillä oli jo eri mittakaava, TakeoffCraft kysyy ensin: siirretyt merkinnät mitataan uuden arkin mittakaavassa.
+Jos uudella arkilla ei ollut mittakaavaa, se ottaa vanhan arkin mittakaavan (muokattuna, jos piirustukset piti skaalata kohdistusta varten). Jos sillä oli jo eri mittakaava, TakeoffDesk kysyy ensin: siirretyt merkinnät mitataan uuden arkin mittakaavassa.
 
 ## Tarkista merkityt merkinnät
 

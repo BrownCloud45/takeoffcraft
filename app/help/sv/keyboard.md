@@ -1,6 +1,6 @@
 ---
 title: Tangentbord och mus
-summary: Varje tangent, mus-, styrplatte- och pekåtgärd i TakeoffCraft, grupperade, med skillnaderna mellan plattformarna.
+summary: Varje tangent, mus-, styrplatte- och pekåtgärd i TakeoffDesk, grupperade, med skillnaderna mellan plattformarna.
 keywords: tangenter, genvägar, snabbtangenter, tangentbord, mus, styrplatta, touch, panorera, zooma, hjul, högerklick, dubbelklick, space, shift, kopiera, klistra in, klipp ut, duplicera, markera allt
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Se [Kontrollera avtagningen i 3D](topic:check-in-3d).
 | Tangent | Vad den gör |
 |---|---|
 | {{key:F1}} | Öppna eller stäng hjälppanelen (även knappen {{ui:Hjälp}} i appfältet). Den fungerar i alla verktyg, även när du skriver i ett fält. |
-| {{key:Esc}} | Stäng hjälppanelen. I dess sökruta rensar första Esc sökningen. Medan panelen är öppen stänger en Esc som trycks efter att du klickat på bladet panelen först; tryck igen för att avbryta i TakeoffCraft. |
+| {{key:Esc}} | Stäng hjälppanelen. I dess sökruta rensar första Esc sökningen. Medan panelen är öppen stänger en Esc som trycks efter att du klickat på bladet panelen först; tryck igen för att avbryta i TakeoffDesk. |
 
 :::mac
 På många Mac-tangentbord styr översta raden ljusstyrka och ljud. Tryck fn med F1, eller slå på "Använd F1, F2 osv. som vanliga funktionstangenter" i Systeminställningar, under Tangentbord.
@@ -139,7 +139,7 @@ På många Mac-tangentbord styr översta raden ljusstyrka och ljud. Tryck fn med
 
 :::mac
 - {{key:Mod}} är Command-tangenten: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Helskärm är undantaget: Ctrl+Shift+F.
-- Högerklick är en tvåfingersklick på styrplattan, när sekundärklick är på i Systeminställningar, under Styrplatta. TakeoffCraft läser bara sekundärknappen; en Ctrl-klick kan räknas som ett vanligt klick och lägga till en punkt.
+- Högerklick är en tvåfingersklick på styrplattan, när sekundärklick är på i Systeminställningar, under Styrplatta. TakeoffDesk läser bara sekundärknappen; en Ctrl-klick kan räknas som ett vanligt klick och lägga till en punkt.
 - Tvåfingersrullning på styrplattan zoomar bladet (den rullar inte bladet). För att panorera, tryck och dra, eller håll Space och dra.
 - Page Up och Page Down är fn med upp- och nedpilarna på tangentbord som saknar dem.
 - Backspace är tangenten märkt delete.
@@ -151,12 +151,12 @@ På många Mac-tangentbord styr översta raden ljusstyrka och ljud. Tryck fn med
 :::
 
 :::linux
-- {{key:Mod}} är Ctrl. Vissa skrivbord har egna genvägar med Ctrl+Alt eller Super; TakeoffCraft använder ingen av dem.
+- {{key:Mod}} är Ctrl. Vissa skrivbord har egna genvägar med Ctrl+Alt eller Super; TakeoffDesk använder ingen av dem.
 - På en styrplatta zoomar en tvåfingersrullning bladet. För att panorera, tryck och dra.
 :::
 
 :::touch
-TakeoffCraft läser touch som en enda pekare:
+TakeoffDesk läser touch som en enda pekare:
 
 - Ett tryck placerar en punkt, markerar en markering eller lägger till en räkneprick.
 - Dra med ett finger för att panorera bladet (i {{ui:Autoräkna}} ritar det sökrutan).
@@ -169,7 +169,7 @@ Ett tangentbord och mus eller styrplatta är idag det bättre sättet att göra 
 
 ## Tangenter som webbläsaren behåller
 
-Webbläsare behåller vissa genvägar för sig själva, och en sida kan inte använda dem: stänga fliken ({{key:Mod+W}}), ny flik eller nytt fönster ({{key:Mod+T}}, {{key:Mod+N}}) och webbläsarens zoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Därför zoomar TakeoffCraft bladet med hjulet och med de nakna tangenterna {{key:Plus}} och {{key:Minus}}. Om du trycker {{key:Mod+Plus}} av misstag växer hela sidan; {{key:Mod+0}} återställer den. Se [Tangenter, möss och styrplattor](common:keys).
+Webbläsare behåller vissa genvägar för sig själva, och en sida kan inte använda dem: stänga fliken ({{key:Mod+W}}), ny flik eller nytt fönster ({{key:Mod+T}}, {{key:Mod+N}}) och webbläsarens zoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Därför zoomar TakeoffDesk bladet med hjulet och med de nakna tangenterna {{key:Plus}} och {{key:Minus}}. Om du trycker {{key:Mod+Plus}} av misstag växer hela sidan; {{key:Mod+0}} återställer den. Se [Tangenter, möss och styrplattor](common:keys).
 
 ## Flytta-funktionen
 

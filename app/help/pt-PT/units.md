@@ -55,4 +55,4 @@ A escala de uma folha indica o tamanho do desenho; a unidade de um artigo indica
 
 ## Precisão
 
-O TakeoffCraft mede com exatidão a partir dos pontos onde clica, incluindo os comprimentos e áreas reais dos arcos, e não arredonda as quantidades. A apresentação arredonda os comprimentos a 1/16 de polegada e os decimais a duas casas. O dinheiro só é arredondado nos valores por linha, ao cêntimo.
+O TakeoffDesk mede com exatidão a partir dos pontos onde clica, incluindo os comprimentos e áreas reais dos arcos, e não arredonda as quantidades. A apresentação arredonda os comprimentos a 1/16 de polegada e os decimais a duas casas. O dinheiro só é arredondado nos valores por linha, ao cêntimo.

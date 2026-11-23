@@ -5,14 +5,14 @@ keywords: revizija, revidirano, primerjava, prekrivanje, staro, novo, spremembe,
 from: 3a1d9fe0
 ---
 
-Ko je list ponovno izdan, ga ne rabite ponovno meriti. Odprite stari PDF in novega, primerjajte oba lista in prenesite predizmero. TakeoffCraft označi vsako oznako, kjer se je risba spremenila; te preverite, ostale obdržite.
+Ko je list ponovno izdan, ga ne rabite ponovno meriti. Odprite stari PDF in novega, primerjajte oba lista in prenesite predizmero. TakeoffDesk označi vsako oznako, kjer se je risba spremenila; te preverite, ostale obdržite.
 
 ## Primerjava
 
 1. Odprite oba PDF-ja: stari nabor in revidiranega ({{ui:Open plans}}; lahko sta v eni datoteki ali v več).
 2. Prikažite **novi** list.
 3. Izberite {{ui:Compare}} na vrstici lista pod risbo.
-4. Na seznamu izberite stari list. TakeoffCraft predlaga list z isto številko v drugem PDF-ju ali isto stran. Izberite **Primerjaj**.
+4. Na seznamu izberite stari list. TakeoffDesk predlaga list z isto številko v drugem PDF-ju ali isto stran. Izberite **Primerjaj**.
 
 Stara risba zdaj leži čez novo v rdeči barvi. Kjer se ujemata, rdeče črte ležijo na črnih; kjer se razlikujeta, vidite samo rdeče črte (odstranjene) in samo črne črte (dodane). Vrstica na dnu lista vsebuje korake spodaj; {{key:Esc}} ali {{ui:Close}} konča primerjavo.
 
@@ -29,7 +29,7 @@ Rdeča risba se premakne, zavrti in skalira na črno. Vrstica stanja pove, za ko
 
 ## Poiščite spremembe
 
-Izberite **Poišči spremembe**. TakeoffCraft primerja črnilo obeh risb: črnilo samo na starem listu postane rdeče, črnilo samo na novem listu postane modro, vrstica stanja pa jih prešteje. Črte, ki so se premaknile za las (ponovni izris), se ne štejejo kot spremembe.
+Izberite **Poišči spremembe**. TakeoffDesk primerja črnilo obeh risb: črnilo samo na starem listu postane rdeče, črnilo samo na novem listu postane modro, vrstica stanja pa jih prešteje. Črte, ki so se premaknile za las (ponovni izris), se ne štejejo kot spremembe.
 
 Preveri tudi vsako oznako na starem listu in šteje tiste, ki ležijo tam, kjer se je risba spremenila:
 
@@ -40,7 +40,7 @@ Preveri tudi vsako oznako na starem listu in šteje tiste, ki ležijo tam, kjer 
 
 Izberite **Premakni predizmero sem**. Vsaka oznaka na starem listu se premakne na novega, prek poravnave, v enem koraku razveljavitve. Tiste ob spremembi so označene: narisane so z oranžnim obrobom, vrstica lista pa pokaže „(n) za preverjanje“.
 
-Če novi list ni imel merila, prevzame merilo starega lista (prilagojeno, če so morali risbi skalirati za poravnavo). Če je že imel drugačno merilo, TakeoffCraft najprej vpraša: premaknjene oznake se izmerijo v merilu novega lista.
+Če novi list ni imel merila, prevzame merilo starega lista (prilagojeno, če so morali risbi skalirati za poravnavo). Če je že imel drugačno merilo, TakeoffDesk najprej vpraša: premaknjene oznake se izmerijo v merilu novega lista.
 
 ## Preverite označene oznake
 

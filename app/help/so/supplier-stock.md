@@ -1,6 +1,6 @@
 ---
 title: Hubi kaydka bixiyaha iyo waqtiyada keenista
-summary: Ku dar liiska kaydka bixiyaha (CSV ama buug-shaqo) TakeoffCraft wuxuu hubiyaa waxa xisaabintu u baahan tahay, iyo qashinka ku jira, isagoo ka eegaya; intuu ku filan yahay kaydka iyo intee la sugayo. Yaraanta iyo sugista dheer waxay ka muuqdaan guddiga Dhibaatooyinka.
+summary: Ku dar liiska kaydka bixiyaha (CSV ama buug-shaqo) TakeoffDesk wuxuu hubiyaa waxa xisaabintu u baahan tahay, iyo qashinka ku jira, isagoo ka eegaya; intuu ku filan yahay kaydka iyo intee la sugayo. Yaraanta iyo sugista dheer waxay ka muuqdaan guddiga Dhibaatooyinka.
 keywords: bixiye, kayd, ku jira kaydka, waqtiga keenista, diyaar, yaraan, dalab dib u dhac, liiska dalabka, csv, sku, iibiye, agabka, bixin, dhibaatooyin
 from: f11160fb
 ---

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-cad.mjs — TakeoffCraft 0.7 Track TD in headless Chromium at https://getcadcraft.com/lab/takeoffcraft (run as root: a session
+ * browser-cad.mjs — TakeoffDesk 0.7 Track TD in headless Chromium at https://getcadcraft.com/lab/takeoffcraft (run as root: a session
  * minted for the test admin by admin.php, so the shared login throttle is untouched).
  *   node tools/takeoffcraft-test/browser-cad.mjs [--out dir]
  *

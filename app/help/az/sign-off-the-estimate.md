@@ -19,9 +19,9 @@ Smetanın hər sətrinin qiymətləndirildiyini yoxlayın, sonra adınızı alt�
 2. Dialoq təsdiq etdiyiniz cəmi göstərir və tarifi olmayan sətirləri sadalayır. Adınızı yazın və istəsəniz vəzifənizi.
 3. **Təsdiq et** klikləyin. Zolaq indi "… tərəfindən, … tarixində təsdiqlənib" yazır və cəmi göstərir. Onu faylda saxlamaq üçün hesablamanı saxlayın.
 
-Təsdiq imzaladığınız rəqəmlərə aiddir. Miqdarda, tarifdə və ya sətirdə sonrakı istənilən dəyişiklik onu silir və TakeoffCraft bunu sizə bildirir. Geri qaytarma imzaladığınız smetanı və onun təsdiqini geri gətirir. Sətrin adını dəyişmək rəqəmin dəyişməsi deyil. **Təsdiqi silin** onu götürür.
+Təsdiq imzaladığınız rəqəmlərə aiddir. Miqdarda, tarifdə və ya sətirdə sonrakı istənilən dəyişiklik onu silir və TakeoffDesk bunu sizə bildirir. Geri qaytarma imzaladığınız smetanı və onun təsdiqini geri gətirir. Sətrin adını dəyişmək rəqəmin dəyişməsi deyil. **Təsdiqi silin** onu götürür.
 
-TakeoffCraft-dan kənarda təsdiqdən sonra redaktə edilmiş hesablama faylı təsdiqsiz açılır, bunu bildirən qeydlə. İxrac olunan smeta (CSV və XLSX) cəmlərin altında təsdiqi göstərir.
+TakeoffDesk-dan kənarda təsdiqdən sonra redaktə edilmiş hesablama faylı təsdiqsiz açılır, bunu bildirən qeydlə. İxrac olunan smeta (CSV və XLSX) cəmlərin altında təsdiqi göstərir.
 
 Yalnız insan imzalayır. AI köməkçisi smetanın təsdiqlənib-təsdiqlənmədiyini və hansı tarifin çatışmadığını oxuya bilər; imzalamaq imkanı yoxdur.
 

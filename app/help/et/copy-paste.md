@@ -32,11 +32,11 @@ Kleebitud märgid lähevad pakkumuse alasse, mis on valitud {{ui:Kirjed}} paneel
 
 {{key:Mod+Shift+V}} ({{ui:Kleebi samale kohale}}) paneb koopia täpselt samasse kohta avatud lehel, lehe asukoha järgi. Kasuta seda tüüpilise korruse puhul: mõõda 2. korrus, kopeeri, ava 3. korrus, kleebi samale kohale.
 
-Kleebi samale kohale vajab lehte, mis on **sama suur** kui see, millelt kopeerisid. Teise suurusega lehel ütleb TakeoffCraft seda ega kleebi midagi; kasuta selle asemel {{ui:Kleebi}} ja klõpsa. Lehel, millelt kopeerisid, asub koopia originaalide peal.
+Kleebi samale kohale vajab lehte, mis on **sama suur** kui see, millelt kopeerisid. Teise suurusega lehel ütleb TakeoffDesk seda ega kleebi midagi; kasuta selle asemel {{ui:Kleebi}} ja klõpsa. Lehel, millelt kopeerisid, asub koopia originaalide peal.
 
 ## Mõõtkava peab sobima
 
-Pikkused ja pindalad sõltuvad lehe mõõtkavast. Lõik, mis mõõdab 10' mõõtkavas 1/4" = 1'-0", mõõdaks 20' lehel mõõtkavas 1/8" = 1'-0". Seetõttu kleebib TakeoffCraft lõike ja pindu ainult lehele, mille **mõõtkava on sama** kui lehel, millelt need tulid, ning ütleb selgelt, kui see nii ei ole:
+Pikkused ja pindalad sõltuvad lehe mõõtkavast. Lõik, mis mõõdab 10' mõõtkavas 1/4" = 1'-0", mõõdaks 20' lehel mõõtkavas 1/8" = 1'-0". Seetõttu kleebib TakeoffDesk lõike ja pindu ainult lehele, mille **mõõtkava on sama** kui lehel, millelt need tulid, ning ütleb selgelt, kui see nii ei ole:
 
 - Avatud lehel ei ole veel mõõtkava: anna sellele esmalt mõõtkava ([Lehe mõõtkava seadmine](topic:set-the-scale)) ja kleebi siis.
 - Avatud lehel on teine mõõtkava: sõnum nimetab mõlemad mõõtkavad. Kleebi lehele samas mõõtkavas.
@@ -59,7 +59,7 @@ Kirje redaktor (jaotises **Kirjed**) lõpeb:
 - {{ui:Dubleeri kirje}}: lisab koopia kohe nimega "(nimi) (koopia)".
 
 :::tip
-Koopia jääb sellesse arvutisse: see hoitakse selles vahekaardis ja brauseri salvestusruumis, nii et teine TakeoffCrafti vahekaart saab selle kleepida. Midagi ei laadita üles ja süsteemi lõikelauda ei kasutata, seega ei saa märke teistesse programmidesse kleepida.
+Koopia jääb sellesse arvutisse: see hoitakse selles vahekaardis ja brauseri salvestusruumis, nii et teine TakeoffDeski vahekaart saab selle kleepida. Midagi ei laadita üles ja süsteemi lõikelauda ei kasutata, seega ei saa märke teistesse programmidesse kleepida.
 :::
 
 :::note

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * build-packs.mjs — writes TakeoffCraft's trade packs (0.5 TK.2/TK.3) from tools/takeoffcraft-test/packs/<trade>.mjs to
+ * build-packs.mjs — writes TakeoffDesk's trade packs (0.5 TK.2/TK.3) from tools/takeoffcraft-test/packs/<trade>.mjs to
  * public_html/assets/apps/takeoffcraft/dev/packs/<id>.ccpack.json, plus packs/index.json (what the app's Packs dialog and the
  * site's /addons listing read). Every pack is read back through the app's own readPack() before it is written.
  *

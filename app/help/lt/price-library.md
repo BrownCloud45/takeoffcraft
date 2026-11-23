@@ -13,7 +13,7 @@ Atidarykite ją su {{ui:Biblioteka}} viršuje {{ui:Pozicijos}} skydelio.
 
 - {{ui:Importuoti CSV…}} nuskaito skaičiuoklės failą, įrašytą kaip CSV (žr. stulpelius žemiau). Pozicijos, kurių pavadinimas ir tipas jau yra bibliotekoje, pakeičiamos; likusios pridedamos. Eilutės, kurių nepavyksta perskaityti, praleidžiamos, ir nurodoma, kurios bei kodėl.
 - {{ui:Pridėti šio kiekių skaičiavimo pozicijas}} nukopijuoja į biblioteką kiekvieną atidaryto kiekių skaičiavimo poziciją su jos įkainiais ir surinkimu (be jos žymų).
-- Sąmatos CSV, kurį TakeoffCraft eksportuoja ([Eksportuoti sąmatą](topic:export-estimate)), importuojamas toks, koks yra: paskutinio darbo kainos pradeda kitą.
+- Sąmatos CSV, kurį TakeoffDesk eksportuoja ([Eksportuoti sąmatą](topic:export-estimate)), importuojamas toks, koks yra: paskutinio darbo kainos pradeda kitą.
 
 - {{ui:Sričių paketai…}} prideda nemokamus surinkimus tam tikrai sričiai, pavyzdžiui, gipso plokštėms, elektrai ar betonui, be kainų. Žr. [Sričių paketai](topic:trade-packs).
 

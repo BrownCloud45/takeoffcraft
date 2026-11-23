@@ -19,9 +19,9 @@ Ku-**Quantities › By item**, igatsha elinenani kodwa elingenarethi yempahla no
 2. Ingxoxo ichaza isamba osayina nohlu lwamagatsha anganarethi. Thayipha igama lakho futhi, uma uthanda, indima yakho.
 3. Chofoza **Sayina**. Ibha manje ithi "Savunyelwe ngu-… ngomhla …" nesamba. Londoloza ukubala amanani ukuze ukugcine efayelini.
 
-Isayina lihlobene nezibalo osezisayinile. Noma iyiphi inguquko emuva ekuneni, enyeni noma egatsheni isusa isayina, futhi i-TakeoffCraft iyakutshela. Ukuhlehlisa kubuyisela isilinganiso osisayinile, nesayina laso kanye naso. Ukuqamba kabusha igatsha akuyona inguquko yesibalo. **Susa isayina** ulisusa.
+Isayina lihlobene nezibalo osezisayinile. Noma iyiphi inguquko emuva ekuneni, enyeni noma egatsheni isusa isayina, futhi i-TakeoffDesk iyakutshela. Ukuhlehlisa kubuyisela isilinganiso osisayinile, nesayina laso kanye naso. Ukuqamba kabusha igatsha akuyona inguquko yesibalo. **Susa isayina** ulisusa.
 
-Ifayela lokubala amanani elihlelwe ngaphandle kwe-TakeoffCraft ngemva kokusayinwa livulwa ngaphandle kwesayina, nenothi elisho lokho.
+Ifayela lokubala amanani elihlelwe ngaphandle kwe-TakeoffDesk ngemva kokusayinwa livulwa ngaphandle kwesayina, nenothi elisho lokho.
 
 Isilinganiso sezindleko esithunyelwe (CSV ne-XLSX) sibhala isayina ngaphansi kwamasamanisa.
 

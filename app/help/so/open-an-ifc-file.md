@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, waddo, jidka tareenka, buul, dusha waddada, dhin
 from: 6b08c2c4
 ---
 
-Fayl IFC 4.3 wuxuu hayaa waddo, jid tareen, buul, shaqada badda iyo qaybaha ay ka sameysan yihiin: dusha waddada, lakabyada, dhinaca-jidka, jidadka, shaqada dhulka, qaabka ku xidha, tiirarka dhulka iyo wax kale oo badan. TakeoffCraft wuxuu akhriyaa kuwaas wuxuuna u beddelaa tirooyin nooca la qoray oo aad qiimayn kartid.
+Fayl IFC 4.3 wuxuu hayaa waddo, jid tareen, buul, shaqada badda iyo qaybaha ay ka sameysan yihiin: dusha waddada, lakabyada, dhinaca-jidka, jidadka, shaqada dhulka, qaabka ku xidha, tiirarka dhulka iyo wax kale oo badan. TakeoffDesk wuxuu akhriyaa kuwaas wuxuuna u beddelaa tirooyin nooca la qoray oo aad qiimayn kartid.
 
 ## Fur faylka
 
 1. Dooro {{ui:Fur qorshayaasha}} kooxda {{ui:Fayl}}, ama riix {{key:Mod+O}}.
-2. Dooro faylka IFC (waad ku dooran kartaa oo PDF-yada la socda), ama ku rid TakeoffCraft.
+2. Dooro faylka IFC (waad ku dooran kartaa oo PDF-yada la socda), ama ku rid TakeoffDesk.
 
 Tiro nooca la qoray mid ayaa loo sameeyaa fasal kasta iyo nooc hore loo qeexay, tusaale ahaan "Dusha waddada (flexible): tiro", iyo, marka faylku sheego, "length" in m, "area" in m² iyo "volume" in m³. Qoraalka walax kasta wuxuu sheegaa inta walxood la tiriyay iyo inta aan tiro sheegin. Fur fayl cusub oo magac isku mid ah wuxuu cusboonaysiinayaa tirooyinkaas halkii uu wax kale ku daro.
 

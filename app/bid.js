@@ -104,8 +104,8 @@ export async function proposalPdf(PDFLib, { state, est, alts = [], date = new Da
   const sum = bidSummary(est, b, alts);
   const doc = await PDFDocument.create();
   doc.setTitle(winAnsi(t('bid.pdf.title', { name: state.name || 'Takeoff' })));
-  doc.setCreator('TakeoffCraft');
-  doc.setProducer('TakeoffCraft (pdf-lib)');
+  doc.setCreator('TakeoffDesk');
+  doc.setProducer('TakeoffDesk (pdf-lib)');
   const font = await doc.embedFont(StandardFonts.Helvetica), bold = await doc.embedFont(StandardFonts.HelveticaBold);
   const W = 612, H = 792, M = 54, ink = rgb(0.1, 0.1, 0.12), grey = rgb(0.38, 0.38, 0.42), rule = rgb(0.75, 0.75, 0.78);
   let page = doc.addPage([W, H]), y = H - M, pageNo = 1;

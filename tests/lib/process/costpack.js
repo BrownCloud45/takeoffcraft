@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * costpack.js — cost index data packs and the hand-off of a process cost estimate to TakeoffCraft's price library (0.8 Track CH, CH.23; DOM-free).
+ * costpack.js — cost index data packs and the hand-off of a process cost estimate to TakeoffDesk's price library (0.8 Track CH, CH.23; DOM-free).
  * Owner 2026-10-29: "CEPCI index as a data add-on" — the index values are DATA a person (or a pack) supplies; nothing in the engine knows today's index.
  *
  *   A cost-index pack:  { format: 'cadcraft-cost-index-pack', version: 1, id, name, series ('CEPCI' or the person's own), base (year the correlations are based on),

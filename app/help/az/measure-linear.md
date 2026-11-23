@@ -30,7 +30,7 @@ Vektor PDF-də kliklərləriniz çertyojun öz xətlərinə tutulur: uclara, ort
 - Sürüşdürmə vərəqi sürüşdürür, təkər isə nöqtə əlavə etmədən yaxınlaşdırır.
 
 :::mac
-Mac trackpad-də sağ klik iki barmaqla klikdir (Trackpad altında, System Settings-də secondary click aktiv edilməlidir). TakeoffCraft yalnız ikinci düyməni oxuyur, buna görə Control-klik sadə klik kimi qəbul oluna və nöqtə əlavə edə bilər. İkiqat klik və ya {{key:Enter}} həmişə bitirir.
+Mac trackpad-də sağ klik iki barmaqla klikdir (Trackpad altında, System Settings-də secondary click aktiv edilməlidir). TakeoffDesk yalnız ikinci düyməni oxuyur, buna görə Control-klik sadə klik kimi qəbul oluna və nöqtə əlavə edə bilər. İkiqat klik və ya {{key:Enter}} həmişə bitirir.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Qövs rejimində bu qövsün bitdiyi yerə tətbiq olunur: qövsün akkordu baş
 | `@6',-4'` | Son nöqtədən 6' sağa və 4' aşağı |
 | `6',4'` (və ya `#6',4'`) | Bu xəttin ilk nöqtəsindən 6' sağa və 4' yuxarı |
 
-Uzunluqlar TakeoffCraft-da hər yerdə olduğu kimi yazılır ([Giriş formatları](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fut), `30"`, `3.2 m`. "Sağ" və "yuxarı" vərəqi gördüyünüz kimi başa düşülür, PDF səhifəsi çevrilsə də.
+Uzunluqlar TakeoffDesk-da hər yerdə olduğu kimi yazılır ([Giriş formatları](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fut), `30"`, `3.2 m`. "Sağ" və "yuxarı" vərəqi gördüyünüz kimi başa düşülür, PDF səhifəsi çevrilsə də.
 
 {{key:Enter}} boş qutuda xətti bitirir, vərəqdəki kimi; {{key:Esc}} qutunu bağlayır və xətti davam etdirir. Yazılmış nöqtələr klikdəki qaydalarla işləyir: çıxılmalar, qövslər və sahənin bağlanması hamısı işləyir. Eyni qutu {{ui:Area}} və {{ui:Cut-out}} rejimlərində də işləyir; dairənin mərkəzindən sonra radiusu qəbul edir.
 

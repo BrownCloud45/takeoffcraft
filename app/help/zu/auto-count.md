@@ -1,6 +1,6 @@
 ---
 title: Bala isimbuzo ngokuzenzakalelayo
-summary: Bhoksisa isimbuzo esisodwa, vumela i-TakeoffCraft ithole ezinye kulesi shidi noma kuwo wonke amashidi avulekile, buyekeza ukufana ngesilayidi, bese uzengeza zonke ngesinyathelo esisodwa.
+summary: Bhoksisa isimbuzo esisodwa, vumela i-TakeoffDesk ithole ezinye kulesi shidi noma kuwo wonke amashidi avulekile, buyekeza ukufana ngesilayidi, bese uzengeza zonke ngesinyathelo esisodwa.
 keywords: noma yiliphi i-angle, ephendukile, ejikiwe, esinye isikali, isikali esihlukile, ukubala okuzenzakalelayo, ukubala ngokuzenzakalelayo, ukusesha izimpawu, thola izimpawu, iphethini, ithempulethi, ukufana, bona, ithuluzi lokubala
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Ukuze uyeke ukubuyekeza ungengezi lutho, khetha {{ui:Lahla}} noma cindezela {{ke
 
 ## Okuyithola nokuyiphuthelwa
 
-I-TakeoffCraft iqhathanisa umdwebo, ngamaphikseli, nesimbuzo obhokishe sona.
+I-TakeoffDesk iqhathanisa umdwebo, ngamaphikseli, nesimbuzo obhokishe sona.
 
 - Ithola isimbuzo esiphendukile ngama-0°, 90°, 180° no-270°. Tshekisha {{ui:Noma yiliphi iangle (kancane)}} ebhareni le-auto count ngaphambi kokudweba ibhokisi ukuze ithole nanoma iyiphi i-angle: ihlola yonke ngama-15°, bese iqinisa ngayinye ibe ngu-1.5°. Lokhu kuthatha cishe izikhathi eziyisithupha isikhathi eside. Ayitholi isimbuzo esiphendukile njengesibuko (ngaphandle uma isimbuzo sifana nakho njengesibuko).
 - Uma {{ui:Sesha wonke amashidi avulekile}} etshekishiwe, ishidi elinesikali esihlukile liseshwa ngosayizi ofanele lesimbuzo kuleyo ndawo: isifanekiso esidwetshwe ngesikali kwi-plan ye-1/8" singu-ingxenye yesibili yaso kwi-plan ye-1/4", futhi sisatholakala. Leli shidi liseshwa futhi ngosayizi webhokisi lalo, kumathegi nezimpawu ezishicilelwe ngosayizi ofanayo kuwo wonke amashidi. Lokhu kudinga isikali kuzo zombili amashidi; ishidi elingenaso isikali liseshwa ngosayizi webhokisi kuphela.

@@ -5,7 +5,7 @@ keywords: kapje, osnap, kapje objekti, skaj, mes, kryqëzim, më i afërti, vekt
 from: 41d29e9b
 ---
 
-Shumica e grupeve të planimetrive janë PDF vektoriale: muret dhe skajet e tyre janë vija reale, jo piksele. Gjatë matjes, TakeoffCraft i kap klikimet tuaja mbi ato vija, kështu që një segment fillon saktësisht te cepi i murit dhe një kalibrim lexon përmasën që hartuesi vizatoi, jo pikselin që keni goditur.
+Shumica e grupeve të planimetrive janë PDF vektoriale: muret dhe skajet e tyre janë vija reale, jo piksele. Gjatë matjes, TakeoffDesk i kap klikimet tuaja mbi ato vija, kështu që një segment fillon saktësisht te cepi i murit dhe një kalibrim lexon përmasën që hartuesi vizatoi, jo pikselin që keni goditur.
 
 Kapja është e ndezur kur filloni. Ndizeni dhe fikeni me {{ui:Kapje}} në shiritin e gjendjes ose me {{key:F3}}; cilësimi ruhet në këtë shfletues (gjendet edhe te [Cilësimet](topic:settings)).
 

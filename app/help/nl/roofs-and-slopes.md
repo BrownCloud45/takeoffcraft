@@ -5,7 +5,7 @@ keywords: dak, helling, schuinte, hellingfactor, stijging, loop, 6:12, schuine d
 from: 38225b60
 ---
 
-Een dakplattegrond toont elk dakvlak plat, van bovenaf gezien. Het dak zelf is groter: een vlak van 6:12 heeft ongeveer 12% meer oppervlak dan zijn plan, en de schuine randen zijn langer dan ze eruitzien. Geef het onderdeel zijn helling en TakeoffCraft meet langs de helling.
+Een dakplattegrond toont elk dakvlak plat, van bovenaf gezien. Het dak zelf is groter: een vlak van 6:12 heeft ongeveer 12% meer oppervlak dan zijn plan, en de schuine randen zijn langer dan ze eruitzien. Geef het onderdeel zijn helling en TakeoffDesk meet langs de helling.
 
 ## Een helling invoeren
 

@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, gambar, buka gambar, layout, ruang model, ruang kertas,
 from: d8c3f504
 ---
 
-TakeoffCraft membuka gambar DWG atau DXF seperti membuka PDF: Anda tidak perlu mencetaknya ke PDF lebih dulu. Penghitungan dari gambar itu sendiri akurat, karena gambar mengetahui apa itu setiap objeknya. Lihat [Hitung dari gambar](topic:count-from-a-drawing).
+TakeoffDesk membuka gambar DWG atau DXF seperti membuka PDF: Anda tidak perlu mencetaknya ke PDF lebih dulu. Penghitungan dari gambar itu sendiri akurat, karena gambar mengetahui apa itu setiap objeknya. Lihat [Hitung dari gambar](topic:count-from-a-drawing).
 
 ## Buka gambar
 
@@ -13,9 +13,9 @@ TakeoffCraft membuka gambar DWG atau DXF seperti membuka PDF: Anda tidak perlu m
 2. Pilih file DWG atau DXF. Anda bisa memilih beberapa file, dan PDF bersama-sama dengannya.
 3. Pilih Buka.
 
-Anda juga bisa menyeret file gambar ke TakeoffCraft, seperti PDF. Tidak ada yang diunggah: peramban membaca file di komputer Anda.
+Anda juga bisa menyeret file gambar ke TakeoffDesk, seperti PDF. Tidak ada yang diunggah: peramban membaca file di komputer Anda.
 
-TakeoffCraft membaca DWG dari AutoCAD 2000 hingga 2018 dan DXF ASCII dari R12 hingga 2018. Ia menolak DXF biner (simpan sebagai ASCII, atau sebagai DWG) dan file yang bukan keduanya, lalu memberi tahu alasannya. File yang rusak dibuka dengan bagian yang masih bisa dibaca, dan pesan akan menyebutkannya; hitungannya mungkin tidak lengkap.
+TakeoffDesk membaca DWG dari AutoCAD 2000 hingga 2018 dan DXF ASCII dari R12 hingga 2018. Ia menolak DXF biner (simpan sebagai ASCII, atau sebagai DWG) dan file yang bukan keduanya, lalu memberi tahu alasannya. File yang rusak dibuka dengan bagian yang masih bisa dibaca, dan pesan akan menyebutkannya; hitungannya mungkin tidak lengkap.
 
 ## Lembar
 
@@ -40,10 +40,10 @@ Lembar dimulai dengan skala yang diberikan gambar:
 
 ## Gambar tertaut (xref)
 
-Gambar yang menautkan gambar lain menampilkannya di tempat ia disisipkan. TakeoffCraft menemukan gambar tertaut di antara **file yang terbuka**, berdasarkan nama filenya: buka gambar induk dan gambar tertautnya bersamaan (atau satu setelah yang lain). Sampai itu terjadi, bilah status menyebutkan berapa gambar tertaut yang tidak ditemukan, dan apa yang digambarnya hilang; hitungan juga akan menyatakannya.
+Gambar yang menautkan gambar lain menampilkannya di tempat ia disisipkan. TakeoffDesk menemukan gambar tertaut di antara **file yang terbuka**, berdasarkan nama filenya: buka gambar induk dan gambar tertautnya bersamaan (atau satu setelah yang lain). Sampai itu terjadi, bilah status menyebutkan berapa gambar tertaut yang tidak ditemukan, dan apa yang digambarnya hilang; hitungan juga akan menyatakannya.
 
 ## Batasan
 
-- Objek yang tidak dapat dibaca atau ditempatkan TakeoffCraft (objek proxy, kelas yang tidak dikenal) didaftarkan di jendela hitungan menurut jenisnya; tidak pernah dibuang tanpa keterangan.
+- Objek yang tidak dapat dibaca atau ditempatkan TakeoffDesk (objek proxy, kelas yang tidak dikenal) didaftarkan di jendela hitungan menurut jenisnya; tidak pernah dibuang tanpa keterangan.
 - Gambar yang sangat besar digambar sebagian, dan hitungan berhenti pada batas tertentu dengan memberi tahu. Buka plot PDF dari gambar seperti itu sebagai gantinya.
 - Gambar digambar dengan warna hitam dan warna aslinya, yang digelapkan untuk kertas putih. Tabel gaya plot dan penugasan pena tidak diterapkan.

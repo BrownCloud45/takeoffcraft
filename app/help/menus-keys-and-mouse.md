@@ -6,22 +6,22 @@ order: 6
 keywords: menu style, menus, menu bar, ribbon, ribbon tabs, toolbar, keyboard shortcuts, hotkeys, keys, customize, remap, rebind, mouse, wheel, invert, zoom direction, middle button, right button, pan, export, import, switching, familiar, takeoff desk, conditions
 ---
 
-TakeoffCraft's commands are the same whichever way you reach them. A **menu style** only decides where they sit on screen, what they are called there and which keys run them. Choose one in {{ui:Settings}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menus, keys and mouse}}; the change is immediate, and this browser remembers it.
+TakeoffDesk's commands are the same whichever way you reach them. A **menu style** only decides where they sit on screen, what they are called there and which keys run them. Choose one in {{ui:Settings}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menus, keys and mouse}}; the change is immediate, and this browser remembers it.
 
 ## The three styles
 
 | Style | What you get |
 |---|---|
-| {{ui:TakeoffCraft}} | TakeoffCraft's own toolbar: File, Export, Scale, Takeoff, Edit and View, with the single-letter tool keys. The start. |
+| {{ui:TakeoffDesk}} | TakeoffDesk's own toolbar: File, Export, Scale, Takeoff, Edit and View, with the single-letter tool keys. The start. |
 | {{ui:Takeoff desk}} | A menu bar ({{ui:File}}, {{ui:Edit}}, {{ui:View}}, {{ui:Scale}}, {{ui:Takeoff}}, {{ui:Items}}, {{ui:Markup}}, {{ui:Export}}) over one row of the takeoff tools, the way on-screen takeoff programs lay theirs out. Items are called conditions on the row. The same keys, plus {{key:N}} for a new item. The scale presets move to the sheet bar, beside the sheet's scale. |
 | {{ui:Takeoff ribbon}} | Ribbon tabs named for the work: {{ui:Takeoff}} (measure, shape, scale, from the drawing, conditions), {{ui:Edit}}, {{ui:View}}, {{ui:Markup}} and {{ui:Estimate}} (the workbook, marked PDFs, the bid), with a {{ui:File}} menu and a quick row for open, save, undo and redo. The tools you use all day are large, their neighbours small and stacked. The same keys; the scale presets move to the sheet bar. |
 
-All three styles keep TakeoffCraft's keys: {{key:V}} select, {{key:L}} linear, {{key:A}} area, {{key:O}} circle, {{key:B}} room, {{key:P}} path (pick the PDF's lines), {{key:X}} cut-out, {{key:C}} count, {{key:S}} auto count, {{key:K}} calibrate, {{key:D}} check, {{key:R}} arc mode, {{key:E}} deduct mode, {{key:F}} and {{key:W}} to fit, {{key:3}} the 3D check view, {{key:F3}} snap, and {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+All three styles keep TakeoffDesk's keys: {{key:V}} select, {{key:L}} linear, {{key:A}} area, {{key:O}} circle, {{key:B}} room, {{key:P}} path (pick the PDF's lines), {{key:X}} cut-out, {{key:C}} count, {{key:S}} auto count, {{key:K}} calibrate, {{key:D}} check, {{key:R}} arc mode, {{key:E}} deduct mode, {{key:F}} and {{key:W}} to fit, {{key:3}} the 3D check view, {{key:F3}} snap, and {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 The sheet bar's tools (notes, clouds, highlights, Compare, 3D) wait until a PDF is open; picked before that, the status line says so.
 
 :::tip
-A key that belongs to TakeoffCraft's own layout but that your style gave another command does nothing, and the status line says where its command went ("In My keys, Count is Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} and the arrows always keep their meaning. While you draw a run or an outline, paste or review an auto count, the letters and the numbers of a typed length stay with the drawing.
+A key that belongs to TakeoffDesk's own layout but that your style gave another command does nothing, and the status line says where its command went ("In My keys, Count is Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} and the arrows always keep their meaning. While you draw a run or an outline, paste or review an auto count, the letters and the numbers of a typed length stay with the drawing.
 :::
 
 ## Make it your own
@@ -42,12 +42,12 @@ Saving a built-in style makes your own copy ("My Takeoff desk"); the built-in on
 
 ## Take it with you
 
-{{ui:Export}} saves the style in use as a small `.ccinput.json` file; {{ui:Import…}} adds one, from another computer or from a colleague. An imported file can only point at TakeoffCraft's own commands: anything else in it is left out and counted in the status line. {{ui:Delete this style}} removes one of your own.
+{{ui:Export}} saves the style in use as a small `.ccinput.json` file; {{ui:Import…}} adds one, from another computer or from a colleague. An imported file can only point at TakeoffDesk's own commands: anything else in it is left out and counted in the status line. {{ui:Delete this style}} removes one of your own.
 
 :::note
-These settings stay in this browser. {{ui:Use this style in every app}} under the style cards makes every app open in its matching style (its own toolbar, a menu bar or a ribbon), with the changes you made in each app. TakeoffCraft has no style with a command line: when one is chosen for every app, TakeoffCraft keeps its own toolbar.
+These settings stay in this browser. {{ui:Use this style in every app}} under the style cards makes every app open in its matching style (its own toolbar, a menu bar or a ribbon), with the changes you made in each app. TakeoffDesk has no style with a command line: when one is chosen for every app, TakeoffDesk keeps its own toolbar.
 
-The {{ui:Takeoff ribbon}} is also the ribbon of the {{ui:Ribbon and project browser}} layout ({{ui:Settings}} › {{ui:Global}} › {{ui:Layout}}): see [The TakeoffCraft screen](topic:workspace).
+The {{ui:Takeoff ribbon}} is also the ribbon of the {{ui:Ribbon and project browser}} layout ({{ui:Settings}} › {{ui:Global}} › {{ui:Layout}}): see [The TakeoffDesk screen](topic:workspace).
 :::
 
-Related: [Keys and mouse](topic:keyboard) · [TakeoffCraft settings](topic:settings) · [Coming from other takeoff software](topic:coming-from)
+Related: [Keys and mouse](topic:keyboard) · [TakeoffDesk settings](topic:settings) · [Coming from other takeoff software](topic:coming-from)

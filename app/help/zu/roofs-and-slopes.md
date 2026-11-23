@@ -5,7 +5,7 @@ keywords: uphahla, ukuthambeka, isilinganiso sokuthambeka, ukuphakama, ukuhamba,
 from: 38225b60
 ---
 
-Ipulani yophahla ibonisa ngayinye indiza yophahla ilele, njengoba ibonakala evela phezulu. Uphahla ngokwalo bukhulu kakhulu: indiza ethambeke ngo-6:12 inendawo engaba ngu-12% ngaphezu kwepulani yayo, nemiphetho yayo ethambekile imide kakhulu kunokuba ibonakala. Nika into yakho ukuthambeka kwayo, futhi i-TakeoffCraft izolinganisa ngaphansi kokuthambeka.
+Ipulani yophahla ibonisa ngayinye indiza yophahla ilele, njengoba ibonakala evela phezulu. Uphahla ngokwalo bukhulu kakhulu: indiza ethambeke ngo-6:12 inendawo engaba ngu-12% ngaphezu kwepulani yayo, nemiphetho yayo ethambekile imide kakhulu kunokuba ibonakala. Nika into yakho ukuthambeka kwayo, futhi i-TakeoffDesk izolinganisa ngaphansi kokuthambeka.
 
 ## Ukuthayipha ukuthambeka
 

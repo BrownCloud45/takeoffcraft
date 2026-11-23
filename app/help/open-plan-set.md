@@ -6,7 +6,7 @@ order: 10
 keywords: open, plan set, several pdfs, multiple files, sheets, drawings, page labels, sheet list, navigate, drop, handoff, open in another app, markup
 ---
 
-A plan set is often several PDFs: architectural, structural, mechanical. TakeoffCraft opens them side by side as one list of sheets, and one takeoff can cover all of them.
+A plan set is often several PDFs: architectural, structural, mechanical. TakeoffDesk opens them side by side as one list of sheets, and one takeoff can cover all of them.
 
 ## Open the PDFs
 
@@ -15,14 +15,14 @@ A plan set is often several PDFs: architectural, structural, mechanical. Takeoff
 3. Choose Open.
    A "Opening (name)…" message shows while each file is read. Then every page appears under {{ui:Sheets}} and the first page of the first new PDF opens.
 
-You can also drag the PDFs from {{pick:mac=Finder|windows=File Explorer|linux=your file manager}} and drop them anywhere on TakeoffCraft. A "Drop PDFs, DWG or DXF drawings, or a .takeoff.json" frame appears while you drag.
+You can also drag the PDFs from {{pick:mac=Finder|windows=File Explorer|linux=your file manager}} and drop them anywhere on TakeoffDesk. A "Drop PDFs, DWG or DXF drawings, or a .takeoff.json" frame appears while you drag.
 
 To add more PDFs later, do the same again. PDFs that are already open are skipped.
 
 The start screen also lists the PDFs and takeoffs you opened recently, in browsers that let a page open a file again (Chrome and Edge). Click one to open it; the browser may ask for permission first. See [Your files](common:your-files).
 
 :::note
-Nothing is uploaded. The browser reads the PDFs on your computer, and they are gone from TakeoffCraft when you close the tab or choose {{ui:New}}.
+Nothing is uploaded. The browser reads the PDFs on your computer, and they are gone from TakeoffDesk when you close the tab or choose {{ui:New}}.
 :::
 
 ## Drawings beside PDFs
@@ -31,7 +31,7 @@ Nothing is uploaded. The browser reads the PDFs on your computer, and they are g
 
 ## A PDF handed over from another app
 
-Another app of the lineup can hand you the PDF it has open: it opens TakeoffCraft in a new tab and the PDF opens there as if you had dropped it. The status bar says "Opened (name), handed over from (app). The original file is unchanged." Nothing is uploaded; the file passes through this browser's own storage and is gone from it once it opens.
+Another app of the lineup can hand you the PDF it has open: it opens TakeoffDesk in a new tab and the PDF opens there as if you had dropped it. The status bar says "Opened (name), handed over from (app). The original file is unchanged." Nothing is uploaded; the file passes through this browser's own storage and is gone from it once it opens.
 
 If the status bar says the PDF "did not arrive", the tab waited too long or the PDF was already opened in another tab: open it with {{ui:Open plans}}.
 

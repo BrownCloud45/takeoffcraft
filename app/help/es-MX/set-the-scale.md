@@ -5,7 +5,7 @@ keywords: detectar escala, leer escala, escala desde el texto, todas las hojas, 
 from: 8f0148e6
 ---
 
-Cada hoja tiene su propia escala. Usted la asigna, o deja que TakeoffCraft la lea del texto de las hojas (abajo), y luego la comprueba. Mientras una hoja no tenga escala, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} y {{ui:Cut-out}} se niegan a medir en ella. {{ui:Count}} y {{ui:Auto count}} funcionan sin escala.
+Cada hoja tiene su propia escala. Usted la asigna, o deja que TakeoffDesk la lea del texto de las hojas (abajo), y luego la comprueba. Mientras una hoja no tenga escala, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} y {{ui:Cut-out}} se niegan a medir en ella. {{ui:Count}} y {{ui:Auto count}} funcionan sin escala.
 
 La lista de hojas muestra la escala de cada hoja, o **Sin escala**. La barra bajo la hoja abierta dice lo mismo.
 
@@ -23,7 +23,7 @@ La lista completa está en [Escalas predefinidas](topic:scale-presets).
 
 ## Leer las escalas del texto de las hojas
 
-La mayoría de los dibujos indican su escala: `SCALE: 1/4" = 1'-0"` en el cajetín, `1:100` bajo una vista. TakeoffCraft puede leerla y asignar todas las hojas de una vez.
+La mayoría de los dibujos indican su escala: `SCALE: 1/4" = 1'-0"` en el cajetín, `1:100` bajo una vista. TakeoffDesk puede leerla y asignar todas las hojas de una vez.
 
 1. Abra la lista {{ui:Preset}} y elija {{ui:Desde el texto de las hojas…}} (arriba).
 2. La lista muestra cada hoja: su escala actual, y lo que dice su texto — **Dice 1/4" = 1'-0"**, **Sin escala en su texto** o **Dice no a escala** (NTS).
@@ -44,7 +44,7 @@ Use esto cuando no hay una escala impresa en la que confíe, cuando el juego se 
 5. Escriba la distancia real en **Distancia real**, por ejemplo `24'-6 1/2"`, `24.5` (pies decimales), `30"` o `7.5 m`. Vea [Formatos de longitud, tarifa y porcentaje](topic:entry-formats).
 6. Elija {{ui:Set the scale}}.
    La barra de estado muestra la escala como "1" = (n)'", y cuando está dentro de 0.5% de una predefinida dice cuál, por ejemplo "que coincide con 1/4" = 1'-0" (elija esa predefinida para una escala exacta)".
-   TakeoffCraft vuelve a la herramienta {{ui:Select}}.
+   TakeoffDesk vuelve a la herramienta {{ui:Select}}.
 
 Cuando la calibración coincide con una predefinida, elegir esa predefinida da una escala exacta, en lugar de una que depende de dónde hizo clic.
 
@@ -61,11 +61,11 @@ Pulse {{key:Esc}} para borrar la línea de comprobación.
 
 ## Cambiar una escala
 
-Elija otra predefinida o calibre de nuevo. Si la hoja ya tiene mediciones, TakeoffCraft pregunta **¿Cambiar la escala de esta hoja?** e indica cuántas mediciones se volverán a medir. Elija {{ui:Change the scale}}. Cada tramo y cada área de la hoja se vuelve a medir a la nueva escala. Puede deshacerlo con {{key:Mod+Z}}.
+Elija otra predefinida o calibre de nuevo. Si la hoja ya tiene mediciones, TakeoffDesk pregunta **¿Cambiar la escala de esta hoja?** e indica cuántas mediciones se volverán a medir. Elija {{ui:Change the scale}}. Cada tramo y cada área de la hoja se vuelve a medir a la nueva escala. Puede deshacerlo con {{key:Mod+Z}}.
 
 ## Por qué las hojas sin escala no cuentan como cero
 
-Una marca en una hoja sin escala no tiene longitud ni área reales. TakeoffCraft nunca la cuenta como cero, porque eso haría que su presupuesto quedara demasiado bajo sin que usted lo notara. En su lugar:
+Una marca en una hoja sin escala no tiene longitud ni área reales. TakeoffDesk nunca la cuenta como cero, porque eso haría que su presupuesto quedara demasiado bajo sin que usted lo notara. En su lugar:
 
 - deja esas marcas fuera de los totales,
 - muestra "+(n) sin escala" junto a la partida en {{ui:Quantities}},
@@ -77,5 +77,5 @@ Esto puede pasar cuando abre un proyecto cuyas escalas nunca se asignaron. Asign
 ## Consejos
 
 - Asigne la escala a cada hoja que va a medir antes de empezar. Revise la lista de hojas en busca de **Sin escala** para encontrar las que faltan (el cuadro de búsqueda revisa nombres de hoja, no escalas).
-- Los detalles y las plantas ampliadas en la misma hoja suelen usar otra escala. TakeoffCraft tiene una escala por hoja; vea [Lo que aún no está construido](topic:not-built-yet).
+- Los detalles y las plantas ampliadas en la misma hoja suelen usar otra escala. TakeoffDesk tiene una escala por hoja; vea [Lo que aún no está construido](topic:not-built-yet).
 - Dibujos métricos: elija una predefinida métrica como `1:100`, o calibre con una distancia métrica como `6000 mm`.

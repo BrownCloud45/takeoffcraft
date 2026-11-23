@@ -41,7 +41,7 @@ Quando i locali sono disegnati come muri chiusi, {{ui:Locale}} ({{key:B}}) ricav
 2. Scegliere {{ui:Locale}} nel gruppo {{ui:Computo}}, oppure premere {{key:B}}.
 3. Fare clic dentro un locale, sul pavimento libero (non su una linea o su un'etichetta).
 
-TakeoffCraft legge le linee della tavola, trova lo spazio attorno al clic e ne traccia il contorno lungo le facce interne dei muri, come area della voce corrente. Le aperture delle porte fino a **4'-0"** vengono considerate chiuse, quindi il contorno attraversa la porta in linea retta; **Impostazioni › TakeoffCraft › Il riempimento del locale chiude le aperture fino a** modifica questa larghezza (da 3'-0" a 8'-0"). Nomi dei locali, arredi e apparecchi all'interno del locale non creano fori.
+TakeoffDesk legge le linee della tavola, trova lo spazio attorno al clic e ne traccia il contorno lungo le facce interne dei muri, come area della voce corrente. Le aperture delle porte fino a **4'-0"** vengono considerate chiuse, quindi il contorno attraversa la porta in linea retta; **Impostazioni › TakeoffDesk › Il riempimento del locale chiude le aperture fino a** modifica questa larghezza (da 3'-0" a 8'-0"). Nomi dei locali, arredi e apparecchi all'interno del locale non creano fori.
 
 Il riempimento si rifiuta, spiegandone il motivo, quando:
 
@@ -62,7 +62,7 @@ Quando una porta è più larga dell'impostazione, il riempimento invade il local
 
 Per un foro rotondo, scegliere {{ui:Aggiungi un vuoto rotondo}} sotto **Segno selezionato**, fare clic sul centro, poi su un punto del bordo.
 
-Un vuoto deve trovarsi interamente all'interno dell'area e non deve sovrapporsi a un altro vuoto. Altrimenti TakeoffCraft lo rifiuta: "Un vuoto deve trovarsi interamente all'interno dell'area." oppure "I vuoti non possono sovrapporsi tra loro."
+Un vuoto deve trovarsi interamente all'interno dell'area e non deve sovrapporsi a un altro vuoto. Altrimenti TakeoffDesk lo rifiuta: "Un vuoto deve trovarsi interamente all'interno dell'area." oppure "I vuoti non possono sovrapporsi tra loro."
 
 Per eliminare l'ultimo foro, scegliere {{ui:Rimuovi l'ultimo vuoto}}.
 
@@ -76,7 +76,7 @@ Un vuoto appartiene a un solo segno di area. Un'**area da detrarre** viene diseg
 
 Ogni segno di area di una voce selezionata nella stessa tavola perde la parte coperta da un'area da detrarre: l'intera area da detrarre quando sta all'interno, solo la parte sovrapposta quando attraversa il bordo, e nulla all'interno di un vuoto. Il pannello dell'area selezionata mostra **Aree da detrarre** e l'area rimanente. Quantità della voce, sue formule di composizione, costi, vista 3D di verifica ed esportazione usano l'area rimanente; le note del computo indicano quanto hanno detratto le aree da detrarre. La voce di area da detrarre conta la propria area (lasciare i suoi costi a zero se non viene prezzata).
 
-Un'area da detrarre deve essere **convessa**: un rettangolo, un cerchio o un contorno senza angoli rientranti. TakeoffCraft rifiuta di disegnarne una che non lo sia; per un cavedio a L, disegnare due aree da detrarre. Le aree da detrarre non possono avere vuoti, e due aree da detrarre che si sovrappongono vengono contate entrambe.
+Un'area da detrarre deve essere **convessa**: un rettangolo, un cerchio o un contorno senza angoli rientranti. TakeoffDesk rifiuta di disegnarne una che non lo sia; per un cavedio a L, disegnare due aree da detrarre. Le aree da detrarre non possono avere vuoti, e due aree da detrarre che si sovrappongono vengono contate entrambe.
 
 Il perimetro (`P`) non cambia: le aree da detrarre tolgono solo superficie.
 

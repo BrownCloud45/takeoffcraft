@@ -77,7 +77,7 @@ Mstari mmoja kwa kila karatasi yenye skeli au alama.
 | Sheet | Jina la karatasi |
 | Scale | Jina la mpangilio uliowekwa, au skeli iliyorekebishwa, au "No scale" |
 | How | "Preset", au "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | Kipengele halisi cha skeli ambacho TakeoffCraft inakitumia |
+| Feet per PDF unit | Kipengele halisi cha skeli ambacho TakeoffDesk inakitumia |
 
 ## Majina ya faili
 

@@ -14,7 +14,7 @@ Un elemento de contaxe conta cousas: portas, luminarias, tomas, accesorios de fo
 3. Faga clic en cada un na folla.
    Cada clic pon un punto na cor do elemento, e a contaxe do elemento aumenta en un.
 4. Pase á seguinte folla ({{key:PageDown}}) e siga contando. A ferramenta mantense en {{ui:Contar}}.
-5. Prema {{key:Esc}} ao rematar. TakeoffCraft volve a {{ui:Seleccionar}}.
+5. Prema {{key:Esc}} ao rematar. TakeoffDesk volve a {{ui:Seleccionar}}.
 
 Arrastrar segue desprazando e a roda segue facendo zoom mentres conta, así que pode moverse pola folla sen engadir puntos.
 
@@ -30,7 +30,7 @@ Faga clic no elemento de contaxe para resaltar os seus puntos en todas as follas
 
 ## Tamaño dos puntos, na pantalla e no PDF
 
-Os puntos mantén un tamaño na pantalla por moito zoom que se faga. Para cambialo, abra {{ui:Configuración}}, a lapela de TakeoffCraft, e escolla **Tamaño do marcador de contaxe**: Extra pequeno, Pequeno, Mediano (o predeterminado) ou Grande.
+Os puntos mantén un tamaño na pantalla por moito zoom que se faga. Para cambialo, abra {{ui:Configuración}}, a lapela de TakeoffDesk, e escolla **Tamaño do marcador de contaxe**: Extra pequeno, Pequeno, Mediano (o predeterminado) ou Grande.
 
 A exportación a PDF ({{ui:Exportar}} › o PDF marcado) debuxa cada punto co mesmo tamaño no papel, sexa cal sexa o tamaño da folla: un visor que mostre o PDF ao 100% móstrao tan grande como na pantalla. Cando os puntos dunha folla aínda se tocarían, a exportación fai máis pequenos os de esa folla para que cada un se poida ler.
 

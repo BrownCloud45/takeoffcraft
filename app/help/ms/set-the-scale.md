@@ -5,7 +5,7 @@ keywords: kesan skala, baca skala, skala daripada teks, semua helaian, skala, te
 from: 8f0148e6
 ---
 
-Setiap helaian mempunyai skalanya sendiri. Anda menetapkannya, atau membiarkan TakeoffCraft membacanya daripada teks helaian (di bawah), dan menyemaknya. Selagi helaian tiada skala, {{ui:Linear}}, {{ui:Luas}}, {{ui:Bulatan}} dan {{ui:Potongan}} enggan mengukur padanya. {{ui:Kira}} dan {{ui:Kiraan auto}} berfungsi tanpa skala.
+Setiap helaian mempunyai skalanya sendiri. Anda menetapkannya, atau membiarkan TakeoffDesk membacanya daripada teks helaian (di bawah), dan menyemaknya. Selagi helaian tiada skala, {{ui:Linear}}, {{ui:Luas}}, {{ui:Bulatan}} dan {{ui:Potongan}} enggan mengukur padanya. {{ui:Kira}} dan {{ui:Kiraan auto}} berfungsi tanpa skala.
 
 Senarai helaian memaparkan skala setiap helaian, atau **Tiada skala**. Bar di bawah helaian yang dibuka menyatakan perkara yang sama.
 
@@ -23,7 +23,7 @@ Senarai penuh terdapat dalam [Pratetap skala](topic:scale-presets).
 
 ## Baca skala daripada teks helaian
 
-Kebanyakan lukisan menyatakan skalanya: `SCALE: 1/4" = 1'-0"` dalam blok tajuk, `1:100` di bawah pandangan. TakeoffCraft boleh membacanya dan menetapkan setiap helaian sekaligus.
+Kebanyakan lukisan menyatakan skalanya: `SCALE: 1/4" = 1'-0"` dalam blok tajuk, `1:100` di bawah pandangan. TakeoffDesk boleh membacanya dan menetapkan setiap helaian sekaligus.
 
 1. Buka senarai {{ui:Pratetap}} dan pilih {{ui:Dari teks helaian…}} (di bahagian atas).
 2. Senarai memaparkan setiap helaian: skalanya sekarang, dan apa yang teksnya nyatakan — **Menyatakan 1/4" = 1'-0"**, **Tiada skala dalam teksnya**, atau **Menyatakan tidak mengikut skala** (NTS).
@@ -44,7 +44,7 @@ Gunakan ini apabila tiada skala cetakan yang anda percayai, set itu telah diubah
 5. Taip jarak sebenar dalam **Jarak sebenar**, contohnya `24'-6 1/2"`, `24.5` (kaki perpuluhan), `30"` atau `7.5 m`. Lihat [Entri panjang, kadar dan peratus](topic:entry-formats).
 6. Pilih {{ui:Tetapkan skala}}.
    Bar status memaparkan skala sebagai "1" = (n)'", dan apabila ia dalam lingkungan 0.5% daripada pratetap ia menyatakan yang mana, contohnya "yang sepadan dengan 1/4" = 1'-0" (pilih pratetap itu untuk skala yang tepat)".
-   TakeoffCraft kembali ke alat {{ui:Pilih}}.
+   TakeoffDesk kembali ke alat {{ui:Pilih}}.
 
 Apabila penentukuran sepadan dengan pratetap, memilih pratetap itu memberi skala yang tepat dan bukannya skala yang bergantung pada tempat anda klik.
 
@@ -61,11 +61,11 @@ Tekan {{key:Esc}} untuk mengosongkan garisan semakan.
 
 ## Tukar skala
 
-Pilih pratetap lain atau tentukur semula. Jika helaian sudah mempunyai ukuran, TakeoffCraft bertanya **Tukar skala helaian ini?** dan menyatakan berapa banyak ukuran yang akan diukur semula. Pilih {{ui:Tukar skala}}. Setiap larian dan kawasan pada helaian diukur semula pada skala baharu. Anda boleh membuat asalnya dengan {{key:Mod+Z}}.
+Pilih pratetap lain atau tentukur semula. Jika helaian sudah mempunyai ukuran, TakeoffDesk bertanya **Tukar skala helaian ini?** dan menyatakan berapa banyak ukuran yang akan diukur semula. Pilih {{ui:Tukar skala}}. Setiap larian dan kawasan pada helaian diukur semula pada skala baharu. Anda boleh membuat asalnya dengan {{key:Mod+Z}}.
 
 ## Mengapa helaian tanpa skala tidak dikira sebagai sifar
 
-Penanda pada helaian tanpa skala tidak mempunyai panjang atau luas sebenar. TakeoffCraft tidak sekali-kali mengiranya sebagai sifar, yang diam-diam akan menjadikan anggaran anda terlalu rendah. Sebaliknya ia:
+Penanda pada helaian tanpa skala tidak mempunyai panjang atau luas sebenar. TakeoffDesk tidak sekali-kali mengiranya sebagai sifar, yang diam-diam akan menjadikan anggaran anda terlalu rendah. Sebaliknya ia:
 
 - meninggalkan penanda tersebut daripada jumlah,
 - memaparkan "+(n) tanpa skala" di sebelah item dalam {{ui:Kuantiti}},
@@ -77,5 +77,5 @@ Ini boleh berlaku apabila anda membuka projek yang skalanya tidak pernah ditetap
 ## Petua
 
 - Tetapkan skala pada setiap helaian yang akan anda ukur sebelum mula. Imbas senarai helaian untuk **Tiada skala** bagi mencari yang masih tinggal (kotak carian melihat nama helaian, bukan skala).
-- Perincian dan pelan dibesarkan pada helaian yang sama sering menggunakan skala lain. TakeoffCraft hanya mempunyai satu skala setiap helaian; lihat [Apa yang belum dibina](topic:not-built-yet).
+- Perincian dan pelan dibesarkan pada helaian yang sama sering menggunakan skala lain. TakeoffDesk hanya mempunyai satu skala setiap helaian; lihat [Apa yang belum dibina](topic:not-built-yet).
 - Lukisan metrik: pilih pratetap metrik seperti `1:100`, atau tentukur dengan jarak metrik seperti `6000 mm`.

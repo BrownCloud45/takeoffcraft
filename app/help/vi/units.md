@@ -55,4 +55,4 @@ Tỷ lệ của tờ cho biết bản vẽ lớn cỡ nào; đơn vị của h�
 
 ## Độ chính xác
 
-TakeoffCraft đo chính xác từ các điểm bạn nhấp, kể cả chiều dài và diện tích cung thực, và không làm tròn khối lượng. Hiển thị làm tròn chiều dài đến 1/16 inch và số thập phân đến hai chữ số. Tiền chỉ được làm tròn ở các thành tiền, đến xu.
+TakeoffDesk đo chính xác từ các điểm bạn nhấp, kể cả chiều dài và diện tích cung thực, và không làm tròn khối lượng. Hiển thị làm tròn chiều dài đến 1/16 inch và số thập phân đến hai chữ số. Tiền chỉ được làm tròn ở các thành tiền, đến xu.

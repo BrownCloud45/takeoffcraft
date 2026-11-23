@@ -1,6 +1,6 @@
 ---
 title: Athugaðu birgðir birgja og afhendingartíma
-summary: Bættu við lagerlista birgis (CSV eða töflureikni) og TakeoffCraft athugar það sem magntakan þarfnast, að meðtöldum afgangi, á móti honum: nóg á lager og hversu löng biðin er. Skortur og langar biðir birtast í vandamálaspjaldinu.
+summary: Bættu við lagerlista birgis (CSV eða töflureikni) og TakeoffDesk athugar það sem magntakan þarfnast, að meðtöldum afgangi, á móti honum: nóg á lager og hversu löng biðin er. Skortur og langar biðir birtast í vandamálaspjaldinu.
 keywords: birgir, birgðir, á lager, afhendingartími, framboð, skortur, bakpöntun, pöntunarlisti, csv, sku, söluaðili, efni, framboð, vandamál
 from: f11160fb
 ---

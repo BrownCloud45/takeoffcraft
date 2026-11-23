@@ -5,7 +5,7 @@ keywords: piesaiste, osnap, objektu piesaiste, galapunkts, vidpunkts, krustpunkt
 from: 41d29e9b
 ---
 
-Vairums rasējumu komplektu ir vektora PDF: to sienas un malas ir īstas līnijas, nevis pikseļi. Kamēr mērāt, TakeoffCraft piesaista jūsu klikšķus šīm līnijām, tāpēc posms sākas tieši sienas stūrī, un kalibrēšana nolasa izmēru, ko rasētājs ir zīmējis, nevis pikseli, kuru trāpījāt.
+Vairums rasējumu komplektu ir vektora PDF: to sienas un malas ir īstas līnijas, nevis pikseļi. Kamēr mērāt, TakeoffDesk piesaista jūsu klikšķus šīm līnijām, tāpēc posms sākas tieši sienas stūrī, un kalibrēšana nolasa izmēru, ko rasētājs ir zīmējis, nevis pikseli, kuru trāpījāt.
 
 Piesaiste ir ieslēgta, kad sākat. Ieslēdziet vai izslēdziet to ar {{ui:Piesaiste}} statusa joslā vai ar {{key:F3}}; iestatījums tiek saglabāts šajā pārlūkprogrammā (tas ir arī sadaļā [Iestatījumi](topic:settings)).
 

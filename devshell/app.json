@@ -3,7 +3,7 @@
     "version": 1,
     "app": {
         "slug": "takeoffcraft",
-        "name": "TakeoffCraft",
+        "name": "TakeoffDesk",
         "layer": "ochre",
         "role": "Quantity takeoff & estimating",
         "tagline": "Measure the drawings. Count the work. Price the job.",
@@ -26,7 +26,6 @@
         "pdfjs": "6.3.289",
         "three": "0.186.1"
     },
-    "origin": "https://getcadcraft.com",
     "packed": {
         "at": "2026-11-17T04:54:27Z",
         "build": "dev"

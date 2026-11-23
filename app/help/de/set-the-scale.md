@@ -5,7 +5,7 @@ keywords: Maßstab erkennen, Maßstab lesen, Maßstab aus Text, alle Blätter, M
 from: 8f0148e6
 ---
 
-Jedes Blatt hat seinen eigenen Maßstab. Sie legen ihn fest, oder Sie lassen TakeoffCraft ihn aus dem Text der Blätter lesen (unten), und prüfen ihn. Solange ein Blatt keinen Maßstab hat, verweigern {{ui:Länge}}, {{ui:Fläche}}, {{ui:Kreis}} und {{ui:Aussparung}} die Messung darauf. {{ui:Zählen}} und {{ui:Auto-Zählen}} funktionieren ohne Maßstab.
+Jedes Blatt hat seinen eigenen Maßstab. Sie legen ihn fest, oder Sie lassen TakeoffDesk ihn aus dem Text der Blätter lesen (unten), und prüfen ihn. Solange ein Blatt keinen Maßstab hat, verweigern {{ui:Länge}}, {{ui:Fläche}}, {{ui:Kreis}} und {{ui:Aussparung}} die Messung darauf. {{ui:Zählen}} und {{ui:Auto-Zählen}} funktionieren ohne Maßstab.
 
 Die Blattliste zeigt den Maßstab jedes Blatts oder **Kein Maßstab**. Die Leiste unter dem geöffneten Blatt zeigt dasselbe.
 
@@ -23,7 +23,7 @@ Die vollständige Liste finden Sie unter [Maßstabsvoreinstellungen](topic:scale
 
 ## Maßstäbe aus dem Text der Blätter lesen
 
-Die meisten Zeichnungen nennen ihren Maßstab: `SCALE: 1/4" = 1'-0"` im Schriftfeld, `1:100` unter einer Ansicht. TakeoffCraft kann ihn lesen und alle Blätter auf einmal festlegen.
+Die meisten Zeichnungen nennen ihren Maßstab: `SCALE: 1/4" = 1'-0"` im Schriftfeld, `1:100` unter einer Ansicht. TakeoffDesk kann ihn lesen und alle Blätter auf einmal festlegen.
 
 1. Öffnen Sie die Liste {{ui:Voreinstellung}} und wählen Sie {{ui:Aus dem Text der Blätter…}} (oben).
 2. Die Liste zeigt jedes Blatt: seinen aktuellen Maßstab und was sein Text sagt — **Sagt 1/4" = 1'-0"**, **Kein Maßstab im Text** oder **Sagt: nicht maßstäblich** (NTS).
@@ -44,7 +44,7 @@ Verwenden Sie das, wenn es keinen gedruckten Maßstab gibt, dem Sie vertrauen, d
 5. Geben Sie die reale Strecke unter **Reale Strecke** ein, zum Beispiel `24'-6 1/2"`, `24.5` (Dezimalfuß), `30"` oder `7.5 m`. Siehe [Eingabeformate für Länge, Einheitspreis und Prozent](topic:entry-formats).
 6. Wählen Sie {{ui:Maßstab festlegen}}.
    Die Statusleiste zeigt den Maßstab als „1" = (n)'“. Liegt er innerhalb von 0.5 % einer Voreinstellung, nennt sie diese, zum Beispiel „was zu 1/4" = 1'-0" passt (wählen Sie diese Voreinstellung für einen exakten Maßstab)“.
-   TakeoffCraft kehrt zum Werkzeug {{ui:Auswählen}} zurück.
+   TakeoffDesk kehrt zum Werkzeug {{ui:Auswählen}} zurück.
 
 Passt die Kalibrierung zu einer Voreinstellung, ergibt die Wahl dieser Voreinstellung einen exakten Maßstab, statt eines, der davon abhängt, wo Sie geklickt haben.
 
@@ -61,11 +61,11 @@ Drücken Sie {{key:Esc}}, um die Prüflinie zu entfernen.
 
 ## Einen Maßstab ändern
 
-Wählen Sie eine andere Voreinstellung oder kalibrieren Sie erneut. Hat das Blatt bereits Messungen, fragt TakeoffCraft **Maßstab dieses Blatts ändern?** und sagt, wie viele Messungen neu gemessen werden. Wählen Sie {{ui:Maßstab ändern}}. Jede Strecke und Fläche auf dem Blatt wird im neuen Maßstab neu gemessen. Sie können es mit {{key:Mod+Z}} rückgängig machen.
+Wählen Sie eine andere Voreinstellung oder kalibrieren Sie erneut. Hat das Blatt bereits Messungen, fragt TakeoffDesk **Maßstab dieses Blatts ändern?** und sagt, wie viele Messungen neu gemessen werden. Wählen Sie {{ui:Maßstab ändern}}. Jede Strecke und Fläche auf dem Blatt wird im neuen Maßstab neu gemessen. Sie können es mit {{key:Mod+Z}} rückgängig machen.
 
 ## Warum Blätter ohne Maßstab nicht als null gezählt werden
 
-Eine Markierung auf einem Blatt ohne Maßstab hat keine echte Länge oder Fläche. TakeoffCraft zählt sie nie als null, denn das würde Ihre Kalkulation stillschweigend zu niedrig machen. Stattdessen:
+Eine Markierung auf einem Blatt ohne Maßstab hat keine echte Länge oder Fläche. TakeoffDesk zählt sie nie als null, denn das würde Ihre Kalkulation stillschweigend zu niedrig machen. Stattdessen:
 
 - lässt es diese Markierungen aus den Summen,
 - zeigt es „+(n) ohne Maßstab“ neben der Position in {{ui:Mengen}},
@@ -77,5 +77,5 @@ Das kann passieren, wenn Sie ein Projekt öffnen, dessen Maßstäbe nie festgele
 ## Tipps
 
 - Legen Sie den Maßstab jedes Blatts, das Sie messen werden, vorher fest. Suchen Sie in der Blattliste nach **Kein Maßstab**, um die übrigen zu finden (das Suchfeld betrifft Blattnamen, nicht Maßstäbe).
-- Details und vergrößerte Pläne auf demselben Blatt verwenden oft einen anderen Maßstab. TakeoffCraft hat einen Maßstab pro Blatt; siehe [Was noch nicht umgesetzt ist](topic:not-built-yet).
+- Details und vergrößerte Pläne auf demselben Blatt verwenden oft einen anderen Maßstab. TakeoffDesk hat einen Maßstab pro Blatt; siehe [Was noch nicht umgesetzt ist](topic:not-built-yet).
 - Metrische Zeichnungen: Wählen Sie eine metrische Voreinstellung wie `1:100` oder kalibrieren Sie mit einem metrischen Maß wie `6000 mm`.

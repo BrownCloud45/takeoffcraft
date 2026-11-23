@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Desa l'amidament actual si el voleu conservar: {{ui:Desa l'amidament}} o {{key:Mod+S}}.
 2. Trieu {{ui:Nou}} al grup {{ui:Fitxer}}.
-3. Si hi ha canvis sense desar, TakeoffCraft pregunta **Amidament sense desar**: trieu {{ui:Desa primer l'amidament}} (baixa el projecte i després n'esborra el contingut), {{ui:Descarta els canvis}}, o {{ui:Cancel·la}}.
+3. Si hi ha canvis sense desar, TakeoffDesk pregunta **Amidament sense desar**: trieu {{ui:Desa primer l'amidament}} (baixa el projecte i després n'esborra el contingut), {{ui:Descarta els canvis}}, o {{ui:Cancel·la}}.
    La finestra torna a l'estat buit: cap PDF, cap element, cap marca, cap escala. La barra d'estat diu "Amidament nou. Obriu PDF per començar."
 
 S'esborra:

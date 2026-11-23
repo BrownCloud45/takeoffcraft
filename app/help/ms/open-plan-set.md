@@ -5,7 +5,7 @@ keywords: buka, set pelan, beberapa pdf, pelbagai fail, helaian, lukisan, label 
 from: ed434468
 ---
 
-Set pelan selalunya beberapa PDF: seni bina, struktur, mekanikal. TakeoffCraft membukanya bersebelahan sebagai satu senarai helaian, dan satu pengukuran kuantiti boleh meliputi kesemuanya.
+Set pelan selalunya beberapa PDF: seni bina, struktur, mekanikal. TakeoffDesk membukanya bersebelahan sebagai satu senarai helaian, dan satu pengukuran kuantiti boleh meliputi kesemuanya.
 
 ## Buka PDF
 
@@ -14,14 +14,14 @@ Set pelan selalunya beberapa PDF: seni bina, struktur, mekanikal. TakeoffCraft m
 3. Pilih Buka.
    Mesej "Membuka (nama)…" dipaparkan semasa setiap fail dibaca. Kemudian setiap halaman muncul di bawah {{ui:Helaian}} dan halaman pertama PDF baharu pertama dibuka.
 
-Anda juga boleh menyeret PDF dari {{pick:mac=Finder|windows=File Explorer|linux=pengurus fail anda}} dan melepaskannya di mana-mana pada TakeoffCraft. Bingkai "Lepaskan PDF, lukisan DWG atau DXF, atau .takeoff.json" muncul semasa anda menyeret.
+Anda juga boleh menyeret PDF dari {{pick:mac=Finder|windows=File Explorer|linux=pengurus fail anda}} dan melepaskannya di mana-mana pada TakeoffDesk. Bingkai "Lepaskan PDF, lukisan DWG atau DXF, atau .takeoff.json" muncul semasa anda menyeret.
 
 Untuk menambah PDF kemudian, buat cara yang sama. PDF yang sudah dibuka akan dilangkau.
 
 Skrin permulaan juga menyenaraikan PDF dan pengukuran kuantiti yang baru dibuka, dalam pelayar yang membenarkan halaman membuka fail semula (Chrome dan Edge). Klik satu untuk membukanya; pelayar mungkin meminta kebenaran dahulu. Lihat [Fail anda](common:your-files).
 
 :::note
-Tiada yang dimuat naik. Pelayar membaca PDF di komputer anda, dan ia hilang daripada TakeoffCraft apabila anda menutup tab atau memilih {{ui:Baharu}}.
+Tiada yang dimuat naik. Pelayar membaca PDF di komputer anda, dan ia hilang daripada TakeoffDesk apabila anda menutup tab atau memilih {{ui:Baharu}}.
 :::
 
 ## Lukisan bersebelahan PDF
@@ -30,7 +30,7 @@ Tiada yang dimuat naik. Pelayar membaca PDF di komputer anda, dan ia hilang dari
 
 ## PDF yang diserahkan daripada aplikasi lain
 
-Aplikasi lain dalam rangkaian boleh menyerahkan PDF yang dibukanya: ia membuka TakeoffCraft dalam tab baharu dan PDF dibuka di sana seolah-olah anda telah melepaskannya. Bar status menyatakan "(nama) dibuka, diserahkan daripada (aplikasi). Fail asal tidak berubah." Tiada yang dimuat naik; fail melalui storan pelayar ini dan hilang daripadanya sebaik sahaja dibuka.
+Aplikasi lain dalam rangkaian boleh menyerahkan PDF yang dibukanya: ia membuka TakeoffDesk dalam tab baharu dan PDF dibuka di sana seolah-olah anda telah melepaskannya. Bar status menyatakan "(nama) dibuka, diserahkan daripada (aplikasi). Fail asal tidak berubah." Tiada yang dimuat naik; fail melalui storan pelayar ini dan hilang daripadanya sebaik sahaja dibuka.
 
 Jika bar status menyatakan PDF "tidak sampai", tab terlalu lama menunggu atau PDF sudah dibuka dalam tab lain: buka dengan {{ui:Buka pelan}}.
 

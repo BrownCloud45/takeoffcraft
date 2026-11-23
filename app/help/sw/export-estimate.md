@@ -28,7 +28,7 @@ Kitabu kina karatasi nne za kazi, pamoja na ripoti zilizo hapa chini zinapohusik
 
 Ukiwa na [muhtasari wa zabuni](topic:bid-summary), karatasi ya Estimate pia inamalizika na nyongeza zake za bei (mzigo wa kazi, kodi ya mauzo, gharama za juu, faida, dhamana na zabuni), kama fomula hai.
 
-Karatasi ya Estimate inabaki na **fomula hai**: kiasi chenye upotevu, kiasi cha nyenzo na kazi kilichopigwa mviringo, jumla ya kila safu na jumla ya kazi. Programu za lahajedwali zinahesabu upya, kwa hiyo unaweza kubadilisha kiwango au upotevu kwenye lahajedwali na jumla zitafuata. Nambari ambazo TakeoffCraft ilikokotoa pia zimehifadhiwa kwenye seli, na zinalingana hadi senti.
+Karatasi ya Estimate inabaki na **fomula hai**: kiasi chenye upotevu, kiasi cha nyenzo na kazi kilichopigwa mviringo, jumla ya kila safu na jumla ya kazi. Programu za lahajedwali zinahesabu upya, kwa hiyo unaweza kubadilisha kiwango au upotevu kwenye lahajedwali na jumla zitafuata. Nambari ambazo TakeoffDesk ilikokotoa pia zimehifadhiwa kwenye seli, na zinalingana hadi senti.
 
 Safu ya maelezo inaorodhesha fomula ya kila kipengele, hitilafu za fomula, alama kwenye karatasi zisizo na skeli, eneo la ukuta na mzunguko. Kitu kikiachwa, safu ya jumla ya kazi inasema "Incomplete: see the notes above".
 
@@ -42,7 +42,7 @@ CSV ina makadirio pekee; kwa viasi kwa karatasi na orodha ya alama, tumia XLSX. 
 
 ## Makadirio kwenye Google Sheets
 
-Juu ya jedwali la Viasi, **Nakili kwa Google Sheets** huweka makadirio kwenye ubao wako wa kunakili kama maandishi yaliyotenganishwa kwa tabo, yenye mistari ile ile ya CSV. Kwenye Google Sheet, bofya seli A1 kisha ubandike. TakeoffCraft haiingii kwenye Google wala haituma chochote huko.
+Juu ya jedwali la Viasi, **Nakili kwa Google Sheets** huweka makadirio kwenye ubao wako wa kunakili kama maandishi yaliyotenganishwa kwa tabo, yenye mistari ile ile ya CSV. Kwenye Google Sheet, bofya seli A1 kisha ubandike. TakeoffDesk haiingii kwenye Google wala haituma chochote huko.
 
 ## Viwango vinavyokosekana na kutia sahihi
 

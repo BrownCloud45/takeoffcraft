@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, carretera, vía férrea, puente, pavimento, bord
 from: 6b08c2c4
 ---
 
-Un archivo IFC 4.3 puede contener carreteras, vías férreas, puentes, obras marítimas y las partes que los forman: pavimentos, capas, bordillos, carriles, movimientos de tierras, apoyos, pilotes y más. TakeoffCraft los lee y los convierte en cantidades tipificadas que puede presupuestar.
+Un archivo IFC 4.3 puede contener carreteras, vías férreas, puentes, obras marítimas y las partes que los forman: pavimentos, capas, bordillos, carriles, movimientos de tierras, apoyos, pilotes y más. TakeoffDesk los lee y los convierte en cantidades tipificadas que puede presupuestar.
 
 ## Abrir el archivo
 
 1. Elija {{ui:Abrir PDF}} en el grupo {{ui:Archivo}}, o pulse {{key:Mod+O}}.
-2. Seleccione el archivo IFC (puede seleccionarlo junto con PDF), o suéltelo sobre TakeoffCraft.
+2. Seleccione el archivo IFC (puede seleccionarlo junto con PDF), o suéltelo sobre TakeoffDesk.
 
 Se crea una cantidad tipificada por cada clase y tipo predefinido, por ejemplo "Pavimento (flexible): recuento", y, cuando el archivo las indica, "longitud" en m, "área" en m² y "volumen" en m³. La nota de cada partida indica cuántos elementos se contaron y cuántos no declaraban ninguna cantidad. Al abrir un archivo más reciente con el mismo nombre, se actualizan esas cantidades en lugar de añadir más.
 

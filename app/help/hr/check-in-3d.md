@@ -46,7 +46,7 @@ Brojke se u 3D ne mijenjaju: površina zida je njegova točna duljina puta visin
 | {{ui:List}} | Prikazuje ili skriva crtež na tlu. |
 | Kocka pogleda, gore desno | Kliknite stranu, rub ili kut za gledanje odande; povucite je za kruženje; povucite njen prsten kompasa za okretanje; gumb kućice vraća na {{ui:Izo}}. |
 
-Kut prikazuje kocku pogleda, malu ikonu osi X, Y, Z ili ništa: odaberite u {{ui:Postavke}}, na kartici TakeoffCraft, pod **Pokazivač kuta** ([Postavke TakeoffCraft-a](topic:settings)). Ravni list nema pokazivač kuta.
+Kut prikazuje kocku pogleda, malu ikonu osi X, Y, Z ili ništa: odaberite u {{ui:Postavke}}, na kartici TakeoffDesk, pod **Pokazivač kuta** ([Postavke TakeoffDesk-a](topic:settings)). Ravni list nema pokazivač kuta.
 
 :::touch
 Jedan prst kruži; dva prsta stišću za zumiranje i pomiču za pomicanje prikaza. Dodir odabire.

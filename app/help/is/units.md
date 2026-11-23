@@ -55,4 +55,4 @@ Mælikvarði blaðs segir hversu stór teikningin er; eining liðarins segir hve
 
 ## Nákvæmni
 
-TakeoffCraft mælir nákvæmlega út frá punktunum sem þú smellir á, þar á meðal raunverulegar bogalengdir og flatarmál, og rúnnar ekki magntölur. Birting rúnnar lengdir að 1/16 tommu og aukastafi niður í tvo. Peningar eru aðeins rúnnaðir í heildarupphæðunum, að sentinum.
+TakeoffDesk mælir nákvæmlega út frá punktunum sem þú smellir á, þar á meðal raunverulegar bogalengdir og flatarmál, og rúnnar ekki magntölur. Birting rúnnar lengdir að 1/16 tommu og aukastafi niður í tvo. Peningar eru aðeins rúnnaðir í heildarupphæðunum, að sentinum.

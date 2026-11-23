@@ -30,7 +30,7 @@ Under ritning:
 - Dra panorerar bladet och hjulet zoomar, utan att lägga till punkter.
 
 :::mac
-På en Mac-styrplatta är högerklick en tvåfingersklick (slå på sekundärklick i Systeminställningar, under Styrplatta). TakeoffCraft läser bara sekundärknappen, så en Ctrl-klick kan tolkas som ett vanligt klick och lägga till en punkt. Dubbelklick eller {{key:Enter}} avslutar alltid.
+På en Mac-styrplatta är högerklick en tvåfingersklick (slå på sekundärklick i Systeminställningar, under Styrplatta). TakeoffDesk läser bara sekundärknappen, så en Ctrl-klick kan tolkas som ett vanligt klick och lägga till en punkt. Dubbelklick eller {{key:Enter}} avslutar alltid.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Efter första punkten kan du skriva var nästa ska gå i stället för att klick
 | `@6',-4'` | 6' åt höger och 4' nedåt från den senaste punkten |
 | `6',4'` (eller `#6',4'`) | 6' åt höger och 4' uppåt från denna sträckas första punkt |
 
-Längder skrivs som överallt i TakeoffCraft ([Inmatningsformat](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fot), `30"`, `3.2 m`. ”Höger” och ”upp” är som du ser bladet, även när PDF-sidan är vriden.
+Längder skrivs som överallt i TakeoffDesk ([Inmatningsformat](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fot), `30"`, `3.2 m`. ”Höger” och ”upp” är som du ser bladet, även när PDF-sidan är vriden.
 
 {{key:Enter}} i en tom ruta avslutar sträckan, precis som {{key:Enter}} på bladet; {{key:Esc}} stänger rutan och låter sträckan fortsätta. Inskrivna punkter följer samma regler som klick: avdrag, bågar och att stänga en yta fungerar alla. Samma ruta fungerar i {{ui:Area}} och {{ui:Urtag}}; efter en cirkels mitt tar den radien.
 

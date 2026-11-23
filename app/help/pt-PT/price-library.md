@@ -13,7 +13,7 @@ Abra-a com {{ui:Biblioteca}} no topo do painel {{ui:Artigos}}.
 
 - {{ui:Importar CSV…}} lê uma folha de cálculo guardada como CSV (ver as colunas abaixo). Os artigos cujo nome e tipo já estão na biblioteca são substituídos; os restantes são acrescentados. As linhas que não consegue ler são ignoradas, e indica quais e porquê.
 - {{ui:Adicionar os artigos desta medição}} copia para a biblioteca cada artigo da medição aberta, com os seus preços e o seu preço composto (não as suas marcas).
-- O CSV do orçamento que o TakeoffCraft exporta ([Exportar o orçamento](topic:export-estimate)) importa-se tal como está: os preços do último trabalho servem de base ao seguinte.
+- O CSV do orçamento que o TakeoffDesk exporta ([Exportar o orçamento](topic:export-estimate)) importa-se tal como está: os preços do último trabalho servem de base ao seguinte.
 
 - {{ui:Pacotes da especialidade…}} acrescenta preços compostos gratuitos para uma especialidade, como gesso cartonado, eletricidade ou betão, sem preços. Ver [Pacotes da especialidade](topic:trade-packs).
 

@@ -1,6 +1,6 @@
 ---
 title: Kiểm tra tồn kho và thời gian giao hàng của nhà cung cấp
-summary: Thêm danh sách tồn kho của nhà cung cấp (CSV hoặc bảng tính) và TakeoffCraft đối chiếu nhu cầu của bóc tách, kể cả hao hụt, với danh sách đó: đủ hàng trong kho hay không và phải chờ bao lâu. Thiếu hàng và thời gian chờ dài hiện trong bảng Vấn đề.
+summary: Thêm danh sách tồn kho của nhà cung cấp (CSV hoặc bảng tính) và TakeoffDesk đối chiếu nhu cầu của bóc tách, kể cả hao hụt, với danh sách đó: đủ hàng trong kho hay không và phải chờ bao lâu. Thiếu hàng và thời gian chờ dài hiện trong bảng Vấn đề.
 keywords: nhà cung cấp, supplier, tồn kho, stock, thời gian giao hàng, lead time, khả dụng, thiếu hàng, đặt hàng tồn, backorder, danh sách đặt hàng, order list, csv, sku, vật liệu, cung ứng, vấn đề
 from: f11160fb
 ---

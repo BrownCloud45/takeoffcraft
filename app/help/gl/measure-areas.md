@@ -41,7 +41,7 @@ Cando os cuartos están debuxados como muros pechados, {{ui:Room}} ({{key:B}}) s
 2. Escolla {{ui:Room}} no grupo {{ui:Takeoff}}, ou prema {{key:B}}.
 3. Faga clic dentro dun cuarto, no chan libre (non sobre unha liña nin unha etiqueta).
 
-TakeoffCraft lee as liñas da folla, atopa o espazo arredor do clic e traza o contorno polas caras interiores dos muros, como unha superficie do elemento actual. As aberturas de porta ata **4'-0"** tómanse como pechadas, polo que o contorno pasa recto pola porta; **Configuración › TakeoffCraft › Enchido de cuartos pecha as aberturas ata** cambia ese ancho (de 3'-0" a 8'-0"). Os nomes de cuarto, o mobiliario e os accesorios dentro do cuarto non fan buratos.
+TakeoffDesk lee as liñas da folla, atopa o espazo arredor do clic e traza o contorno polas caras interiores dos muros, como unha superficie do elemento actual. As aberturas de porta ata **4'-0"** tómanse como pechadas, polo que o contorno pasa recto pola porta; **Configuración › TakeoffDesk › Enchido de cuartos pecha as aberturas ata** cambia ese ancho (de 3'-0" a 8'-0"). Os nomes de cuarto, o mobiliario e os accesorios dentro do cuarto non fan buratos.
 
 Non se acepta, e di o motivo, cando:
 
@@ -62,7 +62,7 @@ Cando unha porta é máis ancha que o axuste, o enchido pasa ao cuarto seguinte 
 
 Para un burato redondo, escolla {{ui:Add a round cut-out}} baixo **Marca seleccionada**, faga clic no seu centro e despois nun punto do seu bordo.
 
-Un recorte debe estar completamente dentro da superficie e non se pode solapar con outro recorte. Se non, TakeoffCraft non o acepta: «O recorte ten que estar completamente dentro da superficie.» ou «Os recortes non se poden solapar entre si.»
+Un recorte debe estar completamente dentro da superficie e non se pode solapar con outro recorte. Se non, TakeoffDesk non o acepta: «O recorte ten que estar completamente dentro da superficie.» ou «Os recortes non se poden solapar entre si.»
 
 Para quitar de novo o último burato, escolla {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ Un recorte pertence a unha marca de superficie. Unha **contradeducción** debúx
 
 Cada marca de superficie dun elemento marcado da mesma folla perde a parte que cobre unha contradeducción: a contradeducción completa cando está dentro, só a parte solapada cando cruza o bordo, e nada dentro dun recorte. O panel da superficie seleccionada mostra **Contradeduccións** e a superficie restante. A cantidade do elemento, as súas fórmulas de montaxe, os custos, a vista de comprobación 3D e a exportación usan a superficie restante; as notas do orzamento indican canto quitaron as contradeduccións. O propio elemento de contradeducción conta a súa superficie (deixe os seus custos a cero se non o valora).
 
-Unha contradeducción ten que ser **convexa**: un rectángulo, un círculo ou calquera contorno sen esquina interior. TakeoffCraft non a debuxa se non o é; debuxe un pozo en forma de L como dúas contradeduccións. As contradeduccións non poden ter recortes, e dúas contradeduccións que se solapan entre si contan as dúas.
+Unha contradeducción ten que ser **convexa**: un rectángulo, un círculo ou calquera contorno sen esquina interior. TakeoffDesk non a debuxa se non o é; debuxe un pozo en forma de L como dúas contradeduccións. As contradeduccións non poden ter recortes, e dúas contradeduccións que se solapan entre si contan as dúas.
 
 O perímetro (`P`) non cambia: as contradeduccións quitan só superficie.
 

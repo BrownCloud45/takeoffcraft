@@ -14,7 +14,7 @@ Pozycja liczona zlicza rzeczy: drzwi, oprawy oświetleniowe, gniazdka, armaturę
 3. Kliknij każdą rzecz na arkuszu.
    Każde kliknięcie stawia kropkę w kolorze pozycji, a liczba pozycji rośnie o jeden.
 4. Przejdź do następnego arkusza ({{key:PageDown}}) i licz dalej. Narzędzie pozostaje na {{ui:Liczenie}}.
-5. Naciśnij {{key:Esc}}, gdy skończysz. TakeoffCraft wraca do {{ui:Zaznacz}}.
+5. Naciśnij {{key:Esc}}, gdy skończysz. TakeoffDesk wraca do {{ui:Zaznacz}}.
 
 Przeciąganie nadal przesuwa widok, a kółko myszy nadal powiększa podczas liczenia, więc możesz poruszać się po arkuszu bez dodawania kropek.
 
@@ -30,7 +30,7 @@ Kliknij pozycję liczoną, aby podświetlić jej kropki na każdym arkuszu. List
 
 ## Rozmiar kropek na ekranie i w PDF
 
-Kropki zachowują jeden rozmiar na ekranie, bez względu na powiększenie. Aby go zmienić, otwórz {{ui:Ustawienia}}, kartę TakeoffCraft i wybierz **Rozmiar znacznika liczenia**: Bardzo mały, Mały, Średni (domyślny) lub Duży.
+Kropki zachowują jeden rozmiar na ekranie, bez względu na powiększenie. Aby go zmienić, otwórz {{ui:Ustawienia}}, kartę TakeoffDesk i wybierz **Rozmiar znacznika liczenia**: Bardzo mały, Mały, Średni (domyślny) lub Duży.
 
 Eksport PDF ({{ui:Eksport}} › {{ui:PDF z oznaczeniami}}) rysuje każdą kropkę w tym samym rozmiarze na papierze, niezależnie od rozmiaru arkusza: przeglądarka pokazująca PDF w 100% wyświetli kropki tak duże, jak na ekranie. Jeśli kropki na arkuszu nadal by się stykały, eksport zmniejsza kropki tego arkusza, aby każda dała się odczytać.
 

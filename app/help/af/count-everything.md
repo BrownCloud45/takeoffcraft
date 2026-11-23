@@ -1,6 +1,6 @@
 ---
 title: Tel alles in die stel
-summary: Boks 'n simboolsleutel een keer en TakeoffCraft tel elke simbool daarin op elke oop blad in een lopie. Elke telling is 'n skakel na sy blad, en jy hersien voordat iets bygevoeg word.
+summary: Boks 'n simboolsleutel een keer en TakeoffDesk tel elke simbool daarin op elke oop blad in een lopie. Elke telling is 'n skakel na sy blad, en jy hersien voordat iets bygevoeg word.
 keywords: tel alles, sleutel, simboolsleutel, hele stel, elke blad, alle blaaie, elke deur, elke toerusting, toestelle, rooster, simbole, outo-tel, tel almal, stel planne, 200 blaaie, passingsvlak, lyk soos mekaar
 from: adc99744
 ---

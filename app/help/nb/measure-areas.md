@@ -41,7 +41,7 @@ Når rommene er tegnet som lukkede vegger, tar {{ui:Room}} ({{key:B}}) et gulv m
 2. Velg {{ui:Room}} i gruppen {{ui:Takeoff}}, eller trykk {{key:B}}.
 3. Klikk inne i et rom, på det åpne gulvet (ikke på en linje eller en etikett).
 
-TakeoffCraft leser arkets linjer, finner rommet rundt klikket og tegner omrisset langs veggenes innside, som et areal for gjeldende post. Døråpninger opptil **4'-0"** behandles som lukkede, så omrisset går rett over døråpningen. **Innstillinger › TakeoffCraft › Romfylling lukker åpninger opptil** endrer denne bredden (3'-0" til 8'-0"). Romnavn, møbler og inventar inne i rommet lager ikke hull.
+TakeoffDesk leser arkets linjer, finner rommet rundt klikket og tegner omrisset langs veggenes innside, som et areal for gjeldende post. Døråpninger opptil **4'-0"** behandles som lukkede, så omrisset går rett over døråpningen. **Innstillinger › TakeoffDesk › Romfylling lukker åpninger opptil** endrer denne bredden (3'-0" til 8'-0"). Romnavn, møbler og inventar inne i rommet lager ikke hull.
 
 Den avviser og sier hvorfor når:
 
@@ -62,7 +62,7 @@ Når en dør er bredere enn innstillingen, løper fyllingen inn i neste rom og t
 
 For et rundt hull velger du {{ui:Add a round cut-out}} under **Valgt merke**, klikker midtpunktet og deretter et punkt på kanten.
 
-En utsparing må ligge helt inne i arealet og må ikke overlappe en annen utsparing. Ellers avviser TakeoffCraft den: «En utsparing må ligge helt inne i arealet.» eller «Utsparinger kan ikke overlappe hverandre.»
+En utsparing må ligge helt inne i arealet og må ikke overlappe en annen utsparing. Ellers avviser TakeoffDesk den: «En utsparing må ligge helt inne i arealet.» eller «Utsparinger kan ikke overlappe hverandre.»
 
 For å fjerne det siste hullet igjen velger du {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ En utsparing hører til ett arealmerke. Et **trekk fra** tegnes én gang og trek
 
 Hvert arealmerke i en avkrysset post på samme ark mister den delen et trekk fra dekker: hele trekket når det ligger inne i arealet, bare den overlappende delen når det krysser kanten, og ingenting inne i en utsparing. Panelet for det valgte arealet viser **Trekk fra** og arealet som er igjen. Postens mengde, formlene i sammensetningen, kostnadene, 3D-kontrollvisningen og eksporten bruker arealet som er igjen; notatene i kalkylen sier hvor mye trekkene tok bort. Trekk fra-posten selv teller sitt eget areal (la kostnadene stå på null hvis du ikke priser den).
 
-Et trekk fra må være **konvekst**: et rektangel, en sirkel eller et omriss uten innvendig hjørne. TakeoffCraft avviser å tegne et som ikke er det; tegn en L-formet sjakt som to trekk fra. Trekk fra kan ikke ha utsparinger, og to trekk fra som overlapper hverandre, telles begge.
+Et trekk fra må være **konvekst**: et rektangel, en sirkel eller et omriss uten innvendig hjørne. TakeoffDesk avviser å tegne et som ikke er det; tegn en L-formet sjakt som to trekk fra. Trekk fra kan ikke ha utsparinger, og to trekk fra som overlapper hverandre, telles begge.
 
 Omkretsen (`P`) endres ikke: trekk fra tar bare bort areal.
 

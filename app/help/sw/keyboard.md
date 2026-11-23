@@ -1,6 +1,6 @@
 ---
 title: Kibodi na panya
-summary: Kila kitufe, kitendo cha panya, pedi ya kugusa na mguso katika TakeoffCraft, vimepangwa, pamoja na tofauti za mifumo.
+summary: Kila kitufe, kitendo cha panya, pedi ya kugusa na mguso katika TakeoffDesk, vimepangwa, pamoja na tofauti za mifumo.
 keywords: vitufe, njia za mkato, vitufe vya haraka, kibodi, panya, pedi ya kugusa, mguso, sogeza, kuza, gurudumu, bofya kulia, bofya mara mbili, nafasi, shift, nakili, bandika, kata, rudufu, chagua zote
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Angalia [Kagua ukadiriaji kwa 3D](topic:check-in-3d).
 | Kitufe | Kinachofanya |
 |---|---|
 | {{key:F1}} | Fungua au funga jopo la msaada (pia kitufe cha {{ui:Msaada}} kwenye upau wa programu). Hufanya kazi katika zana zote, hata ukiwa unaandika kwenye sehemu. |
-| {{key:Esc}} | Funga jopo la msaada. Kwenye kisanduku chake cha kutafuta, Esc ya kwanza hufuta utafutaji. Jopo likiwa wazi, Esc inayobonyezwa baada ya kubofya karatasi hufunga jopo kwanza; bonyeza tena kughairi katika TakeoffCraft. |
+| {{key:Esc}} | Funga jopo la msaada. Kwenye kisanduku chake cha kutafuta, Esc ya kwanza hufuta utafutaji. Jopo likiwa wazi, Esc inayobonyezwa baada ya kubofya karatasi hufunga jopo kwanza; bonyeza tena kughairi katika TakeoffDesk. |
 
 :::mac
 Kwenye kibodi nyingi za Mac, safu ya juu hudhibiti mwangaza na sauti. Bonyeza fn pamoja na F1, au washa "Use F1, F2, etc. keys as standard function keys" katika Mipangilio ya Mfumo, chini ya Kibodi.
@@ -139,7 +139,7 @@ Kwenye kibodi nyingi za Mac, safu ya juu hudhibiti mwangaza na sauti. Bonyeza fn
 
 :::mac
 - {{key:Mod}} ni kitufe cha Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Skrini nzima ni ubaguzi: Control+Shift+F.
-- Bofya kulia ni kubofya kwa vidole viwili kwenye pedi ya kugusa, mara tu bofya ya pili imewashwa katika Mipangilio ya Mfumo, chini ya Trackpad. TakeoffCraft husoma kitufe cha pili pekee; Control-bofya inaweza kuhesabiwa kama bofya la kawaida na kuongeza nukta.
+- Bofya kulia ni kubofya kwa vidole viwili kwenye pedi ya kugusa, mara tu bofya ya pili imewashwa katika Mipangilio ya Mfumo, chini ya Trackpad. TakeoffDesk husoma kitufe cha pili pekee; Control-bofya inaweza kuhesabiwa kama bofya la kawaida na kuongeza nukta.
 - Kutelezesha vidole viwili kwenye pedi ya kugusa hukuza karatasi (hakuisogezi). Ili kusogeza, bonyeza na buruta, au shikilia Space na buruta.
 - Page Up na Page Down ni fn pamoja na vishale vya juu na chini kwenye kibodi zisizo nazo.
 - Backspace ni kitufe kilichoandikwa delete.
@@ -151,12 +151,12 @@ Kwenye kibodi nyingi za Mac, safu ya juu hudhibiti mwangaza na sauti. Bonyeza fn
 :::
 
 :::linux
-- {{key:Mod}} ni Ctrl. Baadhi ya madawati yana njia zao za mkato za Ctrl+Alt au Super; TakeoffCraft haitumii hata moja kati ya hizo.
+- {{key:Mod}} ni Ctrl. Baadhi ya madawati yana njia zao za mkato za Ctrl+Alt au Super; TakeoffDesk haitumii hata moja kati ya hizo.
 - Kwenye pedi ya kugusa, kutelezesha vidole viwili hukuza karatasi. Ili kusogeza, bonyeza na buruta.
 :::
 
 :::touch
-TakeoffCraft husoma mguso kama kielekezi kimoja:
+TakeoffDesk husoma mguso kama kielekezi kimoja:
 
 - Gusa huweka nukta, huchagua alama au huongeza nukta ya hesabu.
 - Buruta kwa kidole kimoja husogeza karatasi (katika {{ui:Hesabu otomatiki}} huchora kisanduku cha kutafuta).
@@ -169,7 +169,7 @@ Kutumia kibodi na panya au pedi ya kugusa ndiyo njia bora ya kufanya ukadiriaji 
 
 ## Vitufe ambavyo kivinjari huvihifadhi
 
-Vivinjari huhifadhi baadhi ya njia za mkato kwa ajili yake, na ukurasa hauwezi kuzitumia: kufunga kichupo ({{key:Mod+W}}), kichupo au dirisha jipya ({{key:Mod+T}}, {{key:Mod+N}}), na kukuza kwa kivinjari ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Ndiyo maana TakeoffCraft hukuza karatasi kwa gurudumu na vitufe vya {{key:Plus}} na {{key:Minus}} pekee. Ukibonyeza {{key:Mod+Plus}} kwa makosa, ukurasa mzima unakua; {{key:Mod+0}} unauweka sawa. Angalia [Vitufe, panya na pedi za kugusa](common:keys).
+Vivinjari huhifadhi baadhi ya njia za mkato kwa ajili yake, na ukurasa hauwezi kuzitumia: kufunga kichupo ({{key:Mod+W}}), kichupo au dirisha jipya ({{key:Mod+T}}, {{key:Mod+N}}), na kukuza kwa kivinjari ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Ndiyo maana TakeoffDesk hukuza karatasi kwa gurudumu na vitufe vya {{key:Plus}} na {{key:Minus}} pekee. Ukibonyeza {{key:Mod+Plus}} kwa makosa, ukurasa mzima unakua; {{key:Mod+0}} unauweka sawa. Angalia [Vitufe, panya na pedi za kugusa](common:keys).
 
 ## Mahali ambapo Hamisha ipo
 

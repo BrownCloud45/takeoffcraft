@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## O que vai fazer
 
-Altere a forma como o TakeoffCraft mostra os comprimentos, para que uma obra métrica seja lida em metros, centímetros ou milímetros na folha, na barra de estado e nos painéis.
+Altere a forma como o TakeoffDesk mostra os comprimentos, para que uma obra métrica seja lida em metros, centímetros ou milímetros na folha, na barra de estado e nos painéis.
 
 ## Passos
 
-1. Abra {{ui:Settings}} com a engrenagem na barra de aplicação ou com {{key:Mod+,}}, e fique no separador {{ui:TakeoffCraft}}.
+1. Abra {{ui:Settings}} com a engrenagem na barra de aplicação ou com {{key:Mod+,}}, e fique no separador {{ui:TakeoffDesk}}.
 2. Encontre {{ui:Show lengths as}} e escolha {{ui:Feet-inches}}, m, cm ou mm. {{ui:Follow Global}} usa a unidade de comprimento métrica assinalada com estrela em {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, e pés e polegadas quando nenhuma está assinalada.
 3. Veja a folha: os comprimentos na barra de estado, na lista de artigos e nos painéis passam a ser lidos na unidade escolhida. As alturas, profundidades, espessuras e níveis também.
 4. Para ler as temperaturas dos artigos em graus C ou F, escolha {{ui:Show temperatures as}} no mesmo separador.

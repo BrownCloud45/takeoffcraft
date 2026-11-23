@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, cesta, železnica, most, vozišče, robnik, plas
 from: 6b08c2c4
 ---
 
-Datoteka IFC 4.3 lahko vsebuje ceste, železnice, mostove, pomorske objekte in dele, iz katerih so narejeni: vozišča, plasti, robnike, tire, zemeljska dela, ležišča, pilote in drugo. TakeoffCraft jih prebere in jih pretvori v vnesene količine, ki jih lahko ocenite s ceno.
+Datoteka IFC 4.3 lahko vsebuje ceste, železnice, mostove, pomorske objekte in dele, iz katerih so narejeni: vozišča, plasti, robnike, tire, zemeljska dela, ležišča, pilote in drugo. TakeoffDesk jih prebere in jih pretvori v vnesene količine, ki jih lahko ocenite s ceno.
 
 ## Odprite datoteko
 
 1. Izberite {{ui:Odpri načrte}} v skupini {{ui:Datoteka}} ali pritisnite {{key:Mod+O}}.
-2. Izberite datoteko IFC (izberete jo lahko skupaj s PDF-ji) ali jo spustite na TakeoffCraft.
+2. Izberite datoteko IFC (izberete jo lahko skupaj s PDF-ji) ali jo spustite na TakeoffDesk.
 
 Za vsak razred in vnaprej določen tip nastane ena vnesena količina, na primer „Vozišče (fleksibilno): štetje“, in, kadar jih datoteka navede, še „dolžina“ v m, „površina“ v m² in „prostornina“ v m³. Opomba pri vsaki postavki pove, koliko elementov je bilo prešteto in koliko jih ni imelo navedene količine. Odprtje novejše datoteke z istim imenom posodobi te količine, namesto da bi jih dodalo.
 

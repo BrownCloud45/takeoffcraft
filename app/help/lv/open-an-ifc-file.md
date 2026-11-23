@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, ceļš, dzelzceļš, tilts, segums, apmale, kār
 from: 6b08c2c4
 ---
 
-IFC 4.3 fails var saturēt ceļus, dzelzceļus, tiltus, jūras būves un to daļas: segumus, kārtas, apmales, sliedes, zemes darbus, balstus, pāļus un citas. TakeoffCraft tās nolasa un pārvērš tipizētos daudzumos, kurus varat cenot.
+IFC 4.3 fails var saturēt ceļus, dzelzceļus, tiltus, jūras būves un to daļas: segumus, kārtas, apmales, sliedes, zemes darbus, balstus, pāļus un citas. TakeoffDesk tās nolasa un pārvērš tipizētos daudzumos, kurus varat cenot.
 
 ## Faila atvēršana
 
 1. Izvēlieties {{ui:Atvērt plānus}} grupā {{ui:Fails}} vai nospiediet {{key:Mod+O}}.
-2. Atlasiet IFC failu (to var atlasīt kopā ar PDF) vai nometiet to TakeoffCraft logā.
+2. Atlasiet IFC failu (to var atlasīt kopā ar PDF) vai nometiet to TakeoffDesk logā.
 
 Katram klases un iepriekš noteiktā veida pārim tiek izveidots viens tipizēts daudzums, piemēram, "Segums (elastīgs): skaits", un, ja fails tos norāda, arī "garums" m, "laukums" m² un "tilpums" m³. Piezīme pie katra vienuma norāda, cik elementi saskaitīti un cik nenorādīja daudzumu. Atverot jaunāku failu ar tādu pašu nosaukumu, šie daudzumi tiek atjaunināti, nevis pievienoti.
 

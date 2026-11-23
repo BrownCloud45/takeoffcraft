@@ -1,7 +1,7 @@
 <?php
 // SPDX-License-Identifier: Apache-2.0
 /**
- * Test admins for TakeoffCraft's browser checks (bin/test-takeoffcraft.mjs --browser, tools/takeoffcraft-test/browser-3d.mjs).
+ * Test admins for TakeoffDesk's browser checks (bin/test-takeoffcraft.mjs --browser, tools/takeoffcraft-test/browser-3d.mjs).
  *   sudo -u www-data php tools/takeoffcraft-test/admin.php session [main|3d] → {"cookie": "cc_session=…", "email"} — a signed-in
  *                                                                           session minted in-process: the shared admin-login
  *                                                                           throttle (10 / 10 min for 127.0.0.1) is never touched

@@ -5,14 +5,14 @@ keywords: dib u eegis, dib loo eegay, barbardhig, dul-dhig, hore, cusub, isbedde
 from: 3a1d9fe0
 ---
 
-Marka xaashi dib loo soo saaro, ma u baahnid inaad mar kale xisaabiso. Fur PDF-ka hore iyo kan cusub, barbardhig labada xaashi, oo xisaabinta u wareeji. TakeoffCraft wuxuu calaamadiyaa calaamad kasta oo naqshaddu ka isbeddelay, si aad kuwaas u hubiso, kuwa kale ilaali.
+Marka xaashi dib loo soo saaro, ma u baahnid inaad mar kale xisaabiso. Fur PDF-ka hore iyo kan cusub, barbardhig labada xaashi, oo xisaabinta u wareeji. TakeoffDesk wuxuu calaamadiyaa calaamad kasta oo naqshaddu ka isbeddelay, si aad kuwaas u hubiso, kuwa kale ilaali.
 
 ## Barbardhig
 
 1. Fur labada PDF: set-ka hore iyo kii dib loo eegay ({{ui:Fur qorshayaasha}}; waxay ku jiri karaan hal fayl ama dhowr).
 2. Muuji xaashiga **cusub**.
 3. Dooro {{ui:Barbardhig}} bar xaashiga ee hoosta sawirka.
-4. Dooro xaashiga hore liiska. TakeoffCraft wuxuu soo jeediyaa xaashiga isla lambarka ah ee PDF kale, ama isla bogga. Dooro **Barbardhig**.
+4. Dooro xaashiga hore liiska. TakeoffDesk wuxuu soo jeediyaa xaashiga isla lambarka ah ee PDF kale, ama isla bogga. Dooro **Barbardhig**.
 
 Hadda xaashiga hore wuxuu ku dul yaal xaashiga cusub oo casaan ah. Halka labadoodu isku waafaqaan, khadadka casaanku waxay saaran yihiin kuwa madow; halka ay kala duwan yihiin, waxaad aragtaa khadad casaan oo keligood (la saaray) iyo khadad madow oo keligood (lagu daray). Bar ku yaal hoosta xaashiga wuxuu haystaa tallaabooyinka hoose; {{key:Esc}} ama {{ui:Xir}} wuxuu dhammaysiiyaa barbardhigga.
 
@@ -29,7 +29,7 @@ Xaashiga casaanka wuu dhaqaajinayaa, wuu jiheynayaa oo wuu cabbiraa si uu ugu de
 
 ## Hel wixii isbeddelay
 
-Dooro **Hel isbeddelada**. TakeoffCraft wuxuu barbardhigaa xaraashka labada sawir: xaraashka xaashiga hore oo keliya casaan buu noqonayaa, xaraashka xaashiga cusub oo keliya buluug buu noqonayaa, bar xaaladduna way tirinaysaa. Khadad ka guuray xidid yar (dib u daabac) looma tirinayo isbeddel.
+Dooro **Hel isbeddelada**. TakeoffDesk wuxuu barbardhigaa xaraashka labada sawir: xaraashka xaashiga hore oo keliya casaan buu noqonayaa, xaraashka xaashiga cusub oo keliya buluug buu noqonayaa, bar xaaladduna way tirinaysaa. Khadad ka guuray xidid yar (dib u daabac) looma tirinayo isbeddel.
 
 Wuxuu sidoo kale eegaa calaamad kasta oo xaashiga hore ku jirta, oo tiriyaa kuwa ku yaal meesha naqshaddu isbeddeshay:
 
@@ -40,7 +40,7 @@ Wuxuu sidoo kale eegaa calaamad kasta oo xaashiga hore ku jirta, oo tiriyaa kuwa
 
 Dooro **Wareeji xisaabinta halkan**. Calaamad kasta oo xaashiga hore ku jirta waxay u guurtaa xaashiga cusub, iyadoo laga maraayo isku hagaaysiga, hal tallaabo oo ka noqod. Kuwa ku dhow isbeddel waa la calaamadiyaa: waxay leeyihiin wareeg oranji ah, bar xaashiga wuxuu tusayaa "(n) la hubiyo".
 
-Haddii xaashiga cusub uusan lahayn miisaan, wuxuu qaadanayaa miisaanka xaashiga hore (la hagaajiyay haddii naqshadaha loo baahday in la cabbiro si ay isku dhigmaan). Haddii uu horay u lahaa miisaan kale oo ka duwan, TakeoffCraft wuu weydiiyaa marka hore: calaamadaha la guuray waxa lagu cabbiraa miisaanka xaashiga cusub.
+Haddii xaashiga cusub uusan lahayn miisaan, wuxuu qaadanayaa miisaanka xaashiga hore (la hagaajiyay haddii naqshadaha loo baahday in la cabbiro si ay isku dhigmaan). Haddii uu horay u lahaa miisaan kale oo ka duwan, TakeoffDesk wuu weydiiyaa marka hore: calaamadaha la guuray waxa lagu cabbiraa miisaanka xaashiga cusub.
 
 ## Hubi calaamadaha la calaamadiyay
 

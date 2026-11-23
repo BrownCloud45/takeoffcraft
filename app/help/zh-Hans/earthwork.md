@@ -5,7 +5,7 @@ keywords: 土方, 挖方, 挖填, 填方, 挖填方, 场地平整, 高程点, �
 from: a898e508
 ---
 
-TakeoffCraft 测量图纸上绘制的内容。土方需要地面曲面，因此与 CivilCraft 共用：CivilCraft 根据点生成曲面、进行场地平整，并计算挖方、填方和土方调配。
+TakeoffDesk 测量图纸上绘制的内容。土方需要地面曲面，因此与 CivilCraft 共用：CivilCraft 根据点生成曲面、进行场地平整，并计算挖方、填方和土方调配。
 
 ## 此处的简单挖方
 
@@ -29,8 +29,8 @@ Northing 和 Easting 是图纸自身的坐标，单位为英尺，按比例从�
 
 CivilCraft 的土方结果会以两个可计价的项目返回：
 
-1. 在 CivilCraft 中对场地平台和道路模型进行场地平整，然后在**土方**下选择{{ui:发送到TakeoffCraft}}（[土方体积](app:civilcraft/volumes)）。它会保存一个工程量文件（`.quantities.json`）。
-2. 在 TakeoffCraft 中使用{{ui:打开算量}}打开该文件，或将其拖放到应用上。算量保持打开状态：该文件会添加 **Earthwork: cut** 和 **Earthwork: fill** 两个[类型化工程量](topic:create-items#typed-quantities-no-drawing)，单位为立方码（CY）（英尺项目）或立方米（m³）（米项目）。这是一步操作：{{key:Mod+Z}} 可将其撤销。
+1. 在 CivilCraft 中对场地平台和道路模型进行场地平整，然后在**土方**下选择{{ui:发送到TakeoffDesk}}（[土方体积](app:civilcraft/volumes)）。它会保存一个工程量文件（`.quantities.json`）。
+2. 在 TakeoffDesk 中使用{{ui:打开算量}}打开该文件，或将其拖放到应用上。算量保持打开状态：该文件会添加 **Earthwork: cut** 和 **Earthwork: fill** 两个[类型化工程量](topic:create-items#typed-quantities-no-drawing)，单位为立方码（CY）（英尺项目）或立方米（m³）（米项目）。这是一步操作：{{key:Mod+Z}} 可将其撤销。
 3. 按需重命名这些项目，并设置损耗、单价和组合。
 
 设计变更后，请在 CivilCraft 中重新发送并打开新文件：同样的两个项目会获得新的工程量。它们的名称、单价、损耗和组合保持原样。若项目单位已更改，状态栏会提示：请核对单价。来自其他 CivilCraft 项目的文件会添加各自的两个项目。

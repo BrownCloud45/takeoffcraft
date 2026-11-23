@@ -32,11 +32,11 @@ As marcações coladas vão para a área da proposta escolhida no topo do painel
 
 {{key:Mod+Shift+V}} ({{ui:Colar no mesmo sítio}}) coloca a cópia exatamente no mesmo local da folha aberta, pela sua posição na página. Use-o para um piso tipo: meça o nível 2, copie, abra o nível 3 e cole no mesmo sítio.
 
-Colar no mesmo sítio exige uma folha do **mesmo tamanho** que a que copiou. Numa folha de outro tamanho, o TakeoffCraft indica-o e não cola nada; use {{ui:Colar}} e clique. Na folha de onde copiou, a cópia fica por cima dos originais.
+Colar no mesmo sítio exige uma folha do **mesmo tamanho** que a que copiou. Numa folha de outro tamanho, o TakeoffDesk indica-o e não cola nada; use {{ui:Colar}} e clique. Na folha de onde copiou, a cópia fica por cima dos originais.
 
 ## A escala tem de coincidir
 
-Os comprimentos e as áreas dependem da escala da folha. Um troço que mede 10' à escala 1/4" = 1'-0" mediria 20' numa folha à escala 1/8" = 1'-0". Por isso, o TakeoffCraft cola troços e áreas apenas numa folha com a **mesma escala** da folha de onde vieram, e diz claramente quando não é o caso:
+Os comprimentos e as áreas dependem da escala da folha. Um troço que mede 10' à escala 1/4" = 1'-0" mediria 20' numa folha à escala 1/8" = 1'-0". Por isso, o TakeoffDesk cola troços e áreas apenas numa folha com a **mesma escala** da folha de onde vieram, e diz claramente quando não é o caso:
 
 - A folha aberta ainda não tem escala: defina-a primeiro ([Definir a escala](topic:set-the-scale)), depois cole.
 - A folha aberta tem outra escala: a mensagem indica as duas escalas. Cole numa folha com a mesma escala.
@@ -59,7 +59,7 @@ O editor de artigos (em **Artigos**) termina com:
 - {{ui:Duplicar artigo}}: acrescenta uma cópia de imediato, com o nome « (nome) (cópia) ».
 
 :::tip
-A cópia fica neste computador: é guardada neste separador e no armazenamento do navegador, para que outro separador do TakeoffCraft a possa colar. Nada é carregado, e a área de transferência do sistema não é usada, por isso não é possível colar marcações noutros programas.
+A cópia fica neste computador: é guardada neste separador e no armazenamento do navegador, para que outro separador do TakeoffDesk a possa colar. Nada é carregado, e a área de transferência do sistema não é usada, por isso não é possível colar marcações noutros programas.
 :::
 
 :::note

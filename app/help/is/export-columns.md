@@ -77,7 +77,7 @@ Ein röð fyrir hvert blað sem hefur mælikvarða eða merki.
 | Blað | Heiti blaðs |
 | Mælikvarði | Heiti forstillingarinnar, kvarðaði mælikvarðinn, eða „Enginn mælikvarði“ |
 | Hvernig | „Forstilling“, eða „Kvarðað á (fjarlægðinni sem þú slóst inn)“ |
-| Fet á hverja PDF-einingu | Nákvæmi mælikvarðastuðullinn sem TakeoffCraft notar |
+| Fet á hverja PDF-einingu | Nákvæmi mælikvarðastuðullinn sem TakeoffDesk notar |
 
 ## Skráarheiti
 

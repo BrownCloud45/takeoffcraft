@@ -5,7 +5,7 @@ keywords: přichytit, přichycení, uchopení, přichycení k objektu, koncový 
 from: 41d29e9b
 ---
 
-Většina sad plánů jsou vektorová PDF: jejich zdi a hrany jsou skutečné čáry, ne pixely. Při měření TakeoffCraft přichytává vaše kliknutí k těmto čárám, takže úsek začne přesně v rohu zdi a kalibrace načte kótu, kterou kreslič nakreslil, a ne pixel, na který jste klikli.
+Většina sad plánů jsou vektorová PDF: jejich zdi a hrany jsou skutečné čáry, ne pixely. Při měření TakeoffDesk přichytává vaše kliknutí k těmto čárám, takže úsek začne přesně v rohu zdi a kalibrace načte kótu, kterou kreslič nakreslil, a ne pixel, na který jste klikli.
 
 Přichycení je při spuštění zapnuté. Zapnete a vypnete je tlačítkem {{ui:Přichytit}} ve stavovém řádku nebo klávesou {{key:F3}}; nastavení se uchovává v tomto prohlížeči (najdete ho také v [Nastavení](topic:settings)).
 

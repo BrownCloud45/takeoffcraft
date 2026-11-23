@@ -46,7 +46,7 @@ Hindi nagbabago ang mga numero sa 3D: ang lawak ng pader ay eksaktong haba nito 
 | {{ui:Sheet}} | Ipakita o itago ang drawing sa lupa. |
 | Ang view cube, sa kanang itaas | I-click ang isang mukha, gilid o sulok para tumingin mula roon; i-drag para mag-orbit; i-drag ang compass ring nito para paikutin; ibinabalik ng house button sa {{ui:Iso}}. |
 
-Ipinapakita ng sulok ang view cube, isang maliit na X, Y, Z axis icon, o wala: pumili sa {{ui:Settings}}, sa TakeoffCraft tab, sa ilalim ng **Corner indicator** ([TakeoffCraft settings](topic:settings)). Walang corner indicator ang flat sheet.
+Ipinapakita ng sulok ang view cube, isang maliit na X, Y, Z axis icon, o wala: pumili sa {{ui:Settings}}, sa TakeoffDesk tab, sa ilalim ng **Corner indicator** ([TakeoffDesk settings](topic:settings)). Walang corner indicator ang flat sheet.
 
 :::touch
 Isang daliri ang nag-o-orbit; dalawang daliri ang pinch para mag-zoom at galaw para mag-pan. Ang tap ay pumipili.

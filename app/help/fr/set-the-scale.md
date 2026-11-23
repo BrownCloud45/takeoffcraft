@@ -5,7 +5,7 @@ keywords: détecter l'échelle, lire l'échelle, échelle à partir du texte, to
 from: 8f0148e6
 ---
 
-Chaque feuille a sa propre échelle. Vous la réglez, ou vous laissez TakeoffCraft la lire dans le texte des feuilles (ci-dessous), puis vous la vérifiez. Tant qu'une feuille n'en a pas, {{ui:Linéaire}}, {{ui:Surface}}, {{ui:Cercle}} et {{ui:Découpe}} refusent de mesurer dessus. {{ui:Compter}} et {{ui:Comptage auto}} fonctionnent sans échelle.
+Chaque feuille a sa propre échelle. Vous la réglez, ou vous laissez TakeoffDesk la lire dans le texte des feuilles (ci-dessous), puis vous la vérifiez. Tant qu'une feuille n'en a pas, {{ui:Linéaire}}, {{ui:Surface}}, {{ui:Cercle}} et {{ui:Découpe}} refusent de mesurer dessus. {{ui:Compter}} et {{ui:Comptage auto}} fonctionnent sans échelle.
 
 La liste des feuilles affiche l'échelle de chaque feuille, ou **Sans échelle**. La barre sous la feuille ouverte affiche la même information.
 
@@ -23,7 +23,7 @@ La liste complète se trouve dans [Échelles prédéfinies](topic:scale-presets)
 
 ## Lire les échelles dans le texte des feuilles
 
-La plupart des dessins indiquent leur échelle : `SCALE: 1/4" = 1'-0"` dans le cartouche, `1:100` sous une vue. TakeoffCraft peut la lire et régler toutes les feuilles d'un coup.
+La plupart des dessins indiquent leur échelle : `SCALE: 1/4" = 1'-0"` dans le cartouche, `1:100` sous une vue. TakeoffDesk peut la lire et régler toutes les feuilles d'un coup.
 
 1. Ouvrez la liste {{ui:Prédéfini}} et choisissez {{ui:À partir du texte des feuilles…}} (en haut).
 2. La liste affiche chaque feuille : son échelle actuelle, et ce que dit son texte — **Indique 1/4" = 1'-0"**, **Aucune échelle dans son texte**, ou **Indique « sans échelle »** (NTS).
@@ -44,7 +44,7 @@ Utilisez cette méthode lorsqu'il n'y a pas d'échelle imprimée en laquelle vou
 5. Saisissez la distance réelle dans **Distance réelle**, par exemple `24'-6 1/2"`, `24.5` (pieds décimaux), `30"` ou `7.5 m`. Voir [Saisie des longueurs, prix et pourcentages](topic:entry-formats).
 6. Choisissez {{ui:Régler l'échelle}}.
    La barre d'état affiche l'échelle sous la forme « 1" = (n)' », et lorsqu'elle est à moins de 0.5% d'un prédéfini, elle indique lequel, par exemple « qui correspond à 1/4" = 1'-0" (choisissez ce prédéfini pour une échelle exacte) ».
-   TakeoffCraft revient à l'outil {{ui:Sélectionner}}.
+   TakeoffDesk revient à l'outil {{ui:Sélectionner}}.
 
 Lorsque l'étalonnage correspond à un prédéfini, choisir ce prédéfini donne une échelle exacte, au lieu d'une échelle qui dépend de l'endroit où vous avez cliqué.
 
@@ -61,11 +61,11 @@ Appuyez sur {{key:Esc}} pour effacer la ligne de contrôle.
 
 ## Changer une échelle
 
-Choisissez un autre prédéfini ou étalonnez à nouveau. Si la feuille contient déjà des mesures, TakeoffCraft demande **Changer l'échelle de cette feuille ?** et indique combien de mesures seront recalculées. Choisissez {{ui:Changer l'échelle}}. Chaque tronçon et chaque surface de la feuille est remesuré à la nouvelle échelle. Vous pouvez l'annuler avec {{key:Mod+Z}}.
+Choisissez un autre prédéfini ou étalonnez à nouveau. Si la feuille contient déjà des mesures, TakeoffDesk demande **Changer l'échelle de cette feuille ?** et indique combien de mesures seront recalculées. Choisissez {{ui:Changer l'échelle}}. Chaque tronçon et chaque surface de la feuille est remesuré à la nouvelle échelle. Vous pouvez l'annuler avec {{key:Mod+Z}}.
 
 ## Pourquoi les feuilles sans échelle ne sont pas comptées comme zéro
 
-Un repère sur une feuille sans échelle n'a pas de longueur ni de surface réelle. TakeoffCraft ne le compte jamais comme zéro, ce qui rendrait votre estimation discrètement trop basse. À la place, il :
+Un repère sur une feuille sans échelle n'a pas de longueur ni de surface réelle. TakeoffDesk ne le compte jamais comme zéro, ce qui rendrait votre estimation discrètement trop basse. À la place, il :
 
 - exclut ces repères des totaux,
 - affiche « +(n) sans échelle » à côté du poste dans {{ui:Quantités}},
@@ -77,5 +77,5 @@ Cela peut arriver lorsque vous ouvrez un projet dont les échelles n'ont jamais 
 ## Conseils
 
 - Réglez l'échelle de chaque feuille que vous allez mesurer avant de commencer. Parcourez la liste des feuilles à la recherche de **Sans échelle** pour trouver celles qui restent (la zone de recherche porte sur les noms des feuilles, pas sur les échelles).
-- Les détails et plans agrandis d'une même feuille utilisent souvent une autre échelle. TakeoffCraft n'a qu'une échelle par feuille ; voir [Ce qui n'est pas encore disponible](topic:not-built-yet).
+- Les détails et plans agrandis d'une même feuille utilisent souvent une autre échelle. TakeoffDesk n'a qu'une échelle par feuille ; voir [Ce qui n'est pas encore disponible](topic:not-built-yet).
 - Dessins métriques : choisissez un prédéfini métrique comme `1:100`, ou étalonnez avec une distance métrique comme `6000 mm`.

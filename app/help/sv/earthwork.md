@@ -5,7 +5,7 @@ keywords: jordarbeten, schakt, urschakt, fyllning, schakt och fyllning, planerin
 from: a898e508
 ---
 
-TakeoffCraft mäter det som är ritat på ett blad. Jordarbeten kräver en markyta, så den delas med CivilCraft, som bygger ytor av punkter, planerar dem och räknar ut schakt, fyllning och transport.
+TakeoffDesk mäter det som är ritat på ett blad. Jordarbeten kräver en markyta, så den delas med CivilCraft, som bygger ytor av punkter, planerar dem och räknar ut schakt, fyllning och transport.
 
 ## Enkel urschakt här
 
@@ -29,8 +29,8 @@ Punkter från olika blad delar inte koordinater, så exporten tar bara med det �
 
 CivilCraft:s jordarbeten kommer tillbaka som två poster som du kan prissätta:
 
-1. I CivilCraft planerar du dina plattor och korridorer och väljer {{ui:Skicka till TakeoffCraft}} under **Jordarbeten** ([Jordarbetsvolymer](app:civilcraft/volumes)). Då sparas en mängdfil (`.quantities.json`).
-2. I TakeoffCraft öppnar du den med {{ui:Öppna avtagning}}, eller släpper den i appen. Din mängdavtagning förblir öppen: filen lägger till **Jordarbeten: schakt** och **Jordarbeten: fyllning** som [typade mängder](topic:create-items#typed-quantities-no-drawing) i kubikyard (CY) för ett projekt i fot, eller kubikmeter (m³) för ett projekt i meter. Det är ett steg: {{key:Mod+Z}} ångrar det.
+1. I CivilCraft planerar du dina plattor och korridorer och väljer {{ui:Skicka till TakeoffDesk}} under **Jordarbeten** ([Jordarbetsvolymer](app:civilcraft/volumes)). Då sparas en mängdfil (`.quantities.json`).
+2. I TakeoffDesk öppnar du den med {{ui:Öppna avtagning}}, eller släpper den i appen. Din mängdavtagning förblir öppen: filen lägger till **Jordarbeten: schakt** och **Jordarbeten: fyllning** som [typade mängder](topic:create-items#typed-quantities-no-drawing) i kubikyard (CY) för ett projekt i fot, eller kubikmeter (m³) för ett projekt i meter. Det är ett steg: {{key:Mod+Z}} ångrar det.
 3. Byt namn på dem och ange spill, priser och kalkylsammansättningar efter behov.
 
 När designen ändras skickar du igen från CivilCraft och öppnar den nya filen: samma två poster får de nya mängderna. Deras namn, priser, spill och kalkylsammansättningar behålls som du ställt in. Om projektets enhet har ändrats visar statusfältet det; kontrollera priserna. En fil från ett annat CivilCraft-projekt lägger till sina egna två poster.

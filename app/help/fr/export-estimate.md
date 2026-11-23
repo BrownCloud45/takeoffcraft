@@ -28,7 +28,7 @@ Le classeur comporte quatre feuilles, ainsi que les rapports ci-dessous selon le
 
 Avec une [synthèse de l'offre](topic:bid-summary), la feuille Estimation se termine aussi par ses majorations (charges de main-d'œuvre, taxe de vente, frais généraux, bénéfice, caution et offre), sous forme de formules actives.
 
-La feuille Estimation conserve des **formules actives** : quantité avec chute, montants arrondis des matériaux et de la main-d'œuvre, total de chaque ligne et total général. Les tableurs les recalculent : vous pouvez donc modifier un prix ou une chute dans le tableur, et les totaux suivent. Les nombres calculés par TakeoffCraft sont aussi enregistrés dans les cellules et concordent au centime près.
+La feuille Estimation conserve des **formules actives** : quantité avec chute, montants arrondis des matériaux et de la main-d'œuvre, total de chaque ligne et total général. Les tableurs les recalculent : vous pouvez donc modifier un prix ou une chute dans le tableur, et les totaux suivent. Les nombres calculés par TakeoffDesk sont aussi enregistrés dans les cellules et concordent au centime près.
 
 La colonne Remarques indique la formule de chaque composant, les erreurs de formule, les repères sur des feuilles sans échelle, la surface de mur et le périmètre. Lorsqu'un élément est omis, la ligne du total général indique « Incomplet : voir les remarques ci-dessus ».
 
@@ -42,7 +42,7 @@ Le CSV ne contient que l'estimation ; pour les quantités par feuille et la list
 
 ## L'estimation dans Google Sheets
 
-Au-dessus du tableau des Quantités, **Copier pour Google Sheets** place l'estimation dans votre presse-papiers sous forme de texte séparé par des tabulations, avec les mêmes lignes que le CSV. Dans une feuille Google Sheets, cliquez sur la cellule A1 et collez. TakeoffCraft ne se connecte pas à Google et n'y envoie rien.
+Au-dessus du tableau des Quantités, **Copier pour Google Sheets** place l'estimation dans votre presse-papiers sous forme de texte séparé par des tabulations, avec les mêmes lignes que le CSV. Dans une feuille Google Sheets, cliquez sur la cellule A1 et collez. TakeoffDesk ne se connecte pas à Google et n'y envoie rien.
 
 ## Prix manquants et validation
 

@@ -14,7 +14,7 @@ Skaitīšanas vienums skaita lietas: durvis, gaismekļus, kontaktligzdas, santeh
 3. Noklikšķiniet uz katras lapā.
    Katrs klikšķis atzīmē punktu vienuma krāsā, un vienuma skaits palielinās par vienu.
 4. Pārejiet uz nākamo lapu ({{key:PageDown}}) un turpiniet skaitīt. Rīks paliek uz {{ui:Skaitīt}}.
-5. Kad esat pabeidzis, nospiediet {{key:Esc}}. TakeoffCraft atgriežas pie {{ui:Atlasīt}}.
+5. Kad esat pabeidzis, nospiediet {{key:Esc}}. TakeoffDesk atgriežas pie {{ui:Atlasīt}}.
 
 Vilkšana joprojām pārvieto lapu un ritenis joprojām tālina arī skaitīšanas laikā, tāpēc varat pārvietoties pa lapu, nepievienojot punktus.
 
@@ -30,7 +30,7 @@ Noklikšķiniet uz skaitīšanas vienuma, lai izceltu tā punktus katrā lapā. 
 
 ## Punkta izmērs ekrānā un PDF
 
-Punkti saglabā vienu izmēru ekrānā neatkarīgi no tā, cik tālu tuvināt. Lai to mainītu, atveriet {{ui:Iestatījumi}}, cilni TakeoffCraft, un izvēlieties **Skaitīšanas atzīmes izmērs**: Ļoti mazs, Mazs, Vidējs (noklusējums) vai Liels.
+Punkti saglabā vienu izmēru ekrānā neatkarīgi no tā, cik tālu tuvināt. Lai to mainītu, atveriet {{ui:Iestatījumi}}, cilni TakeoffDesk, un izvēlieties **Skaitīšanas atzīmes izmērs**: Ļoti mazs, Mazs, Vidējs (noklusējums) vai Liels.
 
 PDF eksports ({{ui:Eksportēt}} › atzīmēts PDF) uzzīmē katru punktu vienā izmērā uz papīra neatkarīgi no lapas izmēra: skatītājs, kas rāda PDF 100%, rāda punktus tikpat lielus, cik tie ir ekrānā. Ja punkti lapā tik un tā saskartos, eksports padara šīs lapas punktus mazākus, lai katrs būtu salasāms.
 

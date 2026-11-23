@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-"""xlsx_check.py — an independent reader for the workbook TakeoffCraft writes.
+"""xlsx_check.py — an independent reader for the workbook TakeoffDesk writes.
 
     python3 xlsx_check.py <file.xlsx>
 

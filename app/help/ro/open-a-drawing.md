@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, desen, deschidere desen, aranjări, spațiu model, spa�
 from: d8c3f504
 ---
 
-TakeoffCraft deschide un desen DWG sau DXF la fel cum deschide un PDF: nu trebuie să îl trasați mai întâi în PDF. Numărarea direct din desen este exactă, pentru că desenul știe ce este fiecare obiect. Consultați [Numărarea dintr-un desen](topic:count-from-a-drawing).
+TakeoffDesk deschide un desen DWG sau DXF la fel cum deschide un PDF: nu trebuie să îl trasați mai întâi în PDF. Numărarea direct din desen este exactă, pentru că desenul știe ce este fiecare obiect. Consultați [Numărarea dintr-un desen](topic:count-from-a-drawing).
 
 ## Deschiderea desenului
 
@@ -13,9 +13,9 @@ TakeoffCraft deschide un desen DWG sau DXF la fel cum deschide un PDF: nu trebui
 2. Selectați fișierul DWG sau DXF. Puteți selecta mai multe și PDF-uri împreună cu ele.
 3. Alegeți Deschidere.
 
-Puteți trage și fișiere de desen peste TakeoffCraft, ca pe PDF-uri. Nimic nu este încărcat: browserul citește fișierul de pe computer.
+Puteți trage și fișiere de desen peste TakeoffDesk, ca pe PDF-uri. Nimic nu este încărcat: browserul citește fișierul de pe computer.
 
-TakeoffCraft citește DWG din AutoCAD 2000 până la 2018 și DXF ASCII din R12 până la 2018. Refuză un DXF binar (salvați-l ca ASCII sau ca DWG) și un fișier care nu este niciunul dintre acestea și spune de ce. Un fișier deteriorat se deschide cu ce s-a putut citi, iar un mesaj o spune; numărătorile pot fi incomplete.
+TakeoffDesk citește DWG din AutoCAD 2000 până la 2018 și DXF ASCII din R12 până la 2018. Refuză un DXF binar (salvați-l ca ASCII sau ca DWG) și un fișier care nu este niciunul dintre acestea și spune de ce. Un fișier deteriorat se deschide cu ce s-a putut citi, iar un mesaj o spune; numărătorile pot fi incomplete.
 
 ## Foi
 
@@ -40,10 +40,10 @@ O foaie începe cu scara dată de desen:
 
 ## Desene legate (xref)
 
-Un desen care leagă alte desene le arată acolo unde sunt inserate. TakeoffCraft găsește un desen legat între **fișierele deschise**, după numele fișierului: deschideți desenul-gazdă și desenul legat împreună (sau unul după altul). Până atunci, bara de stare spune câte desene legate nu au fost găsite, iar ce desenau lipsește, iar numărătorile o spun.
+Un desen care leagă alte desene le arată acolo unde sunt inserate. TakeoffDesk găsește un desen legat între **fișierele deschise**, după numele fișierului: deschideți desenul-gazdă și desenul legat împreună (sau unul după altul). Până atunci, bara de stare spune câte desene legate nu au fost găsite, iar ce desenau lipsește, iar numărătorile o spun.
 
 ## Limite
 
-- Obiectele pe care TakeoffCraft nu le poate citi sau plasa (obiecte proxy, clase necunoscute) sunt listate în fereastra de numărare pe tip; nu sunt niciodată eliminate fără să fie anunțate.
+- Obiectele pe care TakeoffDesk nu le poate citi sau plasa (obiecte proxy, clase necunoscute) sunt listate în fereastra de numărare pe tip; nu sunt niciodată eliminate fără să fie anunțate.
 - Desenele foarte mari sunt desenate parțial, iar numărările se opresc la o limită, spunând asta. În loc de acestea, deschideți o trasare PDF a desenului.
 - Un desen este desenat în negru și în propriile culori, întunecate pentru hârtia albă. Tabelele de stiluri de trasare și atribuirile de stilouri nu sunt aplicate.

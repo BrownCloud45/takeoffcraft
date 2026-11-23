@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, rajz, rajz megnyitása, elrendezések, modelltér, pap�
 from: d8c3f504
 ---
 
-A TakeoffCraft úgy nyitja meg a DWG vagy DXF rajzot, mint egy PDF-et: nem kell előbb PDF-be plottolnia. A rajzból való számolás pontos, mert a rajz tudja, mi milyen objektum. Lásd: [Számolás rajzból](topic:count-from-a-drawing).
+A TakeoffDesk úgy nyitja meg a DWG vagy DXF rajzot, mint egy PDF-et: nem kell előbb PDF-be plottolnia. A rajzból való számolás pontos, mert a rajz tudja, mi milyen objektum. Lásd: [Számolás rajzból](topic:count-from-a-drawing).
 
 ## A rajz megnyitása
 
@@ -13,9 +13,9 @@ A TakeoffCraft úgy nyitja meg a DWG vagy DXF rajzot, mint egy PDF-et: nem kell 
 2. Válassza ki a DWG vagy DXF fájlt. Kijelölhet többet is, és PDF-ekkel együtt is.
 3. Válassza a Megnyitás gombot.
 
-A rajzfájlokat a PDF-ekhez hasonlóan a TakeoffCraftra is húzhatja. Semmit nem tölt fel a rendszer: a böngésző a számítógépén olvassa be a fájlt.
+A rajzfájlokat a PDF-ekhez hasonlóan a TakeoffDeskra is húzhatja. Semmit nem tölt fel a rendszer: a böngésző a számítógépén olvassa be a fájlt.
 
-A TakeoffCraft az AutoCAD 2000-től 2018-ig terjedő DWG-t, és az R12-től 2018-ig terjedő ASCII DXF-et olvassa. Bináris DXF-et nem fogad el (mentse ASCII-ként vagy DWG-ként), és olyan fájlt sem, amely egyik sem, és megmondja, miért. A sérült fájl azzal nyílik meg, amit ki lehetett olvasni, és erről üzenet tájékoztat; a számlálások hiányosak lehetnek.
+A TakeoffDesk az AutoCAD 2000-től 2018-ig terjedő DWG-t, és az R12-től 2018-ig terjedő ASCII DXF-et olvassa. Bináris DXF-et nem fogad el (mentse ASCII-ként vagy DWG-ként), és olyan fájlt sem, amely egyik sem, és megmondja, miért. A sérült fájl azzal nyílik meg, amit ki lehetett olvasni, és erről üzenet tájékoztat; a számlálások hiányosak lehetnek.
 
 ## Lapok
 
@@ -40,10 +40,10 @@ A {{ui:Rétegek}} a lapsávon felsorolja a rajz rétegeit, és megmutatja, hány
 
 ## Külső hivatkozott rajzok (xref)
 
-Egy másik rajzokat hivatkozó rajz ott mutatja őket, ahol be vannak szúrva. A TakeoffCraft a külső hivatkozott rajzot a **megnyitott fájlok** között keresi, fájlnév alapján: nyissa meg a befoglaló rajzot és a hivatkozott rajzot együtt (vagy egymás után). Addig az állapotsor azt mutatja, hány külső hivatkozott rajz nem található, a hiányzó rajzolt tartalmat pedig a számlálások is jelzik.
+Egy másik rajzokat hivatkozó rajz ott mutatja őket, ahol be vannak szúrva. A TakeoffDesk a külső hivatkozott rajzot a **megnyitott fájlok** között keresi, fájlnév alapján: nyissa meg a befoglaló rajzot és a hivatkozott rajzot együtt (vagy egymás után). Addig az állapotsor azt mutatja, hány külső hivatkozott rajz nem található, a hiányzó rajzolt tartalmat pedig a számlálások is jelzik.
 
 ## Korlátok
 
-- Az olyan objektumok, amelyeket a TakeoffCraft nem tud beolvasni vagy elhelyezni (proxy-objektumok, ismeretlen osztályok), a számlálási ablakban típusuk szerint szerepelnek; soha nem tűnnek el szó nélkül.
+- Az olyan objektumok, amelyeket a TakeoffDesk nem tud beolvasni vagy elhelyezni (proxy-objektumok, ismeretlen osztályok), a számlálási ablakban típusuk szerint szerepelnek; soha nem tűnnek el szó nélkül.
 - A nagyon nagy rajzok részben rajzolódnak, a számlálás pedig egy határnál megáll, és ezt jelzi. Ilyen esetben nyissa meg a rajz PDF-plotját.
 - A rajz fehér papírhoz sötétítve, a saját színeivel és feketével rajzolódik. A plotstílus-táblák és a tollhozzárendelések nem alkalmazódnak.

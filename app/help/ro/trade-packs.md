@@ -39,4 +39,4 @@ Fiecare articol poartă și numărul său CSI MasterFormat, precum `09 21 16`.
 
 {{ui:Export ca pachet…}} din bibliotecă salvează un fișier de pachet (`.ccpack.json`) pe care oricine îl poate adăuga cu {{ui:Deschidere fișier de pachet…}}. Implicit lasă deoparte articolele venite din pachetele adăugate de dvs. și nu conține tarife. Bifați {{ui:Include tarifele mele ca tarife exemplu}} pentru a trimite și tarifele dvs.: ele pleacă etichetate cu regiunea și data pe care le indicați, iar cel care adaugă pachetul alege dacă le folosește.
 
-Fișierele de pachet sunt date simple, niciodată programe. TakeoffCraft verifică fiecare parte a unui fișier înainte de a-l folosi și lasă deoparte orice nu poate citi.
+Fișierele de pachet sunt date simple, niciodată programe. TakeoffDesk verifică fiecare parte a unui fișier înainte de a-l folosi și lasă deoparte orice nu poate citi.

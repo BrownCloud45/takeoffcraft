@@ -211,7 +211,7 @@ export function mountDefaultsUi(api, host) {
     },
   });
 
-  // ---- Settings › <App>: this app's policies (an app with none of its own, such as TakeoffCraft, has only the Global section)
+  // ---- Settings › <App>: this app's policies (an app with none of its own, such as TakeoffDesk, has only the Global section)
   if (policyList(host.app).length) api.ui.settingsSection({
     id: 'defaults',
     title: t('dp.title'),

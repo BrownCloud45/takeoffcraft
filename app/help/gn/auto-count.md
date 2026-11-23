@@ -1,6 +1,6 @@
 ---
 title: Autocontar un símbolo
-summary: Emarka peteĩ símbolo, eheka TakeoffCraft-pe ambue símbolo ko hojápe térã opa hoja abiertakuérape, ehecha coincidencias deslizador rupi ha eagregá opavave peteĩ jeypápe.
+summary: Emarka peteĩ símbolo, eheka TakeoffDesk-pe ambue símbolo ko hojápe térã opa hoja abiertakuérape, ehecha coincidencias deslizador rupi ha eagregá opavave peteĩ jeypápe.
 keywords: cualquier ángulo, girado, volteado, otra escala, escala diferente, autocontar, conteo automático, búsqueda de símbolos, encontrar símbolos, patrón, plantilla, coincidencia, detectar, herramienta de conteo
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Ndeagregái ramo ojehecha, eje'o {{ui:Descartar}} térã eapreta {{key:Esc}}. Am
 
 ## Qué encuentra y qué no
 
-TakeoffCraft ojesareko plano, píxel rupi, emboguejy símbolo-gui.
+TakeoffDesk ojesareko plano, píxel rupi, emboguejy símbolo-gui.
 
 - Ohecha símbolo 0°, 90°, 180° ha 270° ángulo-pe. Emarka {{ui:Cualquier ángulo (más lento)}} auto count barra-pe recuadro ojejapo mboyve, ohecha opa ángulo-pe avei: 15° rupi ojeporu, upéi ohecha cada hallazgo grado ha mediou rupi. Upéva ohasa apytépe seis vez. Ndohecháiva símbolo espejo-gui (síndica símbolo espejo-gui ojoavéva ndaha'éiramo).
 - {{ui:Buscar en todas las hojas abiertas}} emarca rire, hoja ambue escala-pe ohecha ojeporu hoja-pe tamaño símbolo ohaseha. Ejemplo: aparato dibujado a escala 1/8" plano-pe ha'e mitãrõ 1/4" plano-pe, ha ohechakuaa avei. Hoja ambue tamaño-gui oñeikuaauka avei recuadro tamaño-pe, marca ha símbolo opa hojápe peteĩ tamaño-pe. Upéva tekotevẽ escala opa hojápe; hoja escala'ỹva oikuaauka recuadro tamaño-pe añoite.

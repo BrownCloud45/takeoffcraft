@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, droga, kolej, most, nawierzchnia, krawężnik, w
 from: 6b08c2c4
 ---
 
-Plik IFC 4.3 może zawierać drogi, linie kolejowe, mosty, roboty morskie i części, z których się składają: nawierzchnie, warstwy, krawężniki, szyny, roboty ziemne, łożyska, pale i więcej. TakeoffCraft czyta je i zamienia w ilości wpisane, które możesz wycenić.
+Plik IFC 4.3 może zawierać drogi, linie kolejowe, mosty, roboty morskie i części, z których się składają: nawierzchnie, warstwy, krawężniki, szyny, roboty ziemne, łożyska, pale i więcej. TakeoffDesk czyta je i zamienia w ilości wpisane, które możesz wycenić.
 
 ## Otwórz plik
 
 1. Wybierz {{ui:Otwórz PDF}} w grupie {{ui:Plik}} albo naciśnij {{key:Mod+O}}.
-2. Wybierz plik IFC (możesz go wybrać razem z PDF-ami) albo upuść go na TakeoffCraft.
+2. Wybierz plik IFC (możesz go wybrać razem z PDF-ami) albo upuść go na TakeoffDesk.
 
 Dla każdej klasy i typu predefiniowanego powstaje jedna ilość wpisana, na przykład „Nawierzchnia (elastyczna): liczba”, a gdy plik je podaje, także „długość” w m, „pole” w m² i „objętość” w m³. Notatka przy każdej pozycji mówi, ile elementów policzono i ile nie podało ilości. Otwarcie nowszego pliku o tej samej nazwie aktualizuje te ilości zamiast dodawać kolejne.
 

@@ -55,4 +55,4 @@ Lehe mõõtkava ütleb, kui suur joonis on; kirje ühik ütleb, kuidas seda arua
 
 ## Täpsus
 
-TakeoffCraft mõõdab täpselt klõpsatud punktide järgi, sealhulgas tõeliste kaarepikkuste ja pindaladega, ega ümarda koguseid. Kuvamine ümardab pikkused 1/16 tollini ja kümnendarvud kahe kohani. Raha ümardatakse ainult laiendatud summades, sendini.
+TakeoffDesk mõõdab täpselt klõpsatud punktide järgi, sealhulgas tõeliste kaarepikkuste ja pindaladega, ega ümarda koguseid. Kuvamine ümardab pikkused 1/16 tollini ja kümnendarvud kahe kohani. Raha ümardatakse ainult laiendatud summades, sendini.

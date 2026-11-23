@@ -32,11 +32,11 @@ Marcajele lipite merg în zona de ofertare aleasă în partea de sus a panoului 
 
 {{key:Mod+Shift+V}} ({{ui:Lipire în aceeași poziție}}) pune copia exact în același loc pe foaia deschisă, după poziția sa pe pagină. Folosiți-o pentru un etaj tipic: antemăsurați nivelul 2, copiați, deschideți nivelul 3, lipiți în aceeași poziție.
 
-Lipirea în aceeași poziție are nevoie de o foaie de **aceeași dimensiune** cu cea din care ați copiat. Pe o foaie de altă dimensiune, TakeoffCraft spune asta și nu lipește nimic; folosiți în schimb {{ui:Lipire}} și faceți clic. Pe foaia din care ați copiat, copia ajunge peste originale.
+Lipirea în aceeași poziție are nevoie de o foaie de **aceeași dimensiune** cu cea din care ați copiat. Pe o foaie de altă dimensiune, TakeoffDesk spune asta și nu lipește nimic; folosiți în schimb {{ui:Lipire}} și faceți clic. Pe foaia din care ați copiat, copia ajunge peste originale.
 
 ## Scara trebuie să coincidă
 
-Lungimile și ariile depind de scara foii. Un traseu care măsoară 10' la 1/4" = 1'-0" ar măsura 20' pe o foaie la 1/8" = 1'-0". Așadar TakeoffCraft lipește traseele și ariile doar pe o foaie cu **aceeași scară** ca foaia din care au venit și spune clar când nu este cazul:
+Lungimile și ariile depind de scara foii. Un traseu care măsoară 10' la 1/4" = 1'-0" ar măsura 20' pe o foaie la 1/8" = 1'-0". Așadar TakeoffDesk lipește traseele și ariile doar pe o foaie cu **aceeași scară** ca foaia din care au venit și spune clar când nu este cazul:
 
 - Foaia deschisă nu are încă scară: dați-i una mai întâi ([Stabilirea scării](topic:set-the-scale)), apoi lipiți.
 - Foaia deschisă are altă scară: mesajul numește ambele scări. Lipiți pe o foaie la aceeași scară.
@@ -59,7 +59,7 @@ Editorul de articole (sub **Articole**) se termină cu:
 - {{ui:Duplicare articol}}: adaugă imediat o copie, numită „(nume) (copie)”.
 
 :::tip
-Copia rămâne pe acest calculator: este păstrată în această filă și în spațiul de stocare al browserului, așa că o altă filă TakeoffCraft o poate lipi. Nimic nu se încarcă, iar clipboard-ul sistemului nu este folosit, deci nu puteți lipi marcaje în alte programe.
+Copia rămâne pe acest calculator: este păstrată în această filă și în spațiul de stocare al browserului, așa că o altă filă TakeoffDesk o poate lipi. Nimic nu se încarcă, iar clipboard-ul sistemului nu este folosit, deci nu puteți lipi marcaje în alte programe.
 :::
 
 :::note

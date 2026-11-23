@@ -5,7 +5,7 @@ keywords: zemné práce, výkopové práce, výkop, násyp, výkop a násyp, úp
 from: a898e508
 ---
 
-TakeoffCraft meria to, čo je nakreslené na liste. Zemné práce potrebujú terénny povrch, preto sa zdieľajú s CivilCraft, ktorý vytvára povrchy z bodov, upravuje ich sklony a počíta výkop, násyp a prepravu.
+TakeoffDesk meria to, čo je nakreslené na liste. Zemné práce potrebujú terénny povrch, preto sa zdieľajú s CivilCraft, ktorý vytvára povrchy z bodov, upravuje ich sklony a počíta výkop, násyp a prepravu.
 
 ## Jednoduchý výkop tu
 
@@ -29,8 +29,8 @@ Body z rôznych listov nezdieľajú súradnice, preto export berie iba otvorený
 
 Zemné práce z CivilCraft sa vrátia ako dve položky, ktoré môžete oceniť:
 
-1. V CivilCraft upravte plochy a koridory a potom zvoľte {{ui:Odoslať do TakeoffCraft}} pod **Zemné práce** ([Objemy zemných prác](app:civilcraft/volumes)). Uloží sa súbor množstiev (`.quantities.json`).
-2. V TakeoffCraft ho otvorte cez {{ui:Otvoriť výkaz}} alebo ho pustite do aplikácie. Váš výkaz zostane otvorený: súbor pridá položky **Zemné práce: výkop** a **Zemné práce: násyp** ako [typované množstvá](topic:create-items#typed-quantities-no-drawing) v kubických yardoch (CY) pre projekt v stopách alebo v kubických metroch (m³) pre projekt v metroch. Je to jeden krok: {{key:Mod+Z}} ho vráti späť.
+1. V CivilCraft upravte plochy a koridory a potom zvoľte {{ui:Odoslať do TakeoffDesk}} pod **Zemné práce** ([Objemy zemných prác](app:civilcraft/volumes)). Uloží sa súbor množstiev (`.quantities.json`).
+2. V TakeoffDesk ho otvorte cez {{ui:Otvoriť výkaz}} alebo ho pustite do aplikácie. Váš výkaz zostane otvorený: súbor pridá položky **Zemné práce: výkop** a **Zemné práce: násyp** ako [typované množstvá](topic:create-items#typed-quantities-no-drawing) v kubických yardoch (CY) pre projekt v stopách alebo v kubických metroch (m³) pre projekt v metroch. Je to jeden krok: {{key:Mod+Z}} ho vráti späť.
 3. Premenujte ich a nastavte odpad, jednotkové ceny a zostavy podľa potreby.
 
 Keď sa návrh zmení, odošlite ho znova z CivilCraft a otvorte nový súbor: tie isté dve položky dostanú nové množstvá. Ich názvy, jednotkové ceny, odpad a zostavy zostanú také, aké ste nastavili. Ak sa zmenila jednotka projektu, stavový riadok to uvedie: skontrolujte jednotkové ceny. Súbor z iného projektu CivilCraft pridá vlastné dve položky.

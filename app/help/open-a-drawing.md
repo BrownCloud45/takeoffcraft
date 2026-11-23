@@ -6,7 +6,7 @@ order: 12
 keywords: dwg, dxf, cad, drawing, open a drawing, layouts, model space, paper space, sheets, units, insunits, viewport scale, xref, linked drawing, layers, frozen, no pdf, plot, without plotting
 ---
 
-TakeoffCraft opens a DWG or DXF drawing as it opens a PDF: you do not have to plot it to PDF first. Counting from the drawing itself is exact, because the drawing knows what each object is. See [Count from a drawing](topic:count-from-a-drawing).
+TakeoffDesk opens a DWG or DXF drawing as it opens a PDF: you do not have to plot it to PDF first. Counting from the drawing itself is exact, because the drawing knows what each object is. See [Count from a drawing](topic:count-from-a-drawing).
 
 ## Open the drawing
 
@@ -14,9 +14,9 @@ TakeoffCraft opens a DWG or DXF drawing as it opens a PDF: you do not have to pl
 2. Select the DWG or DXF file. You can select several, and PDFs with them.
 3. Choose Open.
 
-You can also drop drawing files on TakeoffCraft, like PDFs. Nothing is uploaded: the browser reads the file on your computer.
+You can also drop drawing files on TakeoffDesk, like PDFs. Nothing is uploaded: the browser reads the file on your computer.
 
-TakeoffCraft reads DWG from AutoCAD 2000 to 2018 and ASCII DXF from R12 to 2018. It refuses a binary DXF (save it as ASCII, or as a DWG) and a file that is neither, and says why. A damaged file opens with what could be read, and a message says so; its counts may be incomplete.
+TakeoffDesk reads DWG from AutoCAD 2000 to 2018 and ASCII DXF from R12 to 2018. It refuses a binary DXF (save it as ASCII, or as a DWG) and a file that is neither, and says why. A damaged file opens with what could be read, and a message says so; its counts may be incomplete.
 
 ## Sheets
 
@@ -41,10 +41,10 @@ A sheet starts with the scale the drawing gives:
 
 ## Linked drawings (xrefs)
 
-A drawing that links other drawings shows them where they are inserted. TakeoffCraft finds a linked drawing among the **open files**, by its file name: open the host drawing and its linked drawing together (or one after the other). Until then the status bar says how many linked drawings were not found, what they draw is missing, and counts say so.
+A drawing that links other drawings shows them where they are inserted. TakeoffDesk finds a linked drawing among the **open files**, by its file name: open the host drawing and its linked drawing together (or one after the other). Until then the status bar says how many linked drawings were not found, what they draw is missing, and counts say so.
 
 ## Limits
 
-- Objects TakeoffCraft cannot read or place (proxy objects, unknown classes) are listed in the count window by type; they are never dropped without a word.
+- Objects TakeoffDesk cannot read or place (proxy objects, unknown classes) are listed in the count window by type; they are never dropped without a word.
 - Very large drawings are drawn in part, and counts stop at a cap, saying so. Open a PDF plot of such a drawing instead.
 - A drawing is drawn in black and in its own colors, darkened for white paper. Plot style tables and pen assignments are not applied.

@@ -1,6 +1,6 @@
 ---
 title: Tastiera e mouse
-summary: Ogni tasto, azione del mouse, trackpad e tocco in TakeoffCraft, raggruppati, con le differenze tra piattaforme.
+summary: Ogni tasto, azione del mouse, trackpad e tocco in TakeoffDesk, raggruppati, con le differenze tra piattaforme.
 keywords: tasti, scorciatoie, tasti di scelta rapida, tastiera, mouse, trackpad, tocco, pan, zoom, rotella, clic destro, doppio clic, spazio, shift, copia, incolla, taglia, duplica, seleziona tutto
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Vedere [Verificare il computo in 3D](topic:check-in-3d).
 | Tasto | Cosa fa |
 |---|---|
 | {{key:F1}} | Apre o chiude il pannello della guida (anche il pulsante {{ui:Guida}} nella barra dell'app). Funziona in ogni strumento, anche mentre si digita in un campo. |
-| {{key:Esc}} | Chiude il pannello della guida. Nella sua casella di ricerca, il primo Esc cancella la ricerca. Mentre il pannello è aperto, un Esc premuto dopo aver fatto clic sulla tavola chiude prima il pannello; premerlo di nuovo per annullare in TakeoffCraft. |
+| {{key:Esc}} | Chiude il pannello della guida. Nella sua casella di ricerca, il primo Esc cancella la ricerca. Mentre il pannello è aperto, un Esc premuto dopo aver fatto clic sulla tavola chiude prima il pannello; premerlo di nuovo per annullare in TakeoffDesk. |
 
 :::mac
 Su molte tastiere Mac la riga superiore controlla luminosità e audio. Premere fn insieme a F1, oppure attivare "Usa i tasti F1, F2 ecc. come tasti funzione standard" in Impostazioni di Sistema, sotto Tastiera.
@@ -139,7 +139,7 @@ Su molte tastiere Mac la riga superiore controlla luminosità e audio. Premere f
 
 :::mac
 - {{key:Mod}} è il tasto Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Lo schermo intero fa eccezione: Control+Shift+F.
-- Il clic destro è un clic a due dita sul trackpad, una volta attivato il clic secondario in Impostazioni di Sistema, sotto Trackpad. TakeoffCraft legge solo il pulsante secondario; un Control-clic può essere considerato un clic semplice e aggiungere un punto.
+- Il clic destro è un clic a due dita sul trackpad, una volta attivato il clic secondario in Impostazioni di Sistema, sotto Trackpad. TakeoffDesk legge solo il pulsante secondario; un Control-clic può essere considerato un clic semplice e aggiungere un punto.
 - Lo scorrimento a due dita sul trackpad ingrandisce la tavola (non la scorre). Per spostare la vista, premere e trascinare, oppure tenere premuto Space e trascinare.
 - Page Up e Page Down corrispondono a fn con le frecce su e giù sulle tastiere che ne sono prive.
 - Backspace è il tasto indicato come delete.
@@ -151,12 +151,12 @@ Su molte tastiere Mac la riga superiore controlla luminosità e audio. Premere f
 :::
 
 :::linux
-- {{key:Mod}} è Ctrl. Alcuni desktop usano scorciatoie proprie con Ctrl+Alt o Super; TakeoffCraft non ne usa nessuna.
+- {{key:Mod}} è Ctrl. Alcuni desktop usano scorciatoie proprie con Ctrl+Alt o Super; TakeoffDesk non ne usa nessuna.
 - Su un touchpad, lo scorrimento a due dita ingrandisce la tavola. Per spostare la vista, premere e trascinare.
 :::
 
 :::touch
-TakeoffCraft interpreta il tocco come un unico puntatore:
+TakeoffDesk interpreta il tocco come un unico puntatore:
 
 - Il tocco posiziona un punto, seleziona un segno o aggiunge un pallino di conteggio.
 - Trascinare con un dito sposta la vista (in {{ui:Conteggio automatico}} disegna la casella di ricerca).
@@ -169,7 +169,7 @@ Una tastiera con mouse o trackpad è oggi il modo migliore per fare il computo.
 
 ## Tasti che il browser mantiene
 
-I browser riservano per sé alcune scorciatoie, che una pagina non può usare: chiudere la scheda ({{key:Mod+W}}), nuova scheda o finestra ({{key:Mod+T}}, {{key:Mod+N}}) e zoom del browser ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Per questo TakeoffCraft ingrandisce la tavola con la rotella e con i soli tasti {{key:Plus}} e {{key:Minus}}. Se si preme {{key:Mod+Plus}} per errore, l'intera pagina si ingrandisce; {{key:Mod+0}} la riporta alla dimensione normale. Vedere [Tasti, mouse e trackpad](common:keys).
+I browser riservano per sé alcune scorciatoie, che una pagina non può usare: chiudere la scheda ({{key:Mod+W}}), nuova scheda o finestra ({{key:Mod+T}}, {{key:Mod+N}}) e zoom del browser ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Per questo TakeoffDesk ingrandisce la tavola con la rotella e con i soli tasti {{key:Plus}} e {{key:Minus}}. Se si preme {{key:Mod+Plus}} per errore, l'intera pagina si ingrandisce; {{key:Mod+0}} la riporta alla dimensione normale. Vedere [Tasti, mouse e trackpad](common:keys).
 
 ## Dove si trova Sposta
 

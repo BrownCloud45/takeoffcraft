@@ -1,6 +1,6 @@
 ---
 title: Simvolu avtomatik say
-summary: Simvolu bir dəfə çərçivəyə alın, TakeoffCraft bu vərəqdə və ya açıq bütün vərəqlərdə digərlərini tapsun, uyğunluqları sürüşdürücü ilə yoxlayın və bir addımda əlavə edin.
+summary: Simvolu bir dəfə çərçivəyə alın, TakeoffDesk bu vərəqdə və ya açıq bütün vərəqlərdə digərlərini tapsun, uyğunluqları sürüşdürücü ilə yoxlayın və bir addımda əlavə edin.
 keywords: istənilən bucaq, fırlanmış, çevrilmiş, başqa miqyas, fərqli miqyas, avtomatik say, avtomatik sayma, simvol axtarışı, simvolları tap, naxış, şablon, uyğunluq, aşkarlamaq, say aləti
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Bütün dəstə bir geri qaytarma addımıdır, buna görə bir {{key:Mod+Z}} on
 
 ## Nəyi tapır, nəyi qaçırır
 
-TakeoffCraft çertyoju, pikselləri ilə, çərçivəyə aldığınız simvolla müqayisə edir.
+TakeoffDesk çertyoju, pikselləri ilə, çərçivəyə aldığınız simvolla müqayisə edir.
 
 - Simvolu 0°, 90°, 180° və 270° döndərilmiş halda tapır. Onu istənilən bucaq altında da tapmaq üçün çərçivə çəkməzdən əvvəl avtomatik say zolağında {{ui:İstənilən bucaq altında (yavaş)}} qutusunu işarələyin: alqoritm hər 15°-dən bir yoxlayır, sonra hər tapıntını bir yarım dərəcəyə qədər dəqiqləşdirir. Bu, təxminən altı dəfə çox vaxt aparır. Güzgü əksini tapmır (simvol güzgüdə də eyni görünürsə istisna olmaqla).
 - {{ui:Bütün açıq vərəqləri axtar}} işarələnəndə başqa miqyasda olan vərəq simvolun həmin vərəqdəki ölçüsündə axtarılır: 1/8" planda miqyasa uyğun çəkilmiş qurğu 1/4" planda olduğundan iki dəfə kiçikdir, yenə də tapılır. Belə vərəq həmçinin çərçivənin öz ölçüsündə axtarılır — bütün vərəqlərdə eyni ölçüdə çap olunmuş etiketlər və simvollar üçün. Bunun üçün hər iki vərəqdə miqyas olmalıdır; miqyası olmayan vərəq yalnız çərçivənin ölçüsündə axtarılır.

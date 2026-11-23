@@ -28,7 +28,7 @@ Projektmappen har fire regneark og rapporterne nedenfor, når de er relevante:
 
 Med en [tilbudsoversigt](topic:bid-summary) slutter regnearket Kalkulation også med sine tillæg (lønbyrde, salgsafgift, overhead, fortjeneste, garanti og tilbuddet) som levende formler.
 
-Regnearket Kalkulation bevarer **levende formler**: mængde med spild, de afrundede materiale- og lønbeløb, hver rækkes total og projektets samlede total. Regnearksprogrammer genberegner dem, så du kan ændre en pris eller et spild i regnearket, og totalerne følger med. De tal, TakeoffCraft har beregnet, er også gemt i cellerne og stemmer til øren.
+Regnearket Kalkulation bevarer **levende formler**: mængde med spild, de afrundede materiale- og lønbeløb, hver rækkes total og projektets samlede total. Regnearksprogrammer genberegner dem, så du kan ændre en pris eller et spild i regnearket, og totalerne følger med. De tal, TakeoffDesk har beregnet, er også gemt i cellerne og stemmer til øren.
 
 Noter-kolonnen viser hver komponents formel, formelfejl, markeringer på ark uden målestok, vægareal og omkreds. Når noget er udeladt, siger rækken med projektets samlede total "Ufuldstændig: se noterne ovenfor".
 
@@ -42,7 +42,7 @@ CSV-filen indeholder kun kalkulationen; til mængder pr. ark og markeringslisten
 
 ## Kalkulationen i Google Sheets
 
-Over mængdetabellen lægger **Kopiér til Google Sheets** kalkulationen på din udklipsholder som tabulatorsepareret tekst, med de samme linjer som CSV-filen. I et Google Sheet klikkes på celle A1, og der indsættes. TakeoffCraft logger ikke ind hos Google og sender intet dertil.
+Over mængdetabellen lægger **Kopiér til Google Sheets** kalkulationen på din udklipsholder som tabulatorsepareret tekst, med de samme linjer som CSV-filen. I et Google Sheet klikkes på celle A1, og der indsættes. TakeoffDesk logger ikke ind hos Google og sender intet dertil.
 
 ## Manglende priser og godkendelse
 

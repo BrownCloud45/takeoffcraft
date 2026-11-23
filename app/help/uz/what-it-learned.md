@@ -1,11 +1,11 @@
 ---
-title: TakeoffCraft hajmlaringizdan nimalarni oʻrgangani
-summary: TakeoffCraft Avtosanash bilan tasdiqlagan simvollaringizni, shartlar toʻplamlaringizni, eng koʻp ishlatgan yigʻmalaringizni va har bir sahifada takrorlagan naqshlaringizni saqlaydi — hammasi hajmning oʻz faylida. Koʻring, ishlating, oʻchiring.
+title: TakeoffDesk hajmlaringizdan nimalarni oʻrgangani
+summary: TakeoffDesk Avtosanash bilan tasdiqlagan simvollaringizni, shartlar toʻplamlaringizni, eng koʻp ishlatgan yigʻmalaringizni va har bir sahifada takrorlagan naqshlaringizni saqlaydi — hammasi hajmning oʻz faylida. Koʻring, ishlating, oʻchiring.
 keywords: oʻrganish, oʻrganilgan, oʻrganish, yordamchi, eslab qolish, simvollar, shablonlar, oxirgi ish bilan bir xil, oxirgi ish, shartlar toʻplami, shartlar, qayta ishlatish, yigʻmalar, eng koʻp ishlatilgan, takliflar, har bir sahifada takrorlash, har bir sahifa, sarlavha bloki, naqsh, tozalash, unutish, maxfiylik
 from: 54d99e99
 ---
 
-TakeoffCraft siz bilan qancha koʻp hajm qilsangiz, shuncha tez ishlaydi. U **faqat siz qabul qilgan narsalardan** oʻrganadi:
+TakeoffDesk siz bilan qancha koʻp hajm qilsangiz, shuncha tez ishlaydi. U **faqat siz qabul qilgan narsalardan** oʻrganadi:
 
 - [Avtosanash](topic:auto-count) bilan belgilab, soʻng qoʻshgan simvollaringizdan,
 - saqlagan shartlar toʻplamlaringizdan,
@@ -64,6 +64,6 @@ Bitta hajmda oʻrganishni toʻxtatish uchun {{ui:Shu hajmdan oʻrganish}} ni oʻ
 
 ## Bilib qoʻyish uchun
 
-- TakeoffCraft'ning eski versiyalari oʻrgangan narsalari bor faylni odatdagidek ochadi. Ular bu qismni eʼtiborsiz qoldiradi va faylni qayta saqlasa, uni tashlab yuboradi.
+- TakeoffDesk'ning eski versiyalari oʻrgangan narsalari bor faylni odatdagidek ochadi. Ular bu qismni eʼtiborsiz qoldiradi va faylni qayta saqlasa, uni tashlab yuboradi.
 - Oʻrgangan simvol siz belgilagan narsaning kichik rasmi boʻlib, faylda saqlanadi (har biri bir necha kilobayt).
 - Oʻrgangan simvollar Avtosanash kabi qidiriladi, shuning uchun oʻsha cheklovlar qoʻllanadi: [Simvolni avtosanash](topic:auto-count).

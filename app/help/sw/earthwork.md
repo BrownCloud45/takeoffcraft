@@ -5,7 +5,7 @@ keywords: kazi za ardhi, uchimbaji, ukataji, ujazaji, ukataji na ujazaji, usawaz
 from: a898e508
 ---
 
-TakeoffCraft hupima kile kilichochorwa kwenye karatasi. Kazi za ardhi zinahitaji uso wa ardhi, kwa hiyo zinashirikiwa na CivilCraft, ambayo hujenga nyuso kutoka kwa nukta, huzisawazisha na kukokotoa ukataji na ujazaji pamoja na usafirishaji.
+TakeoffDesk hupima kile kilichochorwa kwenye karatasi. Kazi za ardhi zinahitaji uso wa ardhi, kwa hiyo zinashirikiwa na CivilCraft, ambayo hujenga nyuso kutoka kwa nukta, huzisawazisha na kukokotoa ukataji na ujazaji pamoja na usafirishaji.
 
 ## Uchimbaji rahisi hapa
 
@@ -29,8 +29,8 @@ Nukta kutoka karatasi tofauti hazishiriki viratibu, kwa hiyo hamisha huchukua ka
 
 Kazi za ardhi za CivilCraft hurudi kama vipengee viwili unavyoweza kupangia bei:
 
-1. Katika CivilCraft, sawazisha pedi na korido zako, kisha uchague {{ui:Tuma kwa TakeoffCraft}} chini ya **Kazi za ardhi** ([Ujazo wa kazi za ardhi](app:civilcraft/volumes)). Hii huhifadhi faili la viasi (`.quantities.json`).
-2. Katika TakeoffCraft, lifungue kwa {{ui:Fungua ukadiriaji}}, au liangushe kwenye programu. Ukadiriaji wako unabaki wazi: faili huongeza **Earthwork: cut** na **Earthwork: fill** kama [viasi vilivyoandikwa](topic:create-items#typed-quantities-no-drawing) katika yadi za ujazo (CY) kwa mradi wa futi, au mita za ujazo (m³) kwa mradi wa mita. Ni hatua moja: {{key:Mod+Z}} inairudisha.
+1. Katika CivilCraft, sawazisha pedi na korido zako, kisha uchague {{ui:Tuma kwa TakeoffDesk}} chini ya **Kazi za ardhi** ([Ujazo wa kazi za ardhi](app:civilcraft/volumes)). Hii huhifadhi faili la viasi (`.quantities.json`).
+2. Katika TakeoffDesk, lifungue kwa {{ui:Fungua ukadiriaji}}, au liangushe kwenye programu. Ukadiriaji wako unabaki wazi: faili huongeza **Earthwork: cut** na **Earthwork: fill** kama [viasi vilivyoandikwa](topic:create-items#typed-quantities-no-drawing) katika yadi za ujazo (CY) kwa mradi wa futi, au mita za ujazo (m³) kwa mradi wa mita. Ni hatua moja: {{key:Mod+Z}} inairudisha.
 3. Zipe majina, weka upotevu, viwango na mikusanyiko upendavyo.
 
 Muundo ukibadilika, tuma tena kutoka CivilCraft na ufungue faili jipya: vipengee viwili vilevile vitapata viasi vipya. Majina, viwango, upotevu na mikusanyiko yao vinabaki kama ulivyoweka. Kitengo cha mradi kikibadilika, upau wa hali unaonyesha hivyo: kagua viwango. Faili kutoka mradi mwingine wa CivilCraft huongeza vipengee vyake viwili.

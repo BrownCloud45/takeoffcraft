@@ -1,11 +1,11 @@
 ---
 title: Mitä se oppi määrälaskennoistasi
-summary: TakeoffCraft säilyttää symbolit, jotka vahvistit Automaattilaskennalla, ehtojoukkosi, eniten käyttämäsi yhdistelmät ja joka sivulla toistuvat merkinnät, kaikki määrälaskennan omassa tiedostossa. Katso, käytä, poista.
+summary: TakeoffDesk säilyttää symbolit, jotka vahvistit Automaattilaskennalla, ehtojoukkosi, eniten käyttämäsi yhdistelmät ja joka sivulla toistuvat merkinnät, kaikki määrälaskennan omassa tiedostossa. Katso, käytä, poista.
 keywords: oppiminen, opittu, oppii, avustaja, muista, symbolit, mallipohjat, kuten edellinen työ, edellinen työ, ehtojoukko, ehdot, uudelleenkäyttö, yhdistelmät, eniten käytetyt, ehdotukset, toista jokaisella sivulla, jokainen sivu, piirustusotsikko, kaava, tyhjennä kaikki, unohda, yksityisyys
 from: 54d99e99
 ---
 
-TakeoffCraft nopeutuu, mitä enemmän määrälaskentoja sillä tehdään. Se oppii **vain siitä, minkä hyväksyt**:
+TakeoffDesk nopeutuu, mitä enemmän määrälaskentoja sillä tehdään. Se oppii **vain siitä, minkä hyväksyt**:
 
 - symbolit, jotka rajasit [Automaattilaskennalla](topic:auto-count) ja sitten lisäsit,
 - ehtojoukot, jotka tallennat,
@@ -64,6 +64,6 @@ Oppimisen lopettamiseksi yhdessä määrälaskennassa poista rasti kohdasta {{ui
 
 ## Hyvä tietää
 
-- Vanhemmat TakeoffCraft-versiot avaavat tiedoston, jossa on opittua, normaalisti. Ne jättävät sen huomiotta ja pudottavat sen, jos tallentavat tiedoston uudelleen.
+- Vanhemmat TakeoffDesk-versiot avaavat tiedoston, jossa on opittua, normaalisti. Ne jättävät sen huomiotta ja pudottavat sen, jos tallentavat tiedoston uudelleen.
 - Opittu symboli on pieni kuva rajatusta kohteesta, joka säilytetään tiedostossa (muutama kilotavu kukin).
 - Opittuja symboleja haetaan kuten Automaattilaskennassa, joten samat rajoitukset pätevät: [Symbolin automaattilaskenta](topic:auto-count).

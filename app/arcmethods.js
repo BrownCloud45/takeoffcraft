@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * arcmethods.js — the ten AutoCAD-style ways to draw an arc segment in a run or an outline (0.9 FX.137). DOM-free.
- * The geometry is arcs/arcs.js (lib/arcs, byte-identical copy); this file only adapts it to TakeoffCraft:
+ * The geometry is arcs/arcs.js (lib/arcs, byte-identical copy); this file only adapts it to TakeoffDesk:
  *   - the arc starts at the run's last point, so the "start" step is never asked (a Center/Start method asks the centre,
  *     then the rest); the answers so far are `got` — a point {x, y} (sheet units) or a number (angle in radians, direction in
  *     radians, length / radius in sheet units);
@@ -9,7 +9,7 @@
  *     through threePoints(arc) → bulgeThrough), so the saved format does not change;
  *   - everything is worked in the frame the person SEES (x right, y up, counter-clockwise = as it looks): a sheet whose
  *     user space is mirrored on screen (the usual PDF case) is reflected before solving and back after;
- *   - typed lengths and radii are read like every typed length in TakeoffCraft (12'6", 3.2 m, a bare number is feet) and
+ *   - typed lengths and radii are read like every typed length in TakeoffDesk (12'6", 3.2 m, a bare number is feet) and
  *     divided by the sheet's feet-per-unit, so they come out in the sheet's calibrated size; angles are degrees.
  */
 import * as A from './arcs/arcs.js';

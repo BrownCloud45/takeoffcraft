@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — tool names, descriptions and results are read by the assistant program, not shown to the person. */
 /**
- * agents.js — TakeoffCraft for AI assistants and scripts (0.4 part 2 X.7, session agents; docs/AGENTS-SPEC.md §5.2). The
+ * agents.js — TakeoffDesk for AI assistants and scripts (0.4 part 2 X.7, session agents; docs/AGENTS-SPEC.md §5.2). The
  * apps contain no AI: this gives the person's own assistant read-only tools on the takeoff (and exports when allowed);
  * Settings › Assistants (host.js) decides which.
  *
@@ -18,7 +18,7 @@ import { quantities, estimate, itemQty, sheetBreakdown, TYPES, sheetKey, missing
 import { UNITS, UNITS_FOR, formatRate, parseRate, parsePercent, scaleRecord, matchPreset, presetFtPerUnit, describeScale } from './units.js';
 import { t } from './i18n.js';
 import { outlineProblem } from './geom.js';
-import { getHost, stackRollback, ToolError } from "./host.js";
+import { getHost, stackRollback, ToolError, toolResult } from "./host.js";
 import { estimateLayout, sheetLayout, layoutAnswer } from './estimate-layout.js';   // 0.10 BK.149: the office standard on what the tools answer
 
 const r4 = (n) => (typeof n === 'number' && Number.isFinite(n) ? Math.round(n * 1e4) / 1e4 : n);
@@ -71,7 +71,7 @@ export function takeoffEstimate(state) {
     missingRates: missing, missingRateCount: missing.length,
     ...(() => { const lay = layoutAnswer(estimateLayout(state, e), { mat: 'materialCents', lab: 'laborCents', total: 'totalCents' }); return lay ? { layout: lay } : {}; })(),   // 0.10 BK.149: only when the office set a standard
     signoff: so ? { signedOff: true, by: so.by, ...(so.role ? { role: so.role } : {}), at: so.at, totalCents: so.total, total: money(so.total), linesWithNoRateWhenSigned: so.missing } : { signedOff: false },
-    signoffNote: 'Only a person signs an estimate off, in TakeoffCraft (Quantities › Sign off the estimate). No tool signs. Any change to a quantity, a rate or a line clears the sign-off.' };
+    signoffNote: 'Only a person signs an estimate off, in TakeoffDesk (Quantities › Sign off the estimate). No tool signs. Any change to a quantity, a rate or a line clears the sign-off.' };
 }
 
 // ---------------------------------------------------------------- 0.7 AS.5: items and marks
@@ -84,7 +84,7 @@ export function addItemsTo(model, items) {
     if (x.unit && !UNITS_FOR[type].includes(x.unit)) throw new Error('Item "' + x.name + '": a ' + type + ' item\'s unit is ' + UNITS_FOR[type].join(', ') + '.');
     const rate = (v, what) => { if (v === undefined) return 0; const r = parseRate(String(v)); if (!r.ok) throw new Error('Item "' + x.name + '": ' + what + ' ' + r.error); return r.rate4; };
     const waste = x.waste === undefined ? 0 : (() => { const r = parsePercent(String(x.waste)); if (!r.ok) throw new Error('Item "' + x.name + '": waste ' + r.error); return r.bp; })();
-    return { name: x.name, type, ...(x.unit ? { unit: x.unit } : {}), ...(x.color ? { color: x.color } : {}), ...(Number.isFinite(x.heightFt) ? { heightFt: x.heightFt } : {}), waste, mat: rate(x.material, 'material'), lab: rate(x.labor, 'labor') };
+    return { name: x.name, type, ...(x.unit ? { unit: x.unit } : {}), ...(x.color ? { color: x.color } : {}), ...(x.line && x.line !== 'solid' ? { line: x.line } : {}), ...(typeof x.factor === 'number' && x.factor !== 1 ? { factor: x.factor } : {}), ...(Number.isFinite(x.heightFt) ? { heightFt: x.heightFt } : {}), waste, mat: rate(x.material, 'material'), lab: rate(x.labor, 'labor') };
   });
   const label = 'Assistant: add ' + list.length + (list.length === 1 ? ' item' : ' items');
   return { ids: model.addItems(list, label), undo: label };
@@ -120,7 +120,7 @@ export function addMarksTo(model, { item, sheet, marks, units = 'pt' }, box = nu
 
 /** items_add's arguments (the window's tool and the headless one, 0.7 AS.6). */
 const objS = (properties, required = []) => ({ type: 'object', properties, required, additionalProperties: false });
-export const ITEMS_ADD_SCHEMA = objS({ items: { type: 'array', description: 'The items to add: each with a name, type (linear, area, count …), unit, rates in dollars per unit, and waste in percent.', minItems: 1, maxItems: 200, items: objS({ name: { type: 'string', minLength: 1, maxLength: 200 }, type: { type: 'string', enum: TYPES }, unit: { type: 'string', maxLength: 8 }, material: { type: ['number', 'string'] }, labor: { type: ['number', 'string'] }, waste: { type: ['number', 'string'] }, heightFt: { type: 'number', minimum: 0, maximum: 1e5 }, color: { type: 'string', pattern: '^#[0-9a-fA-F]{6}$' } }, ['name', 'type']) } }, ['items']);
+export const ITEMS_ADD_SCHEMA = objS({ items: { type: 'array', description: 'The items to add: each with a name, type (linear, area, count …), unit, rates in dollars per unit, and waste in percent.', minItems: 1, maxItems: 200, items: objS({ name: { type: 'string', minLength: 1, maxLength: 200 }, type: { type: 'string', enum: TYPES }, unit: { type: 'string', maxLength: 8 }, material: { type: ['number', 'string'] }, labor: { type: ['number', 'string'] }, waste: { type: ['number', 'string'] }, heightFt: { type: 'number', minimum: 0, maximum: 1e5 }, color: { type: 'string', pattern: '^#[0-9a-fA-F]{6}$' }, line: { type: 'string', enum: ['solid', 'dashed', 'dotted', 'double'], description: 'How its runs and area outlines are drawn (default solid).' }, factor: { type: 'number', minimum: 0.0001, maximum: 1000, description: 'Quantity factor: × the measured quantity everywhere (0.5 counts half of what is drawn). Default 1.' } }, ['name', 'type']) } }, ['items']);
 
 // ---------------------------------------------------------------- 0.7 AS.6: takeoffs on a DWG / DXF (takeoff-cad's TD.1–TD.6)
 
@@ -239,18 +239,18 @@ export function installAgents(app) {
   const C = getHost({ app: 'takeoffcraft' }).control;
   const st = () => app.model.state;
   const obj = (properties, required = []) => ({ type: 'object', properties, required, additionalProperties: false });
-  C.configure({ title: 'TakeoffCraft', rollback: stackRollback(() => app.model), info: () => ({ takeoff: st().name, items: st().items.length, marks: st().marks.length, sheet: app.current() ? app.sheetLabel(app.current()) : null }) });
-  C.tool({ name: 'app_info', group: 'read', title: 'About this window', description: 'TakeoffCraft\'s window: the takeoff open, its PDFs, items and marks, the sheet shown, and the permissions the person allowed.',
-    run: async () => ({ app: 'takeoffcraft', title: 'TakeoffCraft', allowed: C.groups, sheet: app.current() ? app.sheetLabel(app.current()) : null, ...takeoffSummary(st(), app.sheetLabel) }) });
+  C.configure({ title: 'TakeoffDesk', rollback: stackRollback(() => app.model), info: () => ({ takeoff: st().name, items: st().items.length, marks: st().marks.length, sheet: app.current() ? app.sheetLabel(app.current()) : null }) });
+  C.tool({ name: 'app_info', group: 'read', title: 'About this window', description: 'TakeoffDesk\'s window: the takeoff open, its PDFs, items and marks, the sheet shown, and the permissions the person allowed.',
+    run: async () => ({ app: 'takeoffcraft', title: 'TakeoffDesk', allowed: C.groups, sheet: app.current() ? app.sheetLabel(app.current()) : null, ...takeoffSummary(st(), app.sheetLabel) }) });
   C.tool({ name: 'sheets_list', group: 'read', untrusted: true, title: 'List sheets', description: 'The sheets of the open PDFs, each with its scale (or none) and how many marks it holds.',
     run: async () => ({ sheets: app.sheets().map((s) => ({ key: s.key, sheet: s.title, scale: (st().sheets[s.key] && st().sheets[s.key].scale && st().sheets[s.key].scale.label) || null, marks: st().marks.filter((m) => m.sheet === s.key).length })) }) });
   C.tool({ name: 'items_list', group: 'read', untrusted: true, title: 'List items', description: 'The takeoff items: type (linear, area, count), unit, height, waste, material and labor rates, and their assembly components with formulas.',
     run: async () => ({ items: itemsList(st()) }) });
   C.tool({ name: 'takeoff_quantities', group: 'read', untrusted: true, title: 'Quantities', description: 'Quantities per item (in its unit) or per sheet. Marks on sheets with no scale are listed as unscaled, never counted as zero.',
     inputSchema: obj({ by: { description: 'item (default) or sheet.', type: 'string', enum: ['item', 'sheet'], default: 'item' } }), run: async (a) => takeoffQuantities(st(), app.sheetLabel, a) });
-  C.tool({ name: 'takeoff_estimate', group: 'read', untrusted: true, title: 'Estimate', description: 'The priced estimate as TakeoffCraft computes it: a row per item and per assembly component, totals in cents and as text; incomplete when a formula fails or marks are unscaled. Rows with a quantity and no rate carry missingRate and are listed under missingRates (an item priced through its components is not one). Each row names the marks its figures came from (marks, for marks_select). signoff says whether a person signed the estimate off, who, when and for what total; a sign-off is made only by a person in the app and is cleared by any change to the figures.',
+  C.tool({ name: 'takeoff_estimate', group: 'read', untrusted: true, title: 'Estimate', description: 'The priced estimate as TakeoffDesk computes it: a row per item and per assembly component, totals in cents and as text; incomplete when a formula fails or marks are unscaled. Rows with a quantity and no rate carry missingRate and are listed under missingRates (an item priced through its components is not one). Each row names the marks its figures came from (marks, for marks_select). signoff says whether a person signed the estimate off, who, when and for what total; a sign-off is made only by a person in the app and is cleared by any change to the figures.',
     run: async () => takeoffEstimate(st()) });
-  C.tool({ name: 'takeoff_export', group: 'export', title: 'Export the estimate', description: 'TakeoffCraft\'s own export of the estimate, as .csv or .xlsx, downloaded (desktop: saved where the person chooses), or as sheets: the same lines as tab-separated text that comes back, to paste into cell A1 of a Google Sheet (TakeoffCraft does not sign in to Google and sends nothing there).',
+  C.tool({ name: 'takeoff_export', group: 'export', title: 'Export the estimate', description: 'TakeoffDesk\'s own export of the estimate, as .csv or .xlsx, downloaded (desktop: saved where the person chooses), or as sheets: the same lines as tab-separated text that comes back, to paste into cell A1 of a Google Sheet (TakeoffDesk does not sign in to Google and sends nothing there).',
     inputSchema: obj({ format: { description: 'csv, xlsx (default) or sheets (tab-separated text to paste into Google Sheets).', type: 'string', enum: ['csv', 'xlsx', 'sheets'], default: 'xlsx' } }),
     run: async (a) => {
       if (!st().items.length) throw new Error('The takeoff has no items yet.');
@@ -267,7 +267,7 @@ export function installAgents(app) {
     run: async (a) => {
       const it = st().items.find((x) => x.id === a.item) || st().items.find((x) => x.name.toLowerCase() === String(a.item).toLowerCase());
       if (!it) throw new ToolError('not_found', 'No item "' + a.item + '".', { next: ['Call items_list for the items.'] });
-      const n = await app.selectMarks(it.id);
+      const n = Math.max(0, await app.selectMarks(it.id, { open: true }));   // asked for: opens the sheet that holds them
       return { item: it.name, selected: n, total: st().marks.filter((m) => m.item === it.id).length, ...(n ? {} : { note: 'This item has no marks on an open sheet (a typed quantity has none).' }) };
     } });
   // ---- 0.7 AS.5 (session assistants)
@@ -283,6 +283,30 @@ export function installAgents(app) {
   C.tool({ name: 'items_add', group: 'edit', rollbackPreview: true, title: 'Add items', description: 'Add takeoff items as one undo step: name, type (linear, area, count, fixed), unit (LF, m · SF, SY, m² · EA · …), material and labor rates in dollars per unit, waste in percent, heightFt (walls: wall area = length × height). → their ids for marks_add.',
     inputSchema: ITEMS_ADD_SCHEMA,
     run: async (a) => addItemsTo(app.model, a.items) });
+  // Look at a sheet (session devshell-mcp): what the assistant needs to measure on a PDF with marks_add — the page as an image, a grid in the
+  // fractions marks_add takes (units "fraction"), and the marks already there in their items' colours.
+  if (app.sheetImage) C.tool({ name: 'sheet_image', group: 'read', untrusted: true, title: 'Look at a sheet',
+    description: 'The sheet as an image (JPEG), or a region of it zoomed in, to read the drawing before measuring. A blue grid is labelled in fractions of the page from its lower-left corner '
+      + '(x across, y up), the same numbers marks_add takes with units "fraction"; marks already on the sheet are drawn in their items\' colours. Zoom in (region) to place points accurately: '
+      + 'a whole sheet at 1568 px is too coarse for exact corners. Read the scale and dimensions printed on the drawing to check your lengths.',
+    inputSchema: obj({
+      sheet: { description: 'Sheet number from 1, or part of its title; default the sheet shown.', anyOf: [{ type: 'integer', minimum: 1 }, { type: 'string', maxLength: 255 }] },
+      region: { description: 'Part of the page to show, as fractions of the page from its lower-left corner; default the whole page.', ...obj({ left: { type: 'number', minimum: 0, maximum: 1 }, bottom: { type: 'number', minimum: 0, maximum: 1 }, right: { type: 'number', minimum: 0, maximum: 1 }, top: { type: 'number', minimum: 0, maximum: 1 } }, ['left', 'bottom', 'right', 'top']) },
+      maxPixels: { description: 'Longest side of the image in pixels (default 1568).', type: 'integer', minimum: 256, maximum: 4096 },
+      grid: { description: 'Grid lines across each side (default 10; 0 for none).', type: 'integer', minimum: 0, maximum: 40 },
+      marks: { description: 'false hides the marks already on the sheet.', type: 'boolean' },
+    }),
+    run: async (a) => {
+      const s = findSheet(a.sheet), r = a.region || { left: 0, bottom: 0, right: 1, top: 1 };
+      if (r.right <= r.left || r.top <= r.bottom) throw new ToolError('invalid_argument', 'The region is empty: right must be larger than left and top larger than bottom.', { next: ['Give fractions of the page, e.g. left 0.2, bottom 0.3, right 0.5, top 0.6.'] });
+      let img;
+      try { img = await app.sheetImage(s.key, { region: [r.left, r.bottom, r.right, r.top], maxPx: a.maxPixels || 1568, grid: a.grid ?? 10, marks: a.marks !== false }); }
+      catch (e) { throw new ToolError('unsupported', 'This sheet cannot be shown as an image: ' + e.message, { next: ['On a DWG or DXF use cad_catalog, cad_count and cad_measure.'] }); }
+      const sc = st().sheets?.[s.key]?.scale;
+      const info = { sheet: s.title, region: r, width: img.width, height: img.height, scale: (sc && (sc.label || sc.preset)) || null, ...(img.rotate ? { rotate: img.rotate } : {}),
+        howToMark: 'Use marks_add with units "fraction" and the grid\'s numbers: [x, y] from the page\'s lower-left corner, whatever region is shown.' };
+      return toolResult([{ type: 'image', data: img.data, mimeType: img.mimeType }, { type: 'text', text: JSON.stringify(info) }], info);
+    } });
   C.tool({ name: 'marks_add', group: 'edit', rollbackPreview: true, title: 'Add marks', description: 'Measure on a sheet for an item, as one undo step: each mark is pts (a run for a linear item, an outline for an area item with optional holes, points for a count item: one mark each). Points in PDF points (units "pt", the page\'s own coordinates) or as fractions of the page from its lower-left corner (units "fraction"). Lengths and areas only on a sheet with a scale; counts on any sheet.',
     inputSchema: obj({ item: { description: 'Name of the takeoff item the marks belong to.', type: 'string', minLength: 1, maxLength: 200 }, sheet: { description: 'Sheet number from 1 or part of its title.', description: 'Sheet number from 1 or part of its title.', anyOf: [{ type: 'integer', minimum: 1 }, { type: 'string', maxLength: 255 }] }, units: { description: 'pt (PDF points, default) or fraction (0 to 1 across the sheet).', type: 'string', enum: ['pt', 'fraction'], default: 'pt' },
       marks: { description: 'The marks: each with pts (a run of points, an outline, or one point per count).', type: 'array', minItems: 1, maxItems: 5000, items: obj({ pts: { type: 'array', minItems: 1, maxItems: 5000, items: { type: 'array', items: { type: 'number' }, minItems: 2, maxItems: 2 } }, holes: { type: 'array', maxItems: 200, items: { type: 'array', minItems: 3, maxItems: 5000, items: { type: 'array', items: { type: 'number' }, minItems: 2, maxItems: 2 } } } }, ['pts']) } }, ['item', 'marks']),
@@ -380,7 +404,7 @@ export function installAgents(app) {
       const sh = findSheet(q);
       const [hash, idx] = String(sh.key).split(':');
       const set = app.cadSets().find((f) => f.hash === hash);
-      if (!set) throw new Error(sh.title + ' is a PDF page: these tools count and measure on the sheets of a DWG or DXF drawing (open one in TakeoffCraft).');
+      if (!set) throw new Error(sh.title + ' is a PDF page: these tools count and measure on the sheets of a DWG or DXF drawing (open one in TakeoffDesk).');
       return { sh, set, i: +idx };
     };
     const SHEET = { anyOf: [{ type: 'integer', minimum: 1 }, { type: 'string', maxLength: 255 }], description: 'A drawing\'s sheet: its key, its name (Model, a layout) or its number in sheets_list; default the sheet shown.' };

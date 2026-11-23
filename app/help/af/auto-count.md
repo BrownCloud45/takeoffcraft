@@ -1,6 +1,6 @@
 ---
 title: Outo-tel ’n simbool
-summary: Merk een simbool af, laat TakeoffCraft die ander op hierdie blad of elke oop blad vind, hersien die passings met die skuifbalk, en voeg hulle in een stap by.
+summary: Merk een simbool af, laat TakeoffDesk die ander op hierdie blad of elke oop blad vind, hersien die passings met die skuifbalk, en voeg hulle in een stap by.
 keywords: enige hoek, geroteer, gedraai, ander skaal, verskillende skaal, outo-tel, outomatiese telling, simboolsoektog, vind simbole, patroon, sjabloon, passing, herken, telhulpmiddel
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Om die hersiening te laat vaar sonder om iets by te voeg, kies {{ui:Gooi weg}} o
 
 ## Wat dit vind, en wat dit mis
 
-TakeoffCraft vergelyk die tekening, as pixels, met die simbool wat jy omkader het.
+TakeoffDesk vergelyk die tekening, as pixels, met die simbool wat jy omkader het.
 
 - Dit vind die simbool wat 0°, 90°, 180° en 270° gedraai is. Merk {{ui:Enige hoek (stadiger)}} op die outo-tel-balk voordat jy die boks trek, om dit ook in enige hoek te vind: dit probeer elke 15°, en stel dan elke vondste fyn af tot op die graad en ’n halwe graad. Dit neem ongeveer ses keer so lank. Dit vind nie ’n gespieëlde simbool nie (tensy die simbool gespieël dieselfde lyk).
 - Met {{ui:Soek alle oop blaaie}} gemerk, word ’n blad op ’n ander skaal deursoek by die grootte wat die simbool daar het: ’n armatuur wat op ’n 1/8"-plan volgens skaal geteken is, is die helfte van die grootte op ’n 1/4"-plan, en word steeds gevind. So ’n blad word ook by die boks se eie grootte deursoek, vir etikette en simbole wat op elke blad in een grootte gedruk is. Dit vereis ’n skaal op albei blaaie; ’n blad sonder skaal word net by die boks se grootte deursoek.

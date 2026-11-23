@@ -49,4 +49,4 @@ Kalibrované měřítko se v liště pod listem zobrazí jako "Kalibrováno 1" =
 
 ## Neobvyklá PDF
 
-Některá PDF deklarují větší jednotku stránky (takzvanou uživatelskou jednotku, "user unit"); TakeoffCraft ji zohledňuje u předvoleb i u zobrazeného měřítka. Stránky otočené v PDF se měří stejně jako stránky svisle orientované.
+Některá PDF deklarují větší jednotku stránky (takzvanou uživatelskou jednotku, "user unit"); TakeoffDesk ji zohledňuje u předvoleb i u zobrazeného měřítka. Stránky otočené v PDF se měří stejně jako stránky svisle orientované.

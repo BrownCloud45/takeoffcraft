@@ -1,6 +1,6 @@
 ---
 title: Tarkista toimittajan varasto ja toimitusajat
-summary: Lisää toimittajan varastoluettelo (CSV tai taulukko), ja TakeoffCraft tarkistaa, mitä määrälaskenta tarvitsee hukka mukaan lukien, sitä vasten: onko varastossa riittävästi ja kuinka pitkä odotus on. Puutteet ja pitkät odotukset näkyvät Ongelmat-paneelissa.
+summary: Lisää toimittajan varastoluettelo (CSV tai taulukko), ja TakeoffDesk tarkistaa, mitä määrälaskenta tarvitsee hukka mukaan lukien, sitä vasten: onko varastossa riittävästi ja kuinka pitkä odotus on. Puutteet ja pitkät odotukset näkyvät Ongelmat-paneelissa.
 keywords: toimittaja, varasto, varastossa, toimitusaika, saatavuus, puute, jälkitilaus, tilauslista, csv, sku, myyjä, materiaalit, toimitus, ongelmat
 from: f11160fb
 ---

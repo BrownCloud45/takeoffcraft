@@ -5,7 +5,7 @@ keywords: aptikti mastelį, nuskaityti mastelį, mastelis iš teksto, visi lapai
 from: 8f0148e6
 ---
 
-Kiekvienas lapas turi savo mastelį. Jį nustatote jūs arba leidžiate TakeoffCraft nuskaityti jį iš lapų teksto (žemiau) ir patikrinti. Kol lapas jo neturi, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} ir {{ui:Cut-out}} atsisako matuoti jame. {{ui:Count}} ir {{ui:Auto count}} veikia be mastelio.
+Kiekvienas lapas turi savo mastelį. Jį nustatote jūs arba leidžiate TakeoffDesk nuskaityti jį iš lapų teksto (žemiau) ir patikrinti. Kol lapas jo neturi, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} ir {{ui:Cut-out}} atsisako matuoti jame. {{ui:Count}} ir {{ui:Auto count}} veikia be mastelio.
 
 Lapų sąraše rodomas kiekvieno lapo mastelis arba **Nėra mastelio**. Juosta po atidarytu lapu sako tą patį.
 
@@ -23,7 +23,7 @@ Pilnas sąrašas yra [Iš anksto nustatyti masteliai](topic:scale-presets).
 
 ## Skaityti mastelius iš lapų teksto
 
-Dauguma brėžinių nurodo savo mastelį: `SCALE: 1/4" = 1'-0"` antraštės bloke, `1:100` po vaizdu. TakeoffCraft gali jį perskaityti ir nustatyti visiems lapams vienu metu.
+Dauguma brėžinių nurodo savo mastelį: `SCALE: 1/4" = 1'-0"` antraštės bloke, `1:100` po vaizdu. TakeoffDesk gali jį perskaityti ir nustatyti visiems lapams vienu metu.
 
 1. Atidarykite sąrašą {{ui:Preset}} ir pasirinkite „Iš lapų teksto…“ (viršuje).
 2. Sąraše rodomi visi lapai: jų dabartinis mastelis ir tai, ką sako jų tekstas – **Nurodo 1/4" = 1'-0"**, **Tekste mastelio nėra** arba **Nurodoma „ne mastelyje“** (NTS).
@@ -44,7 +44,7 @@ Naudokite tai, kai nėra patikimo spausdinto mastelio, rinkinys buvo pakeistas d
 5. Lauke **Tikras atstumas** įveskite tikrąjį atstumą, pavyzdžiui, `24'-6 1/2"`, `24.5` (dešimtainės pėdos), `30"` arba `7.5 m`. Žr. [Ilgio, įkainio ir procentų įvedimas](topic:entry-formats).
 6. Pasirinkite {{ui:Set the scale}}.
    Būsenos juostoje mastelis rodomas kaip "1" = (n)'", o jei jis yra 0,5 % ribose nuo išankstinio nustatymo, nurodoma, kuris, pavyzdžiui, „atitinka 1/4" = 1'-0" (pasirinkite tą išankstinį nustatymą tiksliam mastelio dydžiui)“.
-   TakeoffCraft grįžta į įrankį {{ui:Select}}.
+   TakeoffDesk grįžta į įrankį {{ui:Select}}.
 
 Kai kalibravimas atitinka išankstinį nustatymą, pasirinkus tą išankstinį nustatymą gaunamas tikslus mastelis, o ne toks, kuris priklauso nuo to, kur spustelėjote.
 
@@ -61,11 +61,11 @@ Spauskite {{key:Esc}}, kad išvalytumėte patikrinimo liniją.
 
 ## Keisti mastelį
 
-Pasirinkite kitą išankstinį nustatymą arba vėl kalibruokite. Jei lape jau yra matavimų, TakeoffCraft klausia **Keisti šio lapo mastelį?** ir nurodo, kiek matavimų bus išmatuota iš naujo. Pasirinkite {{ui:Change the scale}}. Kiekvienas ruožas ir plotas lape išmatuojamas iš naujo pagal naują mastelį. Tai galite anuliuoti su {{key:Mod+Z}}.
+Pasirinkite kitą išankstinį nustatymą arba vėl kalibruokite. Jei lape jau yra matavimų, TakeoffDesk klausia **Keisti šio lapo mastelį?** ir nurodo, kiek matavimų bus išmatuota iš naujo. Pasirinkite {{ui:Change the scale}}. Kiekvienas ruožas ir plotas lape išmatuojamas iš naujo pagal naują mastelį. Tai galite anuliuoti su {{key:Mod+Z}}.
 
 ## Kodėl lapai be mastelio neskaičiuojami kaip nulis
 
-Žymė lape be mastelio neturi tikro ilgio ar ploto. TakeoffCraft jos niekada neskaičiuoja kaip nulio, nes tai tyliai padarytų sąmatą per mažą. Vietoj to ji:
+Žymė lape be mastelio neturi tikro ilgio ar ploto. TakeoffDesk jos niekada neskaičiuoja kaip nulio, nes tai tyliai padarytų sąmatą per mažą. Vietoj to ji:
 
 - palieka tas žymes iš sumų,
 - rodo "+(n) be mastelio" šalia pozicijos {{ui:Quantities}},
@@ -77,5 +77,5 @@ Tai gali nutikti atidarius projektą, kurio mastelių niekada nenustatyta. Nusta
 ## Patarimai
 
 - Prieš pradėdami nustatykite mastelį kiekvienam lapui, kurį matuosite. Ieškokite lapų sąraše **Nėra mastelio**, kad rastumėte likusius (paieškos laukelis žiūri į lapų pavadinimus, ne į mastelius).
-- Detalės ir padidinti planai tame pačiame lape dažnai naudoja kitą mastelį. TakeoffCraft turi vieną mastelį lapui; žr. [Kas dar nesukurta](topic:not-built-yet).
+- Detalės ir padidinti planai tame pačiame lape dažnai naudoja kitą mastelį. TakeoffDesk turi vieną mastelį lapui; žr. [Kas dar nesukurta](topic:not-built-yet).
 - Metriniai brėžiniai: pasirinkite metrinį išankstinį nustatymą, pavyzdžiui `1:100`, arba kalibruokite metriniu atstumu, pavyzdžiui `6000 mm`.

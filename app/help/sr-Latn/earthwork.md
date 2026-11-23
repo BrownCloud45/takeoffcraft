@@ -5,7 +5,7 @@ keywords: zemljani radovi, iskop, iskop i nasip, nasip, nivelacija, visinska kot
 from: a898e508
 ---
 
-TakeoffCraft meri ono što je nacrtano na listu. Zemljani radovi zahtevaju teren, pa se dele sa CivilCraft-om, koji pravi površine od tačaka, nivelira ih i računa iskop i nasip i odvoz.
+TakeoffDesk meri ono što je nacrtano na listu. Zemljani radovi zahtevaju teren, pa se dele sa CivilCraft-om, koji pravi površine od tačaka, nivelira ih i računa iskop i nasip i odvoz.
 
 ## Jednostavan iskop ovde
 
@@ -29,8 +29,8 @@ Tačke sa različitih listova nemaju zajedničke koordinate, pa izvoz uzima samo
 
 Zemljani radovi iz CivilCraft-a vraćaju se kao dve stavke koje možete oceniti:
 
-1. U CivilCraft-u izravnajte plato i koridore, pa izaberite {{ui:Pošalji u TakeoffCraft}} pod **Zemljani radovi** ([Zapremine zemljanih radova](app:civilcraft/volumes)). Sačuva se fajl količina (`.quantities.json`).
-2. U TakeoffCraft-u ga otvorite pomoću {{ui:Otvori predmer}} ili ga prevucite na program. Predmer ostaje otvoren: fajl dodaje **Zemljani radovi: iskop** i **Zemljani radovi: nasip** kao [unesene količine](topic:create-items#typed-quantities-no-drawing) u kubnim jardima (CY) za projekat u stopama, odnosno kubnim metrima (m³) za projekat u metrima. Ovo je jedan korak: {{key:Mod+Z}} ga opozove.
+1. U CivilCraft-u izravnajte plato i koridore, pa izaberite {{ui:Pošalji u TakeoffDesk}} pod **Zemljani radovi** ([Zapremine zemljanih radova](app:civilcraft/volumes)). Sačuva se fajl količina (`.quantities.json`).
+2. U TakeoffDesk-u ga otvorite pomoću {{ui:Otvori predmer}} ili ga prevucite na program. Predmer ostaje otvoren: fajl dodaje **Zemljani radovi: iskop** i **Zemljani radovi: nasip** kao [unesene količine](topic:create-items#typed-quantities-no-drawing) u kubnim jardima (CY) za projekat u stopama, odnosno kubnim metrima (m³) za projekat u metrima. Ovo je jedan korak: {{key:Mod+Z}} ga opozove.
 3. Preimenujte ih, podesite škart, cene i sklopove kako želite.
 
 Kada se projekat promeni, ponovo pošaljite iz CivilCraft-a i otvorite novi fajl: ista dva stavka dobijaju nove količine. Njihovi nazivi, cene, škart i sklopovi ostaju kakvi ste ih podesili. Ako je jedinica projekta promenjena, statusna traka to kaže: proverite cene. Fajl iz drugog projekta CivilCraft-a dodaje sopstvena dva stavka.

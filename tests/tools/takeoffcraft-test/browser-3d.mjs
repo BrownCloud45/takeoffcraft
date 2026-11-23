@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-3d.mjs — TakeoffCraft's 3D check view in headless Chromium (run as root: it uses
+ * browser-3d.mjs — TakeoffDesk's 3D check view in headless Chromium (run as root: it uses
  * `sudo -u www-data php` for its own test admin takeoff3dtest+cadcraft@projectz.xyz, random password,
  * disabled again at the end, and root's cached Playwright Chromium).
  *

@@ -49,4 +49,4 @@ Kalibre edilmiş bir ölçek, sayfanın altındaki çubukta "Kalibre edilmiş 1"
 
 ## Olağandışı PDF'ler
 
-Bazı PDF'ler daha büyük bir sayfa birimi tanımlar (bir "kullanıcı birimi"); TakeoffCraft bunu hazır ayarlar ve gösterilen ölçek için dikkate alır. PDF içinde döndürülmüş sayfalar, dik olanlarla aynı şekilde ölçülür.
+Bazı PDF'ler daha büyük bir sayfa birimi tanımlar (bir "kullanıcı birimi"); TakeoffDesk bunu hazır ayarlar ve gösterilen ölçek için dikkate alır. PDF içinde döndürülmüş sayfalar, dik olanlarla aynı şekilde ölçülür.

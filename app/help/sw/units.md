@@ -55,4 +55,4 @@ Kipimo cha karatasi kinasema mchoro ulivyo mkubwa; kitengo cha kipengee kinasema
 
 ## Usahihi
 
-TakeoffCraft inapima kwa usahihi kamili kutoka kwenye pointi unazobofya, ikijumuisha urefu halisi wa tao na maeneo, na haizungushi viasi. Onyesho linazungusha urefu hadi 1/16 ya inchi na desimali hadi nafasi mbili. Pesa inazungushwa tu kwenye kiasi kilichopanuliwa, hadi senti.
+TakeoffDesk inapima kwa usahihi kamili kutoka kwenye pointi unazobofya, ikijumuisha urefu halisi wa tao na maeneo, na haizungushi viasi. Onyesho linazungusha urefu hadi 1/16 ya inchi na desimali hadi nafasi mbili. Pesa inazungushwa tu kwenye kiasi kilichopanuliwa, hadi senti.

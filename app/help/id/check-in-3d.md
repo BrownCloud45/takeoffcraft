@@ -46,7 +46,7 @@ Angka tidak berubah dalam 3D: luas dinding adalah panjang tepatnya dikali tinggi
 | {{ui:Lembar}} | Tampilkan atau sembunyikan gambar di atas tanah. |
 | Kubus tampilan, kanan atas | Klik sisi, tepi, atau sudut untuk melihat dari sana; seret untuk orbit; seret cincin kompasnya untuk memutar; tombol rumah kembali ke {{ui:Iso}}. |
 
-Sudut menampilkan kubus tampilan, ikon sumbu X, Y, Z kecil, atau tidak ada apa-apa: pilih di {{ui:Pengaturan}}, pada tab TakeoffCraft, di bawah **Indikator sudut** ([Pengaturan TakeoffCraft](topic:settings)). Lembar datar tidak memiliki indikator sudut.
+Sudut menampilkan kubus tampilan, ikon sumbu X, Y, Z kecil, atau tidak ada apa-apa: pilih di {{ui:Pengaturan}}, pada tab TakeoffDesk, di bawah **Indikator sudut** ([Pengaturan TakeoffDesk](topic:settings)). Lembar datar tidak memiliki indikator sudut.
 
 :::touch
 Satu jari mengorbit; dua jari mencubit untuk memperbesar dan bergerak untuk menggeser. Ketukan memilih.

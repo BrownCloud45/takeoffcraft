@@ -5,7 +5,7 @@ keywords: ku xidh, osnap, object snap, dhammaad, dhexdhexaad, isgoys, ugu dhow, 
 from: 41d29e9b
 ---
 
-Qorshooyinka badankood waa PDF vector: derbiyadooda iyo geesahooda waa xariiqyo dhab ah, ma aha pikseel. Intaad cabbirayso, TakeoffCraft wuxuu riixyadaada ku xidhaa xariiqyadaas, sidaas darteed socodku wuxuu bilaabmaa si sax ah geesta darbiga, hagaajinna wuxuu akhrinayaa cabbirka uu naqshadeeyuhu sawiray, ma aha pikselka aad riixday.
+Qorshooyinka badankood waa PDF vector: derbiyadooda iyo geesahooda waa xariiqyo dhab ah, ma aha pikseel. Intaad cabbirayso, TakeoffDesk wuxuu riixyadaada ku xidhaa xariiqyadaas, sidaas darteed socodku wuxuu bilaabmaa si sax ah geesta darbiga, hagaajinna wuxuu akhrinayaa cabbirka uu naqshadeeyuhu sawiray, ma aha pikselka aad riixday.
 
 Ku xidhku wuu shaqeeyaa markaad bilaabato. Ku demi ama ku shid {{ui:Ku xidh}} ee bar xaaladda ama {{key:F3}}; dejintu waxay ku kaydsan tahay browser-kan (waxaa sidoo kale ku jirta [Dejinta](topic:settings)).
 

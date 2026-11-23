@@ -103,7 +103,7 @@ for (const k of Object.keys(RULES)) ok(en['qty.rule.' + k] === RULES[k].text, 'B
 const src = (app, file) => fs.readFileSync(path.join(ROOT, 'public_html/assets/apps', app, 'dev', file), 'utf8');
 ok(/wallSide\(/.test(src('bimcraft', 'model-walls.js')) && /wallSide\(/.test(src('bimcraft', 'wall-shape.js')) && /outlineArea\(/.test(src('bimcraft', 'model-slabs.js')) && /outlineArea\(/.test(src('bimcraft', 'model-floors.js')), 'BimCraft\'s IFC quantity writers (walls, shaped walls, floors, ceilings, drawn floors) call the rule');
 ok(/wallSide\(/.test(src('bimcraft', 'model-schedule.js')) && /outlineArea\(/.test(src('bimcraft', 'quantity-schedules.js')), 'BimCraft\'s schedules call the rule');
-ok(/outlineArea\(/.test(src('takeoffcraft', 'geom.js')) && /wallSide\(/.test(src('takeoffcraft', 'model.js')), 'TakeoffCraft\'s area marks and wall areas call the rule');
+ok(/outlineArea\(/.test(src('takeoffcraft', 'geom.js')) && /wallSide\(/.test(src('takeoffcraft', 'model.js')), 'TakeoffDesk\'s area marks and wall areas call the rule');
 
 console.log('\n' + pass + ' passed, ' + fail + ' failed');
 process.exit(fail ? 1 : 0);

@@ -1,12 +1,12 @@
 ---
 title: Troubleshooting
-summary: Symptoms, causes and fixes for the messages and surprises you may meet in TakeoffCraft, quoted as the app shows them.
+summary: Symptoms, causes and fixes for the messages and surprises you may meet in TakeoffDesk, quoted as the app shows them.
 section: trouble
 order: 10
 keywords: problems, errors, not working, fix, help, refused, wont measure, no scale, missing marks, export failed, offline, touch
 ---
 
-TakeoffCraft explains most refusals in the status bar at the bottom of the window. Find the message below.
+TakeoffDesk explains most refusals in the status bar at the bottom of the window. Find the message below.
 
 ## Opening files
 
@@ -16,8 +16,8 @@ TakeoffCraft explains most refusals in the status bar at the bottom of the windo
 | (name) is password-protected. Open an unprotected copy. | The PDF needs a password to open. | Ask for an unprotected copy, or remove the password in a PDF program you trust. |
 | (name) could not be read as a PDF (…) | The file is damaged or not really a PDF. | Download it again, or re-save it from the program that made it. |
 | (name) is already open. | The same PDF (same contents) is open. | Nothing to do. |
-| TakeoffCraft opens PDFs and .takeoff.json projects. Skipped: … | Other file types were dropped. | Convert drawings to PDF first. |
-| Nothing happens when I drop files | The files were dropped outside the browser window, or the browser opened the PDF in a new tab. | Drop onto the TakeoffCraft page itself; the "Drop PDFs or a .takeoff.json" frame shows when it will work. |
+| TakeoffDesk opens PDFs and .takeoff.json projects. Skipped: … | Other file types were dropped. | Convert drawings to PDF first. |
+| Nothing happens when I drop files | The files were dropped outside the browser window, or the browser opened the PDF in a new tab. | Drop onto the TakeoffDesk page itself; the "Drop PDFs or a .takeoff.json" frame shows when it will work. |
 | Opening a big set takes a while | Every PDF is read in full to fingerprint it. | Wait for the "Opening (name)…" message to clear. Thumbnails fill in as you scroll. |
 
 ## Measuring
@@ -48,7 +48,7 @@ TakeoffCraft explains most refusals in the status bar at the bottom of the windo
 | Message or symptom | Cause | Fix |
 |---|---|---|
 | Pick two points further apart. | The calibration points are almost on top of each other. | Calibrate on a longer dimension. |
-| A message in the calibrate dialog, like "That distance could not be read" | The distance is in a form TakeoffCraft cannot read. | See [Length, rate and percent entry](topic:entry-formats). |
+| A message in the calibrate dialog, like "That distance could not be read" | The distance is in a form TakeoffDesk cannot read. | See [Length, rate and percent entry](topic:entry-formats). |
 | This sheet has no scale yet, so there is nothing to check. Calibrate it, or pick a preset. | {{ui:Check}} on an unscaled sheet. | Set a scale first. |
 | The {{ui:Preset}} list is grayed out | No sheet is open. | Open a PDF. |
 
@@ -87,8 +87,8 @@ TakeoffCraft explains most refusals in the status bar at the bottom of the windo
 | This PDF is password-protected or encrypted, so a marked copy cannot be written. … | The PDF is encrypted. | Export {{ui:XLSX}} instead, or use an unencrypted copy of the PDF (it then needs its own takeoff, since it is a different file). |
 | The marked PDF could not be written: … | Often: offline, and the app was not saved for offline use, so the PDF writer is missing. | Go online and choose {{ui:Marked PDF}} again. To avoid it, choose {{ui:Save for offline}} and wait for {{ui:Offline ready}}. |
 | Only one marked PDF downloaded | The browser blocked several downloads at once. | Allow multiple downloads for this site, and export again. |
-| (file) is not a TakeoffCraft project (it is not valid JSON). / This is not a TakeoffCraft project file. | Wrong file, or a damaged one. | Pick the `.takeoff.json` file. |
-| This project was saved by a newer TakeoffCraft. Open it there. | The file comes from a newer build. | Open it in the newer build. |
+| (file) is not a TakeoffDesk project (it is not valid JSON). / This is not a TakeoffDesk project file. | Wrong file, or a damaged one. | Pick the `.takeoff.json` file. |
+| This project was saved by a newer TakeoffDesk. Open it there. | The file comes from a newer build. | Open it in the newer build. |
 | (n) marks were damaged and left out. | Part of the file was damaged or edited by hand. | The rest opened. Redraw the missing marks, or open an older copy. |
 | Marks missing after reopening | The PDFs are not open, or one of them changed. | See [Save and reopen a takeoff](topic:save-and-reopen#when-a-pdf-has-changed). |
 | The browser asks "Leave site?" | There are unsaved changes. | Stay, and save with {{key:Mod+S}}. |

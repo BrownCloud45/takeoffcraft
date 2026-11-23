@@ -5,7 +5,7 @@ keywords: prilipimas, snap, osnap, objekto prilipimas, galinis taškas, vidurio 
 from: 41d29e9b
 ---
 
-Dauguma planų rinkinių yra vektoriniai PDF: sienos ir kraštai juose yra tikros linijos, o ne taškai. Matuojant TakeoffCraft prilipdina jūsų spustelėjimus prie tų linijų, todėl ruožas prasideda tiksliai sienos kampe, o kalibravimas nuskaito braižytojo nubrėžtą matmenį, o ne pikselį, į kurį pataikėte.
+Dauguma planų rinkinių yra vektoriniai PDF: sienos ir kraštai juose yra tikros linijos, o ne taškai. Matuojant TakeoffDesk prilipdina jūsų spustelėjimus prie tų linijų, todėl ruožas prasideda tiksliai sienos kampe, o kalibravimas nuskaito braižytojo nubrėžtą matmenį, o ne pikselį, į kurį pataikėte.
 
 Prilipimas įjungtas, kai pradedate. Įjunkite ir išjunkite jį su {{ui:Prilipti}} būsenos juostoje arba {{key:F3}}; nustatymas išsaugomas šioje naršyklėje (jis taip pat yra [Parametrai](topic:settings)).
 

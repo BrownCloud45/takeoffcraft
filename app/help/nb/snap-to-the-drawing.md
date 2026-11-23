@@ -5,7 +5,7 @@ keywords: fang, osnap, objektfang, endepunkt, midtpunkt, skjæringspunkt, nærme
 from: 41d29e9b
 ---
 
-De fleste plansett er vektor-PDF-er: veggene og kantene er ekte linjer, ikke piksler. Mens du måler, fester TakeoffCraft klikkene dine til disse linjene, slik at en strekning starter nøyaktig i en veggs hjørne, og en kalibrering leser målet tegneren har tegnet, ikke pikselen du traff.
+De fleste plansett er vektor-PDF-er: veggene og kantene er ekte linjer, ikke piksler. Mens du måler, fester TakeoffDesk klikkene dine til disse linjene, slik at en strekning starter nøyaktig i en veggs hjørne, og en kalibrering leser målet tegneren har tegnet, ikke pikselen du traff.
 
 Fang er på når du starter. Slå det av og på med {{ui:Fang}} i statuslinjen eller {{key:F3}}; innstillingen lagres i denne nettleseren (den finnes også under [Innstillinger](topic:settings)).
 

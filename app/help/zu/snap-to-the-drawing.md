@@ -5,7 +5,7 @@ keywords: bambelela, osnap, object snap, iphelo, ukuphakathi, ukuhlangana, esedu
 from: 41d29e9b
 ---
 
-Amapulani amaningi yi-PDF ezivekthori: izindonga nemiphetho yazo imigqa yangempela, hhayi amaphikseli. Ngenkathi ulinganisa, i-TakeoffCraft ibambelela ukuchofoza kwakho kulowo migqa, ngakho umugqa uqala ngqo ekhoneni lodonga, futhi ukuhlola isikali kufunda isilinganiso umklami asidwebile, hhayi iphikseli oliliphindile.
+Amapulani amaningi yi-PDF ezivekthori: izindonga nemiphetho yazo imigqa yangempela, hhayi amaphikseli. Ngenkathi ulinganisa, i-TakeoffDesk ibambelela ukuchofoza kwakho kulowo migqa, ngakho umugqa uqala ngqo ekhoneni lodonga, futhi ukuhlola isikali kufunda isilinganiso umklami asidwebile, hhayi iphikseli oliliphindile.
 
 {{ui:Bambelela}} iyavuleka lapho uqala. Ivulwa ivalwe ngo-{{ui:Bambelela}} kwibha yesimo noma nge-{{key:F3}}; isilungiselelo sigcinwa kulesi siphequluli (sitholakala futhi ku-[Izilungiselelo](topic:settings)).
 

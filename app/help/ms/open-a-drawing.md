@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, lukisan, buka lukisan, layout, ruang model, ruang kerta
 from: d8c3f504
 ---
 
-TakeoffCraft membuka lukisan DWG atau DXF seperti membuka PDF: anda tidak perlu memplotnya ke PDF dahulu. Pengiraan daripada lukisan itu sendiri adalah tepat, kerana lukisan tahu apa itu setiap objek. Lihat [Kira daripada lukisan](topic:count-from-a-drawing).
+TakeoffDesk membuka lukisan DWG atau DXF seperti membuka PDF: anda tidak perlu memplotnya ke PDF dahulu. Pengiraan daripada lukisan itu sendiri adalah tepat, kerana lukisan tahu apa itu setiap objek. Lihat [Kira daripada lukisan](topic:count-from-a-drawing).
 
 ## Buka lukisan
 
@@ -13,9 +13,9 @@ TakeoffCraft membuka lukisan DWG atau DXF seperti membuka PDF: anda tidak perlu 
 2. Pilih fail DWG atau DXF. Anda boleh memilih beberapa fail, dan PDF bersamanya.
 3. Pilih Buka.
 
-Anda juga boleh lepaskan fail lukisan pada TakeoffCraft, seperti PDF. Tiada yang dimuat naik: pelayar membaca fail di komputer anda.
+Anda juga boleh lepaskan fail lukisan pada TakeoffDesk, seperti PDF. Tiada yang dimuat naik: pelayar membaca fail di komputer anda.
 
-TakeoffCraft membaca DWG dari AutoCAD 2000 hingga 2018 dan DXF ASCII dari R12 hingga 2018. Ia menolak DXF perduaan (simpan sebagai ASCII, atau sebagai DWG) dan fail yang bukan kedua-duanya, dan menyatakan sebabnya. Fail yang rosak dibuka dengan apa yang dapat dibaca, dan mesej akan menyatakannya; kiraannya mungkin tidak lengkap.
+TakeoffDesk membaca DWG dari AutoCAD 2000 hingga 2018 dan DXF ASCII dari R12 hingga 2018. Ia menolak DXF perduaan (simpan sebagai ASCII, atau sebagai DWG) dan fail yang bukan kedua-duanya, dan menyatakan sebabnya. Fail yang rosak dibuka dengan apa yang dapat dibaca, dan mesej akan menyatakannya; kiraannya mungkin tidak lengkap.
 
 ## Helaian
 
@@ -40,10 +40,10 @@ Helaian bermula dengan skala yang diberikan lukisan:
 
 ## Lukisan dipautkan (xref)
 
-Lukisan yang memautkan lukisan lain menunjukkannya di tempat ia dimasukkan. TakeoffCraft mencari lukisan dipautkan antara **fail yang dibuka**, mengikut nama failnya: buka lukisan hos dan lukisan dipautkannya bersama (atau satu selepas yang lain). Sehingga itu bar status menyatakan berapa lukisan dipautkan yang tidak dijumpai, apa yang hilang daripada lukisannya, dan kiraan menyatakannya.
+Lukisan yang memautkan lukisan lain menunjukkannya di tempat ia dimasukkan. TakeoffDesk mencari lukisan dipautkan antara **fail yang dibuka**, mengikut nama failnya: buka lukisan hos dan lukisan dipautkannya bersama (atau satu selepas yang lain). Sehingga itu bar status menyatakan berapa lukisan dipautkan yang tidak dijumpai, apa yang hilang daripada lukisannya, dan kiraan menyatakannya.
 
 ## Had
 
-- Objek yang TakeoffCraft tidak dapat baca atau letakkan (objek proksi, kelas yang tidak diketahui) disenaraikan dalam tetingkap kiraan mengikut jenis; ia tidak pernah digugurkan tanpa sebarang makluman.
+- Objek yang TakeoffDesk tidak dapat baca atau letakkan (objek proksi, kelas yang tidak diketahui) disenaraikan dalam tetingkap kiraan mengikut jenis; ia tidak pernah digugurkan tanpa sebarang makluman.
 - Lukisan yang sangat besar dilukis sebahagian, dan kiraan berhenti pada had, dengan menyatakannya. Buka plot PDF lukisan sebegitu.
 - Lukisan dilukis dalam hitam dan dalam warnanya sendiri, digelapkan untuk kertas putih. Jadual gaya plot dan tugasan pen tidak digunakan.

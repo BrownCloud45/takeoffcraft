@@ -1,6 +1,6 @@
 ---
 title: Inmatning av längd, pris och procent
-summary: Vad du kan skriva för avstånd, höjder, penningpriser och spillprocent, med exempel och meddelanden för indata som TakeoffCraft inte kan läsa.
+summary: Vad du kan skriva för avstånd, höjder, penningpriser och spillprocent, med exempel och meddelanden för indata som TakeoffDesk inte kan läsa.
 keywords: indata, format, fot och tum, bråk, decimalfot, metrisk, meter, millimeter, pris, valuta, dollar, procent, spill, skriva
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Upp till två decimaler, från 0 % till 1000%. Meddelanden: ”Skriv en procents
 ## Namn och enheter
 
 - Namn på post och komponent: högst 200 tecken.
-- En komponents {{ui:Enhet}}: valfri text på högst 20 tecken, till exempel `EA`, `sheets`, `CY`, `gal`. Det är bara en etikett; TakeoffCraft räknar inte om den.
+- En komponents {{ui:Enhet}}: valfri text på högst 20 tecken, till exempel `EA`, `sheets`, `CY`, `gal`. Det är bara en etikett; TakeoffDesk räknar inte om den.
 
 ## Formler
 

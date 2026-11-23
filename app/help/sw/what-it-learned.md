@@ -1,11 +1,11 @@
 ---
 title: Kilichojifunzwa kutoka kwenye ukadiriaji wako
-summary: TakeoffCraft huweka alama ulizothibitisha kwa Hesabu otomatiki, seti zako za masharti, mikusanyiko unayotumia zaidi na mifumo unayorudia kwenye kila ukurasa, yote ndani ya faili la ukadiriaji lenyewe. Ione, itumie, ifute.
+summary: TakeoffDesk huweka alama ulizothibitisha kwa Hesabu otomatiki, seti zako za masharti, mikusanyiko unayotumia zaidi na mifumo unayorudia kwenye kila ukurasa, yote ndani ya faili la ukadiriaji lenyewe. Ione, itumie, ifute.
 keywords: jifunze, kilichojifunzwa, kujifunza, msaidizi, kumbuka, alama, violezo, sawa na kazi iliyopita, kazi iliyopita, seti ya masharti, masharti, tumia tena, mikusanyiko, inayotumika zaidi, mapendekezo, rudia kwenye kila ukurasa, kila ukurasa, kichwa cha mchoro, mfumo, futa zote, sahau, faragha
 from: 54d99e99
 ---
 
-TakeoffCraft inakuwa haraka zaidi kadiri unavyofanya ukadiriaji nayo. Inajifunza **kutoka kwa unachokubali pekee**:
+TakeoffDesk inakuwa haraka zaidi kadiri unavyofanya ukadiriaji nayo. Inajifunza **kutoka kwa unachokubali pekee**:
 
 - alama ulizozungushia kisanduku kwa [Hesabu otomatiki](topic:auto-count) kisha ukaziongeza,
 - seti za masharti unazozihifadhi,
@@ -64,6 +64,6 @@ Ili kuacha kujifunza kwenye ukadiriaji mmoja, ondoa tiki kwenye {{ui:Jifunze kut
 
 ## Vizuri kujua
 
-- Matoleo ya zamani ya TakeoffCraft yanafungua faili lenye mambo yaliyojifunzwa kawaida. Yanapuuza sehemu hiyo, na yanaiondoa yakihifadhi faili tena.
+- Matoleo ya zamani ya TakeoffDesk yanafungua faili lenye mambo yaliyojifunzwa kawaida. Yanapuuza sehemu hiyo, na yanaiondoa yakihifadhi faili tena.
 - Alama iliyojifunzwa ni picha ndogo ya ulichozungushia kisanduku, inayohifadhiwa kwenye faili (kilobaiti chache kila moja).
 - Alama zilizojifunzwa zinatafutwa kama Hesabu otomatiki inavyotafuta, kwa hiyo mipaka ile ile inatumika: [Hesabu otomatiki ya alama](topic:auto-count).

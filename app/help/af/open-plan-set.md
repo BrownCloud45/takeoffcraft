@@ -5,7 +5,7 @@ keywords: oopmaak, planstel, verskeie pdf's, verskeie lêers, blaaie, tekeninge,
 from: ed434468
 ---
 
-'n Planstel is dikwels verskeie PDF's: argitektonies, struktureel, meganies. TakeoffCraft maak hulle langs mekaar oop as een lys van blaaie, en een hoeveelheidsopname kan almal dek.
+'n Planstel is dikwels verskeie PDF's: argitektonies, struktureel, meganies. TakeoffDesk maak hulle langs mekaar oop as een lys van blaaie, en een hoeveelheidsopname kan almal dek.
 
 ## Maak die PDF's oop
 
@@ -14,14 +14,14 @@ from: ed434468
 3. Kies Maak oop.
    'n Boodskap "Besig om (name) oop te maak…" wys terwyl elke lêer gelees word. Dan verskyn elke bladsy onder {{ui:Blaaie}}, en die eerste bladsy van die eerste nuwe PDF maak oop.
 
-Jy kan ook die PDF's uit {{pick:mac=Finder|windows=Lêerverkenner|linux=jou lêerbestuurder}} sleep en oral op TakeoffCraft laat val. 'n Raam "Laat PDF's, DWG- of DXF-tekeninge, of 'n .takeoff.json val" verskyn terwyl jy sleep.
+Jy kan ook die PDF's uit {{pick:mac=Finder|windows=Lêerverkenner|linux=jou lêerbestuurder}} sleep en oral op TakeoffDesk laat val. 'n Raam "Laat PDF's, DWG- of DXF-tekeninge, of 'n .takeoff.json val" verskyn terwyl jy sleep.
 
 Om later meer PDF's by te voeg, doen dieselfde weer. PDF's wat reeds oop is, word oorgeslaan.
 
 Die beginskerm lys ook die PDF's en hoeveelheidsopnames wat jy onlangs oopgemaak het, in blaaiers wat 'n bladsy toelaat om 'n lêer weer oop te maak (Chrome en Edge). Klik op een om dit oop te maak; die blaaier mag eers toestemming vra. Sien [Jou lêers](common:your-files).
 
 :::note
-Niks word opgelaai nie. Die blaaier lees die PDF's op jou rekenaar, en hulle is weg uit TakeoffCraft wanneer jy die oortjie toemaak of {{ui:Nuut}} kies.
+Niks word opgelaai nie. Die blaaier lees die PDF's op jou rekenaar, en hulle is weg uit TakeoffDesk wanneer jy die oortjie toemaak of {{ui:Nuut}} kies.
 :::
 
 ## Tekeninge langs PDF's
@@ -30,7 +30,7 @@ Niks word opgelaai nie. Die blaaier lees die PDF's op jou rekenaar, en hulle is 
 
 ## 'n PDF wat van 'n ander toepassing oorhandig is
 
-'n Ander toepassing van die reeks kan jou die PDF oorhandig wat dit oop het: dit maak TakeoffCraft in 'n nuwe oortjie oop en die PDF maak daar oop asof jy dit laat val het. Die statusbalk sê "(naam) oopgemaak, oorhandig vanaf (toepassing). Die oorspronklike lêer is onveranderd." Niks word opgelaai nie; die lêer gaan deur hierdie blaaier se eie berging en is daaruit weg sodra dit oopmaak.
+'n Ander toepassing van die reeks kan jou die PDF oorhandig wat dit oop het: dit maak TakeoffDesk in 'n nuwe oortjie oop en die PDF maak daar oop asof jy dit laat val het. Die statusbalk sê "(naam) oopgemaak, oorhandig vanaf (toepassing). Die oorspronklike lêer is onveranderd." Niks word opgelaai nie; die lêer gaan deur hierdie blaaier se eie berging en is daaruit weg sodra dit oopmaak.
 
 As die statusbalk sê die PDF "het nie aangekom nie", het die oortjie te lank gewag of die PDF is reeds in 'n ander oortjie oopgemaak: maak dit oop met {{ui:Maak planne oop}}.
 

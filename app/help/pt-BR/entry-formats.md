@@ -1,6 +1,6 @@
 ---
 title: Entrada de comprimento, preço unitário e percentual
-summary: O que você pode digitar para distâncias, alturas, preços unitários em dinheiro e percentuais de perda, com exemplos e as mensagens para entradas que o TakeoffCraft não consegue ler.
+summary: O que você pode digitar para distâncias, alturas, preços unitários em dinheiro e percentuais de perda, com exemplos e as mensagens para entradas que o TakeoffDesk não consegue ler.
 keywords: entrada, formato, pés e polegadas, frações, pés decimais, métrico, metros, milímetros, preço unitário, dinheiro, dólares, percentual, perda, digitação
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Até duas casas decimais, de 0% a 1000%. Mensagens: "Digite um percentual como 1
 ## Nomes e unidades
 
 - Nomes de itens e de componentes: até 200 caracteres.
-- A {{ui:Unidade}} de um componente: qualquer texto de até 20 caracteres, como `EA`, `sheets`, `CY`, `gal`. É apenas um rótulo; o TakeoffCraft não converte.
+- A {{ui:Unidade}} de um componente: qualquer texto de até 20 caracteres, como `EA`, `sheets`, `CY`, `gal`. É apenas um rótulo; o TakeoffDesk não converte.
 
 ## Fórmulas
 

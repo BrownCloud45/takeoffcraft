@@ -1,6 +1,6 @@
 ---
 title: Semak stok pembekal dan masa penghantaran
-summary: Tambah senarai stok pembekal (CSV atau hamparan) dan TakeoffCraft menyemak apa yang diperlukan oleh pengukuran kuantiti, termasuk pembaziran, terhadapnya: cukup dalam stok, dan berapa lama tempoh menunggu. Kekurangan dan tempoh menunggu yang panjang ditunjukkan dalam panel Masalah.
+summary: Tambah senarai stok pembekal (CSV atau hamparan) dan TakeoffDesk menyemak apa yang diperlukan oleh pengukuran kuantiti, termasuk pembaziran, terhadapnya: cukup dalam stok, dan berapa lama tempoh menunggu. Kekurangan dan tempoh menunggu yang panjang ditunjukkan dalam panel Masalah.
 keywords: pembekal, stok, dalam stok, masa penghantaran, ketersediaan, kekurangan, pesanan tertunggak, senarai pesanan, csv, sku, vendor, bahan, bekalan, masalah
 from: f11160fb
 ---

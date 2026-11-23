@@ -17,6 +17,7 @@ import { UNITS, fixed } from './units.js';
 import { pathOps, spans } from './geom.js';
 import { t } from './i18n.js';
 import { pageMarkerRadius, OUTLINE } from './countmarker.js';
+import { lineStyleOf, strokeOf, iconBytes } from './itemlook.js';
 
 /** Helvetica (WinAnsi) can't draw every character; anything else prints as "?". */
 export const winAnsi = (s) => String(s).replace(/[^\x20-\x7E\xA0-\xFF€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ]/g, '?');
@@ -48,6 +49,7 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
   const fillGs = doc.context.obj({ Type: 'ExtGState', ca: 0.22, CA: 1 });
   const dotGs = doc.context.obj({ Type: 'ExtGState', ca: 0.85, CA: 1 });
   let marked = 0, drawn = 0;
+  const iconCache = new Map();
 
   for (let p = 0; p < pages.length; p++) {
     const key = fileHash + ':' + p;
@@ -71,15 +73,24 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
         else ops.push(closePath());
       }
     };
+    // TakeoffDesk: the item's line style (itemlook.js); `trace` lays the path down again for the second pass of a double line
+    const styled = (style, trace) => {
+      const s = strokeOf(style, w);
+      ops.push(pushGraphicsState(), setLineWidth(s.width), setDashPattern(s.dash, 0));
+      if (s.round) ops.push(setLineCap(1));
+      trace(); ops.push(stroke());
+      if (s.gap) { ops.push(setStrokingColor(rgb(1, 1, 1)), setLineWidth(s.gap), setDashPattern([], 0)); trace(); ops.push(stroke()); }
+      ops.push(popGraphicsState());
+    };
+    const iconMarks = [];
     for (const m of marks) {
-      const color = hexRgb(PDFLib, items.get(m.item).color);
+      const it = items.get(m.item), color = hexRgb(PDFLib, it.color), style = lineStyleOf(it);
       ops.push(setStrokingColor(color), setFillingColor(color));
       if (m.kind === 'linear') {
         // deduct segments (T2) dashed and thin: drawn, not counted
         for (const sp of spans(m.pts, new Set(m.deducts || []))) {
-          if (sp.deduct) ops.push(pushGraphicsState(), setLineWidth(w * 0.6), setDashPattern([w * 4, w * 3], 0));
-          path(sp.pts, false); ops.push(stroke());
-          if (sp.deduct) ops.push(popGraphicsState());
+          if (sp.deduct) { ops.push(pushGraphicsState(), setLineWidth(w * 0.6), setDashPattern([w * 4, w * 3], 0)); path(sp.pts, false); ops.push(stroke(), popGraphicsState()); }
+          else styled(style, () => path(sp.pts, false));
         }
       }
       else if (m.kind === 'area') {
@@ -87,9 +98,9 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
         path(m.pts, true);
         for (const h of m.holes) path(h, true);
         ops.push(PDFOperator.of(Ops.FillEvenOdd), popGraphicsState());
-        path(m.pts, true);
-        for (const h of m.holes) path(h, true);
-        ops.push(stroke());
+        styled(style, () => { path(m.pts, true); for (const h of m.holes) path(h, true); });
+      } else if (it.icon && iconBytes(it.icon)) {
+        iconMarks.push(m);                                 // drawn as an image over the marks, below
       } else {
         const r = dotR, k = 0.5523 * r, { x, y } = m.pts[0];
         ops.push(pushGraphicsState(), setGraphicsState(dotName), setStrokingColor(rgb(1, 1, 1)), setLineWidth(r * OUTLINE), moveTo(x + r, y),
@@ -101,11 +112,17 @@ export async function pdfWithMarks(PDFLib, bytes, fileHash, state, { legend = tr
     }
     ops.push(popGraphicsState());
     page.pushOperators(...ops);
+    for (const m of iconMarks) {                           // TakeoffDesk: count marks with the item's icon, the dot's size × 1.6 each way
+      const it = items.get(m.item);
+      if (!iconCache.has(it.icon)) iconCache.set(it.icon, await doc.embedPng(iconBytes(it.icon)).catch(() => null));
+      const img = iconCache.get(it.icon), r = dotR * 1.6, { x, y } = m.pts[0];
+      if (img) page.drawImage(img, { x: x - r, y: y - r, width: 2 * r, height: 2 * r });
+    }
     if (notes.length) drawNotes(PDFLib, doc, page, notes, w, font, bold);
     if (legend && marks.length) drawLegend(PDFLib, page, box, font, bold, marks, items, q, key, { rgb, degrees });
     marked++;
   }
-  doc.setProducer('TakeoffCraft (pdf-lib)');
+  doc.setProducer('TakeoffDesk (pdf-lib)');
   const out = await doc.save({ useObjectStreams: false });
   return { bytes: out, pages: marked, marks: drawn };
 }

@@ -77,7 +77,7 @@ Mỗi tờ có tỷ lệ hoặc dấu một hàng.
 | Tờ | Tên tờ |
 | Tỷ lệ | Tên tỷ lệ đặt sẵn, hoặc tỷ lệ đã hiệu chuẩn, hoặc "Không có tỷ lệ" |
 | Cách đặt | "Đặt sẵn", hoặc "Hiệu chuẩn theo (khoảng cách bạn đã nhập)" |
-| Feet trên mỗi đơn vị PDF | Hệ số tỷ lệ chính xác mà TakeoffCraft dùng |
+| Feet trên mỗi đơn vị PDF | Hệ số tỷ lệ chính xác mà TakeoffDesk dùng |
 
 ## Tên tệp
 

@@ -1,6 +1,6 @@
 ---
 title: Autotell et symbol
-summary: Tegn en boks rundt ett symbol, la TakeoffCraft finne de andre på dette arket eller på alle åpne ark, gå gjennom treffene med glidebryteren, og legg dem til i ett trinn.
+summary: Tegn en boks rundt ett symbol, la TakeoffDesk finne de andre på dette arket eller på alle åpne ark, gå gjennom treffene med glidebryteren, og legg dem til i ett trinn.
 keywords: vilkårlig vinkel, rotert, vridd, annen målestokk, ulik målestokk, autotelling, automatisk telling, symbolsøk, finn symboler, mønster, mal, treff, gjenkjenn, telleverktøy
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Vil du forkaste gjennomgangen uten å legge til noe, velg {{ui:Forkast}} eller t
 
 ## Hva den finner, og hva den bommer på
 
-TakeoffCraft sammenligner tegningen, som piksler, med symbolet du tegnet boksen rundt.
+TakeoffDesk sammenligner tegningen, som piksler, med symbolet du tegnet boksen rundt.
 
 - Den finner symbolet når det er snudd 0°, 90°, 180° og 270°. Kryss av for {{ui:Hvilken som helst vinkel (tregere)}} i autotellingsfeltet før du tegner boksen, for å finne det i alle vinkler også: den prøver hver 15° og finjusterer deretter hvert treff til en grad og en halv grad. Det tar omtrent seks ganger så lang tid. Den finner ikke et speilvendt symbol (med mindre symbolet ser likt ut speilvendt).
 - Med {{ui:Søk i alle åpne ark}} avkrysset søkes et ark i en annen målestokk i den størrelsen symbolet har der: et armatur tegnet i riktig målestokk på en 1/8" plan er halvparten så stort som på en 1/4" plan, og blir fortsatt funnet. Et slikt ark søkes også i boksens egen størrelse, for merkelapper og symboler som er skrevet ut i én størrelse på alle ark. Dette krever en målestokk på begge ark; et ark uten målestokk søkes bare i boksens størrelse.

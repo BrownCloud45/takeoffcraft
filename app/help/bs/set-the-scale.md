@@ -5,7 +5,7 @@ keywords: otkrij razmjeru, pročitaj razmjeru, razmjera iz teksta, svi listovi, 
 from: 8f0148e6
 ---
 
-Svaki list ima svoju razmjeru. Ti je postaviš ili pustiš da TakeoffCraft pročita tekst listova (dolje), pa je provjeriš. Dok list nema razmjeru, {{ui:Linijski}}, {{ui:Površina}}, {{ui:Krug}} i {{ui:Izrez}} odbijaju da mjere na njemu. {{ui:Brojanje}} i {{ui:Auto brojanje}} rade bez razmjere.
+Svaki list ima svoju razmjeru. Ti je postaviš ili pustiš da TakeoffDesk pročita tekst listova (dolje), pa je provjeriš. Dok list nema razmjeru, {{ui:Linijski}}, {{ui:Površina}}, {{ui:Krug}} i {{ui:Izrez}} odbijaju da mjere na njemu. {{ui:Brojanje}} i {{ui:Auto brojanje}} rade bez razmjere.
 
 Spisak listova prikazuje razmjeru svakog lista, ili **Nema razmjere**. Traka ispod otvorenog lista kaže isto.
 
@@ -23,7 +23,7 @@ Cijeli spisak je u [Unaprijed zadane razmjere](topic:scale-presets).
 
 ## Čitaj razmjere iz teksta listova
 
-Većina crteža navodi razmjeru: `SCALE: 1/4" = 1'-0"` u naslovnom bloku, `1:100` ispod pogleda. TakeoffCraft je može pročitati i postaviti svaki list odjednom.
+Većina crteža navodi razmjeru: `SCALE: 1/4" = 1'-0"` u naslovnom bloku, `1:100` ispod pogleda. TakeoffDesk je može pročitati i postaviti svaki list odjednom.
 
 1. Otvori listu {{ui:Unaprijed zadana}} i odaberi {{ui:Iz teksta listova…}} (na vrhu).
 2. Lista prikazuje svaki list: njegovu trenutnu razmjeru i šta kaže njegov tekst — **Kaže 1/4" = 1'-0"**, **Nema razmjere u tekstu** ili **Kaže da nije u razmjeri** (NTS).
@@ -44,7 +44,7 @@ Koristi ovo kad nema odštampane razmjere kojoj vjeruješ, set je promijenjen, i
 5. Upiši stvarnu dužinu u **Stvarna dužina**, na primjer `24'-6 1/2"`, `24.5` (decimalne stope), `30"` ili `7.5 m`. Pogledaj [Unos dužine, cijene i postotka](topic:entry-formats).
 6. Odaberi {{ui:Postavi razmjeru}}.
    Statusna traka prikazuje razmjeru kao "1" = (n)'", a kad je unutar 0.5% od unaprijed zadane, kaže koja je, na primjer "što odgovara 1/4" = 1'-0" (odaberi tu unaprijed zadanu za tačnu razmjeru)".
-   TakeoffCraft se vraća na alat {{ui:Odaberi}}.
+   TakeoffDesk se vraća na alat {{ui:Odaberi}}.
 
 Kad se kalibracija poklapa s unaprijed zadanom razmjerom, odabir te unaprijed zadane daje tačnu razmjeru umjesto one koja zavisi od mjesta gdje si kliknuo.
 
@@ -61,11 +61,11 @@ Pritisni {{key:Esc}} da obrišeš liniju provjere.
 
 ## Promijeni razmjeru
 
-Odaberi drugu unaprijed zadanu ili ponovo kalibriraj. Ako list već ima mjerenja, TakeoffCraft pita **Promijeniti razmjeru ovog lista?** i kaže koliko će se mjerenja ponovo izmjeriti. Odaberi {{ui:Promijeni razmjeru}}. Svaka dionica i površina na listu se ponovo mjeri u novoj razmjeri. Možeš poništiti sa {{key:Mod+Z}}.
+Odaberi drugu unaprijed zadanu ili ponovo kalibriraj. Ako list već ima mjerenja, TakeoffDesk pita **Promijeniti razmjeru ovog lista?** i kaže koliko će se mjerenja ponovo izmjeriti. Odaberi {{ui:Promijeni razmjeru}}. Svaka dionica i površina na listu se ponovo mjeri u novoj razmjeri. Možeš poništiti sa {{key:Mod+Z}}.
 
 ## Zašto listovi bez razmjere nisu računati kao nula
 
-Oznaka na listu bez razmjere nema stvarnu dužinu ni površinu. TakeoffCraft je nikad ne računa kao nulu, jer bi to tiho učinilo tvoj predmjer preniskim. Umjesto toga:
+Oznaka na listu bez razmjere nema stvarnu dužinu ni površinu. TakeoffDesk je nikad ne računa kao nulu, jer bi to tiho učinilo tvoj predmjer preniskim. Umjesto toga:
 
 - izostavlja te oznake iz zbirova,
 - prikazuje "+(n) bez razmjere" pored stavke u {{ui:Količine}},
@@ -77,5 +77,5 @@ Ovo se može desiti kad otvoriš projekat čije razmjere nikad nisu postavljene.
 ## Savjeti
 
 - Postavi razmjeru na svakom listu koji ćeš mjeriti prije početka. Pregledaj spisak listova za **Nema razmjere** da nađeš one koji su ostali (polje za pretragu gleda nazive listova, a ne razmjere).
-- Detalji i uvećani planovi na istom listu često koriste drugu razmjeru. TakeoffCraft ima jednu razmjeru po listu; pogledaj [Šta još nije urađeno](topic:not-built-yet).
+- Detalji i uvećani planovi na istom listu često koriste drugu razmjeru. TakeoffDesk ima jednu razmjeru po listu; pogledaj [Šta još nije urađeno](topic:not-built-yet).
 - Metrički crteži: odaberi metričku unaprijed zadanu poput `1:100`, ili kalibriraj metričkom dužinom poput `6000 mm`.

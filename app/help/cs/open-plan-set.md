@@ -5,7 +5,7 @@ keywords: otevřít, sada plánů, více pdf, více souborů, listy, výkresy, p
 from: ed434468
 ---
 
-Sada plánů je často několik PDF: architektonické, konstrukční, technické. TakeoffCraft je otevře vedle sebe jako jeden seznam listů a jeden výkaz může pokrýt všechny.
+Sada plánů je často několik PDF: architektonické, konstrukční, technické. TakeoffDesk je otevře vedle sebe jako jeden seznam listů a jeden výkaz může pokrýt všechny.
 
 ## Otevření PDF
 
@@ -14,14 +14,14 @@ Sada plánů je často několik PDF: architektonické, konstrukční, technické
 3. Zvolte Otevřít.
    Během načítání každého souboru se zobrazuje zpráva "Otevírání (název)…". Pak se každá stránka objeví v seznamu {{ui:Sheets}} a otevře se první stránka prvního nově otevřeného PDF.
 
-PDF můžete také přetáhnout z {{pick:mac=Finderu|windows=Průzkumníka souborů|linux=vašeho správce souborů}} a pustit kamkoli na TakeoffCraft. Během tažení se objeví rámec "Přetáhněte PDF, výkresy DWG nebo DXF, nebo soubor .takeoff.json".
+PDF můžete také přetáhnout z {{pick:mac=Finderu|windows=Průzkumníka souborů|linux=vašeho správce souborů}} a pustit kamkoli na TakeoffDesk. Během tažení se objeví rámec "Přetáhněte PDF, výkresy DWG nebo DXF, nebo soubor .takeoff.json".
 
 PDF přidáte později stejným postupem. PDF, která jsou už otevřená, se přeskočí.
 
 Úvodní obrazovka také vypisuje PDF a výkazy, které jste nedávno otevřeli, v prohlížečích, které stránce umožňují znovu otevřít soubor (Chrome a Edge). Kliknutím jeden otevřete; prohlížeč může nejdřív požádat o souhlas. Viz [Vaše soubory](common:your-files).
 
 :::note
-Nic se nenahrává. Prohlížeč čte PDF v počítači a po zavření karty nebo volbě {{ui:New}} jsou z TakeoffCraftu pryč.
+Nic se nenahrává. Prohlížeč čte PDF v počítači a po zavření karty nebo volbě {{ui:New}} jsou z TakeoffDesku pryč.
 :::
 
 ## Výkresy vedle PDF
@@ -30,7 +30,7 @@ Nic se nenahrává. Prohlížeč čte PDF v počítači a po zavření karty neb
 
 ## PDF předané z jiné aplikace
 
-Jiná aplikace sady vám může předat PDF, které má otevřené: otevře TakeoffCraft v nové kartě a PDF se tam otevře, jako byste ho přetáhli. Stavový řádek hlásí "Otevřeno (název), předáno z (aplikace). Původní soubor je beze změny." Nic se nenahrává; soubor prochází úložištěm tohoto prohlížeče a po otevření z něj zmizí.
+Jiná aplikace sady vám může předat PDF, které má otevřené: otevře TakeoffDesk v nové kartě a PDF se tam otevře, jako byste ho přetáhli. Stavový řádek hlásí "Otevřeno (název), předáno z (aplikace). Původní soubor je beze změny." Nic se nenahrává; soubor prochází úložištěm tohoto prohlížeče a po otevření z něj zmizí.
 
 Pokud stavový řádek říká, že PDF "nedorazilo", karta čekala příliš dlouho nebo bylo PDF už otevřeno v jiné kartě: otevřete je pomocí {{ui:Open plans}}.
 

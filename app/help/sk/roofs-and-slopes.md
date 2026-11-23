@@ -5,7 +5,7 @@ keywords: strecha, sklon, svah, koeficient sklonu, stúpanie, priebeh, 6:12, št
 from: 38225b60
 ---
 
-Pôdorys strechy zobrazuje každú rovinu strechy vodorovne, ako ju vidno zhora. Samotná strecha je však väčšia: rovina so sklonom 6:12 má približne o 12 % väčší povrch ako jej pôdorys a jej šikmé hrany sú dlhšie, než vyzerajú. Priraďte položke jej sklon a TakeoffCraft zmeria pozdĺž svahu.
+Pôdorys strechy zobrazuje každú rovinu strechy vodorovne, ako ju vidno zhora. Samotná strecha je však väčšia: rovina so sklonom 6:12 má približne o 12 % väčší povrch ako jej pôdorys a jej šikmé hrany sú dlhšie, než vyzerajú. Priraďte položke jej sklon a TakeoffDesk zmeria pozdĺž svahu.
 
 ## Zadanie sklonu
 

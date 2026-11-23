@@ -39,4 +39,4 @@ Elke post draagt ook zijn CSI MasterFormat-nummer, zoals `09 21 16`.
 
 {{ui:Exporteren als pakket…}} in de bibliotheek slaat die op als pakketbestand (`.ccpack.json`) dat iedereen kan toevoegen met {{ui:Een pakketbestand openen…}}. Standaard laat het de posten weg die afkomstig zijn van pakketten die u hebt toegevoegd, en het bevat geen tarieven. Vink {{ui:Mijn tarieven opnemen als voorbeeldtarieven}} aan om ook uw tarieven mee te sturen: ze worden meegestuurd met de regio en de datum die u opgeeft, en wie het pakket toevoegt, kiest zelf of hij ze gebruikt.
 
-Pakketbestanden zijn gewone gegevens, nooit programma's. TakeoffCraft controleert elk onderdeel ervan voordat het wordt gebruikt en laat alles weg wat het niet kan lezen.
+Pakketbestanden zijn gewone gegevens, nooit programma's. TakeoffDesk controleert elk onderdeel ervan voordat het wordt gebruikt en laat alles weg wat het niet kan lezen.

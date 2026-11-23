@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * lencalc.js — arithmetic over typed lengths (0.6 DF.3, Jame on Discord: "4+7/16" instead of 4.4375). Import-free and
- * DOM-free: the canonical file is cadcraft/dev/lencalc.js; TakeoffCraft, DetailCraft, CivilCraft and MarkupCraft keep
+ * DOM-free: the canonical file is cadcraft/dev/lencalc.js; TakeoffDesk, DetailCraft, CivilCraft and MarkupCraft keep
  * byte-identical copies (`node tools/lencalc/sync.mjs [--check] [app…]`; never edit a copy). Each app reads the lengths
  * themselves with its own parser and hands it in as `atom`.
  *
@@ -9,7 +9,7 @@
  *                        | { ok: false, code, pos (0-based character), text }
  *     atom(text) → { value, unit: true | false } | null     one length as the app reads it ("12'6\"", "3/4\"", "450mm", "6")
  *     opt: { maxLength = 500, maxDepth = 50, plain = 1 }   plain: what one plain number is in the length's unit when it is
- *          used as a length (added to one, or the whole answer): TakeoffCraft's bare numbers are in the default unit
+ *          used as a length (added to one, or the whole answer): TakeoffDesk's bare numbers are in the default unit
  *   hasArithmetic(src) → does the text hold an operator a plain length never has (callers keep their own fast path)
  *   CALC_ERRORS: the codes — char (that character has no place here), end (the text ends too soon), paren (a "(" is not
  *                closed), extra (something after the end), length (`text` is not a length), divide (by zero), deep (too
@@ -21,7 +21,7 @@
  *   unary   := ('-' | '+') unary | primary
  *   primary := length | name '(' expr ')' | '(' expr ')'
  *
- * The rules of TakeoffCraft's formula.js: never eval / Function, functions only from a null-prototype table (abs, round,
+ * The rules of TakeoffDesk's formula.js: never eval / Function, functions only from a null-prototype table (abs, round,
  * ceil, floor: they keep the unit), a depth limit, and a refusal that says where (never a quiet 0). × ÷ − – are read as
  * * / - -. A bare number is a length in drawing units when it is added to a length (12'6" + 3 = 12'9" in an inch drawing)
  * and a plain factor when it multiplies or divides one (2*450mm, (24'-0")/3).

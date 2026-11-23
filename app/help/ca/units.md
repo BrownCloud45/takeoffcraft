@@ -55,4 +55,4 @@ L'escala d'un full indica com de gran és el dibuix; la unitat d'un element indi
 
 ## Precisió
 
-TakeoffCraft mesura exactament a partir dels punts on fas clic, incloent-hi les longituds i àrees reals dels arcs, i no arrodoneix les quantitats. La pantalla arrodoneix les longituds a 1/16 de polzada i els decimals a dos llocs. Els imports es rodonen només als imports de línia, al cèntim.
+TakeoffDesk mesura exactament a partir dels punts on fas clic, incloent-hi les longituds i àrees reals dels arcs, i no arrodoneix les quantitats. La pantalla arrodoneix les longituds a 1/16 de polzada i els decimals a dos llocs. Els imports es rodonen només als imports de línia, al cèntim.

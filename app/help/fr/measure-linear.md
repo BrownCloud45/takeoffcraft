@@ -30,7 +30,7 @@ Pendant le tracé :
 - Glisser déplace la feuille (panoramique) et la molette zoome, sans ajouter de points.
 
 :::mac
-Sur un pavé tactile Mac, le clic droit est un clic à deux doigts (activez le clic secondaire dans Réglages système, sous Trackpad). TakeoffCraft lit uniquement le bouton secondaire, donc un Control-clic peut être pris pour un simple clic et ajouter un point. Double-clic ou {{key:Enter}} terminent toujours.
+Sur un pavé tactile Mac, le clic droit est un clic à deux doigts (activez le clic secondaire dans Réglages système, sous Trackpad). TakeoffDesk lit uniquement le bouton secondaire, donc un Control-clic peut être pris pour un simple clic et ajouter un point. Double-clic ou {{key:Enter}} terminent toujours.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Après le premier point, vous pouvez saisir l'emplacement du suivant au lieu de 
 | `@6',-4'` | à 6' à droite et 4' vers le bas du dernier point |
 | `6',4'` (ou `#6',4'`) | à 6' à droite et 4' vers le haut depuis le premier point de ce tronçon |
 
-Les longueurs se saisissent comme partout dans TakeoffCraft ([Formats de saisie](topic:entry-formats)) : `12'-6 1/2"`, `12.5` (pieds), `30"`, `3.2 m`. « Droite » et « haut » sont tels que vous voyez la feuille, y compris lorsque la page PDF est tournée.
+Les longueurs se saisissent comme partout dans TakeoffDesk ([Formats de saisie](topic:entry-formats)) : `12'-6 1/2"`, `12.5` (pieds), `30"`, `3.2 m`. « Droite » et « haut » sont tels que vous voyez la feuille, y compris lorsque la page PDF est tournée.
 
 {{key:Enter}} sur une case vide termine le tronçon, comme {{key:Enter}} sur la feuille ; {{key:Esc}} ferme la case et laisse le tronçon en cours. Les points saisis suivent les mêmes règles que les clics : déductions, arcs et fermeture d'une surface fonctionnent tous. La même case fonctionne dans {{ui:Surface}} et {{ui:Découpe}} ; après le centre d'un cercle, elle demande le rayon.
 

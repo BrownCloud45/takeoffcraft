@@ -30,7 +30,7 @@ Dok crtate:
 - Prevlačenje pomera list, a točkić zumira, bez dodavanja tačaka.
 
 :::mac
-Na Mac tačpedu, desni klik je dvoprstni klik (uključite sekundarni klik u Sistemskim podešavanjima, pod Tačped). TakeoffCraft čita samo sekundarno dugme, pa se Control-klik može uzeti kao običan klik i dodati tačku. Dvoklik ili {{key:Enter}} uvek završavaju.
+Na Mac tačpedu, desni klik je dvoprstni klik (uključite sekundarni klik u Sistemskim podešavanjima, pod Tačped). TakeoffDesk čita samo sekundarno dugme, pa se Control-klik može uzeti kao običan klik i dodati tačku. Dvoklik ili {{key:Enter}} uvek završavaju.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Posle prve tačke možete ukucati gde ide sledeća umesto da kliknete. Ukucajte 
 | `@6',-4'` | 6' desno i 4' dole od poslednje tačke |
 | `6',4'` (ili `#6',4'`) | 6' desno i 4' gore od prve tačke ove deonice |
 
-Dužine se unose kao i svuda u TakeoffCraft-u ([Formati unosa](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stope), `30"`, `3.2 m`. „Desno“ i „gore“ su kako vidite list, i kada je PDF strana okrenuta.
+Dužine se unose kao i svuda u TakeoffDesk-u ([Formati unosa](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stope), `30"`, `3.2 m`. „Desno“ i „gore“ su kako vidite list, i kada je PDF strana okrenuta.
 
 {{key:Enter}} na praznom polju završava deonicu, kao {{key:Enter}} na listu; {{key:Esc}} zatvara polje i ostavlja deonicu u toku. Unete tačke prolaze ista pravila kao klikovi: odbici, lukovi i zatvaranje površine rade svi. Isto polje radi u {{ui:Površina}} i {{ui:Izrez}}; posle centra kruga uzima poluprečnik.
 

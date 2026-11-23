@@ -1,6 +1,6 @@
 ---
 title: Comprova l'estoc del proveïdor i els terminis de lliurament
-summary: Afegeix la llista d'estoc d'un proveïdor (CSV o full de càlcul) i TakeoffCraft hi comprova el que necessita l'amidament, amb la pèrdua inclosa: n'hi ha prou en estoc i quant triga. Les mancances i les esperes llargues es mostren al tauler de Problemes.
+summary: Afegeix la llista d'estoc d'un proveïdor (CSV o full de càlcul) i TakeoffDesk hi comprova el que necessita l'amidament, amb la pèrdua inclosa: n'hi ha prou en estoc i quant triga. Les mancances i les esperes llargues es mostren al tauler de Problemes.
 keywords: proveïdor, estoc, en estoc, termini de lliurament, disponibilitat, mancança, comanda pendent, llista de comanda, csv, SKU, venedor, materials, subministrament, problemes
 from: f11160fb
 ---

@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Co uděláte
 
-Změníte, jak TakeoffCraft zobrazuje délky, aby metrická zakázka čitelně ukazovala metry, centimetry nebo milimetry na listu, ve stavovém řádku i v panelech.
+Změníte, jak TakeoffDesk zobrazuje délky, aby metrická zakázka čitelně ukazovala metry, centimetry nebo milimetry na listu, ve stavovém řádku i v panelech.
 
 ## Postup
 
-1. Otevřete {{ui:Nastavení}} ozubeným kolečkem v horní liště nebo klávesovou zkratkou {{key:Mod+,}} a zůstaňte na kartě {{ui:TakeoffCraft}}.
+1. Otevřete {{ui:Nastavení}} ozubeným kolečkem v horní liště nebo klávesovou zkratkou {{key:Mod+,}} a zůstaňte na kartě {{ui:TakeoffDesk}}.
 2. Najděte {{ui:Zobrazit délky jako}} a zvolte {{ui:Stopy a palce}}, m, cm nebo mm. {{ui:Podle globálního nastavení}} použije metrickou jednotku délky označenou hvězdičkou v {{ui:Nastavení}} › {{ui:Globální}} › {{ui:Jednotky}}; pokud žádná označená není, použije stopy a palce.
 3. Podívejte se na list: délky ve stavovém řádku, v seznamu položek a v panelech se nyní zobrazují v jednotce, kterou jste zvolili. Výšky, hloubka, tloušťka i úrovně také.
 4. Chcete-li zobrazit teploty položek ve stupních C nebo F, zvolte {{ui:Zobrazit teploty jako}} na stejné kartě.

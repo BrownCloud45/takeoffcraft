@@ -1,11 +1,11 @@
 ---
-title: O que o TakeoffCraft aprendeu com seus levantamentos
-summary: O TakeoffCraft guarda os símbolos que você confirmou com a Contagem automática, seus conjuntos de condições, as composições que você mais usa e os padrões que você repete em todas as páginas, tudo dentro do próprio arquivo do levantamento. Veja, use e exclua.
+title: O que o TakeoffDesk aprendeu com seus levantamentos
+summary: O TakeoffDesk guarda os símbolos que você confirmou com a Contagem automática, seus conjuntos de condições, as composições que você mais usa e os padrões que você repete em todas as páginas, tudo dentro do próprio arquivo do levantamento. Veja, use e exclua.
 keywords: aprender, aprendido, aprendizado, assistente, lembrar, símbolos, modelos, igual ao último trabalho, último trabalho, conjunto de condições, condições, reutilizar, composições, mais usadas, sugestões, repetir em todas as páginas, todas as páginas, legenda, padrão, limpar tudo, esquecer, privacidade
 from: 54d99e99
 ---
 
-O TakeoffCraft fica mais rápido quanto mais levantamentos você faz com ele. Ele aprende **somente com o que você aceita**:
+O TakeoffDesk fica mais rápido quanto mais levantamentos você faz com ele. Ele aprende **somente com o que você aceita**:
 
 - os símbolos que você delimitou com a [Contagem automática](topic:auto-count) e depois adicionou,
 - os conjuntos de condições que você salvar,
@@ -64,6 +64,6 @@ Para parar de aprender em um levantamento, desmarque {{ui:Aprender com este leva
 
 ## Vale saber
 
-- Versões anteriores do TakeoffCraft abrem um arquivo com coisas aprendidas normalmente. Elas ignoram essa parte e a descartam se salvarem o arquivo de novo.
+- Versões anteriores do TakeoffDesk abrem um arquivo com coisas aprendidas normalmente. Elas ignoram essa parte e a descartam se salvarem o arquivo de novo.
 - Um símbolo aprendido é uma pequena imagem do que você delimitou, guardada no arquivo (alguns quilobytes cada).
 - Símbolos aprendidos são pesquisados como a Contagem automática pesquisa, então os mesmos limites se aplicam: [Contar um símbolo com a Contagem automática](topic:auto-count).

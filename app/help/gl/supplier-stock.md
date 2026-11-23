@@ -1,6 +1,6 @@
 ---
 title: Comprobar o stock e os prazos de entrega do provedor
-summary: Engade a lista de stock dun provedor (CSV ou folla de cálculo) e TakeoffCraft comproba contra ela o que precisa a medición, con desperdicio: se hai suficiente en stock e canto dura a espera. As faltas e as esperas longas aparecen no panel Problemas.
+summary: Engade a lista de stock dun provedor (CSV ou folla de cálculo) e TakeoffDesk comproba contra ela o que precisa a medición, con desperdicio: se hai suficiente en stock e canto dura a espera. As faltas e as esperas longas aparecen no panel Problemas.
 keywords: provedor, stock, en stock, prazo de entrega, dispoñibilidade, falta, pedido pendente, lista de pedido, csv, sku, vendedor, materiais, subministro, problemas
 from: f11160fb
 ---

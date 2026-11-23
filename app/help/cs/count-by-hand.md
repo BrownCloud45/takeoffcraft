@@ -14,7 +14,7 @@ Položka počtu počítá věci: dveře, svítidla, zásuvky, sanitární armatu
 3. Klikněte na každý kus na listu.
    Každé kliknutí dá tečku v barvě položky a počet položky se zvýší o jedna.
 4. Přejděte na další list ({{key:PageDown}}) a počítejte dál. Nástroj zůstává na {{ui:Počet}}.
-5. Až budete hotovi, stiskněte {{key:Esc}}. TakeoffCraft se vrátí na {{ui:Vybrat}}.
+5. Až budete hotovi, stiskněte {{key:Esc}}. TakeoffDesk se vrátí na {{ui:Vybrat}}.
 
 Tažení stále posouvá a kolečko přibližuje i během počítání, takže se po listu můžete pohybovat bez přidávání teček.
 
@@ -30,7 +30,7 @@ Klikněte na položku počtu, aby se zvýraznily její tečky na každém listu.
 
 ## Velikost teček na obrazovce a v PDF
 
-Tečky mají stejnou velikost na obrazovce, ať přibližujete jakkoli. Chcete-li ji změnit, otevřete {{ui:Nastavení}}, kartu TakeoffCraft, a zvolte **Velikost značky počtu**: Extra malá, Malá, Střední (výchozí) nebo Velká.
+Tečky mají stejnou velikost na obrazovce, ať přibližujete jakkoli. Chcete-li ji změnit, otevřete {{ui:Nastavení}}, kartu TakeoffDesk, a zvolte **Velikost značky počtu**: Extra malá, Malá, Střední (výchozí) nebo Velká.
 
 Export do PDF ({{ui:Export}} › označené PDF) kreslí každou tečku na papíře stejně velkou, bez ohledu na velikost listu: prohlížeč, který zobrazí PDF na 100 %, ukáže tečky tak velké, jak jsou na obrazovce. Pokud by se tečky na listu ještě dotýkaly, export zmenší tečky na tom listu, aby šlo každou přečíst.
 

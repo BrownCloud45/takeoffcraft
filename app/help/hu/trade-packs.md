@@ -39,4 +39,4 @@ Minden tételhez tartozik a CSI MasterFormat száma is, például `09 21 16`.
 
 A könyvtárban a {{ui:Export as pack…}} gomb egy csomagfájlba (`.ccpack.json`) menti a könyvtárat, amelyet bárki hozzáadhat a {{ui:Open a pack file…}} lehetőséggel. Alapértelmezés szerint kihagyja az Ön által hozzáadott csomagokból származó tételeket, és nem tartalmaz egységárakat. Jelölje be a {{ui:Include my rates as sample rates}} lehetőséget, ha az egységárait is el szeretné küldeni: ezek a megadott régióval és dátummal címkézve érkeznek, és aki hozzáadja a csomagot, dönti el, használja-e őket.
 
-A csomagfájlok egyszerű adatok, nem programok. A TakeoffCraft minden részüket ellenőrzi, mielőtt felhasználja, és kihagyja azt, amit nem tud beolvasni.
+A csomagfájlok egyszerű adatok, nem programok. A TakeoffDesk minden részüket ellenőrzi, mielőtt felhasználja, és kihagyja azt, amit nem tud beolvasni.

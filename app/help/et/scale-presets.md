@@ -49,4 +49,4 @@ Kalibreeritud mõõtkava kuvatakse lehe all olevas ribas kui „Kalibreeritud 1�
 
 ## Ebatavalised PDF-id
 
-Mõned PDF-id määravad suurema lehe ühiku („kasutajaühik“); TakeoffCraft arvestab seda eelseadete ja kuvatava mõõtkava jaoks. PDF-is pööratud lehti mõõdetakse samamoodi nagu püstiseid.
+Mõned PDF-id määravad suurema lehe ühiku („kasutajaühik“); TakeoffDesk arvestab seda eelseadete ja kuvatava mõõtkava jaoks. PDF-is pööratud lehti mõõdetakse samamoodi nagu püstiseid.

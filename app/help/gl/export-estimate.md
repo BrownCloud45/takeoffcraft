@@ -28,7 +28,7 @@ O libro ten catro follas, e os informes seguintes cando proceda:
 
 Cando hai un [resumo de oferta](topic:bid-summary), a folla Orzamento remata ademais cos seus recargos (carga de man de obra, imposto sobre vendas, gastos xerais, beneficio, fianza e oferta), como fórmulas activas.
 
-A folla Orzamento mantén **fórmulas activas**: cantidade con perda, os importes redondeados de material e man de obra, o total de cada fila e o total da obra. Os programas de follas de cálculo volven calcularas, así que pode cambiar unha tarifa ou unha perda na folla e os totais seguen o cambio. Os números que calculou TakeoffCraft gárdanse tamén nas celas, e coinciden ao céntimo.
+A folla Orzamento mantén **fórmulas activas**: cantidade con perda, os importes redondeados de material e man de obra, o total de cada fila e o total da obra. Os programas de follas de cálculo volven calcularas, así que pode cambiar unha tarifa ou unha perda na folla e os totais seguen o cambio. Os números que calculou TakeoffDesk gárdanse tamén nas celas, e coinciden ao céntimo.
 
 A columna de notas enumera a fórmula de cada compoñente, os erros de fórmula, as marcas en follas sen escala, a superficie de parede e o perímetro. Cando se deixa algo fóra, a fila de total da obra indica «Incompleto: consulte as notas anteriores».
 
@@ -42,7 +42,7 @@ O CSV contén só o orzamento; para as cantidades por folla e a lista de marcas,
 
 ## O orzamento en Google Sheets
 
-Por riba da táboa de Cantidades, **Copiar para Google Sheets** pon o orzamento no portapapeis como texto separado por tabulacións, coas mesmas liñas que o CSV. Nunha folla de Google Sheets, prema na cela A1 e pegue. TakeoffCraft non inicia sesión en Google e non envía nada alí.
+Por riba da táboa de Cantidades, **Copiar para Google Sheets** pon o orzamento no portapapeis como texto separado por tabulacións, coas mesmas liñas que o CSV. Nunha folla de Google Sheets, prema na cela A1 e pegue. TakeoffDesk non inicia sesión en Google e non envía nada alí.
 
 ## Recursos que faltan e aprobación
 

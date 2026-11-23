@@ -1,11 +1,11 @@
 ---
 title: Pemecahan masalah
-summary: Gejala, penyebab, dan solusi untuk pesan serta hal tak terduga yang mungkin Anda temui di TakeoffCraft, dikutip seperti yang ditampilkan aplikasi.
+summary: Gejala, penyebab, dan solusi untuk pesan serta hal tak terduga yang mungkin Anda temui di TakeoffDesk, dikutip seperti yang ditampilkan aplikasi.
 keywords: masalah, kesalahan, tidak berfungsi, perbaiki, bantuan, ditolak, tidak dapat mengukur, tanpa skala, tanda hilang, ekspor gagal, offline, sentuh
 from: cd319c9b
 ---
 
-TakeoffCraft menjelaskan sebagian besar penolakan di bilah status di bagian bawah jendela. Temukan pesannya di bawah ini.
+TakeoffDesk menjelaskan sebagian besar penolakan di bilah status di bagian bawah jendela. Temukan pesannya di bawah ini.
 
 ## Membuka file
 
@@ -15,8 +15,8 @@ TakeoffCraft menjelaskan sebagian besar penolakan di bilah status di bagian bawa
 | (nama) dilindungi kata sandi. Buka salinan yang tidak dilindungi. | PDF memerlukan kata sandi untuk dibuka. | Minta salinan yang tidak dilindungi, atau hapus kata sandinya di program PDF yang Anda percaya. |
 | (nama) tidak dapat dibaca sebagai PDF (…) | File rusak atau bukan PDF yang sebenarnya. | Unduh lagi, atau simpan ulang dari program yang membuatnya. |
 | (nama) sudah terbuka. | PDF yang sama (isi yang sama) sudah terbuka. | Tidak perlu tindakan. |
-| TakeoffCraft membuka PDF dan proyek .takeoff.json. Dilewati: … | Jenis file lain dibuang. | Konversi gambar ke PDF terlebih dahulu. |
-| Tidak terjadi apa-apa saat saya menjatuhkan file | File dijatuhkan di luar jendela peramban, atau peramban membuka PDF di tab baru. | Jatuhkan ke halaman TakeoffCraft itu sendiri; bingkai "Jatuhkan PDF atau .takeoff.json" muncul saat hal itu akan berhasil. |
+| TakeoffDesk membuka PDF dan proyek .takeoff.json. Dilewati: … | Jenis file lain dibuang. | Konversi gambar ke PDF terlebih dahulu. |
+| Tidak terjadi apa-apa saat saya menjatuhkan file | File dijatuhkan di luar jendela peramban, atau peramban membuka PDF di tab baru. | Jatuhkan ke halaman TakeoffDesk itu sendiri; bingkai "Jatuhkan PDF atau .takeoff.json" muncul saat hal itu akan berhasil. |
 | Membuka set yang besar memakan waktu | Setiap PDF dibaca penuh untuk membuat sidik jarinya. | Tunggu pesan "Membuka (nama)…" hilang. Miniatur terisi saat Anda menggulir. |
 
 ## Mengukur
@@ -47,7 +47,7 @@ TakeoffCraft menjelaskan sebagian besar penolakan di bilah status di bagian bawa
 | Pesan atau gejala | Penyebab | Solusi |
 |---|---|---|
 | Pilih dua titik yang lebih berjauhan. | Titik kalibrasi hampir bertumpuk. | Kalibrasi pada dimensi yang lebih panjang. |
-| Pesan di dialog kalibrasi, seperti "Jarak itu tidak dapat dibaca" | Jaraknya ditulis dalam bentuk yang tidak dapat dibaca TakeoffCraft. | Lihat [Entri panjang, harga satuan, dan persen](topic:entry-formats). |
+| Pesan di dialog kalibrasi, seperti "Jarak itu tidak dapat dibaca" | Jaraknya ditulis dalam bentuk yang tidak dapat dibaca TakeoffDesk. | Lihat [Entri panjang, harga satuan, dan persen](topic:entry-formats). |
 | Lembar ini belum memiliki skala, jadi tidak ada yang dapat diperiksa. Kalibrasi, atau pilih preset. | {{ui:Periksa}} pada lembar tanpa skala. | Atur skala terlebih dahulu. |
 | Daftar {{ui:Preset}} berwarna abu-abu | Tidak ada lembar yang terbuka. | Buka PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft menjelaskan sebagian besar penolakan di bilah status di bagian bawa
 | PDF ini dilindungi kata sandi atau terenkripsi, sehingga salinan bertanda tidak dapat ditulis. … | PDF-nya terenkripsi. | Ekspor {{ui:XLSX}} sebagai gantinya, atau gunakan salinan PDF yang tidak terenkripsi (yang kemudian memerlukan takeoff sendiri, karena itu file yang berbeda). |
 | PDF bertanda tidak dapat ditulis: … | Sering kali: offline, dan aplikasi belum disimpan untuk penggunaan offline, sehingga penulis PDF tidak tersedia. | Sambungkan ke internet dan pilih {{ui:PDF bertanda}} lagi. Untuk menghindarinya, pilih {{ui:Simpan untuk offline}} dan tunggu {{ui:Siap offline}}. |
 | Hanya satu PDF bertanda yang terunduh | Peramban memblokir beberapa unduhan sekaligus. | Izinkan unduhan berganda untuk situs ini, lalu ekspor lagi. |
-| (file) bukan proyek TakeoffCraft (bukan JSON yang valid). / Ini bukan file proyek TakeoffCraft. | File yang salah, atau file yang rusak. | Pilih file `.takeoff.json`. |
-| Proyek ini disimpan oleh TakeoffCraft yang lebih baru. Bukalah di sana. | File berasal dari build yang lebih baru. | Buka di build yang lebih baru. |
+| (file) bukan proyek TakeoffDesk (bukan JSON yang valid). / Ini bukan file proyek TakeoffDesk. | File yang salah, atau file yang rusak. | Pilih file `.takeoff.json`. |
+| Proyek ini disimpan oleh TakeoffDesk yang lebih baru. Bukalah di sana. | File berasal dari build yang lebih baru. | Buka di build yang lebih baru. |
 | (n) tanda rusak dan dilewati. | Sebagian file rusak atau diedit secara manual. | Sisanya terbuka. Gambar ulang tanda yang hilang, atau buka salinan yang lebih lama. |
 | Tanda hilang setelah membuka kembali | PDF-nya tidak terbuka, atau salah satunya berubah. | Lihat [Simpan dan buka kembali takeoff](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Peramban bertanya "Tinggalkan situs?" | Ada perubahan yang belum disimpan. | Tetap di sini, dan simpan dengan {{key:Mod+S}}. |

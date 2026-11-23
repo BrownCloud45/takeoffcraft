@@ -5,7 +5,7 @@ keywords: yakalama, nesne yakalama, osnap, uç nokta, orta nokta, kesişim, en y
 from: 41d29e9b
 ---
 
-Çoğu plan takımı vektör PDF'tir: duvarları ve kenarları piksel değil, gerçek çizgilerdir. Ölçüm yaparken TakeoffCraft tıklamalarınızı bu çizgilere yakalar; böylece bir güzergâh tam bir duvarın köşesinden başlar ve bir kalibrasyon, isabet ettiğiniz pikselin değil çizimcinin çizdiği ölçüyü okur.
+Çoğu plan takımı vektör PDF'tir: duvarları ve kenarları piksel değil, gerçek çizgilerdir. Ölçüm yaparken TakeoffDesk tıklamalarınızı bu çizgilere yakalar; böylece bir güzergâh tam bir duvarın köşesinden başlar ve bir kalibrasyon, isabet ettiğiniz pikselin değil çizimcinin çizdiği ölçüyü okur.
 
 Yakala, başladığınızda açıktır. Durum çubuğundaki {{ui:Yakala}} ya da {{key:F3}} ile açıp kapatın; ayar bu tarayıcıda saklanır (ayrıca [Ayarlar](topic:settings) altındadır).
 

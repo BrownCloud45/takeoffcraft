@@ -49,4 +49,4 @@ Une échelle étalonnée s'affiche sous la forme « Étalonnée 1 » = 4.002' su
 
 ## PDF inhabituels
 
-Certains PDF déclarent une unité de page plus grande (une « unité utilisateur ») ; TakeoffCraft en tient compte pour les prédéfinis et pour l'échelle affichée. Les pages pivotées dans le PDF sont mesurées comme les pages droites.
+Certains PDF déclarent une unité de page plus grande (une « unité utilisateur ») ; TakeoffDesk en tient compte pour les prédéfinis et pour l'échelle affichée. Les pages pivotées dans le PDF sont mesurées comme les pages droites.

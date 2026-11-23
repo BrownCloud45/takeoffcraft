@@ -1,6 +1,6 @@
 ---
 title: Štetje vsega v naboru
-summary: Enkrat označite legendo simbolov in TakeoffCraft v enem zagonu prešteje vsak simbol iz nje na vsakem odprtem listu. Vsako štetje je povezava na svoj list, pregledate pa, preden se kaj doda.
+summary: Enkrat označite legendo simbolov in TakeoffDesk v enem zagonu prešteje vsak simbol iz nje na vsakem odprtem listu. Vsako štetje je povezava na svoj list, pregledate pa, preden se kaj doda.
 keywords: preštej vse, legenda, legenda simbolov, celoten nabor, vsak list, vsi listi, vsaka vrata, vsaka armatura, naprave, razpredelnica, simboli, samodejno štetje, nivo ujemanja, podoben
 from: adc99744
 ---

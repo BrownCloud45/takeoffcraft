@@ -1,6 +1,6 @@
 ---
 title: Keyboard at mouse
-summary: Bawat key, mouse, trackpad at touch na aksyon sa TakeoffCraft, pinagpangkat, kasama ang mga pagkakaiba ng platform.
+summary: Bawat key, mouse, trackpad at touch na aksyon sa TakeoffDesk, pinagpangkat, kasama ang mga pagkakaiba ng platform.
 keywords: keys, shortcuts, hotkeys, keyboard, mouse, trackpad, touch, pan, zoom, wheel, right-click, double-click, space, shift, copy, paste, cut, duplicate, select all, key, shortcut, mouse, trackpad, touch, pan, zoom, wheel, right-click, double-click, space, shift, kopyahin, i-paste, cut, duplicate, piliin lahat
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Tingnan ang [Suriin ang takeoff sa 3D](topic:check-in-3d).
 | Key | Ano ang ginagawa nito |
 |---|---|
 | {{key:F1}} | Buksan o isara ang help panel (gayundin ang button na {{ui:Help}} sa app bar). Gumagana ito sa bawat tool, kahit habang nagta-type sa field. |
-| {{key:Esc}} | Isara ang help panel. Sa search box nito, ang unang Esc ay nag-aalis ng search. Habang bukas ang panel, ang Esc na pinindot pagkatapos i-click ang sheet ay unang nagsasara ng panel; pindutin ulit para kanselahin sa TakeoffCraft. |
+| {{key:Esc}} | Isara ang help panel. Sa search box nito, ang unang Esc ay nag-aalis ng search. Habang bukas ang panel, ang Esc na pinindot pagkatapos i-click ang sheet ay unang nagsasara ng panel; pindutin ulit para kanselahin sa TakeoffDesk. |
 
 :::mac
 Sa maraming Mac keyboard, kinokontrol ng top row ang liwanag at tunog. Pindutin ang fn kasama ang F1, o i-on ang "Use F1, F2, etc. keys as standard function keys" sa System Settings, sa ilalim ng Keyboard.
@@ -139,7 +139,7 @@ Sa maraming Mac keyboard, kinokontrol ng top row ang liwanag at tunog. Pindutin 
 
 :::mac
 - Ang {{key:Mod}} ay ang Command key: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Ang full screen ang eksepsyon: Control+Shift+F.
-- Ang right-click ay two-finger click sa trackpad, kapag naka-on na ang secondary click sa System Settings, sa ilalim ng Trackpad. Binabasa ng TakeoffCraft ang secondary button lamang; ang Control-click ay maaaring mabilang bilang simpleng click at magdagdag ng point.
+- Ang right-click ay two-finger click sa trackpad, kapag naka-on na ang secondary click sa System Settings, sa ilalim ng Trackpad. Binabasa ng TakeoffDesk ang secondary button lamang; ang Control-click ay maaaring mabilang bilang simpleng click at magdagdag ng point.
 - Ang dalawang daliring nag-scroll sa trackpad ay nag-zoom sa sheet (hindi nila ito ini-scroll). Para mag-pan, pindutin at i-drag, o hawakan ang Space at i-drag.
 - Ang Page Up at Page Down ay fn kasama ang up at down arrow sa keyboard na walang mga ito.
 - Ang Backspace ang key na may label na delete.
@@ -151,12 +151,12 @@ Sa maraming Mac keyboard, kinokontrol ng top row ang liwanag at tunog. Pindutin 
 :::
 
 :::linux
-- Ang {{key:Mod}} ay Ctrl. Ang ilang desktop ay may sariling shortcut na Ctrl+Alt o Super; wala sa mga iyon ang ginagamit ng TakeoffCraft.
+- Ang {{key:Mod}} ay Ctrl. Ang ilang desktop ay may sariling shortcut na Ctrl+Alt o Super; wala sa mga iyon ang ginagamit ng TakeoffDesk.
 - Sa touchpad, ang two-finger scroll ay nag-zoom sa sheet. Para mag-pan, pindutin at i-drag.
 :::
 
 :::touch
-Binabasa ng TakeoffCraft ang touch bilang isang pointer:
+Binabasa ng TakeoffDesk ang touch bilang isang pointer:
 
 - Ang tap ay naglalagay ng point, pumipili ng mark o nagdadagdag ng count dot.
 - Ang pag-drag gamit ang isang daliri ay nag-pan sa sheet (sa {{ui:Auto count}} ay gumuguhit ito ng search box).
@@ -169,7 +169,7 @@ Ang keyboard at mouse o trackpad ang mas mainam na paraan ng takeoff sa ngayon.
 
 ## Mga key na pinapanatili ng browser
 
-Pinapanatili ng mga browser ang ilang shortcut para sa sarili nila, at hindi ito magagamit ng page: pagsara ng tab ({{key:Mod+W}}), bagong tab o window ({{key:Mod+T}}, {{key:Mod+N}}), at browser zoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Kaya nag-zoom ang TakeoffCraft sa sheet gamit ang wheel at ang mga bare na {{key:Plus}} at {{key:Minus}} key. Kung napindot mo ang {{key:Mod+Plus}} nang hindi sinasadya, lalaki ang buong page; ibinabalik ito ng {{key:Mod+0}}. Tingnan ang [Keys, mice and trackpads](common:keys).
+Pinapanatili ng mga browser ang ilang shortcut para sa sarili nila, at hindi ito magagamit ng page: pagsara ng tab ({{key:Mod+W}}), bagong tab o window ({{key:Mod+T}}, {{key:Mod+N}}), at browser zoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Kaya nag-zoom ang TakeoffDesk sa sheet gamit ang wheel at ang mga bare na {{key:Plus}} at {{key:Minus}} key. Kung napindot mo ang {{key:Mod+Plus}} nang hindi sinasadya, lalaki ang buong page; ibinabalik ito ng {{key:Mod+0}}. Tingnan ang [Keys, mice and trackpads](common:keys).
 
 ## Nasaan ang Move
 

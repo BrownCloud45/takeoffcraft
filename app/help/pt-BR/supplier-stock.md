@@ -1,6 +1,6 @@
 ---
 title: Conferir o estoque e os prazos de entrega do fornecedor
-summary: Adicione a lista de estoque de um fornecedor (CSV ou planilha) e o TakeoffCraft confere, com a perda, o que o levantamento precisa: se há estoque suficiente e quanto é a espera. Faltas e esperas longas aparecem no painel Problemas.
+summary: Adicione a lista de estoque de um fornecedor (CSV ou planilha) e o TakeoffDesk confere, com a perda, o que o levantamento precisa: se há estoque suficiente e quanto é a espera. Faltas e esperas longas aparecem no painel Problemas.
 keywords: fornecedor, estoque, em estoque, prazo de entrega, disponibilidade, falta, pedido pendente, lista de pedido, csv, sku, vendedor, materiais, suprimento, problemas
 from: f11160fb
 ---

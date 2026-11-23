@@ -1,6 +1,6 @@
 ---
 title: Tæl alt i sættet
-summary: Tegn en boks om en symbolforklaring én gang, og TakeoffCraft tæller hvert symbol i den på hvert åbent ark i ét kørsel. Hver optælling er et link til sit ark, og du gennemgår før noget tilføjes.
+summary: Tegn en boks om en symbolforklaring én gang, og TakeoffDesk tæller hvert symbol i den på hvert åbent ark i ét kørsel. Hver optælling er et link til sit ark, og du gennemgår før noget tilføjes.
 keywords: tæl alt, forklaring, symbolforklaring, hele sættet, hvert ark, alle ark, hver dør, hver armatur, enheder, skema, symboler, auto-tælling, tæl alle, sæt af tegninger, 200 ark, matchniveau, ligner
 from: adc99744
 ---

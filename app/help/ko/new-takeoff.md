@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. 현재 물량 산출을 보관하려면 먼저 저장합니다: {{ui:Save takeoff}} 또는 {{key:Mod+S}}.
 2. **파일** 그룹의 {{ui:New}} 버튼을 선택합니다.
-3. 저장되지 않은 변경 사항이 있으면 TakeoffCraft가 **저장되지 않은 물량 산출**을 묻습니다: {{ui:Save takeoff first}} (프로젝트를 내려받은 뒤 지웁니다), {{ui:Discard changes}}, 또는 {{ui:Cancel}} 중 하나를 고르십시오.
+3. 저장되지 않은 변경 사항이 있으면 TakeoffDesk가 **저장되지 않은 물량 산출**을 묻습니다: {{ui:Save takeoff first}} (프로젝트를 내려받은 뒤 지웁니다), {{ui:Discard changes}}, 또는 {{ui:Cancel}} 중 하나를 고르십시오.
    창은 빈 상태로 돌아갑니다: PDF, 항목, 표식, 축척이 없습니다. 상태 막대에 "새 물량 산출입니다. 시작하려면 PDF를 여십시오."라고 표시됩니다.
 
 지워지는 것은 다음과 같습니다:

@@ -1,6 +1,6 @@
 ---
 title: Zadávání délek, sazeb a procent
-summary: Co můžete zadat pro vzdálenosti, výšky, peněžní sazby a procenta odpadu, s příklady a hlášeními pro vstup, který TakeoffCraft nedokáže přečíst.
+summary: Co můžete zadat pro vzdálenosti, výšky, peněžní sazby a procenta odpadu, s příklady a hlášeními pro vstup, který TakeoffDesk nedokáže přečíst.
 keywords: zadání, formát, stopy palce, zlomky, desetinné stopy, metrický, metry, milimetry, sazba, peníze, dolary, procento, odpad, psaní
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Až dvě desetinná místa, od 0% do 1000%. Hlášení: "Zadejte procento, např
 ## Názvy a jednotky
 
 - Názvy položek a komponent: až 200 znaků.
-- {{ui:Jednotka}} komponenty: libovolný text až do 20 znaků, například `EA`, `sheets`, `CY`, `gal`. Je to pouze popisek; TakeoffCraft jej nepřevádí.
+- {{ui:Jednotka}} komponenty: libovolný text až do 20 znaků, například `EA`, `sheets`, `CY`, `gal`. Je to pouze popisek; TakeoffDesk jej nepřevádí.
 
 ## Vzorce
 

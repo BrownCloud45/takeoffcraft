@@ -5,7 +5,7 @@ keywords: jumts, slīpums, nogāze, slīpuma koeficients, pacēlums, horizontāl
 from: 38225b60
 ---
 
-Jumta plāns rāda katru jumta plakni plakanu, skatoties no augšas. Pats jumts ir lielāks: plakne ar slīpumu 6:12 ir par aptuveni 12% lielāku virsmu nekā tās plāns, un tās slīpās malas ir garākas, nekā šķiet. Piešķiriet vienumam slīpumu, un TakeoffCraft mērīs pa nogāzi.
+Jumta plāns rāda katru jumta plakni plakanu, skatoties no augšas. Pats jumts ir lielāks: plakne ar slīpumu 6:12 ir par aptuveni 12% lielāku virsmu nekā tās plāns, un tās slīpās malas ir garākas, nekā šķiet. Piešķiriet vienumam slīpumu, un TakeoffDesk mērīs pa nogāzi.
 
 ## Slīpuma ievadīšana
 

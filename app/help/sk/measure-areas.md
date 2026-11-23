@@ -41,7 +41,7 @@ Keď sú miestnosti nakreslené ako uzavreté steny, {{ui:Miestnosť}} ({{key:B}
 2. Zvoľte {{ui:Miestnosť}} v skupine {{ui:Výkaz výmer}} alebo stlačte {{key:B}}.
 3. Kliknite vnútri miestnosti, do voľnej podlahy (nie na čiaru alebo popisok).
 
-TakeoffCraft prečíta čiary listu, nájde priestor okolo kliknutia a obrysuje ho pozdĺž vnútorných povrchov stien ako plochu aktuálnej položky. Dverové otvory až do **4'-0"** sa považujú za uzavreté, takže obrys ide rovno cez dvere. **Nastavenia › TakeoffCraft › Vyplnenie miestnosti uzavrie otvory do** mení túto šírku (3'-0" až 8'-0"). Názvy miestností, nábytok a zariadenia vnútri miestnosti nevytvárajú diery.
+TakeoffDesk prečíta čiary listu, nájde priestor okolo kliknutia a obrysuje ho pozdĺž vnútorných povrchov stien ako plochu aktuálnej položky. Dverové otvory až do **4'-0"** sa považujú za uzavreté, takže obrys ide rovno cez dvere. **Nastavenia › TakeoffDesk › Vyplnenie miestnosti uzavrie otvory do** mení túto šírku (3'-0" až 8'-0"). Názvy miestností, nábytok a zariadenia vnútri miestnosti nevytvárajú diery.
 
 Odmietne a povie prečo, keď:
 
@@ -62,7 +62,7 @@ Keď je dvere širšie než nastavenie, vyplnenie prejde do ďalšej miestnosti 
 
 Pre okrúhlu dieru zvoľte {{ui:Pridať okrúhly výrez}} pod **Vybraná značka**, kliknite na jej stred a potom na bod na jej okraji.
 
-Výrez musí byť celý vnútri plochy a nesmie sa prekrývať s iným výrezom. Inak ho TakeoffCraft odmietne: "Výrez musí byť celý vnútri plochy." alebo "Výrezy sa nemôžu navzájom prekrývať."
+Výrez musí byť celý vnútri plochy a nesmie sa prekrývať s iným výrezom. Inak ho TakeoffDesk odmietne: "Výrez musí byť celý vnútri plochy." alebo "Výrezy sa nemôžu navzájom prekrývať."
 
 Posledný otvor odstránite zvolením {{ui:Odstrániť posledný výrez}}.
 
@@ -76,7 +76,7 @@ Výrez patrí jednej značke plochy. **Spätný odpočet** sa nakreslí raz a od
 
 Každá značka plochy zaškrtnutej položky na tom istom liste stratí časť, ktorú pokrýva spätný odpočet: celý spätný odpočet, keď leží vnútri, len prekrývajúcu sa časť, keď prechádza cez hranu, a nič vnútri výrezu. Panel vybranej plochy zobrazuje **Spätné odpočty** a zostávajúcu plochu. Množstvo položky, jej vzorce zostavy, náklady, 3D kontrolný pohľad a export používajú zostávajúcu plochu; poznámky odhadu hovoria, koľko spätné odpočty odpočítali. Samotná položka spätného odpočtu počíta svoju vlastnú plochu (ak ju neoceňujete, nechajte jej náklady na nule).
 
-Spätný odpočet musí byť **konvexný**: obdĺžnik, kružnica alebo ľubovoľný obrys bez vnútorného rohu. TakeoffCraft odmietne nakresliť nekonvexný; šachtu v tvare L nakreslite ako dva spätné odpočty. Spätné odpočty nemôžu mať výrezy a dva spätné odpočty, ktoré sa navzájom prekrývajú, sa počítajú obidva.
+Spätný odpočet musí byť **konvexný**: obdĺžnik, kružnica alebo ľubovoľný obrys bez vnútorného rohu. TakeoffDesk odmietne nakresliť nekonvexný; šachtu v tvare L nakreslite ako dva spätné odpočty. Spätné odpočty nemôžu mať výrezy a dva spätné odpočty, ktoré sa navzájom prekrývajú, sa počítajú obidva.
 
 Obvod (`P`) sa nemení: spätné odpočty odpočítavajú len plochu.
 

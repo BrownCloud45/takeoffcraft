@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * workspace-takeoffcraft.js — TakeoffCraft's adapter for the shell's workspace layout engine (assets/js/app-workspace.js; 0.7 WS.11,
+ * workspace-takeoffcraft.js — TakeoffDesk's adapter for the shell's workspace layout engine (assets/js/app-workspace.js; 0.7 WS.11,
  * session ws-takeoffcraft; contract docs/0.7-PART9.md, adapter map docs/apps/app-workspace.md, log docs/0.7-sessions/ws-takeoffcraft.md).
- * The engine builds the blocks a layout file names; this file fills them with TakeoffCraft's own things, starting from fromInput()
+ * The engine builds the blocks a layout file names; this file fills them with TakeoffDesk's own things, starting from fromInput()
  * (the registry in input-takeoffcraft.js: every tool clicks the app's own button):
  *
  *   ribbon     the Takeoff ribbon menu style (tabs Takeoff, Edit, View, Markup, Estimate)
@@ -24,7 +24,7 @@ import { fromInput } from '/assets/js/app-workspace-input.js';
 import { t } from './i18n.js';
 import { el } from './ui-util.js';
 
-// the well-known actions (titlebar, File menu, options bar) → TakeoffCraft's registry
+// the well-known actions (titlebar, File menu, options bar) → TakeoffDesk's registry
 const MAP = { open: 'file.open-pdf', save: 'file.save', undo: 'edit.undo', redo: 'edit.redo', select: 'takeoff.select', clear: 'edit.select-none', fit: 'view.fit-page' };
 const TOOLBOX = [
   ['measure', ['takeoff.select', 'takeoff.linear', 'takeoff.area', 'takeoff.count', 'takeoff.circle', 'takeoff.room', 'takeoff.path', 'takeoff.autocount']],

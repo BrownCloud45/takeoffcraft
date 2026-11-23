@@ -55,4 +55,4 @@ Mjerilo lista kaže koliko je crtež velik; jedinica stavke kaže kako ga prijav
 
 ## Preciznost
 
-TakeoffCraft mjeri točno iz točaka na koje kliknete, uključujući stvarne duljine lukova i površine, i ne zaokružuje količine. Prikaz zaokružuje duljine na 1/16 in, a decimale na dva mjesta. Novac se zaokružuje tek kod proširenih iznosa, na cent.
+TakeoffDesk mjeri točno iz točaka na koje kliknete, uključujući stvarne duljine lukova i površine, i ne zaokružuje količine. Prikaz zaokružuje duljine na 1/16 in, a decimale na dva mjesta. Novac se zaokružuje tek kod proširenih iznosa, na cent.

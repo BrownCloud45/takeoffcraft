@@ -5,7 +5,7 @@ keywords: tag, hældning, skråning, hældningsfaktor, stigning, forløb, 6:12, 
 from: 38225b60
 ---
 
-En tagplan viser hver tagflade fladt, set oppefra. Selve taget er større: en flade med 6:12 har ca. 12 % mere overflade end sin plan, og dens skrå kanter er længere, end de ser ud. Giv posten dens hældning, så måler TakeoffCraft langs skråningen.
+En tagplan viser hver tagflade fladt, set oppefra. Selve taget er større: en flade med 6:12 har ca. 12 % mere overflade end sin plan, og dens skrå kanter er længere, end de ser ud. Giv posten dens hældning, så måler TakeoffDesk langs skråningen.
 
 ## Indtast en hældning
 

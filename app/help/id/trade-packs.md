@@ -39,4 +39,4 @@ Setiap item juga membawa nomor CSI MasterFormat-nya, seperti `09 21 16`.
 
 {{ui:Ekspor sebagai paket…}} di pustaka menyimpannya sebagai file paket (`.ccpack.json`) yang dapat ditambahkan siapa pun dengan {{ui:Buka file paket…}}. Secara bawaan, item yang berasal dari paket yang Anda tambahkan tidak disertakan, dan tidak ada harga yang dibawa. Centang {{ui:Sertakan harga saya sebagai harga contoh}} untuk mengirim harga Anda juga: harga itu diberi label dengan wilayah dan tanggal yang Anda masukkan, dan siapa pun yang menambahkan paket memilih apakah akan menggunakannya.
 
-File paket adalah data biasa, bukan program. TakeoffCraft memeriksa setiap bagiannya sebelum digunakan dan membuang apa pun yang tidak dapat dibacanya.
+File paket adalah data biasa, bukan program. TakeoffDesk memeriksa setiap bagiannya sebelum digunakan dan membuang apa pun yang tidak dapat dibacanya.

@@ -1,11 +1,11 @@
 ---
 title: Xử lý sự cố
-summary: Triệu chứng, nguyên nhân và cách khắc phục các thông báo và tình huống bất ngờ bạn có thể gặp trong TakeoffCraft, trích nguyên văn như ứng dụng hiển thị.
+summary: Triệu chứng, nguyên nhân và cách khắc phục các thông báo và tình huống bất ngờ bạn có thể gặp trong TakeoffDesk, trích nguyên văn như ứng dụng hiển thị.
 keywords: sự cố, lỗi, problems, errors, không hoạt động, sửa, trợ giúp, bị từ chối, không đo được, không có tỷ lệ, thiếu dấu, xuất thất bại, ngoại tuyến, cảm ứng, touch
 from: cd319c9b
 ---
 
-TakeoffCraft giải thích hầu hết các lần từ chối trên thanh trạng thái ở cuối cửa sổ. Tìm thông báo bên dưới.
+TakeoffDesk giải thích hầu hết các lần từ chối trên thanh trạng thái ở cuối cửa sổ. Tìm thông báo bên dưới.
 
 ## Mở tệp
 
@@ -15,8 +15,8 @@ TakeoffCraft giải thích hầu hết các lần từ chối trên thanh trạn
 | (tên) được bảo vệ bằng mật khẩu. Mở một bản sao không có mật khẩu. | PDF cần mật khẩu để mở. | Yêu cầu một bản sao không có mật khẩu, hoặc gỡ mật khẩu trong một chương trình PDF bạn tin cậy. |
 | (tên) không thể đọc như một PDF (…) | Tệp bị hỏng hoặc thực ra không phải PDF. | Tải lại, hoặc lưu lại từ chương trình đã tạo ra nó. |
 | (tên) đã được mở. | Cùng một PDF (cùng nội dung) đang mở. | Không cần làm gì. |
-| TakeoffCraft mở PDF và dự án .takeoff.json. Đã bỏ qua: … | Các loại tệp khác đã bị bỏ. | Chuyển bản vẽ sang PDF trước. |
-| Không có gì xảy ra khi thả tệp vào | Tệp được thả ngoài cửa sổ trình duyệt, hoặc trình duyệt đã mở PDF trong một thẻ mới. | Thả vào chính trang TakeoffCraft; khung "Thả PDF hoặc .takeoff.json" hiện khi nào thao tác sẽ có tác dụng. |
+| TakeoffDesk mở PDF và dự án .takeoff.json. Đã bỏ qua: … | Các loại tệp khác đã bị bỏ. | Chuyển bản vẽ sang PDF trước. |
+| Không có gì xảy ra khi thả tệp vào | Tệp được thả ngoài cửa sổ trình duyệt, hoặc trình duyệt đã mở PDF trong một thẻ mới. | Thả vào chính trang TakeoffDesk; khung "Thả PDF hoặc .takeoff.json" hiện khi nào thao tác sẽ có tác dụng. |
 | Mở một bộ lớn mất một lúc | Mỗi PDF được đọc toàn bộ để lập dấu vân tay nhận dạng. | Đợi thông báo "Đang mở (tên)…" biến mất. Ảnh thu nhỏ sẽ hiện dần khi bạn cuộn. |
 
 ## Đo
@@ -47,7 +47,7 @@ TakeoffCraft giải thích hầu hết các lần từ chối trên thanh trạn
 | Thông báo hoặc triệu chứng | Nguyên nhân | Cách khắc phục |
 |---|---|---|
 | Chọn hai điểm cách xa nhau hơn. | Các điểm hiệu chuẩn gần như chồng lên nhau. | Hiệu chuẩn trên một kích thước dài hơn. |
-| Một thông báo trong hộp thoại hiệu chuẩn, như "Không đọc được khoảng cách đó" | Khoảng cách ở dạng TakeoffCraft không đọc được. | Xem [Nhập chiều dài, đơn giá và phần trăm](topic:entry-formats). |
+| Một thông báo trong hộp thoại hiệu chuẩn, như "Không đọc được khoảng cách đó" | Khoảng cách ở dạng TakeoffDesk không đọc được. | Xem [Nhập chiều dài, đơn giá và phần trăm](topic:entry-formats). |
 | Tờ này chưa có tỷ lệ nên không có gì để kiểm tra. Hiệu chuẩn nó, hoặc chọn một tỷ lệ đặt sẵn. | {{ui:Kiểm tra}} trên tờ chưa có tỷ lệ. | Đặt tỷ lệ trước. |
 | Danh sách {{ui:Đặt sẵn}} bị mờ đi | Chưa mở tờ nào. | Mở một PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft giải thích hầu hết các lần từ chối trên thanh trạn
 | PDF này được bảo vệ bằng mật khẩu hoặc được mã hóa, nên không thể ghi bản sao đã đánh dấu. … | PDF được mã hóa. | Thay vào đó xuất {{ui:XLSX}}, hoặc dùng bản PDF không mã hóa (khi đó nó cần bóc tách riêng vì là một tệp khác). |
 | Không thể ghi PDF đã đánh dấu: … | Thường là: đang ngoại tuyến, và ứng dụng chưa được lưu để dùng ngoại tuyến, nên thiếu bộ ghi PDF. | Kết nối mạng và chọn lại {{ui:PDF đã đánh dấu}}. Để tránh lỗi, chọn {{ui:Lưu để dùng ngoại tuyến}} và đợi {{ui:Sẵn sàng ngoại tuyến}}. |
 | Chỉ tải xuống một PDF đã đánh dấu | Trình duyệt đã chặn nhiều lượt tải xuống cùng lúc. | Cho phép tải nhiều tệp cho trang này, rồi xuất lại. |
-| (tệp) không phải là dự án TakeoffCraft (không phải JSON hợp lệ). / Đây không phải tệp dự án TakeoffCraft. | Sai tệp, hoặc tệp bị hỏng. | Chọn tệp .takeoff.json. |
-| Dự án này được lưu bởi một TakeoffCraft mới hơn. Hãy mở nó ở đó. | Tệp đến từ một bản dựng mới hơn. | Mở nó trong bản dựng mới hơn. |
+| (tệp) không phải là dự án TakeoffDesk (không phải JSON hợp lệ). / Đây không phải tệp dự án TakeoffDesk. | Sai tệp, hoặc tệp bị hỏng. | Chọn tệp .takeoff.json. |
+| Dự án này được lưu bởi một TakeoffDesk mới hơn. Hãy mở nó ở đó. | Tệp đến từ một bản dựng mới hơn. | Mở nó trong bản dựng mới hơn. |
 | (n) dấu bị hỏng và bị bỏ qua. | Một phần tệp bị hỏng hoặc bị sửa bằng tay. | Phần còn lại đã mở. Vẽ lại các dấu bị thiếu, hoặc mở một bản cũ hơn. |
 | Thiếu dấu sau khi mở lại | Các PDF chưa mở, hoặc một trong số đó đã thay đổi. | Xem [Lưu và mở lại bóc tách](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Trình duyệt hỏi "Rời khỏi trang?" | Có thay đổi chưa lưu. | Ở lại, và lưu bằng {{key:Mod+S}}. |

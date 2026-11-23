@@ -1,6 +1,6 @@
 ---
 title: Een symbool automatisch tellen
-summary: Omkader één symbool, laat TakeoffCraft de andere zoeken op dit blad of op alle geopende bladen, controleer de overeenkomsten met de schuif en voeg ze in één stap toe.
+summary: Omkader één symbool, laat TakeoffDesk de andere zoeken op dit blad of op alle geopende bladen, controleer de overeenkomsten met de schuif en voeg ze in één stap toe.
 keywords: elke hoek, gedraaid, andere schaal, verschillende schaal, automatisch tellen, automatische telling, symboolzoeken, symbolen vinden, patroon, sjabloon, overeenkomst, detecteren, telhulpmiddel
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Om de controle te sluiten zonder iets toe te voegen, kiest u {{ui:Weggooien}} of
 
 ## Wat het vindt, en wat het mist
 
-TakeoffCraft vergelijkt de tekening, als pixels, met het symbool waar u een vak omheen hebt getekend.
+TakeoffDesk vergelijkt de tekening, als pixels, met het symbool waar u een vak omheen hebt getekend.
 
 - Het vindt het symbool gedraaid over 0°, 90°, 180° en 270°. Vink {{ui:Elke hoek (langzamer)}} aan op de strook van automatisch tellen voordat u het vak tekent om het ook onder elke hoek te vinden: het probeert elke 15°, en stelt daarna elke vondst bij tot op anderhalve graad nauwkeurig. Dat duurt ongeveer zes keer zo lang. Een gespiegeld symbool vindt het niet (tenzij het symbool gespiegeld hetzelfde eruitziet).
 - Als {{ui:Alle geopende bladen doorzoeken}} is aangevinkt, wordt een blad op een andere schaal doorzocht op de grootte die het symbool daar heeft: een armatuur op schaal getekend op een plattegrond van 1/8" is half zo groot als op een plattegrond van 1/4", en wordt toch gevonden. Zo'n blad wordt ook doorzocht op de eigen grootte van het vak, voor labels en symbolen die op elk blad in één grootte zijn afgedrukt. Hiervoor is een schaal op beide bladen nodig; een blad zonder schaal wordt alleen op de grootte van het vak doorzocht.

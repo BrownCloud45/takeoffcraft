@@ -5,7 +5,7 @@ keywords: vula, isethi yamapulani, ama-pdf amaningi, amafayela amaningi, amashid
 from: ed434468
 ---
 
-Isethi yamapulani ivame ukuba yi-PDF eziningi: ezakhiwo, ezesakhiwo, ezomshini. I-TakeoffCraft izivula ndawonye njengohlu olulodwa lwamashidi, futhi ukubala okulodwa kungafaka zonke.
+Isethi yamapulani ivame ukuba yi-PDF eziningi: ezakhiwo, ezesakhiwo, ezomshini. I-TakeoffDesk izivula ndawonye njengohlu olulodwa lwamashidi, futhi ukubala okulodwa kungafaka zonke.
 
 ## Vula ama-PDF
 
@@ -14,14 +14,14 @@ Isethi yamapulani ivame ukuba yi-PDF eziningi: ezakhiwo, ezesakhiwo, ezomshini. 
 3. Khetha Vula.
    Umlayezo othi "Ivula (igama)…" ubonakala lapho ifayela ngalinye lifundwa. Bese wonke amakhasi avela ngaphansi kwe-{{ui:Amashidi}}, nekhasi lokuqala le-PDF entsha yokuqala livulwe.
 
-Ungawuhudula ufake ama-PDF esuka ku-{{pick:mac=Finder|windows=File Explorer|linux=your file manager}} bese uwawisa noma kuphi kwi-TakeoffCraft. Uhlaka oluthi "Drop PDFs, DWG or DXF drawings, or a .takeoff.json" luvela ngenkathi uhudula.
+Ungawuhudula ufake ama-PDF esuka ku-{{pick:mac=Finder|windows=File Explorer|linux=your file manager}} bese uwawisa noma kuphi kwi-TakeoffDesk. Uhlaka oluthi "Drop PDFs, DWG or DXF drawings, or a .takeoff.json" luvela ngenkathi uhudula.
 
 Ukuze wengeze ama-PDF amanye kamuva, yenza okufanayo futhi. Ama-PDF asevele evulekile ayadlulwa.
 
 Isikrini sokuqala siphinde sibonise ama-PDF nokubala okuvulwe kamuva, kumabhrawuza avumela ikhasi ukuvula ifayela futhi (i-Chrome ne-Edge). Chofoza eyodwa ukuyivula; ibhrawuza lingacela imvume kuqala. Bona [Amafayela akho](common:your-files).
 
 :::note
-Akulayishwa lutho. Ibhrawuza lifunda ama-PDF kukhompyutha yakho, futhi ayanyamalala ku-TakeoffCraft uma uvala ithebhu noma ukhetha {{ui:Entsha}}.
+Akulayishwa lutho. Ibhrawuza lifunda ama-PDF kukhompyutha yakho, futhi ayanyamalala ku-TakeoffDesk uma uvala ithebhu noma ukhetha {{ui:Entsha}}.
 :::
 
 ## Imidwebo ecaleni kwama-PDF
@@ -30,7 +30,7 @@ Akulayishwa lutho. Ibhrawuza lifunda ama-PDF kukhompyutha yakho, futhi ayanyamal
 
 ## I-PDF edluliselwe kolunye uhlelo
 
-Enye i-app yalolu hlelo ingakunikeza i-PDF eyayivulwe kuyo: ivula i-TakeoffCraft kuthebhu elisha futhi i-PDF ivula khona njengoba uyiwisile. Ibha yesimo ithi "Ivuliwe (igama), idluliselwe kusuka ku-(app). Ifayela lokuqala alishintshiwe." Akulayishwa lutho; ifayela lidlula kusitoreji sale bhrawuza futhi liyanyamalala kuso lapho livuleka.
+Enye i-app yalolu hlelo ingakunikeza i-PDF eyayivulwe kuyo: ivula i-TakeoffDesk kuthebhu elisha futhi i-PDF ivula khona njengoba uyiwisile. Ibha yesimo ithi "Ivuliwe (igama), idluliselwe kusuka ku-(app). Ifayela lokuqala alishintshiwe." Akulayishwa lutho; ifayela lidlula kusitoreji sale bhrawuza futhi liyanyamalala kuso lapho livuleka.
 
 Uma ibha yesimo ithi i-PDF "ayifikanga", ithebhu ilinde isikhathi eside, noma i-PDF isivele ivuliwe kwenye ithebhu: yivule nge-{{ui:Vula amapulani}}.
 

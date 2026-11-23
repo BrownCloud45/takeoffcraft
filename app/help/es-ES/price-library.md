@@ -13,7 +13,7 @@ La **biblioteca de precios** guarda las partidas que usa trabajo tras trabajo: s
 
 - {{ui:Importar CSV…}} lee una hoja de cálculo guardada como CSV (vea las columnas más abajo). Las partidas cuyo nombre y tipo ya están en la biblioteca se sustituyen; las demás se añaden. Las filas que no puede leer se omiten, e indica cuáles y por qué.
 - {{ui:Añadir las partidas de esta medición}} copia en la biblioteca cada partida de la medición abierta, con sus tarifas y su montaje (no sus marcas).
-- La estimación en CSV que exporta TakeoffCraft ([Exportar la estimación](topic:export-estimate)) se importa tal cual: los precios del último trabajo sirven de base para el siguiente.
+- La estimación en CSV que exporta TakeoffDesk ([Exportar la estimación](topic:export-estimate)) se importa tal cual: los precios del último trabajo sirven de base para el siguiente.
 
 - {{ui:Paquetes de oficio…}} añade montajes gratuitos para un oficio, como tabiquería, electricidad u hormigón, sin precios. Consulte [Paquetes de oficio](topic:trade-packs).
 

@@ -8,11 +8,11 @@ keywords: meters, metres, centimeters, millimeters, metric, show lengths as, fol
 
 ## What you'll do
 
-Change how TakeoffCraft shows lengths, so a metric job reads in meters, centimeters or millimeters on the sheet, in the status bar and in the panels.
+Change how TakeoffDesk shows lengths, so a metric job reads in meters, centimeters or millimeters on the sheet, in the status bar and in the panels.
 
 ## Steps
 
-1. Open {{ui:Settings}} with the gear in the app bar or {{key:Mod+,}}, and stay on the {{ui:TakeoffCraft}} tab.
+1. Open {{ui:Settings}} with the gear in the app bar or {{key:Mod+,}}, and stay on the {{ui:TakeoffDesk}} tab.
 2. Find {{ui:Show lengths as}} and choose {{ui:Feet-inches}}, m, cm or mm. {{ui:Follow Global}} uses the metric length unit starred in {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, and feet-inches when none is starred.
 3. Look at the sheet: lengths in the status bar, the Items list and the panels now read in the unit you chose. Heights, depth, thickness and the levels do too.
 4. To read item temperatures in degrees C or F, choose {{ui:Show temperatures as}} in the same tab.

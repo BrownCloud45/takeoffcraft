@@ -28,7 +28,7 @@ Työkirjassa on neljä taulukkoa ja alla olevat raportit, kun ne koskevat sitä:
 
 Kun käytössä on [tarjousyhteenveto](topic:bid-summary), Kustannusarvio-taulukko päättyy myös sen lisäyksiin (työkustannuslisä, myyntivero, yleiskustannukset, voitto, takuu ja tarjous) toimivina kaavoina.
 
-Kustannusarvio-taulukko säilyttää **toimivat kaavat**: määrä hukkineen, pyöristetyt materiaali- ja työsummat sekä rivin ja kokonaissumman. Taulukkolaskentaohjelmat laskevat ne uudelleen, joten voit muuttaa hintaa tai hukkaa taulukossa ja summat seuraavat. TakeoffCraftin laskemat luvut ovat myös soluissa, ja ne täsmäävät sentin tarkkuudella.
+Kustannusarvio-taulukko säilyttää **toimivat kaavat**: määrä hukkineen, pyöristetyt materiaali- ja työsummat sekä rivin ja kokonaissumman. Taulukkolaskentaohjelmat laskevat ne uudelleen, joten voit muuttaa hintaa tai hukkaa taulukossa ja summat seuraavat. TakeoffDeskin laskemat luvut ovat myös soluissa, ja ne täsmäävät sentin tarkkuudella.
 
 Huomautussarake luettelee kunkin osan kaavan, kaavavirheet, merkinnät arkeilla ilman mittakaavaa, seinäpinta-alan ja kehän. Kun jotain on jätetty pois, kokonaissummarivi sanoo "Epätäydellinen: katso yllä olevat huomautukset".
 
@@ -42,7 +42,7 @@ CSV sisältää vain kustannusarvion; määrät arkeittain ja merkintäluettelon
 
 ## Kustannusarvio Google Sheetsissä
 
-Määrätaulukon yläpuolella **Kopioi Google Sheetsiin** vie kustannusarvion leikepöydälle sarkaineroteltuna tekstinä, samoilla riveillä kuin CSV. Avaa Google Sheet, napsauta solua A1 ja liitä. TakeoffCraft ei kirjaudu Googleen eikä lähetä sinne mitään.
+Määrätaulukon yläpuolella **Kopioi Google Sheetsiin** vie kustannusarvion leikepöydälle sarkaineroteltuna tekstinä, samoilla riveillä kuin CSV. Avaa Google Sheet, napsauta solua A1 ja liitä. TakeoffDesk ei kirjaudu Googleen eikä lähetä sinne mitään.
 
 ## Puuttuvat hinnat ja hyväksyntä
 

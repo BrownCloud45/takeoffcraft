@@ -1,6 +1,6 @@
 ---
 title: Tastatura i miš
-summary: Svaki taster, radnja mišem, tačpedom i dodirom u TakeoffCraft-u, grupisano, sa razlikama među platformama.
+summary: Svaki taster, radnja mišem, tačpedom i dodirom u TakeoffDesk-u, grupisano, sa razlikama među platformama.
 keywords: tasteri, prečice, tasteri za prečice, tastatura, miš, tačped, dodir, pomeri pogled, zumiraj, točkić, desni klik, dvoklik, space, shift, kopiraj, nalepi, iseci, dupliraj, izaberi sve
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Pogledajte [Proverite predmer u 3D](topic:check-in-3d).
 | Taster | Šta radi |
 |---|---|
 | {{key:F1}} | Otvara ili zatvara panel pomoći (takođe dugme {{ui:Pomoć}} u traci aplikacije). Radi u svakoj alatki, čak i dok kucate u polju. |
-| {{key:Esc}} | Zatvara panel pomoći. U njegovom polju za pretragu, prvi Esc briše pretragu. Dok je panel otvoren, Esc pritisnut posle klika na list najpre zatvara panel; pritisnite ga ponovo da biste otkazali u TakeoffCraft-u. |
+| {{key:Esc}} | Zatvara panel pomoći. U njegovom polju za pretragu, prvi Esc briše pretragu. Dok je panel otvoren, Esc pritisnut posle klika na list najpre zatvara panel; pritisnite ga ponovo da biste otkazali u TakeoffDesk-u. |
 
 :::mac
 Na mnogim Mac tastaturama gornji red kontroliše svetlinu i zvuk. Pritisnite fn sa F1 ili uključite „Koristi tastere F1, F2 itd. kao standardne funkcijske tastere“ u Sistemskim podešavanjima, pod Tastatura.
@@ -139,7 +139,7 @@ Na mnogim Mac tastaturama gornji red kontroliše svetlinu i zvuk. Pritisnite fn 
 
 :::mac
 - {{key:Mod}} je taster Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Ceo ekran je izuzetak: Control+Shift+F.
-- Desni klik je dvoprstni klik na tačpedu, kada je sekundarni klik uključen u Sistemskim podešavanjima, pod Tačped. TakeoffCraft čita samo sekundarno dugme; Control-klik može da se računa kao običan klik i doda tačku.
+- Desni klik je dvoprstni klik na tačpedu, kada je sekundarni klik uključen u Sistemskim podešavanjima, pod Tačped. TakeoffDesk čita samo sekundarno dugme; Control-klik može da se računa kao običan klik i doda tačku.
 - Dvoprstno skrolovanje na tačpedu uvećava list (ne pomera ga). Za pomeranje pritisnite i prevucite, ili držite Space i prevucite.
 - Page Up i Page Down su fn sa strelicama gore i dole na tastaturama bez njih.
 - Backspace je taster označen sa „delete“.
@@ -151,12 +151,12 @@ Na mnogim Mac tastaturama gornji red kontroliše svetlinu i zvuk. Pritisnite fn 
 :::
 
 :::linux
-- {{key:Mod}} je Ctrl. Neka radna okruženja koriste sopstvene prečice Ctrl+Alt ili Super; TakeoffCraft ne koristi nijednu od njih.
+- {{key:Mod}} je Ctrl. Neka radna okruženja koriste sopstvene prečice Ctrl+Alt ili Super; TakeoffDesk ne koristi nijednu od njih.
 - Na tačpedu, dvoprstno skrolovanje uvećava list. Za pomeranje pritisnite i prevucite.
 :::
 
 :::touch
-TakeoffCraft dodir čita kao jedan pokazivač:
+TakeoffDesk dodir čita kao jedan pokazivač:
 
 - Dodir postavlja tačku, bira oznaku ili dodaje tačku brojanja.
 - Prevlačenje jednim prstom pomera list (u {{ui:Automatsko brojanje}} crta okvir za pretragu).
@@ -169,7 +169,7 @@ Za predmer danas, tastatura i miš ili tačped su bolji izbor.
 
 ## Prečice koje pregledač zadržava
 
-Pregledači zadržavaju neke prečice za sebe, i stranica ih ne može koristiti: zatvaranje kartice ({{key:Mod+W}}), nova kartica ili prozor ({{key:Mod+T}}, {{key:Mod+N}}) i zumiranje pregledača ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffCraft uvećava list točkićem i samim tasterima {{key:Plus}} i {{key:Minus}}. Ako greškom pritisnete {{key:Mod+Plus}}, cela stranica se uveliča; {{key:Mod+0}} je vraća. Pogledajte [Tasteri, miševi i tačpedi](common:keys).
+Pregledači zadržavaju neke prečice za sebe, i stranica ih ne može koristiti: zatvaranje kartice ({{key:Mod+W}}), nova kartica ili prozor ({{key:Mod+T}}, {{key:Mod+N}}) i zumiranje pregledača ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffDesk uvećava list točkićem i samim tasterima {{key:Plus}} i {{key:Minus}}. Ako greškom pritisnete {{key:Mod+Plus}}, cela stranica se uveliča; {{key:Mod+0}} je vraća. Pogledajte [Tasteri, miševi i tačpedi](common:keys).
 
 ## Gde je Premesti
 

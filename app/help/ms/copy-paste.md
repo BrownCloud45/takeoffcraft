@@ -32,11 +32,11 @@ Tanda yang ditampal masuk ke kawasan tawaran yang dipilih di bahagian atas panel
 
 {{key:Mod+Shift+V}} ({{ui:Tampal di tempat yang sama}}) meletakkan salinan tepat di tempat yang sama pada helaian terbuka, mengikut kedudukannya pada halaman. Gunakannya untuk lantai biasa: kira tingkat 2, salin, buka tingkat 3, dan tampal di tempat yang sama.
 
-Tampal di tempat yang sama memerlukan helaian yang **saiz sama** dengan helaian yang anda salin. Pada helaian saiz lain TakeoffCraft memberitahu dan tidak menampal apa-apa; gunakan {{ui:Tampal}} dan klik sebaliknya. Pada helaian asal yang anda salin, salinan itu jatuh di atas yang asal.
+Tampal di tempat yang sama memerlukan helaian yang **saiz sama** dengan helaian yang anda salin. Pada helaian saiz lain TakeoffDesk memberitahu dan tidak menampal apa-apa; gunakan {{ui:Tampal}} dan klik sebaliknya. Pada helaian asal yang anda salin, salinan itu jatuh di atas yang asal.
 
 ## Skala mesti sepadan
 
-Panjang dan luas bergantung pada skala helaian. Larian yang mengukur 10' pada 1/4" = 1'-0" akan mengukur 20' pada helaian 1/8" = 1'-0". Oleh itu TakeoffCraft hanya menampal larian dan luas ke helaian dengan **skala yang sama** seperti helaian asalnya, dan memberitahu dengan jelas apabila tidak:
+Panjang dan luas bergantung pada skala helaian. Larian yang mengukur 10' pada 1/4" = 1'-0" akan mengukur 20' pada helaian 1/8" = 1'-0". Oleh itu TakeoffDesk hanya menampal larian dan luas ke helaian dengan **skala yang sama** seperti helaian asalnya, dan memberitahu dengan jelas apabila tidak:
 
 - Helaian terbuka belum ada skala: beri skala dahulu ([Tetapkan skala](topic:set-the-scale)), kemudian tampal.
 - Helaian terbuka mempunyai skala lain: mesej menamakan kedua-dua skala. Tampal pada helaian dengan skala yang sama.
@@ -59,7 +59,7 @@ Editor item (di bawah **Item**) berakhir dengan:
 - {{ui:Pendua item}}: menambah salinan serta-merta, dinamakan "(nama) (salinan)".
 
 :::tip
-Salinan kekal di komputer ini: ia disimpan dalam tab ini dan dalam storan pelayar, jadi tab TakeoffCraft yang lain boleh menampalnya. Tiada apa dimuat naik, dan papan keratan sistem tidak digunakan, jadi anda tidak boleh menampal tanda ke dalam program lain.
+Salinan kekal di komputer ini: ia disimpan dalam tab ini dan dalam storan pelayar, jadi tab TakeoffDesk yang lain boleh menampalnya. Tiada apa dimuat naik, dan papan keratan sistem tidak digunakan, jadi anda tidak boleh menampal tanda ke dalam program lain.
 :::
 
 :::note

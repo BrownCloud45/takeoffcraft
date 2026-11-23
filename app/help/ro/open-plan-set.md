@@ -5,7 +5,7 @@ keywords: deschidere, set de planuri, mai multe pdf-uri, fișiere multiple, foi,
 from: ed434468
 ---
 
-Un set de planuri este adesea format din mai multe PDF-uri: arhitectură, structură, instalații. TakeoffCraft le deschide una lângă alta, ca o singură listă de foi, iar o singură antemăsurătoare poate acoperi toate.
+Un set de planuri este adesea format din mai multe PDF-uri: arhitectură, structură, instalații. TakeoffDesk le deschide una lângă alta, ca o singură listă de foi, iar o singură antemăsurătoare poate acoperi toate.
 
 ## Deschiderea PDF-urilor
 
@@ -14,14 +14,14 @@ Un set de planuri este adesea format din mai multe PDF-uri: arhitectură, struct
 3. Alegeți Deschidere.
    Un mesaj „Se deschide (nume)…” apare cât timp este citit fiecare fișier. Apoi fiecare pagină apare sub {{ui:Sheets}}, iar prima pagină a primului PDF nou se deschide.
 
-Puteți trage PDF-urile din {{pick:mac=Finder|windows=File Explorer|linux=managerul de fișiere}} și le puteți plasa oriunde pe TakeoffCraft. Un cadru „Plasați PDF-uri, desene DWG sau DXF ori un .takeoff.json” apare cât timp trageți.
+Puteți trage PDF-urile din {{pick:mac=Finder|windows=File Explorer|linux=managerul de fișiere}} și le puteți plasa oriunde pe TakeoffDesk. Un cadru „Plasați PDF-uri, desene DWG sau DXF ori un .takeoff.json” apare cât timp trageți.
 
 Pentru a adăuga mai multe PDF-uri mai târziu, procedați la fel. PDF-urile deja deschise sunt sărite.
 
 Pagina de start listează și PDF-urile și antemăsurătorile deschise recent, în browserele care permit unei pagini să redeschidă un fișier (Chrome și Edge). Faceți clic pe unul pentru a-l deschide; browserul poate cere mai întâi permisiunea. Consultați [Fișierele](common:your-files).
 
 :::note
-Nimic nu este încărcat. Browserul citește PDF-urile de pe computer, iar acestea dispar din TakeoffCraft când închideți fila sau alegeți {{ui:New}}.
+Nimic nu este încărcat. Browserul citește PDF-urile de pe computer, iar acestea dispar din TakeoffDesk când închideți fila sau alegeți {{ui:New}}.
 :::
 
 ## Desene alături de PDF-uri
@@ -30,7 +30,7 @@ Nimic nu este încărcat. Browserul citește PDF-urile de pe computer, iar acest
 
 ## Un PDF predat de la altă aplicație
 
-O altă aplicație din familie vă poate preda PDF-ul pe care îl are deschis: deschide TakeoffCraft într-o filă nouă, iar PDF-ul se deschide acolo ca și cum l-ați fi tras peste aplicație. Bara de stare spune „Deschis (nume), predat de la (aplicație). Fișierul original este neschimbat.” Nimic nu este încărcat; fișierul trece prin spațiul de stocare al acestui browser și dispare din el odată deschis.
+O altă aplicație din familie vă poate preda PDF-ul pe care îl are deschis: deschide TakeoffDesk într-o filă nouă, iar PDF-ul se deschide acolo ca și cum l-ați fi tras peste aplicație. Bara de stare spune „Deschis (nume), predat de la (aplicație). Fișierul original este neschimbat.” Nimic nu este încărcat; fișierul trece prin spațiul de stocare al acestui browser și dispare din el odată deschis.
 
 Dacă bara de stare spune că PDF-ul „nu a sosit”, fila a așteptat prea mult sau PDF-ul era deja deschis într-o altă filă: deschideți-l cu {{ui:Open plans}}.
 

@@ -1,11 +1,11 @@
 ---
 title: Apa yang dipelajarinya daripada pengukuran kuantiti anda
-summary: TakeoffCraft menyimpan simbol yang anda sahkan dengan Kiraan auto, set syarat anda, himpunan yang paling kerap anda gunakan dan corak yang anda ulang pada setiap halaman, semuanya dalam fail pengukuran kuantiti itu sendiri. Lihat, guna, padam.
+summary: TakeoffDesk menyimpan simbol yang anda sahkan dengan Kiraan auto, set syarat anda, himpunan yang paling kerap anda gunakan dan corak yang anda ulang pada setiap halaman, semuanya dalam fail pengukuran kuantiti itu sendiri. Lihat, guna, padam.
 keywords: pelajari, dipelajari, pembelajaran, pembantu, ingat, simbol, templat, sama seperti kerja terakhir, kerja terakhir, set syarat, syarat, guna semula, himpunan, paling kerap digunakan, cadangan, ulang pada setiap halaman, setiap halaman, blok tajuk, corak, kosongkan semua, lupakan, privasi
 from: 54d99e99
 ---
 
-TakeoffCraft menjadi lebih pantas semakin banyak pengukuran kuantiti yang anda buat dengannya. Ia belajar **hanya daripada perkara yang anda terima**:
+TakeoffDesk menjadi lebih pantas semakin banyak pengukuran kuantiti yang anda buat dengannya. Ia belajar **hanya daripada perkara yang anda terima**:
 
 - simbol yang anda kotakkan dengan [Kiraan auto](topic:auto-count) dan kemudian tambah,
 - set syarat yang anda simpan,
@@ -64,6 +64,6 @@ Untuk berhenti belajar dalam satu pengukuran kuantiti, nyahtandakan {{ui:Pelajar
 
 ## Perlu diketahui
 
-- Versi TakeoffCraft yang lebih lama membuka fail dengan perkara yang dipelajari seperti biasa. Mereka mengabaikan bahagian itu, dan membuangnya jika mereka menyimpan fail itu semula.
+- Versi TakeoffDesk yang lebih lama membuka fail dengan perkara yang dipelajari seperti biasa. Mereka mengabaikan bahagian itu, dan membuangnya jika mereka menyimpan fail itu semula.
 - Simbol yang dipelajari ialah gambar kecil daripada apa yang anda kotakkan, disimpan dalam fail (beberapa kilobait setiap satu).
 - Simbol yang dipelajari dicari seperti carian Kiraan auto, jadi had yang sama terpakai: [Kira auto satu simbol](topic:auto-count).

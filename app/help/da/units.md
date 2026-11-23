@@ -55,4 +55,4 @@ En arks målestok siger, hvor stor tegningen er; en posts enhed siger, hvordan d
 
 ## Præcision
 
-TakeoffCraft måler nøjagtigt ud fra de punkter, du klikker, inklusive sande buelængder og arealer, og runder ikke mængder af. Visningen runder længder af til 1/16 tomme og decimaler til to decimaler. Beløb afrundes kun ved de udregnede beløb, til nærmeste øre.
+TakeoffDesk måler nøjagtigt ud fra de punkter, du klikker, inklusive sande buelængder og arealer, og runder ikke mængder af. Visningen runder længder af til 1/16 tomme og decimaler til to decimaler. Beløb afrundes kun ved de udregnede beløb, til nærmeste øre.

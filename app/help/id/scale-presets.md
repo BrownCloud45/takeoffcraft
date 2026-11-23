@@ -49,4 +49,4 @@ Skala terkalibrasi tampil sebagai "Calibrated 1" = 4.002' pada 24'-6"" di bilah 
 
 ## PDF yang tidak biasa
 
-Beberapa PDF menyatakan satuan halaman yang lebih besar (sebuah "user unit"); TakeoffCraft memperhitungkannya untuk preset dan untuk skala yang ditampilkan. Halaman yang diputar di dalam PDF diukur dengan cara yang sama seperti halaman tegak.
+Beberapa PDF menyatakan satuan halaman yang lebih besar (sebuah "user unit"); TakeoffDesk memperhitungkannya untuk preset dan untuk skala yang ditampilkan. Halaman yang diputar di dalam PDF diukur dengan cara yang sama seperti halaman tegak.

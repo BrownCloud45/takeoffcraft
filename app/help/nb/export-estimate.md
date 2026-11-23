@@ -28,7 +28,7 @@ Arbeidsboken har fire regneark, og rapportene under når de gjelder:
 
 Med et [tilbudssammendrag](topic:bid-summary) slutter også Kalkyle-arket med påslagene sine (lønnsomkostning, salgsavgift, generalkostnader, fortjeneste, garanti og tilbudet), som levende formler.
 
-Kalkyle-arket har **levende formler**: mengde med svinn, de avrundede materiell- og arbeidsbeløpene, hver rads sum og totalen for jobben. Regnearkprogrammer beregner dem på nytt, så en sats eller et svinn kan endres i regnearket, og summene følger med. Tallene TakeoffCraft har regnet ut, lagres også i cellene, og stemmer til øre.
+Kalkyle-arket har **levende formler**: mengde med svinn, de avrundede materiell- og arbeidsbeløpene, hver rads sum og totalen for jobben. Regnearkprogrammer beregner dem på nytt, så en sats eller et svinn kan endres i regnearket, og summene følger med. Tallene TakeoffDesk har regnet ut, lagres også i cellene, og stemmer til øre.
 
 Merknadskolonnen lister hver komponents formel, formelfeil, markeringer på ark uten målestokk, veggareal og omkrets. Når noe er utelatt, sier totalraden for jobben «Ufullstendig: se merknadene over».
 
@@ -42,7 +42,7 @@ CSV-filen har bare kalkylen; for mengder per ark og markeringslisten brukes XLSX
 
 ## Kalkylen i Google Sheets
 
-Over mengdetabellen legger **Kopier for Google Sheets** kalkylen på utklippstavlen som tabulatorseparert tekst, med de samme linjene som CSV-filen. Klikk på celle A1 i et Google Sheet og lim inn. TakeoffCraft logger ikke inn hos Google og sender ingenting dit.
+Over mengdetabellen legger **Kopier for Google Sheets** kalkylen på utklippstavlen som tabulatorseparert tekst, med de samme linjene som CSV-filen. Klikk på celle A1 i et Google Sheet og lim inn. TakeoffDesk logger ikke inn hos Google og sender ingenting dit.
 
 ## Manglende satser og godkjenning
 

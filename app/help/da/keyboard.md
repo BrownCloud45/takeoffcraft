@@ -1,6 +1,6 @@
 ---
 title: Tastatur og mus
-summary: Alle taster, mus-, touchpad- og berøringshandlinger i TakeoffCraft, grupperet, med forskellene mellem platforme.
+summary: Alle taster, mus-, touchpad- og berøringshandlinger i TakeoffDesk, grupperet, med forskellene mellem platforme.
 keywords: taster, genveje, hurtigtaster, tastatur, mus, touchpad, berøring, panorér, zoom, hjul, højreklik, dobbeltklik, space, shift, kopiér, sæt ind, klip, duplikér, vælg alle
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Se [Kontrollér mængdeudtrækket i 3D](topic:check-in-3d).
 | Tast | Hvad den gør |
 |---|---|
 | {{key:F1}} | Åbn eller luk hjælpepanelet (også knappen {{ui:Hjælp}} i appbjælken). Den virker i alle værktøjer, også mens du skriver i et felt. |
-| {{key:Esc}} | Luk hjælpepanelet. I dets søgefelt rydder det første Esc søgningen. Mens panelet er åbent, lukker et Esc efter klik på arket først panelet; tryk igen for at annullere i TakeoffCraft. |
+| {{key:Esc}} | Luk hjælpepanelet. I dets søgefelt rydder det første Esc søgningen. Mens panelet er åbent, lukker et Esc efter klik på arket først panelet; tryk igen for at annullere i TakeoffDesk. |
 
 :::mac
 På mange Mac-tastaturer styrer den øverste række lysstyrke og lyd. Tryk fn sammen med F1, eller slå "Brug F1, F2 osv. som standard funktionstaster" til i Systemindstillinger, under Tastatur.
@@ -139,7 +139,7 @@ På mange Mac-tastaturer styrer den øverste række lysstyrke og lyd. Tryk fn sa
 
 :::mac
 - {{key:Mod}} er Command-tasten: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Fuld skærm er undtagelsen: Control+Shift+F.
-- Højreklik er et tofingerklik på et touchpad, når sekundærklik er slået til under Systemindstillinger, Touchpad. TakeoffCraft læser kun sekundærknappen; et Control-klik kan tælle som et almindeligt klik og tilføje et punkt.
+- Højreklik er et tofingerklik på et touchpad, når sekundærklik er slået til under Systemindstillinger, Touchpad. TakeoffDesk læser kun sekundærknappen; et Control-klik kan tælle som et almindeligt klik og tilføje et punkt.
 - Rulning med to fingre på et touchpad zoomer arket i stedet for at rulle det. Panorér ved at trykke og trække, eller hold {{key:Space}} nede og træk.
 - Page Up og Page Down er fn sammen med piletasterne op og ned på tastaturer uden dem.
 - Backspace er tasten, der er mærket delete.
@@ -151,12 +151,12 @@ På mange Mac-tastaturer styrer den øverste række lysstyrke og lyd. Tryk fn sa
 :::
 
 :::linux
-- {{key:Mod}} er Ctrl. Nogle skrivebordsmiljøer har egne genveje med Ctrl+Alt eller Super; TakeoffCraft bruger ingen af dem.
+- {{key:Mod}} er Ctrl. Nogle skrivebordsmiljøer har egne genveje med Ctrl+Alt eller Super; TakeoffDesk bruger ingen af dem.
 - På et touchpad zoomer rulning med to fingre arket. Panorér ved at trykke og trække.
 :::
 
 :::touch
-TakeoffCraft læser berøring som én markør:
+TakeoffDesk læser berøring som én markør:
 
 - Et tryk placerer et punkt, vælger en markering eller tilføjer en tællingsprik.
 - Træk med én finger panorerer arket (i {{ui:Auto-tælling}} tegner det søgefeltet).
@@ -169,7 +169,7 @@ Et tastatur og en mus eller et touchpad er i dag den bedste måde at lave mængd
 
 ## Taster browseren beholder
 
-Browsere beholder nogle genveje for sig selv, og en side kan ikke bruge dem: lukning af fanen ({{key:Mod+W}}), ny fane eller nyt vindue ({{key:Mod+T}}, {{key:Mod+N}}) og browserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Derfor zoomer TakeoffCraft arket med hjulet og de bare taster {{key:Plus}} og {{key:Minus}}. Trykker du {{key:Mod+Plus}} ved en fejl, vokser hele siden; {{key:Mod+0}} gendanner den. Se [Taster, mus og touchpads](common:keys).
+Browsere beholder nogle genveje for sig selv, og en side kan ikke bruge dem: lukning af fanen ({{key:Mod+W}}), ny fane eller nyt vindue ({{key:Mod+T}}, {{key:Mod+N}}) og browserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Derfor zoomer TakeoffDesk arket med hjulet og de bare taster {{key:Plus}} og {{key:Minus}}. Trykker du {{key:Mod+Plus}} ved en fejl, vokser hele siden; {{key:Mod+0}} gendanner den. Se [Taster, mus og touchpads](common:keys).
 
 ## Hvor Flyt findes
 

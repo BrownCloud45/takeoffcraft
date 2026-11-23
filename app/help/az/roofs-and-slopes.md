@@ -5,7 +5,7 @@ keywords: dam, meyl, yamac, meyl əmsalı, qalxma, üfüq, 6:12, yan kənar, buc
 from: 38225b60
 ---
 
-Dam planı hər dam səthini yuxarıdan baxıldığı kimi düz göstərir. Damın özü isə daha böyükdür: 6:12 meyilli səth planından təqribən 12% çoxdur və onun meylli kənarları göründüyündən uzundur. Elementə meylini verin və TakeoffCraft yamac boyunca ölçər.
+Dam planı hər dam səthini yuxarıdan baxıldığı kimi düz göstərir. Damın özü isə daha böyükdür: 6:12 meyilli səth planından təqribən 12% çoxdur və onun meylli kənarları göründüyündən uzundur. Elementə meylini verin və TakeoffDesk yamac boyunca ölçər.
 
 ## Meyli yazmaq
 

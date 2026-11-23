@@ -41,7 +41,7 @@ Wanneer de ruimten als gesloten wanden zijn getekend, neemt {{ui:Ruimte}} ({{key
 2. Kies {{ui:Ruimte}} in de groep {{ui:Opmeting}}, of druk op {{key:B}}.
 3. Klik in een ruimte, op de open vloer (niet op een lijn of een label).
 
-TakeoffCraft leest de lijnen van het blad, zoekt de ruimte rond de klik en omlijnt die langs de binnenkant van de wanden, als een oppervlakte van de huidige post. Deuropeningen tot **4'-0"** worden als gesloten behandeld, zodat de omlijning recht over de doorgang loopt; **Instellingen › TakeoffCraft › Ruimtevulling sluit openingen tot** wijzigt die breedte (3'-0" tot 8'-0"). Ruimtenamen, meubilair en armaturen binnen de ruimte maken geen gaten.
+TakeoffDesk leest de lijnen van het blad, zoekt de ruimte rond de klik en omlijnt die langs de binnenkant van de wanden, als een oppervlakte van de huidige post. Deuropeningen tot **4'-0"** worden als gesloten behandeld, zodat de omlijning recht over de doorgang loopt; **Instellingen › TakeoffDesk › Ruimtevulling sluit openingen tot** wijzigt die breedte (3'-0" tot 8'-0"). Ruimtenamen, meubilair en armaturen binnen de ruimte maken geen gaten.
 
 Het weigert, met de reden erbij, wanneer:
 
@@ -62,7 +62,7 @@ Wanneer een deur breder is dan de instelling, loopt de vulling door in de volgen
 
 Voor een rond gat kiest u {{ui:Een ronde uitsparing toevoegen}} onder **Geselecteerde markering**, klikt u op het middelpunt en daarna op een punt op de rand.
 
-Een uitsparing moet volledig binnen de oppervlakte liggen en mag geen andere uitsparing overlappen. Anders weigert TakeoffCraft haar: "Een uitsparing moet volledig binnen de oppervlakte liggen." of "Uitsparingen mogen elkaar niet overlappen."
+Een uitsparing moet volledig binnen de oppervlakte liggen en mag geen andere uitsparing overlappen. Anders weigert TakeoffDesk haar: "Een uitsparing moet volledig binnen de oppervlakte liggen." of "Uitsparingen mogen elkaar niet overlappen."
 
 Om het laatste gat weer te verwijderen, kiest u {{ui:Laatste uitsparing verwijderen}}.
 
@@ -76,7 +76,7 @@ Een uitsparing hoort bij één oppervlaktemarkering. Een **aftrek** wordt één 
 
 Elke oppervlaktemarkering van een aangevinkte post op hetzelfde blad verliest het deel dat een aftrek bedekt: de hele aftrek wanneer die erbinnen ligt, alleen het overlappende deel wanneer die de rand kruist, en niets binnen een uitsparing. Het paneel van de geselecteerde oppervlakte toont **Aftrekken** en de overgebleven oppervlakte. De hoeveelheid van de post, de samenstellingsformules, de kosten, de 3D-controleweergave en de export gebruiken allemaal de overgebleven oppervlakte; de opmerkingen van de raming vermelden hoeveel de aftrekken hebben weggehaald. De aftrekpost zelf telt zijn eigen oppervlakte (laat zijn kosten op nul als u hem niet prijst).
 
-Een aftrek moet **convex** zijn: een rechthoek, een cirkel of elke omlijning zonder inwaartse hoek. TakeoffCraft weigert er een te tekenen die dat niet is; teken een L-vormige schacht als twee aftrekken. Aftrekken kunnen geen uitsparingen hebben, en twee aftrekken die elkaar overlappen tellen beide mee.
+Een aftrek moet **convex** zijn: een rechthoek, een cirkel of elke omlijning zonder inwaartse hoek. TakeoffDesk weigert er een te tekenen die dat niet is; teken een L-vormige schacht als twee aftrekken. Aftrekken kunnen geen uitsparingen hebben, en twee aftrekken die elkaar overlappen tellen beide mee.
 
 De omtrek (`P`) verandert niet: aftrekken halen alleen oppervlakte weg.
 

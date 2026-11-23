@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, brėžinys, atidaryti brėžinį, maketai, modelio erdv
 from: d8c3f504
 ---
 
-TakeoffCraft atveria DWG ar DXF brėžinį taip, kaip atveria PDF: jo nereikia pirma spausdinti į PDF. Skaičiavimas tiesiai iš brėžinio yra tikslus, nes brėžinys žino, kas yra kiekvienas objektas. Žr. [Skaičiuoti iš brėžinio](topic:count-from-a-drawing).
+TakeoffDesk atveria DWG ar DXF brėžinį taip, kaip atveria PDF: jo nereikia pirma spausdinti į PDF. Skaičiavimas tiesiai iš brėžinio yra tikslus, nes brėžinys žino, kas yra kiekvienas objektas. Žr. [Skaičiuoti iš brėžinio](topic:count-from-a-drawing).
 
 ## Atidaryti brėžinį
 
@@ -13,9 +13,9 @@ TakeoffCraft atveria DWG ar DXF brėžinį taip, kaip atveria PDF: jo nereikia p
 2. Pasirinkite DWG ar DXF failą. Galite pasirinkti kelis, taip pat ir PDF kartu su jais.
 3. Pasirinkite Atidaryti.
 
-Brėžinio failus galite ir įmesti į TakeoffCraft, kaip PDF. Nieko neįkeliama: naršyklė skaito failą jūsų kompiuteryje.
+Brėžinio failus galite ir įmesti į TakeoffDesk, kaip PDF. Nieko neįkeliama: naršyklė skaito failą jūsų kompiuteryje.
 
-TakeoffCraft skaito DWG nuo AutoCAD 2000 iki 2018 ir ASCII DXF nuo R12 iki 2018. Dvejetainio DXF (įrašykite jį kaip ASCII arba kaip DWG) ir failo, kuris nėra nei vienas, neatidaro ir pasako priežastį. Pažeistas failas atsidaro su tuo, kas galėjo būti perskaityta, ir apie tai pranešama; jo skaičiai gali būti neišsamūs.
+TakeoffDesk skaito DWG nuo AutoCAD 2000 iki 2018 ir ASCII DXF nuo R12 iki 2018. Dvejetainio DXF (įrašykite jį kaip ASCII arba kaip DWG) ir failo, kuris nėra nei vienas, neatidaro ir pasako priežastį. Pažeistas failas atsidaro su tuo, kas galėjo būti perskaityta, ir apie tai pranešama; jo skaičiai gali būti neišsamūs.
 
 ## Lapai
 
@@ -40,10 +40,10 @@ Lapas pradedamas nuo brėžinio nurodyto mastelio:
 
 ## Susieti brėžiniai (xref)
 
-Brėžinys, kuris susieja kitus brėžinius, rodo juos ten, kur jie įterpti. TakeoffCraft susietą brėžinį randa tarp **atvertų failų** pagal jo failo pavadinimą: atidarykite pagrindinį brėžinį ir susietą kartu (arba vieną po kito). Kol tai nepadaryta, būsenos juostoje rašoma, kiek susietų brėžinių nerasta, kad jų piešinių trūksta, o skaičiai tai nurodo.
+Brėžinys, kuris susieja kitus brėžinius, rodo juos ten, kur jie įterpti. TakeoffDesk susietą brėžinį randa tarp **atvertų failų** pagal jo failo pavadinimą: atidarykite pagrindinį brėžinį ir susietą kartu (arba vieną po kito). Kol tai nepadaryta, būsenos juostoje rašoma, kiek susietų brėžinių nerasta, kad jų piešinių trūksta, o skaičiai tai nurodo.
 
 ## Apribojimai
 
-- Objektai, kurių TakeoffCraft negali perskaityti ar pavaizduoti (tarpiniai objektai, nežinomos klasės), skaičiavimo lange išvardijami pagal tipą; jie niekada nedingsta be jokio pranešimo.
+- Objektai, kurių TakeoffDesk negali perskaityti ar pavaizduoti (tarpiniai objektai, nežinomos klasės), skaičiavimo lange išvardijami pagal tipą; jie niekada nedingsta be jokio pranešimo.
 - Labai dideli brėžiniai piešiami iš dalies, o skaičiai sustoja ties riba, apie tai pranešant. Tokiu atveju atidarykite brėžinio PDF spausdinį.
 - Brėžinys piešiamas juodai ir savo spalvomis, tamsintomis balto popieriaus atžvilgiu. Spausdinimo stilių lentelės ir pieštukų priskyrimai netaikomi.

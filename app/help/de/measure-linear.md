@@ -30,7 +30,7 @@ Beim Zeichnen:
 - Ziehen verschiebt das Blatt, und das Mausrad zoomt, ohne Punkte hinzuzufügen.
 
 :::mac
-Auf einem Mac-Trackpad ist der Rechtsklick ein Klick mit zwei Fingern (aktivieren Sie den sekundären Klick in den Systemeinstellungen unter „Trackpad“). TakeoffCraft liest nur die sekundäre Taste, daher kann ein Control-Klick als einfacher Klick gewertet werden und einen Punkt hinzufügen. Doppelklick oder {{key:Enter}} beenden immer.
+Auf einem Mac-Trackpad ist der Rechtsklick ein Klick mit zwei Fingern (aktivieren Sie den sekundären Klick in den Systemeinstellungen unter „Trackpad“). TakeoffDesk liest nur die sekundäre Taste, daher kann ein Control-Klick als einfacher Klick gewertet werden und einen Punkt hinzufügen. Doppelklick oder {{key:Enter}} beenden immer.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Nach dem ersten Punkt können Sie eingeben, wohin der nächste gehört, statt zu
 | `@6',-4'` | 6' nach rechts und 4' nach unten vom letzten Punkt |
 | `6',4'` (oder `#6',4'`) | 6' nach rechts und 4' nach oben vom ersten Punkt dieser Strecke |
 
-Längen werden eingegeben wie überall in TakeoffCraft ([Eingabeformate](topic:entry-formats)): `12'-6 1/2"`, `12.5` (Fuß), `30"`, `3.2 m`. „Rechts“ und „oben“ beziehen sich darauf, wie Sie das Blatt sehen, auch wenn die PDF-Seite gedreht ist.
+Längen werden eingegeben wie überall in TakeoffDesk ([Eingabeformate](topic:entry-formats)): `12'-6 1/2"`, `12.5` (Fuß), `30"`, `3.2 m`. „Rechts“ und „oben“ beziehen sich darauf, wie Sie das Blatt sehen, auch wenn die PDF-Seite gedreht ist.
 
 {{key:Enter}} in einem leeren Feld beendet die Strecke, wie {{key:Enter}} auf dem Blatt; {{key:Esc}} schließt das Feld und lässt die Strecke weiterlaufen. Eingegebene Punkte folgen denselben Regeln wie Klicks: Abzüge, Bögen und das Schließen einer Fläche funktionieren alle. Dasselbe Feld funktioniert bei {{ui:Fläche}} und {{ui:Aussparung}}; nach dem Mittelpunkt eines Kreises nimmt es den Radius.
 

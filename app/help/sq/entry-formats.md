@@ -1,6 +1,6 @@
 ---
 title: Hyrja e gjatësisë, tarifës dhe përqindjes
-summary: Çfarë mund të shkruash për distancat, lartësitë, tarifat e parave dhe përqindjet e humbjes, me shembuj dhe mesazhet për hyrjet që TakeoffCraft nuk i lexon dot.
+summary: Çfarë mund të shkruash për distancat, lartësitë, tarifat e parave dhe përqindjet e humbjes, me shembuj dhe mesazhet për hyrjet që TakeoffDesk nuk i lexon dot.
 keywords: hyrje, format, këmbë inç, thyesa, këmbë decimale, metrik, metra, milimetra, tarifë, para, dollarë, përqindje, humbje, shkrim
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Deri në dy decimale, nga 0% në 1000%. Mesazhet: "Shkruaj një përqindje, si 1
 ## Emrat dhe njësitë
 
 - Emrat e artikujve dhe të përbërësve: deri në 200 karaktere.
-- {{ui:Njësia}} i një përbërësi: çdo tekst deri në 20 karaktere, si `EA`, `sheets`, `CY`, `gal`. Është vetëm etiketë; TakeoffCraft nuk e konverton.
+- {{ui:Njësia}} i një përbërësi: çdo tekst deri në 20 karaktere, si `EA`, `sheets`, `CY`, `gal`. Është vetëm etiketë; TakeoffDesk nuk e konverton.
 
 ## Formulat
 

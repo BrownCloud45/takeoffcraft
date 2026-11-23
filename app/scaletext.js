@@ -6,7 +6,7 @@
  *   sheetScale(text)         → { preset, label, n, others: [preset], nts, why }   what to apply to a sheet, or why not
  *
  * It reads the notations drawings use — 1/4" = 1'-0", 1/8"=1', 3/16" = 1'-0", 1 1/2" = 1'-0", 1" = 20', 1:100 — and keeps
- * only those that are one of TakeoffCraft's preset scales. A sheet says "1/4" = 1'-0"" once in its title block and again
+ * only those that are one of TakeoffDesk's preset scales. A sheet says "1/4" = 1'-0"" once in its title block and again
  * under each view; the most frequent wins, and one written after "SCALE" counts double. Several different scales (a plan
  * with enlarged details) are reported in `others` so the person can check. "NTS" / "NOT TO SCALE" is reported as `nts`.
  */

@@ -5,7 +5,7 @@ keywords: hap, grup planimetrish, disa pdf, skedarë të shumtë, fletë, vizati
 from: ed434468
 ---
 
-Një grup planimetrish shpesh është disa PDF: arkitekturore, strukturore, mekanike. TakeoffCraft i hap njëra pranë tjetrës si një listë të vetme fletësh, dhe një llogaritje mund t'i mbulojë të gjitha.
+Një grup planimetrish shpesh është disa PDF: arkitekturore, strukturore, mekanike. TakeoffDesk i hap njëra pranë tjetrës si një listë të vetme fletësh, dhe një llogaritje mund t'i mbulojë të gjitha.
 
 ## Hap PDF-të
 
@@ -14,14 +14,14 @@ Një grup planimetrish shpesh është disa PDF: arkitekturore, strukturore, meka
 3. Zgjidh Hap.
    Një mesazh "Po hapet (emri)…" shfaqet ndërsa lexohet çdo skedar. Pastaj çdo faqe shfaqet te {{ui:Fletët}}, dhe hapet faqja e parë e PDF-së së parë të re.
 
-Mund t'i tërheqësh PDF-et nga {{pick:mac=Finder|windows=Eksploruesi i skedarëve|linux=menaxheri juaj i skedarëve}} dhe t'i lësh kudo mbi TakeoffCraft. Një kornizë "Lësho PDF, vizatime DWG ose DXF, ose një .takeoff.json" shfaqet ndërsa tërheq.
+Mund t'i tërheqësh PDF-et nga {{pick:mac=Finder|windows=Eksploruesi i skedarëve|linux=menaxheri juaj i skedarëve}} dhe t'i lësh kudo mbi TakeoffDesk. Një kornizë "Lësho PDF, vizatime DWG ose DXF, ose një .takeoff.json" shfaqet ndërsa tërheq.
 
 Për të shtuar më vonë PDF të tjera, bëj të njëjtën gjë përsëri. PDF-të që janë hapur tashmë kapërcehen.
 
 Ekrani i fillimit liston gjithashtu PDF-të dhe llogaritjet që hape së fundi, në shfletuesit që lejojnë një faqe të hapë përsëri një skedar (Chrome dhe Edge). Kliko një prej tyre për ta hapur; shfletuesi mund të kërkojë leje më parë. Shih [Skedarët e tu](common:your-files).
 
 :::note
-Asgjë nuk ngarkohet. Shfletuesi i lexon PDF-të në kompjuterin tënd, dhe ato zhduken nga TakeoffCraft kur mbyll skedën ose zgjedh {{ui:E re}}.
+Asgjë nuk ngarkohet. Shfletuesi i lexon PDF-të në kompjuterin tënd, dhe ato zhduken nga TakeoffDesk kur mbyll skedën ose zgjedh {{ui:E re}}.
 :::
 
 ## Vizatimet përkrah PDF-ve
@@ -30,7 +30,7 @@ Asgjë nuk ngarkohet. Shfletuesi i lexon PDF-të në kompjuterin tënd, dhe ato 
 
 ## Një PDF i dorëzuar nga një aplikacion tjetër
 
-Një aplikacion tjetër i familjes mund të të japë PDF-në që ka hapur: hap TakeoffCraft në një skedë të re dhe PDF-ja hapet atje, sikur ta kishe lëshuar. Shiriti i statusit shkruan "U hap (emri), i dorëzuar nga (aplikacioni). Skedari origjinal është i pandryshuar." Asgjë nuk ngarkohet; skedari kalon nëpër hapësirën e ruajtjes së këtij shfletuesi dhe zhduket prej saj sapo hapet.
+Një aplikacion tjetër i familjes mund të të japë PDF-në që ka hapur: hap TakeoffDesk në një skedë të re dhe PDF-ja hapet atje, sikur ta kishe lëshuar. Shiriti i statusit shkruan "U hap (emri), i dorëzuar nga (aplikacioni). Skedari origjinal është i pandryshuar." Asgjë nuk ngarkohet; skedari kalon nëpër hapësirën e ruajtjes së këtij shfletuesi dhe zhduket prej saj sapo hapet.
 
 Nëse shiriti i statusit thotë se PDF-ja "nuk arriti", skeda priti shumë, ose PDF-ja ishte hapur tashmë në një skedë tjetër: hap me {{ui:Hap planimetritë}}.
 

@@ -5,7 +5,7 @@ keywords: przyciąganie, przyciąganie do obiektów, osnap, punkt końcowy, punk
 from: 41d29e9b
 ---
 
-Większość zestawów planów to wektorowe pliki PDF: ich ściany i krawędzie są prawdziwymi liniami, a nie pikselami. Podczas mierzenia TakeoffCraft przyciąga kliknięcia do tych linii, dzięki czemu odcinek zaczyna się dokładnie w narożniku ściany, a kalibracja odczytuje wymiar narysowany przez projektanta, a nie piksel, w który trafiono.
+Większość zestawów planów to wektorowe pliki PDF: ich ściany i krawędzie są prawdziwymi liniami, a nie pikselami. Podczas mierzenia TakeoffDesk przyciąga kliknięcia do tych linii, dzięki czemu odcinek zaczyna się dokładnie w narożniku ściany, a kalibracja odczytuje wymiar narysowany przez projektanta, a nie piksel, w który trafiono.
 
 Przyciąganie jest włączone od początku. Włączaj i wyłączaj je przyciskiem {{ui:Przyciąganie}} na pasku stanu albo klawiszem {{key:F3}}; ustawienie jest zapamiętane w tej przeglądarce (znajduje się też w [Ustawieniach](topic:settings)).
 

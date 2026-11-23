@@ -5,14 +5,14 @@ keywords: revisió, revisat, comparar, superposició, antic, nou, canvis, addend
 from: 3a1d9fe0
 ---
 
-Quan es torna a emetre un full, no cal tornar a amidar-lo. Obriu el PDF antic i el nou, compareu els dos fulls i traslladeu l'amidament. TakeoffCraft marca cada marca on el dibuix ha canviat, així que les reviseu i conserveu la resta.
+Quan es torna a emetre un full, no cal tornar a amidar-lo. Obriu el PDF antic i el nou, compareu els dos fulls i traslladeu l'amidament. TakeoffDesk marca cada marca on el dibuix ha canviat, així que les reviseu i conserveu la resta.
 
 ## Compara
 
 1. Obriu els dos PDF: el joc antic i el revisat ({{ui:Obre plànols}}; poden estar en un sol fitxer o en diversos).
 2. Mostreu el full **nou**.
 3. Trieu {{ui:Compara}} a la barra del full, sota el dibuix.
-4. Trieu el full antic a la llista. TakeoffCraft suggereix el full amb el mateix número de l'altre PDF, o la mateixa pàgina. Trieu **Compara**.
+4. Trieu el full antic a la llista. TakeoffDesk suggereix el full amb el mateix número de l'altre PDF, o la mateixa pàgina. Trieu **Compara**.
 
 El dibuix antic ara queda sobre el nou, en vermell. On els dos coincideixen, les línies vermelles cauen sobre les negres; on difereixen, veieu només línies vermelles (suprimides) i només línies negres (afegides). Una barra a la part inferior del full conté els passos següents; {{key:Esc}} o {{ui:Tanca}} acaben la comparació.
 
@@ -29,7 +29,7 @@ El dibuix vermell es mou, gira i s'escala sobre el negre. La barra d'estat indic
 
 ## Trobeu què ha canviat
 
-Trieu **Cerca canvis**. TakeoffCraft compara els traços dels dos dibuixos: els traços només del full antic es tornen vermells, els traços només del full nou es tornen blaus, i la barra d'estat els compta. Les línies que s'han mogut un pèl (una retraçada) no es compten com a canvis.
+Trieu **Cerca canvis**. TakeoffDesk compara els traços dels dos dibuixos: els traços només del full antic es tornen vermells, els traços només del full nou es tornen blaus, i la barra d'estat els compta. Les línies que s'han mogut un pèl (una retraçada) no es compten com a canvis.
 
 També revisa cada marca del full antic i compta les que són on el dibuix ha canviat:
 
@@ -40,7 +40,7 @@ També revisa cada marca del full antic i compta les que són on el dibuix ha ca
 
 Trieu **Mou l'amidament aquí**. Cada marca del full antic es mou al nou, a través de l'alineació, en un sol pas per desfer. Les que són al costat d'un canvi es marquen: es dibuixen amb un halo taronja, i la barra del full mostra "(n) per revisar".
 
-Si el full nou no tenia escala, pren l'escala del full antic (ajustada quan els dibuixos han hagut d'escalar-se per alinear-se). Si ja en tenia una de diferent, TakeoffCraft pregunta primer: les marques mogudes es mesuren a l'escala del full nou.
+Si el full nou no tenia escala, pren l'escala del full antic (ajustada quan els dibuixos han hagut d'escalar-se per alinear-se). Si ja en tenia una de diferent, TakeoffDesk pregunta primer: les marques mogudes es mesuren a l'escala del full nou.
 
 ## Reviseu les marques marcades
 

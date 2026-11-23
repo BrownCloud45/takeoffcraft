@@ -13,7 +13,7 @@ Die **Preisbibliothek** enthält Positionen, die Sie Auftrag für Auftrag verwen
 
 - {{ui:CSV importieren…}} liest eine als CSV gespeicherte Tabelle (siehe die Spalten unten). Positionen, deren Name und Typ bereits in der Bibliothek stehen, werden ersetzt; die übrigen werden hinzugefügt. Zeilen, die es nicht lesen kann, werden übersprungen, und es sagt, welche und warum.
 - {{ui:Positionen dieser Mengenermittlung hinzufügen}} kopiert jede Position der offenen Mengenermittlung mit ihren Preisen und ihrer Montage in die Bibliothek (nicht ihre Markierungen).
-- Die Kalkulations-CSV, die TakeoffCraft exportiert ([Die Kalkulation exportieren](topic:export-estimate)), wird unverändert importiert: Die Preise des letzten Auftrags sind der Start für den nächsten.
+- Die Kalkulations-CSV, die TakeoffDesk exportiert ([Die Kalkulation exportieren](topic:export-estimate)), wird unverändert importiert: Die Preise des letzten Auftrags sind der Start für den nächsten.
 
 - {{ui:Gewerkepakete…}} fügt kostenlose Montagen für ein Gewerk hinzu, etwa Trockenbau, Elektro oder Beton, ohne Preise. Siehe [Gewerkepakete](topic:trade-packs).
 

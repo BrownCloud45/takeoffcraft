@@ -5,7 +5,7 @@ keywords: Dach, Neigung, Gefälle, Neigungsfaktor, Anstieg, Lauf, 6:12, Ortgang,
 from: 38225b60
 ---
 
-Ein Dachgrundriss zeigt jede Dachebene flach, von oben gesehen. Das Dach selbst ist größer: Eine Ebene mit 6:12 hat etwa 12 % mehr Fläche als ihr Grundriss, und ihre geneigten Kanten sind länger, als sie aussehen. Geben Sie der Position ihre Neigung, dann misst TakeoffCraft entlang der Schräge.
+Ein Dachgrundriss zeigt jede Dachebene flach, von oben gesehen. Das Dach selbst ist größer: Eine Ebene mit 6:12 hat etwa 12 % mehr Fläche als ihr Grundriss, und ihre geneigten Kanten sind länger, als sie aussehen. Geben Sie der Position ihre Neigung, dann misst TakeoffDesk entlang der Schräge.
 
 ## Eine Neigung eingeben
 

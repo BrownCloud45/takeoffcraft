@@ -49,4 +49,4 @@ Isikali esilinganisiwe sivela njenge "Calibrated 1" = 4.002' on 24'-6"" embhalwe
 
 ## Ama-PDF angavamile
 
-Amanye ama-PDF amemezela iyunithi yekhasi elikhulu (i-"user unit"); i-TakeoffCraft iyayicabangela kokusethiwe ngaphambili nakwesikali esibonisiwe. Amakhasi ajikijelwe ku-PDF alinganiswa ngendlela efanayo nangawamakhasi aqondile.
+Amanye ama-PDF amemezela iyunithi yekhasi elikhulu (i-"user unit"); i-TakeoffDesk iyayicabangela kokusethiwe ngaphambili nakwesikali esibonisiwe. Amakhasi ajikijelwe ku-PDF alinganiswa ngendlela efanayo nangawamakhasi aqondile.

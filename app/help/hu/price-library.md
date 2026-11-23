@@ -13,7 +13,7 @@ Nyissa meg a {{ui:Könyvtár}} gombbal a {{ui:Tételek}} panel tetején.
 
 - A {{ui:CSV importálása…}} egy CSV-ként mentett táblázatot olvas be (lásd lentebb az oszlopokat). A névvel és típussal már szereplő tételek lecserélődnek; a többi hozzáadódik. Az olvashatatlan sorok kimaradnak, és megmondja, melyek és miért.
 - Az {{ui:Ennek a mennyiségkimutatásnak a tételeinek hozzáadása}} minden tételt bemásol a megnyitott mennyiségkimutatásból a könyvtárba, a díjtételeivel és az összetett tételével együtt (a jelöléseivel nem).
-- A TakeoffCraft által exportált becslés CSV-je ([Becslés exportálása](topic:export-estimate)) úgy importálódik, ahogy van: az előző munka árai adják a következő alapját.
+- A TakeoffDesk által exportált becslés CSV-je ([Becslés exportálása](topic:export-estimate)) úgy importálódik, ahogy van: az előző munka árai adják a következő alapját.
 
 - A {{ui:Szakági csomagok…}} ingyenes összetett tételeket ad hozzá egy szakmához, például gipszkartonhoz, villamossághoz vagy betonhoz, árak nélkül. Lásd: [Szakági csomagok](topic:trade-packs).
 

@@ -1,11 +1,11 @@
 ---
 title: Ukuxazulula izinkinga
-summary: Izimpawu, izimbangela nezixazululo zemilayezo nezimangaliso ongahlangabezana nazo ku-TakeoffCraft, ezicashunwe njengoba i-app iziveza.
+summary: Izimpawu, izimbangela nezixazululo zemilayezo nezimangaliso ongahlangabezana nazo ku-TakeoffDesk, ezicashunwe njengoba i-app iziveza.
 keywords: izinkinga, amaphutha, akusebenzi, xazulula, usizo, kwenqatshiwe, ayikwazi ukulinganisa, akukho sikali, amamaki akhe, ukuthumela kuhlulekile, ngaphandle kwe-inthanethi, thinta
 from: cd319c9b
 ---
 
-I-TakeoffCraft ichaza izenqaba eziningi ebhalweni lesimo phansi kwewindi. Thola umlayezo ongaphansi.
+I-TakeoffDesk ichaza izenqaba eziningi ebhalweni lesimo phansi kwewindi. Thola umlayezo ongaphansi.
 
 ## Ukuvula amafayela
 
@@ -15,8 +15,8 @@ I-TakeoffCraft ichaza izenqaba eziningi ebhalweni lesimo phansi kwewindi. Thola 
 | (name) is password-protected. Open an unprotected copy. | I-PDF idinga iphasiwedi ukuze ivuleke. | Cela ikopi engavikelwe, noma susa iphasiwedi ohlelweni lwe-PDF oluthembekile. |
 | (name) could not be read as a PDF (…) | Ifayela lonakele noma akulona i-PDF ngempela. | Lidonsele futhi, noma ligcine kabusha kuhlelo olwalenza. |
 | (name) is already open. | Le-PDF efanayo (okuqukethwe okufanayo) ivulekile. | Akudingeki lutho. |
-| TakeoffCraft opens PDFs and .takeoff.json projects. Skipped: … | Ezinye izinhlobo zamafayela ziphonswe ngaphandle. | Guqula imidwebo ibe yi-PDF kuqala. |
-| Nothing happens when I drop files | Amafayela ashiywe ngaphandle kwewindi lesiphequluli, noma isiphequluli sivule i-PDF ethebhu entsha. | Shiya phezu kwekhasi le-TakeoffCraft ngokwalo; ifreyimu ethi "Drop PDFs or a .takeoff.json" ibonisa ukuthi izosebenza nini. |
+| TakeoffDesk opens PDFs and .takeoff.json projects. Skipped: … | Ezinye izinhlobo zamafayela ziphonswe ngaphandle. | Guqula imidwebo ibe yi-PDF kuqala. |
+| Nothing happens when I drop files | Amafayela ashiywe ngaphandle kwewindi lesiphequluli, noma isiphequluli sivule i-PDF ethebhu entsha. | Shiya phezu kwekhasi le-TakeoffDesk ngokwalo; ifreyimu ethi "Drop PDFs or a .takeoff.json" ibonisa ukuthi izosebenza nini. |
 | Opening a big set takes a while | Yonke i-PDF ifundwa ngokugcwele ukuze ibe nesandiso sayo. | Linda umlayezo "Opening (name)…" uphele. Izithombe ziyagcwala uma useskrola. |
 
 ## Ukulinganisa
@@ -47,7 +47,7 @@ I-TakeoffCraft ichaza izenqaba eziningi ebhalweni lesimo phansi kwewindi. Thola 
 | Umlayezo noma isimo | Imbangela | Ukulungisa |
 |---|---|---|
 | Pick two points further apart. | Amaphoyinti okulinganisa aseduze kakhulu. | Linganisa esilinganisweni eside kakhulu. |
-| A message in the calibrate dialog, like "That distance could not be read" | Ibanga lisesimweni i-TakeoffCraft engayifunda ngayo. | Bheka [Ukungeniswa kobude, izinga nephesenti](topic:entry-formats). |
+| A message in the calibrate dialog, like "That distance could not be read" | Ibanga lisesimweni i-TakeoffDesk engayifunda ngayo. | Bheka [Ukungeniswa kobude, izinga nephesenti](topic:entry-formats). |
 | This sheet has no scale yet, so there is nothing to check. Calibrate it, or pick a preset. | {{ui:Hlola}} kwishidi elingenasikali. | Setha isikali kuqala. |
 | The {{ui:Okusethiwe ngaphambili}} list is grayed out | Akukho shidi elivuliwe. | Vula i-PDF. |
 
@@ -86,8 +86,8 @@ I-TakeoffCraft ichaza izenqaba eziningi ebhalweni lesimo phansi kwewindi. Thola 
 | This PDF is password-protected or encrypted, so a marked copy cannot be written. … | I-PDF ibethelwe. | Thumela {{ui:XLSX}} esikhundleni, noma sebenzisa ikopi engabethelwe ye-PDF (lapho-ke idinga umbalo wayo, ngoba iyifayela elihlukile). |
 | The marked PDF could not be written: … | Ngokuvamile: ungaphandle kwe-inthanethi, futhi i-app ayizange igcinwe ukuze isetshenziswe ngaphandle kwe-inthanethi, ngakho umbhali we-PDF akekho. | Xhuma ku-inthanethi bese ukhetha futhi {{ui:I-PDF emakwe}}. Ukuze uyigweme, khetha {{ui:Londoloza ngaphandle kwe-inthanethi}} bese ulinda {{ui:Ilungele ukusetshenziswa ngaphandle kwe-inthanethi}}. |
 | Only one marked PDF downloaded | Isiphequluli sivimbe ukulanda okuningi ngesikhathi esisodwa. | Vumela ukulanda okuningi kulo webhusayithi, bese uthumela futhi. |
-| (file) is not a TakeoffCraft project (it is not valid JSON). / This is not a TakeoffCraft project file. | Ifayela elingalungile, noma elonakele. | Khetha ifayela `.takeoff.json`. |
-| This project was saved by a newer TakeoffCraft. Open it there. | Ifayela livela esakhiweni esisha. | Vula kuso. |
+| (file) is not a TakeoffDesk project (it is not valid JSON). / This is not a TakeoffDesk project file. | Ifayela elingalungile, noma elonakele. | Khetha ifayela `.takeoff.json`. |
+| This project was saved by a newer TakeoffDesk. Open it there. | Ifayela livela esakhiweni esisha. | Vula kuso. |
 | (n) marks were damaged and left out. | Ingxenye yefayela yonakele noma yahlelwa ngesandla. | Okunye kuvulekile. Dweba kabusha izimaki ezingekho, noma vula ikopi endala. |
 | Marks missing after reopening | Ama-PDF awavulekile, noma enye yawo yashintsha. | Bheka [Londoloza futhi uvule umbalo](topic:save-and-reopen#when-a-pdf-has-changed). |
 | The browser asks "Leave site?" | Kukhona izinguquko ezingalondolozwanga. | Hlala, bese ulondoloza nge-{{key:Mod+S}}. |

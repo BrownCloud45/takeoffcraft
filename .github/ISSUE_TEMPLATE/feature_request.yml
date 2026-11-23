@@ -1,5 +1,5 @@
 name: Feature request
-description: A tool or workflow you need in TakeoffCraft
+description: A tool or workflow you need in TakeoffDesk
 labels: [enhancement]
 body:
   - type: textarea

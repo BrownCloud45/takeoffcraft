@@ -9,7 +9,7 @@ Az {{ui:Új}} bezár minden PDF-et, és egy üres mennyiségkimutatást indít u
 
 1. Mentse el az aktuális mennyiségkimutatást, ha meg szeretné tartani: {{ui:Mennyiségkimutatás mentése}} vagy {{key:Mod+S}}.
 2. Válassza a **Fájl** csoportban az {{ui:Új}} lehetőséget.
-3. Ha vannak nem mentett módosítások, a TakeoffCraft megkérdezi: **Nem mentett mennyiségkimutatás**. Válassza az {{ui:Előbb a mennyiségkimutatás mentése}} lehetőséget (letölti a projektet, majd üríti), a {{ui:Módosítások elvetése}} lehetőséget, vagy a {{ui:Mégse}} lehetőséget.
+3. Ha vannak nem mentett módosítások, a TakeoffDesk megkérdezi: **Nem mentett mennyiségkimutatás**. Válassza az {{ui:Előbb a mennyiségkimutatás mentése}} lehetőséget (letölti a projektet, majd üríti), a {{ui:Módosítások elvetése}} lehetőséget, vagy a {{ui:Mégse}} lehetőséget.
    Az ablak visszatér az üres állapotába: nincs PDF, nincs tétel, nincs jelölés, nincs méretarány. Az állapotsor ezt írja: „Új mennyiségkimutatás. A kezdéshez nyisson meg PDF-eket.”
 
 Ami törlődik:

@@ -5,14 +5,14 @@ keywords: revizya, yenidən işlənmiş, müqayisə, üst-üstə, köhnə, yeni,
 from: 3a1d9fe0
 ---
 
-Vərəq yenidən buraxılanda onu yenidən hesablamağa ehtiyac yoxdur. Köhnə və yeni PDF-ləri açın, iki vərəqi müqayisə edin və hesablamanı köçürün. TakeoffCraft çertyojun dəyişdiyi hər nişanı işarələyir, ona görə onları yoxlayır və qalanını saxlayırsınız.
+Vərəq yenidən buraxılanda onu yenidən hesablamağa ehtiyac yoxdur. Köhnə və yeni PDF-ləri açın, iki vərəqi müqayisə edin və hesablamanı köçürün. TakeoffDesk çertyojun dəyişdiyi hər nişanı işarələyir, ona görə onları yoxlayır və qalanını saxlayırsınız.
 
 ## Müqayisə
 
 1. Hər iki PDF-i açın: köhnə dəst və yenidən işlənmiş dəst ({{ui:Planları aç}}; onlar bir faylda və ya bir neçə faylda ola bilər).
 2. **Yeni** vərəqi göstərin.
 3. Çertyojun altında vərəq panelində {{ui:Müqayisə et}} seçin.
-4. Siyahıdan köhnə vərəqi seçin. TakeoffCraft digər PDF-də eyni nömrəli vərəqi və ya eyni səhifəni təklif edir. **Müqayisə et** seçin.
+4. Siyahıdan köhnə vərəqi seçin. TakeoffDesk digər PDF-də eyni nömrəli vərəqi və ya eyni səhifəni təklif edir. **Müqayisə et** seçin.
 
 Köhnə çertyoj indi yenisinin üstündə qırmızı rənglə yerləşir. Razılaşdıqları yerlərdə qırmızı xətlər qara xətlərin üstünə düşür; fərqli olduqları yerlərdə yalnız qırmızı xətlər görürsünüz (silinib) və yalnız qara xətlər (əlavə olunub). Vərəqin altındakı zolaqda aşağıdakı addımlar var; {{key:Esc}} və ya {{ui:Bağla}} müqayisəni bitirir.
 
@@ -29,7 +29,7 @@ Qırmızı çertyoj qara üzərinə hərəkət edir, fırlanır və miqyaslanır
 
 ## Dəyişiklikləri tapın
 
-**Dəyişiklikləri tap** seçin. TakeoffCraft iki çertyojun mürəkkəbini müqayisə edir: yalnız köhnə vərəqdə olan mürəkkəb qırmızıya, yalnız yeni vərəqdə olan mürəkkəb maviyə çevrilir və status zolağı onları sayır. Bir tük qədər yerini dəyişmiş xətlər (yenidən çap) dəyişiklik kimi sayılmır.
+**Dəyişiklikləri tap** seçin. TakeoffDesk iki çertyojun mürəkkəbini müqayisə edir: yalnız köhnə vərəqdə olan mürəkkəb qırmızıya, yalnız yeni vərəqdə olan mürəkkəb maviyə çevrilir və status zolağı onları sayır. Bir tük qədər yerini dəyişmiş xətlər (yenidən çap) dəyişiklik kimi sayılmır.
 
 Həmçinin köhnə vərəqdəki hər nişana baxır və dəyişikliyin olduğu yerdə olanları sayır:
 
@@ -40,7 +40,7 @@ Həmçinin köhnə vərəqdəki hər nişana baxır və dəyişikliyin olduğu y
 
 **Hesablamanı burada köçür** seçin. Köhnə vərəqdəki hər nişan düzləşmə vasitəsilə yeni vərəqə bir geri qaytarma addımında köçürülür. Dəyişikliyin yanında olanlar işarələnir: narıncı halo ilə çəkilir və vərəq panelində "(n) yoxlanılsın" yazılır.
 
-Yeni vərəqin miqyası yoxdursa, köhnə vərəqin miqyasını alır (çertyojlar düzləşmək üçün miqyaslanmalı olduqda tənzimlənir). Əgər artıq fərqli miqyası varsa, TakeoffCraft əvvəlcə soruşur: köçürülmüş nişanlar yeni vərəqin miqyasında ölçülür.
+Yeni vərəqin miqyası yoxdursa, köhnə vərəqin miqyasını alır (çertyojlar düzləşmək üçün miqyaslanmalı olduqda tənzimlənir). Əgər artıq fərqli miqyası varsa, TakeoffDesk əvvəlcə soruşur: köçürülmüş nişanlar yeni vərəqin miqyasında ölçülür.
 
 ## İşarələnmiş nişanları yoxlayın
 

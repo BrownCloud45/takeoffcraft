@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, plano, abrir un plano, presentaciones, espacio modelo, 
 from: d8c3f504
 ---
 
-TakeoffCraft abre un plano DWG o DXF igual que un PDF: no hace falta trazarlo antes a PDF. Contar desde el propio plano es exacto, porque el plano conoce qué es cada objeto. Vea [Contar desde un plano](topic:count-from-a-drawing).
+TakeoffDesk abre un plano DWG o DXF igual que un PDF: no hace falta trazarlo antes a PDF. Contar desde el propio plano es exacto, porque el plano conoce qué es cada objeto. Vea [Contar desde un plano](topic:count-from-a-drawing).
 
 ## Abrir el plano
 
@@ -13,9 +13,9 @@ TakeoffCraft abre un plano DWG o DXF igual que un PDF: no hace falta trazarlo an
 2. Seleccione el archivo DWG o DXF. Puede seleccionar varios, y PDF junto con ellos.
 3. Elija Abrir.
 
-También puede arrastrar archivos de plano y soltarlos sobre TakeoffCraft, como con los PDF. Nada se sube: el navegador lee el archivo en su computadora.
+También puede arrastrar archivos de plano y soltarlos sobre TakeoffDesk, como con los PDF. Nada se sube: el navegador lee el archivo en su computadora.
 
-TakeoffCraft lee DWG desde AutoCAD 2000 hasta 2018, y DXF ASCII desde R12 hasta 2018. Rechaza un DXF binario (guárdelo como ASCII, o como DWG) y un archivo que no es ninguno de los dos, e indica el motivo. Un archivo dañado se abre con lo que se pudo leer, y un aviso lo dice; sus conteos pueden quedar incompletos.
+TakeoffDesk lee DWG desde AutoCAD 2000 hasta 2018, y DXF ASCII desde R12 hasta 2018. Rechaza un DXF binario (guárdelo como ASCII, o como DWG) y un archivo que no es ninguno de los dos, e indica el motivo. Un archivo dañado se abre con lo que se pudo leer, y un aviso lo dice; sus conteos pueden quedar incompletos.
 
 ## Hojas
 
@@ -40,10 +40,10 @@ Una hoja empieza con la escala que indica el plano:
 
 ## Planos vinculados (xrefs)
 
-Un plano que vincula otros planos los muestra donde están insertados. TakeoffCraft encuentra un plano vinculado entre los **archivos abiertos**, por su nombre de archivo: abra el plano principal y el plano vinculado juntos (o uno después del otro). Hasta entonces, la barra de estado dice cuántos planos vinculados no se encontraron, qué falta dibujar, y los conteos lo indican.
+Un plano que vincula otros planos los muestra donde están insertados. TakeoffDesk encuentra un plano vinculado entre los **archivos abiertos**, por su nombre de archivo: abra el plano principal y el plano vinculado juntos (o uno después del otro). Hasta entonces, la barra de estado dice cuántos planos vinculados no se encontraron, qué falta dibujar, y los conteos lo indican.
 
 ## Límites
 
-- Los objetos que TakeoffCraft no puede leer o colocar (objetos proxy, clases desconocidas) se listan en la ventana de conteo por tipo; nunca se descartan sin aviso.
+- Los objetos que TakeoffDesk no puede leer o colocar (objetos proxy, clases desconocidas) se listan en la ventana de conteo por tipo; nunca se descartan sin aviso.
 - Los planos muy grandes se dibujan por partes, y los conteos se detienen en un tope, lo que se indica. Abra en su lugar un trazado PDF de un plano así.
 - Un plano se dibuja en negro y en sus propios colores, oscurecidos para papel blanco. Las tablas de estilo de trazado y las asignaciones de plumas no se aplican.

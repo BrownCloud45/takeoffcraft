@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Simpan takeoff saat ini jika Anda ingin menyimpannya: {{ui:Simpan takeoff}} atau {{key:Mod+S}}.
 2. Pilih {{ui:Baru}} di grup {{ui:File}}.
-3. Jika ada perubahan yang belum disimpan, TakeoffCraft menanyakan **Takeoff belum disimpan**: pilih {{ui:Simpan takeoff dulu}} (ia mengunduh proyek, lalu membersihkan), {{ui:Buang perubahan}}, atau {{ui:Batal}}.
+3. Jika ada perubahan yang belum disimpan, TakeoffDesk menanyakan **Takeoff belum disimpan**: pilih {{ui:Simpan takeoff dulu}} (ia mengunduh proyek, lalu membersihkan), {{ui:Buang perubahan}}, atau {{ui:Batal}}.
    Jendela kembali ke kondisi kosong: tidak ada PDF, item, tanda, atau skala. Bilah status menampilkan "Takeoff baru. Buka PDF untuk memulai."
 
 Yang dibersihkan:

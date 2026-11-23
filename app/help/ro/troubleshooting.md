@@ -1,11 +1,11 @@
 ---
 title: Depanare
-summary: Simptome, cauze și remedieri pentru mesajele și surprizele pe care le puteți întâlni în TakeoffCraft, citate așa cum le afișează aplicația.
+summary: Simptome, cauze și remedieri pentru mesajele și surprizele pe care le puteți întâlni în TakeoffDesk, citate așa cum le afișează aplicația.
 keywords: probleme, erori, nu funcționează, remediere, ajutor, refuzat, nu măsoară, fără scară, marcaje lipsă, export eșuat, offline, tactil
 from: cd319c9b
 ---
 
-TakeoffCraft explică majoritatea refuzurilor în bara de stare din partea de jos a ferestrei. Găsiți mesajul de mai jos.
+TakeoffDesk explică majoritatea refuzurilor în bara de stare din partea de jos a ferestrei. Găsiți mesajul de mai jos.
 
 ## Deschiderea fișierelor
 
@@ -15,8 +15,8 @@ TakeoffCraft explică majoritatea refuzurilor în bara de stare din partea de jo
 | (nume) este protejat cu parolă. Deschideți o copie neprotejată. | PDF-ul cere o parolă pentru a fi deschis. | Cereți o copie neprotejată sau eliminați parola într-un program PDF de încredere. |
 | (nume) nu a putut fi citit ca PDF (…) | Fișierul este deteriorat sau nu este într-adevăr un PDF. | Descărcați-l din nou sau salvați-l din nou din programul care l-a creat. |
 | (nume) este deja deschis. | Același PDF (același conținut) este deschis. | Nu este nimic de făcut. |
-| TakeoffCraft deschide fișiere PDF și proiecte .takeoff.json. Omise: … | Celelalte tipuri de fișiere au fost eliminate. | Convertiți mai întâi desenele în PDF. |
-| Nu se întâmplă nimic când trag fișiere | Fișierele au fost lăsate în afara ferestrei browserului sau browserul a deschis PDF-ul într-o filă nouă. | Trageți pe pagina TakeoffCraft; cadrul „Trageți PDF-uri sau un .takeoff.json” arată când va funcționa. |
+| TakeoffDesk deschide fișiere PDF și proiecte .takeoff.json. Omise: … | Celelalte tipuri de fișiere au fost eliminate. | Convertiți mai întâi desenele în PDF. |
+| Nu se întâmplă nimic când trag fișiere | Fișierele au fost lăsate în afara ferestrei browserului sau browserul a deschis PDF-ul într-o filă nouă. | Trageți pe pagina TakeoffDesk; cadrul „Trageți PDF-uri sau un .takeoff.json” arată când va funcționa. |
 | Deschiderea unui set mare durează | Fiecare PDF este citit integral pentru a-i obține amprenta. | Așteptați să dispară mesajul „Se deschide (nume)…”. Miniaturile se completează pe măsură ce derulați. |
 
 ## Măsurarea
@@ -47,7 +47,7 @@ TakeoffCraft explică majoritatea refuzurilor în bara de stare din partea de jo
 | Mesaj sau simptom | Cauză | Remediere |
 |---|---|---|
 | Alegeți două puncte mai depărtate. | Punctele de calibrare sunt aproape unul peste altul. | Calibrați pe o cotă mai lungă. |
-| Un mesaj în caseta de calibrare, precum „Distanța nu a putut fi citită” | Distanța este scrisă într-o formă pe care TakeoffCraft nu o poate citi. | Vezi [Introducerea lungimii, a ratei și a procentului](topic:entry-formats). |
+| Un mesaj în caseta de calibrare, precum „Distanța nu a putut fi citită” | Distanța este scrisă într-o formă pe care TakeoffDesk nu o poate citi. | Vezi [Introducerea lungimii, a ratei și a procentului](topic:entry-formats). |
 | Această foaie nu are încă scară, deci nu este nimic de verificat. Calibrați-o sau alegeți o presetare. | {{ui:Verificare}} pe o foaie fără scară. | Stabiliți mai întâi o scară. |
 | Lista {{ui:Presetare}} este estompată | Nu este deschisă nicio foaie. | Deschideți un PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft explică majoritatea refuzurilor în bara de stare din partea de jo
 | Acest PDF este protejat cu parolă sau criptat, deci o copie marcată nu poate fi scrisă. … | PDF-ul este criptat. | Exportați {{ui:XLSX}} în schimb sau folosiți o copie necriptată a PDF-ului (atunci are nevoie de propria antemăsurătoare, pentru că este alt fișier). |
 | PDF-ul marcat nu a putut fi scris: … | Adesea: offline, iar aplicația nu a fost salvată pentru utilizare offline, deci lipsește scriitorul PDF. | Conectați-vă la internet și alegeți din nou {{ui:PDF marcat}}. Pentru a evita asta, alegeți {{ui:Salvare pentru offline}} și așteptați {{ui:Pregătit pentru offline}}. |
 | Un singur PDF marcat descărcat | Browserul a blocat mai multe descărcări simultan. | Permiteți descărcări multiple pentru acest site și exportați din nou. |
-| (fișier) nu este un proiect TakeoffCraft (nu este JSON valid). / Acesta nu este un fișier de proiect TakeoffCraft. | Fișier greșit sau deteriorat. | Alegeți fișierul `.takeoff.json`. |
-| Acest proiect a fost salvat de o versiune mai nouă de TakeoffCraft. Deschideți-l acolo. | Fișierul provine dintr-o versiune mai nouă. | Deschideți-l în versiunea mai nouă. |
+| (fișier) nu este un proiect TakeoffDesk (nu este JSON valid). / Acesta nu este un fișier de proiect TakeoffDesk. | Fișier greșit sau deteriorat. | Alegeți fișierul `.takeoff.json`. |
+| Acest proiect a fost salvat de o versiune mai nouă de TakeoffDesk. Deschideți-l acolo. | Fișierul provine dintr-o versiune mai nouă. | Deschideți-l în versiunea mai nouă. |
 | (n) marcaje au fost deteriorate și lăsate deoparte. | O parte din fișier a fost deteriorată sau editată manual. | Restul s-a deschis. Desenați din nou marcajele lipsă sau deschideți o copie mai veche. |
 | Marcaje lipsă după redeschidere | PDF-urile nu sunt deschise sau unul dintre ele s-a schimbat. | Vezi [Salvarea și redeschiderea unei antemăsurători](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Browserul întreabă „Părăsiți site-ul?” | Există modificări nesalvate. | Rămâneți și salvați cu {{key:Mod+S}}. |

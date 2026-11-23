@@ -13,7 +13,7 @@ from: 37356c68
 
 - {{ui:Importera CSV…}} läser ett kalkylblad sparat som CSV (se kolumnerna nedan). Poster vars namn och typ redan finns i biblioteket ersätts; resten läggs till. Rader som inte kan läsas hoppas över, och det säger vilka och varför.
 - {{ui:Lägg till den här mängdavtagningens poster}} kopierar varje post i den öppna mängdavtagningen till biblioteket, med dess á-priser och kalkylsammansättning (inte dess märken).
-- Kalkylens CSV som TakeoffCraft exporterar ([Exportera kalkylen](topic:export-estimate)) importeras som den är: förra jobbets priser används som utgångspunkt för nästa.
+- Kalkylens CSV som TakeoffDesk exporterar ([Exportera kalkylen](topic:export-estimate)) importeras som den är: förra jobbets priser används som utgångspunkt för nästa.
 
 - {{ui:Yrkespaket…}} lägger till gratis kalkylsammansättningar för ett yrke, till exempel gips, el eller betong, utan priser. Se [Yrkespaket](topic:trade-packs).
 

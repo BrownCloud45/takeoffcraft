@@ -1,6 +1,6 @@
 ---
 title: Ikhibhodi nemouse
-summary: Zonke izinkinobho, imouse, i-trackpad kanye nezenzo zokuthinta ku-TakeoffCraft, zihlelwe, nomehluko wenkundla.
+summary: Zonke izinkinobho, imouse, i-trackpad kanye nezenzo zokuthinta ku-TakeoffDesk, zihlelwe, nomehluko wenkundla.
 keywords: okhiye, izinqamuleli, izinqamuleli zekhibhodi, ikhibhodi, imouse, trackpad, ukuthinta, shelelisa, sondeza, ivili, cofa ngesokudla, cofa kabili, isikhala, shift, kopisha, namathisela, sika, phinda, khetha konke
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Bona [Hlola ukubala amanani nge-3D](topic:check-in-3d).
 | Key | What it does |
 |---|---|
 | {{key:F1}} | Vula noma vala iphaneli yosizo (futhi inkinobho ye-{{ui:Help}} ebhareni yohlelo). Isebenza kuwo wonke amathuluzi, nangesikhathi uthayipha ensimini. |
-| {{key:Esc}} | Vala iphaneli yosizo. Ensimini yokusesha yayo, i-Esc yokuqala isula ukusesha. Uma iphaneli ivuliwe, i-Esc ecindezelwe ngemva kokucofa ishidi ivala iphaneli kuqala; cindezela futhi ukuze ukhansele ku-TakeoffCraft. |
+| {{key:Esc}} | Vala iphaneli yosizo. Ensimini yokusesha yayo, i-Esc yokuqala isula ukusesha. Uma iphaneli ivuliwe, i-Esc ecindezelwe ngemva kokucofa ishidi ivala iphaneli kuqala; cindezela futhi ukuze ukhansele ku-TakeoffDesk. |
 
 :::mac
 Ezikhibhodini eziningi ze-Mac umugqa ophezulu ulawula ukukhanya nomsindo. Cindezela fn ne-F1, noma vula "Use F1, F2, etc. keys as standard function keys" ku-System Settings, ngaphansi kwe-Keyboard.
@@ -139,7 +139,7 @@ Ezikhibhodini eziningi ze-Mac umugqa ophezulu ulawula ukukhanya nomsindo. Cindez
 
 :::mac
 - {{key:Mod}} ingukhiye we-Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Isikrini esigcwele siyinto eyehlukile: Control+Shift+F.
-- Ukucofa ngesokudla kuyi-two-finger click ku-trackpad, uma i-secondary click ivuliwe ku-System Settings, ngaphansi kwe-Trackpad. I-TakeoffCraft ifunda inkinobho yesibili kuphela; i-Control-click ingathathwa njengokucofa okuvamile futhi yengeze iphoyinti.
+- Ukucofa ngesokudla kuyi-two-finger click ku-trackpad, uma i-secondary click ivuliwe ku-System Settings, ngaphansi kwe-Trackpad. I-TakeoffDesk ifunda inkinobho yesibili kuphela; i-Control-click ingathathwa njengokucofa okuvamile futhi yengeze iphoyinti.
 - Ukuskrola ngeminwe emibili ku-trackpad kusondeza ishidi (akulishayeli). Ukushelelisa, cindezela futhi udonse, noma bamba Space udonse.
 - Page Up ne-Page Down ziyi-fn nezinkwa eziphezulu nezingaphansi kuma-keyboard angenazo.
 - Backspace yisikhiye esibhalwe delete.
@@ -151,12 +151,12 @@ Ezikhibhodini eziningi ze-Mac umugqa ophezulu ulawula ukukhanya nomsindo. Cindez
 :::
 
 :::linux
-- {{key:Mod}} ingu-Ctrl. Amanye ama-desktop anezinqamuleli zawo ze-Ctrl+Alt noma Super; i-TakeoffCraft ayisebenzisi nalinye lazo.
+- {{key:Mod}} ingu-Ctrl. Amanye ama-desktop anezinqamuleli zawo ze-Ctrl+Alt noma Super; i-TakeoffDesk ayisebenzisi nalinye lazo.
 - Ku-touchpad, ukuskrola ngeminwe emibili kusondeza ishidi. Ukushelelisa, cindezela futhi udonse.
 :::
 
 :::touch
-I-TakeoffCraft ifunda ukuthinta njengephoyinti elilodwa:
+I-TakeoffDesk ifunda ukuthinta njengephoyinti elilodwa:
 
 - Ukuthinta kubeka iphoyinti, kukhetha imaki noma kwengeza ichashazi lokubala.
 - Ukudonsa ngomunwe owodwa kushelelisa ishidi (ku-{{ui:Auto count}} kudweba ibhokisi lokusesha).
@@ -169,7 +169,7 @@ Ikhibhodi nemouse noma i-trackpad yindlela engcono yokubala namuhla.
 
 ## Okhiye abagcinwe yisiphequluli
 
-Abasebenzisi bezinqamuleli ezithile, ngakho ikhasi alikwazi ukuzisebenzisa: ukuvala ithebhu ({{key:Mod+W}}), ithebhu noma iwindi elisha ({{key:Mod+T}}, {{key:Mod+N}}), nokusondeza kwesiphequluli ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Yingakho i-TakeoffCraft isondeza ishidi nge-wheel nokhiye abayodwa {{key:Plus}} no-{{key:Minus}}. Uma ucindezela {{key:Mod+Plus}} ngephutha, ikhasi lonke liyakhula; {{key:Mod+0}} iyilungisa. Bona [Okhiye, amamouse namatrackpad](common:keys).
+Abasebenzisi bezinqamuleli ezithile, ngakho ikhasi alikwazi ukuzisebenzisa: ukuvala ithebhu ({{key:Mod+W}}), ithebhu noma iwindi elisha ({{key:Mod+T}}, {{key:Mod+N}}), nokusondeza kwesiphequluli ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Yingakho i-TakeoffDesk isondeza ishidi nge-wheel nokhiye abayodwa {{key:Plus}} no-{{key:Minus}}. Uma ucindezela {{key:Mod+Plus}} ngephutha, ikhasi lonke liyakhula; {{key:Mod+0}} iyilungisa. Bona [Okhiye, amamouse namatrackpad](common:keys).
 
 ## Lapho kuhlala khona i-Hambisa
 

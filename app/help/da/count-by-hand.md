@@ -14,7 +14,7 @@ En antalspost tæller ting: døre, lysarmaturer, stikkontakter, sanitetsarmature
 3. Klik på hver enkelt på arket.
    Hvert klik sætter en prik i postens farve, og postens antal går op med én.
 4. Gå til næste ark ({{key:PageDown}}) og bliv ved med at tælle. Værktøjet bliver på {{ui:Tæl}}.
-5. Tryk {{key:Esc}} når du er færdig. TakeoffCraft går tilbage til {{ui:Vælg}}.
+5. Tryk {{key:Esc}} når du er færdig. TakeoffDesk går tilbage til {{ui:Vælg}}.
 
 Træk panorerer stadig, og hjulet zoomer mens du tæller, så du kan bevæge dig rundt på arket uden at tilføje prikker.
 
@@ -30,7 +30,7 @@ Klik på antalsposten for at fremhæve dens prikker på hvert ark. Arkelisten vi
 
 ## Prikstørrelse, på skærmen og i PDF'en
 
-Prikkerne har én størrelse på skærmen uanset hvor meget du zoomer. For at ændre den, åbn {{ui:Indstillinger}}, fanen TakeoffCraft, og vælg **Størrelse på tællemarkør**: Ekstra lille, Lille, Mellem (standard) eller Stor.
+Prikkerne har én størrelse på skærmen uanset hvor meget du zoomer. For at ændre den, åbn {{ui:Indstillinger}}, fanen TakeoffDesk, og vælg **Størrelse på tællemarkør**: Ekstra lille, Lille, Mellem (standard) eller Stor.
 
 PDF-eksporten ({{ui:Eksportér}} › den markerede PDF) tegner hver prik i samme størrelse på papiret, uanset arkstørrelse: en fremviser der viser PDF'en på 100 % viser prikkerne lige så store som på skærmen. Hvis prikkerne på et ark ellers ville røre hinanden, gør eksporten dem mindre på det ark, så hver kan læses.
 

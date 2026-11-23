@@ -77,7 +77,7 @@ Iga ala lõpeb reaga „(nimi) vahesumma“, mille kulud on `SUM`-valemid oma ri
 | Leht | Lehe nimi |
 | Mõõtkava | Eelhäälestuse nimi, kalibreeritud mõõtkava või „Mõõtkava puudub“ |
 | Kuidas | „Eelhäälestus“ või „Kalibreeritud (sisestatud kaugusel)“ |
-| Jalgu PDF-ühiku kohta | Täpne mõõtkava tegur, mida TakeoffCraft kasutab |
+| Jalgu PDF-ühiku kohta | Täpne mõõtkava tegur, mida TakeoffDesk kasutab |
 
 ## Failinimed
 

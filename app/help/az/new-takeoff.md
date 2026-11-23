@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Saxlamaq istəyirsinizsə, cari hesablamanı saxlayın: {{ui:Save takeoff}} və ya {{key:Mod+S}}.
 2. **{{ui:File}}** qrupunda {{ui:New}} seçin.
-3. Saxlanılmamış dəyişikliklər varsa, TakeoffCraft **Saxlanılmamış hesablama** soruşur: {{ui:Save takeoff first}} seçin (layihəni yükləyir, sonra təmizləyir), {{ui:Discard changes}} və ya {{ui:Cancel}}.
+3. Saxlanılmamış dəyişikliklər varsa, TakeoffDesk **Saxlanılmamış hesablama** soruşur: {{ui:Save takeoff first}} seçin (layihəni yükləyir, sonra təmizləyir), {{ui:Discard changes}} və ya {{ui:Cancel}}.
    Pəncərə boş vəziyyətə qayıdır: PDF yoxdur, element yoxdur, nişan yoxdur, miqyas yoxdur. Status sətri "Yeni hesablama. Başlamaq üçün PDF-ləri açın." deyir.
 
 Təmizlənənlər:

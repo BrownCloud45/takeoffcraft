@@ -1,6 +1,6 @@
 ---
 title: Check supplier stock and lead times
-summary: Add a supplier's stock list (CSV or spreadsheet) and TakeoffCraft checks what the takeoff needs, with waste, against it: enough in stock, and how long the wait is. Shortages and long waits show in the Problems panel.
+summary: Add a supplier's stock list (CSV or spreadsheet) and TakeoffDesk checks what the takeoff needs, with waste, against it: enough in stock, and how long the wait is. Shortages and long waits show in the Problems panel.
 section: tasks
 order: 74
 keywords: supplier, stock, in stock, lead time, availability, shortage, backorder, order list, csv, sku, vendor, materials, supply, problems

@@ -46,7 +46,7 @@ Die getalle verander nie in 3D nie: 'n muur se oppervlakte is sy presiese lengte
 | {{ui:Blad}} | Wys of verberg die tekening op die grond. |
 | Die aansigkubus, regs bo | Klik op 'n vlak, rand of hoek om van daar te kyk; sleep dit om te wentel; sleep sy kompasring om te draai; die huisknoppie gaan terug na {{ui:Iso}}. |
 
-Die hoek wys 'n aansigkubus, 'n klein X-, Y-, Z-asikoon, of niks: kies in {{ui:Instellings}}, op die TakeoffCraft-oortjie, onder **Hoekaanwyser** ([TakeoffCraft-instellings](topic:settings)). Die plat blad het geen hoekaanwyser nie.
+Die hoek wys 'n aansigkubus, 'n klein X-, Y-, Z-asikoon, of niks: kies in {{ui:Instellings}}, op die TakeoffDesk-oortjie, onder **Hoekaanwyser** ([TakeoffDesk-instellings](topic:settings)). Die plat blad het geen hoekaanwyser nie.
 
 :::touch
 Een vinger wentel; twee vingers knyp om te zoem en beweeg om te pan. 'n Tik kies.

@@ -49,4 +49,4 @@ Kalibrēts mērogs lapas apakšējā joslā rādās kā "Kalibrēts 1" = 4.002' 
 
 ## Neparastie PDF
 
-Daži PDF norāda lielāku lapas vienību (t.s. "lietotāja vienība"); TakeoffCraft to ņem vērā iepriekš iestatījumiem un rādītajam mērogam. PDF pagriezti lapas tiek mērītas tāpat kā stāvus.
+Daži PDF norāda lielāku lapas vienību (t.s. "lietotāja vienība"); TakeoffDesk to ņem vērā iepriekš iestatījumiem un rādītajam mērogam. PDF pagriezti lapas tiek mērītas tāpat kā stāvus.

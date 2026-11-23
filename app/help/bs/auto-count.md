@@ -1,6 +1,6 @@
 ---
 title: Auto brojanje simbola
-summary: Obuhvati jedan simbol, pusti TakeoffCraft da pronađe ostale na ovom listu ili na svim otvorenim listovima, pregledaj podudaranja klizačem i dodaj ih u jednom koraku.
+summary: Obuhvati jedan simbol, pusti TakeoffDesk da pronađe ostale na ovom listu ili na svim otvorenim listovima, pregledaj podudaranja klizačem i dodaj ih u jednom koraku.
 keywords: bilo koji ugao, rotirano, okrenuto, druga razmjera, drugačija razmjera, auto brojanje, automatsko brojanje, pretraga simbola, pronađi simbole, uzorak, šablon, podudaranje, otkrij, alat za brojanje
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Da odbacite pregled bez dodavanja, odaberi {{ui:Discard}} ili pritisni {{key:Esc
 
 ## Šta pronalazi, a šta propušta
 
-TakeoffCraft upoređuje crtež, kao piksele, sa simbolom koji ste obuhvatili.
+TakeoffDesk upoređuje crtež, kao piksele, sa simbolom koji ste obuhvatili.
 
 - Pronalazi simbol okrenut za 0°, 90°, 180° i 270°. Označi {{ui:Any angle (slower)}} na traci auto brojanja prije crtanja okvira da pronađe i simbol pod bilo kojim uglom: pretražuje svakih 15°, zatim fino podešava svaki pronalazak na stepen i pola. To traje otprilike šest puta duže. Ne pronalazi ogledalski simbol (osim ako simbol izgleda isto i u ogledalu).
 - Sa označenim {{ui:Search all open sheets}}, list u drugoj razmjeri pretražuje se u veličini koju simbol ima na njemu: armatura nacrtana u razmjeri na planu 1/8" je upola manja nego na planu 1/4", i i dalje se pronalazi. Takav list se također pretražuje u veličini samog okvira, za oznake i simbole štampane u jednoj veličini na svim listovima. Ovo zahtijeva razmjeru na oba lista; list bez razmjere pretražuje se samo u veličini okvira.

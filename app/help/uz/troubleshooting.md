@@ -1,11 +1,11 @@
 ---
 title: Muammolarni bartaraf etish
-summary: TakeoffCraft da duch kelishingiz mumkin boʻlgan xabarlar va kutilmagan holatlarning belgilari, sabablari va tuzatishlari, ilova koʻrsatganidek keltirilgan.
+summary: TakeoffDesk da duch kelishingiz mumkin boʻlgan xabarlar va kutilmagan holatlarning belgilari, sabablari va tuzatishlari, ilova koʻrsatganidek keltirilgan.
 keywords: muammolar, xatolar, ishlamayapti, tuzatish, yordam, rad etildi, oʻlchanmayapti, masshtab yoʻq, belgilar yoʻq, eksport amalga oshmadi, oflayn, sensorli
 from: cd319c9b
 ---
 
-TakeoffCraft koʻpchilik rad etishlarni oyna pastidagi holat satrida tushuntiradi. Quyida xabarni toping.
+TakeoffDesk koʻpchilik rad etishlarni oyna pastidagi holat satrida tushuntiradi. Quyida xabarni toping.
 
 ## Fayllarni ochish
 
@@ -15,8 +15,8 @@ TakeoffCraft koʻpchilik rad etishlarni oyna pastidagi holat satrida tushuntirad
 | (name) parol bilan himoyalangan. Himoyasiz nusxani oching. | PDF ochish uchun parol talab qiladi. | Himoyasiz nusxa soʻrang yoki ishonchli PDF dasturida parolni olib tashlang. |
 | (name) PDF sifatida oʻqilmadi (…) | Fayl buzilgan yoki haqiqatan PDF emas. | Uni qayta yuklab oling yoki uni yaratgan dasturdan qayta saqlang. |
 | (name) allaqachon ochiq. | Xuddi shu PDF (bir xil mazmun) ochiq. | Qiladigan ish yoʻq. |
-| TakeoffCraft PDF va .takeoff.json loyihalarini ochadi. Oʻtkazib yuborildi: … | Boshqa fayl turlari tashlab yuborilgan. | Avval chizmalarni PDF ga aylantiring. |
-| Fayllarni tashlaganimda hech narsa boʻlmaydi | Fayllar brauzer oynasidan tashqarida tashlangan, yoki brauzer PDF ni yangi yorliqda ochgan. | Fayllarni bevosita TakeoffCraft sahifasiga tashlang; "PDF yoki .takeoff.json ni tashlang" ramkasi ishlashini koʻrsatadi. |
+| TakeoffDesk PDF va .takeoff.json loyihalarini ochadi. Oʻtkazib yuborildi: … | Boshqa fayl turlari tashlab yuborilgan. | Avval chizmalarni PDF ga aylantiring. |
+| Fayllarni tashlaganimda hech narsa boʻlmaydi | Fayllar brauzer oynasidan tashqarida tashlangan, yoki brauzer PDF ni yangi yorliqda ochgan. | Fayllarni bevosita TakeoffDesk sahifasiga tashlang; "PDF yoki .takeoff.json ni tashlang" ramkasi ishlashini koʻrsatadi. |
 | Katta toʻplamni ochish biroz vaqt oladi | Har bir PDF uni aniqlash uchun toʻliq oʻqiladi. | "(name) ochilmoqda…" xabari yoʻqolguncha kuting. Kichik rasmlar siz aylantirganingizda toʻldiriladi. |
 
 ## Oʻlchash
@@ -46,7 +46,7 @@ TakeoffCraft koʻpchilik rad etishlarni oyna pastidagi holat satrida tushuntirad
 | Xabar yoki belgi | Sabab | Tuzatish |
 |---|---|---|
 | Bir-biridan uzoqroq ikki nuqtani tanlang. | Kalibrlash nuqtalari deyarli bir-birining ustida. | Uzunroq oʻlchamda kalibrlang. |
-| Kalibrlash dialogidagi xabar, masalan "Bu masofani oʻqib boʻlmadi" | Masofa TakeoffCraft oʻqiy olmaydigan shaklda. | [Uzunlik, stavka va foiz kiritish](topic:entry-formats) ga qarang. |
+| Kalibrlash dialogidagi xabar, masalan "Bu masofani oʻqib boʻlmadi" | Masofa TakeoffDesk oʻqiy olmaydigan shaklda. | [Uzunlik, stavka va foiz kiritish](topic:entry-formats) ga qarang. |
 | Bu varaqda hali masshtab yoʻq, shuning uchun tekshiradigan narsa yoʻq. Uni kalibrlang yoki oldindan oʻrnatilgan masshtabni tanlang. | Masshtabsiz varaqda {{ui:Tekshirish}}. | Avval masshtabni oʻrnating. |
 | {{ui:Oldindan oʻrnatilgan}} roʻyxati xiralashgan | Hech qanday varaq ochiq emas. | PDF ni oching. |
 
@@ -85,8 +85,8 @@ TakeoffCraft koʻpchilik rad etishlarni oyna pastidagi holat satrida tushuntirad
 | Bu PDF parol bilan himoyalangan yoki shifrlangan, shuning uchun belgilangan nusxa yozib boʻlmaydi. … | PDF shifrlangan. | Oʻrniga {{ui:XLSX}} eksport qiling, yoki PDF ning shifrlanmagan nusxasidan foydalaning (u oʻz hajmlash faylini talab qiladi, chunki bu boshqa fayl). |
 | Belgilangan PDF yozib boʻlmadi: … | Koʻpincha: oflaynda va ilova oflayn foydalanish uchun saqlanmagan, shuning uchun PDF yozuvchisi yoʻq. | Onlaynga oʻting va yana {{ui:Belgilangan PDF}} ni tanlang. Buning oldini olish uchun {{ui:Oflayn uchun saqlash}} ni tanlang va {{ui:Oflayn tayyor}} holati paydo boʻlguncha kuting. |
 | Faqat bitta belgilangan PDF yuklab olindi | Brauzer bir vaqtda bir nechta yuklab olishni bloklagan. | Ushbu sayt uchun bir nechta yuklab olishga ruxsat bering va yana eksport qiling. |
-| (file) TakeoffCraft loyihasi emas (u toʻgʻri JSON emas). / Bu TakeoffCraft loyiha fayli emas. | Notoʻgʻri fayl yoki buzilgan fayl. | `.takeoff.json` faylini tanlang. |
-| Bu loyiha yangiroq TakeoffCraft tomonidan saqlangan. Uni oʻsha versiyada oching. | Fayl yangiroq versiyadan. | Uni yangiroq versiyada oching. |
+| (file) TakeoffDesk loyihasi emas (u toʻgʻri JSON emas). / Bu TakeoffDesk loyiha fayli emas. | Notoʻgʻri fayl yoki buzilgan fayl. | `.takeoff.json` faylini tanlang. |
+| Bu loyiha yangiroq TakeoffDesk tomonidan saqlangan. Uni oʻsha versiyada oching. | Fayl yangiroq versiyadan. | Uni yangiroq versiyada oching. |
 | (n) ta belgi buzilgan va chiqarib tashlangan. | Faylning bir qismi buzilgan yoki qoʻlda tahrirlangan. | Qolgani ochildi. Yoʻqolgan belgilarni qayta chizing, yoki eskiroq nusxani oching. |
 | Qayta ochgandan keyin belgilar yoʻq | PDF lar ochiq emas, yoki ulardan biri oʻzgargan. | [Hajmni saqlash va qayta ochish](topic:save-and-reopen#when-a-pdf-has-changed) ga qarang. |
 | Brauzer "Saytdan chiqilsinmi?" deb soʻraydi | Saqlanmagan oʻzgarishlar bor. | Qoling va {{key:Mod+S}} bilan saqlang. |

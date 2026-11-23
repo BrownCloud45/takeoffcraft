@@ -1,6 +1,6 @@
 ---
 title: Spočítat vše v sadě
-summary: Označte jednou legendu symbolů a TakeoffCraft spočítá každý symbol z ní na každém otevřeném listu jedním během. Každý počet je odkaz na svůj list a než cokoli přidáte, zkontrolujete to.
+summary: Označte jednou legendu symbolů a TakeoffDesk spočítá každý symbol z ní na každém otevřeném listu jedním během. Každý počet je odkaz na svůj list a než cokoli přidáte, zkontrolujete to.
 keywords: spočítat vše, legenda, legenda symbolů, celá sada, každý list, všechny listy, každé dveře, každá armatura, zařízení, rozpis, symboly, automatické počítání, počítat vše, sada plánů, 200 listů, úroveň shody, podobné symboly
 from: adc99744
 ---

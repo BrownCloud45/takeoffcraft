@@ -5,7 +5,7 @@ keywords: zemljani radovi, iskop, nasip, iskop i nasip, planiranje terena, visin
 from: a898e508
 ---
 
-TakeoffCraft mjeri ono što je nacrtano na listu. Zemljani radovi zahtijevaju površinu terena, pa se dijele s programom CivilCraft, koji gradi površine iz točaka, planira ih i izračunava iskop, nasip i odvoz.
+TakeoffDesk mjeri ono što je nacrtano na listu. Zemljani radovi zahtijevaju površinu terena, pa se dijele s programom CivilCraft, koji gradi površine iz točaka, planira ih i izračunava iskop, nasip i odvoz.
 
 ## Jednostavan iskop ovdje
 
@@ -29,8 +29,8 @@ Točke s različitih listova nemaju zajedničke koordinate, pa izvoz uzima samo 
 
 Zemljani radovi u programu CivilCraft vraćaju se kao dvije stavke koje možete odmah cijeniti:
 
-1. U programu CivilCraft izradite platoe i koridore, zatim odaberite {{ui:Pošalji u TakeoffCraft}} pod **Zemljani radovi** ([Volumeni zemljanih radova](app:civilcraft/volumes)). Sprema se datoteka količina (`.quantities.json`).
-2. U programu TakeoffCraft otvorite je s {{ui:Otvori predmjer}} ili je ispustite na aplikaciju. Vaš predmjer ostaje otvoren: datoteka dodaje stavke **Zemljani radovi: iskop** i **Zemljani radovi: nasip** kao [tipizirane količine](topic:create-items#typed-quantities-no-drawing) u kubičnim jardima (CY) za projekt u stopama ili u kubnim metrima (m³) za projekt u metrima. Riječ je o jednom koraku: {{key:Mod+Z}} ga poništava.
+1. U programu CivilCraft izradite platoe i koridore, zatim odaberite {{ui:Pošalji u TakeoffDesk}} pod **Zemljani radovi** ([Volumeni zemljanih radova](app:civilcraft/volumes)). Sprema se datoteka količina (`.quantities.json`).
+2. U programu TakeoffDesk otvorite je s {{ui:Otvori predmjer}} ili je ispustite na aplikaciju. Vaš predmjer ostaje otvoren: datoteka dodaje stavke **Zemljani radovi: iskop** i **Zemljani radovi: nasip** kao [tipizirane količine](topic:create-items#typed-quantities-no-drawing) u kubičnim jardima (CY) za projekt u stopama ili u kubnim metrima (m³) za projekt u metrima. Riječ je o jednom koraku: {{key:Mod+Z}} ga poništava.
 3. Preimenujte ih, zatim postavite gubitak, cijene i sklopove kako želite.
 
 Kad se projekt promijeni, ponovno pošaljite iz programa CivilCraft i otvorite novu datoteku: iste dvije stavke dobivaju nove količine. Njihovi nazivi, cijene, gubitak i sklopovi ostaju kako ste ih postavili. Ako se mjerna jedinica projekta promijenila, statusna traka to kaže: provjerite cijene. Datoteka iz drugog projekta programa CivilCraft dodaje vlastite dvije stavke.

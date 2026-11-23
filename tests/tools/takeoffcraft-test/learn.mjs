@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * learn.mjs — 0.8 SU.811 (session sx-learn): what TakeoffCraft learns from your takeoffs, without a browser.
+ * learn.mjs — 0.8 SU.811 (session sx-learn): what TakeoffDesk learns from your takeoffs, without a browser.
  *
  *   node tools/takeoffcraft-test/learn.mjs [--build dev] [--verbose]
  *

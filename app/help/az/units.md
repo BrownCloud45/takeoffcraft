@@ -55,4 +55,4 @@ Vərəqin miqyası çertyojun nə qədər böyük olduğunu göstərir; elementi
 
 ## Dəqiqlik
 
-TakeoffCraft klik etdiyiniz nöqtələrdən dəqiq ölçür, real qövs uzunluqları və sahələri daxil olmaqla, və kəmiyyətləri yuvarlaqlaşdırmır. Göstəriş uzunluqları 1/16 düymə, onluq kəsrləri isə iki rəqəmə qədər yuvarlaqlaşdırır. Pul yalnız uzadılmış məbləğlərdə, sentə qədər yuvarlaqlaşdırılır.
+TakeoffDesk klik etdiyiniz nöqtələrdən dəqiq ölçür, real qövs uzunluqları və sahələri daxil olmaqla, və kəmiyyətləri yuvarlaqlaşdırmır. Göstəriş uzunluqları 1/16 düymə, onluq kəsrləri isə iki rəqəmə qədər yuvarlaqlaşdırır. Pul yalnız uzadılmış məbləğlərdə, sentə qədər yuvarlaqlaşdırılır.

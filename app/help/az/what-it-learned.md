@@ -1,11 +1,11 @@
 ---
 title: Hesablamalarınızdan nəyi öyrənib
-summary: TakeoffCraft Avtomatik say ilə təsdiq etdiyiniz simvolları, şərt dəstlərinizi, ən çox istifadə etdiyiniz yığımları və hər səhifədə təkrarladığınız nümunələri saxlayır — hamısı hesablamanın öz faylının içində. Baxın, istifadə edin, silin.
+summary: TakeoffDesk Avtomatik say ilə təsdiq etdiyiniz simvolları, şərt dəstlərinizi, ən çox istifadə etdiyiniz yığımları və hər səhifədə təkrarladığınız nümunələri saxlayır — hamısı hesablamanın öz faylının içində. Baxın, istifadə edin, silin.
 keywords: öyrən, öyrənilmiş, öyrənmə, köməkçi, yadda saxla, simvollar, şablonlar, eyni son iş, son iş, şərt dəsti, şərtlər, təkrar istifadə, yığımlar, ən çox istifadə olunan, təkliflər, hər səhifədə təkrarla, hər səhifə, başlıq bloku, nümunə, hamısını təmizlə, unut, məxfilik
 from: 54d99e99
 ---
 
-TakeoffCraft hesablamaları ilə nə qədər çox iş görsəniz, bir o qədər sürətli olur. O, **yalnız qəbul etdiklərinizdən** öyrənir:
+TakeoffDesk hesablamaları ilə nə qədər çox iş görsəniz, bir o qədər sürətli olur. O, **yalnız qəbul etdiklərinizdən** öyrənir:
 
 - [Avtomatik say](topic:auto-count) ilə qutuya aldığınız və sonra əlavə etdiyiniz simvollar,
 - saxladığınız şərt dəstləri,
@@ -64,6 +64,6 @@ Bu hesablamada öyrənməni dayandırmaq üçün {{ui:Bu hesablamadan öyrən}} 
 
 ## Yaxşı bilmək üçün
 
-- TakeoffCraft-ın köhnə versiyaları öyrənilmiş şeyləri olan faylı normal açır. Həmin hissəni nəzərə almırlar və faylı yenidən saxlasalar, onu atırlar.
+- TakeoffDesk-ın köhnə versiyaları öyrənilmiş şeyləri olan faylı normal açır. Həmin hissəni nəzərə almırlar və faylı yenidən saxlasalar, onu atırlar.
 - Öyrənilmiş simvol qutuya aldığınız şəklin kiçik təsviridir, faylda saxlanılır (hər biri bir neçə kilobayt).
 - Öyrənilmiş simvollar Avtomatik say kimi axtarılır, buna görə eyni məhdudiyyətlər tətbiq olunur: [Simvolu Avtomatik say ilə sayın](topic:auto-count).

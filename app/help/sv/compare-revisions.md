@@ -5,14 +5,14 @@ keywords: revision, reviderad, jämför, överlägg, gammal, ny, ändringar, til
 from: 3a1d9fe0
 ---
 
-När ett blad utfärdas på nytt behöver du inte räkna av det igen. Öppna den gamla PDF:en och den nya, jämför de två bladen och flytta mängdavtagningen över. TakeoffCraft flaggar varje markering där ritningen ändrats, så att du kontrollerar dem och behåller resten.
+När ett blad utfärdas på nytt behöver du inte räkna av det igen. Öppna den gamla PDF:en och den nya, jämför de två bladen och flytta mängdavtagningen över. TakeoffDesk flaggar varje markering där ritningen ändrats, så att du kontrollerar dem och behåller resten.
 
 ## Jämför
 
 1. Öppna båda PDF-filerna: den gamla ritningssatsen och den reviderade ({{ui:Öppna ritningar}}; de kan finnas i en fil eller i flera).
 2. Visa det **nya** bladet.
 3. Välj {{ui:Jämför}} på bladraden under ritningen.
-4. Välj det gamla bladet i listan. TakeoffCraft föreslår bladet med samma nummer i den andra PDF:en, eller samma sida. Välj **Jämför**.
+4. Välj det gamla bladet i listan. TakeoffDesk föreslår bladet med samma nummer i den andra PDF:en, eller samma sida. Välj **Jämför**.
 
 Den gamla ritningen ligger nu över den nya i rött. Där de två överensstämmer ligger de röda linjerna på de svarta; där de skiljer sig ser du röda linjer ensamma (borttagna) och svarta linjer ensamma (tillagda). En rad längst ned på bladet innehåller stegen nedan; {{key:Esc}} eller {{ui:Stäng}} avslutar jämförelsen.
 
@@ -29,7 +29,7 @@ Den röda ritningen flyttas, vrids och skalas till den svarta. Statusfältet vis
 
 ## Hitta ändringar
 
-Välj **Hitta ändringar**. TakeoffCraft jämför de två ritningarnas bläck: bläck endast på det gamla bladet blir rött, bläck endast på det nya bladet blir blått, och statusfältet räknar dem. Linjer som flyttats ett hårstrå (en omplottning) räknas inte som ändringar.
+Välj **Hitta ändringar**. TakeoffDesk jämför de två ritningarnas bläck: bläck endast på det gamla bladet blir rött, bläck endast på det nya bladet blir blått, och statusfältet räknar dem. Linjer som flyttats ett hårstrå (en omplottning) räknas inte som ändringar.
 
 Den tittar också på varje markering på det gamla bladet och räknar de som ligger där ritningen ändrats:
 
@@ -40,7 +40,7 @@ Den tittar också på varje markering på det gamla bladet och räknar de som li
 
 Välj **Flytta mängdavtagningen hit**. Varje markering på det gamla bladet flyttas till det nya, genom inriktningen, i ett enda steg att ångra. De som ligger intill en ändring flaggas: de ritas med en orange glöd, och bladraden visar ”(n) att kontrollera”.
 
-Om det nya bladet inte hade någon skala tar det det gamla bladets skala (justerad när ritningarna behövde skalas för att rikta in). Om det redan hade en annan skala frågar TakeoffCraft först: flyttade markeringar mäts i det nya bladets skala.
+Om det nya bladet inte hade någon skala tar det det gamla bladets skala (justerad när ritningarna behövde skalas för att rikta in). Om det redan hade en annan skala frågar TakeoffDesk först: flyttade markeringar mäts i det nya bladets skala.
 
 ## Kontrollera de flaggade markeringarna
 

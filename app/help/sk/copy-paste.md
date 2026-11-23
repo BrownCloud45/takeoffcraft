@@ -32,11 +32,11 @@ Prilepené značky idú do oblasti ponuky vybranej hore v paneli {{ui:Položky}}
 
 {{key:Mod+Shift+V}} ({{ui:Prilepiť na rovnaké miesto}}) položí kópiu presne na to isté miesto na otvorenom liste, podľa jej pozície na strane. Použite to pri typickom podlaží: odmerajte úroveň 2, skopírujte, otvorte úroveň 3 a prilepte na rovnaké miesto.
 
-Prilepenie na rovnaké miesto potrebuje list **rovnakej veľkosti** ako ten, z ktorého ste kopírovali. Na liste inej veľkosti to TakeoffCraft oznámi a nič neprilepí; použite namiesto toho {{ui:Prilepiť}} a kliknite. Na liste, z ktorého ste kopírovali, kópia pristane navrch originálov.
+Prilepenie na rovnaké miesto potrebuje list **rovnakej veľkosti** ako ten, z ktorého ste kopírovali. Na liste inej veľkosti to TakeoffDesk oznámi a nič neprilepí; použite namiesto toho {{ui:Prilepiť}} a kliknite. Na liste, z ktorého ste kopírovali, kópia pristane navrch originálov.
 
 ## Mierka sa musí zhodovať
 
-Dĺžky a plochy závisia od mierky listu. Úsek, ktorý meria 10' pri 1/4" = 1'-0", by na liste 1/8" = 1'-0" meral 20'. Preto TakeoffCraft prilepí úseky a plochy len na list s **rovnakou mierkou** ako list, z ktorého pochádzajú, a jasne to oznámi, keď nie:
+Dĺžky a plochy závisia od mierky listu. Úsek, ktorý meria 10' pri 1/4" = 1'-0", by na liste 1/8" = 1'-0" meral 20'. Preto TakeoffDesk prilepí úseky a plochy len na list s **rovnakou mierkou** ako list, z ktorého pochádzajú, a jasne to oznámi, keď nie:
 
 - Otvorený list ešte nemá mierku: najprv mu ju nastavte ([Nastavenie mierky](topic:set-the-scale)), potom prilepte.
 - Otvorený list má inú mierku: hlásenie uvedie obe mierky. Prilepte na list s rovnakou mierkou.
@@ -59,7 +59,7 @@ Editor položky (pod **Položky**) končí:
 - {{ui:Duplikovať položku}}: hneď pridá kópiu, pomenovanú „(názov) (kópia)“.
 
 :::tip
-Kópia zostáva na tomto počítači: uchováva sa na tejto karte a v úložisku prehliadača, takže ju môže prilepiť aj iná karta TakeoffCraft. Nič sa neodosiela a systémová schránka sa nepoužíva, takže značky nemôžete prilepiť do iných programov.
+Kópia zostáva na tomto počítači: uchováva sa na tejto karte a v úložisku prehliadača, takže ju môže prilepiť aj iná karta TakeoffDesk. Nič sa neodosiela a systémová schránka sa nepoužíva, takže značky nemôžete prilepiť do iných programov.
 :::
 
 :::note

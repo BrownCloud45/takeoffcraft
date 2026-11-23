@@ -1,6 +1,6 @@
 ---
 title: Autobrojanje simbola
-summary: Obuhvatite jedan simbol, neka TakeoffCraft pronađe ostale na ovom listu ili na svim otvorenim listovima, provjerite podudaranja kliznikom i dodajte ih u jednom koraku.
+summary: Obuhvatite jedan simbol, neka TakeoffDesk pronađe ostale na ovom listu ili na svim otvorenim listovima, provjerite podudaranja kliznikom i dodajte ih u jednom koraku.
 keywords: bilo koji kut, zakrenut, okrenut, drugo mjerilo, različito mjerilo, autobrojanje, automatsko brojanje, pretraživanje simbola, pronađi simbole, uzorak, predložak, podudaranje, detekcija, alat za brojanje
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Da odbacite pregled bez dodavanja ičega, odaberite {{ui:Odbaci}} ili pritisnite
 
 ## Što pronalazi, a što ne
 
-TakeoffCraft uspoređuje crtež, piksel po piksel, sa simbolom koji ste obuhvatili.
+TakeoffDesk uspoređuje crtež, piksel po piksel, sa simbolom koji ste obuhvatili.
 
 - Pronalazi simbol okrenut za 0°, 90°, 180° i 270°. Označite {{ui:Bilo koji kut (sporije)}} na traci autobrojanja prije nego što nacrtate okvir da ga pronađe i pod bilo kojim kutom: pretražuje svakih 15°, zatim svaki pronalazak dotjeruje na stupanj i pol. To traje otprilike šest puta dulje. Ne pronalazi zrcaljeni simbol (osim ako simbol zrcaljen izgleda isto).
 - Uz označeno {{ui:Pretraži sve otvorene listove}}, list drugog mjerila pretražuje se u veličini koju simbol ima na tom listu: svjetiljka nacrtana u mjerilu na tlocrtu 1/8" dvostruko je manja nego na tlocrtu 1/4" i dalje se pronalazi. Takav list pretražuje se i u veličini samog okvira, za oznake i simbole otisnute jednakom veličinom na svim listovima. Ovo zahtijeva mjerilo na oba lista; list bez mjerila pretražuje se samo u veličini okvira.

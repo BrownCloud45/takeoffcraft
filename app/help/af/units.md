@@ -55,4 +55,4 @@ Itemtotale, die {{ui:Hoeveelhede}}-tabel, formules en die Beraming-werkblad gebr
 
 ## Presisie
 
-TakeoffCraft meet presies vanaf die punte wat jy klik, insluitend ware boglengtes en oppervlaktes, en rond hoeveelhede nie af nie. Die vertoning rond lengtes af tot 1/16 duim en desimale tot twee plekke. Geld word slegs by die uitgebreide bedrae afgerond, tot die sent.
+TakeoffDesk meet presies vanaf die punte wat jy klik, insluitend ware boglengtes en oppervlaktes, en rond hoeveelhede nie af nie. Die vertoning rond lengtes af tot 1/16 duim en desimale tot twee plekke. Geld word slegs by die uitgebreide bedrae afgerond, tot die sent.

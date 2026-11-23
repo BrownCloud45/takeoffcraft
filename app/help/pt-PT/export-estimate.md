@@ -28,7 +28,7 @@ O livro tem quatro folhas, e os relatórios abaixo quando se aplicam:
 
 Com um [resumo da proposta](topic:bid-summary), a folha Orçamento termina também com as suas margens (encargos de mão de obra, IVA, despesas gerais, lucro, caução e a proposta), como fórmulas ativas.
 
-A folha Orçamento mantém **fórmulas ativas**: quantidade com desperdício, os valores arredondados de material e mão de obra, o total de cada linha e o total da obra. As folhas de cálculo recalculam-nas, por isso pode alterar um preço ou o desperdício na folha de cálculo e os totais acompanham. Os números calculados pelo TakeoffCraft também ficam guardados nas células, e coincidem até ao cêntimo.
+A folha Orçamento mantém **fórmulas ativas**: quantidade com desperdício, os valores arredondados de material e mão de obra, o total de cada linha e o total da obra. As folhas de cálculo recalculam-nas, por isso pode alterar um preço ou o desperdício na folha de cálculo e os totais acompanham. Os números calculados pelo TakeoffDesk também ficam guardados nas células, e coincidem até ao cêntimo.
 
 A coluna de notas indica a fórmula de cada componente, os erros de fórmula, as marcas em folhas sem escala, a área de parede e o perímetro. Quando algo fica de fora, a linha do total da obra indica "Incompleto: veja as notas acima".
 
@@ -42,7 +42,7 @@ O CSV contém apenas o orçamento; para quantidades por folha e a lista de marca
 
 ## O orçamento no Google Sheets
 
-Acima da tabela Quantidades, **Copiar para o Google Sheets** coloca o orçamento na área de transferência como texto separado por tabulações, com as mesmas linhas do CSV. Numa folha do Google Sheets, clique na célula A1 e cole. O TakeoffCraft não inicia sessão no Google nem envia nada para lá.
+Acima da tabela Quantidades, **Copiar para o Google Sheets** coloca o orçamento na área de transferência como texto separado por tabulações, com as mesmas linhas do CSV. Numa folha do Google Sheets, clique na célula A1 e cole. O TakeoffDesk não inicia sessão no Google nem envia nada para lá.
 
 ## Preços em falta e aprovação
 

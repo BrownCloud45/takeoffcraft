@@ -19,9 +19,9 @@ A **Mennyiségek › Tételenként** részben az a sor, amelynek van mennyisége
 2. A párbeszédpanel megadja a lezárt összeget, és felsorolja az egységár nélküli sorokat. Írja be a nevét, és ha szeretné, a beosztását is.
 3. Kattintson a **Lezárás** gombra. A sáv ezt írja: „Lezárta: … ekkor: …”, az összeggel együtt. Mentse el a mennyiségkimutatást, hogy a fájlban megmaradjon.
 
-A lezárás a lezárt számokhoz tartozik. Bármilyen későbbi módosítás egy mennyiségen, egységáron vagy soron törli, és a TakeoffCraft ezt jelzi. A visszavonás visszahozza a lezárt költségvetést, a hozzá tartozó lezárással együtt. Egy sor átnevezése nem számszaki módosítás. Az **A lezárás eltávolítása** törli.
+A lezárás a lezárt számokhoz tartozik. Bármilyen későbbi módosítás egy mennyiségen, egységáron vagy soron törli, és a TakeoffDesk ezt jelzi. A visszavonás visszahozza a lezárt költségvetést, a hozzá tartozó lezárással együtt. Egy sor átnevezése nem számszaki módosítás. Az **A lezárás eltávolítása** törli.
 
-A TakeoffCraftön kívül szerkesztett, lezárás utáni mennyiségkimutatási fájl lezárás nélkül nyílik meg, és erről megjegyzés szól. Az exportált költségvetés (CSV és XLSX) az összesítések alatt nevezi meg a lezárást.
+A TakeoffDeskön kívül szerkesztett, lezárás utáni mennyiségkimutatási fájl lezárás nélkül nyílik meg, és erről megjegyzés szól. Az exportált költségvetés (CSV és XLSX) az összesítések alatt nevezi meg a lezárást.
 
 Lezárni csak személy tud. Egy MI-asszisztens olvashatja, hogy le van-e zárva a költségvetés, és mely egységárak hiányoznak; lezárni nem tud.
 

@@ -5,7 +5,7 @@ keywords: đào đắp, đào, đắp, đào và đắp, san nền, cao độ đ
 from: a898e508
 ---
 
-TakeoffCraft đo những gì được vẽ trên tờ bản vẽ. Đào đắp cần một bề mặt đất, nên tính năng này dùng chung với CivilCraft, ứng dụng tạo bề mặt từ các điểm, san nền và tính đào, đắp và biểu đồ khối lượng đất.
+TakeoffDesk đo những gì được vẽ trên tờ bản vẽ. Đào đắp cần một bề mặt đất, nên tính năng này dùng chung với CivilCraft, ứng dụng tạo bề mặt từ các điểm, san nền và tính đào, đắp và biểu đồ khối lượng đất.
 
 ## Đào đơn giản tại đây
 
@@ -29,8 +29,8 @@ Các điểm từ các tờ khác nhau không dùng chung tọa độ, nên khi 
 
 Khối lượng đào đắp của CivilCraft trả về dưới dạng hai hạng mục để bạn định giá:
 
-1. Trong CivilCraft, san nền các nền và hành lang, rồi chọn {{ui:Gửi sang TakeoffCraft}} dưới **Đào đắp** ([Khối lượng đào đắp](app:civilcraft/volumes)). Ứng dụng lưu một tệp khối lượng (`.quantities.json`).
-2. Trong TakeoffCraft, mở tệp bằng {{ui:Mở bóc tách}}, hoặc kéo thả tệp vào ứng dụng. Bóc tách của bạn vẫn mở: tệp thêm **Đào đắp: đào** và **Đào đắp: đắp** dưới dạng [khối lượng nhập tay](topic:create-items#typed-quantities-no-drawing), tính bằng yard khối (CY) với dự án theo feet, hoặc mét khối (m³) với dự án theo mét. Đây là một bước: {{key:Mod+Z}} sẽ hoàn tác.
+1. Trong CivilCraft, san nền các nền và hành lang, rồi chọn {{ui:Gửi sang TakeoffDesk}} dưới **Đào đắp** ([Khối lượng đào đắp](app:civilcraft/volumes)). Ứng dụng lưu một tệp khối lượng (`.quantities.json`).
+2. Trong TakeoffDesk, mở tệp bằng {{ui:Mở bóc tách}}, hoặc kéo thả tệp vào ứng dụng. Bóc tách của bạn vẫn mở: tệp thêm **Đào đắp: đào** và **Đào đắp: đắp** dưới dạng [khối lượng nhập tay](topic:create-items#typed-quantities-no-drawing), tính bằng yard khối (CY) với dự án theo feet, hoặc mét khối (m³) với dự án theo mét. Đây là một bước: {{key:Mod+Z}} sẽ hoàn tác.
 3. Đổi tên chúng, đặt hao hụt, đơn giá và định mức theo ý bạn.
 
 Khi thiết kế thay đổi, gửi lại từ CivilCraft và mở tệp mới: hai hạng mục cũ sẽ nhận khối lượng mới. Tên, đơn giá, hao hụt và định mức của chúng được giữ nguyên như bạn đã đặt. Nếu đơn vị của dự án đã thay đổi, thanh trạng thái sẽ báo: hãy kiểm tra đơn giá. Tệp từ một dự án CivilCraft khác sẽ thêm hai hạng mục riêng của nó.

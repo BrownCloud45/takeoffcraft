@@ -28,7 +28,7 @@ Die Arbeitsmappe hat vier Arbeitsblätter sowie die folgenden Berichte, sofern z
 
 Mit einer [Angebotsübersicht](topic:bid-summary) endet das Arbeitsblatt Kalkulation außerdem mit seinen Aufschlägen (Lohnnebenkosten, Umsatzsteuer, Gemeinkosten, Gewinn, Bürgschaft und Angebot) als aktive Formeln.
 
-Das Arbeitsblatt Kalkulation behält **aktive Formeln**: Menge mit Verschnitt, die gerundeten Material- und Lohnbeträge, die Summe jeder Zeile und die Projektsumme. Tabellenkalkulationen berechnen sie neu. Sie können daher einen Preis oder Verschnitt in der Tabelle ändern, und die Summen folgen. Die von TakeoffCraft berechneten Zahlen werden zusätzlich in den Zellen gespeichert und stimmen auf den Cent überein.
+Das Arbeitsblatt Kalkulation behält **aktive Formeln**: Menge mit Verschnitt, die gerundeten Material- und Lohnbeträge, die Summe jeder Zeile und die Projektsumme. Tabellenkalkulationen berechnen sie neu. Sie können daher einen Preis oder Verschnitt in der Tabelle ändern, und die Summen folgen. Die von TakeoffDesk berechneten Zahlen werden zusätzlich in den Zellen gespeichert und stimmen auf den Cent überein.
 
 Die Hinweisspalte listet die Formel jeder Komponente, Formelfehler, Markierungen auf Blättern ohne Maßstab, Wandfläche und Umfang auf. Wenn etwas ausgelassen wurde, steht in der Zeile der Projektsumme „Unvollständig: siehe die Hinweise oben“.
 
@@ -42,7 +42,7 @@ Die CSV enthält nur die Kalkulation. Für Mengen nach Blatt und die Markierungs
 
 ## Die Kalkulation in Google Sheets
 
-Über der Mengentabelle legt **Für Google Sheets kopieren** die Kalkulation als tabulatorgetrennten Text in Ihre Zwischenablage, mit denselben Zeilen wie die CSV. Klicken Sie in einem Google Sheet auf Zelle A1 und fügen Sie ein. TakeoffCraft meldet sich nicht bei Google an und sendet dorthin nichts.
+Über der Mengentabelle legt **Für Google Sheets kopieren** die Kalkulation als tabulatorgetrennten Text in Ihre Zwischenablage, mit denselben Zeilen wie die CSV. Klicken Sie in einem Google Sheet auf Zelle A1 und fügen Sie ein. TakeoffDesk meldet sich nicht bei Google an und sendet dorthin nichts.
 
 ## Fehlende Preise und die Freigabe
 

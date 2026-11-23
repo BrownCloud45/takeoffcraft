@@ -1,23 +1,23 @@
 ---
-title: Getting started with TakeoffCraft
-summary: What TakeoffCraft does, where it runs, and your first measured and priced item from a PDF plan set.
+title: Getting started with TakeoffDesk
+summary: What TakeoffDesk does, where it runs, and your first measured and priced item from a PDF plan set.
 section: start
 order: 10
 keywords: start, first takeoff, quick start, introduction, estimate, quantity takeoff, plan set, pdf
 ---
 
-TakeoffCraft measures plan sets, PDFs and DWG or DXF drawings, and turns the measurements into a priced estimate. You open the files (a drawing counts straight from its blocks: see [Open a DWG or DXF drawing](topic:open-a-drawing)), give each sheet a scale (a drawing brings its own), make **items** (a wall type, a floor finish, a fixture), and click on the sheets to take them off. Quantities, costs and the job total update as you go. You can export the estimate as a spreadsheet and a copy of the PDFs with your takeoff drawn in.
+TakeoffDesk measures plan sets, PDFs and DWG or DXF drawings, and turns the measurements into a priced estimate. You open the files (a drawing counts straight from its blocks: see [Open a DWG or DXF drawing](topic:open-a-drawing)), give each sheet a scale (a drawing brings its own), make **items** (a wall type, a floor finish, a fixture), and click on the sheets to take them off. Quantities, costs and the job total update as you go. You can export the estimate as a spreadsheet and a copy of the PDFs with your takeoff drawn in.
 
 If you have done takeoff in other programs, read [Coming from other takeoff software](topic:coming-from) next. Some things work differently here.
 
 ## Where it runs
 
-TakeoffCraft runs in your web browser. Open TakeoffCraft and the screen is ready at once; there is nothing to install.
+TakeoffDesk runs in your web browser. Open TakeoffDesk and the screen is ready at once; there is nothing to install.
 
 - **Your PDFs stay on your computer.** They are opened by the browser and never uploaded. Saving is a download.
 - It works in current Chrome, Edge, Firefox and Safari. See [Browsers and computers](common:browsers).
 - It works with no internet connection once you choose {{ui:Save for offline}} in the app bar and it says {{ui:Offline ready}}. See [Working offline](common:offline).
-- Cloud saving is not available yet. For a desktop app, TakeoffCraft comes in CadCraft Studio, with the other seven apps.
+- Cloud saving is not available: your files stay on your computer.
 
 ## Your first takeoff in ten steps
 
@@ -46,7 +46,7 @@ Press {{key:Esc}} to stop whatever you are doing and go back to the {{ui:Select}
 
 ## What to read next
 
-- [The TakeoffCraft screen](topic:workspace) names every part of the window.
+- [The TakeoffDesk screen](topic:workspace) names every part of the window.
 - [Start a takeoff and open a plan set](topic:open-plan-set) covers several PDFs and the sheets list.
 - [Create takeoff items](topic:create-items) explains types, units, waste and rates.
 - [Assemblies and formulas](topic:assemblies) turns one measurement into studs, sheets of board and more.

@@ -28,7 +28,7 @@ Workbook တွင် worksheet လေးခု ရှိပြီး သက်�
 
 [Bid summary](topic:bid-summary) ရှိလျှင် Estimate worksheet သည် ၎င်း၏ markups (labor burden, sales tax, overhead, profit, bond နှင့် bid) ကို live formulas အဖြစ် အဆုံးသတ်သည်။
 
-Estimate worksheet တွင် **live formulas** ရှိသည်: ဆုံးရှုံးမှုပါသော ပမာဏ၊ ဒဿမ ပြင်ဆင်ထားသော material နှင့် labor ပမာဏများ၊ row တစ်ခုစီ၏ စုစုပေါင်းနှင့် job စုစုပေါင်း။ Spreadsheet programs က ပြန်တွက်သဖြင့် spreadsheet တွင် နှုန်း သို့မဟုတ် waste ကို ပြောင်းလျှင် စုစုပေါင်းများ လိုက်ပြောင်းသည်။ TakeoffCraft တွက်ထားသော ဂဏန်းများကိုလည်း cells တွင် သိမ်းထားပြီး cent အထိ ကိုက်ညီသည်။
+Estimate worksheet တွင် **live formulas** ရှိသည်: ဆုံးရှုံးမှုပါသော ပမာဏ၊ ဒဿမ ပြင်ဆင်ထားသော material နှင့် labor ပမာဏများ၊ row တစ်ခုစီ၏ စုစုပေါင်းနှင့် job စုစုပေါင်း။ Spreadsheet programs က ပြန်တွက်သဖြင့် spreadsheet တွင် နှုန်း သို့မဟုတ် waste ကို ပြောင်းလျှင် စုစုပေါင်းများ လိုက်ပြောင်းသည်။ TakeoffDesk တွက်ထားသော ဂဏန်းများကိုလည်း cells တွင် သိမ်းထားပြီး cent အထိ ကိုက်ညီသည်။
 
 Notes column တွင် component တစ်ခုစီ၏ ပုံသေနည်း၊ ပုံသေနည်း error များ၊ scale မရှိသော sheet ပေါ်ရှိ marks၊ wall area နှင့် perimeter ကို စာရင်းပြုသည်။ တစ်ခုခု ချန်ထားလျှင် job စုစုပေါင်း row က "Incomplete: see the notes above" ဟု ပြောသည်။
 
@@ -42,7 +42,7 @@ CSV တွင် estimate တစ်ခုတည်းသာ ပါသည်; she
 
 ## Google Sheets ရှိ estimate
 
-Quantities ဇယား အပေါ်ရှိ **Google Sheets အတွက် ကူးရန်** က estimate ကို tab-separated စာသားအဖြစ် clipboard သို့ ထည့်သည်၊ CSV နှင့် တူညီသော လိုင်းများဖြင့်။ Google Sheet တွင် A1 cell ကို နှိပ်ပြီး paste လုပ်ပါ။ TakeoffCraft သည် Google သို့ လက်မှတ်မထိုးပါ၊ ထိုနေရာသို့ ဘာမျှ မပို့ပါ။
+Quantities ဇယား အပေါ်ရှိ **Google Sheets အတွက် ကူးရန်** က estimate ကို tab-separated စာသားအဖြစ် clipboard သို့ ထည့်သည်၊ CSV နှင့် တူညီသော လိုင်းများဖြင့်။ Google Sheet တွင် A1 cell ကို နှိပ်ပြီး paste လုပ်ပါ။ TakeoffDesk သည် Google သို့ လက်မှတ်မထိုးပါ၊ ထိုနေရာသို့ ဘာမျှ မပို့ပါ။
 
 ## ဈေးနှုန်းပျောက်ခြင်းနှင့် estimate အတည်ပြုခြင်း
 

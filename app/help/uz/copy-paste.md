@@ -32,11 +32,11 @@ Qoʻyilgan belgilar {{ui:Items}} panelining yuqorisida tanlangan hisob maydoniga
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) nusxani ochiq varaqda sahifadagi oʻz oʻrniga aynan koʻchiradi. Tipik qavat uchun foydalaning: 2-qavatni hisoblang, nusxalang, 3-qavatni oching, joyida qoʻying.
 
-Joyida qoʻyish nusxa olingan varaq bilan **bir xil oʻlchamdagi** varaqni talab qiladi. Boshqa oʻlchamdagi varaqda TakeoffCraft buni aytadi va hech narsa qoʻymaydi; buning oʻrniga {{ui:Paste}} dan foydalaning va bosing. Nusxa olingan varaqda nusxa asllarning ustiga tushadi.
+Joyida qoʻyish nusxa olingan varaq bilan **bir xil oʻlchamdagi** varaqni talab qiladi. Boshqa oʻlchamdagi varaqda TakeoffDesk buni aytadi va hech narsa qoʻymaydi; buning oʻrniga {{ui:Paste}} dan foydalaning va bosing. Nusxa olingan varaqda nusxa asllarning ustiga tushadi.
 
 ## Masshtab mos kelishi kerak
 
-Uzunliklar va maydonlar varaqning masshtabiga bogʻliq. 1/4" = 1'-0" masshtabda 10' oʻlchaydigan chiziq 1/8" = 1'-0" varaqda 20' boʻladi. Shuning uchun TakeoffCraft chiziqlar va maydonlarni faqat ular kelgan varaq bilan **bir xil masshtabli** varaqqa qoʻyadi va buni ochiq aytadi:
+Uzunliklar va maydonlar varaqning masshtabiga bogʻliq. 1/4" = 1'-0" masshtabda 10' oʻlchaydigan chiziq 1/8" = 1'-0" varaqda 20' boʻladi. Shuning uchun TakeoffDesk chiziqlar va maydonlarni faqat ular kelgan varaq bilan **bir xil masshtabli** varaqqa qoʻyadi va buni ochiq aytadi:
 
 - Ochiq varaqda hali masshtab yoʻq: avval unga masshtab bering ([Masshtabni belgilash](topic:set-the-scale)), keyin qoʻying.
 - Ochiq varaqda boshqa masshtab bor: xabarda ikkala masshtab ham aytiladi. Bir xil masshtabli varaqqa qoʻying.
@@ -59,7 +59,7 @@ Element muharriri (**Items** ostida) quyidagilar bilan tugaydi:
 - {{ui:Duplicate item}}: nusxani darhol "(name) (copy)" nomi bilan qoʻshadi.
 
 :::tip
-Nusxa shu kompyuterda qoladi: u shu yorliqda va brauzer xotirasida saqlanadi, shuning uchun boshqa TakeoffCraft yorligʻi ham uni qoʻyishi mumkin. Hech narsa yuklanmaydi va tizim buferi ishlatilmaydi, shuning uchun belgilarni boshqa dasturlarga qoʻyib boʻlmaydi.
+Nusxa shu kompyuterda qoladi: u shu yorliqda va brauzer xotirasida saqlanadi, shuning uchun boshqa TakeoffDesk yorligʻi ham uni qoʻyishi mumkin. Hech narsa yuklanmaydi va tizim buferi ishlatilmaydi, shuning uchun belgilarni boshqa dasturlarga qoʻyib boʻlmaydi.
 :::
 
 :::note

@@ -13,7 +13,7 @@ Et **prisbibliotek** holder de poster, du bruger job efter job: deres type, enhe
 
 - {{ui:Importér CSV…}} læser et regneark gemt som CSV (se kolonnerne nedenfor). Poster, hvis navn og type allerede findes i biblioteket, erstattes; resten tilføjes. Rækker, den ikke kan læse, springes over, og den siger hvilke og hvorfor.
 - {{ui:Tilføj dette mængdeudtrægs poster}} kopierer hver post i det åbne mængdeudtræk ind i biblioteket, med dens satser og kalkulationsenhed (ikke dens markeringer).
-- Kalkulations-CSV'en, som TakeoffCraft eksporterer ([Eksportér kalkulationen](topic:export-estimate)), importeres, som den er: sidste jobs priser giver næste job et udgangspunkt.
+- Kalkulations-CSV'en, som TakeoffDesk eksporterer ([Eksportér kalkulationen](topic:export-estimate)), importeres, som den er: sidste jobs priser giver næste job et udgangspunkt.
 
 - {{ui:Fagpakker…}} tilføjer gratis kalkulationsenheder for et fag, såsom gips, el eller beton, uden priser. Se [Fagpakker](topic:trade-packs).
 

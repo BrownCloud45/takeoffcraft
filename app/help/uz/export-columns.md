@@ -77,7 +77,7 @@ Masshtabi yoki belgilari bor har bir varaq uchun bitta qator.
 | Sheet | Varaq nomi |
 | Scale | Preset nomi, kalibrlangan masshtab yoki "No scale" |
 | How | "Preset" yoki "Calibrated on (the distance you typed)" (kalibrlangan, siz kiritgan masofada) |
-| Feet per PDF unit | TakeoffCraft ishlatadigan aniq masshtab koeffitsiyenti |
+| Feet per PDF unit | TakeoffDesk ishlatadigan aniq masshtab koeffitsiyenti |
 
 ## Fayl nomlari
 

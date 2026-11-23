@@ -1,11 +1,11 @@
 ---
 title: Həll yolları
-summary: TakeoffCraft-da qarşılaşa biləcəyiniz mesajlar və gözlənilməz hallar üçün səbəblər və düzəlişlər, tətbiqin göstərdiyi kimi sitat gətirilib.
+summary: TakeoffDesk-da qarşılaşa biləcəyiniz mesajlar və gözlənilməz hallar üçün səbəblər və düzəlişlər, tətbiqin göstərdiyi kimi sitat gətirilib.
 keywords: problemlər, xətalar, işləmir, düzəliş, kömək, rədd, ölçmür, miqyas yoxdur, işarələr itib, ixrac alınmadı, oflayn, toxunma
 from: cd319c9b
 ---
 
-TakeoffCraft əksər rədd etmələri pəncərənin aşağısındakı status panelində izah edir. Aşağıda mesajı tapın.
+TakeoffDesk əksər rədd etmələri pəncərənin aşağısındakı status panelində izah edir. Aşağıda mesajı tapın.
 
 ## Faylların açılması
 
@@ -15,8 +15,8 @@ TakeoffCraft əksər rədd etmələri pəncərənin aşağısındakı status pan
 | (name) parolla qorunur. Qorunmayan nüsxəni açın. | PDF-in açılması üçün parol lazımdır. | Qorunmayan nüsxə istəyin və ya etibar etdiyiniz PDF proqramında parolu silin. |
 | (name) PDF kimi oxuna bilmədi (…) | Fayl zədələnib və ya əslində PDF deyil. | Yenidən yükləyin və ya onu yaradan proqramdan yenidən saxlayın. |
 | (name) artıq açıqdır. | Eyni PDF (eyni məzmun) açıqdır. | Edilməli bir şey yoxdur. |
-| TakeoffCraft PDF-ləri və .takeoff.json layihələrini açır. Keçildi: … | Digər fayl növləri atılıb. | Əvvəlcə çertyojları PDF-ə çevirin. |
-| Faylları atanda heç nə baş vermir | Fayllar brauzer pəncərəsindən kənarda atılıb, ya da brauzer PDF-i yeni sekmədə açıb. | Birbaşa TakeoffCraft səhifəsinin üzərinə atın; "PDF-ləri və ya .takeoff.json faylını buraxın" çərçivəsi işləyəcəyini göstərir. |
+| TakeoffDesk PDF-ləri və .takeoff.json layihələrini açır. Keçildi: … | Digər fayl növləri atılıb. | Əvvəlcə çertyojları PDF-ə çevirin. |
+| Faylları atanda heç nə baş vermir | Fayllar brauzer pəncərəsindən kənarda atılıb, ya da brauzer PDF-i yeni sekmədə açıb. | Birbaşa TakeoffDesk səhifəsinin üzərinə atın; "PDF-ləri və ya .takeoff.json faylını buraxın" çərçivəsi işləyəcəyini göstərir. |
 | Böyük dəsti açmaq bir az vaxt aparır | Hər PDF onu eyniləşdirmək üçün tam oxunur. | "Açılır (name)…" mesajı itənə qədər gözləyin. Miniatürlər siz sürüşdürdükcə dolur. |
 
 ## Ölçmə
@@ -47,7 +47,7 @@ TakeoffCraft əksər rədd etmələri pəncərənin aşağısındakı status pan
 | Mesaj və ya əlamət | Səbəb | Düzəliş |
 |---|---|---|
 | Daha uzaq iki nöqtə seçin. | Kalibrləmə nöqtələri demək olar ki, bir-birinin üstündədir. | Daha uzun ölçüdə kalibrləyin. |
-| Kalibrləmə dialoqunda mesaj, məsələn "Bu məsafə oxuna bilmədi" | Məsafə TakeoffCraft-ın oxuya bilmədiyi formadadır. | Bax: [Uzunluq, dərəcə və faiz daxil etmə](topic:entry-formats). |
+| Kalibrləmə dialoqunda mesaj, məsələn "Bu məsafə oxuna bilmədi" | Məsafə TakeoffDesk-ın oxuya bilmədiyi formadadır. | Bax: [Uzunluq, dərəcə və faiz daxil etmə](topic:entry-formats). |
 | Bu vərəqin hələ miqyası yoxdur, ona görə yoxlamaq üçün heç nə yoxdur. Kalibrləyin və ya hazır seçin. | Miqyassız vərəqdə {{ui:Yoxla}}. | Əvvəlcə miqyas təyin edin. |
 | {{ui:Hazır}} siyahısı boz rəngdədir | Heç bir vərəq açıq deyil. | PDF açın. |
 
@@ -86,8 +86,8 @@ TakeoffCraft əksər rədd etmələri pəncərənin aşağısındakı status pan
 | Bu PDF parolla qorunur və ya şifrələnib, ona görə işarələnmiş nüsxə yazıla bilmir. … | PDF şifrələnib. | Əvəzinə {{ui:XLSX}} ixrac edin, ya da PDF-in şifrələnməmiş nüsxəsindən istifadə edin (bu, başqa fayl olduğu üçün öz həcmlərinin hesablanmasını tələb edir). |
 | İşarələnmiş PDF yazıla bilmədi: … | Çox vaxt: oflayn, tətbiq oflayn istifadə üçün saxlanılmayıb, ona görə PDF yazıcısı yoxdur. | Onlayn olun və yenidən {{ui:İşarələnmiş PDF}} seçin. Qarşısını almaq üçün {{ui:Oflayn üçün saxla}} seçin və {{ui:Oflayn hazırdır}} gözləyin. |
 | Yalnız bir işarələnmiş PDF yükləndi | Brauzer bir neçə yükləməni eyni anda blokladı. | Bu sayt üçün bir neçə yükləməyə icazə verin və yenidən ixrac edin. |
-| (file) TakeoffCraft layihəsi deyil (düzgün JSON deyil). / Bu TakeoffCraft layihə faylı deyil. | Səhv fayl və ya zədələnmiş fayl. | `.takeoff.json` faylını seçin. |
-| Bu layihə daha yeni TakeoffCraft ilə saxlanılıb. Onu orada açın. | Fayl daha yeni versiyadan gəlir. | Onu daha yeni versiyada açın. |
+| (file) TakeoffDesk layihəsi deyil (düzgün JSON deyil). / Bu TakeoffDesk layihə faylı deyil. | Səhv fayl və ya zədələnmiş fayl. | `.takeoff.json` faylını seçin. |
+| Bu layihə daha yeni TakeoffDesk ilə saxlanılıb. Onu orada açın. | Fayl daha yeni versiyadan gəlir. | Onu daha yeni versiyada açın. |
 | (n) işarə zədələndi və kənarda qaldı. | Faylın bir hissəsi zədələnib və ya əllə redaktə olunub. | Qalanı açıldı. Çatışmayan işarələri yenidən çəkin, ya da köhnə nüsxəni açın. |
 | Yenidən açdıqdan sonra işarələr itib | PDF-lər açıq deyil, ya da onlardan biri dəyişib. | Bax: [Həcmlərin hesablanmasını saxlayın və yenidən açın](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Brauzer "Saytdan çıxılsın?" soruşur | Saxlanmamış dəyişikliklər var. | Qalın və {{key:Mod+S}} ilə saxlayın. |

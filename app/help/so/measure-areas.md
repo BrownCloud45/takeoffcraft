@@ -41,7 +41,7 @@ Marka qolalka loo sawiro derbi xidhan, {{ui:Qol}} ({{key:B}}) wuxuu ka qaadaa da
 2. Dooro {{ui:Qol}} koox {{ui:Xisaabinta}}, ama riix {{key:B}}.
 3. Riix gudaha qol, dhulka furan (ma aha xariiq ama calaamad).
 
-TakeoffCraft wuxuu akhrinayaa xariiqyada xaashiga, wuxuu helaa meesha ku wareegsan riixa, wuxuuna qeexayaa dhinaca gudaha derbiyada, sida aag shayga hadda jira. Furitaanka albaabka ilaa **4'-0"** waa la tixgeliyaa inuu xidhan yahay, sidaas darteed qeexdu toos ayey u gudubtaa albaabka; **Dejinta › TakeoffCraft › Qolka buuxi xidha furitaanno ilaa** ayaa bedeli karta ballaacaas (3'-0" ilaa 8'-0"). Magacyada qolka, alaabta iyo rakibaadka gudaha qolka ma sameeyaan godad.
+TakeoffDesk wuxuu akhrinayaa xariiqyada xaashiga, wuxuu helaa meesha ku wareegsan riixa, wuxuuna qeexayaa dhinaca gudaha derbiyada, sida aag shayga hadda jira. Furitaanka albaabka ilaa **4'-0"** waa la tixgeliyaa inuu xidhan yahay, sidaas darteed qeexdu toos ayey u gudubtaa albaabka; **Dejinta › TakeoffDesk › Qolka buuxi xidha furitaanno ilaa** ayaa bedeli karta ballaacaas (3'-0" ilaa 8'-0"). Magacyada qolka, alaabta iyo rakibaadka gudaha qolka ma sameeyaan godad.
 
 Waa diidaa, isla markaana sababta sheegaa, marka:
 
@@ -62,7 +62,7 @@ Marka albaabku ka ballaaran yahay dejinta, buuxintu waxay gashaa qolka xiga oo l
 
 Godka wareegsan, dooro {{ui:Ku dar cut-out wareegsan}} hoosta **Calaamadda la doortay**, riix dhexdeeda, kadibna barta geeskeeda.
 
-God waa inuu gudaha aagga ku jiraa gebi ahaanba, mana isku dhegi karo god kale. Haddii kale TakeoffCraft way diidaa: "God waa inuu gudaha aagga gebi ahaan ku jiraa." ama "Godadka isma dhegi karaan."
+God waa inuu gudaha aagga ku jiraa gebi ahaanba, mana isku dhegi karo god kale. Haddii kale TakeoffDesk way diidaa: "God waa inuu gudaha aagga gebi ahaan ku jiraa." ama "Godadka isma dhegi karaan."
 
 Si aad godka u dambaysa mar kale uga saarto, dooro {{ui:Ka saar cut-outkii ugu dambeeyay}}.
 
@@ -76,7 +76,7 @@ God wuxuu u jiraa calaamad aag keliya. **Back-out** wuxuu la sawiraa hal mar, wu
 
 Calaamad kasta oo aag ah oo shay calaamadsan ku jirta isla xaashiga waxay lumisaa qaybta uu back-outku daboosho: back-out oo dhan markuu gudaha ku jiro, kaliya qaybta isku dhacda markuu geesta gooyo, iyo waxba godka gudihiisa. Aagga la doortay panelkiisa wuxuu tusayaa **Back-outs** iyo aagga hadhay. Tirada shayga, qaacidooyinka isku-dhisme, kharashyada, muuqaalka 3D iyo dhoofinta oo dhan waxay isticmaalaan aagga hadhay; qoraallada qiyaasku waxay sheegaan inta back-outs ay ka jarteen. Shayga back-out-ka laftiisu aagiisa ayuu tiraa (ka tag kharashyadiisa eber haddii aanad qiimayn).
 
-Back-out waa inuu noqdaa **qumman**: laydh, goobo ama qeex aan geesaha gudaha lahayn. TakeoffCraft way diidaa inuu midka aan qummanayn sawiro; qaab L ah oo godka ah ku sawir laba back-out. Back-outs ma leeyihin godad, laba back-out oo isku dhacaana labadaba way tirmaan.
+Back-out waa inuu noqdaa **qumman**: laydh, goobo ama qeex aan geesaha gudaha lahayn. TakeoffDesk way diidaa inuu midka aan qummanayn sawiro; qaab L ah oo godka ah ku sawir laba back-out. Back-outs ma leeyihin godad, laba back-out oo isku dhacaana labadaba way tirmaan.
 
 Dhinaca wareega (`P`) ma beddelo: back-outs waxay ka jaraan aagga oo keliya.
 

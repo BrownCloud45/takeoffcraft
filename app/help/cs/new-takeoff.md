@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Uložte aktuální výkaz, pokud jej chcete zachovat: {{ui:Uložit výkaz}} nebo {{key:Mod+S}}.
 2. Zvolte {{ui:Nový}} ve skupině {{ui:Soubor}}.
-3. Pokud jsou neuložené změny, TakeoffCraft se zeptá **Neuložený výkaz**: zvolte {{ui:Nejprve uložit výkaz}} (stáhne projekt a pak vymaže), {{ui:Zahodit změny}}, nebo {{ui:Zrušit}}.
+3. Pokud jsou neuložené změny, TakeoffDesk se zeptá **Neuložený výkaz**: zvolte {{ui:Nejprve uložit výkaz}} (stáhne projekt a pak vymaže), {{ui:Zahodit změny}}, nebo {{ui:Zrušit}}.
    Okno se vrátí do prázdného stavu: žádná PDF, žádné položky, žádné značky, žádná měřítka. Stavový řádek říká "Nový výkaz. Otevřete PDF a začněte."
 
 Vymaže se:

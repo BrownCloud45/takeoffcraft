@@ -14,7 +14,7 @@ Talningarliður telur hluti: hurðir, ljósabúnað, innstungur, pípulagnabúna
 3. Smelltu á hvern hlut á blaðinu.
    Hver smellur setur punkt í lit liðsins, og talning liðsins hækkar um einn.
 4. Farðu á næsta blað ({{key:PageDown}}) og haltu áfram að telja. Verkfærið helst á {{ui:Telja}}.
-5. Ýttu á {{key:Esc}} þegar talningu er lokið. TakeoffCraft fer aftur í {{ui:Velja}}.
+5. Ýttu á {{key:Esc}} þegar talningu er lokið. TakeoffDesk fer aftur í {{ui:Velja}}.
 
 Að draga hliðrar enn og hjólið aðdrættir enn á meðan þú telur, svo þú getur farið um blaðið án þess að bæta við punktum.
 
@@ -30,7 +30,7 @@ Smelltu á talningarliðinn til að draga fram punkta hans á öllum blöðum. B
 
 ## Stærð punkta á skjá og í PDF
 
-Punktarnir halda einni stærð á skjánum hvernig sem þú aðdrættir. Til að breyta henni, opnaðu {{ui:Stillingar}}, flipann TakeoffCraft, og veldu **Stærð talningarmerkis**: Mjög lítil, Lítil, Meðal (sjálfgefið) eða Stór.
+Punktarnir halda einni stærð á skjánum hvernig sem þú aðdrættir. Til að breyta henni, opnaðu {{ui:Stillingar}}, flipann TakeoffDesk, og veldu **Stærð talningarmerkis**: Mjög lítil, Lítil, Meðal (sjálfgefið) eða Stór.
 
 PDF-útflutningurinn ({{ui:Flytja út}} › merkta PDF-ið) teiknar hvern punkt í sömu stærð á pappír, sama hver blaðstærðin er: skoðunarforrit sem sýnir PDF-skjalið á 100% sýnir punktana jafnstóra og á skjánum. Þar sem punktar á blaði myndu snertast minnkar útflutningurinn punkta þess blaðs svo hægt sé að lesa hvern og einn.
 

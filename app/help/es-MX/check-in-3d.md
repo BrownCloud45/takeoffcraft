@@ -46,7 +46,7 @@ Los números no cambian en 3D: el área de un muro es su longitud exacta por su 
 | {{ui:Hoja}} | Muestra u oculta el dibujo en el suelo. |
 | El cubo de vistas, arriba a la derecha | Haga clic en una cara, arista o esquina para mirar desde allí; arrástrelo para orbitar; arrastre su anillo de brújula para girar; el botón de casa regresa a {{ui:Iso}}. |
 
-La esquina muestra un cubo de vistas, un pequeño ícono de ejes X, Y, Z, o nada: elija en {{ui:Configuración}}, en la pestaña TakeoffCraft, bajo **Indicador de esquina** ([Configuración de TakeoffCraft](topic:settings)). La vista plana no tiene indicador de esquina.
+La esquina muestra un cubo de vistas, un pequeño ícono de ejes X, Y, Z, o nada: elija en {{ui:Configuración}}, en la pestaña TakeoffDesk, bajo **Indicador de esquina** ([Configuración de TakeoffDesk](topic:settings)). La vista plana no tiene indicador de esquina.
 
 :::touch
 Un dedo orbita; dos dedos pellizcan para acercar y se mueven para desplazar. Un toque selecciona.

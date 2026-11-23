@@ -5,7 +5,7 @@ keywords: detectar escala, leer escala, escala desde el texto, todas las hojas, 
 from: 8f0148e6
 ---
 
-Cada hoja tiene su propia escala. Usted la define, o deja que TakeoffCraft la lea del texto de las hojas (véase abajo), y la comprueba. Mientras una hoja no tenga escala, {{ui:Lineal}}, {{ui:Área}}, {{ui:Círculo}} y {{ui:Recorte}} se niegan a medir en ella. {{ui:Recuento}} y {{ui:Autorrecuento}} funcionan sin escala.
+Cada hoja tiene su propia escala. Usted la define, o deja que TakeoffDesk la lea del texto de las hojas (véase abajo), y la comprueba. Mientras una hoja no tenga escala, {{ui:Lineal}}, {{ui:Área}}, {{ui:Círculo}} y {{ui:Recorte}} se niegan a medir en ella. {{ui:Recuento}} y {{ui:Autorrecuento}} funcionan sin escala.
 
 La lista de hojas muestra la escala de cada hoja, o **Sin escala**. La barra bajo la hoja abierta indica lo mismo.
 
@@ -22,7 +22,7 @@ La lista completa está en [Preajustes de escala](topic:scale-presets).
 
 ## Leer las escalas del texto de las hojas
 
-La mayoría de los planos indican su escala: `SCALE: 1/4" = 1'-0"` en el cajetín, `1:100` bajo una vista. TakeoffCraft puede leerla y fijar todas las hojas a la vez.
+La mayoría de los planos indican su escala: `SCALE: 1/4" = 1'-0"` en el cajetín, `1:100` bajo una vista. TakeoffDesk puede leerla y fijar todas las hojas a la vez.
 
 1. Abra la lista {{ui:Preajuste}} y elija {{ui:Desde el texto de las hojas…}} (en la parte superior).
 2. La lista muestra cada hoja: su escala actual, y lo que dice su texto: **Dice 1/4" = 1'-0"**, **Sin escala en su texto** o **Dice que no está a escala** (NTS).
@@ -40,7 +40,7 @@ Use esto cuando no hay una escala impresa en la que confíe, el juego se ha redi
 3. Haga clic en un extremo de la cota. Acérquese a cada extremo para más precisión; puede acercar y desplazar la vista entre los clics.
 4. Haga clic en el otro extremo. Mantenga pulsada {{key:Shift}} para mantener la línea a 0°, 45° o 90°. Se abre el diálogo **Calibrar esta hoja**.
 5. Escriba la distancia real en **Distancia real**, por ejemplo `24'-6 1/2"`, `24.5` (pies decimales), `30"` o `7.5 m`. Véase [Introducción de longitudes, tarifas y porcentajes](topic:entry-formats).
-6. Elija {{ui:Definir la escala}}. La barra de estado muestra la escala como "1" = (n)'", y cuando está dentro del 0.5% de un preajuste indica cuál, por ejemplo "que coincide con 1/4" = 1'-0" (elija ese preajuste para una escala exacta)". TakeoffCraft vuelve a la herramienta {{ui:Seleccionar}}.
+6. Elija {{ui:Definir la escala}}. La barra de estado muestra la escala como "1" = (n)'", y cuando está dentro del 0.5% de un preajuste indica cuál, por ejemplo "que coincide con 1/4" = 1'-0" (elija ese preajuste para una escala exacta)". TakeoffDesk vuelve a la herramienta {{ui:Seleccionar}}.
 
 Cuando la calibración coincide con un preajuste, elegir ese preajuste da una escala exacta en lugar de una que depende de dónde hizo clic.
 
@@ -56,11 +56,11 @@ Pulse {{key:Esc}} para borrar la línea de comprobación.
 
 ## Cambiar una escala
 
-Elija otro preajuste o calibre de nuevo. Si la hoja ya tiene mediciones, TakeoffCraft pregunta **¿Cambiar la escala de esta hoja?** e indica cuántas mediciones se volverán a calcular. Elija {{ui:Cambiar la escala}}. Cada tramo y área de la hoja se vuelve a medir con la nueva escala. Puede deshacerlo con {{key:Mod+Z}}.
+Elija otro preajuste o calibre de nuevo. Si la hoja ya tiene mediciones, TakeoffDesk pregunta **¿Cambiar la escala de esta hoja?** e indica cuántas mediciones se volverán a calcular. Elija {{ui:Cambiar la escala}}. Cada tramo y área de la hoja se vuelve a medir con la nueva escala. Puede deshacerlo con {{key:Mod+Z}}.
 
 ## Por qué las hojas sin escala no cuentan como cero
 
-Una marca en una hoja sin escala no tiene longitud ni área reales. TakeoffCraft nunca la cuenta como cero, lo que haría que su presupuesto quedara en silencio demasiado bajo. En su lugar:
+Una marca en una hoja sin escala no tiene longitud ni área reales. TakeoffDesk nunca la cuenta como cero, lo que haría que su presupuesto quedara en silencio demasiado bajo. En su lugar:
 
 - deja esas marcas fuera de los totales,
 - muestra "+(n) sin escala" junto a la partida en {{ui:Cantidades}},
@@ -72,5 +72,5 @@ Puede ocurrir al abrir un proyecto cuyas escalas nunca se definieron. Asigne una
 ## Consejos
 
 - Defina la escala de cada hoja que vaya a medir antes de empezar. Busque **Sin escala** en la lista de hojas para encontrar las que faltan (el cuadro de búsqueda mira los nombres de las hojas, no las escalas).
-- Los detalles y planos ampliados de la misma hoja suelen usar otra escala. TakeoffCraft tiene una sola escala por hoja; véase [Lo que aún no está incluido](topic:not-built-yet).
+- Los detalles y planos ampliados de la misma hoja suelen usar otra escala. TakeoffDesk tiene una sola escala por hoja; véase [Lo que aún no está incluido](topic:not-built-yet).
 - Planos métricos: elija un preajuste métrico como `1:100`, o calibre con una distancia métrica como `6000 mm`.

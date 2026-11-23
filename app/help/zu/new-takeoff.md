@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Londoloza ukubala kwamanje uma ufuna ukukugcina: {{ui:Save takeoff}} noma {{key:Mod+S}}.
 2. Khetha {{ui:New}} eqenjini le-{{ui:File}}.
-3. Uma kukhona izinguquko ezingalondoloziwe, i-TakeoffCraft ibuza **Unsaved takeoff**: khetha {{ui:Save takeoff first}} (ilanda iphrojekthi, bese isula), {{ui:Discard changes}}, noma {{ui:Cancel}}.
+3. Uma kukhona izinguquko ezingalondoloziwe, i-TakeoffDesk ibuza **Unsaved takeoff**: khetha {{ui:Save takeoff first}} (ilanda iphrojekthi, bese isula), {{ui:Discard changes}}, noma {{ui:Cancel}}.
    Iwindi libuyela esimweni salo esingenalutho: akukho ma-PDF, akukho zinto, akukho zimaki, akukho zikali. Ibha yesimo ithi "Ukubala okusha. Vula ama-PDF ukuze uqale."
 
 Okusulwayo:

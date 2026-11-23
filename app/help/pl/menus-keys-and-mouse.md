@@ -5,22 +5,22 @@ keywords: styl menu, menu, pasek menu, wstążka, karty wstążki, pasek narzęd
 from: f01f0d6d
 ---
 
-Polecenia TakeoffCraft działają tak samo, skądkolwiek je wywołasz. **Styl menu** decyduje tylko o tym, gdzie leżą na ekranie, jak się nazywają i którymi klawiszami się je uruchamia. Wybierz go w {{ui:Ustawienia}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menu, klawisze i mysz}}; zmiana działa od razu, a ta przeglądarka ją zapamiętuje.
+Polecenia TakeoffDesk działają tak samo, skądkolwiek je wywołasz. **Styl menu** decyduje tylko o tym, gdzie leżą na ekranie, jak się nazywają i którymi klawiszami się je uruchamia. Wybierz go w {{ui:Ustawienia}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menu, klawisze i mysz}}; zmiana działa od razu, a ta przeglądarka ją zapamiętuje.
 
 ## Trzy style
 
 | Styl | Co dostajesz |
 |---|---|
-| {{ui:TakeoffCraft}} | Własny pasek narzędzi TakeoffCraft: {{ui:Plik}}, {{ui:Eksport}}, {{ui:Skala}}, {{ui:Przedmiar}}, {{ui:Edycja}} i {{ui:Widok}}, z klawiszami narzędzi jednoliterowymi. Punkt wyjścia. |
+| {{ui:TakeoffDesk}} | Własny pasek narzędzi TakeoffDesk: {{ui:Plik}}, {{ui:Eksport}}, {{ui:Skala}}, {{ui:Przedmiar}}, {{ui:Edycja}} i {{ui:Widok}}, z klawiszami narzędzi jednoliterowymi. Punkt wyjścia. |
 | {{ui:Biurko przedmiarowe}} | Pasek menu ({{ui:Plik}}, {{ui:Edycja}}, {{ui:Widok}}, {{ui:Skala}}, {{ui:Przedmiar}}, {{ui:Pozycje}}, {{ui:Adnotacja}}, {{ui:Eksport}}) nad jednym rzędem narzędzi przedmiaru, tak jak programy do przedmiaru na ekranie układają swoje. Pozycje nazywają się w tym rzędzie warunkami. Te same klawisze, plus {{key:N}} dla nowej pozycji. Presety skali przechodzą na pasek arkusza, obok skali arkusza. |
 | {{ui:Wstążka przedmiaru}} | Karty wstążki nazwane od pracy: {{ui:Przedmiar}} (mierz, kształtuj, skaluj, z rysunku, warunki), {{ui:Edycja}}, {{ui:Widok}}, {{ui:Adnotacja}} i {{ui:Kosztorys}} (skoroszyt, oznaczone PDF-y, oferta), z menu {{ui:Plik}} i szybkim rzędem do otwierania, zapisu, cofania i ponawiania. Narzędzia używane przez cały dzień są duże, a ich sąsiedzi mali i ułożeni w stos. Te same klawisze; presety skali przechodzą na pasek arkusza. |
 
-Wszystkie trzy style zachowują klawisze TakeoffCraft: {{key:V}} zaznacz, {{key:L}} liniowy, {{key:A}} pole, {{key:O}} okrąg, {{key:B}} pokój, {{key:P}} ścieżka (wybierz linie PDF), {{key:X}} wycięcie, {{key:C}} liczenie, {{key:S}} auto liczenie, {{key:K}} kalibruj, {{key:D}} sprawdź, {{key:R}} tryb łuku, {{key:E}} tryb odliczania, {{key:F}} i {{key:W}} do dopasowania, {{key:3}} widok 3D sprawdzenia, {{key:F3}} przyciąganie, oraz {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Wszystkie trzy style zachowują klawisze TakeoffDesk: {{key:V}} zaznacz, {{key:L}} liniowy, {{key:A}} pole, {{key:O}} okrąg, {{key:B}} pokój, {{key:P}} ścieżka (wybierz linie PDF), {{key:X}} wycięcie, {{key:C}} liczenie, {{key:S}} auto liczenie, {{key:K}} kalibruj, {{key:D}} sprawdź, {{key:R}} tryb łuku, {{key:E}} tryb odliczania, {{key:F}} i {{key:W}} do dopasowania, {{key:3}} widok 3D sprawdzenia, {{key:F3}} przyciąganie, oraz {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Narzędzia paska arkusza (notatki, chmury, zakreślenia, Porównaj, 3D) czekają, aż zostanie otwarty PDF; jeśli wybierzesz je wcześniej, wiersz stanu o tym mówi.
 
 :::tip
-Klawisz należący do układu TakeoffCraft, ale przypisany przez twój styl innemu poleceniu, nic nie robi, a wiersz stanu mówi, gdzie trafiło jego polecenie („W Moich klawiszach Liczenie to Ctrl+Alt+C”). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} i strzałki zawsze zachowują swoje znaczenie. Podczas rysowania ciągu lub obrysu, wklejania albo przeglądu automatycznego liczenia litery i cyfry wpisanej długości należą do rysunku.
+Klawisz należący do układu TakeoffDesk, ale przypisany przez twój styl innemu poleceniu, nic nie robi, a wiersz stanu mówi, gdzie trafiło jego polecenie („W Moich klawiszach Liczenie to Ctrl+Alt+C”). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} i strzałki zawsze zachowują swoje znaczenie. Podczas rysowania ciągu lub obrysu, wklejania albo przeglądu automatycznego liczenia litery i cyfry wpisanej długości należą do rysunku.
 :::
 
 ## Zrób go po swojemu
@@ -41,12 +41,12 @@ Zapisanie wbudowanego stylu tworzy twoją własną kopię („Moje biurko przedm
 
 ## Zabierz to ze sobą
 
-{{ui:Eksport}} zapisuje używany styl jako mały plik `.ccinput.json`; {{ui:Import…}} dodaje taki plik z innego komputera albo od kolegi. Zaimportowany plik może wskazywać tylko polecenia TakeoffCraft: wszystko inne w nim zostaje pominięte i policzone w wierszu stanu. {{ui:Usuń ten styl}} usuwa jeden z twoich własnych.
+{{ui:Eksport}} zapisuje używany styl jako mały plik `.ccinput.json`; {{ui:Import…}} dodaje taki plik z innego komputera albo od kolegi. Zaimportowany plik może wskazywać tylko polecenia TakeoffDesk: wszystko inne w nim zostaje pominięte i policzone w wierszu stanu. {{ui:Usuń ten styl}} usuwa jeden z twoich własnych.
 
 :::note
-Te ustawienia zostają w tej przeglądarce. {{ui:Używaj tego stylu we wszystkich aplikacjach}} pod kartami stylów sprawia, że każda aplikacja otwiera się w pasującym stylu (własny pasek narzędzi, pasek menu albo wstążka), z zmianami, które wprowadziłeś w każdej aplikacji. TakeoffCraft nie ma stylu z wierszem poleceń: gdy taki jest wybrany dla wszystkich aplikacji, TakeoffCraft zachowuje własny pasek narzędzi.
+Te ustawienia zostają w tej przeglądarce. {{ui:Używaj tego stylu we wszystkich aplikacjach}} pod kartami stylów sprawia, że każda aplikacja otwiera się w pasującym stylu (własny pasek narzędzi, pasek menu albo wstążka), z zmianami, które wprowadziłeś w każdej aplikacji. TakeoffDesk nie ma stylu z wierszem poleceń: gdy taki jest wybrany dla wszystkich aplikacji, TakeoffDesk zachowuje własny pasek narzędzi.
 
-{{ui:Wstążka przedmiaru}} jest też wstążką układu {{ui:Wstążka i przeglądarka projektu}} ({{ui:Ustawienia}} › {{ui:Globalne}} › {{ui:Układ}}): zobacz [Ekran TakeoffCraft](topic:workspace).
+{{ui:Wstążka przedmiaru}} jest też wstążką układu {{ui:Wstążka i przeglądarka projektu}} ({{ui:Ustawienia}} › {{ui:Globalne}} › {{ui:Układ}}): zobacz [Ekran TakeoffDesk](topic:workspace).
 :::
 
-Pokrewne: [Klawisze i mysz](topic:keyboard) · [Ustawienia TakeoffCraft](topic:settings) · [Przechodzenie z innego oprogramowania do przedmiaru](topic:coming-from)
+Pokrewne: [Klawisze i mysz](topic:keyboard) · [Ustawienia TakeoffDesk](topic:settings) · [Przechodzenie z innego oprogramowania do przedmiaru](topic:coming-from)

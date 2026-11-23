@@ -41,7 +41,7 @@ Quan les sales estan dibuixades com a murs tancats, {{ui:Sala}} ({{key:B}}) treu
 2. Trieu {{ui:Sala}} al grup {{ui:Amidament}}, o premeu {{key:B}}.
 3. Feu clic dins d'una sala, a terra lliure (no sobre una línia o una etiqueta).
 
-TakeoffCraft llegeix les línies del full, troba l'espai al voltant del clic i en delimita el contorn seguint les cares interiors dels murs, com una àrea de l'element actual. Les obertures de porta de fins a **4'-0"** es consideren tancades, de manera que el contorn passa recte per la porta. **Configuració › TakeoffCraft › Omple sala tanca obertures fins a** canvia aquesta amplada (de 3'-0" a 8'-0"). Els noms de les sales, els mobles i els accessoris dins de la sala no fan forats.
+TakeoffDesk llegeix les línies del full, troba l'espai al voltant del clic i en delimita el contorn seguint les cares interiors dels murs, com una àrea de l'element actual. Les obertures de porta de fins a **4'-0"** es consideren tancades, de manera que el contorn passa recte per la porta. **Configuració › TakeoffDesk › Omple sala tanca obertures fins a** canvia aquesta amplada (de 3'-0" a 8'-0"). Els noms de les sales, els mobles i els accessoris dins de la sala no fan forats.
 
 Es rebutja i en diu el motiu quan:
 
@@ -62,7 +62,7 @@ Quan una porta és més ampla que la configuració, l'omplert entra a la sala se
 
 Per a un forat rodó, trieu {{ui:Afegeix un buit circular}} sota **Marca seleccionada**, feu clic al seu centre i després en un punt de la seva vora.
 
-Un tall ha d'estar totalment dins de l'àrea i no pot solapar-se amb un altre tall. Si no, TakeoffCraft el rebutja: "Un tall ha d'estar totalment dins de l'àrea." o "Els talls no es poden solapar entre ells."
+Un tall ha d'estar totalment dins de l'àrea i no pot solapar-se amb un altre tall. Si no, TakeoffDesk el rebutja: "Un tall ha d'estar totalment dins de l'àrea." o "Els talls no es poden solapar entre ells."
 
 Per treure'n l'últim forat, trieu {{ui:Elimina l'últim buit}}.
 
@@ -76,7 +76,7 @@ Un tall pertany a una sola marca d'àrea. Un **descompte** es dibuixa una vegada
 
 Cada marca d'àrea d'un element marcat del mateix full perd la part que cobreix un descompte: tot el descompte quan queda dins, només la part solapada quan creua la vora, i res dins d'un tall. El panell de l'àrea seleccionada mostra **Descomptes** i l'àrea que queda. La quantitat de l'element, les seves fórmules dels conjunts, els costos, la vista de comprovació 3D i l'exportació fan servir l'àrea que queda; les notes del pressupost indiquen quant han tret els descomptes. L'element de descompte en si mateix compta la seva pròpia àrea (deixeu-ne els costos a zero si no el valoreu).
 
-Un descompte ha de ser **convex**: un rectangle, un cercle o qualsevol contorn sense cantonada cap a dins. TakeoffCraft rebutja dibuixar-ne un que no ho sigui; dibuixeu un pou en forma de L com a dos descomptes. Els descomptes no poden tenir talls, i dos descomptes que es solapen entre ells compten tots dos.
+Un descompte ha de ser **convex**: un rectangle, un cercle o qualsevol contorn sense cantonada cap a dins. TakeoffDesk rebutja dibuixar-ne un que no ho sigui; dibuixeu un pou en forma de L com a dos descomptes. Els descomptes no poden tenir talls, i dos descomptes que es solapen entre ells compten tots dos.
 
 El perímetre (`P`) no canvia: els descomptes només treuen àrea.
 

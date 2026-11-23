@@ -5,14 +5,14 @@ keywords: ukubuyekezwa, obuyekeziwe, qhathanisa, ukubeka phezu, okudala, okusha,
 from: 3a1d9fe0
 ---
 
-Lapho ishidi likhishwa kabusha, akudingeki ulibale futhi. Vula i-PDF endala nensha, qhathanisa amashidi amabili, bese uhambisa ukubala amanani kubo. I-TakeoffCraft imaka yonke impawu lapho umdwebo ushintshile, ngakho uzihlola lezo bese ugcina ezinye.
+Lapho ishidi likhishwa kabusha, akudingeki ulibale futhi. Vula i-PDF endala nensha, qhathanisa amashidi amabili, bese uhambisa ukubala amanani kubo. I-TakeoffDesk imaka yonke impawu lapho umdwebo ushintshile, ngakho uzihlola lezo bese ugcina ezinye.
 
 ## Qhathanisa
 
 1. Vula ama-PDF amabili: isethi endala nebuyekeziwe ({{ui:Vula amapulani}}; kungaba kufayela elilodwa noma eminingi).
 2. Bonisa ishidi **elisha**.
 3. Khetha {{ui:Qhathanisa}} ebhalweni leshidi ngaphansi komdwebo.
-4. Khetha ishidi elidala ohlwini. I-TakeoffCraft iphakamisa ishidi elinenombolo efanayo kwenye PDF, noma ikhasi elifanayo. Khetha **Qhathanisa**.
+4. Khetha ishidi elidala ohlwini. I-TakeoffDesk iphakamisa ishidi elinenombolo efanayo kwenye PDF, noma ikhasi elifanayo. Khetha **Qhathanisa**.
 
 Umdwebo wakudala manje uphezu komusha ngobomvu. Lapho ezivumelana khona, imigqa ebomvu ihlala phezu kwemimnyama; lapho ehlukile, ubona imigqa ebomvu yodwa (esusiwe) nemimnyama yodwa (engeziwe). Ibha esezansi yeshidi ibamba izinyathelo ezingezansi; {{key:Esc}} noma {{ui:Vala}} kuyeka ukuqhathanisa.
 
@@ -29,7 +29,7 @@ Umdwebo obomvu uyahamba, uphendule futhi ulingane nowomnyama. Ibha yesimo itshel
 
 ## Thola okushintshile
 
-Khetha **Thola izinguquko**. I-TakeoffCraft iqhathanisa inki yemidwebo emibili: inki kuphela ephepheni elidala iba bomvu, inki kuphela eshidini elisha ibe bluu, futhi ibha yesimo iyabala. Imigqa ehambe ngokuncane (ukuphrinta kabusha) ayibaliwe njengezinguquko.
+Khetha **Thola izinguquko**. I-TakeoffDesk iqhathanisa inki yemidwebo emibili: inki kuphela ephepheni elidala iba bomvu, inki kuphela eshidini elisha ibe bluu, futhi ibha yesimo iyabala. Imigqa ehambe ngokuncane (ukuphrinta kabusha) ayibaliwe njengezinguquko.
 
 Iphinde ibheke yonke impawu eshidini elidala ibale leyo ebekwe lapho umdwebo ushintshile:
 
@@ -40,7 +40,7 @@ Iphinde ibheke yonke impawu eshidini elidala ibale leyo ebekwe lapho umdwebo ush
 
 Khetha **Hambisa ukubala lapha**. Yonke impawu eshidini elidala ihamba iye kwelisha, ngokudlula ekulingeni, esinyathelweni esisodwa sokuhlehlisa. Ezizenzeka eduze kokushintsha ziyamakwa: zidwetshwe nge-halo ewolintshi, futhi ibha yeshidi ibonisa "(n) ukuhlola".
 
-Uma ishidi elisha lalingenasikali, lithatha isikali seshidi elidala (silungiswe uma imidwebo kwadingeka ukuthi ilinganiswe). Uma sase linesikali esihlukile, i-TakeoffCraft iyabuza kuqala: izimpawu ezihanjisiwe zilinganiswa ngesikali seshidi elisha.
+Uma ishidi elisha lalingenasikali, lithatha isikali seshidi elidala (silungiswe uma imidwebo kwadingeka ukuthi ilinganiswe). Uma sase linesikali esihlukile, i-TakeoffDesk iyabuza kuqala: izimpawu ezihanjisiwe zilinganiswa ngesikali seshidi elisha.
 
 ## Hlola izimpawu ezimakiwe
 

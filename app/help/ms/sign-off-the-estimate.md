@@ -19,9 +19,9 @@ Dalam **Kuantiti › Mengikut item**, baris yang mempunyai kuantiti dan tiada ka
 2. Kotak dialog menyatakan jumlah yang anda sahkan dan menyenaraikan baris tanpa kadar. Taip nama anda dan, jika mahu, peranan anda.
 3. Klik **Sahkan**. Bar kini berbunyi "Disahkan oleh … pada …" dengan jumlahnya. Simpan pengukuran kuantiti untuk menyimpannya dalam fail.
 
-Pengesahan terikat dengan angka yang anda sahkan. Sebarang perubahan kemudian pada kuantiti, kadar atau baris akan membatalkannya, dan TakeoffCraft memberitahu anda. Buat asal membawa kembali anggaran yang anda sahkan, dan pengesahannya sekali. Menamakan semula baris bukan perubahan angka. **Alih keluar pengesahan** membuangnya.
+Pengesahan terikat dengan angka yang anda sahkan. Sebarang perubahan kemudian pada kuantiti, kadar atau baris akan membatalkannya, dan TakeoffDesk memberitahu anda. Buat asal membawa kembali anggaran yang anda sahkan, dan pengesahannya sekali. Menamakan semula baris bukan perubahan angka. **Alih keluar pengesahan** membuangnya.
 
-Fail pengukuran kuantiti yang disunting di luar TakeoffCraft selepas disahkan dibuka tanpa pengesahan, dengan nota yang menyatakannya. Anggaran yang dieksport (CSV dan XLSX) menyatakan pengesahan di bawah jumlah.
+Fail pengukuran kuantiti yang disunting di luar TakeoffDesk selepas disahkan dibuka tanpa pengesahan, dengan nota yang menyatakannya. Anggaran yang dieksport (CSV dan XLSX) menyatakan pengesahan di bawah jumlah.
 
 Hanya orang boleh mengesahkan. Pembantu AI boleh membaca sama ada anggaran telah disahkan dan kadar mana yang hilang; ia tidak mempunyai cara untuk mengesahkan.
 

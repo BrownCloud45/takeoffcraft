@@ -77,7 +77,7 @@ Una riga per ogni tavola che ha una scala o dei segni.
 | Tavola | Nome della tavola |
 | Scala | Il nome della preimpostazione, oppure la scala calibrata, oppure "Nessuna scala" |
 | Come | "Preimpostata", oppure "Calibrata su (la distanza digitata)" |
-| Piedi per unità PDF | Il fattore di scala esatto usato da TakeoffCraft |
+| Piedi per unità PDF | Il fattore di scala esatto usato da TakeoffDesk |
 
 ## Nomi dei file
 

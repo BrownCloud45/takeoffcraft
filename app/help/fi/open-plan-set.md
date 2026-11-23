@@ -5,7 +5,7 @@ keywords: avaa, piirustussarja, useita PDF-tiedostoja, useita tiedostoja, arkit,
 from: ed434468
 ---
 
-Piirustussarja on usein useita PDF-tiedostoja: arkkitehtuuri-, rakenne- ja LVI-piirustuksia. TakeoffCraft avaa ne rinnakkain yhtenä arkkilistana, ja yksi määrälaskenta voi kattaa kaikki.
+Piirustussarja on usein useita PDF-tiedostoja: arkkitehtuuri-, rakenne- ja LVI-piirustuksia. TakeoffDesk avaa ne rinnakkain yhtenä arkkilistana, ja yksi määrälaskenta voi kattaa kaikki.
 
 ## Avaa PDF-tiedostot
 
@@ -14,14 +14,14 @@ Piirustussarja on usein useita PDF-tiedostoja: arkkitehtuuri-, rakenne- ja LVI-p
 3. Valitse Avaa.
    Viesti ”Avataan (nimi)…” näkyy, kun kukin tiedosto luetaan. Sitten jokainen sivu ilmestyy kohtaan {{ui:Arkit}}, ja ensimmäisen uuden PDF:n ensimmäinen sivu avautuu.
 
-Voit myös vetää PDF-tiedostot kohteesta {{pick:mac=Finder|windows=Resurssienhallinta|linux=tiedostonhallinta}} ja pudottaa ne minne tahansa TakeoffCraftiin. Vetäessäsi ilmestyy kehys ”Pudota PDF-tiedostoja, DWG- tai DXF-piirustuksia tai .takeoff.json-tiedosto”.
+Voit myös vetää PDF-tiedostot kohteesta {{pick:mac=Finder|windows=Resurssienhallinta|linux=tiedostonhallinta}} ja pudottaa ne minne tahansa TakeoffDeskiin. Vetäessäsi ilmestyy kehys ”Pudota PDF-tiedostoja, DWG- tai DXF-piirustuksia tai .takeoff.json-tiedosto”.
 
 Lisätäksesi PDF-tiedostoja myöhemmin, toimi samoin uudelleen. Jo avoimet PDF-tiedostot ohitetaan.
 
 Aloitusnäytössä luetellaan myös äskettäin avaamasi PDF-tiedostot ja määrälaskennat selaimissa, jotka antavat sivun avata tiedoston uudelleen (Chrome ja Edge). Napsauta yhtä avataksesi sen; selain voi ensin pyytää lupaa. Katso [Tiedostosi](common:your-files).
 
 :::note
-Mitään ei lähetetä. Selain lukee PDF-tiedostot tietokoneeltasi, ja ne poistuvat TakeoffCraftista, kun suljet välilehden tai valitset {{ui:Uusi}}.
+Mitään ei lähetetä. Selain lukee PDF-tiedostot tietokoneeltasi, ja ne poistuvat TakeoffDeskista, kun suljet välilehden tai valitset {{ui:Uusi}}.
 :::
 
 ## Piirustukset PDF-tiedostojen rinnalla
@@ -30,7 +30,7 @@ Mitään ei lähetetä. Selain lukee PDF-tiedostot tietokoneeltasi, ja ne poistu
 
 ## PDF, joka on siirretty toisesta sovelluksesta
 
-Jokin muu sovellus tästä sarjasta voi luovuttaa sinulle avoinna olevan PDF:n: se avaa TakeoffCraftin uudessa välilehdessä, ja PDF avautuu siellä ikään kuin olisit pudottanut sen. Tilarivi kertoo ”Avattu (nimi), luovutettu sovelluksesta (sovellus). Alkuperäinen tiedosto on muuttumaton.” Mitään ei lähetetä; tiedosto kulkee tämän selaimen oman tallennuksen kautta ja poistuu siitä, kun se on avattu.
+Jokin muu sovellus tästä sarjasta voi luovuttaa sinulle avoinna olevan PDF:n: se avaa TakeoffDeskin uudessa välilehdessä, ja PDF avautuu siellä ikään kuin olisit pudottanut sen. Tilarivi kertoo ”Avattu (nimi), luovutettu sovelluksesta (sovellus). Alkuperäinen tiedosto on muuttumaton.” Mitään ei lähetetä; tiedosto kulkee tämän selaimen oman tallennuksen kautta ja poistuu siitä, kun se on avattu.
 
 Jos tilarivi sanoo, että PDF ”ei saapunut”, välilehti odotti liian kauan tai PDF oli jo avattu toisessa välilehdessä: avaa se valinnalla {{ui:Avaa piirustukset}}.
 

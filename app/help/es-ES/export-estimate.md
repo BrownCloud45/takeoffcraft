@@ -28,7 +28,7 @@ El libro tiene cuatro hojas, y los informes siguientes cuando corresponda:
 
 Con un [resumen de oferta](topic:bid-summary), la hoja Presupuesto termina además con sus márgenes (carga de mano de obra, impuesto de ventas, gastos generales, beneficio, fianza y oferta), como fórmulas activas.
 
-La hoja Presupuesto conserva **fórmulas activas**: cantidad con desperdicio, importes redondeados de material y mano de obra, total de cada fila y total de la obra. Las hojas de cálculo las recalculan, así que puede cambiar un precio o un desperdicio en la hoja y los totales se actualizan. Los números que calculó TakeoffCraft también se guardan en las celdas, y coinciden al céntimo.
+La hoja Presupuesto conserva **fórmulas activas**: cantidad con desperdicio, importes redondeados de material y mano de obra, total de cada fila y total de la obra. Las hojas de cálculo las recalculan, así que puede cambiar un precio o un desperdicio en la hoja y los totales se actualizan. Los números que calculó TakeoffDesk también se guardan en las celdas, y coinciden al céntimo.
 
 La columna de notas enumera la fórmula de cada componente, los errores de fórmula, las marcas en planos sin escala, el área de muro y el perímetro. Cuando algo queda fuera, la fila del total de la obra dice "Incompleto: vea las notas de arriba".
 
@@ -42,7 +42,7 @@ El CSV solo contiene el presupuesto; para las cantidades por plano y la lista de
 
 ## El presupuesto en Google Sheets
 
-Encima de la tabla de {{ui:Cantidades}}, **Copiar para Google Sheets** pone el presupuesto en el portapapeles como texto separado por tabulaciones, con las mismas líneas que el CSV. En una hoja de Google, haga clic en la celda A1 y pegue. TakeoffCraft no inicia sesión en Google y no envía nada allí.
+Encima de la tabla de {{ui:Cantidades}}, **Copiar para Google Sheets** pone el presupuesto en el portapapeles como texto separado por tabulaciones, con las mismas líneas que el CSV. En una hoja de Google, haga clic en la celda A1 y pegue. TakeoffDesk no inicia sesión en Google y no envía nada allí.
 
 ## Precios que faltan y aprobación
 

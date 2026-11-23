@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, strada, ferrovia, ponte, pavimentazione, cordolo
 from: 6b08c2c4
 ---
 
-Un file IFC 4.3 può contenere strade, ferrovie, ponti, opere marittime e le parti che li compongono: pavimentazioni, strati, cordoli, rotaie, movimenti di terra, appoggi, pali e altro. TakeoffCraft legge questi elementi e li trasforma in quantità tipizzate che si possono prezzare.
+Un file IFC 4.3 può contenere strade, ferrovie, ponti, opere marittime e le parti che li compongono: pavimentazioni, strati, cordoli, rotaie, movimenti di terra, appoggi, pali e altro. TakeoffDesk legge questi elementi e li trasforma in quantità tipizzate che si possono prezzare.
 
 ## Aprire il file
 
 1. Scegliere {{ui:Apri PDF}} nel gruppo {{ui:File}}, oppure premere {{key:Mod+O}}.
-2. Selezionare il file IFC (si può selezionare insieme ai PDF), oppure trascinarlo su TakeoffCraft.
+2. Selezionare il file IFC (si può selezionare insieme ai PDF), oppure trascinarlo su TakeoffDesk.
 
 Si crea una quantità tipizzata per ogni classe e tipo predefinito, per esempio "Pavimentazione (flessibile): conteggio", e, quando il file le dichiara, "lunghezza" in m, "area" in m² e "volume" in m³. La nota su ogni voce indica quanti elementi sono stati contati e quanti non dichiaravano alcuna quantità. Aprire un file più recente con lo stesso nome aggiorna queste quantità invece di aggiungerne altre.
 

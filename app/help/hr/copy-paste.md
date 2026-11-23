@@ -32,11 +32,11 @@ Zalijepljene oznake idu u područje ponude odabrano na vrhu panela {{ui:Stavke}}
 
 {{key:Mod+Shift+V}} ({{ui:Zalijepi na isto mjesto}}) stavlja kopiju na potpuno isto mjesto na otvorenom listu, prema njezinu položaju na stranici. Koristite to za tipičnu etažu: predmjerite 2. etažu, kopirajte, otvorite 3. etažu, zalijepite na isto mjesto.
 
-Lijepljenje na isto mjesto zahtijeva list **iste veličine** kao onaj s kojeg ste kopirali. Na listu druge veličine TakeoffCraft to kaže i ništa ne zalijepi; umjesto toga koristite {{ui:Zalijepi}} i kliknite. Na listu s kojeg ste kopirali, kopija se postavlja preko izvornika.
+Lijepljenje na isto mjesto zahtijeva list **iste veličine** kao onaj s kojeg ste kopirali. Na listu druge veličine TakeoffDesk to kaže i ništa ne zalijepi; umjesto toga koristite {{ui:Zalijepi}} i kliknite. Na listu s kojeg ste kopirali, kopija se postavlja preko izvornika.
 
 ## Mjerilo mora odgovarati
 
-Duljine i površine ovise o mjerilu lista. Dionica koja mjeri 10' pri 1/4" = 1'-0" na listu pri 1/8" = 1'-0" mjerila bi 20'. Zato TakeoffCraft lijepi dionice i površine samo na list s **istim mjerilom** kao list s kojeg dolaze i jasno kaže kad to nije slučaj:
+Duljine i površine ovise o mjerilu lista. Dionica koja mjeri 10' pri 1/4" = 1'-0" na listu pri 1/8" = 1'-0" mjerila bi 20'. Zato TakeoffDesk lijepi dionice i površine samo na list s **istim mjerilom** kao list s kojeg dolaze i jasno kaže kad to nije slučaj:
 
 - Otvoreni list još nema mjerilo: prvo mu ga dodijelite ([Postavljanje mjerila](topic:set-the-scale)), pa zalijepite.
 - Otvoreni list ima drugo mjerilo: poruka navodi oba mjerila. Lijepite na list istoga mjerila.
@@ -59,7 +59,7 @@ Uređivač stavke (pod **Stavke**) završava s:
 - {{ui:Dupliciraj stavku}}: odmah dodaje kopiju, nazvanu „(naziv) (kopija)“.
 
 :::tip
-Kopija ostaje na ovom računalu: čuva se u ovoj kartici i u pohrani preglednika, pa je druga kartica TakeoffCrafta može zalijepiti. Ništa se ne učitava, a sistemski međuspremnik se ne koristi, pa oznake ne možete lijepiti u druge programe.
+Kopija ostaje na ovom računalu: čuva se u ovoj kartici i u pohrani preglednika, pa je druga kartica TakeoffDeska može zalijepiti. Ništa se ne učitava, a sistemski međuspremnik se ne koristi, pa oznake ne možete lijepiti u druge programe.
 :::
 
 :::note

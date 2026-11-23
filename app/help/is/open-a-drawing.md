@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, teikning, opna teikningu, útlit, líkanrými, pappírs
 from: d8c3f504
 ---
 
-TakeoffCraft opnar DWG- eða DXF-teikningu eins og PDF-skjal: þú þarft ekki að prenta hana í PDF fyrst. Talning úr teikningunni sjálfri er nákvæm, því teikningin veit hvað hver hlutur er. Sjá [Telja úr teikningu](topic:count-from-a-drawing).
+TakeoffDesk opnar DWG- eða DXF-teikningu eins og PDF-skjal: þú þarft ekki að prenta hana í PDF fyrst. Talning úr teikningunni sjálfri er nákvæm, því teikningin veit hvað hver hlutur er. Sjá [Telja úr teikningu](topic:count-from-a-drawing).
 
 ## Opnaðu teikninguna
 
@@ -13,9 +13,9 @@ TakeoffCraft opnar DWG- eða DXF-teikningu eins og PDF-skjal: þú þarft ekki a
 2. Veldu DWG- eða DXF-skrána. Þú getur valið margar, og PDF-skjöl með þeim.
 3. Veldu Opna.
 
-Þú getur líka dregið teikningaskrár á TakeoffCraft, eins og PDF-skjöl. Ekkert er sent upp: vafrinn les skrána á tölvunni þinni.
+Þú getur líka dregið teikningaskrár á TakeoffDesk, eins og PDF-skjöl. Ekkert er sent upp: vafrinn les skrána á tölvunni þinni.
 
-TakeoffCraft les DWG frá AutoCAD 2000 til 2018 og ASCII DXF frá R12 til 2018. Það hafnar tvíundar-DXF (vistaðu sem ASCII, eða sem DWG) og skrá sem er hvorugt, og segir hvers vegna. Skemmd skrá opnast með því sem var hægt að lesa, og skilaboð segja það; talningar hennar geta verið ófullkomnar.
+TakeoffDesk les DWG frá AutoCAD 2000 til 2018 og ASCII DXF frá R12 til 2018. Það hafnar tvíundar-DXF (vistaðu sem ASCII, eða sem DWG) og skrá sem er hvorugt, og segir hvers vegna. Skemmd skrá opnast með því sem var hægt að lesa, og skilaboð segja það; talningar hennar geta verið ófullkomnar.
 
 ## Blöð
 
@@ -40,10 +40,10 @@ Blað byrjar með mælikvarðanum sem teikningin gefur:
 
 ## Tengdar teikningar (xref)
 
-Teikning sem tengir aðrar teikningar sýnir þær þar sem þær eru settar inn. TakeoffCraft finnur tengda teikningu meðal **opinna skráa**, eftir skráarnafni hennar: opnaðu hýsiteikninguna og tengdu teikninguna saman (eða hverja á eftir annarri). Þangað til segir stöðustikan hversu margar tengdar teikningar fundust ekki, og hvað þær eiga að teikna vantar; talningar segja það líka.
+Teikning sem tengir aðrar teikningar sýnir þær þar sem þær eru settar inn. TakeoffDesk finnur tengda teikningu meðal **opinna skráa**, eftir skráarnafni hennar: opnaðu hýsiteikninguna og tengdu teikninguna saman (eða hverja á eftir annarri). Þangað til segir stöðustikan hversu margar tengdar teikningar fundust ekki, og hvað þær eiga að teikna vantar; talningar segja það líka.
 
 ## Takmörk
 
-- Hlutir sem TakeoffCraft getur ekki lesið eða sett (umboðshlutir, óþekktir flokkar) eru taldir upp í talningarglugganum eftir gerð; þeim er aldrei sleppt án orðs.
+- Hlutir sem TakeoffDesk getur ekki lesið eða sett (umboðshlutir, óþekktir flokkar) eru taldir upp í talningarglugganum eftir gerð; þeim er aldrei sleppt án orðs.
 - Mjög stórar teikningar eru teiknaðar að hluta, og talningar stöðvast við hámark og segja það. Opnaðu PDF-útprentun slíkrar teikningar í staðinn.
 - Teikning er dregin í svörtu og í sínum eigin litum, dökkuðum fyrir hvítan pappír. Stíltöflur og pennaúthlutanir eru ekki notaðar.

@@ -1,11 +1,11 @@
 ---
 title: Hvad den har lært af dine mængdeudtrækk
-summary: TakeoffCraft gemmer de symboler, du har bekræftet med Auto-tælling, dine sæt af betingelser, de kalkulationsenheder du bruger mest og mønstre, du gentager på hver side, alt sammen i mængdeudtrækkets egen fil. Se det, brug det, slet det.
+summary: TakeoffDesk gemmer de symboler, du har bekræftet med Auto-tælling, dine sæt af betingelser, de kalkulationsenheder du bruger mest og mønstre, du gentager på hver side, alt sammen i mængdeudtrækkets egen fil. Se det, brug det, slet det.
 keywords: lær, lært, læring, assistent, husk, symboler, skabeloner, samme som sidste job, sidste job, sæt af betingelser, betingelser, genbrug, kalkulationsenheder, mest brugt, forslag, gentag på hver side, hver side, titelblok, mønster, ryd alt, glem, privatliv
 from: 54d99e99
 ---
 
-TakeoffCraft bliver hurtigere, jo flere mængdeudtrækk du laver med det. Det lærer **kun af det, du accepterer**:
+TakeoffDesk bliver hurtigere, jo flere mængdeudtrækk du laver med det. Det lærer **kun af det, du accepterer**:
 
 - de symboler, du har markeret med [Auto-tælling](topic:auto-count) og derefter tilføjet,
 - de sæt af betingelser, du gemmer,
@@ -64,6 +64,6 @@ For at stoppe med at lære i ét mængdeudtræk, fjern flueben i {{ui:Lær af de
 
 ## Godt at vide
 
-- Ældre versioner af TakeoffCraft åbner en fil med lærte ting normalt. De ignorerer den del og fjerner den, hvis de gemmer filen igen.
+- Ældre versioner af TakeoffDesk åbner en fil med lærte ting normalt. De ignorerer den del og fjerner den, hvis de gemmer filen igen.
 - Et lært symbol er et lille billede af det, du markerede, gemt i filen (nogle få kilobyte hver).
 - Lærte symboler søges, ligesom Auto-tælling søger, så de samme begrænsninger gælder: [Auto-tæl et symbol](topic:auto-count).

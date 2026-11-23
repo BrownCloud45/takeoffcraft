@@ -41,7 +41,7 @@ Kun huoneet on piirretty suljettuina seinina, {{ui:Room}} ({{key:B}}) ottaa latt
 2. Valitse {{ui:Room}} ryhmästä {{ui:Takeoff}} tai paina {{key:B}}.
 3. Napsauta huoneen sisällä, avoimella lattialla (ei viivan tai tekstin päällä).
 
-TakeoffCraft lukee arkin viivat, etsii napsautuksen ympäriltä tilan ja rajaa sen seinien sisäpintoja pitkin alueeksi nykyiselle nimikkeelle. Oviaukot, jotka ovat enintään **4'-0"** leveitä, käsitellään suljettuina, joten ääriviiva kulkee suoraan oviaukon yli. **Asetukset › TakeoffCraft › Huoneen täyttö sulkee aukot enintään** muuttaa tätä leveyttä (3'-0" – 8'-0"). Huoneen sisällä olevat nimet, huonekalut ja kalusteet eivät tee reikiä.
+TakeoffDesk lukee arkin viivat, etsii napsautuksen ympäriltä tilan ja rajaa sen seinien sisäpintoja pitkin alueeksi nykyiselle nimikkeelle. Oviaukot, jotka ovat enintään **4'-0"** leveitä, käsitellään suljettuina, joten ääriviiva kulkee suoraan oviaukon yli. **Asetukset › TakeoffDesk › Huoneen täyttö sulkee aukot enintään** muuttaa tätä leveyttä (3'-0" – 8'-0"). Huoneen sisällä olevat nimet, huonekalut ja kalusteet eivät tee reikiä.
 
 Täyttö kieltäytyy kertoen syyn, kun:
 
@@ -62,7 +62,7 @@ Kun ovi on asetusta leveämpi, täyttö jatkuu seuraavaan huoneeseen ja rajaa mo
 
 Pyöreää reikää varten valitse **Valittu merkintä** -kohdasta {{ui:Add a round cut-out}}, napsauta sen keskipistettä ja sitten reunapistettä.
 
-Aukon on oltava kokonaan alueen sisällä, eikä se saa mennä päällekkäin toisen aukon kanssa. Muuten TakeoffCraft hylkää sen: "A cut-out has to sit fully inside the area." on suomeksi "Aukon on oltava kokonaan alueen sisällä.", ja "Cut-outs cannot overlap each other." on suomeksi "Aukot eivät voi mennä päällekkäin."
+Aukon on oltava kokonaan alueen sisällä, eikä se saa mennä päällekkäin toisen aukon kanssa. Muuten TakeoffDesk hylkää sen: "A cut-out has to sit fully inside the area." on suomeksi "Aukon on oltava kokonaan alueen sisällä.", ja "Cut-outs cannot overlap each other." on suomeksi "Aukot eivät voi mennä päällekkäin."
 
 Poistaaksesi viimeisen reiän valitse {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ Aukko kuuluu yhteen pinta-alamerkintään. **Takaisinvähennys** piirretään ke
 
 Jokainen ruksatun nimikkeen pinta-alamerkintä samalla arkilla menettää sen osan, jonka takaisinvähennys peittää: kokonaan, kun se on sisällä, vain päällekkäisen osan, kun se ylittää reunan, eikä mitään aukon sisällä. Valitun alueen paneelissa näkyvät **Takaisinvähennykset** ja jäljelle jäävä pinta-ala. Nimikkeen määrä, sen yhdistelmien kaavat, kustannukset, 3D-tarkastusnäkymä ja vienti käyttävät jäljelle jäävää pinta-alaa; arvion huomautukset kertovat, kuinka paljon takaisinvähennykset vähensivät. Itse takaisinvähennysnimike laskee oman pinta-alansa (jätä sen kustannukset nollaan, jos et hinnoittele sitä).
 
-Takaisinvähennyksen on oltava **kupera**: suorakulmio, ympyrä tai ääriviiva ilman sisäänpäin menevää kulmaa. TakeoffCraft kieltäytyy piirtämästä muuta; piirrä L-muotoinen kuilu kahtena takaisinvähennyksenä. Takaisinvähennyksissä ei voi olla aukkoja, ja kaksi toisiaan osuvaa takaisinvähennystä lasketaan molemmat.
+Takaisinvähennyksen on oltava **kupera**: suorakulmio, ympyrä tai ääriviiva ilman sisäänpäin menevää kulmaa. TakeoffDesk kieltäytyy piirtämästä muuta; piirrä L-muotoinen kuilu kahtena takaisinvähennyksenä. Takaisinvähennyksissä ei voi olla aukkoja, ja kaksi toisiaan osuvaa takaisinvähennystä lasketaan molemmat.
 
 Piiri (`P`) ei muutu: takaisinvähennykset vähentävät vain pinta-alaa.
 

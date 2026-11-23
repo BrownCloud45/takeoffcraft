@@ -14,7 +14,7 @@ Loenduskirje loeb asju: uksi, valgusarmatuure, pistikupesi, sanitaartehnilisi se
 3. Klõpsa igal sümbolil lehel.
    Iga klõps paneb täpi kirje värviga ja kirje arv suureneb ühe võrra.
 4. Liigu järgmisele lehele ({{key:PageDown}}) ja jätka loendamist. Tööriist jääb {{ui:Loe}} peale.
-5. Vajuta {{key:Esc}}, kui oled valmis. TakeoffCraft läheb tagasi {{ui:Vali}} juurde.
+5. Vajuta {{key:Esc}}, kui oled valmis. TakeoffDesk läheb tagasi {{ui:Vali}} juurde.
 
 Lohistamine liigutab ja ratas suumib ka loendamise ajal, nii et saad liikuda ümber lehe ilma täppe lisamata.
 
@@ -30,7 +30,7 @@ Klõpsa loenduskirjel, et tõsta selle täpid esile igal lehel. Lehtede loend n�
 
 ## Täpi suurus ekraanil ja PDF-is
 
-Täpid säilitavad ekraanil ühe suuruse, olenemata sellest, kui palju suumid. Suuruse muutmiseks ava {{ui:Sätted}}, TakeoffCrafti vahekaart, ja vali **Loendusmärgi suurus**: Väga väike, Väike, Keskmine (vaikimisi) või Suur.
+Täpid säilitavad ekraanil ühe suuruse, olenemata sellest, kui palju suumid. Suuruse muutmiseks ava {{ui:Sätted}}, TakeoffDeski vahekaart, ja vali **Loendusmärgi suurus**: Väga väike, Väike, Keskmine (vaikimisi) või Suur.
 
 PDF-i eksport ({{ui:Eksport}} › märgitud PDF) joonistab iga täpi paberil ühesuurusena, olenemata lehe suurusest: vaataja, mis kuvab PDF-i 100%, näitab täpid samasuurustena nagu ekraanil. Kui lehe täpid muidu kattuksid, teeb eksport selle lehe täpid väiksemaks, et igaüks oleks loetav.
 

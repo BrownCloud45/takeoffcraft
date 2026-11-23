@@ -1,11 +1,11 @@
 ---
 title: Xalinta dhibaatooyinka
-summary: Calaamadaha, sababaha iyo xalalka fariimaha iyo wax-yeelada aad ku kulmi karto TakeoffCraft, oo loo xigtay sida app-ku u muujiyo.
+summary: Calaamadaha, sababaha iyo xalalka fariimaha iyo wax-yeelada aad ku kulmi karto TakeoffDesk, oo loo xigtay sida app-ku u muujiyo.
 keywords: dhibaatooyin, khaladaad, ma shaqeynayo, xal, caawimaad, diidmo, ma cabbiro, calaamado maqan, dhoofin fashil, khadka ka baxsan, taabasho
 from: cd319c9b
 ---
 
-TakeoffCraft wuxuu sharxaa inta badan diidmooyinka bar xaaladda ku taal hoosta daaqadda. Ka hel fariinta hoose.
+TakeoffDesk wuxuu sharxaa inta badan diidmooyinka bar xaaladda ku taal hoosta daaqadda. Ka hel fariinta hoose.
 
 ## Furidda faylalka
 
@@ -15,8 +15,8 @@ TakeoffCraft wuxuu sharxaa inta badan diidmooyinka bar xaaladda ku taal hoosta d
 | (magaca) waa ilaalin password. Fur nuqul aan ilaalin lahayn. | PDF-ku wuxuu u baahan yahay password si loo furo. | Weydii nuqul aan ilaalin lahayn, ama ka saar password-ka PDF program aad aaminto. |
 | (magaca) PDF looma akhrin karo (…) | Faylku waa jaban yahay ama ma aha PDF dhab ah. | Mar kale soo deji, ama dib u kaydi programka uu sameeyay. |
 | (magaca) horey ayuu u furan yahay. | Isla PDF-ka (isla waxa ku jira) ayaa furan. | Wax la sameeyo ma jiro. |
-| TakeoffCraft wuxuu furaa PDF-yada iyo mashruucyada .takeoff.json. Laga tegay: … | Noocyada kale ee faylasha waa la tuuray. | Marka hore naqshadaha u beddel PDF. |
-| Wax ma dhacaan markaan faylasha dhigo | Faylasha waxaa lagu dhigay meel ka baxsan daaqadda browser-ka, ama browser-ku wuxuu PDF-ka ku furay tab cusub. | Ku dhig bogga TakeoffCraft laftiisa; qaabka "Dhig PDF-yada ama .takeoff.json" ayaa muujinaya marka uu shaqeyn doono. |
+| TakeoffDesk wuxuu furaa PDF-yada iyo mashruucyada .takeoff.json. Laga tegay: … | Noocyada kale ee faylasha waa la tuuray. | Marka hore naqshadaha u beddel PDF. |
+| Wax ma dhacaan markaan faylasha dhigo | Faylasha waxaa lagu dhigay meel ka baxsan daaqadda browser-ka, ama browser-ku wuxuu PDF-ka ku furay tab cusub. | Ku dhig bogga TakeoffDesk laftiisa; qaabka "Dhig PDF-yada ama .takeoff.json" ayaa muujinaya marka uu shaqeyn doono. |
 | Furidda set weyn waxay qaadataa wakhti | PDF kasta waa la akhriyaa oo dhan si loo aqoonsado. | Sug fariinta "Furaya (magaca)…" inay dhammaato. Sawirrada yar-yar waxay buuxmaan markaad hoos u dhaadhacayso. |
 
 ## Cabbirka
@@ -47,7 +47,7 @@ TakeoffCraft wuxuu sharxaa inta badan diidmooyinka bar xaaladda ku taal hoosta d
 | Fariin ama wax-yeel | Sabab | Xal |
 |---|---|---|
 | Dhibco u fogee ka dib labo. | Dhibcaha hagaajinta aad bay u dhowyihiin. | Hagaaji masaafo dheer. |
-| Fariin ku jirta sanduuqa hagaajinta, sida "Masaafadaas lama akhriyi karo" | Masaafada waxay ku qoran tahay qaab TakeoffCraft aan akhriyi karin. | Eeg [Gelinta dherer, qiime iyo boqolleyda](topic:entry-formats). |
+| Fariin ku jirta sanduuqa hagaajinta, sida "Masaafadaas lama akhriyi karo" | Masaafada waxay ku qoran tahay qaab TakeoffDesk aan akhriyi karin. | Eeg [Gelinta dherer, qiime iyo boqolleyda](topic:entry-formats). |
 | Xaashigan weli miisaan ma lahan, mana hubin karo. Hagaaji, ama dooro diyaar. | {{ui:Hubi}} xaashi aan miisaan lahayn. | Marka hore dejin miisaan. |
 | Liiska {{ui:Diyaar}} waa madow | Xaashi ma furna. | Fur PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft wuxuu sharxaa inta badan diidmooyinka bar xaaladda ku taal hoosta d
 | PDF-kaan waa ilaalin password ama sir, sidaas darteed nuqul calaamadsan lama qori karo. … | PDF-ku waa la sirtay. | Dhoofi {{ui:XLSX}} halkiisa, ama isticmaal nuqul PDF ah oo aan la sirin (markaas waxay u baahan tahay xisaabin gaar ah, sababtoo ah waa fayl kale). |
 | PDF calaamadsan looma qori karo: … | Badanaa: khadka ka baxsan, app-ka lama kaydin khadka ka baxsan, sidaas darteed qoraaga PDF-ka waa maqan yahay. | Online ahow oo mar kale dooro {{ui:PDF calaamadsan}}. Si aad uga fogaato, dooro {{ui:Kaydi khadka ka baxsan}} oo sug {{ui:Khadka ka baxsan diyaar}}. |
 | Hal PDF calaamadsan ayaa la soo dejiyay | Browser-ku wuxuu xannibay dhowr soo dejin oo isku mar ah. | Ogolow soo dejin badan website-kan, kadibna mar kale dhoofi. |
-| (faylka) ma aha mashruuc TakeoffCraft (ma aha JSON sax ah). / Tani ma aha fayl mashruuca TakeoffCraft. | Fayl qaldan, ama mid jaban. | Dooro faylka `.takeoff.json`. |
-| Mashruucan waxaa kaydiyay TakeoffCraft cusub. Halkaas ka fur. | Faylku wuxuu ka yimid dhismo cusub. | Ku fur dhismaha cusub. |
+| (faylka) ma aha mashruuc TakeoffDesk (ma aha JSON sax ah). / Tani ma aha fayl mashruuca TakeoffDesk. | Fayl qaldan, ama mid jaban. | Dooro faylka `.takeoff.json`. |
+| Mashruucan waxaa kaydiyay TakeoffDesk cusub. Halkaas ka fur. | Faylku wuxuu ka yimid dhismo cusub. | Ku fur dhismaha cusub. |
 | (n) calaamado waa jabeen oo laga tegay. | Qayb ka mid ah faylka waa jabay, ama gacanta ayaa lagu wax ka beddelay. | Qaybta kale waa furmay. Calaamadaha maqan dib u sawir, ama fur nuqul hore. |
 | Calaamado maqan ka dib markii dib loo furay | PDF-yada ma furna, ama mid ka mid ah ayaa isbeddelay. | Eeg [Kaydi oo dib u fur xisaabinta](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Browser-ku wuxuu weyddiinayaa "Ka tag bogga?" | Waxaa jira isbeddello aan la kaydin. | Joog, oo kaydi {{key:Mod+S}}. |

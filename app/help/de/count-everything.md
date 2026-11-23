@@ -1,6 +1,6 @@
 ---
 title: Alles im Planset zählen
-summary: Eine Symbollegende einmal umrahmen, dann zählt TakeoffCraft jedes Symbol darin auf jedem offenen Blatt in einem Lauf. Jede Zählung ist ein Link zu ihrem Blatt, und Sie prüfen, bevor etwas hinzugefügt wird.
+summary: Eine Symbollegende einmal umrahmen, dann zählt TakeoffDesk jedes Symbol darin auf jedem offenen Blatt in einem Lauf. Jede Zählung ist ein Link zu ihrem Blatt, und Sie prüfen, bevor etwas hinzugefügt wird.
 keywords: alles zählen, Legende, Symbollegende, ganzes Planset, jedes Blatt, alle Blätter, jede Tür, jede Einrichtung, Geräte, Zeitplan, Symbole, Auto-Zählen, alles zählen, Satz von Plänen, 200 Blätter, Trefferstufe, ähnlich aussehend
 from: adc99744
 ---

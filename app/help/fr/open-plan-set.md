@@ -5,7 +5,7 @@ keywords: ouvrir, jeu de plans, plusieurs pdf, fichiers multiples, feuilles, des
 from: ed434468
 ---
 
-Un jeu de plans compte souvent plusieurs PDF : architecture, structure, mécanique. TakeoffCraft les ouvre côte à côte comme une seule liste de feuilles, et un même métré peut couvrir tous les fichiers.
+Un jeu de plans compte souvent plusieurs PDF : architecture, structure, mécanique. TakeoffDesk les ouvre côte à côte comme une seule liste de feuilles, et un même métré peut couvrir tous les fichiers.
 
 ## Ouvrir les PDF
 
@@ -14,14 +14,14 @@ Un jeu de plans compte souvent plusieurs PDF : architecture, structure, mécaniq
 3. Choisissez Ouvrir.
    Un message « Ouverture de (nom)… » s'affiche pendant la lecture de chaque fichier. Ensuite, chaque page apparaît sous {{ui:Feuilles}}, et la première page du premier nouveau PDF s'ouvre.
 
-Vous pouvez aussi faire glisser les PDF depuis {{pick:mac=Finder|windows=Explorateur de fichiers|linux=votre gestionnaire de fichiers}} et les déposer n'importe où sur TakeoffCraft. Un cadre « Déposez des PDF, des dessins DWG ou DXF, ou un .takeoff.json » apparaît pendant le glissement.
+Vous pouvez aussi faire glisser les PDF depuis {{pick:mac=Finder|windows=Explorateur de fichiers|linux=votre gestionnaire de fichiers}} et les déposer n'importe où sur TakeoffDesk. Un cadre « Déposez des PDF, des dessins DWG ou DXF, ou un .takeoff.json » apparaît pendant le glissement.
 
 Pour ajouter d'autres PDF plus tard, refaites la même chose. Les PDF déjà ouverts sont ignorés.
 
 L'écran d'accueil liste aussi les PDF et les métrés ouverts récemment, dans les navigateurs qui permettent à une page de rouvrir un fichier (Chrome et Edge). Cliquez sur l'un d'eux pour l'ouvrir ; le navigateur peut demander une autorisation au préalable. Voir [Vos fichiers](common:your-files).
 
 :::note
-Rien n'est envoyé. Le navigateur lit les PDF sur votre ordinateur, et ils disparaissent de TakeoffCraft lorsque vous fermez l'onglet ou choisissez {{ui:Nouvelle}}.
+Rien n'est envoyé. Le navigateur lit les PDF sur votre ordinateur, et ils disparaissent de TakeoffDesk lorsque vous fermez l'onglet ou choisissez {{ui:Nouvelle}}.
 :::
 
 ## Dessins avec des PDF
@@ -30,7 +30,7 @@ Rien n'est envoyé. Le navigateur lit les PDF sur votre ordinateur, et ils dispa
 
 ## Un PDF transmis par une autre application
 
-Une autre application de la gamme peut vous transmettre le PDF qu'elle a ouvert : elle ouvre TakeoffCraft dans un nouvel onglet, et le PDF s'ouvre comme si vous l'aviez déposé. La barre d'état affiche « Ouvert (nom), transmis depuis (application). Le fichier d'origine est inchangé. » Rien n'est envoyé ; le fichier passe par le stockage propre à ce navigateur et disparaît dès qu'il est ouvert.
+Une autre application de la gamme peut vous transmettre le PDF qu'elle a ouvert : elle ouvre TakeoffDesk dans un nouvel onglet, et le PDF s'ouvre comme si vous l'aviez déposé. La barre d'état affiche « Ouvert (nom), transmis depuis (application). Le fichier d'origine est inchangé. » Rien n'est envoyé ; le fichier passe par le stockage propre à ce navigateur et disparaît dès qu'il est ouvert.
 
 Si la barre d'état indique que le PDF « n'est pas arrivé », l'onglet a attendu trop longtemps, ou le PDF était déjà ouvert dans un autre onglet : ouvrez-le avec {{ui:Ouvrir des PDF}}.
 

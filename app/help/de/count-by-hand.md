@@ -14,7 +14,7 @@ Eine Zählposition zählt Dinge: Türen, Leuchten, Steckdosen, Sanitäreinrichtu
 3. Klicken Sie auf jedes Teil auf dem Blatt.
    Jeder Klick setzt einen Punkt in der Farbe der Position, und die Zählung der Position steigt um eins.
 4. Wechseln Sie mit {{key:PageDown}} zum nächsten Blatt und zählen Sie weiter. Das Werkzeug bleibt auf {{ui:Zählen}}.
-5. Drücken Sie {{key:Esc}}, wenn Sie fertig sind. TakeoffCraft kehrt zu {{ui:Auswählen}} zurück.
+5. Drücken Sie {{key:Esc}}, wenn Sie fertig sind. TakeoffDesk kehrt zu {{ui:Auswählen}} zurück.
 
 Ziehen verschiebt weiterhin den Ausschnitt, und das Mausrad zoomt auch während des Zählens. So können Sie sich auf dem Blatt bewegen, ohne Punkte zu setzen.
 
@@ -30,7 +30,7 @@ Klicken Sie auf die Zählposition, um ihre Punkte auf jedem Blatt hervorzuheben.
 
 ## Punktgröße, auf dem Bildschirm und im PDF
 
-Die Punkte behalten auf dem Bildschirm unabhängig vom Zoom dieselbe Größe. Zum Ändern öffnen Sie {{ui:Einstellungen}}, den Tab TakeoffCraft, und wählen Sie **Größe der Zählmarkierung**: Extra klein, Klein, Mittel (Standard) oder Groß.
+Die Punkte behalten auf dem Bildschirm unabhängig vom Zoom dieselbe Größe. Zum Ändern öffnen Sie {{ui:Einstellungen}}, den Tab TakeoffDesk, und wählen Sie **Größe der Zählmarkierung**: Extra klein, Klein, Mittel (Standard) oder Groß.
 
 Der PDF-Export ({{ui:Export}} › das markierte PDF) zeichnet jeden Punkt auf Papier in derselben Größe, unabhängig von der Blattgröße: Ein Viewer, der die PDF mit 100 % zeigt, stellt die Punkte so groß dar, wie sie auf dem Bildschirm sind. Würden sich die Punkte auf einem Blatt sonst berühren, macht der Export die Punkte dieses Blattes kleiner, damit jeder lesbar bleibt.
 

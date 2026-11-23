@@ -7,7 +7,7 @@ from: e0f4930d
 
 ## Lo que hará
 
-Cambie cómo muestra TakeoffCraft las longitudes, para que una obra métrica se lea en metros, centímetros o milímetros en la hoja, en la barra de estado y en los paneles.
+Cambie cómo muestra TakeoffDesk las longitudes, para que una obra métrica se lea en metros, centímetros o milímetros en la hoja, en la barra de estado y en los paneles.
 
 ## Pasos
 

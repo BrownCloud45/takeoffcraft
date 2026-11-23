@@ -6,7 +6,7 @@ order: 102
 keywords: bid leveling, leveling, bid package, subcontractor, sub bid, scope, plug, trade, csi division, compare bids, low bid, bid tab, bidder, award, chosen bid, use a bid, subcontract price
 ---
 
-A general contractor sends each trade's scope to subcontractors and compares what comes back. TakeoffCraft does both from the takeoff: open {{ui:Export}} › {{ui:Bid packages and leveling…}}.
+A general contractor sends each trade's scope to subcontractors and compares what comes back. TakeoffDesk does both from the takeoff: open {{ui:Export}} › {{ui:Bid packages and leveling…}}.
 
 ## Packages
 
@@ -40,10 +40,3 @@ In the bid summary the sub bids are one line inside the cost: overhead, profit a
 
 A package inside an alternate's bid area is not repriced: alternates and bid-area subtotals still use your own prices.
 
-## Bids that come back by email
-
-You do not have to type the bids in. {{ui:Send for bids…}} under a package emails each subcontractor a link to a page where they type a price for every line; {{ui:Get prices}} pulls what they sent into this table. See [Send a package for bids](topic:bid-invitations).
-
-:::note
-Typing a bid in by hand still works, and a hand-typed bid and one from the site sit side by side. Bids that came back from the site are flagged **web** (or **web, late** when they arrived after the due time); their price changes only when the bidder sends a new version, so your own edits to it stay until then.
-:::

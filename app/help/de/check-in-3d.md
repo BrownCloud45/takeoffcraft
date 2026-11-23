@@ -46,7 +46,7 @@ Die Zahlen ändern sich in 3D nicht: Die Fläche einer Wand ist ihre exakte Län
 | {{ui:Blatt}} | Den Plan auf dem Boden ein- oder ausblenden. |
 | Der Ansichtswürfel oben rechts | Klicken Sie auf eine Fläche, Kante oder Ecke, um von dort zu sehen; ziehen Sie ihn, um zu kreisen; ziehen Sie seinen Kompassring, um zu drehen; die Hausschaltfläche führt zurück zu {{ui:Iso}}. |
 
-In der Ecke erscheint ein Ansichtswürfel, ein kleines Achsensymbol X, Y, Z oder nichts. Wählen Sie das unter {{ui:Einstellungen}} auf der Registerkarte TakeoffCraft unter **Eckanzeige** ([TakeoffCraft-Einstellungen](topic:settings)). Das flache Blatt hat keine Eckanzeige.
+In der Ecke erscheint ein Ansichtswürfel, ein kleines Achsensymbol X, Y, Z oder nichts. Wählen Sie das unter {{ui:Einstellungen}} auf der Registerkarte TakeoffDesk unter **Eckanzeige** ([TakeoffDesk-Einstellungen](topic:settings)). Das flache Blatt hat keine Eckanzeige.
 
 :::touch
 Ein Finger kreist; zwei Finger zoomen mit einer Pinch-Geste und verschieben (Pan). Ein Tippen wählt aus.

@@ -46,7 +46,7 @@ Angka tidak berubah dalam 3D: luas dinding ialah panjang tepatnya didarab keting
 | {{ui:Sheet}} | Tunjuk atau sembunyikan lukisan di atas tanah. |
 | ViewCube, kanan atas | Klik muka, tepi atau bucu untuk melihat dari situ; seret untuk orbit; seret gelang kompasnya untuk memusing; butang rumah kembali ke {{ui:Iso}}. |
 
-Sudut menunjukkan ViewCube, ikon paksi X, Y, Z kecil, atau tiada: pilih dalam {{ui:Settings}}, pada tab TakeoffCraft, di bawah **Penunjuk sudut** ([Tetapan TakeoffCraft](topic:settings)). Helaian rata tiada penunjuk sudut.
+Sudut menunjukkan ViewCube, ikon paksi X, Y, Z kecil, atau tiada: pilih dalam {{ui:Settings}}, pada tab TakeoffDesk, di bawah **Penunjuk sudut** ([Tetapan TakeoffDesk](topic:settings)). Helaian rata tiada penunjuk sudut.
 
 :::touch
 Satu jari untuk orbit; dua jari cubit untuk zum dan gerak untuk pan. Ketik untuk memilih.

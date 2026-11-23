@@ -1,11 +1,11 @@
 ---
 title: Ką išmoko iš jūsų kiekių skaičiavimų
-summary: TakeoffCraft saugo simbolius, kuriuos patvirtinote naudodami Automatinį skaičiavimą, jūsų sąlygų rinkinius, dažniausiai naudojamus surinkimus ir šablonus, kuriuos kartojate kiekviename puslapyje, visa tai kiekių skaičiavimo failo viduje. Peržiūrėkite, naudokite, ištrinkite.
+summary: TakeoffDesk saugo simbolius, kuriuos patvirtinote naudodami Automatinį skaičiavimą, jūsų sąlygų rinkinius, dažniausiai naudojamus surinkimus ir šablonus, kuriuos kartojate kiekviename puslapyje, visa tai kiekių skaičiavimo failo viduje. Peržiūrėkite, naudokite, ištrinkite.
 keywords: mokytis, išmokta, mokymasis, asistentas, prisiminti, simboliai, šablonai, tas pats kaip paskutinis darbas, paskutinis darbas, sąlygų rinkinys, sąlygos, pakartotinis naudojimas, surinkimai, dažniausiai naudojami, pasiūlymai, kartoti kiekviename puslapyje, kiekviename puslapyje, antraštės blokas, šablonas, išvalyti viską, pamiršti, privatumas
 from: 54d99e99
 ---
 
-TakeoffCraft tampa greitesnis, kuo daugiau kiekių skaičiavimų atliekate su juo. Jis mokosi **tik iš to, ką priimate**:
+TakeoffDesk tampa greitesnis, kuo daugiau kiekių skaičiavimų atliekate su juo. Jis mokosi **tik iš to, ką priimate**:
 
 - simbolių, kuriuos apibrėžėte rėmeliu naudodami [Automatinis skaičiavimas](topic:auto-count) ir vėliau pridėjote,
 - sąlygų rinkinių, kuriuos išsaugote,
@@ -64,6 +64,6 @@ Norėdami nustoti mokytis viename kiekių skaičiavime, išjunkite {{ui:Mokytis 
 
 ## Verta žinoti
 
-- Senesnės TakeoffCraft versijos atidaro failą su išmoktais dalykais įprastai. Jos ignoruoja tą dalį ir ją pašalina, jei failą vėl įrašo.
+- Senesnės TakeoffDesk versijos atidaro failą su išmoktais dalykais įprastai. Jos ignoruoja tą dalį ir ją pašalina, jei failą vėl įrašo.
 - Išmoktas simbolis – nedidelis jūsų apibrėžto dalyko paveikslėlis, saugomas faile (keli kilobaitai kiekvienas).
 - Išmoktus simbolius ieško taip pat kaip Automatinis skaičiavimas, todėl galioja tie patys apribojimai: [Simbolio automatinis skaičiavimas](topic:auto-count).

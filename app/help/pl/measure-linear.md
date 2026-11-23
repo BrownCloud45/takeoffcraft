@@ -30,7 +30,7 @@ Podczas rysowania:
 - Przeciąganie przesuwa arkusz, a kółko powiększa, bez dodawania punktów.
 
 :::mac
-Na gładziku Mac kliknięcie prawym to kliknięcie dwoma palcami (włącz kliknięcie wtórne w Ustawieniach systemowych, w sekcji Gładzik). TakeoffCraft odczytuje tylko przycisk wtórny, więc kliknięcie z Control może zostać potraktowane jak zwykłe kliknięcie i dodać punkt. Podwójne kliknięcie albo {{key:Enter}} zawsze kończą.
+Na gładziku Mac kliknięcie prawym to kliknięcie dwoma palcami (włącz kliknięcie wtórne w Ustawieniach systemowych, w sekcji Gładzik). TakeoffDesk odczytuje tylko przycisk wtórny, więc kliknięcie z Control może zostać potraktowane jak zwykłe kliknięcie i dodać punkt. Podwójne kliknięcie albo {{key:Enter}} zawsze kończą.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Po pierwszym punkcie możesz wpisać, gdzie ma trafić następny, zamiast klika�
 | `@6',-4'` | 6' w prawo i 4' w dół od ostatniego punktu |
 | `6',4'` (lub `#6',4'`) | 6' w prawo i 4' w górę od pierwszego punktu tego ciągu |
 
-Długości wpisuje się tak jak wszędzie w TakeoffCraft ([Formaty wpisów](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stopy), `30"`, `3.2 m`. „W prawo” i „w górę” są takie, jak widzisz arkusz, także gdy strona PDF jest obrócona.
+Długości wpisuje się tak jak wszędzie w TakeoffDesk ([Formaty wpisów](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stopy), `30"`, `3.2 m`. „W prawo” i „w górę” są takie, jak widzisz arkusz, także gdy strona PDF jest obrócona.
 
 {{key:Enter}} na pustym polu kończy ciąg, tak jak {{key:Enter}} na arkuszu; {{key:Esc}} zamyka pole i zostawia ciąg w toku. Wpisane punkty przechodzą przez te same reguły co kliknięcia: odliczenia, łuki i zamykanie pola działają. To samo pole działa w {{ui:Pole}} i {{ui:Wycięcie}}; po środku okręgu przyjmuje promień.
 

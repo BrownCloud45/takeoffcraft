@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * ui-util.js — small DOM helpers for the TakeoffCraft UI (this app's own copy; an app's build
+ * ui-util.js — small DOM helpers for the TakeoffDesk UI (this app's own copy; an app's build
  * never imports another app's folder). el() is the only way file-derived text reaches the
  * page: children are appended as text nodes, never parsed as HTML. A PDF is untrusted input.
  */

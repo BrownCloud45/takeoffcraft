@@ -19,9 +19,9 @@ En **Cantidades › Por partida**, una línea que tiene una cantidad y no una ta
 2. El diálogo indica el total que firma y enumera las líneas sin tarifa. Escriba su nombre y, si quiere, su cargo.
 3. Haga clic en **Firmar**. La barra indica ahora "Firmado por … el …" con el total. Guarde la medición para conservarlo en el archivo.
 
-La firma corresponde a las cifras que firmó. Cualquier cambio posterior en una cantidad, una tarifa o una línea la anula, y TakeoffCraft se lo indica. Deshacer devuelve el presupuesto que firmó, y su firma con él. Cambiar el nombre de una línea no es un cambio de cifra. **Quitar la firma** la elimina.
+La firma corresponde a las cifras que firmó. Cualquier cambio posterior en una cantidad, una tarifa o una línea la anula, y TakeoffDesk se lo indica. Deshacer devuelve el presupuesto que firmó, y su firma con él. Cambiar el nombre de una línea no es un cambio de cifra. **Quitar la firma** la elimina.
 
-Un archivo de medición que se editó fuera de TakeoffCraft después de firmarlo se abre sin la firma, con una nota que lo indica. El presupuesto exportado (CSV y XLSX) menciona la firma bajo los totales.
+Un archivo de medición que se editó fuera de TakeoffDesk después de firmarlo se abre sin la firma, con una nota que lo indica. El presupuesto exportado (CSV y XLSX) menciona la firma bajo los totales.
 
 Solo una persona firma. Un asistente de IA puede leer si el presupuesto está firmado y qué tarifas faltan; no tiene forma de firmar.
 

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Shranite trenutno predizmero, če jo želite ohraniti: {{ui:Shrani predizmere}} ali {{key:Mod+S}}.
 2. Izberite {{ui:Novo}} v skupini {{ui:Datoteka}}.
-3. Če obstajajo neshranjene spremembe, TakeoffCraft vpraša **Neshranjena predizmera**: izberite {{ui:Najprej shrani predizmere}} (prenese projekt in nato počisti), {{ui:Zavrzi spremembe}} ali {{ui:Prekliči}}.
+3. Če obstajajo neshranjene spremembe, TakeoffDesk vpraša **Neshranjena predizmera**: izberite {{ui:Najprej shrani predizmere}} (prenese projekt in nato počisti), {{ui:Zavrzi spremembe}} ali {{ui:Prekliči}}.
    Okno se vrne v prazno stanje: brez PDF-jev, postavk, oznak in meril. Vrstica stanja pravi: „Nova predizmera. Odprite PDF-je, da začnete.“
 
 Počisti se naslednje:

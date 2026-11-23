@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, jalan, landasan kereta api, jambatan, turapan, k
 from: 6b08c2c4
 ---
 
-Fail IFC 4.3 boleh memuatkan jalan, landasan kereta api, jambatan, kerja marin dan bahagian yang membentuknya: turapan, lapisan, kerb, rel, kerja tanah, galas, cerucuk dan banyak lagi. TakeoffCraft membacanya dan menukarkannya kepada kuantiti ditaip yang boleh anda harga.
+Fail IFC 4.3 boleh memuatkan jalan, landasan kereta api, jambatan, kerja marin dan bahagian yang membentuknya: turapan, lapisan, kerb, rel, kerja tanah, galas, cerucuk dan banyak lagi. TakeoffDesk membacanya dan menukarkannya kepada kuantiti ditaip yang boleh anda harga.
 
 ## Buka fail
 
 1. Pilih {{ui:Buka pelan}} dalam kumpulan {{ui:Fail}}, atau tekan {{key:Mod+O}}.
-2. Pilih fail IFC (anda boleh memilihnya bersama PDF), atau lepaskannya pada TakeoffCraft.
+2. Pilih fail IFC (anda boleh memilihnya bersama PDF), atau lepaskannya pada TakeoffDesk.
 
 Satu kuantiti ditaip dibuat untuk setiap kelas dan jenis yang telah ditetapkan, contohnya "Turapan (fleksibel): kiraan", dan, apabila fail menyatakannya, "panjang" dalam m, "luas" dalam m² dan "isipadu" dalam m³. Nota pada setiap item menyatakan berapa elemen dikira dan berapa yang tidak menyatakan kuantiti. Membuka fail yang lebih baharu dengan nama yang sama mengemas kini kuantiti tersebut dan tidak menambah lagi.
 

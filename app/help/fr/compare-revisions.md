@@ -5,14 +5,14 @@ keywords: révision, révisé, comparer, superposition, ancien, nouveau, modific
 from: 3a1d9fe0
 ---
 
-Lorsqu'une feuille est réémise, vous n'avez pas à refaire le métré. Ouvrez l'ancien PDF et le nouveau, comparez les deux feuilles et reportez le métré. TakeoffCraft signale chaque repère dont le dessin a changé : vous vérifiez ceux-là et conservez les autres.
+Lorsqu'une feuille est réémise, vous n'avez pas à refaire le métré. Ouvrez l'ancien PDF et le nouveau, comparez les deux feuilles et reportez le métré. TakeoffDesk signale chaque repère dont le dessin a changé : vous vérifiez ceux-là et conservez les autres.
 
 ## Comparer
 
 1. Ouvrez les deux PDF : l'ancien jeu et le jeu révisé ({{ui:Ouvrir des PDF}} ; ils peuvent être dans un seul fichier ou dans plusieurs).
 2. Affichez la feuille **nouvelle**.
 3. Choisissez {{ui:Comparer}} dans la barre de feuille, sous le dessin.
-4. Choisissez l'ancienne feuille dans la liste. TakeoffCraft propose la feuille portant le même numéro dans l'autre PDF, ou la même page. Choisissez **Comparer**.
+4. Choisissez l'ancienne feuille dans la liste. TakeoffDesk propose la feuille portant le même numéro dans l'autre PDF, ou la même page. Choisissez **Comparer**.
 
 L'ancien dessin se superpose maintenant au nouveau, en rouge. Là où les deux concordent, les traits rouges se placent sur les noirs ; là où ils diffèrent, vous voyez des traits rouges seuls (supprimés) et des traits noirs seuls (ajoutés). Une barre en bas de la feuille regroupe les étapes ci-dessous ; {{key:Esc}} ou {{ui:Fermer}} termine la comparaison.
 
@@ -29,7 +29,7 @@ Le dessin rouge se déplace, pivote et se met à l'échelle sur le noir. La barr
 
 ## Rechercher les modifications
 
-Choisissez **Rechercher les modifications**. TakeoffCraft compare le tracé des deux dessins : ce qui n'existe que sur l'ancienne feuille passe en rouge, ce qui n'existe que sur la nouvelle passe en bleu, et la barre d'état les compte. Les traits décalés de très peu (un retracé) ne sont pas comptés comme modifications.
+Choisissez **Rechercher les modifications**. TakeoffDesk compare le tracé des deux dessins : ce qui n'existe que sur l'ancienne feuille passe en rouge, ce qui n'existe que sur la nouvelle passe en bleu, et la barre d'état les compte. Les traits décalés de très peu (un retracé) ne sont pas comptés comme modifications.
 
 Il examine aussi chaque repère de l'ancienne feuille et compte ceux qui se trouvent là où le dessin a changé :
 
@@ -40,7 +40,7 @@ Il examine aussi chaque repère de l'ancienne feuille et compte ceux qui se trou
 
 Choisissez **Déplacer le métré ici**. Chaque repère de l'ancienne feuille est reporté sur la nouvelle, via l'alignement, en une seule étape d'annulation. Ceux situés à côté d'une modification sont signalés : ils sont dessinés avec un halo orange, et la barre de feuille affiche « (n) à vérifier ».
 
-Si la nouvelle feuille n'avait pas d'échelle, elle prend celle de l'ancienne feuille (ajustée si les dessins ont dû être mis à l'échelle pour s'aligner). Si elle en avait déjà une autre, TakeoffCraft le demande d'abord : les repères reportés sont mesurés à l'échelle de la nouvelle feuille.
+Si la nouvelle feuille n'avait pas d'échelle, elle prend celle de l'ancienne feuille (ajustée si les dessins ont dû être mis à l'échelle pour s'aligner). Si elle en avait déjà une autre, TakeoffDesk le demande d'abord : les repères reportés sont mesurés à l'échelle de la nouvelle feuille.
 
 ## Vérifier les repères signalés
 

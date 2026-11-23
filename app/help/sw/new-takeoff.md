@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Hifadhi ukadiriaji wa sasa kama unataka kuuweka: {{ui:Hifadhi ukadiriaji}} au {{key:Mod+S}}.
 2. Chagua {{ui:Mpya}} kwenye kundi la {{ui:Faili}}.
-3. Ikiwa kuna mabadiliko ambayo hayajahifadhiwa, TakeoffCraft inauliza **Ukadiriaji usiohifadhiwa**: chagua {{ui:Hifadhi hesabu kwanza}} (inapakua mradi, kisha inafuta), {{ui:Tupa mabadiliko}}, au {{ui:Ghairi}}.
+3. Ikiwa kuna mabadiliko ambayo hayajahifadhiwa, TakeoffDesk inauliza **Ukadiriaji usiohifadhiwa**: chagua {{ui:Hifadhi hesabu kwanza}} (inapakua mradi, kisha inafuta), {{ui:Tupa mabadiliko}}, au {{ui:Ghairi}}.
    Dirisha linarudi kwenye hali yake tupu: hakuna PDF, hakuna vipengee, hakuna alama, hakuna skeli. Upau wa hali unasema "Ukadiriaji mpya. Fungua PDF ili kuanza."
 
 Kinachofutwa:

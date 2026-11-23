@@ -1,11 +1,11 @@
 ---
 title: Czego program nauczył się z Twoich przedmiarów
-summary: TakeoffCraft zachowuje symbole potwierdzone przez Auto liczenie, zestawy warunków, najczęściej używane zestawy kosztorysowe i wzorce powtarzanych znaczników na każdej stronie, wszystko w pliku samego przedmiaru. Zobacz je, użyj ich, usuń.
+summary: TakeoffDesk zachowuje symbole potwierdzone przez Auto liczenie, zestawy warunków, najczęściej używane zestawy kosztorysowe i wzorce powtarzanych znaczników na każdej stronie, wszystko w pliku samego przedmiaru. Zobacz je, użyj ich, usuń.
 keywords: ucz się, wyuczone, uczenie, asystent, pamiętaj, symbole, szablony, jak w ostatniej pracy, ostatnia praca, zestaw warunków, warunki, ponowne użycie, zestawy kosztorysowe, najczęściej używane, sugestie, powtórz na każdej stronie, każda strona, tabliczka rysunkowa, wzorzec, wyczyść wszystko, zapomnij, prywatność
 from: 54d99e99
 ---
 
-TakeoffCraft staje się szybszy, im więcej przedmiarów w nim wykonasz. Uczy się **tylko z tego, co zaakceptujesz**:
+TakeoffDesk staje się szybszy, im więcej przedmiarów w nim wykonasz. Uczy się **tylko z tego, co zaakceptujesz**:
 
 - symbole, które zaznaczyłeś w [Auto liczenie](topic:auto-count) i potem dodałeś,
 - zestawy warunków, które zapiszesz,
@@ -64,6 +64,6 @@ Aby przestać się uczyć w jednym przedmiarze, odznacz {{ui:Ucz się z tego prz
 
 ## Warto wiedzieć
 
-- Starsze wersje TakeoffCraft otwierają plik z wyuczonymi rzeczami normalnie. Ignorują tę część i odrzucają ją, jeśli zapiszą plik ponownie.
+- Starsze wersje TakeoffDesk otwierają plik z wyuczonymi rzeczami normalnie. Ignorują tę część i odrzucają ją, jeśli zapiszą plik ponownie.
 - Wyuczony symbol to mały obrazek tego, co zaznaczyłeś, zapisany w pliku (po kilka kilobajtów każdy).
 - Wyuczone symbole są wyszukiwane jak w Auto liczeniu, więc obowiązują te same ograniczenia: [Auto liczenie symbolu](topic:auto-count).

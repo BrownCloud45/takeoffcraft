@@ -1,6 +1,6 @@
 ---
 title: Spočítať všetko v sade plánov
-summary: Označte raz legendu symbolov a TakeoffCraft spočíta každý symbol v nej na každom otvorenom liste v jednom behu. Každý počet je odkaz na svoj list a pred pridaním si ho skontrolujete.
+summary: Označte raz legendu symbolov a TakeoffDesk spočíta každý symbol v nej na každom otvorenom liste v jednom behu. Každý počet je odkaz na svoj list a pred pridaním si ho skontrolujete.
 keywords: spočítať všetko, legenda, legenda symbolov, celá sada, každý list, všetky listy, každé dvere, každé zariadenie, zariadenia, tabuľka, symboly, automatický počet, spočítať všetko, sada plánov, 200 listov, úroveň zhody, podobné
 from: adc99744
 ---

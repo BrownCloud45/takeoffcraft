@@ -46,7 +46,7 @@ Cifrele nu se schimbă în 3D: aria unui perete este lungimea exactă înmulțit
 | {{ui:Foaie}} | Arată sau ascunde desenul de pe sol. |
 | Cubul de vizualizare, sus dreapta | Faceți clic pe o față, muchie sau colț ca să priviți de acolo; trageți-l ca să orbitați; trageți inelul busolei ca să-l rotiți; butonul casă revine la {{ui:Izometric}}. |
 
-Colțul arată un cub de vizualizare, o mică pictogramă cu axele X, Y, Z sau nimic: alegeți în {{ui:Setări}}, pe fila TakeoffCraft, sub **Indicator de colț** ([Setările TakeoffCraft](topic:settings)). Foaia plană nu are indicator de colț.
+Colțul arată un cub de vizualizare, o mică pictogramă cu axele X, Y, Z sau nimic: alegeți în {{ui:Setări}}, pe fila TakeoffDesk, sub **Indicator de colț** ([Setările TakeoffDesk](topic:settings)). Foaia plană nu are indicator de colț.
 
 :::touch
 Un deget orbitează; două degete ciupesc pentru mărire și se mută pentru panoramare. O atingere selectează.

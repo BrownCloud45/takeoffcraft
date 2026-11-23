@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Saglabājiet pašreizējo apjomu aprēķinu, ja to vēlaties paturēt: {{ui:Saglabāt apjomu aprēķinu}} vai {{key:Mod+S}}.
 2. Izvēlieties {{ui:Jauns}} grupā {{ui:Fails}}.
-3. Ja ir nesaglabātas izmaiņas, TakeoffCraft jautā **Nesaglabāts apjomu aprēķins**: izvēlieties {{ui:Vispirms saglabāt apjomu aprēķinu}} (tas lejupielādē projektu un tad notīra), {{ui:Atmest izmaiņas}} vai {{ui:Atcelt}}.
+3. Ja ir nesaglabātas izmaiņas, TakeoffDesk jautā **Nesaglabāts apjomu aprēķins**: izvēlieties {{ui:Vispirms saglabāt apjomu aprēķinu}} (tas lejupielādē projektu un tad notīra), {{ui:Atmest izmaiņas}} vai {{ui:Atcelt}}.
    Logs atgriežas tukšā stāvoklī: nav PDF, nav vienumu, nav atzīmju un nav mērogu. Statusa josla saka "Jauns apjomu aprēķins. Lai sāktu, atveriet PDF."
 
 Tiek notīrīts:

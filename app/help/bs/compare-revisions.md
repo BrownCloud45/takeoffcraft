@@ -5,14 +5,14 @@ keywords: revizija, revidirano, uporedi, preklapanje, stari, novi, promjene, dod
 from: 3a1d9fe0
 ---
 
-Kad se list ponovo izda, ne morate ga ponovo predmjeriti. Otvorite stari PDF i novi, uporedite dva lista i prenesite predmjer. TakeoffCraft označava svaku oznaku na kojoj se crtež promijenio, pa provjerite te i zadržite ostale.
+Kad se list ponovo izda, ne morate ga ponovo predmjeriti. Otvorite stari PDF i novi, uporedite dva lista i prenesite predmjer. TakeoffDesk označava svaku oznaku na kojoj se crtež promijenio, pa provjerite te i zadržite ostale.
 
 ## Uporedi
 
 1. Otvorite oba PDF-a: stari skup i revidirani ({{ui:Otvori planove}}; mogu biti u jednoj datoteci ili u više).
 2. Prikažite **novi** list.
 3. Odaberite {{ui:Uporedi}} na traci lista ispod crteža.
-4. Odaberite stari list s liste. TakeoffCraft predlaže list s istim brojem u drugom PDF-u, ili istu stranicu. Odaberite **Uporedi**.
+4. Odaberite stari list s liste. TakeoffDesk predlaže list s istim brojem u drugom PDF-u, ili istu stranicu. Odaberite **Uporedi**.
 
 Stari crtež sada leži preko novog, crveno. Tamo gdje se slažu, crvene linije su na crnim; tamo gdje se razlikuju, vidite samo crvene linije (uklonjene) i samo crne linije (dodane). Traka na dnu lista sadrži korake ispod; {{key:Esc}} ili {{ui:Zatvori}} završava poređenje.
 
@@ -29,7 +29,7 @@ Crveni crtež se pomjera, okreće i skalira na crni. Statusna traka kaže koliko
 
 ## Pronađite šta se promijenilo
 
-Odaberite **Pronađi promjene**. TakeoffCraft uspoređuje crtež dva lista: tinta samo na starom listu postaje crvena, tinta samo na novom listu postaje plava, a statusna traka ih broji. Linije koje su se pomjerile za dlaku (ponovno štampanje) se ne broje kao promjene.
+Odaberite **Pronađi promjene**. TakeoffDesk uspoređuje crtež dva lista: tinta samo na starom listu postaje crvena, tinta samo na novom listu postaje plava, a statusna traka ih broji. Linije koje su se pomjerile za dlaku (ponovno štampanje) se ne broje kao promjene.
 
 Takođe gleda svaku oznaku na starom listu i broji one koje su na mjestu gdje se crtež promijenio:
 
@@ -40,7 +40,7 @@ Takođe gleda svaku oznaku na starom listu i broji one koje su na mjestu gdje se
 
 Odaberite **Premjesti predmjer ovdje**. Svaka oznaka sa starog lista se premješta na novi, kroz poravnanje, u jednom koraku poništavanja. One pored promjene su označene: crtaju se narandžastim haloom, a traka lista pokazuje „(n) za provjeru”.
 
-Ako novi list nije imao razmjeru, preuzima razmjeru starog lista (prilagođenu ako su crteži morali biti skalirani da se poklope). Ako je već imao drugačiju razmjeru, TakeoffCraft prvo pita: premještene oznake se mjere u razmjeri novog lista.
+Ako novi list nije imao razmjeru, preuzima razmjeru starog lista (prilagođenu ako su crteži morali biti skalirani da se poklope). Ako je već imao drugačiju razmjeru, TakeoffDesk prvo pita: premještene oznake se mjere u razmjeri novog lista.
 
 ## Provjerite označene oznake
 

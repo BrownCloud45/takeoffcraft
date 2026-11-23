@@ -1,6 +1,6 @@
 ---
 title: Tipkovnica i miš
-summary: Svaka tipka, miš, trackpad i radnja dodirom u TakeoffCraftu, grupirano, s razlikama među platformama.
+summary: Svaka tipka, miš, trackpad i radnja dodirom u TakeoffDesku, grupirano, s razlikama među platformama.
 keywords: tipke, prečaci, tipkovnički prečaci, tipkovnica, miš, trackpad, dodir, pomicanje, zumiranje, kotačić, desni klik, dvostruki klik, razmaknica, shift, kopiraj, zalijepi, izreži, dupliciraj, odaberi sve
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Pogledajte [Provjera predmjera u 3D](topic:check-in-3d).
 | Tipka | Što radi |
 |---|---|
 | {{key:F1}} | Otvara ili zatvara ploču pomoći (također gumb {{ui:Pomoć}} u traci aplikacije). Radi u svim alatima, čak i dok upisujete u polje. |
-| {{key:Esc}} | Zatvara ploču pomoći. U njezinu okviru za pretragu prvi Esc briše pretragu. Dok je ploča otvorena, Esc pritisnut nakon klika na list najprije zatvara ploču; pritisnite ga ponovno da odustanete u TakeoffCraftu. |
+| {{key:Esc}} | Zatvara ploču pomoći. U njezinu okviru za pretragu prvi Esc briše pretragu. Dok je ploča otvorena, Esc pritisnut nakon klika na list najprije zatvara ploču; pritisnite ga ponovno da odustanete u TakeoffDesku. |
 
 :::mac
 Na mnogim Mac tipkovnicama gornji red upravlja svjetlinom i zvukom. Pritisnite fn s F1 ili uključite „Koristi tipke F1, F2 itd. kao standardne funkcijske tipke“ u Postavkama sustava, pod Tipkovnica.
@@ -139,7 +139,7 @@ Na mnogim Mac tipkovnicama gornji red upravlja svjetlinom i zvukom. Pritisnite f
 
 :::mac
 - {{key:Mod}} je tipka Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Cijeli zaslon je iznimka: Control+Shift+F.
-- Desni klik je klik dvama prstima na trackpadu, kad je sekundarni klik uključen u Postavkama sustava, pod Trackpad. TakeoffCraft čita samo sekundarnu tipku; Control-klik može se uzeti kao običan klik i dodati točku.
+- Desni klik je klik dvama prstima na trackpadu, kad je sekundarni klik uključen u Postavkama sustava, pod Trackpad. TakeoffDesk čita samo sekundarnu tipku; Control-klik može se uzeti kao običan klik i dodati točku.
 - Pomicanje dvama prstima na trackpadu zumira list (ne pomiče ga). Za pomicanje pritisnite i povucite ili držite {{key:Space}} i povucite.
 - Page Up i Page Down su fn sa strelicama gore i dolje na tipkovnicama bez njih.
 - Backspace je tipka označena oznakom delete.
@@ -151,12 +151,12 @@ Na mnogim Mac tipkovnicama gornji red upravlja svjetlinom i zvukom. Pritisnite f
 :::
 
 :::linux
-- {{key:Mod}} je Ctrl. Neke radne površine imaju vlastite prečace Ctrl+Alt ili Super; TakeoffCraft ne koristi nijedan od njih.
+- {{key:Mod}} je Ctrl. Neke radne površine imaju vlastite prečace Ctrl+Alt ili Super; TakeoffDesk ne koristi nijedan od njih.
 - Na touchpadu dvoprsni pomak zumira list. Za pomicanje pritisnite i povucite.
 :::
 
 :::touch
-TakeoffCraft čita dodir kao jedan pokazivač:
+TakeoffDesk čita dodir kao jedan pokazivač:
 
 - Dodir postavlja točku, odabire oznaku ili dodaje točku brojanja.
 - Povlačenje jednim prstom pomiče list (u {{ui:Autobrojanje}} crta okvir za pretragu).
@@ -169,7 +169,7 @@ Za predmjer danas je bolji način tipkovnica i miš ili trackpad.
 
 ## Tipke koje preglednik zadržava
 
-Preglednici zadržavaju neke prečace za sebe i stranica ih ne može koristiti: zatvaranje kartice ({{key:Mod+W}}), nova kartica ili prozor ({{key:Mod+T}}, {{key:Mod+N}}) i zumiranje preglednika ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffCraft zumira list kotačićem te običnim tipkama {{key:Plus}} i {{key:Minus}}. Ako slučajno pritisnete {{key:Mod+Plus}}, cijela stranica se povećava; {{key:Mod+0}} je vraća. Pogledajte [Tipke, miševi i trackpadi](common:keys).
+Preglednici zadržavaju neke prečace za sebe i stranica ih ne može koristiti: zatvaranje kartice ({{key:Mod+W}}), nova kartica ili prozor ({{key:Mod+T}}, {{key:Mod+N}}) i zumiranje preglednika ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffDesk zumira list kotačićem te običnim tipkama {{key:Plus}} i {{key:Minus}}. Ako slučajno pritisnete {{key:Mod+Plus}}, cijela stranica se povećava; {{key:Mod+0}} je vraća. Pogledajte [Tipke, miševi i trackpadi](common:keys).
 
 ## Gdje je naredba Pomakni
 

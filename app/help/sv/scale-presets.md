@@ -49,4 +49,4 @@ En kalibrerad skala visas som "Kalibrerad 1" = 4.002' på 24'-6"" i fältet unde
 
 ## Ovanliga PDF-filer
 
-Vissa PDF-filer anger en större sidenhet (en användarenhet, "user unit"); TakeoffCraft tar hänsyn till den för förval och för skalan som visas. Sidor som roterats i PDF-filen mäts på samma sätt som stående sidor.
+Vissa PDF-filer anger en större sidenhet (en användarenhet, "user unit"); TakeoffDesk tar hänsyn till den för förval och för skalan som visas. Sidor som roterats i PDF-filen mäts på samma sätt som stående sidor.

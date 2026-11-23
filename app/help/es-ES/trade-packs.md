@@ -39,4 +39,4 @@ Cada partida incluye además su número CSI MasterFormat, como `09 21 16`.
 
 {{ui:Exportar como paquete…}} en la biblioteca la guarda como archivo de paquete (`.ccpack.json`), que cualquiera puede añadir con {{ui:Abrir un archivo de paquete…}}. Por defecto omite las partidas que procedan de paquetes que haya añadido, y no incluye tarifas. Marque {{ui:Incluir mis tarifas como tarifas de muestra}} para enviar también sus tarifas: se envían etiquetadas con la región y la fecha que indique, y quien añada el paquete decide si las usa.
 
-Los archivos de paquete son datos simples, nunca programas. TakeoffCraft comprueba cada parte de uno antes de usarlo y omite todo lo que no puede leer.
+Los archivos de paquete son datos simples, nunca programas. TakeoffDesk comprueba cada parte de uno antes de usarlo y omite todo lo que no puede leer.

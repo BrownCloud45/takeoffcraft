@@ -77,7 +77,7 @@ Isang row bawat sheet na may scale o marks.
 | Sheet | Pangalan ng sheet |
 | Scale | Pangalan ng preset, ang calibrated scale, o "No scale" |
 | How | "Preset", o "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | Ang eksaktong scale factor na ginagamit ng TakeoffCraft |
+| Feet per PDF unit | Ang eksaktong scale factor na ginagamit ng TakeoffDesk |
 
 ## Mga pangalan ng file
 

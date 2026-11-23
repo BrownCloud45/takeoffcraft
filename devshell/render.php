@@ -77,7 +77,7 @@ $__wsCfg = AppBuilds::hasWorkspaces($__build) ? AppBuilds::workspaceConfig($__bu
 // menus, keys and mouse: as the site's import map (AppBuilds::headTags), a module may import the engine by its absolute path
 if (AppBuilds::input($__build)) foreach ([AppBuilds::INPUT_ENGINE, AppBuilds::INPUT_SCRIPT] as $__m) $imports[$__m] = $R . ltrim($__m, '/');
 if ($__wsCfg) { $imports['cc-workspace'] = $R . 'assets/js/app-workspace.js'; foreach (AppBuilds::WORKSPACE_MODULES as $__m) $imports[$__m] = $R . ltrim($__m, '/'); }
-$__site = 'https://getcadcraft.com';
+$__site = '';   // TakeoffDesk: no website behind the app
 // The edition's own facts for the apps and the shell (0.4 part 2 D.4): features that live only on getcadcraft.com are off.
 $__editionData = $edition === null ? null : [
     'edition' => 'browser', 'app' => $app['slug'], 'version' => $edition, 'site' => $__site,
@@ -176,13 +176,12 @@ ob_start();
 <?php endif; ?>
   </div>
   <nav class="app-bar-links" aria-label="<?= e($app['name']) ?>">
-    <a href="<?= e($__site) ?>/apps/<?= e($app['slug']) ?>"<?= $edition !== null ? ' target="_blank" rel="noopener"' : '' ?>><?= Lang::e('shell.bar.about', ['app' => $app['name']]) ?></a>
   </nav>
-  <button type="button" class="app-bar-btn app-bar-help" data-help-open aria-expanded="false" title="Help (F1)" hidden><i class="bi bi-question-circle" aria-hidden="true"></i><span class="app-bar-btn-label">Help</span></button>
+  <button type="button" class="app-bar-btn app-bar-help" data-help-open aria-expanded="false" title="<?= Lang::e('shell.help.title') ?> (F1)" hidden><i class="bi bi-question-circle" aria-hidden="true"></i><span class="app-bar-btn-label"><?= Lang::e('shell.help.title') ?></span></button>
 <?php if ($__offlineData !== null): ?>
   <button type="button" class="app-bar-btn app-bar-offline" data-offline aria-live="polite" hidden><i class="bi bi-cloud-arrow-down" aria-hidden="true"></i><span class="app-bar-btn-label" data-offline-label><?= Lang::e('shell.offline.save') ?></span></button>
 <?php endif; ?>
-  <button type="button" class="app-bar-btn app-bar-settings" data-settings-open aria-haspopup="dialog" aria-expanded="false" title="Settings (Ctrl+,)" hidden><i class="bi bi-gear" aria-hidden="true"></i><span class="app-bar-btn-label">Settings</span></button>
+  <button type="button" class="app-bar-btn app-bar-settings" data-settings-open aria-haspopup="dialog" aria-expanded="false" title="<?= Lang::e('shell.bar.settings') ?> (Ctrl+,)" hidden><i class="bi bi-gear" aria-hidden="true"></i><span class="app-bar-btn-label"><?= Lang::e('shell.bar.settings') ?></span></button>
   <button type="button" class="app-bar-fs" data-fs-cycle aria-pressed="false" hidden><i class="bi bi-fullscreen" aria-hidden="true"></i><span class="app-bar-fs-label">Full screen</span></button>
   <form class="space-toggle" method="get" action="<?= $edition === null ? '/' : '' ?>" role="group" aria-label="<?= Lang::e('shell.bar.space') ?>">
     <button type="submit" name="space" value="paper" aria-pressed="false" title="<?= Lang::e('shell.bar.paper.title') ?>"><?= Lang::e('shell.bar.paper') ?></button>

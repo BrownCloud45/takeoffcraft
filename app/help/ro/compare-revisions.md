@@ -5,14 +5,14 @@ keywords: revizuire, revizuit, comparare, suprapunere, vechi, nou, modificări, 
 from: 3a1d9fe0
 ---
 
-Când o foaie este reemisă, nu trebuie să o măsurați din nou. Deschideți PDF-ul vechi și pe cel nou, comparați cele două foi și mutați antemăsurătoarea. TakeoffCraft semnalează fiecare marcaj unde desenul s-a schimbat, ca să verificați acelea și să le păstrați pe celelalte.
+Când o foaie este reemisă, nu trebuie să o măsurați din nou. Deschideți PDF-ul vechi și pe cel nou, comparați cele două foi și mutați antemăsurătoarea. TakeoffDesk semnalează fiecare marcaj unde desenul s-a schimbat, ca să verificați acelea și să le păstrați pe celelalte.
 
 ## Comparare
 
 1. Deschideți ambele PDF-uri: setul vechi și cel revizuit ({{ui:Deschidere planuri}}; pot fi într-un singur fișier sau în mai multe).
 2. Afișați foaia **nouă**.
 3. Alegeți {{ui:Comparare}} pe bara foii, sub desen.
-4. Alegeți foaia veche din listă. TakeoffCraft sugerează foaia cu același număr din celălalt PDF, sau aceeași pagină. Alegeți **Comparare**.
+4. Alegeți foaia veche din listă. TakeoffDesk sugerează foaia cu același număr din celălalt PDF, sau aceeași pagină. Alegeți **Comparare**.
 
 Desenul vechi se suprapune acum peste cel nou, în roșu. Acolo unde cele două coincid, liniile roșii stau peste cele negre; acolo unde diferă, vedeți doar linii roșii (eliminate) și doar linii negre (adăugate). O bară din partea de jos a foii conține pașii de mai jos; {{key:Esc}} sau {{ui:Închidere}} încheie comparația.
 
@@ -29,7 +29,7 @@ Desenul roșu se mută, se rotește și se scalează peste cel negru. Bara de st
 
 ## Găsirea modificărilor
 
-Alegeți **Găsire modificări**. TakeoffCraft compară liniile celor două desene: liniile doar pe foaia veche devin roșii, cele doar pe foaia nouă devin albastre, iar bara de stare le numără. Liniile mutate cu un fir de păr (o retrasare) nu se numără ca modificări.
+Alegeți **Găsire modificări**. TakeoffDesk compară liniile celor două desene: liniile doar pe foaia veche devin roșii, cele doar pe foaia nouă devin albastre, iar bara de stare le numără. Liniile mutate cu un fir de păr (o retrasare) nu se numără ca modificări.
 
 De asemenea, verifică fiecare marcaj de pe foaia veche și numără pe cele care se află acolo unde desenul s-a schimbat:
 
@@ -40,7 +40,7 @@ De asemenea, verifică fiecare marcaj de pe foaia veche și numără pe cele car
 
 Alegeți **Mutare antemăsurătoare aici**. Fiecare marcaj de pe foaia veche se mută pe cea nouă, prin aliniere, într-un singur pas de anulare. Cele de lângă o modificare sunt semnalate: sunt desenate cu un halou portocaliu, iar bara foii afișează „(n) de verificat”.
 
-Dacă foaia nouă nu avea scară, primește scara celei vechi (ajustată când desenele au trebuit scalate pentru aliniere). Dacă avea deja o altă scară, TakeoffCraft întreabă mai întâi: marcajele mutate se măsoară la scara foii noi.
+Dacă foaia nouă nu avea scară, primește scara celei vechi (ajustată când desenele au trebuit scalate pentru aliniere). Dacă avea deja o altă scară, TakeoffDesk întreabă mai întâi: marcajele mutate se măsoară la scara foii noi.
 
 ## Verificarea marcajelor semnalate
 

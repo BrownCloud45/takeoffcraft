@@ -1743,7 +1743,7 @@
   if (panels.some(function (p) { return S.p[p.id].dock === 'window'; })) {
     // The desktop app opens windows without a click (desktop.md W.4b): reopen each saved panel window straight away,
     // and offer the rest only if one can't open.
-    var opened = !!window.cadcraftDesktop && CAN_WIN;
+    var opened = false;   // TakeoffDesk: no Studio desktop windows
     if (opened) pendingWins().forEach(function (n) {
       if (!opened) return;
       opened = toWindow(panels.filter(function (p) { return S.p[p.id].dock === 'window' && (S.p[p.id].win || 1) === n && p.el.ownerDocument === document; }), false, n) !== false;

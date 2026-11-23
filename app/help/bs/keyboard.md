@@ -1,6 +1,6 @@
 ---
 title: Tastatura i miš
-summary: Svaka tipka, miš, tačpad i radnja dodirom u aplikaciji TakeoffCraft, grupisano, sa razlikama među platformama.
+summary: Svaka tipka, miš, tačpad i radnja dodirom u aplikaciji TakeoffDesk, grupisano, sa razlikama među platformama.
 keywords: tipke, prečice, tastatura, miš, tačpad, dodir, pomjeranje pogleda, zumiranje, točkić, desni klik, dvostruki klik, razmaknica, shift, kopiraj, zalijepi, izreži, dupliciraj, odaberi sve
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Pogledajte [Provjera predmjera u 3D](topic:check-in-3d).
 | Tipka | Šta radi |
 |---|---|
 | {{key:F1}} | Otvara ili zatvara panel pomoći (također dugme {{ui:Pomoć}} u traci aplikacije). Radi u svakom alatu, čak i dok kucate u polju. |
-| {{key:Esc}} | Zatvara panel pomoći. U njegovom polju za pretragu, prvi Esc briše pretragu. Dok je panel otvoren, Esc pritisnut nakon klika na list prvo zatvara panel; pritisnite ga ponovo da otkažete u aplikaciji TakeoffCraft. |
+| {{key:Esc}} | Zatvara panel pomoći. U njegovom polju za pretragu, prvi Esc briše pretragu. Dok je panel otvoren, Esc pritisnut nakon klika na list prvo zatvara panel; pritisnite ga ponovo da otkažete u aplikaciji TakeoffDesk. |
 
 :::mac
 Na mnogim Mac tastaturama gornji red kontroliše svjetlinu i zvuk. Pritisnite fn sa F1, ili uključite „Use F1, F2, etc. keys as standard function keys“ u Postavkama sistema, pod Tastatura.
@@ -139,7 +139,7 @@ Na mnogim Mac tastaturama gornji red kontroliše svjetlinu i zvuk. Pritisnite fn
 
 :::mac
 - {{key:Mod}} je tipka Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Cijeli ekran je izuzetak: Control+Shift+F.
-- Desni klik je klik sa dva prsta na tačpadu, kada je sekundarni klik uključen u Postavkama sistema, pod Tačpad. TakeoffCraft čita samo sekundarno dugme; Control-klik može se računati kao običan klik i dodati tačku.
+- Desni klik je klik sa dva prsta na tačpadu, kada je sekundarni klik uključen u Postavkama sistema, pod Tačpad. TakeoffDesk čita samo sekundarno dugme; Control-klik može se računati kao običan klik i dodati tačku.
 - Pomicanje sa dva prsta na tačpadu zumira list (ne pomjera ga). Za pomjeranje pogleda pritisnite i prevucite, ili držite razmaknicu i prevucite.
 - Page Up i Page Down su fn sa strelicama gore i dolje na tastaturama bez njih.
 - Backspace je tipka označena natpisom Delete.
@@ -151,12 +151,12 @@ Na mnogim Mac tastaturama gornji red kontroliše svjetlinu i zvuk. Pritisnite fn
 :::
 
 :::linux
-- {{key:Mod}} je Ctrl. Neka radna okruženja koriste sopstvene prečice Ctrl+Alt ili Super; TakeoffCraft ne koristi nijednu od njih.
+- {{key:Mod}} je Ctrl. Neka radna okruženja koriste sopstvene prečice Ctrl+Alt ili Super; TakeoffDesk ne koristi nijednu od njih.
 - Na tačpadu, pomicanje sa dva prsta zumira list. Za pomjeranje pogleda pritisnite i prevucite.
 :::
 
 :::touch
-TakeoffCraft dodir čita kao jedan pokazivač:
+TakeoffDesk dodir čita kao jedan pokazivač:
 
 - Dodir postavlja tačku, odabire oznaku ili dodaje tačku brojanja.
 - Prevlačenje jednim prstom pomjera list (u {{ui:Auto brojanje}} crta okvir za pretragu).
@@ -169,7 +169,7 @@ Tastatura i miš ili tačpad su danas bolji način za predmjer.
 
 ## Tipke koje pregledač zadržava
 
-Pregledači zadržavaju neke prečice za sebe, pa ih stranica ne može koristiti: zatvaranje kartice ({{key:Mod+W}}), nova kartica ili prozor ({{key:Mod+T}}, {{key:Mod+N}}) i zumiranje pregledača ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffCraft zumira list točkićem i samim tipkama {{key:Plus}} i {{key:Minus}}. Ako greškom pritisnete {{key:Mod+Plus}}, cijela stranica se uvećava; {{key:Mod+0}} je vraća. Pogledajte [Tipke, miševi i tačpadovi](common:keys).
+Pregledači zadržavaju neke prečice za sebe, pa ih stranica ne može koristiti: zatvaranje kartice ({{key:Mod+W}}), nova kartica ili prozor ({{key:Mod+T}}, {{key:Mod+N}}) i zumiranje pregledača ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffDesk zumira list točkićem i samim tipkama {{key:Plus}} i {{key:Minus}}. Ako greškom pritisnete {{key:Mod+Plus}}, cijela stranica se uvećava; {{key:Mod+0}} je vraća. Pogledajte [Tipke, miševi i tačpadovi](common:keys).
 
 ## Gdje je Premjesti
 

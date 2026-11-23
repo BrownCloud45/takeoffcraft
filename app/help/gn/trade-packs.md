@@ -39,4 +39,4 @@ Cada ítem también lleva su número CSI MasterFormat, como `09 21 16`.
 
 {{ui:Export as pack…}} en la biblioteca la guarda como archivo de paquete (`.ccpack.json`) que cualquiera puede agregar con {{ui:Open a pack file…}}. Por defecto deja afuera los ítems que vinieron de paquetes que agregaste, y no lleva tarifas. Marcá {{ui:Include my rates as sample rates}} para enviar también tus tarifas: salen rotuladas con la región y la fecha que indiques, y quien agregue el paquete decide si las usa.
 
-Los archivos de paquete son solo datos, nunca programas. TakeoffCraft verifica cada parte antes de usarla y deja afuera lo que no puede leer.
+Los archivos de paquete son solo datos, nunca programas. TakeoffDesk verifica cada parte antes de usarla y deja afuera lo que no puede leer.

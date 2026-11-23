@@ -1,6 +1,6 @@
 ---
 title: Ingreso de longitudes, tasas ha porcentajes
-summary: Loque podés escribir para distancias, alturas, tasas de dinero ha porcentajes de desperdicio, con ejemplos ha los mensajes para entradas que TakeoffCraft ndoikuaái.
+summary: Loque podés escribir para distancias, alturas, tasas de dinero ha porcentajes de desperdicio, con ejemplos ha los mensajes para entradas que TakeoffDesk ndoikuaái.
 keywords: ingreso, formato, pies pulgadas, fracciones, pies decimales, métrico, metros, milímetros, tasa, dinero, dólares, porcentaje, desperdicio, escribir
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Hasta dos decimales, de 0% a 1000%. Mensajes: "Escribí un porcentaje, como 10 o
 ## Nombres y unidades
 
 - Nombres de ítems y componentes: hasta 200 caracteres.
-- {{ui:Unit}} de un componente: cualquier texto de hasta 20 caracteres, como `EA`, `sheets`, `CY`, `gal`. Es solo una etiqueta; TakeoffCraft no la convierte.
+- {{ui:Unit}} de un componente: cualquier texto de hasta 20 caracteres, como `EA`, `sheets`, `CY`, `gal`. Es solo una etiqueta; TakeoffDesk no la convierte.
 
 ## Fórmulas
 

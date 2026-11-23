@@ -9,7 +9,16 @@
  * canvas larger than the window. While the view moves, the last render is stretched into
  * place at once; a fresh render follows when the view settles (stale render tasks are
  * cancelled). A low-resolution render of the whole page fills in around it while panning.
+ *
+ * TakeoffDesk, fewer renders: pdf.js replays the page's whole drawing on every render, so on a dense sheet the cheapest
+ * render is the one not made. A sharp render covers the window plus a margin (OVERSCAN), so a pan that stays inside it needs
+ * none; zooming out up to REUSE_OUT reuses the sharper bitmap; at overview zooms the whole-page render is already sharp
+ * enough; and a render still running is cancelled as soon as the view moves again, so it never holds up the next frame.
  */
+const OVERSCAN = 0.3;          // of the window's width / height, on each side
+const MAX_SHARP_PX = 24e6;     // device pixels in one sharp render (the margin shrinks to stay under it)
+const REUSE_OUT = 0.6;         // zooming out to 60 % of the render's zoom still looks sharp: no new render
+const SETTLE_MS = 100;         // how long the view must rest before a sharp render
 
 import { apply, invert, multiply } from './geom.js';
 
@@ -95,7 +104,8 @@ export class PageView {
   invalidate(viewChanged = false) {
     if (viewChanged) {
       clearTimeout(this.timer);
-      this.timer = setTimeout(() => this.renderSharp(), 140);
+      if (this.task) { this.task.cancel(); this.task = null; }   // the view moved on: free the main thread for it
+      this.timer = setTimeout(() => { if (this.needsSharp()) this.renderSharp(); }, SETTLE_MS);
       this.onView(this.view);
     }
     if (this.frameReq) return;
@@ -139,15 +149,41 @@ export class PageView {
     this.onOverlay(ctx, this);
   }
 
-  /** Render the visible part of the page sharp. */
+  /** The part of the window the page covers now, in CSS px: [x0, y0, x1, y1], or null. */
+  visibleRect() {
+    if (!this.info) return null;
+    const x0 = Math.max(0, this.ox), y0 = Math.max(0, this.oy);
+    const x1 = Math.min(this.w, this.ox + this.info.width * this.z), y1 = Math.min(this.h, this.oy + this.info.height * this.z);
+    return x1 > x0 && y1 > y0 ? [x0, y0, x1, y1] : null;
+  }
+  /** Does the view need a new sharp render, or do the bitmaps we have already show it sharp? */
+  needsSharp() {
+    if (!this.page) return false;
+    const vis = this.visibleRect();
+    if (!vis) return false;
+    const d = this.dpr;
+    if (this.whole && this.z * d <= this.whole.s * 1.05) return false;          // overview: the whole-page render is sharp enough
+    const f = this.full;
+    if (!f || this.z > f.z * 1.001 || this.z < f.z * REUSE_OUT) return true;     // zoomed in past it, or far out
+    const k = this.z / f.z;
+    const left = this.ox - f.ox * k, top = this.oy - f.oy * k;
+    const right = left + (f.canvas.width / d) * k, bottom = top + (f.canvas.height / d) * k;
+    return !(left <= vis[0] + 0.5 && top <= vis[1] + 0.5 && right >= vis[2] - 0.5 && bottom >= vis[3] - 0.5);   // panned past its margin
+  }
+
+  /** Render the visible part of the page sharp, with a margin around it for pans. */
   async renderSharp() {
     if (!this.page) return;
     this.task?.cancel();
     const d = this.dpr, gen = this.gen;
     const view = { z: this.z, ox: this.ox, oy: this.oy };
-    // only the part of the window the page covers
-    const x0 = Math.max(0, Math.floor(view.ox)), y0 = Math.max(0, Math.floor(view.oy));
-    const x1 = Math.min(this.w, Math.ceil(view.ox + this.info.width * view.z)), y1 = Math.min(this.h, Math.ceil(view.oy + this.info.height * view.z));
+    // the part of the window the page covers, plus a margin on each side (smaller when the bitmap would be too big)
+    let m = OVERSCAN;
+    const area = (mm) => (this.w * (1 + 2 * mm)) * (this.h * (1 + 2 * mm)) * d * d;
+    while (m > 0 && area(m) > MAX_SHARP_PX) m = Math.max(0, m - 0.05);
+    const mx = this.w * m, my = this.h * m;
+    const x0 = Math.max(-mx, Math.floor(view.ox)), y0 = Math.max(-my, Math.floor(view.oy));
+    const x1 = Math.min(this.w + mx, Math.ceil(view.ox + this.info.width * view.z)), y1 = Math.min(this.h + my, Math.ceil(view.oy + this.info.height * view.z));
     if (x1 <= x0 || y1 <= y0) return;
     const c = document.createElement('canvas');
     c.width = Math.round((x1 - x0) * d); c.height = Math.round((y1 - y0) * d);

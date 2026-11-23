@@ -19,9 +19,9 @@ V **Quantities › By item** riadok, ktorý má množstvo a žiadnu materiálov�
 2. Dialógové okno uvedie celkový súčet, ktorý podpisujete, a vypíše riadky bez jednotkovej ceny. Zadajte svoje meno a ak chcete, aj svoju funkciu.
 3. Kliknite na **Podpísať**. Lišta teraz hovorí "Podpísal … dňa …" s celkovým súčtom. Uložte výkaz, aby sa to zachovalo v súbore.
 
-Podpis patrí k číslam, ktoré podpisujete. Každá neskoršia zmena množstva, jednotkovej ceny alebo riadku ho zruší a TakeoffCraft vás na to upozorní. Späť vráti rozpočet, ktorý ste podpísali, aj s jeho podpisom. Premenovanie riadku nie je zmena čísla. **Odstrániť podpis** ho zruší.
+Podpis patrí k číslam, ktoré podpisujete. Každá neskoršia zmena množstva, jednotkovej ceny alebo riadku ho zruší a TakeoffDesk vás na to upozorní. Späť vráti rozpočet, ktorý ste podpísali, aj s jeho podpisom. Premenovanie riadku nie je zmena čísla. **Odstrániť podpis** ho zruší.
 
-Výkaz uložený mimo TakeoffCraft po podpise sa otvorí bez podpisu s poznámkou o tom. Exportovaný rozpočet (CSV a XLSX) uvádza podpis pod súčtami.
+Výkaz uložený mimo TakeoffDesk po podpise sa otvorí bez podpisu s poznámkou o tom. Exportovaný rozpočet (CSV a XLSX) uvádza podpis pod súčtami.
 
 Podpisuje iba osoba. AI asistent dokáže zistiť, či je rozpočet podpísaný, a ktoré jednotkové ceny chýbajú; nemá spôsob, ako podpísať.
 

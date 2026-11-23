@@ -32,11 +32,11 @@ Tame pačiame kiekių skaičiavime įklijuotos žymos patenka į **tas pačias p
 
 {{key:Mod+Shift+V}} ({{ui:Įklijuoti vietoje}}) padeda kopiją tiksliai toje pačioje vietoje atverto lapo, pagal jos padėtį puslapyje. Naudokite tipiniam aukštui: išmatuokite 2 aukštą, nukopijuokite, atverkite 3 aukštą ir įklijuokite vietoje.
 
-Įklijuoti vietoje reikia lapo **to paties dydžio** kaip tas, iš kurio kopijavote. Lape kitokio dydžio TakeoffCraft apie tai praneša ir nieko neįklijuoja; vietoje to naudokite {{ui:Įklijuoti}} ir spustelėkite. Lape, iš kurio kopijavote, kopija patenka ant originalų.
+Įklijuoti vietoje reikia lapo **to paties dydžio** kaip tas, iš kurio kopijavote. Lape kitokio dydžio TakeoffDesk apie tai praneša ir nieko neįklijuoja; vietoje to naudokite {{ui:Įklijuoti}} ir spustelėkite. Lape, iš kurio kopijavote, kopija patenka ant originalų.
 
 ## Mastelis turi sutapti
 
-Ilgiai ir plotai priklauso nuo lapo mastelio. Ruožas, kuris matuojamas 10' esant 1/4" = 1'-0", būtų 20' lape, kurio mastelis 1/8" = 1'-0". Todėl TakeoffCraft įklijuoja ruožus ir plotus tik į lapą, kurio **mastelis toks pat** kaip lapo, iš kurio jie atėjo, ir aiškiai pasako, kai taip nėra:
+Ilgiai ir plotai priklauso nuo lapo mastelio. Ruožas, kuris matuojamas 10' esant 1/4" = 1'-0", būtų 20' lape, kurio mastelis 1/8" = 1'-0". Todėl TakeoffDesk įklijuoja ruožus ir plotus tik į lapą, kurio **mastelis toks pat** kaip lapo, iš kurio jie atėjo, ir aiškiai pasako, kai taip nėra:
 
 - atverto lapo mastelis dar nenustatytas: pirmiausia nustatykite jį ([Nustatyti mastelį](topic:set-the-scale)), tada įklijuokite;
 - atverto lapo mastelis kitoks: pranešime nurodomi abu mastelius. Įklijuokite lape su tuo pačiu masteliu;
@@ -59,7 +59,7 @@ Pozicijos redaktorius (skiltyje **Pozicijos**) baigiasi:
 - {{ui:Dubliuoti elementą}}: iškart prideda kopiją pavadinimu „(pavadinimas) (kopija)“.
 
 :::tip
-Kopija lieka šiame kompiuteryje: ji saugoma šiame skirtuke ir naršyklės saugykloje, todėl kitas TakeoffCraft skirtukas gali ją įklijuoti. Niekas neįkeliama, o sistemos iškarpinė nenaudojama, todėl žymų į kitas programas įklijuoti negalima.
+Kopija lieka šiame kompiuteryje: ji saugoma šiame skirtuke ir naršyklės saugykloje, todėl kitas TakeoffDesk skirtukas gali ją įklijuoti. Niekas neįkeliama, o sistemos iškarpinė nenaudojama, todėl žymų į kitas programas įklijuoti negalima.
 :::
 
 :::note

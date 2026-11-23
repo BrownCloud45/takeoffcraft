@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, yol, dəmiryolu, körpü, asfalt, bordür, təb�
 from: 6b08c2c4
 ---
 
-IFC 4.3 faylı yolları, dəmiryollarını, körpüləri, dəniz işlərini və onları təşkil edən hissələri saxlaya bilər: asfalt örtükləri, təbəqələr, bordürlər, relslər, torpaq işləri, dayaqlar, qazıqlar və s. TakeoffCraft bunları oxuyur və qiymətləndirə biləcəyiniz yazılmış miqdarlara çevirir.
+IFC 4.3 faylı yolları, dəmiryollarını, körpüləri, dəniz işlərini və onları təşkil edən hissələri saxlaya bilər: asfalt örtükləri, təbəqələr, bordürlər, relslər, torpaq işləri, dayaqlar, qazıqlar və s. TakeoffDesk bunları oxuyur və qiymətləndirə biləcəyiniz yazılmış miqdarlara çevirir.
 
 ## Faylı açın
 
 1. **Fayl** qrupunda {{ui:Planları aç}} seçin və ya {{key:Mod+O}} basın.
-2. IFC faylını seçin (PDF-lərlə birlikdə seçə bilərsiniz) və ya TakeoffCraft-a buraxın.
+2. IFC faylını seçin (PDF-lərlə birlikdə seçə bilərsiniz) və ya TakeoffDesk-a buraxın.
 
 Hər sinif və əvvəlcədən təyin olunmuş növ üçün bir yazılmış miqdar yaradılır, məsələn "Asfalt (elastik): say", və fayl bunları bildirdikdə "uzunluq" m ilə, "sahə" m² ilə və "həcm" m³ ilə. Hər elementin qeydi neçə elementin sayıldığını və neçəsinin miqdar bildirmədiyini göstərir. Eyni adlı daha yeni faylı açmaq əlavə etmək əvəzinə həmin miqdarları yeniləyir.
 

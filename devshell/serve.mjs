@@ -1,16 +1,18 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * serve.mjs — run this app from a clone, without getcadcraft.com (docs/DEVSHELL.md). Node 20.19+, no packages.
+ * serve.mjs — run this app from a clone. Node 20.19+, no packages.
  *
- *   node devshell/serve.mjs [--port 8000] [--host 127.0.0.1] [--offline]
+ *   node devshell/serve.mjs [--port 8000] [--host 127.0.0.1] [--offline] [--mcp]
+ *   --mcp: an AI assistant (Claude Code, Claude Desktop, …) can use the open tab at http://127.0.0.1:<port>/mcp with the
+ *          token in devshell/.mcp-token (mcp-bridge.mjs, MCP.md)
  *   → open http://127.0.0.1:8000/   (?lang=es-MX or ?lang=en-XA for the pseudo-locale; ?space=model for dark)
  *
  * The page: `php devshell/render.php` on every load when PHP is installed (edits to ui.inc show at once), else the
  * pre-rendered devshell/index.html. URLs mirror the site so the build runs unchanged:
  *   /assets/apps/<slug>/dev/…        app/
- *   /assets/vendor/<lib>/<ver>/…     devshell/vendor/<lib>/<ver>/ — fetched once from getcadcraft.com by the exact
- *                                    version app.json pins (npm run fetch-vendor does them all up front);
+ *   /assets/vendor/<lib>/<ver>/…     devshell/vendor/<lib>/<ver>/ — fetched once from the npm registry by the exact
+ *                                    version and checksum vendor.json lists (npm run fetch-vendor does them all up front);
  *                                    --offline never fetches
  *   other /assets/…, /favicon.svg    devshell/site/ (the shared shell files, copied at pack time)
  * Nothing is cached by the browser (Cache-Control: no-store), so a reload always shows your edits.
@@ -20,6 +22,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { createBridge, loadToken } from './mcp-bridge.mjs';
+import { fetchVendor as fetchLib } from './fetch-vendor.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
@@ -28,7 +32,6 @@ const SITE = path.join(HERE, 'site');
 const VENDOR = path.join(HERE, 'vendor');
 const META = JSON.parse(fs.readFileSync(path.join(HERE, 'app.json'), 'utf8'));
 const SLUG = META.app.slug;
-const ORIGIN = META.origin || 'https://getcadcraft.com';
 
 const MIME = {
   '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8',
@@ -40,11 +43,12 @@ const MIME = {
 };
 
 export function parseArgs(argv) {
-  const o = { port: 8000, host: '127.0.0.1', offline: false };
+  const o = { port: 8000, host: '127.0.0.1', offline: false, mcp: false };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === '--port') o.port = Number(argv[++i]);
     else if (argv[i] === '--host') o.host = argv[++i];
     else if (argv[i] === '--offline') o.offline = true;
+    else if (argv[i] === '--mcp') o.mcp = true;
   }
   return o;
 }
@@ -70,15 +74,11 @@ export function mapUrl(pathname) {
   return null;
 }
 
-async function fetchVendor(v, file) {
-  const url = `${ORIGIN}/assets/vendor/${v.lib}/${v.ver}/${v.rest}`;
-  const r = await fetch(url);
-  if (!r.ok) return false;
-  const buf = Buffer.from(await r.arrayBuffer());
-  fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file + '.part', buf);
-  fs.renameSync(file + '.part', file);
-  return true;
+/** A missing library file: its whole library from npm, once (fetch-vendor.mjs checks every file). */
+const fetching = new Map();
+async function fetchVendor(v) {
+  if (!fetching.has(v.lib)) fetching.set(v.lib, fetchLib({ only: v.lib, quiet: true }).then((r) => { for (const f of r.failed) console.error('library: ' + f); }).finally(() => fetching.delete(v.lib)));
+  return fetching.get(v.lib);
 }
 
 function renderPage(query) {
@@ -99,8 +99,11 @@ export function start(opts = {}) {
   const isolate = (() => {
     try { return JSON.parse(fs.readFileSync(path.join(APP_DIR, 'manifest.json'), 'utf8')).isolate || ''; } catch { return ''; }
   })();
+  if (o.mcp && !['127.0.0.1', 'localhost', '::1'].includes(o.host)) throw new Error('--mcp works only on this computer: leave --host at 127.0.0.1.');
+  const bridge = o.mcp ? createBridge({ token: o.mcpToken || loadToken(path.join(HERE, '.mcp-token')), port: o.port, log: o.log || ((m) => console.log('[mcp] ' + m)) }) : null;
   const server = http.createServer(async (req, res) => {
     const u = new URL(req.url, 'http://x');
+    if (bridge && await bridge.handle(req, res, u)) return;
     const head = { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' };
     if (['require-corp', 'credentialless'].includes(isolate)) {
       head['Cross-Origin-Opener-Policy'] = 'same-origin';
@@ -113,7 +116,8 @@ export function start(opts = {}) {
         res.writeHead(500, { ...head, 'Content-Type': 'text/plain; charset=utf-8' });
         return res.end('render.php failed:\n' + r.error);
       }
-      const html = r ? r.html : fs.readFileSync(path.join(HERE, 'index.html'), 'utf8');
+      let html = r ? r.html : fs.readFileSync(path.join(HERE, 'index.html'), 'utf8');
+      if (bridge) html = bridge.inject(html);
       res.writeHead(200, { ...head, 'Content-Type': MIME['.html'] });
       return res.end(req.method === 'HEAD' ? undefined : html);
     }
@@ -122,7 +126,7 @@ export function start(opts = {}) {
     let file = hit.file;
     if (fs.existsSync(file) && fs.statSync(file).isDirectory()) { res.writeHead(404, head); return res.end(); }
     if (!fs.existsSync(file) && hit.vendor && !o.offline) {
-      try { await fetchVendor(hit.vendor, file); } catch (e) { console.error('vendor fetch failed:', e.message); }
+      try { await fetchVendor(hit.vendor); } catch (e) { console.error('vendor fetch failed:', e.message); }
     }
     if (!fs.existsSync(file)) { res.writeHead(404, head); return res.end('Not found: ' + u.pathname); }
     const type = MIME[path.extname(file).toLowerCase()] || 'application/octet-stream';
@@ -137,4 +141,8 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const o = parseArgs(process.argv.slice(2));
   await start(o);
   console.log(`${META.app.name} dev shell: http://${o.host}:${o.port}/  (Ctrl+C to stop)`);
+  if (o.mcp) {
+    console.log(`AI assistants: http://127.0.0.1:${o.port}/mcp  token in devshell/.mcp-token (devshell/MCP.md)`);
+    console.log('  Then in the app: Settings › TakeoffDesk › Assistants › tick "Let AI assistants and scripts use TakeoffDesk".');
+  }
 }

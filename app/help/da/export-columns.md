@@ -77,7 +77,7 @@ Hvert område afsluttes med en række "(navn) delsum", hvis omkostninger er `SUM
 | Ark | Arknavn |
 | Målestok | Forudindstillingens navn, den kalibrerede målestok, eller "Ingen målestok" |
 | Hvordan | "Forudindstilling", eller "Kalibreret ud fra (den afstand du angav)" |
-| Fod pr. PDF-enhed | Den præcise målestoksfaktor, TakeoffCraft bruger |
+| Fod pr. PDF-enhed | Den præcise målestoksfaktor, TakeoffDesk bruger |
 
 ## Filnavne
 

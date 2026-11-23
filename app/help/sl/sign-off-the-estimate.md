@@ -19,9 +19,9 @@ V **Količine › Po postavkah** vrstica, ki ima količino in nima materialne al
 2. Pogovorno okno navede znesek, ki ga podpisujete, in našteje vrstice brez cene. Vpišite svoje ime in, če želite, svojo vlogo.
 3. Kliknite **Podpiši**. Vrstica zdaj piše „Podpis: … dne …“ z zneskom. Shranite predizmero, da ga ohranite v datoteki.
 
-Podpis velja za zneske, ki ste jih podpisali. Vsaka poznejša sprememba količine, cene ali vrstice ga izbriše, TakeoffCraft pa vas o tem obvesti. Razveljavitev vrne predračun, ki ste ga podpisali, in z njim tudi njegov podpis. Preimenovanje vrstice ni sprememba zneska. **Odstrani podpis** ga odstrani.
+Podpis velja za zneske, ki ste jih podpisali. Vsaka poznejša sprememba količine, cene ali vrstice ga izbriše, TakeoffDesk pa vas o tem obvesti. Razveljavitev vrne predračun, ki ste ga podpisali, in z njim tudi njegov podpis. Preimenovanje vrstice ni sprememba zneska. **Odstrani podpis** ga odstrani.
 
-Datoteka predizmere, ki je bila po podpisu urejena zunaj TakeoffCraft, se odpre brez podpisa, z opombo o tem. Izvoženi predračun (CSV in XLSX) navede podpis pod skupnimi zneski.
+Datoteka predizmere, ki je bila po podpisu urejena zunaj TakeoffDesk, se odpre brez podpisa, z opombo o tem. Izvoženi predračun (CSV in XLSX) navede podpis pod skupnimi zneski.
 
 Podpiše samo oseba. Pomočnik z umetno inteligenco lahko prebere, ali je predračun podpisan in katere cene manjkajo; podpisati ga ne more.
 

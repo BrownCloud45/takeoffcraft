@@ -5,14 +5,14 @@ keywords: revisión, revisado, comparar, superposición, antigo, novo, cambios, 
 from: 3a1d9fe0
 ---
 
-Cando unha folla se emite de novo, non ten que volver medila. Abra o PDF antigo e o novo, compare as dúas follas e mova a medición. TakeoffCraft sinala cada marca onde o debuxo cambiou, para que as comprobe e conserve o resto.
+Cando unha folla se emite de novo, non ten que volver medila. Abra o PDF antigo e o novo, compare as dúas follas e mova a medición. TakeoffDesk sinala cada marca onde o debuxo cambiou, para que as comprobe e conserve o resto.
 
 ## Comparar
 
 1. Abra os dous PDF: o conxunto antigo e o revisado ({{ui:Abrir planos}}; poden estar nun ficheiro ou en varios).
 2. Mostre a folla **nova**.
 3. Escolla {{ui:Comparar}} na barra da folla, debaixo do debuxo.
-4. Escolla a folla antiga na lista. TakeoffCraft suxire a folla co mesmo número do outro PDF, ou a mesma páxina. Escolla **Comparar**.
+4. Escolla a folla antiga na lista. TakeoffDesk suxire a folla co mesmo número do outro PDF, ou a mesma páxina. Escolla **Comparar**.
 
 O debuxo antigo sitúase agora sobre o novo en vermello. Onde coinciden, as liñas vermellas quedan sobre as negras; onde difiren, ve só liñas vermellas (eliminadas) e só liñas negras (engadidas). Unha barra na parte inferior da folla contén os pasos seguintes; {{key:Esc}} ou {{ui:Pechar}} remata a comparación.
 
@@ -29,7 +29,7 @@ O debuxo vermello móvese, xírase e escálase sobre o negro. A barra de estado 
 
 ## Buscar cambios
 
-Escolla **Buscar cambios**. TakeoffCraft compara a tinta dos dous debuxos: a tinta só da folla antiga volve vermella, a tinta só da folla nova volve azul, e a barra de estado conta-as. As liñas que se moveron un pouco (un novo trazado) non se contan como cambios.
+Escolla **Buscar cambios**. TakeoffDesk compara a tinta dos dous debuxos: a tinta só da folla antiga volve vermella, a tinta só da folla nova volve azul, e a barra de estado conta-as. As liñas que se moveron un pouco (un novo trazado) non se contan como cambios.
 
 Tamén mira cada marca da folla antiga e conta as que están onde o debuxo cambiou:
 
@@ -40,7 +40,7 @@ Tamén mira cada marca da folla antiga e conta as que están onde o debuxo cambi
 
 Escolla **Mover a medición aquí**. Cada marca da folla antiga pasa á nova, a través do aliñamento, nun só paso para desfacer. As que están xunto a un cambio sinálanse: debuxanse cun halo laranxa, e a barra da folla mostra «(n) por comprobar».
 
-Se a nova folla non tiña escala, toma a escala da folla antiga (axustada cando os debuxos tiveron que escalarse para aliñarse). Se xa tiña unha escala diferente, TakeoffCraft pregunta primeiro: as marcas movidas miden-se á escala da nova folla.
+Se a nova folla non tiña escala, toma a escala da folla antiga (axustada cando os debuxos tiveron que escalarse para aliñarse). Se xa tiña unha escala diferente, TakeoffDesk pregunta primeiro: as marcas movidas miden-se á escala da nova folla.
 
 ## Comprobar as marcas sinaladas
 

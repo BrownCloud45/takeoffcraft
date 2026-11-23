@@ -14,7 +14,7 @@ En räkningspost räknar saker: dörrar, belysningsarmaturer, uttag, VVS-armatur
 3. Klicka på varje en på bladet.
    Varje klick lägger en pricka i postens färg, och postens antal ökar med ett.
 4. Gå till nästa blad ({{key:PageDown}}) och fortsätt räkna. Verktyget står kvar på {{ui:Räkna}}.
-5. Tryck {{key:Esc}} när du är klar. TakeoffCraft återgår till {{ui:Markera}}.
+5. Tryck {{key:Esc}} när du är klar. TakeoffDesk återgår till {{ui:Markera}}.
 
 Dra fortfarande panorerar och hjulet zoomar medan du räknar, så att du kan flytta dig runt bladet utan att lägga till prickar.
 
@@ -30,7 +30,7 @@ Klicka på räkningsposten för att markera dess prickar på varje blad. Bladlis
 
 ## Pricksstorlek, på skärmen och i PDF:en
 
-Prickarna behåller samma storlek på skärmen hur mycket du än zoomar. För att ändra den öppnar du {{ui:Inställningar}}, fliken TakeoffCraft, och väljer **Storlek på räkningsmarkör**: Extra liten, Liten, Medium (standard) eller Stor.
+Prickarna behåller samma storlek på skärmen hur mycket du än zoomar. För att ändra den öppnar du {{ui:Inställningar}}, fliken TakeoffDesk, och väljer **Storlek på räkningsmarkör**: Extra liten, Liten, Medium (standard) eller Stor.
 
 PDF-exporten ({{ui:Exportera}} › den markerade PDF:en) ritar varje pricka i samma storlek på papper, oavsett bladets storlek: en visare som visar PDF:en i 100 % ser prickarna lika stora som de är på skärmen. Där prickarna på ett blad ändå skulle röra vid varandra gör exporten prickarna på just det bladet mindre, så att var och en kan läsas.
 

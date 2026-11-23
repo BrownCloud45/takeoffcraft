@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Simpan takeoff semasa jika anda mahu menyimpannya: {{ui:Simpan takeoff}} atau {{key:Mod+S}}.
 2. Pilih {{ui:Baharu}} dalam kumpulan {{ui:Fail}}.
-3. Jika terdapat perubahan yang belum disimpan, TakeoffCraft bertanya **Takeoff belum disimpan**: pilih {{ui:Simpan pengukuran kuantiti dahulu}} (ia memuat turun projek, kemudian mengosongkan), {{ui:Buang perubahan}}, atau {{ui:Batal}}.
+3. Jika terdapat perubahan yang belum disimpan, TakeoffDesk bertanya **Takeoff belum disimpan**: pilih {{ui:Simpan pengukuran kuantiti dahulu}} (ia memuat turun projek, kemudian mengosongkan), {{ui:Buang perubahan}}, atau {{ui:Batal}}.
    Tetingkap kembali ke keadaan kosongnya: tiada PDF, tiada item, tiada tanda, tiada skala. Bar status menyatakan "Takeoff baharu. Buka PDF untuk bermula."
 
 Apa yang dikosongkan:

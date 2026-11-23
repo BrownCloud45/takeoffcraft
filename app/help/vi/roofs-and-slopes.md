@@ -5,7 +5,7 @@ keywords: mái, độ dốc, dốc, hệ số dốc, độ cao, chiều ngang, 6
 from: 38225b60
 ---
 
-Mặt bằng mái thể hiện mỗi mặt phẳng mái ở dạng phẳng, nhìn từ trên xuống. Bản thân mái lớn hơn: một mặt phẳng ở 6:12 có bề mặt lớn hơn khoảng 12% so với mặt bằng của nó, và các cạnh nghiêng của nó dài hơn vẻ ngoài. Đặt độ dốc cho hạng mục, và TakeoffCraft sẽ đo dọc theo mặt nghiêng.
+Mặt bằng mái thể hiện mỗi mặt phẳng mái ở dạng phẳng, nhìn từ trên xuống. Bản thân mái lớn hơn: một mặt phẳng ở 6:12 có bề mặt lớn hơn khoảng 12% so với mặt bằng của nó, và các cạnh nghiêng của nó dài hơn vẻ ngoài. Đặt độ dốc cho hạng mục, và TakeoffDesk sẽ đo dọc theo mặt nghiêng.
 
 ## Nhập độ dốc
 

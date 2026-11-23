@@ -1,6 +1,6 @@
 ---
 title: Klávesnica a myš
-summary: Každý kláves, myš, touchpad a dotykové gesto v TakeoffCraft, zoskupené, s rozdielmi medzi platformami.
+summary: Každý kláves, myš, touchpad a dotykové gesto v TakeoffDesk, zoskupené, s rozdielmi medzi platformami.
 keywords: klávesy, skratky, klávesové skratky, klávesnica, myš, touchpad, dotyk, posun, zväčšenie, koliesko, pravé tlačidlo, dvojklik, medzerník, shift, kopírovať, prilepiť, vystrihnúť, duplikovať, vybrať všetko
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Pozrite si [Skontrolovať výkaz v 3D](topic:check-in-3d).
 | Kláves | Čo robí |
 |---|---|
 | {{key:F1}} | Otvorí alebo zatvorí panel pomocníka (tiež tlačidlo {{ui:Pomocník}} na lište aplikácie). Funguje vo všetkých nástrojoch, aj keď píšete do poľa. |
-| {{key:Esc}} | Zatvorí panel pomocníka. V jeho vyhľadávacom poli prvý Esc vymaže hľadanie. Keď je panel otvorený, Esc stlačený po kliknutí na list najprv zatvorí panel; stlačte ho znova, ak chcete zrušiť v TakeoffCraft. |
+| {{key:Esc}} | Zatvorí panel pomocníka. V jeho vyhľadávacom poli prvý Esc vymaže hľadanie. Keď je panel otvorený, Esc stlačený po kliknutí na list najprv zatvorí panel; stlačte ho znova, ak chcete zrušiť v TakeoffDesk. |
 
 :::mac
 Na mnohých klávesniciach Mac horný rad ovláda jas a zvuk. Stlačte fn spolu s F1 alebo zapnite "Používať klávesy F1, F2 atď. ako štandardné funkčné klávesy" v Systémových nastaveniach v časti Klávesnica.
@@ -139,7 +139,7 @@ Na mnohých klávesniciach Mac horný rad ovláda jas a zvuk. Stlačte fn spolu 
 
 :::mac
 - {{key:Mod}} je kláves Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Výnimkou je celá obrazovka: Control+Shift+F.
-- Pravé kliknutie je kliknutie dvoma prstami na trackpade, keď je sekundárne kliknutie zapnuté v Systémových nastaveniach v časti Trackpad. TakeoffCraft číta len sekundárne tlačidlo; kliknutie s Control môže byť počítané ako obyčajné kliknutie a pridať bod.
+- Pravé kliknutie je kliknutie dvoma prstami na trackpade, keď je sekundárne kliknutie zapnuté v Systémových nastaveniach v časti Trackpad. TakeoffDesk číta len sekundárne tlačidlo; kliknutie s Control môže byť počítané ako obyčajné kliknutie a pridať bod.
 - Ťah dvoma prstami na trackpade priblíži list (neposúva ho). Ak ho chcete posunúť, stlačte a potiahnite alebo podržte Space a potiahnite.
 - Page Up a Page Down sú fn so šípkami nahor a nadol na klávesniciach, ktoré ich nemajú.
 - Backspace je kláves označený "delete".
@@ -151,12 +151,12 @@ Na mnohých klávesniciach Mac horný rad ovláda jas a zvuk. Stlačte fn spolu 
 :::
 
 :::linux
-- {{key:Mod}} je Ctrl. Niektoré pracovné prostredia majú vlastné skratky s Ctrl+Alt alebo Super; TakeoffCraft žiadnu z nich nepoužíva.
+- {{key:Mod}} je Ctrl. Niektoré pracovné prostredia majú vlastné skratky s Ctrl+Alt alebo Super; TakeoffDesk žiadnu z nich nepoužíva.
 - Na touchpade ťah dvoma prstami priblíži list. Ak ho chcete posunúť, stlačte a potiahnite.
 :::
 
 :::touch
-TakeoffCraft číta dotyk ako jeden ukazovateľ:
+TakeoffDesk číta dotyk ako jeden ukazovateľ:
 
 - Klepnutie umiestni bod, vyberie značku alebo pridá bodku počtu.
 - Potiahnutie jedným prstom posúva list (v {{ui:Automatický počet}} nakreslí vyhľadávacie pole).
@@ -169,7 +169,7 @@ Na prácu s výkazom výmer je dnes lepšia klávesnica a myš alebo trackpad.
 
 ## Klávesy, ktoré si prehliadač necháva
 
-Prehliadače si niektoré skratky ponechávajú pre seba a stránka ich nemôže použiť: zatvorenie karty ({{key:Mod+W}}), nová karta alebo okno ({{key:Mod+T}}, {{key:Mod+N}}) a zväčšenie v prehliadači ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Preto TakeoffCraft priblíži list kolieskom a samotnými klávesmi {{key:Plus}} a {{key:Minus}}. Ak omylom stlačíte {{key:Mod+Plus}}, celá stránka sa zväčší; {{key:Mod+0}} ju vráti späť. Pozrite si [Klávesy, myš a trackpad](common:keys).
+Prehliadače si niektoré skratky ponechávajú pre seba a stránka ich nemôže použiť: zatvorenie karty ({{key:Mod+W}}), nová karta alebo okno ({{key:Mod+T}}, {{key:Mod+N}}) a zväčšenie v prehliadači ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Preto TakeoffDesk priblíži list kolieskom a samotnými klávesmi {{key:Plus}} a {{key:Minus}}. Ak omylom stlačíte {{key:Mod+Plus}}, celá stránka sa zväčší; {{key:Mod+0}} ju vráti späť. Pozrite si [Klávesy, myš a trackpad](common:keys).
 
 ## Kde je príkaz Presunúť
 

@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, silnice, železnice, most, vozovka, vrstva, obru
 from: 6b08c2c4
 ---
 
-Soubor IFC 4.3 může obsahovat silnice, železnice, mosty, vodní stavby a jejich části: vozovky, vrstvy, obrubníky, kolejnice, zemní práce, ložiska, piloty a další. TakeoffCraft je čte a převádí na typovaná množství, která můžete oceňovat.
+Soubor IFC 4.3 může obsahovat silnice, železnice, mosty, vodní stavby a jejich části: vozovky, vrstvy, obrubníky, kolejnice, zemní práce, ložiska, piloty a další. TakeoffDesk je čte a převádí na typovaná množství, která můžete oceňovat.
 
 ## Otevření souboru
 
 1. Zvolte {{ui:Open plans}} ve skupině {{ui:File}}, nebo stiskněte {{key:Mod+O}}.
-2. Vyberte soubor IFC (můžete ho vybrat spolu s PDF), nebo ho přetáhněte na TakeoffCraft.
+2. Vyberte soubor IFC (můžete ho vybrat spolu s PDF), nebo ho přetáhněte na TakeoffDesk.
 
 Pro každou třídu a předdefinovaný typ se vytvoří jedno typované množství, například "Vozovka (pružná): počet", a pokud je soubor uvádí, také "délka" v m, "plocha" v m² a "objem" v m³. Poznámka u každé položky říká, kolik prvků bylo spočítáno a kolik nemělo uvedené množství. Otevření novějšího souboru se stejným názvem tato množství aktualizuje, místo aby přidávalo další.
 

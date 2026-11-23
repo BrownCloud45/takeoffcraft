@@ -32,11 +32,11 @@ Inklistrade markeringar hamnar i det anbudsområde som väljs överst i panelen 
 
 {{key:Mod+Shift+V}} ({{ui:Klistra in på plats}}) lägger kopian på exakt samma ställe på det öppna bladet, efter dess position på sidan. Använd det för en typisk våning: mängdavtaga våning 2, kopiera, öppna våning 3, klistra in på plats.
 
-Klistra in på plats kräver ett blad i **samma storlek** som det du kopierade från. På ett blad i en annan storlek säger TakeoffCraft det och klistrar inte in något; använd {{ui:Klistra in}} och klicka i stället. På bladet du kopierade från hamnar kopian ovanpå originalen.
+Klistra in på plats kräver ett blad i **samma storlek** som det du kopierade från. På ett blad i en annan storlek säger TakeoffDesk det och klistrar inte in något; använd {{ui:Klistra in}} och klicka i stället. På bladet du kopierade från hamnar kopian ovanpå originalen.
 
 ## Skalan måste stämma
 
-Längder och ytor beror på bladets skala. En sträcka som mäter 10' vid 1/4" = 1'-0" skulle mäta 20' på ett blad vid 1/8" = 1'-0". Därför klistrar TakeoffCraft bara in sträckor och ytor på ett blad med **samma skala** som bladet de kom från, och säger tydligt när det inte gör det:
+Längder och ytor beror på bladets skala. En sträcka som mäter 10' vid 1/4" = 1'-0" skulle mäta 20' på ett blad vid 1/8" = 1'-0". Därför klistrar TakeoffDesk bara in sträckor och ytor på ett blad med **samma skala** som bladet de kom från, och säger tydligt när det inte gör det:
 
 - Det öppna bladet har ingen skala ännu: ge det en först ([Ställ in skalan](topic:set-the-scale)), och klistra sedan in.
 - Det öppna bladet har en annan skala: meddelandet anger båda skalorna. Klistra in på ett blad med samma skala.
@@ -59,7 +59,7 @@ Postredigeraren (under **Poster**) slutar med:
 - {{ui:Duplicera post}}: lägger till en kopia direkt, med namnet ”(namn) (kopia)”.
 
 :::tip
-Kopian stannar på den här datorn: den sparas i den här fliken och i webbläsarens lagring, så att en annan TakeoffCraft-flik kan klistra in den. Ingenting laddas upp, och systemets urklipp används inte, så du kan inte klistra in markeringar i andra program.
+Kopian stannar på den här datorn: den sparas i den här fliken och i webbläsarens lagring, så att en annan TakeoffDesk-flik kan klistra in den. Ingenting laddas upp, och systemets urklipp används inte, så du kan inte klistra in markeringar i andra program.
 :::
 
 :::note

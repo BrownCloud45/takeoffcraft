@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * probe-light.js — the light probe for the hardware report of the apps that carry no compute engine (0.7 HW.2: CadCraft,
- * MarkupCraft, TakeoffCraft, CivilCraft, DetailCraft, PartCraft; the shell's assets/js/app-hardware.js runs it). Same facts
+ * MarkupCraft, TakeoffDesk, CivilCraft, DetailCraft, PartCraft; the shell's assets/js/app-hardware.js runs it). Same facts
  * shape as probe.js, so report.js and HardwareReports read it unchanged; what costs more than asking is left out:
  *   - the WebGPU adapter: requested (its info, limits and four feature flags), never a device, a buffer or a shader
  *   - WebGL 2: not created (a second GL context next to the app's own drawing is not cheap) → webgl2 null

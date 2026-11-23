@@ -1,6 +1,6 @@
 ---
 title: Teclat i ratolí
-summary: Totes les tecles i accions amb ratolí, panell tàctil i tàctil a TakeoffCraft, agrupades, amb les diferències entre plataformes.
+summary: Totes les tecles i accions amb ratolí, panell tàctil i tàctil a TakeoffDesk, agrupades, amb les diferències entre plataformes.
 keywords: tecles, dreceres, tecles de drecera, teclat, ratolí, panell tàctil, tàctil, desplaça, zoom, roda, clic dret, doble clic, espai, shift, copia, enganxa, retalla, duplica, selecciona-ho tot
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Vegeu [Comprova l'amidament en 3D](topic:check-in-3d).
 | Tecla | Què fa |
 |---|---|
 | {{key:F1}} | Obre o tanca el panell d'ajuda (també el botó {{ui:Ajuda}} de la barra de l'aplicació). Funciona a totes les eines, fins i tot mentre escriviu en un camp. |
-| {{key:Esc}} | Tanca el panell d'ajuda. Al seu quadre de cerca, el primer Esc esborra la cerca. Mentre el panell és obert, un Esc premut després de fer clic al full tanca primer el panell; premeu-lo de nou per cancel·lar a TakeoffCraft. |
+| {{key:Esc}} | Tanca el panell d'ajuda. Al seu quadre de cerca, el primer Esc esborra la cerca. Mentre el panell és obert, un Esc premut després de fer clic al full tanca primer el panell; premeu-lo de nou per cancel·lar a TakeoffDesk. |
 
 :::mac
 A molts teclats de Mac, la fila superior controla la brillantor i el so. Premeu fn amb F1, o activeu "Usa les tecles F1, F2, etc. com a tecles de funció estàndard" a Configuració del sistema, dins de Teclat.
@@ -139,7 +139,7 @@ A molts teclats de Mac, la fila superior controla la brillantor i el so. Premeu 
 
 :::mac
 - {{key:Mod}} és la tecla Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Pantalla completa n'és l'excepció: Control+Shift+F.
-- El clic dret és un clic amb dos dits al panell tàctil, quan el clic secundari està activat a Configuració del sistema, dins de Trackpad. TakeoffCraft només llegeix el botó secundari; un clic amb Control pot comptar com un clic simple i afegir un punt.
+- El clic dret és un clic amb dos dits al panell tàctil, quan el clic secundari està activat a Configuració del sistema, dins de Trackpad. TakeoffDesk només llegeix el botó secundari; un clic amb Control pot comptar com un clic simple i afegir un punt.
 - Els dos dits que llisquen al panell tàctil fan zoom al full (no el desplacen). Per desplaçar-lo, premeu i arrossegueu, o mantingueu Espai i arrossegueu.
 - Page Up i Page Down són fn amb les fletxes amunt i avall, als teclats que no les tenen.
 - Backspace és la tecla que diu delete.
@@ -151,12 +151,12 @@ A molts teclats de Mac, la fila superior controla la brillantor i el so. Premeu 
 :::
 
 :::linux
-- {{key:Mod}} és Ctrl. Alguns escriptoris fan servir dreceres pròpies amb Ctrl+Alt o Super; TakeoffCraft no n'utilitza cap.
+- {{key:Mod}} és Ctrl. Alguns escriptoris fan servir dreceres pròpies amb Ctrl+Alt o Super; TakeoffDesk no n'utilitza cap.
 - Al panell tàctil, un lliscament de dos dits fa zoom al full. Per desplaçar-lo, premeu i arrossegueu.
 :::
 
 :::touch
-TakeoffCraft llegeix el tàctil com un únic punter:
+TakeoffDesk llegeix el tàctil com un únic punter:
 
 - Un toc col·loca un punt, selecciona una marca o afegeix un punt de recompte.
 - Arrossegar amb un dit desplaça el full (a {{ui:Recompte automàtic}} dibuixa el quadre de cerca).
@@ -169,7 +169,7 @@ Avui, un teclat i un ratolí o panell tàctil són la millor manera de fer amida
 
 ## Tecles que reserva el navegador
 
-Els navegadors reserven algunes dreceres per a ells mateixos, i una pàgina no les pot fer servir: tancar la pestanya ({{key:Mod+W}}), pestanya o finestra nova ({{key:Mod+T}}, {{key:Mod+N}}) i el zoom del navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Per això TakeoffCraft fa zoom al full amb la roda i amb les tecles {{key:Plus}} i {{key:Minus}} sense modificadors. Si premeu {{key:Mod+Plus}} per error, tota la pàgina creix; {{key:Mod+0}} la torna a la mida. Vegeu [Tecles, ratolins i panells tàctils](common:keys).
+Els navegadors reserven algunes dreceres per a ells mateixos, i una pàgina no les pot fer servir: tancar la pestanya ({{key:Mod+W}}), pestanya o finestra nova ({{key:Mod+T}}, {{key:Mod+N}}) i el zoom del navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Per això TakeoffDesk fa zoom al full amb la roda i amb les tecles {{key:Plus}} i {{key:Minus}} sense modificadors. Si premeu {{key:Mod+Plus}} per error, tota la pàgina creix; {{key:Mod+0}} la torna a la mida. Vegeu [Tecles, ratolins i panells tàctils](common:keys).
 
 ## On és Mou
 

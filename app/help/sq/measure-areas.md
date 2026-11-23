@@ -41,7 +41,7 @@ Kur dhomat janë vizatuar si mure të mbyllura, {{ui:Dhoma}} ({{key:B}}) heq nj�
 2. Zgjidh {{ui:Dhoma}} në grupin {{ui:Llogaritja}}, ose shtyp {{key:B}}.
 3. Kliko brenda një dhome, në dyshemenë e hapur (jo mbi një vijë ose etiketë).
 
-TakeoffCraft lexon vijat e fletës, gjen hapësirën rreth klikimit dhe e konturon përgjatë faqeve të brendshme të mureve, si sipërfaqe të artikullit aktual. Hapjet e dyerve deri në **4'-0"** trajtohen si të mbyllura, kështu që kontura kalon drejt përtej derës; **Cilësimet › TakeoffCraft › Mbushja e dhomës mbyll hapjet deri në** e ndryshon atë gjerësi (3'-0" deri 8'-0"). Emrat e dhomave, mobiljet dhe pajisjet brenda dhomës nuk bëjnë vrima.
+TakeoffDesk lexon vijat e fletës, gjen hapësirën rreth klikimit dhe e konturon përgjatë faqeve të brendshme të mureve, si sipërfaqe të artikullit aktual. Hapjet e dyerve deri në **4'-0"** trajtohen si të mbyllura, kështu që kontura kalon drejt përtej derës; **Cilësimet › TakeoffDesk › Mbushja e dhomës mbyll hapjet deri në** e ndryshon atë gjerësi (3'-0" deri 8'-0"). Emrat e dhomave, mobiljet dhe pajisjet brenda dhomës nuk bëjnë vrima.
 
 Refuzon, duke thënë arsyen, kur:
 
@@ -62,7 +62,7 @@ Kur një derë është më e gjerë se cilësimi, mbushja hyn në dhomën tjetë
 
 Për një vrimë rrethore, zgjidh {{ui:Shto një hapje rrethore}} nën **Shenjën e zgjedhur**, kliko qendrën, pastaj një pikë në buzën e saj.
 
-Një hapje duhet të jetë plotësisht brenda sipërfaqes dhe të mos mbivendoset me një hapje tjetër. Përndryshe TakeoffCraft e refuzon: "Një hapje duhet të jetë plotësisht brenda sipërfaqes." ose "Hapjet nuk mund të mbivendosen me njëra-tjetrën."
+Një hapje duhet të jetë plotësisht brenda sipërfaqes dhe të mos mbivendoset me një hapje tjetër. Përndryshe TakeoffDesk e refuzon: "Një hapje duhet të jetë plotësisht brenda sipërfaqes." ose "Hapjet nuk mund të mbivendosen me njëra-tjetrën."
 
 Për të hequr vrimën e fundit, zgjidh {{ui:Hiq hapjen e fundit}}.
 
@@ -76,7 +76,7 @@ Një hapje i takon një shenje sipërfaqeje. Një **zbritje prapa** (back-out) v
 
 Çdo shenjë sipërfaqeje e një artikulli të zgjedhur në të njëjtën fletë humbet pjesën që mbulon një zbritje prapa: e gjithë zbritja kur ndodhet brenda, vetëm pjesa e mbivendosur kur kalon skajin, dhe asgjë brenda një hapjeje. Paneli i sipërfaqes së zgjedhur shfaq **Zbritjet prapa** dhe sipërfaqen që mbetet. Sasia e artikullit, formulat e montimit, kostot, pamja 3D e kontrollit dhe eksportimi përdorin sipërfaqen që mbetet; shënimet e preventivit thonë sa morën zbritjet prapa. Vetë artikulli i zbritjes numëron sipërfaqen e tij (lëri kostot në zero nëse nuk e çmon).
 
-Një zbritje prapa duhet të jetë **konveks**: një drejtkëndësh, një rreth ose çdo kontur pa kënd të brendshëm. TakeoffCraft refuzon ta vizatosh një të tillë; vizato një shaft në formë L si dy zbritje prapa. Zbritjet prapa nuk mund të kenë hapje, dhe dy zbritje prapa që mbivendosen me njëra-tjetrën numërohen të dyja.
+Një zbritje prapa duhet të jetë **konveks**: një drejtkëndësh, një rreth ose çdo kontur pa kënd të brendshëm. TakeoffDesk refuzon ta vizatosh një të tillë; vizato një shaft në formë L si dy zbritje prapa. Zbritjet prapa nuk mund të kenë hapje, dhe dy zbritje prapa që mbivendosen me njëra-tjetrën numërohen të dyja.
 
 Perimetri (`P`) nuk ndryshon: zbritjet prapa heqin vetëm sipërfaqe.
 

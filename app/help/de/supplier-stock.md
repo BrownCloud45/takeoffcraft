@@ -1,6 +1,6 @@
 ---
 title: Lieferantenbestand und Lieferzeiten prüfen
-summary: Fügen Sie die Bestandsliste eines Lieferanten (CSV oder Tabelle) hinzu. TakeoffCraft prüft damit, was die Mengenermittlung braucht, einschließlich Verschnitt: genug auf Lager und wie lang die Wartezeit ist. Fehlmengen und lange Wartezeiten erscheinen im Bereich „Probleme“.
+summary: Fügen Sie die Bestandsliste eines Lieferanten (CSV oder Tabelle) hinzu. TakeoffDesk prüft damit, was die Mengenermittlung braucht, einschließlich Verschnitt: genug auf Lager und wie lang die Wartezeit ist. Fehlmengen und lange Wartezeiten erscheinen im Bereich „Probleme“.
 keywords: Lieferant, Bestand, auf Lager, Lieferzeit, Verfügbarkeit, Fehlmenge, Nachbestellung, Bestellliste, csv, SKU, Verkäufer, Materialien, Lieferung, Probleme
 from: f11160fb
 ---

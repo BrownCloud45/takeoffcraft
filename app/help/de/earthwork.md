@@ -5,7 +5,7 @@ keywords: Erdarbeiten, Aushub, Abtrag, Auftrag, Abtrag und Auftrag, Geländemode
 from: a898e508
 ---
 
-TakeoffCraft misst, was auf einem Blatt gezeichnet ist. Erdarbeiten brauchen eine Geländeoberfläche und werden daher mit CivilCraft geteilt. CivilCraft erstellt Geländemodelle aus Punkten, modelliert sie und berechnet Abtrag, Auftrag und Massenlinie.
+TakeoffDesk misst, was auf einem Blatt gezeichnet ist. Erdarbeiten brauchen eine Geländeoberfläche und werden daher mit CivilCraft geteilt. CivilCraft erstellt Geländemodelle aus Punkten, modelliert sie und berechnet Abtrag, Auftrag und Massenlinie.
 
 ## Einfacher Aushub hier
 
@@ -29,8 +29,8 @@ Punkte verschiedener Blätter teilen keine Koordinaten, daher exportiert der Exp
 
 Die Erdarbeiten aus CivilCraft kommen als zwei Positionen zurück, die Sie bepreisen können:
 
-1. Modellieren Sie in CivilCraft Ihre Bauplätze und Korridore und wählen Sie dann unter **Erdarbeiten** {{ui:An TakeoffCraft senden}} ([Erdmassen](app:civilcraft/volumes)). Es speichert eine Mengendatei (`.quantities.json`).
-2. Öffnen Sie sie in TakeoffCraft mit {{ui:Ermittlung öffnen}} oder ziehen Sie sie in die App. Ihre Ermittlung bleibt geöffnet: Die Datei fügt **Erdarbeiten: Abtrag** und **Erdarbeiten: Auftrag** als [eingegebene Mengen](topic:create-items#typed-quantities-no-drawing) hinzu, in Kubikyard (CY) für ein Projekt in Fuß oder in Kubikmetern (m³) für ein Projekt in Metern. Es ist ein Schritt: {{key:Mod+Z}} macht es rückgängig.
+1. Modellieren Sie in CivilCraft Ihre Bauplätze und Korridore und wählen Sie dann unter **Erdarbeiten** {{ui:An TakeoffDesk senden}} ([Erdmassen](app:civilcraft/volumes)). Es speichert eine Mengendatei (`.quantities.json`).
+2. Öffnen Sie sie in TakeoffDesk mit {{ui:Ermittlung öffnen}} oder ziehen Sie sie in die App. Ihre Ermittlung bleibt geöffnet: Die Datei fügt **Erdarbeiten: Abtrag** und **Erdarbeiten: Auftrag** als [eingegebene Mengen](topic:create-items#typed-quantities-no-drawing) hinzu, in Kubikyard (CY) für ein Projekt in Fuß oder in Kubikmetern (m³) für ein Projekt in Metern. Es ist ein Schritt: {{key:Mod+Z}} macht es rückgängig.
 3. Benennen Sie sie um und legen Sie Verschnitt, Einheitspreise und Kalkulationsbausteine nach Bedarf fest.
 
 Wenn sich der Entwurf ändert, senden Sie erneut aus CivilCraft und öffnen Sie die neue Datei: Dieselben zwei Positionen erhalten die neuen Mengen. Ihre Namen, Einheitspreise, Verschnitt und Kalkulationsbausteine bleiben wie eingestellt. Wenn sich die Einheit des Projekts geändert hat, zeigt die Statusleiste das an: Prüfen Sie dann die Einheitspreise. Eine Datei aus einem anderen CivilCraft-Projekt fügt ihre eigenen zwei Positionen hinzu.

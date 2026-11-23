@@ -1,6 +1,6 @@
 ---
 title: Tastatur und Maus
-summary: Jede Taste sowie jede Maus-, Trackpad- und Touch-Aktion in TakeoffCraft, gruppiert, mit den Unterschieden je Plattform.
+summary: Jede Taste sowie jede Maus-, Trackpad- und Touch-Aktion in TakeoffDesk, gruppiert, mit den Unterschieden je Plattform.
 keywords: Tasten, Tastenkürzel, Shortcuts, Hotkeys, Tastatur, Maus, Trackpad, Touch, Pan, Zoom, Mausrad, Rechtsklick, Doppelklick, Space, Shift, kopieren, einfügen, ausschneiden, duplizieren, alles auswählen
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Siehe [Die Ermittlung in 3D prüfen](topic:check-in-3d).
 | Taste | Was sie tut |
 |---|---|
 | {{key:F1}} | Den Hilfebereich öffnen oder schließen (auch die Schaltfläche {{ui:Hilfe}} in der Anwendungsleiste). Es funktioniert bei jedem Werkzeug, auch während Sie in einem Feld tippen. |
-| {{key:Esc}} | Den Hilfebereich schließen. Im Suchfeld löscht das erste Esc die Suche. Ist der Bereich offen, schließt ein Esc nach einem Klick auf das Blatt zuerst den Bereich; drücken Sie erneut, um in TakeoffCraft abzubrechen. |
+| {{key:Esc}} | Den Hilfebereich schließen. Im Suchfeld löscht das erste Esc die Suche. Ist der Bereich offen, schließt ein Esc nach einem Klick auf das Blatt zuerst den Bereich; drücken Sie erneut, um in TakeoffDesk abzubrechen. |
 
 :::mac
 Auf vielen Mac-Tastaturen steuert die oberste Reihe Helligkeit und Lautstärke. Drücken Sie fn zusammen mit F1, oder aktivieren Sie in den Systemeinstellungen unter „Tastatur“ die Option „F1, F2 usw. Tasten als Standardfunktionstasten verwenden“.
@@ -139,7 +139,7 @@ Auf vielen Mac-Tastaturen steuert die oberste Reihe Helligkeit und Lautstärke. 
 
 :::mac
 - {{key:Mod}} ist die Befehlstaste: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Vollbild ist die Ausnahme: Control+Shift+F.
-- Der Rechtsklick ist ein Klick mit zwei Fingern auf dem Trackpad, sobald der sekundäre Klick in den Systemeinstellungen unter „Trackpad“ aktiviert ist. TakeoffCraft liest nur die sekundäre Taste; ein Control-Klick kann als einfacher Klick gewertet werden und einen Punkt hinzufügen.
+- Der Rechtsklick ist ein Klick mit zwei Fingern auf dem Trackpad, sobald der sekundäre Klick in den Systemeinstellungen unter „Trackpad“ aktiviert ist. TakeoffDesk liest nur die sekundäre Taste; ein Control-Klick kann als einfacher Klick gewertet werden und einen Punkt hinzufügen.
 - Zwei Finger, die auf einem Trackpad scrollen, zoomen das Blatt (sie scrollen es nicht). Zum Verschieben drücken und ziehen Sie oder halten Sie {{key:Space}} und ziehen.
 - Bild auf und Bild ab sind fn zusammen mit den Pfeiltasten nach oben und unten auf Tastaturen, die diese Tasten nicht haben.
 - Die Rücktaste ist die Taste mit der Beschriftung „delete“.
@@ -151,12 +151,12 @@ Auf vielen Mac-Tastaturen steuert die oberste Reihe Helligkeit und Lautstärke. 
 :::
 
 :::linux
-- {{key:Mod}} ist Ctrl. Manche Desktops haben eigene Kürzel mit Ctrl+Alt oder Super; TakeoffCraft nutzt keines davon.
+- {{key:Mod}} ist Ctrl. Manche Desktops haben eigene Kürzel mit Ctrl+Alt oder Super; TakeoffDesk nutzt keines davon.
 - Auf einem Touchpad zoomt ein Scrollen mit zwei Fingern das Blatt. Zum Verschieben drücken und ziehen Sie.
 :::
 
 :::touch
-TakeoffCraft liest Touch als einen einzigen Zeiger:
+TakeoffDesk liest Touch als einen einzigen Zeiger:
 
 - Tippen setzt einen Punkt, wählt eine Markierung aus oder fügt einen Zählpunkt hinzu.
 - Ziehen mit einem Finger verschiebt das Blatt (bei {{ui:Auto-Zählen}} zieht es das Suchfeld auf).
@@ -169,7 +169,7 @@ Eine Tastatur mit Maus oder Trackpad ist heute der bessere Weg für die Mengener
 
 ## Tasten, die der Browser behält
 
-Browser behalten einige Tastenkürzel für sich, und eine Seite kann sie nicht nutzen: Registerkarte schließen ({{key:Mod+W}}), neue Registerkarte oder neues Fenster ({{key:Mod+T}}, {{key:Mod+N}}) und Browserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Deshalb zoomt TakeoffCraft das Blatt mit dem Mausrad und mit den einfachen Tasten {{key:Plus}} und {{key:Minus}}. Drücken Sie {{key:Mod+Plus}} versehentlich, wird die ganze Seite größer; {{key:Mod+0}} stellt sie zurück. Siehe [Tasten, Mäuse und Trackpads](common:keys).
+Browser behalten einige Tastenkürzel für sich, und eine Seite kann sie nicht nutzen: Registerkarte schließen ({{key:Mod+W}}), neue Registerkarte oder neues Fenster ({{key:Mod+T}}, {{key:Mod+N}}) und Browserzoom ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Deshalb zoomt TakeoffDesk das Blatt mit dem Mausrad und mit den einfachen Tasten {{key:Plus}} und {{key:Minus}}. Drücken Sie {{key:Mod+Plus}} versehentlich, wird die ganze Seite größer; {{key:Mod+0}} stellt sie zurück. Siehe [Tasten, Mäuse und Trackpads](common:keys).
 
 ## Wo Verschieben zu finden ist
 

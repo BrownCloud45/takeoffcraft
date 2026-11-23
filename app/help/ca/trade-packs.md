@@ -39,4 +39,4 @@ Cada element porta també el seu número CSI MasterFormat, com ara `09 21 16`.
 
 {{ui:Exporta com a paquet…}} a la biblioteca el desa com a fitxer de paquet (`.ccpack.json`) que qualsevol pot afegir amb {{ui:Obre un fitxer de paquet…}}. Per defecte, deixa fora els elements que procedeixen de paquets que hagis afegit, i no porta tarifes. Marca {{ui:Inclou les meves tarifes com a tarifes de mostra}} per enviar també les teves tarifes: surten etiquetades amb la regió i la data que indiquis, i qui afegeix el paquet decideix si les fa servir.
 
-Els fitxers de paquet són dades simples, mai programes. TakeoffCraft comprova cada part d'un fitxer abans d'usar-lo i deixa fora tot el que no pot llegir.
+Els fitxers de paquet són dades simples, mai programes. TakeoffDesk comprova cada part d'un fitxer abans d'usar-lo i deixa fora tot el que no pot llegir.

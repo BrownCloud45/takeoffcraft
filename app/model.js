@@ -12,6 +12,8 @@
  *              backout (area items: its marks are back-outs, T14), backoutOf [area item ids it deducts from],
  *              pitch (rise per 12: area items' surface, linear items' rakes and hips — T15), slope (linear: 'rake' | 'hip'),
  *              csi (a CSI MasterFormat number, "09 21 16": groups the estimate by division — 0.5 TK.4),
+ *              line ('dashed' | 'dotted' | 'double'; absent = solid) and icon (a small PNG data URL) — how its marks look (itemlook.js),
+ *              factor (× the measured quantity: L, the wall area, A or N; 0 < factor ≤ 1000; absent = 1),
  *              type 'fixed' only (0.6 TK.5+): qty (typed, in its unit), area (a bid area id), origin { app, project, key, at }
  *              (where an imported quantity came from: a later import of the same key updates it instead of adding another),
  *              3D only (T5): thickFt (linear: wall thickness), baseFt (linear, area: height above the floor), headFt (linear: an
@@ -57,6 +59,7 @@ import { readSupply, writeSupply } from './supply.js';
 import { makeSignoff, cleanSignoff, holds } from './tables/signoff.js';   // 0.10 BK.62 (bk-r3-schedules-10): the estimate's sign-off, recorded in the file
 import { readCarbon, writeCarbon } from './carbon.js';   // 0.8 EG.14 (takeoff_PART_3): embodied carbon choices, kept in the project file   // 0.8 EG.51 (takeoff_PART_2): supplier stock and lead-time files, kept in the project file
 import { readLearn, writeLearn } from './learn.js';   // 0.8 SU.811 (sx-learn): what it learned, kept in the project file
+import { lineField, iconOk } from './itemlook.js';
 
 export const FORMAT = 'takeoffcraft-project';
 export const FORMAT_VERSION = 1;
@@ -333,7 +336,7 @@ export class Takeoff {
       if (next.type !== it.type && s.marks.some((m) => m.item === id && m.kind === it.type)) throw new Error(t('err.item.type'));
       if (s.marks.some((m) => m.item === id && !kinds.has(m.kind))) throw new Error(t('err.item.cond'));
       if (next.type === 'fixed' && next.area && !(s.areas || []).some((a) => a.id === next.area)) delete next.area;
-      for (const k of ['tempK', 'backout', 'backoutOf', 'pitch', 'slope', 'thickFt', 'baseFt', 'headFt', 'conds', 'crew', 'xd', 'csi', 'qty', 'area', 'origin']) if (!(k in next)) delete it[k];     // turned off: the fields go
+      for (const k of ['tempK', 'backout', 'backoutOf', 'pitch', 'slope', 'thickFt', 'baseFt', 'headFt', 'conds', 'crew', 'xd', 'csi', 'qty', 'area', 'origin', 'line', 'icon', 'factor']) if (!(k in next)) delete it[k];     // turned off: the fields go
       Object.assign(it, next);
     });
   }
@@ -717,7 +720,7 @@ export class Takeoff {
   toJSON(savedAt = new Date().toISOString()) {
     const s = this.state;
     return {
-      format: FORMAT, version: FORMAT_VERSION, app: 'TakeoffCraft', savedAt,
+      format: FORMAT, version: FORMAT_VERSION, app: 'TakeoffDesk', savedAt,
       name: s.name, seq: s.seq,
       files: s.files.map((f) => ({ hash: f.hash, name: f.name, size: f.size, pages: f.pages })),
       sheets: s.sheets,
@@ -789,6 +792,9 @@ export function normalItem(f) {
     ...(type === 'linear' && (f.slope === 'rake' || f.slope === 'hip') ? { slope: f.slope } : {}),
     ...(cleanAddonData(f.xd) ? { xd: cleanAddonData(f.xd) } : {}),   // add-ons' own data on the item (0.5 AO.6); kept without the add-on
     ...(csiOk(f.csi) ? { csi: f.csi } : {}),                          // a CSI MasterFormat number (0.5 TK.4: the estimate by division)
+    ...(type !== 'fixed' && lineField(f.line) ? { line: lineField(f.line) } : {}),   // TakeoffDesk: dashed | dotted | double (itemlook.js)
+    ...(iconOk(f.icon) ? { icon: f.icon } : {}),                      // TakeoffDesk: a small PNG for the lists and count marks
+    ...(type !== 'fixed' && factorOk(f.factor) && f.factor !== 1 ? { factor: f.factor } : {}),   // TakeoffDesk: × the measured quantity (0.5: half of what is drawn)
     ...(type === 'area' && f.backout === true ? { backout: true, backoutOf: [...new Set((Array.isArray(f.backoutOf) ? f.backoutOf : []).filter((x) => typeof x === 'string' && x !== String(f.id)).slice(0, LIMITS.items))] } : {}),
     ...(type === 'fixed' ? fixedFields(f) : {}),
   };
@@ -1088,13 +1094,17 @@ export function methodNote(state, tr = undefined) {
 /** Formula variables for an item's totals (or one sheet's), in the item's own units. */
 export function itemVars(it, t) {
   const lu = lengthUnitOf(it.unit);
+  const k = factorOf(it);                                   // TakeoffDesk: the item's quantity factor (1 unless set)
   if (it.type === 'linear') {
-    return { L: ftTo(t.lengthFt, lu), H: ftTo(it.heightFt, lu), A: sqftTo(wallArea(it, t).net, areaUnitOf(it.unit)), N: t.count };   // A: the NET wall area
+    return { L: ftTo(t.lengthFt, lu) * k, H: ftTo(it.heightFt, lu), A: sqftTo(wallArea(it, t).net, areaUnitOf(it.unit)) * k, N: t.count };   // A: the NET wall area
   }
-  if (it.type === 'area') return { A: sqftTo(t.areaSqft, it.unit), P: ftTo(t.perimeterFt, lu), H: ftTo(it.heightFt, lu), N: t.count };
+  if (it.type === 'area') return { A: sqftTo(t.areaSqft, it.unit) * k, P: ftTo(t.perimeterFt, lu), H: ftTo(it.heightFt, lu), N: t.count };
   if (it.type === 'fixed') return { Q: t.fixed ?? it.qty ?? 0 };
-  return { N: t.count };
+  return { N: t.count * k };
 }
+/** TakeoffDesk: a quantity factor is a number above 0 and at most 1000; 1 (none) is not stored. */
+export const factorOk = (v) => typeof v === 'number' && Number.isFinite(v) && v > 0 && v <= 1000;
+export const factorOf = (it) => (it && it.type !== 'fixed' && factorOk(it.factor) ? it.factor : 1);
 /** A second condition's quantity (T8) in its unit, from its totals ({ lengthFt, areaSqft, count } or none). */
 export function condQty(c, t) {
   if (!t) return 0;

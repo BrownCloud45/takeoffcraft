@@ -49,4 +49,4 @@ En kalibreret målestok vises som »Kalibreret 1" = 4.002' på 24'-6"« i linjen
 
 ## Usædvanlige PDF'er
 
-Nogle PDF'er angiver en større sideenhed (en »brugerenhed«); TakeoffCraft tager højde for den ved forudindstillinger og for den viste målestok. Sider der er roteret i PDF'en, måles på samme måde som stående sider.
+Nogle PDF'er angiver en større sideenhed (en »brugerenhed«); TakeoffDesk tager højde for den ved forudindstillinger og for den viste målestok. Sider der er roteret i PDF'en, måles på samme måde som stående sider.

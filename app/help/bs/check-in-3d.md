@@ -46,7 +46,7 @@ Brojke se ne mijenjaju u 3D: površina zida je njegova tačna dužina puta visin
 | {{ui:List}} | Prikazuje ili skriva crtež na podlozi. |
 | Kocka pogleda, gore desno | Kliknite stranu, ivicu ili ugao da gledate odatle; prevucite je da se okrećete; prevucite njen prsten kompasa da okrenete; dugme kuće vraća na {{ui:Iso}}. |
 
-Ugao prikazuje kocku pogleda, malu ikonu osa X, Y, Z ili ništa: izaberite u {{ui:Postavke}}, na kartici TakeoffCraft, pod **Indikator ugla** ([Postavke TakeoffCraft](topic:settings)). Ravni list nema indikator ugla.
+Ugao prikazuje kocku pogleda, malu ikonu osa X, Y, Z ili ništa: izaberite u {{ui:Postavke}}, na kartici TakeoffDesk, pod **Indikator ugla** ([Postavke TakeoffDesk](topic:settings)). Ravni list nema indikator ugla.
 
 :::touch
 Jedan prst okreće; dva prsta štipaju za uvećavanje i pomjeraju za pomjeranje. Dodir bira.

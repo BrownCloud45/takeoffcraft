@@ -5,7 +5,7 @@ keywords: snap, osnap, snap objek, titik hujung, titik tengah, persilangan, terd
 from: 41d29e9b
 ---
 
-Kebanyakan set pelan ialah PDF vektor: dinding dan tepinya ialah garisan sebenar, bukan piksel. Semasa anda mengukur, TakeoffCraft melekapkan klik anda pada garisan tersebut, supaya larian bermula tepat di bucu dinding dan penentukuran membaca dimensi yang dilukis oleh pelukis, bukan piksel yang anda klik.
+Kebanyakan set pelan ialah PDF vektor: dinding dan tepinya ialah garisan sebenar, bukan piksel. Semasa anda mengukur, TakeoffDesk melekapkan klik anda pada garisan tersebut, supaya larian bermula tepat di bucu dinding dan penentukuran membaca dimensi yang dilukis oleh pelukis, bukan piksel yang anda klik.
 
 Snap dihidupkan apabila anda bermula. Hidupkan dan matikannya dengan {{ui:Snap}} dalam bar status atau {{key:F3}}; tetapan itu disimpan dalam pelayar ini (ia juga terdapat di bawah [Tetapan](topic:settings)).
 

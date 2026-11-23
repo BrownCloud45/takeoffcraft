@@ -1,6 +1,6 @@
 ---
 title: Contar todo en el juego
-summary: Encuadrá una vez la leyenda de símbolos y TakeoffCraft cuenta cada símbolo en todas las hojas abiertas en una sola corrida. Cada conteo es un vínculo a su hoja, y revisás antes de agregar nada.
+summary: Encuadrá una vez la leyenda de símbolos y TakeoffDesk cuenta cada símbolo en todas las hojas abiertas en una sola corrida. Cada conteo es un vínculo a su hoja, y revisás antes de agregar nada.
 keywords: contar todo, leyenda, leyenda de símbolos, juego completo, cada hoja, todas las hojas, cada puerta, cada artefacto, dispositivos, planilla, símbolos, conteo automático, contar todo, juego de planos, 200 hojas, nivel de coincidencia, parecidos
 from: adc99744
 ---

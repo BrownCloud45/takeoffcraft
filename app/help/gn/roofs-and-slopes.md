@@ -5,7 +5,7 @@ keywords: techo, inclinación, pendiente, factor de pendiente, elevación, recor
 from: 38225b60
 ---
 
-Un plano de techo muestra cada plano del techo plano, visto desde arriba. El techo en sí es más grande: un plano de 6:12 tiene cerca de 12% más superficie que su planta, y sus bordes inclinados son más largos de lo que parecen. Asignale la inclinación al ítem y TakeoffCraft mide a lo largo de la pendiente.
+Un plano de techo muestra cada plano del techo plano, visto desde arriba. El techo en sí es más grande: un plano de 6:12 tiene cerca de 12% más superficie que su planta, y sus bordes inclinados son más largos de lo que parecen. Asignale la inclinación al ítem y TakeoffDesk mide a lo largo de la pendiente.
 
 ## Escribir una inclinación
 

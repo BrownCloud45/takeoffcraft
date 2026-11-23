@@ -39,4 +39,4 @@ Ogni voce riporta anche il suo numero CSI MasterFormat, come `09 21 16`.
 
 {{ui:Esporta come pacchetto…}} nella libreria salva la libreria come file di pacchetto (`.ccpack.json`) che chiunque può aggiungere con {{ui:Apri un file di pacchetto…}}. Per impostazione predefinita esclude le voci provenienti dai pacchetti aggiunti e non contiene tariffe. Selezionare {{ui:Includi le tariffe proprie come tariffe di esempio}} per inviare anche le proprie tariffe: vengono inviate con la regione e la data che si indicano, e chi aggiunge il pacchetto sceglie se usarle.
 
-I file di pacchetto sono solo dati, mai programmi. TakeoffCraft verifica ogni parte di un file prima di usarlo ed esclude quanto non sa leggere.
+I file di pacchetto sono solo dati, mai programmi. TakeoffDesk verifica ogni parte di un file prima di usarlo ed esclude quanto non sa leggere.

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-propgrid.mjs — TakeoffCraft 0.8 PANEL-COMPACT (oltl2-c): the item editor's simple fields and the selected mark's panel
+ * browser-propgrid.mjs — TakeoffDesk 0.8 PANEL-COMPACT (oltl2-c): the item editor's simple fields and the selected mark's panel
  * are the shared property grid (window.ccPropGrid). Run as root (session minted by admin.php, like browser-typed.mjs):
  *   node tools/takeoffcraft-test/browser-propgrid.mjs [--out dir]
  * Checks that ft-in, $ and % still type, each edit is one undo step, a refusal marks the box, the crew keeps the labor rate read-only,

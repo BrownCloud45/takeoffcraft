@@ -1,6 +1,6 @@
 ---
 title: Kontroller leverandørlager og leveringstider
-summary: Legg til en leverandørs lagerliste (CSV eller regneark), så sjekker TakeoffCraft det mengdeuttaket trenger, med svinn, mot den: nok på lager, og hvor lang ventetiden er. Mangler og lange ventetider vises i panelet Problemer.
+summary: Legg til en leverandørs lagerliste (CSV eller regneark), så sjekker TakeoffDesk det mengdeuttaket trenger, med svinn, mot den: nok på lager, og hvor lang ventetiden er. Mangler og lange ventetider vises i panelet Problemer.
 keywords: leverandør, selger, lager, på lager, leveringstid, tilgjengelighet, mangel, restordre, bestillingsliste, csv, sku, materialer, levering, problemer
 from: f11160fb
 ---

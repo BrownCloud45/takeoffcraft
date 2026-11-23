@@ -5,7 +5,7 @@ keywords: cubierta, pendiente, inclinación, factor de pendiente, elevación, re
 from: 38225b60
 ---
 
-Un plano de cubierta muestra cada faldón plano, visto desde arriba. La cubierta en sí es mayor: un plano al 6:12 tiene alrededor de un 12% más de superficie que su planta, y sus bordes inclinados son más largos de lo que parecen. Dé a la partida su inclinación y TakeoffCraft medirá a lo largo de la pendiente.
+Un plano de cubierta muestra cada faldón plano, visto desde arriba. La cubierta en sí es mayor: un plano al 6:12 tiene alrededor de un 12% más de superficie que su planta, y sus bordes inclinados son más largos de lo que parecen. Dé a la partida su inclinación y TakeoffDesk medirá a lo largo de la pendiente.
 
 ## Introducir una inclinación
 

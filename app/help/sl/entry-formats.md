@@ -1,6 +1,6 @@
 ---
 title: Vnos dolžin, cen in odstotkov
-summary: Kaj lahko vpišete za razdalje, višine, denarne cene in odstotke odpadka, s primeri in sporočili za vnos, ki ga TakeoffCraft ne more prebrati.
+summary: Kaj lahko vpišete za razdalje, višine, denarne cene in odstotke odpadka, s primeri in sporočili za vnos, ki ga TakeoffDesk ne more prebrati.
 keywords: vnos, oblika, čevlji in palci, ulomki, decimalni čevlji, metrski, metri, milimetri, cena, denar, dolarji, odstotek, odpadek, tipkanje
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Do dveh decimalk, od 0 % do 1000 %. Sporočili: „Vpišite odstotek, na primer 
 ## Imena in enote
 
 - Imena postavk in komponent: do 200 znakov.
-- {{ui:Enota}} komponente: poljubno besedilo do 20 znakov, na primer `EA`, `sheets`, `CY`, `gal`. Je samo oznaka; TakeoffCraft je ne pretvori.
+- {{ui:Enota}} komponente: poljubno besedilo do 20 znakov, na primer `EA`, `sheets`, `CY`, `gal`. Je samo oznaka; TakeoffDesk je ne pretvori.
 
 ## Formule
 

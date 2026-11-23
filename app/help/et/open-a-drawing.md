@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, joonis, ava joonis, paigutused, mudeliruum, paberiruum,
 from: d8c3f504
 ---
 
-TakeoffCraft avab DWG- või DXF-joonise nagu PDF-i: seda ei pea enne PDF-iks plotima. Loendamine joonisest endast on täpne, sest joonis teab, mis iga objekt on. Vt [Loenda joonisest](topic:count-from-a-drawing).
+TakeoffDesk avab DWG- või DXF-joonise nagu PDF-i: seda ei pea enne PDF-iks plotima. Loendamine joonisest endast on täpne, sest joonis teab, mis iga objekt on. Vt [Loenda joonisest](topic:count-from-a-drawing).
 
 ## Joonise avamine
 
@@ -13,9 +13,9 @@ TakeoffCraft avab DWG- või DXF-joonise nagu PDF-i: seda ei pea enne PDF-iks plo
 2. Vali DWG- või DXF-fail. Võid valida mitu, ka PDF-idega koos.
 3. Vali Ava.
 
-Võid joonisefaile ka TakeoffCraftile lohistada nagu PDF-e. Midagi ei laadita üles: brauser loeb faili sinu arvutist.
+Võid joonisefaile ka TakeoffDeskile lohistada nagu PDF-e. Midagi ei laadita üles: brauser loeb faili sinu arvutist.
 
-TakeoffCraft loeb DWG-d AutoCAD 2000-st kuni 2018-ni ja ASCII DXF-i versioonist R12 kuni 2018-ni. Binaarset DXF-i ei võeta vastu (salvesta see ASCII-na või DWG-na) ning ei võeta vastu ka faili, mis ei ole kumbki; sellest öeldakse, miks. Kahjustatud fail avatakse sellest, mis loeti, ja teade ütleb seda; selle loenduse tulemus võib olla puudulik.
+TakeoffDesk loeb DWG-d AutoCAD 2000-st kuni 2018-ni ja ASCII DXF-i versioonist R12 kuni 2018-ni. Binaarset DXF-i ei võeta vastu (salvesta see ASCII-na või DWG-na) ning ei võeta vastu ka faili, mis ei ole kumbki; sellest öeldakse, miks. Kahjustatud fail avatakse sellest, mis loeti, ja teade ütleb seda; selle loenduse tulemus võib olla puudulik.
 
 ## Lehed
 
@@ -40,10 +40,10 @@ Leht alustab mõõtkavaga, mille joonis annab:
 
 ## Lingitud joonised (xref)
 
-Joonis, mis lingib teisi jooniseid, näitab neid seal, kuhu need on sisestatud. TakeoffCraft leiab lingitud joonise **avatud failide** hulgast failinime järgi: ava põhijoonis ja lingitud joonis koos (või üks teise järel). Kuni siis ütleb olekuriba, mitut lingitud joonist ei leitud, mida need joonistavad, on puudu ja loendused seda ütlevad.
+Joonis, mis lingib teisi jooniseid, näitab neid seal, kuhu need on sisestatud. TakeoffDesk leiab lingitud joonise **avatud failide** hulgast failinime järgi: ava põhijoonis ja lingitud joonis koos (või üks teise järel). Kuni siis ütleb olekuriba, mitut lingitud joonist ei leitud, mida need joonistavad, on puudu ja loendused seda ütlevad.
 
 ## Piirangud
 
-- Objekte, mida TakeoffCraft ei suuda lugeda ega paigutada (proksiobjektid, tundmatud klassid), näidatakse loenduse aknas tüübi järgi; neid ei jäeta kunagi sõnagi kaotamata välja.
+- Objekte, mida TakeoffDesk ei suuda lugeda ega paigutada (proksiobjektid, tundmatud klassid), näidatakse loenduse aknas tüübi järgi; neid ei jäeta kunagi sõnagi kaotamata välja.
 - Väga suuri jooniseid joonistatakse osaliselt ja loendused peatuvad piiri juures, sellest öeldakse. Selle asemel ava joonise PDF-plott.
 - Joonis joonistatakse mustalt ja oma värvides, valgele paberile tumedamaks tehtult. Plotimisstiilitabeleid ja pliiatsite määramisi ei rakendata.

@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, estrada, ferrocarril, ponte, firme, bordillo, ca
 from: 6b08c2c4
 ---
 
-Un ficheiro IFC 4.3 pode conter estradas, ferrocarrís, pontes, obras mariñas e as partes que as forman: firmes, capas, bordillos, carrís, movementos de terras, apoios, pilotes e máis. TakeoffCraft lee esas partes e convírteas en cantidades tipificadas que pode prezar.
+Un ficheiro IFC 4.3 pode conter estradas, ferrocarrís, pontes, obras mariñas e as partes que as forman: firmes, capas, bordillos, carrís, movementos de terras, apoios, pilotes e máis. TakeoffDesk lee esas partes e convírteas en cantidades tipificadas que pode prezar.
 
 ## Abrir o ficheiro
 
 1. Escolla {{ui:Abrir planos}} no grupo {{ui:Ficheiro}}, ou prema {{key:Mod+O}}.
-2. Seleccione o ficheiro IFC (pode seleccionalo cos PDF), ou solteo sobre TakeoffCraft.
+2. Seleccione o ficheiro IFC (pode seleccionalo cos PDF), ou solteo sobre TakeoffDesk.
 
 Faise unha cantidade tipificada por cada clase e tipo predefinido, por exemplo "Firme (flexible): contaxe", e, cando o ficheiro as indica, "lonxitude" en m, "superficie" en m² e "volume" en m³. A nota de cada elemento indica cantos elementos se contaron e cantos non indicaron cantidade. Abrir un ficheiro máis novo co mesmo nome actualiza esas cantidades en lugar de engadir máis.
 

@@ -23,7 +23,7 @@ Predvoľba predpokladá, že PDF má skutočný formát papiera, pre ktorý bol 
 
 ## Čítanie mierok z textu listov
 
-Väčšina výkresov uvádza svoju mierku: `SCALE: 1/4" = 1'-0"` v popisovom poli, `1:100` pod pohľadom. TakeoffCraft ju dokáže prečítať a nastaviť všetky listy naraz.
+Väčšina výkresov uvádza svoju mierku: `SCALE: 1/4" = 1'-0"` v popisovom poli, `1:100` pod pohľadom. TakeoffDesk ju dokáže prečítať a nastaviť všetky listy naraz.
 
 1. Otvorte zoznam {{ui:Preset}} a vyberte {{ui:From the sheets' text…}} (hore).
 2. Zoznam zobrazí každý list: jeho aktuálnu mierku a čo hovorí jeho text — **Uvádza 1/4" = 1'-0"**, **Mierka v jeho texte nie je**, alebo **Uvádza, že sa nemá merať** (NTS).
@@ -44,7 +44,7 @@ Použite to, keď nemáte dôveryhodnú vytlačenú mierku, sada bola zmenená v
 5. Do poľa **Skutočná vzdialenosť** zadajte skutočnú dĺžku, napríklad `24'-6 1/2"`, `24.5` (desatinné stopy), `30"` alebo `7.5 m`. Pozri [Formáty zadávania dĺžky, sadzby a percenta](topic:entry-formats).
 6. Vyberte {{ui:Set the scale}}.
    Stavový riadok zobrazí mierku ako "1" = (n)'" a ak je v rozmedzí 0.5 % od predvoľby, uvedie, ktorej, napríklad "čo zodpovedá 1/4" = 1'-0" (vyberte túto predvoľbu pre presnú mierku)".
-   TakeoffCraft sa vráti k nástroju {{ui:Select}}.
+   TakeoffDesk sa vráti k nástroju {{ui:Select}}.
 
 Keď kalibrácia zodpovedá predvoľbe, výber tejto predvoľby dá presnú mierku namiesto mierky, ktorá závisí od toho, kam ste klikli.
 
@@ -61,11 +61,11 @@ Kontrolnú čiaru zrušíte stlačením {{key:Esc}}.
 
 ## Zmena mierky
 
-Vyberte inú predvoľbu alebo znova kalibrujte. Ak má list už merania, TakeoffCraft sa opýta **Zmeniť mierku tohto listu?** a uvedie, koľko meraní sa znova zmeria. Vyberte {{ui:Change the scale}}. Každý úsek a plocha na liste sa znova zmerajú v novej mierke. Môžete to vrátiť späť pomocou {{key:Mod+Z}}.
+Vyberte inú predvoľbu alebo znova kalibrujte. Ak má list už merania, TakeoffDesk sa opýta **Zmeniť mierku tohto listu?** a uvedie, koľko meraní sa znova zmeria. Vyberte {{ui:Change the scale}}. Každý úsek a plocha na liste sa znova zmerajú v novej mierke. Môžete to vrátiť späť pomocou {{key:Mod+Z}}.
 
 ## Prečo listy bez mierky nie sú počítané ako nula
 
-Značka na liste bez mierky nemá skutočnú dĺžku ani plochu. TakeoffCraft ju nikdy nepočíta ako nulu, lebo by to nenápadne znížilo váš rozpočet. Namiesto toho:
+Značka na liste bez mierky nemá skutočnú dĺžku ani plochu. TakeoffDesk ju nikdy nepočíta ako nulu, lebo by to nenápadne znížilo váš rozpočet. Namiesto toho:
 
 - tieto značky vynechá zo súčtov,
 - pri položke v {{ui:Quantities}} zobrazí "+(n) bez mierky",
@@ -77,5 +77,5 @@ To sa môže stať, keď otvoríte projekt, v ktorom sa mierky nikdy nenastavili
 ## Tipy
 
 - Nastavte mierku na každom liste, ktorý budete merať, ešte pred začiatkom. V zozname listov vyhľadajte **Bez mierky**, aby ste našli zvyšné (vyhľadávacie pole hľadá v názvoch listov, nie v mierkach).
-- Detaily a zväčšené pôdorysy na tom istom liste často používajú inú mierku. TakeoffCraft má na list jednu mierku; pozri [Čo ešte nie je hotové](topic:not-built-yet).
+- Detaily a zväčšené pôdorysy na tom istom liste často používajú inú mierku. TakeoffDesk má na list jednu mierku; pozri [Čo ešte nie je hotové](topic:not-built-yet).
 - Metrické výkresy: vyberte metrickú predvoľbu, napríklad `1:100`, alebo kalibrujte metrickou vzdialenosťou, napríklad `6000 mm`.

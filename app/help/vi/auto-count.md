@@ -1,6 +1,6 @@
 ---
 title: Đếm tự động một ký hiệu
-summary: Khoanh một ký hiệu, để TakeoffCraft tìm các ký hiệu còn lại trên tờ này hoặc trên mọi tờ đang mở, xem lại các kết quả khớp bằng thanh trượt, rồi thêm chúng trong một bước.
+summary: Khoanh một ký hiệu, để TakeoffDesk tìm các ký hiệu còn lại trên tờ này hoặc trên mọi tờ đang mở, xem lại các kết quả khớp bằng thanh trượt, rồi thêm chúng trong một bước.
 keywords: mọi góc, xoay, quay, tỷ lệ khác, tỷ lệ khác nhau, đếm tự động, tìm ký hiệu, mẫu, khớp, phát hiện, công cụ đếm
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Toàn bộ đợt thêm là một bước hoàn tác, nên một lần {{key:Mod
 
 ## Tìm được gì, và bỏ sót gì
 
-TakeoffCraft so sánh bản vẽ, theo từng điểm ảnh, với ký hiệu bạn đã khoanh.
+TakeoffDesk so sánh bản vẽ, theo từng điểm ảnh, với ký hiệu bạn đã khoanh.
 
 - Nó tìm được ký hiệu xoay 0°, 90°, 180° và 270°. Đánh dấu {{ui:Mọi góc (chậm hơn)}} trên thanh đếm tự động trước khi vẽ khung để tìm ký hiệu ở mọi góc: nó thử mỗi 15°, rồi tinh chỉnh từng kết quả đến từng 1.5°. Việc này mất khoảng gấp sáu lần thời gian. Nó không tìm được ký hiệu đối xứng gương (trừ khi ký hiệu trông giống nhau khi lật gương).
 - Khi đánh dấu {{ui:Tìm trong mọi tờ đang mở}}, một tờ ở tỷ lệ khác sẽ được tìm ở kích thước mà ký hiệu có trên tờ đó: một thiết bị vẽ đúng tỷ lệ trên mặt bằng 1/8" có kích thước bằng một nửa so với trên mặt bằng 1/4", và vẫn được tìm thấy. Tờ như vậy cũng được tìm ở kích thước khung, để tìm các nhãn và ký hiệu in cùng một kích thước trên mọi tờ. Việc này cần có tỷ lệ trên cả hai tờ; tờ không có tỷ lệ chỉ được tìm ở kích thước khung.

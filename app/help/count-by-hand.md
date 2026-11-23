@@ -15,7 +15,7 @@ A count item counts things: doors, light fixtures, outlets, plumbing fixtures. E
 3. Click each one on the sheet.
    Each click puts a dot in the item's color, and the item's count goes up by one.
 4. Move to the next sheet ({{key:PageDown}}) and keep counting. The tool stays on {{ui:Count}}.
-5. Press {{key:Esc}} when you are done. TakeoffCraft goes back to {{ui:Select}}.
+5. Press {{key:Esc}} when you are done. TakeoffDesk goes back to {{ui:Select}}.
 
 Dragging still pans and the wheel still zooms while you count, so you can move round the sheet without adding dots.
 
@@ -31,7 +31,7 @@ Click the count item to highlight its dots on every sheet. The sheets list then 
 
 ## Dot size, on screen and in the PDF
 
-The dots keep one size on screen however far you zoom. To change it, open {{ui:Settings}}, the TakeoffCraft tab, and choose **Count marker size**: Extra small, Small, Medium (the default) or Large.
+The dots keep one size on screen however far you zoom. To change it, open {{ui:Settings}}, the TakeoffDesk tab, and choose **Count marker size**: Extra small, Small, Medium (the default) or Large.
 
 The PDF export ({{ui:Export}} › the marked PDF) draws each dot at the same size on paper, whatever the sheet size: a viewer showing the PDF at 100% shows the dots as big as they are on screen. Where the dots on a sheet would still touch, the export makes that sheet's dots smaller so each one can be read.
 

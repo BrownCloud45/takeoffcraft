@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * input-takeoffcraft.js — TakeoffCraft's command registry for the shell's input engine (0.5 track IP.3; engine
+ * input-takeoffcraft.js — TakeoffDesk's command registry for the shell's input engine (0.5 track IP.3; engine
  * assets/js/app-input.js + app-input-ui.js, map docs/apps/app-input.md; manifest "input": "input-takeoffcraft.js").
  * DOM-free data, plus hooks() which runs only on the page.
  *
@@ -10,13 +10,13 @@
  *   id       stable id (people's own styles and .ccinput.json files name it — never rename one)
  *   sel      the app's own button the shell clicks (one code path for every style)
  *   sheet    the button is on the sheet bar, which shows once a PDF is open
- *   defKeys  TakeoffCraft's own keys (takeoffcraft.js's keydown handler): the TakeoffCraft style
+ *   defKeys  TakeoffDesk's own keys (takeoffcraft.js's keydown handler): the TakeoffDesk style
  *   optional the button exists only sometimes (the hand-off, when the review app takes one; the next changed mark)
  * The Scale group's preset list is a <select>, not a command: while a menu style hides the toolbar, takeoffcraft.js moves
  * it onto the sheet bar beside the sheet's scale (and back for the toolbar style).
  * Labels are text keys `input.cmd.<id>` in lang/en.json.
  *
- * STYLES: TakeoffCraft (today's toolbar), Takeoff desk (a menu bar laid out like the on-screen takeoff programs:
+ * STYLES: TakeoffDesk (today's toolbar), Takeoff desk (a menu bar laid out like the on-screen takeoff programs:
  * File, Edit, View, Scale, Takeoff, Items, Markup, Export, with a row of the takeoff tools) and Takeoff ribbon (0.7 WS.11: tabs
  * Takeoff, Edit, View, Markup, Estimate; also the workspace layouts' ribbon, workspace-takeoffcraft.js). Named for a way of
  * working, never for a product.
@@ -98,7 +98,7 @@ export const COMMANDS = [
 ];
 export const GROUPS = ['file', 'export', 'scale', 'takeoff', 'edit', 'view', 'markup', 'items', 'app'];
 
-// TakeoffCraft's own keys = the registry's (what the app does with no profile at all)
+// TakeoffDesk's own keys = the registry's (what the app does with no profile at all)
 const DEFAULT_KEYS = Object.fromEntries(COMMANDS.filter((c) => c.defKeys.length && !c.fixed).map((c) => [c.id, c.defKeys.slice()]));
 
 const m = (label, items) => ({ label: 'input.m.' + label, items });
@@ -181,7 +181,7 @@ export const STYLES = {
 };
 export const STYLE_ORDER = ['takeoffcraft', 'desk', 'ribbon'];
 
-/** IP.4: each style's family ("use this style in every app"). TakeoffCraft has no classic (command line) style: that family keeps its own. */
+/** IP.4: each style's family ("use this style in every app"). TakeoffDesk has no classic (command line) style: that family keeps its own. */
 export const FAMILY = { takeoffcraft: 'own', desk: 'menus', ribbon: 'ribbon' };
 export const STORE = 'takeoffcraft.input';
 

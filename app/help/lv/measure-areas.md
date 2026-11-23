@@ -41,7 +41,7 @@ Kad telpas ir zīmētas kā slēgtas sienas, {{ui:Telpa}} ({{key:B}}) noņem gr�
 2. Izvēlieties {{ui:Telpa}} grupā {{ui:Apjomu aprēķins}} vai nospiediet {{key:B}}.
 3. Noklikšķiniet telpas iekšpusē, atvērtajā grīdā (ne uz līnijas vai uzraksta).
 
-TakeoffCraft nolasa lapas līnijas, atrod telpu ap klikšķi un apvelk to pa sienu iekšējām virsmām kā pašreizējā vienuma laukumu. Durvju ailas līdz **4'-0"** tiek uzskatītas par slēgtām, tāpēc kontūra iet taisni pāri durvju ailai. **Iestatījumi › TakeoffCraft › Telpas aizpildīšana slēdz ailas līdz** maina šo platumu (no 3'-0" līdz 8'-0"). Telpu nosaukumi, mēbeles un iekārtas telpā neveido caurumus.
+TakeoffDesk nolasa lapas līnijas, atrod telpu ap klikšķi un apvelk to pa sienu iekšējām virsmām kā pašreizējā vienuma laukumu. Durvju ailas līdz **4'-0"** tiek uzskatītas par slēgtām, tāpēc kontūra iet taisni pāri durvju ailai. **Iestatījumi › TakeoffDesk › Telpas aizpildīšana slēdz ailas līdz** maina šo platumu (no 3'-0" līdz 8'-0"). Telpu nosaukumi, mēbeles un iekārtas telpā neveido caurumus.
 
 Tas atsakās, norādot iemeslu, kad:
 
@@ -62,7 +62,7 @@ Kad durvis ir platākas par iestatījumu, aizpildījums izplūst līdz nākamaja
 
 Apaļam caurumam izvēlieties {{ui:Pievienot apaļu izgriezumu}} zem **Atlasītā atzīme**, noklikšķiniet tā centrā un tad punktā uz malas.
 
-Izgriezumam jābūt pilnībā laukuma iekšpusē un tas nedrīkst pārklāties ar citu izgriezumu. Citādi TakeoffCraft to noraida: "Izgriezumam jāatrodas pilnībā laukuma iekšpusē." vai "Izgriezumi nevar pārklāties savā starpā."
+Izgriezumam jābūt pilnībā laukuma iekšpusē un tas nedrīkst pārklāties ar citu izgriezumu. Citādi TakeoffDesk to noraida: "Izgriezumam jāatrodas pilnībā laukuma iekšpusē." vai "Izgriezumi nevar pārklāties savā starpā."
 
 Lai izņemtu pēdējo caurumu, izvēlieties {{ui:Noņemt pēdējo izgriezumu}}.
 
@@ -76,7 +76,7 @@ Izgriezums pieder vienai laukuma atzīmei. **Atskaitījums** tiek zīmēts vienr
 
 Katra atzīmētā vienuma laukuma atzīme tajā pašā lapā zaudē daļu, ko pārklāj atskaitījums: visu atskaitījumu, ja tas atrodas iekšpusē, tikai pārklājošo daļu, ja tas šķērso malu, un neko izgriezuma iekšpusē. Atlasītā laukuma panelis rāda **Atskaitījumi** un atlikušo laukumu. Vienuma daudzums, tā mezglu formulas, izmaksas, 3D pārbaudes skats un eksports izmanto atlikušo laukumu; tāmes piezīmes norāda, cik daudz atskaitījumi atņēma. Pats atskaitījuma vienums skaita savu laukumu (atstājiet tā izmaksas nulles, ja to necenojat).
 
-Atskaitījumam jābūt **izliektam**: taisnstūrim, riņķim vai jebkurai kontūrai bez iekšēja stūra. TakeoffCraft atsakās to zīmēt, ja tā nav; L formas šahtu zīmējiet kā divus atskaitījumus. Atskaitījumiem nevar būt izgriezumi, un divi savstarpēji pārklājoši atskaitījumi skaitās abi.
+Atskaitījumam jābūt **izliektam**: taisnstūrim, riņķim vai jebkurai kontūrai bez iekšēja stūra. TakeoffDesk atsakās to zīmēt, ja tā nav; L formas šahtu zīmējiet kā divus atskaitījumus. Atskaitījumiem nevar būt izgriezumi, un divi savstarpēji pārklājoši atskaitījumi skaitās abi.
 
 Perimetrs (`P`) nemainās: atskaitījumi atskaita tikai laukumu.
 

@@ -13,7 +13,7 @@ Uni {{ui:Elementlar}} panelining tepasidagi {{ui:Kutubxona}} bilan oching.
 
 - {{ui:CSV import qilish…}} CSV sifatida saqlangan elektron jadvalni oʻqiydi (quyidagi ustunlarga qarang). Nomi va turi kutubxonada allaqachon bor elementlar almashtiriladi; qolganlari qoʻshiladi. Oʻqib boʻlmaydigan qatorlar oʻtkazib yuboriladi va qaysi va nega ekanligi aytiladi.
 - {{ui:Shu hajm elementlarini qoʻshish}} ochiq hajmning har bir elementini stavkalari va yigʻmasi bilan kutubxonaga nusxalaydi (belgilarini emas).
-- TakeoffCraft eksport qiladigan smeta CSV ([Smetani eksport qilish](topic:export-estimate)) oʻz holicha import qilinadi: oxirgi ishning narxlari keyingisiga boshlangʻich boʻladi.
+- TakeoffDesk eksport qiladigan smeta CSV ([Smetani eksport qilish](topic:export-estimate)) oʻz holicha import qilinadi: oxirgi ishning narxlari keyingisiga boshlangʻich boʻladi.
 
 - {{ui:Soha paketlari…}} bir soha uchun, masalan gipskarton, elektr yoki beton uchun narxsiz bepul yigʻmalar qoʻshadi. Qarang: [Soha paketlari](topic:trade-packs).
 

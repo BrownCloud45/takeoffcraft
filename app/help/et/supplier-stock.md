@@ -1,6 +1,6 @@
 ---
 title: Kontrolli tarnija laoseisu ja tarneaegu
-summary: Lisa tarnija laoseisunimekiri (CSV või tabel) ja TakeoffCraft kontrollib sellega, mida koguste arvestus vajab, koos jäätmetega: kas laos on piisavalt ja kui pikk on ootamine. Puudujäägid ja pikad ootamised kuvatakse probleemide paneelil.
+summary: Lisa tarnija laoseisunimekiri (CSV või tabel) ja TakeoffDesk kontrollib sellega, mida koguste arvestus vajab, koos jäätmetega: kas laos on piisavalt ja kui pikk on ootamine. Puudujäägid ja pikad ootamised kuvatakse probleemide paneelil.
 keywords: tarnija, laoseis, laos olemas, tarneaeg, saadavus, puudujääk, tagasitellimus, tellimisloend, csv, sku, müüja, materjalid, tarne, probleemid
 from: f11160fb
 ---

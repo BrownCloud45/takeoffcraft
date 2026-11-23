@@ -5,7 +5,7 @@ keywords: noteikt mērogu, nolasīt mērogu, mērogs no teksta, visas lapas, mē
 from: 8f0148e6
 ---
 
-Katrai lapai ir savs mērogs. Jūs to iestatāt vai ļaujat TakeoffCraft to nolasīt no lapu teksta (zemāk), un pārbaudāt to. Kamēr lapai nav mēroga, {{ui:Lineārs}}, {{ui:Laukums}}, {{ui:Riņķis}} un {{ui:Izgriezums}} uz tās nemēra. {{ui:Skaitīt}} un {{ui:Automātiski skaitīt}} darbojas bez mēroga.
+Katrai lapai ir savs mērogs. Jūs to iestatāt vai ļaujat TakeoffDesk to nolasīt no lapu teksta (zemāk), un pārbaudāt to. Kamēr lapai nav mēroga, {{ui:Lineārs}}, {{ui:Laukums}}, {{ui:Riņķis}} un {{ui:Izgriezums}} uz tās nemēra. {{ui:Skaitīt}} un {{ui:Automātiski skaitīt}} darbojas bez mēroga.
 
 Lapu sarakstā katras lapas mērogs ir rādīts vai **Nav mēroga**. Josla zem atvērtās lapas parāda to pašu.
 
@@ -23,7 +23,7 @@ Pilns saraksts ir [Mērogu iepriekš iestatījumi](topic:scale-presets).
 
 ## Nolasīt mērogus no lapu teksta
 
-Lielākā daļa zīmējumu norāda savu mērogu: `SCALE: 1/4" = 1'-0"` nosaukuma blokā, `1:100` zem skata. TakeoffCraft to var nolasīt un iestatīt katrai lapai uzreiz.
+Lielākā daļa zīmējumu norāda savu mērogu: `SCALE: 1/4" = 1'-0"` nosaukuma blokā, `1:100` zem skata. TakeoffDesk to var nolasīt un iestatīt katrai lapai uzreiz.
 
 1. Atveriet sarakstu {{ui:Iepriekš iestatīts}} un izvēlieties {{ui:No lapu teksta…}} (augšā).
 2. Saraksts rāda katru lapu: tās pašreizējo mērogu un to, ko saka tās teksts — **Norāda 1/4" = 1'-0"**, **Tekstā nav mēroga** vai **Norāda — nemērogot** (NTS).
@@ -44,7 +44,7 @@ Izmantojiet to, ja nav uzticama drukāta mēroga, komplekts ir mainīts izmērā
 5. Ievadiet reālo attālumu laukā **Reālais attālums**, piemēram, `24'-6 1/2"`, `24.5` (decimālās pēdas), `30"` vai `7.5 m`. Skatiet [Garuma, likmes un procentu ievade](topic:entry-formats).
 6. Izvēlieties {{ui:Iestatīt mērogu}}.
    Statusa joslā mērogs rādīts kā "1" = (n)'", un, ja tas atrodas 0.5% robežās no iepriekš iestatījuma, norādīts, kurš tas ir, piemēram, "kas atbilst 1/4" = 1'-0" (izvēlieties šo iepriekš iestatījumu precīzam mērogam)".
-   TakeoffCraft atgriežas pie rīka {{ui:Atlasīt}}.
+   TakeoffDesk atgriežas pie rīka {{ui:Atlasīt}}.
 
 Ja kalibrēšana atbilst iepriekš iestatījumam, šī iepriekš iestatījuma izvēle dod precīzu mērogu, nevis mērogu, kas atkarīgs no tā, kur noklikšķinājāt.
 
@@ -61,11 +61,11 @@ Nospiediet {{key:Esc}}, lai notīrītu pārbaudes līniju.
 
 ## Mainīt mērogu
 
-Izvēlieties citu iepriekš iestatījumu vai kalibrējiet vēlreiz. Ja lapai jau ir mērījumi, TakeoffCraft jautā **Mainīt šīs lapas mērogu?** un norāda, cik mērījumi tiks izmērīti no jauna. Izvēlieties {{ui:Mainīt mērogu}}. Katrs posms un laukums lapā tiek izmērīts no jauna jaunajā mērogā. To var atsaukt ar {{key:Mod+Z}}.
+Izvēlieties citu iepriekš iestatījumu vai kalibrējiet vēlreiz. Ja lapai jau ir mērījumi, TakeoffDesk jautā **Mainīt šīs lapas mērogu?** un norāda, cik mērījumi tiks izmērīti no jauna. Izvēlieties {{ui:Mainīt mērogu}}. Katrs posms un laukums lapā tiek izmērīts no jauna jaunajā mērogā. To var atsaukt ar {{key:Mod+Z}}.
 
 ## Kāpēc lapas bez mēroga netiek skaitītas kā nulle
 
-Atzīmei lapā bez mēroga nav reāla garuma vai laukuma. TakeoffCraft to nekad neskaita kā nulli, jo tas klusi padarītu jūsu tāmi pārāk zemu. Tā vietā tā:
+Atzīmei lapā bez mēroga nav reāla garuma vai laukuma. TakeoffDesk to nekad neskaita kā nulli, jo tas klusi padarītu jūsu tāmi pārāk zemu. Tā vietā tā:
 
 - izslēdz šīs atzīmes no kopsummām,
 - rāda "+(n) bez mēroga" blakus vienumam {{ui:Daudzumi}},
@@ -77,5 +77,5 @@ Tas var notikt, kad atverat projektu, kura mērogi nekad nav iestatīti. Iestati
 ## Padomi
 
 - Iestatiet mērogu katrai lapai, ko mērīsiet, pirms sākat. Pārlūkojiet lapu sarakstu un meklējiet **Nav mēroga**, lai atrastu atlikušās (meklēšanas lauks skata lapu nosaukumus, nevis mērogus).
-- Detaļām un palielinātiem plāniem tajā pašā lapā bieži ir cits mērogs. TakeoffCraft katrai lapai ir viens mērogs; skatiet [Kas vēl nav izveidots](topic:not-built-yet).
+- Detaļām un palielinātiem plāniem tajā pašā lapā bieži ir cits mērogs. TakeoffDesk katrai lapai ir viens mērogs; skatiet [Kas vēl nav izveidots](topic:not-built-yet).
 - Metriskie zīmējumi: izvēlieties metrisku iepriekš iestatījumu, piemēram, `1:100`, vai kalibrējiet ar metrisku attālumu, piemēram, `6000 mm`.

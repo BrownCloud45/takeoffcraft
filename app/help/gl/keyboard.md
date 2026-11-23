@@ -1,6 +1,6 @@
 ---
 title: Teclado e rato
-summary: Cada tecla, rato, panel táctil e acción táctil en TakeoffCraft, agrupados, con as diferenzas por plataforma.
+summary: Cada tecla, rato, panel táctil e acción táctil en TakeoffDesk, agrupados, con as diferenzas por plataforma.
 keywords: teclas, atallos, teclas rápidas, teclado, rato, panel táctil, tacto, desprazar, zoom, roda, clic dereito, dobre clic, espazo, shift, copiar, pegar, cortar, duplicar, seleccionar todo
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Vexa [Comprobar a medición en 3D](topic:check-in-3d).
 | Tecla | Que fai |
 |---|---|
 | {{key:F1}} | Abrir ou pechar o panel de axuda (tamén o botón {{ui:Help}} da barra de aplicación). Funciona en todas as ferramentas, aínda que estea escribindo nun campo. |
-| {{key:Esc}} | Pechar o panel de axuda. No seu campo de busca, o primeiro Esc borra a busca. Mentres o panel está aberto, un Esc pulsado despois de facer clic na folla pecha primeiro o panel; prema de novo para cancelar en TakeoffCraft. |
+| {{key:Esc}} | Pechar o panel de axuda. No seu campo de busca, o primeiro Esc borra a busca. Mentres o panel está aberto, un Esc pulsado despois de facer clic na folla pecha primeiro o panel; prema de novo para cancelar en TakeoffDesk. |
 
 :::mac
 Nos teclados Mac, a fila superior controla o brillo e o son. Prema fn con F1, ou active «Usar as teclas F1, F2, etc. como teclas de función estándar» en Configuración do sistema, en Teclado.
@@ -139,7 +139,7 @@ Nos teclados Mac, a fila superior controla o brillo e o son. Prema fn con F1, ou
 
 :::mac
 - {{key:Mod}} é a tecla Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. A pantalla completa é a excepción: Control+Shift+F.
-- O clic dereito é un clic con dous dedos no trackpad, unha vez activado o clic secundario en Configuración do sistema, en Trackpad. TakeoffCraft lee só o botón secundario; un clic con Control pode contar como clic simple e engadir un punto.
+- O clic dereito é un clic con dous dedos no trackpad, unha vez activado o clic secundario en Configuración do sistema, en Trackpad. TakeoffDesk lee só o botón secundario; un clic con Control pode contar como clic simple e engadir un punto.
 - Desprazar con dous dedos no trackpad fai zoom na folla (non a despraza). Para desprazar, prema e arrastre, ou manteña {{key:Space}} e arrastre.
 - Page Up e Page Down son fn coas frechas arriba e abaixo, nos teclados que non as teñen.
 - Backspace é a tecla que di delete.
@@ -151,12 +151,12 @@ Nos teclados Mac, a fila superior controla o brillo e o son. Prema fn con F1, ou
 :::
 
 :::linux
-- {{key:Mod}} é Ctrl. Algúns escritorios usan atallos propios con Ctrl+Alt ou Super; TakeoffCraft non usa ningún deles.
+- {{key:Mod}} é Ctrl. Algúns escritorios usan atallos propios con Ctrl+Alt ou Super; TakeoffDesk non usa ningún deles.
 - Nun panel táctil, un desprazamento con dous dedos fai zoom na folla. Para desprazar, prema e arrastre.
 :::
 
 :::touch
-TakeoffCraft lee o tacto como un único punteiro:
+TakeoffDesk lee o tacto como un único punteiro:
 
 - Tocar coloca un punto, selecciona unha marca ou engade un punto de contaxe.
 - Arrastrar cun dedo despraza a folla (en {{ui:Auto count}} debuxa a caixa de busca).
@@ -169,7 +169,7 @@ Hoxe, un teclado e rato ou un panel táctil é a mellor forma de facer a medici�
 
 ## Teclas que o navegador conserva
 
-Os navegadores reservan algúns atallos para si, e unha páxina non os pode usar: pechar a lapela ({{key:Mod+W}}), nova lapela ou xanela ({{key:Mod+T}}, {{key:Mod+N}}) e zoom do navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Por iso TakeoffCraft fai zoom na folla coa roda e coas teclas {{key:Plus}} e {{key:Minus}} soas. Se preme {{key:Mod+Plus}} por erro, crece toda a páxina; {{key:Mod+0}} a devolve ao tamaño normal. Vexa [Teclas, ratos e panos táctiles](common:keys).
+Os navegadores reservan algúns atallos para si, e unha páxina non os pode usar: pechar a lapela ({{key:Mod+W}}), nova lapela ou xanela ({{key:Mod+T}}, {{key:Mod+N}}) e zoom do navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Por iso TakeoffDesk fai zoom na folla coa roda e coas teclas {{key:Plus}} e {{key:Minus}} soas. Se preme {{key:Mod+Plus}} por erro, crece toda a páxina; {{key:Mod+0}} a devolve ao tamaño normal. Vexa [Teclas, ratos e panos táctiles](common:keys).
 
 ## Onde está Mover
 

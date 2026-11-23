@@ -49,4 +49,4 @@ Unha escala calibrada aparece na barra debaixo da folla como «Calibrada 1» = 4
 
 ## PDF pouco habituais
 
-Algúns PDF declaran unha unidade de páxina maior (unha «unidade de usuario»); TakeoffCraft téno en conta para as predefinicións e para a escala mostrada. As páxinas xiradas no PDF mídense igual que as verticais.
+Algúns PDF declaran unha unidade de páxina maior (unha «unidade de usuario»); TakeoffDesk téno en conta para as predefinicións e para a escala mostrada. As páxinas xiradas no PDF mídense igual que as verticais.

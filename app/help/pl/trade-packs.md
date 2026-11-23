@@ -39,4 +39,4 @@ Każda pozycja zawiera też numer CSI MasterFormat, na przykład `09 21 16`.
 
 {{ui:Eksportuj jako pakiet…}} w bibliotece zapisuje ją jako plik pakietu (`.ccpack.json`), który każdy może dodać przez {{ui:Otwórz plik pakietu…}}. Domyślnie pomija pozycje pochodzące z pakietów, które dodałeś, i nie zawiera stawek. Zaznacz {{ui:Dołącz moje stawki jako przykładowe}}, aby wysłać również swoje stawki: trafią oznaczone regionem i datą, którą podasz, a osoba dodająca pakiet sama wybiera, czy z nich skorzystać.
 
-Pliki pakietów to zwykłe dane, nigdy programy. TakeoffCraft sprawdza każdą część pliku przed użyciem i pomija to, czego nie potrafi odczytać.
+Pliki pakietów to zwykłe dane, nigdy programy. TakeoffDesk sprawdza każdą część pliku przed użyciem i pomija to, czego nie potrafi odczytać.

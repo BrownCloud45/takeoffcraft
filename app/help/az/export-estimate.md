@@ -28,7 +28,7 @@ from: 334f89c7
 
 [Tender təklifi xülasəsi](topic:bid-summary) ilə Smeta iş vərəqi də öz markup-ları ilə bitir (əmək yükü, satış vergisi, üstəlik xərclər, mənfəət, zəmanət və təklif) canlı düsturlar kimi.
 
-Smeta iş vərəqi **canlı düsturları** saxlayır: itkili miqdar, yuvarlaqlaşdırılmış material və əmək məbləğləri, hər sətrin cəmi və ümumi cəm. Cədvəl proqramları onları yenidən hesablayır, ona görə dərəcəni və ya itkini cədvəldə dəyişdikdə cəmlər izləyir. TakeoffCraft-ın hesablaması da xanalarda saxlanılır və sentə qədər uyğundur.
+Smeta iş vərəqi **canlı düsturları** saxlayır: itkili miqdar, yuvarlaqlaşdırılmış material və əmək məbləğləri, hər sətrin cəmi və ümumi cəm. Cədvəl proqramları onları yenidən hesablayır, ona görə dərəcəni və ya itkini cədvəldə dəyişdikdə cəmlər izləyir. TakeoffDesk-ın hesablaması da xanalarda saxlanılır və sentə qədər uyğundur.
 
 Qeydlər sütunu hər komponentin düsturunu, düstur xətalarını, miqyası olmayan vərəqdəki işarələri, divar sahəsini və perimetri sadalayır. Bir şey buraxıldıqda ümumi cəm sətri "Natamam: yuxarıdakı qeydlərə baxın" yazır.
 
@@ -42,7 +42,7 @@ CSV yalnız smetanı saxlayır; vərəqə görə miqdarlar və işarə siyahıs�
 
 ## Smeta Google Sheets-də
 
-Miqdarlar cədvəlinin üstündə **Google Sheets üçün kopyala** smetanı sekmə ilə ayrılmış mətn kimi buferinizə qoyur, CSV ilə eyni sətirlərlə. Google Cədvəldə A1 xanasına klikləyin və yapışdırın. TakeoffCraft Google-a daxil olmur və orada heç nə göndərmir.
+Miqdarlar cədvəlinin üstündə **Google Sheets üçün kopyala** smetanı sekmə ilə ayrılmış mətn kimi buferinizə qoyur, CSV ilə eyni sətirlərlə. Google Cədvəldə A1 xanasına klikləyin və yapışdırın. TakeoffDesk Google-a daxil olmur və orada heç nə göndərmir.
 
 ## Çatışmayan dərəcələr və təsdiq
 

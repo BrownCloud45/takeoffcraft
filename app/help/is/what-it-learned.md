@@ -1,11 +1,11 @@
 ---
-title: Það sem TakeoffCraft lærði af magntökum þínum
-summary: TakeoffCraft geymir táknin sem þú staðfestir með Sjálftalningu, skilyrðasöfnin þín, samsetningarnar sem þú notar mest og mynstur sem þú endurtekur á hverri síðu, allt í eigin skrá magntökunnar. Skoðaðu það, notaðu það, eyddu því.
+title: Það sem TakeoffDesk lærði af magntökum þínum
+summary: TakeoffDesk geymir táknin sem þú staðfestir með Sjálftalningu, skilyrðasöfnin þín, samsetningarnar sem þú notar mest og mynstur sem þú endurtekur á hverri síðu, allt í eigin skrá magntökunnar. Skoðaðu það, notaðu það, eyddu því.
 keywords: lært, lærdómur, nám, aðstoðarmaður, muna, tákn, sniðmát, sama og síðasta verk, síðasta verk, skilyrðasafn, skilyrði, endurnota, samsetningar, mest notað, tillögur, endurtaka á hverri síðu, hver síða, titilreitur, mynstur, hreinsa allt, gleyma, friðhelgi
 from: 54d99e99
 ---
 
-TakeoffCraft verður fljótvirkara eftir því sem þú gerir fleiri magntökur með því. Það lærir **aðeins af því sem þú samþykkir**:
+TakeoffDesk verður fljótvirkara eftir því sem þú gerir fleiri magntökur með því. Það lærir **aðeins af því sem þú samþykkir**:
 
 - táknunum sem þú rammaðir inn með [Sjálftalningu](topic:auto-count) og bættir svo við,
 - skilyrðasöfnunum sem þú vistar,
@@ -23,7 +23,7 @@ Veldu {{ui:Lært}} á tækjastikunni (ljósaperan, við hliðina á {{ui:Sjálft
 - Í {{ui:Lært}} skaltu velja {{ui:Finna á þessu blaði}} eða {{ui:Finna á öllum blöðum}}. Venjuleg yfirferð Sjálftalningar opnast: smelltu á reit til að sleppa honum, færðu rennuna, og bættu síðan við. Ekkert er bætt við fyrr en þú gerir það.
 - Þegar þú opnar blað sem hefur ekkert af lærðu tákni, býður stika efst upp á {{ui:Finna …}} fyrir það. {{ui:Ekki núna}} felur hana fyrir það blað.
 - Ef magntakan hefur engan lið með því heiti, bætir það við liðnum líka þegar merkin eru sett inn (eitt afturköllunarskref).
-- Ef þú bætir aftur við tákni sama liðar telst það til þess sem TakeoffCraft þekkir; tákn sem lítur öðruvísi út er geymt sem annað.
+- Ef þú bætir aftur við tákni sama liðar telst það til þess sem TakeoffDesk þekkir; tákn sem lítur öðruvísi út er geymt sem annað.
 - Eins og Sjálftalning finnur það táknið í réttum hornum og á blöðum í öðrum mælikvarða.
 
 ## Skilyrðasöfn
@@ -64,6 +64,6 @@ Til að hætta að læra í einni magntöku skaltu taka hakið úr {{ui:Læra af
 
 ## Gott að vita
 
-- Eldri útgáfur TakeoffCraft opna skrá með lærðum atriðum venjulega. Þær hunsa þann hluta og fjarlægja hann ef þær vista skrána aftur.
+- Eldri útgáfur TakeoffDesk opna skrá með lærðum atriðum venjulega. Þær hunsa þann hluta og fjarlægja hann ef þær vista skrána aftur.
 - Lært tákn er lítil mynd af því sem þú rammaðir inn, geymd í skránni (nokkur kílóbæti hvert).
 - Lærð tákn eru leitað eins og Sjálftalning leitar, þannig að sömu takmörk gilda: [Sjálftalning á tákni](topic:auto-count).

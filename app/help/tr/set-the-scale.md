@@ -5,7 +5,7 @@ keywords: ölçeği algıla, ölçeği oku, metinden ölçek, tüm sayfalar, öl
 from: 8f0148e6
 ---
 
-Her sayfanın kendi ölçeği vardır. Siz ayarlarsınız ya da TakeoffCraft'in sayfa metninden okumasına izin verirsiniz (aşağıda) ve denetlersiniz. Bir sayfanın ölçeği olana kadar {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} ve {{ui:Cut-out}} o sayfada ölçüm yapmayı reddeder. {{ui:Count}} ve {{ui:Auto count}} ölçek olmadan çalışır.
+Her sayfanın kendi ölçeği vardır. Siz ayarlarsınız ya da TakeoffDesk'in sayfa metninden okumasına izin verirsiniz (aşağıda) ve denetlersiniz. Bir sayfanın ölçeği olana kadar {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} ve {{ui:Cut-out}} o sayfada ölçüm yapmayı reddeder. {{ui:Count}} ve {{ui:Auto count}} ölçek olmadan çalışır.
 
 Sayfalar listesi her sayfanın ölçeğini ya da **Ölçek yok** yazısını gösterir. Açık sayfanın altındaki çubuk da aynısını söyler.
 
@@ -23,7 +23,7 @@ Tam liste için bkz. [Ölçek hazır ayarları](topic:scale-presets).
 
 ## Ölçekleri sayfa metninden okuyun
 
-Çoğu çizim ölçeğini söyler: çizim künyesinde `SCALE: 1/4" = 1'-0"`, bir görünümün altında `1:100`. TakeoffCraft bunu okuyabilir ve her sayfayı tek seferde ayarlayabilir.
+Çoğu çizim ölçeğini söyler: çizim künyesinde `SCALE: 1/4" = 1'-0"`, bir görünümün altında `1:100`. TakeoffDesk bunu okuyabilir ve her sayfayı tek seferde ayarlayabilir.
 
 1. {{ui:Preset}} listesini açın ve (en üstteki) **Sayfaların metninden…** seçeneğini seçin.
 2. Liste her sayfayı gösterir: şimdiki ölçeğini ve metninin ne dediğini — **1/4" = 1'-0" yazıyor**, **Metninde ölçek yok** ya da **Ölçeksiz diyor** (NTS).
@@ -44,7 +44,7 @@ Güvendiğiniz basılı bir ölçek yoksa, takım yeniden boyutlandırılmışsa
 5. **Gerçek mesafe** alanına gerçek mesafeyi yazın, örneğin `24'-6 1/2"`, `24.5` (ondalık fit), `30"` ya da `7.5 m`. Bkz. [Uzunluk, oran ve yüzde girişi](topic:entry-formats).
 6. {{ui:Set the scale}} seçeneğini seçin.
    Durum çubuğu ölçeği "1" = (n)'" olarak gösterir; bir hazır ayara %0.5 yakınsa hangisiyle eşleştiğini de söyler, örneğin "1/4" = 1'-0" ile eşleşir (kesin bir ölçek için bu hazır ayarı seçin)".
-   TakeoffCraft sizi {{ui:Select}} aracına geri döndürür.
+   TakeoffDesk sizi {{ui:Select}} aracına geri döndürür.
 
 Kalibrasyon bir hazır ayarla eşleştiğinde, o hazır ayarı seçmek, tıkladığınız yere bağlı olmayan kesin bir ölçek verir.
 
@@ -61,11 +61,11 @@ Denetleme çizgisini temizlemek için {{key:Esc}} tuşuna basın.
 
 ## Ölçeği değiştirme
 
-Başka bir hazır ayar seçin ya da yeniden kalibre edin. Sayfada zaten ölçümler varsa TakeoffCraft **Bu sayfanın ölçeği değiştirilsin mi?** diye sorar ve kaç ölçümün yeniden ölçüleceğini söyler. {{ui:Change the scale}} seçeneğini seçin. Sayfadaki her koşu ve alan yeni ölçekte yeniden ölçülür. {{key:Mod+Z}} ile geri alabilirsiniz.
+Başka bir hazır ayar seçin ya da yeniden kalibre edin. Sayfada zaten ölçümler varsa TakeoffDesk **Bu sayfanın ölçeği değiştirilsin mi?** diye sorar ve kaç ölçümün yeniden ölçüleceğini söyler. {{ui:Change the scale}} seçeneğini seçin. Sayfadaki her koşu ve alan yeni ölçekte yeniden ölçülür. {{key:Mod+Z}} ile geri alabilirsiniz.
 
 ## Ölçeksiz sayfalar neden sıfır sayılmaz
 
-Ölçeği olmayan bir sayfadaki işaretin gerçek bir uzunluğu ya da alanı yoktur. TakeoffCraft onu asla sıfır saymaz; bu, tahmininizi sessizce olduğundan düşük gösterirdi. Bunun yerine şunları yapar:
+Ölçeği olmayan bir sayfadaki işaretin gerçek bir uzunluğu ya da alanı yoktur. TakeoffDesk onu asla sıfır saymaz; bu, tahmininizi sessizce olduğundan düşük gösterirdi. Bunun yerine şunları yapar:
 
 - bu işaretleri toplamların dışında bırakır,
 - {{ui:Quantities}} içinde kalemin yanında "+(n) ölçeksiz" gösterir,
@@ -77,5 +77,5 @@ Bu, ölçekleri hiç ayarlanmamış bir projeyi açtığınızda olabilir. Sayfa
 ## İpuçları
 
 - Ölçmeye başlamadan önce ölçeğini ayarlayacağınız her sayfanın ölçeğini ayarlayın. Kalan sayfaları bulmak için sayfalar listesinde **Ölçek yok** yazısını tarayın (arama kutusu sayfa adlarına bakar, ölçeklere değil).
-- Aynı sayfadaki ayrıntılar ve büyütülmüş planlar genellikle başka bir ölçek kullanır. TakeoffCraft sayfa başına tek bir ölçek tutar; bkz. [Henüz yapılmadı](topic:not-built-yet).
+- Aynı sayfadaki ayrıntılar ve büyütülmüş planlar genellikle başka bir ölçek kullanır. TakeoffDesk sayfa başına tek bir ölçek tutar; bkz. [Henüz yapılmadı](topic:not-built-yet).
 - Metrik çizimler: `1:100` gibi bir metrik hazır ayar seçin ya da `6000 mm` gibi metrik bir mesafeyle kalibre edin.

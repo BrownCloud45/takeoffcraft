@@ -1,6 +1,6 @@
 ---
 title: Comprobar el stock y los plazos de entrega del proveedor
-summary: Añada el listado de stock de un proveedor (CSV u hoja de cálculo) y TakeoffCraft compara con él lo que necesita la cuantificación, con el desperdicio: si hay suficiente en stock y cuánto dura la espera. Las faltas y las esperas largas aparecen en el panel de Problemas.
+summary: Añada el listado de stock de un proveedor (CSV u hoja de cálculo) y TakeoffDesk compara con él lo que necesita la cuantificación, con el desperdicio: si hay suficiente en stock y cuánto dura la espera. Las faltas y las esperas largas aparecen en el panel de Problemas.
 keywords: proveedor, stock, en stock, plazo de entrega, disponibilidad, falta, pedido pendiente, lista de pedido, csv, sku, vendedor, materiales, suministro, problemas
 from: f11160fb
 ---

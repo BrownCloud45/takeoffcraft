@@ -1,6 +1,6 @@
 ---
 title: Angalia hisa ya msambazaji na muda wa kusubiri
-summary: Ongeza orodha ya hisa ya msambazaji (CSV au lahajedwali) na TakeoffCraft inakagua kile ukadiriaji unachohitaji, pamoja na upotevu, dhidi yake: kama kuna cha kutosha kwenye hisa, na muda wa kusubiri ni upi. Upungufu na masubiri marefu yanaonekana kwenye jopo la Matatizo.
+summary: Ongeza orodha ya hisa ya msambazaji (CSV au lahajedwali) na TakeoffDesk inakagua kile ukadiriaji unachohitaji, pamoja na upotevu, dhidi yake: kama kuna cha kutosha kwenye hisa, na muda wa kusubiri ni upi. Upungufu na masubiri marefu yanaonekana kwenye jopo la Matatizo.
 keywords: msambazaji, hisa, ipo kwenye hisa, muda wa kusubiri, upatikanaji, upungufu, oda ya nyuma, orodha ya oda, csv, sku, muuzaji, vifaa, ugavi, matatizo
 from: f11160fb
 ---

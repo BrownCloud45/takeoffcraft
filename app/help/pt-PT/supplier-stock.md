@@ -1,6 +1,6 @@
 ---
 title: Verificar o stock e os prazos de entrega do fornecedor
-summary: Adicione a lista de stock de um fornecedor (CSV ou folha de cálculo) e o TakeoffCraft verifica contra ela o que a medição precisa, com o desperdício: se há stock suficiente e quanto tempo dura a espera. As faltas e as esperas longas aparecem no painel Problemas.
+summary: Adicione a lista de stock de um fornecedor (CSV ou folha de cálculo) e o TakeoffDesk verifica contra ela o que a medição precisa, com o desperdício: se há stock suficiente e quanto tempo dura a espera. As faltas e as esperas longas aparecem no painel Problemas.
 keywords: fornecedor, stock, em stock, prazo de entrega, disponibilidade, falta, encomenda pendente, lista de encomenda, csv, sku, vendedor, materiais, fornecimento, problemas
 from: f11160fb
 ---

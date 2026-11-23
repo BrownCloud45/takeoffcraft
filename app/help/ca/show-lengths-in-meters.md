@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Què farà
 
-Canviar la manera com TakeoffCraft mostra les longituds, perquè un treball mètric es llegeixi en metres, centímetres o mil·límetres al full, a la barra d'estat i als panells.
+Canviar la manera com TakeoffDesk mostra les longituds, perquè un treball mètric es llegeixi en metres, centímetres o mil·límetres al full, a la barra d'estat i als panells.
 
 ## Passos
 
-1. Obriu {{ui:Configuració}} amb la roda dentada de la barra de l'aplicació o amb {{key:Mod+,}}, i quedeu-vos a la pestanya {{ui:TakeoffCraft}}.
+1. Obriu {{ui:Configuració}} amb la roda dentada de la barra de l'aplicació o amb {{key:Mod+,}}, i quedeu-vos a la pestanya {{ui:TakeoffDesk}}.
 2. Cerqueu {{ui:Mostra les longituds com a}} i trieu {{ui:Peus i polzades}}, m, cm o mm. {{ui:Segueix Global}} fa servir la unitat de longitud mètrica marcada amb estrella a {{ui:Configuració}} › {{ui:Global}} › {{ui:Unitats}}, i peus i polzades quan no n'hi ha cap de marcada amb estrella.
 3. Mireu el full: les longituds a la barra d'estat, a la llista {{ui:Elements}} i als panells ara es llegeixen en la unitat que heu triat. Les alçades, la profunditat, el gruix i els nivells també.
 4. Per llegir les temperatures de les partides en graus C o F, trieu {{ui:Mostra les temperatures com a}} a la mateixa pestanya.

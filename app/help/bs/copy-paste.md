@@ -32,11 +32,11 @@ Zalijepljene oznake idu u ponudnu cjelinu odabranu na vrhu panela {{ui:Stavke}} 
 
 {{key:Mod+Shift+V}} ({{ui:Zalijepi na mjestu}}) stavlja kopiju na tačno isto mjesto na otvorenom listu, po njenoj poziciji na stranici. Koristite to za tipičan sprat: označite nivo 2, kopirajte, otvorite nivo 3, zalijepite na mjestu.
 
-Zalijepi na mjestu traži list iste veličine kao onaj s kojeg ste kopirali. Na listu druge veličine TakeoffCraft to kaže i ništa ne zalijepi; umjesto toga koristite {{ui:Zalijepi}} i kliknite. Na listu s kojeg ste kopirali, kopija ide preko originala.
+Zalijepi na mjestu traži list iste veličine kao onaj s kojeg ste kopirali. Na listu druge veličine TakeoffDesk to kaže i ništa ne zalijepi; umjesto toga koristite {{ui:Zalijepi}} i kliknite. Na listu s kojeg ste kopirali, kopija ide preko originala.
 
 ## Razmjera mora odgovarati
 
-Dužine i površine zavise od razmjere lista. Dionica koja mjeri 10' pri 1/4" = 1'-0" mjerila bi 20' na listu pri 1/8" = 1'-0". Zato TakeoffCraft lijepi dionice i površine samo na list s **istom razmjerom** kao list s kojeg su došle, i to jasno kaže kad nije:
+Dužine i površine zavise od razmjere lista. Dionica koja mjeri 10' pri 1/4" = 1'-0" mjerila bi 20' na listu pri 1/8" = 1'-0". Zato TakeoffDesk lijepi dionice i površine samo na list s **istom razmjerom** kao list s kojeg su došle, i to jasno kaže kad nije:
 
 - Otvoreni list još nema razmjeru: prvo mu je dajte ([Postavljanje razmjere](topic:set-the-scale)), pa zalijepite.
 - Otvoreni list ima drugu razmjeru: poruka navodi obje razmjere. Zalijepite na list iste razmjere.
@@ -59,7 +59,7 @@ Uređivač stavke (pod **Stavke**) završava s:
 - {{ui:Dupliciraj stavku}}: odmah dodaje kopiju, nazvanu „(naziv) (kopija)”.
 
 :::tip
-Kopija ostaje na ovom računaru: čuva se u ovom tabu i u memoriji pregledača, pa je drugi TakeoffCraft tab može zalijepiti. Ništa se ne šalje na server, a sistemska međumemorija se ne koristi, pa oznake ne možete lijepiti u druge programe.
+Kopija ostaje na ovom računaru: čuva se u ovom tabu i u memoriji pregledača, pa je drugi TakeoffDesk tab može zalijepiti. Ništa se ne šalje na server, a sistemska međumemorija se ne koristi, pa oznake ne možete lijepiti u druge programe.
 :::
 
 :::note

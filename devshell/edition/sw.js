@@ -3,7 +3,7 @@
  * sw.js — "Save for offline" for one app's browser edition (0.4 part 2, D.4). It lives in the edition's folder, so its
  * scope is that folder and nothing else on the server: it never sees another app or another site's pages.
  *
- * Same messages as getcadcraft.com's /sw.js (assets/js/app-offline.js sends them): {type:'status'|'save'|'remove', key}.
+ * Same messages as the site's /sw.js (assets/js/app-offline.js sends them): {type:'status'|'save'|'remove', key}.
  * Nothing is cached until someone clicks "Save for offline"; a save fills a new cache "cc-edition:<scope>@<time>" and,
  * once every file is in, deletes the older one, so a failed save keeps the last good copy. URLs in a save may be
  * relative (the edition does not know which folder it was put in); they are resolved against this worker's scope.

@@ -55,4 +55,4 @@ Merilo lista pove, kako velika je risba; enota postavke pove, kako jo poročati.
 
 ## Natančnost
 
-TakeoffCraft meri natančno iz točk, na katere kliknete, vključno z dejanskimi dolžinami in površinami lokov, in količin ne zaokrožuje. Prikaz zaokroži dolžine na 1/16 palca in decimalna mesta na dve. Denar se zaokroži le pri končnih zneskih, na cent.
+TakeoffDesk meri natančno iz točk, na katere kliknete, vključno z dejanskimi dolžinami in površinami lokov, in količin ne zaokrožuje. Prikaz zaokroži dolžine na 1/16 palca in decimalna mesta na dve. Denar se zaokroži le pri končnih zneskih, na cent.

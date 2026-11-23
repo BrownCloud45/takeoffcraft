@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Hvad du gør
 
-Ændr hvordan TakeoffCraft viser længder, så et metrisk job læses i meter, centimeter eller millimeter på arket, i statuslinjen og i panelerne.
+Ændr hvordan TakeoffDesk viser længder, så et metrisk job læses i meter, centimeter eller millimeter på arket, i statuslinjen og i panelerne.
 
 ## Trin
 
-1. Åbn {{ui:Indstillinger}} med tandhjulet i appbjælken eller {{key:Mod+,}}, og bliv på fanen {{ui:TakeoffCraft}}.
+1. Åbn {{ui:Indstillinger}} med tandhjulet i appbjælken eller {{key:Mod+,}}, og bliv på fanen {{ui:TakeoffDesk}}.
 2. Find {{ui:Vis længder som}} og vælg {{ui:Fod-tommer}}, m, cm eller mm. {{ui:Følg Global}} bruger den metriske længdeenhed der er markeret med stjerne i {{ui:Indstillinger}} › {{ui:Globalt}} › {{ui:Enheder}}, og fod-tommer når ingen er markeret.
 3. Se på arket: længder i statuslinjen, listen over poster og panelerne viser nu den enhed du valgte. Højder, dybder, tykkelser og niveauer gør det også.
 4. Vil du læse postens temperaturer i grader C eller F, vælg {{ui:Vis temperaturer som}} i samme fane.

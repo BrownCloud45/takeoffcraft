@@ -1,11 +1,11 @@
 ---
 title: Penyelesaian masalah
-summary: Gejala, punca dan penyelesaian untuk mesej dan kejutan yang mungkin anda temui dalam TakeoffCraft, dipetik seperti yang dipaparkan oleh app.
+summary: Gejala, punca dan penyelesaian untuk mesej dan kejutan yang mungkin anda temui dalam TakeoffDesk, dipetik seperti yang dipaparkan oleh app.
 keywords: masalah, ralat, tidak berfungsi, betulkan, bantuan, ditolak, tidak mengukur, tiada skala, penanda hilang, eksport gagal, luar talian, sentuh
 from: cd319c9b
 ---
 
-TakeoffCraft menerangkan kebanyakan penolakan dalam bar status di bahagian bawah tetingkap. Cari mesej di bawah.
+TakeoffDesk menerangkan kebanyakan penolakan dalam bar status di bahagian bawah tetingkap. Cari mesej di bawah.
 
 ## Membuka fail
 
@@ -15,8 +15,8 @@ TakeoffCraft menerangkan kebanyakan penolakan dalam bar status di bahagian bawah
 | (nama) dilindungi kata laluan. Buka salinan yang tidak dilindungi. | PDF memerlukan kata laluan untuk dibuka. | Minta salinan yang tidak dilindungi, atau alih keluar kata laluan dalam program PDF yang anda percayai. |
 | (nama) tidak dapat dibaca sebagai PDF (…) | Fail itu rosak atau bukan PDF sebenar. | Muat turun semula, atau simpan semula daripada program yang menghasilkannya. |
 | (nama) sudah dibuka. | PDF yang sama (kandungan yang sama) sudah dibuka. | Tiada apa yang perlu dibuat. |
-| TakeoffCraft membuka PDF dan projek .takeoff.json. Dilangkau: … | Jenis fail lain dibuang. | Tukar lukisan kepada PDF dahulu. |
-| Tiada apa berlaku apabila saya lepaskan fail | Fail dilepaskan di luar tetingkap pelayar, atau pelayar membuka PDF dalam tab baharu. | Lepaskan pada halaman TakeoffCraft itu sendiri; bingkai "Lepaskan PDF atau .takeoff.json" menunjukkan bila ia akan berfungsi. |
+| TakeoffDesk membuka PDF dan projek .takeoff.json. Dilangkau: … | Jenis fail lain dibuang. | Tukar lukisan kepada PDF dahulu. |
+| Tiada apa berlaku apabila saya lepaskan fail | Fail dilepaskan di luar tetingkap pelayar, atau pelayar membuka PDF dalam tab baharu. | Lepaskan pada halaman TakeoffDesk itu sendiri; bingkai "Lepaskan PDF atau .takeoff.json" menunjukkan bila ia akan berfungsi. |
 | Membuka set yang besar mengambil masa | Setiap PDF dibaca sepenuhnya untuk dikenal pasti. | Tunggu mesej "Membuka (nama)…" hilang. Imej kecil terisi apabila anda menatal. |
 
 ## Mengukur
@@ -47,7 +47,7 @@ TakeoffCraft menerangkan kebanyakan penolakan dalam bar status di bahagian bawah
 | Mesej atau gejala | Punca | Penyelesaian |
 |---|---|---|
 | Pilih dua titik yang lebih jauh jaraknya. | Titik penentukuran hampir bertindih. | Tentukur pada dimensi yang lebih panjang. |
-| Mesej dalam kotak dialog tentukur, seperti "That distance could not be read" | Jaraknya dalam bentuk yang TakeoffCraft tidak dapat baca. | Lihat [Entri panjang, kadar dan peratus](topic:entry-formats). |
+| Mesej dalam kotak dialog tentukur, seperti "That distance could not be read" | Jaraknya dalam bentuk yang TakeoffDesk tidak dapat baca. | Lihat [Entri panjang, kadar dan peratus](topic:entry-formats). |
 | Helaian ini belum ada skala, jadi tiada apa untuk disemak. Tentukurkannya, atau pilih pratetap. | {{ui:Check}} pada helaian yang tiada skala. | Tetapkan skala dahulu. |
 | Senarai {{ui:Preset}} dilorekkan | Tiada helaian dibuka. | Buka PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft menerangkan kebanyakan penolakan dalam bar status di bahagian bawah
 | PDF ini dilindungi kata laluan atau disulitkan, jadi salinan bertanda tidak boleh ditulis. … | PDF disulitkan. | Eksport {{ui:XLSX}} sebaliknya, atau gunakan salinan PDF yang tidak disulitkan (ia kemudian memerlukan pengukuran kuantitinya sendiri, kerana ia fail yang berbeza). |
 | PDF bertanda tidak dapat ditulis: … | Selalunya: luar talian, dan app tidak disimpan untuk kegunaan luar talian, jadi penulis PDF tiada. | Pergi dalam talian dan pilih {{ui:Marked PDF}} semula. Untuk mengelakkannya, pilih {{ui:Save for offline}} dan tunggu {{ui:Offline ready}}. |
 | Hanya satu PDF bertanda dimuat turun | Pelayar menyekat beberapa muat turun serentak. | Benarkan berbilang muat turun untuk laman ini, dan eksport semula. |
-| (fail) bukan projek TakeoffCraft (ia bukan JSON yang sah). / Ini bukan fail projek TakeoffCraft. | Fail yang salah, atau yang rosak. | Pilih fail `.takeoff.json`. |
-| Projek ini disimpan oleh TakeoffCraft yang lebih baharu. Buka di sana. | Fail itu datang daripada binaan yang lebih baharu. | Buka dalam binaan yang lebih baharu. |
+| (fail) bukan projek TakeoffDesk (ia bukan JSON yang sah). / Ini bukan fail projek TakeoffDesk. | Fail yang salah, atau yang rosak. | Pilih fail `.takeoff.json`. |
+| Projek ini disimpan oleh TakeoffDesk yang lebih baharu. Buka di sana. | Fail itu datang daripada binaan yang lebih baharu. | Buka dalam binaan yang lebih baharu. |
 | (n) penanda rosak dan ditinggalkan. | Sebahagian fail rosak atau disunting dengan tangan. | Bahagian lain dibuka. Lukis semula penanda yang hilang, atau buka salinan yang lebih lama. |
 | Penanda hilang selepas dibuka semula | PDF tidak dibuka, atau salah satu daripadanya berubah. | Lihat [Simpan dan buka semula pengukuran kuantiti](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Pelayar bertanya "Leave site?" | Ada perubahan yang belum disimpan. | Kekal, dan simpan dengan {{key:Mod+S}}. |

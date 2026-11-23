@@ -31,7 +31,7 @@ While drawing:
 - Dragging pans the sheet and the wheel zooms, without adding points.
 
 :::mac
-On a Mac trackpad, right-click is a two-finger click (turn on secondary click in System Settings, under Trackpad). TakeoffCraft reads only the secondary button, so a Control-click may be taken as a plain click and add a point. Double-click or {{key:Enter}} always finish.
+On a Mac trackpad, right-click is a two-finger click (turn on secondary click in System Settings, under Trackpad). TakeoffDesk reads only the secondary button, so a Control-click may be taken as a plain click and add a point. Double-click or {{key:Enter}} always finish.
 :::
 
 :::touch
@@ -67,7 +67,7 @@ After the first point, you can type where the next one goes instead of clicking.
 | `@6',-4'` | 6' right and 4' down from the last point |
 | `6',4'` (or `#6',4'`) | 6' right and 4' up from the first point of this run |
 
-Lengths are typed as everywhere in TakeoffCraft ([Entry formats](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Right" and "up" are as you see the sheet, also when the PDF page is turned.
+Lengths are typed as everywhere in TakeoffDesk ([Entry formats](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Right" and "up" are as you see the sheet, also when the PDF page is turned.
 
 {{key:Enter}} on an empty box finishes the run, like {{key:Enter}} on the sheet; {{key:Esc}} closes the box and keeps the run going. Typed points go through the same rules as clicks: deducts, arcs and closing an area all work. The same box works in {{ui:Area}} and {{ui:Cut-out}}; after a circle's center it takes the radius.
 

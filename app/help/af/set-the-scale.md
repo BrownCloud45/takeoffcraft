@@ -5,7 +5,7 @@ keywords: bespeur skaal, lees skaal, skaal uit teks, alle bladsye, skaal, kalibr
 from: 8f0148e6
 ---
 
-Elke blad het sy eie skaal. Jy stel dit, of laat TakeoffCraft dit uit die bladsye se teks lees (hieronder), en kontroleer dit. Totdat 'n blad een het, weier {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} en {{ui:Cut-out}} om daarop te meet. {{ui:Count}} en {{ui:Auto count}} werk sonder 'n skaal.
+Elke blad het sy eie skaal. Jy stel dit, of laat TakeoffDesk dit uit die bladsye se teks lees (hieronder), en kontroleer dit. Totdat 'n blad een het, weier {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} en {{ui:Cut-out}} om daarop te meet. {{ui:Count}} en {{ui:Auto count}} werk sonder 'n skaal.
 
 Die bladlys wys elke blad se skaal, of **No scale**. Die balk onder die oop blad sê dieselfde.
 
@@ -23,7 +23,7 @@ Die volledige lys is in [Skaalvoorinstellings](topic:scale-presets).
 
 ## Lees die skale uit die bladsye se teks
 
-Die meeste tekeninge sê hul skaal: `SCALE: 1/4" = 1'-0"` in die titelblok, `1:100` onder 'n aansig. TakeoffCraft kan dit lees en elke blad op een slag stel.
+Die meeste tekeninge sê hul skaal: `SCALE: 1/4" = 1'-0"` in die titelblok, `1:100` onder 'n aansig. TakeoffDesk kan dit lees en elke blad op een slag stel.
 
 1. Maak die {{ui:Preset}}-lys oop en kies {{ui:From the sheets' text…}} (bo aan).
 2. Die lys wys elke blad: sy skaal nou, en wat sy teks sê — **Says 1/4" = 1'-0"**, **No scale in its text**, of **Says not to scale** (NTS).
@@ -44,7 +44,7 @@ Gebruik dit wanneer daar geen gedrukte skaal is wat jy vertrou nie, die stel is 
 5. Tik die werklike afstand in **Real distance**, byvoorbeeld `24'-6 1/2"`, `24.5` (desimale voet), `30"` of `7.5 m`. Sien [Lengte-, tarief- en persentasie-invoer](topic:entry-formats).
 6. Kies {{ui:Set the scale}}.
    Die statusbalk wys die skaal as "1" = (n)'", en as dit binne 0.5% van 'n voorinstelling is, sê dit watter een, byvoorbeeld "which matches 1/4" = 1'-0" (pick that preset for an exact scale)".
-   TakeoffCraft gaan terug na die {{ui:Select}}-gereedskap.
+   TakeoffDesk gaan terug na die {{ui:Select}}-gereedskap.
 
 Wanneer die kalibrasie by 'n voorinstelling pas, gee die kies van daardie voorinstelling 'n presiese skaal in plaas van een wat afhang van waar jy geklik het.
 
@@ -61,11 +61,11 @@ Druk {{key:Esc}} om die kontrolelyn te verwyder.
 
 ## Verander 'n skaal
 
-Kies 'n ander voorinstelling of kalibreer weer. As die blad reeds metings het, vra TakeoffCraft **Change this sheet's scale?** en sê hoeveel metings weer gemeet sal word. Kies {{ui:Change the scale}}. Elke lynmeting en area op die blad word teen die nuwe skaal weer gemeet. Jy kan dit met {{key:Mod+Z}} ontdoen.
+Kies 'n ander voorinstelling of kalibreer weer. As die blad reeds metings het, vra TakeoffDesk **Change this sheet's scale?** en sê hoeveel metings weer gemeet sal word. Kies {{ui:Change the scale}}. Elke lynmeting en area op die blad word teen die nuwe skaal weer gemeet. Jy kan dit met {{key:Mod+Z}} ontdoen.
 
 ## Waarom bladsye sonder skaal nie as nul tel nie
 
-'n Merk op 'n blad sonder skaal het geen werklike lengte of area nie. TakeoffCraft tel dit nooit as nul nie, wat jou beraming stilletjies te laag sou maak. In plaas daarvan:
+'n Merk op 'n blad sonder skaal het geen werklike lengte of area nie. TakeoffDesk tel dit nooit as nul nie, wat jou beraming stilletjies te laag sou maak. In plaas daarvan:
 
 - hou dit daardie merke uit die totale,
 - wys "+(n) unscaled" langs die item in {{ui:Quantities}},
@@ -77,5 +77,5 @@ Dit kan gebeur wanneer jy 'n projek oopmaak waarvan die skale nooit gestel is ni
 ## Wenke
 
 - Stel die skaal op elke blad wat jy gaan meet voordat jy begin. Soek die bladlys na **No scale** om die oorblywende te vind (die soekkassie kyk na bladname, nie skale nie).
-- Detail en vergrote planne op dieselfde blad gebruik dikwels 'n ander skaal. TakeoffCraft het een skaal per blad; sien [Wat nog nie gebou is nie](topic:not-built-yet).
+- Detail en vergrote planne op dieselfde blad gebruik dikwels 'n ander skaal. TakeoffDesk het een skaal per blad; sien [Wat nog nie gebou is nie](topic:not-built-yet).
 - Metriese tekeninge: kies 'n metriese voorinstelling soos `1:100`, of kalibreer met 'n metriese afstand soos `6000 mm`.

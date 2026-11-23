@@ -13,7 +13,7 @@ Odprete jo z {{ui:Knjižnica}} na vrhu podokna {{ui:Postavke}}.
 
 - {{ui:Uvozi CSV …}} prebere preglednico, shranjeno kot CSV (glejte stolpce spodaj). Postavke, katerih ime in vrsta sta že v knjižnici, se zamenjajo; ostale se dodajo. Vrstice, ki jih ne more prebrati, preskoči in pove, katere in zakaj.
 - {{ui:Dodaj postavke te predizmere}} kopira vsako postavko odprte predizmere v knjižnico, z njenimi enotnimi cenami in sestavom (ne z oznakami).
-- Izvoz predračuna CSV, ki ga TakeoffCraft izvozi ([Izvoz predračuna](topic:export-estimate)), se uvozi takoj: cene zadnjega dela postanejo izhodišče za naslednjega.
+- Izvoz predračuna CSV, ki ga TakeoffDesk izvozi ([Izvoz predračuna](topic:export-estimate)), se uvozi takoj: cene zadnjega dela postanejo izhodišče za naslednjega.
 
 - {{ui:Paketi po strokah …}} doda brezplačne sestave za stroko, na primer suho gradnjo, elektriko ali beton, brez cen. Glejte [Paketi po strokah](topic:trade-packs).
 

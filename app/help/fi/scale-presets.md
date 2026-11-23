@@ -49,4 +49,4 @@ Kalibroitu mittakaava näkyy arkin alla olevassa palkissa muodossa "Kalibroitu 1
 
 ## Epätavalliset PDF-tiedostot
 
-Jotkin PDF-tiedostot ilmoittavat suuremman sivuyksikön ("user unit"). TakeoffCraft ottaa sen huomioon esiasetuksissa ja näytettävässä mittakaavassa. PDF-tiedoston sisällä käännetyt sivut mitataan samalla tavalla kuin pystysuorat.
+Jotkin PDF-tiedostot ilmoittavat suuremman sivuyksikön ("user unit"). TakeoffDesk ottaa sen huomioon esiasetuksissa ja näytettävässä mittakaavassa. PDF-tiedoston sisällä käännetyt sivut mitataan samalla tavalla kuin pystysuorat.

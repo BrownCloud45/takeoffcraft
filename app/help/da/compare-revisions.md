@@ -5,14 +5,14 @@ keywords: revision, revideret, sammenlign, overlæg, gammel, ny, ændringer, til
 from: 3a1d9fe0
 ---
 
-Når et ark genudgives, behøver du ikke tage det af igen. Åbn den gamle PDF og den nye, sammenlign de to ark, og flyt mængdeudtrækket over. TakeoffCraft markerer hver markering hvor tegningen er ændret, så du kontrollerer dem og beholder resten.
+Når et ark genudgives, behøver du ikke tage det af igen. Åbn den gamle PDF og den nye, sammenlign de to ark, og flyt mængdeudtrækket over. TakeoffDesk markerer hver markering hvor tegningen er ændret, så du kontrollerer dem og beholder resten.
 
 ## Sammenlign
 
 1. Åbn begge PDF'er: det gamle sæt og det reviderede ({{ui:Åbn tegninger}}; de kan være i én fil eller i flere).
 2. Vis det **nye** ark.
 3. Vælg {{ui:Sammenlign}} på arkbjælken under tegningen.
-4. Vælg det gamle ark på listen. TakeoffCraft foreslår arket med samme nummer i den anden PDF, eller samme side. Vælg **Sammenlign**.
+4. Vælg det gamle ark på listen. TakeoffDesk foreslår arket med samme nummer i den anden PDF, eller samme side. Vælg **Sammenlign**.
 
 Den gamle tegning ligger nu over den nye i rødt. Hvor de to stemmer overens, ligger de røde linjer på de sorte; hvor de adskiller sig, ser du røde linjer alene (fjernet) og sorte linjer alene (tilføjet). En bjælke nederst på arket rummer trinene nedenfor; {{key:Esc}} eller {{ui:Luk}} afslutter sammenligningen.
 
@@ -29,7 +29,7 @@ Den røde tegning flyttes, drejes og skaleres over på den sorte. Statuslinjen s
 
 ## Find ændringerne
 
-Vælg **Find ændringer**. TakeoffCraft sammenligner de to tegningers blæk: blæk kun på det gamle ark bliver rødt, blæk kun på det nye ark bliver blåt, og statuslinjen tæller dem. Linjer der er flyttet en hårsbredde (en genudskrivning) tælles ikke som ændringer.
+Vælg **Find ændringer**. TakeoffDesk sammenligner de to tegningers blæk: blæk kun på det gamle ark bliver rødt, blæk kun på det nye ark bliver blåt, og statuslinjen tæller dem. Linjer der er flyttet en hårsbredde (en genudskrivning) tælles ikke som ændringer.
 
 Den kigger også på hver markering på det gamle ark og tæller dem der ligger hvor tegningen er ændret:
 
@@ -40,7 +40,7 @@ Den kigger også på hver markering på det gamle ark og tæller dem der ligger 
 
 Vælg **Flyt mængdeudtræk hertil**. Hver markering på det gamle ark flyttes til det nye, gennem flugtningen, i ét fortrydbart trin. De der ligger ved siden af en ændring markeres: de tegnes med en orange glorie, og arkbjælken viser "(n) til kontrol".
 
-Hvis det nye ark ikke havde nogen målestok, får det det gamle arks målestok (justeret når tegningerne skulle skaleres for at flugte). Havde det allerede en anden målestok, spørger TakeoffCraft først: flyttede markeringer måles i det nye arks målestok.
+Hvis det nye ark ikke havde nogen målestok, får det det gamle arks målestok (justeret når tegningerne skulle skaleres for at flugte). Havde det allerede en anden målestok, spørger TakeoffDesk først: flyttede markeringer måles i det nye arks målestok.
 
 ## Kontroller de markerede markeringer
 

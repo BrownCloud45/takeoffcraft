@@ -28,7 +28,7 @@ Radna knjiga ima četiri radna lista, a izvještaji ispod kada se primjenjuju:
 
 Uz [sažetak ponude](topic:bid-summary), radni list Predračun se također završava svojim uvećanjima (troškovi rada, porez na promet, režije, dobit, garancija i ponuda), kao žive formule.
 
-Radni list Predračun zadržava **žive formule**: količina s otpadom, zaokruženi iznosi materijala i rada, ukupno svakog reda i ukupno za posao. Tablični programi ih ponovo računaju, pa možeš promijeniti cijenu ili otpad u tabeli i ukupni iznosi se prate. Brojevi koje je TakeoffCraft izračunao također su upisani u ćelije i podudaraju se do centa.
+Radni list Predračun zadržava **žive formule**: količina s otpadom, zaokruženi iznosi materijala i rada, ukupno svakog reda i ukupno za posao. Tablični programi ih ponovo računaju, pa možeš promijeniti cijenu ili otpad u tabeli i ukupni iznosi se prate. Brojevi koje je TakeoffDesk izračunao također su upisani u ćelije i podudaraju se do centa.
 
 Kolona napomena navodi formulu svake komponente, greške u formulama, oznake na listovima bez razmjere, površinu zida i obim. Kada nešto nedostaje, red ukupno za posao kaže "Nepotpuno: vidi napomene iznad".
 
@@ -42,7 +42,7 @@ CSV sadrži samo predračun; za količine po listu i spisak oznaka koristi XLSX.
 
 ## Predračun u Google Sheets
 
-Iznad tabele {{ui:Quantities}}, **Kopiraj za Google Sheets** stavlja predračun na međuspremnik kao tekst odvojen tabulatorima, s istim redovima kao CSV. U Google tabeli klikni na ćeliju A1 i zalijepi. TakeoffCraft se ne prijavljuje na Google i ništa tamo ne šalje.
+Iznad tabele {{ui:Quantities}}, **Kopiraj za Google Sheets** stavlja predračun na međuspremnik kao tekst odvojen tabulatorima, s istim redovima kao CSV. U Google tabeli klikni na ćeliju A1 i zalijepi. TakeoffDesk se ne prijavljuje na Google i ništa tamo ne šalje.
 
 ## Nedostajuće cijene i odobrenje
 

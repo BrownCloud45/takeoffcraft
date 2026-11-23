@@ -77,7 +77,7 @@ Ena vrstica na list, ki ima merilo ali oznake.
 | Sheet | Ime lista |
 | Scale | Ime prednastavitve, kalibrirano merilo ali „Brez merila“ |
 | How | „Preset“ ali „Calibrated on (the distance you typed)“ |
-| Feet per PDF unit | Točen faktor merila, ki ga uporablja TakeoffCraft |
+| Feet per PDF unit | Točen faktor merila, ki ga uporablja TakeoffDesk |
 
 ## Imena datotek
 

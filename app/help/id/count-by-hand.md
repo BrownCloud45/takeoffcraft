@@ -14,7 +14,7 @@ Item hitung menghitung benda: pintu, lampu, stop kontak, perlengkapan plambing. 
 3. Klik setiap benda di lembar.
    Setiap klik menempatkan titik dengan warna item, dan jumlah item bertambah satu.
 4. Pindah ke lembar berikutnya ({{key:PageDown}}) dan lanjutkan menghitung. Alat tetap pada {{ui:Count}}.
-5. Tekan {{key:Esc}} saat selesai. TakeoffCraft kembali ke {{ui:Select}}.
+5. Tekan {{key:Esc}} saat selesai. TakeoffDesk kembali ke {{ui:Select}}.
 
 Menyeret tetap menggeser dan roda tetap melakukan zoom saat Anda menghitung, sehingga Anda bisa berpindah di sekitar lembar tanpa menambah titik.
 
@@ -30,7 +30,7 @@ Klik item hitung untuk menyorot titiknya di setiap lembar. Daftar lembar kemudia
 
 ## Ukuran titik, di layar dan di PDF
 
-Titik mempertahankan satu ukuran di layar berapa pun zoom-nya. Untuk mengubahnya, buka {{ui:Settings}}, tab TakeoffCraft, dan pilih **Ukuran penanda hitung**: Sangat kecil, Kecil, Sedang (bawaan), atau Besar.
+Titik mempertahankan satu ukuran di layar berapa pun zoom-nya. Untuk mengubahnya, buka {{ui:Settings}}, tab TakeoffDesk, dan pilih **Ukuran penanda hitung**: Sangat kecil, Kecil, Sedang (bawaan), atau Besar.
 
 Ekspor PDF ({{ui:Export}} › PDF bertanda) menggambar setiap titik dengan ukuran yang sama di kertas, apa pun ukuran lembarnya: penampil yang menampilkan PDF pada 100% menunjukkan titik sebesar yang ada di layar. Jika titik pada sebuah lembar masih akan bersentuhan, ekspor membuat titik di lembar itu lebih kecil agar setiap titik tetap bisa dibaca.
 

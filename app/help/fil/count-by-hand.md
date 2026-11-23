@@ -14,7 +14,7 @@ Ang count item ay nagbibilang ng mga bagay: pinto, light fixture, outlet, plumbi
 3. I-click ang bawat isa sa sheet.
    Naglalagay ang bawat click ng tuldok sa kulay ng item, at tumataas ng isa ang bilang ng item.
 4. Lumipat sa susunod na sheet ({{key:PageDown}}) at magpatuloy sa pagbibilang. Nananatili ang tool sa {{ui:Count}}.
-5. Pindutin ang {{key:Esc}} kapag tapos ka na. Bumabalik ang TakeoffCraft sa {{ui:Piliin}}.
+5. Pindutin ang {{key:Esc}} kapag tapos ka na. Bumabalik ang TakeoffDesk sa {{ui:Piliin}}.
 
 Gumagana pa rin ang pag-drag para mag-pan at ang wheel para mag-zoom habang nagbibilang, kaya makakagalaw ka sa paligid ng sheet nang hindi nagdaragdag ng tuldok.
 
@@ -30,7 +30,7 @@ I-click ang count item para i-highlight ang mga tuldok nito sa bawat sheet. Ipin
 
 ## Laki ng tuldok, sa screen at sa PDF
 
-Nananatili ang laki ng tuldok sa screen gaano man kalapit ang zoom mo. Para baguhin ito, buksan ang {{ui:Mga setting}}, ang TakeoffCraft tab, at piliin ang **Count marker size**: Extra small, Small, Medium (default) o Large.
+Nananatili ang laki ng tuldok sa screen gaano man kalapit ang zoom mo. Para baguhin ito, buksan ang {{ui:Mga setting}}, ang TakeoffDesk tab, at piliin ang **Count marker size**: Extra small, Small, Medium (default) o Large.
 
 Ang PDF export ({{ui:I-export}} › {{ui:Marked PDF}}) ay gumuguhit ng bawat tuldok sa parehong laki sa papel, anuman ang laki ng sheet: ang viewer na nagpapakita ng PDF sa 100% ay magpapakita ng mga tuldok na kasing laki ng nasa screen. Kapag magkadikit pa rin ang mga tuldok sa isang sheet, pinaliliit ng export ang mga tuldok ng sheet na iyon para mabasa ang bawat isa.
 

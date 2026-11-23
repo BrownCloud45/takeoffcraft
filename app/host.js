@@ -355,7 +355,8 @@ class Host {
     this.now = o.now || (() => Date.now());
     this.win = o.window !== undefined ? o.window : (typeof window !== 'undefined' ? window : null);
     this.doc = o.document !== undefined ? o.document : (typeof document !== 'undefined' ? document : null);
-    const bridge = o.desktop !== undefined ? o.desktop : (this.win && this.win.cadcraftDesktop) || null;
+    // TakeoffDesk: the page never picks up CadCraft Studio's desktop bridge (window.cadcraftDesktop); a desktop shell of your own can pass one here.
+    const bridge = o.desktop !== undefined ? o.desktop : null;
     this.desktop = bridge && Number(bridge.version) >= 1 ? bridge : null;
     this.kind = this.desktop ? 'desktop' : 'browser';
     this.browserFS = !!o.browserFileSystem;
@@ -1036,8 +1037,8 @@ export function createDispatcher(opts = {}) {
 // ------------------------------------------------------------------ assistants and scripts: the control channel (W2.14, X.5)
 //
 // Owner of this section: session agents (docs/AGENTS-SPEC.md §6). host.control is this window's side: the app registers its
-// tools and Settings › Assistants turns them on; requests come from Studio — the desktop bridge (cadcraftDesktop.control)
-// or Studio's window channel (window.cadcraftStudio, message types control.*) — and the dispatcher below answers them.
+// tools and Settings › Assistants turns them on; requests come from the dev shell's MCP bridge (window.takeoffdeskBridge, set by
+// devshell/mcp-shim.js; message types control.*) or a desktop bridge passed to the host — and the dispatcher below answers them.
 // createControlRelay() is Studio's side (the hub page): MCP requests from Studio's local server → the app windows.
 //
 //   host.control.tool({ name, group, title, description, inputSchema, run: async (args, ctx) => result })   → unregister
@@ -1146,7 +1147,7 @@ function makeControl(host) {
     for (const s of sessions.values()) if (!s.ended && (sid === undefined || s.id === sid)) { s.ended = true; hit.push(s.id); }
     for (const id of hit) {
       emit('disconnect', { id });
-      try { if (st.channel) st.channel.post('control.disconnect', { sid: id.replace(/^studio:/, '') }); } catch { /* closed */ }
+      try { if (st.channel) st.channel.post('control.disconnect', { sid: id.replace(/^bridge:/, '') }); } catch { /* closed */ }
     }
     if (hit.length) { emit('change', 'disconnect'); status(); }
     return hit;
@@ -1165,13 +1166,13 @@ function makeControl(host) {
   let chOff = null, tries = 0;
   function wireChannel(ch) {
     if (chOff) return;
-    const studio = ch || (host.win && host.win.cadcraftStudio) || null;
+    const studio = ch || (host.win && host.win.takeoffdeskBridge) || null;   // devshell/mcp-shim.js
     if (!studio) { if (host.win && !ch && tries++ < 40 && typeof setTimeout === 'function') setTimeout(() => wireChannel(), 250); return; }
     st.channel = studio;
     const offs = [
       studio.on('control.request', (data, env) => {
         if (!data || typeof data !== 'object' || typeof data.rid !== 'string' || data.rid.length > 64) return;
-        handle(data.message, 'studio:' + String(data.sid || env.from).slice(0, 100), data.client || null)
+        handle(data.message, 'bridge:' + String(data.sid || env.from).slice(0, 100), data.client || null)
           .then((answer) => { try { studio.post('control.response', { rid: data.rid, answer }, env.from); } catch { /* closed */ } }, () => {});
       }),
       studio.on('control.who', (data, env) => status(env.from)),
@@ -1908,148 +1909,12 @@ export function mountRecent(host, root) {
   return render;
 }
 
-// ------------------------------------------------------------------ Studio Live: host.live (0.5 LV.5)
-// Owner of this section: session live-core (docs/LIVE-PROTOCOL.md; the client is live-client.js, copied beside this file).
-// The app never sees the network (spec § 3): it passes its adapter (spec § 4) and gets a connected LiveClient back.
-//   host.live.available()   → { studio, page }: Studio's bridge is here / this page was served by a host on the LAN (LV.12)
-//   await host.live.join({ adapter, name, device?, code | link | url, hash?, proof? })   → LiveClient (a joiner)
-//   await host.live.start({ adapter, name, role? })   → the host's own window (or the replica) on Studio's in-process channel
-//   host.live.pageCode()     → the short code a browser joiner's link carried (`…/apps/<slug>/#live=K7-Q4M2X`, the QR on
-//                              the host's screen), taken out of the address bar; null when there is none
-//   host.live.client         → the LiveClient now running here, or null
-//   host.live.on(fn)         → called with the client when one starts, and with null when it ends
-//   await host.live.assistant({ person, name?, device? })   → LV.18: a second LiveClient in this window for an assistant
-//                              connected here, joining as its own session client (role `assistant`; the host approves it,
-//                              the host's own at once) with a one-time key `person` (this window's client) asks for; the
-//                              same way in as the person's. null when the session gives no key (a viewer, too many).
-// Transports, in order: Studio's bridge (window.cadcraftDesktop.live.transport(kind, opts) → a live-client transport;
-// Studio's app pages come from Studio's own origin, which Chromium-based webviews don't let open sockets to LAN addresses),
-// an explicit `url`, else this page's own host (`ws://<host>/live`) when the page came from a live host.
-// Codes and links need live-crypto.js (session live-relay) and the @noble import-map entries in the build's manifest.
-// Studio's bridge may also bring `signIn(aud)` (the joiner's signed-in name, LV.19; `opts.signIn` wins) and `startFrom(state)`
-// (this window becomes the host when the host hands the session over, LV.17); after a handoff the client reaches the new host
-// through the bridge's 'join' transport, else a WebSocket.
-function makeLive(host) {
-  const st = { client: null, fns: new Set(), lib: null, crypto: null };
-  const lib = async () => st.lib || (st.lib = await import('./live-client.js'));
-  const bridge = () => (host.desktop && host.desktop.live && typeof host.desktop.live.transport === 'function' ? host.desktop.live : null);
-  const pageHost = () => {
-    const w = host.win;
-    return w && w.location && w.location.protocol === 'http:' && w.document && w.document.querySelector && w.document.querySelector('meta[name="cc-live"]') ? w.location.host : null;
-  };
-  const set = (c) => {
-    st.client = c;
-    for (const fn of st.fns) { try { fn(c); } catch { /* a listener */ } }
-    if (c) c.on('status', ({ status }) => { if (c.final && st.client === c) set(null); });
-  };
-  const assistant = async ({ person, name = '', device = '' } = {}) => {
-    // After a host handoff the way in has changed (the new host's addresses): the assistant then works through its person's
-    // connection, as before LV.18.
-    if (!person || person.final || person.person || person.relocated || !['host', 'editor'].includes(person.role)) return null;
-    const key = await person.requestAssistant();
-    if (!key) return null;
-    const L = await lib();
-    const b = bridge();
-    const app = person.adapter && person.adapter.app, schema = person.adapter && person.adapter.schema;
-    const local = person.o.role === 'host';   // the host's window: in-process, as the host's own
-    let transport = null;
-    if (b) transport = b.transport(local ? 'local' : 'join', { url: person.joinUrl, app, schema });
-    else if (person.joinUrl) transport = L.webSocketTransport(person.joinUrl);
-    if (!transport) return null;
-    const secure = !local && person.secure && !(b && b.encrypts);
-    const loadCrypto = async () => st.crypto || (st.crypto = await import('./live-crypto.js'));
-    const crypto = secure ? await loadCrypto() : null;
-    const a = new L.LiveClient({ transport, person, assistantKey: key, name: String(name || '').slice(0, 80), device, secure, crypto, loadCrypto,
-      relocate: (url) => (b ? b.transport('join', { url, app, schema }) : L.webSocketTransport(url)) });
-    person.linkAssistant(a);
-    // The person leaves or the session ends: the assistant's client goes too.
-    person.on('status', () => { if (person.final && !a.final) a.leave(); });
-    a.connect();
-    return a;
-  };
-  const run = async (opts, kind) => {
-    if (st.client && !st.client.final) throw new Error('A live session is already running in this window.');
-    const L = await lib();
-    const b = bridge();
-    let transport = null;
-    const app = opts.adapter && opts.adapter.app, schema = opts.adapter && opts.adapter.schema;
-    if (b) transport = b.transport(kind, { code: opts.code, link: opts.link, url: opts.url, app, schema });
-    else if (opts.url) transport = L.webSocketTransport(opts.url);
-    else if (kind === 'join' && pageHost()) transport = L.webSocketTransport('ws://' + pageHost() + '/live');
-    if (!transport) throw new Error('No way to reach a live session from here.');
-    const secure = kind === 'join' && !!(opts.code || opts.link) && !(b && b.encrypts);
-    const loadCrypto = async () => st.crypto || (st.crypto = await import('./live-crypto.js'));
-    const crypto = secure ? await loadCrypto() : null;
-    const signIn = typeof opts.signIn === 'function' ? opts.signIn
-      : kind === 'join' && b && typeof b.signIn === 'function' ? (aud) => b.signIn(aud) : undefined;
-    const takeOver = b && typeof b.startFrom === 'function' ? async (state) => {
-      const s = await b.startFrom(state);
-      return s && s.running ? { addrs: s.addrs || [], port: s.port, transport: b.transport('local', { app, schema }) } : null;
-    } : undefined;
-    const c = new L.LiveClient({
-      transport, adapter: opts.adapter, name: opts.name || '', device: opts.device || '', hash: opts.hash, proof: opts.proof,
-      code: opts.code, link: opts.link, secure, crypto, role: kind === 'join' ? undefined : (opts.role || 'host'),
-      signIn, loadCrypto, takeOver, relocate: (url) => (b ? b.transport('join', { url, app, schema }) : L.webSocketTransport(url)),
-      roomUrl: typeof opts.roomUrl === 'function' ? opts.roomUrl : undefined, newRoom: typeof opts.newRoom === 'function' ? opts.newRoom : undefined,
-    });
-    // A browser page on the old host's LAN address whose session moved somewhere it can't reach: say where it went (LV.17).
-    if (!b && kind === 'join') c.on('status', ({ status, reason, moved }) => { if (status === 'lost' && reason === 'moved') movedNotice(host, c, moved); });
-    // Where an assistant's own client (LV.18) reaches the same session: the URL this one used.
-    c.joinUrl = opts.url || (kind === 'join' && pageHost() ? 'ws://' + pageHost() + '/live' : '');
-    set(c);
-    c.connect();
-    return c;
-  };
-  const pageCode = () => {
-    const w = host.win;
-    if (!w || !w.location || !pageHost()) return null;
-    const m = /(?:^#|&)live=([0-9A-Za-z-]{7,9})(?:&|$)/.exec(w.location.hash || '');
-    if (!m) return null;
-    // The code stays out of the address bar (and so out of history, bookmarks and screenshots).
-    try { w.history.replaceState(null, '', w.location.pathname + w.location.search); } catch { /* no history */ }
-    return m[1].toUpperCase();
-  };
-  return {
-    available: () => ({ studio: !!bridge(), page: !!pageHost() }),
-    pageCode,
-    join: (opts) => run(opts, 'join'),
-    start: (opts) => run(opts, 'local'),
-    assistant,
-    get client() { return st.client; },
-    on(fn) { st.fns.add(fn); return () => st.fns.delete(fn); },
-  };
-}
-
-/** The session moved and this page can't follow (LIVE-PROTOCOL § 4.7): a small notice with the new host's page, if any. */
-function movedNotice(host, c, moved) {
-  const d = host.doc;
-  if (!d || !d.body || d.querySelector('[data-live-moved]')) return;
-  const W = (k, v, en) => { const x = T(k, v); return x === k ? en : x; };   // English when the shell's words aren't loaded
-  let who = '';
-  for (const p of c.peers.values()) if (moved && p.c === moved.host) who = p.name || '';
-  who = who || W('shell.live.moved.someone', {}, 'another person');
-  const addr = moved && Array.isArray(moved.addrs) ? moved.addrs.map(String).find((a) => /^[0-9.]+$/.test(a)) : null;
-  const slug = host.app || (c.adapter && c.adapter.app) || '';
-  const link = addr && moved.port && /^[a-z]+$/.test(slug) ? `http://${addr}:${Number(moved.port)}/apps/${slug}/` : '';
-  const box = d.createElement('div');
-  box.setAttribute('role', 'alert'); box.setAttribute('data-live-moved', '');
-  box.style.cssText = 'position:fixed;left:50%;top:4rem;transform:translateX(-50%);z-index:2147483000;max-width:32rem;padding:1rem 1.25rem;background:var(--sheet,#fff);color:var(--ink,#111);border:2px solid var(--ink,#111);font:inherit';
-  const h = d.createElement('strong'); h.textContent = W('shell.live.moved.title', {}, 'The live session moved');
-  const p1 = d.createElement('p'); p1.textContent = W('shell.live.moved.text', { host: who }, `The host handed the session over to ${who}'s Studio, which this page can't reach. Your copy stays here, unsaved: save it to keep it.`);
-  box.append(h, p1);
-  if (link) {
-    // The sentence with {link} as a real link: text before, the link, text after (never HTML from a string).
-    const full = W('shell.live.moved.link', { link: '\u0000', host: who }, `To join again, open \u0000 and ask ${who} for a new code.`);
-    const [before, after = ''] = full.split('\u0000');
-    const p2 = d.createElement('p'); const a = d.createElement('a');
-    a.href = link; a.textContent = link; a.rel = 'noopener';
-    p2.append(before, a, after);
-    box.append(p2);
-  }
-  const x = d.createElement('button'); x.type = 'button'; x.textContent = W('shell.live.moved.close', {}, 'Close');
-  x.addEventListener('click', () => box.remove());
-  box.append(x);
-  d.body.append(box);
+// TakeoffDesk: no Studio Live (it ran through CadCraft Studio and its relays). host.live stays as an inert object, so code
+// that asks sees "nothing running" and nothing can join or start one.
+function makeLive() {
+  const none = async () => { throw new Error('Live sessions are not part of TakeoffDesk.'); };
+  return { available: () => ({ studio: false, page: false }), pageCode: () => null, join: none, start: none, assistant: async () => null,
+    get client() { return null; }, on() { return () => {}; } };
 }
 
 const hosts = new Map();

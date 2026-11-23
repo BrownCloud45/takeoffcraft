@@ -1,6 +1,6 @@
 ---
 title: Recompte automàtic d'un símbol
-summary: Dibuixa un quadre al voltant d'un símbol, deixa que TakeoffCraft trobi els altres en aquest full o en tots els fulls oberts, revisa les coincidències amb el lliscador i afegeix-les en un sol pas.
+summary: Dibuixa un quadre al voltant d'un símbol, deixa que TakeoffDesk trobi els altres en aquest full o en tots els fulls oberts, revisa les coincidències amb el lliscador i afegeix-les en un sol pas.
 keywords: qualsevol angle, girat, rotat, altra escala, escala diferent, recompte automàtic, recompte automatic, cerca de símbols, trobar símbols, patró, plantilla, coincidència, detectar, eina de recompte
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Per descartar la revisió sense afegir res, trieu {{ui:Descarta}} o premeu {{key
 
 ## Què troba i què no troba
 
-TakeoffCraft compara el dibuix, en píxels, amb el símbol que heu emmarcat.
+TakeoffDesk compara el dibuix, en píxels, amb el símbol que heu emmarcat.
 
 - Troba el símbol girat 0°, 90°, 180° i 270°. Marqueu {{ui:Qualsevol angle (més lent)}} a la barra de recompte automàtic abans de dibuixar el quadre per trobar-lo també a qualsevol angle: prova cada 15°, i després ajusta cada troballa amb precisió de grau i mig. Triga unes sis vegades més. No troba un símbol reflectit (tret que el símbol es vegi igual reflectit).
 - Amb {{ui:Cerca en tots els fulls oberts}} marcat, un full a una altra escala es cerca a la mida que hi té el símbol: un accessori dibuixat a escala en un plànol 1/8" té la meitat de la mida que en un plànol 1/4", i encara es troba. Aquest full també es cerca a la mida del propi quadre, per a etiquetes i símbols impresos a una sola mida en tots els fulls. Calen escales a tots dos fulls; un full sense escala es cerca només a la mida del quadre.

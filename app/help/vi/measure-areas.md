@@ -41,7 +41,7 @@ Khi các phòng được vẽ như những bức tường khép kín, {{ui:Phòn
 2. Chọn {{ui:Phòng}} trong nhóm {{ui:Bóc tách}}, hoặc nhấn {{key:B}}.
 3. Nhấp bên trong một phòng, trên sàn trống (không nhấp vào đường hay nhãn).
 
-TakeoffCraft đọc các đường của tờ, tìm khoảng trống quanh điểm nhấp và vẽ đường bao dọc theo mặt trong của tường, như một diện tích của hạng mục hiện hành. Các lỗ mở cửa rộng tới **4'-0"** được coi là khép kín, nên đường bao chạy thẳng qua ô cửa; **Cài đặt › TakeoffCraft › Lấp phòng đóng lỗ mở tới** thay đổi chiều rộng đó (từ 3'-0" đến 8'-0"). Tên phòng, đồ đạc và thiết bị bên trong phòng không tạo thành lỗ.
+TakeoffDesk đọc các đường của tờ, tìm khoảng trống quanh điểm nhấp và vẽ đường bao dọc theo mặt trong của tường, như một diện tích của hạng mục hiện hành. Các lỗ mở cửa rộng tới **4'-0"** được coi là khép kín, nên đường bao chạy thẳng qua ô cửa; **Cài đặt › TakeoffDesk › Lấp phòng đóng lỗ mở tới** thay đổi chiều rộng đó (từ 3'-0" đến 8'-0"). Tên phòng, đồ đạc và thiết bị bên trong phòng không tạo thành lỗ.
 
 Lệnh từ chối và cho biết lý do khi:
 
@@ -62,7 +62,7 @@ Khi một cửa rộng hơn mức cài đặt, phần lấp sẽ tràn sang phò
 
 Với một lỗ tròn, chọn {{ui:Thêm lỗ khoét tròn}} dưới **Dấu đã chọn**, nhấp tâm, rồi nhấp một điểm trên cạnh.
 
-Một lỗ khoét phải nằm hoàn toàn bên trong diện tích và không được chồng lên lỗ khoét khác. Nếu không, TakeoffCraft sẽ từ chối: "Lỗ khoét phải nằm hoàn toàn trong diện tích." hoặc "Các lỗ khoét không thể chồng lên nhau."
+Một lỗ khoét phải nằm hoàn toàn bên trong diện tích và không được chồng lên lỗ khoét khác. Nếu không, TakeoffDesk sẽ từ chối: "Lỗ khoét phải nằm hoàn toàn trong diện tích." hoặc "Các lỗ khoét không thể chồng lên nhau."
 
 Để gỡ lỗ cuối cùng, chọn {{ui:Xóa lỗ khoét cuối}}.
 
@@ -76,7 +76,7 @@ Một lỗ khoét thuộc về một dấu diện tích. Một **trừ diện t�
 
 Mọi dấu diện tích của một hạng mục được đánh dấu trên cùng một tờ sẽ mất phần mà một trừ diện tích phủ lên: toàn bộ trừ diện tích khi nó nằm bên trong, chỉ phần chồng lên khi nó cắt qua mép, và không gì bên trong một lỗ khoét. Bảng của diện tích đang chọn hiển thị **Trừ diện tích** và diện tích còn lại. Khối lượng của hạng mục, các công thức định mức, chi phí, chế độ xem kiểm tra 3D và xuất dữ liệu đều dùng diện tích còn lại; các ghi chú của dự toán cho biết trừ diện tích đã lấy đi bao nhiêu. Chính hạng mục trừ diện tích thì tính diện tích riêng của nó (để chi phí bằng không nếu bạn không định giá nó).
 
-Một trừ diện tích phải **lồi**: một hình chữ nhật, một vòng tròn hoặc bất kỳ đường bao nào không có góc lõm vào trong. TakeoffCraft từ chối vẽ một trừ diện tích không lồi; hãy vẽ một giếng hình chữ L thành hai trừ diện tích. Trừ diện tích không thể có lỗ khoét, và hai trừ diện tích chồng lên nhau đều được tính.
+Một trừ diện tích phải **lồi**: một hình chữ nhật, một vòng tròn hoặc bất kỳ đường bao nào không có góc lõm vào trong. TakeoffDesk từ chối vẽ một trừ diện tích không lồi; hãy vẽ một giếng hình chữ L thành hai trừ diện tích. Trừ diện tích không thể có lỗ khoét, và hai trừ diện tích chồng lên nhau đều được tính.
 
 Chu vi (`P`) không thay đổi: trừ diện tích chỉ lấy đi diện tích.
 

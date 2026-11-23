@@ -47,7 +47,7 @@ The numbers do not change in 3D: a wall's area is its exact length times its hei
 | {{ui:Sheet}} | Show or hide the drawing on the ground. |
 | The view cube, top right | Click a face, edge or corner to look from there; drag it to orbit; drag its compass ring to turn; the house button goes back to {{ui:Iso}}. |
 
-The corner shows a view cube, a small X, Y, Z axis icon, or nothing: choose in {{ui:Settings}}, on the TakeoffCraft tab, under **Corner indicator** ([TakeoffCraft settings](topic:settings)). The flat sheet has no corner indicator.
+The corner shows a view cube, a small X, Y, Z axis icon, or nothing: choose in {{ui:Settings}}, on the TakeoffDesk tab, under **Corner indicator** ([TakeoffDesk settings](topic:settings)). The flat sheet has no corner indicator.
 
 :::touch
 One finger orbits; two fingers pinch to zoom and move to pan. A tap selects.

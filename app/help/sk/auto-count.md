@@ -1,6 +1,6 @@
 ---
 title: Automatické spočítanie symbolu
-summary: Označte jeden symbol, nechajte TakeoffCraft nájsť ostatné na tomto liste alebo na všetkých otvorených listoch, zhody skontrolujte posúvačom a pridajte ich naraz.
+summary: Označte jeden symbol, nechajte TakeoffDesk nájsť ostatné na tomto liste alebo na všetkých otvorených listoch, zhody skontrolujte posúvačom a pridajte ich naraz.
 keywords: ľubovoľný uhol, otočený, iná mierka, rôzna mierka, automatický počet, automatické počítanie, vyhľadávanie symbolov, nájsť symboly, vzor, šablóna, zhoda, rozpoznať, nástroj počítania
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Ak chcete kontrolu zahodiť bez pridania čohokoľvek, zvoľte {{ui:Zahodiť}} a
 
 ## Čo nájde a čo prehliadne
 
-TakeoffCraft porovnáva výkres ako pixely so symbolom, ktorý ste ohraničili.
+TakeoffDesk porovnáva výkres ako pixely so symbolom, ktorý ste ohraničili.
 
 - Nájde symbol otočený o 0°, 90°, 180° a 270°. Ak ho chcete nájsť aj pod ľubovoľným uhlom, pred kreslením rámčeka zaškrtnite na lište automatického počtu {{ui:Ľubovoľný uhol (pomalšie)}}: skúša každých 15°, potom každý nález spresní na stupeň a pol. Trvá to asi šesťkrát dlhšie. Nenájde zrkadlený symbol (pokiaľ nevyzerá zrkadlene rovnako).
 - Keď je zaškrtnuté {{ui:Hľadať vo všetkých otvorených listoch}}, list v inej mierke sa hľadá vo veľkosti, akú tam symbol má: svietidlo nakreslené v mierke na pôdoryse 1/8" je polovičné oproti pôdorysu 1/4" a stále sa nájde. Takýto list sa hľadá aj vo veľkosti samotného rámčeka, pre označenia a symboly vytlačené v jednej veľkosti na každom liste. To vyžaduje mierku na oboch listoch; list bez mierky sa hľadá len vo veľkosti rámčeka.

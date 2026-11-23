@@ -13,7 +13,7 @@ Buksan ito gamit ang {{ui:Library}} sa itaas ng panel na {{ui:Items}}.
 
 - {{ui:Mag-import ng CSV…}} ay bumabasa ng spreadsheet na naka-save bilang CSV (tingnan ang mga column sa ibaba). Ang mga item na may parehong pangalan at uri na nasa library na ay pinapalitan; ang iba ay idinadagdag. Nilalaktawan ang mga row na hindi nito mabasa, at sinasabi nito kung alin at bakit.
 - {{ui:Idagdag ang mga item ng takeoff na ito}} ay kinokopya ang bawat item ng bukas na takeoff sa library, kasama ang mga rate at assembly nito (hindi ang mga mark nito).
-- Ang estimate CSV na ine-export ng TakeoffCraft ([I-export ang estimate](topic:export-estimate)) ay nag-iimport nang eksakto: ang presyo ng nakaraang trabaho ang nagsisilbing simula ng susunod.
+- Ang estimate CSV na ine-export ng TakeoffDesk ([I-export ang estimate](topic:export-estimate)) ay nag-iimport nang eksakto: ang presyo ng nakaraang trabaho ang nagsisilbing simula ng susunod.
 
 - {{ui:Trade pack…}} ay nagdaragdag ng libreng assembly para sa isang trade, gaya ng drywall, electrical o concrete, nang walang presyo. Tingnan ang [Trade pack](topic:trade-packs).
 

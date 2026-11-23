@@ -1,11 +1,11 @@
 ---
-title: Kaj se je TakeoffCraft naučil iz vaših predizmer
-summary: TakeoffCraft hrani simbole, ki ste jih potrdili s Samodejnim štetjem, vaše komplete pogojev, sestave, ki jih največ uporabljate, in vzorce, ki se ponavljajo na vsaki strani, vse v lastni datoteki predizmere. Oglejte si jih, uporabite jih, izbrišite jih.
+title: Kaj se je TakeoffDesk naučil iz vaših predizmer
+summary: TakeoffDesk hrani simbole, ki ste jih potrdili s Samodejnim štetjem, vaše komplete pogojev, sestave, ki jih največ uporabljate, in vzorce, ki se ponavljajo na vsaki strani, vse v lastni datoteki predizmere. Oglejte si jih, uporabite jih, izbrišite jih.
 keywords: učenje, naučeno, pomočnik, zapomni, simboli, predloge, kot zadnje delo, zadnje delo, komplet pogojev, pogoji, ponovna uporaba, sestavi, najbolj uporabljeno, predlogi, ponovi na vsaki strani, vsaka stran, glava risbe, vzorec, počisti vse, pozabi, zasebnost
 from: 54d99e99
 ---
 
-TakeoffCraft postaja hitrejši, čim več predizmer opravite z njim. Uči se **samo iz tega, kar sprejmete**:
+TakeoffDesk postaja hitrejši, čim več predizmer opravite z njim. Uči se **samo iz tega, kar sprejmete**:
 
 - simboli, ki ste jih obkrožili s [Samodejnim štetjem](topic:auto-count) in jih nato dodali,
 - komplete pogojev, ki jih shranite,
@@ -64,6 +64,6 @@ Vse naučeno je navedeno v {{ui:Naučeno}}. Koš izbriše eno stvar. {{ui:Počis
 
 ## Dobro je vedeti
 
-- Starejše različice TakeoffCraft odprejo datoteko z naučenimi stvarmi normalno. Ta del ignorirajo in ga izpustijo, če datoteko znova shranijo.
+- Starejše različice TakeoffDesk odprejo datoteko z naučenimi stvarmi normalno. Ta del ignorirajo in ga izpustijo, če datoteko znova shranijo.
 - Naučen simbol je majhna slika tega, kar ste obkrožili, shranjena v datoteki (nekaj kilobajtov vsaka).
 - Naučeni simboli se iščejo enako kot pri Samodejnem štetju, zato veljajo iste omejitve: [Samodejno štetje simbola](topic:auto-count).

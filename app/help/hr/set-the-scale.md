@@ -5,7 +5,7 @@ keywords: otkrij mjerilo, pročitaj mjerilo, mjerilo iz teksta, svi listovi, mje
 from: 8f0148e6
 ---
 
-Svaki list ima vlastito mjerilo. Vi ga postavljate ili pustite da TakeoffCraft pročita mjerilo iz teksta listova (u nastavku), a zatim ga provjerite. Dok list nema mjerilo, {{ui:Linearno}}, {{ui:Površina}}, {{ui:Kružnica}} i {{ui:Otvor}} odbijaju mjeriti na njemu. {{ui:Broji}} i {{ui:Autobrojanje}} rade bez mjerila.
+Svaki list ima vlastito mjerilo. Vi ga postavljate ili pustite da TakeoffDesk pročita mjerilo iz teksta listova (u nastavku), a zatim ga provjerite. Dok list nema mjerilo, {{ui:Linearno}}, {{ui:Površina}}, {{ui:Kružnica}} i {{ui:Otvor}} odbijaju mjeriti na njemu. {{ui:Broji}} i {{ui:Autobrojanje}} rade bez mjerila.
 
 Popis listova prikazuje mjerilo svakog lista ili **Nema mjerila**. Traka ispod otvorenog lista kaže isto.
 
@@ -23,7 +23,7 @@ Cijeli popis nalazi se u [Predlošci mjerila](topic:scale-presets).
 
 ## Čitanje mjerila iz teksta listova
 
-Većina crteža navodi svoje mjerilo: `SCALE: 1/4" = 1'-0"` u zaglavlju, `1:100` ispod pogleda. TakeoffCraft ga može pročitati i postaviti svaki list odjednom.
+Većina crteža navodi svoje mjerilo: `SCALE: 1/4" = 1'-0"` u zaglavlju, `1:100` ispod pogleda. TakeoffDesk ga može pročitati i postaviti svaki list odjednom.
 
 1. Otvorite popis {{ui:Predložak}} i odaberite {{ui:Iz teksta listova…}} (na vrhu).
 2. Popis prikazuje svaki list: njegovo trenutno mjerilo i što njegov tekst kaže — **Navodi 1/4" = 1'-0"**, **Nema mjerila u tekstu** ili **Navodi da nije u mjerilu** (NTS).
@@ -44,7 +44,7 @@ Koristite ovo kada nema tiskanog mjerila kojem vjerujete, kada je set promijenje
 5. Upišite stvarnu udaljenost u **Stvarna udaljenost**, na primjer `24'-6 1/2"`, `24.5` (decimalne stope), `30"` ili `7.5 m`. Vidi [Unos duljine, cijene i postotka](topic:entry-formats).
 6. Odaberite {{ui:Postavi mjerilo}}.
    Statusna traka prikazuje mjerilo kao „1" = (n)'“, a kada je unutar 0.5% nekog predloška, kaže koji, na primjer „što odgovara 1/4" = 1'-0" (odaberite taj predložak za točno mjerilo)“.
-   TakeoffCraft se vraća na alat {{ui:Odaberi}}.
+   TakeoffDesk se vraća na alat {{ui:Odaberi}}.
 
 Kada kalibracija odgovara predlošku, odabir tog predloška daje točno mjerilo umjesto onog koje ovisi o tome gdje ste kliknuli.
 
@@ -61,11 +61,11 @@ Pritisnite {{key:Esc}} da uklonite liniju provjere.
 
 ## Promjena mjerila
 
-Odaberite drugi predložak ili ponovno kalibrirajte. Ako list već ima mjerenja, TakeoffCraft pita **Promijeniti mjerilo ovog lista?** i kaže koliko će se mjerenja ponovno izmjeriti. Odaberite {{ui:Promijeni mjerilo}}. Svaka dionica i površina na listu ponovno se mjeri na novom mjerilu. To možete poništiti s {{key:Mod+Z}}.
+Odaberite drugi predložak ili ponovno kalibrirajte. Ako list već ima mjerenja, TakeoffDesk pita **Promijeniti mjerilo ovog lista?** i kaže koliko će se mjerenja ponovno izmjeriti. Odaberite {{ui:Promijeni mjerilo}}. Svaka dionica i površina na listu ponovno se mjeri na novom mjerilu. To možete poništiti s {{key:Mod+Z}}.
 
 ## Zašto listovi bez mjerila nisu brojeni kao nula
 
-Oznaka na listu bez mjerila nema stvarnu duljinu ili površinu. TakeoffCraft je nikad ne broji kao nulu, jer bi tiho učinio vaš predračun preniskim. Umjesto toga:
+Oznaka na listu bez mjerila nema stvarnu duljinu ili površinu. TakeoffDesk je nikad ne broji kao nulu, jer bi tiho učinio vaš predračun preniskim. Umjesto toga:
 
 - izostavlja te oznake iz ukupnih iznosa,
 - uz stavku u {{ui:Količine}} prikazuje „+(n) bez mjerila“,
@@ -77,5 +77,5 @@ Ovo se može dogoditi kada otvorite projekt čija mjerila nikada nisu postavljen
 ## Savjeti
 
 - Postavite mjerilo na svakom listu koji ćete mjeriti prije početka. Pregledajte popis listova za **Nema mjerila** da pronađete preostale (okvir za pretragu gleda nazive listova, a ne mjerila).
-- Detalji i uvećani planovi na istom listu često koriste drugo mjerilo. TakeoffCraft ima jedno mjerilo po listu; vidi [Što još nije izrađeno](topic:not-built-yet).
+- Detalji i uvećani planovi na istom listu često koriste drugo mjerilo. TakeoffDesk ima jedno mjerilo po listu; vidi [Što još nije izrađeno](topic:not-built-yet).
 - Metrički crteži: odaberite metrički predložak poput `1:100`, ili kalibrirajte metričkom udaljenošću poput `6000 mm`.

@@ -1,6 +1,6 @@
 ---
 title: Invoer van lengte, tarief en percentage
-summary: Wat u kunt typen voor afstanden, hoogten, geldtarieven en verliespercentages, met voorbeelden en de meldingen voor invoer die TakeoffCraft niet kan lezen.
+summary: Wat u kunt typen voor afstanden, hoogten, geldtarieven en verliespercentages, met voorbeelden en de meldingen voor invoer die TakeoffDesk niet kan lezen.
 keywords: invoer, formaat, voet en inch, breuken, decimale voet, metrisch, meter, millimeter, tarief, geld, dollar, procent, verlies, typen
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Tot twee decimalen, van 0% tot 1000%. Meldingen: "Voer een percentage in, zoals 
 ## Namen en eenheden
 
 - Namen van items en onderdelen: tot 200 tekens.
-- De {{ui:Eenheid}} van een onderdeel: elke tekst tot 20 tekens, zoals `EA`, `sheets`, `CY`, `gal`. Het is alleen een label; TakeoffCraft rekent het niet om.
+- De {{ui:Eenheid}} van een onderdeel: elke tekst tot 20 tekens, zoals `EA`, `sheets`, `CY`, `gal`. Het is alleen een label; TakeoffDesk rekent het niet om.
 
 ## Formules
 

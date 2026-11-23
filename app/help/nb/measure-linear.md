@@ -30,7 +30,7 @@ Mens du tegner:
 - Å dra panorerer arket, og hjulet zoomer, uten å legge til punkter.
 
 :::mac
-På en Mac-styreflate er høyreklikk et tofingerklikk (slå på sekundærklikk i Systeminnstillinger, under Styreflate). TakeoffCraft leser bare sekundærknappen, så et Control-klikk kan tas som et vanlig klikk og legge til et punkt. Dobbeltklikk eller {{key:Enter}} avslutter alltid.
+På en Mac-styreflate er høyreklikk et tofingerklikk (slå på sekundærklikk i Systeminnstillinger, under Styreflate). TakeoffDesk leser bare sekundærknappen, så et Control-klikk kan tas som et vanlig klikk og legge til et punkt. Dobbeltklikk eller {{key:Enter}} avslutter alltid.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Etter det første punktet kan du skrive hvor neste punkt skal være, i stedet fo
 | `@6',-4'` | 6' til høyre og 4' ned fra forrige punkt |
 | `6',4'` (eller `#6',4'`) | 6' til høyre og 4' opp fra første punkt i denne strekningen |
 
-Lengder skrives slik som overalt i TakeoffCraft ([Oppføringsformater](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fot), `30"`, `3.2 m`. «Høyre» og «opp» er slik du ser arket, også når PDF-siden er snudd.
+Lengder skrives slik som overalt i TakeoffDesk ([Oppføringsformater](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fot), `30"`, `3.2 m`. «Høyre» og «opp» er slik du ser arket, også når PDF-siden er snudd.
 
 {{key:Enter}} på en tom boks avslutter strekningen, som {{key:Enter}} på arket; {{key:Esc}} lukker boksen og lar strekningen fortsette. Skrevne punkter følger de samme reglene som klikk: fradrag, buer og lukking av et areal virker alle. Den samme boksen virker i {{ui:Area}} og {{ui:Cut-out}}; etter en sirkels midtpunkt tar den radius.
 

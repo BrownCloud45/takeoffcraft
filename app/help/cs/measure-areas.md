@@ -41,7 +41,7 @@ Když jsou místnosti nakresleny jako uzavřené stěny, {{ui:Místnost}} ({{key
 2. Zvolte {{ui:Místnost}} ve skupině {{ui:Výkaz}}, nebo stiskněte {{key:B}}.
 3. Klikněte uvnitř místnosti, na volnou podlahu (ne na čáru nebo popisek).
 
-TakeoffCraft přečte čáry listu, najde prostor kolem kliknutí a obrysuje jej podle vnitřních ploch stěn jako plochu aktuální položky. Dveřní otvory až do šířky **4'-0"** se berou jako uzavřené, takže obrys vede rovně přes dveře; **Nastavení › TakeoffCraft › Vyplnění místnosti uzavírá otvory do** tuto šířku mění (3'-0" až 8'-0"). Názvy místností, nábytek a zařizovací předměty uvnitř místnosti otvory nedělají.
+TakeoffDesk přečte čáry listu, najde prostor kolem kliknutí a obrysuje jej podle vnitřních ploch stěn jako plochu aktuální položky. Dveřní otvory až do šířky **4'-0"** se berou jako uzavřené, takže obrys vede rovně přes dveře; **Nastavení › TakeoffDesk › Vyplnění místnosti uzavírá otvory do** tuto šířku mění (3'-0" až 8'-0"). Názvy místností, nábytek a zařizovací předměty uvnitř místnosti otvory nedělají.
 
 Odmítne to a řekne proč, když:
 
@@ -62,7 +62,7 @@ Když jsou dveře širší než nastavení, vyplnění přeteče do další mís
 
 Pro kulatý otvor zvolte {{ui:Přidat kruhový výřez}} pod **Vybraná značka**, klikněte na jeho střed a pak na bod na jeho okraji.
 
-Výřez musí ležet celý uvnitř plochy a nesmí se překrývat s jiným výřezem. Jinak jej TakeoffCraft odmítne: "A cut-out has to sit fully inside the area." nebo "Cut-outs cannot overlap each other."
+Výřez musí ležet celý uvnitř plochy a nesmí se překrývat s jiným výřezem. Jinak jej TakeoffDesk odmítne: "A cut-out has to sit fully inside the area." nebo "Cut-outs cannot overlap each other."
 
 Chcete-li poslední otvor zase odstranit, zvolte {{ui:Odebrat poslední výřez}}.
 
@@ -76,7 +76,7 @@ Výřez patří jedné značce plochy. **Odpočet zpět** se nakreslí jednou a 
 
 Každá značka plochy zaškrtnuté položky na stejném listu ztratí část, kterou pokrývá odpočet zpět: celý odpočet, když leží uvnitř, jen překrývající část, když přechází přes hranu, a nic uvnitř výřezu. Panel vybrané plochy ukazuje **Odpočty zpět** a zbývající plochu. Množství položky, její vzorce sestav, náklady, 3D kontrolní pohled i export používají zbývající plochu; poznámky rozpočtu říkají, kolik odpočty zpět odebraly. Samotná položka odpočtu počítá svou vlastní plochu (nechte její náklady na nule, pokud ji neoceňujete).
 
-Odpočet zpět musí být **konvexní**: obdélník, kružnice nebo jakýkoli obrys bez vnitřního rohu. TakeoffCraft nakreslení nekonvexního tvaru odmítne; šachtu tvaru L nakreslete jako dva odpočty zpět. Odpočty zpět nemohou mít výřezy a dva odpočty zpět, které se navzájem překrývají, se počítají oba.
+Odpočet zpět musí být **konvexní**: obdélník, kružnice nebo jakýkoli obrys bez vnitřního rohu. TakeoffDesk nakreslení nekonvexního tvaru odmítne; šachtu tvaru L nakreslete jako dva odpočty zpět. Odpočty zpět nemohou mít výřezy a dva odpočty zpět, které se navzájem překrývají, se počítají oba.
 
 Obvod (`P`) se nemění: odpočty zpět odečítají jen plochu.
 

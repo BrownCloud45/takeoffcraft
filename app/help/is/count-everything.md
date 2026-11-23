@@ -1,6 +1,6 @@
 ---
 title: Telja allt í teikningasettinu
-summary: Boxaðu táknaskýringu einu sinni og TakeoffCraft telur hvert tákn í henni á hverju opnu blaði í einni keyrslu. Hver talning er tengill á sitt blað og þú yfirfarar áður en nokkuð er bætt við.
+summary: Boxaðu táknaskýringu einu sinni og TakeoffDesk telur hvert tákn í henni á hverju opnu blaði í einni keyrslu. Hver talning er tengill á sitt blað og þú yfirfarar áður en nokkuð er bætt við.
 keywords: telja allt, skýring, táknaskýring, allt settið, hvert blað, öll blöð, allar hurðir, allur búnaður, tæki, tafla, tákn, sjálftalning, telja allt, teikningasett, 200 blöð, samsvörunarstig, líkt
 from: adc99744
 ---

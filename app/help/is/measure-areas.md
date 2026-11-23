@@ -41,7 +41,7 @@ Meðan þú rissar útlínu, kveiktu á bogaham ({{ui:Bogi}} eða {{key:R}}). Ef
 2. Veldu {{ui:Rými}} í hópnum {{ui:Magntaka}}, eða ýttu á {{key:B}}.
 3. Smelltu inni í herbergi, á opnu gólfinu (ekki á línu eða merkimiða).
 
-TakeoffCraft les línur blaðsins, finnur rýmið umhverfis smellinn og rissar það eftir innri hliðum veggjanna sem flatarmál núverandi liðs. Dyraop allt að **4'-0"** eru talin lokuð, svo útlínan liggur beint yfir dyrnar; **Stillingar › TakeoffCraft › Room fill closes openings up to** breytir þeirri breidd (3'-0" til 8'-0"). Heiti rýma, húsgögn og innrétting inni í rýminu búa ekki til göt.
+TakeoffDesk les línur blaðsins, finnur rýmið umhverfis smellinn og rissar það eftir innri hliðum veggjanna sem flatarmál núverandi liðs. Dyraop allt að **4'-0"** eru talin lokuð, svo útlínan liggur beint yfir dyrnar; **Stillingar › TakeoffDesk › Room fill closes openings up to** breytir þeirri breidd (3'-0" til 8'-0"). Heiti rýma, húsgögn og innrétting inni í rýminu búa ekki til göt.
 
 Það hafnar og segir ástæðuna þegar:
 
@@ -62,7 +62,7 @@ TakeoffCraft les línur blaðsins, finnur rýmið umhverfis smellinn og rissar �
 
 Fyrir kringlótt gat, veldu {{ui:Bæta við kringlóttu úrtaki}} undir **Valin merking**, smelltu á miðjuna og síðan á punkt á jaðrinum.
 
-Úrskurður verður að liggja alveg innan flatarmálsins og má ekki skarast öðrum úrskurði. Annars hafnar TakeoffCraft honum: „A cut-out has to sit fully inside the area.“ eða „Cut-outs cannot overlap each other.“
+Úrskurður verður að liggja alveg innan flatarmálsins og má ekki skarast öðrum úrskurði. Annars hafnar TakeoffDesk honum: „A cut-out has to sit fully inside the area.“ eða „Cut-outs cannot overlap each other.“
 
 Til að taka síðasta gatið aftur út, veldu {{ui:Fjarlægja síðasta úrtak}}.
 
@@ -76,7 +76,7 @@ Til að taka síðasta gatið aftur út, veldu {{ui:Fjarlægja síðasta úrtak}
 
 Sérhver flatarmálsmerking hakaðs liðs á sama blaði missir þann hluta sem bakfrádráttur þekur: allan bakfrádráttinn þegar hann liggur inni, aðeins skarandi hlutann þegar hann sker jaðarinn, og ekkert inni í úrskurði. Spjald valda flatarmálsins sýnir **Bakfrádrættir** og það flatarmál sem eftir er. Magn liðsins, samsetningaformúlur, kostnaður, 3D-athugunarsýnin og útflutningurinn nota flatarmálið sem eftir er; athugasemdir kostnaðaráætlunarinnar segja hversu mikið bakfrádrættir tóku. Bakfrádráttsliðurinn sjálfur telur eigið flatarmál (hafðu kostnaðinn á núlli ef þú verðleggur hann ekki).
 
-Bakfrádráttur verður að vera **íhvolfur**: ferhyrningur, hringur eða hver útlína án innri horns. TakeoffCraft hafnar því að teikna hann ef hann er ekki það; teiknaðu L-laga skaft sem tvo bakfrádrætti. Bakfrádrættir geta ekki haft úrskurði, og tveir bakfrádrættir sem skarast hvor á annan teljast báðir.
+Bakfrádráttur verður að vera **íhvolfur**: ferhyrningur, hringur eða hver útlína án innri horns. TakeoffDesk hafnar því að teikna hann ef hann er ekki það; teiknaðu L-laga skaft sem tvo bakfrádrætti. Bakfrádrættir geta ekki haft úrskurði, og tveir bakfrádrættir sem skarast hvor á annan teljast báðir.
 
 Jaðarlengdin (`P`) breytist ekki: bakfrádrættir taka aðeins flatarmál út.
 

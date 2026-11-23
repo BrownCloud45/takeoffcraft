@@ -28,7 +28,7 @@ Ish kitobida toʻrtta varaq bor va quyidagi hisobotlar tegishli boʻlganda qoʻs
 
 [Taklif xulosasi](topic:bid-summary) bilan Estimate varagʻi ham oʻz belgilashlari (mehnat yuki, savdo soligʻi, umumiy xarajatlar, foyda, kafolat va taklif) bilan tugaydi, jonli formulalar sifatida.
 
-Estimate varagʻi **jonli formulalarni** saqlaydi: chiqindili miqdor, yaxlitlangan material va mehnat summalari, har bir qatorning jami va umumiy jami. Elektron jadval dasturlari ularni qayta hisoblaydi, shuning uchun elektron jadvalda stavka yoki chiqindini oʻzgartirsangiz, jamilar oʻzgaradi. TakeoffCraft hisoblagan raqamlar ham katakchalarda saqlanadi va sentgacha mos keladi.
+Estimate varagʻi **jonli formulalarni** saqlaydi: chiqindili miqdor, yaxlitlangan material va mehnat summalari, har bir qatorning jami va umumiy jami. Elektron jadval dasturlari ularni qayta hisoblaydi, shuning uchun elektron jadvalda stavka yoki chiqindini oʻzgartirsangiz, jamilar oʻzgaradi. TakeoffDesk hisoblagan raqamlar ham katakchalarda saqlanadi va sentgacha mos keladi.
 
 Izohlar ustunida har bir komponentning formulasi, formula xatolari, masshtabsiz varaqdagi belgilar, devor maydoni va perimetr koʻrsatiladi. Biror narsa chiqarib tashlangan boʻlsa, umumiy jami qatorida "Incomplete: see the notes above" (Toʻliq emas: yuqoridagi izohlarga qarang) yoziladi.
 
@@ -42,7 +42,7 @@ Bu CSV faqat smetani oʻz ichiga oladi; varaq boʻyicha miqdorlar va belgilar ro
 
 ## Smeta Google Sheets da
 
-Miqdorlar jadvali ustidagi **Google Sheets uchun nusxalash** smetani tab bilan ajratilgan matn sifatida buferga qoʻyadi, CSV bilan bir xil qatorlarda. Google Sheet da A1 katakchasini bosing va qoʻying. TakeoffCraft Google ga kirmaydi va u yerga hech narsa yubormaydi.
+Miqdorlar jadvali ustidagi **Google Sheets uchun nusxalash** smetani tab bilan ajratilgan matn sifatida buferga qoʻyadi, CSV bilan bir xil qatorlarda. Google Sheet da A1 katakchasini bosing va qoʻying. TakeoffDesk Google ga kirmaydi va u yerga hech narsa yubormaydi.
 
 ## Yetishmayotgan stavkalar va tasdiqlash
 

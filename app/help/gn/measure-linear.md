@@ -30,7 +30,7 @@ Mientras dibujás:
 - Arrastrar desplaza la hoja y la rueda hace zoom, sin agregar puntos.
 
 :::mac
-En un trackpad de Mac, el clic derecho es un clic con dos dedos (activá el clic secundario en Configuración del sistema, en Trackpad). TakeoffCraft lee solo el botón secundario, así que un Control-clic puede tomarse como clic simple y agregar un punto. Doble clic o {{key:Enter}} siempre terminan.
+En un trackpad de Mac, el clic derecho es un clic con dos dedos (activá el clic secundario en Configuración del sistema, en Trackpad). TakeoffDesk lee solo el botón secundario, así que un Control-clic puede tomarse como clic simple y agregar un punto. Doble clic o {{key:Enter}} siempre terminan.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Después del primer punto, podés escribir dónde va el siguiente en lugar de ha
 | `@6',-4'` | 6' a la derecha y 4' abajo desde el último punto |
 | `6',4'` (o `#6',4'`) | 6' a la derecha y 4' arriba desde el primer punto de este tramo |
 
-Las longitudes se escriben como en todo TakeoffCraft ([Formatos de entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pies), `30"`, `3.2 m`. "Derecha" y "arriba" son como vés la hoja, también cuando la página del PDF está girada.
+Las longitudes se escriben como en todo TakeoffDesk ([Formatos de entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pies), `30"`, `3.2 m`. "Derecha" y "arriba" son como vés la hoja, también cuando la página del PDF está girada.
 
 {{key:Enter}} en un cuadro vacío termina el tramo, igual que {{key:Enter}} sobre la hoja; {{key:Esc}} cierra el cuadro y deja el tramo en curso. Los puntos escritos siguen las mismas reglas que los clics: descuentos, arcos y cierre de áreas funcionan igual. El mismo cuadro funciona en {{ui:Área}} y {{ui:Recorte}}; después del centro de un círculo, toma el radio.
 

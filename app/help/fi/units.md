@@ -55,4 +55,4 @@ Arkin mittakaava kertoo, kuinka suuri piirustus on; nimikkeen yksikkö kertoo, m
 
 ## Tarkkuus
 
-TakeoffCraft mittaa tarkasti napsauttamistasi pisteistä, mukaan lukien todelliset kaarien pituudet ja pinta-alat, eikä pyöristä määriä. Näyttö pyöristää pituudet 1/16 tuumaan ja desimaalit kahteen paikkaan. Rahasummat pyöristetään vasta lopullisiin summiin, senttiin.
+TakeoffDesk mittaa tarkasti napsauttamistasi pisteistä, mukaan lukien todelliset kaarien pituudet ja pinta-alat, eikä pyöristä määriä. Näyttö pyöristää pituudet 1/16 tuumaan ja desimaalit kahteen paikkaan. Rahasummat pyöristetään vasta lopullisiin summiin, senttiin.

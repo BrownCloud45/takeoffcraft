@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, tegning, åbn en tegning, layouts, modelrum, papirrum, 
 from: d8c3f504
 ---
 
-TakeoffCraft åbner en DWG- eller DXF-tegning, ligesom den åbner en PDF: du behøver ikke at plotte den til PDF først. Tælling direkte fra tegningen er nøjagtig, fordi tegningen ved, hvad hvert objekt er. Se [Tæl fra en tegning](topic:count-from-a-drawing).
+TakeoffDesk åbner en DWG- eller DXF-tegning, ligesom den åbner en PDF: du behøver ikke at plotte den til PDF først. Tælling direkte fra tegningen er nøjagtig, fordi tegningen ved, hvad hvert objekt er. Se [Tæl fra en tegning](topic:count-from-a-drawing).
 
 ## Åbn tegningen
 
@@ -13,9 +13,9 @@ TakeoffCraft åbner en DWG- eller DXF-tegning, ligesom den åbner en PDF: du beh
 2. Vælg DWG- eller DXF-filen. Du kan vælge flere, og PDF'er sammen med dem.
 3. Vælg Åbn.
 
-Du kan også slippe tegningsfiler på TakeoffCraft, ligesom PDF'er. Der uploades intet: browseren læser filen på din computer.
+Du kan også slippe tegningsfiler på TakeoffDesk, ligesom PDF'er. Der uploades intet: browseren læser filen på din computer.
 
-TakeoffCraft læser DWG fra AutoCAD 2000 til 2018 og ASCII-DXF fra R12 til 2018. Den afviser en binær DXF (gem den som ASCII eller som DWG) og en fil, der er ingen af delene, og siger hvorfor. En beskadiget fil åbnes med det, der kunne læses, og en meddelelse siger det; dens tællinger kan være ufuldstændige.
+TakeoffDesk læser DWG fra AutoCAD 2000 til 2018 og ASCII-DXF fra R12 til 2018. Den afviser en binær DXF (gem den som ASCII eller som DWG) og en fil, der er ingen af delene, og siger hvorfor. En beskadiget fil åbnes med det, der kunne læses, og en meddelelse siger det; dens tællinger kan være ufuldstændige.
 
 ## Ark
 
@@ -40,10 +40,10 @@ Et ark starter med den målestok, tegningen angiver:
 
 ## Eksterne tegninger (Xref)
 
-En tegning, der linker andre tegninger, viser dem, hvor de er indsat. TakeoffCraft finder en ekstern tegning blandt de **åbne filer** ud fra filnavnet: åbn værtstegningen og dens eksterne tegning sammen (eller den ene efter den anden). Indtil da siger statuslinjen, hvor mange eksterne tegninger der ikke blev fundet, og at det, de tegner, mangler, og tællinger siger det.
+En tegning, der linker andre tegninger, viser dem, hvor de er indsat. TakeoffDesk finder en ekstern tegning blandt de **åbne filer** ud fra filnavnet: åbn værtstegningen og dens eksterne tegning sammen (eller den ene efter den anden). Indtil da siger statuslinjen, hvor mange eksterne tegninger der ikke blev fundet, og at det, de tegner, mangler, og tællinger siger det.
 
 ## Begrænsninger
 
-- Objekter, TakeoffCraft ikke kan læse eller placere (proxy-objekter, ukendte klasser), listes i tællevinduet efter type; de udelades aldrig uden besked.
+- Objekter, TakeoffDesk ikke kan læse eller placere (proxy-objekter, ukendte klasser), listes i tællevinduet efter type; de udelades aldrig uden besked.
 - Meget store tegninger tegnes delvist, og tællinger stopper ved en grænse og siger det. Åbn i stedet en PDF-plot af en sådan tegning.
 - En tegning tegnes i sort og i sine egne farver, mørkere for hvidt papir. Plottestiltabeller og pennetildelinger anvendes ikke.

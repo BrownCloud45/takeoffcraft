@@ -5,7 +5,7 @@ keywords: terraplenagem, escavação, corte, aterro, corte e aterro, terraplenag
 from: a898e508
 ---
 
-TakeoffCraft mede o que está desenhado em uma folha. A terraplenagem precisa de uma superfície do terreno, por isso ela é compartilhada com o CivilCraft, que cria superfícies a partir de pontos, as regulariza e calcula corte, aterro e transporte.
+TakeoffDesk mede o que está desenhado em uma folha. A terraplenagem precisa de uma superfície do terreno, por isso ela é compartilhada com o CivilCraft, que cria superfícies a partir de pontos, as regulariza e calcula corte, aterro e transporte.
 
 ## Escavação simples aqui
 
@@ -29,8 +29,8 @@ Pontos de folhas diferentes não compartilham coordenadas, por isso a exportaç�
 
 A terraplenagem do CivilCraft volta como dois itens que você pode orçar:
 
-1. No CivilCraft, regularize suas plataformas e corredores e depois escolha {{ui:Enviar para TakeoffCraft}} em **Terraplenagem** ([Volumes de terraplenagem](app:civilcraft/volumes)). Ele salva um arquivo de quantitativos (`.quantities.json`).
-2. No TakeoffCraft, abra-o com {{ui:Abrir levantamento}}, ou solte-o sobre o aplicativo. Seu levantamento continua aberto: o arquivo adiciona **Terraplenagem: corte** e **Terraplenagem: aterro** como [quantidades digitadas](topic:create-items#typed-quantities-no-drawing), em jardas cúbicas (CY) para um projeto em pés, ou em metros cúbicos (m³) para um projeto em metros. É uma única etapa: {{key:Mod+Z}} desfaz isso.
+1. No CivilCraft, regularize suas plataformas e corredores e depois escolha {{ui:Enviar para TakeoffDesk}} em **Terraplenagem** ([Volumes de terraplenagem](app:civilcraft/volumes)). Ele salva um arquivo de quantitativos (`.quantities.json`).
+2. No TakeoffDesk, abra-o com {{ui:Abrir levantamento}}, ou solte-o sobre o aplicativo. Seu levantamento continua aberto: o arquivo adiciona **Terraplenagem: corte** e **Terraplenagem: aterro** como [quantidades digitadas](topic:create-items#typed-quantities-no-drawing), em jardas cúbicas (CY) para um projeto em pés, ou em metros cúbicos (m³) para um projeto em metros. É uma única etapa: {{key:Mod+Z}} desfaz isso.
 3. Renomeie os itens e defina perda, preços e composições como quiser.
 
 Quando o projeto mudar, envie de novo a partir do CivilCraft e abra o novo arquivo: os mesmos dois itens recebem as novas quantidades. Seus nomes, preços, perdas e composições permanecem como você definiu. Se a unidade do projeto mudou, a barra de status informa isso: confira os preços. Um arquivo de outro projeto do CivilCraft adiciona seus próprios dois itens.

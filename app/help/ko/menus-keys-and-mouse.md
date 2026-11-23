@@ -5,22 +5,22 @@ keywords: 메뉴 스타일, 메뉴, 메뉴 모음, 리본, 리본 탭, 도구 �
 from: f01f0d6d
 ---
 
-TakeoffCraft의 명령은 어떤 방법으로 접근하든 같습니다. **메뉴 스타일**은 명령이 화면의 어디에 놓이는지, 어떤 이름으로 불리는지, 어떤 키로 실행되는지만 정합니다. {{ui:Settings}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menus, keys and mouse}}에서 고르십시오. 변경 사항은 즉시 적용되며, 이 브라우저가 기억합니다.
+TakeoffDesk의 명령은 어떤 방법으로 접근하든 같습니다. **메뉴 스타일**은 명령이 화면의 어디에 놓이는지, 어떤 이름으로 불리는지, 어떤 키로 실행되는지만 정합니다. {{ui:Settings}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menus, keys and mouse}}에서 고르십시오. 변경 사항은 즉시 적용되며, 이 브라우저가 기억합니다.
 
 ## 세 가지 스타일
 
 | 스타일 | 제공되는 것 |
 |---|---|
-| {{ui:TakeoffCraft}} | TakeoffCraft 고유의 도구 모음: 파일, 내보내기, 축척, 물량 산출, 편집, 보기와 한 글자 도구 키가 있습니다. 시작 스타일입니다. |
+| {{ui:TakeoffDesk}} | TakeoffDesk 고유의 도구 모음: 파일, 내보내기, 축척, 물량 산출, 편집, 보기와 한 글자 도구 키가 있습니다. 시작 스타일입니다. |
 | {{ui:Takeoff desk}} | 메뉴 모음 ({{ui:File}}, {{ui:Edit}}, {{ui:View}}, {{ui:Scale}}, {{ui:Takeoff}}, {{ui:Items}}, {{ui:Markup}}, {{ui:Export}})과 그 아래의 도구 한 줄이 있으며, 화면 기반 물량 산출 프로그램들의 배치 방식과 같습니다. 줄에서 항목은 **조건**이라고 불립니다. 같은 키에 더해 새 항목을 위한 {{key:N}} 키가 있습니다. 축척 프리셋은 시트 막대로 옮겨져 시트의 축척 옆에 놓입니다. |
 | {{ui:Takeoff ribbon}} | 작업에 맞게 이름 붙은 리본 탭: {{ui:Takeoff}} (측정, 도형, 축척, 도면에서 가져오기, 조건), {{ui:Edit}}, {{ui:View}}, {{ui:Markup}}, {{ui:Estimate}} (통합 문서, 표시된 PDF, 입찰). 파일 메뉴와 열기, 저장, 실행 취소, 다시 실행의 빠른 줄이 함께 있습니다. 매일 쓰는 도구는 크고, 옆의 도구는 작게 쌓여 있습니다. 키는 같으며, 축척 프리셋은 시트 막대로 옮겨집니다. |
 
-세 스타일 모두 TakeoffCraft의 키를 유지합니다: {{key:V}} 선택, {{key:L}} 선형, {{key:A}} 면적, {{key:O}} 원, {{key:B}} 실, {{key:P}} 경로 (PDF의 선 고르기), {{key:X}} 개구부, {{key:C}} 수량, {{key:S}} 자동 개수, {{key:K}} 보정, {{key:D}} 검사, {{key:R}} 호 모드, {{key:E}} 공제 모드, {{key:F}} 및 {{key:W}} 맞춤, {{key:3}} 3D 확인 보기, {{key:F3}} 맞추기, 그리고 {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+세 스타일 모두 TakeoffDesk의 키를 유지합니다: {{key:V}} 선택, {{key:L}} 선형, {{key:A}} 면적, {{key:O}} 원, {{key:B}} 실, {{key:P}} 경로 (PDF의 선 고르기), {{key:X}} 개구부, {{key:C}} 수량, {{key:S}} 자동 개수, {{key:K}} 보정, {{key:D}} 검사, {{key:R}} 호 모드, {{key:E}} 공제 모드, {{key:F}} 및 {{key:W}} 맞춤, {{key:3}} 3D 확인 보기, {{key:F3}} 맞추기, 그리고 {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 시트 막대의 도구 (메모, 구름, 강조 표시, 비교, 3D)는 PDF가 열릴 때까지 기다립니다. 그 전에 선택하면 상태 줄에 그렇게 표시됩니다.
 
 :::tip
-TakeoffCraft 고유 배치의 키가 스타일에서 다른 명령에 지정되어 있으면 아무 일도 일어나지 않으며, 상태 줄에 그 명령이 어디로 갔는지 표시됩니다 ("내 키에서 수량은 Ctrl+Alt+C입니다"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} 및 화살표 키는 항상 원래 뜻을 유지합니다. 구간이나 윤곽을 그리는 중, 또는 자동 개수를 붙여넣거나 검토하는 중에는 글자 키와 입력된 길이의 숫자가 도면에 속합니다.
+TakeoffDesk 고유 배치의 키가 스타일에서 다른 명령에 지정되어 있으면 아무 일도 일어나지 않으며, 상태 줄에 그 명령이 어디로 갔는지 표시됩니다 ("내 키에서 수량은 Ctrl+Alt+C입니다"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} 및 화살표 키는 항상 원래 뜻을 유지합니다. 구간이나 윤곽을 그리는 중, 또는 자동 개수를 붙여넣거나 검토하는 중에는 글자 키와 입력된 길이의 숫자가 도면에 속합니다.
 :::
 
 ## 나만의 설정
@@ -41,12 +41,12 @@ TakeoffCraft 고유 배치의 키가 스타일에서 다른 명령에 지정되�
 
 ## 함께 가져가기
 
-{{ui:Export}}는 사용 중인 스타일을 작은 `.ccinput.json` 파일로 저장합니다. {{ui:Import…}} 항목은 다른 컴퓨터나 동료에게서 받은 파일을 추가합니다. 가져온 파일은 TakeoffCraft 고유 명령만 가리킬 수 있으며, 그 밖의 내용은 빠지고 상태 줄에 그 개수가 표시됩니다. {{ui:Delete this style}} 항목은 직접 만든 스타일 하나를 삭제합니다.
+{{ui:Export}}는 사용 중인 스타일을 작은 `.ccinput.json` 파일로 저장합니다. {{ui:Import…}} 항목은 다른 컴퓨터나 동료에게서 받은 파일을 추가합니다. 가져온 파일은 TakeoffDesk 고유 명령만 가리킬 수 있으며, 그 밖의 내용은 빠지고 상태 줄에 그 개수가 표시됩니다. {{ui:Delete this style}} 항목은 직접 만든 스타일 하나를 삭제합니다.
 
 :::note
-이 설정은 이 브라우저에 남아 있습니다. 스타일 카드 아래의 {{ui:Use this style in every app}} 항목을 켜면 모든 앱이 맞는 스타일 (고유 도구 모음, 메뉴 모음 또는 리본)로 열리며, 각 앱에서 한 변경 사항도 유지됩니다. TakeoffCraft에는 명령줄이 있는 스타일이 없습니다. 모든 앱에 대해 그 스타일을 고르면 TakeoffCraft는 고유 도구 모음을 유지합니다.
+이 설정은 이 브라우저에 남아 있습니다. 스타일 카드 아래의 {{ui:Use this style in every app}} 항목을 켜면 모든 앱이 맞는 스타일 (고유 도구 모음, 메뉴 모음 또는 리본)로 열리며, 각 앱에서 한 변경 사항도 유지됩니다. TakeoffDesk에는 명령줄이 있는 스타일이 없습니다. 모든 앱에 대해 그 스타일을 고르면 TakeoffDesk는 고유 도구 모음을 유지합니다.
 
-{{ui:Takeoff ribbon}}은 {{ui:Ribbon and project browser}} 배치 ({{ui:Settings}} › {{ui:Global}} › {{ui:Layout}})의 리본이기도 합니다. [TakeoffCraft 화면](topic:workspace)을 참고하십시오.
+{{ui:Takeoff ribbon}}은 {{ui:Ribbon and project browser}} 배치 ({{ui:Settings}} › {{ui:Global}} › {{ui:Layout}})의 리본이기도 합니다. [TakeoffDesk 화면](topic:workspace)을 참고하십시오.
 :::
 
-관련: [키와 마우스](topic:keyboard) · [TakeoffCraft 설정](topic:settings) · [다른 물량 산출 소프트웨어에서 옮겨 오기](topic:coming-from)
+관련: [키와 마우스](topic:keyboard) · [TakeoffDesk 설정](topic:settings) · [다른 물량 산출 소프트웨어에서 옮겨 오기](topic:coming-from)

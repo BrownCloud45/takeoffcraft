@@ -19,9 +19,9 @@ Te **Sasitë › Sipas artikullit**, një rresht që ka sasi dhe nuk ka normë m
 2. Dialogu thotë totalin që po nënshkruan dhe liston rreshtat pa normë. Shkruaj emrin tënd dhe, nëse dëshiron, rolin tënd.
 3. Kliko **Nënshkruaj**. Shiriti tani thotë "Nënshkruar nga … më …" me totalin. Ruaje llogarinë që ta mbash në skedar.
 
-Nënshkrimi i takon shifrave që nënshkrove. Çdo ndryshim i mëvonshëm i një sasie, normës ose rreshti e pastron atë, dhe TakeoffCraft të njofton. Zhbërja sjell përsëri preventivin që nënshkrove, dhe nënshkrimin e tij bashkë me të. Riemërtimi i një rreshti nuk është ndryshim shifre. **Hiq nënshkrimin** e largon atë.
+Nënshkrimi i takon shifrave që nënshkrove. Çdo ndryshim i mëvonshëm i një sasie, normës ose rreshti e pastron atë, dhe TakeoffDesk të njofton. Zhbërja sjell përsëri preventivin që nënshkrove, dhe nënshkrimin e tij bashkë me të. Riemërtimi i një rreshti nuk është ndryshim shifre. **Hiq nënshkrimin** e largon atë.
 
-Kur një skedar llogarie është ndryshuar jashtë TakeoffCraft pasi u nënshkrua, hapet pa nënshkrim, me një shënim që e thotë këtë. Preventivi i eksportuar (CSV dhe XLSX) emërton nënshkrimin nën totalet.
+Kur një skedar llogarie është ndryshuar jashtë TakeoffDesk pasi u nënshkrua, hapet pa nënshkrim, me një shënim që e thotë këtë. Preventivi i eksportuar (CSV dhe XLSX) emërton nënshkrimin nën totalet.
 
 Vetëm një person nënshkruan. Një asistent AI mund të lexojë nëse preventivi është i nënshkruar dhe cilat norma mungojnë; nuk ka mënyrë të nënshkruajë.
 

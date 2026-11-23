@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, tie, rautatie, silta, päällyste, reunakivi, pi
 from: 6b08c2c4
 ---
 
-IFC 4.3 -tiedosto voi sisältää teitä, rautateitä, siltoja, merirakenteita ja niiden osia: päällysteitä, pinnoitekerroksia, reunakiviä, kiskoja, maansiirtoja, laakereita, paaluja ja muuta. TakeoffCraft lukee ne ja muuttaa tyypitetyiksi määriksi, joita voit hinnoitella.
+IFC 4.3 -tiedosto voi sisältää teitä, rautateitä, siltoja, merirakenteita ja niiden osia: päällysteitä, pinnoitekerroksia, reunakiviä, kiskoja, maansiirtoja, laakereita, paaluja ja muuta. TakeoffDesk lukee ne ja muuttaa tyypitetyiksi määriksi, joita voit hinnoitella.
 
 ## Avaa tiedosto
 
 1. Valitse {{ui:Avaa piirustukset}} ryhmästä {{ui:Tiedosto}}, tai paina {{key:Mod+O}}.
-2. Valitse IFC-tiedosto (voit valita sen PDF-tiedostojen kanssa), tai pudota se TakeoffCraftiin.
+2. Valitse IFC-tiedosto (voit valita sen PDF-tiedostojen kanssa), tai pudota se TakeoffDeskiin.
 
 Jokaiselle luokalle ja ennalta määritetylle tyypille tehdään yksi tyypitetty määrä, esimerkiksi ”Pavement (flexible): count”, ja kun tiedosto ne ilmoittaa, myös ”length” yksikössä m, ”area” yksikössä m² ja ”volume” yksikössä m³. Kunkin nimikkeen huomautus kertoo, kuinka monta elementtiä laskettiin ja kuinka monella ei ollut määrää. Saman nimisen uudemman tiedoston avaaminen päivittää nämä määrät sen sijaan, että lisäisi uusia.
 

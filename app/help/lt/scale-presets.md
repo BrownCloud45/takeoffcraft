@@ -49,4 +49,4 @@ Kalibruotas mastelis juostoje po lapu rodomas kaip „Calibrated 1“ = 4.002' p
 
 ## Neįprasti PDF
 
-Kai kurie PDF deklaruoja didesnį puslapio vienetą („user unit“); TakeoffCraft tai atsižvelgia išankstiniams nustatymams ir rodomam mastelio dydžiui. PDF pasukti puslapiai matuojami taip pat kaip stačiai stovintys.
+Kai kurie PDF deklaruoja didesnį puslapio vienetą („user unit“); TakeoffDesk tai atsižvelgia išankstiniams nustatymams ir rodomam mastelio dydžiui. PDF pasukti puslapiai matuojami taip pat kaip stačiai stovintys.

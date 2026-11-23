@@ -5,14 +5,14 @@ keywords: revisione, rivisto, confronta, sovrapposizione, vecchio, nuovo, modifi
 from: 3a1d9fe0
 ---
 
-Quando una tavola viene riemessa, non occorre computarla di nuovo. Aprire il vecchio PDF e quello nuovo, confrontare le due tavole e spostare il computo da una all'altra. TakeoffCraft segnala ogni segno in cui il disegno è cambiato, così si controllano quelli e si conservano gli altri.
+Quando una tavola viene riemessa, non occorre computarla di nuovo. Aprire il vecchio PDF e quello nuovo, confrontare le due tavole e spostare il computo da una all'altra. TakeoffDesk segnala ogni segno in cui il disegno è cambiato, così si controllano quelli e si conservano gli altri.
 
 ## Confrontare
 
 1. Aprire entrambi i PDF: il vecchio set e quello rivisto ({{ui:Apri PDF}}; possono essere in un unico file oppure in più file).
 2. Mostrare la tavola **nuova**.
 3. Scegliere {{ui:Confronta}} sulla barra della tavola, sotto il disegno.
-4. Scegliere la vecchia tavola nell'elenco. TakeoffCraft propone la tavola con lo stesso numero nell'altro PDF, oppure la stessa pagina. Scegliere **Confronta**.
+4. Scegliere la vecchia tavola nell'elenco. TakeoffDesk propone la tavola con lo stesso numero nell'altro PDF, oppure la stessa pagina. Scegliere **Confronta**.
 
 Il vecchio disegno ora si sovrappone a quello nuovo in rosso. Dove i due coincidono, le linee rosse stanno su quelle nere; dove differiscono, si vedono linee rosse da sole (rimosse) e linee nere da sole (aggiunte). Una barra in fondo alla tavola contiene i passaggi seguenti; {{key:Esc}} oppure {{ui:Chiudi}} termina il confronto.
 
@@ -29,7 +29,7 @@ Il disegno rosso si sposta, ruota e si scala fino a coincidere con quello nero. 
 
 ## Trovare le modifiche
 
-Scegliere **Trova modifiche**. TakeoffCraft confronta il contenuto grafico dei due disegni: il contenuto presente solo sulla vecchia tavola diventa rosso, quello presente solo sulla nuova diventa blu, e la barra di stato li conta. Le linee spostate di un nonnulla (una ristampa) non vengono contate come modifiche.
+Scegliere **Trova modifiche**. TakeoffDesk confronta il contenuto grafico dei due disegni: il contenuto presente solo sulla vecchia tavola diventa rosso, quello presente solo sulla nuova diventa blu, e la barra di stato li conta. Le linee spostate di un nonnulla (una ristampa) non vengono contate come modifiche.
 
 Controlla anche ogni segno sulla vecchia tavola e conta quelli che si trovano dove il disegno è cambiato:
 
@@ -40,7 +40,7 @@ Controlla anche ogni segno sulla vecchia tavola e conta quelli che si trovano do
 
 Scegliere **Sposta il computo qui**. Ogni segno sulla vecchia tavola viene spostato sulla nuova, tramite l'allineamento, in un unico passo di annullamento. Quelli vicini a una modifica sono segnalati: vengono disegnati con un alone arancione, e la barra della tavola mostra "(n) da controllare".
 
-Se la nuova tavola non aveva una scala, prende quella della vecchia (regolata se i disegni hanno dovuto essere scalati per allinearsi). Se ne aveva già una diversa, TakeoffCraft chiede prima: i segni spostati vengono misurati alla scala della nuova tavola.
+Se la nuova tavola non aveva una scala, prende quella della vecchia (regolata se i disegni hanno dovuto essere scalati per allinearsi). Se ne aveva già una diversa, TakeoffDesk chiede prima: i segni spostati vengono misurati alla scala della nuova tavola.
 
 ## Controllare i segni segnalati
 

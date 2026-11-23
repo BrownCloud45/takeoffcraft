@@ -49,4 +49,4 @@ Một tỷ lệ đã hiệu chuẩn hiển thị là "Đã hiệu chuẩn 1" = 4
 
 ## PDF bất thường
 
-Một số PDF khai báo một đơn vị trang lớn hơn (một "đơn vị người dùng"); TakeoffCraft tính đến nó cho các tỷ lệ đặt sẵn và cho tỷ lệ được hiển thị. Các trang được xoay trong PDF được đo giống như các trang đứng.
+Một số PDF khai báo một đơn vị trang lớn hơn (một "đơn vị người dùng"); TakeoffDesk tính đến nó cho các tỷ lệ đặt sẵn và cho tỷ lệ được hiển thị. Các trang được xoay trong PDF được đo giống như các trang đứng.

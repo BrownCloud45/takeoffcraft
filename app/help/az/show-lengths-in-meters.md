@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Nə edəcəksiniz
 
-TakeoffCraft-ın uzunluqları necə göstərdiyini dəyişin, beləliklə metrik layihə vərəqdə, status panelində və panellərdə metrlə, santimetrlə və ya millimetrlə oxunur.
+TakeoffDesk-ın uzunluqları necə göstərdiyini dəyişin, beləliklə metrik layihə vərəqdə, status panelində və panellərdə metrlə, santimetrlə və ya millimetrlə oxunur.
 
 ## Addımlar
 
-1. {{ui:Parametrlər}} açın (tətbiq panelindəki dişli və ya {{key:Mod+,}}) və {{ui:TakeoffCraft}} sekmədə qalın.
+1. {{ui:Parametrlər}} açın (tətbiq panelindəki dişli və ya {{key:Mod+,}}) və {{ui:TakeoffDesk}} sekmədə qalın.
 2. {{ui:Uzunluqları belə göstər}} tapın və {{ui:Fut-düym}}, m, cm və ya mm seçin. {{ui:Qlobalı izlə}} {{ui:Parametrlər}} › {{ui:Qlobal}} › {{ui:Vahidlər}} bölməsində ulduzla işarələnmiş metrik uzunluq vahidini istifadə edir; heç biri ulduzlanmayıbsa, fut-düym.
 3. Vərəqə baxın: status panelindəki, Elementlər siyahısındakı və panellərdəki uzunluqlar indi seçdiyiniz vahiddə oxunur. Hündürlüklər, dərinlik, qalınlıq və səviyyələr də belədir.
 4. Elementlərin temperaturunu Selsi (C) və ya Farenheyt (F) ilə oxumaq üçün eyni sekmədə {{ui:Temperaturu belə göstər}} seçin.

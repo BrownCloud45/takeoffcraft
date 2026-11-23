@@ -5,7 +5,7 @@ keywords: "otvori, skup nacrta, više pdf-ova, više datoteka, listovi, crteži,
 from: ed434468
 ---
 
-Skup nacrta često je nekoliko PDF-ova: arhitektonski, konstrukcijski, strojarski. TakeoffCraft ih otvara jedan uz drugi kao jedan popis listova, a jedan predmjer može obuhvatiti sve njih.
+Skup nacrta često je nekoliko PDF-ova: arhitektonski, konstrukcijski, strojarski. TakeoffDesk ih otvara jedan uz drugi kao jedan popis listova, a jedan predmjer može obuhvatiti sve njih.
 
 ## Otvorite PDF-ove
 
@@ -14,14 +14,14 @@ Skup nacrta često je nekoliko PDF-ova: arhitektonski, konstrukcijski, strojarsk
 3. Odaberite Otvori.
    Dok se svaka datoteka čita, prikazuje se poruka „Otvaranje (name)…“. Zatim se svaka stranica pojavi pod {{ui:Listovi}}, a otvara se prva stranica prvog novog PDF-a.
 
-PDF-ove možete povući i iz {{pick:mac=Finder|windows=Istraživač datoteka|linux=vašeg upravitelja datoteka}} i ispustiti bilo gdje na TakeoffCraft. Dok povlačite, pojavljuje se okvir „Ispustite PDF-ove, DWG ili DXF crteže ili .takeoff.json“.
+PDF-ove možete povući i iz {{pick:mac=Finder|windows=Istraživač datoteka|linux=vašeg upravitelja datoteka}} i ispustiti bilo gdje na TakeoffDesk. Dok povlačite, pojavljuje se okvir „Ispustite PDF-ove, DWG ili DXF crteže ili .takeoff.json“.
 
 Da dodate još PDF-ova kasnije, ponovite isto. PDF-ovi koji su već otvoreni se preskaču.
 
 Početni zaslon također navodi PDF-ove i predmjere koje ste nedavno otvorili, u preglednicima koji dopuštaju stranici ponovno otvoriti datoteku (Chrome i Edge). Kliknite jedan da ga otvorite; preglednik možda najprije traži dopuštenje. Vidi [Vaše datoteke](common:your-files).
 
 :::note
-Ništa se ne učitava na poslužitelj. Preglednik čita PDF-ove na vašem računalu, a oni nestaju iz TakeoffCrafta kad zatvorite karticu ili odaberete {{ui:Novo}}.
+Ništa se ne učitava na poslužitelj. Preglednik čita PDF-ove na vašem računalu, a oni nestaju iz TakeoffDeska kad zatvorite karticu ili odaberete {{ui:Novo}}.
 :::
 
 ## Crteži uz PDF-ove
@@ -30,7 +30,7 @@ Ništa se ne učitava na poslužitelj. Preglednik čita PDF-ove na vašem račun
 
 ## PDF predan iz druge aplikacije
 
-Druga aplikacija iz paketa može vam predati PDF koji ima otvoren: otvara TakeoffCraft u novoj kartici i PDF se tamo otvara kao da ste ga ispustili. Statusna traka kaže „Otvoreno: (name), predano iz (app). Izvorna datoteka nije promijenjena.“ Ništa se ne učitava na poslužitelj; datoteka prolazi kroz pohranu ovog preglednika i nestaje iz nje čim se otvori.
+Druga aplikacija iz paketa može vam predati PDF koji ima otvoren: otvara TakeoffDesk u novoj kartici i PDF se tamo otvara kao da ste ga ispustili. Statusna traka kaže „Otvoreno: (name), predano iz (app). Izvorna datoteka nije promijenjena.“ Ništa se ne učitava na poslužitelj; datoteka prolazi kroz pohranu ovog preglednika i nestaje iz nje čim se otvori.
 
 Ako statusna traka kaže da PDF „nije stigao“, kartica je predugo čekala ili je PDF već otvoren u drugoj kartici: otvorite ga s {{ui:Otvori nacrte}}.
 

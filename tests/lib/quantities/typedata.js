@@ -2,7 +2,7 @@
 /**
  * typedata.js — the takeoff data a saved type carries (booklet row BK.40, session bk-quantities-10): the unit it is built of
  * (a brick, a block: name and size), its mortar, and a rate. Entered once on the type, stored with the type in the file, and
- * reported for every element of that type by the schedules and by what TakeoffCraft reads. Host-free: no imports, no DOM.
+ * reported for every element of that type by the schedules and by what TakeoffDesk reads. Host-free: no imports, no DOM.
  * Canonical copy: lib/quantities/ (node tools/quantities/sync.mjs copies it to the apps).
  *
  * The data:  { unit?: { name, length, height, width },      sizes in mm

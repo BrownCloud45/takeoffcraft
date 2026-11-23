@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Nima qilasiz
 
-TakeoffCraft uzunliklarni qanday koʻrsatishini oʻzgartiring, shunda metrik ish varaqda, holat satrida va panellarda metrda, santimetrda yoki millimetrda oʻqiladi.
+TakeoffDesk uzunliklarni qanday koʻrsatishini oʻzgartiring, shunda metrik ish varaqda, holat satrida va panellarda metrda, santimetrda yoki millimetrda oʻqiladi.
 
 ## Qadamlar
 
-1. {{ui:Sozlamalar}} ni ilova panelidagi tishli tugma yoki {{key:Mod+,}} bilan oching va {{ui:TakeoffCraft}} yorligʻida qoling.
+1. {{ui:Sozlamalar}} ni ilova panelidagi tishli tugma yoki {{key:Mod+,}} bilan oching va {{ui:TakeoffDesk}} yorligʻida qoling.
 2. {{ui:Uzunliklarni koʻrsatish}} ni toping va {{ui:Fut-dyuym}}, m, cm yoki mm ni tanlang. {{ui:Global boʻyicha}} {{ui:Sozlamalar}} › {{ui:Global}} › {{ui:Birliklar}} ichida yulduzcha qoʻyilgan metrik uzunlik birligidan foydalanadi, hech narsa belgilanmagan boʻlsa — fut-dyuym.
 3. Varaqqa qarang: holat satridagi, {{ui:Elementlar}} roʻyxatidagi va panellardagi uzunliklar endi tanlagan birlikda oʻqiladi. Balandliklar, chuqurlik, qalinlik va sathlar ham shunday.
 4. Element haroratini Selsiy yoki Farengeyt gradusida oʻqish uchun shu yorliqda {{ui:Haroratni quyidagicha koʻrsatish}} ni tanlang.

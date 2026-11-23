@@ -32,11 +32,11 @@ Yapıştırılan işaretler, {{ui:Kalemler}} panelinin üstünde seçilen ihale 
 
 {{key:Mod+Shift+V}} ({{ui:Olduğu yere yapıştır}}) kopyayı açık sayfada, sayfadaki konumuna göre tam aynı yere koyar. Tipik bir kat için kullanın: 2. katı metrajlayın, kopyalayın, 3. katı açın ve olduğu yere yapıştırın.
 
-Olduğu yere yapıştır, kopyaladığınız sayfayla **aynı boyutta** bir sayfa ister. Başka boyutta bir sayfada TakeoffCraft bunu söyler ve hiçbir şey yapıştırmaz; bunun yerine {{ui:Yapıştır}} kullanıp tıklayın. Kopyaladığınız sayfada kopya, özgünlerin üzerine düşer.
+Olduğu yere yapıştır, kopyaladığınız sayfayla **aynı boyutta** bir sayfa ister. Başka boyutta bir sayfada TakeoffDesk bunu söyler ve hiçbir şey yapıştırmaz; bunun yerine {{ui:Yapıştır}} kullanıp tıklayın. Kopyaladığınız sayfada kopya, özgünlerin üzerine düşer.
 
 ## Ölçek eşleşmelidir
 
-Uzunluklar ve alanlar sayfanın ölçeğine bağlıdır. 1/4" = 1'-0" ölçeğinde 10' ölçen bir seri, 1/8" = 1'-0" ölçekli bir sayfada 20' ölçer. Bu yüzden TakeoffCraft, serileri ve alanları yalnızca geldikleri sayfayla **aynı ölçeğe** sahip bir sayfaya yapıştırır ve bunu açıkça söyler:
+Uzunluklar ve alanlar sayfanın ölçeğine bağlıdır. 1/4" = 1'-0" ölçeğinde 10' ölçen bir seri, 1/8" = 1'-0" ölçekli bir sayfada 20' ölçer. Bu yüzden TakeoffDesk, serileri ve alanları yalnızca geldikleri sayfayla **aynı ölçeğe** sahip bir sayfaya yapıştırır ve bunu açıkça söyler:
 
 - Açık sayfanın henüz ölçeği yok: önce bir ölçek verin ([Ölçeği ayarlayın](topic:set-the-scale)), sonra yapıştırın.
 - Açık sayfanın başka bir ölçeği var: mesaj iki ölçeği de adlandırır. Aynı ölçekteki bir sayfaya yapıştırın.
@@ -59,7 +59,7 @@ Uzunluklar ve alanlar sayfanın ölçeğine bağlıdır. 1/4" = 1'-0" ölçeğin
 - {{ui:Kalemi çoğalt}}: hemen "(ad) (kopya)" adıyla bir kopya ekler.
 
 :::tip
-Kopya bu bilgisayarda kalır: bu sekmede ve tarayıcının depolamasında tutulur; böylece başka bir TakeoffCraft sekmesi de yapıştırabilir. Hiçbir şey yüklenmez ve sistem panosu kullanılmaz; bu yüzden işaretleri başka programlara yapıştıramazsınız.
+Kopya bu bilgisayarda kalır: bu sekmede ve tarayıcının depolamasında tutulur; böylece başka bir TakeoffDesk sekmesi de yapıştırabilir. Hiçbir şey yüklenmez ve sistem panosu kullanılmaz; bu yüzden işaretleri başka programlara yapıştıramazsınız.
 :::
 
 :::note

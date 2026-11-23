@@ -14,7 +14,7 @@ Lukumäärännimike laskee asioita: ovia, valaisimia, pistorasioita, saniteettil
 3. Napsauta jokaista arkilla olevaa.
    Jokainen napsautus asettaa pisteen nimikkeen väriin, ja nimikkeen lukumäärä kasvaa yhdellä.
 4. Siirry seuraavalle arkille ({{key:PageDown}}) ja jatka laskemista. Työkalu pysyy tilassa {{ui:Lukumäärä}}.
-5. Paina {{key:Esc}}, kun olet valmis. TakeoffCraft palaa tilaan {{ui:Valitse}}.
+5. Paina {{key:Esc}}, kun olet valmis. TakeoffDesk palaa tilaan {{ui:Valitse}}.
 
 Vetäminen panoroi ja rulla zoomaa edelleen laskennan aikana, joten voit liikkua arkilla lisäämättä pisteitä.
 
@@ -30,7 +30,7 @@ Napsauta lukumäärännimikettä, niin sen pisteet korostuvat jokaisella arkilla
 
 ## Pisteen koko näytöllä ja PDF:ssä
 
-Pisteet säilyttävät saman koon näytöllä, zoomasi mukaan. Muuttaaksesi sitä, avaa {{ui:Asetukset}}, TakeoffCraft-välilehti, ja valitse **Laskentamerkin koko**: Erittäin pieni, Pieni, Keskikokoinen (oletus) tai Suuri.
+Pisteet säilyttävät saman koon näytöllä, zoomasi mukaan. Muuttaaksesi sitä, avaa {{ui:Asetukset}}, TakeoffDesk-välilehti, ja valitse **Laskentamerkin koko**: Erittäin pieni, Pieni, Keskikokoinen (oletus) tai Suuri.
 
 PDF-vienti ({{ui:Vie}} › merkitty PDF) piirtää jokaisen pisteen samankokoisena paperilla, arkin koosta riippumatta: PDF:n katselija 100 %:n zoomilla näyttää pisteet yhtä suurina kuin ne ovat näytöllä. Jos arkin pisteet koskisivat toisiinsa, vienti pienentää arkin pisteitä, jotta kukin voidaan lukea.
 

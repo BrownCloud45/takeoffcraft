@@ -19,9 +19,9 @@ Sa **Dami › Ayon sa item**, ang linyang may dami at walang material o labor ra
 2. Ipinapakita ng dialog ang total na pinipirmahan mo at inililista ang mga linyang walang rate. I-type ang pangalan mo at, kung gusto mo, ang role mo.
 3. I-click ang **Sign off**. Babasahin na ng bar ang "Na-sign off ni … noong …" kasama ang total. I-save ang takeoff para itago ito sa file.
 
-Ang sign-off ay para sa mga figure na pinirmahan mo. Anumang pagbabago sa dami, rate o linya pagkatapos nito ay nag-aalis ng sign-off, at sasabihan ka ng TakeoffCraft. Ibinabalik ng Undo ang estimate na pinirmahan mo, kasama ang sign-off nito. Ang pagpapalit ng pangalan ng linya ay hindi pagbabago ng figure. Inaalis ng **Alisin ang sign-off** ang sign-off.
+Ang sign-off ay para sa mga figure na pinirmahan mo. Anumang pagbabago sa dami, rate o linya pagkatapos nito ay nag-aalis ng sign-off, at sasabihan ka ng TakeoffDesk. Ibinabalik ng Undo ang estimate na pinirmahan mo, kasama ang sign-off nito. Ang pagpapalit ng pangalan ng linya ay hindi pagbabago ng figure. Inaalis ng **Alisin ang sign-off** ang sign-off.
 
-Ang takeoff file na in-edit sa labas ng TakeoffCraft pagkatapos ma-sign off ay bumubukas nang walang sign-off, kasama ang tala na nagsasabi nito. Ang na-export na estimate (CSV at XLSX) ay nagbabanggit ng sign-off sa ilalim ng mga total.
+Ang takeoff file na in-edit sa labas ng TakeoffDesk pagkatapos ma-sign off ay bumubukas nang walang sign-off, kasama ang tala na nagsasabi nito. Ang na-export na estimate (CSV at XLSX) ay nagbabanggit ng sign-off sa ilalim ng mga total.
 
 Tao lang ang pumipirma. Mababasa ng AI assistant kung na-sign off ang estimate at aling mga rate ang kulang; wala itong paraan para mag-sign.
 

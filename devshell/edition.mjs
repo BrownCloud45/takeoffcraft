@@ -8,8 +8,8 @@
  * the INSTALL.md template and kit.json: library names, sources, license texts and the notices).
  *
  *   node devshell/edition.mjs [--version x.y|dev] [--out <dir>] [--zip] [--offline]
- *   → <out>/<slug>-browser-edition-v<x.y.z>/          (default out: dist/; --version defaults to dev)
- *   → <out>/<slug>-browser-edition-v<x.y.z>.zip + <out>/SHA256SUMS with --zip
+ *   → <out>/<name>-browser-edition-v<x.y.z>/          (default out: dist/; --version defaults to dev)
+ *   → <out>/<name>-browser-edition-v<x.y.z>.zip + <out>/SHA256SUMS with --zip
  *
  * Needs Node 20.19+ and PHP 8.1+ (the page is rendered by devshell/render.php --edition). Missing libraries are fetched
  * first, as `npm run fetch-vendor` does; --offline never downloads. The zip has one top folder, files in sorted order
@@ -48,7 +48,8 @@ const kit = readJson(path.join(KIT_DIR, 'kit.json'));
 const app = dev.app;
 const slug = app.slug;
 const semver = /^\d+\.\d+$/.test(label) ? label + '.0' : label;
-const top = `${slug}-browser-edition-v${semver}`;
+const fileStem = String(app.name || slug).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || slug;   // TakeoffDesk: the name people see, not the internal slug
+const top = `${fileStem}-browser-edition-v${semver}`;
 const outDir = path.resolve(opt('--out') || path.join(REPO, 'dist'));
 const ed = path.join(outDir, top);
 const php = process.env.PHP_BIN || 'php';
@@ -86,7 +87,7 @@ copyTree(SRC, path.join(ed, appRel), (p) => path.basename(p) === 'node_modules'
 // 2. The shared shell.
 for (const f of ['assets/css/tokens.css', 'assets/css/site.css', 'assets/css/app-shell.css', 'assets/css/help.css',
   'assets/js/site.js', 'assets/js/app-shell.js', 'assets/js/app-settings.js', 'assets/js/app-panels.js', 'assets/js/app-phone.js',
-  'assets/js/app-offline.js', 'assets/js/app-input.js', 'assets/js/app-input-ui.js', 'assets/css/app-input.css', 'assets/js/app-propgrid.js', 'assets/css/app-propgrid.css', 'assets/js/app-workspace.js', 'assets/js/app-workspace-format.js', 'assets/js/app-workspace-popout.js', 'assets/js/app-windows.js', 'assets/js/app-workspace-input.js', 'assets/js/app-workspace-extras.js', 'assets/js/app-workspace-icons.js', 'assets/js/app-workspace-vector.js', 'assets/js/app-workspace-arrange.js', 'assets/js/app-state.js', 'assets/js/app-workspace-blocks.js', 'assets/js/app-workspace-overflow.js', 'assets/js/app-workspace-tools.js', 'assets/js/app-workspace-edit.js', 'assets/js/app-dock.js', 'assets/js/app-block-core.js', 'assets/js/app-block-ribbonx.js', 'assets/js/app-block-density.js', 'assets/js/app-block-labels.js', 'assets/js/app-block-index.js', 'assets/js/app-block-commandline.js', 'assets/js/app-block-modeltabs.js', 'assets/js/app-block-statusx.js', 'assets/js/app-block-titlebar.js', 'assets/js/app-block-tone.js', 'assets/js/app-block-viewoverlays.js', 'assets/js/app-pen.js', 'assets/css/app-dock.css', 'assets/css/app-block.css', 'assets/js/app-cmdline.js', 'assets/css/app-workspace.css', 'assets/workspaces/docked.ccworkspace.json', 'assets/workspaces/toolbox.ccworkspace.json', 'assets/workspaces/duncan.ccworkspace.json', 'assets/js/app-hardware.js', 'assets/js/calc.js', 'assets/js/reasons.js', 'assets/js/totals.js', 'assets/js/lessons.js', 'assets/js/app-tools-ui.js', 'assets/js/app-calc.js', 'assets/js/app-reasons.js', 'assets/js/app-totals.js', 'assets/js/app-lessons.js', 'assets/css/app-tools.css', 'assets/js/ai-suggest.js', 'assets/js/ai-activity.js', 'assets/js/ai-ask.js', 'assets/js/assist-perms.js', 'assets/js/app-ai-ui.js', 'assets/js/app-ai-suggest.js', 'assets/js/app-ai-activity.js', 'assets/js/app-ai-ask.js', 'assets/js/app-ai-ownkey.js', 'assets/js/app-ai-assist.js', 'assets/js/ai-model-only.js', 'assets/js/ai-history.js', 'assets/js/ai-teach.js', 'assets/js/ai-principles.js', 'assets/js/ai-signoff.js', 'assets/js/ai-teacher.js', 'assets/js/knowledge-pack.js', 'assets/css/app-ai.css', 'assets/js/app-access.js', 'assets/js/fields.js', 'assets/js/app-fields.js', 'assets/js/compute/probe.js', 'assets/js/compute/probe-light.js', 'assets/js/compute/report.js', 'assets/js/help-panel.js', 'assets/js/help-core.js', 'assets/js/i18n.js', 'assets/js/app-lang-boot.js',
+  'assets/js/app-offline.js', 'assets/js/app-input.js', 'assets/js/app-input-ui.js', 'assets/js/app-devices-ui.js', 'assets/js/app-devices.js', 'assets/js/skill-packs.js', 'assets/css/app-input.css', 'assets/js/app-propgrid.js', 'assets/css/app-propgrid.css', 'assets/js/app-workspace.js', 'assets/js/app-workspace-format.js', 'assets/js/app-workspace-popout.js', 'assets/js/app-windows.js', 'assets/js/app-workspace-input.js', 'assets/js/app-workspace-extras.js', 'assets/js/app-workspace-icons.js', 'assets/js/app-workspace-vector.js', 'assets/js/app-workspace-arrange.js', 'assets/js/app-state.js', 'assets/js/app-workspace-blocks.js', 'assets/js/app-workspace-overflow.js', 'assets/js/app-workspace-tools.js', 'assets/js/app-workspace-edit.js', 'assets/js/app-dock.js', 'assets/js/app-block-core.js', 'assets/js/app-block-ribbonx.js', 'assets/js/app-block-density.js', 'assets/js/app-block-labels.js', 'assets/js/app-block-index.js', 'assets/js/app-block-commandline.js', 'assets/js/app-block-modeltabs.js', 'assets/js/app-block-statusx.js', 'assets/js/app-block-titlebar.js', 'assets/js/app-block-tone.js', 'assets/js/app-block-viewoverlays.js', 'assets/js/app-pen.js', 'assets/css/app-dock.css', 'assets/css/app-block.css', 'assets/js/app-cmdline.js', 'assets/css/app-workspace.css', 'assets/workspaces/docked.ccworkspace.json', 'assets/workspaces/toolbox.ccworkspace.json', 'assets/js/calc.js', 'assets/js/reasons.js', 'assets/js/totals.js', 'assets/js/lessons.js', 'assets/js/app-tools-ui.js', 'assets/js/app-calc.js', 'assets/js/app-reasons.js', 'assets/js/app-totals.js', 'assets/js/app-lessons.js', 'assets/css/app-tools.css', 'assets/js/ai-suggest.js', 'assets/js/ai-activity.js', 'assets/js/ai-ask.js', 'assets/js/assist-perms.js', 'assets/js/app-ai-ui.js', 'assets/js/app-ai-suggest.js', 'assets/js/app-ai-activity.js', 'assets/js/app-ai-ask.js', 'assets/js/app-ai-assist.js', 'assets/js/ai-model-only.js', 'assets/js/ai-history.js', 'assets/js/ai-teach.js', 'assets/js/ai-principles.js', 'assets/js/ai-signoff.js', 'assets/js/ai-teacher.js', 'assets/js/knowledge-pack.js', 'assets/css/app-ai.css', 'assets/js/app-access.js', 'assets/js/fields.js', 'assets/js/app-fields.js', 'assets/js/help-panel.js', 'assets/js/help-core.js', 'assets/js/i18n.js', 'assets/js/app-lang-boot.js',
   'favicon.svg', 'favicon.ico', 'favicon-32.png']) {
   fs.mkdirSync(path.dirname(path.join(ed, f)), { recursive: true });
   fs.copyFileSync(path.join(SITE, f), path.join(ed, f));
@@ -111,7 +112,7 @@ const libs = {};
 const missing = Object.entries(libs).filter(([lib, ver]) => {
   const v = vendorList.libs?.[lib];
   if (!v || v.version !== ver) die(`library ${lib} ${ver} is not in devshell/vendor.json`);
-  return v.files.some(([f, size]) => !fs.existsSync(path.join(VENDOR, lib, ver, f)) || fs.statSync(path.join(VENDOR, lib, ver, f)).size !== size);
+  return v.files.some(([f, size]) => f !== 'SOURCE.txt' && (!fs.existsSync(path.join(VENDOR, lib, ver, f)) || fs.statSync(path.join(VENDOR, lib, ver, f)).size !== size));
 });
 if (missing.length) {
   if (args.includes('--offline')) die(`libraries not downloaded yet: ${missing.map(([l]) => l).join(', ')} (run npm run fetch-vendor)`);
@@ -158,7 +159,7 @@ for (const [lib, ver] of Object.entries(libs)) {
     const k = kit.shell[lib] || kit.known[lib];
     if (!k) die(`no source note for ${lib} (devshell/edition/kit.json)`);
     fs.writeFileSync(path.join(dir, 'SOURCE.txt'), `${k.name} ${ver} — ${k.url}\n${k.source ?? 'Files from the published package of that version, unchanged.'}\n` +
-      `Copied into this edition from getcadcraft.com's vendored copy (assets/vendor/${lib}/${ver}/ there).\n`);
+      `Copied into this edition from the npm registry's published package of that version.\n`);
   }
 }
 
@@ -272,7 +273,6 @@ for (const f of ['LICENSE', 'PROVENANCE.md', 'TRADEMARKS.md']) fs.copyFileSync(p
 fs.writeFileSync(path.join(ed, 'NOTICE'), kit.notice);
 
 // 7. README, INSTALL, the server helpers and release.json (devshell/edition-docs.php on the site).
-const repoUrl = `https://github.com/getcadcraft/${slug}`;
 const zipName = `${top}.zip`;
 const manifest = readJson(path.join(SRC, 'manifest.json'));
 const iso = ['require-corp', 'credentialless'].includes(String(manifest.isolate ?? '')) ? manifest.isolate : null;
@@ -284,22 +284,22 @@ const threads = !iso ? '' : `## Faster solving (optional)\n\n${app.name} runs wi
   + 'location block. Caddy: `header Cross-Origin-Opener-Policy same-origin` and `header Cross-Origin-Embedder-Policy '
   + `${iso}\`. The one-line test servers cannot send them; that is fine.\n`;
 const fill = (t) => t.replace(/\{\{(name|slug|version|semver|zip|releases|repo|folder|threads)\}\}/g, (m, k) => ({
-  name: app.name, slug, version: label, semver, zip: zipName, releases: `${repoUrl}/releases/tag/${slug}-v${semver}`, repo: repoUrl, folder: top, threads,
+  name: app.name, slug, version: label, semver, zip: zipName, releases: '', repo: '', folder: top, threads,
 }[k]));
 const install = fill(fs.readFileSync(path.join(KIT_DIR, 'INSTALL.md'), 'utf8').split('{{privacy}}').join(kit.privacy)).replace(/\n{3,}/g, '\n\n');
 fs.writeFileSync(path.join(ed, 'INSTALL.md'), install);
 const role = /^[A-Z][a-z]/.test(app.role || '') ? app.role[0].toLowerCase() + app.role.slice(1) : (app.role || '');
 fs.writeFileSync(path.join(ed, 'README.md'), `# ${app.name} ${label}: browser edition\n\n${app.tagline ?? ''}\n\n`
-  + `${app.name} is the ${role} app in the CadCraft family. This folder is the whole app as plain files: `
+  + `${app.name} is a ${role} app. This folder is the whole app as plain files: `
   + `put it on any web server and open it in your browser. ${kit.privacy}\n\n`
-  + `1. **Get it:** the zip \`${zipName}\` from ${repoUrl}/releases, or build this folder from a clone of ${repoUrl} (\`node devshell/edition.mjs\`, see BUILDING.md there).\n`
+  + `1. **Get it:** the zip \`${zipName}\`, or build this folder from a clone of the source (\`node devshell/edition.mjs\`, see BUILDING.md there).\n`
   + '2. **Put it on a web server:** any folder of any web server. On your own computer, run `python3 -m http.server 8000` '
   + '(or `php -S localhost:8000`, or `npx serve .`) inside this folder.\n'
   + '3. **Open it:** the folder\'s address in your browser, for example http://localhost:8000/. Press F1 for help.\n\n'
   + 'Double-clicking `index.html` does not work: browsers do not run apps like this from `file://` addresses. '
   + 'Servers, troubleshooting, updating and removing: see [INSTALL.md](INSTALL.md).\n\n'
   + '## License\n\nApache License 2.0 (`LICENSE`, `NOTICE`). Libraries and their licenses: `THIRD_PARTY.md`. Where our code comes from: `PROVENANCE.md`. '
-  + 'The CadCraft names are trademarks; a fork must use another name ([TRADEMARKS.md](TRADEMARKS.md)).\n\n'
+  + 'Based on TakeoffCraft by The Data Design Group, Inc. ([TRADEMARKS.md](TRADEMARKS.md)).\n\n'
   + '---\n' + kit.trademarkNotice + '\n');
 fs.writeFileSync(path.join(ed, '.htaccess'), `# ${app.name} browser edition: file types some servers do not know (see INSTALL.md).\n`
   + 'AddType application/wasm .wasm\nAddType text/javascript .js\nAddType application/json .json\nAddType font/woff2 .woff2\n'

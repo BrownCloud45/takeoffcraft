@@ -30,7 +30,7 @@ Piirtäessä:
 - Vetäminen panoroi arkkia ja rulla zoomaa lisäämättä pisteitä.
 
 :::mac
-Macin kosketuslevyllä hiiren oikea napsautus on kaksisormennapsautus (ota toissijainen napsautus käyttöön macOS:n Järjestelmäasetuksissa kohdassa Kosketuslevy). TakeoffCraft lukee vain toissijaisen painikkeen, joten Control-napsautus voidaan tulkita tavalliseksi napsautukseksi ja lisätä piste. Kaksoisnapsautus tai {{key:Enter}} viimeistelee aina.
+Macin kosketuslevyllä hiiren oikea napsautus on kaksisormennapsautus (ota toissijainen napsautus käyttöön macOS:n Järjestelmäasetuksissa kohdassa Kosketuslevy). TakeoffDesk lukee vain toissijaisen painikkeen, joten Control-napsautus voidaan tulkita tavalliseksi napsautukseksi ja lisätä piste. Kaksoisnapsautus tai {{key:Enter}} viimeistelee aina.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Ensimmäisen pisteen jälkeen voit kirjoittaa, mihin seuraava piste menee, sen s
 | `@6',-4'` | 6' oikealle ja 4' alas edellisestä pisteestä |
 | `6',4'` (tai `#6',4'`) | 6' oikealle ja 4' ylös tämän viivaketjun ensimmäisestä pisteestä |
 
-Pituudet kirjoitetaan kuten kaikkialla TakeoffCraftissa ([Syötön muodot](topic:entry-formats)): `12'-6 1/2"`, `12.5` (jalkoina), `30"`, `3.2 m`. "Oikealle" ja "ylös" tarkoittavat sitä, miten näet arkin, myös kun PDF-sivua käännetään.
+Pituudet kirjoitetaan kuten kaikkialla TakeoffDeskissa ([Syötön muodot](topic:entry-formats)): `12'-6 1/2"`, `12.5` (jalkoina), `30"`, `3.2 m`. "Oikealle" ja "ylös" tarkoittavat sitä, miten näet arkin, myös kun PDF-sivua käännetään.
 
 {{key:Enter}} tyhjällä ruudulla viimeistelee viivaketjun kuten {{key:Enter}} arkilla; {{key:Esc}} sulkee ruudun ja pitää viivaketjun käynnissä. Kirjoitetut pisteet kulkevat samojen sääntöjen läpi kuin napsautukset: vähennykset, kaaret ja alueen sulkeminen toimivat kaikki. Sama ruutu toimii {{ui:Area}}- ja {{ui:Cut-out}}-työkaluissa; ympyrän keskipisteen jälkeen se ottaa säteen.
 

@@ -1,6 +1,6 @@
 ---
 title: Klaviatūra ir pelė
-summary: Visi klavišai, pelės, jutiklinės plokštės ir lietimo veiksmai TakeoffCraft, sugrupuoti, su platformų skirtumais.
+summary: Visi klavišai, pelės, jutiklinės plokštės ir lietimo veiksmai TakeoffDesk, sugrupuoti, su platformų skirtumais.
 keywords: klavišai, spartieji klavišai, sparčiųjų klavišų kombinacijos, klaviatūra, pelė, jutiklinė plokštė, lietimas, slinkti, pan, keisti mastelį, zoom, ratukas, dešinysis spustelėjimas, dvigubas spustelėjimas, tarpas, shift, kopijuoti, įklijuoti, iškirpti, dubliuoti, pasirinkti viską
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Patys raidžių klavišai vis dar parenka įrankius ({{key:C}} – {{ui:Skaičiu
 | Klavišas | Ką daro |
 |---|---|
 | {{key:F1}} | Atverti arba uždaryti žinyno skydelį (taip pat {{ui:Žinynas}} mygtuką programos juostoje). Veikia visuose įrankiuose, net rašant lauke. |
-| {{key:Esc}} | Uždaryti žinyno skydelį. Jo paieškos lauke pirmas {{key:Esc}} išvalo paiešką. Kai skydelis atidarytas, {{key:Esc}}, paspaustas po spustelėjimo lape, pirmiausia uždaro skydelį; paspauskite dar kartą, kad atšauktumėte veiksmą TakeoffCraft. |
+| {{key:Esc}} | Uždaryti žinyno skydelį. Jo paieškos lauke pirmas {{key:Esc}} išvalo paiešką. Kai skydelis atidarytas, {{key:Esc}}, paspaustas po spustelėjimo lape, pirmiausia uždaro skydelį; paspauskite dar kartą, kad atšauktumėte veiksmą TakeoffDesk. |
 
 :::mac
 Daugelyje Mac klaviatūrų viršutinė eilė valdo ryškumą ir garsą. Spauskite fn kartu su {{key:F1}} arba įjunkite „Naudoti F1, F2 ir kt. klavišus kaip standartinius funkcinius klavišus“ sistemos nustatymuose, skiltyje Klaviatūra.
@@ -139,7 +139,7 @@ Daugelyje Mac klaviatūrų viršutinė eilė valdo ryškumą ir garsą. Spauskit
 
 :::mac
 - {{key:Mod}} – tai Command klavišas: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Viso ekrano režimas – išimtis: Control+Shift+F.
-- Dešinysis spustelėjimas jutiklinėje plokštėje – tai dviejų pirštų spustelėjimas, kai sistemos nustatymų skiltyje Jutiklinė plokštė įjungtas antrinis spustelėjimas. TakeoffCraft skaito tik antrinį mygtuką; spustelėjimas su Control gali būti laikomas paprastu spustelėjimu ir pridėti tašką.
+- Dešinysis spustelėjimas jutiklinėje plokštėje – tai dviejų pirštų spustelėjimas, kai sistemos nustatymų skiltyje Jutiklinė plokštė įjungtas antrinis spustelėjimas. TakeoffDesk skaito tik antrinį mygtuką; spustelėjimas su Control gali būti laikomas paprastu spustelėjimu ir pridėti tašką.
 - Dviejų pirštų slinkimas jutiklinėje plokštėje keičia lapo mastelį (lapo neslenka). Norėdami slinkti, spauskite ir vilkite arba laikykite {{key:Space}} ir vilkite.
 - {{key:PageUp}} ir {{key:PageDown}} – tai fn kartu su rodyklėmis aukštyn ir žemyn klaviatūrose, kuriose jų nėra.
 - {{key:Backspace}} – tai klavišas, pažymėtas delete.
@@ -151,12 +151,12 @@ Daugelyje Mac klaviatūrų viršutinė eilė valdo ryškumą ir garsą. Spauskit
 :::
 
 :::linux
-- {{key:Mod}} – tai Ctrl. Kai kurios darbalaukio aplinkos naudoja savo Ctrl+Alt ar Super sparčiuosius klavišus; TakeoffCraft nė vieno iš jų nenaudoja.
+- {{key:Mod}} – tai Ctrl. Kai kurios darbalaukio aplinkos naudoja savo Ctrl+Alt ar Super sparčiuosius klavišus; TakeoffDesk nė vieno iš jų nenaudoja.
 - Jutiklinėje plokštėje dviejų pirštų slinkimas keičia lapo mastelį. Norėdami slinkti, spauskite ir vilkite.
 :::
 
 :::touch
-TakeoffCraft skaito lietimą kaip vieną žymeklį:
+TakeoffDesk skaito lietimą kaip vieną žymeklį:
 
 - Palietimas padeda tašką, pasirenka žymę arba prideda skaičiavimo tašką.
 - Vilkimas vienu pirštu slenka lapą ({{ui:Automatinis skaičiavimas}} metu nubrėžia paieškos langelį).
@@ -169,7 +169,7 @@ TakeoffCraft skaito lietimą kaip vieną žymeklį:
 
 ## Klavišai, kuriuos palieka naršyklė
 
-Naršyklės pasilieka kai kuriuos spartiuosius klavišus sau, ir puslapis jų naudoti negali: skirtuko uždarymas ({{key:Mod+W}}), naujas skirtukas ar langas ({{key:Mod+T}}, {{key:Mod+N}}) ir naršyklės mastelis ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Todėl TakeoffCraft lapo mastelį keičia ratuku ir paprastais {{key:Plus}} bei {{key:Minus}} klavišais. Jei klaidingai paspausite {{key:Mod+Plus}}, visas puslapis padidės; {{key:Mod+0}} jį grąžina. Žr. [Klavišai, pelės ir jutiklinės plokštės](common:keys).
+Naršyklės pasilieka kai kuriuos spartiuosius klavišus sau, ir puslapis jų naudoti negali: skirtuko uždarymas ({{key:Mod+W}}), naujas skirtukas ar langas ({{key:Mod+T}}, {{key:Mod+N}}) ir naršyklės mastelis ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Todėl TakeoffDesk lapo mastelį keičia ratuku ir paprastais {{key:Plus}} bei {{key:Minus}} klavišais. Jei klaidingai paspausite {{key:Mod+Plus}}, visas puslapis padidės; {{key:Mod+0}} jį grąžina. Žr. [Klavišai, pelės ir jutiklinės plokštės](common:keys).
 
 ## Kur yra „Perkelti“
 

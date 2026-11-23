@@ -49,4 +49,4 @@ A kalibrált méretarány a lap alatti sávban így jelenik meg: „Kalibrált 1
 
 ## Szokatlan PDF-ek
 
-Egyes PDF-ek nagyobb oldalegységet deklarálnak (ún. „user unit”); a TakeoffCraft ezt figyelembe veszi az előbeállításoknál és a megjelenített méretaránynál. A PDF-ben elforgatott oldalakat ugyanúgy mérik, mint az egyenes állásúakat.
+Egyes PDF-ek nagyobb oldalegységet deklarálnak (ún. „user unit”); a TakeoffDesk ezt figyelembe veszi az előbeállításoknál és a megjelenített méretaránynál. A PDF-ben elforgatott oldalakat ugyanúgy mérik, mint az egyenes állásúakat.

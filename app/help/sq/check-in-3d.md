@@ -46,7 +46,7 @@ Shifrat nuk ndryshojnë në 3D: sipërfaqja e murit është gjatësia e saktë h
 | {{ui:Sheet}} | Shfaq ose fshih vizatimin në tokë. |
 | Kubi i pamjes, lart djathtas | Kliko një faqe, skaj ose qoshe për të parë nga aty; tërhiqe për të rrotulluar; tërhiq unazën e busullës për ta kthyer; butoni shtëpi kthehet te {{ui:Iso}}. |
 
-Këndi shfaq një kub pamjeje, një ikonë të vogël boshtesh X, Y, Z, ose asgjë: zgjidh në {{ui:Settings}}, te skeda TakeoffCraft, nën **Treguesi i qoshes** ([Cilësimet e TakeoffCraft](topic:settings)). Fleta e sheshtë nuk ka tregues qoshe.
+Këndi shfaq një kub pamjeje, një ikonë të vogël boshtesh X, Y, Z, ose asgjë: zgjidh në {{ui:Settings}}, te skeda TakeoffDesk, nën **Treguesi i qoshes** ([Cilësimet e TakeoffDesk](topic:settings)). Fleta e sheshtë nuk ka tregues qoshe.
 
 :::touch
 Një gisht rrotullon; dy gishta bëjnë pinch për zmadhim dhe lëvizin për të lëvizur. Një prekje zgjedh.

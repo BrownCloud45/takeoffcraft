@@ -46,7 +46,7 @@ De getallen veranderen niet in 3D: het oppervlak van een wand is de exacte lengt
 | {{ui:Blad}} | Toon of verberg de tekening op de grond. |
 | De kijkkubus, rechtsboven | Klik op een vlak, rand of hoek om vanaf daar te kijken; sleep hem om te draaien; sleep zijn kompasring om te draaien; de huisknop gaat terug naar {{ui:Iso}}. |
 
-De hoek toont een kijkkubus, een klein X-, Y-, Z-assenpictogram, of niets: kies dit in {{ui:Instellingen}}, op het tabblad TakeoffCraft, onder **Hoekindicator** ([Instellingen van TakeoffCraft](topic:settings)). Het platte blad heeft geen hoekindicator.
+De hoek toont een kijkkubus, een klein X-, Y-, Z-assenpictogram, of niets: kies dit in {{ui:Instellingen}}, op het tabblad TakeoffDesk, onder **Hoekindicator** ([Instellingen van TakeoffDesk](topic:settings)). Het platte blad heeft geen hoekindicator.
 
 :::touch
 Met één vinger draait u; met twee vingers knijpt u om te zoomen en beweegt u om te verschuiven. Een tik selecteert.

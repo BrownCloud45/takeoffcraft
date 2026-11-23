@@ -1,6 +1,6 @@
 ---
 title: Dəstdə hər şeyi sayın
-summary: Simvol legendasını bir dəfə qutuya alın və TakeoffCraft bir işləmədə hər açıq vərəqdə ondakı hər simvolu sayır. Hər say öz vərəyinə keçiddir və əlavə edilməzdən əvvəl nəzərdən keçirirsiniz.
+summary: Simvol legendasını bir dəfə qutuya alın və TakeoffDesk bir işləmədə hər açıq vərəqdə ondakı hər simvolu sayır. Hər say öz vərəyinə keçiddir və əlavə edilməzdən əvvəl nəzərdən keçirirsiniz.
 keywords: hamısını say, legenda, simvol legendası, bütün dəst, hər vərəq, bütün vərəqlər, hər qapı, hər qurğu, cihazlar, cədvəl, simvollar, avtomatik say, plan dəsti, 200 vərəq, uyğunluq səviyyəsi, oxşar
 from: adc99744
 ---

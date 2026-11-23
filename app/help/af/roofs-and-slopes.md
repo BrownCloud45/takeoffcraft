@@ -5,7 +5,7 @@ keywords: dak, helling, hellingshoek, hellingsfaktor, styging, loop, 6:12, winds
 from: 38225b60
 ---
 
-'n Dakplan wys elke dakvlak plat, soos van bo gesien. Die dak self is groter: 'n vlak op 6:12 het ongeveer 12% meer oppervlak as sy plan, en sy hellende rande is langer as wat hulle lyk. Gee die item sy helling en TakeoffCraft meet langs die helling.
+'n Dakplan wys elke dakvlak plat, soos van bo gesien. Die dak self is groter: 'n vlak op 6:12 het ongeveer 12% meer oppervlak as sy plan, en sy hellende rande is langer as wat hulle lyk. Gee die item sy helling en TakeoffDesk meet langs die helling.
 
 ## 'n Helling tik
 

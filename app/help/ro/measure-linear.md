@@ -30,7 +30,7 @@ Instrumentul rămâne pe {{ui:Linear}}, deci puteți începe imediat tronsonul u
 - Tragerea deplasează foaia, iar rotița mărește, fără a adăuga puncte.
 
 :::mac
-Pe touchpadul unui Mac, clicul dreapta este un clic cu două degete (activați clicul secundar în Setări sistem, la Trackpad). TakeoffCraft citește doar butonul secundar, deci un clic cu {{key:Ctrl}} poate fi socotit clic simplu și poate adăuga un punct. Dublu clic sau {{key:Enter}} încheie întotdeauna.
+Pe touchpadul unui Mac, clicul dreapta este un clic cu două degete (activați clicul secundar în Setări sistem, la Trackpad). TakeoffDesk citește doar butonul secundar, deci un clic cu {{key:Ctrl}} poate fi socotit clic simplu și poate adăuga un punct. Dublu clic sau {{key:Enter}} încheie întotdeauna.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ După primul punct, puteți tasta unde ajunge următorul, în loc să faceți cl
 | `@6',-4'` | 6' la dreapta și 4' în jos de la ultimul punct |
 | `6',4'` (sau `#6',4'`) | 6' la dreapta și 4' în sus de la primul punct al acestui tronson |
 
-Lungimile se tastează ca peste tot în TakeoffCraft ([Formate de introducere](topic:entry-formats)): `12'-6 1/2"`, `12.5` (picioare), `30"`, `3.2 m`. „Dreapta” și „sus” sunt cum vedeți foaia, și atunci când pagina PDF este rotită.
+Lungimile se tastează ca peste tot în TakeoffDesk ([Formate de introducere](topic:entry-formats)): `12'-6 1/2"`, `12.5` (picioare), `30"`, `3.2 m`. „Dreapta” și „sus” sunt cum vedeți foaia, și atunci când pagina PDF este rotită.
 
 {{key:Enter}} pe o casetă goală încheie tronsonul, ca {{key:Enter}} pe foaie; {{key:Esc}} închide caseta și lasă tronsonul să continue. Punctele tastate urmează aceleași reguli ca clicurile: scăderile, arcele și închiderea unei arii funcționează toate. Aceeași casetă funcționează în {{ui:Area}} și {{ui:Cut-out}}; după centrul unui cerc, ia raza.
 

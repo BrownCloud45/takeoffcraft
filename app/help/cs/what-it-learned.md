@@ -1,11 +1,11 @@
 ---
 title: Co se naučilo z vašich výkazů výměr
-summary: TakeoffCraft si uchovává symboly potvrzené pomocí Automatického počítání, vaše sady podmínek, sestavy, které nejčastěji používáte, a vzory značek, které opakujete na každé straně, vše uvnitř vlastního souboru výkazu. Prohlédněte si je, použijte je, smažte je.
+summary: TakeoffDesk si uchovává symboly potvrzené pomocí Automatického počítání, vaše sady podmínek, sestavy, které nejčastěji používáte, a vzory značek, které opakujete na každé straně, vše uvnitř vlastního souboru výkazu. Prohlédněte si je, použijte je, smažte je.
 keywords: naučit se, naučené, učení, asistent, zapamatovat, symboly, šablony, stejně jako minulá zakázka, minulá zakázka, sada podmínek, podmínky, znovupoužití, sestavy, nejpoužívanější, návrhy, opakovat na každé straně, každá strana, razítko, vzor, vymazat vše, zapomenout, soukromí
 from: 54d99e99
 ---
 
-TakeoffCraft se s každým výkazem výměr zrychluje. Učí se **jen z toho, co přijmete**:
+TakeoffDesk se s každým výkazem výměr zrychluje. Učí se **jen z toho, co přijmete**:
 
 - symboly, které jste označili pomocí [Automatické počítání](topic:auto-count) a pak přidali,
 - sady podmínek, které uložíte,
@@ -64,6 +64,6 @@ Chcete-li přestat se učit v jednom výkazu, zrušte zaškrtnutí {{ui:Učit se
 
 ## Dobré vědět
 
-- Starší verze TakeoffCraft otevřou soubor s naučenými věcmi normálně. Tuto část ignorují a při dalším uložení souboru ji zahodí.
+- Starší verze TakeoffDesk otevřou soubor s naučenými věcmi normálně. Tuto část ignorují a při dalším uložení souboru ji zahodí.
 - Naučený symbol je malý obrázek toho, co jste označili, uložený v souboru (každý několik kilobajtů).
 - Naučené symboly se hledají stejně jako v Automatickém počítání, takže platí stejná omezení: [Automatické počítání symbolu](topic:auto-count).

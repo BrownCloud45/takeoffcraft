@@ -5,7 +5,7 @@ keywords: krov, nagib, faktor nagiba, uspon, horizontala, 6:12, kosnik, sleme, �
 from: 38225b60
 ---
 
-Krovni plan prikazuje svaku krovnu ravan ravno, gledano odozgo. Sam krov je veći: ravan na 6:12 ima oko 12% više površine od svoje osnove, a njene kose ivice su duže nego što izgledaju. Dajte stavki njen nagib i TakeoffCraft meri duž nagiba.
+Krovni plan prikazuje svaku krovnu ravan ravno, gledano odozgo. Sam krov je veći: ravan na 6:12 ima oko 12% više površine od svoje osnove, a njene kose ivice su duže nego što izgledaju. Dajte stavki njen nagib i TakeoffDesk meri duž nagiba.
 
 ## Unos nagiba
 

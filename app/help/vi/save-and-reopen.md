@@ -18,32 +18,32 @@ Mỗi lần lưu sẽ tải xuống một tệp mới. Trình duyệt có thể 
 Tên lấy từ PDF đầu tiên bạn mở trong bóc tách này.
 
 :::note
-Lưu bóc tách vẫn là cách duy nhất để giữ một bóc tách thành tệp. Trong lúc bạn làm việc, TakeoffCraft cũng giữ một bản khôi phục trong trình duyệt này (xem bên dưới), và lưu lên đám mây hiện chưa có sẵn. Nếu bạn cố đóng thẻ khi còn thay đổi chưa lưu, trình duyệt sẽ hỏi có rời đi hay không.
+Lưu bóc tách vẫn là cách duy nhất để giữ một bóc tách thành tệp. Trong lúc bạn làm việc, TakeoffDesk cũng giữ một bản khôi phục trong trình duyệt này (xem bên dưới), và lưu lên đám mây hiện chưa có sẵn. Nếu bạn cố đóng thẻ khi còn thay đổi chưa lưu, trình duyệt sẽ hỏi có rời đi hay không.
 :::
 
 ## Giữ bóc tách bên trong PDF
 
 {{ui:Xuất}} › {{ui:PDF có kèm bóc tách}} tải xuống một bản sao của mỗi PDF đang mở, đặt tên như `Plans (with takeoff).pdf`, và bản sao này mang toàn bộ bóc tách dưới dạng tệp đính kèm: hạng mục, dấu, tỷ lệ, khu vực dự thầu, mọi thứ mà `.takeoff.json` chứa. Các trang của nó không bị thay đổi, nên trông và in ra giống như bản gốc, và các trình đọc PDF khác liệt kê bóc tách trong phần tệp đính kèm của chúng.
 
-Mở PDF đó trong TakeoffCraft (bằng bất kỳ cách nào bạn mở PDF) và nó sẽ hỏi **PDF này có bóc tách bên trong**: chọn {{ui:Mở bóc tách}} để lấy lại, hoặc {{ui:Chỉ PDF}} để chỉ mở bản vẽ. Bản sao đại diện cho PDF mà nó được tạo từ, nên một `.takeoff.json` được lưu từ bản nào cũng mở được trên cả hai.
+Mở PDF đó trong TakeoffDesk (bằng bất kỳ cách nào bạn mở PDF) và nó sẽ hỏi **PDF này có bóc tách bên trong**: chọn {{ui:Mở bóc tách}} để lấy lại, hoặc {{ui:Chỉ PDF}} để chỉ mở bản vẽ. Bản sao đại diện cho PDF mà nó được tạo từ, nên một `.takeoff.json` được lưu từ bản nào cũng mở được trên cả hai.
 
 Với nhiều PDF, mỗi bản sao đều mang toàn bộ bóc tách; hãy mở chúng cùng nhau. Lưu lại từ một bản sao sẽ thay thế bóc tách bên trong nó, chứ không thêm một bản thứ hai. `.takeoff.json` vẫn là tệp cần giữ: nó nhỏ gọn, và là thứ mà tự động lưu và ứng dụng máy tính ghi ra.
 
 ## Nếu thẻ hoặc trình duyệt dừng
 
-Vài giây sau mỗi thay đổi, TakeoffCraft giữ một bản sao của bóc tách trong bộ nhớ riêng của trình duyệt này, cùng với các PDF khi tổng dung lượng của chúng là 64 MB hoặc ít hơn. Không có gì được tải lên. Khi bạn lưu bóc tách, bắt đầu một bóc tách mới hoặc mở một dự án khác, bản sao đó sẽ bị xóa.
+Vài giây sau mỗi thay đổi, TakeoffDesk giữ một bản sao của bóc tách trong bộ nhớ riêng của trình duyệt này, cùng với các PDF khi tổng dung lượng của chúng là 64 MB hoặc ít hơn. Không có gì được tải lên. Khi bạn lưu bóc tách, bắt đầu một bóc tách mới hoặc mở một dự án khác, bản sao đó sẽ bị xóa.
 
-Nếu thẻ bị sự cố, trình duyệt hoặc máy tính dừng, hoặc bạn rời đi khi còn thay đổi chưa lưu, lần mở TakeoffCraft tiếp theo sẽ hỏi **Khôi phục công việc của bạn?** và liệt kê bóc tách theo tên. Chọn **Khôi phục** để lấy lại: các hạng mục, dấu và tỷ lệ được trả về, và các PDF mở lại nếu chúng đã được giữ. Thanh trạng thái hiển thị "Đã khôi phục (name). Chưa lưu thành tệp: Lưu bóc tách sẽ giữ nó lại." Khi các PDF quá lớn để giữ, hãy mở lại chúng; các dấu sẽ xuất hiện trên các tờ của chúng. Thêm: [Khôi phục công việc của bạn](common:recover).
+Nếu thẻ bị sự cố, trình duyệt hoặc máy tính dừng, hoặc bạn rời đi khi còn thay đổi chưa lưu, lần mở TakeoffDesk tiếp theo sẽ hỏi **Khôi phục công việc của bạn?** và liệt kê bóc tách theo tên. Chọn **Khôi phục** để lấy lại: các hạng mục, dấu và tỷ lệ được trả về, và các PDF mở lại nếu chúng đã được giữ. Thanh trạng thái hiển thị "Đã khôi phục (name). Chưa lưu thành tệp: Lưu bóc tách sẽ giữ nó lại." Khi các PDF quá lớn để giữ, hãy mở lại chúng; các dấu sẽ xuất hiện trên các tờ của chúng. Thêm: [Khôi phục công việc của bạn](common:recover).
 
 ## Mở lại
 
-1. Mở TakeoffCraft.
+1. Mở TakeoffDesk.
 2. Thả tệp `.takeoff.json` và các PDF của nó lên trang cùng lúc. Hoặc chọn {{ui:Mở bản vẽ}} cho các PDF và {{ui:Mở bóc tách}} cho dự án, theo thứ tự nào cũng được.
    Thanh trạng thái hiển thị "Đã mở (name): 12 hạng mục, 340 dấu." Mỗi tờ lấy lại tỷ lệ của nó và các dấu xuất hiện trên tờ.
 
-Thứ tự của các PDF không quan trọng, và tên tệp hoặc thư mục của chúng cũng vậy. TakeoffCraft nhận diện mỗi PDF bằng dấu vân tay của nội dung của nó.
+Thứ tự của các PDF không quan trọng, và tên tệp hoặc thư mục của chúng cũng vậy. TakeoffDesk nhận diện mỗi PDF bằng dấu vân tay của nội dung của nó.
 
-Nếu bạn mở một dự án khi bóc tách hiện tại có thay đổi chưa lưu, TakeoffCraft sẽ hỏi trước: **Hủy**, **Bỏ thay đổi**, hoặc **Lưu bóc tách trước**. Mở một dự án sẽ thay thế các hạng mục và dấu hiện tại; các PDF đã mở vẫn mở.
+Nếu bạn mở một dự án khi bóc tách hiện tại có thay đổi chưa lưu, TakeoffDesk sẽ hỏi trước: **Hủy**, **Bỏ thay đổi**, hoặc **Lưu bóc tách trước**. Mở một dự án sẽ thay thế các hạng mục và dấu hiện tại; các PDF đã mở vẫn mở.
 
 ## Khi thiếu một PDF
 
@@ -55,20 +55,20 @@ theo sau là tên tệp và dung lượng. Dấu của chúng vẫn được tí
 
 ## Khi một PDF đã thay đổi
 
-Một PDF đã được sửa, hoặc vừa được lưu lại bởi chương trình khác, có nội dung khác, nên đối với TakeoffCraft nó là một **tệp khác**, dù cùng tên. Trong ghi chú dưới danh sách tờ, một tệp như vậy ghi "có một tệp cùng tên đang mở, nhưng nội dung khác nhau".
+Một PDF đã được sửa, hoặc vừa được lưu lại bởi chương trình khác, có nội dung khác, nên đối với TakeoffDesk nó là một **tệp khác**, dù cùng tên. Trong ghi chú dưới danh sách tờ, một tệp như vậy ghi "có một tệp cùng tên đang mở, nhưng nội dung khác nhau".
 
 - Các dấu vẫn gắn với phiên bản cũ. Chúng tiếp tục được tính, ở vị trí và tỷ lệ cũ.
 - PDF đã sửa mở thành các tờ mới, không có tỷ lệ và không có dấu.
 
 Để chuyển bóc tách sang bản sửa, hãy mở cả hai PDF và dùng {{ui:So sánh}} trên tờ mới: [So sánh một tờ đã sửa và chuyển bóc tách](topic:compare-revisions).
 
-## Tệp hỏng hoặc tệp không phải của TakeoffCraft
+## Tệp hỏng hoặc tệp không phải của TakeoffDesk
 
-TakeoffCraft kiểm tra mọi tệp dự án trước khi dùng. Các thông báo bạn có thể thấy:
+TakeoffDesk kiểm tra mọi tệp dự án trước khi dùng. Các thông báo bạn có thể thấy:
 
-- "(file) không phải là dự án TakeoffCraft (không phải JSON hợp lệ)."
-- "Đây không phải là tệp dự án TakeoffCraft."
-- "Dự án này được lưu bởi một TakeoffCraft mới hơn. Hãy mở nó ở đó."
+- "(file) không phải là dự án TakeoffDesk (không phải JSON hợp lệ)."
+- "Đây không phải là tệp dự án TakeoffDesk."
+- "Dự án này được lưu bởi một TakeoffDesk mới hơn. Hãy mở nó ở đó."
 - "3 dấu bị hỏng và đã bị bỏ qua." (phần còn lại vẫn mở)
 
 ## Lịch sử hoàn tác

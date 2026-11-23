@@ -5,7 +5,7 @@ keywords: techo, pendiente, inclinación, factor de pendiente, elevación, proye
 from: 38225b60
 ---
 
-Un plano de techo muestra cada faldón plano, tal como se ve desde arriba. El techo real es más grande: un faldón a 6:12 tiene cerca de 12% más superficie que su planta, y sus bordes inclinados son más largos de lo que parecen. Asigne a la partida su pendiente y TakeoffCraft medirá a lo largo de la inclinación.
+Un plano de techo muestra cada faldón plano, tal como se ve desde arriba. El techo real es más grande: un faldón a 6:12 tiene cerca de 12% más superficie que su planta, y sus bordes inclinados son más largos de lo que parecen. Asigne a la partida su pendiente y TakeoffDesk medirá a lo largo de la inclinación.
 
 ## Escribir una pendiente
 

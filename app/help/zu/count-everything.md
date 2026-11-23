@@ -1,6 +1,6 @@
 ---
 title: Bala konke esethini
-summary: Bopha ikhiye lezimfanekiso bodwa, bese i-TakeoffCraft ibala yonke imfanekiso kuyo kuwo wonke amashidi avulekile ngokusebenza kanye. Ngalinye lisixhumanisi eshidini layo, futhi ubuyekeza ngaphambi kokuthi kwengezwe lutho.
+summary: Bopha ikhiye lezimfanekiso bodwa, bese i-TakeoffDesk ibala yonke imfanekiso kuyo kuwo wonke amashidi avulekile ngokusebenza kanye. Ngalinye lisixhumanisi eshidini layo, futhi ubuyekeza ngaphambi kokuthi kwengezwe lutho.
 keywords: bala konke, ikhiye, ikhiye lezimfanekiso, sonke isethi, wonke amashidi, onke amashidi, yonke imnyango, yonke into yokukhanyisa, amadivayisi, uhlu, izimfanekiso, ukubala okuzenzakalelayo, bala konke, isethi yamapulani, amashidi angama-200, izinga lokufana, ukufana
 from: adc99744
 ---

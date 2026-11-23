@@ -9,7 +9,7 @@ Isinasara ng {{ui:New}} ang bawat PDF at nagsisimula ng walang lamang takeoff sa
 
 1. I-save ang kasalukuyang takeoff kung gusto mo itong itago: {{ui:Save takeoff}} o {{key:Mod+S}}.
 2. Piliin ang {{ui:New}} sa grupong {{ui:File}}.
-3. Kung may mga pagbabagong hindi pa na-save, magtatanong ang TakeoffCraft ng **Hindi pa na-save na takeoff**: piliin ang {{ui:Save takeoff first}} (dina-download nito ang project, pagkatapos nililinis), {{ui:Discard changes}}, o {{ui:Cancel}}.
+3. Kung may mga pagbabagong hindi pa na-save, magtatanong ang TakeoffDesk ng **Hindi pa na-save na takeoff**: piliin ang {{ui:Save takeoff first}} (dina-download nito ang project, pagkatapos nililinis), {{ui:Discard changes}}, o {{ui:Cancel}}.
    Bumabalik ang window sa walang lamang estado nito: walang PDF, walang item, walang mark, walang scale. Sinasabi ng status bar: "Bagong takeoff. Buksan ang mga PDF para magsimula."
 
 Ang nililinis:

@@ -5,7 +5,7 @@ keywords: tak, takvinkel, skråning, skråningsfaktor, stigning, løp, 6:12, gav
 from: 38225b60
 ---
 
-En takplan viser hver takflate flatt, sett ovenfra. Taket selv er større: en flate på 6:12 har omtrent 12 % mer overflate enn planen, og de skrå kantene er lengre enn de ser ut. Gi posten takvinkelen, så måler TakeoffCraft langs skråningen.
+En takplan viser hver takflate flatt, sett ovenfra. Taket selv er større: en flate på 6:12 har omtrent 12 % mer overflate enn planen, og de skrå kantene er lengre enn de ser ut. Gi posten takvinkelen, så måler TakeoffDesk langs skråningen.
 
 ## Skriv inn en takvinkel
 

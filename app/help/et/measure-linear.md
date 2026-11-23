@@ -30,7 +30,7 @@ Joonistamise ajal:
 - Lohistamine nihutab lehte ja ratas suumib, lisamata punkte.
 
 :::mac
-Maci puuteplaadil on parem-klõps kahe sõrmega klõps (lülita sisse sekundaarne klõps jaotises Süsteemiseaded › Puuteplaat). TakeoffCraft loeb ainult sekundaarnuppu, seega Control-klõps võidakse lugeda tavaliseks klõpsuks ja lisada punkt. Topeltklõps või {{key:Enter}} lõpetavad alati.
+Maci puuteplaadil on parem-klõps kahe sõrmega klõps (lülita sisse sekundaarne klõps jaotises Süsteemiseaded › Puuteplaat). TakeoffDesk loeb ainult sekundaarnuppu, seega Control-klõps võidakse lugeda tavaliseks klõpsuks ja lisada punkt. Topeltklõps või {{key:Enter}} lõpetavad alati.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Pärast esimest punkti saad klõpsamise asemel sisestada, kuhu järgmine läheb.
 | `@6',-4'` | 6' paremale ja 4' alla viimasest punktist |
 | `6',4'` (või `#6',4'`) | 6' paremale ja 4' üles selle jada esimesest punktist |
 
-Pikkused sisestatakse nagu kõikjal TakeoffCraftis ([Sisestusvormingud](topic:entry-formats)): `12'-6 1/2"`, `12.5` (jalgades), `30"`, `3.2 m`. „Paremal“ ja „üleval“ on nii, nagu lehte näed, ka siis, kui PDF-lehte pööratakse.
+Pikkused sisestatakse nagu kõikjal TakeoffDeskis ([Sisestusvormingud](topic:entry-formats)): `12'-6 1/2"`, `12.5` (jalgades), `30"`, `3.2 m`. „Paremal“ ja „üleval“ on nii, nagu lehte näed, ka siis, kui PDF-lehte pööratakse.
 
 {{key:Enter}} tühjal kastil lõpetab jada, nagu {{key:Enter}} lehel; {{key:Esc}} sulgeb kasti ja jätab jada käima. Sisestatud punktid järgivad samu reegleid nagu klõpsud: mahaarvamised, kaared ja ala sulgemine töötavad kõik. Sama kast töötab tööriistades {{ui:Pindala}} ja {{ui:Väljalõige}}; pärast ringi keskpunkti võtab see raadiuse.
 

@@ -46,7 +46,7 @@ Numerot eivät muutu 3D:ssä: seinän pinta-ala on sen tarkka pituus kertaa kork
 | {{ui:Arkki}} | Näyttää tai piilottaa piirustuksen maassa. |
 | Näkymäkuutio oikealla ylhäällä | Napsauta sivua, reunaa tai kulmaa katsoaksesi sieltä; vedä kiertääksesi; vedä kompassirengasta kääntääksesi; talo-painike palauttaa {{ui:Iso}}-näkymään. |
 
-Kulmassa näkyy näkymäkuutio, pieni X-, Y-, Z-akselikuvake tai ei mitään: valitse se kohdasta {{ui:Asetukset}}, TakeoffCraft-välilehdeltä, kohdasta **Kulman osoitin** ([TakeoffCraft-asetukset](topic:settings)). Tasaisella arkilla ei ole kulman osoitinta.
+Kulmassa näkyy näkymäkuutio, pieni X-, Y-, Z-akselikuvake tai ei mitään: valitse se kohdasta {{ui:Asetukset}}, TakeoffDesk-välilehdeltä, kohdasta **Kulman osoitin** ([TakeoffDesk-asetukset](topic:settings)). Tasaisella arkilla ei ole kulman osoitinta.
 
 :::touch
 Yksi sormi kiertää; kaksi sormea nipistää zoomaamiseen ja siirtyy panoroimiseen. Napautus valitsee.

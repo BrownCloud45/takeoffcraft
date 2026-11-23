@@ -6,7 +6,7 @@ order: 55
 keywords: roof, pitch, slope, slope factor, rise, run, 6:12, rake, hip, valley, gable, roofing, squares, sloped area, true length, plan area
 ---
 
-A roof plan shows each roof plane flat, as seen from above. The roof itself is bigger: a plane at 6:12 has about 12% more surface than its plan, and its sloped edges are longer than they look. Give the item its pitch and TakeoffCraft measures along the slope.
+A roof plan shows each roof plane flat, as seen from above. The roof itself is bigger: a plane at 6:12 has about 12% more surface than its plan, and its sloped edges are longer than they look. Give the item its pitch and TakeoffDesk measures along the slope.
 
 ## Typing a pitch
 

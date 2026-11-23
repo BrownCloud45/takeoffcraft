@@ -55,4 +55,4 @@ Scara unei foi spune cât de mare este desenul; unitatea unui articol spune cum 
 
 ## Precizie
 
-TakeoffCraft măsoară exact din punctele pe care le dați clic, inclusiv lungimile și suprafețele reale ale arcelor, și nu rotunjește cantitățile. Afișarea rotunjește lungimile la 1/16 de țol și zecimalele la două cifre. Banii sunt rotunjiți doar la sumele extinse, până la ban.
+TakeoffDesk măsoară exact din punctele pe care le dați clic, inclusiv lungimile și suprafețele reale ale arcelor, și nu rotunjește cantitățile. Afișarea rotunjește lungimile la 1/16 de țol și zecimalele la două cifre. Banii sunt rotunjiți doar la sumele extinse, până la ban.

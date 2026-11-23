@@ -77,7 +77,7 @@ Een ry per blad wat 'n skaal of merke het.
 | Blad | Bladnaam |
 | Skaal | Die voorinstelling se naam, of die gekalibreerde skaal, of "Geen skaal" |
 | Hoe | "Voorinstelling", of "Gekalibreer op (die afstand wat jy getik het)" |
-| Voet per PDF-eenheid | Die presiese skaalfaktor wat TakeoffCraft gebruik |
+| Voet per PDF-eenheid | Die presiese skaalfaktor wat TakeoffDesk gebruik |
 
 ## Lêernaamme
 

@@ -1,16 +1,16 @@
 ---
-title: The TakeoffCraft screen
+title: The TakeoffDesk screen
 summary: A tour of the window by on-screen name - the toolbar, the sheets list, the sheet, the Items panel, the Quantities table and the status bar.
 section: start
 order: 20
 keywords: screen, layout, layouts, ribbon, project browser, toolbox, info box, toolbar, panels, sheets list, items panel, quantities, status bar, tour, interface
 ---
 
-TakeoffCraft fills the browser window under the CadCraft app bar. From top to bottom and left to right:
+TakeoffDesk fills the browser window under the app bar. From top to bottom and left to right:
 
 | Part | Where | What it is for |
 |---|---|---|
-| App bar | Very top | The app name, the version, {{ui:About TakeoffCraft}}, {{ui:Help}} ({{key:F1}}), {{ui:Save for offline}}, {{ui:Settings}} ({{key:Mod+,}}), the {{ui:Full screen}} button and the {{ui:Paper}} / {{ui:Model}} theme switch. |
+| App bar | Very top | The app name, the version, {{ui:About TakeoffDesk}}, {{ui:Help}} ({{key:F1}}), {{ui:Save for offline}}, {{ui:Settings}} ({{key:Mod+,}}), the {{ui:Full screen}} button and the {{ui:Paper}} / {{ui:Model}} theme switch. |
 | Toolbar | Under the app bar | Every command, in groups: {{ui:File}}, {{ui:Export}}, {{ui:Scale}}, {{ui:Takeoff}}, {{ui:Edit}}, {{ui:View}}. |
 | Sheets | Left | Every page of every open PDF, with a thumbnail, its scale and its mark count. |
 | The sheet | Middle | The open page. You measure here. |
@@ -72,17 +72,17 @@ See [Read quantities and the estimate](topic:read-quantities).
 
 ## Status bar (bottom)
 
-From left to right: the live measurement while you draw (length, area, radius or a check result), the {{ui:Type}} box while you type a length, messages from TakeoffCraft, the reminder "Shift snaps to 45°" (or "Snaps to 45°; Shift frees the angle" when that is on in [Settings](topic:settings)), the {{ui:Snap}} button (snapping to the drawing's lines, on when highlighted; {{key:F3}}), and the zoom percentage.
+From left to right: the live measurement while you draw (length, area, radius or a check result), the {{ui:Type}} box while you type a length, messages from TakeoffDesk, the reminder "Shift snaps to 45°" (or "Snaps to 45°; Shift frees the angle" when that is on in [Settings](topic:settings)), the {{ui:Snap}} button (snapping to the drawing's lines, on when highlighted; {{key:F3}}), and the zoom percentage.
 
 :::tip
-Read the status bar when something does not happen. TakeoffCraft explains there why it refused a click, for example "This sheet has no scale yet".
+Read the status bar when something does not happen. TakeoffDesk explains there why it refused a click, for example "This sheet has no scale yet".
 :::
 
 ## Other layouts
 
-Everything above is the {{ui:CadCraft classic}} layout, the start. {{ui:Settings}} ({{key:Mod+,}}) › {{ui:Global}} › {{ui:Layout}} offers two more; the same tools and keys work in all three, and picking {{ui:CadCraft classic}} again puts every control back where it was.
+Everything above is the {{ui:TakeoffDesk classic}} layout, the start. {{ui:Settings}} ({{key:Mod+,}}) › {{ui:Global}} › {{ui:Layout}} offers two more; the same tools and keys work in all three, and picking {{ui:TakeoffDesk classic}} again puts every control back where it was.
 
-| Layout | In TakeoffCraft |
+| Layout | In TakeoffDesk |
 |---|---|
 | {{ui:Ribbon and project browser}} | The {{ui:Takeoff ribbon}} across the top ([Menus, keys and mouse](topic:menus-keys-and-mouse)), a bar for the running tool, a tab for each sheet you open (a drawing's Model and layouts are sheets too) with the scale presets and {{ui:Fit page}} under the sheet. The left panel holds {{ui:Properties}} (the selected item, note or mark) over the {{ui:Takeoff browser}}: {{ui:Sheets}} (click one to open it in a tab), {{ui:Conditions}} (click one to draw with it) and {{ui:Estimate}} (each item's total and the job total); the thumbnails are its second tab. |
 | {{ui:Toolbox and info box}} | The toolbar over the sheet, an info box with the {{ui:Bid area}}, the running tool or the selection and the sheet bar, a column of the takeoff tools on the left, a tab for every sheet, and {{ui:Snap}} and the zoom under the sheet. |

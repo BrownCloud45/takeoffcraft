@@ -55,4 +55,4 @@ Isikali seshidi sisho ukuthi umdwebo mkhulu kangakanani; iyunithi yento isho uku
 
 ## Ukunemba
 
-I-TakeoffCraft ilinganisa ngokunembile kumaphoyinti oyichofozayo, kufaka phakathi ubude bama-arc bangempela nezindawo, futhi ayijikeleziseli izinani. Ukubonisa kujikeleza ubude ku-1/16 yeyinshi nezinombolo ezinamachashazi ku-amabili. Imali ijikelezwa kuphela ezinanini ezinwetshiwe, kuya esentini.
+I-TakeoffDesk ilinganisa ngokunembile kumaphoyinti oyichofozayo, kufaka phakathi ubude bama-arc bangempela nezindawo, futhi ayijikeleziseli izinani. Ukubonisa kujikeleza ubude ku-1/16 yeyinshi nezinombolo ezinamachashazi ku-amabili. Imali ijikelezwa kuphela ezinanini ezinwetshiwe, kuya esentini.

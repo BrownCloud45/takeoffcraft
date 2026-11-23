@@ -39,4 +39,4 @@ Iga kirje kannab ka oma CSI MasterFormat numbrit, näiteks `09 21 16`.
 
 {{ui:Ekspordi paketina…}} teegis salvestab selle paketifailina (`.ccpack.json`), mille saab kõik lisada {{ui:Ava paketifail…}} abil. Vaikimisi jätab see välja kirjed, mis tulid sinu lisatud pakettidest, ja ei kanna hindu kaasa. Märgi {{ui:Lisa minu hinnad näidishindadena}}, et saata ka oma hinnad: need lähevad välja piirkonna ja kuupäevaga märgituna ning iga paketti lisav inimene valib, kas neid kasutada.
 
-Pakettfailid on lihtsad andmed, mitte programmid. TakeoffCraft kontrollib iga osa enne kasutamist ja jätab välja kõik, mida ei oska lugeda.
+Pakettfailid on lihtsad andmed, mitte programmid. TakeoffDesk kontrollib iga osa enne kasutamist ja jätab välja kõik, mida ei oska lugeda.

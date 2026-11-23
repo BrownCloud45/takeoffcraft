@@ -5,7 +5,7 @@ keywords: pas, referència a objectes, osnap, punt final, punt mitjà, intersecc
 from: 41d29e9b
 ---
 
-La majoria de jocs de plànols són PDF vectorials: els murs i les vores són línies reals, no píxels. Mentre mesures, TakeoffCraft ajusta els clics a aquestes línies, de manera que un recorregut comença exactament a la cantonada d'un mur i una calibració llegeix la cota que va dibuixar el delineant, no el píxel on has fet clic.
+La majoria de jocs de plànols són PDF vectorials: els murs i les vores són línies reals, no píxels. Mentre mesures, TakeoffDesk ajusta els clics a aquestes línies, de manera que un recorregut comença exactament a la cantonada d'un mur i una calibració llegeix la cota que va dibuixar el delineant, no el píxel on has fet clic.
 
 El pas està activat en començar. Activa'l i desactiva'l amb {{ui:Pas}} a la barra d'estat o amb {{key:F3}}; la configuració es manté en aquest navegador (també és a [Configuració](topic:settings)).
 

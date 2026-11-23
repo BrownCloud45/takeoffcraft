@@ -1,6 +1,6 @@
 ---
 title: Pag-type ng haba, rate at porsyento
-summary: Ano ang maaari mong i-type para sa mga distansya, taas, rate ng pera at porsyento ng waste, kasama ang mga halimbawa at mga mensahe para sa input na hindi mabasa ng TakeoffCraft.
+summary: Ano ang maaari mong i-type para sa mga distansya, taas, rate ng pera at porsyento ng waste, kasama ang mga halimbawa at mga mensahe para sa input na hindi mabasa ng TakeoffDesk.
 keywords: input, format, feet inches, fractions, decimal feet, metric, meters, millimeters, rate, pera, dollars, porsyento, waste, pag-type
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Hanggang dalawang decimal, mula 0% hanggang 1000%. Mga mensahe: "I-type ang pors
 ## Mga pangalan at unit
 
 - Pangalan ng item at component: hanggang 200 character.
-- {{ui:Unit}} ng component: anumang text hanggang 20 character, gaya ng `EA`, `sheets`, `CY`, `gal`. Label lamang ito; hindi ito kino-convert ng TakeoffCraft.
+- {{ui:Unit}} ng component: anumang text hanggang 20 character, gaya ng `EA`, `sheets`, `CY`, `gal`. Label lamang ito; hindi ito kino-convert ng TakeoffDesk.
 
 ## Mga formula
 

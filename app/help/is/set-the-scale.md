@@ -5,7 +5,7 @@ keywords: greina mælikvarða, lesa mælikvarða, mælikvarði úr texta, öll b
 from: 8f0148e6
 ---
 
-Hvert blað hefur sinn eigin mælikvarða. Þú stillir hann, eða lætur TakeoffCraft lesa hann úr texta blaðanna (hér að neðan), og athugar hann. Þar til blað hefur mælikvarða neita {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} og {{ui:Cut-out}} að mæla á því. {{ui:Count}} og {{ui:Auto count}} virka án mælikvarða.
+Hvert blað hefur sinn eigin mælikvarða. Þú stillir hann, eða lætur TakeoffDesk lesa hann úr texta blaðanna (hér að neðan), og athugar hann. Þar til blað hefur mælikvarða neita {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} og {{ui:Cut-out}} að mæla á því. {{ui:Count}} og {{ui:Auto count}} virka án mælikvarða.
 
 Listi blaðanna sýnir mælikvarða hvers blaðs, eða **Enginn mælikvarði**. Stikan undir opna blaðinu segir hið sama.
 
@@ -23,7 +23,7 @@ Heildarlistinn er í [Forstillingar mælikvarða](topic:scale-presets).
 
 ## Lesa mælikvarða úr texta blaðanna
 
-Flestar teikningar segja hvaða mælikvarða þær nota: `SCALE: 1/4" = 1'-0"` í titilreitnum, `1:100` undir mynd. TakeoffCraft getur lesið hann og stillt öll blöð í einu.
+Flestar teikningar segja hvaða mælikvarða þær nota: `SCALE: 1/4" = 1'-0"` í titilreitnum, `1:100` undir mynd. TakeoffDesk getur lesið hann og stillt öll blöð í einu.
 
 1. Opnaðu listann {{ui:Preset}} og veldu {{ui:From the sheets' text…}} (efst).
 2. Listinn sýnir hvert blað: mælikvarða þess núna, og hvað textinn þess segir — **Segir 1/4" = 1'-0"**, **Enginn mælikvarði í texta** eða **Segir ekki í mælikvarða** (NTS).
@@ -44,7 +44,7 @@ Notaðu þetta þegar enginn prentaður mælikvarði er traustur, settið var st
 5. Sláðu inn raunfjarlægðina í **Raunfjarlægð**, til dæmis `24'-6 1/2"`, `24.5` (aukastafafet), `30"` eða `7.5 m`. Sjá [Innsláttur lengda, verðs og prósentu](topic:entry-formats).
 6. Veldu {{ui:Set the scale}}.
    Stöðustikan sýnir mælikvarðann sem „1" = (n)'“, og þegar hann er innan 0,5% af forstillingu segir hún hvaða, til dæmis „sem samsvarar 1/4" = 1'-0" (veldu þá forstillingu fyrir nákvæman mælikvarða)“.
-   TakeoffCraft fer aftur í verkfærið {{ui:Select}}.
+   TakeoffDesk fer aftur í verkfærið {{ui:Select}}.
 
 Þegar kvörðunin samsvarar forstillingu gefur það að velja hana nákvæman mælikvarða í stað þess sem fer eftir því hvar þú smelltir.
 
@@ -61,11 +61,11 @@ Athugaðu alltaf nýjan mælikvarða á annarri vídd.
 
 ## Breyta mælikvarða
 
-Veldu aðra forstillingu eða kvarðaðu aftur. Ef blaðið hefur þegar mælingar spyr TakeoffCraft **Breyta mælikvarða þessa blaðs?** og segir hversu margar mælingar verða mældar aftur. Veldu {{ui:Change the scale}}. Hvert hlaup og svæði á blaðinu er mælt aftur með nýja mælikvarðanum. Þú getur afturkallað það með {{key:Mod+Z}}.
+Veldu aðra forstillingu eða kvarðaðu aftur. Ef blaðið hefur þegar mælingar spyr TakeoffDesk **Breyta mælikvarða þessa blaðs?** og segir hversu margar mælingar verða mældar aftur. Veldu {{ui:Change the scale}}. Hvert hlaup og svæði á blaðinu er mælt aftur með nýja mælikvarðanum. Þú getur afturkallað það með {{key:Mod+Z}}.
 
 ## Hvers vegna blöð án mælikvarða eru ekki talin sem núll
 
-Merki á blaði án mælikvarða hefur enga raunverulega lengd eða flatarmál. TakeoffCraft telur það aldrei sem núll, því það myndi lækka matið þitt án þess að þú tækir eftir því. Í staðinn:
+Merki á blaði án mælikvarða hefur enga raunverulega lengd eða flatarmál. TakeoffDesk telur það aldrei sem núll, því það myndi lækka matið þitt án þess að þú tækir eftir því. Í staðinn:
 
 - sleppir það þessum merkjum úr summunum,
 - sýnir „+(n) án mælikvarða“ við liðinn í {{ui:Quantities}},
@@ -77,5 +77,5 @@ Merki á blaði án mælikvarða hefur enga raunverulega lengd eða flatarmál. 
 ## Ábendingar
 
 - Stilltu mælikvarða á hvert blað sem þú ætlar að mæla áður en þú byrjar. Leitaðu í listanum yfir blöð að **Enginn mælikvarði** til að finna þau sem eftir eru (leitarreiturinn skoðar heiti blaða, ekki mælikvarða).
-- Smáatriði og stækkaðar myndir á sama blaði nota oft annan mælikvarða. TakeoffCraft hefur einn mælikvarða á hvert blað; sjá [Hvað er ekki smíðað ennþá](topic:not-built-yet).
+- Smáatriði og stækkaðar myndir á sama blaði nota oft annan mælikvarða. TakeoffDesk hefur einn mælikvarða á hvert blað; sjá [Hvað er ekki smíðað ennþá](topic:not-built-yet).
 - Metrateikningar: veldu metraforstillingu eins og `1:100`, eða kvarðaðu á metrafjarlægð eins og `6000 mm`.

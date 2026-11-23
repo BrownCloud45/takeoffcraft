@@ -28,7 +28,7 @@ Töövihikus on neli töölehte ja allpool toodud aruanded, kui need kehtivad:
 
 Koos [pakkumuse kokkuvõttega](topic:bid-summary) lõpeb ka eelarve tööleht oma lisandustega (tööjõukoormus, käibemaks, üldkulud, kasum, garantii ja pakkumus) dünaamiliste valemitena.
 
-Eelarve tööleht säilitab **dünaamilised valemid**: kogus koos kaduga, ümardatud materjali- ja tööjõusummad, iga rea kogusumma ning kogusumma. Tabelarvutusprogrammid arvutavad need uuesti, nii et hinna või kaduprotsendi võid muuta tabelarvutuses ja summad järgivad. TakeoffCraftis arvutatud arvud on samuti lahtrites salvestatud ja ühtivad senti täpselt.
+Eelarve tööleht säilitab **dünaamilised valemid**: kogus koos kaduga, ümardatud materjali- ja tööjõusummad, iga rea kogusumma ning kogusumma. Tabelarvutusprogrammid arvutavad need uuesti, nii et hinna või kaduprotsendi võid muuta tabelarvutuses ja summad järgivad. TakeoffDeskis arvutatud arvud on samuti lahtrites salvestatud ja ühtivad senti täpselt.
 
 Märkuste veerg loetleb iga komponendi valemi, valemivead, märgised lehtedel ilma mõõtkavata, seinapinna ja ümbermõõdu. Kui midagi on jäetud välja, ütleb kogusummarida „Mittetäielik: vaata ülal olevaid märkusi“.
 
@@ -42,7 +42,7 @@ CSV sisaldab ainult eelarvet; koguste lehtede kaupa ja märgiste loendi jaoks ka
 
 ## Eelarve Google Sheetsis
 
-Koguste tabeli kohal paneb **Kopeeri Google Sheetsi jaoks** eelarve lõikelauale tabulaatoriga eraldatud tekstina, samade ridadega mis CSV. Google Sheetsis klõpsa lahtrit A1 ja kleebi. TakeoffCraft ei logi Google'i sisse ega saada sinna midagi.
+Koguste tabeli kohal paneb **Kopeeri Google Sheetsi jaoks** eelarve lõikelauale tabulaatoriga eraldatud tekstina, samade ridadega mis CSV. Google Sheetsis klõpsa lahtrit A1 ja kleebi. TakeoffDesk ei logi Google'i sisse ega saada sinna midagi.
 
 ## Puuduvad hinnad ja eelarve kinnitamine
 

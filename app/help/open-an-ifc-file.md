@@ -6,12 +6,12 @@ order: 13
 keywords: ifc, ifc4x3, ifc 4.3, road, railway, bridge, pavement, kerb, course, earthworks, bearing, infrastructure, quantities, bim, civil, typed quantities
 ---
 
-An IFC 4.3 file can hold roads, railways, bridges, marine works and the parts they are made of: pavements, courses, kerbs, rails, earthworks, bearings, piles and more. TakeoffCraft reads those and turns them into typed quantities you can price.
+An IFC 4.3 file can hold roads, railways, bridges, marine works and the parts they are made of: pavements, courses, kerbs, rails, earthworks, bearings, piles and more. TakeoffDesk reads those and turns them into typed quantities you can price.
 
 ## Open the file
 
 1. Choose {{ui:Open plans}} in the {{ui:File}} group, or press {{key:Mod+O}}.
-2. Select the IFC file (you can select it with PDFs), or drop it on TakeoffCraft.
+2. Select the IFC file (you can select it with PDFs), or drop it on TakeoffDesk.
 
 One typed quantity is made for each class and predefined type, for example "Pavement (flexible): count", and, when the file states them, "length" in m, "area" in m² and "volume" in m³. The note on each item says how many elements were counted and how many stated no quantity. Opening a newer file of the same name updates those quantities instead of adding more.
 

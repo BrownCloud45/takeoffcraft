@@ -30,7 +30,7 @@ Mentres debuxa:
 - Arrastrar despraza a folla e a roda fai zoom, sen engadir puntos.
 
 :::mac
-Nun trackpad de Mac, o clic dereito é un clic con dous dedos (active o clic secundario en Configuración do sistema, en Trackpad). TakeoffCraft lee só o botón secundario, así que un clic con Control pode tomarse como clic simple e engadir un punto. Dobre clic ou {{key:Enter}} sempre rematan.
+Nun trackpad de Mac, o clic dereito é un clic con dous dedos (active o clic secundario en Configuración do sistema, en Trackpad). TakeoffDesk lee só o botón secundario, así que un clic con Control pode tomarse como clic simple e engadir un punto. Dobre clic ou {{key:Enter}} sempre rematan.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Despois do primeiro punto, pode escribir onde irá o seguinte en vez de facer cl
 | `@6',-4'` | 6' á dereita e 4' abaixo desde o último punto |
 | `6',4'` (ou `#6',4'`) | 6' á dereita e 4' arriba desde o primeiro punto deste tramo |
 
-As lonxitudes escríbense como en todo TakeoffCraft ([Formatos de entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pés), `30"`, `3.2 m`. «Dereita» e «arriba» son como as ve na folla, tamén cando a páxina do PDF está xirada.
+As lonxitudes escríbense como en todo TakeoffDesk ([Formatos de entrada](topic:entry-formats)): `12'-6 1/2"`, `12.5` (pés), `30"`, `3.2 m`. «Dereita» e «arriba» son como as ve na folla, tamén cando a páxina do PDF está xirada.
 
 {{key:Enter}} nunha caixa baleira remata o tramo, igual que {{key:Enter}} na folla; {{key:Esc}} pecha a caixa e deixa o tramo en curso. Os puntos escritos seguen as mesmas regras que os clics: deduccións, arcos e pechar unha superficie funcionan todos. A mesma caixa funciona en {{ui:Area}} e {{ui:Cut-out}}; despois do centro dun círculo toma o raio.
 

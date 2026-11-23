@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * learn.js — what TakeoffCraft learns from your takeoffs (0.8 SU.811, session sx-learn). DOM-free, no imports but the
+ * learn.js — what TakeoffDesk learns from your takeoffs (0.8 SU.811, session sx-learn). DOM-free, no imports but the
  * language file: tested in Node (tools/takeoffcraft-test/learn.mjs).
  *
  * The owner's condition: no trained model, no network. Nothing here is sent anywhere. It learns ONLY from what the person
@@ -21,7 +21,7 @@
  *   }
  *
  * File compatibility: the project format stays `takeoffcraft-project` version 1. `learn` is one more optional key; model.js
- * readProject reads only the keys it knows, so a file with `learn` opens in older TakeoffCraft builds unchanged (they leave
+ * readProject reads only the keys it knows, so a file with `learn` opens in older TakeoffDesk builds unchanged (they leave
  * the section out when they save it again), and a file without `learn` opens here with nothing learned.
  */
 

@@ -5,7 +5,7 @@ keywords: maansiirto, kaivu, leikkaus, penger, leikkaus ja penger, tasaus, korko
 from: a898e508
 ---
 
-TakeoffCraft mittaa sen, mikä on piirretty arkille. Maansiirto tarvitsee maanpinnan, joten se on yhteinen CivilCraftin kanssa. CivilCraft rakentaa pintoja pisteistä, tasaa ne ja laskee leikkauksen, penkereen ja siirtomatkan.
+TakeoffDesk mittaa sen, mikä on piirretty arkille. Maansiirto tarvitsee maanpinnan, joten se on yhteinen CivilCraftin kanssa. CivilCraft rakentaa pintoja pisteistä, tasaa ne ja laskee leikkauksen, penkereen ja siirtomatkan.
 
 ## Yksinkertainen kaivu tässä
 
@@ -29,8 +29,8 @@ Eri arkeilla olevat pisteet eivät jaa koordinaatteja, joten vienti ottaa vain a
 
 CivilCraftin maansiirto palaa kahtena hinnoiteltavana nimikkeenä:
 
-1. Tasaa CivilCraftissa alustat ja käytävät ja valitse **Maansiirto**-kohdasta {{ui:Lähetä TakeoffCraft-sovellukseen}} ([Maansiirron tilavuudet](app:civilcraft/volumes)). Se tallentaa määrätiedoston (`.quantities.json`).
-2. Avaa TakeoffCraftissa tiedosto {{ui:Avaa määrälaskenta}}-painikkeella tai pudota se sovellukseen. Määrälaskenta pysyy auki: tiedosto lisää **Maansiirto: leikkaus** ja **Maansiirto: penger** [kirjoitettuina määrinä](topic:create-items#typed-quantities-no-drawing) kuutiojaardeina (CY) jalkayksikköiselle projektille tai kuutiometreinä (m³) metriyksikköiselle projektille. Se on yksi vaihe: {{key:Mod+Z}} kumoaa sen.
+1. Tasaa CivilCraftissa alustat ja käytävät ja valitse **Maansiirto**-kohdasta {{ui:Lähetä TakeoffDesk-sovellukseen}} ([Maansiirron tilavuudet](app:civilcraft/volumes)). Se tallentaa määrätiedoston (`.quantities.json`).
+2. Avaa TakeoffDeskissa tiedosto {{ui:Avaa määrälaskenta}}-painikkeella tai pudota se sovellukseen. Määrälaskenta pysyy auki: tiedosto lisää **Maansiirto: leikkaus** ja **Maansiirto: penger** [kirjoitettuina määrinä](topic:create-items#typed-quantities-no-drawing) kuutiojaardeina (CY) jalkayksikköiselle projektille tai kuutiometreinä (m³) metriyksikköiselle projektille. Se on yksi vaihe: {{key:Mod+Z}} kumoaa sen.
 3. Nimeä ne uudelleen ja aseta hukka, hinnat ja kokoonpanot haluamallasi tavalla.
 
 Kun suunnitelma muuttuu, lähetä uudelleen CivilCraftista ja avaa uusi tiedosto: samat kaksi nimikettä saavat uudet määrät. Niiden nimet, hinnat, hukka ja kokoonpanot säilyvät. Jos projektin yksikkö on vaihtunut, tilarivi kertoo siitä: tarkista hinnat. Toisesta CivilCraft-projektista tuleva tiedosto lisää omat kaksi nimikettään.

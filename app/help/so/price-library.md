@@ -13,7 +13,7 @@ Ku fur {{ui:Maktabad}} sare ee {{ui:Walxaha}} daaqadda.
 
 - {{ui:Ka soo geli CSV…}} wuxuu akhriyaa xaashi la kaydiyay sida CSV (eeg tiirarka hoose). Walxaha magaciisa iyo nooceeda horay ugu jira maktabadda waa la beddelaa; kuwa kale waa la daraa. Safafka aan la akhrin karin waa la dhaafaa, wuxuuna sheegaa kuwa iyo sababta.
 - {{ui:Ku dar walxaha xisaabintan}} wuxuu nuqul ka sameeyaa walx kasta oo xisaabinta furan, qiimahooda iyo isku-dhiskooda (ma aha calaamadahooda).
-- Qiyaasta CSV ee TakeoffCraft dhoofiyo ([Dhoofi qiyaasta](topic:export-estimate)) wuxuu si toos ah u soo galaa: qiimaha shaqada hore wuxuu bilaabaa kan xiga.
+- Qiyaasta CSV ee TakeoffDesk dhoofiyo ([Dhoofi qiyaasta](topic:export-estimate)) wuxuu si toos ah u soo galaa: qiimaha shaqada hore wuxuu bilaabaa kan xiga.
 - {{ui:Xirmooyinka shaqada…}} wuxuu ku daraa isku-dhisyo bilaasho shaqo, sida drywall, korontada ama kontaraakhtarka, iyadoo aan qiimo lahayn. Eeg [Xirmooyinka shaqada](topic:trade-packs).
 
 {{ui:Dhoofi CSV}} wuxuu maktabadda ku kaydiyaa CSV, si aad nuqul u hayso, spreadsheet-ka uga tafatirto ama saaxiibkaaga siiso. {{ui:Nadiifi}} wuu madhiyaa (riix laba jeer).

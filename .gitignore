@@ -1,3 +1,4 @@
 .cc-test/
 node_modules/
 dist/
+devshell/.mcp-token

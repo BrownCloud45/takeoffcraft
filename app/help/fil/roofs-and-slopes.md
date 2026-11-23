@@ -5,7 +5,7 @@ keywords: bubong, pitch, slope, slope factor, rise, run, 6:12, rake, hip, valley
 from: 38225b60
 ---
 
-Ipinapakita ng roof plan ang bawat plane ng bubong na patag, gaya ng nakikita mula sa itaas. Mas malaki ang bubong mismo: ang plane na 6:12 ay may mga 12% na mas maraming ibabaw kaysa sa plano nito, at mas mahaba ang mga sloped edge nito kaysa sa itsura. Bigyan ang item ng pitch nito at susukatin ng TakeoffCraft ang kahabaan ayon sa slope.
+Ipinapakita ng roof plan ang bawat plane ng bubong na patag, gaya ng nakikita mula sa itaas. Mas malaki ang bubong mismo: ang plane na 6:12 ay may mga 12% na mas maraming ibabaw kaysa sa plano nito, at mas mahaba ang mga sloped edge nito kaysa sa itsura. Bigyan ang item ng pitch nito at susukatin ng TakeoffDesk ang kahabaan ayon sa slope.
 
 ## Pag-type ng pitch
 

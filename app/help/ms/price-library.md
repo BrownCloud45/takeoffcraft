@@ -13,7 +13,7 @@ Buka dengan {{ui:Pustaka}} di bahagian atas panel {{ui:Item}}.
 
 - {{ui:Import CSV…}} membaca hamparan yang disimpan sebagai CSV (lihat lajur di bawah). Item yang nama dan jenisnya sudah ada dalam pustaka diganti; yang lain ditambah. Baris yang tidak dapat dibaca dilangkau, dan ia menyatakan yang mana dan sebabnya.
 - {{ui:Tambah item pengukuran kuantiti ini}} menyalin setiap item pengukuran kuantiti yang dibuka ke dalam pustaka, dengan kadar dan himpunan kosnya (bukan tandanya).
-- Anggaran CSV yang dieksport TakeoffCraft ([Eksport anggaran](topic:export-estimate)) diimport seperti sedia ada: harga kerja lepas menjadi benih untuk kerja seterusnya.
+- Anggaran CSV yang dieksport TakeoffDesk ([Eksport anggaran](topic:export-estimate)) diimport seperti sedia ada: harga kerja lepas menjadi benih untuk kerja seterusnya.
 
 - {{ui:Pek perdagangan…}} menambah himpunan kos percuma untuk sesuatu perdagangan, seperti dinding kering, elektrik atau konkrit, tanpa harga. Lihat [Pek perdagangan](topic:trade-packs).
 

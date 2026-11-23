@@ -46,7 +46,7 @@ Arvud 3D-s ei muutu: seina pindala on täpne pikkus korrutatud kõrgusega ja pla
 | {{ui:Leht}} | Näita või peida joonis maapinnal. |
 | Vaatekuup paremal üleval | Klõpsa tahul, servale või nurgale, et vaadata sealt. Lohista seda keerutamiseks, lohista selle kompassi rõngast pööramiseks. Majanupp viib tagasi vaatesse {{ui:Iso}}. |
 
-Nurgas on kas vaatekuup, väike X, Y, Z teljeikoon või midagi ei ole. Vali {{ui:Sätted}}, vahekaardil TakeoffCraft'i sätted, jaotises **Nurga näidik** ([TakeoffCraft'i sätted](topic:settings)). Tasasel lehel nurga näidikut ei ole.
+Nurgas on kas vaatekuup, väike X, Y, Z teljeikoon või midagi ei ole. Vali {{ui:Sätted}}, vahekaardil TakeoffDesk'i sätted, jaotises **Nurga näidik** ([TakeoffDesk'i sätted](topic:settings)). Tasasel lehel nurga näidikut ei ole.
 
 :::touch
 Üks sõrm keeratab; kaks sõrme näpistavad suumimiseks ja liiguvad nihutamiseks. Puudutus valib.

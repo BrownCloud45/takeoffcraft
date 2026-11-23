@@ -1,11 +1,11 @@
 ---
 title: Ang natutunan nito mula sa iyong mga takeoff
-summary: Iniingatan ng TakeoffCraft ang mga simbolong kinumpirma mo gamit ang Auto count, ang iyong mga condition set, ang mga assembly na madalas mong gamitin, at ang mga pattern na inuulit mo sa bawat page, lahat sa loob ng sariling file ng takeoff. Tingnan ito, gamitin ito, burahin ito.
+summary: Iniingatan ng TakeoffDesk ang mga simbolong kinumpirma mo gamit ang Auto count, ang iyong mga condition set, ang mga assembly na madalas mong gamitin, at ang mga pattern na inuulit mo sa bawat page, lahat sa loob ng sariling file ng takeoff. Tingnan ito, gamitin ito, burahin ito.
 keywords: matuto, natutunan, pagkatuto, assistant, tandaan, simbolo, template, kapareho ng huling job, huling job, condition set, kondisyon, muling gamitin, assembly, pinakaginagamit, mungkahi, ulitin sa bawat page, bawat page, title block, pattern, clear all, kalimutan, privacy
 from: 54d99e99
 ---
 
-Mas bumibilis ang TakeoffCraft habang mas maraming takeoff ang ginagawa mo dito. Natututo ito **mula lang sa mga bagay na tinatanggap mo**:
+Mas bumibilis ang TakeoffDesk habang mas maraming takeoff ang ginagawa mo dito. Natututo ito **mula lang sa mga bagay na tinatanggap mo**:
 
 - ang mga simbolong na-box mo gamit ang [Auto count](topic:auto-count) at saka idinagdag,
 - ang mga condition set na isine-save mo,
@@ -64,6 +64,6 @@ Para huminto sa pagkatuto sa isang takeoff, alisan ng tsek ang {{ui:Matuto mula 
 
 ## Mga dapat malaman
 
-- Nagbubukas nang normal ang mga mas lumang bersyon ng TakeoffCraft ng file na may natutunang bagay. Hindi nila pinapansin ang bahaging iyon, at inaalis nila ito kapag ini-save nila ulit ang file.
+- Nagbubukas nang normal ang mga mas lumang bersyon ng TakeoffDesk ng file na may natutunang bagay. Hindi nila pinapansin ang bahaging iyon, at inaalis nila ito kapag ini-save nila ulit ang file.
 - Ang natutunang simbolo ay maliit na larawan ng na-box mo, na nakatago sa file (ilang kilobyte ang bawat isa).
 - Hinahanap ang natutunang simbolo tulad ng paghahanap ng Auto count, kaya pareho ang mga limitasyon: [Auto count ng simbolo](topic:auto-count).

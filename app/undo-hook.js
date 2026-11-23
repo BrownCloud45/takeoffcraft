@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — protocol only. */
 /**
- * undo-hook.js — TakeoffCraft's end of the project-level undo (0.9 mounts-09, EG.77; docs/spikes/EG.77_PART_4.md). The reporter is undo-report.js
+ * undo-hook.js — TakeoffDesk's end of the project-level undo (0.9 mounts-09, EG.77; docs/spikes/EG.77_PART_4.md). The reporter is undo-report.js
  * (byte-identical copy of public_html/assets/js/undo-report.js). Each finished step is told to the window it runs in:
  *
  *   window event 'cc-undo-report' { detail: { type: 'edit.done', data: { step, label, depth, kind } } }   (Studio's window script forwards it to the channel)
@@ -23,7 +23,7 @@ export function mountUndoHook({ getModel, win = typeof window !== 'undefined' ? 
     if (d > last && !running) rep.stepDone(m.undoStack.at(-1)?.label || '');
     last = d;
   };
-  /** Call after the model object was replaced (a file opened; TakeoffCraft keeps one model and reloads it in place): the hook follows it. */
+  /** Call after the model object was replaced (a file opened; TakeoffDesk keeps one model and reloads it in place): the hook follows it. */
   function attach() {
     const m = getModel();
     if (m === bound) return rep;

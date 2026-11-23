@@ -77,7 +77,7 @@ Satu baris bagi setiap helaian yang mempunyai skala atau tanda.
 | Helaian | Nama helaian |
 | Skala | Nama pratetap, atau skala yang ditentukur, atau "No scale" ("Tiada skala") |
 | Cara | "Preset" ("Pratetap"), atau "Calibrated on (the distance you typed)" ("Ditentukur pada (jarak yang anda taip)") |
-| Kaki setiap unit PDF | Faktor skala tepat yang digunakan TakeoffCraft |
+| Kaki setiap unit PDF | Faktor skala tepat yang digunakan TakeoffDesk |
 
 ## Nama fail
 

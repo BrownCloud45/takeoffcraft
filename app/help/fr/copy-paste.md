@@ -32,11 +32,11 @@ Les repères collés vont dans la zone de soumission choisie en haut du panneau 
 
 {{key:Mod+Shift+V}} ({{ui:Coller à la même position}}) place la copie exactement au même endroit sur la feuille ouverte, selon sa position sur la page. Utilisez-la pour un étage courant : métrez le niveau 2, copiez, ouvrez le niveau 3, puis collez à la même position.
 
-Coller à la même position nécessite une feuille de **même taille** que celle d'où vous avez copié. Sur une feuille d'une autre taille, TakeoffCraft le signale et ne colle rien ; utilisez {{ui:Coller}} et cliquez à la place. Sur la feuille d'origine, la copie se place par-dessus les originaux.
+Coller à la même position nécessite une feuille de **même taille** que celle d'où vous avez copié. Sur une feuille d'une autre taille, TakeoffDesk le signale et ne colle rien ; utilisez {{ui:Coller}} et cliquez à la place. Sur la feuille d'origine, la copie se place par-dessus les originaux.
 
 ## L'échelle doit correspondre
 
-Les longueurs et les surfaces dépendent de l'échelle de la feuille. Un tronçon qui mesure 10' à 1/4" = 1'-0" mesurerait 20' sur une feuille à 1/8" = 1'-0". TakeoffCraft ne colle donc les tronçons et les surfaces que sur une feuille à la **même échelle** que la feuille d'origine, et l'indique clairement si ce n'est pas le cas :
+Les longueurs et les surfaces dépendent de l'échelle de la feuille. Un tronçon qui mesure 10' à 1/4" = 1'-0" mesurerait 20' sur une feuille à 1/8" = 1'-0". TakeoffDesk ne colle donc les tronçons et les surfaces que sur une feuille à la **même échelle** que la feuille d'origine, et l'indique clairement si ce n'est pas le cas :
 
 - La feuille ouverte n'a pas encore d'échelle : donnez-lui-en une d'abord ([Régler l'échelle](topic:set-the-scale)), puis collez.
 - La feuille ouverte a une autre échelle : le message indique les deux échelles. Collez sur une feuille à la même échelle.
@@ -59,7 +59,7 @@ L'éditeur de poste (sous **Éléments**) se termine par :
 - {{ui:Dupliquer le poste}} : ajoute tout de suite une copie, nommée « (nom) (copie) ».
 
 :::tip
-La copie reste sur cet ordinateur : elle est conservée dans cet onglet et dans le stockage du navigateur, afin qu'un autre onglet de TakeoffCraft puisse la coller. Rien n'est téléversé, et le presse-papiers du système n'est pas utilisé : vous ne pouvez donc pas coller des repères dans d'autres logiciels.
+La copie reste sur cet ordinateur : elle est conservée dans cet onglet et dans le stockage du navigateur, afin qu'un autre onglet de TakeoffDesk puisse la coller. Rien n'est téléversé, et le presse-papiers du système n'est pas utilisé : vous ne pouvez donc pas coller des repères dans d'autres logiciels.
 :::
 
 :::note

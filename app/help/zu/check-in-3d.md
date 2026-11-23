@@ -46,7 +46,7 @@ Izinombolo azishintshi ku-3D: indawo yodonga iyubude bayo ngokoqobo ngokuphakama
 | {{ui:Sheet}} | Bonisa noma ufihle umdwebo phansi. |
 | Ikhyubhu lokubuka, ngakwesokudla phezulu | Chofoza isinqe, umphetho noma ikhona ukubheka kusuka lapho; donsa ukuzungeza; donsa indandatho yekhampasi ukuphendula; inkinobho yendlu ibuyisela ku-{{ui:Iso}}. |
 
-Ikhona ingaba ikhyubhu lokubuka, uphawu oluncane lwe-X, Y, Z, noma akukho lutho: khetha ku-{{ui:Settings}}, ethebhu le-TakeoffCraft, ngaphansi kwe-**Isikhombisi sekhona** ([Izilungiselelo ze-TakeoffCraft](topic:settings)). Ishidi elisicaba alinaso isikhombisi sekhona.
+Ikhona ingaba ikhyubhu lokubuka, uphawu oluncane lwe-X, Y, Z, noma akukho lutho: khetha ku-{{ui:Settings}}, ethebhu le-TakeoffDesk, ngaphansi kwe-**Isikhombisi sekhona** ([Izilungiselelo ze-TakeoffDesk](topic:settings)). Ishidi elisicaba alinaso isikhombisi sekhona.
 
 :::touch
 Umunwe owodwa uzungeza; iminwe emibili iyaqina ukusondeza nokudlulisa ukushelelisa. Ukuthinta kukhetha.

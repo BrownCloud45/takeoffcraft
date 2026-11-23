@@ -5,7 +5,7 @@ keywords: finn målestokk, les målestokk, målestokk fra tekst, alle ark, måle
 from: 8f0148e6
 ---
 
-Hvert ark har sin egen målestokk. Du setter den, eller lar TakeoffCraft lese den fra arkenes tekst (under), og kontrollerer den. Inntil et ark har en, nekter {{ui:Linjær}}, {{ui:Areal}}, {{ui:Sirkel}} og {{ui:Utsparing}} å måle på det. {{ui:Tell}} og {{ui:Autotelling}} fungerer uten målestokk.
+Hvert ark har sin egen målestokk. Du setter den, eller lar TakeoffDesk lese den fra arkenes tekst (under), og kontrollerer den. Inntil et ark har en, nekter {{ui:Linjær}}, {{ui:Areal}}, {{ui:Sirkel}} og {{ui:Utsparing}} å måle på det. {{ui:Tell}} og {{ui:Autotelling}} fungerer uten målestokk.
 
 Arkelisten viser hvert arks målestokk, eller **Ingen målestokk**. Linjen under det åpne arket sier det samme.
 
@@ -23,7 +23,7 @@ Den fullstendige listen står i [Målestokkforvalg](topic:scale-presets).
 
 ## Les målestokkene fra arkenes tekst
 
-De fleste tegninger oppgir målestokken sin: `SCALE: 1/4" = 1'-0"` i tegningshodet, `1:100` under et bilde. TakeoffCraft kan lese den og sette alle arkene på én gang.
+De fleste tegninger oppgir målestokken sin: `SCALE: 1/4" = 1'-0"` i tegningshodet, `1:100` under et bilde. TakeoffDesk kan lese den og sette alle arkene på én gang.
 
 1. Åpne listen {{ui:Forvalg}} og velg {{ui:Fra arkenes tekst…}} (øverst).
 2. Listen viser hvert ark: målestokken det har nå, og hva teksten sier — **Sier 1/4" = 1'-0"**, **Ingen målestokk i teksten**, eller **Sier ikke i målestokk** (NTS).
@@ -44,7 +44,7 @@ Bruk dette når det ikke finnes en trykt målestokk du stoler på, settet er end
 5. Skriv inn den reelle avstanden i **Reell avstand**, for eksempel `24'-6 1/2"`, `24.5` (desimalfot), `30"` eller `7.5 m`. Se [Angi lengde, enhetspris og prosent](topic:entry-formats).
 6. Velg {{ui:Sett målestokken}}.
    Statuslinjen viser målestokken som «1" = (n)'», og når den er innenfor 0.5 % av et forvalg, sier den hvilket, for eksempel «som samsvarer med 1/4" = 1'-0" (velg det forvalget for en nøyaktig målestokk)».
-   TakeoffCraft går tilbake til verktøyet {{ui:Velg}}.
+   TakeoffDesk går tilbake til verktøyet {{ui:Velg}}.
 
 Når kalibreringen samsvarer med et forvalg, gir det forvalget en nøyaktig målestokk i stedet for en som avhenger av hvor du klikket.
 
@@ -61,11 +61,11 @@ Trykk {{key:Esc}} for å fjerne kontrolllinjen.
 
 ## Endre en målestokk
 
-Velg et annet forvalg eller kalibrer på nytt. Hvis arket allerede har målinger, spør TakeoffCraft **Endre målestokken for dette arket?** og sier hvor mange målinger som måles på nytt. Velg {{ui:Endre målestokken}}. Hver strekning og hvert område på arket måles på nytt med den nye målestokken. Du kan angre med {{key:Mod+Z}}.
+Velg et annet forvalg eller kalibrer på nytt. Hvis arket allerede har målinger, spør TakeoffDesk **Endre målestokken for dette arket?** og sier hvor mange målinger som måles på nytt. Velg {{ui:Endre målestokken}}. Hver strekning og hvert område på arket måles på nytt med den nye målestokken. Du kan angre med {{key:Mod+Z}}.
 
 ## Hvorfor ark uten målestokk ikke telles som null
 
-En markering på et ark uten målestokk har ingen reell lengde eller areal. TakeoffCraft teller den aldri som null, for det ville stille gjøre kalkylen din for lav. I stedet:
+En markering på et ark uten målestokk har ingen reell lengde eller areal. TakeoffDesk teller den aldri som null, for det ville stille gjøre kalkylen din for lav. I stedet:
 
 - lar den være utenfor summene,
 - viser «+(n) uten målestokk» ved siden av posten i {{ui:Mengder}},
@@ -77,5 +77,5 @@ Dette kan skje når du åpner et prosjekt der målestokkene aldri ble satt. Gi a
 ## Tips
 
 - Sett målestokken på hvert ark du skal måle, før du begynner. Søk i arkelisten etter **Ingen målestokk** for å finne de som gjenstår (søkefeltet ser på arkets navn, ikke målestokker).
-- Detaljer og forstørrede planer på samme ark bruker ofte en annen målestokk. TakeoffCraft har én målestokk per ark; se [Hva som ikke er bygget ennå](topic:not-built-yet).
+- Detaljer og forstørrede planer på samme ark bruker ofte en annen målestokk. TakeoffDesk har én målestokk per ark; se [Hva som ikke er bygget ennå](topic:not-built-yet).
 - Metriske tegninger: velg et metrisk forvalg som `1:100`, eller kalibrer med en metrisk avstand som `6000 mm`.

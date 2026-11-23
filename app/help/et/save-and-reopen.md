@@ -18,32 +18,32 @@ Iga salvestus laadib alla uue faili. Sinu brauser võib teist faili nimetada `(n
 Nimi tuleb esimesest PDF-ist, mille selles koguste arvestuses avasid.
 
 :::note
-Salvesta koguste arvestus on endiselt ainus viis koguste arvestust failina hoida. Töö ajal hoiab TakeoffCraft ka taastamiskoopiat selles brauseris (vt allpool) ning pilvesalvestus pole veel saadaval. Kui proovid sulgeda vahekaarti salvestamata muudatustega, küsib brauser, kas lahkuda.
+Salvesta koguste arvestus on endiselt ainus viis koguste arvestust failina hoida. Töö ajal hoiab TakeoffDesk ka taastamiskoopiat selles brauseris (vt allpool) ning pilvesalvestus pole veel saadaval. Kui proovid sulgeda vahekaarti salvestamata muudatustega, küsib brauser, kas lahkuda.
 :::
 
 ## Hoia koguste arvestus PDF-i sees
 
 {{ui:Eksport}} › {{ui:PDF koos koguste arvestusega}} laadib alla iga avatud PDF-i koopia nimega nagu `Plans (with takeoff).pdf`. Koopia sisaldab kogu koguste arvestust manusena: kirjed, märgid, mõõtkavad, pakkumuse alad, kõik, mis `.takeoff.json` sisaldab. Lehed jäävad puutumata, nii et see näeb ja trükib välja nagu algne, ning teised PDF-lugejad näevad koguste arvestust oma manuste all.
 
-Ava see PDF TakeoffCraftis (mis tahes viisil, kuidas PDF-e avad) ja see küsib **See PDF sisaldab koguste arvestust**: vali {{ui:Ava koguste arvestus}}, et see tagasi saada, või {{ui:Ainult PDF}}, et avada ainult joonis. Koopia esindab PDF-i, millest see tehti, seega avaneb mõlemast salvestatud `.takeoff.json` mõlemal.
+Ava see PDF TakeoffDeskis (mis tahes viisil, kuidas PDF-e avad) ja see küsib **See PDF sisaldab koguste arvestust**: vali {{ui:Ava koguste arvestus}}, et see tagasi saada, või {{ui:Ainult PDF}}, et avada ainult joonis. Koopia esindab PDF-i, millest see tehti, seega avaneb mõlemast salvestatud `.takeoff.json` mõlemal.
 
 Mitme PDF-i korral sisaldab iga koopia kogu koguste arvestust; ava need koos. Koopiast uuesti salvestamine asendab selles oleva koguste arvestuse, see ei lisa teist. `.takeoff.json` on ikka fail, mida hoida: see on väike ning sellesse kirjutavad automaatne salvestus ja töölauarakendus.
 
 ## Kui vahekaart või brauser peatub
 
-Mõne sekundi pärast iga muudatust hoiab TakeoffCraft koguste arvestusest koopiat selle brauseri oma salvestuses koos PDF-idega, kui need kokku on 64 MB või vähem. Midagi ei laadita üles. Kui salvestad koguste arvestuse, alustad uut või avad mõne teise projekti, koopia kustub.
+Mõne sekundi pärast iga muudatust hoiab TakeoffDesk koguste arvestusest koopiat selle brauseri oma salvestuses koos PDF-idega, kui need kokku on 64 MB või vähem. Midagi ei laadita üles. Kui salvestad koguste arvestuse, alustad uut või avad mõne teise projekti, koopia kustub.
 
-Kui vahekaart jookseb kokku, brauser või arvuti peatub või lahkud salvestamata muudatustega, küsib TakeoffCraft järgmisel avamisel **Taasta sinu töö?** ja loetleb koguste arvestused nime järgi. Vali **Taasta**, et need tagasi saada: kirjed, märgid ja mõõtkavad tulevad tagasi ning selle PDF-id avanevad uuesti, kui need alles hoiti. Olekuribal on „Taastatud (name). See pole veel failina salvestatud: nupp Salvesta koguste arvestus salvestab selle.“ Kui PDF-id olid liiga suured, et hoida, ava need uuesti; märgid ilmuvad nende lehtedele. Lisaks: [Töö taastamine](common:recover).
+Kui vahekaart jookseb kokku, brauser või arvuti peatub või lahkud salvestamata muudatustega, küsib TakeoffDesk järgmisel avamisel **Taasta sinu töö?** ja loetleb koguste arvestused nime järgi. Vali **Taasta**, et need tagasi saada: kirjed, märgid ja mõõtkavad tulevad tagasi ning selle PDF-id avanevad uuesti, kui need alles hoiti. Olekuribal on „Taastatud (name). See pole veel failina salvestatud: nupp Salvesta koguste arvestus salvestab selle.“ Kui PDF-id olid liiga suured, et hoida, ava need uuesti; märgid ilmuvad nende lehtedele. Lisaks: [Töö taastamine](common:recover).
 
 ## Uuesti avamine
 
-1. Ava TakeoffCraft.
+1. Ava TakeoffDesk.
 2. Lohista `.takeoff.json` fail ja selle PDF-id lehele koos. Või vali PDF-ide jaoks {{ui:Ava plaanid}} ja projekti jaoks {{ui:Ava koguste arvestus}}, kummaski järjekorras.
    Olekuribal on „Avatud (name): 12 kirjet, 340 märki.“ Iga leht saab tagasi oma mõõtkava ja märgid ilmuvad lehtedele.
 
-PDF-ide järjekord ei loe ning ka nende failinimed ja kaustad ei loe. TakeoffCraft tunneb iga PDF-i ära selle sisu sõrmejälje järgi.
+PDF-ide järjekord ei loe ning ka nende failinimed ja kaustad ei loe. TakeoffDesk tunneb iga PDF-i ära selle sisu sõrmejälje järgi.
 
-Kui avad projekti, kui praegusel koguste arvestusel on salvestamata muudatused, küsib TakeoffCraft kõigepealt: **Loobu**, **Hülga muudatused** või **Salvesta koguste arvestus enne**. Projekti avamine asendab praegused kirjed ja märgid; juba avatud PDF-id jäävad avatuks.
+Kui avad projekti, kui praegusel koguste arvestusel on salvestamata muudatused, küsib TakeoffDesk kõigepealt: **Loobu**, **Hülga muudatused** või **Salvesta koguste arvestus enne**. Projekti avamine asendab praegused kirjed ja märgid; juba avatud PDF-id jäävad avatuks.
 
 ## Kui PDF puudub
 
@@ -55,7 +55,7 @@ Sellele järgnevad failinimed ja suurused. Nende märgid loevad ikka iga kogusum
 
 ## Kui PDF on muutunud
 
-PDF, mida on muudetud või mis on teises programmis uuesti salvestatud, on erineva sisuga, seega on TakeoffCraftile **teine fail**, isegi kui nimi on sama. Lehtede loendi all olevas märkuses ütleb selline fail: „fail selle nimega on avatud, kuid sisu erineb“.
+PDF, mida on muudetud või mis on teises programmis uuesti salvestatud, on erineva sisuga, seega on TakeoffDeskile **teine fail**, isegi kui nimi on sama. Lehtede loendi all olevas märkuses ütleb selline fail: „fail selle nimega on avatud, kuid sisu erineb“.
 
 - Märgid jäävad vana versiooniga seotuks. Need loevad ikka, vanades asukohtades ja mõõtkavades.
 - Muudetud PDF avaneb uute lehtedena ilma mõõtkava ja märkideta.
@@ -64,11 +64,11 @@ Et koguste arvestus muudetud versioonile üle viia, ava mõlemad PDF-id ja kasut
 
 ## Kahjustatud või võõras fail
 
-TakeoffCraft kontrollib iga projektifaili enne kasutamist. Võid näha järgmisi teateid:
+TakeoffDesk kontrollib iga projektifaili enne kasutamist. Võid näha järgmisi teateid:
 
-- „(fail) ei ole TakeoffCraft projekt (see ei ole korrektne JSON).“
-- „See ei ole TakeoffCraft projektifail.“
-- „Selle projekti salvestas uuem TakeoffCraft. Ava see seal.“
+- „(fail) ei ole TakeoffDesk projekt (see ei ole korrektne JSON).“
+- „See ei ole TakeoffDesk projektifail.“
+- „Selle projekti salvestas uuem TakeoffDesk. Ava see seal.“
 - „3 märki olid kahjustatud ja jäeti välja.“ (ülejäänu avaneb)
 
 ## Võtmise ajalugu

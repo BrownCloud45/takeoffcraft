@@ -5,14 +5,14 @@ keywords: revizyon, revize, karşılaştır, bindirme, eski, yeni, değişiklikl
 from: 3a1d9fe0
 ---
 
-Bir sayfa yeniden yayınlandığında, onu yeniden metraj almanız gerekmez. Eski PDF'i ve yenisini açın, iki sayfayı karşılaştırın ve metrajı karşıya taşıyın. TakeoffCraft çizimin değiştiği her işareti işaretler; bunları denetler, gerisini tutarsınız.
+Bir sayfa yeniden yayınlandığında, onu yeniden metraj almanız gerekmez. Eski PDF'i ve yenisini açın, iki sayfayı karşılaştırın ve metrajı karşıya taşıyın. TakeoffDesk çizimin değiştiği her işareti işaretler; bunları denetler, gerisini tutarsınız.
 
 ## Karşılaştırın
 
 1. İki PDF'i de açın: eski takım ve revize olan ({{ui:Planları aç}}; bunlar tek dosyada ya da birkaç dosyada olabilir).
 2. **Yeni** sayfayı gösterin.
 3. Çizimin altındaki sayfa çubuğunda {{ui:Karşılaştır}} seçin.
-4. Listeden eski sayfayı seçin. TakeoffCraft, diğer PDF'te aynı numaralı sayfayı ya da aynı sayfayı önerir. **Karşılaştır**'ı seçin.
+4. Listeden eski sayfayı seçin. TakeoffDesk, diğer PDF'te aynı numaralı sayfayı ya da aynı sayfayı önerir. **Karşılaştır**'ı seçin.
 
 Eski çizim artık yeni çizimin üzerinde kırmızı olarak durur. İkisinin aynı olduğu yerlerde kırmızı çizgiler siyahların üzerine oturur; farklı olduğu yerlerde yalnızca kırmızı çizgiler (kaldırılan) ve yalnızca siyah çizgiler (eklenen) görürsünüz. Sayfanın altındaki çubukta aşağıdaki adımlar bulunur; {{key:Esc}} ya da {{ui:Kapat}} karşılaştırmayı bitirir.
 
@@ -29,7 +29,7 @@ Kırmızı çizim, siyahın üzerine oturacak şekilde taşınır, döndürülü
 
 ## Neyin değiştiğini bulun
 
-**Değişiklikleri bul**'u seçin. TakeoffCraft iki çizimin mürekkebini karşılaştırır: yalnızca eski sayfadaki mürekkep kırmızı olur, yalnızca yeni sayfadaki mürekkep mavi olur ve durum çubuğu bunları sayar. Birkaç kıl kadar oynamış çizgiler (yeniden çizim) değişiklik sayılmaz.
+**Değişiklikleri bul**'u seçin. TakeoffDesk iki çizimin mürekkebini karşılaştırır: yalnızca eski sayfadaki mürekkep kırmızı olur, yalnızca yeni sayfadaki mürekkep mavi olur ve durum çubuğu bunları sayar. Birkaç kıl kadar oynamış çizgiler (yeniden çizim) değişiklik sayılmaz.
 
 Ayrıca eski sayfadaki her işarete bakar ve çizimin değiştiği yerde olanları sayar:
 
@@ -40,7 +40,7 @@ Ayrıca eski sayfadaki her işarete bakar ve çizimin değiştiği yerde olanlar
 
 **Metrajı buraya taşı**'yı seçin. Eski sayfadaki her işaret, hizalama üzerinden yeni sayfaya, tek bir geri alma adımında taşınır. Bir değişikliğin yanındaki işaretler işaretlenir: turuncu bir halo ile çizilirler ve sayfa çubuğu "(n) denetlenecek" gösterir.
 
-Yeni sayfanın ölçeği yoksa, eski sayfanın ölçeğini alır (çizimlerin hizalanması için ölçeklenmesi gerekiyorsa ayarlanır). Zaten farklı bir ölçeği varsa, TakeoffCraft önce sorar: taşınan işaretler yeni sayfanın ölçeğinde ölçülür.
+Yeni sayfanın ölçeği yoksa, eski sayfanın ölçeğini alır (çizimlerin hizalanması için ölçeklenmesi gerekiyorsa ayarlanır). Zaten farklı bir ölçeği varsa, TakeoffDesk önce sorar: taşınan işaretler yeni sayfanın ölçeğinde ölçülür.
 
 ## İşaretlenen işaretleri denetleyin
 

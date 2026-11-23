@@ -1,6 +1,6 @@
 ---
 title: Hesabu alama moja kiotomatiki
-summary: Chora kisanduku kuzunguka alama moja, acha TakeoffCraft itafute nyingine kwenye karatasi hii au kila karatasi iliyofunguliwa, kagua ulinganifu kwa kitelezi, kisha uziongeze kwa hatua moja.
+summary: Chora kisanduku kuzunguka alama moja, acha TakeoffDesk itafute nyingine kwenye karatasi hii au kila karatasi iliyofunguliwa, kagua ulinganifu kwa kitelezi, kisha uziongeze kwa hatua moja.
 keywords: pembe yoyote, kuzungushwa, kugeuzwa, kipimo kingine, kiwango tofauti, hesabu otomatiki, hesabu ya kiotomatiki, utafutaji wa alama, tafuta alama, muundo, kiolezo, ulinganifu, gundua, zana ya kuhesabu
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Ili kuachana na ukaguzi bila kuongeza chochote, chagua {{ui:Tupa}} au bonyeza {{
 
 ## Inachopata, na kisichopata
 
-TakeoffCraft inalinganisha mchoro, kama pikseli, na alama uliyochora kisanduku.
+TakeoffDesk inalinganisha mchoro, kama pikseli, na alama uliyochora kisanduku.
 
 - Hupata alama iliyogeuzwa 0°, 90°, 180° na 270°. Weka tiki {{ui:Pembe yoyote (polepole zaidi)}} kwenye upau wa hesabu otomatiki kabla ya kuchora kisanduku ili kuipata katika pembe yoyote pia: hujaribu kila 15°, kisha husahihisha kila kilichopatikana hadi digrii moja na nusu. Hilo huchukua takriban mara sita zaidi. Haipati alama iliyoakisiwa (isipokuwa alama inafanana hata ikiakisiwa).
 - Ukiwa umeweka tiki {{ui:Tafuta karatasi zote zilizofunguliwa}}, karatasi yenye kiwango kingine hutafutwa kwa ukubwa ambao alama inao hapo: kifaa kilichochorwa kwa kipimo kwenye mpango wa 1/8" ni nusu ya ukubwa wake kwenye mpango wa 1/4", na bado kinapatikana. Karatasi kama hiyo pia hutafutwa kwa ukubwa halisi wa kisanduku, kwa lebo na alama zilizochapishwa kwa ukubwa mmoja kwenye karatasi zote. Hili linahitaji kiwango kwenye karatasi zote mbili; karatasi isiyo na kiwango hutafutwa kwa ukubwa wa kisanduku pekee.

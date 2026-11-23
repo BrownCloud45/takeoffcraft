@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * estimate-layout.js — TakeoffCraft's tables in the office layout (0.10 BK.149; session bk-r3-schedules-10). No DOM:
+ * estimate-layout.js — TakeoffDesk's tables in the office layout (0.10 BK.149; session bk-r3-schedules-10). No DOM:
  * tools/takeoffcraft-test/layout-test.mjs runs it in Node. A thin adapter over tables/table.js, the ONE layout engine (shared
  * with BimCraft's schedules), and defaults-hook.js scheduleStandard(), the ONE reading of the office standard (the four
  * all.schedule.* policies of the Default Policies add-on, kept in one store for every app on the computer).

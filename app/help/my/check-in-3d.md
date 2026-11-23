@@ -46,7 +46,7 @@ from: fb16b4f7
 | {{ui:Sheet}} | မြေပြင်ပေါ်ရှိ ပုံဆွဲကို ပြ/ဝှက်။ |
 | ထိပ်ညာဘက်ရှိ view cube | မျက်နှာ၊ အစွန်း သို့မဟုတ် ထောင့်ကို နှိပ်ပြီး ထိုနေရာမှ ကြည့်ပါ; ဆွဲ၍ လှည့်; compass ကွင်းကို ဆွဲ၍ လှည့်; အိမ်ခလုတ်က {{ui:Iso}} သို့ ပြန်သည်။ |
 
-ထောင့်တွင် view cube၊ X, Y, Z axis သေးသေး icon၊ သို့မဟုတ် ဘာမျှမပြနိုင်ပါ: **Corner indicator** အောက်ရှိ **TakeoffCraft** tab ရှိ {{ui:Settings}} တွင် ရွေးပါ ([TakeoffCraft ဆက်တင်များ](topic:settings))။ ပြားသော စာရွက်တွင် corner indicator မရှိပါ။
+ထောင့်တွင် view cube၊ X, Y, Z axis သေးသေး icon၊ သို့မဟုတ် ဘာမျှမပြနိုင်ပါ: **Corner indicator** အောက်ရှိ **TakeoffDesk** tab ရှိ {{ui:Settings}} တွင် ရွေးပါ ([TakeoffDesk ဆက်တင်များ](topic:settings))။ ပြားသော စာရွက်တွင် corner indicator မရှိပါ။
 
 :::touch
 လက်တစ်ချောင်းဖြင့် လှည့်၊ လက်နှစ်ချောင်းဖြင့် ညှစ်ဇူးမ်လုပ်ပြီး ရွှေ့ပါ pan။ နှိပ်ခြင်းက ရွေးသည်။

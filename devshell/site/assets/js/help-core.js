@@ -21,7 +21,7 @@ export function detect() {
   let browser = 'chromium';
   if (/Firefox\//.test(ua)) browser = 'firefox';
   else if (/Safari\//.test(ua) && !/Chrome\/|Chromium\/|CriOS\/|Edg\//.test(ua)) browser = 'safari';
-  const desktop = !!(window.cadcraftDesktop);   // set by a desktop shell, when there is one
+  const desktop = false;   // TakeoffDesk: always the browser
   const touch = window.matchMedia ? window.matchMedia('(pointer: coarse)').matches : false;   // i18n-ignore (media query)
   return {
     os, browser,

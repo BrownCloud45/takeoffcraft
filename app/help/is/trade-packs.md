@@ -39,4 +39,4 @@ Hver liður ber einnig CSI MasterFormat-númer sitt, til dæmis `09 21 16`.
 
 {{ui:Flytja út sem pakka…}} í safninu vistar það sem pakkaskrá (`.ccpack.json`) sem hver sem er getur bætt við með {{ui:Opna pakkaskrá…}}. Sjálfgefið sleppir hún liðum sem komu úr pökkum sem þú bættir við, og hún ber engin verð. Hakaðu við {{ui:Hafa verðin mín með sem sýnisverð}} til að senda verðin þín líka: þau fara út merkt með svæðinu og dagsetningunni sem þú gefur upp, og sá sem bætir pakkanum við velur hvort hann notar þau.
 
-Pakkaskrár eru einföld gögn, aldrei forrit. TakeoffCraft athugar sérhvern hluta þeirra áður en hann er notaður og sleppir öllu sem það getur ekki lesið.
+Pakkaskrár eru einföld gögn, aldrei forrit. TakeoffDesk athugar sérhvern hluta þeirra áður en hann er notaður og sleppir öllu sem það getur ekki lesið.

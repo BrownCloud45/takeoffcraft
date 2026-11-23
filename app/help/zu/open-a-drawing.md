@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, umdwebo, vula umdwebo, izakhiwo, isikhala semodeli, isi
 from: d8c3f504
 ---
 
-TakeoffCraft ivula umdwebo we-DWG noma we-DXF njengoba ivula i-PDF: akudingeki uwuprinte ku-PDF kuqala. Ukubala ngqo kumdwebo kuyanemba, ngoba umdwebo wazi ukuthi yini ngayinye yento. Bona [Bala kumdwebo](topic:count-from-a-drawing).
+TakeoffDesk ivula umdwebo we-DWG noma we-DXF njengoba ivula i-PDF: akudingeki uwuprinte ku-PDF kuqala. Ukubala ngqo kumdwebo kuyanemba, ngoba umdwebo wazi ukuthi yini ngayinye yento. Bona [Bala kumdwebo](topic:count-from-a-drawing).
 
 ## Vula umdwebo
 
@@ -13,9 +13,9 @@ TakeoffCraft ivula umdwebo we-DWG noma we-DXF njengoba ivula i-PDF: akudingeki u
 2. Khetha ifayela le-DWG noma le-DXF. Ungakhetha eziningi, nama-PDF nawo.
 3. Khetha Vula.
 
-Ungawuhudula ufake imidwebo ku-TakeoffCraft, njenge-PDF. Akulayishwa lutho: ibhrawuza lifunda ifayela kukhompyutha yakho.
+Ungawuhudula ufake imidwebo ku-TakeoffDesk, njenge-PDF. Akulayishwa lutho: ibhrawuza lifunda ifayela kukhompyutha yakho.
 
-TakeoffCraft ifunda i-DWG kusukela ku-AutoCAD 2000 kuya ku-2018 ne-DXF ye-ASCII kusukela ku-R12 kuya ku-2018. Yenqaba i-DXF yebinary (yigcine njenge-ASCII, noma njenge-DWG) nofayela olungelona nalolunye, futhi isho ngenxa. Ifayela elonakele livuleka ngalokho okwakwazeka ukufundwa, kuvele umlayezo osho lokho; amanani alo angase angaphelele.
+TakeoffDesk ifunda i-DWG kusukela ku-AutoCAD 2000 kuya ku-2018 ne-DXF ye-ASCII kusukela ku-R12 kuya ku-2018. Yenqaba i-DXF yebinary (yigcine njenge-ASCII, noma njenge-DWG) nofayela olungelona nalolunye, futhi isho ngenxa. Ifayela elonakele livuleka ngalokho okwakwazeka ukufundwa, kuvele umlayezo osho lokho; amanani alo angase angaphelele.
 
 ## Amashidi
 
@@ -40,10 +40,10 @@ Ishidi liqala ngesikali somdwebo owunikezayo:
 
 ## Izixhumanisi zemidwebo (xrefs)
 
-Umdwebo oxhumanisa iminye imidwebo uyibonisa lapho ifakwe khona. I-TakeoffCraft ithola umdwebo oxhunyiwe phakathi kwamafayela **avulekile**, ngegama lefayela lawo: vula umdwebo owubambe nomdwebo oxhunyiwe ndawonye (noma ngokulandelana). Kuze kube yilapho, ibha yesimo ithi imidwebo exhunyiwe emingaki engatholakali, okudwetshwa kuwo kushoda, nokubala kukusho lokho.
+Umdwebo oxhumanisa iminye imidwebo uyibonisa lapho ifakwe khona. I-TakeoffDesk ithola umdwebo oxhunyiwe phakathi kwamafayela **avulekile**, ngegama lefayela lawo: vula umdwebo owubambe nomdwebo oxhunyiwe ndawonye (noma ngokulandelana). Kuze kube yilapho, ibha yesimo ithi imidwebo exhunyiwe emingaki engatholakali, okudwetshwa kuwo kushoda, nokubala kukusho lokho.
 
 ## Imikhawulo
 
-- Izinto i-TakeoffCraft engazifundi noma engazibeki (izinto ze-proxy, izigaba ezingaziwa) zidwetshwa kuwindi lokubala ngohlobo; azikaze zilahlwe ngaphandle kokukhuluma.
+- Izinto i-TakeoffDesk engazifundi noma engazibeki (izinto ze-proxy, izigaba ezingaziwa) zidwetshwa kuwindi lokubala ngohlobo; azikaze zilahlwe ngaphandle kokukhuluma.
 - Imidwebo emikhulu kakhulu idwetshwa ngengxenye, nokubala kumisa ekhawulweni, kusho lokho. Esikhundleni salokho vula i-PDF yokuprinta yalowo mdwebo.
 - Umdwebo udwetshwa mnyama nangemibala yawo, ufiphale ephepheni elimhlophe. Amatafula wesitayela sokuprinta nezabelo zepeni akusetshenziswa.

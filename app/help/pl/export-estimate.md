@@ -28,7 +28,7 @@ Skoroszyt ma cztery arkusze oraz poniższe zestawienia, gdy mają zastosowanie:
 
 Przy [podsumowaniu oferty](topic:bid-summary) arkusz Kosztorys kończy się również narzutami (obciążenia robocizny, podatek od sprzedaży, koszty ogólne, zysk, zabezpieczenie i oferta) jako żywe formuły.
 
-Arkusz Kosztorys zachowuje **żywe formuły**: ilość z naddatkiem, zaokrąglone kwoty materiału i robocizny, sumę każdego wiersza oraz sumę całości. Programy arkuszowe przeliczają je, więc możesz zmienić cenę lub naddatek w arkuszu, a sumy pójdą za tym. Liczby obliczone przez TakeoffCraft są też zapisane w komórkach i zgadzają się co do grosza.
+Arkusz Kosztorys zachowuje **żywe formuły**: ilość z naddatkiem, zaokrąglone kwoty materiału i robocizny, sumę każdego wiersza oraz sumę całości. Programy arkuszowe przeliczają je, więc możesz zmienić cenę lub naddatek w arkuszu, a sumy pójdą za tym. Liczby obliczone przez TakeoffDesk są też zapisane w komórkach i zgadzają się co do grosza.
 
 Kolumna uwag wymienia formułę każdego składnika, błędy formuł, znaczniki na arkuszach bez skali, pole ścian i obwód. Gdy coś zostało pominięte, wiersz sumy całości mówi „Niepełne: zob. uwagi powyżej”.
 
@@ -42,7 +42,7 @@ CSV zawiera tylko kosztorys; ilości według arkusza i listę znaczników weź z
 
 ## Kosztorys w Google Sheets
 
-Nad tabelą Ilości **Kopiuj do Google Sheets** umieszcza kosztorys w schowku jako tekst rozdzielany tabulatorami, z tymi samymi wierszami co CSV. W arkuszu Google kliknij komórkę A1 i wklej. TakeoffCraft nie loguje się do Google i niczego tam nie wysyła.
+Nad tabelą Ilości **Kopiuj do Google Sheets** umieszcza kosztorys w schowku jako tekst rozdzielany tabulatorami, z tymi samymi wierszami co CSV. W arkuszu Google kliknij komórkę A1 i wklej. TakeoffDesk nie loguje się do Google i niczego tam nie wysyła.
 
 ## Brakujące ceny i zatwierdzenie
 

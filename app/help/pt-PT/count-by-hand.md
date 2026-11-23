@@ -14,7 +14,7 @@ Um artigo de contagem conta coisas: portas, luminárias, tomadas e aparelhos san
 3. Clique em cada um na folha.
    Cada clique põe um ponto na cor do artigo, e a contagem do artigo sobe um.
 4. Passe à folha seguinte ({{key:PageDown}}) e continue a contar. A ferramenta mantém-se em {{ui:Contagem}}.
-5. Prima {{key:Esc}} quando terminar. O TakeoffCraft volta a {{ui:Selecionar}}.
+5. Prima {{key:Esc}} quando terminar. O TakeoffDesk volta a {{ui:Selecionar}}.
 
 Arrastar continua a deslocar a vista, e a roda continua a fazer zoom enquanto conta, por isso pode mover-se pela folha sem acrescentar pontos.
 
@@ -30,7 +30,7 @@ Clique no artigo de contagem para destacar os seus pontos em todas as folhas. A 
 
 ## Tamanho dos pontos, no ecrã e no PDF
 
-Os pontos mantêm o mesmo tamanho no ecrã, por mais zoom que faça. Para o alterar, abra {{ui:Definições}}, o separador TakeoffCraft, e escolha **Tamanho do marcador de contagem**: Extra pequeno, Pequeno, Médio (o predefinido) ou Grande.
+Os pontos mantêm o mesmo tamanho no ecrã, por mais zoom que faça. Para o alterar, abra {{ui:Definições}}, o separador TakeoffDesk, e escolha **Tamanho do marcador de contagem**: Extra pequeno, Pequeno, Médio (o predefinido) ou Grande.
 
 A exportação para PDF ({{ui:Exportar}} › PDF marcado) desenha cada ponto com o mesmo tamanho no papel, qualquer que seja o tamanho da folha: um leitor que mostre o PDF a 100% mostra os pontos com o tamanho que têm no ecrã. Quando os pontos de uma folha continuariam a tocar-se, a exportação torna os pontos dessa folha mais pequenos para que cada um possa ser lido.
 

@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, vegur, járnbraut, brú, slitlag, kantsteinn, la
 from: 6b08c2c4
 ---
 
-IFC 4.3-skrá getur haldið vegum, járnbrautum, brúm, sjávarmannvirkjum og þeim hlutum sem þau eru gerð úr: slitlögum, lögum, kantsteinum, teinum, jarðvinnu, legum, staurum og fleiru. TakeoffCraft les þá og breytir þeim í tiltekin magntölur sem þú getur verðlagt.
+IFC 4.3-skrá getur haldið vegum, járnbrautum, brúm, sjávarmannvirkjum og þeim hlutum sem þau eru gerð úr: slitlögum, lögum, kantsteinum, teinum, jarðvinnu, legum, staurum og fleiru. TakeoffDesk les þá og breytir þeim í tiltekin magntölur sem þú getur verðlagt.
 
 ## Opnaðu skrána
 
 1. Veldu {{ui:Opna teikningar}} í {{ui:Skrá}}-hópnum, eða ýttu á {{key:Mod+O}}.
-2. Veldu IFC-skrána (þú getur valið hana með PDF-skjölum), eða dragðu hana á TakeoffCraft.
+2. Veldu IFC-skrána (þú getur valið hana með PDF-skjölum), eða dragðu hana á TakeoffDesk.
 
 Ein tiltekin magntala er búin til fyrir hvern flokk og fyrirfram skilgreinda gerð, til dæmis „Slitlag (sveigjanlegt): talning“, og, þegar skráin gefur þær upp, „lengd“ í m, „flatarmál“ í m² og „rúmmál“ í m³. Athugasemdin á hverjum lið segir hversu margir hlutir voru taldir og hversu margir gáfu enga magntölu. Ef þú opnar nýrri skrá með sama nafni uppfærast þessar magntölur í stað þess að bæta við fleiri.
 

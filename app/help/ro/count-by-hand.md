@@ -14,7 +14,7 @@ Un articol de numărare numără lucruri: uși, corpuri de iluminat, prize, obie
 3. Faceți clic pe fiecare pe foaie.
    Fiecare clic pune un punct în culoarea articolului, iar numărul articolului crește cu unu.
 4. Treceți la foaia următoare ({{key:PageDown}}) și continuați numărarea. Instrumentul rămâne pe {{ui:Numărare}}.
-5. Apăsați {{key:Esc}} când ați terminat. TakeoffCraft revine la {{ui:Selectare}}.
+5. Apăsați {{key:Esc}} când ați terminat. TakeoffDesk revine la {{ui:Selectare}}.
 
 Trăgerea deplasează în continuare planul, iar rotița mărește sau micșorează în timp ce numărați, astfel că vă puteți mișca pe foaie fără a adăuga puncte.
 
@@ -30,7 +30,7 @@ Faceți clic pe articolul de numărare ca să evidențiați punctele sale pe fie
 
 ## Dimensiunea punctelor, pe ecran și în PDF
 
-Punctele păstrează aceeași dimensiune pe ecran, oricât ați mări. Ca să o schimbați, deschideți {{ui:Setări}}, fila TakeoffCraft, și alegeți **Dimensiune marcaj numărare**: Foarte mică, Mică, Medie (implicit) sau Mare.
+Punctele păstrează aceeași dimensiune pe ecran, oricât ați mări. Ca să o schimbați, deschideți {{ui:Setări}}, fila TakeoffDesk, și alegeți **Dimensiune marcaj numărare**: Foarte mică, Mică, Medie (implicit) sau Mare.
 
 Exportul PDF ({{ui:Export}} › PDF-ul marcat) desenează fiecare punct la aceeași dimensiune pe hârtie, indiferent de dimensiunea foii: un vizualizator care afișează PDF-ul la 100% arată punctele la fel de mari ca pe ecran. Acolo unde punctele de pe o foaie s-ar atinge în continuare, exportul face punctele foii respective mai mici, pentru ca fiecare să poată fi citit.
 

@@ -19,9 +19,9 @@ Smetaning har bir qatori narxlanganini tekshiring, keyin ismingizni qoʻying. Ha
 2. Muloqot tasdiqlayotgan jamingizni koʻrsatadi va stavkasi yoʻq qatorlarni sanab chiqadi. Ismingizni va xohlasangiz lavozimingizni kiriting.
 3. **Tasdiqlash** ni bosing. Satrda endi "Tasdiqlagan: …" va jami koʻrinadi. Uni faylda saqlash uchun hajmni saqlang.
 
-Tasdiqlash siz tasdiqlagan raqamlarga tegishli. Keyingi har qanday miqdor, stavka yoki qator oʻzgarishi uni bekor qiladi va TakeoffCraft buni aytadi. Ortga qaytarish tasdiqlangan smetani va uning tasdiqlashini qaytaradi. Qatorni qayta nomlash raqam oʻzgarishi hisoblanmaydi. **Tasdiqlashni olib tashlash** uni yoʻq qiladi.
+Tasdiqlash siz tasdiqlagan raqamlarga tegishli. Keyingi har qanday miqdor, stavka yoki qator oʻzgarishi uni bekor qiladi va TakeoffDesk buni aytadi. Ortga qaytarish tasdiqlangan smetani va uning tasdiqlashini qaytaradi. Qatorni qayta nomlash raqam oʻzgarishi hisoblanmaydi. **Tasdiqlashni olib tashlash** uni yoʻq qiladi.
 
-TakeoffCraft tashqarisida tahrirlangan hajm fayli tasdiqlangandan keyin tasdiqsiz ochiladi va bu haqda izoh chiqadi. Eksport qilingan smeta (CSV va XLSX) jami ostida tasdiqlashni nomlaydi.
+TakeoffDesk tashqarisida tahrirlangan hajm fayli tasdiqlangandan keyin tasdiqsiz ochiladi va bu haqda izoh chiqadi. Eksport qilingan smeta (CSV va XLSX) jami ostida tasdiqlashni nomlaydi.
 
 Faqat inson tasdiqlaydi. AI yordamchi smeta tasdiqlanganmi va qaysi stavkalar yoʻqligini oʻqiy oladi; lekin tasdiqlash imkoni yoʻq.
 

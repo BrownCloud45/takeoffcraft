@@ -28,7 +28,7 @@ Buuggu wuxuu leeyahay afar xaashi, iyo warbixinnada hoose marka ay khusayaan:
 
 Haddii [koobidda tartanka](topic:bid-summary) jirto, xaashida Qiyaas kharash waxay ku dhammaataa calaamadaha dheeraadka ah (shaqada, canshuuraha iibka, overhead, faa'iidada, bond-ka iyo tartanka) oo ah qaacidooyin firfircoon.
 
-Xaashida Qiyaas kharash waxay sii haysataa **qaacidooyin firfircoon**: tiro oo qashin leh, alaabta iyo shaqada la wareejiyay, wadarta safka kasta iyo wadarta guud. Barnaamijyada miiska xisaabta dib ayay u xisaabiyaan, sidaas darteed waad beddeli kartaa qiime ama qashin miiska xisaabta oo wadarta ayaa raacaysa. Tirooyinka uu TakeoffCraft xisaabiyey waxa sidoo kale lagu kaydiyaa unugyada, oo waxay isku mid yihiin ilaa sentiga.
+Xaashida Qiyaas kharash waxay sii haysataa **qaacidooyin firfircoon**: tiro oo qashin leh, alaabta iyo shaqada la wareejiyay, wadarta safka kasta iyo wadarta guud. Barnaamijyada miiska xisaabta dib ayay u xisaabiyaan, sidaas darteed waad beddeli kartaa qiime ama qashin miiska xisaabta oo wadarta ayaa raacaysa. Tirooyinka uu TakeoffDesk xisaabiyey waxa sidoo kale lagu kaydiyaa unugyada, oo waxay isku mid yihiin ilaa sentiga.
 
 Tiirka fiiro-gaarka wuxuu ku qoraa qaacidada qayb kasta, khaladaadka qaacidada, calaamadaha xaashiyada aan miisaan lahayn, aagga darbiga iyo perimeter-ka. Marka wax laga tago, safka wadarta guud wuxuu leeyahay "Dhammaystirnayn ma aha: eeg fiiro gaarka kor ku yaal".
 
@@ -42,7 +42,7 @@ CSV-gu wuxuu leeyahay qiyaasta oo keliya; tirooyinka sida xaashiga iyo liiska ca
 
 ## Qiyaasta Google Sheets
 
-Ka sare miiska Tirooyinka, **Koobiyee for Google Sheets** wuxuu qiyaasta ku rogayaa clipboard-kaaga sida qoraal tab-ka kala soocan, isla safafka sida CSV. Google Sheet, riix unugga A1 oo dhaji. TakeoffCraft ma galo Google, mana diro wax halkaas.
+Ka sare miiska Tirooyinka, **Koobiyee for Google Sheets** wuxuu qiyaasta ku rogayaa clipboard-kaaga sida qoraal tab-ka kala soocan, isla safafka sida CSV. Google Sheet, riix unugga A1 oo dhaji. TakeoffDesk ma galo Google, mana diro wax halkaas.
 
 ## Qiimayaasha maqan iyo saxiixa
 

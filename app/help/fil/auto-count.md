@@ -1,6 +1,6 @@
 ---
 title: Auto count ng isang symbol
-summary: I-box ang isang symbol, hahanapin ng TakeoffCraft ang iba sa sheet na ito o sa bawat nakabukas na sheet, suriin ang mga tugma gamit ang slider, at idagdag ang mga ito sa isang hakbang.
+summary: I-box ang isang symbol, hahanapin ng TakeoffDesk ang iba sa sheet na ito o sa bawat nakabukas na sheet, suriin ang mga tugma gamit ang slider, at idagdag ang mga ito sa isang hakbang.
 keywords: anumang anggulo, naka-rotate, nakaikot, ibang scale, iba't ibang scale, auto count, awtomatikong bilang, paghahanap ng symbol, hanapin ang symbol, pattern, template, match, detect, count tool
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Para itapon ang pagsusuri nang walang idinadagdag, piliin ang {{ui:Itapon}} o pi
 
 ## Ano ang nahahanap at ano ang nalalampasan
 
-Ikinukumpara ng TakeoffCraft ang drawing, bilang pixels, sa symbol na iyong na-box.
+Ikinukumpara ng TakeoffDesk ang drawing, bilang pixels, sa symbol na iyong na-box.
 
 - Nahahanap nito ang symbol na naka-0°, 90°, 180° at 270°. Lagyan ng check ang {{ui:Anumang anggulo (mas mabagal)}} sa auto count bar bago mo iguhit ang box para mahanap din ito sa anumang anggulo: sumusubok ito bawat 15°, pagkatapos ay pinipino ang bawat nahanap hanggang sa degree at kalahati. Mga anim na beses itong mas matagal. Hindi nito nahahanap ang mirrored na symbol (maliban kung pareho ang itsura nito kapag mirrored).
 - Kapag naka-check ang {{ui:Hanapin sa lahat ng nakabukas na sheet}}, ang sheet na may ibang scale ay hinahanap sa laki na mayroon ang symbol doon: ang fixture na iginuhit sa scale sa 1/8" plan ay kalahati ng laki nito sa 1/4" plan, at mahahanap pa rin. Hinahanap din ang ganitong sheet sa sariling laki ng box, para sa mga tag at symbol na naka-print sa iisang laki sa bawat sheet. Kailangan nito ng scale sa parehong sheet; ang sheet na walang scale ay sa laki ng box lang hinahanap.

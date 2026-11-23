@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, barabara, reli, daraja, lami, ukingo, tabaka za 
 from: 6b08c2c4
 ---
 
-Faili ya IFC 4.3 inaweza kubeba barabara, reli, madaraja, kazi za baharini na sehemu zake: lami, tabaka za barabara, ukingo, reli, kazi za ardhi, viegemezi, nguzo za msingi na zaidi. TakeoffCraft huvisoma na kuvigeuza kuwa viasi vilivyoainishwa unavyoweza kupanga bei.
+Faili ya IFC 4.3 inaweza kubeba barabara, reli, madaraja, kazi za baharini na sehemu zake: lami, tabaka za barabara, ukingo, reli, kazi za ardhi, viegemezi, nguzo za msingi na zaidi. TakeoffDesk huvisoma na kuvigeuza kuwa viasi vilivyoainishwa unavyoweza kupanga bei.
 
 ## Fungua faili
 
 1. Chagua {{ui:Open plans}} kwenye kundi la {{ui:File}}, au bonyeza {{key:Mod+O}}.
-2. Chagua faili ya IFC (unaweza kuichagua pamoja na PDF), au iangushe kwenye TakeoffCraft.
+2. Chagua faili ya IFC (unaweza kuichagua pamoja na PDF), au iangushe kwenye TakeoffDesk.
 
 Kiasi kimoja kilichoainishwa hutengenezwa kwa kila darasa na aina iliyoainishwa awali, kwa mfano "Lami (inayonyumbulika): hesabu", na, faili inapozitaja, "urefu" kwa m, "eneo" kwa m² na "ujazo" kwa m³. Maelezo kwenye kila kipengee yanasema vipengele vingapi vilihesabiwa na vingapi havikutaja kiasi. Kufungua faili mpya ya jina lile lile husasisha viasi hivyo badala ya kuongeza zaidi.
 

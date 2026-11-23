@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Enregistrez le métré en cours si vous voulez le conserver : {{ui:Enregistrer le métré}} ou {{key:Mod+S}}.
 2. Choisissez {{ui:Nouvelle}} dans le groupe {{ui:Fichier}}.
-3. S'il y a des modifications non enregistrées, TakeoffCraft demande **Métré non enregistré** : choisissez {{ui:Enregistrer le métré d'abord}} (il télécharge le projet, puis efface), {{ui:Abandonner les modifications}}, ou {{ui:Annuler}}.
+3. S'il y a des modifications non enregistrées, TakeoffDesk demande **Métré non enregistré** : choisissez {{ui:Enregistrer le métré d'abord}} (il télécharge le projet, puis efface), {{ui:Abandonner les modifications}}, ou {{ui:Annuler}}.
    La fenêtre revient à son état vide : aucun PDF, aucun poste, aucun repère, aucune échelle. La barre d'état indique « New takeoff. Open PDFs to begin. »
 
 Ce qui est effacé :

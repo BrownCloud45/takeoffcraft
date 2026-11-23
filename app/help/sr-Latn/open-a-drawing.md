@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, crtež, otvori crtež, rasporedi, prostor modela, prost
 from: d8c3f504
 ---
 
-TakeoffCraft otvara DWG ili DXF crtež kao što otvara PDF: ne moraš ga prvo štampati u PDF. Brojanje direktno iz crteža je tačno, jer crtež zna šta je svaki objekat. Pogledaj [Brojanje iz crteža](topic:count-from-a-drawing).
+TakeoffDesk otvara DWG ili DXF crtež kao što otvara PDF: ne moraš ga prvo štampati u PDF. Brojanje direktno iz crteža je tačno, jer crtež zna šta je svaki objekat. Pogledaj [Brojanje iz crteža](topic:count-from-a-drawing).
 
 ## Otvori crtež
 
@@ -13,9 +13,9 @@ TakeoffCraft otvara DWG ili DXF crtež kao što otvara PDF: ne moraš ga prvo š
 2. Izaberi DWG ili DXF datoteku. Možeš izabrati više, i PDF-ove uz njih.
 3. Izaberi Otvori.
 
-Možeš i prevući datoteke crteža na TakeoffCraft, kao PDF-ove. Ništa se ne otprema: pregledač čita datoteku na tvom računaru.
+Možeš i prevući datoteke crteža na TakeoffDesk, kao PDF-ove. Ništa se ne otprema: pregledač čita datoteku na tvom računaru.
 
-TakeoffCraft čita DWG od AutoCAD 2000 do 2018 i ASCII DXF od R12 do 2018. Odbija binarni DXF (sačuvaj ga kao ASCII ili kao DWG) i datoteku koja nije ni jedno ni drugo, i kaže zašto. Oštećena datoteka se otvara sa onim što je moglo da se pročita, a poruka to kaže; njena brojanja mogu biti nepotpuna.
+TakeoffDesk čita DWG od AutoCAD 2000 do 2018 i ASCII DXF od R12 do 2018. Odbija binarni DXF (sačuvaj ga kao ASCII ili kao DWG) i datoteku koja nije ni jedno ni drugo, i kaže zašto. Oštećena datoteka se otvara sa onim što je moglo da se pročita, a poruka to kaže; njena brojanja mogu biti nepotpuna.
 
 ## Listovi
 
@@ -40,10 +40,10 @@ List počinje sa razmerom koju crtež daje:
 
 ## Povezani crteži (xref)
 
-Crtež koji povezuje druge crteže prikazuje ih tamo gde su umetnuti. TakeoffCraft nalazi povezani crtež među **otvorenim datotekama**, po nazivu datoteke: otvori glavni crtež i njegov povezani crtež zajedno (ili jedan za drugim). Dotle statusna traka kaže koliko povezanih crteža nije nađeno i da im nedostaje ono što bi trebalo da crtaju, a brojanja to navode.
+Crtež koji povezuje druge crteže prikazuje ih tamo gde su umetnuti. TakeoffDesk nalazi povezani crtež među **otvorenim datotekama**, po nazivu datoteke: otvori glavni crtež i njegov povezani crtež zajedno (ili jedan za drugim). Dotle statusna traka kaže koliko povezanih crteža nije nađeno i da im nedostaje ono što bi trebalo da crtaju, a brojanja to navode.
 
 ## Ograničenja
 
-- Objekti koje TakeoffCraft ne može da pročita ili postavi (proxy objekti, nepoznate klase) navode se u prozoru brojanja po vrsti; nikad se ne izostavljaju bez reči.
+- Objekti koje TakeoffDesk ne može da pročita ili postavi (proxy objekti, nepoznate klase) navode se u prozoru brojanja po vrsti; nikad se ne izostavljaju bez reči.
 - Vrlo veliki crteži se crtaju delimično, a brojanja staju na granici, uz poruku. Otvori PDF štampu takvog crteža.
 - Crtež se crta crno i u svojim bojama, potamnjenim za beli papir. Tabele stilova štampe i dodele olovaka se ne primenjuju.

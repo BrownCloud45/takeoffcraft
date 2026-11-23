@@ -1,11 +1,11 @@
 ---
 title: Pag-troubleshoot
-summary: Mga sintomas, sanhi at ayos para sa mga mensahe at sorpresang maaari mong makita sa TakeoffCraft, nakasulat gaya ng ipinapakita ng app.
+summary: Mga sintomas, sanhi at ayos para sa mga mensahe at sorpresang maaari mong makita sa TakeoffDesk, nakasulat gaya ng ipinapakita ng app.
 keywords: problema, error, hindi gumagana, ayos, tulong, tinanggihan, hindi makasukat, walang scale, nawawalang mark, nabigo ang export, offline, touch
 from: cd319c9b
 ---
 
-Ipinapaliwanag ng TakeoffCraft ang karamihan sa mga pagtanggi sa status bar sa ibaba ng window. Hanapin ang mensahe sa ibaba.
+Ipinapaliwanag ng TakeoffDesk ang karamihan sa mga pagtanggi sa status bar sa ibaba ng window. Hanapin ang mensahe sa ibaba.
 
 ## Pagbubukas ng file
 
@@ -15,8 +15,8 @@ Ipinapaliwanag ng TakeoffCraft ang karamihan sa mga pagtanggi sa status bar sa i
 | (name) ay protektado ng password. Magbukas ng kopyang walang proteksyon. | Kailangan ng password ang PDF para mabuksan. | Humingi ng kopyang walang proteksyon, o alisin ang password sa isang PDF program na pinagkakatiwalaan mo. |
 | Hindi mabasa ang (name) bilang PDF (…) | Sira ang file o hindi talaga PDF. | I-download muli, o i-save muli mula sa program na gumawa nito. |
 | Bukas na ang (name). | Bukas na ang parehong PDF (parehong nilalaman). | Wala kang kailangang gawin. |
-| Nagbubukas ang TakeoffCraft ng mga PDF at .takeoff.json project. Nilaktawan: … | Inalis ang ibang uri ng file. | I-convert muna ang mga drawing sa PDF. |
-| Walang nangyayari kapag nag-drop ako ng mga file | Na-drop ang mga file sa labas ng browser window, o binuksan ng browser ang PDF sa bagong tab. | I-drop sa mismong TakeoffCraft page; makikita sa frame na "I-drop ang mga PDF o .takeoff.json" kung kailan ito gagana. |
+| Nagbubukas ang TakeoffDesk ng mga PDF at .takeoff.json project. Nilaktawan: … | Inalis ang ibang uri ng file. | I-convert muna ang mga drawing sa PDF. |
+| Walang nangyayari kapag nag-drop ako ng mga file | Na-drop ang mga file sa labas ng browser window, o binuksan ng browser ang PDF sa bagong tab. | I-drop sa mismong TakeoffDesk page; makikita sa frame na "I-drop ang mga PDF o .takeoff.json" kung kailan ito gagana. |
 | Matagal bumukas ang malaking set | Binabasa nang buo ang bawat PDF para ma-fingerprint ito. | Hintayin mawala ang mensaheng "Opening (name)…". Lumilitaw ang mga thumbnail habang nag-i-scroll ka. |
 
 ## Pagsukat
@@ -47,7 +47,7 @@ Ipinapaliwanag ng TakeoffCraft ang karamihan sa mga pagtanggi sa status bar sa i
 | Mensahe o sintomas | Sanhi | Ayos |
 |---|---|---|
 | Pumili ng dalawang punto na mas malayo ang pagitan. | Halos magkapatong ang mga calibration point. | Mag-calibrate sa mas mahabang dimensyon. |
-| Mensahe sa calibrate dialog, gaya ng "Hindi mabasa ang distansyang iyon" | Nasa anyong hindi mabasa ng TakeoffCraft ang distansya. | Tingnan ang [Pagpasok ng haba, rate at porsyento](topic:entry-formats). |
+| Mensahe sa calibrate dialog, gaya ng "Hindi mabasa ang distansyang iyon" | Nasa anyong hindi mabasa ng TakeoffDesk ang distansya. | Tingnan ang [Pagpasok ng haba, rate at porsyento](topic:entry-formats). |
 | Walang scale ang sheet na ito kaya walang masusuri. I-calibrate ito, o pumili ng preset. | {{ui:Check}} sa sheet na walang scale. | Magtakda muna ng scale. |
 | Naka-gray out ang listahan ng {{ui:Preset}} | Walang bukas na sheet. | Magbukas ng PDF. |
 
@@ -86,8 +86,8 @@ Ipinapaliwanag ng TakeoffCraft ang karamihan sa mga pagtanggi sa status bar sa i
 | Protektado ng password o naka-encrypt ang PDF na ito, kaya hindi masusulat ang kopyang may mark. … | Naka-encrypt ang PDF. | I-export ang {{ui:XLSX}} sa halip, o gumamit ng hindi naka-encrypt na kopya ng PDF (kailangan nito ng sarili nitong takeoff, dahil iba itong file). |
 | Hindi masulat ang marked PDF: … | Kadalasan: offline, at hindi na-save ang app para sa offline na paggamit, kaya nawawala ang PDF writer. | Kumonekta sa internet at piliin muli ang {{ui:Marked PDF}}. Para maiwasan ito, piliin ang {{ui:Save for offline}} at hintayin ang {{ui:Offline ready}}. |
 | Isang marked PDF lang ang na-download | Hinarang ng browser ang sabay-sabay na download. | Payagan ang maraming download para sa site na ito, saka mag-export muli. |
-| (file) ay hindi TakeoffCraft project (hindi ito valid na JSON). / Hindi ito TakeoffCraft project file. | Maling file, o sira ito. | Piliin ang `.takeoff.json` file. |
-| Na-save ang project na ito ng mas bagong TakeoffCraft. Buksan ito doon. | Galing ang file sa mas bagong build. | Buksan ito sa mas bagong build. |
+| (file) ay hindi TakeoffDesk project (hindi ito valid na JSON). / Hindi ito TakeoffDesk project file. | Maling file, o sira ito. | Piliin ang `.takeoff.json` file. |
+| Na-save ang project na ito ng mas bagong TakeoffDesk. Buksan ito doon. | Galing ang file sa mas bagong build. | Buksan ito sa mas bagong build. |
 | Nasira at inalis ang (n) mark. | Nasira o binago nang manual ang bahagi ng file. | Nabuksan ang natitira. Iguhit muli ang mga nawawalang mark, o buksan ang mas lumang kopya. |
 | Nawawala ang mga mark pagkatapos buksang muli | Hindi bukas ang mga PDF, o may nagbago sa isa sa mga ito. | Tingnan ang [I-save at buksang muli ang takeoff](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Tinatanong ng browser ang "Leave site?" | May mga hindi pa na-save na pagbabago. | Manatili, at i-save gamit ang {{key:Mod+S}}. |

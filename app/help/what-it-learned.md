@@ -1,12 +1,12 @@
 ---
 title: What it learned from your takeoffs
-summary: TakeoffCraft keeps the symbols you confirmed with Auto count, your condition sets, the assemblies you use most and patterns you repeat on every page, all inside the takeoff's own file. See it, use it, delete it.
+summary: TakeoffDesk keeps the symbols you confirmed with Auto count, your condition sets, the assemblies you use most and patterns you repeat on every page, all inside the takeoff's own file. See it, use it, delete it.
 section: tasks
 order: 72
 keywords: learn, learned, learning, assistant, remember, symbols, templates, same as last job, last job, condition set, conditions, reuse, assemblies, most used, suggestions, repeat on every page, every page, title block, pattern, clear all, forget, privacy
 ---
 
-TakeoffCraft gets quicker the more takeoffs you do with it. It learns **only from what you accept**:
+TakeoffDesk gets quicker the more takeoffs you do with it. It learns **only from what you accept**:
 
 - the symbols you boxed with [Auto count](topic:auto-count) and then added,
 - the condition sets you save,
@@ -65,6 +65,6 @@ To stop learning in one takeoff, clear {{ui:Learn from this takeoff}}. Nothing n
 
 ## Good to know
 
-- Older versions of TakeoffCraft open a file with learned things normally. They ignore that part, and drop it if they save the file again.
+- Older versions of TakeoffDesk open a file with learned things normally. They ignore that part, and drop it if they save the file again.
 - A learned symbol is a small picture of what you boxed, kept in the file (a few kilobytes each).
 - Learned symbols are searched like Auto count searches, so the same limits apply: [Auto count a symbol](topic:auto-count).

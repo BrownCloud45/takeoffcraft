@@ -14,7 +14,7 @@ Postavka štetja šteje stvari: vrata, svetilke, vtičnice, vodovodne armature. 
 3. Kliknite vsakega na listu.
    Vsak klik postavi piko v barvi postavke, število postavke pa se poveča za ena.
 4. Pojdite na naslednji list ({{key:PageDown}}) in nadaljujte s štetjem. Orodje ostane na {{ui:Count}}.
-5. Ko končate, pritisnite {{key:Esc}}. TakeoffCraft se vrne na {{ui:Select}}.
+5. Ko končate, pritisnite {{key:Esc}}. TakeoffDesk se vrne na {{ui:Select}}.
 
 Vlečenje med štetjem še vedno pomika in kolešček še vedno povečuje, tako da se lahko premikate po listu, ne da bi dodajali pike.
 
@@ -30,7 +30,7 @@ Kliknite postavko štetja, da označite njene pike na vsakem listu. Seznam listo
 
 ## Velikost pike na zaslonu in v PDF-ju
 
-Pike ohranijo eno velikost na zaslonu, ne glede na to, kako močno povečate. Za spremembo odprite {{ui:Settings}}, zavihek TakeoffCraft, in izberite **Velikost oznake štetja**: Zelo majhna, Majhna, Srednja (privzeto) ali Velika.
+Pike ohranijo eno velikost na zaslonu, ne glede na to, kako močno povečate. Za spremembo odprite {{ui:Settings}}, zavihek TakeoffDesk, in izberite **Velikost oznake štetja**: Zelo majhna, Majhna, Srednja (privzeto) ali Velika.
 
 Izvoz PDF ({{ui:Export}} › označeni PDF) nariše vsako piko v isti velikosti na papirju, ne glede na velikost lista: pregledovalnik, ki prikaže PDF pri 100 %, prikaže pike tako velike, kot so na zaslonu. Kjer se pike na listu še vedno dotikajo, izvoz zmanjša pike tega lista, da se lahko vsaka prebere.
 

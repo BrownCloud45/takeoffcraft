@@ -30,7 +30,7 @@ export async function embedTakeoff(PDFLib, bytes, takeoff, standsFor) {
   }
   const payload = JSON.stringify({ format: EMBED_FORMAT, version: 1, standsFor, takeoff });
   await doc.attach(new TextEncoder().encode(payload), EMBED_NAME, {
-    mimeType: 'application/json', description: 'TakeoffCraft takeoff', creationDate: new Date(), modificationDate: new Date(),   // i18n-ignore: file metadata
+    mimeType: 'application/json', description: 'TakeoffDesk takeoff', creationDate: new Date(), modificationDate: new Date(),   // i18n-ignore: file metadata
   });
   return doc.save({ updateFieldAppearances: false });
 }

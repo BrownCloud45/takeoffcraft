@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Gem det nuværende mængdeudtræk, hvis du vil beholde det: {{ui:Gem mængdeudtræk}} eller {{key:Mod+S}}.
 2. Vælg {{ui:Ny}} i gruppen {{ui:Fil}}.
-3. Hvis der er ikke-gemte ændringer, spørger TakeoffCraft **Ikke-gemt mængdeudtræk**: vælg {{ui:Gem mængdeudtræk først}} (det downloader projektet og rydder derefter), {{ui:Kassér ændringer}} eller {{ui:Annuller}}.
+3. Hvis der er ikke-gemte ændringer, spørger TakeoffDesk **Ikke-gemt mængdeudtræk**: vælg {{ui:Gem mængdeudtræk først}} (det downloader projektet og rydder derefter), {{ui:Kassér ændringer}} eller {{ui:Annuller}}.
    Vinduet vender tilbage til sin tomme tilstand: ingen PDF'er, ingen poster, ingen markeringer og ingen målestokke. Statuslinjen siger "Nyt mængdeudtræk. Åbn PDF'er for at begynde."
 
 Det ryddes:

@@ -5,7 +5,7 @@ keywords: stogas, nuolydis, šlaitas, nuolydžio koeficientas, kilimas, ruožas,
 from: 38225b60
 ---
 
-Stogo plane kiekviena stogo plokštuma matoma plokščia, žiūrint iš viršaus. Pats stogas yra didesnis: plokštuma su 6:12 nuolydžiu turi apie 12 % daugiau paviršiaus nei jos planas, o jos įstrižos briaunos yra ilgesnės, nei atrodo. Nurodykite pozicijai jos nuolydį, ir TakeoffCraft matuos palei šlaitą.
+Stogo plane kiekviena stogo plokštuma matoma plokščia, žiūrint iš viršaus. Pats stogas yra didesnis: plokštuma su 6:12 nuolydžiu turi apie 12 % daugiau paviršiaus nei jos planas, o jos įstrižos briaunos yra ilgesnės, nei atrodo. Nurodykite pozicijai jos nuolydį, ir TakeoffDesk matuos palei šlaitą.
 
 ## Nuolydžio įvedimas
 

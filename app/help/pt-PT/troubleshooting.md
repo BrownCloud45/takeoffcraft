@@ -1,11 +1,11 @@
 ---
 title: Resolução de problemas
-summary: Sintomas, causas e soluções para as mensagens e surpresas que surgem no TakeoffCraft, citadas como a aplicação as mostra.
+summary: Sintomas, causas e soluções para as mensagens e surpresas que surgem no TakeoffDesk, citadas como a aplicação as mostra.
 keywords: problemas, erros, não funciona, correção, ajuda, recusado, não mede, sem escala, marcas em falta, falha na exportação, offline, toque
 from: cd319c9b
 ---
 
-O TakeoffCraft explica a maioria das recusas na barra de estado, na parte inferior da janela. Procure a mensagem abaixo.
+O TakeoffDesk explica a maioria das recusas na barra de estado, na parte inferior da janela. Procure a mensagem abaixo.
 
 ## Abrir ficheiros
 
@@ -15,8 +15,8 @@ O TakeoffCraft explica a maioria das recusas na barra de estado, na parte inferi
 | (nome) está protegido por palavra-passe. Abra uma cópia sem proteção. | O PDF precisa de palavra-passe para abrir. | Peça uma cópia sem proteção, ou remova a palavra-passe num programa de PDF de confiança. |
 | Não foi possível ler (nome) como PDF (…) | O ficheiro está danificado ou não é de facto um PDF. | Transfira-o de novo, ou volte a guardá-lo a partir do programa que o criou. |
 | (nome) já está aberto. | O mesmo PDF (mesmo conteúdo) já está aberto. | Nada a fazer. |
-| O TakeoffCraft abre PDF e projetos .takeoff.json. Ignorados: … | Outros tipos de ficheiro foram descartados. | Converta primeiro os desenhos para PDF. |
-| Nada acontece ao largar ficheiros | Os ficheiros foram largados fora da janela do navegador, ou o navegador abriu o PDF num novo separador. | Largue sobre a própria página do TakeoffCraft; a moldura "Largar PDF ou um .takeoff.json" mostra quando é que vai funcionar. |
+| O TakeoffDesk abre PDF e projetos .takeoff.json. Ignorados: … | Outros tipos de ficheiro foram descartados. | Converta primeiro os desenhos para PDF. |
+| Nada acontece ao largar ficheiros | Os ficheiros foram largados fora da janela do navegador, ou o navegador abriu o PDF num novo separador. | Largue sobre a própria página do TakeoffDesk; a moldura "Largar PDF ou um .takeoff.json" mostra quando é que vai funcionar. |
 | Abrir um conjunto grande demora algum tempo | Cada PDF é lido por completo para lhe gerar uma impressão digital. | Aguarde que desapareça a mensagem "A abrir (nome)…". As miniaturas preenchem-se ao percorrer. |
 
 ## Medição
@@ -47,7 +47,7 @@ O TakeoffCraft explica a maioria das recusas na barra de estado, na parte inferi
 | Mensagem ou sintoma | Causa | Solução |
 |---|---|---|
 | Escolha dois pontos mais afastados. | Os pontos de calibração estão quase sobrepostos. | Calibre numa cota mais longa. |
-| Uma mensagem na caixa de diálogo de calibração, como "Não foi possível ler essa distância" | A distância está num formato que o TakeoffCraft não consegue ler. | Veja [Introdução de comprimentos, taxas e percentagens](topic:entry-formats). |
+| Uma mensagem na caixa de diálogo de calibração, como "Não foi possível ler essa distância" | A distância está num formato que o TakeoffDesk não consegue ler. | Veja [Introdução de comprimentos, taxas e percentagens](topic:entry-formats). |
 | Esta folha ainda não tem escala, por isso não há nada a verificar. Calibre-a ou escolha uma predefinida. | {{ui:Verificar}} numa folha sem escala. | Defina primeiro uma escala. |
 | A lista {{ui:Predefinida}} está a cinzento | Nenhuma folha está aberta. | Abra um PDF. |
 
@@ -86,8 +86,8 @@ O TakeoffCraft explica a maioria das recusas na barra de estado, na parte inferi
 | Este PDF está protegido por palavra-passe ou encriptado, por isso não é possível escrever uma cópia marcada. … | O PDF está encriptado. | Exporte {{ui:XLSX}} em vez disso, ou use uma cópia sem encriptação do PDF (que então precisa da sua própria medição, por ser outro ficheiro). |
 | Não foi possível escrever o PDF marcado: … | Muitas vezes: offline, e a aplicação não foi guardada para uso offline, por isso falta o escritor de PDF. | Restabeleça a ligação e escolha {{ui:PDF marcado}} de novo. Para evitar isto, escolha {{ui:Guardar para offline}} e aguarde por {{ui:Pronto para offline}}. |
 | Só foi transferido um PDF marcado | O navegador bloqueou várias transferências de uma vez. | Permita múltiplas transferências para este site e exporte de novo. |
-| (ficheiro) não é um projeto do TakeoffCraft (não é JSON válido). / Este não é um ficheiro de projeto do TakeoffCraft. | Ficheiro errado, ou danificado. | Escolha o ficheiro `.takeoff.json`. |
-| Este projeto foi guardado por um TakeoffCraft mais recente. Abra-o aí. | O ficheiro vem de uma versão mais recente. | Abra-o na versão mais recente. |
+| (ficheiro) não é um projeto do TakeoffDesk (não é JSON válido). / Este não é um ficheiro de projeto do TakeoffDesk. | Ficheiro errado, ou danificado. | Escolha o ficheiro `.takeoff.json`. |
+| Este projeto foi guardado por um TakeoffDesk mais recente. Abra-o aí. | O ficheiro vem de uma versão mais recente. | Abra-o na versão mais recente. |
 | (n) marcas estavam danificadas e ficaram de fora. | Parte do ficheiro foi danificada ou editada manualmente. | O resto abriu. Desenhe de novo as marcas em falta, ou abra uma cópia anterior. |
 | Marcas em falta depois de reabrir | Os PDF não estão abertos, ou um deles foi alterado. | Veja [Guardar e reabrir uma medição](topic:save-and-reopen#when-a-pdf-has-changed). |
 | O navegador pergunta "Sair do site?" | Há alterações não guardadas. | Fique na página e guarde com {{key:Mod+S}}. |

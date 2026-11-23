@@ -5,14 +5,14 @@ keywords: endurskoðun, endurskoðað, bera saman, yfirlögn, gamalt, nýtt, bre
 from: 3a1d9fe0
 ---
 
-Þegar blað er gefið út aftur þarftu ekki að taka það af nýju. Opnaðu gamla PDF-skjalið og það nýja, berðu blöðin tvö saman og færðu magntökuna yfir. TakeoffCraft merkir hvert merki þar sem teikningin breyttist, svo þú yfirfarir þau og heldur hinum.
+Þegar blað er gefið út aftur þarftu ekki að taka það af nýju. Opnaðu gamla PDF-skjalið og það nýja, berðu blöðin tvö saman og færðu magntökuna yfir. TakeoffDesk merkir hvert merki þar sem teikningin breyttist, svo þú yfirfarir þau og heldur hinum.
 
 ## Bera saman
 
 1. Opnaðu bæði PDF-skjölin: gamla settið og það endurskoðaða ({{ui:Opna teikningar}}; þau geta verið í einni skrá eða nokkrum).
 2. Sýndu **nýja** blaðið.
 3. Veldu {{ui:Bera saman}} á blaðastikunni undir teikningunni.
-4. Veldu gamla blaðið á listanum. TakeoffCraft stingur upp á blaðinu með sama númeri í hinu PDF-skjalinu, eða sömu síðu. Veldu **Bera saman**.
+4. Veldu gamla blaðið á listanum. TakeoffDesk stingur upp á blaðinu með sama númeri í hinu PDF-skjalinu, eða sömu síðu. Veldu **Bera saman**.
 
 Gamla teikningin liggur nú yfir þeirri nýju í rauðu. Þar sem þær eru eins liggja rauðu línurnar á þeim svörtu; þar sem þær eru ólíkar sérðu rauðar línur einar (fjarlægðar) og svartar línur einar (bættar við). Stika neðst á blaðinu geymir skrefin hér að neðan; {{key:Esc}} eða {{ui:Loka}} lýkur samanburðinum.
 
@@ -29,7 +29,7 @@ Rauða teikningin færist, snýst og skalast á þá svörtu. Stöðustikan segi
 
 ## Finna hvað breyttist
 
-Veldu **Finna breytingar**. TakeoffCraft ber saman blekið á teikningunum tveimur: blek sem er aðeins á gamla blaðinu verður rautt, blek sem er aðeins á nýja blaðinu verður blátt, og stöðustikan telur þau. Línur sem hafa færst um hár (endurprentun) teljast ekki sem breytingar.
+Veldu **Finna breytingar**. TakeoffDesk ber saman blekið á teikningunum tveimur: blek sem er aðeins á gamla blaðinu verður rautt, blek sem er aðeins á nýja blaðinu verður blátt, og stöðustikan telur þau. Línur sem hafa færst um hár (endurprentun) teljast ekki sem breytingar.
 
 Það skoðar líka hvert merki á gamla blaðinu og telur þau sem liggja þar sem teikningin breyttist:
 
@@ -40,7 +40,7 @@ Veldu **Finna breytingar**. TakeoffCraft ber saman blekið á teikningunum tveim
 
 Veldu **Færa magntökuna hingað**. Hvert merki á gamla blaðinu færist á það nýja, í gegnum stillinguna, í einu afturköllunarskrefi. Þau sem eru við breytingu eru merkt: þau eru teiknuð með appelsínugulum ljóma og blaðastikan sýnir „(n) til yfirferðar“.
 
-Ef nýja blaðið hafði engan mælikvarða tekur það mælikvarða gamla blaðsins (aðlagaðan ef teikningarnar þurftu að vera skalaðar til að passa). Ef það hafði þegar annan mælikvarða spyr TakeoffCraft fyrst: færð merki eru mæld í mælikvarða nýja blaðsins.
+Ef nýja blaðið hafði engan mælikvarða tekur það mælikvarða gamla blaðsins (aðlagaðan ef teikningarnar þurftu að vera skalaðar til að passa). Ef það hafði þegar annan mælikvarða spyr TakeoffDesk fyrst: færð merki eru mæld í mælikvarða nýja blaðsins.
 
 ## Yfirfara merkin sem eru merkt
 

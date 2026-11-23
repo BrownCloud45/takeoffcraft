@@ -5,7 +5,7 @@ keywords: fogás, objektumfogás, osnap, végpont, felezőpont, metszéspont, le
 from: 41d29e9b
 ---
 
-A legtöbb tervsorozat vektoros PDF: a falai és élei valódi vonalak, nem pixelek. Mérés közben a TakeoffCraft a kattintásait ezekre a vonalakra fogja, így egy szakasz pontosan a fal sarkánál kezdődik, a kalibrálás pedig a rajzoló által berajzolt méretet olvassa be, nem a kattintott pixelt.
+A legtöbb tervsorozat vektoros PDF: a falai és élei valódi vonalak, nem pixelek. Mérés közben a TakeoffDesk a kattintásait ezekre a vonalakra fogja, így egy szakasz pontosan a fal sarkánál kezdődik, a kalibrálás pedig a rajzoló által berajzolt méretet olvassa be, nem a kattintott pixelt.
 
 A fogás indításkor be van kapcsolva. Be- és kikapcsolni a státuszsorban lévő {{ui:Snap}} gombbal vagy a {{key:F3}} billentyűvel lehet; a beállítás ebben a böngészőben marad meg (a [Beállításokban](topic:settings) is megtalálható).
 

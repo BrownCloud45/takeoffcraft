@@ -32,11 +32,11 @@ I segni incollati vanno nell'area di offerta scelta in alto nel pannello {{ui:Vo
 
 {{key:Mod+Shift+V}} ({{ui:Incolla nella stessa posizione}}) mette la copia esattamente nello stesso punto della tavola aperta, in base alla sua posizione sulla pagina. Usarlo per un piano tipo: computare il livello 2, copiare, aprire il livello 3, incollare nella stessa posizione.
 
-Incolla nella stessa posizione richiede una tavola della **stessa dimensione** di quella da cui si è copiato. Su una tavola di altra dimensione TakeoffCraft lo segnala e non incolla nulla; in quel caso usare {{ui:Incolla}} e fare clic. Sulla tavola da cui si è copiato, la copia finisce sopra gli originali.
+Incolla nella stessa posizione richiede una tavola della **stessa dimensione** di quella da cui si è copiato. Su una tavola di altra dimensione TakeoffDesk lo segnala e non incolla nulla; in quel caso usare {{ui:Incolla}} e fare clic. Sulla tavola da cui si è copiato, la copia finisce sopra gli originali.
 
 ## La scala deve coincidere
 
-Lunghezze e aree dipendono dalla scala della tavola. Un tratto che misura 10' a 1/4" = 1'-0" misurerebbe 20' su una tavola a 1/8" = 1'-0". Per questo TakeoffCraft incolla tratti e aree solo su una tavola con la **stessa scala** della tavola di origine, e lo dice chiaramente quando non è così:
+Lunghezze e aree dipendono dalla scala della tavola. Un tratto che misura 10' a 1/4" = 1'-0" misurerebbe 20' su una tavola a 1/8" = 1'-0". Per questo TakeoffDesk incolla tratti e aree solo su una tavola con la **stessa scala** della tavola di origine, e lo dice chiaramente quando non è così:
 
 - La tavola aperta non ha ancora una scala: assegnargliene una prima ([Impostare la scala](topic:set-the-scale)), poi incollare.
 - La tavola aperta ha un'altra scala: il messaggio indica entrambe le scale. Incollare su una tavola alla stessa scala.
@@ -59,7 +59,7 @@ L'editor della voce (sotto **Voci**) termina con:
 - {{ui:Duplica voce}}: aggiunge subito una copia, chiamata "(nome) (copia)".
 
 :::tip
-La copia resta su questo computer: è conservata in questa scheda e nella memoria del browser, così un'altra scheda di TakeoffCraft può incollarla. Nulla viene caricato, e gli appunti di sistema non vengono usati, quindi non è possibile incollare segni in altri programmi.
+La copia resta su questo computer: è conservata in questa scheda e nella memoria del browser, così un'altra scheda di TakeoffDesk può incollarla. Nulla viene caricato, e gli appunti di sistema non vengono usati, quindi non è possibile incollare segni in altri programmi.
 :::
 
 :::note

@@ -13,7 +13,7 @@ La **biblioteca de precios** guarda los ítems que usa trabajo tras trabajo: su 
 
 - {{ui:Import CSV…}} lee una planilla guardada como CSV (vea las columnas abajo). Los ítems cuyo nombre y tipo ya están en la biblioteca se reemplazan; los demás se agregan. Las filas que no puede leer se omiten, e indica cuáles y por qué.
 - {{ui:Agregar los ítems de este cómputo}} copia cada ítem del cómputo abierto a la biblioteca, con sus tarifas y su conjunto (no sus marcas).
-- El CSV de presupuesto que exporta TakeoffCraft ([Exportar el presupuesto](topic:export-estimate)) se importa tal como es: los precios del trabajo anterior sirven de base para el siguiente.
+- El CSV de presupuesto que exporta TakeoffDesk ([Exportar el presupuesto](topic:export-estimate)) se importa tal como es: los precios del trabajo anterior sirven de base para el siguiente.
 
 - {{ui:Trade packs…}} agrega conjuntos gratuitos para un oficio, como durlock, electricidad u hormigón, sin precios. Vea [Paquetes de oficios](topic:trade-packs).
 

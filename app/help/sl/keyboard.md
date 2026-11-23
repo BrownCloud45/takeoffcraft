@@ -1,6 +1,6 @@
 ---
 title: Tipkovnica in miška
-summary: Vsaka tipka, dejanje z miško, sledilno ploščico in dotikom v TakeoffCraft, razvrščeno po skupinah, z razlikami med platformami.
+summary: Vsaka tipka, dejanje z miško, sledilno ploščico in dotikom v TakeoffDesk, razvrščeno po skupinah, z razlikami med platformami.
 keywords: tipke, bližnjice, bližnjične tipke, tipkovnica, miška, sledilna ploščica, dotik, pomik, povečava, kolesce, desni klik, dvojni klik, presledek, shift, kopiraj, prilepi, izreži, podvoji, izberi vse
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Glejte [Preverite predizmero v 3D](topic:check-in-3d).
 | Tipka | Kaj naredi |
 |---|---|
 | {{key:F1}} | Odpre ali zapre podokno pomoči (tudi gumb {{ui:Pomoč}} v vrstici aplikacije). Deluje v vseh orodjih, tudi ko vnašate v polje. |
-| {{key:Esc}} | Zapre podokno pomoči. V njegovem iskalnem polju prvi Esc pobriše iskanje. Kadar je podokno odprto, Esc, pritisnjen po kliku na list, najprej zapre podokno; ponovno ga pritisnite, da prekličete v TakeoffCraft. |
+| {{key:Esc}} | Zapre podokno pomoči. V njegovem iskalnem polju prvi Esc pobriše iskanje. Kadar je podokno odprto, Esc, pritisnjen po kliku na list, najprej zapre podokno; ponovno ga pritisnite, da prekličete v TakeoffDesk. |
 
 :::mac
 Na številnih Mac tipkovnicah zgornja vrsta upravlja svetlost in zvok. Pritisnite fn z {{key:F1}} ali vklopite „Uporabi tipke F1, F2 itd. kot standardne funkcijske tipke“ v Sistemskih nastavitvah, pod Tipkovnica.
@@ -139,7 +139,7 @@ Na številnih Mac tipkovnicah zgornja vrsta upravlja svetlost in zvok. Pritisnit
 
 :::mac
 - {{key:Mod}} je tipka Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Celozaslonski način je izjema: Control+Shift+F.
-- Desni klik je dvoprstni klik na sledilni ploščici, ko je sekundarni klik vklopljen v Sistemskih nastavitvah, pod Sledilna ploščica. TakeoffCraft prebere samo sekundarni gumb; klik s Control se lahko šteje kot navaden klik in doda točko.
+- Desni klik je dvoprstni klik na sledilni ploščici, ko je sekundarni klik vklopljen v Sistemskih nastavitvah, pod Sledilna ploščica. TakeoffDesk prebere samo sekundarni gumb; klik s Control se lahko šteje kot navaden klik in doda točko.
 - Dvoprstno drsenje na sledilni ploščici povečuje list (ne pomika ga). Za pomik pritisnite in povlecite ali držite Space in povlecite.
 - Page Up in Page Down sta fn s puščicama gor in dol na tipkovnicah brez njiju.
 - Backspace je tipka z oznako delete.
@@ -151,12 +151,12 @@ Na številnih Mac tipkovnicah zgornja vrsta upravlja svetlost in zvok. Pritisnit
 :::
 
 :::linux
-- {{key:Mod}} je Ctrl. Nekatera namizja imajo lastne bližnjice Ctrl+Alt ali Super; TakeoffCraft nobene od njih ne uporablja.
+- {{key:Mod}} je Ctrl. Nekatera namizja imajo lastne bližnjice Ctrl+Alt ali Super; TakeoffDesk nobene od njih ne uporablja.
 - Na sledilni ploščici dvoprstno drsenje povečuje list. Za pomik pritisnite in povlecite.
 :::
 
 :::touch
-TakeoffCraft bere dotik kot en kazalec:
+TakeoffDesk bere dotik kot en kazalec:
 
 - Dotik postavi točko, izbere oznako ali doda piko štetja.
 - Povlek z enim prstom pomika list (v {{ui:Samodejno štetje}} nariše iskalno polje).
@@ -169,7 +169,7 @@ Za predizmero je danes boljši način tipkovnica in miška ali sledilna plošči
 
 ## Tipke, ki jih ohrani brskalnik
 
-Brskalniki si nekatere bližnjice pridržijo zase, stran jih ne more uporabiti: zapiranje zavihka ({{key:Mod+W}}), nov zavihek ali okno ({{key:Mod+T}}, {{key:Mod+N}}) in povečava brskalnika ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffCraft povečuje list s kolescem in s samima tipkama {{key:Plus}} in {{key:Minus}}. Če po pomoti pritisnete {{key:Mod+Plus}}, se celotna stran poveča; {{key:Mod+0}} jo povrne. Glejte [Tipke, miške in sledilne ploščice](common:keys).
+Brskalniki si nekatere bližnjice pridržijo zase, stran jih ne more uporabiti: zapiranje zavihka ({{key:Mod+W}}), nov zavihek ali okno ({{key:Mod+T}}, {{key:Mod+N}}) in povečava brskalnika ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Zato TakeoffDesk povečuje list s kolescem in s samima tipkama {{key:Plus}} in {{key:Minus}}. Če po pomoti pritisnete {{key:Mod+Plus}}, se celotna stran poveča; {{key:Mod+0}} jo povrne. Glejte [Tipke, miške in sledilne ploščice](common:keys).
 
 ## Kje je ukaz Premakni
 

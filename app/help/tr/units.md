@@ -55,4 +55,4 @@ Bir sayfanın ölçeği çizimin ne kadar büyük olduğunu söyler; bir kalemin
 
 ## Hassasiyet
 
-TakeoffCraft, tıkladığınız noktalardan tam olarak ölçer; gerçek yay uzunlukları ve alanlar dahil; miktarları yuvarlamaz. Görüntü uzunlukları 1/16 inç'e, ondalıklar iki basamağa yuvarlanır. Para yalnızca genişletilmiş tutarlarda, kuruşa kadar yuvarlanır.
+TakeoffDesk, tıkladığınız noktalardan tam olarak ölçer; gerçek yay uzunlukları ve alanlar dahil; miktarları yuvarlamaz. Görüntü uzunlukları 1/16 inç'e, ondalıklar iki basamağa yuvarlanır. Para yalnızca genişletilmiş tutarlarda, kuruşa kadar yuvarlanır.

@@ -5,7 +5,7 @@ keywords: snap, osnap, snap a objetos, extremidade, ponto médio, interseção, 
 from: 41d29e9b
 ---
 
-A maioria dos conjuntos de plantas são PDF vetoriais: as paredes e as arestas são linhas reais, não pixels. Enquanto mede, o TakeoffCraft ajusta os seus cliques a essas linhas, para que um troço comece exatamente no canto de uma parede e uma calibração leia a cota que o desenhador desenhou, e não o pixel onde clicou.
+A maioria dos conjuntos de plantas são PDF vetoriais: as paredes e as arestas são linhas reais, não pixels. Enquanto mede, o TakeoffDesk ajusta os seus cliques a essas linhas, para que um troço comece exatamente no canto de uma parede e uma calibração leia a cota que o desenhador desenhou, e não o pixel onde clicou.
 
 O snap está ativado ao iniciar. Ative e desative-o com {{ui:Snap}} na barra de estado ou com {{key:F3}}; a definição fica guardada neste navegador (também está em [Definições](topic:settings)).
 

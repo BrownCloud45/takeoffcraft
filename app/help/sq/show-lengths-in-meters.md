@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Çfarë do të bësh
 
-Ndrysho mënyrën si TakeoffCraft shfaq gjatësitë, që një punë metrike të lexohet në metra, centimetra ose milimetra në fletë, në shiritin e statusit dhe në panele.
+Ndrysho mënyrën si TakeoffDesk shfaq gjatësitë, që një punë metrike të lexohet në metra, centimetra ose milimetra në fletë, në shiritin e statusit dhe në panele.
 
 ## Hapat
 
-1. Hap {{ui:Cilësimet}} me rrotën te shiriti i aplikacionit ose {{key:Mod+,}}, dhe qëndro te skeda {{ui:TakeoffCraft}}.
+1. Hap {{ui:Cilësimet}} me rrotën te shiriti i aplikacionit ose {{key:Mod+,}}, dhe qëndro te skeda {{ui:TakeoffDesk}}.
 2. Gjej {{ui:Shfaq gjatësitë si}} dhe zgjidh {{ui:Këmbë-inç}}, m, cm ose mm. {{ui:Ndiq Global}} përdor njësinë metrike të gjatësisë me yll te {{ui:Cilësimet}} › {{ui:Globale}} › {{ui:Njësitë}}, dhe këmbë-inç kur nuk ka yll.
 3. Shiko fletën: gjatësitë te shiriti i statusit, lista e artikujve dhe panelet tani lexohen në njësinë që zgjodhe. Lartësitë, thellësia, trashësia dhe nivelet gjithashtu.
 4. Për të lexuar temperaturat e artikujve në gradë C ose F, zgjidh {{ui:Shfaq temperaturat si}} në të njëjtën skedë.

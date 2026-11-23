@@ -1,6 +1,6 @@
 ---
 title: Zadávanie dĺžok, jednotkových cien a percent
-summary: Čo môžete napísať pre vzdialenosti, výšky, jednotkové ceny a percentá odpadu, s príkladmi a hláseniami pre vstup, ktorý TakeoffCraft nedokáže prečítať.
+summary: Čo môžete napísať pre vzdialenosti, výšky, jednotkové ceny a percentá odpadu, s príkladmi a hláseniami pre vstup, ktorý TakeoffDesk nedokáže prečítať.
 keywords: vstup, formát, stopy a palce, zlomky, desatinné stopy, metrický, metre, milimetre, sadzba, peniaze, doláre, percento, odpad, písanie
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Najviac dve desatinné miesta, od 0 % do 1000 %. Hlásenia: „Zadajte percento,
 ## Názvy a jednotky
 
 - Názvy položiek a komponentov: až 200 znakov.
-- {{ui:Jednotka}} komponentu: ľubovoľný text až do 20 znakov, napríklad `EA`, `listy`, `CY`, `gal`. Je to iba označenie; TakeoffCraft ho neprevádza.
+- {{ui:Jednotka}} komponentu: ľubovoľný text až do 20 znakov, napríklad `EA`, `listy`, `CY`, `gal`. Je to iba označenie; TakeoffDesk ho neprevádza.
 
 ## Vzorce
 

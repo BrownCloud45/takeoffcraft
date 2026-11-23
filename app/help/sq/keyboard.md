@@ -1,6 +1,6 @@
 ---
 title: Tastiera dhe miu
-summary: Çdo tast, veprim me miun, trackpad-in dhe prekjen në TakeoffCraft, i grupuar, me dallimet sipas platformës.
+summary: Çdo tast, veprim me miun, trackpad-in dhe prekjen në TakeoffDesk, i grupuar, me dallimet sipas platformës.
 keywords: tastet, shkurtoret, tastet e shpejtësisë, tastiera, miu, trackpad, prekja, lëviz pamjen, zmadhim, rrota, klikim i djathtë, klikim i dyfishtë, hapësira, shift, kopjo, ngjit, prit, dyfisho, përzgjidh të gjitha
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Shih [Kontrollo llogaritjen në 3D](topic:check-in-3d).
 | Tasti | Çfarë bën |
 |---|---|
 | {{key:F1}} | Hap ose mbyll panelin e ndihmës (gjithashtu butonin {{ui:Ndihmë}} në shiritin e aplikacionit). Funksionon në çdo vegël, edhe kur po shkruan në një fushë. |
-| {{key:Esc}} | Mbyll panelin e ndihmës. Në kutinë e tij të kërkimit, {{key:Esc}} i pari pastron kërkimin. Kur paneli është i hapur, një {{key:Esc}} i shtypur pasi klikon fletën mbyll paneli së pari; shtype përsëri për të anuluar në TakeoffCraft. |
+| {{key:Esc}} | Mbyll panelin e ndihmës. Në kutinë e tij të kërkimit, {{key:Esc}} i pari pastron kërkimin. Kur paneli është i hapur, një {{key:Esc}} i shtypur pasi klikon fletën mbyll paneli së pari; shtype përsëri për të anuluar në TakeoffDesk. |
 
 :::mac
 Në shumicën e tastierave Mac, rreshti i sipërm kontrollon ndriçimin dhe zërin. Shtyp fn me {{key:F1}}, ose ndiz "Përdor tastet F1, F2 etj. si taste standarde të funksionit" te Cilësimet e sistemit, nën Tastiera.
@@ -139,7 +139,7 @@ Në shumicën e tastierave Mac, rreshti i sipërm kontrollon ndriçimin dhe zër
 
 :::mac
 - {{key:Mod}} është tasti Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Ekrani i plotë është përjashtimi: Control+Shift+F.
-- Klikimi i djathtë është një klikim me dy gishta në trackpad, kur klikimi dytësor është i ndezur te Cilësimet e sistemit, nën Trackpad. TakeoffCraft lexon vetëm butonin dytësor; një klikim me Control mund të merret si klikim i thjeshtë dhe të shtojë një pikë.
+- Klikimi i djathtë është një klikim me dy gishta në trackpad, kur klikimi dytësor është i ndezur te Cilësimet e sistemit, nën Trackpad. TakeoffDesk lexon vetëm butonin dytësor; një klikim me Control mund të merret si klikim i thjeshtë dhe të shtojë një pikë.
 - Rrëshqitja me dy gishta në trackpad zmadhon fletën (nuk e lëviz). Për ta lëvizur, shtyp dhe tërhiq, ose mbaj {{key:Space}} dhe tërhiq.
 - {{key:PageUp}} dhe {{key:PageDown}} janë fn me shigjetat lart dhe poshtë, në tastierat që nuk i kanë.
 - {{key:Backspace}} është tasti me etiketën delete.
@@ -151,12 +151,12 @@ Në shumicën e tastierave Mac, rreshti i sipërm kontrollon ndriçimin dhe zër
 :::
 
 :::linux
-- {{key:Mod}} është Ctrl. Disa desktop-e kanë shkurtoret e tyre Ctrl+Alt ose Super; TakeoffCraft nuk përdor asnjërën prej tyre.
+- {{key:Mod}} është Ctrl. Disa desktop-e kanë shkurtoret e tyre Ctrl+Alt ose Super; TakeoffDesk nuk përdor asnjërën prej tyre.
 - Në trackpad, një rrëshqitje me dy gishta zmadhon fletën. Për ta lëvizur, shtyp dhe tërhiq.
 :::
 
 :::touch
-TakeoffCraft e lexon prekjen si një tregues të vetëm:
+TakeoffDesk e lexon prekjen si një tregues të vetëm:
 
 - Prekja vendos një pikë, zgjedh një shenjë ose shton një pikë numërimi.
 - Tërheqja me një gisht lëviz fletën (në {{ui:Numërim automatik}} vizaton kutinë e kërkimit).
@@ -169,7 +169,7 @@ Një tastierë dhe miu ose trackpad-i është mënyra më e mirë për të bër�
 
 ## Tastet që mban shfletuesi
 
-Shfletuesit mbajnë për vete disa shkurtore, dhe një faqe nuk mund t'i përdorë: mbyllja e skedës ({{key:Mod+W}}), skeda ose dritarja e re ({{key:Mod+T}}, {{key:Mod+N}}), dhe zmadhimi i shfletuesit ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Kjo është arsyeja që TakeoffCraft zmadhon fletën me rrotën dhe me tastet e thjeshta {{key:Plus}} dhe {{key:Minus}}. Nëse shtyp {{key:Mod+Plus}} për gabim, e gjithë faqja rritet; {{key:Mod+0}} e kthen në vend. Shih [Tastet, miu dhe trackpad-et](common:keys).
+Shfletuesit mbajnë për vete disa shkurtore, dhe një faqe nuk mund t'i përdorë: mbyllja e skedës ({{key:Mod+W}}), skeda ose dritarja e re ({{key:Mod+T}}, {{key:Mod+N}}), dhe zmadhimi i shfletuesit ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Kjo është arsyeja që TakeoffDesk zmadhon fletën me rrotën dhe me tastet e thjeshta {{key:Plus}} dhe {{key:Minus}}. Nëse shtyp {{key:Mod+Plus}} për gabim, e gjithë faqja rritet; {{key:Mod+0}} e kthen në vend. Shih [Tastet, miu dhe trackpad-et](common:keys).
 
 ## Ku ndodhet Zhvendos
 

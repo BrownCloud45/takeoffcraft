@@ -1159,8 +1159,8 @@
    * app: localStorage cc-hw-share = 'on' | 'off'; no entry = the default — on in the browser (opt out), off in the desktop app
    * (opt in; window.cadcraftDesktop is the desktop bridge). The apps' compute/report.js asks window.ccShellHardware.allowed(). */
   var HW_KEY = 'cc-hw-share';
-  var hwDesktop = function () { return !!window.cadcraftDesktop; };
-  function hwAllowed() { try { var v = localStorage.getItem(HW_KEY); if (v === 'on') return true; if (v === 'off') return false; } catch (e) {} return !hwDesktop(); }
+  var hwDesktop = function () { return false; };
+  function hwAllowed() { return false; }   // TakeoffDesk: nothing is ever reported (the hardware report was removed)
   function setHw(on) { try { localStorage.setItem(HW_KEY, on ? 'on' : 'off'); } catch (e) {} syncHw(); }
   function syncHw() {
     // NET.1: on the desktop (opt in) the box says "Share …" and is ticked only when sharing; in the browser (opt out) it stays "Don't share …".

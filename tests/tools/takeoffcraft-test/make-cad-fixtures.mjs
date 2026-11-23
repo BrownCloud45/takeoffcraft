@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * make-cad-fixtures.mjs — the drawings TakeoffCraft's CAD tests count (0.7 TD.6). Made once into fixtures/cad/ (public: all drawn by
+ * make-cad-fixtures.mjs — the drawings TakeoffDesk's CAD tests count (0.7 TD.6). Made once into fixtures/cad/ (public: all drawn by
  * us, nothing from a client), kept, and skipped when they exist (`--force` rebuilds). Every number the tests assert is a hand count:
  * it is the constant below that placed the objects, written beside the file in `kitchen-count.truth.json`.
  *

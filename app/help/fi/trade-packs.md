@@ -39,4 +39,4 @@ Jokaisella nimikkeellä on myös CSI MasterFormat -numero, kuten `09 21 16`.
 
 {{ui:Vie pakettina…}} kirjastossa tallentaa sen pakettitiedostona (`.ccpack.json`), jonka kuka tahansa voi lisätä kohdan {{ui:Avaa pakettitiedosto…}} kautta. Oletuksena se jättää pois lisäämiesi pakettien nimikkeet eikä sisällä hintoja. Valitse {{ui:Sisällytä hintani esimerkkihintoina}}, jos haluat lähettää hintasi mukana: ne lähtevät merkittyinä antamasi alueen ja päivämäärän kanssa, ja pakettia lisäävä päättää, käytetäänkö niitä.
 
-Pakettitiedostot ovat pelkkää dataa, eivät ohjelmia. TakeoffCraft tarkistaa jokaisen osan ennen käyttöä ja jättää pois kaiken, mitä se ei osaa lukea.
+Pakettitiedostot ovat pelkkää dataa, eivät ohjelmia. TakeoffDesk tarkistaa jokaisen osan ennen käyttöä ja jättää pois kaiken, mitä se ei osaa lukea.

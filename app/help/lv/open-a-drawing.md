@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, rasējums, atvērt rasējumu, izkārtojumi, modeļa tel
 from: d8c3f504
 ---
 
-TakeoffCraft atver DWG vai DXF rasējumu tāpat kā PDF: nav jāizdrukā tas PDF formātā. Skaitīšana tieši no paša rasējuma ir precīza, jo rasējums zina, kas ir katrs objekts. Skatiet [Skaitīt no rasējuma](topic:count-from-a-drawing).
+TakeoffDesk atver DWG vai DXF rasējumu tāpat kā PDF: nav jāizdrukā tas PDF formātā. Skaitīšana tieši no paša rasējuma ir precīza, jo rasējums zina, kas ir katrs objekts. Skatiet [Skaitīt no rasējuma](topic:count-from-a-drawing).
 
 ## Rasējuma atvēršana
 
@@ -13,9 +13,9 @@ TakeoffCraft atver DWG vai DXF rasējumu tāpat kā PDF: nav jāizdrukā tas PDF
 2. Atlasiet DWG vai DXF failu. Varat atlasīt vairākus, un kopā ar tiem arī PDF.
 3. Noklikšķiniet uz „Atvērt”.
 
-Rasējuma failus varat arī nomest TakeoffCraft logā, tāpat kā PDF. Nekas netiek augšupielādēts: pārlūkprogramma nolasa failu jūsu datorā.
+Rasējuma failus varat arī nomest TakeoffDesk logā, tāpat kā PDF. Nekas netiek augšupielādēts: pārlūkprogramma nolasa failu jūsu datorā.
 
-TakeoffCraft nolasa DWG no AutoCAD 2000 līdz 2018 un ASCII DXF no R12 līdz 2018. Tas noraida bināru DXF (saglabājiet to kā ASCII vai kā DWG) un failu, kas nav neviens no šiem, un pasaka iemeslu. Bojāts fails atveras ar to, kas varēja tikt nolasīts, un ziņojums to norāda; tā skaitīšanas rezultāti var būt nepilnīgi.
+TakeoffDesk nolasa DWG no AutoCAD 2000 līdz 2018 un ASCII DXF no R12 līdz 2018. Tas noraida bināru DXF (saglabājiet to kā ASCII vai kā DWG) un failu, kas nav neviens no šiem, un pasaka iemeslu. Bojāts fails atveras ar to, kas varēja tikt nolasīts, un ziņojums to norāda; tā skaitīšanas rezultāti var būt nepilnīgi.
 
 ## Lapas
 
@@ -40,10 +40,10 @@ Lapa sākas ar rasējuma doto mērogu:
 
 ## Saistītie rasējumi (xref)
 
-Rasējums, kas saista citus rasējumus, parāda tos vietās, kur tie ievietoti. TakeoffCraft atrod saistīto rasējumu starp **atvērtajiem failiem** pēc tā faila nosaukuma: atveriet galveno rasējumu un saistīto rasējumu kopā (vai vienu pēc otra). Līdz tam statusjoslā rādīts, cik saistīto rasējumu nav atrasti, ka to, ko tie zīmē, trūkst, un skaitīšanā tas tiek norādīts.
+Rasējums, kas saista citus rasējumus, parāda tos vietās, kur tie ievietoti. TakeoffDesk atrod saistīto rasējumu starp **atvērtajiem failiem** pēc tā faila nosaukuma: atveriet galveno rasējumu un saistīto rasējumu kopā (vai vienu pēc otra). Līdz tam statusjoslā rādīts, cik saistīto rasējumu nav atrasti, ka to, ko tie zīmē, trūkst, un skaitīšanā tas tiek norādīts.
 
 ## Ierobežojumi
 
-- Objekti, ko TakeoffCraft nevar nolasīt vai novietot (starpniekobjekti, nezināmas klases), tiek uzskaitīti skaitīšanas logā pēc veida; tie nekad netiek izmesti bez paziņojuma.
+- Objekti, ko TakeoffDesk nevar nolasīt vai novietot (starpniekobjekti, nezināmas klases), tiek uzskaitīti skaitīšanas logā pēc veida; tie nekad netiek izmesti bez paziņojuma.
 - Ļoti lieli rasējumi tiek zīmēti daļēji, un skaitīšana apstājas pie ierobežojuma, par to paziņojot. Šādam rasējumam atveriet tā PDF izdruku.
 - Rasējums tiek zīmēts melns un savās krāsās, tumšākās baltam papīram. Drukas stilu tabulas un pildspalvu piešķīrumi netiek piemēroti.

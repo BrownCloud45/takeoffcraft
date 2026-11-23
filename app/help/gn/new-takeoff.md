@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Guardá el cómputo actual si querés conservarlo: {{ui:Guardar cómputo}} o {{key:Mod+S}}.
 2. Elegí {{ui:Nuevo}} en el grupo {{ui:Archivo}}.
-3. Si hay cambios sin guardar, TakeoffCraft pregunta **Cómputo sin guardar**: elegí {{ui:Guardar cómputo primero}} (descarga el proyecto y después limpia), {{ui:Descartar cambios}} o {{ui:Cancelar}}.
+3. Si hay cambios sin guardar, TakeoffDesk pregunta **Cómputo sin guardar**: elegí {{ui:Guardar cómputo primero}} (descarga el proyecto y después limpia), {{ui:Descartar cambios}} o {{ui:Cancelar}}.
    La ventana vuelve a su estado vacío: sin PDF, sin ítems, sin marcas, sin escalas. La barra de estado dice "Nuevo cómputo. Abrí PDF para empezar."
 
 Se borra:

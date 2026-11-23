@@ -1,6 +1,6 @@
 ---
 title: Teclado e mouse
-summary: Cada tecla, ação do mouse, do trackpad e de toque no TakeoffCraft, agrupadas, com as diferenças entre plataformas.
+summary: Cada tecla, ação do mouse, do trackpad e de toque no TakeoffDesk, agrupadas, com as diferenças entre plataformas.
 keywords: teclas, atalhos, teclas de atalho, teclado, mouse, trackpad, toque, pan, zoom, roda, clique com o botão direito, clique duplo, espaço, shift, copiar, colar, recortar, duplicar, selecionar tudo
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Veja [Conferir o levantamento em 3D](topic:check-in-3d).
 | Tecla | O que faz |
 |---|---|
 | {{key:F1}} | Abre ou fecha o painel de ajuda (também o botão {{ui:Ajuda}} na barra do aplicativo). Funciona em todas as ferramentas, mesmo enquanto você digita em um campo. |
-| {{key:Esc}} | Fecha o painel de ajuda. Na caixa de busca dele, o primeiro Esc limpa a busca. Enquanto o painel está aberto, um Esc pressionado depois de clicar na folha fecha o painel primeiro; pressione de novo para cancelar no TakeoffCraft. |
+| {{key:Esc}} | Fecha o painel de ajuda. Na caixa de busca dele, o primeiro Esc limpa a busca. Enquanto o painel está aberto, um Esc pressionado depois de clicar na folha fecha o painel primeiro; pressione de novo para cancelar no TakeoffDesk. |
 
 :::mac
 Em muitos teclados de Mac, a linha superior controla brilho e som. Pressione fn com F1, ou ative "Usar as teclas F1, F2 etc. como teclas de função padrão" em Configurações do Sistema, em Teclado.
@@ -139,7 +139,7 @@ Em muitos teclados de Mac, a linha superior controla brilho e som. Pressione fn 
 
 :::mac
 - {{key:Mod}} é a tecla Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Tela cheia é a exceção: Control+Shift+F.
-- Clique com o botão direito é um clique com dois dedos no trackpad, quando o clique secundário está ativado em Configurações do Sistema, em Trackpad. O TakeoffCraft lê apenas o botão secundário; um Control-clique pode contar como clique simples e adicionar um ponto.
+- Clique com o botão direito é um clique com dois dedos no trackpad, quando o clique secundário está ativado em Configurações do Sistema, em Trackpad. O TakeoffDesk lê apenas o botão secundário; um Control-clique pode contar como clique simples e adicionar um ponto.
 - Deslizar com dois dedos no trackpad aproxima o zoom da folha (não a desloca). Para fazer pan, pressione e arraste, ou segure Space e arraste.
 - Page Up e Page Down são fn com as setas para cima e para baixo em teclados que não as têm.
 - Backspace é a tecla com a indicação delete.
@@ -151,12 +151,12 @@ Em muitos teclados de Mac, a linha superior controla brilho e som. Pressione fn 
 :::
 
 :::linux
-- {{key:Mod}} é Ctrl. Alguns ambientes têm atalhos próprios com Ctrl+Alt ou Super; o TakeoffCraft não usa nenhum deles.
+- {{key:Mod}} é Ctrl. Alguns ambientes têm atalhos próprios com Ctrl+Alt ou Super; o TakeoffDesk não usa nenhum deles.
 - No touchpad, deslizar com dois dedos aproxima o zoom da folha. Para fazer pan, pressione e arraste.
 :::
 
 :::touch
-O TakeoffCraft lê o toque como um único ponteiro:
+O TakeoffDesk lê o toque como um único ponteiro:
 
 - Toque posiciona um ponto, seleciona uma marca ou adiciona um ponto de contagem.
 - Arrastar com um dedo faz pan na folha (em {{ui:Contagem automática}}, desenha a caixa de busca).
@@ -169,7 +169,7 @@ Um teclado com mouse ou trackpad é, hoje, a forma melhor de fazer o levantament
 
 ## Teclas que o navegador mantém
 
-Os navegadores mantêm para si alguns atalhos, e a página não pode usá-los: fechar a aba ({{key:Mod+W}}), nova aba ou janela ({{key:Mod+T}}, {{key:Mod+N}}) e zoom do navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Por isso o TakeoffCraft aproxima e afasta a folha com a roda e com as teclas {{key:Plus}} e {{key:Minus}} sozinhas. Se você pressionar {{key:Mod+Plus}} por engano, a página inteira aumenta; {{key:Mod+0}} a devolve ao tamanho normal. Veja [Teclas, mouse e trackpads](common:keys).
+Os navegadores mantêm para si alguns atalhos, e a página não pode usá-los: fechar a aba ({{key:Mod+W}}), nova aba ou janela ({{key:Mod+T}}, {{key:Mod+N}}) e zoom do navegador ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Por isso o TakeoffDesk aproxima e afasta a folha com a roda e com as teclas {{key:Plus}} e {{key:Minus}} sozinhas. Se você pressionar {{key:Mod+Plus}} por engano, a página inteira aumenta; {{key:Mod+0}} a devolve ao tamanho normal. Veja [Teclas, mouse e trackpads](common:keys).
 
 ## Onde fica Mover
 

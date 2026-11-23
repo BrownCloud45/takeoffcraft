@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Was Sie tun werden
 
-Ändern Sie, wie TakeoffCraft Längen anzeigt, damit eine metrische Ermittlung auf dem Blatt, in der Statusleiste und in den Bereichen in Metern, Zentimetern oder Millimetern erscheint.
+Ändern Sie, wie TakeoffDesk Längen anzeigt, damit eine metrische Ermittlung auf dem Blatt, in der Statusleiste und in den Bereichen in Metern, Zentimetern oder Millimetern erscheint.
 
 ## Schritte
 
-1. Öffnen Sie {{ui:Einstellungen}} mit dem Zahnrad in der App-Leiste oder mit {{key:Mod+,}} und bleiben Sie auf dem Reiter {{ui:TakeoffCraft}}.
+1. Öffnen Sie {{ui:Einstellungen}} mit dem Zahnrad in der App-Leiste oder mit {{key:Mod+,}} und bleiben Sie auf dem Reiter {{ui:TakeoffDesk}}.
 2. Suchen Sie {{ui:Längen anzeigen als}} und wählen Sie {{ui:Fuß-Zoll}}, m, cm oder mm. {{ui:Wie Global}} verwendet die metrische Längeneinheit, die unter {{ui:Einstellungen}} › {{ui:Global}} › {{ui:Einheiten}} mit einem Stern markiert ist, und Fuß-Zoll, wenn keine markiert ist.
 3. Sehen Sie sich das Blatt an: Längen in der Statusleiste, der Positionsliste und den Bereichen werden nun in der gewählten Einheit angezeigt. Höhen, Tiefe, Stärke und Geschosse auch.
 4. Um Temperaturen von Positionen in Grad C oder F zu lesen, wählen Sie {{ui:Temperaturen anzeigen als}} im selben Reiter.

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Guarde a medição atual se a quiser manter: {{ui:Guardar medição}} ou {{key:Mod+S}}.
 2. Escolha {{ui:Novo}} no grupo {{ui:Ficheiro}}.
-3. Se houver alterações por guardar, o TakeoffCraft pergunta **Medição não guardada**: escolha {{ui:Guardar primeiro a medição}} (transfere o projeto e depois limpa), {{ui:Descartar alterações}}, ou {{ui:Cancelar}}.
+3. Se houver alterações por guardar, o TakeoffDesk pergunta **Medição não guardada**: escolha {{ui:Guardar primeiro a medição}} (transfere o projeto e depois limpa), {{ui:Descartar alterações}}, ou {{ui:Cancelar}}.
    A janela volta ao estado vazio: sem PDF, sem artigos, sem marcas e sem escalas. A barra de estado diz «Nova medição. Abra PDFs para começar.»
 
 O que é limpo:

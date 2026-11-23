@@ -55,4 +55,4 @@ La escala de una hoja indica el tamaño del dibujo; la unidad de una partida ind
 
 ## Precisión
 
-TakeoffCraft mide con exactitud a partir de los puntos en los que hace clic, incluidas las longitudes y áreas reales de los arcos, y no redondea las cantidades. La visualización redondea las longitudes a 1/16 de pulgada y los decimales a dos cifras. El dinero solo se redondea en los importes totales, al céntimo.
+TakeoffDesk mide con exactitud a partir de los puntos en los que hace clic, incluidas las longitudes y áreas reales de los arcos, y no redondea las cantidades. La visualización redondea las longitudes a 1/16 de pulgada y los decimales a dos cifras. El dinero solo se redondea en los importes totales, al céntimo.

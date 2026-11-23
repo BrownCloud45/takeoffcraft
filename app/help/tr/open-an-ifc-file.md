@@ -5,12 +5,12 @@ keywords: ifc, ifc4x3, ifc 4.3, yol, demiryolu, köprü, kaplama, kaplama tabaka
 from: 6b08c2c4
 ---
 
-Bir IFC 4.3 dosyası; yolları, demiryollarını, köprüleri, deniz yapılarını ve bunları oluşturan parçaları içerebilir: kaplamalar, tabakalar, bordürler, raylar, toprak işleri, mesnetler, kazıklar ve daha fazlası. TakeoffCraft bunları okur ve fiyatlandırabileceğiniz tipli miktarlara dönüştürür.
+Bir IFC 4.3 dosyası; yolları, demiryollarını, köprüleri, deniz yapılarını ve bunları oluşturan parçaları içerebilir: kaplamalar, tabakalar, bordürler, raylar, toprak işleri, mesnetler, kazıklar ve daha fazlası. TakeoffDesk bunları okur ve fiyatlandırabileceğiniz tipli miktarlara dönüştürür.
 
 ## Dosyayı açın
 
 1. {{ui:Dosya}} grubunda {{ui:Planları aç}} seçeneğini seçin ya da {{key:Mod+O}} tuşuna basın.
-2. IFC dosyasını seçin (PDF'lerle birlikte de seçebilirsiniz) ya da dosyayı TakeoffCraft'a sürükleyip bırakın.
+2. IFC dosyasını seçin (PDF'lerle birlikte de seçebilirsiniz) ya da dosyayı TakeoffDesk'a sürükleyip bırakın.
 
 Her sınıf ve önceden tanımlı tip için bir tipli miktar oluşturulur; örneğin "Kaplama (esnek): sayım" ve dosya bunları belirtiyorsa, m cinsinden "uzunluk", m² cinsinden "alan" ve m³ cinsinden "hacim". Her kalemin notu kaç öğenin sayıldığını ve kaçının miktar belirtmediğini söyler. Aynı adlı daha yeni bir dosyayı açmak, bu miktarları çoğaltmak yerine günceller.
 

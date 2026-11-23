@@ -5,7 +5,7 @@ keywords: tom, qiyalik, qiyalik koeffitsiyenti, koʻtarilish, yurish, 6:12, qiya
 from: 38225b60
 ---
 
-Tom rejasida har bir tom tekisligi tepadan koʻrinishda tekis koʻrsatiladi. Tomning oʻzi esa kattaroq: 6:12 qiyalikdagi tekislik rejasiga nisbatan taxminan 12% koʻproq yuzaga ega, uning qiya qirralari esa koʻringanidan uzunroq. Elementga qiyalikni bering — TakeoffCraft oʻlchovni qiyalik boʻylab oladi.
+Tom rejasida har bir tom tekisligi tepadan koʻrinishda tekis koʻrsatiladi. Tomning oʻzi esa kattaroq: 6:12 qiyalikdagi tekislik rejasiga nisbatan taxminan 12% koʻproq yuzaga ega, uning qiya qirralari esa koʻringanidan uzunroq. Elementga qiyalikni bering — TakeoffDesk oʻlchovni qiyalik boʻylab oladi.
 
 ## Qiyalikni kiritish
 

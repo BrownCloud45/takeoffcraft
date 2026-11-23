@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * clipboard.js — copy, cut, paste and duplicate for TakeoffCraft marks and items. DOM-free (tested in Node).
+ * clipboard.js — copy, cut, paste and duplicate for TakeoffDesk marks and items. DOM-free (tested in Node).
  *
  * A clip is plain JSON (what takeoffcraft.js keeps in memory and in localStorage "takeoffcraft.clipboard",
  * so another tab can paste it):

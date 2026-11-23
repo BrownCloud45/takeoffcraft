@@ -39,7 +39,7 @@ Xonalar yopiq devorlar sifatida chizilgan boʻlsa, {{ui:Room}} ({{key:B}}) bitta
 2. {{ui:Takeoff}} guruhida {{ui:Room}} ni tanlang yoki {{key:B}} ni bosing.
 3. Xona ichida, ochiq polda bosing (chiziq yoki yorliq ustida emas).
 
-TakeoffCraft varaqning chiziqlarini oʻqiydi, bosish atrofidagi boʻshliqni topadi va uni devorlarning ichki yuzlari boʻylab joriy elementning maydoni sifatida konturlaydi. **4'-0"** gacha boʻlgan eshik teshiklari yopiq deb hisoblanadi, shuning uchun kontur eshik ogʻzi boʻylab toʻgʻri oʻtadi; **Sozlamalar › TakeoffCraft › Xona toʻldirish ochiqliklarni yopish chegarasi** bu kenglikni oʻzgartiradi (3'-0" dan 8'-0" gacha). Xona nomlari, mebel va jihozlar xonada teshik hosil qilmaydi.
+TakeoffDesk varaqning chiziqlarini oʻqiydi, bosish atrofidagi boʻshliqni topadi va uni devorlarning ichki yuzlari boʻylab joriy elementning maydoni sifatida konturlaydi. **4'-0"** gacha boʻlgan eshik teshiklari yopiq deb hisoblanadi, shuning uchun kontur eshik ogʻzi boʻylab toʻgʻri oʻtadi; **Sozlamalar › TakeoffDesk › Xona toʻldirish ochiqliklarni yopish chegarasi** bu kenglikni oʻzgartiradi (3'-0" dan 8'-0" gacha). Xona nomlari, mebel va jihozlar xonada teshik hosil qilmaydi.
 
 Quyidagi hollarda u rad etadi va sababini aytadi:
 
@@ -59,7 +59,7 @@ Eshik sozlamadan kengroq boʻlsa, toʻldirish keyingi xonaga oʻtib, ikkalasini 
 
 Dumaloq teshik uchun **Tanlangan belgi** ostida {{ui:Add a round cut-out}} ni tanlang, markazini, soʻng chekkasidagi nuqtani bosing.
 
-Kesik maydon ichida toʻliq joylashishi va boshqa kesik bilan ustma-ust tushmasligi kerak. Aks holda TakeoffCraft uni rad etadi: "Kesik maydon ichida toʻliq joylashishi kerak." yoki "Kesiklar bir-biri bilan ustma-ust tushishi mumkin emas."
+Kesik maydon ichida toʻliq joylashishi va boshqa kesik bilan ustma-ust tushmasligi kerak. Aks holda TakeoffDesk uni rad etadi: "Kesik maydon ichida toʻliq joylashishi kerak." yoki "Kesiklar bir-biri bilan ustma-ust tushishi mumkin emas."
 
 Oxirgi teshikni yana olib tashlash uchun {{ui:Remove last cut-out}} ni tanlang.
 
@@ -73,7 +73,7 @@ Kesik bitta maydon belgisiga tegishli. **Teskari ayirish** bir marta chiziladi v
 
 Bir varaqdagi belgilangan elementning har bir maydon belgisi teskari ayirish qoplagan qismini yoʻqotadi: u ichida boʻlsa, butun teskari ayirish; chekkani kesib oʻtsa, faqat ustma-ust tushgan qism; kesik ichida esa hech narsa. Tanlangan maydon panelida **Teskari ayirishlar** va qolgan maydon koʻrsatiladi. Elementning miqdori, uning yigʻma formulalari, xarajatlar, 3D tekshiruv koʻrinishi va eksportning hammasi qolgan maydondan foydalanadi; smetaning izohlarida teskari ayirishlar qancha olib tashlaganligi yoziladi. Teskari ayirish elementining oʻzi oʻz maydonini hisoblaydi (agar narxlamasangiz, xarajatlarini nolga qoldiring).
 
-Teskari ayirish **qavariq** boʻlishi kerak: toʻrtburchak, aylana yoki ichki burchagi boʻlmagan istalgan kontur. TakeoffCraft qavariq boʻlmaganini chizishni rad etadi; L shaklidagi shaxtani ikkita teskari ayirish sifatida chizing. Teskari ayirishlarda kesik boʻlishi mumkin emas; bir-biri bilan ustma-ust tushgan ikki teskari ayirishning ikkalasi ham hisobga olinadi.
+Teskari ayirish **qavariq** boʻlishi kerak: toʻrtburchak, aylana yoki ichki burchagi boʻlmagan istalgan kontur. TakeoffDesk qavariq boʻlmaganini chizishni rad etadi; L shaklidagi shaxtani ikkita teskari ayirish sifatida chizing. Teskari ayirishlarda kesik boʻlishi mumkin emas; bir-biri bilan ustma-ust tushgan ikki teskari ayirishning ikkalasi ham hisobga olinadi.
 
 Perimetr (`P`) oʻzgarmaydi: teskari ayirishlar faqat maydonni olib tashlaydi.
 

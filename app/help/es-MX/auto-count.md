@@ -1,6 +1,6 @@
 ---
 title: Conteo automático de un símbolo
-summary: Dibuje un recuadro alrededor de un símbolo, deje que TakeoffCraft busque los demás en esta hoja o en todas las hojas abiertas, revise las coincidencias con el control deslizante y agréguelas en un solo paso.
+summary: Dibuje un recuadro alrededor de un símbolo, deje que TakeoffDesk busque los demás en esta hoja o en todas las hojas abiertas, revise las coincidencias con el control deslizante y agréguelas en un solo paso.
 keywords: cualquier ángulo, girado, rotado, otra escala, escala diferente, conteo automático, conteo automatico, búsqueda de símbolos, buscar símbolos, patrón, plantilla, coincidencia, detectar, herramienta de conteo
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Para descartar la revisión sin agregar nada, elija {{ui:Discard}} o pulse {{key
 
 ## Qué encuentra y qué no
 
-TakeoffCraft compara el dibujo, como píxeles, con el símbolo que usted encerró en el recuadro.
+TakeoffDesk compara el dibujo, como píxeles, con el símbolo que usted encerró en el recuadro.
 
 - Encuentra el símbolo girado 0°, 90°, 180° y 270°. Marque {{ui:Any angle (slower)}} en la barra de conteo automático antes de dibujar el recuadro para encontrarlo también en cualquier ángulo: prueba cada 15° y luego ajusta cada hallazgo a grado y medio. Esto tarda unas seis veces más. No encuentra un símbolo reflejado (a menos que el símbolo se vea igual reflejado).
 - Con {{ui:Search all open sheets}} marcado, una hoja en otra escala se busca al tamaño que tiene el símbolo en esa hoja: un accesorio dibujado a escala en un plano de 1/8" tiene la mitad del tamaño que en un plano de 1/4", y aun así se encuentra. Esa hoja también se busca al tamaño propio del recuadro, para etiquetas y símbolos impresos con un mismo tamaño en todas las hojas. Esto requiere una escala en ambas hojas; una hoja sin escala se busca solo al tamaño del recuadro.

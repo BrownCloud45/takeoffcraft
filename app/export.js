@@ -3,7 +3,7 @@
  * export.js — the estimate as CSV and XLSX, and a project's quantities as rows. DOM-free.
  *
  * The XLSX "Estimate" sheet carries live formulas (qty + waste, ROUND(… , 2) extensions, SUM
- * totals) with the values TakeoffCraft computed cached in them, so the workbook reads right
+ * totals) with the values TakeoffDesk computed cached in them, so the workbook reads right
  * before and after a recalculation and the estimator can keep pricing in the spreadsheet.
  * The app rounds every extension to the cent exactly as ROUND(x, 2) does, so the two agree.
  */

@@ -46,7 +46,7 @@ Les chiffres ne changent pas en 3D : la surface d'un mur est sa longueur exacte 
 | {{ui:Feuille}} | Affiche ou masque le dessin au sol. |
 | Le cube de vue, en haut à droite | Cliquez sur une face, une arête ou un coin pour regarder depuis là ; faites-le glisser pour tourner ; faites glisser son anneau de boussole pour pivoter ; le bouton maison revient à {{ui:Iso}}. |
 
-Le coin affiche un cube de vue, une petite icône d'axes X, Y, Z, ou rien : choisissez dans {{ui:Paramètres}}, sous l'onglet TakeoffCraft, sous **Indicateur de coin** ([Réglages de TakeoffCraft](topic:settings)). La feuille à plat n'a pas d'indicateur de coin.
+Le coin affiche un cube de vue, une petite icône d'axes X, Y, Z, ou rien : choisissez dans {{ui:Paramètres}}, sous l'onglet TakeoffDesk, sous **Indicateur de coin** ([Réglages de TakeoffDesk](topic:settings)). La feuille à plat n'a pas d'indicateur de coin.
 
 :::touch
 Un doigt tourne ; deux doigts pincent pour zoomer et glissent pour le panoramique. Une pression sélectionne.

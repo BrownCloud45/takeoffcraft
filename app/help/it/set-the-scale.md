@@ -5,7 +5,7 @@ keywords: rileva scala, leggi scala, scala dal testo, tutte le tavole, scala, ca
 from: 8f0148e6
 ---
 
-Ogni tavola ha una propria scala. Si imposta, oppure si lascia che TakeoffCraft la legga dal testo delle tavole (sotto), e la si verifica. Finché una tavola non ne ha una, {{ui:Lineare}}, {{ui:Area}}, {{ui:Cerchio}} e {{ui:Vuoto}} si rifiutano di misurare su di essa. {{ui:Conteggio}} e {{ui:Conteggio automatico}} funzionano senza scala.
+Ogni tavola ha una propria scala. Si imposta, oppure si lascia che TakeoffDesk la legga dal testo delle tavole (sotto), e la si verifica. Finché una tavola non ne ha una, {{ui:Lineare}}, {{ui:Area}}, {{ui:Cerchio}} e {{ui:Vuoto}} si rifiutano di misurare su di essa. {{ui:Conteggio}} e {{ui:Conteggio automatico}} funzionano senza scala.
 
 L'elenco delle tavole mostra la scala di ciascuna tavola, oppure **Nessuna scala**. La barra sotto la tavola aperta dice lo stesso.
 
@@ -23,7 +23,7 @@ L'elenco completo è in [Scale predefinite](topic:scale-presets).
 
 ## Leggere le scale dal testo delle tavole
 
-La maggior parte dei disegni indica la propria scala: `SCALA: 1/4" = 1'-0"` nel cartiglio, `1:100` sotto una vista. TakeoffCraft può leggerla e impostare tutte le tavole in una volta.
+La maggior parte dei disegni indica la propria scala: `SCALA: 1/4" = 1'-0"` nel cartiglio, `1:100` sotto una vista. TakeoffDesk può leggerla e impostare tutte le tavole in una volta.
 
 1. Aprire l'elenco {{ui:Predefinita}} e scegliere {{ui:Dal testo delle tavole…}} (in alto).
 2. L'elenco mostra ogni tavola: la sua scala attuale, e cosa dice il suo testo — **Indica 1/4" = 1'-0"**, **Nessuna scala nel testo**, oppure **Indica di non scalare** (NTS).
@@ -44,7 +44,7 @@ Usare questo metodo quando non c'è una scala stampata affidabile, il set è sta
 5. Digitare la distanza reale in **Distanza reale**, per esempio `24'-6 1/2"`, `24.5` (piedi decimali), `30"` oppure `7.5 m`. Vedere [Formati di lunghezza, tariffa e percentuale](topic:entry-formats).
 6. Scegliere {{ui:Imposta la scala}}.
    La barra di stato mostra la scala come "1" = (n)'", e quando è entro lo 0.5% da una predefinita indica quale, per esempio "che corrisponde a 1/4" = 1'-0" (scegliere quella predefinita per una scala esatta)".
-   TakeoffCraft torna allo strumento {{ui:Seleziona}}.
+   TakeoffDesk torna allo strumento {{ui:Seleziona}}.
 
 Quando la calibrazione corrisponde a una predefinita, sceglierla dà una scala esatta invece di una che dipende dal punto in cui si è fatto clic.
 
@@ -61,11 +61,11 @@ Premere {{key:Esc}} per cancellare la linea di verifica.
 
 ## Cambiare una scala
 
-Scegliere un'altra predefinita oppure calibrare di nuovo. Se la tavola ha già misure, TakeoffCraft chiede **Cambiare la scala di questa tavola?** e indica quante misure verranno ricalcolate. Scegliere {{ui:Cambia la scala}}. Ogni tratto e area della tavola viene misurato di nuovo alla nuova scala. È possibile annullare con {{key:Mod+Z}}.
+Scegliere un'altra predefinita oppure calibrare di nuovo. Se la tavola ha già misure, TakeoffDesk chiede **Cambiare la scala di questa tavola?** e indica quante misure verranno ricalcolate. Scegliere {{ui:Cambia la scala}}. Ogni tratto e area della tavola viene misurato di nuovo alla nuova scala. È possibile annullare con {{key:Mod+Z}}.
 
 ## Perché le tavole senza scala non sono conteggiate come zero
 
-Un segno su una tavola senza scala non ha una lunghezza o un'area reali. TakeoffCraft non lo conta mai come zero, cosa che renderebbe il preventivo silenziosamente troppo basso. Invece:
+Un segno su una tavola senza scala non ha una lunghezza o un'area reali. TakeoffDesk non lo conta mai come zero, cosa che renderebbe il preventivo silenziosamente troppo basso. Invece:
 
 - esclude quei segni dai totali,
 - mostra "+(n) non scalata" accanto alla voce in {{ui:Quantità}},
@@ -77,5 +77,5 @@ Può accadere quando si apre un progetto le cui scale non sono mai state imposta
 ## Suggerimenti
 
 - Impostare la scala di ogni tavola che si misurerà prima di iniziare. Cercare **Nessuna scala** nell'elenco delle tavole per trovare quelle rimaste (la casella di ricerca guarda i nomi delle tavole, non le scale).
-- Dettagli e piante ingrandite sulla stessa tavola spesso usano un'altra scala. TakeoffCraft ha una sola scala per tavola; vedere [Cosa non è ancora implementato](topic:not-built-yet).
+- Dettagli e piante ingrandite sulla stessa tavola spesso usano un'altra scala. TakeoffDesk ha una sola scala per tavola; vedere [Cosa non è ancora implementato](topic:not-built-yet).
 - Disegni metrici: scegliere una predefinita metrica come `1:100`, oppure calibrare con una distanza metrica come `6000 mm`.

@@ -41,7 +41,7 @@ Quando os compartimentos estão desenhados como paredes fechadas, {{ui:Compartim
 2. Escolha {{ui:Compartimento}} no grupo {{ui:Medição}}, ou prima {{key:B}}.
 3. Clique dentro de um compartimento, no pavimento livre (não numa linha nem numa etiqueta).
 
-O TakeoffCraft lê as linhas da folha, encontra o espaço à volta do clique e delimita-o ao longo das faces interiores das paredes, como uma área do artigo atual. As aberturas de portas até **4'-0"** são tratadas como fechadas, pelo que o contorno segue em linha reta através da porta; **Definições › TakeoffCraft › Preenchimento de compartimento fecha aberturas até** altera essa largura (de 3'-0" a 8'-0"). Nomes de compartimentos, mobiliário e acessórios dentro da divisão não criam furos.
+O TakeoffDesk lê as linhas da folha, encontra o espaço à volta do clique e delimita-o ao longo das faces interiores das paredes, como uma área do artigo atual. As aberturas de portas até **4'-0"** são tratadas como fechadas, pelo que o contorno segue em linha reta através da porta; **Definições › TakeoffDesk › Preenchimento de compartimento fecha aberturas até** altera essa largura (de 3'-0" a 8'-0"). Nomes de compartimentos, mobiliário e acessórios dentro da divisão não criam furos.
 
 Recusa, indicando o motivo, quando:
 
@@ -62,7 +62,7 @@ Quando uma porta é mais larga do que a definição, o preenchimento passa para 
 
 Para um furo redondo, escolha {{ui:Adicionar um recorte redondo}} em **Marca selecionada**, clique no centro e depois num ponto da borda.
 
-Um recorte tem de ficar totalmente dentro da área e não se pode sobrepor a outro recorte. Caso contrário, o TakeoffCraft recusa-o: «Um recorte tem de ficar totalmente dentro da área.» ou «Os recortes não se podem sobrepor.»
+Um recorte tem de ficar totalmente dentro da área e não se pode sobrepor a outro recorte. Caso contrário, o TakeoffDesk recusa-o: «Um recorte tem de ficar totalmente dentro da área.» ou «Os recortes não se podem sobrepor.»
 
 Para retirar o último furo, escolha {{ui:Remover o último recorte}}.
 
@@ -76,7 +76,7 @@ Um recorte pertence a uma marca de área. Uma **subtração** é desenhada uma v
 
 Cada marca de área de um artigo marcado, na mesma folha, perde a parte coberta por uma subtração: a subtração inteira quando fica dentro, apenas a parte sobreposta quando atravessa a borda, e nada dentro de um recorte. O painel da área selecionada mostra **Subtrações** e a área que resta. A quantidade do artigo, as suas fórmulas de conjunto, os custos, a vista de verificação 3D e a exportação usam a área restante; as notas do orçamento indicam quanto as subtrações retiraram. O próprio artigo de subtração conta a sua área (deixe os custos a zero se não o orçamentar).
 
-Uma subtração tem de ser **convexa**: um retângulo, um círculo ou qualquer contorno sem canto para dentro. O TakeoffCraft recusa desenhar uma que não seja; desenhe um poço em forma de L como duas subtrações. As subtrações não podem ter recortes, e duas subtrações que se sobrepõem contam ambas.
+Uma subtração tem de ser **convexa**: um retângulo, um círculo ou qualquer contorno sem canto para dentro. O TakeoffDesk recusa desenhar uma que não seja; desenhe um poço em forma de L como duas subtrações. As subtrações não podem ter recortes, e duas subtrações que se sobrepõem contam ambas.
 
 O perímetro (`P`) não muda: as subtrações retiram apenas área.
 

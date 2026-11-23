@@ -5,14 +5,14 @@ keywords: pārskatījums, pārskatīts, salīdzināt, pārklājums, vecs, jauns,
 from: 3a1d9fe0
 ---
 
-Kad lapa tiek atkārtoti izdota, jums nav jāveic apjomu aprēķins no jauna. Atveriet veco un jauno PDF, salīdziniet abas lapas un pārvietojiet apjomu aprēķinu. TakeoffCraft atzīmē katru atzīmi, kur rasējums ir mainījies, lai jūs to pārbaudītu un atstātu pārējās.
+Kad lapa tiek atkārtoti izdota, jums nav jāveic apjomu aprēķins no jauna. Atveriet veco un jauno PDF, salīdziniet abas lapas un pārvietojiet apjomu aprēķinu. TakeoffDesk atzīmē katru atzīmi, kur rasējums ir mainījies, lai jūs to pārbaudītu un atstātu pārējās.
 
 ## Salīdzināt
 
 1. Atveriet abus PDF: veco un pārskatīto komplektu ({{ui:Atvērt plānus}}; tie var būt vienā failā vai vairākos).
 2. Parādiet **jauno** lapu.
 3. Izvēlieties {{ui:Salīdzināt}} lapas joslā zem rasējuma.
-4. Sarakstā izvēlieties veco lapu. TakeoffCraft ieteiks lapu ar tādu pašu numuru otrā PDF vai to pašu lapu. Izvēlieties **Salīdzināt**.
+4. Sarakstā izvēlieties veco lapu. TakeoffDesk ieteiks lapu ar tādu pašu numuru otrā PDF vai to pašu lapu. Izvēlieties **Salīdzināt**.
 
 Vecais rasējums tagad atrodas pāri jaunajam sarkanā krāsā. Kur abi sakrīt, sarkanās līnijas atrodas uz melnajām; kur tās atšķiras, redzamas tikai sarkanas līnijas (noņemtas) un tikai melnas līnijas (pievienotas). Lapas apakšā esošā josla satur tālāk aprakstītos soļus; {{key:Esc}} vai {{ui:Aizvērt}} beidz salīdzināšanu.
 
@@ -29,7 +29,7 @@ Sarkanais rasējums pārvietojas, pagriežas un mērogojas uz melno. Statusa jos
 
 ## Atrodiet izmaiņas
 
-Izvēlieties **Atrast izmaiņas**. TakeoffCraft salīdzina abu rasējumu tinti: tinte tikai uz vecās lapas kļūst sarkana, tinte tikai uz jaunās lapas kļūst zila, un statusa joslā tās tiek saskaitītas. Līnijas, kas nobīdījušās par mata līniju (pārdrukāšana), netiek skaitītas kā izmaiņas.
+Izvēlieties **Atrast izmaiņas**. TakeoffDesk salīdzina abu rasējumu tinti: tinte tikai uz vecās lapas kļūst sarkana, tinte tikai uz jaunās lapas kļūst zila, un statusa joslā tās tiek saskaitītas. Līnijas, kas nobīdījušās par mata līniju (pārdrukāšana), netiek skaitītas kā izmaiņas.
 
 Tā arī pārbauda katru atzīmi uz vecās lapas un saskaita tās, kas atrodas vietās, kur rasējums mainījies:
 
@@ -40,7 +40,7 @@ Tā arī pārbauda katru atzīmi uz vecās lapas un saskaita tās, kas atrodas v
 
 Izvēlieties **Pārvietot apjomu šeit**. Katra atzīme uz vecās lapas pārvietojas uz jauno, izmantojot izlīdzinājumu, vienā atsaukšanas solī. Tās, kas atrodas blakus izmaiņai, tiek atzīmētas: tās tiek rādītas ar oranžu aureolu, un lapas joslā rādīts „(n) jāpārbauda”.
 
-Ja jaunajai lapai nebija mēroga, tā pārņem vecās lapas mērogu (pielāgotu, ja rasējumi bija jāmērogo, lai tos izlīdzinātu). Ja tai jau bija cits mērogs, TakeoffCraft vispirms jautā: pārvietotās atzīmes tiek izmērītas pēc jaunās lapas mēroga.
+Ja jaunajai lapai nebija mēroga, tā pārņem vecās lapas mērogu (pielāgotu, ja rasējumi bija jāmērogo, lai tos izlīdzinātu). Ja tai jau bija cits mērogs, TakeoffDesk vispirms jautā: pārvietotās atzīmes tiek izmērītas pēc jaunās lapas mēroga.
 
 ## Pārbaudiet atzīmētās atzīmes
 

@@ -1,6 +1,6 @@
 ---
 title: Policz wszystko w zestawie
-summary: Zaznacz raz legendę symboli, a TakeoffCraft policzy każdy symbol z niej na każdym otwartym arkuszu w jednym przebiegu. Każde liczenie jest linkiem do swojego arkusza, a przed dodaniem czegokolwiek go sprawdzasz.
+summary: Zaznacz raz legendę symboli, a TakeoffDesk policzy każdy symbol z niej na każdym otwartym arkuszu w jednym przebiegu. Każde liczenie jest linkiem do swojego arkusza, a przed dodaniem czegokolwiek go sprawdzasz.
 keywords: policz wszystko, legenda, legenda symboli, cały zestaw, każdy arkusz, wszystkie arkusze, wszystkie drzwi, każde wyposażenie, urządzenia, zestawienie, symbole, auto liczenie, policz wszystkie, zestaw planów, 200 arkuszy, poziom dopasowania, podobne
 from: adc99744
 ---

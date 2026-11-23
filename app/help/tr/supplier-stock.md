@@ -1,6 +1,6 @@
 ---
 title: Tedarikçi stokunu ve tedarik sürelerini denetleyin
-summary: Tedarikçinin stok listesini (CSV ya da elektronik tablo) ekleyin; TakeoffCraft metrajın ihtiyaç duyduklarını, fireyle birlikte, buna karşı denetler: yeterli stok var mı ve bekleme ne kadar uzun. Eksikler ve uzun beklemeler Sorunlar panelinde görünür.
+summary: Tedarikçinin stok listesini (CSV ya da elektronik tablo) ekleyin; TakeoffDesk metrajın ihtiyaç duyduklarını, fireyle birlikte, buna karşı denetler: yeterli stok var mı ve bekleme ne kadar uzun. Eksikler ve uzun beklemeler Sorunlar panelinde görünür.
 keywords: tedarikçi, stok, stokta, tedarik süresi, bulunabilirlik, eksik, ön sipariş, sipariş listesi, csv, sku, satıcı, malzemeler, tedarik, sorunlar
 from: f11160fb
 ---

@@ -39,4 +39,4 @@ Dala rin ng bawat item ang numero nitong CSI MasterFormat, gaya ng `09 21 16`.
 
 {{ui:Export as pack…}} sa library ay nagse-save nito bilang pack file (`.ccpack.json`) na maaaring idagdag ng sinuman sa pamamagitan ng {{ui:Open a pack file…}}. Bilang default, iniiwan nito ang mga item na galing sa mga pack na idinagdag mo, at walang dalang rate. Lagyan ng tsek ang {{ui:Include my rates as sample rates}} para maipadala rin ang iyong mga rate: may label ang mga ito ng rehiyon at petsang ibibigay mo, at ang sinumang magdaragdag ng pack ang pipili kung gagamitin ang mga ito.
 
-Ang pack file ay plain data, hindi kailanman programa. Sinusuri ng TakeoffCraft ang bawat bahagi nito bago gamitin, at inaalis ang anumang hindi nito mabasa.
+Ang pack file ay plain data, hindi kailanman programa. Sinusuri ng TakeoffDesk ang bawat bahagi nito bago gamitin, at inaalis ang anumang hindi nito mabasa.

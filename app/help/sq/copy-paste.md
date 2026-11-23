@@ -32,11 +32,11 @@ Shenjat e ngjitura shkojnë në zonën e ofertimit të zgjedhur në krye të pan
 
 {{key:Mod+Shift+V}} ({{ui:Ngjit në vend}}) e vendos kopjen në pikën e saktë të fletës së hapur, sipas pozicionit të saj në faqe. Përdore për një kat tipik: merr llogaritjen e nivelit 2, kopjo, hap nivelin 3, ngjit në vend.
 
-Ngjitja në vend kërkon një fletë me **të njëjtën madhësi** me atë nga e cila kopjove. Në një fletë me madhësi tjetër TakeoffCraft e thotë këtë dhe nuk ngjit asgjë; përdor {{ui:Ngjit}} dhe kliko. Në fletën nga e cila kopjove, kopja vjen mbi origjinalet.
+Ngjitja në vend kërkon një fletë me **të njëjtën madhësi** me atë nga e cila kopjove. Në një fletë me madhësi tjetër TakeoffDesk e thotë këtë dhe nuk ngjit asgjë; përdor {{ui:Ngjit}} dhe kliko. Në fletën nga e cila kopjove, kopja vjen mbi origjinalet.
 
 ## Shkalla duhet të përputhet
 
-Gjatësitë dhe sipërfaqet varen nga shkalla e fletës. Një vijë që mat 10' me 1/4" = 1'-0" do të matej 20' në një fletë me 1/8" = 1'-0". Prandaj TakeoffCraft ngjit vija dhe sipërfaqe vetëm në një fletë me **të njëjtën shkallë** me fletën nga erdhën, dhe e thotë qartë kur nuk është kështu:
+Gjatësitë dhe sipërfaqet varen nga shkalla e fletës. Një vijë që mat 10' me 1/4" = 1'-0" do të matej 20' në një fletë me 1/8" = 1'-0". Prandaj TakeoffDesk ngjit vija dhe sipërfaqe vetëm në një fletë me **të njëjtën shkallë** me fletën nga erdhën, dhe e thotë qartë kur nuk është kështu:
 
 - Fleta e hapur nuk ka ende shkallë: jepi një së pari ([Vendos shkallën](topic:set-the-scale)), pastaj ngjit.
 - Fleta e hapur ka një shkallë tjetër: mesazhi emëron të dyja shkallët. Ngjit në një fletë me të njëjtën shkallë.
@@ -59,7 +59,7 @@ Redaktori i artikullit (nën **Artikujt**) mbaron me:
 - {{ui:Dyfisho elementin}}: shton një kopje menjëherë, me emrin "(emri) (kopje)".
 
 :::tip
-Kopja mbetet në këtë kompjuter: ruhet në këtë skedë dhe në depozitën e shfletuesit, kështu që një skedë tjetër e TakeoffCraft mund ta ngjitë. Asgjë nuk ngarkohet, dhe kujtesa e kopjimit të sistemit nuk përdoret, kështu që nuk mund t'i ngjitësh shenja në programe të tjera.
+Kopja mbetet në këtë kompjuter: ruhet në këtë skedë dhe në depozitën e shfletuesit, kështu që një skedë tjetër e TakeoffDesk mund ta ngjitë. Asgjë nuk ngarkohet, dhe kujtesa e kopjimit të sistemit nuk përdoret, kështu që nuk mund t'i ngjitësh shenja në programe të tjera.
 :::
 
 :::note

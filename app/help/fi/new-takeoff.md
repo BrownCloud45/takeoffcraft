@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Tallenna nykyinen määrälaskenta, jos haluat säilyttää sen: {{ui:Save takeoff}} tai {{key:Mod+S}}.
 2. Valitse {{ui:New}} ryhmästä {{ui:File}}.
-3. Jos on tallentamattomia muutoksia, TakeoffCraft kysyy **Tallentamaton määrälaskenta**: valitse {{ui:Save takeoff first}} (se lataa projektin ja tyhjentää sen), {{ui:Discard changes}} tai {{ui:Cancel}}.
+3. Jos on tallentamattomia muutoksia, TakeoffDesk kysyy **Tallentamaton määrälaskenta**: valitse {{ui:Save takeoff first}} (se lataa projektin ja tyhjentää sen), {{ui:Discard changes}} tai {{ui:Cancel}}.
    Ikkuna palaa tyhjään tilaansa: ei PDF-tiedostoja, ei nimikkeitä, ei merkintöjä eikä mittakaavoja. Tilarivi kertoo "Uusi määrälaskenta. Aloita avaamalla PDF-tiedostoja."
 
 Tyhjennetään:

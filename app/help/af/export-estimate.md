@@ -28,7 +28,7 @@ Die werkboek het vier werkblaaie, en die verslae hieronder wanneer hulle van toe
 
 Met 'n [tenderopsomming](topic:bid-summary) sluit die Beraming-werkblad ook af met sy opmarkerings (arbeidslas, verkoopsbelasting, oorhead, wins, borg en die tender), as lewende formules.
 
-Die Beraming-werkblad hou **lewende formules**: hoeveelheid met afval, die afgeronde materiaal- en arbeidsbedrae, elke ry se totaal en die projektotaal. Sigbladprogramme herbereken hulle, so jy kan 'n tarief of afval in die sigblad verander en die totale volg. Die getalle wat TakeoffCraft bereken het, word ook in die selle gestoor en stem tot die sent ooreen.
+Die Beraming-werkblad hou **lewende formules**: hoeveelheid met afval, die afgeronde materiaal- en arbeidsbedrae, elke ry se totaal en die projektotaal. Sigbladprogramme herbereken hulle, so jy kan 'n tarief of afval in die sigblad verander en die totale volg. Die getalle wat TakeoffDesk bereken het, word ook in die selle gestoor en stem tot die sent ooreen.
 
 Die Notas-kolom lys elke komponent se formule, formulefoute, merke op blaaie sonder skaal, muuroppervlakte en omtrek. Wanneer iets weggelaat word, sê die projektotaalry "Onvolledig: sien die notas hierbo".
 
@@ -42,7 +42,7 @@ Die CSV bevat slegs die raming; vir hoeveelhede per blad en die merklys, gebruik
 
 ## Die raming in Google Sheets
 
-Bo die Hoeveelhede-tabel plaas **Kopieer vir Google Sheets** die raming op jou knipbord as tab-geskeide teks, met dieselfde lyne as die CSV. In 'n Google Sheet klik sel A1 en plak. TakeoffCraft meld nie by Google aan nie en stuur niks daarheen nie.
+Bo die Hoeveelhede-tabel plaas **Kopieer vir Google Sheets** die raming op jou knipbord as tab-geskeide teks, met dieselfde lyne as die CSV. In 'n Google Sheet klik sel A1 en plak. TakeoffDesk meld nie by Google aan nie en stuur niks daarheen nie.
 
 ## Ontbrekende tariewe en goedkeuring
 

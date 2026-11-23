@@ -19,9 +19,9 @@ Verificați ca fiecare linie a devizului să aibă preț, apoi treceți numele s
 2. Caseta de dialog indică totalul pe care îl semnați și listează liniile fără preț. Introduceți numele și, dacă doriți, funcția.
 3. Faceți clic pe **Semnare**. Bara afișează acum „Semnat de … la …” cu totalul. Salvați antemăsurătoarea pentru a o păstra în fișier.
 
-Semnătura se referă la cifrele semnate. Orice modificare ulterioară a unei cantități, a unui preț sau a unei linii o șterge, iar TakeoffCraft anunță acest lucru. Anularea readuce devizul semnat, împreună cu semnătura sa. Redenumirea unei linii nu este o modificare a unei cifre. **Eliminare semnătură** o înlătură.
+Semnătura se referă la cifrele semnate. Orice modificare ulterioară a unei cantități, a unui preț sau a unei linii o șterge, iar TakeoffDesk anunță acest lucru. Anularea readuce devizul semnat, împreună cu semnătura sa. Redenumirea unei linii nu este o modificare a unei cifre. **Eliminare semnătură** o înlătură.
 
-Un fișier de antemăsurătoare modificat în afara TakeoffCraft după semnare se deschide fără semnătură, cu o notă care spune acest lucru. Devizul exportat (CSV și XLSX) menționează semnătura sub totaluri.
+Un fișier de antemăsurătoare modificat în afara TakeoffDesk după semnare se deschide fără semnătură, cu o notă care spune acest lucru. Devizul exportat (CSV și XLSX) menționează semnătura sub totaluri.
 
 Semnează doar o persoană. Un asistent AI poate citi dacă devizul este semnat și ce prețuri lipsesc; nu are cum să semneze.
 

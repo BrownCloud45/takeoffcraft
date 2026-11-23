@@ -77,7 +77,7 @@ Umugqa owodwa ngeshidi elinesikali noma amaemaki.
 | Sheet | Igama leshidi |
 | Scale | Igama lesethingi, noma isikali esilinganisiwe, noma "No scale" |
 | How | "Preset", noma "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | Isilinganiso esinembile i-TakeoffCraft esisetshenzisa |
+| Feet per PDF unit | Isilinganiso esinembile i-TakeoffDesk esisetshenzisa |
 
 ## Amagama amafayela
 

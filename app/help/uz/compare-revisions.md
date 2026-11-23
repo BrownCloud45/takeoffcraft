@@ -5,14 +5,14 @@ keywords: qayta koʻrib chiqish, qayta koʻrib chiqilgan, solishtirish, ustma-us
 from: 3a1d9fe0
 ---
 
-Varaq qayta chiqarilganda, uni yana hajmlab chiqishingiz shart emas. Eski PDF va yangisini oching, ikki varaqni solishtiring va hajmni koʻchiring. TakeoffCraft chizma oʻzgargan har bir belgini belgilaydi, shuning uchun ularni tekshirasiz va qolganini saqlaysiz.
+Varaq qayta chiqarilganda, uni yana hajmlab chiqishingiz shart emas. Eski PDF va yangisini oching, ikki varaqni solishtiring va hajmni koʻchiring. TakeoffDesk chizma oʻzgargan har bir belgini belgilaydi, shuning uchun ularni tekshirasiz va qolganini saqlaysiz.
 
 ## Solishtirish
 
 1. Ikkala PDF ni oching: eski toʻplamni va qayta koʻrib chiqilganini ({{ui:Open plans}}; ular bitta faylda yoki bir nechta faylda boʻlishi mumkin).
 2. **Yangi** varaqni koʻrsating.
 3. Chizma ostidagi varaq panelida {{ui:Compare}} ni tanlang.
-4. Roʻyxatdan eski varaqni tanlang. TakeoffCraft boshqa PDF dagi bir xil raqamli varaqni yoki bir xil sahifani taklif qiladi. **Solishtirish** ni tanlang.
+4. Roʻyxatdan eski varaqni tanlang. TakeoffDesk boshqa PDF dagi bir xil raqamli varaqni yoki bir xil sahifani taklif qiladi. **Solishtirish** ni tanlang.
 
 Eski chizma endi yangisi ustida qizil rangda turadi. Ikkisi mos keladigan joyda qizil chiziqlar qora chiziqlar ustida turadi; farq qilgan joyda faqat qizil chiziqlar (olib tashlangan) va faqat qora chiziqlar (qoʻshilgan) koʻrinadi. Varaqning pastki qismidagi panelda quyidagi qadamlar bor; {{key:Esc}} yoki {{ui:Close}} solishtirishni tugatadi.
 
@@ -29,7 +29,7 @@ Qizil chizma qora ustiga siljiydi, buriladi va masshtablanadi. Holat panelida ya
 
 ## Oʻzgarishlarni topish
 
-**Oʻzgarishlarni topish** ni tanlang. TakeoffCraft ikki chizmaning siyohini solishtiradi: faqat eski varaqdagi siyoh qizil boʻladi, faqat yangi varaqdagi siyoh koʻk boʻladi va holat paneli ularni sanaydi. Oz miqdorda siljigan chiziqlar (qayta chop etish) oʻzgarish deb hisoblanmaydi.
+**Oʻzgarishlarni topish** ni tanlang. TakeoffDesk ikki chizmaning siyohini solishtiradi: faqat eski varaqdagi siyoh qizil boʻladi, faqat yangi varaqdagi siyoh koʻk boʻladi va holat paneli ularni sanaydi. Oz miqdorda siljigan chiziqlar (qayta chop etish) oʻzgarish deb hisoblanmaydi.
 
 U shuningdek eski varaqdagi har bir belgini koʻrib chiqadi va chizma oʻzgargan joylarda turganlarini sanaydi:
 
@@ -40,7 +40,7 @@ U shuningdek eski varaqdagi har bir belgini koʻrib chiqadi va chizma oʻzgargan
 
 **Bu yerga hajmni koʻchirish** ni tanlang. Eski varaqdagi har bir belgi tekislash orqali yangisiga koʻchiriladi, bitta qaytarish bosqichida. Oʻzgarish yonidagilar belgilanadi: ular toʻq sariq halqa bilan chiziladi va varaq panelida "(n) to check" koʻrsatiladi.
 
-Agar yangi varaqda masshtab boʻlmasa, u eski varaqning masshtabini oladi (chizmalarni tekislash uchun masshtablash kerak boʻlgan boʻlsa, sozlanadi). Agar u boshqa masshtabga ega boʻlsa, TakeoffCraft avval soraydi: koʻchirilgan belgilar yangi varaqning masshtabida oʻlchanadi.
+Agar yangi varaqda masshtab boʻlmasa, u eski varaqning masshtabini oladi (chizmalarni tekislash uchun masshtablash kerak boʻlgan boʻlsa, sozlanadi). Agar u boshqa masshtabga ega boʻlsa, TakeoffDesk avval soraydi: koʻchirilgan belgilar yangi varaqning masshtabida oʻlchanadi.
 
 ## Belgilangan belgilarni tekshirish
 

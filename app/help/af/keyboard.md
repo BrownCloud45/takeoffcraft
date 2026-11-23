@@ -1,6 +1,6 @@
 ---
 title: Sleutelbord en muis
-summary: Elke sleutel-, muis-, raakplaat- en raakskermaksie in TakeoffCraft, gegroepeer, met die platformverskille.
+summary: Elke sleutel-, muis-, raakplaat- en raakskermaksie in TakeoffDesk, gegroepeer, met die platformverskille.
 keywords: sleutels, kortpaaie, sneltoetse, sleutelbord, muis, raakplaat, raakskerm, pan, zoem, wiel, regsklik, dubbelklik, spasie, shift, kopieer, plak, knip, dupliseer, kies alles
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Sien [Kontroleer die hoeveelheidsopname in 3D](topic:check-in-3d).
 | Sleutel | Wat dit doen |
 |---|---|
 | {{key:F1}} | Maak die hulppaneel oop of toe (ook die {{ui:Hulp}}-knoppie in die programbalk). Dit werk in elke gereedskap, selfs terwyl jy in ’n veld tik. |
-| {{key:Esc}} | Maak die hulppaneel toe. In sy soekboks maak die eerste Esc die soektog leeg. Terwyl die paneel oop is, sluit ’n Esc wat ná ’n klik op die blad gedruk word eers die paneel; druk weer om in TakeoffCraft te kanselleer. |
+| {{key:Esc}} | Maak die hulppaneel toe. In sy soekboks maak die eerste Esc die soektog leeg. Terwyl die paneel oop is, sluit ’n Esc wat ná ’n klik op die blad gedruk word eers die paneel; druk weer om in TakeoffDesk te kanselleer. |
 
 :::mac
 Op baie Mac-sleutelborde beheer die boonste ry helderheid en klank. Druk fn met F1, of skakel "Use F1, F2, etc. keys as standard function keys" aan in System Settings, onder Keyboard.
@@ -139,7 +139,7 @@ Op baie Mac-sleutelborde beheer die boonste ry helderheid en klank. Druk fn met 
 
 :::mac
 - {{key:Mod}} is die Command-sleutel: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Volskerm is die uitsondering: Control+Shift+F.
-- Regsklik is ’n tweevinger-klik op ’n raakplaat, sodra sekondêre klik aan is in System Settings, onder Trackpad. TakeoffCraft lees net die sekondêre knoppie; ’n Control-klik kan as ’n gewone klik tel en ’n punt byvoeg.
+- Regsklik is ’n tweevinger-klik op ’n raakplaat, sodra sekondêre klik aan is in System Settings, onder Trackpad. TakeoffDesk lees net die sekondêre knoppie; ’n Control-klik kan as ’n gewone klik tel en ’n punt byvoeg.
 - Twee vingers wat op ’n raakplaat rol, zoem die blad (hulle rol dit nie). Om te pan, druk en sleep, of hou Space en sleep.
 - Page Up en Page Down is fn saam met die op- en afpyltjies op sleutelborde sonder hulle.
 - Backspace is die sleutel wat delete genoem word.
@@ -151,12 +151,12 @@ Op baie Mac-sleutelborde beheer die boonste ry helderheid en klank. Druk fn met 
 :::
 
 :::linux
-- {{key:Mod}} is Ctrl. Sommige lessenaars gebruik Ctrl+Alt- of Super-kortpaaie van hul eie; TakeoffCraft gebruik geen van hulle nie.
+- {{key:Mod}} is Ctrl. Sommige lessenaars gebruik Ctrl+Alt- of Super-kortpaaie van hul eie; TakeoffDesk gebruik geen van hulle nie.
 - Op ’n raakblad zoem ’n tweevinger-rol die blad. Om te pan, druk en sleep.
 :::
 
 :::touch
-TakeoffCraft lees raakskerm as een wyser:
+TakeoffDesk lees raakskerm as een wyser:
 
 - Tik plaas ’n punt, kies ’n merk of voeg ’n telstip by.
 - Sleep met een vinger pan die blad (in {{ui:Outo-tel}} teken dit die soekboks).
@@ -169,7 +169,7 @@ TakeoffCraft lees raakskerm as een wyser:
 
 ## Sleutels wat die blaaier hou
 
-Blaaiers hou sommige kortpaaie vir hulself, en ’n bladsy kan dit nie gebruik nie: die oortjie toemaak ({{key:Mod+W}}), ’n nuwe oortjie of venster ({{key:Mod+T}}, {{key:Mod+N}}), en blaaierzoem ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Daarom zoem TakeoffCraft die blad met die wiel en die kale {{key:Plus}}- en {{key:Minus}}-sleutels. As jy per ongeluk {{key:Mod+Plus}} druk, word die hele bladsy groter; {{key:Mod+0}} stel dit terug. Sien [Sleutels, muise en raakplate](common:keys).
+Blaaiers hou sommige kortpaaie vir hulself, en ’n bladsy kan dit nie gebruik nie: die oortjie toemaak ({{key:Mod+W}}), ’n nuwe oortjie of venster ({{key:Mod+T}}, {{key:Mod+N}}), en blaaierzoem ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Daarom zoem TakeoffDesk die blad met die wiel en die kale {{key:Plus}}- en {{key:Minus}}-sleutels. As jy per ongeluk {{key:Mod+Plus}} druk, word die hele bladsy groter; {{key:Mod+0}} stel dit terug. Sien [Sleutels, muise en raakplate](common:keys).
 
 ## Waar Skuif is
 

@@ -1,6 +1,6 @@
 ---
 title: Tell alt i settet
-summary: Merk en symbolforklaring én gang, så teller TakeoffCraft hvert symbol i den på hvert åpne ark i én kjøring. Hver telling er en lenke til sitt ark, og du gjennomgår før noe legges til.
+summary: Merk en symbolforklaring én gang, så teller TakeoffDesk hvert symbol i den på hvert åpne ark i én kjøring. Hver telling er en lenke til sitt ark, og du gjennomgår før noe legges til.
 keywords: tell alt, forklaring, symbolforklaring, hele settet, alle ark, alle dører, alle armaturer, enheter, skjema, symboler, autotelling, tell alle, sett med planer, 200 ark, treffnivå, ser likt ut
 from: adc99744
 ---

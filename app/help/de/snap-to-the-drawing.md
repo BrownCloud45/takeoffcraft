@@ -5,7 +5,7 @@ keywords: Fang, Objektfang, Endpunkt, Mittelpunkt, Schnittpunkt, Nächster Punkt
 from: 41d29e9b
 ---
 
-Die meisten Planmappen sind Vektor-PDFs: Ihre Wände und Kanten sind echte Linien, keine Pixel. Beim Messen rastet TakeoffCraft Ihre Klicks auf diese Linien ein. So beginnt eine Strecke genau an der Ecke einer Wand, und eine Kalibrierung liest das Maß, das in der Zeichnung steht, nicht das Pixel, das Sie getroffen haben.
+Die meisten Planmappen sind Vektor-PDFs: Ihre Wände und Kanten sind echte Linien, keine Pixel. Beim Messen rastet TakeoffDesk Ihre Klicks auf diese Linien ein. So beginnt eine Strecke genau an der Ecke einer Wand, und eine Kalibrierung liest das Maß, das in der Zeichnung steht, nicht das Pixel, das Sie getroffen haben.
 
 Der Fang ist beim Start eingeschaltet. Schalten Sie ihn mit {{ui:Fang}} in der Statusleiste oder mit {{key:F3}} ein und aus; die Einstellung wird in diesem Browser gespeichert (sie steht auch unter [Einstellungen](topic:settings)).
 

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Spremite trenutačni predmjer ako ga želite zadržati: {{ui:Spremi predmjer}} ili {{key:Mod+S}}.
 2. Odaberite {{ui:Novo}} u grupi {{ui:Datoteka}}.
-3. Ako postoje nespremljene promjene, TakeoffCraft pita **Nespremljeni predmjer**: odaberite {{ui:Prvo spremi predmjer}} (preuzima projekt, pa čisti), {{ui:Odbaci promjene}} ili {{ui:Odustani}}.
+3. Ako postoje nespremljene promjene, TakeoffDesk pita **Nespremljeni predmjer**: odaberite {{ui:Prvo spremi predmjer}} (preuzima projekt, pa čisti), {{ui:Odbaci promjene}} ili {{ui:Odustani}}.
    Prozor se vraća u prazno stanje: nema PDF-ova, stavki, oznaka ni mjerila. Statusna traka kaže „Novi predmjer. Otvorite PDF-ove za početak.“
 
 Što se briše:

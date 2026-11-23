@@ -5,7 +5,7 @@ keywords: zaznaj merilo, preberi merilo, merilo iz besedila, vsi listi, merilo, 
 from: 8f0148e6
 ---
 
-Vsak list ima svoje merilo. Nastavite ga sami ali pustite, da TakeoffCraft prebere merilo iz besedila listov (spodaj), nato ga preverite. Dokler list nima merila, {{ui:Linijsko}}, {{ui:Površina}}, {{ui:Krožnica}} in {{ui:Odprtina}} na njem ne merijo. {{ui:Štetje}} in {{ui:Samodejno štetje}} delujeta brez merila.
+Vsak list ima svoje merilo. Nastavite ga sami ali pustite, da TakeoffDesk prebere merilo iz besedila listov (spodaj), nato ga preverite. Dokler list nima merila, {{ui:Linijsko}}, {{ui:Površina}}, {{ui:Krožnica}} in {{ui:Odprtina}} na njem ne merijo. {{ui:Štetje}} in {{ui:Samodejno štetje}} delujeta brez merila.
 
 Seznam listov prikaže merilo vsakega lista ali **Brez merila**. Vrstica pod odprtim listom pove isto.
 
@@ -23,7 +23,7 @@ Celoten seznam je v [Prednastavitve merila](topic:scale-presets).
 
 ## Branje meril iz besedila listov
 
-Večina risb navede svoje merilo: `SCALE: 1/4" = 1'-0"` v glavi risbe, `1:100` pod pogledom. TakeoffCraft ga zna prebrati in nastaviti vse liste naenkrat.
+Večina risb navede svoje merilo: `SCALE: 1/4" = 1'-0"` v glavi risbe, `1:100` pod pogledom. TakeoffDesk ga zna prebrati in nastaviti vse liste naenkrat.
 
 1. Odprite seznam {{ui:Prednastavitev}} in izberite {{ui:Iz besedila listov…}} (na vrhu).
 2. Seznam prikaže vsak list: njegovo trenutno merilo in kaj piše v njegovem besedilu — **Piše 1/4" = 1'-0"**, **V besedilu ni merila** ali **Piše: ni v merilu** (NTS).
@@ -44,7 +44,7 @@ Uporabite, kadar nobenemu natisnjenemu merilu ne zaupate, je bil komplet spremen
 5. V **Dejanska razdalja** vpišite pravo razdaljo, na primer `24'-6 1/2"`, `24.5` (decimalni čevlji), `30"` ali `7.5 m`. Glejte [Vnos dolžin, cen in odstotkov](topic:entry-formats).
 6. Izberite {{ui:Nastavi merilo}}.
    Vrstica stanja prikaže merilo kot „1" = (n)'“ in, če je v 0.5 % prednastavitve, pove katere, na primer „kar se ujema z 1/4" = 1'-0" (za natančno merilo izberite to prednastavitev)“.
-   TakeoffCraft se vrne na orodje {{ui:Izberi}}.
+   TakeoffDesk se vrne na orodje {{ui:Izberi}}.
 
 Če se kalibracija ujema s prednastavitvijo, izbira te prednastavitve da natančno merilo namesto takega, ki je odvisen od mesta klika.
 
@@ -61,11 +61,11 @@ Pritisnite {{key:Esc}}, da počistite preverilno črto.
 
 ## Spreminjanje merila
 
-Izberite drugo prednastavitev ali znova kalibrirajte. Če ima list že meritve, TakeoffCraft vpraša **Spremeniti merilo tega lista?** in pove, koliko meritev bo znova izmerjenih. Izberite {{ui:Spremeni merilo}}. Vsak odsek in površina na listu se znova izmeri v novem merilu. Dejanje lahko razveljavite s {{key:Mod+Z}}.
+Izberite drugo prednastavitev ali znova kalibrirajte. Če ima list že meritve, TakeoffDesk vpraša **Spremeniti merilo tega lista?** in pove, koliko meritev bo znova izmerjenih. Izberite {{ui:Spremeni merilo}}. Vsak odsek in površina na listu se znova izmeri v novem merilu. Dejanje lahko razveljavite s {{key:Mod+Z}}.
 
 ## Zakaj listi brez merila niso šteti kot nič
 
-Oznaka na listu brez merila nima prave dolžine ali površine. TakeoffCraft je nikoli ne šteje kot nič, ker bi tiho naredilo predračun prenizek. Namesto tega:
+Oznaka na listu brez merila nima prave dolžine ali površine. TakeoffDesk je nikoli ne šteje kot nič, ker bi tiho naredilo predračun prenizek. Namesto tega:
 
 - te oznake pusti izven seštevkov,
 - pri postavki v {{ui:Količine}} prikaže „+(n) brez merila“,
@@ -77,5 +77,5 @@ To se lahko zgodi, ko odprete projekt, katerega merila nikoli niso bila nastavlj
 ## Nasveti
 
 - Pred začetkom nastavite merilo na vsakem listu, ki ga boste merili. V seznamu listov poiščite **Brez merila**, da najdete preostale. (Iskalno polje gleda imena listov, ne meril.)
-- Podrobnosti in povečani tlorisi na istem listu pogosto uporabljajo drugo merilo. TakeoffCraft ima eno merilo na list; glejte [Kaj še ni izdelano](topic:not-built-yet).
+- Podrobnosti in povečani tlorisi na istem listu pogosto uporabljajo drugo merilo. TakeoffDesk ima eno merilo na list; glejte [Kaj še ni izdelano](topic:not-built-yet).
 - Metrične risbe: izberite metrično prednastavitev, na primer `1:100`, ali kalibrirajte z metrično razdaljo, na primer `6000 mm`.

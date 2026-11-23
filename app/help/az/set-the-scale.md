@@ -5,7 +5,7 @@ keywords: miqyası aşkar et, mətndən miqyas, bütün vərəqlər, miqyas, kal
 from: 8f0148e6
 ---
 
-Hər vərəqin öz miqyası var. Siz onu təyin edirsiniz və ya TakeoffCraft-a onu vərəqlərin mətnindən oxutmaq olar (aşağıda) və yoxlamaq olar. Vərəqdə miqyas olana qədər {{ui:Xətti}}, {{ui:Sahə}}, {{ui:Dairə}} və {{ui:Deşik}} həmin vərəqdə ölçməkdən imtina edir. {{ui:Say}} və {{ui:Avtomatik say}} miqyassız işləyir.
+Hər vərəqin öz miqyası var. Siz onu təyin edirsiniz və ya TakeoffDesk-a onu vərəqlərin mətnindən oxutmaq olar (aşağıda) və yoxlamaq olar. Vərəqdə miqyas olana qədər {{ui:Xətti}}, {{ui:Sahə}}, {{ui:Dairə}} və {{ui:Deşik}} həmin vərəqdə ölçməkdən imtina edir. {{ui:Say}} və {{ui:Avtomatik say}} miqyassız işləyir.
 
 Vərəqlər siyahısı hər vərəqin miqyasını və ya **Miqyas yoxdur** göstərir. Açıq vərəqin altındakı zolaq da eyni şeyi deyir.
 
@@ -23,7 +23,7 @@ Hazırların tam siyahısı [Miqyas hazırları](topic:scale-presets) bölməsin
 
 ## Vərəqlərin mətnindən miqyasları oxuyun
 
-Çox çertyojlar miqyasını yazır: başlıq blokunda `SCALE: 1/4" = 1'-0"`, baxışın altında `1:100`. TakeoffCraft onu oxuya və bütün vərəqləri eyni anda təyin edə bilər.
+Çox çertyojlar miqyasını yazır: başlıq blokunda `SCALE: 1/4" = 1'-0"`, baxışın altında `1:100`. TakeoffDesk onu oxuya və bütün vərəqləri eyni anda təyin edə bilər.
 
 1. {{ui:Hazır}} siyahısını açın və (yuxarıda) **Vərəqlərin mətnindən…** seçin.
 2. Siyahı hər vərəqi göstərir: onun indiki miqyası və mətninin nə dediyi — **Deyir 1/4" = 1'-0"**, **Mətnində miqyas yoxdur** və ya **Miqyas yoxdur deyir** (NTS).
@@ -44,7 +44,7 @@ Bu, etibar etdiyiniz çap olunmuş miqyas olmadıqda, dəst yenidən ölçülən
 5. **Real məsafə** xanasına real məsafəni yazın, məsələn `24'-6 1/2"`, `24.5` (onluq fut), `30"` və ya `7.5 m`. Bax: [Uzunluq, tarif və faiz daxiletmə](topic:entry-formats).
 6. {{ui:Miqyası təyin et}} seçin.
    Status paneli miqyası "1" = (n)'" kimi göstərir və hazıra 0.5% daxilində olduqda hansını uyğun gəldiyini deyir, məsələn "bu, 1/4" = 1'-0" ilə uyğundur (dəqiq miqyas üçün həmin hazırı seçin)".
-   TakeoffCraft {{ui:Seç}} alətinə qayıdır.
+   TakeoffDesk {{ui:Seç}} alətinə qayıdır.
 
 Kalibrləmə hazıra uyğun gəldikdə, həmin hazırı seçmək klikləmə yerindən asılı olmayaraq dəqiq miqyas verir.
 
@@ -61,11 +61,11 @@ Yoxlama xəttini silmək üçün {{key:Esc}} basın.
 
 ## Miqyası dəyişin
 
-Başqa hazır seçin və ya yenidən kalibrləyin. Vərəqdə artıq ölçülər varsa, TakeoffCraft **Bu vərəqin miqyasını dəyişək?** soruşur və neçə ölçünün yenidən ölçüləcəyini deyir. {{ui:Miqyası dəyiş}} seçin. Vərəqdəki hər kəsik və sahə yeni miqyasda yenidən ölçülür. {{key:Mod+Z}} ilə geri qaytara bilərsiniz.
+Başqa hazır seçin və ya yenidən kalibrləyin. Vərəqdə artıq ölçülər varsa, TakeoffDesk **Bu vərəqin miqyasını dəyişək?** soruşur və neçə ölçünün yenidən ölçüləcəyini deyir. {{ui:Miqyası dəyiş}} seçin. Vərəqdəki hər kəsik və sahə yeni miqyasda yenidən ölçülür. {{key:Mod+Z}} ilə geri qaytara bilərsiniz.
 
 ## Miqyassız vərəqlər niyə sıfır sayılmır
 
-Miqyası olmayan vərəqdəki işarənin real uzunluğu və ya sahəsi yoxdur. TakeoffCraft onu heç vaxt sıfır saymır, çünki bu smetanızı görünməz şəkildə həddindən artıq aşağı salardı. Əvəzində:
+Miqyası olmayan vərəqdəki işarənin real uzunluğu və ya sahəsi yoxdur. TakeoffDesk onu heç vaxt sıfır saymır, çünki bu smetanızı görünməz şəkildə həddindən artıq aşağı salardı. Əvəzində:
 
 - həmin işarələri cəmlərdən kənarda qoyur,
 - {{ui:Miqdarlar}}-da elementin yanında "+(n) miqyassız" göstərir,
@@ -77,5 +77,5 @@ Bu, miqyası heç vaxt təyin olunmamış layihəni açdıqda baş verə bilər.
 ## Məsləhətlər
 
 - Başlamazdan əvvəl ölçəcəyiniz hər vərəqə miqyas təyin edin. Qalanları tapmaq üçün vərəqlər siyahısında **Miqyas yoxdur** axtarın (axtarış qutusu vərəq adlarına baxır, miqyaslara yox).
-- Eyni vərəqdəki təfərrüatlar və böyüdülmüş planlar çox vaxt başqa miqyas istifadə edir. TakeoffCraft vərəq üçün bir miqyas saxlayır; bax: [Hələ hazır olmayanlar](topic:not-built-yet).
+- Eyni vərəqdəki təfərrüatlar və böyüdülmüş planlar çox vaxt başqa miqyas istifadə edir. TakeoffDesk vərəq üçün bir miqyas saxlayır; bax: [Hələ hazır olmayanlar](topic:not-built-yet).
 - Metrik çertyojlar: `1:100` kimi metrik hazır seçin və ya `6000 mm` kimi metrik məsafə ilə kalibrləyin.

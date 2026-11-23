@@ -77,7 +77,7 @@ Scale သို့မဟုတ် marks ရှိသော sheet တစ်ခု
 | Sheet | Sheet အမည် |
 | Scale | Preset ၏ အမည်၊ သို့မဟုတ် calibrate လုပ်ထားသော scale၊ သို့မဟုတ် "No scale" |
 | How | "Preset"၊ သို့မဟုတ် "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | TakeoffCraft သုံးသော scale factor အတိအကျ |
+| Feet per PDF unit | TakeoffDesk သုံးသော scale factor အတိအကျ |
 
 ## File အမည်များ
 

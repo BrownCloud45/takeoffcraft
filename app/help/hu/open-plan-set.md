@@ -5,7 +5,7 @@ keywords: megnyitás, tervkészlet, több pdf, több fájl, lapok, rajzok, oldal
 from: ed434468
 ---
 
-Egy tervkészlet gyakran több PDF: építészeti, statikai, gépészeti. A TakeoffCraft egymás mellett, egyetlen lapjegyzékként nyitja meg őket, és egy mennyiségkimutatás mindegyiket lefedheti.
+Egy tervkészlet gyakran több PDF: építészeti, statikai, gépészeti. A TakeoffDesk egymás mellett, egyetlen lapjegyzékként nyitja meg őket, és egy mennyiségkimutatás mindegyiket lefedheti.
 
 ## PDF-ek megnyitása
 
@@ -14,14 +14,14 @@ Egy tervkészlet gyakran több PDF: építészeti, statikai, gépészeti. A Take
 3. Válassza a Megnyitás gombot.
    Amíg az egyes fájlok beolvasódnak, megjelenik a „(név) megnyitása…” üzenet. Ezután minden oldal megjelenik a {{ui:Lapok}} alatt, és az első új PDF első oldala megnyílik.
 
-A PDF-eket a {{pick:mac=Finder|windows=File Explorer|linux=a fájlkezelőből}} is áthúzhatja, és bárhová ráejtheti a TakeoffCraftra. Húzás közben megjelenik a keret: „PDF-ek, DWG- vagy DXF-rajzok vagy .takeoff.json ejtése ide”.
+A PDF-eket a {{pick:mac=Finder|windows=File Explorer|linux=a fájlkezelőből}} is áthúzhatja, és bárhová ráejtheti a TakeoffDeskra. Húzás közben megjelenik a keret: „PDF-ek, DWG- vagy DXF-rajzok vagy .takeoff.json ejtése ide”.
 
 További PDF-ek később ugyanígy adhatók hozzá. A már megnyitott PDF-eket kihagyja.
 
 A kezdőképernyő is listázza azokat a PDF-eket és mennyiségkimutatásokat, amelyeket nemrég nyitott meg, azokban a böngészőkben, amelyek lehetővé teszik egy oldalnak, hogy újra megnyisson fájlt (Chrome és Edge). Kattintson rá a megnyitáshoz; a böngésző előbb engedélyt kérhet. Lásd: [Fájljai](common:your-files).
 
 :::note
-Semmi sem töltődik fel. A böngésző a PDF-eket a számítógépén olvassa be, és azok kikerülnek a TakeoffCraftból, amikor bezárja a lapot, vagy a {{ui:Új}} lehetőséget választja.
+Semmi sem töltődik fel. A böngésző a PDF-eket a számítógépén olvassa be, és azok kikerülnek a TakeoffDeskból, amikor bezárja a lapot, vagy a {{ui:Új}} lehetőséget választja.
 :::
 
 ## Rajzok a PDF-ek mellett
@@ -30,7 +30,7 @@ A {{ui:Tervek megnyitása}} DWG- és DXF-rajzokat is fogad, egyedül vagy PDF-ek
 
 ## PDF átadása másik alkalmazástól
 
-A csomag egyik másik alkalmazása átadhatja az általa megnyitott PDF-et: új lapon megnyitja a TakeoffCraftot, és a PDF ott nyílik meg, mintha Ön húzta volna rá. Az állapotsor így szól: „Megnyitva: (név), átadva innen: (alkalmazás). Az eredeti fájl nem változott.” Semmi sem töltődik fel; a fájl a böngésző saját tárolóján halad át, és megnyitás után onnan törlődik.
+A csomag egyik másik alkalmazása átadhatja az általa megnyitott PDF-et: új lapon megnyitja a TakeoffDeskot, és a PDF ott nyílik meg, mintha Ön húzta volna rá. Az állapotsor így szól: „Megnyitva: (név), átadva innen: (alkalmazás). Az eredeti fájl nem változott.” Semmi sem töltődik fel; a fájl a böngésző saját tárolóján halad át, és megnyitás után onnan törlődik.
 
 Ha az állapotsor szerint a PDF „nem érkezett meg”, a lap túl sokáig várt, vagy a PDF már meg volt nyitva egy másik lapon: nyissa meg a {{ui:Tervek megnyitása}} lehetőséggel.
 

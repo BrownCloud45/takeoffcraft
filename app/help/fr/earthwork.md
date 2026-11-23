@@ -5,7 +5,7 @@ keywords: terrassement, excavation, déblai, remblai, déblai et remblai, nivell
 from: a898e508
 ---
 
-TakeoffCraft mesure ce qui est dessiné sur une feuille. Le terrassement a besoin d'une surface de terrain : il est donc partagé avec CivilCraft, qui construit des surfaces à partir de points, les nivelle et calcule le déblai, le remblai et le transport.
+TakeoffDesk mesure ce qui est dessiné sur une feuille. Le terrassement a besoin d'une surface de terrain : il est donc partagé avec CivilCraft, qui construit des surfaces à partir de points, les nivelle et calcule le déblai, le remblai et le transport.
 
 ## Excavation simple ici
 
@@ -29,8 +29,8 @@ Les points de feuilles différentes ne partagent pas de coordonnées : l'export 
 
 Le terrassement de CivilCraft revient sous forme de deux postes que vous pouvez chiffrer :
 
-1. Dans CivilCraft, nivelez vos plateformes et vos corridors, puis choisissez {{ui:Envoyer vers TakeoffCraft}} sous **Terrassement** ([Volumes de terrassement](app:civilcraft/volumes)). Il enregistre un fichier de quantités (`.quantities.json`).
-2. Dans TakeoffCraft, ouvrez-le avec {{ui:Ouvrir un métré}}, ou déposez-le sur l'application. Votre métré reste ouvert : le fichier ajoute **Terrassement : déblai** et **Terrassement : remblai** comme [quantités typées](topic:create-items#typed-quantities-no-drawing), en verges cubes (CY) pour un projet en pieds, ou en mètres cubes (m³) pour un projet en mètres. C'est une seule étape : {{key:Mod+Z}} l'annule.
+1. Dans CivilCraft, nivelez vos plateformes et vos corridors, puis choisissez {{ui:Envoyer vers TakeoffDesk}} sous **Terrassement** ([Volumes de terrassement](app:civilcraft/volumes)). Il enregistre un fichier de quantités (`.quantities.json`).
+2. Dans TakeoffDesk, ouvrez-le avec {{ui:Ouvrir un métré}}, ou déposez-le sur l'application. Votre métré reste ouvert : le fichier ajoute **Terrassement : déblai** et **Terrassement : remblai** comme [quantités typées](topic:create-items#typed-quantities-no-drawing), en verges cubes (CY) pour un projet en pieds, ou en mètres cubes (m³) pour un projet en mètres. C'est une seule étape : {{key:Mod+Z}} l'annule.
 3. Renommez-les, puis réglez la chute, les prix et les ouvrages à votre convenance.
 
 Lorsque le projet évolue, renvoyez depuis CivilCraft et ouvrez le nouveau fichier : les mêmes deux postes reçoivent les nouvelles quantités. Leurs noms, prix, chutes et ouvrages restent tels que vous les avez réglés. Si l'unité du projet a changé, la barre d'état l'indique : vérifiez les prix. Un fichier provenant d'un autre projet CivilCraft ajoute ses propres deux postes.

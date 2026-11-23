@@ -13,7 +13,7 @@ La **biblioteca de precios** guarda las partidas que usa obra tras obra: su tipo
 
 - {{ui:Importar CSV…}} lee una hoja de cálculo guardada como CSV (vea las columnas abajo). Las partidas cuyo nombre y tipo ya están en la biblioteca se reemplazan; las demás se agregan. Las filas que no puede leer se omiten, e indica cuáles y por qué.
 - {{ui:Agregar las partidas de esta cuantificación}} copia a la biblioteca cada partida de la cuantificación abierta, con sus tarifas y su conjunto (no sus marcas).
-- El CSV del presupuesto que exporta TakeoffCraft ([Exportar el presupuesto](topic:export-estimate)) se importa tal cual: los precios del trabajo anterior sirven de base para el siguiente.
+- El CSV del presupuesto que exporta TakeoffDesk ([Exportar el presupuesto](topic:export-estimate)) se importa tal cual: los precios del trabajo anterior sirven de base para el siguiente.
 
 - {{ui:Paquetes por especialidad…}} agrega conjuntos gratuitos para una especialidad, como tablaroca, eléctrica o concreto, sin precios. Vea [Paquetes por especialidad](topic:trade-packs).
 

@@ -1,11 +1,11 @@
 ---
 title: Utatuzi wa matatizo
-summary: Dalili, sababu na suluhisho za jumbe na mshangao unaoweza kukutana nao katika TakeoffCraft, zikinukuliwa jinsi programu inavyozionyesha.
+summary: Dalili, sababu na suluhisho za jumbe na mshangao unaoweza kukutana nao katika TakeoffDesk, zikinukuliwa jinsi programu inavyozionyesha.
 keywords: matatizo, makosa, haifanyi kazi, rekebisha, msaada, imekataliwa, haipimi, hakuna kipimo, alama zinakosekana, usafirishaji umeshindwa, nje ya mtandao, mguso
 from: cd319c9b
 ---
 
-TakeoffCraft inaeleza kukataliwa kwa mengi kwenye upau wa hali chini ya dirisha. Tafuta ujumbe hapa chini.
+TakeoffDesk inaeleza kukataliwa kwa mengi kwenye upau wa hali chini ya dirisha. Tafuta ujumbe hapa chini.
 
 ## Kufungua faili
 
@@ -15,8 +15,8 @@ TakeoffCraft inaeleza kukataliwa kwa mengi kwenye upau wa hali chini ya dirisha.
 | (name) ina nenosiri. Fungua nakala isiyolindwa. | PDF inahitaji nenosiri ili kufunguka. | Omba nakala isiyolindwa, au ondoa nenosiri kwenye programu ya PDF unayoiamini. |
 | (name) haikuweza kusomwa kama PDF (…) | Faili limeharibika au si PDF kweli. | Lipakue tena, au lihifadhi upya kutoka kwenye programu iliyolitengeneza. |
 | (name) tayari imefunguliwa. | PDF hiyo hiyo (yaliyomo yale yale) imefunguliwa. | Hakuna la kufanya. |
-| TakeoffCraft inafungua PDF na miradi ya .takeoff.json. Imeruka: … | Aina nyingine za faili ziliachwa. | Badilisha michoro kuwa PDF kwanza. |
-| Hakuna kinachotokea ninapodondosha faili | Faili lilidondoshwa nje ya dirisha la kivinjari, au kivinjari kilifungua PDF kwenye kichupo kipya. | Dondosha kwenye ukurasa wa TakeoffCraft wenyewe; fremu ya "Dondosha PDF au .takeoff.json" inaonyesha itakapofanya kazi. |
+| TakeoffDesk inafungua PDF na miradi ya .takeoff.json. Imeruka: … | Aina nyingine za faili ziliachwa. | Badilisha michoro kuwa PDF kwanza. |
+| Hakuna kinachotokea ninapodondosha faili | Faili lilidondoshwa nje ya dirisha la kivinjari, au kivinjari kilifungua PDF kwenye kichupo kipya. | Dondosha kwenye ukurasa wa TakeoffDesk wenyewe; fremu ya "Dondosha PDF au .takeoff.json" inaonyesha itakapofanya kazi. |
 | Kufungua seti kubwa kunachukua muda | Kila PDF inasomwa yote ili kuitambua. | Subiri ujumbe wa "Inafungua (name)…" ufutike. Picha ndogo zinajaa unaposogeza. |
 
 ## Kupima
@@ -47,7 +47,7 @@ TakeoffCraft inaeleza kukataliwa kwa mengi kwenye upau wa hali chini ya dirisha.
 | Ujumbe au dalili | Sababu | Suluhisho |
 |---|---|---|
 | Chagua pointi mbili zilizo mbali zaidi. | Pointi za urekebishaji zimerundikana karibu kabisa. | Rekebisha kwenye kipimo kirefu zaidi. |
-| Ujumbe kwenye kisanduku cha urekebishaji, kama "That distance could not be read" | Umbali uko katika umbo ambalo TakeoffCraft haiwezi kulisoma. | Tazama [Uingizaji wa urefu, kiwango na asilimia](topic:entry-formats). |
+| Ujumbe kwenye kisanduku cha urekebishaji, kama "That distance could not be read" | Umbali uko katika umbo ambalo TakeoffDesk haiwezi kulisoma. | Tazama [Uingizaji wa urefu, kiwango na asilimia](topic:entry-formats). |
 | Karatasi hii bado haina kipimo, kwa hivyo hakuna cha kukagua. Irekebishe, au chagua kipimo kilichowekwa. | {{ui:Kagua}} kwenye karatasi isiyo na kipimo. | Weka kipimo kwanza. |
 | Orodha ya {{ui:Kipimo kilichowekwa}} imefifia | Hakuna karatasi iliyofunguliwa. | Fungua PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft inaeleza kukataliwa kwa mengi kwenye upau wa hali chini ya dirisha.
 | PDF hii ina nenosiri au imesimbwa, kwa hivyo nakala yenye alama haiwezi kuandikwa. … | PDF imesimbwa. | Safirisha {{ui:XLSX}} badala yake, au tumia nakala isiyosimbwa ya PDF (kisha inahitaji ukadiriaji wake, kwa kuwa ni faili tofauti). |
 | PDF yenye alama haikuweza kuandikwa: … | Mara nyingi: uko nje ya mtandao, na programu haikuhifadhiwa kwa matumizi ya nje ya mtandao, kwa hivyo kiandishi cha PDF hakipo. | Nenda mtandaoni kisha uchague tena {{ui:PDF yenye alama}}. Ili kuepuka hili, chagua {{ui:Hifadhi kwa matumizi ya nje ya mtandao}} na usubiri {{ui:Tayari kwa matumizi ya nje ya mtandao}}. |
 | PDF moja tu yenye alama ilipakuliwa | Kivinjari kilizuia upakuaji mwingi kwa wakati mmoja. | Ruhusu upakuaji mwingi kwa tovuti hii, kisha safirisha tena. |
-| (file) si mradi wa TakeoffCraft (si JSON halali). / Hili si faili la mradi wa TakeoffCraft. | Faili lisilo sahihi, au lililoharibika. | Chagua faili la `.takeoff.json`. |
-| Mradi huu ulihifadhiwa na TakeoffCraft mpya zaidi. Ufungue hapo. | Faili linatoka kwenye toleo jipya zaidi. | Lifungue kwenye toleo jipya zaidi. |
+| (file) si mradi wa TakeoffDesk (si JSON halali). / Hili si faili la mradi wa TakeoffDesk. | Faili lisilo sahihi, au lililoharibika. | Chagua faili la `.takeoff.json`. |
+| Mradi huu ulihifadhiwa na TakeoffDesk mpya zaidi. Ufungue hapo. | Faili linatoka kwenye toleo jipya zaidi. | Lifungue kwenye toleo jipya zaidi. |
 | Alama (n) ziliharibika na zikaachwa. | Sehemu ya faili iliharibika au ilihaririwa kwa mkono. | Iliyobaki imefunguka. Chora upya alama zilizokosekana, au fungua nakala ya zamani. |
 | Alama zinakosekana baada ya kufungua upya | PDF hazijafunguliwa, au mojawapo imebadilika. | Tazama [Hifadhi na ufungue tena ukadiriaji](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Kivinjari kinauliza "Leave site?" | Kuna mabadiliko ambayo hayajahifadhiwa. | Baki hapo, kisha uhifadhi kwa {{key:Mod+S}}. |

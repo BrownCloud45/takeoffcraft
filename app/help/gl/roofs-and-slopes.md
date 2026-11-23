@@ -5,7 +5,7 @@ keywords: cuberta, pendente, inclinación, factor de inclinación, subida, perco
 from: 38225b60
 ---
 
-Un plano de cuberta mostra cada faldón plano, visto desde arriba. A cuberta en si é máis grande: un plano a 6:12 ten preto de 12 % máis superficie que a súa proxección, e os seus bordos inclinados son máis longos do que parecen. Dea ao elemento a súa pendente e TakeoffCraft mide ao longo da inclinación.
+Un plano de cuberta mostra cada faldón plano, visto desde arriba. A cuberta en si é máis grande: un plano a 6:12 ten preto de 12 % máis superficie que a súa proxección, e os seus bordos inclinados son máis longos do que parecen. Dea ao elemento a súa pendente e TakeoffDesk mide ao longo da inclinación.
 
 ## Escribir unha pendente
 

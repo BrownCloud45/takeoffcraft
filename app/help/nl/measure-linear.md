@@ -30,7 +30,7 @@ Tijdens het tekenen:
 - Slepen verschuift het blad en het wiel zoomt, zonder punten toe te voegen.
 
 :::mac
-Op een Mac-trackpad is rechtsklik een tweevingerklik (zet secundaire klik aan in Systeeminstellingen, onder Trackpad). TakeoffCraft leest alleen de secundaire knop, dus een Control-klik kan als gewone klik worden gezien en een punt toevoegen. Dubbelklikken of {{key:Enter}} beëindigen altijd.
+Op een Mac-trackpad is rechtsklik een tweevingerklik (zet secundaire klik aan in Systeeminstellingen, onder Trackpad). TakeoffDesk leest alleen de secundaire knop, dus een Control-klik kan als gewone klik worden gezien en een punt toevoegen. Dubbelklikken of {{key:Enter}} beëindigen altijd.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Na het eerste punt kunt u typen waar het volgende komt, in plaats van klikken. T
 | `@6',-4'` | 6' naar rechts en 4' naar beneden vanaf het laatste punt |
 | `6',4'` (of `#6',4'`) | 6' naar rechts en 4' omhoog vanaf het eerste punt van deze reeks |
 
-Lengtes typt u zoals overal in TakeoffCraft ([Invoerformaten](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Rechts" en "omhoog" zijn zoals u het blad ziet, ook wanneer de PDF-pagina is gedraaid.
+Lengtes typt u zoals overal in TakeoffDesk ([Invoerformaten](topic:entry-formats)): `12'-6 1/2"`, `12.5` (feet), `30"`, `3.2 m`. "Rechts" en "omhoog" zijn zoals u het blad ziet, ook wanneer de PDF-pagina is gedraaid.
 
 {{key:Enter}} op een leeg vak beëindigt de reeks, net als {{key:Enter}} op het blad; {{key:Esc}} sluit het vak en houdt de reeks gaande. Getypte punten volgen dezelfde regels als klikken: aftrekken, bogen en het sluiten van een oppervlakte werken allemaal. Hetzelfde vak werkt in {{ui:Oppervlakte}} en {{ui:Uitsparing}}; na het middelpunt van een cirkel neemt het de straal.
 

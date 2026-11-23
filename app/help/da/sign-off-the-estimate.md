@@ -19,9 +19,9 @@ I **Mængder › Pr. post** har en linje der har en mængde og ingen materiale- 
 2. Dialogen angiver den total du godkender og lister linjerne uden pris. Skriv dit navn og, hvis du vil, din rolle.
 3. Klik på **Godkend**. Linjen siger nu »Godkendt af … den …« med totalen. Gem mængdeudtrækket for at beholde det i filen.
 
-Godkendelsen hører til de tal du godkendte. Enhver senere ændring af en mængde, en pris eller en linje fjerner den, og TakeoffCraft siger til dig. Fortryd genskaber den kalkulation du godkendte, og dens godkendelse med den. Omdøbning af en linje er ikke en ændring af et tal. **Fjern godkendelsen** tager den væk.
+Godkendelsen hører til de tal du godkendte. Enhver senere ændring af en mængde, en pris eller en linje fjerner den, og TakeoffDesk siger til dig. Fortryd genskaber den kalkulation du godkendte, og dens godkendelse med den. Omdøbning af en linje er ikke en ændring af et tal. **Fjern godkendelsen** tager den væk.
 
-En mængdeudtrækfil der blev redigeret uden for TakeoffCraft efter den blev godkendt, åbnes uden godkendelsen, med en note der siger det. Den eksporterede kalkulation (CSV og XLSX) nævner godkendelsen under totalerne.
+En mængdeudtrækfil der blev redigeret uden for TakeoffDesk efter den blev godkendt, åbnes uden godkendelsen, med en note der siger det. Den eksporterede kalkulation (CSV og XLSX) nævner godkendelsen under totalerne.
 
 Kun en person godkender. En AI-assistent kan læse om kalkulationen er godkendt, og hvilke priser der mangler; den har ingen måde at godkende på.
 

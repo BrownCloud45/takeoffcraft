@@ -1,6 +1,6 @@
 ---
 title: Autorrecuento de un símbolo
-summary: Dibuje un recuadro alrededor de un símbolo, deje que TakeoffCraft busque los demás en esta hoja o en todas las hojas abiertas, revise las coincidencias con el control deslizante y añádalas en un solo paso.
+summary: Dibuje un recuadro alrededor de un símbolo, deje que TakeoffDesk busque los demás en esta hoja o en todas las hojas abiertas, revise las coincidencias con el control deslizante y añádalas en un solo paso.
 keywords: cualquier ángulo, girado, rotado, otra escala, escala distinta, autorrecuento, recuento automático, búsqueda de símbolos, buscar símbolos, patrón, plantilla, coincidencia, detectar, herramienta de recuento
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Para descartar la revisión sin añadir nada, elija {{ui:Descartar}} o pulse {{k
 
 ## Qué encuentra y qué no
 
-TakeoffCraft compara el dibujo, como píxeles, con el símbolo delimitado con el recuadro.
+TakeoffDesk compara el dibujo, como píxeles, con el símbolo delimitado con el recuadro.
 
 - Encuentra el símbolo girado 0°, 90°, 180° y 270°. Marque {{ui:Cualquier ángulo (más lento)}} en la barra de autorrecuento antes de dibujar el recuadro para encontrarlo también en cualquier ángulo: prueba cada 15° y, después, ajusta cada hallazgo al grado y medio. Tarda unas seis veces más. No encuentra un símbolo reflejado (salvo que el símbolo tenga el mismo aspecto reflejado).
 - Con {{ui:Buscar en todas las hojas abiertas}} marcado, una hoja a otra escala se busca al tamaño que tiene el símbolo en esa hoja: una luminaria dibujada a escala en un plano a 1/8" es la mitad de grande que en un plano a 1/4", y aun así se encuentra. Esa hoja también se busca al tamaño del propio recuadro, para etiquetas y símbolos impresos con un tamaño fijo en todas las hojas. Esto requiere una escala en ambas hojas; una hoja sin escala se busca solo al tamaño del recuadro.

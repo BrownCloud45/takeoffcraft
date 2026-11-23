@@ -28,7 +28,7 @@ El libro tiene cuatro hojas, ha los informes de abajo cuando corresponde:
 
 Con un [resumen de oferta](topic:bid-summary), la hoja Estimate también termina con sus recargos (carga de mano de obra, impuesto de venta, gastos generales, ganancia, fianza ha la oferta), como fórmulas activas.
 
-La hoja Estimate mantiene **fórmulas activas**: cantidad con desperdicio, los importes redondeados de material ha mano de obra, el total de cada fila ha el total de la obra. Las planillas las recalculan, así que podés cambiar una tasa o desperdicio en la planilla ha los totales se actualizan. Los números que calculó TakeoffCraft también se guardan en las celdas, ha coinciden al centavo.
+La hoja Estimate mantiene **fórmulas activas**: cantidad con desperdicio, los importes redondeados de material ha mano de obra, el total de cada fila ha el total de la obra. Las planillas las recalculan, así que podés cambiar una tasa o desperdicio en la planilla ha los totales se actualizan. Los números que calculó TakeoffDesk también se guardan en las celdas, ha coinciden al centavo.
 
 La columna de notas lista la fórmula de cada componente, errores de fórmula, marcas en hojas sin escala, área de muro ha perímetro. Cuando algo quedó afuera, la fila del total de la obra dice "Incomplete: see the notes above".
 
@@ -42,7 +42,7 @@ El CSV tiene solo el presupuesto; para cantidades por hoja ha la lista de marcas
 
 ## El presupuesto en Google Sheets
 
-Arriba de la tabla de Cantidades, **Copiar para Google Sheets** pone el presupuesto en el portapapeles como texto separado por tabulaciones, con las mismas líneas que el CSV. En una hoja de Google, hacé clic en la celda A1 ha pegá. TakeoffCraft no inicia sesión en Google ha no envía nada allí.
+Arriba de la tabla de Cantidades, **Copiar para Google Sheets** pone el presupuesto en el portapapeles como texto separado por tabulaciones, con las mismas líneas que el CSV. En una hoja de Google, hacé clic en la celda A1 ha pegá. TakeoffDesk no inicia sesión en Google ha no envía nada allí.
 
 ## Tasas faltantes ha la aprobación
 

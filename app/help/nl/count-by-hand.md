@@ -14,7 +14,7 @@ Een telitem telt dingen: deuren, lichtarmaturen, stopcontacten, sanitaire toeste
 3. Klik elk ding op het blad aan.
    Elke klik zet een stip in de kleur van het item, en de telling van het item gaat met één omhoog.
 4. Ga naar het volgende blad ({{key:PageDown}}) en blijf tellen. Het gereedschap blijft op {{ui:Tellen}}.
-5. Druk op {{key:Esc}} als u klaar bent. TakeoffCraft keert terug naar {{ui:Selecteren}}.
+5. Druk op {{key:Esc}} als u klaar bent. TakeoffDesk keert terug naar {{ui:Selecteren}}.
 
 Slepen verschuift nog steeds en het wiel zoomt nog steeds terwijl u telt, zodat u over het blad kunt bewegen zonder stippen toe te voegen.
 
@@ -30,7 +30,7 @@ Klik op het telitem om zijn stippen op elk blad te markeren. De bladenlijst toon
 
 ## Stipgrootte, op het scherm en in de PDF
 
-De stippen houden op het scherm dezelfde grootte, hoe ver u ook zoomt. Om die te wijzigen, opent u {{ui:Instellingen}}, het tabblad TakeoffCraft, en kiest u **Grootte telmarkering**: Extra klein, Klein, Middel (de standaard) of Groot.
+De stippen houden op het scherm dezelfde grootte, hoe ver u ook zoomt. Om die te wijzigen, opent u {{ui:Instellingen}}, het tabblad TakeoffDesk, en kiest u **Grootte telmarkering**: Extra klein, Klein, Middel (de standaard) of Groot.
 
 De PDF-export ({{ui:Exporteren}} › de gemarkeerde PDF) tekent elke stip op papier even groot, ongeacht het formaat van het blad: een viewer die de PDF op 100% toont, toont de stippen zo groot als op het scherm. Waar de stippen op een blad elkaar anders zouden raken, maakt de export de stippen van dat blad kleiner, zodat elk leesbaar blijft.
 

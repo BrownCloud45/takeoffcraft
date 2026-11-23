@@ -55,4 +55,4 @@ Měřítko listu říká, jak velký výkres je; jednotka položky říká, jak 
 
 ## Přesnost
 
-TakeoffCraft měří přesně z bodů, na které kliknete, včetně skutečných délek a ploch oblouků, a množství nezaokrouhluje. Zobrazení zaokrouhluje délky na 1/16 palce a desetinná čísla na dvě místa. Peníze se zaokrouhlují až u rozvinutých částek, na haléř.
+TakeoffDesk měří přesně z bodů, na které kliknete, včetně skutečných délek a ploch oblouků, a množství nezaokrouhluje. Zobrazení zaokrouhluje délky na 1/16 palce a desetinná čísla na dvě místa. Peníze se zaokrouhlují až u rozvinutých částek, na haléř.

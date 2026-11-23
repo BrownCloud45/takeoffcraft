@@ -5,7 +5,7 @@ keywords: movimiento de tierras, excavación, corte, relleno, corte y relleno, n
 from: a898e508
 ---
 
-TakeoffCraft mide lo que está dibujado en una hoja. El movimiento de tierras necesita una superficie del terreno, por lo que se comparte con CivilCraft, que construye superficies a partir de puntos, las nivela y calcula el corte, el relleno y el acarreo.
+TakeoffDesk mide lo que está dibujado en una hoja. El movimiento de tierras necesita una superficie del terreno, por lo que se comparte con CivilCraft, que construye superficies a partir de puntos, las nivela y calcula el corte, el relleno y el acarreo.
 
 ## Excavación simple aquí
 
@@ -29,8 +29,8 @@ Los puntos de hojas distintas no comparten coordenadas, por lo que la exportaci�
 
 El movimiento de tierras de CivilCraft regresa como dos partidas a las que puede asignar precio:
 
-1. En CivilCraft, nivele sus plataformas y corredores, y luego elija {{ui:Enviar a TakeoffCraft}} en **Movimiento de tierras** ([Volúmenes de movimiento de tierras](app:civilcraft/volumes)). Se guarda un archivo de cantidades (`.quantities.json`).
-2. En TakeoffCraft, ábralo con {{ui:Abrir cuantificación}}, o suéltelo sobre la app. Su cuantificación sigue abierta: el archivo agrega **Movimiento de tierras: corte** y **Movimiento de tierras: relleno** como [cantidades escritas](topic:create-items#typed-quantities-no-drawing) en yardas cúbicas (CY) para un proyecto en pies, o en metros cúbicos (m³) para un proyecto en metros. Es un solo paso: {{key:Mod+Z}} lo deshace.
+1. En CivilCraft, nivele sus plataformas y corredores, y luego elija {{ui:Enviar a TakeoffDesk}} en **Movimiento de tierras** ([Volúmenes de movimiento de tierras](app:civilcraft/volumes)). Se guarda un archivo de cantidades (`.quantities.json`).
+2. En TakeoffDesk, ábralo con {{ui:Abrir cuantificación}}, o suéltelo sobre la app. Su cuantificación sigue abierta: el archivo agrega **Movimiento de tierras: corte** y **Movimiento de tierras: relleno** como [cantidades escritas](topic:create-items#typed-quantities-no-drawing) en yardas cúbicas (CY) para un proyecto en pies, o en metros cúbicos (m³) para un proyecto en metros. Es un solo paso: {{key:Mod+Z}} lo deshace.
 3. Cámbieles el nombre, y defina el desperdicio, las tarifas y los conjuntos como desee.
 
 Cuando cambie el diseño, envíe de nuevo desde CivilCraft y abra el archivo nuevo: las mismas dos partidas recibirán las nuevas cantidades. Sus nombres, tarifas, desperdicio y conjuntos se conservan como los haya definido. Si cambió la unidad del proyecto, la barra de estado lo indica: revise las tarifas. Un archivo de otro proyecto de CivilCraft agrega sus propias dos partidas.

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Spara den aktuella avtagningen om du vill behålla den: {{ui:Spara avtagning}} eller {{key:Mod+S}}.
 2. Välj {{ui:Ny}} i gruppen {{ui:Fil}}.
-3. Om det finns osparade ändringar frågar TakeoffCraft **Osparad avtagning**: välj {{ui:Spara avtagning först}} (det laddar ner projektet och rensar sedan), {{ui:Kassera ändringar}} eller {{ui:Avbryt}}.
+3. Om det finns osparade ändringar frågar TakeoffDesk **Osparad avtagning**: välj {{ui:Spara avtagning först}} (det laddar ner projektet och rensar sedan), {{ui:Kassera ändringar}} eller {{ui:Avbryt}}.
    Fönstret går tillbaka till sitt tomma läge: inga PDF:er, inga poster, inga markeringar, inga skalor. Statusfältet säger "Ny avtagning. Öppna PDF:er för att börja."
 
 Det som rensas:

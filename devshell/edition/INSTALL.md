@@ -10,15 +10,12 @@ one when it comes from `http://` or `https://`.
 
 Pick one:
 
-- **Download the zip** `{{zip}}` from the releases page: {{releases}}
-  Check it if you like: the SHA-256 checksum is listed next to the download.
-- **Or build it from the source** (Node.js 20.19 or newer and PHP 8.1 or newer; the libraries are downloaded by exact
-  version and checked):
+- **Use the zip** `{{zip}}` you were given (its SHA-256 checksum is in `SHA256SUMS` beside it).
+- **Or build it from the source** (Node.js 20.19 or newer and PHP 8.1 or newer; the libraries are downloaded from the npm
+  registry by exact version and checked). In a clone of the source:
 
   ```sh
-  git clone --branch v{{semver}} {{repo}}.git
-  cd {{slug}}
-  node devshell/edition.mjs --version {{version}}     # → dist/{{folder}}/
+  node devshell/edition.mjs --version {{version}} --zip     # → dist/{{folder}}/
   ```
 
 ## 2. Put it on a web server
@@ -110,5 +107,5 @@ and remove the offline copy from the top bar, or clear the site's data in your b
 ## License
 
 {{name}} is licensed under the Apache License 2.0 (`LICENSE`). The libraries it includes and their licenses are listed in
-`THIRD_PARTY.md`; each one's own license sits beside it under `assets/vendor/`. "{{name}}" and "CadCraft" are trademarks:
-a fork must use another name (`TRADEMARKS.md`).
+`THIRD_PARTY.md`; each one's own license sits beside it under `assets/vendor/`. It is based on TakeoffCraft by The Data
+Design Group, Inc. (Apache-2.0); see `NOTICE` and `TRADEMARKS.md`.

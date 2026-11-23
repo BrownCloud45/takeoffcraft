@@ -2,7 +2,7 @@
 /**
  * xlsx.js — THE Office Open XML workbook writer, and the zip it lives in (0.10 BK.39, session bk-r3-schedules-10). No library,
  * no imports, DOM-free. One copy for every host: canonical in lib/tables/, byte-identical in <app>/dev/tables/ by
- * `node tools/tables/sync.mjs`. It is TakeoffCraft's writer (0.4 K6) and BimCraft's COBie writer (0.7 LC.12) made one:
+ * `node tools/tables/sync.mjs`. It is TakeoffDesk's writer (0.4 K6) and BimCraft's COBie writer (0.7 LC.12) made one:
  * takeoffcraft/dev/xlsx.js and bimcraft/dev/assets-bim-xlsx.js now only hand their app's name and currency to this file.
  *
  *   const bytes = await writeXlsx([{ name, cols: [widths], rows: [[cell, …], …], freeze: 1 }], { title, creator, currency, created, stamp })

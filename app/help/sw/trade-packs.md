@@ -39,4 +39,4 @@ Kila kipengee pia hubeba nambari yake ya CSI MasterFormat, kama `09 21 16`.
 
 {{ui:Hamisha kama kifurushi…}} kwenye maktaba huihifadhi kama faili la kifurushi (`.ccpack.json`) ambalo mtu yeyote anaweza kuliongeza kwa {{ui:Fungua faili la kifurushi…}}. Kwa chaguo-msingi huacha vipengee vilivyotoka kwenye vifurushi ulivyoongeza, na havibebi viwango. Weka tiki kwenye {{ui:Jumuisha viwango vyangu kama viwango vya mfano}} ili kutuma viwango vyako pia: vinatumwa vikiwa na lebo ya eneo na tarehe utakayoweka, na yeyote anayeongeza kifurushi anachagua kama atavitumia.
 
-Faili za kifurushi ni data tupu tu, si programu. TakeoffCraft inakagua kila sehemu yake kabla ya kuitumia, na inaacha kile isichoweza kusoma.
+Faili za kifurushi ni data tupu tu, si programu. TakeoffDesk inakagua kila sehemu yake kabla ya kuitumia, na inaacha kile isichoweza kusoma.

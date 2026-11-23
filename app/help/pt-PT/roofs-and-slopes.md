@@ -5,7 +5,7 @@ keywords: telhado, inclinação, declive, fator de declive, desnível, avanço, 
 from: 38225b60
 ---
 
-Uma planta de telhado mostra cada água plana, vista de cima. O telhado em si é maior: um plano a 6:12 tem cerca de 12% mais superfície do que a sua planta, e os seus bordos inclinados são mais compridos do que parecem. Dê ao artigo a sua inclinação e o TakeoffCraft mede ao longo do declive.
+Uma planta de telhado mostra cada água plana, vista de cima. O telhado em si é maior: um plano a 6:12 tem cerca de 12% mais superfície do que a sua planta, e os seus bordos inclinados são mais compridos do que parecem. Dê ao artigo a sua inclinação e o TakeoffDesk mede ao longo do declive.
 
 ## Escrever uma inclinação
 

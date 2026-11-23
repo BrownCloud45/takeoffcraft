@@ -32,11 +32,11 @@ Các dấu được dán sẽ vào khu vực dự thầu được chọn ở đ�
 
 {{key:Mod+Shift+V}} ({{ui:Paste in place}}) đặt bản sao đúng vào vị trí tương ứng trên tờ đang mở, theo vị trí của nó trên trang. Dùng cho một tầng điển hình: bóc tách tầng 2, sao chép, mở tầng 3, dán tại chỗ.
 
-Dán tại chỗ cần một tờ có **cùng kích thước** với tờ bạn đã sao chép. Trên tờ khác kích thước, TakeoffCraft sẽ báo điều đó và không dán gì; hãy dùng {{ui:Paste}} và nhấp. Trên chính tờ bạn đã sao chép, bản sao nằm đè lên bản gốc.
+Dán tại chỗ cần một tờ có **cùng kích thước** với tờ bạn đã sao chép. Trên tờ khác kích thước, TakeoffDesk sẽ báo điều đó và không dán gì; hãy dùng {{ui:Paste}} và nhấp. Trên chính tờ bạn đã sao chép, bản sao nằm đè lên bản gốc.
 
 ## Tỷ lệ phải khớp
 
-Chiều dài và diện tích phụ thuộc vào tỷ lệ của tờ. Một đoạn đo 10' ở 1/4" = 1'-0" sẽ đo 20' trên tờ ở 1/8" = 1'-0". Vì vậy TakeoffCraft chỉ dán đoạn và diện tích lên tờ có **cùng tỷ lệ** với tờ mà chúng được sao chép từ, và nói rõ khi không khớp:
+Chiều dài và diện tích phụ thuộc vào tỷ lệ của tờ. Một đoạn đo 10' ở 1/4" = 1'-0" sẽ đo 20' trên tờ ở 1/8" = 1'-0". Vì vậy TakeoffDesk chỉ dán đoạn và diện tích lên tờ có **cùng tỷ lệ** với tờ mà chúng được sao chép từ, và nói rõ khi không khớp:
 
 - Tờ đang mở chưa có tỷ lệ: hãy đặt tỷ lệ trước ([Đặt tỷ lệ](topic:set-the-scale)), rồi dán.
 - Tờ đang mở có tỷ lệ khác: thông báo nêu cả hai tỷ lệ. Hãy dán lên tờ có cùng tỷ lệ.
@@ -59,7 +59,7 @@ Trình chỉnh sửa hạng mục (dưới **Hạng mục**) có:
 - {{ui:Duplicate item}}: thêm ngay một bản sao, tên "(tên) (bản sao)".
 
 :::tip
-Bản sao nằm trên máy tính này: nó được giữ trong thẻ này và trong bộ nhớ của trình duyệt, nên một thẻ TakeoffCraft khác có thể dán nó. Không có gì được tải lên, và bộ nhớ tạm của hệ thống không được dùng, nên bạn không thể dán dấu sang các chương trình khác.
+Bản sao nằm trên máy tính này: nó được giữ trong thẻ này và trong bộ nhớ của trình duyệt, nên một thẻ TakeoffDesk khác có thể dán nó. Không có gì được tải lên, và bộ nhớ tạm của hệ thống không được dùng, nên bạn không thể dán dấu sang các chương trình khác.
 :::
 
 :::note

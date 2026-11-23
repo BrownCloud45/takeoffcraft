@@ -5,14 +5,14 @@ keywords: peržiūra, peržiūrėtas, palyginti, uždengimas, senas, naujas, pak
 from: 3a1d9fe0
 ---
 
-Kai lapas pakartotinai išleidžiamas, jo nebereikia matuoti iš naujo. Atverkite senąjį ir naująjį PDF, palyginkite du lapus ir perkelkite kiekių skaičiavimą. TakeoffCraft pažymi kiekvieną žymą, kurioje brėžinys pasikeitė, todėl tas žymas patikrinate, o likusias paliekate.
+Kai lapas pakartotinai išleidžiamas, jo nebereikia matuoti iš naujo. Atverkite senąjį ir naująjį PDF, palyginkite du lapus ir perkelkite kiekių skaičiavimą. TakeoffDesk pažymi kiekvieną žymą, kurioje brėžinys pasikeitė, todėl tas žymas patikrinate, o likusias paliekate.
 
 ## Palyginti
 
 1. Atverkite abu PDF: senąjį rinkinį ir peržiūrėtąjį ({{ui:Atidaryti planus}}; jie gali būti viename faile arba keliuose).
 2. Rodykite **naująjį** lapą.
 3. Lapo juostoje po brėžiniu pasirinkite {{ui:Palyginti}}.
-4. Sąraše pasirinkite senąjį lapą. TakeoffCraft siūlo lapą su tuo pačiu numeriu kitame PDF arba tą patį puslapį. Pasirinkite **Palyginti**.
+4. Sąraše pasirinkite senąjį lapą. TakeoffDesk siūlo lapą su tuo pačiu numeriu kitame PDF arba tą patį puslapį. Pasirinkite **Palyginti**.
 
 Senasis brėžinys dabar guli ant naujojo raudonai. Kur abu sutampa, raudonos linijos yra ant juodųjų; kur skiriasi, matote vien raudonas linijas (pašalintas) ir vien juodas linijas (pridėtas). Lapo apačioje esanti juosta laiko žemiau aprašytus veiksmus; {{key:Esc}} arba {{ui:Uždaryti}} baigia palyginimą.
 
@@ -29,7 +29,7 @@ Raudonasis brėžinys pasislenka, pasisuka ir pakeičia mastelį, kad sutaptų s
 
 ## Rasti pakeitimus
 
-Pasirinkite **Rasti pakeitimus**. TakeoffCraft palygina dviejų brėžinių piešinį: piešinys tik senajame lape tampa raudonas, tik naujajame lape – mėlynas, o būsenos juostoje suskaičiuojama. Linijos, kurios pasislinko vos per plaukelį (perbraižymas), nelaikomos pakeitimais.
+Pasirinkite **Rasti pakeitimus**. TakeoffDesk palygina dviejų brėžinių piešinį: piešinys tik senajame lape tampa raudonas, tik naujajame lape – mėlynas, o būsenos juostoje suskaičiuojama. Linijos, kurios pasislinko vos per plaukelį (perbraižymas), nelaikomos pakeitimais.
 
 Jis taip pat tikrina kiekvieną žymą senajame lape ir suskaičiuoja tas, kurios yra ten, kur brėžinys pasikeitė:
 
@@ -40,7 +40,7 @@ Jis taip pat tikrina kiekvieną žymą senajame lape ir suskaičiuoja tas, kurio
 
 Pasirinkite **Perkelti kiekių skaičiavimą čia**. Kiekviena senojo lapo žyma perkeliama į naująjį per suderinimą, viename anuliavimo žingsnyje. Žymos, esančios šalia pakeitimo, pažymimos: jos nubrėžiamos oranžiniu kontūru, o lapo juostoje rodoma „(n) patikrinti“.
 
-Jei naujasis lapas neturėjo mastelio, jis perima senojo lapo mastelį (koreguotą, jei brėžinius reikėjo mastelinti suderinimui). Jei jis jau turėjo kitokį mastelį, TakeoffCraft pirmiausia klausia: perkeltos žymos matuojamos pagal naujojo lapo mastelį.
+Jei naujasis lapas neturėjo mastelio, jis perima senojo lapo mastelį (koreguotą, jei brėžinius reikėjo mastelinti suderinimui). Jei jis jau turėjo kitokį mastelį, TakeoffDesk pirmiausia klausia: perkeltos žymos matuojamos pagal naujojo lapo mastelį.
 
 ## Patikrinti pažymėtas žymas
 

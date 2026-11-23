@@ -5,7 +5,7 @@ keywords: fur, majmuuca qorshayaasha, dhowr pdf, faylal badan, xaashiyada, naqsh
 from: ed434468
 ---
 
-Majmuuca qorshayaasha badanaa waa dhowr PDF: naqshadda dhismaha, qaab-dhismeedka, mikaanikada. TakeoffCraft wuxuu u furaa iyaga oo dhan sida liis keliya oo xaashiyo ah, xisaabintana mid ayey dhammaantood daboolaysaa.
+Majmuuca qorshayaasha badanaa waa dhowr PDF: naqshadda dhismaha, qaab-dhismeedka, mikaanikada. TakeoffDesk wuxuu u furaa iyaga oo dhan sida liis keliya oo xaashiyo ah, xisaabintana mid ayey dhammaantood daboolaysaa.
 
 ## Fur PDF-yada
 
@@ -14,14 +14,14 @@ Majmuuca qorshayaasha badanaa waa dhowr PDF: naqshadda dhismaha, qaab-dhismeedka
 3. Dooro Fur.
    Fariin "Furaya (name)…" ayaa muuqda inta fayl kasta la akhrinayo. Markaasna bog kasta waxaa ka muuqda {{ui:Xaashiyada}} hoosteeda, PDF-ka cusub ee ugu horreeya bogga koowaad ayaa furmaa.
 
-Waxa kale oo aad PDF-yada ka jiidi kartaa {{pick:mac=Finder|windows=File Explorer|linux=maareeyaha faylashaada}} oo aad ku rido TakeoffCraft meel kasta. Inta aad jiidayso waxaa muuqda daaqad "Ku rid PDF, naqshadaha DWG ama DXF, ama .takeoff.json".
+Waxa kale oo aad PDF-yada ka jiidi kartaa {{pick:mac=Finder|windows=File Explorer|linux=maareeyaha faylashaada}} oo aad ku rido TakeoffDesk meel kasta. Inta aad jiidayso waxaa muuqda daaqad "Ku rid PDF, naqshadaha DWG ama DXF, ama .takeoff.json".
 
 Si aad PDF dheeri ah u darto mar dambe, sidaas oo kale samee. PDF-yada horey u furan waa la dhaafaa.
 
 Shaashadda bilowga waxay sidoo kale liistaa PDF-yada iyo xisaabinta aad dhawaan furtay, browser-yada oggolaanaya bog inuu fayl mar kale furo (Chrome iyo Edge). Guji mid si aad u furto; browser-ku wuxuu u baahan karaa ogolaansho marka hore. Eeg [Faylasheeda](common:your-files).
 
 :::note
-Wax lama soo dejiyo. Browser-ku wuxuu PDF-yada ka akhrisaa kombiyuutarkaaga, waana laga tirtiraa TakeoffCraft markaad xirto tab-ka ama aad dooratid {{ui:Cusub}}.
+Wax lama soo dejiyo. Browser-ku wuxuu PDF-yada ka akhrisaa kombiyuutarkaaga, waana laga tirtiraa TakeoffDesk markaad xirto tab-ka ama aad dooratid {{ui:Cusub}}.
 :::
 
 ## Naqshadaha la socda PDF-yada
@@ -30,7 +30,7 @@ Wax lama soo dejiyo. Browser-ku wuxuu PDF-yada ka akhrisaa kombiyuutarkaaga, waa
 
 ## PDF laga wareejiyay barnaamij kale
 
-Barnaamij kale oo ka mid ah silsiladda ayaa kuu wareejin kara PDF uu furan yahay: wuxuu furaa TakeoffCraft tab cusub, PDF-kuna halkaas ayuu ka furmaa sidii aad ku ridday. Status bar-ku wuxuu leeyahay "Waa la furay (name), laga wareejiyay (app). Faylka asalka ahi isma beddelin." Wax lama soo dejiyo; faylku wuxuu ka gudbaa kaydka browser-kan, oo ka baxaa markii uu furmo.
+Barnaamij kale oo ka mid ah silsiladda ayaa kuu wareejin kara PDF uu furan yahay: wuxuu furaa TakeoffDesk tab cusub, PDF-kuna halkaas ayuu ka furmaa sidii aad ku ridday. Status bar-ku wuxuu leeyahay "Waa la furay (name), laga wareejiyay (app). Faylka asalka ahi isma beddelin." Wax lama soo dejiyo; faylku wuxuu ka gudbaa kaydka browser-kan, oo ka baxaa markii uu furmo.
 
 Haddii status bar-ku sheego in PDF-ku "aanu gaarin", tab-ku wuu sugay wakhti dheer, ama PDF-ka horey ayaa loo furay tab kale: fur adigoo isticmaalaya {{ui:Fur qorshayaasha}}.
 

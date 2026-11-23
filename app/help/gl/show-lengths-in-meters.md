@@ -7,11 +7,11 @@ from: e0f4930d
 
 ## Que vai facer
 
-Cambie como TakeoffCraft mostra as lonxitudes, para que un traballo métrico se lea en metros, centímetros ou milímetros na folla, na barra de estado e nos paneis.
+Cambie como TakeoffDesk mostra as lonxitudes, para que un traballo métrico se lea en metros, centímetros ou milímetros na folla, na barra de estado e nos paneis.
 
 ## Pasos
 
-1. Abra {{ui:Settings}} coa engrenaxe da barra da aplicación ou con {{key:Mod+,}}, e quede na lapela {{ui:TakeoffCraft}}.
+1. Abra {{ui:Settings}} coa engrenaxe da barra da aplicación ou con {{key:Mod+,}}, e quede na lapela {{ui:TakeoffDesk}}.
 2. Busque {{ui:Show lengths as}} e escolla {{ui:Feet-inches}}, m, cm ou mm. {{ui:Follow Global}} usa a unidade de lonxitude métrica marcada cunha estrela en {{ui:Settings}} › {{ui:Global}} › {{ui:Units}}, e pés e polgadas cando non hai ningunha marcada.
 3. Mire a folla: as lonxitudes da barra de estado, da lista de elementos e dos paneis len agora na unidade que escolleu. As alturas, a profundidade, o grosor e os niveis tamén.
 4. Para ler as temperaturas dos elementos en graos C ou F, escolla {{ui:Show temperatures as}} na mesma lapela.

@@ -1,6 +1,6 @@
 ---
 title: Contar automaticamente um símbolo
-summary: Desenhe uma caixa à volta de um símbolo, deixe o TakeoffCraft encontrar os outros nesta folha ou em todas as folhas abertas, reveja as correspondências com a barra deslizante e adicione-as de uma só vez.
+summary: Desenhe uma caixa à volta de um símbolo, deixe o TakeoffDesk encontrar os outros nesta folha ou em todas as folhas abertas, reveja as correspondências com a barra deslizante e adicione-as de uma só vez.
 keywords: qualquer ângulo, rodado, virado, outra escala, escala diferente, contagem automática, contagem automatizada, pesquisa de símbolos, encontrar símbolos, padrão, modelo, correspondência, detetar, ferramenta de contagem
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Para descartar a revisão sem adicionar nada, escolha {{ui:Descartar}} ou prima 
 
 ## O que encontra e o que falha
 
-O TakeoffCraft compara o desenho, pixel a pixel, com o símbolo que está dentro da caixa.
+O TakeoffDesk compara o desenho, pixel a pixel, com o símbolo que está dentro da caixa.
 
 - Encontra o símbolo rodado 0°, 90°, 180° e 270°. Marque {{ui:Qualquer ângulo (mais lento)}} na barra de contagem automática antes de desenhar a caixa, para o encontrar também em qualquer ângulo: testa de 15 em 15° e depois ajusta cada resultado até à precisão de 1.5°. Demora cerca de seis vezes mais tempo. Não encontra um símbolo espelhado (a menos que o símbolo pareça igual espelhado).
 - Com {{ui:Procurar em todas as folhas abertas}} marcado, uma folha noutra escala é pesquisada com o tamanho que o símbolo tem nessa folha: um acessório desenhado à escala numa planta de 1/8" tem metade do tamanho que tem numa planta de 1/4", e continua a ser encontrado. Essa folha também é pesquisada com o tamanho da caixa, para etiquetas e símbolos impressos com o mesmo tamanho em todas as folhas. Isto exige uma escala nas duas folhas; uma folha sem escala é pesquisada apenas com o tamanho da caixa.

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Garde a medición actual se quere conservala: {{ui:Save takeoff}} ou {{key:Mod+S}}.
 2. Escolla {{ui:New}} no grupo {{ui:File}}.
-3. Se hai cambios sen gardar, TakeoffCraft pregunta **Medición sen gardar**: escolla {{ui:Save takeoff first}} (descarga o proxecto e despois limpa), {{ui:Discard changes}}, ou {{ui:Cancel}}.
+3. Se hai cambios sen gardar, TakeoffDesk pregunta **Medición sen gardar**: escolla {{ui:Save takeoff first}} (descarga o proxecto e despois limpa), {{ui:Discard changes}}, ou {{ui:Cancel}}.
    A xanela volve ao seu estado baleiro: sen PDF, sen elementos, sen marcas e sen escalas. A barra de estado di «Nova medición. Abra PDF para comezar.»
 
 Que se borra:

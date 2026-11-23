@@ -5,7 +5,7 @@ keywords: tartunta, kohteen tartunta, päätepiste, keskikohta, leikkauspiste, l
 from: 41d29e9b
 ---
 
-Useimmat piirustussarjat ovat vektori-PDF-tiedostoja: seinät ja reunat ovat oikeita viivoja, eivät pikseleitä. Mittauksen aikana TakeoffCraft tarttuu napsautuksiisi näihin viivoihin, joten viiva alkaa täsmälleen seinän kulmasta ja kalibrointi lukee piirtäjän piirtämän mitan eikä sitä pikseliä, johon osuit.
+Useimmat piirustussarjat ovat vektori-PDF-tiedostoja: seinät ja reunat ovat oikeita viivoja, eivät pikseleitä. Mittauksen aikana TakeoffDesk tarttuu napsautuksiisi näihin viivoihin, joten viiva alkaa täsmälleen seinän kulmasta ja kalibrointi lukee piirtäjän piirtämän mitan eikä sitä pikseliä, johon osuit.
 
 Tartunta on päällä, kun aloitat. Kytke se päälle ja pois {{ui:Tartunta}}-kohdalla tilarivillä tai {{key:F3}}-näppäimellä; asetus tallentuu tähän selaimeen (se löytyy myös kohdasta [Asetukset](topic:settings)).
 

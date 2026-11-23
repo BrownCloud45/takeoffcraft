@@ -77,7 +77,7 @@ Eine Zeile je Blatt mit Maßstab oder Markierungen.
 | Blatt | Blattname |
 | Maßstab | Name der Voreinstellung, der kalibrierte Maßstab oder „Kein Maßstab“ |
 | Festlegung | „Voreinstellung“ oder „Kalibriert anhand (der eingegebenen Strecke)“ |
-| Fuß je PDF-Einheit | Der exakte Maßstabsfaktor, den TakeoffCraft verwendet |
+| Fuß je PDF-Einheit | Der exakte Maßstabsfaktor, den TakeoffDesk verwendet |
 
 ## Dateinamen
 

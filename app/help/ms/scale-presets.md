@@ -49,4 +49,4 @@ Skala yang ditentukur dipaparkan sebagai "Ditentukur 1" = 4.002' pada 24'-6"" da
 
 ## PDF yang luar biasa
 
-Sesetengah PDF mengisytiharkan unit halaman yang lebih besar (unit pengguna); TakeoffCraft mengambilnya kira untuk pratetap dan untuk skala yang dipaparkan. Halaman yang diputar dalam PDF diukur dengan cara yang sama seperti halaman tegak.
+Sesetengah PDF mengisytiharkan unit halaman yang lebih besar (unit pengguna); TakeoffDesk mengambilnya kira untuk pratetap dan untuk skala yang dipaparkan. Halaman yang diputar dalam PDF diukur dengan cara yang sama seperti halaman tegak.

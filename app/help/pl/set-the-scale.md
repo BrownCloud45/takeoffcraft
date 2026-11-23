@@ -5,7 +5,7 @@ keywords: wykryj skalę, odczytaj skalę, skala z tekstu, wszystkie arkusze, ska
 from: 8f0148e6
 ---
 
-Każdy arkusz ma własną skalę. Ustawiasz ją albo pozwalasz TakeoffCraft odczytać ją z tekstu arkuszy (poniżej) i ją sprawdzasz. Dopóki arkusz jej nie ma, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} i {{ui:Cut-out}} odmawiają pomiaru na nim. {{ui:Count}} i {{ui:Auto count}} działają bez skali.
+Każdy arkusz ma własną skalę. Ustawiasz ją albo pozwalasz TakeoffDesk odczytać ją z tekstu arkuszy (poniżej) i ją sprawdzasz. Dopóki arkusz jej nie ma, {{ui:Linear}}, {{ui:Area}}, {{ui:Circle}} i {{ui:Cut-out}} odmawiają pomiaru na nim. {{ui:Count}} i {{ui:Auto count}} działają bez skali.
 
 Lista arkuszy pokazuje skalę każdego arkusza albo **Brak skali**. Pasek pod otwartym arkuszem mówi to samo.
 
@@ -23,7 +23,7 @@ Pełna lista: [Gotowe skale](topic:scale-presets).
 
 ## Odczytaj skale z tekstu arkuszy
 
-Większość rysunków podaje swoją skalę: `SCALE: 1/4" = 1'-0"` w tabliczce rysunkowej, `1:100` pod widokiem. TakeoffCraft może ją odczytać i ustawić każdy arkusz naraz.
+Większość rysunków podaje swoją skalę: `SCALE: 1/4" = 1'-0"` w tabliczce rysunkowej, `1:100` pod widokiem. TakeoffDesk może ją odczytać i ustawić każdy arkusz naraz.
 
 1. Otwórz listę {{ui:Preset}} i wybierz „Z tekstu arkuszy…” (na górze).
 2. Lista pokazuje każdy arkusz: jego obecną skalę i to, co mówi jego tekst — **Podaje 1/4" = 1'-0"**, **Brak skali w tekście** albo **Podaje: nie w skali (NTS)**.
@@ -44,7 +44,7 @@ Użyj tego, gdy nie ma wydrukowanej skali, której ufasz, zestaw został przeska
 5. Wpisz rzeczywistą odległość w polu **Rzeczywista odległość**, np. `24'-6 1/2"`, `24.5` (dziesiętne stopy), `30"` lub `7.5 m`. Zobacz [Wpisywanie długości, stawki i procentów](topic:entry-formats).
 6. Wybierz {{ui:Set the scale}}.
    Pasek stanu pokazuje skalę jako „1" = (n)'”, a gdy mieści się w 0.5% gotowej skali, podaje, która, np. „co odpowiada 1/4" = 1'-0" (wybierz tę gotową skalę, aby uzyskać dokładną skalę)”.
-   TakeoffCraft wraca do narzędzia {{ui:Select}}.
+   TakeoffDesk wraca do narzędzia {{ui:Select}}.
 
 Gdy kalibracja odpowiada gotowej skali, wybór tej skali daje dokładną skalę zamiast takiej, która zależy od miejsca kliknięcia.
 
@@ -61,11 +61,11 @@ Naciśnij {{key:Esc}}, aby usunąć linię sprawdzenia.
 
 ## Zmiana skali
 
-Wybierz inną gotową skalę albo skalibruj ponownie. Jeśli arkusz ma już pomiary, TakeoffCraft zapyta **Zmienić skalę tego arkusza?** i poda, ile pomiarów zostanie zmierzonych ponownie. Wybierz {{ui:Change the scale}}. Każdy odcinek i obszar na arkuszu zostanie zmierzony ponownie w nowej skali. Możesz to cofnąć przez {{key:Mod+Z}}.
+Wybierz inną gotową skalę albo skalibruj ponownie. Jeśli arkusz ma już pomiary, TakeoffDesk zapyta **Zmienić skalę tego arkusza?** i poda, ile pomiarów zostanie zmierzonych ponownie. Wybierz {{ui:Change the scale}}. Każdy odcinek i obszar na arkuszu zostanie zmierzony ponownie w nowej skali. Możesz to cofnąć przez {{key:Mod+Z}}.
 
 ## Dlaczego arkusze bez skali nie są liczone jako zero
 
-Oznaczenie na arkuszu bez skali nie ma rzeczywistej długości ani pola. TakeoffCraft nigdy nie liczy go jako zera, bo po cichu zaniżyłoby to kosztorys. Zamiast tego:
+Oznaczenie na arkuszu bez skali nie ma rzeczywistej długości ani pola. TakeoffDesk nigdy nie liczy go jako zera, bo po cichu zaniżyłoby to kosztorys. Zamiast tego:
 
 - pomija te oznaczenia w sumach,
 - pokazuje „+(n) bez skali” obok pozycji w {{ui:Quantities}},
@@ -77,5 +77,5 @@ Może się to zdarzyć, gdy otworzysz projekt, którego skale nigdy nie zostały
 ## Wskazówki
 
 - Ustaw skalę na każdym arkuszu, który będziesz mierzyć, zanim zaczniesz. Przejrzyj listę arkuszy w poszukiwaniu **Brak skali**, aby znaleźć pozostałe (pole wyszukiwania patrzy na nazwy arkuszy, nie na skale).
-- Detale i powiększone rzuty na tym samym arkuszu często używają innej skali. TakeoffCraft ma jedną skalę na arkusz; zobacz [Czego jeszcze nie ma](topic:not-built-yet).
+- Detale i powiększone rzuty na tym samym arkuszu często używają innej skali. TakeoffDesk ma jedną skalę na arkusz; zobacz [Czego jeszcze nie ma](topic:not-built-yet).
 - Rysunki metryczne: wybierz metryczną gotową skalę, np. `1:100`, albo skalibruj metryczną odległością, np. `6000 mm`.

@@ -30,7 +30,7 @@ Terwyl jy teken:
 - Sleep beweeg die blad, en die muiswiel zoem, sonder om punte by te voeg.
 
 :::mac
-Op ’n Mac-raakplaat is regsklik ’n tweevinger-klik (skakel sekondêre klik aan in System Settings, onder Trackpad). TakeoffCraft lees net die sekondêre knoppie, so ’n Control-klik kan as ’n gewone klik geneem word en ’n punt byvoeg. Dubbelklik of {{key:Enter}} voltooi altyd.
+Op ’n Mac-raakplaat is regsklik ’n tweevinger-klik (skakel sekondêre klik aan in System Settings, onder Trackpad). TakeoffDesk lees net die sekondêre knoppie, so ’n Control-klik kan as ’n gewone klik geneem word en ’n punt byvoeg. Dubbelklik of {{key:Enter}} voltooi altyd.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Ná die eerste punt kan jy tik waar die volgende een moet wees, in plaas van om 
 | `@6',-4'` | 6' regs en 4' af vanaf die laaste punt |
 | `6',4'` (of `#6',4'`) | 6' regs en 4' op vanaf die eerste punt van hierdie reeks |
 
-Lengtes word getik soos oral in TakeoffCraft ([Invoerformate](topic:entry-formats)): `12'-6 1/2"`, `12.5` (voet), `30"`, `3.2 m`. "Regs" en "op" is soos jy die blad sien, ook wanneer die PDF-bladsy gedraai word.
+Lengtes word getik soos oral in TakeoffDesk ([Invoerformate](topic:entry-formats)): `12'-6 1/2"`, `12.5` (voet), `30"`, `3.2 m`. "Regs" en "op" is soos jy die blad sien, ook wanneer die PDF-bladsy gedraai word.
 
 {{key:Enter}} op ’n leë boks voltooi die reeks, soos {{key:Enter}} op die blad; {{key:Esc}} maak die boks toe en hou die reeks aan die gang. Getikte punte volg dieselfde reëls as klikke: aftrekkings, boë en die sluiting van ’n oppervlakte werk almal. Dieselfde boks werk in {{ui:Oppervlakte}} en {{ui:Uitsnyding}}; ná ’n sirkel se middelpunt neem dit die radius.
 

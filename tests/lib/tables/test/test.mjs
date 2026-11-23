@@ -52,7 +52,7 @@ console.log('== xlsx: the one writer');
   ok(X.sheetName('a/b:c', new Set()) === 'a b c' && X.colName(27) === 'AB' && X.ref(0, 0) === 'A1', 'sheetName, colName, ref');
   for (const app of ['bimcraft', 'takeoffcraft']) for (const f of ['xlsx.js', 'table.js', 'signoff.js'])
     ok(fs.readFileSync(path.join(ROOT, 'lib/tables', f)).equals(fs.readFileSync(path.join(ROOT, 'public_html/assets/apps', app, 'dev/tables', f))), app + '/dev/tables/' + f + ' is the lib file, byte for byte');
-  ok(!/function zip|CRC_TABLE|cellXfs/.test(fs.readFileSync(path.join(ROOT, 'public_html/assets/apps/takeoffcraft/dev/xlsx.js'), 'utf8')), 'TakeoffCraft\'s xlsx.js holds no writer of its own');
+  ok(!/function zip|CRC_TABLE|cellXfs/.test(fs.readFileSync(path.join(ROOT, 'public_html/assets/apps/takeoffcraft/dev/xlsx.js'), 'utf8')), 'TakeoffDesk\'s xlsx.js holds no writer of its own');
   ok(!/function zip|const CRC|cellXfs/.test(fs.readFileSync(path.join(ROOT, 'public_html/assets/apps/bimcraft/dev/assets-bim-xlsx.js'), 'utf8')), 'BimCraft\'s assets-bim-xlsx.js holds no writer of its own');
 }
 

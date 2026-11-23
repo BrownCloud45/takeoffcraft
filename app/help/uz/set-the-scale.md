@@ -5,7 +5,7 @@ keywords: masshtabni aniqlash, masshtabni oʻqish, matndan masshtab, hamma varaq
 from: 8f0148e6
 ---
 
-Har bir varaqning oʻz masshtabi bor. Siz uni oʻrnatasiz yoki TakeoffCraft varaqlar matnidan oʻqisin (quyida), keyin tekshirasiz. Varaqda masshtab boʻlmaguncha {{ui:Chiziqli}}, {{ui:Maydon}}, {{ui:Aylana}} va {{ui:Kesib olish}} uni oʻlchamaydi. {{ui:Sanash}} va {{ui:Avtosanash}} masshtabsiz ishlaydi.
+Har bir varaqning oʻz masshtabi bor. Siz uni oʻrnatasiz yoki TakeoffDesk varaqlar matnidan oʻqisin (quyida), keyin tekshirasiz. Varaqda masshtab boʻlmaguncha {{ui:Chiziqli}}, {{ui:Maydon}}, {{ui:Aylana}} va {{ui:Kesib olish}} uni oʻlchamaydi. {{ui:Sanash}} va {{ui:Avtosanash}} masshtabsiz ishlaydi.
 
 Varaqlar roʻyxatida har bir varaqning masshtabi yoki **Masshtab yoʻq** koʻrsatiladi. Ochiq varaq ostidagi chiziq ham shuni aytadi.
 
@@ -23,7 +23,7 @@ Toʻliq roʻyxat: [Masshtab oldindan oʻrnatmalari](topic:scale-presets).
 
 ## Masshtabni varaq matnidan oʻqish
 
-Koʻpchilik chizmalar masshtabini yozadi: asosiy yozuv blokida `SCALE: 1/4" = 1'-0"`, koʻrinish ostida esa `1:100`. TakeoffCraft uni oʻqiy oladi va hamma varaqlarni bir vaqtda belgilay oladi.
+Koʻpchilik chizmalar masshtabini yozadi: asosiy yozuv blokida `SCALE: 1/4" = 1'-0"`, koʻrinish ostida esa `1:100`. TakeoffDesk uni oʻqiy oladi va hamma varaqlarni bir vaqtda belgilay oladi.
 
 1. {{ui:Oldindan oʻrnatilgan}} roʻyxatini oching va yuqoridagi {{ui:Varaqlar matnidan…}} ni tanlang.
 2. Roʻyxatda har bir varaq koʻrsatiladi: uning hozirgi masshtabi va matni nima deyishi — **Matnida 1/4" = 1'-0" deyilgan**, **Matnida masshtab yoʻq** yoki **Masshtab emas deyilgan** (NTS).
@@ -44,7 +44,7 @@ Buni ishonadigan bosilgan masshtab boʻlmaganda, toʻplam oʻlchami oʻzgartiril
 5. **Haqiqiy masofa** maydoniga haqiqiy masofani kiriting, masalan `24'-6 1/2"`, `24.5` (oʻnli futlar), `30"` yoki `7.5 m`. Qarang: [Uzunlik, stavka va foiz kiritish](topic:entry-formats).
 6. {{ui:Masshtabni oʻrnatish}} ni tanlang.
    Holat satrida masshtab "1" = (n)'" kabi koʻrsatiladi; u oldindan oʻrnatmadan 0.5% doirasida boʻlsa, qaysi biriga mosligi aytiladi, masalan "1/4" = 1'-0" ga mos keladi (aniq masshtab uchun shu oldindan oʻrnatmani tanlang)".
-   TakeoffCraft yana {{ui:Tanlash}} vositasiga qaytadi.
+   TakeoffDesk yana {{ui:Tanlash}} vositasiga qaytadi.
 
 Kalibrlash oldindan oʻrnatmaga mos kelganda, shu oldindan oʻrnatmani tanlash aniq masshtab beradi, bosgan joyingizga bogʻliq masshtab oʻrniga.
 
@@ -61,11 +61,11 @@ Tekshirish chizigʻini tozalash uchun {{key:Esc}} ni bosing.
 
 ## Masshtabni oʻzgartirish
 
-Boshqa oldindan oʻrnatmani tanlang yoki qayta kalibrlang. Varaqda oʻlchovlar boʻlsa, TakeoffCraft **Bu varaqning masshtabini oʻzgartirasizmi?** deb soʻraydi va necha oʻlchov qayta oʻlchanishini aytadi. {{ui:Masshtabni oʻzgartirish}} ni tanlang. Varaqdagi har bir chiziq va maydon yangi masshtabda qayta oʻlchanadi. {{key:Mod+Z}} bilan qaytarish mumkin.
+Boshqa oldindan oʻrnatmani tanlang yoki qayta kalibrlang. Varaqda oʻlchovlar boʻlsa, TakeoffDesk **Bu varaqning masshtabini oʻzgartirasizmi?** deb soʻraydi va necha oʻlchov qayta oʻlchanishini aytadi. {{ui:Masshtabni oʻzgartirish}} ni tanlang. Varaqdagi har bir chiziq va maydon yangi masshtabda qayta oʻlchanadi. {{key:Mod+Z}} bilan qaytarish mumkin.
 
 ## Nima uchun masshtabsiz varaqlar nolga teng hisoblanmaydi
 
-Masshtabi yoʻq varaqdagi belgining haqiqiy uzunligi yoki maydoni yoʻq. TakeoffCraft uni hech qachon nol deb hisoblamaydi, chunki bu smetangizni yashirincha past qilib qoʻyardi. Buning oʻrniga:
+Masshtabi yoʻq varaqdagi belgining haqiqiy uzunligi yoki maydoni yoʻq. TakeoffDesk uni hech qachon nol deb hisoblamaydi, chunki bu smetangizni yashirincha past qilib qoʻyardi. Buning oʻrniga:
 
 - belgilarni jamidan chiqaradi,
 - {{ui:Miqdorlar}} da element yonida "+(n) masshtabsiz" koʻrsatadi,
@@ -77,5 +77,5 @@ Bu hol masshtablari hech qachon oʻrnatilmagan loyihani ochganingizda yuz berish
 ## Maslahatlar
 
 - Oʻlchaydigan har bir varaqqa oʻlchashdan oldin masshtab bering. Qolganlarini topish uchun varaqlar roʻyxatida **Masshtab yoʻq** ni qidiring (qidiruv maydoni varaq nomlariga qaraydi, masshtabga emas).
-- Bir varaqdagi batafsil va kattalashtirilgan rejalar boshqa masshtabdan foydalanadi. TakeoffCraft har bir varaqqa bitta masshtab beradi; qarang: [Hali qurilmagan narsalar](topic:not-built-yet).
+- Bir varaqdagi batafsil va kattalashtirilgan rejalar boshqa masshtabdan foydalanadi. TakeoffDesk har bir varaqqa bitta masshtab beradi; qarang: [Hali qurilmagan narsalar](topic:not-built-yet).
 - Metrik chizmalar: `1:100` kabi metrik oldindan oʻrnatmani tanlang yoki `6000 mm` kabi metrik masofa bilan kalibrlang.

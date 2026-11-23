@@ -2,7 +2,7 @@
 /**
  * rules.js — the measuring rules for quantities, written down ONCE (booklet rows BK.11 and BK.84, session bk-quantities-10).
  * Host-free: no imports, no DOM, no units of its own (give it one unit, get the same unit back). BimCraft's schedules, the
- * IFC Qto values BimCraft writes and TakeoffCraft's wall areas and area marks all call these functions, so a quantity is
+ * IFC Qto values BimCraft writes and TakeoffDesk's wall areas and area marks all call these functions, so a quantity is
  * measured one way everywhere. Canonical copy: lib/quantities/; each app carries a byte-identical copy in
  * <app>/dev/quantities/ (node tools/quantities/sync.mjs). Nobody edits a copy.
  *

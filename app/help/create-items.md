@@ -38,12 +38,12 @@ A typed quantity takes no marks and never makes the estimate incomplete. When th
 Press {{key:Esc}} in the form to close it without adding an item.
 
 :::tip
-If you pick a measuring tool first, TakeoffCraft uses the last item of the right type, or opens the {{ui:New item}} form with that type already chosen.
+If you pick a measuring tool first, TakeoffDesk uses the last item of the right type, or opens the {{ui:New item}} form with that type already chosen.
 :::
 
 ## Pick the item you draw with
 
-Click an item in the list. It becomes the item new marks go to, and its marks are highlighted on every sheet while the others fade. If the open sheet has none of its marks, TakeoffCraft jumps to a sheet that has. Click the item again to stop highlighting; it stays the item you draw with.
+Click an item in the list. It becomes the item new marks go to, its measuring tool comes on (Linear, Area or Count, as the item is; Circle or Room stay on for an area item, Path for a linear one), and its marks glow on every sheet. Every other mark stays fully visible. The view stays where it is: if the open sheet has none of its marks, the status bar says so and the sheet list shows how many each sheet has. Click the item again to stop highlighting; it stays the item you draw with.
 
 Clicking a mark with the {{ui:Select}} tool also makes its item the current one.
 
@@ -56,9 +56,12 @@ The item editor (**Item: (name)**) has these fields. Each one is saved when you 
 | {{ui:Name}} | Shown in the list, the tables and the exports. |
 | {{ui:Type}} | Linear, Area or Count. It is locked once the item has marks ("An item with marks keeps its type"). |
 | {{ui:Color}} | The color of its marks on screen and in the marked PDF. |
+| {{ui:Quantity factor}} | Multiplies the measured quantity everywhere it is used: the item list, {{ui:Quantities}}, the exports, the marked PDF's legend and the formulas of its assembly. `0.5` counts half of what you draw, for example a continental crosswalk whose bars cover about half its outline; `1.1` adds 10%. You can also type `50%` or `1/2`. Empty means 1. The list shows it after the quantity ("(×0.5)") and **Measured** shows what was drawn. Linear items multiply their length (and the wall area made from it), area items their area, count items their count. |
+| {{ui:Line}} | How its runs and area outlines are drawn: Solid, Dashed, Dotted or Double. Deducted segments stay thin and dashed. Shown on screen and in the marked PDF. |
+| {{ui:Icon}} | {{ui:Choose an image…}} picks any PNG, JPEG or SVG; it is shrunk to a small square and saved inside the takeoff. The icon replaces the color square in the lists and the dot of each count mark, on screen and in the marked PDF. {{ui:Remove}} goes back to the dot. |
 | {{ui:Unit}} | What the quantity is reported in: LF or m for linear; SF, SY, SQ, ac, ha or m² for area; EA for count. |
 | {{ui:Also measure}} | The other kinds of marks the item takes, each with its own unit. See below. |
-| {{ui:Height}} (linear) | A wall height. The item then also reports wall area (length × height). Runs that came from a BimCraft model carry their doors and windows: those are taken out once, and the item says the gross area, the openings and the net. A takeoff from a BimCraft project that chose a measurement method is measured by that method here too (the note names it, with its source, and says it is unchecked by a quantity surveyor); the method cannot be changed in TakeoffCraft. Bricks or blocks and mortar from a wall type arrive as two components: the units to order and the mortar volume. |
+| {{ui:Height}} (linear) | A wall height. The item then also reports wall area (length × height). Runs that came from a BimCraft model carry their doors and windows: those are taken out once, and the item says the gross area, the openings and the net. A takeoff from a BimCraft project that chose a measurement method is measured by that method here too (the note names it, with its source, and says it is unchecked by a quantity surveyor); the method cannot be changed in TakeoffDesk. Bricks or blocks and mortar from a wall type arrive as two components: the units to order and the mortar volume. |
 | {{ui:Depth}} (area) | A depth or thickness, used in assembly formulas (for example concrete volume). |
 | {{ui:Waste %}} | Added to the quantity before pricing: 10 means quantity × 1.10. |
 | {{ui:Material $/LF}} | Material cost per unit. The label follows the unit: $/SF, $/EA and so on. |
@@ -75,7 +78,7 @@ Some things are measured more than one way: a room has a floor (an area), a base
 
 1. Make the item with its main type, such as an area item `Room 101`.
 2. Under {{ui:Also measure}} in its editor, tick {{ui:Linear}}, {{ui:Count}} or both. Each one gets a unit next to it.
-3. Draw with any tool whose kind the item takes: with `Room 101` current, {{ui:Area}} draws its floor, {{ui:Linear}} its base and {{ui:Count}} its doors. TakeoffCraft does not ask for another item.
+3. Draw with any tool whose kind the item takes: with `Room 101` current, {{ui:Area}} draws its floor, {{ui:Linear}} its base and {{ui:Count}} its doors. TakeoffDesk does not ask for another item.
 
 The items list shows every quantity (`50.00 SF + 2 EA`). In the quantities table the item's row has its main quantity, and each other kind gets its own row below it, such as **Room 101 (count)**, with its own waste and material and labor rates. The exports, the per-sheet table and the marked PDF's legend list them the same way.
 
@@ -115,7 +118,7 @@ Instead of a labor rate per unit, an item's labor can come from a crew: how much
 | {{ui:Crew size}} | `2` people |
 | {{ui:Wage $/hour each}} | `45` |
 
-TakeoffCraft works out, from the quantity with waste:
+TakeoffDesk works out, from the quantity with waste:
 
 - **crew-hours** = quantity ÷ production (110 LF ÷ 20 = 5.5),
 - **worker-hours** = crew-hours × crew size (11),

@@ -78,7 +78,7 @@ One row per sheet that has a scale or marks.
 | Sheet | Sheet name |
 | Scale | The preset's name, or the calibrated scale, or "No scale" |
 | How | "Preset", or "Calibrated on (the distance you typed)" |
-| Feet per PDF unit | The exact scale factor TakeoffCraft uses |
+| Feet per PDF unit | The exact scale factor TakeoffDesk uses |
 
 ## File names
 

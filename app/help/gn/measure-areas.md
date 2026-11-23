@@ -41,7 +41,7 @@ Cuando los ambientes están dibujados como muros cerrados, {{ui:Ambiente}} ({{ke
 2. Elegí {{ui:Ambiente}} en el grupo {{ui:Cómputo}}, o presioná {{key:B}}.
 3. Hacé clic dentro de un ambiente, en el piso libre (no sobre una línea ni una etiqueta).
 
-TakeoffCraft lee las líneas de la hoja, encuentra el espacio alrededor del clic y lo contornea por las caras interiores de los muros, como un área del ítem actual. Las aberturas de puerta de hasta **4'-0"** se toman como cerradas, así el contorno pasa recto por la puerta; **Configuración › TakeoffCraft › Cerrar vanos del ambiente hasta** cambia ese ancho (de 3'-0" a 8'-0"). Los nombres de ambiente, muebles y artefactos dentro del ambiente no hacen agujeros.
+TakeoffDesk lee las líneas de la hoja, encuentra el espacio alrededor del clic y lo contornea por las caras interiores de los muros, como un área del ítem actual. Las aberturas de puerta de hasta **4'-0"** se toman como cerradas, así el contorno pasa recto por la puerta; **Configuración › TakeoffDesk › Cerrar vanos del ambiente hasta** cambia ese ancho (de 3'-0" a 8'-0"). Los nombres de ambiente, muebles y artefactos dentro del ambiente no hacen agujeros.
 
 Se rechaza, indicando por qué, cuando:
 
@@ -62,7 +62,7 @@ Cuando una puerta es más ancha que el ajuste, el relleno pasa al ambiente sigui
 
 Para un agujero redondo, elegí {{ui:Agregar un recorte redondo}} debajo de **Marca seleccionada**, hacé clic en su centro y luego en un punto de su borde.
 
-Un recorte tiene que estar completamente dentro del área y no puede superponerse con otro recorte. Si no, TakeoffCraft lo rechaza: "Un recorte tiene que estar completamente dentro del área." o "Los recortes no pueden superponerse entre sí."
+Un recorte tiene que estar completamente dentro del área y no puede superponerse con otro recorte. Si no, TakeoffDesk lo rechaza: "Un recorte tiene que estar completamente dentro del área." o "Los recortes no pueden superponerse entre sí."
 
 Para quitar el último agujero, elegí {{ui:Quitar el último recorte}}.
 
@@ -76,7 +76,7 @@ Un recorte pertenece a una sola marca de área. Un **retiro** se dibuja una vez 
 
 Cada marca de área de un ítem marcado en la misma hoja pierde la parte que cubre un retiro: el retiro entero cuando está adentro, solo la parte superpuesta cuando cruza el borde, y nada dentro de un recorte. El panel del área seleccionada muestra **Retiros** y el área que queda. La cantidad del ítem, sus fórmulas de ensamble, los costos, la vista 3D de verificación y la exportación usan el área que queda; las notas del presupuesto indican cuánto quitaron los retiros. El ítem de retiro en sí cuenta su propia área (dejá sus costos en cero si no lo valorizás).
 
-Un retiro tiene que ser **convexo**: un rectángulo, un círculo o cualquier contorno sin esquina hacia adentro. TakeoffCraft rechaza dibujar uno que no lo sea; dibujá un shaft en forma de L como dos retiros. Los retiros no pueden tener recortes, y dos retiros que se superponen entre sí cuentan los dos.
+Un retiro tiene que ser **convexo**: un rectángulo, un círculo o cualquier contorno sin esquina hacia adentro. TakeoffDesk rechaza dibujar uno que no lo sea; dibujá un shaft en forma de L como dos retiros. Los retiros no pueden tener recortes, y dos retiros que se superponen entre sí cuentan los dos.
 
 El perímetro (`P`) no cambia: los retiros quitan solo área.
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-layout.mjs — booklet row BK.149 in the real TakeoffCraft page, /lab, headless (session bk-r3-schedules-10): the Default
- * Policies add-on hosted in TakeoffCraft, the office's schedule layout set with the real Settings controls, and the Quantities
+ * browser-layout.mjs — booklet row BK.149 in the real TakeoffDesk page, /lab, headless (session bk-r3-schedules-10): the Default
+ * Policies add-on hosted in TakeoffDesk, the office's schedule layout set with the real Settings controls, and the Quantities
  * tables, the export and the tools taking it. The policies are the same store BimCraft reads.
  *   nice -n 10 timeout 600 node tools/takeoffcraft-test/browser-layout.mjs [--shots <dir>]      run as root (a test admin session)
  */
@@ -41,7 +41,7 @@ try {
   const ID = 'default-policies', KEY = 'cc-default-policies';
   const row = () => T((id) => { const a = window.ccAddons?.list().find((x) => x.id === id); return a ? { state: a.state, source: a.source } : null; }, ID);
   await page.waitForFunction((id) => !!window.ccAddons?.list().find((x) => x.id === id), ID, { timeout: 20000 });
-  ok((await row()).state === 'off' && (await row()).source === 'bundled', 'Default Policies is listed in TakeoffCraft and is off until switched on', await row());
+  ok((await row()).state === 'off' && (await row()).source === 'bundled', 'Default Policies is listed in TakeoffDesk and is off until switched on', await row());
   await page.setInputFiles('[data-file-pdf]', path.join(ROOT, 'fixtures/pdf/kitchen-plan-sheet.pdf'));
   await page.waitForFunction(() => window.takeoffcraft.sheets().length > 0 && !!window.takeoffcraft.sheet(), null, { timeout: 30000 });
   await page.waitForTimeout(400);
@@ -69,7 +69,7 @@ try {
   await page.waitForFunction(() => window.takeoffcraft?.ready === true && !!window.takeoffcraft.recovery, null, { timeout: 30000 });
   if (await page.evaluate(() => window.takeoffcraft.recovery) === 'asking') { await page.click('[data-autosave-discard-all]'); await page.waitForFunction(() => !document.querySelector('[data-autosave-dialog]')); }
   await page.waitForFunction((id) => window.ccAddons?.list().find((x) => x.id === id)?.state === 'active', ID, { timeout: 20000 });
-  ok(true, 'switched on: the add-on is active in TakeoffCraft');
+  ok(true, 'switched on: the add-on is active in TakeoffDesk');
   await page.setInputFiles('[data-file-pdf]', path.join(ROOT, 'fixtures/pdf/kitchen-plan-sheet.pdf'));
   await page.waitForFunction(() => window.takeoffcraft.sheets().length > 0, null, { timeout: 30000 });
   await T((json) => window.takeoffcraft.model.load(JSON.parse(json)), keep);
@@ -81,7 +81,7 @@ try {
   const tab = await page.$('dialog[data-app-settings] [data-settings-tab="general"]'); if (tab) await tab.click();
   await page.click('dialog[data-app-settings] .shell-sec-nav button:text-is("Default Policies") >> visible=true').catch(() => {});
   const secs = await T(() => ({ global: !!document.querySelector('[data-dp-global]'), app: !!document.querySelector('[data-dp-app]'), group: !!document.querySelector('[data-dp-global] [data-dp-group="schedules"]'), ids: [...document.querySelectorAll('[data-dp-global] [data-dp^="all.schedule."]')].map((n) => n.getAttribute('data-dp')) }));
-  ok(secs.global && !secs.app && secs.group && secs.ids.join() === 'all.schedule.group,all.schedule.totals,all.schedule.title,all.schedule.headings', 'Settings › Global › Default Policies has "Schedule layout (the office standard)" with its four policies; TakeoffCraft has no section of its own', secs);
+  ok(secs.global && !secs.app && secs.group && secs.ids.join() === 'all.schedule.group,all.schedule.totals,all.schedule.title,all.schedule.headings', 'Settings › Global › Default Policies has "Schedule layout (the office standard)" with its four policies; TakeoffDesk has no section of its own', secs);
   await page.selectOption('[data-dp-global] [data-dp="all.schedule.group"]', 'type');
   await page.selectOption('[data-dp-global] [data-dp="all.schedule.totals"]', 'groups');
   await page.selectOption('[data-dp-global] [data-dp="all.schedule.headings"]', 'upper');

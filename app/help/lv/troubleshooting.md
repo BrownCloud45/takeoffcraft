@@ -1,11 +1,11 @@
 ---
 title: Problēmu novēršana
-summary: Simptomi, cēloņi un risinājumi ziņojumiem un pārsteigumiem, ar kuriem var sastapties TakeoffCraft, citēti tā, kā lietotne tos rāda.
+summary: Simptomi, cēloņi un risinājumi ziņojumiem un pārsteigumiem, ar kuriem var sastapties TakeoffDesk, citēti tā, kā lietotne tos rāda.
 keywords: problēmas, kļūdas, nedarbojas, labošana, palīdzība, noraidīts, nemēra, nav mēroga, trūkst atzīmju, eksports neizdevās, bezsaiste, skāriens
 from: cd319c9b
 ---
 
-TakeoffCraft paskaidro lielāko daļu atteikumu statusa joslā loga apakšā. Atrodiet tālāk esošo ziņojumu.
+TakeoffDesk paskaidro lielāko daļu atteikumu statusa joslā loga apakšā. Atrodiet tālāk esošo ziņojumu.
 
 ## Failu atvēršana
 
@@ -15,8 +15,8 @@ TakeoffCraft paskaidro lielāko daļu atteikumu statusa joslā loga apakšā. At
 | (name) ir aizsargāts ar paroli. Atveriet kopiju bez aizsardzības. | PDF atvēršanai vajag paroli. | Pieprasiet kopiju bez aizsardzības vai noņemiet paroli PDF programmā, kurai uzticaties. |
 | (name) nevarēja nolasīt kā PDF (…) | Fails ir bojāts vai patiesībā nav PDF. | Lejupielādējiet to vēlreiz vai saglabājiet no programmas, kas to izveidoja. |
 | (name) jau ir atvērts. | Tas pats PDF (tāds pats saturs) ir atvērts. | Nav jādara nekas. |
-| TakeoffCraft atver PDF un .takeoff.json projektus. Izlaists: … | Citi failu tipi tika izlaisti. | Vispirms pārveidojiet rasējumus PDF. |
-| Nekas nenotiek, kad nometu failus | Faili tika nomesti ārpus pārlūka loga, vai pārlūks atvēra PDF jaunā cilnē. | Nometiet uz pašas TakeoffCraft lapas; rāmis "Nometiet PDF failus vai .takeoff.json" rāda, kad tas darbosies. |
+| TakeoffDesk atver PDF un .takeoff.json projektus. Izlaists: … | Citi failu tipi tika izlaisti. | Vispirms pārveidojiet rasējumus PDF. |
+| Nekas nenotiek, kad nometu failus | Faili tika nomesti ārpus pārlūka loga, vai pārlūks atvēra PDF jaunā cilnē. | Nometiet uz pašas TakeoffDesk lapas; rāmis "Nometiet PDF failus vai .takeoff.json" rāda, kad tas darbosies. |
 | Lielas komplekta atvēršana aizņem laiku | Katrs PDF tiek nolasīts pilnībā, lai to identificētu. | Nogaidiet, līdz pazūd ziņojums "Opening (name)…". Sīkbildes tiek aizpildītas, ritinot. |
 
 ## Mērīšana
@@ -47,7 +47,7 @@ TakeoffCraft paskaidro lielāko daļu atteikumu statusa joslā loga apakšā. At
 | Ziņojums vai simptoms | Cēlonis | Risinājums |
 |---|---|---|
 | Izvēlieties divus punktus tālāk viens no otra. | Kalibrēšanas punkti gandrīz atrodas viens uz otra. | Kalibrējiet pēc garāka izmēra. |
-| Ziņojums kalibrēšanas dialogā, piemēram, "Attālumu nevarēja nolasīt" | Attālums ir tādā formātā, ko TakeoffCraft nevar nolasīt. | Skatiet [Garuma, likmes un procentu ievadi](topic:entry-formats). |
+| Ziņojums kalibrēšanas dialogā, piemēram, "Attālumu nevarēja nolasīt" | Attālums ir tādā formātā, ko TakeoffDesk nevar nolasīt. | Skatiet [Garuma, likmes un procentu ievadi](topic:entry-formats). |
 | Šai lapai vēl nav mēroga, tāpēc nav ko pārbaudīt. Kalibrējiet to vai izvēlieties iepriekš iestatītu. | {{ui:Pārbaudīt}} lapā bez mēroga. | Vispirms iestatiet mērogu. |
 | Saraksts {{ui:Iepriekš iestatīts}} ir pelēks | Nav atvērta neviena lapa. | Atveriet PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft paskaidro lielāko daļu atteikumu statusa joslā loga apakšā. At
 | Šis PDF ir aizsargāts ar paroli vai šifrēts, tāpēc atzīmēto kopiju nevar ierakstīt. … | PDF ir šifrēts. | Eksportējiet {{ui:XLSX}}, vai izmantojiet PDF kopiju bez šifrēšanas (tai tad vajadzīgs sava apjomu aprēķins, jo tas ir cits fails). |
 | Atzīmēto PDF nevarēja ierakstīt: … | Bieži: esat bezsaistē, un lietotne nav saglabāta darbam bezsaistē, tāpēc PDF rakstītājs nav pieejams. | Pārejiet tiešsaistē un vēlreiz izvēlieties {{ui:Atzīmēts PDF}}. Lai to novērstu, izvēlieties {{ui:Saglabāt bezsaistei}} un nogaidiet {{ui:Gatavs darbam bezsaistē}}. |
 | Lejupielādējās tikai viens atzīmēts PDF | Pārlūks bloķēja vairākas lejupielādes vienlaikus. | Atļaujiet šai vietnei vairākas lejupielādes un eksportējiet vēlreiz. |
-| (file) nav TakeoffCraft projekts (tas nav derīgs JSON). / Šis nav TakeoffCraft projekta fails. | Nepareizs fails vai bojāts. | Izvēlieties `.takeoff.json` failu. |
-| Šo projektu saglabāja jaunāka TakeoffCraft versija. Atveriet to tur. | Fails ir no jaunākas versijas. | Atveriet to jaunākajā versijā. |
+| (file) nav TakeoffDesk projekts (tas nav derīgs JSON). / Šis nav TakeoffDesk projekta fails. | Nepareizs fails vai bojāts. | Izvēlieties `.takeoff.json` failu. |
+| Šo projektu saglabāja jaunāka TakeoffDesk versija. Atveriet to tur. | Fails ir no jaunākas versijas. | Atveriet to jaunākajā versijā. |
 | (n) atzīmes tika sabojātas un izlaistas. | Daļa no faila tika sabojāta vai rediģēta ar roku. | Pārējais atvērās. Pārzīmējiet trūkstošās atzīmes vai atveriet vecāku kopiju. |
 | Pēc atkārtotas atvēršanas trūkst atzīmju | PDF nav atvērti vai viens no tiem ir mainīts. | Skatiet [Apjomu aprēķina saglabāšana un atkārtota atvēršana](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Pārlūks jautā, vai pamest vietni | Ir nesaglabātas izmaiņas. | Paliekiet un saglabājiet ar {{key:Mod+S}}. |

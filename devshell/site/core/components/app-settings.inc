@@ -256,22 +256,6 @@ $__shell_ui = !empty($__build['is_dev']) || (preg_match('/^\d{1,3}\.\d{1,3}(\.\d
 <?php endif; ?>
 
 <?php if ($__shell_07): /* 0.7: one switch for every app's first-time tour (localStorage cc-tours, site-wide like the theme); each app's own tab keeps its own */ ?>
-      <?php /* Hardware specs (owner 2026-10-24): one switch for every app (localStorage cc-hw-share; app-settings.js). On the web the
-         specs are shared unless this is ticked; in the desktop app they are not, unless it is unticked. The apps' compute/report.js asks. */ ?>
-      <fieldset data-sec-group="other" class="shell-set" data-hw-set>
-        <legend><?= Lang::e('shell.hw.legend') ?></legend>
-        <label class="shell-check"><input type="checkbox" name="hwNoShare" data-hw-noshare> <span data-hw-label><?= Lang::e('shell.hw.noshare') ?></span></label>
-        <p class="shell-hint-text"><?= Lang::e('shell.hw.why') ?></p>
-        <p class="shell-hint-text" data-hw-default></p>
-<?php if (!empty($__build['is_dev'])): /* NET.1 (Lucas, Discord 2026-11-12): the desktop box is a plain opt-in ("Share …", ticked = sent), and anyone can
-         read the exact report this app would send (compute/report.js keeps it in window.ccHardwarePreview; nothing is sent to show it). */ ?>
-        <details class="shell-hint-text" data-hw-preview>
-          <summary><?= Lang::e('shell.hw.preview') ?></summary>
-          <p data-hw-preview-none><?= Lang::e('shell.hw.preview.none') ?></p>
-          <pre data-hw-json hidden style="white-space:pre-wrap;max-height:16rem;overflow:auto;font-size:.75rem"></pre>
-        </details>
-<?php endif; ?>
-      </fieldset>
 <?php if (!empty($__build['is_dev'])): /* 0.8 D8.14: one switch for every app's full-screen crosshair (localStorage cc-crosshair; app-crosshair.js) */ ?>
       <fieldset data-sec-group="interface" class="shell-set" data-crosshair-set>
         <legend><?= Lang::e('shell.crosshair.legend') ?></legend>

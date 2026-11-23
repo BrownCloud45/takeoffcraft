@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Zapisz bieżący przedmiar, jeśli chcesz go zachować: {{ui:Zapisz przedmiar}} albo {{key:Mod+S}}.
 2. Wybierz {{ui:Nowy}} w grupie {{ui:Plik}}.
-3. Jeśli są niezapisane zmiany, TakeoffCraft pyta **Niezapisany przedmiar**: wybierz {{ui:Najpierw zapisz przedmiar}} (pobiera projekt, a potem czyści), {{ui:Odrzuć zmiany}} albo {{ui:Anuluj}}.
+3. Jeśli są niezapisane zmiany, TakeoffDesk pyta **Niezapisany przedmiar**: wybierz {{ui:Najpierw zapisz przedmiar}} (pobiera projekt, a potem czyści), {{ui:Odrzuć zmiany}} albo {{ui:Anuluj}}.
    Okno wraca do stanu pustego: bez PDF-ów, bez pozycji, bez oznaczeń i bez skal. Pasek stanu mówi: „Nowy przedmiar. Otwórz pliki PDF, aby zacząć.”
 
 Zostaje wyczyszczone:

@@ -1,6 +1,6 @@
 ---
 title: Contar todo el juego
-summary: Enmarque una vez la leyenda de símbolos y TakeoffCraft cuenta cada símbolo de ella en cada hoja abierta en una sola ejecución. Cada conteo es un vínculo a su hoja, y usted revisa antes de que se agregue nada.
+summary: Enmarque una vez la leyenda de símbolos y TakeoffDesk cuenta cada símbolo de ella en cada hoja abierta en una sola ejecución. Cada conteo es un vínculo a su hoja, y usted revisa antes de que se agregue nada.
 keywords: contar todo, leyenda, leyenda de símbolos, juego completo, cada hoja, todas las hojas, cada puerta, cada accesorio, dispositivos, cédula, símbolos, conteo automático, juego de planos, 200 hojas, nivel de coincidencia, parecidos
 from: adc99744
 ---

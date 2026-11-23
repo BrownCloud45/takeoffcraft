@@ -5,7 +5,7 @@ keywords: tak, taklutning, lutning, lutningsfaktor, stigning, sträcka, 6:12, ga
 from: 38225b60
 ---
 
-En takplan visar varje takplan platt, sett uppifrån. Själva taket är större: ett plan på 6:12 har cirka 12 % mer yta än sin planarea, och dess lutande kanter är längre än de ser ut. Ge posten dess taklutning så mäter TakeoffCraft längs lutningen.
+En takplan visar varje takplan platt, sett uppifrån. Själva taket är större: ett plan på 6:12 har cirka 12 % mer yta än sin planarea, och dess lutande kanter är längre än de ser ut. Ge posten dess taklutning så mäter TakeoffDesk längs lutningen.
 
 ## Skriva in en taklutning
 

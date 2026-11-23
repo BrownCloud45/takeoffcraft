@@ -1,6 +1,6 @@
 ---
 title: Laske kaikki sarjasta
-summary: Rajaa symbolien selite kerran, ja TakeoffCraft laskee jokaisen siinä olevan symbolin jokaiselta avoimelta arkilta yhdellä ajolla. Jokainen laskenta on linkki arkkiinsa, ja tarkistat ennen kuin mitään lisätään.
+summary: Rajaa symbolien selite kerran, ja TakeoffDesk laskee jokaisen siinä olevan symbolin jokaiselta avoimelta arkilta yhdellä ajolla. Jokainen laskenta on linkki arkkiinsa, ja tarkistat ennen kuin mitään lisätään.
 keywords: laske kaikki, selite, symbolien selite, koko sarja, jokainen arkki, kaikki arkit, jokainen ovi, jokainen kaluste, laitteet, luettelo, symbolit, automaattilaskenta, laske kaikki, piirustussarja, 200 arkkia, vastaavuustaso, samannäköinen
 from: adc99744
 ---

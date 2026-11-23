@@ -5,7 +5,7 @@ keywords: toprak işleri, kazı, dolgu, kazı ve dolgu, tesviye, nokta kotu, kot
 from: a898e508
 ---
 
-TakeoffCraft bir sayfa üzerinde çizilenleri ölçer. Toprak işleri bir arazi yüzeyi gerektirir; bu yüzden CivilCraft ile ortak kullanılır. CivilCraft noktalardan yüzeyler oluşturur, bunları tesviye eder ve kazı, dolgu ve taşıma miktarlarını hesaplar.
+TakeoffDesk bir sayfa üzerinde çizilenleri ölçer. Toprak işleri bir arazi yüzeyi gerektirir; bu yüzden CivilCraft ile ortak kullanılır. CivilCraft noktalardan yüzeyler oluşturur, bunları tesviye eder ve kazı, dolgu ve taşıma miktarlarını hesaplar.
 
 ## Burada basit kazı
 
@@ -29,8 +29,8 @@ Farklı sayfalardaki noktalar koordinat paylaşmaz; bu yüzden dışa aktarım y
 
 CivilCraft'ın toprak işi sonuçları, fiyatlandırabileceğiniz iki kalem olarak geri gelir:
 
-1. CivilCraft'ta tesviye platformlarınızı ve koridorlarınızı tesviye edin, sonra **Toprak işleri** altında {{ui:TakeoffCraft'a gönder}} seçeneğini seçin ([Toprak işi hacimleri](app:civilcraft/volumes)). Bir miktar dosyası (`.quantities.json`) kaydedilir.
-2. TakeoffCraft'ta {{ui:Metraj aç}} ile açın veya dosyayı uygulamaya bırakın. Metrajınız açık kalır: dosya, **Toprak işleri: kazı** ve **Toprak işleri: dolgu** kalemlerini ekler; fit cinsinden bir proje için kübik yard (CY), metre cinsinden bir proje için metreküp (m³) olarak [yazılmış miktarlar](topic:create-items#typed-quantities-no-drawing) şeklindedir. Bu tek bir adımdır: {{key:Mod+Z}} ile geri alınır.
+1. CivilCraft'ta tesviye platformlarınızı ve koridorlarınızı tesviye edin, sonra **Toprak işleri** altında {{ui:TakeoffDesk'a gönder}} seçeneğini seçin ([Toprak işi hacimleri](app:civilcraft/volumes)). Bir miktar dosyası (`.quantities.json`) kaydedilir.
+2. TakeoffDesk'ta {{ui:Metraj aç}} ile açın veya dosyayı uygulamaya bırakın. Metrajınız açık kalır: dosya, **Toprak işleri: kazı** ve **Toprak işleri: dolgu** kalemlerini ekler; fit cinsinden bir proje için kübik yard (CY), metre cinsinden bir proje için metreküp (m³) olarak [yazılmış miktarlar](topic:create-items#typed-quantities-no-drawing) şeklindedir. Bu tek bir adımdır: {{key:Mod+Z}} ile geri alınır.
 3. Bunları yeniden adlandırın; fire, birim fiyatları ve birim maliyetleri dilediğiniz gibi ayarlayın.
 
 Tasarım değiştiğinde CivilCraft'tan yeniden gönderin ve yeni dosyayı açın: aynı iki kalem yeni miktarları alır. Adları, birim fiyatları, fireleri ve birim maliyetleri ayarladığınız gibi kalır. Projenin birimi değiştiyse durum çubuğu bunu bildirir; birim fiyatları kontrol edin. Başka bir CivilCraft projesinden gelen bir dosya kendi iki kalemini ekler.

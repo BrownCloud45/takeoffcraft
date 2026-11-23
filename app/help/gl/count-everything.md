@@ -1,6 +1,6 @@
 ---
 title: Contar todo o conxunto
-summary: Enmarque unha vez a lenda de símbolos e TakeoffCraft conta cada símbolo dela en cada folla aberta nunha soa pasada. Cada contaxe é unha ligazón á súa folla, e revisa antes de engadir nada.
+summary: Enmarque unha vez a lenda de símbolos e TakeoffDesk conta cada símbolo dela en cada folla aberta nunha soa pasada. Cada contaxe é unha ligazón á súa folla, e revisa antes de engadir nada.
 keywords: contar todo, lenda, lenda de símbolos, conxunto completo, cada folla, todas as follas, cada porta, cada accesorio, dispositivos, cadro, símbolos, contaxe automática, contar todo, conxunto de planos, 200 follas, nivel de coincidencia, parecidos
 from: adc99744
 ---

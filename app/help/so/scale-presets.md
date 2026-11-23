@@ -49,4 +49,4 @@ Miisaan la hagaajiyay wuxuu ku muuqdaa sida "La hagaajiyay 1" = 4.002' on 24'-6"
 
 ## Naqshado aan caadi ahayn
 
-Qaar PDF-yo waxay ku caddeeyaan unug bog oo weyn (user unit); TakeoffCraft wuu ka qaadaa diyaarrada iyo miisaanka la muujiyo. Bogagga PDF-ka ee la wareejiyay waxaa loo qiyaasaa sida kuwa toosan.
+Qaar PDF-yo waxay ku caddeeyaan unug bog oo weyn (user unit); TakeoffDesk wuu ka qaadaa diyaarrada iyo miisaanka la muujiyo. Bogagga PDF-ka ee la wareejiyay waxaa loo qiyaasaa sida kuwa toosan.

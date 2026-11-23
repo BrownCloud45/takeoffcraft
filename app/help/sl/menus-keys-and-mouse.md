@@ -5,22 +5,22 @@ keywords: slog menija, meniji, menijska vrstica, trak, zavihki traku, orodna vrs
 from: f01f0d6d
 ---
 
-Ukazi TakeoffCraft so enaki, ne glede na to, kako do njih pridete. **Slog menija** določa le, kje so na zaslonu, kako se imenujejo in s katerimi tipkami se izvedejo. Izberite ga v {{ui:Nastavitve}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Meniji, tipke in miška}}; sprememba začne veljati takoj, ta brskalnik si jo zapomni.
+Ukazi TakeoffDesk so enaki, ne glede na to, kako do njih pridete. **Slog menija** določa le, kje so na zaslonu, kako se imenujejo in s katerimi tipkami se izvedejo. Izberite ga v {{ui:Nastavitve}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Meniji, tipke in miška}}; sprememba začne veljati takoj, ta brskalnik si jo zapomni.
 
 ## Trije slogi
 
 | Slog | Kaj dobite |
 |---|---|
-| {{ui:TakeoffCraft}} | Lastna orodna vrstica TakeoffCraft: {{ui:Datoteka}}, {{ui:Izvoz}}, {{ui:Merilo}}, {{ui:Predizmere}}, {{ui:Urejanje}} in {{ui:Pogled}}, z enojnimi tipkami orodij. Začetek. |
+| {{ui:TakeoffDesk}} | Lastna orodna vrstica TakeoffDesk: {{ui:Datoteka}}, {{ui:Izvoz}}, {{ui:Merilo}}, {{ui:Predizmere}}, {{ui:Urejanje}} in {{ui:Pogled}}, z enojnimi tipkami orodij. Začetek. |
 | {{ui:Miza za predizmere}} | Menijska vrstica ({{ui:Datoteka}}, {{ui:Urejanje}}, {{ui:Pogled}}, {{ui:Merilo}}, {{ui:Predizmere}}, {{ui:Postavke}}, {{ui:Označba}}, {{ui:Izvoz}}) nad eno vrsto orodij za predizmero, na način, kot so na zaslonu urejeni programi za predizmero. Postavke se na vrstici imenujejo pogoji. Enake tipke, plus {{key:N}} za novo postavko. Predloge merila se premaknejo na vrstico lista, ob merilu lista. |
 | {{ui:Trak za predizmere}} | Zavihki traku, poimenovani po delu: {{ui:Predizmere}} (meri, oblikuje, merilo, iz risbe, pogoji), {{ui:Urejanje}}, {{ui:Pogled}}, {{ui:Označba}} in {{ui:Predračun}} (delovni zvezek, označeni PDF-ji, ponudba), z menijem {{ui:Datoteka}} in hitro vrstico za odpiranje, shranjevanje, razveljavitev in uveljavitev. Orodja, ki jih uporabljate ves dan, so velika, sosednja pa majhna in zložena. Enake tipke; predloge merila se premaknejo na vrstico lista. |
 
-Vsi trije slogi ohranijo tipke TakeoffCraft: {{key:V}} izberi, {{key:L}} linijsko, {{key:A}} površina, {{key:O}} krožnica, {{key:B}} prostor, {{key:P}} pot (izberite črte PDF), {{key:X}} odprtina, {{key:C}} štetje, {{key:S}} samodejno štetje, {{key:K}} kalibriraj, {{key:D}} preveri, {{key:R}} način loka, {{key:E}} način odbitka, {{key:F}} in {{key:W}} za prilagoditev, {{key:3}} 3D pregled, {{key:F3}} lovljenje ter {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Vsi trije slogi ohranijo tipke TakeoffDesk: {{key:V}} izberi, {{key:L}} linijsko, {{key:A}} površina, {{key:O}} krožnica, {{key:B}} prostor, {{key:P}} pot (izberite črte PDF), {{key:X}} odprtina, {{key:C}} štetje, {{key:S}} samodejno štetje, {{key:K}} kalibriraj, {{key:D}} preveri, {{key:R}} način loka, {{key:E}} način odbitka, {{key:F}} in {{key:W}} za prilagoditev, {{key:3}} 3D pregled, {{key:F3}} lovljenje ter {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Orodja vrstice lista (opombe, oblaki, poudarki, primerjava, 3D) čakajo, da je odprt PDF; če jih izberete prej, vrstica stanja to pove.
 
 :::tip
-Tipka, ki pripada postavitvi TakeoffCraft, a jo je vaš slog dodelil drugemu ukazu, ne naredi ničesar, vrstica stanja pa pove, kam je šel njen ukaz („V Moje tipke je Štetje Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} in puščice ohranijo svoj pomen. Med risanjem odseka ali obrisa, lepljenjem ali pregledom samodejnega štetja ostanejo črke in številke vpisane dolžine pri risbi.
+Tipka, ki pripada postavitvi TakeoffDesk, a jo je vaš slog dodelil drugemu ukazu, ne naredi ničesar, vrstica stanja pa pove, kam je šel njen ukaz („V Moje tipke je Štetje Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} in puščice ohranijo svoj pomen. Med risanjem odseka ali obrisa, lepljenjem ali pregledom samodejnega štetja ostanejo črke in številke vpisane dolžine pri risbi.
 :::
 
 ## Naredite po svoje
@@ -41,12 +41,12 @@ Shranjevanje vgrajenega sloga ustvari vašo kopijo („Moja miza za predizmere�
 
 ## Vzemite s seboj
 
-{{ui:Izvoz}} shrani slog v uporabi kot majhno datoteko `.ccinput.json`; {{ui:Uvozi…}} doda enega iz drugega računalnika ali od sodelavca. Uvožena datoteka lahko kaže samo na ukaze TakeoffCraft: vse drugo se izpusti in prešteje v vrstici stanja. {{ui:Izbriši ta slog}} odstrani enega od vaših.
+{{ui:Izvoz}} shrani slog v uporabi kot majhno datoteko `.ccinput.json`; {{ui:Uvozi…}} doda enega iz drugega računalnika ali od sodelavca. Uvožena datoteka lahko kaže samo na ukaze TakeoffDesk: vse drugo se izpusti in prešteje v vrstici stanja. {{ui:Izbriši ta slog}} odstrani enega od vaših.
 
 :::note
-Te nastavitve ostanejo v tem brskalniku. {{ui:Uporabi ta slog v vseh programih}} pod karticami slogov naredi, da se vsak program odpre v ustreznem slogu (lastna orodna vrstica, menijska vrstica ali trak), z vašimi spremembami v vsakem programu. TakeoffCraft nima sloga z ukazno vrstico: ko je izbran za vse programe, TakeoffCraft obdrži svojo orodno vrstico.
+Te nastavitve ostanejo v tem brskalniku. {{ui:Uporabi ta slog v vseh programih}} pod karticami slogov naredi, da se vsak program odpre v ustreznem slogu (lastna orodna vrstica, menijska vrstica ali trak), z vašimi spremembami v vsakem programu. TakeoffDesk nima sloga z ukazno vrstico: ko je izbran za vse programe, TakeoffDesk obdrži svojo orodno vrstico.
 
-{{ui:Trak za predizmere}} je tudi trak postavitve {{ui:Trak in brskalnik projekta}} ({{ui:Nastavitve}} › {{ui:Globalno}} › {{ui:Razporeditev}}): glejte [Zaslon TakeoffCraft](topic:workspace).
+{{ui:Trak za predizmere}} je tudi trak postavitve {{ui:Trak in brskalnik projekta}} ({{ui:Nastavitve}} › {{ui:Globalno}} › {{ui:Razporeditev}}): glejte [Zaslon TakeoffDesk](topic:workspace).
 :::
 
-Sorodno: [Tipke in miška](topic:keyboard) · [Nastavitve TakeoffCraft](topic:settings) · [Prihod iz drugih programov za predizmere](topic:coming-from)
+Sorodno: [Tipke in miška](topic:keyboard) · [Nastavitve TakeoffDesk](topic:settings) · [Prihod iz drugih programov za predizmere](topic:coming-from)

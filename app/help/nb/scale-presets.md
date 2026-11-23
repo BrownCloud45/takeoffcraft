@@ -49,4 +49,4 @@ En kalibrert målestokk vises som «Kalibrert 1" = 4.002' på 24'-6""» i linjen
 
 ## Uvanlige PDF-er
 
-Noen PDF-er oppgir en større sideenhet («brukerenhet»); TakeoffCraft tar den med i betraktning for forvalg og for målestokken som vises. Sider som er rotert i PDF-en, måles på samme måte som rette sider.
+Noen PDF-er oppgir en større sideenhet («brukerenhet»); TakeoffDesk tar den med i betraktning for forvalg og for målestokken som vises. Sider som er rotert i PDF-en, måles på samme måte som rette sider.

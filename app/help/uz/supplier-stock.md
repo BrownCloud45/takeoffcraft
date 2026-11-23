@@ -1,6 +1,6 @@
 ---
 title: Taʼminotchi zaxirasi va yetkazib berish muddatlarini tekshirish
-summary: Taʼminotchi zaxira roʻyxatini (CSV yoki elektron jadval) qoʻshing, va TakeoffCraft hajm talab qilgan narsani, chiqindi bilan birga, unga qarshi tekshiradi: zaxirada yetarlimi va kutish qancha. Yetishmovchiliklar va uzoq kutishlar Muammolar panelida koʻrinadi.
+summary: Taʼminotchi zaxira roʻyxatini (CSV yoki elektron jadval) qoʻshing, va TakeoffDesk hajm talab qilgan narsani, chiqindi bilan birga, unga qarshi tekshiradi: zaxirada yetarlimi va kutish qancha. Yetishmovchiliklar va uzoq kutishlar Muammolar panelida koʻrinadi.
 keywords: taʼminotchi, zaxira, zaxirada bor, yetkazib berish muddati, mavjudlik, yetishmovchilik, kechiktirilgan buyurtma, buyurtma roʻyxati, csv, sku, sotuvchi, materiallar, taʼminot, muammolar
 from: f11160fb
 ---

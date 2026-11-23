@@ -55,4 +55,4 @@ Lapas mērogs norāda, cik liels ir rasējums; vienuma mērvienība norāda, kā
 
 ## Precizitāte
 
-TakeoffCraft mēra precīzi no punktiem, uz kuriem noklikšķināt, tostarp patiesos loku garumus un laukumus, un daudzumus nenoapaļo. Rādījumā garumi tiek noapaļoti līdz 1/16 collai un decimāldaļas līdz diviem cipariem. Nauda tiek noapaļota tikai pagarinātajās summās, līdz centam.
+TakeoffDesk mēra precīzi no punktiem, uz kuriem noklikšķināt, tostarp patiesos loku garumus un laukumus, un daudzumus nenoapaļo. Rādījumā garumi tiek noapaļoti līdz 1/16 collai un decimāldaļas līdz diviem cipariem. Nauda tiek noapaļota tikai pagarinātajās summās, līdz centam.

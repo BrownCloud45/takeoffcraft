@@ -32,11 +32,11 @@ Ielīmētās atzīmes nonāk tāmes zonā, kas izvēlēta {{ui:Vienumi}} paneļa
 
 {{key:Mod+Shift+V}} ({{ui:Ielīmēt vietā}}) novieto kopiju tieši tajā pašā vietā atvērtajā lapā, pēc tās pozīcijas uz lapas. Izmantojiet to tipiskam stāvam: atzīmējiet 2. līmeni, kopējiet, atveriet 3. līmeni un ielīmējiet vietā.
 
-Ielīmēt vietā nepieciešama lapa **tāda paša izmēra** kā tā, no kuras kopējāt. Lapā citā izmērā TakeoffCraft to paziņo un neko neielīmē; izmantojiet {{ui:Ielīmēt}} un noklikšķiniet. Lapā, no kuras kopējāt, kopija nonāk virs oriģinālajām atzīmēm.
+Ielīmēt vietā nepieciešama lapa **tāda paša izmēra** kā tā, no kuras kopējāt. Lapā citā izmērā TakeoffDesk to paziņo un neko neielīmē; izmantojiet {{ui:Ielīmēt}} un noklikšķiniet. Lapā, no kuras kopējāt, kopija nonāk virs oriģinālajām atzīmēm.
 
 ## Mēroga jāsakrīt
 
-Garumi un laukumi ir atkarīgi no lapas mēroga. Posms, kas mēra 10' pie 1/4" = 1'-0", pie 1/8" = 1'-0" mērītu 20'. Tāpēc TakeoffCraft ielīmē posmus un laukumus tikai lapā ar **tādu pašu mērogu** kā lapa, no kuras tie nākuši, un skaidri to saka, ja tas tā nav:
+Garumi un laukumi ir atkarīgi no lapas mēroga. Posms, kas mēra 10' pie 1/4" = 1'-0", pie 1/8" = 1'-0" mērītu 20'. Tāpēc TakeoffDesk ielīmē posmus un laukumus tikai lapā ar **tādu pašu mērogu** kā lapa, no kuras tie nākuši, un skaidri to saka, ja tas tā nav:
 
 - Atvērtajai lapai vēl nav mēroga: vispirms piešķiriet to ([Mēroga iestatīšana](topic:set-the-scale)), tad ielīmējiet.
 - Atvērtajai lapai ir cits mērogs: ziņojumā minēti abi mērogi. Ielīmējiet lapā ar tādu pašu mērogu.
@@ -59,7 +59,7 @@ Vienuma redaktors (zem **Vienumi**) beidzas ar:
 - {{ui:Dublēt pozīciju}}: tūlīt pievieno kopiju ar nosaukumu „(nosaukums) (kopija)”.
 
 :::tip
-Kopija paliek šajā datorā: tā tiek glabāta šajā cilnē un pārlūkprogrammas krātuvē, tātad cita TakeoffCraft cilne var to ielīmēt. Nekas netiek augšupielādēts, un sistēmas starpliktuve netiek izmantota, tāpēc atzīmes nevar ielīmēt citās programmās.
+Kopija paliek šajā datorā: tā tiek glabāta šajā cilnē un pārlūkprogrammas krātuvē, tātad cita TakeoffDesk cilne var to ielīmēt. Nekas netiek augšupielādēts, un sistēmas starpliktuve netiek izmantota, tāpēc atzīmes nevar ielīmēt citās programmās.
 :::
 
 :::note

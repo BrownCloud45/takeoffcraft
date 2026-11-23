@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, Zeichnung, Zeichnung öffnen, Layouts, Modellbereich, P
 from: d8c3f504
 ---
 
-TakeoffCraft öffnet eine DWG- oder DXF-Zeichnung wie eine PDF: Sie müssen sie nicht vorher als PDF plotten. Das Zählen direkt aus der Zeichnung ist exakt, weil die Zeichnung weiß, was jedes Objekt ist. Siehe [Aus einer Zeichnung zählen](topic:count-from-a-drawing).
+TakeoffDesk öffnet eine DWG- oder DXF-Zeichnung wie eine PDF: Sie müssen sie nicht vorher als PDF plotten. Das Zählen direkt aus der Zeichnung ist exakt, weil die Zeichnung weiß, was jedes Objekt ist. Siehe [Aus einer Zeichnung zählen](topic:count-from-a-drawing).
 
 ## Die Zeichnung öffnen
 
@@ -13,9 +13,9 @@ TakeoffCraft öffnet eine DWG- oder DXF-Zeichnung wie eine PDF: Sie müssen sie 
 2. Wählen Sie die DWG- oder DXF-Datei. Sie können mehrere wählen, auch zusammen mit PDFs.
 3. Öffnen wählen.
 
-Sie können Zeichnungsdateien auch wie PDFs auf TakeoffCraft ziehen und dort ablegen. Nichts wird hochgeladen: Der Browser liest die Datei auf Ihrem Computer.
+Sie können Zeichnungsdateien auch wie PDFs auf TakeoffDesk ziehen und dort ablegen. Nichts wird hochgeladen: Der Browser liest die Datei auf Ihrem Computer.
 
-TakeoffCraft liest DWG von AutoCAD 2000 bis 2018 und ASCII-DXF von R12 bis 2018. Eine binäre DXF lehnt es ab (speichern Sie sie als ASCII oder als DWG), ebenso eine Datei, die keines von beiden ist, und es nennt den Grund. Eine beschädigte Datei öffnet sich mit dem, was gelesen werden konnte; eine Meldung sagt das, und ihre Zählungen sind möglicherweise unvollständig.
+TakeoffDesk liest DWG von AutoCAD 2000 bis 2018 und ASCII-DXF von R12 bis 2018. Eine binäre DXF lehnt es ab (speichern Sie sie als ASCII oder als DWG), ebenso eine Datei, die keines von beiden ist, und es nennt den Grund. Eine beschädigte Datei öffnet sich mit dem, was gelesen werden konnte; eine Meldung sagt das, und ihre Zählungen sind möglicherweise unvollständig.
 
 ## Blätter
 
@@ -40,10 +40,10 @@ Ein Blatt beginnt mit dem Maßstab, den die Zeichnung angibt:
 
 ## Externe Referenzen (Xrefs)
 
-Eine Zeichnung, die andere Zeichnungen verknüpft, zeigt sie an den Stellen, an denen sie eingefügt sind. TakeoffCraft findet eine verknüpfte Zeichnung unter den **geöffneten Dateien** anhand ihres Dateinamens: Öffnen Sie die Hauptzeichnung und die verknüpfte Zeichnung zusammen (oder nacheinander). Bis dahin sagt die Statusleiste, wie viele verknüpfte Zeichnungen nicht gefunden wurden, dass ihre Darstellung fehlt, und die Zählungen weisen darauf hin.
+Eine Zeichnung, die andere Zeichnungen verknüpft, zeigt sie an den Stellen, an denen sie eingefügt sind. TakeoffDesk findet eine verknüpfte Zeichnung unter den **geöffneten Dateien** anhand ihres Dateinamens: Öffnen Sie die Hauptzeichnung und die verknüpfte Zeichnung zusammen (oder nacheinander). Bis dahin sagt die Statusleiste, wie viele verknüpfte Zeichnungen nicht gefunden wurden, dass ihre Darstellung fehlt, und die Zählungen weisen darauf hin.
 
 ## Grenzen
 
-- Objekte, die TakeoffCraft nicht lesen oder platzieren kann (Proxy-Objekte, unbekannte Klassen), werden im Zählfenster nach Typ aufgelistet; sie werden nie stillschweigend weggelassen.
+- Objekte, die TakeoffDesk nicht lesen oder platzieren kann (Proxy-Objekte, unbekannte Klassen), werden im Zählfenster nach Typ aufgelistet; sie werden nie stillschweigend weggelassen.
 - Sehr große Zeichnungen werden teilweise gezeichnet, und Zählungen brechen bei einer Obergrenze ab, was angezeigt wird. Öffnen Sie in einem solchen Fall stattdessen eine PDF-Plotdatei der Zeichnung.
 - Eine Zeichnung wird schwarz und in ihren eigenen Farben gezeichnet, für weißes Papier abgedunkelt. Plotstiltabellen und Stiftzuweisungen werden nicht angewendet.

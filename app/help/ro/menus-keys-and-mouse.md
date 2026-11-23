@@ -5,22 +5,22 @@ keywords: stil de meniu, meniuri, bară de meniu, panglică, file ale panglicii,
 from: f01f0d6d
 ---
 
-Comenzile TakeoffCraft sunt aceleași, oricum ați ajunge la ele. Un **stil de meniu** decide doar unde stau pe ecran, cum se numesc acolo și ce taste le rulează. Alegeți-l în {{ui:Settings}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Menus, keys and mouse}}; schimbarea este imediată, iar acest browser o reține.
+Comenzile TakeoffDesk sunt aceleași, oricum ați ajunge la ele. Un **stil de meniu** decide doar unde stau pe ecran, cum se numesc acolo și ce taste le rulează. Alegeți-l în {{ui:Settings}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Menus, keys and mouse}}; schimbarea este imediată, iar acest browser o reține.
 
 ## Cele trei stiluri
 
 | Stil | Ce obțineți |
 |---|---|
-| {{ui:TakeoffCraft}} | Bara de instrumente proprie a TakeoffCraft: {{ui:File}}, {{ui:Export}}, {{ui:Scale}}, {{ui:Takeoff}}, {{ui:Edit}} și {{ui:View}}, cu tastele de instrument dintr-o literă. Punctul de plecare. |
+| {{ui:TakeoffDesk}} | Bara de instrumente proprie a TakeoffDesk: {{ui:File}}, {{ui:Export}}, {{ui:Scale}}, {{ui:Takeoff}}, {{ui:Edit}} și {{ui:View}}, cu tastele de instrument dintr-o literă. Punctul de plecare. |
 | {{ui:Takeoff desk}} | O bară de meniu ({{ui:File}}, {{ui:Edit}}, {{ui:View}}, {{ui:Scale}}, {{ui:Takeoff}}, {{ui:Items}}, {{ui:Markup}}, {{ui:Export}}) peste un rând de instrumente de antemăsurătoare, așa cum își așază programele de antemăsurătoare pe ecran. Pe rând, articolele se numesc condiții. Aceleași taste, plus {{key:N}} pentru un articol nou. Presetările de scară se mută în bara foii, lângă scara foii. |
 | {{ui:Takeoff ribbon}} | File ale panglicii numite după lucrare: {{ui:Takeoff}} (măsurare, forme, scară, din desen, condiții), {{ui:Edit}}, {{ui:View}}, {{ui:Markup}} și {{ui:Estimate}} (registrul de calcul, PDF-urile marcate, oferta), cu un meniu {{ui:File}} și un rând rapid pentru deschidere, salvare, anulare și refacere. Instrumentele folosite toată ziua sunt mari, vecinii lor sunt mici și așezați unul peste altul. Aceleași taste; presetările de scară se mută în bara foii. |
 
-Toate cele trei stiluri păstrează tastele TakeoffCraft: {{key:V}} selectare, {{key:L}} liniar, {{key:A}} arie, {{key:O}} cerc, {{key:B}} încăpere, {{key:P}} traseu (alegeți liniile PDF-ului), {{key:X}} decupaj, {{key:C}} numărare, {{key:S}} numărare automată, {{key:K}} calibrare, {{key:D}} verificare, {{key:R}} modul arc, {{key:E}} modul scădere, {{key:F}} și {{key:W}} pentru potrivire, {{key:3}} vizualizarea 3D de verificare, {{key:F3}} agățare, și {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Toate cele trei stiluri păstrează tastele TakeoffDesk: {{key:V}} selectare, {{key:L}} liniar, {{key:A}} arie, {{key:O}} cerc, {{key:B}} încăpere, {{key:P}} traseu (alegeți liniile PDF-ului), {{key:X}} decupaj, {{key:C}} numărare, {{key:S}} numărare automată, {{key:K}} calibrare, {{key:D}} verificare, {{key:R}} modul arc, {{key:E}} modul scădere, {{key:F}} și {{key:W}} pentru potrivire, {{key:3}} vizualizarea 3D de verificare, {{key:F3}} agățare, și {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Instrumentele din bara foii (note, nori, evidențieri, Compare, 3D) așteaptă până când este deschis un PDF; dacă sunt alese mai devreme, linia de stare o spune.
 
 :::tip
-O tastă care aparține layout-ului propriu al TakeoffCraft, dar căreia stilul dvs. i-a dat altă comandă, nu face nimic, iar linia de stare spune unde a ajuns comanda sa („În Tastele mele, Numărare este Ctrl+Alt+C”). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} și săgețile păstrează mereu sensul lor. Cât timp desenați un tronson sau un contur, lipiți sau revizuiți o numărare automată, literele și cifrele unei lungimi tastate rămân în seama desenului.
+O tastă care aparține layout-ului propriu al TakeoffDesk, dar căreia stilul dvs. i-a dat altă comandă, nu face nimic, iar linia de stare spune unde a ajuns comanda sa („În Tastele mele, Numărare este Ctrl+Alt+C”). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} și săgețile păstrează mereu sensul lor. Cât timp desenați un tronson sau un contur, lipiți sau revizuiți o numărare automată, literele și cifrele unei lungimi tastate rămân în seama desenului.
 :::
 
 ## Adaptarea stilului
@@ -41,12 +41,12 @@ Salvarea unui stil integrat creează propria copie („Biroul meu de antemăsur�
 
 ## Transportarea stilurilor
 
-{{ui:Export}} salvează stilul în uz ca un fișier mic `.ccinput.json`; {{ui:Import…}} adaugă unul, de pe alt calculator sau de la un coleg. Un fișier importat poate indica doar comenzile proprii ale TakeoffCraft: orice altceva din el este lăsat afară și numărat în linia de stare. {{ui:Delete this style}} elimină unul dintre stilurile proprii.
+{{ui:Export}} salvează stilul în uz ca un fișier mic `.ccinput.json`; {{ui:Import…}} adaugă unul, de pe alt calculator sau de la un coleg. Un fișier importat poate indica doar comenzile proprii ale TakeoffDesk: orice altceva din el este lăsat afară și numărat în linia de stare. {{ui:Delete this style}} elimină unul dintre stilurile proprii.
 
 :::note
-Aceste setări rămân în acest browser. {{ui:Use this style in every app}} de sub cardurile de stil face ca fiecare aplicație să se deschidă în stilul corespunzător (propria bară de instrumente, o bară de meniu sau o panglică), cu modificările făcute în fiecare aplicație. TakeoffCraft nu are un stil cu linie de comandă: când unul este ales pentru fiecare aplicație, TakeoffCraft păstrează propria bară de instrumente.
+Aceste setări rămân în acest browser. {{ui:Use this style in every app}} de sub cardurile de stil face ca fiecare aplicație să se deschidă în stilul corespunzător (propria bară de instrumente, o bară de meniu sau o panglică), cu modificările făcute în fiecare aplicație. TakeoffDesk nu are un stil cu linie de comandă: când unul este ales pentru fiecare aplicație, TakeoffDesk păstrează propria bară de instrumente.
 
-{{ui:Takeoff ribbon}} este și panglica aspectului {{ui:Ribbon and project browser}} ({{ui:Settings}} › {{ui:Global}} › {{ui:Layout}}): vezi [Ecranul TakeoffCraft](topic:workspace).
+{{ui:Takeoff ribbon}} este și panglica aspectului {{ui:Ribbon and project browser}} ({{ui:Settings}} › {{ui:Global}} › {{ui:Layout}}): vezi [Ecranul TakeoffDesk](topic:workspace).
 :::
 
-Vezi și: [Taste și mouse](topic:keyboard) · [Setările TakeoffCraft](topic:settings) · [Venire de la alt software de antemăsurători](topic:coming-from)
+Vezi și: [Taste și mouse](topic:keyboard) · [Setările TakeoffDesk](topic:settings) · [Venire de la alt software de antemăsurători](topic:coming-from)

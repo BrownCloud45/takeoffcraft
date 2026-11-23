@@ -39,4 +39,4 @@ Každá položka tiež nesie svoje číslo CSI MasterFormat, napríklad `09 21 1
 
 {{ui:Exportovať ako balík…}} v knižnici ju uloží ako súbor balíka (`.ccpack.json`), ktorý môže ktokoľvek pridať pomocou {{ui:Otvoriť súbor balíka…}}. Predvolene vynechá položky, ktoré pochádzajú z balíkov, ktoré ste pridali, a neobsahuje žiadne sadzby. Zaškrtnite {{ui:Zahrnúť moje sadzby ako vzorové sadzby}}, ak chcete odoslať aj svoje sadzby: odídu označené regiónom a dátumom, ktoré zadáte, a ten, kto balík pridá, sa rozhodne, či ich použije.
 
-Súbory balíkov sú čisté dáta, nikdy nie programy. TakeoffCraft skontroluje každú časť súboru pred použitím a vynechá všetko, čo nedokáže prečítať.
+Súbory balíkov sú čisté dáta, nikdy nie programy. TakeoffDesk skontroluje každú časť súboru pred použitím a vynechá všetko, čo nedokáže prečítať.

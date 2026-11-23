@@ -55,4 +55,4 @@ Der Maßstab eines Blatts sagt, wie groß die Zeichnung ist. Die Einheit einer P
 
 ## Genauigkeit
 
-TakeoffCraft misst genau aus den Punkten, die Sie anklicken, einschließlich echter Bogenlängen und Flächen, und rundet Mengen nicht. Die Anzeige rundet Längen auf 1/16 Zoll und Dezimalen auf zwei Stellen. Geld wird nur bei den Gesamtbeträgen auf den Cent gerundet.
+TakeoffDesk misst genau aus den Punkten, die Sie anklicken, einschließlich echter Bogenlängen und Flächen, und rundet Mengen nicht. Die Anzeige rundet Längen auf 1/16 Zoll und Dezimalen auf zwei Stellen. Geld wird nur bei den Gesamtbeträgen auf den Cent gerundet.

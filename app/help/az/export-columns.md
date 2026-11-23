@@ -77,7 +77,7 @@ Miqyası və ya işarələri olan hər vərəq üçün bir sətir.
 | Vərəq | Vərəq adı |
 | Miqyas | Hazır variantın adı, kalibrlənmiş miqyas və ya "Miqyas yoxdur" |
 | Necə | "Hazır" və ya "Kalibrlənib (yazdığınız məsafədə)" |
-| PDF vahidi başına fut | TakeoffCraft-ın istifadə etdiyi dəqiq miqyas əmsalı |
+| PDF vahidi başına fut | TakeoffDesk-ın istifadə etdiyi dəqiq miqyas əmsalı |
 
 ## Fayl adları
 

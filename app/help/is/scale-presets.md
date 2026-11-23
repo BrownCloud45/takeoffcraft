@@ -49,4 +49,4 @@ Kvarðaður mælikvarði birtist sem „Kvarðaður 1" = 4.002' á 24'-6"" á st
 
 ## Óvenjuleg PDF-skjöl
 
-Sum PDF-skjöl gefa upp stærri síðueiningu („user unit“); TakeoffCraft tekur hana með í reikninginn fyrir forstillingar og fyrir mælikvarðann sem birtist. Síður sem eru snúnar í PDF-skjalinu eru mældar á sama hátt og réttar síður.
+Sum PDF-skjöl gefa upp stærri síðueiningu („user unit“); TakeoffDesk tekur hana með í reikninginn fyrir forstillingar og fyrir mælikvarðann sem birtist. Síður sem eru snúnar í PDF-skjalinu eru mældar á sama hátt og réttar síður.

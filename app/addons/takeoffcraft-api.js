@@ -1,8 +1,8 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — every word a person reads comes from the add-on (api.t) or the app's language file. */
 /**
- * takeoffcraft-api.js — TakeoffCraft's add-on API 1.0 and its own add-on loader (0.5 AO.6; docs/ADDONS-SPEC.md §5.6).
- * TakeoffCraft's manifest says "addons": "own", so the shell's boot (app-addons.js) steps aside and takeoffcraft.js calls
+ * takeoffcraft-api.js — TakeoffDesk's add-on API 1.0 and its own add-on loader (0.5 AO.6; docs/ADDONS-SPEC.md §5.6).
+ * TakeoffDesk's manifest says "addons": "own", so the shell's boot (app-addons.js) steps aside and takeoffcraft.js calls
  * startAddons() with the takeoff model and a few page helpers.
  *
  *   api = { ...sharedApi (ui.toolbarGroup, ui.panelSection, ui.settingsSection, files.importer / exporter),
@@ -11,7 +11,7 @@
  *           export: { column }, status, ui.panelTab,
  *           defaults: { provide, changed } }   1.1: the Default Policies add-on's door to defaults-hook.js
  *
- * Item types of an add-on are TakeoffCraft's own item types (linear, area, count) with defaults: unit, waste, rates, height,
+ * Item types of an add-on are TakeoffDesk's own item types (linear, area, count) with defaults: unit, waste, rates, height,
  * assembly components (formulas), second conditions (T8) and the add-on's data in the item's `xd` under its id: { kind, v,
  * data } (the shared loader's cleanAddonData). They are listed in the new-item form's type list while the add-on is on. A
  * takeoff saved with them opens without the add-on as ordinary items, and their data is saved back untouched.
@@ -128,7 +128,7 @@ export function makeTakeoffcraftApi(base, addon, ctx) {
 
   const ui = {
     ...shared.ui,
-    /** A section of its own in the right panel (TakeoffCraft's panel has sections, not tabs). render(el) runs at once and on refresh(). */
+    /** A section of its own in the right panel (TakeoffDesk's panel has sections, not tabs). render(el) runs at once and on refresh(). */
     panelTab({ id: tid, title, render } = {}) {
       if (!SAFE_ID.test(String(tid))) throw new Error('ui.panelTab: id');
       if (!ctx.rightPanel || typeof document === 'undefined') return null;
@@ -153,7 +153,7 @@ export function makeTakeoffcraftApi(base, addon, ctx) {
 }
 
 /**
- * Start TakeoffCraft's add-ons. ctx: see makeTakeoffcraftApi, plus loader options for tests (packages, storage, importer,
+ * Start TakeoffDesk's add-ons. ctx: see makeTakeoffcraftApi, plus loader options for tests (packages, storage, importer,
  * fetchJson, base, verify, bundledOnly). → { loader, list, installPackage, uninstall, importers, exporters, importerFor,
  * onChange, types, columns, createFromSelect(value) } (also window.ccAddons in the page).
  */
@@ -166,7 +166,7 @@ export async function startAddons(ctx) {
   const full = { ...ctx, registry, types };
   const apis = new Map();   // add-on id → its api (the new-item form creates through it)
   const makeApi = (b, a) => { const x = makeTakeoffcraftApi(b, a, full); apis.set(a.id, x); b.onDeactivate(() => apis.delete(a.id)); return x; };
-  const opts = { app: 'takeoffcraft', appName: ctx.appName || 'TakeoffCraft', apiVersion: TAKEOFFCRAFT_API_VERSION, makeApi };
+  const opts = { app: 'takeoffcraft', appName: ctx.appName || 'TakeoffDesk', apiVersion: TAKEOFFCRAFT_API_VERSION, makeApi };
   for (const k of ['packages', 'storage', 'importer', 'fetchJson', 'base', 'locale', 'timeout']) if (ctx[k] !== undefined) opts[k] = ctx[k];
   if (ctx.bundledOnly ?? bundledOnly()) opts.packages = NO_PACKAGES;   // a store build: only the add-ons it ships with (A.11)
   if (!ctx.verify) installTrust(AddonLoader); else AddonLoader.verify = ctx.verify;

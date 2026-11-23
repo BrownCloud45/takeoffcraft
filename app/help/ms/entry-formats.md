@@ -1,6 +1,6 @@
 ---
 title: Kemasukan panjang, kadar dan peratus
-summary: Apa yang boleh anda taip untuk jarak, ketinggian, kadar wang dan peratusan pembaziran, dengan contoh serta mesej untuk input yang TakeoffCraft tidak dapat baca.
+summary: Apa yang boleh anda taip untuk jarak, ketinggian, kadar wang dan peratusan pembaziran, dengan contoh serta mesej untuk input yang TakeoffDesk tidak dapat baca.
 keywords: input, format, kaki inci, pecahan, kaki perpuluhan, metrik, meter, milimeter, kadar, wang, dolar, peratus, pembaziran, menaip
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Sehingga dua titik perpuluhan, dari 0% hingga 1000%. Mesej: "Taip peratusan, sep
 ## Nama dan unit
 
 - Nama item dan komponen: sehingga 200 aksara.
-- {{ui:Unit}} komponen: sebarang teks sehingga 20 aksara, seperti `EA`, `helaian`, `CY`, `gal`. Ia label sahaja; TakeoffCraft tidak menukarnya.
+- {{ui:Unit}} komponen: sebarang teks sehingga 20 aksara, seperti `EA`, `helaian`, `CY`, `gal`. Ia label sahaja; TakeoffDesk tidak menukarnya.
 
 ## Formula
 

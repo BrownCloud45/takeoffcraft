@@ -55,4 +55,4 @@ En arkskala sier hvor stor tegningen er; en posts enhet sier hvordan den skal ra
 
 ## Presisjon
 
-TakeoffCraft måler nøyaktig ut fra punktene du klikker, inkludert ekte buelengder og arealer, og runder ikke av mengder. Visning runder lengder til 1/16 tomme og desimaler til to plasser. Penger avrundes bare i de utregnede beløpene, til nærmeste øre.
+TakeoffDesk måler nøyaktig ut fra punktene du klikker, inkludert ekte buelengder og arealer, og runder ikke av mengder. Visning runder lengder til 1/16 tomme og desimaler til to plasser. Penger avrundes bare i de utregnede beløpene, til nærmeste øre.

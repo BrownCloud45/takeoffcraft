@@ -1,6 +1,6 @@
 ---
 title: Räkna allt i ritningssatsen
-summary: Rama in en symbolförteckning en gång så räknar TakeoffCraft varje symbol i den på varje öppet blad i en och samma körning. Varje räkning är en länk till sitt blad, och du granskar innan något läggs till.
+summary: Rama in en symbolförteckning en gång så räknar TakeoffDesk varje symbol i den på varje öppet blad i en och samma körning. Varje räkning är en länk till sitt blad, och du granskar innan något läggs till.
 keywords: räkna allt, förteckning, symbolförteckning, hela ritningssatsen, varje blad, alla blad, varje dörr, varje armatur, apparater, schema, symboler, autoräkna, räkna alla, ritningssats, 200 blad, matchningsnivå, liknande utseende
 from: adc99744
 ---

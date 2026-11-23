@@ -20,7 +20,8 @@ import { createAsk, registerTools as askTools, WAIT_SENTENCE } from './ai-ask.js
 import { splitTool } from './ai-activity.js';
 import { T, h, readCfg, makePanel, palette } from './app-tools-ui.js';
 import { aiStyles } from './app-ai-ui.js';
-import { ownEngine, ownState, watchOwn, addOwnKey, listingUrl } from './app-ai-ownkey.js';
+// TakeoffDesk: no CadCraft Studio, so no "Your own AI key" add-on (it lived in Studio's hub): these say so and do nothing.
+const ownEngine = () => null, ownState = () => ({ inStudio: false, added: false, hadSettings: false }), watchOwn = () => () => {}, addOwnKey = async () => ({ ok: false, reason: 'no-client' }), listingUrl = () => '#';
 import { mountAssist } from './app-ai-assist.js';   // bk-r3-assistant-10: model data only, the history ("Why did this happen?"), Report a problem, the step card, the knowledge pack   // the seam for the "Your own AI key" add-on: no provider code in the shell
 
 const cfg = readCfg('cc-ai-ask');

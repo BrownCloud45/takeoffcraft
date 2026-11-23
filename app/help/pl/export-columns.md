@@ -77,7 +77,7 @@ Jeden wiersz na arkusz, który ma skalę lub znaczniki.
 | Arkusz | Nazwa arkusza |
 | Skala | Nazwa ustawienia gotowego, skala skalibrowana albo „Brak skali” |
 | Sposób | „Ustawienie gotowe” albo „Skalibrowano na (odległość, którą wpisano)” |
-| Stopy na jednostkę PDF | Dokładny współczynnik skali używany przez TakeoffCraft |
+| Stopy na jednostkę PDF | Dokładny współczynnik skali używany przez TakeoffDesk |
 
 ## Nazwy plików
 

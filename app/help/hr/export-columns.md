@@ -77,7 +77,7 @@ Jedan redak po listu koji ima mjerilo ili oznake.
 | List | Naziv lista |
 | Mjerilo | Naziv predloška, kalibrirano mjerilo ili „Nema mjerila“ |
 | Kako | „Predložak“ ili „Kalibrirano prema udaljenosti koju ste upisali“ |
-| Stope po jedinici PDF-a | Točan faktor mjerila koji TakeoffCraft koristi |
+| Stope po jedinici PDF-a | Točan faktor mjerila koji TakeoffDesk koristi |
 
 ## Nazivi datoteka
 

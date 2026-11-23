@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * carbon-ui.js — the page side of embodied carbon (0.8 EG.14) and the 5D price table (EG.17), TakeoffCraft's side (session takeoff_PART_3): the toolbar's
+ * carbon-ui.js — the page side of embodied carbon (0.8 EG.14) and the 5D price table (EG.17), TakeoffDesk's side (session takeoff_PART_3): the toolbar's
  * Carbon button and its dialog. The maths and the files are carbon.js (DOM-free). The person's factor rows and choices are kept in the takeoff's file
  * (optional key `carbon`); nothing is sent anywhere. Mounted by takeoffcraft.js: mountCarbon(ctx) → { open, drive }.
  */

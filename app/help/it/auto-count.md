@@ -1,6 +1,6 @@
 ---
 title: Conteggio automatico di un simbolo
-summary: Racchiudere un simbolo in un riquadro, far trovare a TakeoffCraft gli altri su questa tavola o su tutte le tavole aperte, rivedere le corrispondenze con il cursore e aggiungerle in un solo passaggio.
+summary: Racchiudere un simbolo in un riquadro, far trovare a TakeoffDesk gli altri su questa tavola o su tutte le tavole aperte, rivedere le corrispondenze con il cursore e aggiungerle in un solo passaggio.
 keywords: qualsiasi angolo, ruotato, girato, altra scala, scala diversa, conteggio automatico, conteggio automatizzato, ricerca simboli, trova simboli, motivo, modello, corrispondenza, rilevare, strumento di conteggio
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Per interrompere la revisione senza aggiungere nulla, scegliere {{ui:Discard}} o
 
 ## Che cosa trova e che cosa non trova
 
-TakeoffCraft confronta il disegno, come pixel, con il simbolo racchiuso nel riquadro.
+TakeoffDesk confronta il disegno, come pixel, con il simbolo racchiuso nel riquadro.
 
 - Trova il simbolo ruotato di 0°, 90°, 180° e 270°. Per trovarlo anche a qualsiasi angolo, spuntare {{ui:Any angle (slower)}} sulla barra del conteggio automatico prima di disegnare il riquadro: prova ogni 15°, poi affina ogni risultato fino a un grado e mezzo. Richiede circa sei volte più tempo. Non trova un simbolo specchiato (a meno che il simbolo non appaia uguale anche specchiato).
 - Con {{ui:Search all open sheets}} spuntato, una tavola a un'altra scala viene cercata alla dimensione che il simbolo ha lì: un apparecchio disegnato in scala su una pianta 1/8" è la metà della dimensione che ha su una pianta 1/4" e viene comunque trovato. Una tale tavola viene cercata anche alla dimensione del riquadro, per le etichette e i simboli stampati alla stessa dimensione su ogni tavola. Questo richiede una scala su entrambe le tavole; una tavola senza scala viene cercata solo alla dimensione del riquadro.

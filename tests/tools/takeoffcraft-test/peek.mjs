@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0 */
-// peek.mjs — a quick screenshot of one TakeoffCraft state while building (not part of the suite):
+// peek.mjs — a quick screenshot of one TakeoffDesk state while building (not part of the suite):
 //   node tools/takeoffcraft-test/peek.mjs <script.mjs> <out.png>   the script default-exports async (page, T) => {}
 import path from 'node:path';
 import fs from 'node:fs';

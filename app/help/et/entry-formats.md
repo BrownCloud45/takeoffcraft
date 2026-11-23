@@ -1,6 +1,6 @@
 ---
 title: Pikkuse, hinna ja protsendi sisestamine
-summary: Mida saad sisestada vahemaadele, kõrgustele, rahasummadele, hindadele ja kaduprotsentidele, koos näidete ning sõnumitega sisendite kohta, mida TakeoffCraft ei suuda lugeda.
+summary: Mida saad sisestada vahemaadele, kõrgustele, rahasummadele, hindadele ja kaduprotsentidele, koos näidete ning sõnumitega sisendite kohta, mida TakeoffDesk ei suuda lugeda.
 keywords: sisend, vorming, jalad tollid, murdarvud, kümnendjalad, meetriline, meetrid, millimeetrid, hind, raha, dollarid, protsent, kadu, sisestamine
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Kuni kaks kümnendkohta, 0%-st kuni 1000%-ni. Sõnumid: „Sisesta protsent, nä
 ## Nimed ja ühikud
 
 - Kirje ja komponendi nimed: kuni 200 tähemärki.
-- Komponendi {{ui:Ühik}}: mis tahes tekst kuni 20 tähemärki, näiteks `EA`, `sheets`, `CY`, `gal`. See on ainult silt; TakeoffCraft ei teisenda seda.
+- Komponendi {{ui:Ühik}}: mis tahes tekst kuni 20 tähemärki, näiteks `EA`, `sheets`, `CY`, `gal`. See on ainult silt; TakeoffDesk ei teisenda seda.
 
 ## Valemid
 

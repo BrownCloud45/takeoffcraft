@@ -5,7 +5,7 @@ keywords: schaal detecteren, schaal lezen, schaal uit tekst, alle bladen, schaal
 from: 8f0148e6
 ---
 
-Elk blad heeft zijn eigen schaal. U stelt die in, of laat TakeoffCraft die uit de tekst van de bladen lezen (hieronder), en controleert hem. Zolang een blad er geen heeft, weigeren {{ui:Lineair}}, {{ui:Oppervlakte}}, {{ui:Cirkel}} en {{ui:Uitsparing}} erop te meten. {{ui:Tellen}} en {{ui:Automatisch tellen}} werken zonder schaal.
+Elk blad heeft zijn eigen schaal. U stelt die in, of laat TakeoffDesk die uit de tekst van de bladen lezen (hieronder), en controleert hem. Zolang een blad er geen heeft, weigeren {{ui:Lineair}}, {{ui:Oppervlakte}}, {{ui:Cirkel}} en {{ui:Uitsparing}} erop te meten. {{ui:Tellen}} en {{ui:Automatisch tellen}} werken zonder schaal.
 
 De bladenlijst toont de schaal van elk blad, of **Geen schaal**. De balk onder het geopende blad zegt hetzelfde.
 
@@ -23,7 +23,7 @@ De volledige lijst staat in [Schaalvoorinstellingen](topic:scale-presets).
 
 ## De schalen lezen uit de tekst van de bladen
 
-De meeste tekeningen vermelden hun schaal: `SCHAAL: 1/4" = 1'-0"` in het titelblok, `1:100` onder een aanzicht. TakeoffCraft kan die lezen en elk blad tegelijk instellen.
+De meeste tekeningen vermelden hun schaal: `SCHAAL: 1/4" = 1'-0"` in het titelblok, `1:100` onder een aanzicht. TakeoffDesk kan die lezen en elk blad tegelijk instellen.
 
 1. Open de lijst {{ui:Voorinstelling}} en kies {{ui:Uit de tekst van de bladen…}} (bovenaan).
 2. De lijst toont elk blad: de huidige schaal, en wat de tekst zegt — **Zegt 1/4" = 1'-0"**, **Geen schaal in de tekst** of **Zegt niet op schaal** (NTS).
@@ -44,7 +44,7 @@ Gebruik dit wanneer er geen afgedrukte schaal is die u vertrouwt, de set is verk
 5. Typ de werkelijke afstand bij **Werkelijke afstand**, bijvoorbeeld `24'-6 1/2"`, `24.5` (decimale voet), `30"` of `7.5 m`. Zie [Invoer van lengte, tarief en percentage](topic:entry-formats).
 6. Kies {{ui:De schaal instellen}}.
    De statusbalk toont de schaal als "1" = (n)'", en als die binnen 0.5% van een voorinstelling ligt, zegt hij welke, bijvoorbeeld "wat overeenkomt met 1/4" = 1'-0" (kies die voorinstelling voor een exacte schaal)".
-   TakeoffCraft gaat terug naar het gereedschap {{ui:Selecteren}}.
+   TakeoffDesk gaat terug naar het gereedschap {{ui:Selecteren}}.
 
 Wanneer de ijking overeenkomt met een voorinstelling, geeft die voorinstelling een exacte schaal in plaats van een die afhangt van waar u klikte.
 
@@ -61,11 +61,11 @@ Druk op {{key:Esc}} om de controlelijn te wissen.
 
 ## Een schaal wijzigen
 
-Kies een andere voorinstelling of ijk opnieuw. Als het blad al metingen heeft, vraagt TakeoffCraft **De schaal van dit blad wijzigen?** en zegt hoeveel metingen opnieuw worden gemeten. Kies {{ui:De schaal wijzigen}}. Elke lengte en oppervlakte op het blad wordt opnieuw gemeten op de nieuwe schaal. U kunt dit ongedaan maken met {{key:Mod+Z}}.
+Kies een andere voorinstelling of ijk opnieuw. Als het blad al metingen heeft, vraagt TakeoffDesk **De schaal van dit blad wijzigen?** en zegt hoeveel metingen opnieuw worden gemeten. Kies {{ui:De schaal wijzigen}}. Elke lengte en oppervlakte op het blad wordt opnieuw gemeten op de nieuwe schaal. U kunt dit ongedaan maken met {{key:Mod+Z}}.
 
 ## Waarom bladen zonder schaal niet als nul tellen
 
-Een markering op een blad zonder schaal heeft geen echte lengte of oppervlakte. TakeoffCraft telt die nooit als nul, wat uw raming stilletjes te laag zou maken. In plaats daarvan:
+Een markering op een blad zonder schaal heeft geen echte lengte of oppervlakte. TakeoffDesk telt die nooit als nul, wat uw raming stilletjes te laag zou maken. In plaats daarvan:
 
 - laat het die markeringen weg uit de totalen,
 - toont het "+(n) zonder schaal" naast de post in {{ui:Hoeveelheden}},
@@ -77,5 +77,5 @@ Dit kan gebeuren wanneer u een project opent waarvan de schalen nooit zijn inges
 ## Tips
 
 - Stel de schaal in op elk blad dat u gaat meten, voordat u begint. Zoek in de bladenlijst naar **Geen schaal** om de overgebleven bladen te vinden (het zoekvak kijkt naar bladnamen, niet naar schalen).
-- Details en vergrote plattegronden op hetzelfde blad gebruiken vaak een andere schaal. TakeoffCraft heeft één schaal per blad; zie [Wat nog niet beschikbaar is](topic:not-built-yet).
+- Details en vergrote plattegronden op hetzelfde blad gebruiken vaak een andere schaal. TakeoffDesk heeft één schaal per blad; zie [Wat nog niet beschikbaar is](topic:not-built-yet).
 - Metrische tekeningen: kies een metrische voorinstelling zoals `1:100`, of ijk met een metrische afstand zoals `6000 mm`.

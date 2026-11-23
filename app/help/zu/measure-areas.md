@@ -41,7 +41,7 @@ Uma amagumbi edwetshwe njengezindonga ezivaliwe, {{ui:Room}} ({{key:B}}) ithatha
 2. Khetha {{ui:Room}} eqenjini le-{{ui:Takeoff}}, noma cindezela {{key:B}}.
 3. Cofa ngaphakathi kwegumbi, endaweni evulekile (hhayi emugqeni noma kulebula).
 
-I-TakeoffCraft ifunda imigqa yeshidi, ithole isikhala esizungeze ukucofa bese ilinganisa ngokulandela izindonga zangaphakathi, njengendawo yento yamanje. Ukuvulwa kwemnyango kuya kuthi **4'-0"** kuthathwa njengokuvaliwe, ngakho umugqa uqonda ngqo phezu komnyango; **Izilungiselelo › TakeoffCraft › Room fill closes openings up to** iguqula lobubanzi (3'-0" kuya ku-8'-0"). Amagama amagumbi, izinto zasendlini kanye nezixhobo ngaphakathi akwenzi izimbobo.
+I-TakeoffDesk ifunda imigqa yeshidi, ithole isikhala esizungeze ukucofa bese ilinganisa ngokulandela izindonga zangaphakathi, njengendawo yento yamanje. Ukuvulwa kwemnyango kuya kuthi **4'-0"** kuthathwa njengokuvaliwe, ngakho umugqa uqonda ngqo phezu komnyango; **Izilungiselelo › TakeoffDesk › Room fill closes openings up to** iguqula lobubanzi (3'-0" kuya ku-8'-0"). Amagama amagumbi, izinto zasendlini kanye nezixhobo ngaphakathi akwenzi izimbobo.
 
 Iyenqaba, isho ngenxa yalutho, uma:
 
@@ -62,7 +62,7 @@ Uma umnyango ubanzi kunesilungiselelo, ukugcwaliswa kungena egumbini elilandelay
 
 Imbobo ezungezile: khetha {{ui:Add a round cut-out}} ngaphansi kwe-**Selected mark**, cofa isikhungo sayo, bese ucofa iphoyinti emaphethelweni ayo.
 
-Imbobo kufanele ihlale ngokuphelele endaweni futhi ingagqumi enye imbobo. Uma kungenjalo, i-TakeoffCraft iyenqaba: "Imbobo kufanele ihlale ngokuphelele endaweni." noma "Imibobo ayikwazi ukugqumana."
+Imbobo kufanele ihlale ngokuphelele endaweni futhi ingagqumi enye imbobo. Uma kungenjalo, i-TakeoffDesk iyenqaba: "Imbobo kufanele ihlale ngokuphelele endaweni." noma "Imibobo ayikwazi ukugqumana."
 
 Ukususa imbobo yokugcina, khetha {{ui:Remove last cut-out}}.
 
@@ -76,7 +76,7 @@ Imbobo ingumaki wendawo oyodwa. **Back-out** idwetshwa kanye bese ikhishwa kuyo 
 
 Yonke imaki yendawo yento ethikiwe esheetini efanayo ilahlekelwa yingxenye ye-back-out eyihlangana nayo: i-back-out yonke uma ingaphakathi, ingxenye ehlangana kuphela uma idlula emphethelweni, nalutho ngaphakathi kwembobo. Ipaneli yendawo ekhethiwe ibonisa **Back-outs** nendawo esele. Inani lento, izifomula zayo zenhlanganisela, izindleko, ukubuka kwe-3D nokuthunyelwa konke kusebenzisa indawo esele; amanothi okulinganisa asho ukuthi ama-back-out akhiphe malini. Into ye-back-out ibala indawo yayo (shiya izindleko zayo ziyi-zero uma ungayibiza).
 
-I-back-out kufanele ibe **convex**: i-rectangle, isiyingi noma noma yimuphi umugqa ongenaye ikhona elingaphakathi. I-TakeoffCraft iyenqaba uma ungayidweba kanjalo; dweba isinsika esinesimo se-L njengama-back-out amabili. Ama-back-out awanazimbobo, futhi ama-back-out amabili agqumanayo bayabalwa bobabili.
+I-back-out kufanele ibe **convex**: i-rectangle, isiyingi noma noma yimuphi umugqa ongenaye ikhona elingaphakathi. I-TakeoffDesk iyenqaba uma ungayidweba kanjalo; dweba isinsika esinesimo se-L njengama-back-out amabili. Ama-back-out awanazimbobo, futhi ama-back-out amabili agqumanayo bayabalwa bobabili.
 
 Umjikelezo (`P`) awushintshi: ama-back-out akhipha indawo kuphela.
 

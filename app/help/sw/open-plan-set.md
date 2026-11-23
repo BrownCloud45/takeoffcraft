@@ -5,7 +5,7 @@ keywords: fungua, seti ya mipango, PDF nyingi, faili nyingi, karatasi, michoro, 
 from: ed434468
 ---
 
-Seti ya mipango mara nyingi ni PDF kadhaa: za usanifu, muundo, mitambo. TakeoffCraft huzifungua kando kwa kando kama orodha moja ya karatasi, na ukadiriaji mmoja unaweza kufunika zote.
+Seti ya mipango mara nyingi ni PDF kadhaa: za usanifu, muundo, mitambo. TakeoffDesk huzifungua kando kwa kando kama orodha moja ya karatasi, na ukadiriaji mmoja unaweza kufunika zote.
 
 ## Fungua PDF
 
@@ -14,14 +14,14 @@ Seti ya mipango mara nyingi ni PDF kadhaa: za usanifu, muundo, mitambo. TakeoffC
 3. Chagua Fungua.
    Ujumbe "Inafungua (jina)…" huonekana kila faili inaposomwa. Kisha kila ukurasa unaonekana chini ya {{ui:Sheets}}, na ukurasa wa kwanza wa PDF mpya ya kwanza unafunguka.
 
-Unaweza pia kuburuta PDF kutoka {{pick:mac=Finder|windows=File Explorer|linux=your file manager}} na kuziangusha popote kwenye TakeoffCraft. Fremu ya "Dondosha PDF, michoro ya DWG au DXF, au .takeoff.json" huonekana unapoburuta.
+Unaweza pia kuburuta PDF kutoka {{pick:mac=Finder|windows=File Explorer|linux=your file manager}} na kuziangusha popote kwenye TakeoffDesk. Fremu ya "Dondosha PDF, michoro ya DWG au DXF, au .takeoff.json" huonekana unapoburuta.
 
 Kuongeza PDF zaidi baadaye, fanya vivyo hivyo tena. PDF ambazo tayari zimefunguliwa zinaruka.
 
 Ukurasa wa kuanza pia huorodhesha PDF na ukadiriaji ulioufungua hivi karibuni, kwenye vivinjari vinavyoruhusu ukurasa kufungua faili tena (Chrome na Edge). Bofya moja kuifungua; kivinjari kinaweza kuomba ruhusa kwanza. Angalia [Faili zako](common:your-files).
 
 :::note
-Hakuna kinachopakiwa. Kivinjari husoma PDF kwenye kompyuta yako, na zinaondoka TakeoffCraft unapofunga kichupo au kuchagua {{ui:New}}.
+Hakuna kinachopakiwa. Kivinjari husoma PDF kwenye kompyuta yako, na zinaondoka TakeoffDesk unapofunga kichupo au kuchagua {{ui:New}}.
 :::
 
 ## Michoro pamoja na PDF
@@ -30,7 +30,7 @@ Hakuna kinachopakiwa. Kivinjari husoma PDF kwenye kompyuta yako, na zinaondoka T
 
 ## PDF iliyokabidhiwa kutoka programu nyingine
 
-Programu nyingine ya familia hii inaweza kukupa PDF iliyo wazi kwake: hufungua TakeoffCraft kwenye kichupo kipya na PDF inafunguka hapo kana kwamba uliidondosha. Upau wa hali unasema "Imefunguliwa (jina), imekabidhiwa kutoka (programu). Faili ya asili haijabadilika." Hakuna kinachopakiwa; faili hupitia hifadhi ya kivinjari hiki na huondoka humo mara inapofunguka.
+Programu nyingine ya familia hii inaweza kukupa PDF iliyo wazi kwake: hufungua TakeoffDesk kwenye kichupo kipya na PDF inafunguka hapo kana kwamba uliidondosha. Upau wa hali unasema "Imefunguliwa (jina), imekabidhiwa kutoka (programu). Faili ya asili haijabadilika." Hakuna kinachopakiwa; faili hupitia hifadhi ya kivinjari hiki na huondoka humo mara inapofunguka.
 
 Ikiwa upau wa hali unasema PDF "haikufika", kichupo kilisubiri kwa muda mrefu au PDF ilikuwa imefunguliwa kwenye kichupo kingine: ifungue kwa {{ui:Open plans}}.
 

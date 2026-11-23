@@ -5,14 +5,14 @@ keywords: revisão, revisto, comparar, sobreposição, antigo, novo, alteraçõe
 from: 3a1d9fe0
 ---
 
-Quando uma folha é reemitida, não precisa de a medir de novo. Abra o PDF antigo e o novo, compare as duas folhas e transfira a medição. O TakeoffCraft assinala cada marcação onde o desenho mudou, para que verifique essas e mantenha as restantes.
+Quando uma folha é reemitida, não precisa de a medir de novo. Abra o PDF antigo e o novo, compare as duas folhas e transfira a medição. O TakeoffDesk assinala cada marcação onde o desenho mudou, para que verifique essas e mantenha as restantes.
 
 ## Comparar
 
 1. Abra os dois PDF: o conjunto antigo e o revisto ({{ui:Abrir plantas}}; podem estar num ficheiro ou em vários).
 2. Mostre a folha **nova**.
 3. Escolha {{ui:Comparar}} na barra da folha, por baixo do desenho.
-4. Escolha a folha antiga na lista. O TakeoffCraft sugere a folha com o mesmo número no outro PDF, ou a mesma página. Escolha **Comparar**.
+4. Escolha a folha antiga na lista. O TakeoffDesk sugere a folha com o mesmo número no outro PDF, ou a mesma página. Escolha **Comparar**.
 
 O desenho antigo fica agora sobreposto ao novo, a vermelho. Onde as duas coincidem, as linhas vermelhas ficam sobre as pretas; onde diferem, vê apenas linhas vermelhas (removidas) e apenas linhas pretas (acrescentadas). Uma barra na parte inferior da folha tem os passos abaixo; {{key:Esc}} ou {{ui:Fechar}} termina a comparação.
 
@@ -29,7 +29,7 @@ O desenho vermelho desloca-se, roda e ajusta a escala até ficar sobre o preto. 
 
 ## Encontrar alterações
 
-Escolha **Encontrar alterações**. O TakeoffCraft compara os traços dos dois desenhos: os traços só na folha antiga ficam vermelhos, os traços só na folha nova ficam azuis, e a barra de estado conta-os. Linhas que se deslocaram ligeiramente (uma nova impressão) não são contadas como alterações.
+Escolha **Encontrar alterações**. O TakeoffDesk compara os traços dos dois desenhos: os traços só na folha antiga ficam vermelhos, os traços só na folha nova ficam azuis, e a barra de estado conta-os. Linhas que se deslocaram ligeiramente (uma nova impressão) não são contadas como alterações.
 
 Também analisa todas as marcações da folha antiga e conta as que estão onde o desenho mudou:
 
@@ -40,7 +40,7 @@ Também analisa todas as marcações da folha antiga e conta as que estão onde 
 
 Escolha **Mover a medição para aqui**. Todas as marcações da folha antiga passam para a nova, através do alinhamento, num único passo para anular. As que estão junto de uma alteração ficam assinaladas: são desenhadas com um halo laranja, e a barra da folha mostra « (n) a verificar ».
 
-Se a folha nova não tinha escala, fica com a escala da folha antiga (ajustada quando os desenhos tiveram de ser redimensionados para alinhar). Se já tinha outra escala diferente, o TakeoffCraft pergunta primeiro: as marcações movidas são medidas à escala da folha nova.
+Se a folha nova não tinha escala, fica com a escala da folha antiga (ajustada quando os desenhos tiveram de ser redimensionados para alinhar). Se já tinha outra escala diferente, o TakeoffDesk pergunta primeiro: as marcações movidas são medidas à escala da folha nova.
 
 ## Verificar as marcações assinaladas
 

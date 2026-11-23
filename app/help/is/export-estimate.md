@@ -28,7 +28,7 @@ Vinnubókin hefur fjögur vinnublöð, og skýrslurnar hér að neðan eftir þv
 
 Með [tilboðsyfirliti](topic:bid-summary) endar Kostnaðaráætlunarvinnublaðið líka á álagningum þess (launatengd gjöld, söluskattur, yfirstjórnarkostnaður, hagnaður, trygging og tilboðið), sem lifandi formúlur.
 
-Kostnaðaráætlunarvinnublaðið heldur **lifandi formúlum**: magn með úrgangi, ávalaðar efnis- og vinnufjárhæðir, samtala hverrar raðar og heildarsumma verksins. Töflureiknar reikna þær upp á nýtt, þannig að þú getur breytt verði eða úrgangi í töflureikninum og samtölurnar fylgja. Tölurnar sem TakeoffCraft reiknaði eru líka vistaðar í reitunum og stemma upp að sentinu.
+Kostnaðaráætlunarvinnublaðið heldur **lifandi formúlum**: magn með úrgangi, ávalaðar efnis- og vinnufjárhæðir, samtala hverrar raðar og heildarsumma verksins. Töflureiknar reikna þær upp á nýtt, þannig að þú getur breytt verði eða úrgangi í töflureikninum og samtölurnar fylgja. Tölurnar sem TakeoffDesk reiknaði eru líka vistaðar í reitunum og stemma upp að sentinu.
 
 Athugasemdadálkurinn telur upp formúlu hvers íhlutar, villur í formúlum, merki á blöðum án mælikvarða, veggflöt og ummál. Þegar eitthvað er skilið eftir segir heildarsummuröðin „Ófullkomið: sjá athugasemdirnar hér að ofan“.
 
@@ -42,7 +42,7 @@ CSV-skráin hefur aðeins kostnaðaráætlunina; fyrir magntölur eftir blaði o
 
 ## Kostnaðaráætlunin í Google Sheets
 
-Fyrir ofan magntöfluna setur **Afrita fyrir Google Sheets** kostnaðaráætlunina á klippiborðið sem tab-aðgreindan texta, með sömu línum og CSV-skráin. Í Google Sheet smellirðu á reit A1 og límir. TakeoffCraft skráir sig ekki inn hjá Google og sendir ekkert þangað.
+Fyrir ofan magntöfluna setur **Afrita fyrir Google Sheets** kostnaðaráætlunina á klippiborðið sem tab-aðgreindan texta, með sömu línum og CSV-skráin. Í Google Sheet smellirðu á reit A1 og límir. TakeoffDesk skráir sig ekki inn hjá Google og sendir ekkert þangað.
 
 ## Vantar verð og undirritun
 

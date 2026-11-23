@@ -1,6 +1,6 @@
 ---
 title: 键盘和鼠标
-summary: TakeoffCraft中的每个按键、鼠标、触控板和触摸操作，分组列出，并说明各平台的差异。
+summary: TakeoffDesk中的每个按键、鼠标、触控板和触摸操作，分组列出，并说明各平台的差异。
 keywords: 按键, 快捷键, 热键, 键盘, 鼠标, 触控板, 触摸, 平移, 缩放, 滚轮, 右键, 双击, 空格, Shift, 复制, 粘贴, 剪切, 创建副本, 全选
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ from: 6f2c441d
 | 按键 | 作用 |
 |---|---|
 | {{key:F1}} | 打开或关闭帮助面板（也可通过应用栏中的{{ui:帮助}}按钮）。在所有工具下均可使用，即使正在输入框中输入。 |
-| {{key:Esc}} | 关闭帮助面板。在其搜索框中，第一次按{{key:Esc}}会清除搜索。面板打开时，若在单击图纸后按{{key:Esc}}，会先关闭面板；再按一次则在TakeoffCraft中取消操作。 |
+| {{key:Esc}} | 关闭帮助面板。在其搜索框中，第一次按{{key:Esc}}会清除搜索。面板打开时，若在单击图纸后按{{key:Esc}}，会先关闭面板；再按一次则在TakeoffDesk中取消操作。 |
 
 :::mac
 许多Mac键盘的顶行用于控制亮度和声音。按fn加F1，或在“系统设置”的“键盘”下开启“将F1、F2等键用作标准功能键”。
@@ -139,7 +139,7 @@ from: 6f2c441d
 
 :::mac
 - {{key:Mod}}即Command键：{{key:Mod+Z}}、{{key:Mod+S}}、{{key:Mod+O}}。全屏例外：Control+Shift+F。
-- 在触控板上，只要在“系统设置”的“触控板”下开启了辅助点按，双指点按即为右键单击。TakeoffCraft只识别辅助按键；Control+单击可能被当作普通单击而添加一个点。
+- 在触控板上，只要在“系统设置”的“触控板”下开启了辅助点按，双指点按即为右键单击。TakeoffDesk只识别辅助按键；Control+单击可能被当作普通单击而添加一个点。
 - 在触控板上双指滚动会缩放图纸（而不是滚动）。若要平移，请按住并拖动，或按住空格键并拖动。
 - 在没有Page Up和Page Down键的键盘上，它们分别是fn加上、下方向键。
 - Backspace即标有delete的键。
@@ -151,12 +151,12 @@ from: 6f2c441d
 :::
 
 :::linux
-- {{key:Mod}}即Ctrl。某些桌面环境有其自身的Ctrl+Alt或Super快捷键；TakeoffCraft不使用这些快捷键。
+- {{key:Mod}}即Ctrl。某些桌面环境有其自身的Ctrl+Alt或Super快捷键；TakeoffDesk不使用这些快捷键。
 - 在触控板上，双指滚动会缩放图纸。若要平移，请按住并拖动。
 :::
 
 :::touch
-TakeoffCraft将触摸识别为单一指针：
+TakeoffDesk将触摸识别为单一指针：
 
 - 轻触可放置一个点、选中一个标记或添加一个计数点。
 - 单指拖动可平移图纸（在{{ui:自动计数}}中则会绘制搜索框）。
@@ -169,7 +169,7 @@ TakeoffCraft将触摸识别为单一指针：
 
 ## 浏览器保留的按键
 
-浏览器会自行保留一些快捷键，页面无法使用它们：关闭标签页（{{key:Mod+W}}）、新建标签页或窗口（{{key:Mod+T}}、{{key:Mod+N}}）以及浏览器缩放（{{key:Mod+Plus}}、{{key:Mod+Minus}}）。因此，TakeoffCraft用滚轮以及单独的{{key:Plus}}和{{key:Minus}}键来缩放图纸。若你误按了{{key:Mod+Plus}}，整个页面会变大；按{{key:Mod+0}}即可恢复。参见[按键、鼠标和触控板](common:keys)。
+浏览器会自行保留一些快捷键，页面无法使用它们：关闭标签页（{{key:Mod+W}}）、新建标签页或窗口（{{key:Mod+T}}、{{key:Mod+N}}）以及浏览器缩放（{{key:Mod+Plus}}、{{key:Mod+Minus}}）。因此，TakeoffDesk用滚轮以及单独的{{key:Plus}}和{{key:Minus}}键来缩放图纸。若你误按了{{key:Mod+Plus}}，整个页面会变大；按{{key:Mod+0}}即可恢复。参见[按键、鼠标和触控板](common:keys)。
 
 ## 移动命令的位置
 

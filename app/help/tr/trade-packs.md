@@ -39,4 +39,4 @@ Her kalem ayrıca CSI MasterFormat numarasını taşır, örneğin `09 21 16`.
 
 Kütüphanedeki {{ui:Paket olarak dışa aktar…}} onu, herkesin {{ui:Bir paket dosyası aç…}} ile ekleyebileceği bir paket dosyası (`.ccpack.json`) olarak kaydeder. Varsayılan olarak eklediğiniz paketlerden gelen kalemleri dışarıda bırakır ve hiçbir birim fiyat taşımaz. Birim fiyatlarınızı da göndermek için {{ui:Fiyatlarımı örnek fiyat olarak ekle}} seçeneğini işaretleyin: bunlar verdiğiniz bölge ve tarihle etiketlenerek gider; paketi ekleyen, onları kullanıp kullanmayacağını seçer.
 
-Paket dosyaları düz veridir, asla program değildir. TakeoffCraft bir paketin her parçasını kullanmadan önce denetler ve okuyamadığı her şeyi dışarıda bırakır.
+Paket dosyaları düz veridir, asla program değildir. TakeoffDesk bir paketin her parçasını kullanmadan önce denetler ve okuyamadığı her şeyi dışarıda bırakır.

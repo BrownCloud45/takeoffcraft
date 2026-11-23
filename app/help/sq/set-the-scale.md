@@ -5,7 +5,7 @@ keywords: zbulo shkallën, lexo shkallën, shkallë nga teksti, të gjitha flet�
 from: 8f0148e6
 ---
 
-Çdo fletë ka shkallën e vet. Ti e cakton, ose lë TakeoffCraft ta lexojë nga teksti i fletëve (më poshtë), dhe e kontrollon. Derisa një fletë ta ketë, {{ui:Lineare}}, {{ui:Sipërfaqe}}, {{ui:Rreth}} dhe {{ui:Prerje}} refuzojnë të matin mbi të. {{ui:Numëro}} dhe {{ui:Numërim automatik}} funksionojnë pa shkallë.
+Çdo fletë ka shkallën e vet. Ti e cakton, ose lë TakeoffDesk ta lexojë nga teksti i fletëve (më poshtë), dhe e kontrollon. Derisa një fletë ta ketë, {{ui:Lineare}}, {{ui:Sipërfaqe}}, {{ui:Rreth}} dhe {{ui:Prerje}} refuzojnë të matin mbi të. {{ui:Numëro}} dhe {{ui:Numërim automatik}} funksionojnë pa shkallë.
 
 Lista e fletëve tregon shkallën e çdo fletë, ose **Pa shkallë**. Shiriti nën fletën e hapur thotë të njëjtën gjë.
 
@@ -23,7 +23,7 @@ Lista e plotë është te [Shkallët e gatshme](topic:scale-presets).
 
 ## Lexo shkallët nga teksti i fletëve
 
-Shumica e vizatimeve e thonë shkallën e tyre: `SCALE: 1/4" = 1'-0"` te blloku i titullit, `1:100` nën një pamje. TakeoffCraft mund ta lexojë dhe ta vendosë çdo fletë njëherësh.
+Shumica e vizatimeve e thonë shkallën e tyre: `SCALE: 1/4" = 1'-0"` te blloku i titullit, `1:100` nën një pamje. TakeoffDesk mund ta lexojë dhe ta vendosë çdo fletë njëherësh.
 
 1. Hap listën {{ui:Të gatshme}} dhe zgjidh {{ui:Nga teksti i fletëve…}} (në krye).
 2. Lista tregon çdo fletë: shkallën e saj tani, dhe çfarë thotë teksti i saj — **Thotë 1/4" = 1'-0"**, **Asnjë shkallë në tekstin e saj**, ose **Thotë mos të shkallëzohet** (NTS).
@@ -44,7 +44,7 @@ Përdore këtë kur nuk ka shkallë të printuar që të besosh, grupi u ndryshu
 5. Shkruaj distancën reale te **Distanca reale**, për shembull `24'-6 1/2"`, `24.5` (këmbë dhjetore), `30"` ose `7.5 m`. Shih [Hyrja e gjatësisë, normës dhe përqindjes](topic:entry-formats).
 6. Zgjidh {{ui:Vendos shkallën}}.
    Shiriti i statusit tregon shkallën si "1" = (n)'", dhe kur është brenda 0.5% të një të gatshme thotë cilën, për shembull "që përputhet me 1/4" = 1'-0" (zgjidh atë të gatshme për një shkallë të saktë)".
-   TakeoffCraft kthehet te mjeti {{ui:Përzgjidh}}.
+   TakeoffDesk kthehet te mjeti {{ui:Përzgjidh}}.
 
 Kur kalibrimi përputhet me një të gatshme, zgjedhja e asaj të gatshme jep një shkallë të saktë në vend të një që varet nga vendi ku klikove.
 
@@ -61,11 +61,11 @@ Shtyp {{key:Esc}} për të pastruar vijën e kontrollit.
 
 ## Ndrysho një shkallë
 
-Zgjidh një të gatshme tjetër ose kalibro përsëri. Nëse fleta ka tashmë matje, TakeoffCraft pyet **Të ndryshohet shkalla e kësaj fletë?** dhe thotë sa matje do të rimaten. Zgjidh {{ui:Ndrysho shkallën}}. Çdo vijë dhe sipërfaqe në fletë rimatet me shkallën e re. Mund ta zhbësh me {{key:Mod+Z}}.
+Zgjidh një të gatshme tjetër ose kalibro përsëri. Nëse fleta ka tashmë matje, TakeoffDesk pyet **Të ndryshohet shkalla e kësaj fletë?** dhe thotë sa matje do të rimaten. Zgjidh {{ui:Ndrysho shkallën}}. Çdo vijë dhe sipërfaqe në fletë rimatet me shkallën e re. Mund ta zhbësh me {{key:Mod+Z}}.
 
 ## Pse fletët pa shkallë nuk numërohen si zero
 
-Një shenjë në një fletë pa shkallë nuk ka gjatësi ose sipërfaqe reale. TakeoffCraft nuk e numëron kurrë si zero, sepse kjo do ta bënte preventivin tënd të ulët pa u vënë re. Në vend të kësaj:
+Një shenjë në një fletë pa shkallë nuk ka gjatësi ose sipërfaqe reale. TakeoffDesk nuk e numëron kurrë si zero, sepse kjo do ta bënte preventivin tënd të ulët pa u vënë re. Në vend të kësaj:
 
 - i lë ato shenja jashtë totaleve,
 - shfaq "+(n) pa shkallë" pranë artikullit te {{ui:Sasitë}},
@@ -77,5 +77,5 @@ Kjo mund të ndodhë kur hap një projekt ku shkallët nuk u vendosën kurrë. J
 ## Këshilla
 
 - Vendos shkallën te çdo fletë që do të matësh para se të fillosh. Skano listën e fletëve për **Pa shkallë** për të gjetur ato që mbetën (kutia e kërkimit shikon emrat e fletëve, jo shkallët).
-- Detajet dhe planet e zmadhuara në të njëjtën fletë shpesh përdorin shkallë tjetër. TakeoffCraft ka një shkallë për fletë; shih [Çfarë nuk është ndërtuar ende](topic:not-built-yet).
+- Detajet dhe planet e zmadhuara në të njëjtën fletë shpesh përdorin shkallë tjetër. TakeoffDesk ka një shkallë për fletë; shih [Çfarë nuk është ndërtuar ende](topic:not-built-yet).
 - Vizatime metrike: zgjidh një të gatshme metrike si `1:100`, ose kalibro me një distancë metrike si `6000 mm`.

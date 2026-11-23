@@ -1,11 +1,11 @@
 ---
 title: Čo sa naučilo z vašich výkazov výmer
-summary: TakeoffCraft uchováva symboly potvrdené pomocou Automatický počet, vaše sady podmienok, zostavy, ktoré používate najčastejšie, a vzory, ktoré opakujete na každej strane, všetko v súbore samotného výkazu výmer. Pozrite si ich, použite ich, zmažte ich.
+summary: TakeoffDesk uchováva symboly potvrdené pomocou Automatický počet, vaše sady podmienok, zostavy, ktoré používate najčastejšie, a vzory, ktoré opakujete na každej strane, všetko v súbore samotného výkazu výmer. Pozrite si ich, použite ich, zmažte ich.
 keywords: učiť sa, naučené, učenie, asistent, zapamätať, symboly, šablóny, rovnako ako minulá zákazka, minulá zákazka, sada podmienok, podmienky, znovupoužitie, zostavy, najpoužívanejšie, návrhy, opakovať na každej strane, každá strana, popisové pole, vzor, vymazať všetko, zabudnúť, súkromie
 from: 54d99e99
 ---
 
-TakeoffCraft pracuje rýchlejšie, čím viac výkazov s ním urobíte. Učí sa **iba z toho, čo prijmete**:
+TakeoffDesk pracuje rýchlejšie, čím viac výkazov s ním urobíte. Učí sa **iba z toho, čo prijmete**:
 
 - symboly, ktoré ste označili pomocou [Automatický počet](topic:auto-count) a potom pridali,
 - sady podmienok, ktoré uložíte,
@@ -64,6 +64,6 @@ Aby sa v jednom výkaze výmer prestalo učiť, zrušte označenie {{ui:Učiť s
 
 ## Dobré vedieť
 
-- Staršie verzie TakeoffCraft otvoria súbor s naučenými vecami bežne. Túto časť ignorujú a zahodia ju, ak súbor znova uložia.
+- Staršie verzie TakeoffDesk otvoria súbor s naučenými vecami bežne. Túto časť ignorujú a zahodia ju, ak súbor znova uložia.
 - Naučený symbol je malý obrázok toho, čo ste označili, uchovaný v súbore (niekoľko kilobajtov každý).
 - Naučené symboly sa hľadajú rovnako ako Automatický počet, takže platia tie isté obmedzenia: [Automatický počet symbolu](topic:auto-count).

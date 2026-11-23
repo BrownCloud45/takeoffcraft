@@ -32,11 +32,11 @@ Yapışdırılmış nişanlar {{ui:Elementlər}} panelinin yuxarısında seçilm
 
 {{key:Mod+Shift+V}} ({{ui:Yerində yapışdır}}) surəti açıq vərəqdə səhifədəki mövqeyinə görə tam eyni yerə qoyur. Tipik mərtəbə üçün istifadə edin: 2-ci mərtəbəni hesablayın, kopyalayın, 3-cü mərtəbəni açın, yerində yapışdırın.
 
-Yerində yapışdırmaq kopyaladığınız vərəqlə **eyni ölçüdə** vərəq tələb edir. Başqa ölçülü vərəqdə TakeoffCraft bunu deyir və heç nə yapışdırmır; əvəzinə {{ui:Yapışdır}} istifadə edin və klikləyin. Kopyaladığınız vərəqdə surət orijinalların üstünə düşür.
+Yerində yapışdırmaq kopyaladığınız vərəqlə **eyni ölçüdə** vərəq tələb edir. Başqa ölçülü vərəqdə TakeoffDesk bunu deyir və heç nə yapışdırmır; əvəzinə {{ui:Yapışdır}} istifadə edin və klikləyin. Kopyaladığınız vərəqdə surət orijinalların üstünə düşür.
 
 ## Miqyas uyğun olmalıdır
 
-Xətt və sahələr vərəqin miqyasından asılıdır. 1/4" = 1'-0" miqyasında 10' ölçən xətt 1/8" = 1'-0" miqyasında olan vərəqdə 20' ölçər. Buna görə TakeoffCraft xətt və sahələri yalnız onların gəldiyi vərəqlə **eyni miqyasda** olan vərəqə yapışdırır və bunu açıq şəkildə deyir:
+Xətt və sahələr vərəqin miqyasından asılıdır. 1/4" = 1'-0" miqyasında 10' ölçən xətt 1/8" = 1'-0" miqyasında olan vərəqdə 20' ölçər. Buna görə TakeoffDesk xətt və sahələri yalnız onların gəldiyi vərəqlə **eyni miqyasda** olan vərəqə yapışdırır və bunu açıq şəkildə deyir:
 
 - Açıq vərəqin hələ miqyası yoxdur: əvvəlcə ona miqyas verin ([Miqyası təyin edin](topic:set-the-scale)), sonra yapışdırın.
 - Açıq vərəqin başqa miqyası var: mesajda hər iki miqyas adlanır. Eyni miqyaslı vərəqə yapışdırın.
@@ -59,7 +59,7 @@ Element redaktoru ({{ui:Elementlər}} altında) bunlarla bitir:
 - {{ui:Elementi çoxalt}}: dərhal surət əlavə edir, adı "(ad) (surət)".
 
 :::tip
-Surət bu kompüterdə qalır: bu tabda və brauzerin yaddaşında saxlanılır, ona görə başqa TakeoffCraft tabı da onu yapışdıra bilər. Heç nə yüklənmir və sistem buferi istifadə olunmur, ona görə nişanları başqa proqramlara yapışdıra bilməzsiniz.
+Surət bu kompüterdə qalır: bu tabda və brauzerin yaddaşında saxlanılır, ona görə başqa TakeoffDesk tabı da onu yapışdıra bilər. Heç nə yüklənmir və sistem buferi istifadə olunmur, ona görə nişanları başqa proqramlara yapışdıra bilməzsiniz.
 :::
 
 :::note

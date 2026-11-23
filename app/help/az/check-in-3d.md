@@ -46,7 +46,7 @@ Rəqəmlər 3D-də dəyişmir: divarın sahəsi onun dəqiq uzunluğu ilə hünd
 | {{ui:Vərəq}} | Yerdəki çertyojun göstərilməsini və ya gizlədilməsini dəyişir. |
 | Sağ üstdəki görünüş kubu | Hər hansı üzə, kənara və ya küncə klikləyin ki, oradan baxasınız; sürükləyin ki, fırladasınız; kompas halqasını sürükləyin ki, döndərəsiniz; ev düyməsi {{ui:İzo}}-ya qaytarır. |
 
-Künc görünüş kubunu, kiçik X, Y, Z ox işarəsini və ya heç nə göstərir: {{ui:Parametrlər}} bölməsində, TakeoffCraft sekmesində, **Künc göstəricisi** altında seçin ([TakeoffCraft parametrləri](topic:settings)). Düz vərəqdə künc göstəricisi yoxdur.
+Künc görünüş kubunu, kiçik X, Y, Z ox işarəsini və ya heç nə göstərir: {{ui:Parametrlər}} bölməsində, TakeoffDesk sekmesində, **Künc göstəricisi** altında seçin ([TakeoffDesk parametrləri](topic:settings)). Düz vərəqdə künc göstəricisi yoxdur.
 
 :::touch
 Bir barmaqla fırlanır; iki barmaqla sıxma miqyası dəyişir və sürüşdürmə. Toxunma seçir.

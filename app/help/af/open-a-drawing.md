@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, tekening, tekening oopmaak, uitlegte, modelruimte, papi
 from: d8c3f504
 ---
 
-TakeoffCraft maak 'n DWG- of DXF-tekening oop soos dit 'n PDF oopmaak: jy hoef dit nie eers na PDF te plot nie. Tel uit die tekening self is presies, omdat die tekening weet wat elke voorwerp is. Sien [Tel uit 'n tekening](topic:count-from-a-drawing).
+TakeoffDesk maak 'n DWG- of DXF-tekening oop soos dit 'n PDF oopmaak: jy hoef dit nie eers na PDF te plot nie. Tel uit die tekening self is presies, omdat die tekening weet wat elke voorwerp is. Sien [Tel uit 'n tekening](topic:count-from-a-drawing).
 
 ## Maak die tekening oop
 
@@ -13,9 +13,9 @@ TakeoffCraft maak 'n DWG- of DXF-tekening oop soos dit 'n PDF oopmaak: jy hoef d
 2. Kies die DWG- of DXF-lêer. Jy kan verskeie kies, en PDF's saam met hulle.
 3. Kies Maak oop.
 
-Jy kan ook tekeninglêers op TakeoffCraft laat val, soos PDF's. Niks word opgelaai nie: die blaaier lees die lêer op jou rekenaar.
+Jy kan ook tekeninglêers op TakeoffDesk laat val, soos PDF's. Niks word opgelaai nie: die blaaier lees die lêer op jou rekenaar.
 
-TakeoffCraft lees DWG van AutoCAD 2000 tot 2018 en ASCII DXF van R12 tot 2018. Dit weier 'n binêre DXF (stoor dit as ASCII, of as 'n DWG) en 'n lêer wat geen van albei is nie, en sê waarom. 'n Beskadigde lêer maak oop met wat gelees kon word, en 'n boodskap sê so; die tellings daarvan is dalk onvolledig.
+TakeoffDesk lees DWG van AutoCAD 2000 tot 2018 en ASCII DXF van R12 tot 2018. Dit weier 'n binêre DXF (stoor dit as ASCII, of as 'n DWG) en 'n lêer wat geen van albei is nie, en sê waarom. 'n Beskadigde lêer maak oop met wat gelees kon word, en 'n boodskap sê so; die tellings daarvan is dalk onvolledig.
 
 ## Blaaie
 
@@ -40,10 +40,10 @@ Zoem, pan, vasvang aan die tekening se eie lyne, merke, notas, {{ui:Kalibreer}} 
 
 ## Gekoppelde tekeninge (xrefs)
 
-'n Tekening wat ander tekeninge skakel, wys hulle waar hulle ingevoeg is. TakeoffCraft vind 'n gekoppelde tekening onder die **oop lêers**, volgens sy lêernaam: maak die gasheertekening en sy gekoppelde tekening saam oop (of een ná die ander). Tot dan sê die statusbalk hoeveel gekoppelde tekeninge nie gevind is nie, wat hulle teken ontbreek, en tellings sê so.
+'n Tekening wat ander tekeninge skakel, wys hulle waar hulle ingevoeg is. TakeoffDesk vind 'n gekoppelde tekening onder die **oop lêers**, volgens sy lêernaam: maak die gasheertekening en sy gekoppelde tekening saam oop (of een ná die ander). Tot dan sê die statusbalk hoeveel gekoppelde tekeninge nie gevind is nie, wat hulle teken ontbreek, en tellings sê so.
 
 ## Beperkings
 
-- Voorwerpe wat TakeoffCraft nie kan lees of plaas nie (proxy-voorwerpe, onbekende klasse) word volgens soort in die telvenster gelys; hulle word nooit sonder 'n woord laat val nie.
+- Voorwerpe wat TakeoffDesk nie kan lees of plaas nie (proxy-voorwerpe, onbekende klasse) word volgens soort in die telvenster gelys; hulle word nooit sonder 'n woord laat val nie.
 - Baie groot tekeninge word gedeeltelik geteken, en tellings hou by 'n limiet op, wat so sê. Maak eerder 'n PDF-plot van so 'n tekening oop.
 - 'n Tekening word in swart en in sy eie kleure geteken, donkerder gemaak vir wit papier. Plotstyltabelle en pen-toekennings word nie toegepas nie.

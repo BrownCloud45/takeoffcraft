@@ -5,7 +5,7 @@ keywords: nhận diện tỷ lệ, đọc tỷ lệ, tỷ lệ từ văn bản, 
 from: 8f0148e6
 ---
 
-Mỗi tờ có tỷ lệ riêng. Bạn đặt nó, hoặc để TakeoffCraft đọc từ văn bản của các tờ (bên dưới), rồi kiểm tra nó. Cho đến khi một tờ có tỷ lệ, {{ui:Tuyến tính}}, {{ui:Diện tích}}, {{ui:Vòng tròn}} và {{ui:Lỗ khoét}} sẽ từ chối đo trên tờ đó. {{ui:Đếm}} và {{ui:Đếm tự động}} hoạt động mà không cần tỷ lệ.
+Mỗi tờ có tỷ lệ riêng. Bạn đặt nó, hoặc để TakeoffDesk đọc từ văn bản của các tờ (bên dưới), rồi kiểm tra nó. Cho đến khi một tờ có tỷ lệ, {{ui:Tuyến tính}}, {{ui:Diện tích}}, {{ui:Vòng tròn}} và {{ui:Lỗ khoét}} sẽ từ chối đo trên tờ đó. {{ui:Đếm}} và {{ui:Đếm tự động}} hoạt động mà không cần tỷ lệ.
 
 Danh sách tờ hiển thị tỷ lệ của mỗi tờ, hoặc **Chưa có tỷ lệ**. Thanh bên dưới tờ đang mở cũng nói điều tương tự.
 
@@ -23,7 +23,7 @@ Danh sách đầy đủ có trong [Các tỷ lệ đặt sẵn](topic:scale-pres
 
 ## Đọc tỷ lệ từ văn bản của các tờ
 
-Hầu hết bản vẽ ghi tỷ lệ của chúng: `SCALE: 1/4" = 1'-0"` trong khung tên, `1:100` dưới một hình chiếu. TakeoffCraft có thể đọc và đặt mọi tờ cùng một lúc.
+Hầu hết bản vẽ ghi tỷ lệ của chúng: `SCALE: 1/4" = 1'-0"` trong khung tên, `1:100` dưới một hình chiếu. TakeoffDesk có thể đọc và đặt mọi tờ cùng một lúc.
 
 1. Mở danh sách {{ui:Đặt sẵn}} và chọn {{ui:Từ văn bản của các tờ…}} (ở trên cùng).
 2. Danh sách hiển thị mọi tờ: tỷ lệ hiện tại của nó, và văn bản của nó nói gì — **Ghi 1/4" = 1'-0"**, **Không có tỷ lệ trong văn bản**, hoặc **Ghi không theo tỷ lệ** (NTS).
@@ -44,7 +44,7 @@ Dùng khi không có tỷ lệ in nào mà bạn tin cậy, bộ bản vẽ đã
 5. Nhập khoảng cách thực vào **Khoảng cách thực**, ví dụ `24'-6 1/2"`, `24.5` (feet thập phân), `30"` hoặc `7.5 m`. Xem [Nhập chiều dài, đơn giá và phần trăm](topic:entry-formats).
 6. Chọn {{ui:Đặt tỷ lệ}}.
    Thanh trạng thái hiển thị tỷ lệ là "1" = (n)'", và khi nó nằm trong 0.5% của một tỷ lệ đặt sẵn, nó nói rõ là tỷ lệ nào, ví dụ "khớp với 1/4" = 1'-0" (chọn tỷ lệ đặt sẵn đó để có tỷ lệ chính xác)".
-   TakeoffCraft quay lại công cụ {{ui:Chọn}}.
+   TakeoffDesk quay lại công cụ {{ui:Chọn}}.
 
 Khi kết quả hiệu chuẩn khớp với một tỷ lệ đặt sẵn, chọn tỷ lệ đặt sẵn đó sẽ cho một tỷ lệ chính xác, thay vì một tỷ lệ phụ thuộc vào vị trí bạn đã bấm.
 
@@ -61,11 +61,11 @@ Nhấn {{key:Esc}} để xóa đường kiểm tra.
 
 ## Đổi tỷ lệ
 
-Chọn một tỷ lệ đặt sẵn khác hoặc hiệu chuẩn lại. Nếu tờ đã có các phép đo, TakeoffCraft hỏi **Đổi tỷ lệ của tờ này?** và cho biết có bao nhiêu phép đo sẽ được đo lại. Chọn {{ui:Đổi tỷ lệ}}. Mọi đoạn và khu vực trên tờ được đo lại theo tỷ lệ mới. Bạn có thể hoàn tác bằng {{key:Mod+Z}}.
+Chọn một tỷ lệ đặt sẵn khác hoặc hiệu chuẩn lại. Nếu tờ đã có các phép đo, TakeoffDesk hỏi **Đổi tỷ lệ của tờ này?** và cho biết có bao nhiêu phép đo sẽ được đo lại. Chọn {{ui:Đổi tỷ lệ}}. Mọi đoạn và khu vực trên tờ được đo lại theo tỷ lệ mới. Bạn có thể hoàn tác bằng {{key:Mod+Z}}.
 
 ## Vì sao các tờ chưa có tỷ lệ không được tính là không
 
-Một dấu trên tờ chưa có tỷ lệ không có chiều dài hay diện tích thật. TakeoffCraft không bao giờ tính nó là không, vì điều đó sẽ làm dự toán của bạn thấp đi một cách lặng lẽ. Thay vào đó, nó:
+Một dấu trên tờ chưa có tỷ lệ không có chiều dài hay diện tích thật. TakeoffDesk không bao giờ tính nó là không, vì điều đó sẽ làm dự toán của bạn thấp đi một cách lặng lẽ. Thay vào đó, nó:
 
 - để các dấu đó ra khỏi các tổng,
 - hiển thị "+(n) chưa có tỷ lệ" bên cạnh hạng mục trong {{ui:Khối lượng}},
@@ -77,5 +77,5 @@ Một dấu trên tờ chưa có tỷ lệ không có chiều dài hay diện t�
 ## Mẹo
 
 - Đặt tỷ lệ cho mọi tờ bạn sẽ đo trước khi bắt đầu. Quét danh sách tờ để tìm **Chưa có tỷ lệ** (ô tìm kiếm chỉ xem tên tờ, không xem tỷ lệ).
-- Các chi tiết và mặt bằng phóng to trên cùng một tờ thường dùng tỷ lệ khác. TakeoffCraft chỉ có một tỷ lệ cho mỗi tờ; xem [Chưa được xây dựng](topic:not-built-yet).
+- Các chi tiết và mặt bằng phóng to trên cùng một tờ thường dùng tỷ lệ khác. TakeoffDesk chỉ có một tỷ lệ cho mỗi tờ; xem [Chưa được xây dựng](topic:not-built-yet).
 - Bản vẽ hệ mét: chọn một tỷ lệ mét đặt sẵn như `1:100`, hoặc hiệu chuẩn bằng một khoảng cách mét như `6000 mm`.

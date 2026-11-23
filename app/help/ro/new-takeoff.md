@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Salvați antemăsurătoarea curentă dacă doriți să o păstrați: {{ui:Save takeoff}} sau {{key:Mod+S}}.
 2. Alegeți {{ui:New}} din grupul {{ui:File}}.
-3. Dacă există modificări nesalvate, TakeoffCraft întreabă **Antemăsurătoare nesalvată**: alegeți {{ui:Save takeoff first}} (descarcă proiectul, apoi golește), {{ui:Discard changes}} sau {{ui:Cancel}}.
+3. Dacă există modificări nesalvate, TakeoffDesk întreabă **Antemăsurătoare nesalvată**: alegeți {{ui:Save takeoff first}} (descarcă proiectul, apoi golește), {{ui:Discard changes}} sau {{ui:Cancel}}.
    Fereastra revine la starea goală: fără PDF-uri, fără articole, fără marcaje, fără scări. Bara de stare spune: „Antemăsurătoare nouă. Deschideți PDF-uri pentru a începe.”
 
 Ce se golește:

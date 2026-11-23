@@ -49,4 +49,4 @@ Kalibrirana razmjera se u traci ispod lista prikazuje kao "Kalibrirano 1" = 4.00
 
 ## Neobični PDF-ovi
 
-Neki PDF-ovi deklariraju veću jedinicu stranice („user unit“); TakeoffCraft je uzima u obzir za unaprijed zadane razmjere i za prikazanu razmjeru. Stranice zarotirane u PDF-u mjere se isto kao uspravne.
+Neki PDF-ovi deklariraju veću jedinicu stranice („user unit“); TakeoffDesk je uzima u obzir za unaprijed zadane razmjere i za prikazanu razmjeru. Stranice zarotirane u PDF-u mjere se isto kao uspravne.

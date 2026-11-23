@@ -1,6 +1,6 @@
 ---
 title: Klawiatura i mysz
-summary: Każdy klawisz, mysz, gładzik i dotyk w TakeoffCraft, pogrupowane, z różnicami między platformami.
+summary: Każdy klawisz, mysz, gładzik i dotyk w TakeoffDesk, pogrupowane, z różnicami między platformami.
 keywords: klawisze, skróty, skróty klawiszowe, klawiatura, mysz, gładzik, dotyk, przesuwanie, powiększanie, kółko, prawy przycisk, podwójne kliknięcie, spacja, shift, kopiuj, wklej, wytnij, duplikuj, zaznacz wszystko
 from: 6f2c441d
 ---
@@ -121,7 +121,7 @@ Zobacz [Sprawdzanie przedmiaru w 3D](topic:check-in-3d).
 | Klawisz | Co robi |
 |---|---|
 | {{key:F1}} | Otwiera lub zamyka panel pomocy (także przycisk {{ui:Pomoc}} na pasku aplikacji). Działa w każdym narzędziu, nawet podczas wpisywania w polu. |
-| {{key:Esc}} | Zamyka panel pomocy. W jego polu wyszukiwania pierwszy Esc czyści wyszukiwanie. Gdy panel jest otwarty, Esc naciśnięty po kliknięciu arkusza najpierw zamyka panel; naciśnij go ponownie, aby anulować w TakeoffCraft. |
+| {{key:Esc}} | Zamyka panel pomocy. W jego polu wyszukiwania pierwszy Esc czyści wyszukiwanie. Gdy panel jest otwarty, Esc naciśnięty po kliknięciu arkusza najpierw zamyka panel; naciśnij go ponownie, aby anulować w TakeoffDesk. |
 
 :::mac
 Na wielu klawiaturach Mac górny rząd steruje jasnością i dźwiękiem. Naciśnij fn z F1 albo włącz „Używaj klawiszy F1, F2 itd. jako standardowych klawiszy funkcyjnych” w Ustawieniach systemowych, w sekcji Klawiatura.
@@ -139,7 +139,7 @@ Na wielu klawiaturach Mac górny rząd steruje jasnością i dźwiękiem. Naciś
 
 :::mac
 - {{key:Mod}} to klawisz Command: {{key:Mod+Z}}, {{key:Mod+S}}, {{key:Mod+O}}. Wyjątkiem jest pełny ekran: Control+Shift+F.
-- Prawy przycisk to kliknięcie dwoma palcami na gładziku, po włączeniu kliknięcia wtórnego w Ustawieniach systemowych, w sekcji Gładzik. TakeoffCraft odczytuje tylko przycisk wtórny; kliknięcie z Control może zostać potraktowane jak zwykłe kliknięcie i dodać punkt.
+- Prawy przycisk to kliknięcie dwoma palcami na gładziku, po włączeniu kliknięcia wtórnego w Ustawieniach systemowych, w sekcji Gładzik. TakeoffDesk odczytuje tylko przycisk wtórny; kliknięcie z Control może zostać potraktowane jak zwykłe kliknięcie i dodać punkt.
 - Przewijanie dwoma palcami na gładziku powiększa arkusz (nie przewija go). Aby przesunąć, naciśnij i przeciągnij albo przytrzymaj {{key:Space}} i przeciągnij.
 - Page Up i Page Down to fn z klawiszami strzałek w górę i w dół na klawiaturach, które ich nie mają.
 - Backspace to klawisz oznaczony jako delete.
@@ -151,12 +151,12 @@ Na wielu klawiaturach Mac górny rząd steruje jasnością i dźwiękiem. Naciś
 :::
 
 :::linux
-- {{key:Mod}} to Ctrl. Niektóre środowiska mają własne skróty z Ctrl+Alt albo Super; TakeoffCraft żadnego z nich nie używa.
+- {{key:Mod}} to Ctrl. Niektóre środowiska mają własne skróty z Ctrl+Alt albo Super; TakeoffDesk żadnego z nich nie używa.
 - Na gładziku przewinięcie dwoma palcami powiększa arkusz. Aby przesunąć, naciśnij i przeciągnij.
 :::
 
 :::touch
-TakeoffCraft odczytuje dotyk jako pojedynczy wskaźnik:
+TakeoffDesk odczytuje dotyk jako pojedynczy wskaźnik:
 
 - Stuknięcie stawia punkt, zaznacza oznaczenie albo dodaje kropkę liczenia.
 - Przeciągnięcie jednym palcem przesuwa arkusz (w {{ui:Auto liczenie}} rysuje ramkę wyszukiwania).
@@ -169,7 +169,7 @@ Klawiatura z myszą lub gładzikiem to dziś lepszy sposób na przedmiar.
 
 ## Skróty, które zachowuje przeglądarka
 
-Przeglądarki zachowują dla siebie niektóre skróty i strona nie może ich użyć: zamknięcie karty ({{key:Mod+W}}), nowa karta lub okno ({{key:Mod+T}}, {{key:Mod+N}}) oraz powiększenie przeglądarki ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Dlatego TakeoffCraft powiększa arkusz kółkiem oraz samymi klawiszami {{key:Plus}} i {{key:Minus}}. Jeśli przez pomyłkę naciśniesz {{key:Mod+Plus}}, cała strona się powiększy; {{key:Mod+0}} przywraca rozmiar. Zobacz [Klawisze, myszy i gładziki](common:keys).
+Przeglądarki zachowują dla siebie niektóre skróty i strona nie może ich użyć: zamknięcie karty ({{key:Mod+W}}), nowa karta lub okno ({{key:Mod+T}}, {{key:Mod+N}}) oraz powiększenie przeglądarki ({{key:Mod+Plus}}, {{key:Mod+Minus}}). Dlatego TakeoffDesk powiększa arkusz kółkiem oraz samymi klawiszami {{key:Plus}} i {{key:Minus}}. Jeśli przez pomyłkę naciśniesz {{key:Mod+Plus}}, cała strona się powiększy; {{key:Mod+0}} przywraca rozmiar. Zobacz [Klawisze, myszy i gładziki](common:keys).
 
 ## Gdzie jest przesuwanie
 

@@ -10,7 +10,7 @@ keywords: new, new takeoff, clear, reset, start over, empty, close pdfs, next jo
 
 1. Save the current takeoff if you want to keep it: {{ui:Save takeoff}} or {{key:Mod+S}}.
 2. Choose {{ui:New}} in the {{ui:File}} group.
-3. If there are unsaved changes, TakeoffCraft asks **Unsaved takeoff**: choose {{ui:Save takeoff first}} (it downloads the project, then clears), {{ui:Discard changes}}, or {{ui:Cancel}}.
+3. If there are unsaved changes, TakeoffDesk asks **Unsaved takeoff**: choose {{ui:Save takeoff first}} (it downloads the project, then clears), {{ui:Discard changes}}, or {{ui:Cancel}}.
    The window goes back to its empty state: no PDFs, no items, no marks, no scales. The status bar says "New takeoff. Open PDFs to begin."
 
 What is cleared:

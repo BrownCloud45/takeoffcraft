@@ -77,7 +77,7 @@ Un rând pentru fiecare foaie care are o scară sau marcaje.
 | Foaie | Numele foii |
 | Scară | Numele presetării, scara calibrată sau "Fără scară" |
 | Cum | „Presetare” sau „Calibrată pe distanța introdusă” |
-| Picioare pe unitatea PDF | Factorul exact de scară folosit de TakeoffCraft |
+| Picioare pe unitatea PDF | Factorul exact de scară folosit de TakeoffDesk |
 
 ## Nume de fișiere
 

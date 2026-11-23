@@ -1,38 +1,59 @@
 <img src="screenshots/icon.svg" alt="" width="64" height="64">
 
-# TakeoffCraft
+# TakeoffDesk
 
 Measure the drawings. Count the work. Price the job.
 
-**[Website](https://getcadcraft.com/apps/takeoffcraft) | [Use it in your browser](https://getcadcraft.com/use/takeoffcraft) | [Download CadCraft Studio](https://getcadcraft.com/download#studio) | [Help and tutorials](https://getcadcraft.com/tutorials/takeoffcraft) | [News](https://getcadcraft.com/news) | [Suggest a feature](https://getcadcraft.com/suggest)**
+TakeoffDesk is a quantity takeoff & estimating app that runs in your browser: calibrated linear, area and count takeoff
+from PDF plans and DWG or DXF drawings, with assemblies, cost columns, bid leveling and quantities that export to CSV and
+Excel. Your files stay on your computer, and the app contacts no server of its own.
 
-[![TakeoffCraft 0.10](screenshots/paper.png)](https://getcadcraft.com/use/takeoffcraft)
+![TakeoffDesk](screenshots/app.png)
 
-<sub>TakeoffCraft 0.10 in the browser, dark theme. [A second view](screenshots/model.png).</sub>
+## Run it
 
-TakeoffCraft is the quantity takeoff & estimating app in the [CadCraft](https://getcadcraft.com) family: Calibrated linear, area and count takeoff from PDF plans, with assemblies, cost columns and quantities that export.
+You need [Node.js](https://nodejs.org/) 20.19 or newer (22 recommended). No npm packages are installed for the app.
 
-## Use it
+```sh
+git clone <this repository>
+cd takeoffcraft
+npm start                 # then open http://127.0.0.1:8000/
+```
 
-Use it now at https://getcadcraft.com/use/takeoffcraft, or install CadCraft Studio, which carries all eight apps. Your files stay on your computer either way.
+The first time a library is needed (pdf.js, three.js, …) it is downloaded once from the npm registry, by exact version,
+and checked against `devshell/vendor.json`. `npm run fetch-vendor` downloads them all up front. Behind a company proxy or
+a registry mirror, set `NPM_REGISTRY=https://your-mirror/` first.
 
-| Platform | Status |
-|---|---|
-| [Browser](web/) | 0.10: `takeoffcraft-browser-edition-v0.10.0.zip` in [Releases](https://github.com/getcadcraft/takeoffcraft/releases), or build it from a clone ([BUILDING.md](BUILDING.md#the-browser-edition)) |
-| Desktop: [Windows](windows/), [Linux](linux/) | In [CadCraft Studio 0.10](https://github.com/getcadcraft/studio/releases/tag/studio-v0.10.0) (installer, `.deb`, AppImage); not code-signed yet |
-| [macOS](macos/) | In [CadCraft Studio 0.10](https://github.com/getcadcraft/studio/releases/tag/studio-v0.10.0) (universal disk image, signed and notarized by Apple) |
-| [Android](android/) | The Studio APK, on the [download page](https://getcadcraft.com/download#studio) |
-| [iPad](ios/) | From the App Store when it is released; not in the store yet |
+To put it on a web server for your team, build the browser edition: a folder of static files that any web server can
+host (IIS, Apache, nginx, a shared folder behind one), with nothing to run on the server. It needs PHP 8.1+ besides Node
+to build ([BUILDING.md](BUILDING.md#the-browser-edition)):
+
+```sh
+npm run edition -- --version 1.0     # → dist/takeoffdesk-browser-edition-v1.0.0/, its .zip and SHA256SUMS
+```
+
+## Use it with an AI assistant
+
+```sh
+npm run mcp               # the same server, also answering AI assistants on this computer
+```
+
+Then, in the app, turn on **Settings › TakeoffDesk › Assistants**, and connect Claude Code or Claude Desktop with the token
+in `devshell/.mcp-token`. The assistant can read quantities and the estimate, look at sheets, add items and marks (each one
+undo step), count legend symbols and measure on DWG/DXF drawings. Setup and details: [devshell/MCP.md](devshell/MCP.md).
 
 ## Work on it
 
 ```sh
-node devshell/serve.mjs     # Node 20.19 or newer, no packages; then open http://127.0.0.1:8000/
-npm test                    # the app's tests; libraries are fetched by exact version
+npm test                  # the app's tests
 ```
 
-`app/` is the code in development (the same code on every platform; each release is a tag), `web/` `windows/` `linux/` `macos/` `ios/` `android/` hold what ships or builds it on each, `devshell/` runs it without the website (`devshell/README.md`), `tests/` and `fixtures/` are its tests and public sample files. How to contribute: [CONTRIBUTING.md](CONTRIBUTING.md); building from source: [BUILDING.md](BUILDING.md).
+`app/` is the app (plain ES modules, CSS and one page of markup), `devshell/` runs, tests and packs it, `tests/` and
+`fixtures/` are its tests and sample files. How to contribute: [CONTRIBUTING.md](CONTRIBUTING.md); building from source:
+[BUILDING.md](BUILDING.md).
 
 ## License
 
-Apache License 2.0 ([LICENSE](LICENSE), [NOTICE](NOTICE)). Libraries and their licenses: [THIRD_PARTY.md](THIRD_PARTY.md). Where the code comes from: [PROVENANCE.md](PROVENANCE.md). The names are trademarks; a fork must rename: [TRADEMARKS.md](TRADEMARKS.md).
+Apache License 2.0 ([LICENSE](LICENSE), [NOTICE](NOTICE)). TakeoffDesk is based on TakeoffCraft by The Data Design Group,
+Inc., which does not make or endorse it ([TRADEMARKS.md](TRADEMARKS.md)). Libraries and their licenses:
+[THIRD_PARTY.md](THIRD_PARTY.md). Where the code comes from: [PROVENANCE.md](PROVENANCE.md).

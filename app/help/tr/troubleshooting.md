@@ -1,11 +1,11 @@
 ---
 title: Sorun giderme
-summary: TakeoffCraft'ta karşılaşabileceğiniz mesajların ve sürprizlerin belirtileri, nedenleri ve çözümleri; uygulamanın gösterdiği haliyle alıntılanmıştır.
+summary: TakeoffDesk'ta karşılaşabileceğiniz mesajların ve sürprizlerin belirtileri, nedenleri ve çözümleri; uygulamanın gösterdiği haliyle alıntılanmıştır.
 keywords: sorunlar, hatalar, çalışmıyor, düzeltme, yardım, reddedildi, ölçmüyor, ölçek yok, eksik işaretler, dışa aktarma başarısız, çevrimdışı, dokunma
 from: cd319c9b
 ---
 
-TakeoffCraft çoğu reddi pencerenin altındaki durum çubuğunda açıklar. Aşağıda mesajı bulun.
+TakeoffDesk çoğu reddi pencerenin altındaki durum çubuğunda açıklar. Aşağıda mesajı bulun.
 
 ## Dosyaları açma
 
@@ -15,8 +15,8 @@ TakeoffCraft çoğu reddi pencerenin altındaki durum çubuğunda açıklar. Aş
 | (ad) parola korumalı. Korumasız bir kopya açın. | PDF açmak için parola ister. | Korumasız bir kopya isteyin ya da güvendiğiniz bir PDF programında parolayı kaldırın. |
 | (ad) PDF olarak okunamadı (…) | Dosya bozuk ya da gerçekte bir PDF değil. | Yeniden indirin ya da onu oluşturan programdan yeniden kaydedin. |
 | (ad) zaten açık. | Aynı PDF (aynı içerik) açık. | Yapılacak bir şey yok. |
-| TakeoffCraft PDF'leri ve .takeoff.json projelerini açar. Atlandı: … | Diğer dosya türleri bırakıldı. | Önce çizimleri PDF'e dönüştürün. |
-| Dosyaları bıraktığımda hiçbir şey olmuyor | Dosyalar tarayıcı penceresinin dışına bırakıldı ya da tarayıcı PDF'i yeni bir sekmede açtı. | TakeoffCraft sayfasının kendisine bırakın; "PDF'leri ya da bir .takeoff.json dosyasını bırakın" çerçevesi işe yarayacağını gösterir. |
+| TakeoffDesk PDF'leri ve .takeoff.json projelerini açar. Atlandı: … | Diğer dosya türleri bırakıldı. | Önce çizimleri PDF'e dönüştürün. |
+| Dosyaları bıraktığımda hiçbir şey olmuyor | Dosyalar tarayıcı penceresinin dışına bırakıldı ya da tarayıcı PDF'i yeni bir sekmede açtı. | TakeoffDesk sayfasının kendisine bırakın; "PDF'leri ya da bir .takeoff.json dosyasını bırakın" çerçevesi işe yarayacağını gösterir. |
 | Büyük bir takımı açmak biraz sürüyor | Her PDF, parmak izini almak için baştan sona okunur. | "(ad) açılıyor…" mesajı kaybolana kadar bekleyin. Küçük resimler kaydırdıkça dolar. |
 
 ## Ölçme
@@ -47,7 +47,7 @@ TakeoffCraft çoğu reddi pencerenin altındaki durum çubuğunda açıklar. Aş
 | Mesaj ya da belirti | Neden | Çözüm |
 |---|---|---|
 | Daha uzak iki nokta seçin. | Kalibrasyon noktaları neredeyse üst üste. | Daha uzun bir ölçüde kalibre edin. |
-| Kalibre iletişim kutusunda "Bu mesafe okunamadı" gibi bir mesaj | Mesafe TakeoffCraft'ın okuyamayacağı bir biçimde. | Bkz. [Uzunluk, oran ve yüzde girişi](topic:entry-formats). |
+| Kalibre iletişim kutusunda "Bu mesafe okunamadı" gibi bir mesaj | Mesafe TakeoffDesk'ın okuyamayacağı bir biçimde. | Bkz. [Uzunluk, oran ve yüzde girişi](topic:entry-formats). |
 | Bu sayfanın henüz ölçeği yok, bu yüzden denetlenecek bir şey yok. Kalibre edin ya da bir hazır ayar seçin. | Ölçeksiz bir sayfada {{ui:Denetle}}. | Önce bir ölçek ayarlayın. |
 | {{ui:Hazır ayar}} listesi soluk görünüyor | Hiçbir sayfa açık değil. | Bir PDF açın. |
 
@@ -86,8 +86,8 @@ TakeoffCraft çoğu reddi pencerenin altındaki durum çubuğunda açıklar. Aş
 | Bu PDF parola korumalı ya da şifreli, bu yüzden işaretli bir kopya yazılamaz. … | PDF şifreli. | Bunun yerine {{ui:XLSX}} dışa aktarın ya da PDF'in şifresiz bir kopyasını kullanın (o zaman kendi metrajı gerekir, çünkü farklı bir dosyadır). |
 | İşaretli PDF yazılamadı: … | Genellikle: çevrimdışısınız ve uygulama çevrimdışı kullanım için kaydedilmedi, bu yüzden PDF yazıcısı yok. | Çevrimiçi olun ve {{ui:İşaretli PDF}} öğesini yeniden seçin. Bunu önlemek için {{ui:Çevrimdışı için kaydet}} seçin ve {{ui:Çevrimdışı hazır}} yazısını bekleyin. |
 | Yalnızca bir işaretli PDF indi | Tarayıcı aynı anda birden çok indirmeyi engelledi. | Bu site için birden çok indirmeye izin verin ve yeniden dışa aktarın. |
-| (dosya) bir TakeoffCraft projesi değil (geçerli bir JSON değil). / Bu bir TakeoffCraft proje dosyası değil. | Yanlış dosya ya da bozuk bir dosya. | `.takeoff.json` dosyasını seçin. |
-| Bu proje daha yeni bir TakeoffCraft ile kaydedildi. Onu orada açın. | Dosya daha yeni bir sürümden geliyor. | Daha yeni sürümde açın. |
+| (dosya) bir TakeoffDesk projesi değil (geçerli bir JSON değil). / Bu bir TakeoffDesk proje dosyası değil. | Yanlış dosya ya da bozuk bir dosya. | `.takeoff.json` dosyasını seçin. |
+| Bu proje daha yeni bir TakeoffDesk ile kaydedildi. Onu orada açın. | Dosya daha yeni bir sürümden geliyor. | Daha yeni sürümde açın. |
 | (n) işaret zarar gördü ve dışarıda bırakıldı. | Dosyanın bir kısmı bozuldu ya da elle düzenlendi. | Geri kalanı açıldı. Eksik işaretleri yeniden çizin ya da daha eski bir kopya açın. |
 | Yeniden açtıktan sonra işaretler eksik | PDF'ler açık değil ya da biri değişti. | Bkz. [Bir metrajı kaydedin ve yeniden açın](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Tarayıcı "Siteden ayrılınsın mı?" diye soruyor | Kaydedilmemiş değişiklikler var. | Kalın ve {{key:Mod+S}} ile kaydedin. |

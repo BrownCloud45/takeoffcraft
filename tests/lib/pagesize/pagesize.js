@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
  * pagesize.js: a PDF page's size in mm and inches, its nearest named paper size, and a set grouped by size (0.10 SU.1805). No DOM.
- * Canonical copy: lib/pagesize/. MarkupCraft and TakeoffCraft each carry a byte-identical copy in <app>/dev/pagesize.js
+ * Canonical copy: lib/pagesize/. MarkupCraft and TakeoffDesk each carry a byte-identical copy in <app>/dev/pagesize.js
  * (`node tools/pagesize/sync.mjs [--check] markupcraft takeoffcraft`; nobody edits a copy).
  *
  *   pageSize({ width, height, userUnit }, { tolMm }) → { wMm, hMm, wIn, hIn, orient, name, series, deltaMm, near, custom }

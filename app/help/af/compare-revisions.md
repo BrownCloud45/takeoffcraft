@@ -5,14 +5,14 @@ keywords: hersiening, hersien, vergelyk, oorlegging, oud, nuut, veranderinge, aa
 from: 3a1d9fe0
 ---
 
-Wanneer 'n blad weer uitgereik word, hoef jy dit nie weer op te meet nie. Open die ou PDF en die nuwe een, vergelyk die twee blaaie, en skuif die hoeveelheidsopname oor. TakeoffCraft merk elke merk waar die tekening verander het, sodat jy daardie nagaan en die res behou.
+Wanneer 'n blad weer uitgereik word, hoef jy dit nie weer op te meet nie. Open die ou PDF en die nuwe een, vergelyk die twee blaaie, en skuif die hoeveelheidsopname oor. TakeoffDesk merk elke merk waar die tekening verander het, sodat jy daardie nagaan en die res behou.
 
 ## Vergelyk
 
 1. Maak albei PDF's oop: die ou stel en die hersiene een ({{ui:Maak planne oop}}; hulle kan in een lêer of in verskeie wees).
 2. Wys die **nuwe** blad.
 3. Kies {{ui:Vergelyk}} op die bladbalk onder die tekening.
-4. Kies die ou blad in die lys. TakeoffCraft stel die blad met dieselfde nommer in die ander PDF voor, of dieselfde bladsy. Kies **Vergelyk**.
+4. Kies die ou blad in die lys. TakeoffDesk stel die blad met dieselfde nommer in die ander PDF voor, of dieselfde bladsy. Kies **Vergelyk**.
 
 Die ou tekening lê nou in rooi oor die nuwe een. Waar die twee ooreenstem, lê die rooi lyne op die swart; waar hulle verskil, sien jy rooi lyne alleen (verwyder) en swart lyne alleen (bygevoeg). 'n Balk onderaan die blad hou die stappe hieronder; {{key:Esc}} of {{ui:Maak toe}} beëindig vergelyking.
 
@@ -29,7 +29,7 @@ Die rooi tekening beweeg, draai en skaal na die swart een. Die statusbalk sê ho
 
 ## Vind wat verander het
 
-Kies **Vind veranderinge**. TakeoffCraft vergelyk die twee tekeninge se ink: ink net op die ou blad word rooi, ink net op die nuwe blad word blou, en die statusbalk tel hulle. Lyne wat net 'n haar se afstand verskuif het ('n herdruk), tel nie as veranderinge nie.
+Kies **Vind veranderinge**. TakeoffDesk vergelyk die twee tekeninge se ink: ink net op die ou blad word rooi, ink net op die nuwe blad word blou, en die statusbalk tel hulle. Lyne wat net 'n haar se afstand verskuif het ('n herdruk), tel nie as veranderinge nie.
 
 Dit kyk ook na elke merk op die ou blad en tel die wat op plekke sit waar die tekening verander het:
 
@@ -40,7 +40,7 @@ Dit kyk ook na elke merk op die ou blad en tel die wat op plekke sit waar die te
 
 Kies **Skuif hoeveelheidsopname hier**. Elke merk op die ou blad skuif na die nuwe een, deur die oplyning, in een ontdoen-stap. Die merke langs 'n verandering word gemerk: hulle word met 'n oranje gloed geteken, en die bladbalk wys "(n) om te kontroleer".
 
-As die nuwe blad geen skaal gehad het nie, neem dit die ou blad se skaal aan (aangepas wanneer die tekeninge geskaal moes word om op te lyn). As dit reeds 'n ander skaal gehad het, vra TakeoffCraft eers: geskuifde merke word by die nuwe blad se skaal gemeet.
+As die nuwe blad geen skaal gehad het nie, neem dit die ou blad se skaal aan (aangepas wanneer die tekeninge geskaal moes word om op te lyn). As dit reeds 'n ander skaal gehad het, vra TakeoffDesk eers: geskuifde merke word by die nuwe blad se skaal gemeet.
 
 ## Kontroleer die gemerkte merke
 

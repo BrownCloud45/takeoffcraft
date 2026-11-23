@@ -1,6 +1,6 @@
 ---
 title: Sjálftalning tákns
-summary: Rammaðu inn eitt tákn, láttu TakeoffCraft finna hin á þessu blaði eða á öllum opnum blöðum, farðu yfir samsvaranirnar með rennistikunni og bættu þeim við í einu skrefi.
+summary: Rammaðu inn eitt tákn, láttu TakeoffDesk finna hin á þessu blaði eða á öllum opnum blöðum, farðu yfir samsvaranirnar með rennistikunni og bættu þeim við í einu skrefi.
 keywords: hvaða horn sem er, snúið, sveigt, annar mælikvarði, mismunandi mælikvarði, sjálftalning, sjálfvirk talning, leit að táknum, finna tákn, mynstur, sniðmát, samsvörun, greina, talningartól
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Til að hætta yfirferðinni án þess að bæta neinu við skaltu velja {{ui:He
 
 ## Hvað það finnur og hvað það missir af
 
-TakeoffCraft ber teikninguna saman, pixla fyrir pixla, við táknið sem þú rammaðir inn.
+TakeoffDesk ber teikninguna saman, pixla fyrir pixla, við táknið sem þú rammaðir inn.
 
 - Það finnur táknið snúið um 0°, 90°, 180° og 270°. Hakaðu við {{ui:Hvaða horn sem er (hægara)}} á sjálftalningarstikunni áður en þú dregur reitinn til að finna það líka í hvaða horni sem er: það prófar á 15° fresti og fínstillir síðan hvern fund að gráðu og hálfri. Það tekur um sex sinnum lengri tíma. Það finnur ekki speglað tákn (nema táknið líti eins út speglað).
 - Þegar {{ui:Leita á öllum opnum blöðum}} er hakað er blað í öðrum mælikvarða leitað í þeirri stærð sem táknið hefur þar. Innrétting sem er teiknuð í mælikvarða á 1/8" grunnmynd er helmingi minni en á 1/4" grunnmynd, og finnst samt. Slíkt blað er einnig leitað í upprunalegri stærð reitsins, fyrir merkimiða og tákn sem eru prentuð í einni stærð á öllum blöðum. Þetta krefst mælikvarða á báðum blöðum; blað án mælikvarða er leitað aðeins í stærð reitsins.

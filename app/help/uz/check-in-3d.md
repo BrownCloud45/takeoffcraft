@@ -46,7 +46,7 @@ Balandlik chiziqli elementning {{ui:Balandlik}} maydoni, chuqurlik esa maydonli 
 | {{ui:Varaq}} | Yerdagi chizmani koʻrsatish yoki yashirish. |
 | Koʻrinish kubi, yuqori oʻngda | Undan qarash uchun yuzi, qirrasi yoki burchagini bosing; aylantirish uchun uni sudrang; burish uchun kompas halqasini sudrang; uy tugmasi {{ui:Iso}} ga qaytaradi. |
 
-Burchakda koʻrinish kubi, kichik X, Y, Z oʻqlari belgisi yoki hech narsa koʻrinadi: buni {{ui:Sozlamalar}} da, TakeoffCraft yorligʻida, **Burchak koʻrsatkichi** ostida tanlang ([TakeoffCraft sozlamalari](topic:settings)). Tekis varaqda burchak koʻrsatkichi yoʻq.
+Burchakda koʻrinish kubi, kichik X, Y, Z oʻqlari belgisi yoki hech narsa koʻrinadi: buni {{ui:Sozlamalar}} da, TakeoffDesk yorligʻida, **Burchak koʻrsatkichi** ostida tanlang ([TakeoffDesk sozlamalari](topic:settings)). Tekis varaqda burchak koʻrsatkichi yoʻq.
 
 :::touch
 Bir barmoq aylantiradi; ikki barmoq chimdib kattalashtiradi va surish uchun siljiydi. Bir marta bosish tanlaydi.

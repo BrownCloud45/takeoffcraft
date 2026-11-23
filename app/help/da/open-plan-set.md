@@ -5,7 +5,7 @@ keywords: åbn, tegningssæt, flere pdf'er, flere filer, ark, tegninger, sidelab
 from: ed434468
 ---
 
-Et tegningssæt er ofte flere PDF'er: arkitekt, konstruktion, VVS. TakeoffCraft åbner dem side om side som én liste af ark, og ét mængdeudtræk kan dække dem alle.
+Et tegningssæt er ofte flere PDF'er: arkitekt, konstruktion, VVS. TakeoffDesk åbner dem side om side som én liste af ark, og ét mængdeudtræk kan dække dem alle.
 
 ## Åbn PDF'erne
 
@@ -14,14 +14,14 @@ Et tegningssæt er ofte flere PDF'er: arkitekt, konstruktion, VVS. TakeoffCraft 
 3. Vælg Åbn.
    Beskeden »Åbner (navn)…« vises, mens hver fil læses. Derefter vises hver side under {{ui:Ark}}, og den første side af den første nye PDF åbnes.
 
-Du kan også trække PDF'erne fra {{pick:mac=Finder|windows=Stifinder|linux=din filhåndtering}} og slippe dem hvor som helst på TakeoffCraft. Mens du trækker, vises en ramme med teksten »Slip PDF'er, DWG- eller DXF-tegninger eller en .takeoff.json«.
+Du kan også trække PDF'erne fra {{pick:mac=Finder|windows=Stifinder|linux=din filhåndtering}} og slippe dem hvor som helst på TakeoffDesk. Mens du trækker, vises en ramme med teksten »Slip PDF'er, DWG- eller DXF-tegninger eller en .takeoff.json«.
 
 For at tilføje flere PDF'er senere, gør det samme igen. PDF'er, der allerede er åbne, springes over.
 
 Startskærmen viser også de PDF'er og mængdeudtræk, du har åbnet for nylig, i browsere, der lader en side åbne en fil igen (Chrome og Edge). Klik på en for at åbne den; browseren kan først bede om tilladelse. Se [Dine filer](common:your-files).
 
 :::note
-Der uploades intet. Browseren læser PDF'erne på din computer, og de er væk fra TakeoffCraft, når du lukker fanen eller vælger {{ui:Ny}}.
+Der uploades intet. Browseren læser PDF'erne på din computer, og de er væk fra TakeoffDesk, når du lukker fanen eller vælger {{ui:Ny}}.
 :::
 
 ## Tegninger ved siden af PDF'er
@@ -30,7 +30,7 @@ Der uploades intet. Browseren læser PDF'erne på din computer, og de er væk fr
 
 ## En PDF overdraget fra et andet program
 
-Et andet program i pakken kan give dig den PDF, det har åben: det åbner TakeoffCraft i en ny fane, og PDF'en åbnes der, som om du havde sluppet den. Statuslinjen siger »Åbnet (navn), overdraget fra (program). Den oprindelige fil er uændret.« Der uploades intet; filen går gennem denne browsers egen lagring og er væk derfra, når den er åbnet.
+Et andet program i pakken kan give dig den PDF, det har åben: det åbner TakeoffDesk i en ny fane, og PDF'en åbnes der, som om du havde sluppet den. Statuslinjen siger »Åbnet (navn), overdraget fra (program). Den oprindelige fil er uændret.« Der uploades intet; filen går gennem denne browsers egen lagring og er væk derfra, når den er åbnet.
 
 Hvis statuslinjen siger, at PDF'en »ikke kom frem«, ventede fanen for længe, eller PDF'en var allerede åbnet i en anden fane: åbn den med {{ui:Åbn tegninger}}.
 

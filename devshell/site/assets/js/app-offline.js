@@ -15,7 +15,6 @@
   var dataEl = document.getElementById('cc-offline');
   if (!btn || !label || !dataEl) return;
   // The desktop app is already local, and a service worker can't register on the shell's own origin: no button there.
-  if (window.cadcraftDesktop) { btn.hidden = true; return; }
   function T(k, v) { return window.ccShellT ? window.ccShellT(k, v) : k; }
   var data;
   try { data = JSON.parse(dataEl.textContent); } catch (e) { return; }

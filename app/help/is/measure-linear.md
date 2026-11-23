@@ -30,7 +30,7 @@ Meðan teiknað er:
 - Dráttur hliðrar blaðinu og hjólið aðdráttast, án þess að bæta við punktum.
 
 :::mac
-Á Mac-snertiborði er hægri smellur tveggja fingra smellur (kveiktu á öðrum smelli í Kerfisstillingum, undir Snertiborð). TakeoffCraft les aðeins annan hnappinn, svo Control-smellur gæti verið talinn venjulegur smellur og bætt við punkti. Tvísmellur eða {{key:Enter}} ljúka alltaf.
+Á Mac-snertiborði er hægri smellur tveggja fingra smellur (kveiktu á öðrum smelli í Kerfisstillingum, undir Snertiborð). TakeoffDesk les aðeins annan hnappinn, svo Control-smellur gæti verið talinn venjulegur smellur og bætt við punkti. Tvísmellur eða {{key:Enter}} ljúka alltaf.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Eftir fyrsta punktinn geturðu slegið inn hvar næsti punktur á að vera í st
 | `@6',-4'` | 6' til hægri og 4' niður frá síðasta punkti |
 | `6',4'` (eða `#6',4'`) | 6' til hægri og 4' upp frá fyrsta punkti þessarar keyrslu |
 
-Lengdir eru skrifaðar eins og alls staðar í TakeoffCraft ([Innsláttarsnið](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fet), `30"`, `3.2 m`. „Hægri“ og „upp“ eru eins og þú sérð blaðið, líka þegar PDF-síðunni er snúið.
+Lengdir eru skrifaðar eins og alls staðar í TakeoffDesk ([Innsláttarsnið](topic:entry-formats)): `12'-6 1/2"`, `12.5` (fet), `30"`, `3.2 m`. „Hægri“ og „upp“ eru eins og þú sérð blaðið, líka þegar PDF-síðunni er snúið.
 
 {{key:Enter}} á tómum reit ljúkur keyrslunni, eins og {{key:Enter}} á blaðinu; {{key:Esc}} lokar reitnum og heldur keyrslunni áfram. Innsláttir punktar fara eftir sömu reglum og smellir: frádrættir, bogar og lokun flatarmáls virka öll. Sami reitur virkar í {{ui:Flatarmál}} og {{ui:Úrskurður}}; eftir miðju hrings tekur hann radíusinn.
 

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * cad-sync.mjs — TakeoffCraft's byte-identical copies of the CAD modules it opens drawings with (0.7 TD.1). No second parser:
+ * cad-sync.mjs — TakeoffDesk's byte-identical copies of the CAD modules it opens drawings with (0.7 TD.1). No second parser:
  *   dxf-model.js, dxf-decode.js   from cadcraft/dev   (the DXF reader and its code pages)
  *   dwg-compile.js, dwg-dynamic.js from bimcraft/dev  (the drawing model → what a sheet draws; dynamic-block states)
  * The DWG reader itself (dwg/) is lib/dwg through tools/dwg-test/writer-sync.mjs. Only this script writes the copies.

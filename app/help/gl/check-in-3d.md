@@ -46,7 +46,7 @@ As cifras non cambian en 3D: a superficie dun muro é a súa lonxitude exacta mu
 | {{ui:Folla}} | Mostrar ou ocultar o debuxo no chan. |
 | O cubo de vista, arriba á dereita | Prema unha cara, unha aresta ou unha esquina para mirar desde alí; arrástrelo para orbitar; arrastre o seu anel de brúxula para xirar; o botón da casa volve a {{ui:Iso}}. |
 
-O recuncho mostra un cubo de vista, unha pequena icona dos eixes X, Y, Z, ou nada: escolla en {{ui:Configuración}}, na lapela TakeoffCraft, baixo **Indicador de esquina** ([Configuración de TakeoffCraft](topic:settings)). A folla plana non ten indicador de esquina.
+O recuncho mostra un cubo de vista, unha pequena icona dos eixes X, Y, Z, ou nada: escolla en {{ui:Configuración}}, na lapela TakeoffDesk, baixo **Indicador de esquina** ([Configuración de TakeoffDesk](topic:settings)). A folla plana non ten indicador de esquina.
 
 :::touch
 Un dedo orbita; dous dedos pinzan para achegar e móvense para desprazar. Un toque selecciona.

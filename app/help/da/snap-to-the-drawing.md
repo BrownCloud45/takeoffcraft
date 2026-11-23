@@ -5,7 +5,7 @@ keywords: fang, objektfang, endepunkt, midtpunkt, skæringspunkt, nærmeste, vek
 from: 41d29e9b
 ---
 
-De fleste plansæt er vektor-PDF'er: væggene og kanterne er rigtige linjer, ikke pixels. Mens du måler, fanger TakeoffCraft dine klik på disse linjer, så et forløb starter præcis i en vægs hjørne, og en kalibrering læser det mål tegneren har tegnet, ikke den pixel du rammer.
+De fleste plansæt er vektor-PDF'er: væggene og kanterne er rigtige linjer, ikke pixels. Mens du måler, fanger TakeoffDesk dine klik på disse linjer, så et forløb starter præcis i en vægs hjørne, og en kalibrering læser det mål tegneren har tegnet, ikke den pixel du rammer.
 
 Fang er slået til, når du starter. Slå det til og fra med {{ui:Fang}} i statuslinjen eller {{key:F3}}; indstillingen gemmes i denne browser (den findes også under [Indstillinger](topic:settings)).
 

@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Stoor die huidige hoeveelheidsopname as jy dit wil behou: {{ui:Stoor hoeveelheidsopname}} of {{key:Mod+S}}.
 2. Kies {{ui:Nuut}} in die {{ui:Lêer}}-groep.
-3. As daar onbewaarde veranderinge is, vra TakeoffCraft **Onbewaarde hoeveelheidsopname**: kies {{ui:Stoor afneming eerste}} (dit laai die projek af, en maak dan leeg), {{ui:Gooi veranderinge weg}}, of {{ui:Kanselleer}}.
+3. As daar onbewaarde veranderinge is, vra TakeoffDesk **Onbewaarde hoeveelheidsopname**: kies {{ui:Stoor afneming eerste}} (dit laai die projek af, en maak dan leeg), {{ui:Gooi veranderinge weg}}, of {{ui:Kanselleer}}.
    Die venster keer terug na sy leë toestand: geen PDF’s, geen items, geen merke, geen skale nie. Die statusbalk sê "Nuwe hoeveelheidsopname. Maak PDF’s oop om te begin."
 
 Wat leeggemaak word:

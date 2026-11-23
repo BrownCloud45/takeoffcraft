@@ -5,7 +5,7 @@ keywords: identifiera skala, läs skala, skala från text, alla blad, skala, kal
 from: 8f0148e6
 ---
 
-Varje blad har sin egen skala. Du anger den, eller låter TakeoffCraft läsa den från bladens text (nedan), och kontrollerar den. Tills ett blad har en skala vägrar {{ui:Linjär}}, {{ui:Area}}, {{ui:Cirkel}} och {{ui:Urtag}} att mäta på det. {{ui:Räkna}} och {{ui:Autoräkna}} fungerar utan skala.
+Varje blad har sin egen skala. Du anger den, eller låter TakeoffDesk läsa den från bladens text (nedan), och kontrollerar den. Tills ett blad har en skala vägrar {{ui:Linjär}}, {{ui:Area}}, {{ui:Cirkel}} och {{ui:Urtag}} att mäta på det. {{ui:Räkna}} och {{ui:Autoräkna}} fungerar utan skala.
 
 Bladlistan visar varje blads skala, eller **Ingen skala**. Fältet under det öppna bladet säger samma sak.
 
@@ -23,7 +23,7 @@ Hela listan finns i [Skalförval](topic:scale-presets).
 
 ## Läs skalorna från bladens text
 
-De flesta ritningar anger sin skala: `SCALE: 1/4" = 1'-0"` i ritningshuvudet, `1:100` under en vy. TakeoffCraft kan läsa den och ange varje blad på en gång.
+De flesta ritningar anger sin skala: `SCALE: 1/4" = 1'-0"` i ritningshuvudet, `1:100` under en vy. TakeoffDesk kan läsa den och ange varje blad på en gång.
 
 1. Öppna listan {{ui:Förval}} och välj {{ui:Från bladens text…}} (överst).
 2. Listan visar varje blad: dess skala nu, och vad dess text säger — **Anger 1/4" = 1'-0"**, **Ingen skala i texten** eller **Anger ej skala** (NTS).
@@ -44,7 +44,7 @@ Använd detta när det inte finns någon utskriven skala du litar på, seten har
 5. Skriv det verkliga avståndet i **Verkligt avstånd**, till exempel `24'-6 1/2"`, `24.5` (decimala fot), `30"` eller `7.5 m`. Se [Inmatning av längd, pris och procent](topic:entry-formats).
 6. Välj {{ui:Ange skalan}}.
    Statusfältet visar skalan som "1" = (n)'", och när den ligger inom 0.5 % av ett förval säger det vilket, till exempel "vilket matchar 1/4" = 1'-0" (välj det förvalet för en exakt skala)".
-   TakeoffCraft återgår till verktyget {{ui:Markera}}.
+   TakeoffDesk återgår till verktyget {{ui:Markera}}.
 
 När kalibreringen matchar ett förval ger det förvalet en exakt skala i stället för en som beror på var du klickade.
 
@@ -61,11 +61,11 @@ Tryck på {{key:Esc}} för att rensa kontrollinjen.
 
 ## Ändra en skala
 
-Välj ett annat förval eller kalibrera igen. Om bladet redan har mätningar frågar TakeoffCraft **Ändra det här bladets skala?** och säger hur många mätningar som kommer att mätas om. Välj {{ui:Ändra skalan}}. Varje sträcka och area på bladet mäts om med den nya skalan. Du kan ångra det med {{key:Mod+Z}}.
+Välj ett annat förval eller kalibrera igen. Om bladet redan har mätningar frågar TakeoffDesk **Ändra det här bladets skala?** och säger hur många mätningar som kommer att mätas om. Välj {{ui:Ändra skalan}}. Varje sträcka och area på bladet mäts om med den nya skalan. Du kan ångra det med {{key:Mod+Z}}.
 
 ## Varför blad utan skala inte räknas som noll
 
-En markering på ett blad utan skala har ingen verklig längd eller area. TakeoffCraft räknar den aldrig som noll, eftersom det i tysthet skulle göra din kalkyl för låg. I stället:
+En markering på ett blad utan skala har ingen verklig längd eller area. TakeoffDesk räknar den aldrig som noll, eftersom det i tysthet skulle göra din kalkyl för låg. I stället:
 
 - lämnas dessa markeringar utanför summorna,
 - visas "+(n) oskalade" bredvid posten i {{ui:Mängder}},
@@ -77,5 +77,5 @@ Det här kan hända när du öppnar ett projekt vars skalor aldrig angavs. Ge bl
 ## Tips
 
 - Ange skalan på varje blad du ska mäta innan du börjar. Sök i bladlistan efter **Ingen skala** för att hitta de som återstår (sökrutan tittar på bladnamn, inte skalor).
-- Detaljer och förstorade plan på samma blad använder ofta en annan skala. TakeoffCraft har en skala per blad; se [Vad som inte är byggt ännu](topic:not-built-yet).
+- Detaljer och förstorade plan på samma blad använder ofta en annan skala. TakeoffDesk har en skala per blad; se [Vad som inte är byggt ännu](topic:not-built-yet).
 - Metriska ritningar: välj ett metriskt förval som `1:100`, eller kalibrera med ett metriskt avstånd som `6000 mm`.

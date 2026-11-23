@@ -32,11 +32,11 @@ Indsatte markeringer går i tilbudsområdet valgt øverst i panelet {{ui:Poster}
 
 {{key:Mod+Shift+V}} ({{ui:Sæt ind på samme sted}}) lægger kopien præcis samme sted på det åbne ark, efter dens position på siden. Brug det til en typisk etage: tag niveau 2, kopiér, åbn niveau 3, sæt ind på samme sted.
 
-Sæt ind på samme sted kræver et ark i **samme størrelse** som det du kopierede fra. På et ark i en anden størrelse siger TakeoffCraft det og indsætter intet; brug {{ui:Sæt ind}} og klik i stedet. På arket du kopierede fra lander kopien oven på originalerne.
+Sæt ind på samme sted kræver et ark i **samme størrelse** som det du kopierede fra. På et ark i en anden størrelse siger TakeoffDesk det og indsætter intet; brug {{ui:Sæt ind}} og klik i stedet. På arket du kopierede fra lander kopien oven på originalerne.
 
 ## Målestokken skal passe
 
-Længder og arealer afhænger af arkets målestok. Et forløb der måler 10' ved 1/4" = 1'-0" ville måle 20' på et ark i 1/8" = 1'-0". Derfor indsætter TakeoffCraft kun forløb og arealer på et ark med **samme målestok** som arket de kom fra, og siger klart når det ikke er:
+Længder og arealer afhænger af arkets målestok. Et forløb der måler 10' ved 1/4" = 1'-0" ville måle 20' på et ark i 1/8" = 1'-0". Derfor indsætter TakeoffDesk kun forløb og arealer på et ark med **samme målestok** som arket de kom fra, og siger klart når det ikke er:
 
 - Det åbne ark har endnu ingen målestok: giv det en først ([Angiv målestokken](topic:set-the-scale)), og sæt derefter ind.
 - Det åbne ark har en anden målestok: meddelelsen nævner begge målestokke. Sæt ind på et ark i samme målestok.
@@ -59,7 +59,7 @@ Postredigeringen (under **Poster**) slutter med:
 - {{ui:Duplikér post}}: tilføjer en kopi med det samme, navngivet "(navn) (kopi)".
 
 :::tip
-Kopien bliver på denne computer: den gemmes i denne fane og i browserens lager, så en anden TakeoffCraft-fane kan indsætte den. Intet uploades, og systemets udklipsholder bruges ikke, så du kan ikke indsætte markeringer i andre programmer.
+Kopien bliver på denne computer: den gemmes i denne fane og i browserens lager, så en anden TakeoffDesk-fane kan indsætte den. Intet uploades, og systemets udklipsholder bruges ikke, så du kan ikke indsætte markeringer i andre programmer.
 :::
 
 :::note

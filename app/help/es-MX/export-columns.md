@@ -77,7 +77,7 @@ Una fila por cada hoja que tenga escala o marcas.
 | Hoja | Nombre de la hoja |
 | Escala | El nombre del preajuste, la escala calibrada, o "Sin escala" |
 | Cómo | "Preajuste", o "Calibrada con (la distancia que escribió)" |
-| Pies por unidad de PDF | El factor de escala exacto que usa TakeoffCraft |
+| Pies por unidad de PDF | El factor de escala exacto que usa TakeoffDesk |
 
 ## Nombres de archivo
 

@@ -5,7 +5,7 @@ keywords: bumbung, kecerunan, faktor kecerunan, kenaikan, larian, 6:12, rake, hi
 from: 38225b60
 ---
 
-Pelan bumbung menunjukkan setiap satah bumbung rata, seperti dilihat dari atas. Bumbung itu sendiri lebih besar: satah pada 6:12 mempunyai kira-kira 12% lebih permukaan daripada pelannya, dan tepi condongnya lebih panjang daripada yang kelihatan. Berikan item itu kecerunannya dan TakeoffCraft mengukur sepanjang cerun.
+Pelan bumbung menunjukkan setiap satah bumbung rata, seperti dilihat dari atas. Bumbung itu sendiri lebih besar: satah pada 6:12 mempunyai kira-kira 12% lebih permukaan daripada pelannya, dan tepi condongnya lebih panjang daripada yang kelihatan. Berikan item itu kecerunannya dan TakeoffDesk mengukur sepanjang cerun.
 
 ## Menaip kecerunan
 

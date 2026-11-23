@@ -32,11 +32,11 @@ Calaamadaha la dhajiyay waxay tagaan aagga tartanka ee lagu doortay sare panelka
 
 {{key:Mod+Shift+V}} ({{ui:Dhaji meeshii}}) wuxuu dhigaa nuqulka meel isku mid ah oo xaashiga furan, sida booska bogga. Isticmaal marka dabaqa caadiga ah: xisaabi dabaqa 2, koobiyee, fur dabaqa 3, dhaji meeshii.
 
-Dhaji meeshii wuxuu u baahan yahay xaashi **cabbir isku mid ah** kii aad ka koobiyeysay. Xaashi cabbir kale ah TakeoffCraft wuu sheegaa oo ma dhajiyo wax; isticmaal {{ui:Dhaji}} oo riix. Xaashiga aad ka koobiyeysay, nuqulku wuxuu ku dhacaa kuwii asalka ahaa.
+Dhaji meeshii wuxuu u baahan yahay xaashi **cabbir isku mid ah** kii aad ka koobiyeysay. Xaashi cabbir kale ah TakeoffDesk wuu sheegaa oo ma dhajiyo wax; isticmaal {{ui:Dhaji}} oo riix. Xaashiga aad ka koobiyeysay, nuqulku wuxuu ku dhacaa kuwii asalka ahaa.
 
 ## Miisaanku waa inuu isku mid noqdaa
 
-Dherer iyo aagag waxay ku xiran yihiin miisaanka xaashiga. Socod lagu cabbiray 10' oo ku jira miisaan 1/4" = 1'-0" wuxuu noqon lahaa 20' xaashi miisaankiisu yahay 1/8" = 1'-0". Sidaas darteed TakeoffCraft wuxuu dhajiyaa socodyada iyo aagagga oo keliya xaashi **miisaan isku mid ah** kii ay ka yimaadeen, wuxuuna si cad u sheegaa marka aanu sidaas ahayn:
+Dherer iyo aagag waxay ku xiran yihiin miisaanka xaashiga. Socod lagu cabbiray 10' oo ku jira miisaan 1/4" = 1'-0" wuxuu noqon lahaa 20' xaashi miisaankiisu yahay 1/8" = 1'-0". Sidaas darteed TakeoffDesk wuxuu dhajiyaa socodyada iyo aagagga oo keliya xaashi **miisaan isku mid ah** kii ay ka yimaadeen, wuxuuna si cad u sheegaa marka aanu sidaas ahayn:
 
 - Xaashiga furan weli ma leh miisaan: marka hore sii mid ([Dejinta miisaanka](topic:set-the-scale)), kadibna dhaji.
 - Xaashiga furan miisaan kale ayuu leeyahay: farriinta waxay magacaabaa labada miisaan. Dhaji xaashi miisaan isku mid ah.
@@ -59,7 +59,7 @@ Tafatiraha walaxda (hoos ee **Walxaha**) wuxuu ku dhammaadaa:
 - {{ui:Samee nuqul shayga}}: wuxuu hal mar ku daraa nuqul, magaceedu yahay "(magac) (nuqul)".
 
 :::tip
-Nuqulku wuxuu ku jiraa kombiyuutarkan: wuxuu ku jiraa tab-kan iyo kaydinta browser-ka, sidaas darteed tab kale oo TakeoffCraft ah ayaa dhajin karta. Waa lagu soo rarin, nidaamka clipboard-kana lama isticmaalo, sidaas darteed calaamadaha barnaamijyada kale uma dhajin kartid.
+Nuqulku wuxuu ku jiraa kombiyuutarkan: wuxuu ku jiraa tab-kan iyo kaydinta browser-ka, sidaas darteed tab kale oo TakeoffDesk ah ayaa dhajin karta. Waa lagu soo rarin, nidaamka clipboard-kana lama isticmaalo, sidaas darteed calaamadaha barnaamijyada kale uma dhajin kartid.
 :::
 
 :::note

@@ -28,7 +28,7 @@ Apat na worksheet ang workbook, at ang mga report sa ibaba kapag naaangkop:
 
 Kapag may [bid summary](topic:bid-summary), nagtatapos din ang Estimate worksheet sa mga markup nito (labor burden, sales tax, overhead, profit, bond at ang bid), bilang live formulas.
 
-Pinapanatili ng Estimate worksheet ang **live formulas**: quantity with waste, ang na-round na halaga ng material at labor, ang total ng bawat row, at ang kabuuan ng job. Ina-recalculate ng spreadsheet programs ang mga ito, kaya maaari mong baguhin ang rate o waste sa spreadsheet at susunod ang mga total. Nakalagay rin sa mga cell ang mga numerong kinuwenta ng TakeoffCraft, at tugma ang mga ito hanggang sentimo.
+Pinapanatili ng Estimate worksheet ang **live formulas**: quantity with waste, ang na-round na halaga ng material at labor, ang total ng bawat row, at ang kabuuan ng job. Ina-recalculate ng spreadsheet programs ang mga ito, kaya maaari mong baguhin ang rate o waste sa spreadsheet at susunod ang mga total. Nakalagay rin sa mga cell ang mga numerong kinuwenta ng TakeoffDesk, at tugma ang mga ito hanggang sentimo.
 
 Nakalista sa notes column ang formula ng bawat component, mga error sa formula, mga mark sa sheet na walang scale, wall area at perimeter. Kapag may naiwan, sinasabi ng row ng kabuuan ng job na "Incomplete: see the notes above".
 
@@ -42,7 +42,7 @@ Estimate lamang ang laman ng CSV; para sa quantity ayon sa sheet at sa listahan 
 
 ## Ang estimate sa Google Sheets
 
-Sa itaas ng talahanayang **Dami**, inilalagay ng **I-copy para sa Google Sheets** ang estimate sa clipboard mo bilang tab-separated text, na may parehong linya gaya ng CSV. Sa Google Sheet, i-click ang cell A1 at i-paste. Hindi nagsa-sign in ang TakeoffCraft sa Google at walang ipinapadalang anuman doon.
+Sa itaas ng talahanayang **Dami**, inilalagay ng **I-copy para sa Google Sheets** ang estimate sa clipboard mo bilang tab-separated text, na may parehong linya gaya ng CSV. Sa Google Sheet, i-click ang cell A1 at i-paste. Hindi nagsa-sign in ang TakeoffDesk sa Google at walang ipinapadalang anuman doon.
 
 ## Mga nawawalang rate at sign-off
 

@@ -19,9 +19,9 @@ Hoosta **Tirooyinka › Sida shayba**, khad leh tiro laakiin aan alaab ama shaqo
 2. Wada-hadalku wuxuu sheegayaa wadarta aad saxeexayso iyo khadadka aan qiime lahayn. Ku qor magacaaga, iyo doorkaaga haddii aad jeceshid.
 3. Guji **Saxeex**. Bar-ka hadda wuxuu leeyahay "Waxaa saxeexay … goorta …" iyo wadarta. Kaydi xisaabinta si aad u hayso faylka.
 
-Saxeexdu waxay ku xidhan tahay tirooyinka aad saxeexday. Isbeddel kasta oo dambe oo ku yimaado tiro, qiime ama khad wuu tirtirayaa, TakeoffCraft wuu kugu sheegayaa. Ka noqo wuxuu soo celinayaa qiyaasta aad saxeexday, saxeexdeedana waa la soo celinayaa. Dib u magacaabida khad ma ahan isbeddel tiro. **Ka saar saxeexda** ayaa qaadaya.
+Saxeexdu waxay ku xidhan tahay tirooyinka aad saxeexday. Isbeddel kasta oo dambe oo ku yimaado tiro, qiime ama khad wuu tirtirayaa, TakeoffDesk wuu kugu sheegayaa. Ka noqo wuxuu soo celinayaa qiyaasta aad saxeexday, saxeexdeedana waa la soo celinayaa. Dib u magacaabida khad ma ahan isbeddel tiro. **Ka saar saxeexda** ayaa qaadaya.
 
-Faylka xisaabinta oo dibadda TakeoffCraft laga tafatiray ka dib markii la saxeexay, wuxuu furmaa iyadoo aan saxeexdu ku jirin, oo qoraal sidaas sheegaya. Qiyaasta la dhoofiyay (CSV iyo XLSX) waxay magacaabaa saxeexda hoosta wadarta.
+Faylka xisaabinta oo dibadda TakeoffDesk laga tafatiray ka dib markii la saxeexay, wuxuu furmaa iyadoo aan saxeexdu ku jirin, oo qoraal sidaas sheegaya. Qiyaasta la dhoofiyay (CSV iyo XLSX) waxay magacaabaa saxeexda hoosta wadarta.
 
 ## Qof kaliya ayaa saxeexa
 

@@ -1,7 +1,7 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /* i18n-ignore-file — data names (keys of a quantities file); words for a person are in the page (tagqty-ui.js) */
 /**
- * tagqty.js — a tag schedule from the building model as quantities in the takeoff (0.8 SU.915, TakeoffCraft's side; session takeoff_PART_3). DOM-free (tested in Node).
+ * tagqty.js — a tag schedule from the building model as quantities in the takeoff (0.8 SU.915, TakeoffDesk's side; session takeoff_PART_3). DOM-free (tested in Node).
  *
  * BimCraft's tag schedule (tags.js: columns of any field, tags included, grouped by one) leaves as a CSV. This reads such a CSV (or any CSV with a header row), lets
  * the person pick which column names the line and which holds the number, and turns each distinct name into a typed quantity (fixedqty.js's `cadcraft-quantities`

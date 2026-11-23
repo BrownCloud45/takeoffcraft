@@ -5,7 +5,7 @@ keywords: toiture, pente, inclinaison, coefficient de pente, montée, projection
 from: 38225b60
 ---
 
-Un plan de toiture montre chaque pan de toit à plat, vu d'en haut. La toiture elle-même est plus grande : un pan à 6:12 a environ 12% de surface en plus que son plan, et ses bords inclinés sont plus longs qu'ils n'en ont l'air. Donnez sa pente au poste et TakeoffCraft mesure le long de la pente.
+Un plan de toiture montre chaque pan de toit à plat, vu d'en haut. La toiture elle-même est plus grande : un pan à 6:12 a environ 12% de surface en plus que son plan, et ses bords inclinés sont plus longs qu'ils n'en ont l'air. Donnez sa pente au poste et TakeoffDesk mesure le long de la pente.
 
 ## Saisir une pente
 

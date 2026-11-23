@@ -41,7 +41,7 @@ Kadar so prostori narisani kot zaprte stene, {{ui:Prostor}} ({{key:B}}) z enim k
 2. Izberite {{ui:Prostor}} v skupini {{ui:Predizmere}} ali pritisnite {{key:B}}.
 3. Kliknite znotraj prostora, na odprtih tleh (ne na črti ali oznaki).
 
-TakeoffCraft prebere črte lista, poišče prostor okoli klika in ga začrta vzdolž notranjih ploskev sten, kot površino trenutne postavke. Vrata do širine **4'-0"** se štejejo kot zaprta, zato obris poteka naravnost čez vhod; **Nastavitve › TakeoffCraft › Zapolnitev prostora zapre odprtine do** spremeni to širino (od 3'-0" do 8'-0"). Imena prostorov, pohištvo in oprema v prostoru ne delajo lukenj.
+TakeoffDesk prebere črte lista, poišče prostor okoli klika in ga začrta vzdolž notranjih ploskev sten, kot površino trenutne postavke. Vrata do širine **4'-0"** se štejejo kot zaprta, zato obris poteka naravnost čez vhod; **Nastavitve › TakeoffDesk › Zapolnitev prostora zapre odprtine do** spremeni to širino (od 3'-0" do 8'-0"). Imena prostorov, pohištvo in oprema v prostoru ne delajo lukenj.
 
 Zavrne se, z razlogom:
 
@@ -62,7 +62,7 @@ Ko so vrata širša od nastavitve, zapolnitev steče v naslednji prostor in zač
 
 Za okroglo luknjo izberite {{ui:Dodaj okroglo odprtino}} pod **Izbrana oznaka**, kliknite njeno središče in nato točko na njenem robu.
 
-Odprtina mora biti v celoti znotraj površine in se ne sme prekrivati z drugo odprtino. Sicer jo TakeoffCraft zavrne: „Odprtina mora biti v celoti znotraj površine.“ ali „Odprtine se ne smejo prekrivati med seboj.“
+Odprtina mora biti v celoti znotraj površine in se ne sme prekrivati z drugo odprtino. Sicer jo TakeoffDesk zavrne: „Odprtina mora biti v celoti znotraj površine.“ ali „Odprtine se ne smejo prekrivati med seboj.“
 
 Za odstranitev zadnje luknje izberite {{ui:Odstrani zadnjo odprtino}}.
 
@@ -76,7 +76,7 @@ Odprtina pripada eni oznaki površine. **Povratni odbitek** se nariše enkrat in
 
 Vsaka oznaka površine označene postavke na istem listu izgubi del, ki ga pokrije povratni odbitek: celoten povratni odbitek, kadar je znotraj, le prekrivajoči del, kadar prečka rob, in nič znotraj odprtine. Ploščica izbrane površine prikaže **Povratni odbitki** in preostalo površino. Količina postavke, njene formule sestavov, stroški, 3D pregled in izvoz uporabljajo preostalo površino; opombe ocene povedo, koliko so povratni odbitki odvzeli. Sama postavka povratnega odbitka šteje svojo površino (pustite njene stroške na nič, če je ne cenite).
 
-Povratni odbitek mora biti **konveksen**: pravokotnik, krog ali kateri koli obris brez notranjega kota. TakeoffCraft zavrne risbo, ki ni taka: L-jašek narišite kot dva povratna odbitka. Povratni odbitki ne morejo imeti odprtin, dva povratna odbitka, ki se prekrivata, pa se štejeta oba.
+Povratni odbitek mora biti **konveksen**: pravokotnik, krog ali kateri koli obris brez notranjega kota. TakeoffDesk zavrne risbo, ki ni taka: L-jašek narišite kot dva povratna odbitka. Povratni odbitki ne morejo imeti odprtin, dva povratna odbitka, ki se prekrivata, pa se štejeta oba.
 
 Obseg (`P`) se ne spremeni: povratni odbitki odvzamejo le površino.
 

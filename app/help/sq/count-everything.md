@@ -1,6 +1,6 @@
 ---
 title: Numëro gjithçka në grup
-summary: Kutit një herë legjendën e simboleve dhe TakeoffCraft numëron çdo simbol të saj në çdo fletë të hapur në një ekzekutim. Çdo numërim është një lidhje me fletën e vet, dhe shqyrton para se të shtohet diçka.
+summary: Kutit një herë legjendën e simboleve dhe TakeoffDesk numëron çdo simbol të saj në çdo fletë të hapur në një ekzekutim. Çdo numërim është një lidhje me fletën e vet, dhe shqyrton para se të shtohet diçka.
 keywords: numëro gjithçka, legjendë, legjendë simbolesh, grup i plotë, çdo fletë, të gjitha fletët, çdo derë, çdo pajisje, instalime, pajisje, tabelë, simbole, numërim automatik, numëro të gjitha, grup planimetrish, 200 fletë, nivel përputhjeje, të ngjashme
 from: adc99744
 ---

@@ -14,7 +14,7 @@ Una partida de conteo cuenta objetos: puertas, luminarias, contactos, muebles sa
 3. Haga clic en cada uno sobre la hoja.
    Cada clic pone un punto del color de la partida, y el conteo de la partida sube en uno.
 4. Pase a la siguiente hoja ({{key:PageDown}}) y siga contando. La herramienta sigue en {{ui:Conteo}}.
-5. Pulse {{key:Esc}} cuando termine. TakeoffCraft regresa a {{ui:Seleccionar}}.
+5. Pulse {{key:Esc}} cuando termine. TakeoffDesk regresa a {{ui:Seleccionar}}.
 
 Arrastrar sigue encuadrando y la rueda sigue haciendo zoom mientras cuenta, así que puede moverse por la hoja sin agregar puntos.
 
@@ -30,7 +30,7 @@ Haga clic en la partida de conteo para resaltar sus puntos en todas las hojas. L
 
 ## Tamaño del punto, en pantalla y en el PDF
 
-Los puntos conservan el mismo tamaño en pantalla sin importar el zoom. Para cambiarlo, abra {{ui:Configuración}}, la pestaña TakeoffCraft, y elija **Tamaño del marcador de conteo**: Extra pequeño, Pequeño, Mediano (el predeterminado) o Grande.
+Los puntos conservan el mismo tamaño en pantalla sin importar el zoom. Para cambiarlo, abra {{ui:Configuración}}, la pestaña TakeoffDesk, y elija **Tamaño del marcador de conteo**: Extra pequeño, Pequeño, Mediano (el predeterminado) o Grande.
 
 La exportación a PDF ({{ui:Exportar}} › el PDF marcado) dibuja cada punto con el mismo tamaño en papel, sea cual sea el tamaño de la hoja: un visor que muestra el PDF al 100 % muestra los puntos tan grandes como en pantalla. Cuando los puntos de una hoja se tocarían entre sí, la exportación reduce el tamaño de los puntos de esa hoja para que cada uno pueda leerse.
 

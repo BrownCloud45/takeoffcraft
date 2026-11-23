@@ -28,7 +28,7 @@ Zošit má štyri pracovné hárky a prehľady nižšie, keď sa uplatnia:
 
 S [prehľadom ponuky](topic:bid-summary) hárok Rozpočet končí aj svojimi prirážkami (mzdové odvody, daň z predaja, réžia, zisk, zábezpeka a ponuka) ako živými vzorcami.
 
-Hárok Rozpočet ponecháva **živé vzorce**: množstvo s odpadom, zaokrúhlené sumy materiálu a práce, súčet každého riadka a celkový súčet. Tabuľkové programy ich prepočítajú, takže môžete zmeniť jednotkovú cenu alebo odpad v tabuľke a súčty sa upravia. Čísla, ktoré vypočítal TakeoffCraft, sú uložené aj v bunkách a zhodujú sa na cent.
+Hárok Rozpočet ponecháva **živé vzorce**: množstvo s odpadom, zaokrúhlené sumy materiálu a práce, súčet každého riadka a celkový súčet. Tabuľkové programy ich prepočítajú, takže môžete zmeniť jednotkovú cenu alebo odpad v tabuľke a súčty sa upravia. Čísla, ktoré vypočítal TakeoffDesk, sú uložené aj v bunkách a zhodujú sa na cent.
 
 Stĺpec poznámok uvádza vzorec každého komponentu, chyby vzorcov, značky na listoch bez mierky, plochu steny a obvod. Keď sa niečo vynechá, riadok celkového súčtu hovorí „Neúplné: pozri poznámky vyššie“.
 
@@ -42,7 +42,7 @@ CSV obsahuje iba rozpočet; pre množstvá podľa listov a zoznam značiek použ
 
 ## Rozpočet v Google Sheets
 
-Nad tabuľkou {{ui:Množstvá}} tlačidlo **Kopírovať pre Google Sheets** dá rozpočet do schránky ako text oddelený tabulátormi, s tými istými riadkami ako CSV. V Google Sheet kliknite na bunku A1 a vložte. TakeoffCraft sa do Google neprihlasuje a nič tam neposiela.
+Nad tabuľkou {{ui:Množstvá}} tlačidlo **Kopírovať pre Google Sheets** dá rozpočet do schránky ako text oddelený tabulátormi, s tými istými riadkami ako CSV. V Google Sheet kliknite na bunku A1 a vložte. TakeoffDesk sa do Google neprihlasuje a nič tam neposiela.
 
 ## Chýbajúce sadzby a podpis
 

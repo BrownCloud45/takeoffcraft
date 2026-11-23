@@ -1,6 +1,6 @@
 ---
 title: Alles in de tekenset tellen
-summary: Omkader één keer een symboollegenda en TakeoffCraft telt elk symbool erin op elk open blad in één run. Elke telling is een link naar zijn blad, en u controleert voordat er iets wordt toegevoegd.
+summary: Omkader één keer een symboollegenda en TakeoffDesk telt elk symbool erin op elk open blad in één run. Elke telling is een link naar zijn blad, en u controleert voordat er iets wordt toegevoegd.
 keywords: alles tellen, legenda, symboollegenda, hele set, elk blad, alle bladen, elke deur, elk armatuur, apparaten, staat, symbolen, automatisch tellen, alles tellen, tekenset, 200 bladen, overeenkomstniveau, lijkt op
 from: adc99744
 ---

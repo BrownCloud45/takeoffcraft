@@ -1,6 +1,6 @@
 ---
 title: Proverite zalihu dobavljača i vreme isporuke
-summary: Dodajte spisak zaliha dobavljača (CSV ili tabelu) i TakeoffCraft proverava prema njemu šta predmer traži, uz otpad: ima li dovoljno na zalihi i koliko traje čekanje. Manjkovi i duga čekanja prikazuju se u panelu Problemi.
+summary: Dodajte spisak zaliha dobavljača (CSV ili tabelu) i TakeoffDesk proverava prema njemu šta predmer traži, uz otpad: ima li dovoljno na zalihi i koliko traje čekanje. Manjkovi i duga čekanja prikazuju se u panelu Problemi.
 keywords: dobavljač, zaliha, na zalihi, vreme isporuke, dostupnost, manjak, dopuna, spisak za naručivanje, csv, sku, prodavac, materijali, snabdevanje, problemi
 from: f11160fb
 ---

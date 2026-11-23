@@ -55,4 +55,4 @@ Ett bladets skala säger hur stor ritningen är; en posts enhet säger hur den s
 
 ## Precision
 
-TakeoffCraft mäter exakt utifrån de punkter du klickar, inklusive verkliga båglängder och areor, och avrundar inte mängder. Visningen avrundar längder till 1/16 tum och decimaltal till två decimaler. Pengar avrundas bara i de utsträckta beloppen, till närmaste cent.
+TakeoffDesk mäter exakt utifrån de punkter du klickar, inklusive verkliga båglängder och areor, och avrundar inte mängder. Visningen avrundar längder till 1/16 tum och decimaltal till två decimaler. Pengar avrundas bara i de utsträckta beloppen, till närmaste cent.

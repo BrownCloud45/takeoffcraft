@@ -300,9 +300,9 @@ export const CALCS = [
       const idx = index, r = C.capital(i.rows, { index: idx, plant: i.plant }), op = C.operating(i.power || [], i.hours);
       const lines = r.rows.map((x) => ({ k: x.name, v: Math.round(x.cost) + ' USD purchased' })).concat(flatten({ purchased: r.purchased, installed: r.installed, lang: r.lang, operatingPerYear: op.perYear }));
       const out = { lines, problems: extra.concat(r.notes.map((n) => prob('cost.note', 'warning', n)), op.missing.map((n) => prob('cost.price', 'warning', 'No energy price given for ' + n + ': it is listed, not guessed.')), [prob('cost.index', idx ? 'info' : 'warning', idx ? (indexNote || 'Cost index supplied by the person (base ' + idx.base + ', now ' + idx.now + ').') : 'No cost index given: these are base-year (2001) costs, not today\'s. Give an index or a cost-index data pack and a year.'), prob('cost.estimate', 'info', 'A class 4–5 estimate from textbook correlations: ±30 to ±50 %. ' + NOTE)]) };
-      if (i.takeoffPack) {                                                 // hand the equipment list to TakeoffCraft's price library as a pack
+      if (i.takeoffPack) {                                                 // hand the equipment list to TakeoffDesk's price library as a pack
         const pk = K.takeoffPack(r, { ...(typeof i.takeoffPack === 'object' ? i.takeoffPack : {}), plant: i.plant, indexNote });
-        out.text = JSON.stringify(pk, null, 1); out.lines.push({ k: 'takeoffPack', v: pk.items.length + ' items for TakeoffCraft (Export as .ccpack.json from the CSV/JSON text below)' });
+        out.text = JSON.stringify(pk, null, 1); out.lines.push({ k: 'takeoffPack', v: pk.items.length + ' items for TakeoffDesk (Export as .ccpack.json from the CSV/JSON text below)' });
       }
       return out;
     } },

@@ -1,6 +1,6 @@
 ---
 title: Nhập chiều dài, đơn giá và phần trăm
-summary: Những gì bạn có thể nhập cho khoảng cách, chiều cao, đơn giá tiền và phần trăm hao hụt, kèm ví dụ và thông báo cho dữ liệu TakeoffCraft không đọc được.
+summary: Những gì bạn có thể nhập cho khoảng cách, chiều cao, đơn giá tiền và phần trăm hao hụt, kèm ví dụ và thông báo cho dữ liệu TakeoffDesk không đọc được.
 keywords: nhập liệu, định dạng, feet inch, phân số, feet thập phân, hệ mét, mét, milimét, đơn giá, tiền, đô la, phần trăm, hao hụt, gõ
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Tối đa hai chữ số thập phân, từ 0% đến 1000%. Thông báo: "Nhậ
 ## Tên và đơn vị
 
 - Tên hạng mục và cấu kiện: tối đa 200 ký tự.
-- {{ui:Đơn vị}} của cấu kiện: mọi văn bản tối đa 20 ký tự, như `EA`, `sheets`, `CY`, `gal`. Đây chỉ là nhãn; TakeoffCraft không quy đổi nó.
+- {{ui:Đơn vị}} của cấu kiện: mọi văn bản tối đa 20 ký tự, như `EA`, `sheets`, `CY`, `gal`. Đây chỉ là nhãn; TakeoffDesk không quy đổi nó.
 
 ## Công thức
 

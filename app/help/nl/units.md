@@ -55,4 +55,4 @@ De schaal van een blad zegt hoe groot de tekening is; de eenheid van een post ze
 
 ## Nauwkeurigheid
 
-TakeoffCraft meet exact vanuit de punten die u aanklikt, inclusief de werkelijke booglengten en oppervlakken, en rondt hoeveelheden niet af. In de weergave worden lengten afgerond op 1/16 inch en decimalen op twee decimalen. Geld wordt alleen afgerond bij de uitgewerkte bedragen, op de cent.
+TakeoffDesk meet exact vanuit de punten die u aanklikt, inclusief de werkelijke booglengten en oppervlakken, en rondt hoeveelheden niet af. In de weergave worden lengten afgerond op 1/16 inch en decimalen op twee decimalen. Geld wordt alleen afgerond bij de uitgewerkte bedragen, op de cent.

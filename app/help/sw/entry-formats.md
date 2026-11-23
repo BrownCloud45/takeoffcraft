@@ -1,6 +1,6 @@
 ---
 title: Uingizaji wa urefu, viwango na asilimia
-summary: Unachoweza kuandika kwa umbali, vimo, viwango vya fedha na asilimia za upotevu, pamoja na mifano na ujumbe wa ingizo ambalo TakeoffCraft haliwezi kulisoma.
+summary: Unachoweza kuandika kwa umbali, vimo, viwango vya fedha na asilimia za upotevu, pamoja na mifano na ujumbe wa ingizo ambalo TakeoffDesk haliwezi kulisoma.
 keywords: ingizo, muundo, futi inchi, sehemu, futi za desimali, metriki, mita, milimita, kiwango, fedha, dola, asilimia, upotevu, kuandika
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Hadi desimali mbili, kutoka 0% hadi 1000%. Ujumbe: "Andika asilimia kama 10 au 7
 ## Majina na vitengo
 
 - Majina ya vipengee na vipengele: hadi herufi 200.
-- {{ui:Kitengo}} cha kipengele: maandishi yoyote hadi herufi 20, kama `EA`, `karatasi`, `CY`, `gal`. Ni lebo tu; TakeoffCraft haibadilishi kitengo.
+- {{ui:Kitengo}} cha kipengele: maandishi yoyote hadi herufi 20, kama `EA`, `karatasi`, `CY`, `gal`. Ni lebo tu; TakeoffDesk haibadilishi kitengo.
 
 ## Fomula
 

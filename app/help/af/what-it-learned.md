@@ -1,11 +1,11 @@
 ---
 title: Wat dit uit jou hoeveelheidsopnames geleer het
-summary: TakeoffCraft hou die simbole wat jy met Outo-tel bevestig het, jou toestandstelle, die samestellings wat jy die meeste gebruik, en patrone wat jy op elke bladsy herhaal, almal binne die hoeveelheidsopname se eie lêer. Sien dit, gebruik dit, skrap dit.
+summary: TakeoffDesk hou die simbole wat jy met Outo-tel bevestig het, jou toestandstelle, die samestellings wat jy die meeste gebruik, en patrone wat jy op elke bladsy herhaal, almal binne die hoeveelheidsopname se eie lêer. Sien dit, gebruik dit, skrap dit.
 keywords: leer, geleer, leerproses, assistent, onthou, simbole, sjablone, dieselfde as laaste werk, laaste werk, toestandstel, toestande, hergebruik, samestellings, mees gebruik, voorstelle, herhaal op elke bladsy, elke bladsy, titelblok, patroon, maak alles skoon, vergeet, privaatheid
 from: 54d99e99
 ---
 
-TakeoffCraft word vinniger hoe meer hoeveelheidsopnames jy daarmee doen. Dit leer **slegs uit wat jy aanvaar**:
+TakeoffDesk word vinniger hoe meer hoeveelheidsopnames jy daarmee doen. Dit leer **slegs uit wat jy aanvaar**:
 
 - die simbole wat jy met [Outo-tel](topic:auto-count) omraam het en daarna bygevoeg het,
 - die toestandstelle wat jy stoor,
@@ -64,6 +64,6 @@ Om in een hoeveelheidsopname op te hou leer, haal die merk by {{ui:Leer uit hier
 
 ## Goed om te weet
 
-- Ouer weergawes van TakeoffCraft open 'n lêer met geleerde dinge normaal. Hulle ignoreer daardie deel, en laat dit val as hulle die lêer weer stoor.
+- Ouer weergawes van TakeoffDesk open 'n lêer met geleerde dinge normaal. Hulle ignoreer daardie deel, en laat dit val as hulle die lêer weer stoor.
 - 'n Geleerde simbool is 'n klein prentjie van wat jy omraam het, in die lêer gehou ('n paar kilobyte elk).
 - Geleerde simbole word gesoek soos Outo-tel soek, so dieselfde perke geld: [Outo-tel 'n simbool](topic:auto-count).

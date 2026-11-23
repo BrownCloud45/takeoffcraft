@@ -55,4 +55,4 @@ La scala di un foglio indica quanto è grande il disegno; l'unità di una voce i
 
 ## Precisione
 
-TakeoffCraft misura esattamente dai punti cliccati, incluse le vere lunghezze e aree degli archi, e non arrotonda le quantità. La visualizzazione arrotonda le lunghezze a 1/16 di pollice e i decimali a due cifre. Gli importi vengono arrotondati solo negli importi estesi, al centesimo.
+TakeoffDesk misura esattamente dai punti cliccati, incluse le vere lunghezze e aree degli archi, e non arrotonda le quantità. La visualizzazione arrotonda le lunghezze a 1/16 di pollice e i decimali a due cifre. Gli importi vengono arrotondati solo negli importi estesi, al centesimo.

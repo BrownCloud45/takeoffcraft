@@ -5,22 +5,22 @@ keywords: styl nabídek, nabídky, lišta nabídek, pás karet, karty pásu, pan
 from: f01f0d6d
 ---
 
-Příkazy TakeoffCraftu jsou stejné, ať k nim přistoupíte jakkoli. **Styl nabídek** určuje jen to, kde jsou na obrazovce, jak se jmenují a kterými klávesami se spouštějí. Zvolte jej v {{ui:Nastavení}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Nabídky, klávesy a myš}}; změna platí hned a tento prohlížeč si ji pamatuje.
+Příkazy TakeoffDesku jsou stejné, ať k nim přistoupíte jakkoli. **Styl nabídek** určuje jen to, kde jsou na obrazovce, jak se jmenují a kterými klávesami se spouštějí. Zvolte jej v {{ui:Nastavení}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Nabídky, klávesy a myš}}; změna platí hned a tento prohlížeč si ji pamatuje.
 
 ## Tři styly
 
 | Styl | Co dostanete |
 |---|---|
-| {{ui:TakeoffCraft}} | Vlastní panel nástrojů TakeoffCraftu: Soubor, Export, Měřítko, Výkaz, Úpravy a Zobrazení, s jednopísmennými klávesami nástrojů. Výchozí. |
+| {{ui:TakeoffDesk}} | Vlastní panel nástrojů TakeoffDesku: Soubor, Export, Měřítko, Výkaz, Úpravy a Zobrazení, s jednopísmennými klávesami nástrojů. Výchozí. |
 | {{ui:Výkazový pult}} | Lišta nabídek ({{ui:Soubor}}, {{ui:Úpravy}}, {{ui:Zobrazení}}, {{ui:Měřítko}}, {{ui:Výkaz}}, {{ui:Položky}}, {{ui:Poznámky}}, {{ui:Export}}) nad jedním řádkem nástrojů výkazu, tak jak jsou uspořádány programy pro výkaz na obrazovce. Položky se na řádku nazývají podmínky. Stejné klávesy, plus {{key:N}} pro novou položku. Předvolby měřítka se přesunou na lištu listu vedle měřítka listu. |
 | {{ui:Pás karet výkazu výměr}} | Karty pásu pojmenované podle práce: {{ui:Výkaz}} (měření, tvar, měřítko, z výkresu, podmínky), {{ui:Úpravy}}, {{ui:Zobrazení}}, {{ui:Poznámky}} a {{ui:Rozpočet}} (sešit, označená PDF, nabídka), s nabídkou {{ui:Soubor}} a rychlou řadou pro otevření, uložení, zpět a znovu. Nástroje, které používáte celý den, jsou velké, jejich sousedé malí a naskládaní. Stejné klávesy; předvolby měřítka se přesunou na lištu listu. |
 
-Všechny tři styly zachovávají klávesy TakeoffCraftu: {{key:V}} výběr, {{key:L}} délková, {{key:A}} plocha, {{key:O}} kružnice, {{key:B}} místnost, {{key:P}} cesta (výběr čar PDF), {{key:X}} výřez, {{key:C}} počet, {{key:S}} automatické počítání, {{key:K}} kalibrace, {{key:D}} kontrola, {{key:R}} režim oblouku, {{key:E}} režim odpočtu, {{key:F}} a {{key:W}} pro přizpůsobení, {{key:3}} 3D kontrolní pohled, {{key:F3}} přichytávání, a {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Všechny tři styly zachovávají klávesy TakeoffDesku: {{key:V}} výběr, {{key:L}} délková, {{key:A}} plocha, {{key:O}} kružnice, {{key:B}} místnost, {{key:P}} cesta (výběr čar PDF), {{key:X}} výřez, {{key:C}} počet, {{key:S}} automatické počítání, {{key:K}} kalibrace, {{key:D}} kontrola, {{key:R}} režim oblouku, {{key:E}} režim odpočtu, {{key:F}} a {{key:W}} pro přizpůsobení, {{key:3}} 3D kontrolní pohled, {{key:F3}} přichytávání, a {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Nástroje lišty listu (poznámky, oblaky, zvýraznění, Porovnání, 3D) čekají, dokud není otevřené PDF; vybrané dříve, stavový řádek to řekne.
 
 :::tip
-Klávesa, která patří do vlastního rozložení TakeoffCraftu, ale váš styl přiřadil jinému příkazu, nedělá nic, a stavový řádek říká, kam její příkaz přešel ("V Moje klávesy je Počet Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} a šipky si vždy zachovají svůj význam. Při kreslení úseku nebo obrysu, vkládání nebo kontrole automatického počítání zůstávají písmena a číslice zadané délky u kreslení.
+Klávesa, která patří do vlastního rozložení TakeoffDesku, ale váš styl přiřadil jinému příkazu, nedělá nic, a stavový řádek říká, kam její příkaz přešel ("V Moje klávesy je Počet Ctrl+Alt+C"). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} a šipky si vždy zachovají svůj význam. Při kreslení úseku nebo obrysu, vkládání nebo kontrole automatického počítání zůstávají písmena a číslice zadané délky u kreslení.
 :::
 
 ## Vytvořte si vlastní
@@ -41,12 +41,12 @@ Uložení vestavěného stylu vytvoří vaši vlastní kopii ("Můj výkazový p
 
 ## Vezměte si to s sebou
 
-{{ui:Export}} uloží používaný styl jako malý soubor `.ccinput.json`; {{ui:Importovat…}} přidá jeden, z jiného počítače nebo od kolegy. Importovaný soubor může ukazovat jen na příkazy TakeoffCraftu: cokoli dalšího se vynechá a spočítá se ve stavovém řádku. {{ui:Smazat tento styl}} odstraní jeden z vašich vlastních.
+{{ui:Export}} uloží používaný styl jako malý soubor `.ccinput.json`; {{ui:Importovat…}} přidá jeden, z jiného počítače nebo od kolegy. Importovaný soubor může ukazovat jen na příkazy TakeoffDesku: cokoli dalšího se vynechá a spočítá se ve stavovém řádku. {{ui:Smazat tento styl}} odstraní jeden z vašich vlastních.
 
 :::note
-Tato nastavení zůstávají v tomto prohlížeči. {{ui:Používat tento styl ve všech aplikacích}} pod kartami stylů způsobí, že se každá aplikace otevře ve svém odpovídajícím stylu (vlastní panel nástrojů, lišta nabídek nebo pás karet), se změnami, které jste v každé provedli. TakeoffCraft nemá styl s příkazovým řádkem: když je některý zvolen pro všechny aplikace, TakeoffCraft si ponechá svůj vlastní panel nástrojů.
+Tato nastavení zůstávají v tomto prohlížeči. {{ui:Používat tento styl ve všech aplikacích}} pod kartami stylů způsobí, že se každá aplikace otevře ve svém odpovídajícím stylu (vlastní panel nástrojů, lišta nabídek nebo pás karet), se změnami, které jste v každé provedli. TakeoffDesk nemá styl s příkazovým řádkem: když je některý zvolen pro všechny aplikace, TakeoffDesk si ponechá svůj vlastní panel nástrojů.
 
-{{ui:Pás karet výkazu výměr}} je také pásem rozložení {{ui:Pás karet a průzkumník projektu}} ({{ui:Nastavení}} › {{ui:Globální}} › {{ui:Rozložení}}): viz [Obrazovka TakeoffCraftu](topic:workspace).
+{{ui:Pás karet výkazu výměr}} je také pásem rozložení {{ui:Pás karet a průzkumník projektu}} ({{ui:Nastavení}} › {{ui:Globální}} › {{ui:Rozložení}}): viz [Obrazovka TakeoffDesku](topic:workspace).
 :::
 
-Související: [Klávesnice a myš](topic:keyboard) · [Nastavení TakeoffCraftu](topic:settings) · [Přechod z jiného software pro výkaz](topic:coming-from)
+Související: [Klávesnice a myš](topic:keyboard) · [Nastavení TakeoffDesku](topic:settings) · [Přechod z jiného software pro výkaz](topic:coming-from)

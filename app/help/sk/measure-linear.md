@@ -30,7 +30,7 @@ Pri kreslení:
 - Potiahnutie posúva list a kolieskom sa priblíži bez pridávania bodov.
 
 :::mac
-Na trackpade Mac je pravé kliknutie kliknutie dvoma prstami (zapnite sekundárne kliknutie v Systémových nastaveniach v časti Trackpad). TakeoffCraft číta len sekundárne tlačidlo, takže kliknutie s Control môže byť braté ako obyčajné kliknutie a pridať bod. Dvojklik alebo {{key:Enter}} vždy dokončia.
+Na trackpade Mac je pravé kliknutie kliknutie dvoma prstami (zapnite sekundárne kliknutie v Systémových nastaveniach v časti Trackpad). TakeoffDesk číta len sekundárne tlačidlo, takže kliknutie s Control môže byť braté ako obyčajné kliknutie a pridať bod. Dvojklik alebo {{key:Enter}} vždy dokončia.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Po prvom bode môžete napísať, kam má ísť ďalší, namiesto klikania. Nap
 | `@6',-4'` | 6' doprava a 4' dole od posledného bodu |
 | `6',4'` (alebo `#6',4'`) | 6' doprava a 4' hore od prvého bodu tohto úseku |
 
-Dĺžky sa zadávajú ako v celom TakeoffCraft ([Formáty zadávania](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stopy), `30"`, `3.2 m`. "Doprava" a "hore" sú také, ako vidíte list, aj keď je stránka PDF otočená.
+Dĺžky sa zadávajú ako v celom TakeoffDesk ([Formáty zadávania](topic:entry-formats)): `12'-6 1/2"`, `12.5` (stopy), `30"`, `3.2 m`. "Doprava" a "hore" sú také, ako vidíte list, aj keď je stránka PDF otočená.
 
 {{key:Enter}} na prázdnom poli dokončí úsek, ako {{key:Enter}} na liste; {{key:Esc}} zavrie pole a nechá úsek bežať. Zadané body prechádzajú cez rovnaké pravidlá ako kliknutia: odpočty, oblúky a uzavretie plochy fungujú všetky. To isté pole funguje v {{ui:Plocha}} a {{ui:Výrez}}; po strede kružnice berie polomer.
 

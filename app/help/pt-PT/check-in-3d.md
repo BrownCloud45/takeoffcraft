@@ -46,7 +46,7 @@ Os números não mudam em 3D: a área de uma parede é o seu comprimento exato v
 | {{ui:Sheet}} | Mostrar ou ocultar o desenho no chão. |
 | O cubo de vistas, em cima à direita | Clique numa face, aresta ou canto para olhar a partir daí; arraste-o para orbitar; arraste o anel da bússola para rodar; o botão de casa volta a {{ui:Iso}}. |
 
-O canto mostra um cubo de vistas, um pequeno ícone de eixos X, Y, Z, ou nada: escolha em {{ui:Definições}}, no separador TakeoffCraft, em **Indicador de canto** ([Definições do TakeoffCraft](topic:settings)). A folha plana não tem indicador de canto.
+O canto mostra um cubo de vistas, um pequeno ícone de eixos X, Y, Z, ou nada: escolha em {{ui:Definições}}, no separador TakeoffDesk, em **Indicador de canto** ([Definições do TakeoffDesk](topic:settings)). A folha plana não tem indicador de canto.
 
 :::touch
 Um dedo orbita; dois dedos aproximam em pinça e deslocam a vista ao mover-se. Um toque seleciona.

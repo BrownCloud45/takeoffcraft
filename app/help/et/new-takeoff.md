@@ -9,7 +9,7 @@ from: 16d392a4
 
 1. Salvesta praegune koguste arvestus, kui soovid seda alles hoida: {{ui:Salvesta koguste arvestus}} või {{key:Mod+S}}.
 2. Vali {{ui:Uus}} grupis {{ui:Fail}}.
-3. Kui on salvestamata muudatusi, küsib TakeoffCraft **Salvestamata koguste arvestus**: vali {{ui:Salvesta koguste arvestus esmalt}} (see laadib projekti alla ja seejärel tühjendab), {{ui:Loobu muudatustest}} või {{ui:Loobu}}.
+3. Kui on salvestamata muudatusi, küsib TakeoffDesk **Salvestamata koguste arvestus**: vali {{ui:Salvesta koguste arvestus esmalt}} (see laadib projekti alla ja seejärel tühjendab), {{ui:Loobu muudatustest}} või {{ui:Loobu}}.
    Aken läheb tagasi tühja olekusse: ei ole PDF-e, kirjeid, märgiseid ega mõõtkavu. Olekuriba ütleb „Uus koguste arvestus. Alustamiseks ava PDF-id.“
 
 Mida tühjendatakse:

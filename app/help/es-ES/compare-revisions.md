@@ -5,14 +5,14 @@ keywords: revisión, revisado, comparar, superposición, antiguo, nuevo, cambios
 from: 3a1d9fe0
 ---
 
-Cuando una hoja se vuelve a emitir, no tiene que volver a medirla. Abra el PDF antiguo y el nuevo, compare las dos hojas y traslade la medición. TakeoffCraft señala cada marca donde el dibujo ha cambiado; usted revisa esas y conserva el resto.
+Cuando una hoja se vuelve a emitir, no tiene que volver a medirla. Abra el PDF antiguo y el nuevo, compare las dos hojas y traslade la medición. TakeoffDesk señala cada marca donde el dibujo ha cambiado; usted revisa esas y conserva el resto.
 
 ## Comparar
 
 1. Abra los dos PDF: el juego antiguo y el revisado ({{ui:Abrir PDF}}; pueden estar en un archivo o en varios).
 2. Muestre la hoja **nueva**.
 3. Elija {{ui:Comparar}} en la barra de la hoja, bajo el dibujo.
-4. Elija la hoja antigua en la lista. TakeoffCraft sugiere la hoja con el mismo número en el otro PDF, o la misma página. Elija **Comparar**.
+4. Elija la hoja antigua en la lista. TakeoffDesk sugiere la hoja con el mismo número en el otro PDF, o la misma página. Elija **Comparar**.
 
 El dibujo antiguo se superpone ahora al nuevo en rojo. Donde coinciden, las líneas rojas quedan sobre las negras; donde difieren, ve solo líneas rojas (eliminadas) y solo líneas negras (añadidas). Una barra en la parte inferior de la hoja contiene los pasos siguientes; {{key:Esc}} o {{ui:Cerrar}} termina la comparación.
 
@@ -29,7 +29,7 @@ El dibujo rojo se mueve, gira y escala sobre el negro. La barra de estado indica
 
 ## Buscar qué ha cambiado
 
-Elija **Buscar cambios**. TakeoffCraft compara la tinta de los dos dibujos: la tinta solo de la hoja antigua pasa a rojo, la tinta solo de la hoja nueva pasa a azul, y la barra de estado las cuenta. Las líneas que se han movido un pelo (un retrazado) no se cuentan como cambios.
+Elija **Buscar cambios**. TakeoffDesk compara la tinta de los dos dibujos: la tinta solo de la hoja antigua pasa a rojo, la tinta solo de la hoja nueva pasa a azul, y la barra de estado las cuenta. Las líneas que se han movido un pelo (un retrazado) no se cuentan como cambios.
 
 También examina cada marca de la hoja antigua y cuenta las que están donde el dibujo ha cambiado:
 
@@ -40,7 +40,7 @@ También examina cada marca de la hoja antigua y cuenta las que están donde el 
 
 Elija **Mover medición aquí**. Cada marca de la hoja antigua se traslada a la nueva, a través de la alineación, en un solo paso de deshacer. Las que están junto a un cambio quedan señaladas: se dibujan con un halo naranja, y la barra de la hoja muestra «(n) por revisar».
 
-Si la hoja nueva no tenía escala, toma la escala de la hoja antigua (ajustada cuando los dibujos hubo que escalarlos para alinearlos). Si ya tenía otra escala distinta, TakeoffCraft pregunta primero: las marcas trasladadas se miden a la escala de la hoja nueva.
+Si la hoja nueva no tenía escala, toma la escala de la hoja antigua (ajustada cuando los dibujos hubo que escalarlos para alinearlos). Si ya tenía otra escala distinta, TakeoffDesk pregunta primero: las marcas trasladadas se miden a la escala de la hoja nueva.
 
 ## Revisar las marcas señaladas
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * browser-measure.mjs — booklet row BK.42 in the real TakeoffCraft page, /lab, headless (session bk-measure-10): a takeoff handed over
+ * browser-measure.mjs — booklet row BK.42 in the real TakeoffDesk page, /lab, headless (session bk-measure-10): a takeoff handed over
  * by BimCraft under the RICS NRM 2 method (four brick walls with a door and three windows, a partition; bricks priced per 1000) is
- * opened from its PDF. TakeoffCraft measures the wall area by that method (openings of 0.5 m2 or less stay in), names the method,
+ * opened from its PDF. TakeoffDesk measures the wall area by that method (openings of 0.5 m2 or less stay in), names the method,
  * and prices the bricks and the mortar from the two components.
  *   nice -n 10 timeout 600 node tools/takeoffcraft-test/browser-measure.mjs [--shots <dir>]      run as root (a test admin session)
  * The hand-over file is made first by `node bin/test-bimcraft.mjs --qtymethod` (BimCraft's own modules), with BimCraft's numbers beside
@@ -54,7 +54,7 @@ try {
   console.log('== open the PDF BimCraft made: the takeoff inside it is offered and opened');
   await page.setInputFiles('[data-file-pdf]', PDF);
   await page.waitForSelector('dialog.tc-dialog [data-key="ok"]', { timeout: 30000 });
-  ok(/takeoff/i.test(await page.textContent('dialog.tc-dialog')), 'TakeoffCraft finds the takeoff in the PDF and asks');
+  ok(/takeoff/i.test(await page.textContent('dialog.tc-dialog')), 'TakeoffDesk finds the takeoff in the PDF and asks');
   await page.click('dialog.tc-dialog [data-key="ok"]');
   await page.waitForFunction(() => window.takeoffcraft.model.state.marks.length > 0, null, { timeout: 30000 });
   await page.waitForTimeout(600);

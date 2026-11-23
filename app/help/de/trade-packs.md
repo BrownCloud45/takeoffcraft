@@ -39,4 +39,4 @@ Jede Position trägt außerdem ihre CSI-MasterFormat-Nummer, etwa `09 21 16`.
 
 {{ui:Als Paket exportieren…}} in der Bibliothek speichert sie als Paketdatei (`.ccpack.json`), die jeder mit {{ui:Eine Paketdatei öffnen…}} hinzufügen kann. Standardmäßig lässt sie die Positionen aus, die aus Paketen stammen, die Sie hinzugefügt haben, und sie enthält keine Sätze. Setzen Sie den Haken bei {{ui:Meine Sätze als Beispielsätze einschließen}}, um auch Ihre Sätze mitzuschicken: Sie werden mit der Region und dem Datum gekennzeichnet, die Sie angeben, und wer das Paket hinzufügt, entscheidet, ob er sie verwendet.
 
-Paketdateien sind reine Daten, nie Programme. TakeoffCraft prüft jeden Teil einer Paketdatei, bevor es sie verwendet, und lässt alles aus, was es nicht lesen kann.
+Paketdateien sind reine Daten, nie Programme. TakeoffDesk prüft jeden Teil einer Paketdatei, bevor es sie verwendet, und lässt alles aus, was es nicht lesen kann.

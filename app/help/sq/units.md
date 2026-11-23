@@ -55,4 +55,4 @@ Shkalla e një fletë thotë sa e madhe është vizatimi; njësia e një artikul
 
 ## Saktësia
 
-TakeoffCraft mat saktësisht nga pikat që klikoni, duke përfshirë gjatësitë e vërteta të harkut dhe sipërfaqet, dhe nuk i rrumbullakos sasitë. Shfaqja rrumbullakos gjatësitë në 1/16 inç dhe dhjetoret në dy shifra. Shuma e parave rrumbullakoset vetëm te shumat e zgjeruara, në cent.
+TakeoffDesk mat saktësisht nga pikat që klikoni, duke përfshirë gjatësitë e vërteta të harkut dhe sipërfaqet, dhe nuk i rrumbullakos sasitë. Shfaqja rrumbullakos gjatësitë në 1/16 inç dhe dhjetoret në dy shifra. Shuma e parave rrumbullakoset vetëm te shumat e zgjeruara, në cent.

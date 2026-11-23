@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * test-takeoffcraft.mjs — TakeoffCraft's DOM-free modules without a browser (the same files the
+ * test-takeoffcraft.mjs — TakeoffDesk's DOM-free modules without a browser (the same files the
  * browser loads from public_html/assets/apps/takeoffcraft/<build>/), plus the real plan set.
  *
  *   node bin/test-takeoffcraft.mjs [--build dev|x.y] [--verbose] [--browser [--keep-shots]]
@@ -24,7 +24,7 @@
  * random password, disabled again at the end) signs in, opens the plan PDF, calibrates, takes
  * off a linear, an area and a count item with pointer events, exports CSV/XLSX/project/PDF, uses the Edit group
  * (toolbar buttons, the More menu and the keys: copy, paste by click, paste in place, duplicate, cut, delete,
- * select all/none, Shift+click, copy/duplicate item), the Settings › TakeoffCraft tab (stored, kept after a reload,
+ * select all/none, Shift+click, copy/duplicate item), the Settings › TakeoffDesk tab (stored, kept after a reload,
  * working, reset), and
  * screenshots paper and model themes into tmp/shots/takeoffcraft/. Fails on any console error. Then it runs
  * tools/takeoffcraft-test/browser-3d.mjs (the 3D check view: plan-sheet takeoff → 3D, orbit, pick, both themes; shots
@@ -1481,7 +1481,7 @@ section('Price library from CSV (T9)');
   const ids = t.addItems(r.entries.map(Lb.itemFromEntry));
   ok(ids.length === 5 && t.state.items[0].components.length === 2 && t.undoStack.length === 1, 'addItems: all five with their assemblies, one undo step');
   const est = Lb.readLibraryCsv(E.estimateCsv(t.state));
-  ok(est.ok && est.entries.length === 5 && est.entries[0].components[0].formula === 'ceil(L / 1.333) + N' && est.entries[0].mat === 21000 && est.entries[2].unit === 'SY', 'the estimate CSV TakeoffCraft exports reads in as a library (formulas from its Notes, the Job total row left out)', JSON.stringify(est.warnings));
+  ok(est.ok && est.entries.length === 5 && est.entries[0].components[0].formula === 'ceil(L / 1.333) + N' && est.entries[0].mat === 21000 && est.entries[2].unit === 'SY', 'the estimate CSV TakeoffDesk exports reads in as a library (formulas from its Notes, the Job total row left out)', JSON.stringify(est.warnings));
   // merge: the same name and type (any case) is replaced in its place
   const m = Lb.mergeEntries(r.entries, [{ ...r.entries[1], name: 'vct FLOORING', mat: 20000 }, { ...r.entries[1], name: 'New tile' }]);
   ok(m.added === 1 && m.updated === 1 && m.lib[1].mat === 20000 && m.lib.length === 6, 'merge: VCT updated in place, a new tile added');
@@ -1526,8 +1526,8 @@ section('Trade packs: format, install, remove, export (TK.1)');
   ok(r.pack.sources.length === 2 && !('url' in r.pack.sources[1]), 'a source keeps https links only');
   ok(r.warnings.some((x) => /4 items could not be read/.test(x)) && r.warnings.some((x) => /2 assembly parts/.test(x)), 'warnings say how many items and parts were left out', r.warnings.join(' | '));
   for (const [mut, why] of [
-    [(j) => { j.format = 'takeoffcraft-project'; }, /not a TakeoffCraft trade pack/],
-    [(j) => { j.version = 2; }, /newer TakeoffCraft/],
+    [(j) => { j.format = 'takeoffcraft-project'; }, /not a TakeoffDesk trade pack/],
+    [(j) => { j.version = 2; }, /newer TakeoffDesk/],
     [(j) => { j.id = 'Bad Id'; }, /id is missing/],
     [(j) => { j.id = 'a..b'; }, /id is missing/],
     [(j) => { j.name = ''; }, /has no name/],
@@ -2327,135 +2327,13 @@ section('The chosen bid in the estimate (0.7 LC.13 B3)');
   eq(E.byDivision(t.state, M.baseEstimate(t.state)).find((d) => d.div === '03').total, 390000, 'by division: 03 is the chosen bid');
 }
 
-section('Sending a package to the website and getting prices back (0.7 LC.13 B4 + B6)');
-{
-  const Lv = await load('level.js'), Bs = await load('bidsend.js'), Pm = await load('pdfmarks.js');
-  // who to invite
-  const pi = Bs.parseInvitees('Sam Sub <SAM@Sub.example>; "Doe, Jane" <jane@doe.example>\nbob@bob.example, plain@x.example\nsam@sub.example\nnot an address\n<>\nfoo@bar');
-  eq(pi.people.map((p) => p.email + '|' + p.name).join(), 'sam@sub.example|Sam Sub,jane@doe.example|Doe, Jane,bob@bob.example|,plain@x.example|', 'invitees: "Name <addr>", quoted names with commas, commas and semicolons between addresses, case folded, a repeat once');
-  eq(pi.bad.join('|'), 'not an address|<>|foo@bar', 'invitees: what is not an address is listed back');
-  // a takeoff with a package and marks on two of three pages
-  const t = new M.Takeoff();
-  const hash = 'a'.repeat(64);
-  t.addFile({ hash, name: 'A-100.pdf', size: 1, pages: 3 });
-  const k0 = M.sheetKey(hash, 0), k1 = M.sheetKey(hash, 1), k2 = M.sheetKey(hash, 2);
-  for (const k of [k0, k1, k2]) t.setScale(k, { method: 'preset', preset: 'a1/4', ftPerUnit: 4 / 72, label: '1/4"', cal: null });
-  const base = t.addItem({ name: 'Base', type: 'linear', mat: 10000, csi: '09 65 13' });
-  const wall = t.addItem({ name: 'Wall', type: 'linear', mat: 20000, csi: '05 40 00' });
-  t.addMark({ item: base, sheet: k1, pts: [{ x: 10, y: 10 }, { x: 82, y: 10 }] });
-  t.addMark({ item: wall, sheet: k0, pts: [{ x: 10, y: 20 }, { x: 82, y: 20 }] });
-  t.addMark({ item: wall, sheet: k2, pts: [{ x: 10, y: 20 }, { x: 82, y: 20 }] });
-  const est = M.baseEstimate(t.state, { awards: false });
-  const pkgs = Lv.bidPackages(t.state, est, { title: (k) => (k ? E.divisionTitle(k) : 'None') });
-  const p09 = pkgs.find((p) => p.key === '09'), p05 = pkgs.find((p) => p.key === '05');
-  const lines = Bs.scopeLines(p09, (k) => 'Sheet ' + (Number(k.split(':')[1]) + 1));
-  eq(JSON.stringify(lines), JSON.stringify([{ key: base, name: 'Base', csi: '09 65 13', qty: 4, unit: 'LF', sheets: 'Sheet 2' }]), 'scope lines: item id as the key, quantity, unit, the sheets its marks are on');
-  const body = Bs.packagePayload(p09, { title: ' Library: 09 ', project: 'Library', message: 'Hi', due: new Date('2026-11-02T22:00:00Z'), opens: new Date('2026-11-02T23:00:00Z'), senderName: 'Pat', tz: 'America/Toronto', takeoff: 'Library' }, (k) => k);
-  ok(body.title === 'Library: 09' && body.due === '2026-11-02T22:00:00.000Z' && body.opens === '2026-11-02T23:00:00.000Z' && body.pkg === '09' && body.tz === 'America/Toronto' && body.lines.length === 1, 'the create body: trimmed title, ISO times, package key, zone, lines');
-  eq(Bs.packagePayload(p09, { title: 'x', due: new Date('2026-11-02T22:00:00Z'), opens: null }).opens, '', 'no opening time = "" (prices show as they arrive)');
-  ok(!/10000|mat|price|cost/i.test(JSON.stringify(body.lines)), 'no price of ours is in what is sent');
-  // the client against a stand-in server
-  const calls = [];
-  const fake = async ({ method, path, body: b, contentType }) => {
-    calls.push({ method, path, b, contentType });
-    if (path.endsWith('/status')) return { status: 200, json: { status: 'success', data: { can_send: true } }, headers: {} };
-    if (path === '/api/v1/bids/packages') return { status: 201, json: { status: 'success', data: { package: { uuid: 'p'.repeat(8) + '-0000-4000-8000-000000000000', title: 'x', due: '2026-11-02T22:00:00Z', opens: null } } }, headers: {} };
-    if (path.endsWith('/invite')) return { status: 200, json: { status: 'success', data: { results: [{ email: 'a@b.co', state: 'invited' }] } }, headers: {} };
-    if (path.endsWith('/sheets')) return { status: 200, json: { status: 'success', data: {} }, headers: {} };
-    if (path === '/api/v1/bids/boom') return { status: 403, json: { status: 'error', error: 'Sending bid packages is not open', code: 'bids_closed', errors: {} }, headers: {} };
-    if (path === '/api/v1/bids/gone') return { status: 401, json: { status: 'error', error: 'x', code: 'token_revoked' }, headers: {} };
-    if (path === '/api/v1/bids/slow') return { status: 429, json: { status: 'error', error: 'slow', code: 'throttled' }, headers: { 'retry-after': '60' } };
-    if (path === '/api/v1/bids/bad') return { status: 422, json: { status: 'error', error: 'The package could not be saved.', code: 'invalid', errors: { title: 'Give the package a title.' } }, headers: {} };
-    return { status: 500, json: null, headers: {} };
-  };
-  const c = new Bs.BidsClient(fake);
-  eq((await c.status()).can_send, true, 'client: status');
-  const created = await c.createPackage(body);
-  ok(calls.at(-1).method === 'POST' && calls.at(-1).contentType === 'application/json' && JSON.parse(calls.at(-1).b).title === 'Library: 09' && created.uuid.length === 36, 'client: createPackage posts the JSON body and returns the package');
-  await c.uploadSheets(created.uuid, new Uint8Array([37, 80, 68, 70]));
-  ok(calls.at(-1).path === `/api/v1/bids/packages/${created.uuid}/sheets` && calls.at(-1).contentType === 'application/pdf' && calls.at(-1).b instanceof Uint8Array, 'client: the sheets go as the raw PDF body');
-  eq((await c.invite(created.uuid, [{ email: 'a@b.co' }]))[0].state, 'invited', 'client: invite → results');
-  const fails = [];
-  for (const p of ['boom', 'gone', 'slow', 'bad', 'dead']) { try { await c.call('GET', '/api/v1/bids/' + p); } catch (e) { fails.push(`${e.code}/${e.status}`); if (p === 'bad') ok(e.errors.title === 'Give the package a title.', 'client: field errors come back on the error'); if (p === 'slow') eq(e.retryAfter, 60, 'client: Retry-After is kept'); } }
-  eq(fails.join(), 'bids_closed/403,token_revoked/401,throttled/429,invalid/422,server/500', 'client: the site\'s codes (and a 5xx as "server") become BidsError codes');
-  ok(Bs.CONNECT_AGAIN.has('token_revoked') && Bs.CONNECT_AGAIN.has('invalid_token') && !Bs.CONNECT_AGAIN.has('bids_closed'), 'sign-in codes ask to connect again; others do not');
-  let off; try { await new Bs.BidsClient(async () => { throw new Error('net'); }).status(); } catch (e) { off = e.code; }
-  eq(off, 'offline', 'client: a network failure is "offline"');
-  let na; try { await new Bs.BidsClient(async () => { throw Object.assign(new Error('x'), { code: 'not_allowed' }); }).status(); } catch (e) { na = e.code; }
-  eq(na, 'not_allowed', 'client: the desktop shell refusing the path is "not_allowed"');
-  // transports
-  const seen = [];
-  const bt = Bs.browserTransport({ token: 'ccu_' + 'A'.repeat(40), fetchFn: async (path, init) => { seen.push({ path, init }); return { status: 200, json: async () => ({ status: 'success', data: {} }), headers: { get: (k) => (k === 'retry-after' ? '5' : null) } }; } });
-  const rr = await bt({ method: 'GET', path: '/api/v1/bids/status' });
-  ok(seen[0].init.headers.Authorization === 'Bearer ccu_' + 'A'.repeat(40) && seen[0].init.credentials === 'omit' && seen[0].init.cache === 'no-store' && rr.headers['retry-after'] === '5', 'browser transport: Bearer header, no cookies, never cached');
-  const dseen = [];
-  const dt = Bs.desktopTransport({ request: async (r) => { dseen.push(r); return { status: 200, json: () => ({ status: 'success', data: { x: 1 } }), headers: {} }; } });
-  const dr = await dt({ method: 'POST', path: '/api/v1/bids/packages', body: '{"a":1}', contentType: 'application/json' });
-  ok(dseen[0].body instanceof Uint8Array && dr.json.data.x === 1, 'desktop transport: a string body goes as bytes through cadcraftDesktop.cloud.request; the shell adds the sign-in');
-  // requests in the file
-  const u0 = t.undoStack.length;
-  const uuidA = 'aaaaaaaa-0000-4000-8000-000000000001', uuidB = 'bbbbbbbb-0000-4000-8000-000000000002';
-  Lv.addRequest(t, { uuid: uuidA, pkg: '09', title: 'Library: 09', at: '2026-10-23T12:00:00.000Z', due: '2026-11-02T22:00:00.000Z', opens: '2026-11-02T23:00:00.000Z', n: 2 });
-  Lv.addRequest(t, { uuid: uuidA, pkg: '09', title: 'Library: 09', at: '2026-10-23T12:00:00.000Z', due: '2026-11-02T22:00:00.000Z', opens: '', n: 3 });
-  eq(t.state.bidreqs.length, 1, 'a request is recorded once; more invitations update it');
-  ok(t.state.bidreqs[0].n === 3 && t.undoStack.length === u0 + 2, '…its count only grows; each recording is one undo step');
-  const j0 = JSON.parse(JSON.stringify(t.toJSON()));
-  const rp = M.readProject({ ...j0, bidreqs: [...j0.bidreqs, { uuid: 'nope', pkg: '09' }, { uuid: uuidB, pkg: 'x' }, { ...j0.bidreqs[0] }, null, { uuid: uuidB, pkg: '', title: 'T\u0000\u0001', n: -4, due: 'soon' }] });
-  eq(rp.state.bidreqs.map((r) => r.uuid + '|' + r.pkg + '|' + r.n + '|' + JSON.stringify(r.due)).join(), `${uuidA}|09|3|"2026-11-02T22:00:00.000Z",${uuidB}||0|""`, 'a tampered file: bad uuids, a bad package, a repeat and junk dropped; a negative count is 0, a bad date is empty');
-  // prices come back
-  const ra = 'cccccccc-0000-4000-8000-000000000001', rb = 'cccccccc-0000-4000-8000-000000000002', rc = 'cccccccc-0000-4000-8000-000000000003';
-  const review = (over = {}) => ({ package: { uuid: uuidA, pkg: '09', status: 'open' }, sealed: false, sealed_until: null,
-    invitations: [{ answered: true }, { answered: true }, { answered: true }, { answered: false }],
-    bids: [{ response: ra, bidder: 'Sub One', declined: false, amount_cents: 420000, excl: [base, 'ghost', wall], note: 'valid 30 days', late: false, revision: 1 },
-      { response: rb, bidder: 'Sub Two', declined: false, amount_cents: 300000, excl: [], note: '', late: true, revision: 1 },
-      { response: rc, bidder: 'Sub Three', declined: true, amount_cents: 0, excl: [], note: '', late: false, revision: 1 }], ...over });
-  const u1 = t.undoStack.length;
-  const sealed = Lv.mergeReview(t, review({ sealed: true, bids: [] }));
-  ok(sealed.sealed && sealed.waiting === 1 && t.undoStack.length === u1 && !(t.state.bids || []).length, 'sealed: nothing comes in, no undo step, but the app learns who has not answered yet');
-  const m1 = Lv.mergeReview(t, review());
-  eq([m1.added, m1.updated, m1.declined, m1.late].join(), '2,0,1,1', 'opened: two bids in, one declined (not added), one late');
-  ok(t.undoStack.length === u1 + 1, 'the whole merge is one undo step');
-  const b1 = t.state.bids.find((b) => b.src?.r === ra);
-  ok(b1.bidder === 'Sub One' && b1.amount === 420000 && b1.pkg === '09' && JSON.stringify(b1.excl) === JSON.stringify([base]) && b1.note === 'valid 30 days' && b1.src.v === 1 && b1.src.late === false, 'a bid: bidder, cents, only its own package\'s items left out (the other package\'s and unknown ones dropped), note, source');
-  ok(t.state.bids.find((b) => b.src?.r === rb).src.late === true, 'late is kept on the bid');
-  const n1 = t.state.bids.length;
-  const again = Lv.mergeReview(t, review());
-  ok(again.added === 0 && again.updated === 0 && t.undoStack.length === u1 + 1 && t.state.bids.length === n1, 'merging the same answer again changes nothing and is no undo step');
-  Lv.updateBid(t, b1.id, { amount: 410000 });
-  Lv.mergeReview(t, review());
-  eq(t.state.bids.find((b) => b.src?.r === ra).amount, 410000, 'the estimator\'s own edit stays until the bidder sends a new version');
-  const m3 = Lv.mergeReview(t, review({ bids: [{ ...review().bids[0], amount_cents: 400000, revision: 2, excl: [] }] }));
-  ok(m3.updated === 1 && t.state.bids.find((b) => b.src?.r === ra).amount === 400000 && t.state.bids.find((b) => b.src?.r === ra).src.v === 2 && t.state.bids.length === n1, 'a new version (revision 2) replaces the price and the left-out lines, in place');
-  Lv.setAward(t, '09', t.state.bids.find((b) => b.src?.r === ra).id);
-  eq(M.baseEstimate(t.state).subTotal, 400000, 'a bid that came back from the website can be chosen as the package\'s price (B3)');
-  Lv.mergeReview(t, review({ bids: [{ ...review().bids[0], amount_cents: 380000, revision: 3, excl: [] }] }));
-  eq(M.baseEstimate(t.state).subTotal, 380000, '…and a later version moves the estimate with it');
-  const json1 = JSON.parse(JSON.stringify(t.toJSON()));
-  const back = M.readProject(json1).state;
-  ok(JSON.stringify(back.bids) === JSON.stringify(t.state.bids) && back.bids.some((b) => b.src), 'bids with their source are saved with the takeoff and read back exactly');
-  const forged = M.readProject({ ...json1, bids: json1.bids.map((b) => ({ ...b, src: { p: 'x', r: 'y', v: -3 } })) }).state;
-  ok(forged.bids.every((b) => !b.src), 'a forged source (not uuids) is dropped');
-  const wrong = Lv.mergeReview(t, { package: { uuid: 'bad', pkg: '09' }, bids: [{ response: ra }] });
-  ok(wrong.added === 0 && wrong.updated === 0, 'a review with a bad package uuid does nothing');
-  // the sheets PDF
-  const src = await PDFLib.PDFDocument.create();
-  for (let i = 0; i < 3; i++) src.addPage([612, 792]);
-  const srcBytes = await src.save();
-  const mk = await Bs.packageSheetsPdf(PDFLib, { files: [{ hash, name: 'A-100.pdf', bytes: srcBytes }], state: t.state, itemIds: [base], pdfWithMarks: Pm.pdfWithMarks });
-  ok(mk && mk.pages === 1 && (await PDFLib.PDFDocument.load(mk.bytes)).getPageCount() === 1, 'sheets PDF for the 09 package: only the one sheet that holds its marks (1 of 3 pages)');
-  const mk2 = await Bs.packageSheetsPdf(PDFLib, { files: [{ hash, name: 'A-100.pdf', bytes: srcBytes }], state: t.state, itemIds: [wall], pdfWithMarks: Pm.pdfWithMarks });
-  ok(mk2 && mk2.pages === 2, 'sheets PDF for the 05 package: its two sheets, in order');
-  eq(await Bs.packageSheetsPdf(PDFLib, { files: [{ hash, name: 'A-100.pdf', bytes: srcBytes }], state: t.state, itemIds: ['none'], pdfWithMarks: Pm.pdfWithMarks }), null, 'a package with no marks has no sheets (null)');
-  ok(Buffer.from(mk.bytes).subarray(0, 5).toString() === '%PDF-', 'the sheets PDF is a PDF');
-}
-
 section('Scales from the sheets\' text (T20)');
 {
   const St = await load('scaletext.js');
   const one = (s) => St.sheetScale(s).preset;
   eq([one('FLOOR PLAN  SCALE: 1/4" = 1\'-0"'), one('1/8"=1\''), one('3/16 " = 1 \' - 0 "'), one('DETAIL 1 1/2" = 1\'-0"'), one('1-1/2"=1\'-0"'), one('SITE PLAN 1" = 20\''), one('SCALE 1:100'), one('ratio 1:1000.'), one('3/4 in = 1 ft')].join(),
     'a1/4,a1/8,a3/16,a1-1/2,a1-1/2,e20,m100,m1000,a3/4', 'notations: architectural (with odd spacing, mixed numbers), engineering, metric, words for inches and feet');
-  ok(one('Time 1:30 pm') === null && one('12" = 1\'-0"') === null && one('1:2.5') === null && one('2 1/4" = 1\'-0"') === null, 'not scales: a time, full size, a decimal ratio, a scale TakeoffCraft has no preset for');
+  ok(one('Time 1:30 pm') === null && one('12" = 1\'-0"') === null && one('1:2.5') === null && one('2 1/4" = 1\'-0"') === null, 'not scales: a time, full size, a decimal ratio, a scale TakeoffDesk has no preset for');
   const nts = St.sheetScale('DETAIL A — N.T.S.');
   ok(nts.preset === null && nts.nts && nts.why === 'nts', 'NTS is reported as not to scale');
   const sev = St.sheetScale('ENLARGED 1-1/2" = 1\'-0"  PLAN 1/4" = 1\'-0"  SCALE: 1/4" = 1\'-0"');
@@ -2686,6 +2564,54 @@ section('3D');
 }
 
 // ---------------------------------------------------------------------------
+section('Line styles and item icons (TakeoffDesk)');
+{
+  const L = await load('itemlook.js'), Pm = await load('pdfmarks.js');
+  // a real 2 × 2 PNG (pdf-lib must be able to embed it)
+  const tiny = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFklEQVR42mP8z8DwnwEJMDKgCRATAAA9mAP9qLdb9wAAAABJRU5ErkJggg==';
+  ok(L.iconOk(tiny) && !L.iconOk('data:image/svg+xml;base64,PHN2Zz4=') && !L.iconOk('javascript:alert(1)') && !L.iconOk('data:image/png;base64,' + 'A'.repeat(L.ICON_MAX)), 'icons: only a small PNG data URL is kept');
+  eq(L.lineStyleOf({ line: 'double' }) + L.lineStyleOf({}) + L.lineStyleOf({ line: 'wavy' }), 'doublesolidsolid', 'line styles: unknown or missing reads as solid');
+  ok(L.strokeOf('double', 2).gap > 0 && L.strokeOf('dashed', 2).dash.length === 2 && L.strokeOf('dotted', 2).round && !L.strokeOf('solid', 2).dash.length, 'each style has its own stroke');
+  const m = new M.Takeoff();
+  const [a, c] = m.addItems([{ name: 'Curb', type: 'linear', line: 'double' }, { name: 'Outlets', type: 'count', icon: tiny, line: 'dashed' }], 'add');
+  ok(m.item(a).line === 'double' && m.item(c).icon === tiny && m.item(c).line === 'dashed', 'items keep a line style and an icon');
+  m.updateItem(a, { line: undefined }, 'line'); m.updateItem(c, { icon: undefined }, 'icon');
+  ok(!('line' in m.item(a)) && !('icon' in m.item(c)), 'solid and "Remove" take the fields away (files stay as they were)');
+  m.undo(); m.undo();
+  ok(m.item(a).line === 'double' && m.item(c).icon === tiny, '…and undo brings them back');
+  const back = M.readProject(JSON.parse(JSON.stringify(m.toJSON()))).state.items;
+  ok(back[0].line === 'double' && back[1].icon === tiny, 'saved with the takeoff and read back');
+  const bad = M.readProject({ ...JSON.parse(JSON.stringify(m.toJSON())), items: [{ id: 'x', name: 'X', type: 'linear', line: 'zigzag', icon: '<svg onload=alert(1)>' }] }).state.items[0];
+  ok(!('line' in bad) && !('icon' in bad), 'a tampered file: a bad style or icon is dropped');
+  // the marked PDF: a double run and an icon count both draw
+  const src = await PDFLib.PDFDocument.create(); src.addPage([612, 792]); const srcBytes = await src.save();
+  const st = { items: [{ id: 'i1', name: 'Curb', type: 'linear', color: '#2E8B57', unit: 'LF', line: 'double', components: [] }, { id: 'i2', name: 'Outlets', type: 'count', color: '#F28C28', unit: 'EA', icon: tiny, components: [] }],
+    marks: [{ id: 'm1', item: 'i1', sheet: 'h:0', kind: 'linear', pts: [{ x: 100, y: 100 }, { x: 300, y: 100 }], holes: [] }, { id: 'm2', item: 'i2', sheet: 'h:0', kind: 'count', pts: [{ x: 200, y: 300 }], holes: [] }],
+    sheets: { 'h:0': { scale: { method: 'preset', ftPerUnit: 1 / 18, preset: 'x', label: 'x' } } }, files: [], areas: [], groups: [], notes: [] };
+  const out = await Pm.pdfWithMarks(PDFLib, srcBytes, 'h', st, { legend: false });
+  const doc = await PDFLib.PDFDocument.load(out.bytes);
+  const xo = doc.getPages()[0].node.Resources().lookup(PDFLib.PDFName.of('XObject'));
+  ok(out.marks === 2 && xo && xo.keys().length >= 1, 'marked PDF: the double run is drawn and the icon is embedded as an image', JSON.stringify({ marks: out.marks, xo: xo ? xo.keys().map(String) : null }));
+}
+
+section('Quantity factor (TakeoffDesk)');
+{
+  const st = { items: [M.normalItem({ id: 'x', name: 'Crosswalk', type: 'area', unit: 'SF', factor: 0.5, components: [{ id: 'c1', name: 'Paint', unit: 'SF', formula: 'A' }] }),
+    M.normalItem({ id: 'y', name: 'Striping', type: 'linear', unit: 'LF', factor: 2 }), M.normalItem({ id: 'z', name: 'Signs', type: 'count', unit: 'EA', factor: 3 }),
+    M.normalItem({ id: 'w', name: 'Allowance', type: 'fixed', unit: 'EA', qty: 4, factor: 0.5 })] };
+  const t1 = { areaSqft: 200, perimeterFt: 60, count: 2 }, t2 = { lengthFt: 50, count: 1 }, t3 = { count: 4 };
+  eq(M.itemQty(st.items[0], t1), 100, 'area × 0.5: 200 SF drawn → 100 SF');
+  eq(M.itemVars(st.items[0], t1).P, 60, '…the perimeter is not multiplied');
+  eq(M.itemQty(st.items[1], t2), 100, 'linear × 2: 50 LF drawn → 100 LF');
+  eq(M.itemQty(st.items[2], t3), 12, 'count × 3: 4 drawn → 12 EA');
+  ok(!('factor' in st.items[3]) && M.itemQty(st.items[3], { fixed: 4 }) === 4, 'a typed quantity takes no factor');
+  ok(!('factor' in M.normalItem({ id: 'q', type: 'area', factor: 1 })) && !('factor' in M.normalItem({ id: 'q', type: 'area', factor: 0 })) && !('factor' in M.normalItem({ id: 'q', type: 'area', factor: 5000 })), 'factor 1, 0 or above 1000 is not kept');
+  const m = new M.Takeoff();
+  const [a] = m.addItems([{ name: 'Crosswalk', type: 'area', factor: 0.5 }], 'add');
+  m.updateItem(a, { factor: undefined }, 'f'); ok(!('factor' in m.item(a)), 'clearing the factor removes it'); m.undo();
+  eq(M.readProject(JSON.parse(JSON.stringify(m.toJSON()))).state.items[0].factor, 0.5, 'saved with the takeoff and read back');
+}
+
 section('The kitchen plan sheet (public fixture PDF)');
 if (!fs.existsSync(PLAN)) ok(false, 'plan PDF present at ' + PLAN);
 else {
@@ -3735,11 +3661,11 @@ async function browserTest() {
     ok(true, 'a PDF opens again after New takeoff');
     await page.screenshot({ path: path.join(shots, 'takeoffcraft-new-takeoff-paper.png') });
 
-    // ---- Settings › TakeoffCraft ----
+    // ---- Settings › TakeoffDesk ----
     await page.keyboard.press('Escape');
     await page.click('[data-settings-open]');
     await page.waitForSelector('[data-app-settings][open]');
-    ok(await T(() => document.querySelector('[data-settings-tab="app"]')?.textContent.trim() === 'TakeoffCraft' && !document.querySelector('[data-settings-tabs]').hidden), 'the Settings dialog has a TakeoffCraft tab');
+    ok(await T(() => document.querySelector('[data-settings-tab="app"]')?.textContent.trim() === 'TakeoffDesk' && !document.querySelector('[data-settings-tabs]').hidden), 'the Settings dialog has a TakeoffDesk tab');
     await page.click('[data-settings-tab="app"]');
     ok(await T(() => document.querySelector('input[name="tcDenom"][value="16"]').checked && document.querySelector('select[name="tcWaste"]').value === '0' && document.querySelector('input[name="tcSnap45"]').checked === false), 'the fields show the defaults (1/16", 0%, snap off)');
     await page.click('input[name="tcDenom"][value="4"]');
@@ -3780,7 +3706,7 @@ async function browserTest() {
     await page.click('[data-settings-reset]');
     await page.waitForTimeout(100);
     const s3 = await T(() => ({ ...window.takeoffcraft.settings, ls: localStorage.getItem('takeoffcraft.settings'), denom16: document.querySelector('input[name="tcDenom"][value="16"]').checked }));
-    ok(s3.denom === 16 && s3.waste === 0 && s3.threshold === 0.75 && !s3.snap45 && s3.ls === null && s3.denom16, 'Reset puts every TakeoffCraft setting back', JSON.stringify(s3));
+    ok(s3.denom === 16 && s3.waste === 0 && s3.threshold === 0.75 && !s3.snap45 && s3.ls === null && s3.denom16, 'Reset puts every TakeoffDesk setting back', JSON.stringify(s3));
     await page.keyboard.press('Escape');
 
     // autosave and recovery (0.4 item 1.2): an edit leaves a copy (with its PDF); a new page offers it back
@@ -4088,7 +4014,7 @@ async function browserTest() {
       await appReady();
       await page.setInputFiles('[data-file-pdf]', epf);
       await page.waitForSelector('dialog[open] [data-key="ok"]');
-      ok(/carries a TakeoffCraft takeoff \(1 item, 1 mark\)/.test(await page.textContent('dialog[open]')), 'opening it: "This PDF has a takeoff inside" (1 item, 1 mark)');
+      ok(/carries a TakeoffDesk takeoff \(1 item, 1 mark\)/.test(await page.textContent('dialog[open]')), 'opening it: "This PDF has a takeoff inside" (1 item, 1 mark)');
       await page.click('dialog[open] [data-key="ok"]');
       await page.waitForTimeout(300);
       const q10 = (await T(() => window.takeoffcraft.quantities())).find((r) => r.name === 'Floor');

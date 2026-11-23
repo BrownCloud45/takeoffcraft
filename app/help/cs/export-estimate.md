@@ -28,7 +28,7 @@ Sešit má čtyři listy a níže uvedené přehledy, pokud se použijí:
 
 S [souhrnem nabídky](topic:bid-summary) list Rozpočet končí také svými přirážkami (náklady na práci, daň z prodeje, režie, zisk, jistota a nabídková cena) jako živé vzorce.
 
-List Rozpočet ponechává **živé vzorce**: množství s odpadem, zaokrouhlené částky za materiál a práci, celkem každého řádku a celkový součet zakázky. Tabulkové procesory je přepočítají, takže můžete v tabulce změnit sazbu nebo odpad a součty se přizpůsobí. Čísla, která vypočetl TakeoffCraft, jsou uložena také v buňkách a shodují se na cent.
+List Rozpočet ponechává **živé vzorce**: množství s odpadem, zaokrouhlené částky za materiál a práci, celkem každého řádku a celkový součet zakázky. Tabulkové procesory je přepočítají, takže můžete v tabulce změnit sazbu nebo odpad a součty se přizpůsobí. Čísla, která vypočetl TakeoffDesk, jsou uložena také v buňkách a shodují se na cent.
 
 Sloupec poznámek uvádí vzorec každé komponenty, chyby ve vzorcích, značky na listech bez měřítka, plochu stěn a obvod. Když něco chybí, řádek celkového součtu zakázky uvádí "Neúplné: viz poznámky výše".
 
@@ -42,7 +42,7 @@ CSV obsahuje pouze rozpočet; pro množství podle listů a seznam značek použ
 
 ## Rozpočet v Google Sheets
 
-Nad tabulkou Množství **Kopírovat pro Google Sheets** umístí rozpočet do schránky jako text oddělený tabulátory, se stejnými řádky jako CSV. V Google Sheet klikněte na buňku A1 a vložte. TakeoffCraft se k Google nepřihlašuje a nic tam neodesílá.
+Nad tabulkou Množství **Kopírovat pro Google Sheets** umístí rozpočet do schránky jako text oddělený tabulátory, se stejnými řádky jako CSV. V Google Sheet klikněte na buňku A1 a vložte. TakeoffDesk se k Google nepřihlašuje a nic tam neodesílá.
 
 ## Chybějící sazby a schválení
 

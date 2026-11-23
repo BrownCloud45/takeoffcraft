@@ -5,14 +5,14 @@ keywords: Überarbeitung, überarbeitet, vergleichen, Überlagerung, alt, neu, �
 from: 3a1d9fe0
 ---
 
-Wenn ein Blatt neu herausgegeben wird, müssen Sie es nicht erneut aufnehmen. Öffnen Sie die alte und die neue PDF, vergleichen Sie die beiden Blätter und übertragen Sie die Mengenermittlung. TakeoffCraft kennzeichnet jede Markierung, deren Zeichnung sich geändert hat, damit Sie diese prüfen und die übrigen behalten.
+Wenn ein Blatt neu herausgegeben wird, müssen Sie es nicht erneut aufnehmen. Öffnen Sie die alte und die neue PDF, vergleichen Sie die beiden Blätter und übertragen Sie die Mengenermittlung. TakeoffDesk kennzeichnet jede Markierung, deren Zeichnung sich geändert hat, damit Sie diese prüfen und die übrigen behalten.
 
 ## Vergleichen
 
 1. Öffnen Sie beide PDFs: den alten und den überarbeiteten Satz ({{ui:PDFs öffnen}}; sie können in einer Datei oder in mehreren liegen).
 2. Zeigen Sie das **neue** Blatt an.
 3. Wählen Sie {{ui:Vergleichen}} in der Blattleiste unter der Zeichnung.
-4. Wählen Sie das alte Blatt in der Liste. TakeoffCraft schlägt das Blatt mit derselben Nummer in der anderen PDF vor oder dieselbe Seite. Wählen Sie **Vergleichen**.
+4. Wählen Sie das alte Blatt in der Liste. TakeoffDesk schlägt das Blatt mit derselben Nummer in der anderen PDF vor oder dieselbe Seite. Wählen Sie **Vergleichen**.
 
 Die alte Zeichnung liegt nun rot über der neuen. Wo beide übereinstimmen, liegen die roten Linien auf den schwarzen; wo sie abweichen, sehen Sie nur rote Linien (entfernt) und nur schwarze Linien (hinzugefügt). Eine Leiste am unteren Rand des Blattes enthält die folgenden Schritte; {{key:Esc}} oder {{ui:Schließen}} beendet den Vergleich.
 
@@ -29,7 +29,7 @@ Die rote Zeichnung verschiebt, dreht und skaliert sich auf die schwarze. Die Sta
 
 ## Änderungen finden
 
-Wählen Sie **Änderungen finden**. TakeoffCraft vergleicht die Tinte der beiden Zeichnungen: Tinte nur auf dem alten Blatt wird rot, Tinte nur auf dem neuen Blatt wird blau, und die Statusleiste zählt sie. Linien, die sich um einen Hauch verschoben haben (ein erneuter Druck), zählen nicht als Änderungen.
+Wählen Sie **Änderungen finden**. TakeoffDesk vergleicht die Tinte der beiden Zeichnungen: Tinte nur auf dem alten Blatt wird rot, Tinte nur auf dem neuen Blatt wird blau, und die Statusleiste zählt sie. Linien, die sich um einen Hauch verschoben haben (ein erneuter Druck), zählen nicht als Änderungen.
 
 Es prüft außerdem jede Markierung auf dem alten Blatt und zählt diejenigen, die dort liegen, wo sich die Zeichnung geändert hat:
 
@@ -40,7 +40,7 @@ Es prüft außerdem jede Markierung auf dem alten Blatt und zählt diejenigen, d
 
 Wählen Sie **Mengenermittlung hierher verschieben**. Jede Markierung auf dem alten Blatt wird über die Ausrichtung auf das neue Blatt verschoben, in einem einzigen Rückgängig-Schritt. Die Markierungen neben einer Änderung werden gekennzeichnet: Sie erscheinen mit einem orangefarbenen Leuchtrand, und die Blattleiste zeigt „(n) zu prüfen“.
 
-Hatte das neue Blatt keinen Maßstab, übernimmt es den Maßstab des alten Blattes (angepasst, wenn die Zeichnungen zur Ausrichtung skaliert werden mussten). Hatte es bereits einen anderen Maßstab, fragt TakeoffCraft zuerst nach: Verschobene Markierungen werden im Maßstab des neuen Blattes gemessen.
+Hatte das neue Blatt keinen Maßstab, übernimmt es den Maßstab des alten Blattes (angepasst, wenn die Zeichnungen zur Ausrichtung skaliert werden mussten). Hatte es bereits einen anderen Maßstab, fragt TakeoffDesk zuerst nach: Verschobene Markierungen werden im Maßstab des neuen Blattes gemessen.
 
 ## Die markierten Stellen prüfen
 

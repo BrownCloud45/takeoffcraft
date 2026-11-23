@@ -5,22 +5,22 @@ keywords: meniu stilius, meniu, meniu juosta, juosta, juostelė, įrankių juost
 from: f01f0d6d
 ---
 
-TakeoffCraft komandos yra tos pačios, nepriklausomai nuo to, kaip prie jų prieinate. **Meniu stilius** nusako tik tai, kur jos stovi ekrane, kaip tuo metu vadinamos ir kokie klavišai jas vykdo. Pasirinkite jį {{ui:Parametrai}} ({{key:Mod+,}}) › {{ui:TakeoffCraft}} › {{ui:Meniu, klavišai ir pelė}}; pakeitimas įsigalioja iš karto, o ši naršyklė jį prisimena.
+TakeoffDesk komandos yra tos pačios, nepriklausomai nuo to, kaip prie jų prieinate. **Meniu stilius** nusako tik tai, kur jos stovi ekrane, kaip tuo metu vadinamos ir kokie klavišai jas vykdo. Pasirinkite jį {{ui:Parametrai}} ({{key:Mod+,}}) › {{ui:TakeoffDesk}} › {{ui:Meniu, klavišai ir pelė}}; pakeitimas įsigalioja iš karto, o ši naršyklė jį prisimena.
 
 ## Trys stiliai
 
 | Stilius | Ką gaunate |
 |---|---|
-| {{ui:TakeoffCraft}} | TakeoffCraft įrankių juosta: {{ui:Failas}}, {{ui:Eksportuoti}}, {{ui:Mastelis}}, {{ui:Kiekiai}}, {{ui:Redaguoti}} ir {{ui:Vaizdas}}, su vienos raidės įrankių klavišais. Pradinis. |
+| {{ui:TakeoffDesk}} | TakeoffDesk įrankių juosta: {{ui:Failas}}, {{ui:Eksportuoti}}, {{ui:Mastelis}}, {{ui:Kiekiai}}, {{ui:Redaguoti}} ir {{ui:Vaizdas}}, su vienos raidės įrankių klavišais. Pradinis. |
 | {{ui:Kiekių skaičiavimo stalas}} | Meniu juosta ({{ui:Failas}}, {{ui:Redaguoti}}, {{ui:Vaizdas}}, {{ui:Mastelis}}, {{ui:Kiekiai}}, {{ui:Pozicijos}}, {{ui:Žymėjimas}}, {{ui:Eksportuoti}}) virš vienos eilės kiekių skaičiavimo įrankių, kaip išdėstyti ekraniniai kiekių skaičiavimo įrankiai. Pozicijos eilutėje vadinamos sąlygomis. Tie patys klavišai, be to, {{key:N}} naujai pozicijai. Mastelio nustatymai perkeliami į lapo juostą, šalia lapo mastelio. |
 | {{ui:Juostelė „Kiekių skaičiavimas“}} | Juostelės skirtukai pavadinti pagal darbą: {{ui:Kiekiai}} (matuoti, formuoti, mastelis, iš brėžinio, sąlygos), {{ui:Redaguoti}}, {{ui:Vaizdas}}, {{ui:Žymėjimas}} ir {{ui:Sąmata}} (sąsiuvinis, pažymėti PDF, pasiūlymas), su meniu {{ui:Failas}} ir greita eilute atidarymui, įrašymui, anuliavimui ir perdarymui. Kasdien naudojami įrankiai yra dideli, o jų kaimynai maži ir sukrauti. Klavišai tie patys; mastelio nustatymai perkeliami į lapo juostą. |
 
-Visi trys stiliai palieka TakeoffCraft klavišus: {{key:V}} – {{ui:Pasirinkti}}, {{key:L}} – {{ui:Linijinis}}, {{key:A}} – {{ui:Plotas}}, {{key:O}} – {{ui:Apskritimas}}, {{key:B}} – {{ui:Kambarys}}, {{key:P}} – kelias (pasirinkti PDF linijas), {{key:X}} – {{ui:Išpjova}}, {{key:C}} – {{ui:Skaičiuoti}}, {{key:S}} – {{ui:Automatinis skaičiavimas}}, {{key:K}} – {{ui:Kalibruoti}}, {{key:D}} – {{ui:Tikrinti}}, {{key:R}} – lankų režimas, {{key:E}} – {{ui:Atskaita}} režimas, {{key:F}} ir {{key:W}} – pritaikyti lapą ar plotį, {{key:3}} – 3D tikrinimo vaizdas, {{key:F3}} – prilipimas, o {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
+Visi trys stiliai palieka TakeoffDesk klavišus: {{key:V}} – {{ui:Pasirinkti}}, {{key:L}} – {{ui:Linijinis}}, {{key:A}} – {{ui:Plotas}}, {{key:O}} – {{ui:Apskritimas}}, {{key:B}} – {{ui:Kambarys}}, {{key:P}} – kelias (pasirinkti PDF linijas), {{key:X}} – {{ui:Išpjova}}, {{key:C}} – {{ui:Skaičiuoti}}, {{key:S}} – {{ui:Automatinis skaičiavimas}}, {{key:K}} – {{ui:Kalibruoti}}, {{key:D}} – {{ui:Tikrinti}}, {{key:R}} – lankų režimas, {{key:E}} – {{ui:Atskaita}} režimas, {{key:F}} ir {{key:W}} – pritaikyti lapą ar plotį, {{key:3}} – 3D tikrinimo vaizdas, {{key:F3}} – prilipimas, o {{key:Mod+Z}}, {{key:Mod+Y}}, {{key:Mod+S}}, {{key:Mod+O}}, {{key:Mod+C}}, {{key:Mod+X}}, {{key:Mod+V}}, {{key:Mod+D}}, {{key:Mod+A}}.
 
 Lapo juostos įrankiai (pastabos, debesys, paryškinimai, Palyginti, 3D) laukia, kol bus atidarytas PDF; jei jie pasirinkti anksčiau, būsenos eilutėje tai nurodoma.
 
 :::tip
-Klavišas, kuris priklauso TakeoffCraft įprastam išdėstymui, bet jūsų stilius jį priskyrė kitai komandai, neveikia, o būsenos eilutėje nurodoma, kur nuėjo jo komanda („Mano klavišuose: Skaičiuoti yra Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} ir rodyklės visada išlaiko savo reikšmę. Kol braižote ruožą ar kontūrą, įklijuojate arba peržiūrite automatinį skaičiavimą, raidės ir įvestų ilgių skaičiai lieka su brėžiniu.
+Klavišas, kuris priklauso TakeoffDesk įprastam išdėstymui, bet jūsų stilius jį priskyrė kitai komandai, neveikia, o būsenos eilutėje nurodoma, kur nuėjo jo komanda („Mano klavišuose: Skaičiuoti yra Ctrl+Alt+C“). {{key:Delete}}, {{key:Esc}}, {{key:Enter}}, {{key:Tab}}, {{key:Space}} ir rodyklės visada išlaiko savo reikšmę. Kol braižote ruožą ar kontūrą, įklijuojate arba peržiūrite automatinį skaičiavimą, raidės ir įvestų ilgių skaičiai lieka su brėžiniu.
 :::
 
 ## Pritaikykite sau
@@ -41,12 +41,12 @@ Klavišas, kuris priklauso TakeoffCraft įprastam išdėstymui, bet jūsų stili
 
 ## Perkelkite su savimi
 
-{{ui:Eksportuoti}} įrašo naudojamą stilių mažame `.ccinput.json` faile; {{ui:Importuoti…}} prideda vieną, iš kito kompiuterio ar kolegos. Importuotas failas gali nurodyti tik TakeoffCraft komandas: viskas kita iš jo praleidžiama ir suskaičiuojama būsenos eilutėje. {{ui:Naikinti šį stilių}} pašalina vieną iš jūsų pačių.
+{{ui:Eksportuoti}} įrašo naudojamą stilių mažame `.ccinput.json` faile; {{ui:Importuoti…}} prideda vieną, iš kito kompiuterio ar kolegos. Importuotas failas gali nurodyti tik TakeoffDesk komandas: viskas kita iš jo praleidžiama ir suskaičiuojama būsenos eilutėje. {{ui:Naikinti šį stilių}} pašalina vieną iš jūsų pačių.
 
 :::note
-Šie nustatymai lieka šioje naršyklėje. {{ui:Naudoti šį stilių visose programose}} po stilių kortelėmis priverčia kiekvieną programą atsidaryti atitinkamu stiliumi (savo įrankių juosta, meniu juosta ar juostele), su pakeitimais, kuriuos padarėte kiekvienoje programoje. TakeoffCraft neturi stiliaus su komandų eilute: kai jis pasirenkamas visoms programoms, TakeoffCraft palieka savo įrankių juostą.
+Šie nustatymai lieka šioje naršyklėje. {{ui:Naudoti šį stilių visose programose}} po stilių kortelėmis priverčia kiekvieną programą atsidaryti atitinkamu stiliumi (savo įrankių juosta, meniu juosta ar juostele), su pakeitimais, kuriuos padarėte kiekvienoje programoje. TakeoffDesk neturi stiliaus su komandų eilute: kai jis pasirenkamas visoms programoms, TakeoffDesk palieka savo įrankių juostą.
 
-{{ui:Juostelė „Kiekių skaičiavimas“}} taip pat yra {{ui:Juosta ir projekto naršyklė}} išdėstymo juostelė ({{ui:Parametrai}} › {{ui:Visuotiniai}} › {{ui:Išdėstymas}}): žr. [TakeoffCraft ekranas](topic:workspace).
+{{ui:Juostelė „Kiekių skaičiavimas“}} taip pat yra {{ui:Juosta ir projekto naršyklė}} išdėstymo juostelė ({{ui:Parametrai}} › {{ui:Visuotiniai}} › {{ui:Išdėstymas}}): žr. [TakeoffDesk ekranas](topic:workspace).
 :::
 
-Susiję: [Klavišai ir pelė](topic:keyboard) · [TakeoffCraft parametrai](topic:settings) · [Atvykimas iš kitos kiekių skaičiavimo programinės įrangos](topic:coming-from)
+Susiję: [Klavišai ir pelė](topic:keyboard) · [TakeoffDesk parametrai](topic:settings) · [Atvykimas iš kitos kiekių skaičiavimo programinės įrangos](topic:coming-from)

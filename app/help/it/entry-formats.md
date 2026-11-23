@@ -1,6 +1,6 @@
 ---
 title: Inserimento di lunghezze, prezzi unitari e percentuali
-summary: Cosa si può digitare per distanze, altezze, prezzi unitari in denaro e percentuali di sfrido, con esempi e i messaggi per gli input che TakeoffCraft non riesce a leggere.
+summary: Cosa si può digitare per distanze, altezze, prezzi unitari in denaro e percentuali di sfrido, con esempi e i messaggi per gli input che TakeoffDesk non riesce a leggere.
 keywords: input, formato, piedi pollici, frazioni, piedi decimali, metrico, metri, millimetri, prezzo unitario, denaro, dollari, percentuale, sfrido, digitazione
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Fino a due decimali, da 0% a 1000%. Messaggi: "Digitare una percentuale, ad esem
 ## Nomi e unità
 
 - Nomi di voci e componenti: fino a 200 caratteri.
-- {{ui:Unità}} di una componente: qualsiasi testo fino a 20 caratteri, ad esempio `EA`, `sheets`, `CY`, `gal`. È solo un'etichetta; TakeoffCraft non la converte.
+- {{ui:Unità}} di una componente: qualsiasi testo fino a 20 caratteri, ad esempio `EA`, `sheets`, `CY`, `gal`. È solo un'etichetta; TakeoffDesk non la converte.
 
 ## Formule
 

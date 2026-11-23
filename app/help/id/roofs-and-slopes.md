@@ -5,7 +5,7 @@ keywords: atap, kemiringan, faktor kemiringan, kenaikan, run, 6:12, rake, hip, v
 from: 38225b60
 ---
 
-Denah atap menampilkan setiap bidang atap secara datar, seperti terlihat dari atas. Atap yang sebenarnya lebih luas: bidang dengan kemiringan 6:12 memiliki permukaan sekitar 12% lebih luas daripada denahnya, dan tepi miringnya lebih panjang daripada yang terlihat. Beri item kemiringannya, dan TakeoffCraft mengukur sepanjang kemiringan tersebut.
+Denah atap menampilkan setiap bidang atap secara datar, seperti terlihat dari atas. Atap yang sebenarnya lebih luas: bidang dengan kemiringan 6:12 memiliki permukaan sekitar 12% lebih luas daripada denahnya, dan tepi miringnya lebih panjang daripada yang terlihat. Beri item kemiringannya, dan TakeoffDesk mengukur sepanjang kemiringan tersebut.
 
 ## Mengetik kemiringan
 

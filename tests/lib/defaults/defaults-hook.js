@@ -51,7 +51,7 @@ export function hostDefaultsApi(track) {
     changed() { defaultsChanged(); },
   };
 }
-/** The office standard for schedule layouts: one reading for every app (BimCraft's schedules, TakeoffCraft's estimate). */
+/** The office standard for schedule layouts: one reading for every app (BimCraft's schedules, TakeoffDesk's estimate). */
 export function scheduleStandard() {
   const out = {};
   const g = policy('all.schedule.group'), tt = policy('all.schedule.totals'), ti = policy('all.schedule.title'), h = policy('all.schedule.headings');

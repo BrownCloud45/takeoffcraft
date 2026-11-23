@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0 */
 /**
- * takeoffcraft.js — TakeoffCraft in the browser: quantity takeoff and estimating on PDF plan sets.
+ * takeoffcraft.js — TakeoffDesk in the browser: quantity takeoff and estimating on PDF plan sets.
  * Wires the page (ui.inc) to the plan set (pdfset.js + pdf.js), the sheet view (viewer.js), the
  * takeoff project (model.js) and the exports (export.js, xlsx.js, pdfmarks.js + pdf-lib).
  *
@@ -13,7 +13,7 @@
  * down), Ctrl+Shift+V paste in place (same PDF coordinates; same-size sheet, same scale), Ctrl+D duplicate,
  * Ctrl+A select every mark on the sheet, Esc select none; Shift+click adds a mark to the selection or takes
  * it out. The clipboard is kept in memory and in localStorage "takeoffcraft.clipboard" (another tab can paste).
- * Settings › TakeoffCraft (settings.inc; localStorage "takeoffcraft.settings"): inch fractions on screen,
+ * Settings › TakeoffDesk (settings.inc; localStorage "takeoffcraft.settings"): inch fractions on screen,
  * waste for new items, where the auto-count slider starts, snap to 45° without Shift.
  *
  * Files never leave the computer: PDFs and projects are read here; saving is a download in the browser and a write in
@@ -24,7 +24,7 @@
 
 import { el, icon, bytes, frame, safeName, ask } from './ui-util.js';
 import { PageView, renderThumb } from './viewer.js';
-import { Takeoff, FORMAT, TYPES, TYPE_LABELS, VARS, VAR_HELP, sheetKey, quantities, estimate, itemVars, itemQty, wallArea, wallRule, methodNote, measureMark, sheetBreakdown, areaEstimates, baseEstimate, alternates, backouts, segSlope, kindsOf, unitOf, condQty, csiOk } from './model.js';
+import { Takeoff, FORMAT, TYPES, TYPE_LABELS, VARS, VAR_HELP, sheetKey, quantities, estimate, itemVars, itemQty, factorOf, wallArea, wallRule, methodNote, measureMark, sheetBreakdown, areaEstimates, baseEstimate, alternates, backouts, segSlope, kindsOf, unitOf, condQty, csiOk } from './model.js';
 import * as U from './units.js';
 import { onUnitsChange, starOf } from './unit-prefs.js';   // 0.7 UNITS: Settings › General › Units
 import * as G from './geom.js';
@@ -34,7 +34,6 @@ import { pageSize, sizeText, groupBySize } from './pagesize.js';
 import { SheetWindow } from './sheetlist.js';
 import { estimateCsv, estimateXlsx, materialList, materialCsv, spotElevationsCsv, divisionTitle } from './export.js';
 import { bidPackages, leveling, packageCsv, addBid, updateBid, removeBid, setAward } from './level.js';
-import { createBidsUi } from './bids-ui.js';
 import { pdfWithMarks, cloudPath, NOTE_COLORS } from './pdfmarks.js';
 import * as CMK from './countmarker.js';
 import { toInk, crop, trim, templateProblem, suppress, workScale, ANY_ANGLES } from './match.js';
@@ -78,6 +77,7 @@ import { mountClipboard } from './clipboard-ui.js';
 import { mountCompare } from './compare-ui.js';
 import { mountNotes } from './notes-ui.js';
 import { mountAreas } from './areas-ui.js';
+import { LINE_STYLES, lineStyleOf, strokeStyled, ICON_PX, ICON_MAX, iconOk } from './itemlook.js';   // TakeoffDesk: line styles and item icons
 
 const TYPE_ICONS = { linear: 'bezier2', area: 'pentagon', count: 'plus-circle', fixed: '123' };
 const HIT = 7;          // screen px for picking marks and handles
@@ -157,11 +157,11 @@ function init(root) {
   function status(s, ms = 6000) { ui.status.textContent = s; clearTimeout(statusTimer); if (ms) statusTimer = setTimeout(() => { ui.status.textContent = ''; }, ms); }
   function busy(text) { ui.busy.hidden = !text; if (text) ui.busyText.textContent = text; wsChanged(); }
 
-  // ---- settings (Settings › TakeoffCraft; per viewer conveniences, localStorage only) ----
+  // ---- settings (Settings › TakeoffDesk; per viewer conveniences, localStorage only) ----
   const SET_KEY = 'takeoffcraft.settings';
   const LEN_SHOWS = ['follow', 'ftin', 'm', 'cm', 'mm'];
   const TEMP_SHOWS = ['follow', 'degc', 'degf'];   // 0.9: how temperatures read and what a bare number means
-  const SET_DEFAULTS = { currency: '$', lenShow: 'follow', tempShow: 'follow', denom: 16, waste: 0, threshold: 0.75, snap45: false, corner: 'cube', snap: true, roomGap: 4, pickGap: PP.GAP_DEFAULT, marker: CMK.MARKER_DEFAULT };
+  const SET_DEFAULTS = { currency: '$', lenShow: 'follow', tempShow: 'follow', denom: 16, waste: 0, threshold: 0.75, snap45: false, corner: 'cube', snap: true, roomGap: 4, pickGap: PP.GAP_DEFAULT, marker: CMK.MARKER_DEFAULT, labels: false };
   const ROOM_GAPS = [3, 3.5, 4, 5, 6, 8];
   const WASTE_CHOICES = [0, 200, 300, 500, 750, 1000, 1500, 2000];
   const settings = { ...SET_DEFAULTS };
@@ -180,14 +180,15 @@ function init(root) {
       if (['cube', 'axes', 'none'].includes(v.corner)) settings.corner = v.corner;
       if (ROOM_GAPS.includes(v.roomGap)) settings.roomGap = v.roomGap;
       if (typeof v.marker === 'string') settings.marker = CMK.markerKey(v.marker);   // 0.9.1: count marker size, screen and PDF alike (countmarker.js)
+      if (typeof v.labels === 'boolean') settings.labels = v.labels;   // TakeoffDesk: measurement labels on marks (off unless turned on)
       if (typeof v.pickGap === 'number' && v.pickGap >= PP.GAP_MIN && v.pickGap <= PP.GAP_MAX) settings.pickGap = v.pickGap;
     } catch { /* private window or damaged: the defaults */ }
   }
   loadSettings(); U.setCurrency(settings.currency);
   const saveSettings = () => { try { localStorage.setItem(SET_KEY, JSON.stringify(settings)); } catch { /* fine: this tab keeps them */ } };
-  /** How lengths read on screen: the TakeoffCraft choice, or (Follow Global) the metric unit starred in Settings › Global › Units; else feet-inches. */
+  /** How lengths read on screen: the TakeoffDesk choice, or (Follow Global) the metric unit starred in Settings › Global › Units; else feet-inches. */
   const lenMode = () => { const m = settings.lenShow === 'follow' ? starOf('length') : settings.lenShow; return m === 'm' || m === 'cm' || m === 'mm' ? m : 'ftin'; };
-  /** How temperatures read: the TakeoffCraft choice, or (Follow Global) the temperature unit starred in Settings › Global › Units; else °C when lengths show metric, °F otherwise. */
+  /** How temperatures read: the TakeoffDesk choice, or (Follow Global) the temperature unit starred in Settings › Global › Units; else °C when lengths show metric, °F otherwise. */
   const tempMode = () => { const m = settings.tempShow === 'follow' ? starOf('temperature') : settings.tempShow; return m === 'degc' || m === 'degf' ? m : (lenMode() !== 'ftin' ? 'degc' : 'degf'); };
   /** The unit a typed length field uses: the display unit when it is metric, else the item's own (m for a metric item, ft otherwise). */
   const fieldUnit = (lu) => { const m = lenMode(); return m !== 'ftin' ? m : (lu === 'm' ? 'm' : 'ft'); };
@@ -216,6 +217,7 @@ function init(root) {
     const out = q('[data-tc-th-out]'); if (out) out.textContent = Math.round(settings.threshold * 100) + '%';
     const sn = q('input[name="tcSnap45"]'); if (sn) sn.checked = settings.snap45;
     const so = q('input[name="tcSnap"]'); if (so) so.checked = settings.snap;
+    const lb = q('input[name="tcLabels"]'); if (lb) lb.checked = settings.labels;
     settingsDlg.querySelectorAll('input[name="tcCorner"]').forEach((r) => { r.checked = r.value === settings.corner; });
   }
   function applySettings() {
@@ -243,6 +245,7 @@ function init(root) {
       else if (t.name === 'tcPickGap') { const v = Number(t.value); settings.pickGap = Number.isFinite(v) ? Math.min(PP.GAP_MAX, Math.max(PP.GAP_MIN, v)) : PP.GAP_DEFAULT; t.value = String(Math.round(settings.pickGap * 100) / 100); }   // 0.8 takeoff_PART_3: the Path tool's gap, also on [ and ]
       else if (t.name === 'tcSnap45') settings.snap45 = t.checked;
       else if (t.name === 'tcSnap') settings.snap = t.checked;
+      else if (t.name === 'tcLabels') { settings.labels = t.checked; view.overlayOnly(); }
       else if (t.name === 'tcCorner') settings.corner = ['cube', 'axes', 'none'].includes(t.value) ? t.value : 'cube';
       else return;
       saveSettings();
@@ -439,7 +442,7 @@ function init(root) {
   // Saving the takeoff writes it in place on the desktop (the .takeoff.json it was opened from) and downloads in the browser.
   const host = getHost({ app: 'takeoffcraft' });
   const PDF_TYPES = [{ description: 'PDF, DWG, DXF', extensions: ['.pdf', '.dwg', '.dxf'] }];                       // i18n-ignore: a file type the OS shows
-  const PROJECT_TYPES = [{ description: 'TakeoffCraft', extensions: ['.json'] }];          // i18n-ignore: a file type the OS shows
+  const PROJECT_TYPES = [{ description: 'TakeoffDesk', extensions: ['.json'] }];          // i18n-ignore: a file type the OS shows
   let projectTarget = null;      // the HostFile the takeoff was opened from, when it can be written in place
   async function openHostFiles(list) {
     const named = await Promise.all(list.map(async (hf) => { const f = await hf.file(); return f instanceof File ? f : new File([f], hf.name, { type: hf.type || '' }); }));
@@ -1724,6 +1727,22 @@ function init(root) {
   // =========================================================================
   // Overlay
 
+  /** Item icons as images, decoded once; the overlay is redrawn when one finishes loading. null until it is ready. */
+  const iconImages = new Map();
+  function iconImage(src) {
+    let img = iconImages.get(src);
+    if (!img) {
+      img = new Image();
+      img.onload = () => view.overlayOnly();
+      img.src = src;
+      iconImages.set(src, img);
+      if (iconImages.size > 200) iconImages.delete(iconImages.keys().next().value);
+    }
+    return img.complete && img.naturalWidth ? img : null;
+  }
+  /** An item's swatch in the lists: its icon when it has one, else the colour chip. */
+  const itemChip = (it) => (it.icon ? el('img', { className: 'tc-chip tc-chip-icon', src: it.icon, alt: '', style: { borderColor: it.color } }) : el('span', { className: 'tc-chip', style: { background: it.color } }));
+
   function drawOverlay(ctx) {
     renderTouchBar();
     if (!cur) return;
@@ -1747,8 +1766,15 @@ function init(root) {
       const it = items.get(m0.item);
       if (!it) continue;
       const m = drag && drag.id === m0.id ? { ...m0, pts: drag.pts, holes: drag.holes } : m0;
-      const dim = (app.hl && app.hl !== m.item) || (app.curArea && m.area !== app.curArea);
-      ctx.globalAlpha = dim ? 0.22 : 1;
+      const dim = false;   // TakeoffDesk: every mark stays fully visible; the highlighted item gets a glow instead of fading the rest
+      ctx.globalAlpha = 1;
+      if (app.hl === m.item && m.kind !== 'count') {
+        ctx.save(); ctx.globalAlpha = 0.28; ctx.strokeStyle = it.color; ctx.lineWidth = 10; ctx.setLineDash([]);
+        ctx.beginPath(); for (const ring of [m.pts, ...(m.kind === 'area' ? m.holes : [])]) trace(ring, m.kind === 'area'); ctx.stroke();
+        ctx.restore();
+      } else if (app.hl === m.item) {
+        const s = S(m.pts[0]); ctx.save(); ctx.globalAlpha = 0.3; ctx.fillStyle = it.color; ctx.beginPath(); ctx.arc(s.x, s.y, dotPx * 2.2, 0, Math.PI * 2); ctx.fill(); ctx.restore();
+      }
       if (m.flag) {                       // T13: the drawing changed under it in the revision — an orange halo until checked
         ctx.save(); ctx.globalAlpha = 0.9; ctx.strokeStyle = FLAG_COLOR; ctx.lineWidth = 9; ctx.setLineDash([8, 6]);
         if (m.kind === 'count') { const s = S(m.pts[0]); ctx.beginPath(); ctx.arc(s.x, s.y, dotPx * 2, 0, Math.PI * 2); ctx.stroke(); }
@@ -1757,25 +1783,33 @@ function init(root) {
       }
       ctx.strokeStyle = it.color; ctx.fillStyle = it.color;
       const selected = isSel(m.id);
+      const lineStyle = lineStyleOf(it);                  // TakeoffDesk: solid, dashed, dotted or double (itemlook.js)
       if (m.kind === 'linear') {
         for (const sp of G.spans(m.pts, new Set(m.deducts || []))) {
-          ctx.lineWidth = (selected ? 4 : 2.5) * (sp.deduct ? 0.6 : 1);
-          if (sp.deduct) ctx.setLineDash([7, 5]);
-          line(sp.pts, false); ctx.stroke();
-          ctx.setLineDash([]);
+          if (sp.deduct) {                                // a deducted segment: thin and dashed, whatever the item's style
+            ctx.lineWidth = (selected ? 4 : 2.5) * 0.6; ctx.setLineDash([7, 5]);
+            line(sp.pts, false); ctx.stroke(); ctx.setLineDash([]);
+          } else { line(sp.pts, false); strokeStyled(ctx, lineStyle, selected ? 4 : 2.5); }
         }
       } else if (m.kind === 'area') {
         ctx.beginPath();
         for (const ring of [m.pts, ...m.holes]) trace(ring, true);
         ctx.globalAlpha = dim ? 0.06 : it.backout ? 0.1 : 0.2; ctx.fill('evenodd');
         ctx.globalAlpha = dim ? 0.22 : 1;
-        if (it.backout) ctx.setLineDash([4, 4]);          // a back-out (T14): dashed, lighter
-        ctx.lineWidth = selected ? 3.5 : 2; ctx.stroke();
-        ctx.setLineDash([]);
+        if (it.backout) {                                 // a back-out (T14): dashed, lighter
+          ctx.setLineDash([4, 4]); ctx.lineWidth = selected ? 3.5 : 2; ctx.stroke(); ctx.setLineDash([]);
+        } else strokeStyled(ctx, lineStyle, selected ? 3.5 : 2);
       } else {
         const s = S(m.pts[0]);
-        ctx.beginPath(); ctx.arc(s.x, s.y, selected ? dotPx * CMK.SELECTED : dotPx, 0, Math.PI * 2); ctx.fill();
-        ctx.lineWidth = dotPx * CMK.OUTLINE; ctx.strokeStyle = '#ffffff'; ctx.stroke();
+        const img = it.icon ? iconImage(it.icon) : null;
+        if (img) {                                        // TakeoffDesk: the item's own icon instead of the dot
+          const r = (selected ? dotPx * CMK.SELECTED : dotPx) * 1.6;
+          ctx.drawImage(img, s.x - r, s.y - r, 2 * r, 2 * r);
+          if (selected) { ctx.lineWidth = 2; ctx.strokeRect(s.x - r - 2, s.y - r - 2, 2 * r + 4, 2 * r + 4); }
+        } else {
+          ctx.beginPath(); ctx.arc(s.x, s.y, selected ? dotPx * CMK.SELECTED : dotPx, 0, Math.PI * 2); ctx.fill();
+          ctx.lineWidth = dotPx * CMK.OUTLINE; ctx.strokeStyle = '#ffffff'; ctx.stroke();
+        }
       }
     }
     ctx.globalAlpha = 1;
@@ -1814,7 +1848,7 @@ function init(root) {
       const hs = coarse ? 7 : 4;                       // corner handles: bigger for fingers (S.8)
       for (const ring of [m.pts, ...m.holes]) for (const p of ring) { const s = S(p); ctx.fillRect(s.x - hs, s.y - hs, 2 * hs, 2 * hs); ctx.strokeRect(s.x - hs, s.y - hs, 2 * hs, 2 * hs); }
       const sc = model.scaleOf(cur.key);
-      if (sc && m.kind === 'linear') {
+      if (sc && m.kind === 'linear' && settings.labels) {   // TakeoffDesk: only when Settings › Show measurement labels is on
         const r = measureMark(m, sc.ftPerUnit, model.item(m.item));          // rakes and hips read along their slope (T15)
         for (let i = 1; i < m.pts.length; i++) {
           let at = S(segMid(m.pts[i - 1], m.pts[i]));
@@ -1825,7 +1859,7 @@ function init(root) {
           label(ctx, S(m.pts[i - 1]), S(m.pts[i]), ftIn(r.slopedFt[i - 1]), at);
         }
       }
-      if (sc && m.kind === 'area') { const r = measureMark(m, sc.ftPerUnit, model.item(m.item)); tag(ctx, S(G.centroid(m.pts)), areaShow(r.areaSqft, model.item(m.item))); }
+      if (sc && m.kind === 'area' && settings.labels) { const r = measureMark(m, sc.ftPerUnit, model.item(m.item)); tag(ctx, S(G.centroid(m.pts)), areaShow(r.areaSqft, model.item(m.item))); }
       // T11: a round handle in the middle of each arc (drag to bend), over the labels
       ctx.lineWidth = 1.5; ctx.strokeStyle = colors.action; ctx.fillStyle = colors.sheet;
       for (const h of arcHandles(m)) { const s = S(h.at); ctx.beginPath(); ctx.arc(s.x, s.y, hs + 1, 0, Math.PI * 2); ctx.fill(); ctx.stroke(); }
@@ -1929,23 +1963,31 @@ function init(root) {
     renderItems(); renderItemProps(); renderSheets(); renderQty();
     view.overlayOnly();
   }
-  /** Click an item: highlight its marks everywhere (again: stop) and jump to a sheet that has them. */
+  /** Click an item: highlight its marks everywhere (again: stop). The view stays where it is (TakeoffDesk): when none of the
+   * marks are on the sheet shown, the status bar says so and the sheet list shows which sheets have them. */
   function focusItem(id) {
     if (app.hl === id && app.active === id) { app.hl = null; pickRow = null; announcePick(); renderItems(); renderSheets(); renderQty(); view.overlayOnly(); return; }
     setActive(id);
+    // TakeoffDesk: the item's own measuring tool comes on (a tool of the same kind that is already on stays)
+    const it = model.item(id), SAME = { linear: ['linear', 'path', 'cadgeom'], area: ['area', 'circle', 'room', 'cadgeom'], count: ['count', 'autocount'] };
+    if (it && SAME[it.type] && !SAME[it.type].includes(app.tool) && cur) setTool(it.type);
     const marks = model.state.marks.filter((m) => m.item === id);
     if (marks.length && !marks.some((m) => m.sheet === cur?.key)) {
-      const target = sheets.find((s) => marks.some((m) => m.sheet === s.key));
-      if (target) showSheet(target.key);
-      else status(t('item.marks.closed'));
+      status(sheets.some((s) => marks.some((m) => m.sheet === s.key)) ? t('item.marks.elsewhere') : t('item.marks.closed'));
     }
   }
 
-  /** 0.10 BK.142: select the marks an item's figures came from (its marks on the sheet shown, else on the first sheet that has some). → how many */
-  async function selectMarks(id) {
+  /** 0.10 BK.142: select the marks an item's figures came from, on the sheet shown. → how many, or -1 when they are all on
+   * other sheets. Only `open` (the assistant's marks_select) changes the sheet; a click in the window never moves the view (TakeoffDesk). */
+  async function selectMarks(id, { open = false } = {}) {
     const marks = model.state.marks.filter((m) => m.item === id);
     if (!marks.length) return 0;
-    if (!marks.some((m) => m.sheet === cur?.key)) { const target = sheets.find((s) => marks.some((m) => m.sheet === s.key)); if (!target) { status(t('item.marks.closed')); return 0; } await showSheet(target.key); }
+    if (!marks.some((m) => m.sheet === cur?.key)) {
+      const target = sheets.find((s) => marks.some((m) => m.sheet === s.key));
+      if (!target) { status(t('item.marks.closed')); return -1; }
+      if (!open) { setActive(id); status(t('item.marks.elsewhere')); return -1; }
+      await showSheet(target.key);
+    }
     const here = marks.filter((m) => m.sheet === cur?.key).map((m) => m.id);
     if (app.active !== id) setActive(id);
     if (app.tool !== 'select') setTool('select');
@@ -1957,7 +1999,7 @@ function init(root) {
   const qtyLabel = (it) => {
     const tq0 = qmap.get(it.id);
     if (!tq0) return '';
-    const main = U.fixed(itemQty(it, tq0), it.type === 'count' ? 0 : 2) + ' ' + U.UNITS[it.unit].label;
+    const main = U.fixed(itemQty(it, tq0), it.type === 'count' ? 0 : 2) + ' ' + U.UNITS[it.unit].label + (factorOf(it) !== 1 ? ' (×' + +factorOf(it).toFixed(4) + ')' : '');
     // T8: a second condition's quantity follows the main one ("120.00 SF + 4 EA")
     const wall = it.type === 'linear' && it.heightFt > 0 && tq0.lengthFt > 0 ? ' · ' + t('qty.wall.short', { area: areaShow(wallArea(it, tq0).net, it) }) : '';
     return [main + wall, ...(it.conds || []).map((c) => U.fixed(condQty(c, tq0.conds?.[c.kind]), c.kind === 'count' ? 0 : 2) + ' ' + U.UNITS[c.unit].label)].join(' + ');
@@ -1967,7 +2009,7 @@ function init(root) {
     ui.itemsEmpty.hidden = model.state.items.length > 0;
     ui.items.replaceChildren(...model.state.items.map((it) => el('li', {},
       el('button', { type: 'button', className: 'tc-item' + (app.hl === it.id ? ' is-hl' : ''), 'aria-pressed': String(app.active === it.id), dataset: { item: it.id }, title: t('item.button.title'), onclick: () => focusItem(it.id) },
-        el('span', { className: 'tc-chip', style: { background: it.color } }),
+        itemChip(it),
         icon(TYPE_ICONS[it.type]),
         el('span', { className: 'tc-item-name' }, it.name),
         el('span', { className: 'tc-item-qty' }, qtyLabel(it))))));
@@ -2067,6 +2109,7 @@ function init(root) {
       rows = [...fieldRow(t('item.f.name'), name), ...fieldRow(t('item.f.type'), type), ...fieldRow(t('item.f.color'), color), ...fieldRow(t('item.f.unit'), unit)];
     }
     const typed = it.type === 'fixed';
+    if (!typed) rows.push(...factorField(it, commit, fail), ...lookFields(it, commit));   // TakeoffDesk: quantity factor, line style and icon
     if (typed) rows.push(...fixedFields(it, commit, fail));                 // TK.5+: typed, not drawn
     else rows.push(el('span', { className: 'k', id: 'tc-i-also-l' }, t('item.f.also')), condFields(it));
     if (it.type !== 'count' && !typed) {
@@ -2125,6 +2168,10 @@ function init(root) {
       out.push(...kv(t('item.m.area'), U.fixed(v.A, 2) + ' ' + U.UNITS[it.unit].label), ...kv(t('item.m.perimeter'), U.fixed(v.P, 2) + ' ' + lunit), ...kv(t('item.m.areas'), String(v.N)));
     } else if (typed) out[0].textContent = t('item.typed.sub');            // nothing measured: the quantity is the one typed above
     else out.push(...kv(t('item.m.count'), String(v.N)));
+    if (factorOf(it) !== 1 && !typed) {                  // TakeoffDesk: what was drawn, before the factor
+      const raw = itemQty({ ...it, factor: 1 }, tq), dec = it.type === 'count' ? 0 : 2;
+      out.push(...kv(t('item.m.factor'), t('item.m.factor.v', { k: +factorOf(it).toFixed(6), raw: U.fixed(raw, dec) + ' ' + U.UNITS[it.unit].label })));
+    }
     if (tq.unscaled) out.push(el('p', { className: 'tc-field-err' }, t('item.unscaled', { n: tq.unscaled })));
 
     // assembly
@@ -2155,6 +2202,63 @@ function init(root) {
       gridHost.querySelectorAll('[data-pg-row]').forEach((n) => { n.dataset.field = n.dataset.pgRow; });   // keepFocus finds the box again by it
     }
     ui.itemProps.replaceChildren(...(gridHost ? [gridHost] : []), el('div', { className: 'tc-props' }, rows), ...(shape ? [shape] : []), el('div', { className: 'tc-props' }, out), comps, actions);
+  }
+
+  /** TakeoffDesk: the quantity factor — × the measured quantity everywhere (0.5 for a continental crosswalk painted about half). */
+  function factorField(it, commit, fail) {
+    const parse = (v) => {
+      const s2 = String(v).trim().replace(/^[×x*]\s*/i, '').replace(',', '.');
+      if (!s2) return 1;
+      let m;
+      if ((m = s2.match(/^(\d*\.?\d+)\s*%$/))) return Number(m[1]) / 100;
+      if ((m = s2.match(/^(\d*\.?\d+)\s*\/\s*(\d*\.?\d+)$/))) return Number(m[2]) ? Number(m[1]) / Number(m[2]) : NaN;
+      return /^\d*\.?\d+$/.test(s2) ? Number(s2) : NaN;
+    };
+    const k = factorOf(it);
+    const input = textInput('tc-i-factor', 'factor', k === 1 ? '' : String(+k.toFixed(6)), (v, n) => {
+      const x = parse(v);
+      if (!(x > 0 && x <= 1000)) return fail(n, t('item.factor.err'));
+      commit({ factor: x === 1 ? undefined : x }, t('undo.item.factor'));
+    }, { placeholder: '1', inputmode: 'decimal' });
+    return [...fieldRow(t('item.f.factor'), input), el('p', { className: 'tc-props-hint' }, t('item.factor.hint'))];
+  }
+
+  /** TakeoffDesk: how the item's marks look — the line style of its runs and outlines, and an icon for the lists and its counts. */
+  function lookFields(it, commit) {
+    const out = [];
+    if (it.type !== 'count' || (it.conds || []).length) {
+      const sel = el('select', { className: 'tc-select', id: 'tc-i-line', dataset: { field: 'line' } },
+        LINE_STYLES.map((v) => el('option', { value: v, selected: v === lineStyleOf(it) }, t('line.' + v))));
+      sel.addEventListener('change', () => commit({ line: sel.value === 'solid' ? undefined : sel.value }, t('undo.item.line')));
+      out.push(...fieldRow(t('item.f.line'), sel));
+    }
+    const file = el('input', { type: 'file', accept: 'image/*', hidden: true, dataset: { iconFile: it.id } });
+    file.addEventListener('change', async () => {
+      const f = file.files && file.files[0];
+      file.value = '';
+      if (!f) return;
+      try { commit({ icon: await iconFromFile(f) }, t('undo.item.icon')); } catch { status(t('item.icon.err'), 8000); }
+    });
+    const pick = el('button', { type: 'button', className: 'tc-linkbtn', dataset: { iconPick: it.id }, onclick: () => file.click() }, t(it.icon ? 'item.icon.change' : 'item.icon.choose'));
+    const rm = it.icon ? el('button', { type: 'button', className: 'tc-linkbtn is-danger', dataset: { iconRemove: it.id }, onclick: () => commit({ icon: undefined }, t('undo.item.icon')) }, t('item.icon.remove')) : null;
+    out.push(...fieldRow(t('item.f.icon'), el('span', { className: 'tc-icon-field', id: 'tc-i-icon' }, it.icon ? itemChip(it) : null, pick, rm ? ' ' : null, rm, file)));
+    return out;
+  }
+  /** Any image the browser can open → a PNG of at most ICON_PX × ICON_PX (aspect kept, transparent around it) as a data URL. */
+  async function iconFromFile(f) {
+    if (f.size > 20 * 1024 * 1024) throw new Error('too big');
+    const bmp = await createImageBitmap(f);
+    const k = Math.min(1, ICON_PX / Math.max(bmp.width, bmp.height));
+    const w = Math.max(1, Math.round(bmp.width * k)), h = Math.max(1, Math.round(bmp.height * k));
+    const c = document.createElement('canvas');
+    c.width = ICON_PX; c.height = ICON_PX;
+    const g = c.getContext('2d');
+    g.imageSmoothingQuality = 'high';
+    g.drawImage(bmp, (ICON_PX - w) / 2, (ICON_PX - h) / 2, w, h);
+    bmp.close?.();
+    const url = c.toDataURL('image/png');
+    if (!iconOk(url) || url.length > ICON_MAX) throw new Error('not usable');
+    return url;
   }
 
   /** TK.5+: a typed quantity's own fields — the quantity, its bid area, and where it came from when it was imported. */
@@ -2562,7 +2666,7 @@ function init(root) {
       }
       const it = items.get(r.itemId);
       const isItem = r.kind === 'item', isCond = r.kind === 'condition';
-      const first = el('td', {}, isItem || isCond ? el('span', { className: 'tc-chip', style: { background: it.color } }) : null, isCond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name,
+      const first = el('td', {}, isItem || isCond ? itemChip(it) : null, isCond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name,
         isItem && r.unscaled ? el('span', { className: 'tc-flag', title: t('qty.unscaled.title') }, t('qty.unscaled', { n: r.unscaled })) : null,
         isItem && r.awarded ? el('span', { className: 'tc-flag', dataset: { qtyAwarded: r.itemId }, title: t('qty.awarded.title', { own: U.formatCents(r.ownTotal) }) }, t('qty.awarded', { bidder: r.awarded })) : null);
       const dec = (isItem && it.type === 'count') || (isCond && r.cond === 'count') ? 0 : 2;
@@ -2590,7 +2694,7 @@ function init(root) {
     const body = rows.map((r) => {
       const it = items.get(r.itemId);
       const tr = el('tr', { className: 'is-item' + (app.hl === r.itemId ? ' is-hl' : ''), dataset: { qtyRow: r.itemId } },
-        el('td', {}, sheetLabel(r.sheet)), el('td', { className: 'tl' }, el('span', { className: 'tc-chip', style: { background: it.color } }), r.cond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name),
+        el('td', {}, sheetLabel(r.sheet)), el('td', { className: 'tl' }, itemChip(it), r.cond ? t('qty.cond.name', { item: r.name, type: TYPE_LABELS[r.cond].toLowerCase() }) : r.name),
         el('td', {}, U.fixed(r.qty, (r.cond || it.type) === 'count' ? 0 : 2)), el('td', { className: 'tl' }, r.unit), el('td', {}, String(r.marks)));
       tr.addEventListener('click', () => { setActive(r.itemId); if (r.sheet !== cur?.key) showSheet(r.sheet); });
       return tr;
@@ -3003,6 +3107,58 @@ function init(root) {
       status(t('room.done', { sf: U.fixed(m.areaSqft, 2), n: pts.length, mod: modKey }), 9000);
       renderMarkProps();
     } finally { roomBusy = false; }
+  }
+
+  /** sheet_image (agents.js): the sheet, or a region of it, as a JPEG for an assistant to look at, with a grid in page fractions (marks_add units "fraction",
+   * from the page's lower-left corner) and the marks already on it in their items' colours. region = [left, bottom, right, top] in fractions. */
+  async function sheetImage(key, { region = [0, 0, 1, 1], maxPx = 1568, grid = 10, marks = true } = {}) {
+    const s = sheets.find((x) => x.key === key);
+    if (!s) throw new Error('No such sheet.');   // i18n-ignore: read by the assistant
+    const page = await s.file.doc.getPage(s.info.index + 1);
+    const vb = s.info.view, F = (fx, fy) => [vb[0] + fx * (vb[2] - vb[0]), vb[1] + fy * (vb[3] - vb[1])];
+    const base = page.getViewport({ scale: 1, rotation: s.info.rotate });
+    const box = (vp) => { const c = [[region[0], region[1]], [region[2], region[1]], [region[0], region[3]], [region[2], region[3]]].map(([a, b]) => vp.convertToViewportPoint(...F(a, b)));
+      const xs = c.map((q) => q[0]), ys = c.map((q) => q[1]); return [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)]; };
+    const b1 = box(base), scale = Math.min(6, maxPx / Math.max(b1[2] - b1[0], b1[3] - b1[1]));
+    const vp = page.getViewport({ scale, rotation: s.info.rotate }), [x0, y0, x1, y1] = box(vp);
+    const c = document.createElement('canvas');
+    c.width = Math.max(1, Math.round(x1 - x0)); c.height = Math.max(1, Math.round(y1 - y0));
+    const g = c.getContext('2d');
+    g.fillStyle = '#ffffff'; g.fillRect(0, 0, c.width, c.height);
+    await page.render({ canvasContext: g, viewport: vp, transform: [1, 0, 0, 1, -x0, -y0], background: '#ffffff' }).promise;
+    const V = (x, y) => { const q = vp.convertToViewportPoint(x, y); return [q[0] - x0, q[1] - y0]; };
+    if (marks) {
+      g.save(); g.lineWidth = Math.max(2, c.width / 500); g.globalAlpha = 0.75;
+      for (const m of model.state.marks) {
+        if (m.sheet !== key || !m.pts?.length) continue;
+        const it = model.item(m.item); if (!it) continue;
+        g.strokeStyle = g.fillStyle = it.color || '#e5484d';
+        const ps = m.pts.map((p) => V(p.x, p.y));
+        if (it.type === 'count' || ps.length === 1) { g.beginPath(); g.arc(ps[0][0], ps[0][1], g.lineWidth * 3, 0, Math.PI * 2); g.fill(); continue; }
+        g.beginPath(); ps.forEach((q, i) => (i ? g.lineTo(q[0], q[1]) : g.moveTo(q[0], q[1])));
+        if (it.type === 'area') { g.closePath(); g.globalAlpha = 0.25; g.fill(); g.globalAlpha = 0.75; }
+        g.stroke();
+      }
+      g.restore();
+    }
+    if (grid > 0) {
+      const step = (region[2] - region[0]) / grid, stepY = (region[3] - region[1]) / grid, fs = Math.max(11, Math.round(Math.min(c.width, c.height) / 70));
+      g.save(); g.font = `${fs}px sans-serif`; g.lineWidth = 1;
+      const label = (txt, x, y) => { const w = g.measureText(txt).width + 4; g.fillStyle = 'rgba(255,255,255,0.85)'; g.fillRect(x, y - fs, w, fs + 3); g.fillStyle = '#0050d0'; g.fillText(txt, x + 2, y); };
+      const r3 = (n) => String(Math.round(n * 1000) / 1000);
+      for (let i = 0; i <= grid; i++) {
+        const fx = region[0] + i * step, fy = region[1] + i * stepY;
+        const a = V(...F(fx, region[1])), b = V(...F(fx, region[3])), cc = V(...F(region[0], fy)), d = V(...F(region[2], fy));
+        g.strokeStyle = 'rgba(0,80,208,0.35)';
+        g.beginPath(); g.moveTo(a[0], a[1]); g.lineTo(b[0], b[1]); g.moveTo(cc[0], cc[1]); g.lineTo(d[0], d[1]); g.stroke();
+        if (i === 0 || i === grid) continue;   // the edges are the region itself (in the text result); labels there would collide in the corners
+        label('x' + r3(fx), Math.min(Math.max(0, Math.min(a[0], b[0]) + 2), c.width - fs * 4), fs + 2);
+        label('y' + r3(fy), 2, Math.min(Math.max(fs + 2, Math.min(cc[1], d[1]) - 2), c.height - 2));
+      }
+      g.restore();
+    }
+    const url = c.toDataURL('image/jpeg', 0.85);
+    return { data: url.slice(url.indexOf(',') + 1), mimeType: 'image/jpeg', width: c.width, height: c.height, rotate: s.info.rotate || 0 };
   }
 
   async function rasterize(sheet, w) {
@@ -3514,7 +3670,7 @@ function init(root) {
   }
 
   // the menu styles (0.5 IP.3, input-takeoffcraft.js + the shell's app-input-ui.js): their messages go to the status line,
-  // and letters stay TakeoffCraft's while a run, an outline, a paste or an auto count is under way
+  // and letters stay TakeoffDesk's while a run, an outline, a paste or an auto count is under way
   window.ccInputHooks = { status: (text, bad) => status(text || '', bad ? 8000 : 6000), busy: () => !!(app.draft || app.paste || app.ac || app.box) };
   // a menu style hides the toolbar, and with it the Scale group's preset list: the presets then sit on the sheet bar, beside the
   // sheet's scale, and go back when the style is the toolbar again (the shell fires cc-input-mouse on every style change)
@@ -3741,13 +3897,13 @@ function init(root) {
     for (const f of [goAccess, goStatus]) { if (window.ccAccess) f(); else document.addEventListener('cc-access-ready', f, { once: true }); }
   }
   onDefaults(() => { try { renderQty(); } catch (e) { /* not drawn yet */ } });   // 0.10 BK.149: an office policy changed (or the add-on was switched): the tables follow at once
-  // ---- add-ons (0.5 AO.6, session addons; docs/ADDONS-SPEC.md §5.6): TakeoffCraft's own loader and API 1.0 (manifest "addons": "own") ----
+  // ---- add-ons (0.5 AO.6, session addons; docs/ADDONS-SPEC.md §5.6): TakeoffDesk's own loader and API 1.0 (manifest "addons": "own") ----
   let addonsApi = null;
   startAddons({ model, status, setActive: (id) => setActive(id), typeSelect: ui.itemForm.elements.type, rightPanel: root.querySelector('.tc-right'),
     refresh: () => { renderItems(); renderItemProps(); renderQty(); } })
     .then((a) => { addonsApi = a; }).catch((err) => console.warn('add-ons did not start:', err));   // i18n-ignore (developer message)
 
-  installAgents({ model, sheetLabel, countAll: () => countAllUi?.drive, prices: () => pricesUi?.drive, supply: () => supplyUi?.drive, carbon: () => carbonUi?.drive, sheetByKey: (key) => sheets.find((s) => s.key === key), sheets: () => sheets.map((s) => ({ key: s.key, title: s.title, view: s.info.view })), current: () => (cur ? cur.key : null), exportCsv, exportXlsx, selectMarks, estimateTsv: () => estimateTsv(model.state, est, columnsNow()),
+  installAgents({ model, sheetLabel, countAll: () => countAllUi?.drive, prices: () => pricesUi?.drive, supply: () => supplyUi?.drive, carbon: () => carbonUi?.drive, sheetByKey: (key) => sheets.find((s) => s.key === key), sheets: () => sheets.map((s) => ({ key: s.key, title: s.title, view: s.info.view })), current: () => (cur ? cur.key : null), sheetImage, exportCsv, exportXlsx, selectMarks, estimateTsv: () => estimateTsv(model.state, est, columnsNow()),
     cadSets: () => files.filter(isCad),   // 0.7 AS.6 (assistants-gaps): the open DWG / DXF drawings for cad_count, cad_measure
     usd: async (key, format) => {   // 0.7 AS.6: the sheet's 3D check view as OpenUSD, as exportUsd makes it (needs a scaled sheet; the 3D view need not be open)
       const s = sheets.find((x) => x.key === key);
@@ -3809,8 +3965,6 @@ function init(root) {
       packsDialog({ offer: packParam });
     }
     if (pdfjs) { const launched = await host.launchFiles(); if (launched.length) await openHostFiles(launched); }   // desktop: files it was started with
-    // Studio Live from a link (#live=<code> on a host's LAN page, ?live=<ROOM>#<secret> from an invite): join; the takeoff and its PDFs come from the host
-    if (pdfjs && /[#&]live=|[?&]live=/.test(location.hash + location.search)) import('./live.js').then((m) => m.joinFromPage(window.takeoffcraft, host), (err) => status(err.message, 12000));
     // "Recover your work?" when a page that stopped left a takeoff behind (`recovery` tells tests: none | asking | done)
     autosave.orphans().then((list) => {
       window.takeoffcraft.recovery = list.length ? 'asking' : 'none';

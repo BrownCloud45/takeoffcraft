@@ -1,11 +1,11 @@
 ---
 title: Ce a învățat din antemăsurători
-summary: TakeoffCraft păstrează simbolurile confirmate cu Numărare automată, seturile de condiții, articolele compuse cele mai folosite și șabloanele pe care le repetați pe fiecare pagină, toate în fișierul propriu al antemăsurătorii. Vedeți-le, folosiți-le, ștergeți-le.
+summary: TakeoffDesk păstrează simbolurile confirmate cu Numărare automată, seturile de condiții, articolele compuse cele mai folosite și șabloanele pe care le repetați pe fiecare pagină, toate în fișierul propriu al antemăsurătorii. Vedeți-le, folosiți-le, ștergeți-le.
 keywords: învățare, învățat, asistent, reținere, simboluri, șabloane, ca la lucrarea anterioară, ultima lucrare, lucrarea anterioară, set de condiții, condiții, refolosire, articole compuse, cel mai folosit, sugestii, repetare pe fiecare pagină, fiecare pagină, cartuș, șablon, golire totală, uitare, confidențialitate
 from: 54d99e99
 ---
 
-TakeoffCraft devine mai rapid pe măsură ce faceți mai multe antemăsurători cu el. Învață **doar din ce acceptați**:
+TakeoffDesk devine mai rapid pe măsură ce faceți mai multe antemăsurători cu el. Învață **doar din ce acceptați**:
 
 - simbolurile încadrate cu [Numărare automată](topic:auto-count) și apoi adăugate,
 - seturile de condiții pe care le salvați,
@@ -64,6 +64,6 @@ Pentru a opri învățarea într-o antemăsurătoare, debifați {{ui:Învățare
 
 ## Bine de știut
 
-- Versiunile mai vechi ale TakeoffCraft deschid un fișier cu lucruri învățate normal. Ignoră acea parte și o elimină dacă salvează din nou fișierul.
+- Versiunile mai vechi ale TakeoffDesk deschid un fișier cu lucruri învățate normal. Ignoră acea parte și o elimină dacă salvează din nou fișierul.
 - Un simbol învățat este o mică imagine a ceea ce ați încadrat, păstrată în fișier (câțiva KB fiecare).
 - Simbolurile învățate sunt căutate ca la Numărare automată, deci se aplică aceleași limite: [Numărarea automată a unui simbol](topic:auto-count).

@@ -79,7 +79,7 @@ const T = (k, v) => (typeof window !== 'undefined' && window.ccShellT ? window.c
 
 /** "1" / "1.2" / "1.2.3" → [major, minor] or null. */
 /**
- * Add-on data kept on an app's own records (0.5 AO.6): MarkupCraft markups and TakeoffCraft items carry `xd` =
+ * Add-on data kept on an app's own records (0.5 AO.6): MarkupCraft markups and TakeoffDesk items carry `xd` =
  * { <add-on id>: { kind, v, data } } — kind '' (data on an ordinary record) or one of the add-on's types, v its data version,
  * data any JSON (≤ 12 000 characters per add-on, ≤ 20 add-ons). Read from files and the clipboard, so untrusted: anything
  * else is dropped. Without the add-on it is kept as it is. → a clean copy, or undefined when nothing is left.
@@ -1110,7 +1110,7 @@ export function sharedApi(base, addon, registry) {
     if (!r.ok) throw new Error('renderEngines: ' + path);
     return new Uint8Array(await r.arrayBuffer());
   };
-  const placeNow = () => (typeof window !== 'undefined' && window.cadcraftDesktop ? 'studio' : 'web');
+  const placeNow = () => 'web';
   const renderEngines = {
     async register(def) {
       if (!(addon.manifest.permissions || []).includes('engine.run')) throw new Error('renderEngines.register: needs the engine.run permission');

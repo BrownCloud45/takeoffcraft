@@ -5,7 +5,7 @@ keywords: bắt điểm, osnap, bắt điểm đối tượng, điểm cuối, t
 from: 41d29e9b
 ---
 
-Phần lớn bộ bản vẽ mặt bằng là PDF vector: tường và cạnh là đường thật, không phải điểm ảnh. Khi bạn đo, TakeoffCraft bắt các cú nhấp chuột của bạn vào những đường đó, nên một đoạn bắt đầu đúng ở góc tường và phép hiệu chuẩn đọc đúng kích thước mà người vẽ đã ghi, chứ không phải điểm ảnh bạn chạm vào.
+Phần lớn bộ bản vẽ mặt bằng là PDF vector: tường và cạnh là đường thật, không phải điểm ảnh. Khi bạn đo, TakeoffDesk bắt các cú nhấp chuột của bạn vào những đường đó, nên một đoạn bắt đầu đúng ở góc tường và phép hiệu chuẩn đọc đúng kích thước mà người vẽ đã ghi, chứ không phải điểm ảnh bạn chạm vào.
 
 Bắt điểm được bật sẵn khi bạn bắt đầu. Bật và tắt bằng {{ui:Bắt điểm}} trên thanh trạng thái hoặc {{key:F3}}; cài đặt được giữ trong trình duyệt này (cũng nằm trong [Cài đặt](topic:settings)).
 

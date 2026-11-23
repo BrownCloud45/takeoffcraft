@@ -30,7 +30,7 @@ Ngenkathi udweba:
 - Ukudonsa kushelelisa ishidi, nevili lisondeza, ngaphandle kokwengeza amaphoyinti.
 
 :::mac
-Ku-trackpad ye-Mac, ukucofa ngesokudla kuyi-two-finger click (vula i-secondary click ku-System Settings, ngaphansi kwe-Trackpad). I-TakeoffCraft ifunda inkinobho yesibili kuphela, ngakho i-Control-click ingathathwa njengokucofa okuvamile futhi yengeze iphoyinti. Ukucofa kabili noma {{key:Enter}} kuqeda njalo.
+Ku-trackpad ye-Mac, ukucofa ngesokudla kuyi-two-finger click (vula i-secondary click ku-System Settings, ngaphansi kwe-Trackpad). I-TakeoffDesk ifunda inkinobho yesibili kuphela, ngakho i-Control-click ingathathwa njengokucofa okuvamile futhi yengeze iphoyinti. Ukucofa kabili noma {{key:Enter}} kuqeda njalo.
 :::
 
 :::touch
@@ -66,7 +66,7 @@ Emva kwephoyinti lokuqala, ungathayipha lapho elilandelayo lizoya khona esikhund
 | `@6',-4'` | 6' ngakwesokunene nango-4' ngaphansi kwephoyinti lokugcina |
 | `6',4'` (noma `#6',4'`) | 6' ngakwesokunene nango-4' phezulu kusuka ephointini lokuqala lalo mugqa |
 
-Ubude buthayiphwa njengakho konke ku-TakeoffCraft ([Amafomethi okufaka](topic:entry-formats)): `12'-6 1/2"`, `12.5` (ngama-feet), `30"`, `3.2 m`. "Ngakwesokunene" nokuthi "phezulu" kusho njengoba ubona ishidi, ngisho nalapho ikhasi le-PDF liphendulwe.
+Ubude buthayiphwa njengakho konke ku-TakeoffDesk ([Amafomethi okufaka](topic:entry-formats)): `12'-6 1/2"`, `12.5` (ngama-feet), `30"`, `3.2 m`. "Ngakwesokunene" nokuthi "phezulu" kusho njengoba ubona ishidi, ngisho nalapho ikhasi le-PDF liphendulwe.
 
 {{key:Enter}} ebhokisini elingenalutho iqeda umugqa, njengoba iqeda esheetini; {{key:Esc}} ivala ibhokisi futhi igcine umugqa uqhubeka. Amaphoyinti athayiphiwe adlula ezimisweni ezifanayo nezicofo: ukukhipha, amajika nokuvala indawo, konke kuyasebenza. Ibhokisi elifanayo lisebenza ku-{{ui:Area}} nase-{{ui:Cut-out}}; emva kwesikhungo sesiyingi lithatha irediyasi.
 

@@ -1,11 +1,11 @@
 ---
 title: Bilanaleit
-summary: Einkenni, orsakir og lausnir á skilaboðum og óvæntum atvikum sem þú gætir rekist á í TakeoffCraft, tilvitnuð eins og forritið birtir þau.
+summary: Einkenni, orsakir og lausnir á skilaboðum og óvæntum atvikum sem þú gætir rekist á í TakeoffDesk, tilvitnuð eins og forritið birtir þau.
 keywords: vandamál, villur, virkar ekki, lagfæring, hjálp, hafnað, mælir ekki, enginn mælikvarði, vantar merkingar, útflutningur mistókst, án nettengingar, snerting
 from: cd319c9b
 ---
 
-TakeoffCraft útskýrir flestar synjanir í stöðustikunni neðst í glugganum. Finndu skilaboðin hér fyrir neðan.
+TakeoffDesk útskýrir flestar synjanir í stöðustikunni neðst í glugganum. Finndu skilaboðin hér fyrir neðan.
 
 ## Opna skrár
 
@@ -15,8 +15,8 @@ TakeoffCraft útskýrir flestar synjanir í stöðustikunni neðst í glugganum.
 | (name) er varið með lykilorði. Opnaðu óvarið afrit. | PDF-skjalið þarf lykilorð til að opna það. | Biddu um óvarið afrit, eða fjarlægðu lykilorðið í PDF-forriti sem þú treystir. |
 | (name) var ekki hægt að lesa sem PDF (…) | Skráin er skemmd, eða er ekki í raun PDF. | Sæktu hana aftur, eða vistaðu hana aftur úr forritinu sem bjó hana til. |
 | (name) er þegar opið. | Sama PDF (sama efni) er opið. | Ekkert að gera. |
-| TakeoffCraft opnar PDF-skjöl og .takeoff.json-verkefni. Sleppt: … | Öðrum skráartegundum var sleppt. | Breyttu teikningum í PDF fyrst. |
-| Ekkert gerist þegar ég slepp skrám | Skrárnar voru slepptar utan vafragluggans, eða vafrinn opnaði PDF-skjalið í nýjum flipa. | Slepptu þeim á TakeoffCraft-síðuna sjálfa; rammin „Slepptu PDF-skjölum eða .takeoff.json“ sýnir hvenær það virkar. |
+| TakeoffDesk opnar PDF-skjöl og .takeoff.json-verkefni. Sleppt: … | Öðrum skráartegundum var sleppt. | Breyttu teikningum í PDF fyrst. |
+| Ekkert gerist þegar ég slepp skrám | Skrárnar voru slepptar utan vafragluggans, eða vafrinn opnaði PDF-skjalið í nýjum flipa. | Slepptu þeim á TakeoffDesk-síðuna sjálfa; rammin „Slepptu PDF-skjölum eða .takeoff.json“ sýnir hvenær það virkar. |
 | Það tekur tíma að opna stórt sett | Sérhvert PDF er lesið í heild til að búa til fingrafar af því. | Bíddu þar til skilaboðin „Verið er að opna (name)…“ hverfa. Smámyndir fyllast inn þegar þú flettir. |
 
 ## Mæling
@@ -47,7 +47,7 @@ TakeoffCraft útskýrir flestar synjanir í stöðustikunni neðst í glugganum.
 | Skilaboð eða einkenni | Orsök | Lausn |
 |---|---|---|
 | Veldu tvo punkta lengra í sundur. | Kvörðunarpunktarnir liggja nánast hver ofan á öðrum. | Kvarðaðu á lengri vídd. |
-| Skilaboð í kvörðunarglugganum, til dæmis „Ekki tókst að lesa þessa fjarlægð“ | Fjarlægðin er á formi sem TakeoffCraft getur ekki lesið. | Sjá [Innslátt lengdar, einingarverðs og prósenta](topic:entry-formats). |
+| Skilaboð í kvörðunarglugganum, til dæmis „Ekki tókst að lesa þessa fjarlægð“ | Fjarlægðin er á formi sem TakeoffDesk getur ekki lesið. | Sjá [Innslátt lengdar, einingarverðs og prósenta](topic:entry-formats). |
 | Þetta blað hefur engan mælikvarða enn, þannig að ekkert er að athuga. Kvarðaðu það, eða veldu forstillingu. | {{ui:Athuga}} á blaði án mælikvarða. | Stilltu mælikvarða fyrst. |
 | Listinn {{ui:Forstilling}} er grár | Ekkert blað er opið. | Opnaðu PDF. |
 
@@ -86,8 +86,8 @@ TakeoffCraft útskýrir flestar synjanir í stöðustikunni neðst í glugganum.
 | Þetta PDF er varið með lykilorði eða dulkóðað, þannig að ekki er hægt að skrifa merkt afrit. … | PDF-skjalið er dulkóðað. | Fluttu út {{ui:XLSX}} í staðinn, eða notaðu ódulkóðað afrit af PDF-skjalinu (það þarf þá sína eigin magntöku, því það er önnur skrá). |
 | Ekki tókst að skrifa merkt PDF: … | Oftast: án nettengingar, og forritið var ekki vistað til notkunar án nettengingar, þannig að PDF-ritarinn vantar. | Farðu á netið og veldu {{ui:Merkt PDF}} aftur. Til að forðast það skaltu velja {{ui:Vista til notkunar án nettengingar}} og bíða eftir {{ui:Tilbúið án nettengingar}}. |
 | Aðeins eitt merkt PDF var sótt | Vafrinn lokaði á nokkur niðurhal í einu. | Leyfðu mörg niðurhal fyrir þessa síðu og fluttu út aftur. |
-| (file) er ekki TakeoffCraft-verkefni (það er ekki gilt JSON). / Þetta er ekki TakeoffCraft-verkefnisskrá. | Röng skrá, eða skemmd skrá. | Veldu `.takeoff.json`-skrána. |
-| Þetta verkefni var vistað með nýrri útgáfu af TakeoffCraft. Opnaðu það þar. | Skráin kemur úr nýrri útgáfu. | Opnaðu hana í nýrri útgáfunni. |
+| (file) er ekki TakeoffDesk-verkefni (það er ekki gilt JSON). / Þetta er ekki TakeoffDesk-verkefnisskrá. | Röng skrá, eða skemmd skrá. | Veldu `.takeoff.json`-skrána. |
+| Þetta verkefni var vistað með nýrri útgáfu af TakeoffDesk. Opnaðu það þar. | Skráin kemur úr nýrri útgáfu. | Opnaðu hana í nýrri útgáfunni. |
 | (n) markeringar voru skemmdar og sleppt. | Hluti skráarinnar var skemmdur eða breytt handvirkt. | Restin opnaðist. Teiknaðu týndu markeringarnar aftur, eða opnaðu eldra afrit. |
 | Markeringar vantar eftir enduropnun | PDF-skjölin eru ekki opin, eða eitt þeirra hefur breyst. | Sjá [Vista og opna magntöku aftur](topic:save-and-reopen#when-a-pdf-has-changed). |
 | Vafrinn spyr „Yfirgefa síðu?“ | Það eru óvistaðar breytingar. | Vertu áfram og vistaðu með {{key:Mod+S}}. |

@@ -5,7 +5,7 @@ keywords: dwg, dxf, cad, disegno, aprire un disegno, layout, spazio modello, spa
 from: d8c3f504
 ---
 
-TakeoffCraft apre un disegno DWG o DXF come apre un PDF: non occorre stamparlo prima in PDF. Il conteggio dal disegno stesso è esatto, perché il disegno sa cos'è ogni oggetto. Vedere [Contare da un disegno](topic:count-from-a-drawing).
+TakeoffDesk apre un disegno DWG o DXF come apre un PDF: non occorre stamparlo prima in PDF. Il conteggio dal disegno stesso è esatto, perché il disegno sa cos'è ogni oggetto. Vedere [Contare da un disegno](topic:count-from-a-drawing).
 
 ## Aprire il disegno
 
@@ -13,9 +13,9 @@ TakeoffCraft apre un disegno DWG o DXF come apre un PDF: non occorre stamparlo p
 2. Selezionare il file DWG o DXF. Se ne possono selezionare più d'uno, anche insieme ai PDF.
 3. Scegliere Apri.
 
-Si possono anche trascinare i file di disegno su TakeoffCraft, come i PDF. Nulla viene caricato: il browser legge il file sul computer.
+Si possono anche trascinare i file di disegno su TakeoffDesk, come i PDF. Nulla viene caricato: il browser legge il file sul computer.
 
-TakeoffCraft legge DWG da AutoCAD 2000 a 2018 e DXF ASCII da R12 a 2018. Rifiuta un DXF binario (salvarlo come ASCII, o come DWG) e un file che non è né l'uno né l'altro, e ne spiega il motivo. Un file danneggiato si apre con ciò che è stato possibile leggere, e un messaggio lo segnala; i suoi conteggi possono essere incompleti.
+TakeoffDesk legge DWG da AutoCAD 2000 a 2018 e DXF ASCII da R12 a 2018. Rifiuta un DXF binario (salvarlo come ASCII, o come DWG) e un file che non è né l'uno né l'altro, e ne spiega il motivo. Un file danneggiato si apre con ciò che è stato possibile leggere, e un messaggio lo segnala; i suoi conteggi possono essere incompleti.
 
 ## Tavole
 
@@ -40,10 +40,10 @@ Una tavola parte dalla scala che indica il disegno:
 
 ## Disegni collegati (xref)
 
-Un disegno che collega altri disegni li mostra dove sono inseriti. TakeoffCraft trova un disegno collegato tra i **file aperti**, per nome file: aprire il disegno principale e il disegno collegato insieme (oppure uno dopo l'altro). Finché non lo si fa, la barra di stato indica quanti disegni collegati non sono stati trovati, che cosa disegnano manca, e i conteggi lo segnalano.
+Un disegno che collega altri disegni li mostra dove sono inseriti. TakeoffDesk trova un disegno collegato tra i **file aperti**, per nome file: aprire il disegno principale e il disegno collegato insieme (oppure uno dopo l'altro). Finché non lo si fa, la barra di stato indica quanti disegni collegati non sono stati trovati, che cosa disegnano manca, e i conteggi lo segnalano.
 
 ## Limiti
 
-- Gli oggetti che TakeoffCraft non può leggere o posizionare (oggetti proxy, classi sconosciute) sono elencati per tipo nella finestra di conteggio; non vengono mai eliminati senza avviso.
+- Gli oggetti che TakeoffDesk non può leggere o posizionare (oggetti proxy, classi sconosciute) sono elencati per tipo nella finestra di conteggio; non vengono mai eliminati senza avviso.
 - I disegni molto grandi sono disegnati in parte, e i conteggi si fermano a un limite, dichiarandolo. Aprire invece un PDF stampato di tale disegno.
 - Un disegno è disegnato in nero e nei propri colori, scuriti per la carta bianca. Le tabelle degli stili di stampa e le assegnazioni di penna non vengono applicate.

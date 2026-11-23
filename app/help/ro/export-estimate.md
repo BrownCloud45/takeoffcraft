@@ -28,7 +28,7 @@ Registrul de lucru are patru foi de calcul și rapoartele de mai jos, când se a
 
 Cu un [sumar de ofertă](topic:bid-summary), foaia Deviz se încheie și cu adaosurile sale (manopera, taxa pe vânzări, cheltuielile generale, profitul, garanția și oferta), ca formule active.
 
-Foaia Deviz păstrează **formule active**: cantitatea cu pierderi, sumele rotunjite pentru material și manoperă, totalul fiecărui rând și totalul lucrării. Programele de calcul tabelar le recalculează, deci puteți schimba un tarif sau pierderile în foaia de calcul, iar totalurile urmează. Cifrele calculate de TakeoffCraft sunt stocate și în celule și se potrivesc până la ban.
+Foaia Deviz păstrează **formule active**: cantitatea cu pierderi, sumele rotunjite pentru material și manoperă, totalul fiecărui rând și totalul lucrării. Programele de calcul tabelar le recalculează, deci puteți schimba un tarif sau pierderile în foaia de calcul, iar totalurile urmează. Cifrele calculate de TakeoffDesk sunt stocate și în celule și se potrivesc până la ban.
 
 Coloana de note listează formula fiecărei componente, erorile de formulă, marcajele pe foi fără scară, aria peretelui și perimetrul. Când ceva lipsește, rândul totalului lucrării spune "Incomplet: vezi notele de mai sus".
 
@@ -42,7 +42,7 @@ CSV-ul conține doar devizul; pentru cantități pe foi și lista de marcaje, fo
 
 ## Devizul în Google Sheets
 
-Deasupra tabelului Cantități, **Copiere pentru Google Sheets** pune devizul în clipboard ca text separat prin tabulatoare, cu aceleași linii ca CSV-ul. Într-o foaie Google, faceți clic pe celula A1 și lipiți. TakeoffCraft nu se conectează la Google și nu trimite nimic acolo.
+Deasupra tabelului Cantități, **Copiere pentru Google Sheets** pune devizul în clipboard ca text separat prin tabulatoare, cu aceleași linii ca CSV-ul. Într-o foaie Google, faceți clic pe celula A1 și lipiți. TakeoffDesk nu se conectează la Google și nu trimite nimic acolo.
 
 ## Tarife lipsă și aprobarea devizului
 

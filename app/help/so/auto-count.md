@@ -1,6 +1,6 @@
 ---
 title: Tirin otomaatig ah calaamad
-summary: Ku saami hal calaamad, oo ka dhig TakeoffCraft inuu kuwa kale ka helo xaashidan ama xaashiyada furan oo dhan, dib u eeg isbarbardhigyada adigoo isticmaalaya xiriiqa, oo ku dar hal tallaabo.
+summary: Ku saami hal calaamad, oo ka dhig TakeoffDesk inuu kuwa kale ka helo xaashidan ama xaashiyada furan oo dhan, dib u eeg isbarbardhigyada adigoo isticmaalaya xiriiqa, oo ku dar hal tallaabo.
 keywords: xagasha kasta, la wareejiyay, la rogay, miisaan kale, miisaan kala duwan, tirin otomaatig ah, tirin toos ah, raadinta calaamadaha, hel calaamadaha, qaab, qaabka, isbarbardhig, ogaan, aaladda tirinta
 from: fa68a6c1
 ---
@@ -38,7 +38,7 @@ Si aad u tuurto dib u eegista adigoon wax ku darin, dooro {{ui:Tuur}} ama taabo 
 
 ## Waxa uu helo iyo waxa uu seego
 
-TakeoffCraft wuxuu barbardhigaa naqshadda, sida pikseelada, calaamadda aad sanduuqeysay.
+TakeoffDesk wuxuu barbardhigaa naqshadda, sida pikseelada, calaamadda aad sanduuqeysay.
 
 - Wuxuu helaa calaamadda oo la rogay 0°, 90°, 180° iyo 270°. Calaamee {{ui:Xagasha kasta (way gaabisaa)}} xariiqda tirinta ka hor intaadan jiidin sanduuqa si aad uga helo xagasha kasta. Wuxuu isku dayaa 15° kasta, kadibna mid kasta wuxuu hagaajiyaa ilaa degree iyo badh. Taasi waxay qaadataa qiyaastii lix jeer wakhti dheer. Ma heleyso calaamad lagu muraayad-sawiray (mooyaane haddii calaamaddu isku mid tahay marka la muraayadeeyo).
 - Marka {{ui:Raadi dhammaan xaashiyada furan}} la calaameeyo, xaashi miisaan kale leh waxaa lagu raadiyaa cabbirka ay calaamaddu ku leedahay halkaas: qalab la qiyaasay miisaanka 1/8" qorshe ayaa ah nus cabbirkiisa 1/4" qorshe, weli wuu helaa. Xaashidaas waxa kale oo lagu raadiyaa cabbirka sanduuqa u gaar ah, tusaale tagyada iyo calaamadaha lagu daabacay hal cabbir xaashi kasta. Tani waxay u baahan tahay miisaan labada xaashi; xaashi aan miisaan lahayn waxaa lagu raadiyaa cabbirka sanduuqa oo keliya.

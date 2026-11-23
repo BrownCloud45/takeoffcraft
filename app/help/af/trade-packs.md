@@ -39,4 +39,4 @@ Elke item dra ook sy CSI MasterFormat-nommer, soos `09 21 16`.
 
 {{ui:Voer uit as pakket…}} in die biblioteek stoor dit as 'n pakketlêer (`.ccpack.json`) wat enigiemand met {{ui:Maak 'n pakketlêer oop…}} kan byvoeg. By verstek laat dit die items uit wat van pakkette kom wat jy bygevoeg het, en dit dra geen tariewe nie. Merk {{ui:Sluit my tariewe in as voorbeeldtariewe}} aan om jou tariewe ook te stuur: hulle gaan uit met die streek en die datum wat jy gee, en wie die pakket byvoeg, kies self of hulle gebruik word.
 
-Pakketlêers is gewone data, nooit programme nie. TakeoffCraft kontroleer elke deel daarvan voordat dit dit gebruik en laat alles uit wat dit nie kan lees nie.
+Pakketlêers is gewone data, nooit programme nie. TakeoffDesk kontroleer elke deel daarvan voordat dit dit gebruik en laat alles uit wat dit nie kan lees nie.

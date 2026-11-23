@@ -1,6 +1,6 @@
 ---
 title: Inntasting av lengde, sats og prosent
-summary: Hva som kan skrives inn for avstander, høyder, pengesatser og svinnprosenter, med eksempler og meldinger for verdier TakeoffCraft ikke kan lese.
+summary: Hva som kan skrives inn for avstander, høyder, pengesatser og svinnprosenter, med eksempler og meldinger for verdier TakeoffDesk ikke kan lese.
 keywords: inndata, format, fot og tommer, brøker, desimalfot, metrisk, meter, millimeter, sats, penger, dollar, prosent, svinn, skriving
 from: 215bbf4d
 ---
@@ -81,7 +81,7 @@ Opptil to desimaler, fra 0% til 1000%. Meldinger: «Skriv inn en prosentandel, f
 ## Navn og enheter
 
 - Navn på poster og komponenter: opptil 200 tegn.
-- En komponents {{ui:Unit}}: fri tekst opptil 20 tegn, for eksempel `EA`, `sheets`, `CY`, `gal`. Den er bare en etikett; TakeoffCraft gjør ingen omregning.
+- En komponents {{ui:Unit}}: fri tekst opptil 20 tegn, for eksempel `EA`, `sheets`, `CY`, `gal`. Den er bare en etikett; TakeoffDesk gjør ingen omregning.
 
 ## Formler
 

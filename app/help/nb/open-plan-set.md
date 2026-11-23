@@ -5,7 +5,7 @@ keywords: åpne, plansett, flere pdf-er, flere filer, ark, tegninger, sidetikett
 from: ed434468
 ---
 
-Et plansett er ofte flere PDF-er: arkitekt, konstruksjon, rør og ventilasjon. TakeoffCraft åpner dem ved siden av hverandre som én liste med ark, og ett mengdeuttak kan dekke alle sammen.
+Et plansett er ofte flere PDF-er: arkitekt, konstruksjon, rør og ventilasjon. TakeoffDesk åpner dem ved siden av hverandre som én liste med ark, og ett mengdeuttak kan dekke alle sammen.
 
 ## Åpne PDF-ene
 
@@ -14,14 +14,14 @@ Et plansett er ofte flere PDF-er: arkitekt, konstruksjon, rør og ventilasjon. T
 3. Velg Åpne.
    En melding «Åpner (navn)…» vises mens hver fil leses. Deretter vises hver side under {{ui:Ark}}, og første side i den første nye PDF-en åpnes.
 
-Du kan også dra PDF-ene fra {{pick:mac=Finder|windows=Filutforsker|linux=filbehandleren}} og slippe dem hvor som helst på TakeoffCraft. En ramme «Slipp PDF-er, DWG- eller DXF-tegninger, eller en .takeoff.json» vises mens du drar.
+Du kan også dra PDF-ene fra {{pick:mac=Finder|windows=Filutforsker|linux=filbehandleren}} og slippe dem hvor som helst på TakeoffDesk. En ramme «Slipp PDF-er, DWG- eller DXF-tegninger, eller en .takeoff.json» vises mens du drar.
 
 Vil du legge til flere PDF-er senere, gjør du det samme igjen. PDF-er som allerede er åpne, hoppes over.
 
 Startskjermen lister også PDF-ene og mengdeuttakene du nylig åpnet, i nettlesere som lar en side åpne en fil igjen (Chrome og Edge). Klikk på en for å åpne den; nettleseren kan be om tillatelse først. Se [Dine filer](common:your-files).
 
 :::note
-Ingenting lastes opp. Nettleseren leser PDF-ene på datamaskinen din, og de er borte fra TakeoffCraft når du lukker fanen eller velger {{ui:Ny}}.
+Ingenting lastes opp. Nettleseren leser PDF-ene på datamaskinen din, og de er borte fra TakeoffDesk når du lukker fanen eller velger {{ui:Ny}}.
 :::
 
 ## Tegninger ved siden av PDF-er
@@ -30,7 +30,7 @@ Ingenting lastes opp. Nettleseren leser PDF-ene på datamaskinen din, og de er b
 
 ## En PDF overlevert fra en annen app
 
-En annen app i pakken kan overlevere PDF-en den har åpen: den åpner TakeoffCraft i en ny fane, og PDF-en åpnes der som om du hadde sluppet den. Statuslinjen sier «Åpnet (navn), overlevert fra (app). Originalfilen er uendret.» Ingenting lastes opp; filen går gjennom denne nettleserens egen lagring og er borte fra den når den er åpnet.
+En annen app i pakken kan overlevere PDF-en den har åpen: den åpner TakeoffDesk i en ny fane, og PDF-en åpnes der som om du hadde sluppet den. Statuslinjen sier «Åpnet (navn), overlevert fra (app). Originalfilen er uendret.» Ingenting lastes opp; filen går gjennom denne nettleserens egen lagring og er borte fra den når den er åpnet.
 
 Sier statuslinjen at PDF-en «kom ikke frem», ventet fanen for lenge, eller PDF-en var allerede åpnet i en annen fane: åpne den med {{ui:Åpne tegninger}}.
 

@@ -14,7 +14,7 @@ Una partida de recuento cuenta cosas: puertas, luminarias, tomas, aparatos sanit
 3. Haga clic en cada uno sobre la hoja.
    Cada clic pone un punto del color de la partida, y el recuento de la partida sube en uno.
 4. Pase a la siguiente hoja ({{key:PageDown}}) y siga contando. La herramienta sigue en {{ui:Recuento}}.
-5. Pulse {{key:Esc}} al terminar. TakeoffCraft vuelve a {{ui:Seleccionar}}.
+5. Pulse {{key:Esc}} al terminar. TakeoffDesk vuelve a {{ui:Seleccionar}}.
 
 Arrastrar sigue desplazando y la rueda sigue haciendo zoom mientras cuenta, así que puede moverse por la hoja sin añadir puntos.
 
@@ -30,7 +30,7 @@ Haga clic en la partida de recuento para resaltar sus puntos en todas las hojas.
 
 ## Tamaño de los puntos, en pantalla y en el PDF
 
-Los puntos mantienen un tamaño en pantalla por mucho zoom que haga. Para cambiarlo, abra {{ui:Ajustes}}, la pestaña TakeoffCraft, y elija **Tamaño del marcador de recuento**: Muy pequeño, Pequeño, Mediano (el predeterminado) o Grande.
+Los puntos mantienen un tamaño en pantalla por mucho zoom que haga. Para cambiarlo, abra {{ui:Ajustes}}, la pestaña TakeoffDesk, y elija **Tamaño del marcador de recuento**: Muy pequeño, Pequeño, Mediano (el predeterminado) o Grande.
 
 La exportación a PDF ({{ui:Exportar}} › el PDF anotado) dibuja cada punto con el mismo tamaño en papel, sea cual sea el tamaño de la hoja: un visor que muestre el PDF al 100 % ve los puntos tan grandes como en pantalla. Cuando los puntos de una hoja se tocarían, la exportación reduce los de esa hoja para que cada uno se pueda leer.
 
