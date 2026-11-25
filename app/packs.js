@@ -100,7 +100,7 @@ export function readPack(json) {
       return ok;
     });
     keys.add(raw.key); names.add(it.type + '\u0000' + it.name.toLowerCase());
-    const item = { key: raw.key, ...entryFromItem({ ...it, components: comps }), mat: 0, lab: 0 };
+    const item = { key: raw.key, ...entryFromItem({ ...it, color: raw.color, components: comps }), mat: 0, lab: 0 };   // a colour only if the pack gives one
     const sources = (Array.isArray(raw.sources) ? raw.sources : []).filter((id) => srcIds.has(id));
     if (sources.length) item.sources = [...new Set(sources)];
     const assume = (Array.isArray(raw.assume) ? raw.assume : []).map((a) => str(a, 300)).filter(Boolean).slice(0, PACK_LIMITS.assume);

@@ -7,14 +7,15 @@
  *   readLibraryCsv(text)          → { ok, entries, warnings } | { ok: false, error }
  *   libraryCsv(entries)           → CSV text that reads back the same (the import format, with a header)
  *   mergeEntries(lib, entries)    → { lib, added, updated }   same name and type (any case) = the same entry, replaced
- *   entryFromItem(item)           an item of a takeoff as a library entry (rates, height, assembly; no marks)
+ *   entryFromItem(item)           an item of a takeoff as a library entry (rates, height, assembly, colour and its own
+ *                                 measuring settings; no marks)
  *   itemFromEntry(entry)          fields for model.addItem / the takeoff file
  *   repricePatches(items, lib)    → [{ id, patch }] the takeoff's items that have a library entry, with its rates
  *   entryMeta(e)                  an entry's pack / source / note (0.5 TK.1), validated; trade packs themselves: packs.js
  *
  * The CSV: one row per item, then a row per component of its assembly. Columns are found by their header (any order,
  * any case, English names or the app's own export headers): Item (or Name), Type, Unit, Waste %, Material per unit,
- * Labor per unit, Height (or Depth), Component, Formula, Notes. A row is a component when its Component column is
+ * Labor per unit, Height (or Depth), Component, Formula, Notes, Color (#RRGGBB; empty: the takeoff picks one). A row is a component when its Component column is
  * filled, or its Type says Component (the app's estimate CSV: the formula is then read from its Notes). The estimate CSV
  * TakeoffCraft exports reads in as a library, so the prices of one job seed the next.
  */
@@ -25,6 +26,22 @@ import { UNITS_FOR, DEFAULT_UNIT, UNITS, parseRate, parsePercent, parseLength, f
 import { csvLine } from './export.js';
 
 export const LIBRARY_MAX = 5000;
+const HEX_RE = /^#?[0-9a-f]{6}$/i;
+/** "#1f77b4" or "1F77B4" → "#1F77B4"; anything else → null. */
+const readColor = (v) => (HEX_RE.test(String(v ?? '').trim()) ? '#' + String(v).trim().replace(/^#/, '').toUpperCase() : null);
+/**
+ * An item's own settings a library entry keeps besides its rates and assembly: its colour (only when it has one of its
+ * own; an entry without one gets the takeoff's next colour) and its measuring settings. Not its backouts (they name
+ * other items of its takeoff) nor add-on data.
+ */
+const SETTINGS = ['conds', 'tempK', 'pitch', 'thickFt', 'baseFt', 'headFt', 'slope'];
+function settingsOf(it) {
+  const o = {};
+  const color = readColor(it.color);
+  if (color) o.color = color;
+  for (const k of SETTINGS) if (it[k] !== undefined) o[k] = structuredClone(it[k]);
+  return o;
+}
 
 /** RFC 4180 CSV → rows of strings. Takes ',' or ';' or a tab (whichever the header line has most of); a BOM is dropped. */
 export function parseCsv(text) {
@@ -65,9 +82,10 @@ function headerMap() {
   add('component', 'component', 'part', 'assemblycomponent');
   add('formula', 'formula', 'quantityformula', 'qtyformula');
   add('notes', 'notes', 'note', 'comments');
+  add('color', 'color', 'colour', 'hex', 'hexcolor', 'hexcolour');
   // the estimate CSV's own headers (x.head.*), so an export reads back
   for (const [k, f] of [['item', 'name'], ['type', 'type'], ['unit', 'unit'], ['waste', 'waste'], ['matu', 'mat'], ['labu', 'lab'], ['notes', 'notes']]) add(f, t('x.head.' + k));
-  for (const [k, f] of [['name', 'name'], ['type', 'type'], ['unit', 'unit'], ['waste', 'waste'], ['mat', 'mat'], ['lab', 'lab'], ['height', 'height'], ['component', 'component'], ['formula', 'formula']]) add(f, t('lib.head.' + k));
+  for (const [k, f] of [['name', 'name'], ['type', 'type'], ['unit', 'unit'], ['waste', 'waste'], ['mat', 'mat'], ['lab', 'lab'], ['height', 'height'], ['component', 'component'], ['formula', 'formula'], ['color', 'color']]) add(f, t('lib.head.' + k));
   return m;
 }
 
@@ -135,8 +153,10 @@ export function readLibraryCsv(text) {
       const h = parseLength(hRaw, { defaultUnit: unit === 'm' || unit === 'm²' ? 'm' : 'ft' });
       if (h.ok) heightFt = h.ft; else warnings.push(t('lib.warn.height', { line, why: h.error }));
     }
+    const colorRaw = cell(r, 'color'), color = readColor(colorRaw);
+    if (colorRaw && !color) warnings.push(t('lib.warn.color', { line, color: colorRaw }));
     if (entries.length >= LIBRARY_MAX) { warnings.push(t('lib.warn.max', { n: LIBRARY_MAX })); break; }
-    last = { name: name.slice(0, LIMITS.name), type: ty, unit: unit || DEFAULT_UNIT[ty], heightFt, waste: waste.bp, mat: mat.rate4, lab: lab.rate4, components: [] };
+    last = { name: name.slice(0, LIMITS.name), type: ty, unit: unit || DEFAULT_UNIT[ty], heightFt, waste: waste.bp, mat: mat.rate4, lab: lab.rate4, ...(color ? { color } : {}), components: [] };
     entries.push(last);
   }
   if (!entries.length) return { ok: false, error: warnings[0] || t('lib.err.none') };
@@ -156,21 +176,24 @@ export function mergeEntries(lib, entries) {
   return { lib: out, added, updated };
 }
 
-/** A takeoff item → a library entry (what is worth reusing: unit, height, waste, rates, assembly). */
+/** A takeoff item → a library entry (what is worth reusing: unit, height, waste, rates, assembly, colour, settings). */
 export function entryFromItem(it) {
   return {
     name: it.name, type: it.type, unit: it.unit, heightFt: it.heightFt || 0, waste: it.waste, mat: it.mat, lab: it.lab,
+    ...settingsOf(it),
     ...(it.crew ? { crew: { ...it.crew } } : {}),                  // T18: a crew travels with the item (not in the CSV)
     ...(it.csi ? { csi: it.csi } : {}),                            // TK.4: its CSI MasterFormat number
     components: (it.components || []).map((c, i) => ({ id: 'c' + (i + 1), name: c.name, unit: c.unit, formula: c.formula, waste: c.waste, mat: c.mat, lab: c.lab })),
   };
 }
-/** A library entry → item fields (the model gives it an id, a colour and component ids). */
+/** A library entry → item fields (the model gives it an id, component ids, and its next colour when the entry has none). */
 export function itemFromEntry(e) {
-  const it = normalItem({ id: 'x', name: e.name, type: e.type, unit: e.unit, heightFt: e.heightFt, waste: e.waste, mat: e.mat, lab: e.lab, crew: e.crew, csi: e.csi, components: e.components || [] });
+  const it = normalItem({ id: 'x', name: e.name, type: e.type, unit: e.unit, heightFt: e.heightFt, waste: e.waste, mat: e.mat, lab: e.lab, crew: e.crew, csi: e.csi, ...pick(e, SETTINGS), color: e.color, components: e.components || [] });
   delete it.id;
+  if (!readColor(e.color)) delete it.color;   // normalItem fills in the first palette colour: let the takeoff choose instead
   return it;
 }
+const pick = (o, keys) => Object.fromEntries(keys.filter((k) => o[k] !== undefined).map((k) => [k, o[k]]));
 
 /**
  * What a library entry may carry beyond its item fields (0.5 TK.1, trade packs): `pack` {id, version, name} (the pack it was
@@ -200,19 +223,21 @@ export function readStored(json) {
   for (const e of list.slice(0, LIBRARY_MAX)) {
     if (!e || typeof e.name !== 'string' || !TYPES.includes(e.type)) continue;
     const it = normalItem({ id: 'x', ...e, components: (Array.isArray(e.components) ? e.components : []).map((c, i) => ({ ...c, id: 'c' + (i + 1) })) });
-    out.push({ ...entryFromItem(it), ...entryMeta(e) });
+    const entry = entryFromItem(it);
+    if (!readColor(e.color)) delete entry.color;    // normalItem's default, not the entry's own
+    out.push({ ...entry, ...entryMeta(e) });
   }
   return out;
 }
 
 /** The library as CSV in the import format (reads back the same). */
 export function libraryCsv(entries) {
-  const head = ['name', 'type', 'unit', 'waste', 'mat', 'lab', 'height', 'component', 'formula'].map((k) => t('lib.head.' + k));
+  const head = ['name', 'type', 'unit', 'waste', 'mat', 'lab', 'height', 'component', 'formula', 'color'].map((k) => t('lib.head.' + k));
   const lines = [csvLine(head)];
   const money = (r4) => roundTo(r4 / 10000, 4);
   for (const e of entries) {
-    lines.push(csvLine([e.name, t('type.' + e.type), UNITS[e.unit].label, e.waste / 100, money(e.mat), money(e.lab), e.heightFt > 0 ? (e.unit === 'm' || e.unit === 'm²' ? roundTo(e.heightFt * 0.3048, 4) + ' m' : formatFtIn(e.heightFt)) : '', '', '']));
-    for (const c of e.components || []) lines.push(csvLine(['', t('x.component'), c.unit, c.waste / 100, money(c.mat), money(c.lab), '', c.name, c.formula]));
+    lines.push(csvLine([e.name, t('type.' + e.type), UNITS[e.unit].label, e.waste / 100, money(e.mat), money(e.lab), e.heightFt > 0 ? (e.unit === 'm' || e.unit === 'm²' ? roundTo(e.heightFt * 0.3048, 4) + ' m' : formatFtIn(e.heightFt)) : '', '', '', e.color || '']));
+    for (const c of e.components || []) lines.push(csvLine(['', t('x.component'), c.unit, c.waste / 100, money(c.mat), money(c.lab), '', c.name, c.formula, '']));
   }
   return lines.join('\r\n') + '\r\n';
 }

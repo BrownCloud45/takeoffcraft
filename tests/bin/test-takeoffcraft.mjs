@@ -1496,7 +1496,22 @@ section('Price library from CSV (T9)');
   eq(t.state.items[0].mat, 21000, 'one Undo puts the old prices back');
   // what is stored: a takeoff item as an entry, read back from JSON (bad entries dropped)
   const stored = Lb.readStored(JSON.parse(JSON.stringify([Lb.entryFromItem(t.state.items[0]), { name: 'x', type: 'volume' }, null])));
-  ok(stored.length === 1 && stored[0].components.length === 2 && !('id' in stored[0]) && !('color' in stored[0]), 'readStored keeps good entries (no id, no colour)');
+  ok(stored.length === 1 && stored[0].components.length === 2 && !('id' in stored[0]) && stored[0].color === t.state.items[0].color, 'readStored keeps good entries (no id; the item\'s colour)');
+  // colour: kept by the library, its CSV and back into a takeoff; an entry with none takes the takeoff's next colour
+  ok(r.entries.every((e) => !('color' in e)), 'a CSV with no Color column gives entries no colour');
+  ok(new Set(t.state.items.map((i) => i.color)).size === 5, 'entries with no colour come in with the takeoff\'s own colours (not all the first one)', t.state.items.map((i) => i.color).join(' '));
+  const tc = new M.Takeoff();
+  tc.addItems([{ name: 'Stripe', type: 'linear', unit: 'LF', color: '#00aa55', thickFt: 1 / 3 }]);
+  const ce = Lb.entryFromItem(tc.state.items[0]);
+  ok(ce.color === '#00AA55' && near(ce.thickFt, 1 / 3), 'entryFromItem keeps the colour and the item\'s own settings', JSON.stringify(ce));
+  const cs = Lb.readStored(JSON.parse(JSON.stringify([ce])))[0];
+  ok(cs.color === '#00AA55' && near(cs.thickFt, 1 / 3), 'and so does the stored library');
+  const cv = Lb.readLibraryCsv(Lb.libraryCsv([cs]));
+  ok(cv.ok && cv.entries[0].color === '#00AA55' && !cv.warnings.length, 'the library CSV carries the colour in its Color column');
+  ok(Lb.readLibraryCsv('Item,Type,Color\nA,Linear,1f77b4\nB,Linear,red').entries.map((e) => e.color ?? '-').join() === '#1F77B4,-', 'Color: #RRGGBB with or without #; anything else is left out');
+  ok(/row 3: color red/.test(Lb.readLibraryCsv('Item,Type,Color\nA,Linear,1f77b4\nB,Linear,red').warnings.join()), 'and says so with its row number');
+  tc.addItems([Lb.itemFromEntry(cs)]);
+  eq(tc.state.items[1].color, '#00AA55', 'added to a takeoff, the item keeps its colour');
 }
 
 section('Trade packs: format, install, remove, export (TK.1)');

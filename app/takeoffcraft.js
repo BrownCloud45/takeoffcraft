@@ -828,12 +828,34 @@ function init(root) {
   const toolButtons = [...root.querySelectorAll('[data-tool]')];
   for (const b of toolButtons) b.addEventListener('click', () => { setTool(b.dataset.tool); b.closest('details')?.removeAttribute('open'); });
 
+  /**
+   * Measuring was asked for on a sheet with no scale: say so in a pop-up (a status line is easy to miss) and offer the two
+   * ways to give it one. Calibrate starts the Scale tool; Preset opens the scale list. One pop-up at a time.
+   */
+  let noScaleOpen = false;
+  async function noScale() {
+    if (noScaleOpen) return;
+    noScaleOpen = true;
+    let choice;
+    try {
+      choice = await ask(root, {
+        title: t('noscale.title'), text: t('noscale.text'),
+        buttons: [['cancel', t('btn.cancel'), 'btn-line'], ['preset', t('noscale.preset'), 'btn-line'], ['ok', t('noscale.calibrate'), 'btn-plot']],
+        focus: 'button[data-key="ok"]',
+      });
+    } finally { noScaleOpen = false; }
+    if (!cur) return;
+    if (choice === 'ok') setTool('calibrate');
+    else if (choice === 'preset' && !ui.preset.disabled) { ui.preset.focus(); try { ui.preset.showPicker?.(); } catch { /* needs a user gesture in some browsers: focus is enough */ } }
+  }
+
   function setTool(tool) {
     if (d3.on && tool !== 'select') close3d();         // drawing happens on the flat sheet
     if (tool !== 'select' && !cur) { status(t('handoff.nopdf')); return false; }
     endPaste(true);
     if ((tool === 'linear' || tool === 'area' || tool === 'circle' || tool === 'room' || tool === 'path') && !model.scaleOf(cur.key)) {
       status(t('tool.err.noscale'), 9000);
+      noScale();
       return false;
     }
     if (tool === 'linear' || tool === 'area' || tool === 'count' || tool === 'circle' || tool === 'autocount' || tool === 'room') {
@@ -841,7 +863,7 @@ function init(root) {
     }
     if (tool === 'cadgeom') {                                // 0.7 TD.4: needs a drawing's sheet, a scale and a linear or area item
       if (!isCad(cur.file) || !geomMod) { status(t('cad.count.needs')); return false; }
-      if (!model.scaleOf(cur.key)) { status(t('tool.err.noscale'), 9000); return false; }
+      if (!model.scaleOf(cur.key)) { status(t('tool.err.noscale'), 9000); noScale(); return false; }
       if (!geomKind()) { status(t('cad.geom.item'), 9000); return false; }
     }
     if (NOTE_TOOLS.has(tool)) { app.selNote = null; renderNoteProps(); }
@@ -849,7 +871,7 @@ function init(root) {
       const m = app.sel && model.mark(app.sel);
       if (!m || m.kind !== 'area') { status(t('tool.err.cutout')); return false; }
       if (model.item(m.item)?.backout) { status(t('backout.noholes'), 9000); return false; }
-      if (!model.scaleOf(cur.key)) { status(t('tool.err.noscale.short')); return false; }
+      if (!model.scaleOf(cur.key)) { status(t('tool.err.noscale.short')); noScale(); return false; }
     }
     cancelDraft();
     if (app.ac && tool !== 'autocount') discardAutoCount();
@@ -1304,7 +1326,7 @@ function init(root) {
     const pk = app.pick;
     if (!pk?.staged.length || !cur) return;
     const sc = model.scaleOf(cur.key);
-    if (!sc) { status(t('tool.err.noscale.measure'), 9000); return; }
+    if (!sc) { status(t('tool.err.noscale.measure'), 9000); noScale(); return; }
     const lines = pk.staged.filter((e) => e.kind === 'line'), loops = pk.staged.filter((e) => e.kind === 'loop');
     const itL = lines.length ? pickItem('linear') : null, itA = loops.length ? pickItem('area') : null;
     if ((lines.length && !itL) || (loops.length && !itA)) return;          // the item form is open; Enter again once it exists
@@ -1408,6 +1430,7 @@ function init(root) {
       app.draft = null;
       status(t('tool.err.noscale.measure'), 9000);
       view.overlayOnly();
+      noScale();
       return;
     }
     if ((tool === 'cutout' || tool === 'cutcircle') && model.mark(app.sel)?.sheet !== cur.key) { setTool('select'); return; }
@@ -2763,7 +2786,7 @@ function init(root) {
   function addGeometry() {
     const kind = geomKind(), it = model.item(app.active), sel = geomSelected();
     if (!kind || !it || !sel.length || !cur) return;
-    if (!model.scaleOf(cur.key)) { status(t('tool.err.noscale.measure'), 9000); return; }
+    if (!model.scaleOf(cur.key)) { status(t('tool.err.noscale.measure'), 9000); noScale(); return; }
     const r = geomMod.marksFor(sel, kind);
     if (!r.list.length) { status(t(kind === 'area' ? 'cad.geom.none.area' : 'cad.geom.none.linear'), 9000); return; }
     const ids = model.addMarks(it.id, r.list.map((m) => ({ sheet: cur.key, pts: m.pts, holes: m.holes, ...inArea() })), t('cad.geom.undo', { n: r.list.length, item: it.name }), kind);

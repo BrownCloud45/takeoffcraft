@@ -13,7 +13,7 @@ Open it with {{ui:Library}} at the top of the {{ui:Items}} panel.
 ## Fill the library
 
 - {{ui:Import CSV…}} reads a spreadsheet saved as CSV (see the columns below). Items whose name and type are already in the library are replaced; the rest are added. Rows it cannot read are skipped, and it says which and why.
-- {{ui:Add this takeoff's items}} copies every item of the open takeoff into the library, with its rates and assembly (not its marks).
+- {{ui:Add this takeoff's items}} copies every item of the open takeoff into the library, with its rates, assembly, color and measuring settings (not its marks).
 - The estimate CSV TakeoffCraft exports ([Export the estimate](topic:export-estimate)) imports as it is: last job's prices seed the next one.
 
 - {{ui:Trade packs…}} adds free assemblies for a trade, such as drywall, electrical or concrete, without prices. See [Trade packs](topic:trade-packs).
@@ -42,6 +42,7 @@ The first row names the columns, in any order; other columns are ignored.
 | Material per unit, Labor per unit | Rates like `2.10` or `$1,250`. |
 | Height (or Depth) | `9'-0"`, `9`, or `2.7` for metric units. |
 | Component, Formula | A row with a Component name (or the Type `Component`) is part of the assembly of the item above it. Its Unit, Waste and rates are its own; its Formula uses the item's letters, see [Assemblies and formulas](topic:assemblies). |
+| Color (or Colour) | The item's color as `#RRGGBB`, such as `#1F77B4`. Empty: the takeoff gives it one of its own. |
 
 ```
 Item,Type,Unit,Waste %,Material per unit,Labor per unit,Height,Component,Formula
