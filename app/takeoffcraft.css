@@ -563,3 +563,26 @@ html.cc-compact .tc-sheetbar-name, html.cc-compact .tc-sheetbar-scale { font-siz
 .tc-sec-head[data-af="closed"] .tc-linkbtn { font-size: 0; text-decoration: none; padding: .15rem .3rem; border-radius: var(--radius); line-height: 1; }
 .tc-sec-head[data-af="closed"] .tc-linkbtn .bi { font-size: 1rem; }
 .tc-sec-head[data-af="closed"] .tc-linkbtn:hover { background: var(--sheet); }
+
+/* ---- Ask Claude (claude-ui.js): a side panel over the right edge */
+.cc-claude { position: fixed; top: 3rem; right: 0; bottom: 0; z-index: 900; width: min(24rem, 100vw); display: flex; flex-direction: column; gap: .5rem;
+  padding: .75rem; background: var(--sheet); color: var(--ink); border-left: 1px solid var(--line); box-shadow: -4px 0 16px rgb(0 0 0 / .18); }
+.cc-claude[hidden] { display: none; }
+.cc-claude-head { display: flex; align-items: center; justify-content: space-between; }
+.cc-claude-head h2 { font-size: 1rem; margin: 0; }
+.cc-claude-x { background: none; border: 0; color: var(--ink); padding: .25rem; cursor: pointer; }
+.cc-claude-note, .cc-claude-keyform { display: flex; flex-direction: column; gap: .4rem; }
+.cc-claude-note[hidden], .cc-claude-keyform[hidden], .cc-claude-chat[hidden], .cc-claude-perms[hidden] { display: none; }
+.cc-claude-note p, .cc-claude-keyform p, .cc-claude-perms { margin: 0; }
+.cc-claude-perms, .cc-claude-fine { font-size: .8rem; color: var(--ink-2); margin: 0; }
+.cc-claude-chat { display: flex; flex-direction: column; gap: .5rem; flex: 1; min-height: 0; }
+.cc-claude-log { flex: 1; min-height: 6rem; overflow-y: auto; display: flex; flex-direction: column; gap: .4rem; }
+.cc-claude-msg { white-space: pre-wrap; overflow-wrap: anywhere; padding: .4rem .55rem; border-radius: var(--radius, 6px); line-height: 1.4; }
+.cc-claude-you { align-self: flex-end; max-width: 90%; background: var(--action); color: var(--on-action); }
+.cc-claude-ai { border: 1px solid var(--line); }
+.cc-claude-tool { font-size: .8rem; color: var(--ink-2); padding: 0 .55rem; }
+.cc-claude-tool.is-error, .cc-claude-err { color: var(--layer-red); }
+.cc-claude-input { width: 100%; resize: vertical; font: inherit; }
+.cc-claude-row { display: flex; gap: .4rem; align-items: center; }
+.cc-claude-grow { flex: 1; }
+.cc-claude-link { background: none; border: 0; padding: 0; color: var(--action); text-decoration: underline; cursor: pointer; font: inherit; }

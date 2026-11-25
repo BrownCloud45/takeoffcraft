@@ -57,6 +57,7 @@ import { embedTakeoff, readEmbedded } from './embed.js';
 import { isQuantities, readQuantities, importQuantities, originText } from './fixedqty.js';
 import { t } from './i18n.js';
 import { installAgents } from './agents.js';
+import { mountClaude } from './claude-ui.js';
 import { mountTakeoffShell } from './shell-mount.js';   // 0.8 round 3: the shell's seven modules (calc, reasons, totals, lessons, Suggest, activity, Ask)
 import { calcCarbon } from './carbon.js';
 import { mountCarbon } from './carbon-ui.js';
@@ -3761,6 +3762,7 @@ function init(root) {
       return { data: u.data, report: u.report, name: safeName(model.state.name || 'Takeoff') + ' - ' + safeName(s.title), type: format === 'usda' ? 'model/vnd.usda' : format === 'usdz' ? 'model/vnd.usdz+zip' : 'application/octet-stream' };
     },
     download: (data, name, type) => host.download(data, name, type) });   // view: 0.7 AS.5 (marks as fractions of the page)
+  mountClaude({ host });   // Ask Claude (claude-ui.js): a chat with Claude on the tools above, with the person's own API key
 
   readColors();
   booted = true;
