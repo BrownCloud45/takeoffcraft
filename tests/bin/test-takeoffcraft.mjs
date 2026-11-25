@@ -1514,6 +1514,36 @@ section('Price library from CSV (T9)');
   eq(tc.state.items[1].color, '#00AA55', 'added to a takeoff, the item keeps its colour');
 }
 
+section('Space bar favorites');
+{
+  const Fv = await load('favorites.js');
+  const Lb = await load('library.js');
+  eq(Fv.DEFAULT_FAVORITES.map((f) => f.name).join(), 'STOP,12inLL,12inCW,24in,D22,D29,D38,D9', 'the default favorites, in order');
+  ok(Fv.DEFAULT_FAVORITES[0].type === 'count' && Fv.DEFAULT_FAVORITES.slice(1).every((f) => f.type === 'linear'), 'STOP is a count, the lines and details are linear');
+  ok(Fv.readFavorites(null).length === 8 && Fv.readFavorites('junk').length === 8, 'nothing stored (or not a list) gives the defaults');
+  eq(Fv.readFavorites([]).length, 0, 'an empty list stays empty (a person removed them all)');
+  const rd = Fv.readFavorites([{ name: '  D9 ', type: 'linear' }, { name: 'd9', type: 'linear' }, { name: 'X', type: 'volume' }, { name: '', type: 'count' }, null, { name: 'Hatch\u0000', type: 'area' }]);
+  eq(JSON.stringify(rd), JSON.stringify([{ name: 'D9', type: 'linear' }, { name: 'Hatch', type: 'area' }]), 'stored favorites are cleaned: trimmed, one of each name, bad kinds and empty names dropped');
+  ok(Fv.readFavorites(Array.from({ length: 50 }, (_, i) => ({ name: 'F' + i, type: 'count' }))).length === Fv.FAV_MAX, 'at most FAV_MAX are kept');
+  const ck = Fv.checkFavorites([{ name: 'A', type: 'count' }, { name: '', type: 'linear' }, { name: 'B', type: 'area' }]);
+  ok(ck.ok && ck.list.length === 2, 'the editor: empty rows are left out');
+  ok(/twice/.test(Fv.checkFavorites([{ name: 'A', type: 'count' }, { name: 'a ', type: 'linear' }]).error), 'the editor refuses the same name twice, saying so');
+  ok(!Fv.checkFavorites([{ name: 'A', type: 'volume' }]).ok, 'and a kind it does not know');
+  // which item a favorite uses
+  const items = [{ id: 'i1', name: 'stop', type: 'count' }, { id: 'i2', name: 'D22', type: 'area', conds: [{ kind: 'linear' }] }, { id: 'i3', name: '24in', type: 'area' }];
+  eq(Fv.resolveFavorite({ name: 'STOP', type: 'count' }, items).id, 'i1', 'the takeoff\'s item of that name (any case) and kind');
+  eq(Fv.resolveFavorite({ name: 'D22', type: 'linear' }, items).id, 'i2', 'or one of that name with a second condition of that kind');
+  const nw = Fv.resolveFavorite({ name: '24in', type: 'linear' }, items);
+  ok(!nw.id && nw.fields.name === '24in' && nw.fields.type === 'linear' && nw.fields.unit === 'LF', 'the same name of another kind is not it: a new linear item, in LF', JSON.stringify(nw));
+  const lib = Lb.readLibraryCsv('Item,Type,Unit,Material per unit,Color\n12inCW,Linear,LF,1.25,#ffffff').entries;
+  const fl = Fv.resolveFavorite({ name: '12incw', type: 'linear' }, items, lib).fields;
+  ok(fl.mat === 12500 && fl.color === '#FFFFFF' && fl.name === '12incw', 'a library entry of that name brings its rates and colour', JSON.stringify(fl));
+  const tk = new M.Takeoff();
+  const [id] = tk.addItems([Fv.resolveFavorite(Fv.DEFAULT_FAVORITES[1], tk.state.items).fields]);
+  ok(Fv.resolveFavorite(Fv.DEFAULT_FAVORITES[1], tk.state.items).id === id && tk.undoStack.length === 1, 'once added, the favorite finds that item (one undo step)');
+  ok(Fv.toolOf('count') === 'count' && Fv.toolOf('linear') === 'linear' && Fv.toolOf('area') === 'area', 'each kind starts its own tool');
+}
+
 section('Trade packs: format, install, remove, export (TK.1)');
 {
   const Lb = await load('library.js');

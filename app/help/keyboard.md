@@ -87,6 +87,7 @@ These two work even while you are typing in a field.
 | Mouse wheel | Zoom in and out at the pointer. |
 | Drag (left, middle or right button) | Pan. In {{ui:Auto count}}, a left drag draws the search box instead. |
 | {{key:Space}} held + drag | Pan, in any tool. |
+| {{key:Space}} tapped | Open **Favorites**: press a number (or click) to take off that item; its tool starts, and the item is added to the takeoff first if it isn't there yet. **Edit favorites…** at the bottom of the list renames, reorders, adds and removes them; they are kept in this browser. {{key:Esc}} or {{key:Space}} closes it. |
 | {{key:F}} | {{ui:Fit page}} |
 | {{key:W}} | {{ui:Fit width}} |
 | {{key:Plus}} or {{key:=}} | Zoom in at the middle of the view. |

@@ -74,6 +74,7 @@ import { mountCountAll } from './countall-ui.js';   // 0.8 EG.67 (takeoff_PART_2
 import { mountLearn } from './learn-ui.js';   // 0.8 SU.811 (sx-learn): what it learned from your takeoffs
 import { mountUndoHook } from './undo-hook.js';   // 0.9 EG.77: tells Studio each finished step
 import { mountDialogs } from './dialogs-ui.js';
+import { mountFavorites } from './favorites-ui.js';
 import { mountClipboard } from './clipboard-ui.js';
 import { mountCompare } from './compare-ui.js';
 import { mountNotes } from './notes-ui.js';
@@ -1028,6 +1029,7 @@ function init(root) {
       }
       if (touches.size > 2) return;
     }
+    if (e.button === 0 && app.space) spaceUsed = true;   // Space held with a drag pans: its release is not a tap (favorites)
     if ((e.button === 1 && panButton(1)) || (e.button === 0 && app.space)) { e.preventDefault(); panning = p; ui.over.classList.add('is-panning'); return; }   // IP.3: middle pans unless the style took it away
     if (e.button === 1) { e.preventDefault(); return; }
     down = { ...p, button: e.button, moved: false, touch: e.pointerType === 'touch', t: performance.now() };
@@ -2821,8 +2823,13 @@ function init(root) {
     get est() { return est; },
     get sheets() { return sheets; },
   });
+  // a tap of Space (no drag) opens the favorites menu; Space held with a drag still pans
+  const favorites = mountFavorites({ root, model, status, setActive, setTool, loadLib, hasSheet: () => !!cur, active: () => app.active });
+  let spaceAt = 0, spaceUsed = false;
   const actions = {
     'cad-count': () => cadCount(),
+    favorites: () => favorites.open(),
+    'favorites-edit': () => favorites.edit(),
     'open-pdf': async () => { const l = await host.openFile({ types: PDF_TYPES, multiple: true }); if (l.length) await openHostFiles(l); },
     'open-project': async () => { const l = await host.openFile({ types: PROJECT_TYPES }); if (l.length) await openHostFiles(l); },
     'save-project': saveProject,
@@ -3392,7 +3399,7 @@ function init(root) {
     if (app.tool === 'path' && pickKey(e)) return;
     if (canType() && !mod && /^[0-9.@#]$/.test(e.key)) { e.preventDefault(); openTypeIn(e.key); return; }
     if (e.key === 'Shift') { app.shift = true; if (app.cursor && app.draft) { view.overlayOnly(); } return; }
-    if (e.key === ' ') { e.preventDefault(); app.space = true; return; }
+    if (e.key === ' ') { e.preventDefault(); if (!e.repeat) { spaceAt = performance.now(); spaceUsed = false; } app.space = true; return; }
     if (e.key === 'Escape' && app.cmp) { if (app.cmp.align) { app.cmp.align = null; status(''); view.overlayOnly(); } else closeCompare(); return; }
     if (e.key === 'Escape' && app.tool === 'cadgeom' && app.geom?.sel.size) { geomClear(); return; }
     if (e.key === 'Enter' && app.tool === 'cadgeom') { e.preventDefault(); addGeometry(); return; }
@@ -3421,7 +3428,11 @@ function init(root) {
     else if (key === '-') view.zoomAt(view.w / 2, view.h / 2, 0.8);
   });
   window.addEventListener('keyup', (e) => {
-    if (e.key === ' ') app.space = false;
+    if (e.key === ' ') {
+      const tap = app.space && !spaceUsed && performance.now() - spaceAt < 500;
+      app.space = false;
+      if (tap && !document.querySelector('dialog[open]') && !typing(e.target)) favorites.open();
+    }
     if (e.key === 'Shift') app.shift = false;
   });
   // Leaving by a link on the page asks in the page; the browser's own "Leave site?" is left for what no page can
